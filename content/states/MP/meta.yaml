@@ -1,0 +1,96 @@
+code: MP
+name:
+  en: Northern Mariana Islands
+  es: Islas Marianas del Norte
+kind: territory
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    New law: Public Law 24-38 (HB 24-10, signed August 27, 2026) created the CNMI's first general name change statute,
+    adding a new Chapter 12 to Title 8, Division 1 of the Commonwealth Code. Its codified section numbers were not yet
+    shown on cnmilaw.gov. The birth certificate sex marker rule is 1 CMC § 26018(d), which requires a Superior Court order
+    that the sex was changed "by surgical procedure." MAP's MP profile (2026-09-24) shows no youth care ban, no shield
+    law, and no insurance nondiscrimination law. The BMV (dps.gov.mp) returned HTTP 401. The Micronesian Legal Services
+    Corporation site (mlsc.org) requires JavaScript and could not be verified, so it is not listed.
+overview:
+  en: >-
+    Since August 2026, a new CNMI law lets any resident petition the Superior Court for a name change. The court must
+    grant it unless there is substantial evidence of fraud, and the judge can waive newspaper publication for good cause.
+    Changing the sex marker is harder. A CNMI birth certificate can be amended only with a Superior Court order finding
+    that your sex was changed by surgical procedure. The Bureau of Motor Vehicles has reportedly required a court order
+    too. No law bans gender-affirming care, but local access is very limited.
+  es: >-
+    Desde agosto de 2026, una nueva ley de la CNMI permite a cualquier residente pedir al Tribunal Superior un cambio de
+    nombre. El tribunal debe concederlo salvo que haya evidencia sustancial de fraude, y el juez puede eximir la
+    publicación en el periódico por causa justificada. Cambiar el marcador de sexo es más difícil. El acta de nacimiento
+    de la CNMI solo se puede enmendar con una orden del Tribunal Superior que determine que tu sexo se cambió mediante
+    procedimiento quirúrgico. Según se informa, la Oficina de Vehículos también ha exigido una orden judicial. Ninguna ley
+    prohíbe la atención de afirmación de género, pero el acceso local es muy limitado.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [pl-24-38, cmc-26018, map-mp]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: []
+key_resources:
+  - id: cnmi-superior-court
+    name: CNMI Superior Court, Clerk of Court
+    type: government_office
+    pillars: [name_change, gender_marker]
+    description:
+      en: Hears name change petitions under Public Law 24-38 and petitions for birth certificate sex marker orders. Offices on Saipan (Guma' Hustisia) and at the Rota Judicial Center.
+      es: Conoce las peticiones de cambio de nombre según la Ley Pública 24-38 y las peticiones de orden para el marcador de sexo del acta. Oficinas en Saipán (Guma' Hustisia) y en el Centro Judicial de Rota.
+    url: https://www.nmijudiciary.gov/court-forms
+    cost: varies
+    verification: official_source
+    sources: [nmi-forms]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health, name_change]
+    description:
+      en: Peer support hotline run by and for trans people, plus microgrants for name and gender marker changes.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, y microbecas para cambios de nombre y marcador.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: pl-24-38
+    url: https://cnmilaw.gov/docs/lrc-uploads/2026/public_law-pl-24-38-u48.pdf
+    title: Public Law 24-38, To establish a change of name legal procedure in the CNMI (signed August 27, 2026)
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court shall grant the change of name petition if no substantial evidence exists that the name change is sought for any fraudulent or unlawful purpose.
+  - id: cmc-26018
+    url: https://cnmilaw.gov/commonwealth-code/522
+    title: 1 CMC § 26018, Amendment of Vital Records
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-mp
+    url: https://mapresearch.org/equality-profiles/MP/
+    title: Northern Mariana Islands equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: nmi-forms
+    url: https://www.nmijudiciary.gov/court-forms
+    title: Forms
+    publisher: CNMI Judiciary
+    kind: court
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

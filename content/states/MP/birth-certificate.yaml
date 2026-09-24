@@ -1,0 +1,119 @@
+guide_type: birth_certificate
+jurisdiction: MP
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text is from cnmilaw.gov (1 CMC §§ 26018 and 26022, source PL 15-50). Fees are set by regulation, and the
+    fee regulation was not located, so no amounts are given. The CHCC Health and Vital Statistics Office page lists hours
+    and a phone number but no forms or fees. A4TE's page says the reverse of an amended certificate is marked amended
+    while the front shows the new name and marker. That detail was not confirmed in regulation.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in the CNMI, you can change the sex on your birth certificate only with a CNMI Superior Court order
+    stating that your sex was changed by surgical procedure. You can change the name with a certified Superior Court
+    name change order.
+  es: >-
+    Si naciste en la CNMI, solo puedes cambiar el sexo en tu acta de nacimiento con una orden del Tribunal Superior de la
+    CNMI que indique que tu sexo se cambió mediante procedimiento quirúrgico. Puedes cambiar el nombre con una orden
+    certificada de cambio de nombre del Tribunal Superior.
+summary:
+  en: |
+    Birth records are kept by the **Health and Vital Statistics Office** of the Commonwealth Healthcare Corporation (CHCC) in Saipan.
+
+    - **Name:** under 1 CMC § 26018(c), the Registrar amends your birth certificate when you submit a certified copy of a CNMI Superior Court order changing your name. Under Public Law 24-38 (2026), any resident can now get such an order (see the CNMI name change guide).
+    - **Sex marker:** under § 26018(d), the certificate is amended when the Registrar receives a certified **CNMI Superior Court order** indicating that your sex "has been changed by surgical procedure." You need both surgery and a court order. There is no X option.
+    - Amended certificates indicate that they were amended (§ 26018(b)). If the Registrar refuses, you can appeal to the Superior Court (§ 26018(e)).
+
+    If you were born elsewhere, your birthplace's rules apply.
+  es: |
+    Los registros de nacimiento los guarda la **Oficina de Salud y Estadísticas Vitales** de la Commonwealth Healthcare Corporation (CHCC) en Saipán.
+
+    - **Nombre:** según 1 CMC § 26018(c), el Registro enmienda tu acta cuando entregas copia certificada de una orden del Tribunal Superior de la CNMI que cambia tu nombre. Con la Ley Pública 24-38 (2026), cualquier residente puede obtener esa orden (ver la guía de cambio de nombre de la CNMI).
+    - **Marcador de sexo:** según § 26018(d), el acta se enmienda cuando el Registro recibe una **orden certificada del Tribunal Superior de la CNMI** que indique que tu sexo "ha sido cambiado mediante procedimiento quirúrgico". Necesitas cirugía y orden judicial. No hay opción X.
+    - Las actas enmendadas indican que fueron enmendadas (§ 26018(b)). Si el Registro se niega, puedes apelar ante el Tribunal Superior (§ 26018(e)).
+
+    Si naciste en otro lugar, aplican las reglas de tu lugar de nacimiento.
+eligibility:
+  other:
+    en: You must have been born in the CNMI.
+    es: Debes haber nacido en la CNMI.
+  sources: [cmc-26018]
+steps:
+  - id: court-order
+    title:
+      en: Get a Superior Court order
+      es: Obtén una orden del Tribunal Superior
+    body:
+      en: For a name change, use the PL 24-38 petition. For a sex marker change, you need a court order stating that your sex was changed by surgical procedure. A lawyer can help you petition, typically with a sworn statement from your surgeon. You can ask for both in one case.
+      es: Para cambiar el nombre, usa la petición de la Ley Pública 24-38. Para cambiar el sexo, necesitas una orden que indique que tu sexo se cambió mediante procedimiento quirúrgico. Un abogado puede ayudarte a pedirla, normalmente con una declaración jurada de tu cirujano. Puedes pedir ambas en un mismo caso.
+    sources: [cmc-26018, pl-24-38]
+  - id: submit
+    title:
+      en: Submit the order to Vital Statistics
+      es: Entrega la orden a Estadísticas Vitales
+    body:
+      en: Take or send a certified copy of the order and your request to the CHCC Health and Vital Statistics Office (Monday to Friday, 7:30 AM to 4:30 PM, 670-234-8950). Ask about the amendment fee and certified copies.
+      es: Lleva o envía copia certificada de la orden y tu solicitud a la Oficina de Salud y Estadísticas Vitales de CHCC (lunes a viernes, 7:30 AM a 4:30 PM, 670-234-8950). Pregunta por la tarifa de enmienda y las copias certificadas.
+    sources: [chcc-hvso, cmc-26022]
+  - id: appeal
+    title:
+      en: If refused, you can appeal
+      es: Si te lo niegan, puedes apelar
+    body:
+      en: The Registrar must tell you the reason for a refusal and your right to appeal to the CNMI Superior Court.
+      es: El Registro debe informarte el motivo de la negación y tu derecho a apelar ante el Tribunal Superior.
+    optional: true
+    sources: [cmc-26018]
+after:
+  en: Use the amended certificate at the BMV. For your passport and Social Security, see the federal guides.
+  es: Usa el acta enmendada en la BMV. Para el pasaporte y el Seguro Social, ver las guías federales.
+statutes:
+  - cite: 1 CMC § 26018
+    title:
+      en: Amendment of Vital Records (name by court order; sex by court order after surgery)
+      es: Enmienda de registros vitales (nombre por orden judicial; sexo por orden judicial tras cirugía)
+    url: https://cnmilaw.gov/commonwealth-code/522
+  - cite: 1 CMC § 26022
+    title:
+      en: Fees set by regulation
+      es: Tarifas fijadas por reglamento
+    url: https://cnmilaw.gov/commonwealth-code/526
+related_links:
+  - title: Advocates for Trans Equality, CNMI identity documents
+    url: https://transequality.org/documents/commonwealth-northern-mariana-islands-identity-documents
+sources:
+  - id: cmc-26018
+    url: https://cnmilaw.gov/docs/cmc_section/T1/26018.pdf
+    title: 1 CMC § 26018, Amendment of Vital Records
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of an order of the CNMI Superior Court indicating the sex of an individual born in the CNMI has been changed by surgical procedure and whether such individual's name has been changed, the certificate of birth of such individual shall be amended as prescribed by regulation.
+  - id: cmc-26022
+    url: https://cnmilaw.gov/docs/cmc_section/T1/26022.pdf
+    title: 1 CMC § 26022, Fees
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The State Agency shall prescribe by regulation the fee to be paid for ... the amendment of a vital record.
+  - id: chcc-hvso
+    url: https://www.chcc.health/health-vital-statistics.php
+    title: Health and Vital Statistics Office
+    publisher: Commonwealth Healthcare Corporation
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Hours Monday-Friday: 7:30 AM - 4:30 PM. Phone: 1 (670) 234-8950"
+  - id: pl-24-38
+    url: https://cnmilaw.gov/docs/lrc-uploads/2026/public_law-pl-24-38-u48.pdf
+    title: Public Law 24-38 (HB 24-10)
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"

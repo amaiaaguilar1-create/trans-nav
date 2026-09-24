@@ -1,0 +1,281 @@
+guide_type: name_change
+jurisdiction: MP
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The main source is Public Law 24-38 (HB 24-10), signed August 27, 2026 and effective on approval, read in full on
+    cnmilaw.gov. Codified section numbers in 8 CMC ch. 12 are not yet published, so sections are cited as enacted
+    (§§ 101-104). The Judiciary's forms page (read 2026-09-24) has no name change forms yet. The law lets the Supreme
+    Court create them. The old forms A4TE links (nmijudiciary.com) no longer resolve. The $225 fee is from the Judiciary's
+    filing fees page ("Complaint, Petition, or other first paper for ... Change of Name $225"). The fee waiver link on
+    the forms page, labeled "Motion and order to waive court filing fee," opens an Income and Expense Declaration (SUPCT
+    Civil Form 01-014); confirm the correct waiver filing with the Clerk. PL 24-38 does not address minors separately.
+status: available
+status_summary:
+  en: >-
+    Under a new law signed in August 2026, any CNMI resident can petition the Superior Court to change their name. The
+    judge must grant it unless there is substantial evidence of fraud or another improper purpose. You publish notice
+    twice in a newspaper unless the court waives it for good cause. The filing fee is $225, and indigent petitioners can
+    ask for a waiver.
+  es: >-
+    Según una nueva ley firmada en agosto de 2026, cualquier residente de la CNMI puede pedir al Tribunal Superior un
+    cambio de nombre. El juez debe concederlo salvo que haya evidencia sustancial de fraude u otro propósito indebido.
+    Publicas el aviso dos veces en un periódico salvo que el tribunal lo exima por causa justificada. La tarifa es de
+    $225 y las personas de bajos recursos pueden pedir una exención.
+summary:
+  en: |
+    **Public Law 24-38** (signed August 27, 2026) created the CNMI's first general name change procedure, now in Title 8 of the Commonwealth Code.
+
+    - **Who:** any CNMI resident, filing with the **CNMI Superior Court**.
+    - **Petition:** written and signed. It must include your current legal name, date of birth, place of birth, residence, and proposed name, plus a declaration under penalty of perjury that you are not changing your name for a fraudulent or unlawful purpose, to deceive, to evade legal obligations, or to interfere with others' rights. You do not need to explain gender identity beyond that.
+    - **Notice:** publish twice in a CNMI newspaper, at least 30 and 14 days before the hearing, **unless the court waives it for good cause**.
+    - **Hearing:** the judge decides on evidence, not speculation, and **must grant** the petition if there is no substantial evidence of an improper purpose.
+    - **Result:** a court order you can use to update ID cards, birth certificates, and other records.
+  es: |
+    La **Ley Pública 24-38** (firmada el 27 de agosto de 2026) creó el primer procedimiento general de cambio de nombre de la CNMI, ahora en el Título 8 del Código.
+
+    - **Quién:** cualquier residente de la CNMI, ante el **Tribunal Superior**.
+    - **Petición:** escrita y firmada. Debe incluir tu nombre legal actual, fecha y lugar de nacimiento, residencia y el nombre propuesto, más una declaración bajo pena de perjurio de que no cambias tu nombre con fines fraudulentos o ilegales, para engañar, evadir obligaciones o afectar derechos de otros. No necesitas explicar tu identidad de género más allá de eso.
+    - **Aviso:** publicar dos veces en un periódico de la CNMI, al menos 30 y 14 días antes de la audiencia, **salvo que el tribunal lo exima por causa justificada**.
+    - **Audiencia:** el juez decide con pruebas, no con especulaciones, y **debe conceder** la petición si no hay evidencia sustancial de un propósito indebido.
+    - **Resultado:** una orden judicial que puedes usar para actualizar identificaciones, actas de nacimiento y otros registros.
+eligibility:
+  residency:
+    en: You must be a CNMI resident.
+    es: Debes ser residente de la CNMI.
+  sources: [pl-24-38]
+forms:
+  - id: SUPCT Civil Form 01-014
+    name:
+      en: Income and Expense Declaration (linked on the forms page as the motion and order to waive the court filing fee)
+      es: Declaración de ingresos y gastos (enlazada en la página de formularios como moción y orden para eximir la tarifa)
+    url: https://www.nmijudiciary.gov/_files/ugd/71f2b5_41a056a2683b4857bb8708c6ea2a1177.pdf
+    required: optional
+    condition:
+      en: If you cannot afford the $225 filing fee. Ask the Clerk which waiver motion to file with it.
+      es: Si no puedes pagar la tarifa de $225. Pregunta en la secretaría qué moción de exención presentar con ella.
+    sources: [nmi-forms]
+steps:
+  - id: draft
+    title:
+      en: Prepare your petition
+      es: Prepara tu petición
+    body:
+      en: |
+        The Judiciary has not yet posted a name change form, so ask the Clerk whether one is available. The written petition must include:
+        1. Your current legal name, date of birth, place of birth, and residence.
+        2. The name you want.
+        3. A declaration, under penalty of perjury, that you are not seeking the change for any fraudulent or unlawful purpose, to mislead or deceive others, to evade legal obligations, or to interfere with the rights of others.
+
+        Sign it. If publishing your name change would put you at risk, add a request that the court **waive publication for good cause** and explain why.
+      es: |
+        El Poder Judicial aún no publica un formulario de cambio de nombre, así que pregunta en la secretaría si hay uno. La petición escrita debe incluir:
+        1. Tu nombre legal actual, fecha y lugar de nacimiento y residencia.
+        2. El nombre que quieres.
+        3. Una declaración, bajo pena de perjurio, de que no buscas el cambio con fines fraudulentos o ilegales, para engañar, evadir obligaciones o afectar derechos de otros.
+
+        Fírmala. Si publicar tu cambio de nombre te pondría en riesgo, agrega una solicitud para que el tribunal **exima la publicación por causa justificada** y explica por qué.
+    sources: [pl-24-38, nmi-forms]
+  - id: file
+    title:
+      en: File with the Superior Court and pay the fee
+      es: Presenta en el Tribunal Superior y paga la tarifa
+    body:
+      en: File at the Superior Court on Saipan (Guma' Hustisia) or at the Rota Judicial Center. The fee is $225. If you cannot pay, file the Income and Expense Declaration and ask for a fee waiver.
+      es: Presenta en el Tribunal Superior en Saipán (Guma' Hustisia) o en el Centro Judicial de Rota. La tarifa es de $225. Si no puedes pagar, presenta la Declaración de Ingresos y Gastos y pide una exención.
+    forms: [SUPCT Civil Form 01-014]
+    fees: [filing]
+    sources: [nmi-fees, pl-24-38, a4te-mp]
+  - id: publish
+    title:
+      en: Publish notice twice, unless waived
+      es: Publica el aviso dos veces, salvo exención
+    body:
+      en: |
+        Publish the notice in a CNMI newspaper of general circulation twice, at least 7 days apart. The first notice must run at least 30 days before the hearing and the second at least 14 days before. The notice must include your current and proposed names, the case number, the hearing date, time, and place, and how to object. File proof of publication before the hearing.
+      es: |
+        Publica el aviso en un periódico de circulación general de la CNMI dos veces, con al menos 7 días de diferencia. El primero debe salir al menos 30 días antes de la audiencia y el segundo al menos 14 días antes. El aviso debe incluir tu nombre actual y el propuesto, el número de caso, la fecha, hora y lugar de la audiencia y cómo oponerse. Presenta la prueba de publicación antes de la audiencia.
+    fees: [publication]
+    sources: [pl-24-38]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: The judge considers whether there is evidence of an improper purpose. The law bars denial "based solely on speculative or subjective concerns" and requires the judge to grant the petition when there is no substantial evidence of an improper purpose.
+      es: El juez evalúa si hay evidencia de un propósito indebido. La ley prohíbe negar "basándose solo en preocupaciones especulativas o subjetivas" y exige conceder la petición cuando no hay evidencia sustancial de un propósito indebido.
+    sources: [pl-24-38]
+  - id: order
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: The order is a final judgment that can be appealed within 30 days. Get several certified copies to update your records.
+      es: La orden es una sentencia final que puede apelarse dentro de 30 días. Obtén varias copias certificadas para actualizar tus registros.
+    sources: [pl-24-38]
+fees:
+  - id: filing
+    label:
+      en: Petition filing fee (Change of Name)
+      es: Tarifa de presentación de la petición (cambio de nombre)
+    amount: 225
+    waivable: true
+    sources: [nmi-fees, pl-24-38]
+  - id: publication
+    label:
+      en: Newspaper publication (two notices)
+      es: Publicación en el periódico (dos avisos)
+    varies_by: vendor
+    note:
+      en: Set by the newspaper. Not needed if the court waives publication.
+      es: La fija el periódico. No se necesita si el tribunal exime la publicación.
+    sources: [pl-24-38]
+fee_waiver:
+  available: true
+  forms: [SUPCT Civil Form 01-014]
+  eligibility:
+    en: Petitioners who are indigent may request a fee waiver (PL 24-38).
+    es: Las personas indigentes pueden pedir exención de la tarifa (Ley Pública 24-38).
+  how:
+    en: File an Income and Expense Declaration with your petition and ask the Clerk for the waiver motion.
+    es: Presenta una Declaración de Ingresos y Gastos con tu petición y pide en la secretaría la moción de exención.
+  sources: [pl-24-38, nmi-forms]
+publication:
+  required: conditional
+  detail:
+    en: Required twice in a CNMI newspaper unless the court waives it for good cause. The court may also waive the proof-of-publication requirement for good cause.
+    es: Obligatoria dos veces en un periódico de la CNMI salvo que el tribunal la exima por causa justificada. El tribunal también puede eximir la prueba de publicación por causa justificada.
+  waiver_available: true
+  waiver_how:
+    en: In your petition or a separate motion, ask the court to waive publication for good cause. Explain any safety risk, such as harassment, violence, or the risk of being outed as transgender, and attach any supporting evidence.
+    es: En tu petición o en una moción aparte, pide al tribunal eximir la publicación por causa justificada. Explica cualquier riesgo de seguridad, como acoso, violencia o el riesgo de que se revele que eres trans, y adjunta evidencia.
+  sources: [pl-24-38]
+hearing:
+  required: "yes"
+  sources: [pl-24-38]
+background_check:
+  required: "no"
+  detail:
+    en: PL 24-38 does not require fingerprints or a background check.
+    es: La Ley Pública 24-38 no exige huellas ni verificación de antecedentes.
+  sources: [pl-24-38]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: The new law does not provide for sealing. Before PL 24-38, court staff told advocates they could not recall a request to seal ever being granted.
+    es: La nueva ley no prevé el sellado. Antes de la Ley Pública 24-38, el personal del tribunal dijo a organizaciones de defensa que no recordaba ninguna solicitud de sellado concedida.
+  sources: [pl-24-38, a4te-mp]
+minors:
+  summary:
+    en: PL 24-38 applies to "any CNMI resident" and has no separate rules for minors. Before the law, the court used separate child forms, including consent of each parent. Ask the Clerk what applies now.
+    es: La Ley Pública 24-38 aplica a "cualquier residente de la CNMI" y no tiene reglas separadas para menores. Antes de la ley, el tribunal usaba formularios para menores, incluido el consentimiento de cada padre. Pregunta en la secretaría qué aplica ahora.
+  sources: [pl-24-38, a4te-mp]
+timeline:
+  en: At least 30 days from the first publication to the hearing. Plan on two to three months overall.
+  es: Al menos 30 días desde la primera publicación hasta la audiencia. Calcula de dos a tres meses en total.
+after:
+  en: |
+    1. **Social Security** first (see the federal Social Security guide).
+    2. **Driver's license or ID** at the BMV (see the CNMI driver's license guide).
+    3. **Birth certificate:** if you were born in the CNMI, give Vital Statistics a certified copy of the order (1 CMC § 26018(c); see the CNMI birth certificate guide).
+    4. **Passport** (see the federal passport guide).
+  es: |
+    1. **Seguro Social** primero (ver la guía federal).
+    2. **Licencia o identificación** en la BMV (ver la guía de licencia de la CNMI).
+    3. **Acta de nacimiento:** si naciste en la CNMI, entrega a Estadísticas Vitales una copia certificada de la orden (1 CMC § 26018(c); ver la guía de acta de la CNMI).
+    4. **Pasaporte** (ver la guía federal).
+tips:
+  - en: If you also want a birth certificate sex marker change and have had surgery, ask a lawyer whether to request that order in the same case (1 CMC § 26018(d)).
+    es: Si también quieres cambiar el sexo en tu acta de nacimiento y tuviste cirugía, pregunta a un abogado si pedir esa orden en el mismo caso (1 CMC § 26018(d)).
+local_help:
+  - id: cnmi-superior-court
+    name: CNMI Superior Court, Clerk of Court
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Where petitions are filed. Ask whether the new standard forms have been issued.
+      es: Donde se presentan las peticiones. Pregunta si ya hay formularios estándar nuevos.
+    url: https://www.nmijudiciary.gov/court-forms
+    cost: varies
+    verification: official_source
+    sources: [nmi-forms]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline microgrants
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Microgrants toward name and gender marker change costs.
+      es: Microbecas para costos de cambio de nombre y marcador de género.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small national grants that can cover name change fees. Check eligibility for territory residents.
+      es: Pequeñas becas nacionales que pueden cubrir tarifas de cambio de nombre. Verifica la elegibilidad.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+statutes:
+  - cite: Public Law 24-38 (2026), new 8 CMC Div. 1, Ch. 12, Change of Name
+    title:
+      en: General name change petition, publication (waivable for good cause), hearing standard, and legal effect
+      es: Petición general de cambio de nombre, publicación (eximible por causa justificada), estándar de audiencia y efecto legal
+    url: https://cnmilaw.gov/docs/lrc-uploads/2026/public_law-pl-24-38-u48.pdf
+related_links:
+  - title: Advocates for Trans Equality, CNMI identity documents
+    url: https://transequality.org/documents/commonwealth-northern-mariana-islands-identity-documents
+    note:
+      en: Written before Public Law 24-38. Its name change section is outdated.
+      es: Escrita antes de la Ley Pública 24-38. Su sección de cambio de nombre está desactualizada.
+sources:
+  - id: pl-24-38
+    url: https://cnmilaw.gov/docs/lrc-uploads/2026/public_law-pl-24-38-u48.pdf
+    title: Public Law 24-38 (HB 24-10), To establish a change of name legal procedure in the CNMI
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Unless waived by the court for good cause, a petitioner must publish a notice of the proposed name change at least twice in a newspaper of general circulation in the CNMI.
+  - id: nmi-fees
+    url: https://www.nmijudiciary.gov/court-filing-fees
+    title: Filing Fees
+    publisher: CNMI Judiciary
+    kind: court
+    accessed: "2026-09-24"
+    quote: Complaint, Petition, or other first paper for Divorce/Dissolution, Legal Separation, Nullity, Custody and/or Visitation, Guardianship, Change of Name, and Paternity $225
+  - id: nmi-forms
+    url: https://www.nmijudiciary.gov/court-forms
+    title: Forms
+    publisher: CNMI Judiciary
+    kind: court
+    accessed: "2026-09-24"
+  - id: a4te-mp
+    url: https://transequality.org/documents/commonwealth-northern-mariana-islands-identity-documents
+    title: Commonwealth of the Northern Mariana Islands Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Representatives of the court have noted that they cannot recall a point in time when a petition to seal was granted.
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,371 @@
+guide_type: name_change
+jurisdiction: GU
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The procedure comes from the Superior Court's Adult Name Change Request packet (Rev. 2026) and 7 GCA §§ 36101-36105,
+    both read on 2026-09-24. Reviewer: (1) Filing fee. The packet only says to ask the Clerk. The Judicial Council fee
+    schedule (JC19-020, "as of 2025") lists $300 for a "Complaint, Petition or other First Paper in Civil or Special
+    Proceedings." Confirm that this is the fee the Clerk charges for a name change petition. (2) Posting. 7 GCA § 36103
+    says the clerk posts the order to show cause in three public places in Hagåtña and in the petitioner's village, but
+    the 2026 packet says someone other than the petitioner must post it. The packet's version is used here. (3) Neither
+    the statute nor the packet mentions sealing or waiving the posting, so none is described. (4) A4TE's Guam page (no
+    date shown) says notices go in three places in the village. The statute and packet say one place in the village,
+    which is what this guide uses.
+status: available
+status_summary:
+  en: >-
+    Adults can change their name, for any honest reason including gender identity, by filing the Superior Court's Adult
+    Name Change Request packet. The court's order must be posted in public places for four weeks before a hearing. No
+    newspaper notice is required. A fee waiver is available if you cannot pay.
+  es: >-
+    Las personas adultas pueden cambiar su nombre por cualquier motivo honesto, incluida la identidad de género,
+    presentando el paquete de Solicitud de Cambio de Nombre para Adultos del Tribunal Superior. La orden del tribunal debe
+    colocarse en lugares públicos durante cuatro semanas antes de una audiencia. No se requiere aviso en el periódico. Hay
+    exención de tarifas si no puedes pagar.
+summary:
+  en: |
+    Name changes in Guam are heard by the **Superior Court of Guam** under 7 GCA §§ 36101–36105. The court publishes a free fill-in packet for adults (18 and older) and a separate packet for minors. The instructions list "You want to use a name that better reflects your identity" as a valid reason.
+
+    The process: you file a petition and a proposed **Order to Show Cause (OSC)**. After the judge signs the OSC, someone other than you posts it for **four weeks** in three public places in Hagåtña and one public place in your village. You then file a Declaration of Posting, go to a short hearing, and the judge signs a final order. There is no newspaper publication.
+  es: |
+    Los cambios de nombre en Guam los decide el **Tribunal Superior de Guam** según 7 GCA §§ 36101–36105. El tribunal publica un paquete gratuito para adultos (18 años o más) y otro para menores. Las instrucciones incluyen "quieres usar un nombre que refleje mejor tu identidad" como motivo válido.
+
+    El proceso: presentas una petición y una **Orden para Mostrar Causa (OSC)**. Después de que el juez firma la OSC, otra persona la coloca durante **cuatro semanas** en tres lugares públicos de Hagåtña y uno en tu aldea. Luego presentas una Declaración de Colocación, asistes a una audiencia corta y el juez firma la orden final. No hay publicación en el periódico.
+eligibility:
+  residency:
+    en: >-
+      The petition asks for your residence and for proof of residency, such as a mayor's verification, utility bill, or
+      lease. If you lack a document, you can still file and explain why.
+    es: >-
+      La petición pide tu residencia y una prueba de residencia, como una verificación del alcalde, una factura de
+      servicios o un contrato de alquiler. Si te falta un documento, puedes presentar igual y explicar por qué.
+  age:
+    en: 18 or older for the adult packet. For anyone under 18, a parent or guardian files the minor packet.
+    es: 18 años o más para el paquete de adultos. Para menores de 18, un padre, madre o tutor presenta el paquete de menores.
+  criminal_history:
+    en: >-
+      The petition asks whether you have criminal convictions, are a registered sex offender, are on probation or parole,
+      have pending cases, owe court-ordered child support, or have filed for bankruptcy. A "yes" does not automatically
+      bar a name change, but you must explain it.
+    es: >-
+      La petición pregunta si tienes condenas penales, si estás registrado como agresor sexual, si estás en libertad
+      condicional, si tienes casos pendientes, si debes manutención infantil por orden judicial o si te declaraste en
+      bancarrota. Un "sí" no impide automáticamente el cambio, pero debes explicarlo.
+  sources: [gu-adult-packet]
+forms:
+  - id: gu-adult-packet
+    name:
+      en: Adult Name Change Request packet (cover sheet, petition, Order to Show Cause, Declaration of Posting, Final Order)
+      es: Paquete de Solicitud de Cambio de Nombre para Adultos (hoja de portada, petición, Orden para Mostrar Causa, Declaración de Colocación, Orden Final)
+    url: https://www.guamcourts.gov/sites/default/files/Adult%20Name%20Change%20Request%20Packet.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Cover sheet:** fill in only the Petitioner box. The rest is pre-filled.
+        - **Part 5, reason:** the instructions ask you to be honest and specific. A short statement is enough, for example: "I am transgender and have lived as [new name] since [year]. I want my legal name to match the name I use every day." If you have used other names before, list them.
+        - **Part 6:** answer every yes/no question. Explain any "yes."
+        - **Order to Show Cause:** file four originals. Fill in sections 1 and 2 only. Section 2 asks for your village.
+        - Attach a copy of your birth certificate, a government photo ID, and proof of residency, or explain why you do not have them.
+      es: |
+        - **Hoja de portada:** llena solo el recuadro del peticionario. El resto ya está completo.
+        - **Parte 5, motivo:** las instrucciones piden ser honesto y específico. Basta con algo breve, por ejemplo: "Soy una persona trans y vivo como [nuevo nombre] desde [año]. Quiero que mi nombre legal coincida con el que uso a diario." Si usaste otros nombres antes, enuméralos.
+        - **Parte 6:** responde todas las preguntas de sí/no. Explica cualquier "sí".
+        - **Orden para Mostrar Causa:** presenta cuatro originales. Llena solo las secciones 1 y 2. La sección 2 pide tu aldea.
+        - Adjunta copia de tu acta de nacimiento, una identificación oficial con foto y prueba de residencia, o explica por qué no los tienes.
+    sources: [gu-adult-packet]
+  - id: gu-minor-packet
+    name:
+      en: Minor Name Change Request packet
+      es: Paquete de Solicitud de Cambio de Nombre para Menores
+    url: https://www.guamcourts.gov/sites/default/files/Minor%20Name%20Change%20Request%20Packet.pdf
+    required: conditional
+    condition:
+      en: For anyone under 18. Filed by a parent or guardian.
+      es: Para menores de 18. Lo presenta un padre, madre o tutor.
+    sources: [gu-minor-packet]
+  - id: gu-fee-waiver
+    name:
+      en: Application to Waive Court Costs and Fees (Superior and Supreme Court)
+      es: Solicitud de exención de costas y tarifas judiciales (Tribunal Superior y Supremo)
+    url: https://www.guamcourts.gov/sites/default/files/Application%20to%20Waive%20Court%20Costs%20%26%20Fees%20(Superior%20%26%20Supreme).pdf
+    required: optional
+    condition:
+      en: If you cannot afford the filing fee.
+      es: Si no puedes pagar la tarifa de presentación.
+    sources: [gu-adult-packet]
+steps:
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: Get a copy of your birth certificate, one government-issued photo ID, and proof of residency (a mayor's verification, utility bill, or lease). Download the adult packet, or pick one up at the Clerk's Office.
+      es: Consigue una copia de tu acta de nacimiento, una identificación oficial con foto y una prueba de residencia (verificación del alcalde, factura de servicios o contrato de alquiler). Descarga el paquete de adultos o recógelo en la Secretaría.
+    forms: [gu-adult-packet]
+    sources: [gu-adult-packet]
+  - id: file
+    title:
+      en: File the petition at the Clerk's Office
+      es: Presenta la petición en la Secretaría
+    body:
+      en: |
+        File the cover sheet, the petition, and four originals of the Order to Show Cause at the Superior Court in Hagåtña (120 West O'Brien Dr., 671-475-3331) or the Northern Court Satellite in Dededo (132 West Marine Corps Dr., 671-635-2501). Bring one copy of each form. Pay the filing fee, or file the fee waiver application at the same time.
+      es: |
+        Presenta la hoja de portada, la petición y cuatro originales de la Orden para Mostrar Causa en el Tribunal Superior en Hagåtña (120 West O'Brien Dr., 671-475-3331) o en la sede norte en Dededo (132 West Marine Corps Dr., 671-635-2501). Lleva una copia de cada formulario. Paga la tarifa o presenta la solicitud de exención al mismo tiempo.
+    forms: [gu-adult-packet, gu-fee-waiver]
+    fees: [filing]
+    sources: [gu-adult-packet, gu-fee-schedule]
+  - id: post
+    title:
+      en: Have the signed order posted for four weeks
+      es: Haz colocar la orden firmada durante cuatro semanas
+    body:
+      en: |
+        The clerk mails or emails you the signed OSC. **Someone other than you**, such as a friend, relative, or hired process server, must post it in three public places in Hagåtña and one public place in your village, and leave it up for four weeks. Places can include the post office, the court, the mayor's office, and stores. The posting shows your current and new names. If that raises a safety concern, tell the Clerk or judge. Neither the statute nor the packet offers a way to skip posting.
+      es: |
+        La secretaría te envía la OSC firmada por correo o email. **Otra persona**, como un amigo, un familiar o un notificador contratado, debe colocarla en tres lugares públicos de Hagåtña y uno de tu aldea, y dejarla cuatro semanas. Pueden ser la oficina de correos, el tribunal, la oficina del alcalde y tiendas. El aviso muestra tu nombre actual y el nuevo. Si esto te preocupa por tu seguridad, díselo a la secretaría o al juez. Ni la ley ni el paquete ofrecen una forma de omitir la colocación.
+    estimated_time:
+      en: 4 weeks
+      es: 4 semanas
+    sources: [gu-adult-packet, gca-7-36]
+  - id: declaration
+    title:
+      en: File the Declaration of Posting and Final Order
+      es: Presenta la Declaración de Colocación y la Orden Final
+    body:
+      en: After four weeks, return to the Clerk's Office and file the Declaration of Posting and the Final Order (sections 1 and 2 filled in). There is no fee for these. The clerk then sends you a hearing date.
+      es: Después de cuatro semanas, regresa a la secretaría y presenta la Declaración de Colocación y la Orden Final (secciones 1 y 2 llenas). No tienen costo. La secretaría te enviará la fecha de audiencia.
+    forms: [gu-adult-packet]
+    sources: [gu-adult-packet]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: Bring your birth certificate, photo ID, and proof of residency. The judge will ask why you want the change. Answer honestly and briefly. Anyone who objects may also appear. If the judge approves, you receive a signed order with your new legal name.
+      es: Lleva tu acta de nacimiento, identificación con foto y prueba de residencia. El juez te preguntará por qué quieres el cambio. Responde con honestidad y brevedad. Cualquier persona que se oponga también puede asistir. Si el juez aprueba, recibirás una orden firmada con tu nuevo nombre legal.
+    sources: [gu-adult-packet, gca-7-36]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Ask the Clerk for several certified copies. Social Security, the driver's license office, the passport agency, and banks each want one. The fee schedule charges $4 to certify each filed paper, plus copy fees.
+      es: Pide a la secretaría varias copias certificadas. El Seguro Social, la oficina de licencias, la agencia de pasaportes y los bancos piden una cada uno. La tarifa es de $4 por certificar cada documento, más el costo de las copias.
+    fees: [certified-copy]
+    sources: [gu-fee-schedule]
+fees:
+  - id: filing
+    label:
+      en: Filing fee for the petition
+      es: Tarifa de presentación de la petición
+    amount: 300
+    waivable: true
+    note:
+      en: The court's schedule lists $300 for a petition or other first paper in civil or special proceedings. The name change packet does not state a fee and says to ask the Clerk, so confirm the amount before you file.
+      es: El arancel del tribunal indica $300 por una petición u otro primer escrito en procesos civiles o especiales. El paquete de cambio de nombre no indica la tarifa y dice que preguntes a la secretaría, así que confirma el monto antes de presentar.
+    sources: [gu-fee-schedule, gu-adult-packet]
+  - id: certified-copy
+    label:
+      en: Certification of a filed paper (per document)
+      es: Certificación de un documento presentado (por documento)
+    amount: 4
+    sources: [gu-fee-schedule]
+fee_waiver:
+  available: true
+  forms: [gu-fee-waiver]
+  eligibility:
+    en: If you cannot afford the fees. You list your income, property, and monthly expenses and attach proof of income, such as a pay stub, benefits letter, or bank statement. A waiver can cover the filing fee, service, certification, and copy costs.
+    es: Si no puedes pagar las tarifas. Indicas tus ingresos, bienes y gastos mensuales y adjuntas prueba de ingresos, como un talón de pago, una carta de beneficios o un estado de cuenta. La exención puede cubrir la tarifa de presentación, notificación, certificación y copias.
+  how:
+    en: File the Application to Waive Court Costs and Fees together with your petition.
+    es: Presenta la Solicitud de exención de costas y tarifas junto con tu petición.
+  sources: [gu-adult-packet]
+publication:
+  required: "no"
+  detail:
+    en: >-
+      Guam does not require newspaper publication. Instead, the Order to Show Cause must be posted for four weeks in three
+      public places in Hagåtña and one public place in your village (7 GCA § 36103). Posting is still public: your old and
+      new names appear on the notice.
+    es: >-
+      Guam no exige publicación en el periódico. En cambio, la Orden para Mostrar Causa debe colocarse durante cuatro
+      semanas en tres lugares públicos de Hagåtña y uno en tu aldea (7 GCA § 36103). Aun así es público: tu nombre
+      anterior y el nuevo aparecen en el aviso.
+  waiver_available: false
+  sources: [gca-7-36, gu-adult-packet]
+hearing:
+  required: "yes"
+  detail:
+    en: The statute requires a hearing, which is set four to eight weeks after the order to show cause. The judge may question you under oath.
+    es: La ley exige una audiencia, fijada entre cuatro y ocho semanas después de la orden para mostrar causa. El juez puede interrogarte bajo juramento.
+  sources: [gca-7-36]
+background_check:
+  required: "no"
+  detail:
+    en: There is no fingerprinting. The petition asks you to disclose convictions, sex offender registration, probation or parole, pending cases, child support orders, and bankruptcy.
+    es: No se toman huellas. La petición pide declarar condenas, registro como agresor sexual, libertad condicional, casos pendientes, órdenes de manutención y bancarrota.
+  sources: [gu-adult-packet]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Neither Guam's name change statute nor the court's packet provides for sealing the case. If you are worried about your safety, talk to a lawyer before filing about asking the judge for protection.
+    es: Ni la ley de cambio de nombre de Guam ni el paquete del tribunal prevén sellar el caso. Si te preocupa tu seguridad, consulta con un abogado antes de presentar sobre pedir protección al juez.
+  sources: [gca-7-36, gu-adult-packet]
+minors:
+  summary:
+    en: >-
+      A parent (or a guardian, or a close relative or friend if there is neither) signs and files the Minor Name Change
+      Request (7 GCA § 36102). The court wants the consent of both parents before approving. Tell the other parent about
+      the request and the hearing date, and both parents should attend. The minor's parents may not post the order to
+      show cause; any other adult may.
+    es: >-
+      Un padre o madre (o un tutor, o un pariente cercano o amigo si no hay ninguno) firma y presenta la Solicitud de
+      Cambio de Nombre para Menores (7 GCA § 36102). El tribunal quiere el consentimiento de ambos padres antes de
+      aprobar. Informa al otro padre sobre la solicitud y la fecha de audiencia; ambos deben asistir. Los padres del menor
+      no pueden colocar la orden; cualquier otro adulto sí.
+  forms: [gu-minor-packet]
+  sources: [gca-7-36, gu-minor-packet]
+timeline:
+  en: Usually about two to three months, including four weeks of posting and waiting for a hearing date.
+  es: Normalmente de dos a tres meses, incluidas cuatro semanas de colocación y la espera de la fecha de audiencia.
+after:
+  en: |
+    1. **Birth certificate:** Guam law requires a certified copy of the order to be filed with the Office of Vital Statistics within 30 days (7 GCA § 36105). If you were born in Guam, ask the office to amend your birth certificate to the new name (see the Guam birth certificate guide).
+    2. **Social Security:** update your name first (see the federal Social Security guide). Other agencies check against it.
+    3. **Driver's license or Guam ID:** take the certified order to the Department of Revenue and Taxation (see the Guam driver's license guide).
+    4. **Passport:** see the federal passport guide. Name changes are still available.
+    5. Banks, employer, school, insurance, voter registration.
+  es: |
+    1. **Acta de nacimiento:** la ley de Guam exige presentar copia certificada de la orden en la Oficina de Estadísticas Vitales dentro de 30 días (7 GCA § 36105). Si naciste en Guam, pide que enmienden tu acta con el nuevo nombre (ver la guía de acta de nacimiento de Guam).
+    2. **Seguro Social:** actualiza tu nombre primero (ver la guía federal). Otras agencias verifican contra ese registro.
+    3. **Licencia o identificación de Guam:** lleva la orden certificada al Departamento de Ingresos e Impuestos (ver la guía de licencia de Guam).
+    4. **Pasaporte:** ver la guía federal. Los cambios de nombre siguen disponibles.
+    5. Bancos, empleador, escuela, seguro, registro electoral.
+tips:
+  - en: Ask the Clerk's Office about court navigators. The packet says they can help you fill out the forms.
+    es: Pregunta en la secretaría por los navegadores del tribunal. El paquete dice que pueden ayudarte a llenar los formularios.
+  - en: Take photos of each posted notice with the date visible. They help whoever signs the Declaration of Posting.
+    es: Toma fotos de cada aviso colocado con la fecha visible. Ayudan a quien firma la Declaración de Colocación.
+  - en: Married couples and their children can file one joint petition (7 GCA § 36102.1).
+    es: Las parejas casadas y sus hijos pueden presentar una sola petición conjunta (7 GCA § 36102.1).
+local_help:
+  - id: guam-court-self-help
+    name: Superior Court of Guam, self-help and court navigators
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free packets and instructions. Court navigators can help self-represented people complete forms.
+      es: Paquetes e instrucciones gratuitos. Los navegadores del tribunal ayudan a personas sin abogado a llenar formularios.
+    url: https://www.guamcourts.gov/quick-assist/specifically/self-help-litigants
+    phone: "671-475-3331"
+    address: 120 West O'Brien Drive, Hagåtña, GU 96910
+    cost: free
+    verification: official_source
+    sources: [gu-self-help]
+  - id: guam-bar-lrs
+    name: Guam Bar Association Lawyer Referral Service
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Referrals to private attorneys in Guam.
+      es: Referencias a abogados privados en Guam.
+    url: https://www.guambar.org/resources-tools/lawyer-referral-service-lrs
+    cost: varies
+    verification: org_website
+    sources: [guam-bar]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: National small grants for transition costs, including legal name change fees. 18 and older. Check eligibility for residents of U.S. territories.
+      es: Pequeñas becas nacionales para costos de transición, incluidas tarifas de cambio de nombre. 18 años o más. Verifica la elegibilidad para residentes de territorios.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline microgrants
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Microgrants toward name and gender marker change costs, plus a peer support hotline.
+      es: Microbecas para costos de cambio de nombre y marcador de género, además de una línea de apoyo entre pares.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+statutes:
+  - cite: 7 GCA §§ 36101–36105
+    title:
+      en: Change of Names (Superior Court jurisdiction, petition, order to show cause and posting, hearing, filing with Vital Statistics)
+      es: Cambio de nombre (competencia del Tribunal Superior, petición, orden y colocación, audiencia, registro en Estadísticas Vitales)
+    url: https://col.guamcourts.gov/sites/default/files/7gc036.pdf
+related_links:
+  - title: Advocates for Trans Equality, Guam identity documents
+    url: https://transequality.org/documents/guam-identity-documents
+    note:
+      en: No last-updated date is shown on the page.
+      es: La página no muestra fecha de actualización.
+sources:
+  - id: gu-adult-packet
+    url: https://www.guamcourts.gov/sites/default/files/Adult%20Name%20Change%20Request%20Packet.pdf
+    title: Adult Name Change Request packet (Rev. 2026)
+    publisher: Superior Court of Guam
+    kind: form
+    accessed: "2026-09-24"
+    quote: Someone other than you must post the OSC in three public places in Hagåtña and one public place in the village where you live. Leave it posted for four weeks.
+  - id: gu-minor-packet
+    url: https://www.guamcourts.gov/sites/default/files/Minor%20Name%20Change%20Request%20Packet.pdf
+    title: Minor Name Change Request packet (Rev. 2026)
+    publisher: Superior Court of Guam
+    kind: form
+    accessed: "2026-09-24"
+    quote: The court will want the consent of both the minor's parents before approving a name change.
+  - id: gca-7-36
+    url: https://col.guamcourts.gov/sites/default/files/7gc036.pdf
+    title: 7 GCA Chapter 36, Change of Names
+    publisher: Guam Compiler of Laws
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A copy of such order to show cause shall be posted by the clerk of the court in three public places in Agana for four successive weeks and in the district, town, or village where the petitioner lives.
+  - id: gu-fee-schedule
+    url: https://www.guamcourts.gov/sites/default/files/2019-08-01-JOGJC-Fees.doc%20(As%20of%202025).pdf
+    title: Judiciary of Guam schedule of fees (as of 2025)
+    publisher: Judicial Council of Guam
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Complaint, Petition or other First Paper in Civil or Special Proceedings $300.00. Certify a copy of any filed paper: $4.00"
+  - id: gu-self-help
+    url: https://www.guamcourts.gov/quick-assist/specifically/self-help-litigants
+    title: Self-Help Litigants
+    publisher: Judiciary of Guam
+    kind: court
+    accessed: "2026-09-24"
+  - id: guam-bar
+    url: https://www.guambar.org/resources-tools/lawyer-referral-service-lrs
+    title: Lawyer Referral Service
+    publisher: Guam Bar Association
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

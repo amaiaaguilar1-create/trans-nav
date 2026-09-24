@@ -1,0 +1,178 @@
+guide_type: drivers_license
+jurisdiction: GU
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The Department of Revenue and Taxation (DRT) Motor Vehicle Division publishes no written policy on changing the sex
+    marker. The current Guam Driver's License and Identification Card Application offers only Female and Male. A4TE's
+    Guam page (undated) says, based on email with the MVD supervisor, that a gender marker change needs a sworn physician
+    statement that the holder's sex "has been changed." That wording mirrors the surgery-based birth certificate statute,
+    so it may in practice require proof of surgery. This could not be confirmed with DRT; call the Driver's License
+    Examination Branch (671-635-7667) to verify. Fees are from the application form, which lists $25/$45/$65 for
+    3/5/8-year licenses, $25 for a replacement, and $25 for all ID card transactions, and from the March 2013 fee sheet.
+    realid.guam.gov did not load from our network.
+status: unclear
+requirement_type: unclear
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on a Guam license or ID with your court order. Guam has no written policy for changing the
+    sex marker. The application offers only F or M, and the office has reportedly asked for a sworn statement from a
+    physician. Call the Driver's License Examination Branch before you go.
+  es: >-
+    Puedes actualizar tu nombre en la licencia o identificación de Guam con tu orden judicial. Guam no tiene una política
+    escrita para cambiar el marcador de sexo. La solicitud solo ofrece F o M, y según se informa la oficina ha pedido una
+    declaración jurada de un médico. Llama a la Sección de Exámenes de Licencias antes de ir.
+summary:
+  en: |
+    Guam driver's licenses and Guam ID cards are issued by the **Department of Revenue and Taxation (DRT), Motor Vehicle Division, Driver's License Examination Branch** in Barrigada. Everything is done in person, and you must be present.
+
+    **Name:** check "Name Change" on the application and bring a certified court order, marriage record, or divorce decree. The name must match across all your documents, so update Social Security first.
+
+    **Sex marker:** the application offers Female or Male only, and DRT publishes no procedure for changing it. Advocates were told the office wants a sworn statement from a physician that your sex "has been changed." Ask the branch exactly what it will accept, and get the answer in writing if you can.
+  es: |
+    Las licencias de conducir y las identificaciones de Guam las emite el **Departamento de Ingresos e Impuestos (DRT), División de Vehículos, Sección de Exámenes de Licencias** en Barrigada. Todo se hace en persona y debes estar presente.
+
+    **Nombre:** marca "Name Change" en la solicitud y lleva una orden judicial certificada, acta de matrimonio o sentencia de divorcio. El nombre debe coincidir en todos tus documentos, así que actualiza primero el Seguro Social.
+
+    **Marcador de sexo:** la solicitud solo ofrece femenino o masculino, y el DRT no publica un procedimiento para cambiarlo. A organizaciones de defensa se les dijo que la oficina pide una declaración jurada de un médico de que tu sexo "ha sido cambiado". Pregunta exactamente qué aceptan y, si puedes, pide la respuesta por escrito.
+eligibility:
+  residency:
+    en: >-
+      For a REAL ID card, bring two proofs of Guam residency (utility bill, lease, bank statement, and similar) or a
+      mayor's letter dated within 30 days.
+    es: >-
+      Para una tarjeta REAL ID, lleva dos pruebas de residencia en Guam (factura de servicios, contrato de alquiler, estado
+      de cuenta u otros) o una carta del alcalde de menos de 30 días.
+  sources: [gu-realid]
+forms:
+  - id: gu-dl-app
+    name:
+      en: Guam Driver's License and Identification Card Application
+      es: Solicitud de licencia de conducir y tarjeta de identificación de Guam
+    url: https://www.guamtax.com/forms/LocalDL&IDAppwMV.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Part 1:** for a license, check item 7, "Name Change on Driver's License." For an ID card, check "Name Change ID Card."
+        - **Item 12:** write your new legal name exactly as it appears on your court order.
+        - **Item 23 (Gender):** only Female and Male are printed. If you are asking to change the marker, bring whatever documentation the branch told you it accepts.
+      es: |
+        - **Parte 1:** para licencia, marca el punto 7 "Name Change on Driver's License". Para identificación, marca "Name Change ID Card".
+        - **Punto 12:** escribe tu nuevo nombre legal tal como aparece en la orden judicial.
+        - **Punto 23 (Género):** solo aparecen femenino y masculino. Si pides cambiar el marcador, lleva la documentación que la oficina te dijo que acepta.
+    sources: [gu-dl-app]
+steps:
+  - id: ssa-first
+    title:
+      en: Update Social Security first
+      es: Actualiza primero el Seguro Social
+    body:
+      en: DRT requires the name to match on all your documents. Update your name with Social Security after your court order (see the federal Social Security guide).
+      es: El DRT exige que el nombre coincida en todos tus documentos. Actualiza tu nombre en el Seguro Social después de la orden judicial (ver la guía federal).
+    applies_to: [name_change]
+    sources: [gu-dl-app]
+  - id: call
+    title:
+      en: Call ahead about the sex marker
+      es: Llama antes sobre el marcador de sexo
+    body:
+      en: If you want to change the sex marker, call the Driver's License Examination Branch at 671-635-7667 or email driverslicense@revtax.guam.gov. Ask what documentation it accepts. There is no written policy.
+      es: Si quieres cambiar el marcador de sexo, llama a la Sección de Exámenes de Licencias al 671-635-7667 o escribe a driverslicense@revtax.guam.gov. Pregunta qué documentación acepta. No hay una política escrita.
+    applies_to: [gender_marker]
+    sources: [gu-mvd]
+  - id: appointment
+    title:
+      en: Make an appointment and fill out the application
+      es: Haz una cita y llena la solicitud
+    body:
+      en: Schedule a Driver's License or Guam ID appointment online through DRT's Real ID portal (linked from guamtax.com) and fill out the application.
+      es: Programa una cita para licencia o identificación de Guam en el portal Real ID del DRT (enlazado desde guamtax.com) y llena la solicitud.
+    forms: [gu-dl-app]
+    sources: [gu-mvd, gu-realid]
+  - id: visit
+    title:
+      en: Go in person
+      es: Ve en persona
+    body:
+      en: Go to the branch at 1240 Army Drive, Barrigada. Bring your current card, the application, the certified court order, and REAL ID documents if you want a REAL ID. Pay the fee.
+      es: Ve a la sección en 1240 Army Drive, Barrigada. Lleva tu tarjeta actual, la solicitud, la orden judicial certificada y los documentos de REAL ID si la quieres. Paga la tarifa.
+    fees: [dl-replace, id-card]
+    applies_to: [in_person]
+    sources: [gu-dl-app]
+fees:
+  - id: dl-replace
+    label:
+      en: Driver's license, replacement or duplicate
+      es: Licencia de conducir, reemplazo o duplicado
+    amount: 25
+    note:
+      en: If you renew at the same time, a new license costs $25 (3 years), $45 (5 years), or $65 (8 years).
+      es: Si renuevas al mismo tiempo, la licencia cuesta $25 (3 años), $45 (5 años) o $65 (8 años).
+    sources: [gu-dl-app, gu-dl-fees]
+  - id: id-card
+    label:
+      en: Guam ID card, any transaction, including a name change
+      es: Identificación de Guam, cualquier trámite, incluido cambio de nombre
+    amount: 25
+    sources: [gu-dl-app, gu-dl-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: The applicant must be present. Online renewal and replacement exist but are not described for name changes.
+    es: La persona debe estar presente. Hay renovación y reemplazo en línea, pero no se describen para cambios de nombre.
+  sources: [gu-dl-app, drt-home]
+after:
+  en: Keep your court order with you for a while. Some offices compare the name on your license with other records. For your passport, see the federal passport guide.
+  es: Lleva contigo tu orden judicial por un tiempo. Algunas oficinas comparan el nombre de tu licencia con otros registros. Para el pasaporte, ver la guía federal.
+tips:
+  - en: If you were born in Guam, the birth certificate route requires a surgeon's sworn statement. If you have one, bring it and your amended birth certificate to DRT too.
+    es: Si naciste en Guam, el acta de nacimiento requiere una declaración jurada del cirujano. Si la tienes, llévala al DRT junto con tu acta enmendada.
+related_links:
+  - title: Advocates for Trans Equality, Guam identity documents
+    url: https://transequality.org/documents/guam-identity-documents
+    note:
+      en: Reports what the Motor Vehicle Division supervisor told A4TE by email. No date is shown.
+      es: Reporta lo que el supervisor de la División de Vehículos dijo a A4TE por email. No tiene fecha.
+sources:
+  - id: gu-dl-app
+    url: https://www.guamtax.com/forms/LocalDL&IDAppwMV.pdf
+    title: Guam Driver's License and Identification Card Application
+    publisher: Guam Department of Revenue and Taxation
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Name Change on Driver's License (Provide Marriage Record, Divorce Decree, or Court-Ordered Name Change). Applicant must be present to process transaction(s). 23. Gender: Female Male"
+  - id: gu-dl-fees
+    url: https://www.guamtax.com/fees/Driver'sLicenseFees_201303.pdf
+    title: Motor Vehicles Division fees (updated March 2013)
+    publisher: Guam Department of Revenue and Taxation
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate Driver's License for all classes $25.00. Guam Photo Identification Card Fees: New/Renew/Replacement/Name Change $25.00"
+  - id: gu-mvd
+    url: https://www.guamtax.com/about/mvd.html
+    title: Motor Vehicle Division
+    publisher: Guam Department of Revenue and Taxation
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Supervisor, Drivers License Examination Branch (671) 635-7667 driverslicense@revtax.guam.gov"
+  - id: gu-realid
+    url: https://www.guamtax.com/help/realIDpolicy.html
+    title: Real ID Policy
+    publisher: Guam Department of Revenue and Taxation
+    kind: official
+    accessed: "2026-09-24"
+  - id: drt-home
+    url: https://www.guamtax.com/
+    title: GuamTax.com
+    publisher: Guam Department of Revenue and Taxation
+    kind: official
+    accessed: "2026-09-24"
+    quote: Schedule a Driver's License or Guam ID Appointment; or, perform an online renewal or replacement today!

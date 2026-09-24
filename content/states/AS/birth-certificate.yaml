@@ -1,0 +1,95 @@
+guide_type: birth_certificate
+jurisdiction: AS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The legal analysis comes from In re Mase, 9 Am. Samoa 3d 125 (2004), read in full on case.law. The Office of Vital
+    Statistics' contact details and the anecdotal report that it sometimes changes names and markers come from A4TE's
+    undated page. No official Vital Statistics web page was found. Status is "unclear" rather than "prohibited" because
+    no statute or decision addresses sex markers directly, but Mase's reasoning (adopting Littleton v. Prange) points
+    against amendment. Reviewer: find the current A.S.C.A. § 13.0530 text and any later decisions.
+status: unclear
+requirement_type: unclear
+name_change_status: unclear
+status_summary:
+  en: >-
+    American Samoa has no procedure for changing the sex marker on a birth certificate. A 2004 High Court decision held
+    that a birth certificate can be amended only to fix information that was wrong when it was recorded, not to reflect
+    a later name change. Advocates have heard the Office of Vital Statistics sometimes makes changes anyway, so ask, and
+    talk to a lawyer.
+  es: >-
+    Samoa Americana no tiene un procedimiento para cambiar el marcador de sexo en el acta de nacimiento. Una decisión del
+    Tribunal Superior de 2004 determinó que el acta solo se puede enmendar para corregir información que era errónea al
+    registrarse, no para reflejar un cambio de nombre posterior. Organizaciones de defensa han oído que la Oficina de
+    Estadísticas Vitales a veces hace cambios de todos modos, así que pregunta y habla con un abogado.
+summary:
+  en: |
+    The only amendment statute, A.S.C.A. § 13.0530, lets the Registrar correct facts that were "not correctly stated" on a birth, death, or marriage certificate, using sworn affidavits. The original record is never altered; the amendment is attached, and certified copies show that the certificate was amended.
+
+    In *In re Mase* (2004), the High Court held that this statute covers only errors at the time of recording. It denied a request to put a court-ordered new name on a birth certificate, citing a Texas decision that refused a transgender woman's amended certificate. Under that reasoning, a sex marker change is unlikely to be approved through the courts.
+
+    Advocates for Trans Equality has heard that in practice the Office of Vital Statistics will sometimes change the name after a court order, and may change the sex marker with medical documentation of transition. This is not written policy.
+  es: |
+    La única ley de enmiendas, A.S.C.A. § 13.0530, permite al Registro corregir datos "no correctamente indicados" en un acta de nacimiento, defunción o matrimonio mediante declaraciones juradas. El registro original nunca se modifica; la enmienda se adjunta y las copias certificadas indican que fue enmendada.
+
+    En *In re Mase* (2004), el Tribunal Superior determinó que esta ley solo cubre errores al momento del registro. Negó poner un nombre nuevo ordenado por el tribunal en un acta de nacimiento, citando una decisión de Texas que rechazó el acta enmendada de una mujer trans. Según ese razonamiento, es poco probable que un cambio de sexo se apruebe por la vía judicial.
+
+    Advocates for Trans Equality ha oído que en la práctica la Oficina de Estadísticas Vitales a veces cambia el nombre tras una orden judicial y podría cambiar el sexo con documentación médica de la transición. No es una política escrita.
+eligibility:
+  other:
+    en: You must have been born in American Samoa. If you were born elsewhere, including in Samoa (the independent country), your birthplace's rules apply.
+    es: Debes haber nacido en Samoa Americana. Si naciste en otro lugar, incluido Samoa (el país independiente), aplican las reglas de tu lugar de nacimiento.
+  sources: [mase]
+steps:
+  - id: ask-ovs
+    title:
+      en: Ask the Office of Vital Statistics
+      es: Pregunta a la Oficina de Estadísticas Vitales
+    body:
+      en: Contact the Office of Vital Statistics, P.O. Box 6894, Pago Pago, AS 96799, (684) 633-1405 or 633-1406. Ask whether it will amend the name or sex on your certificate and what documents it needs. Ask for the answer in writing.
+      es: Comunícate con la Oficina de Estadísticas Vitales, P.O. Box 6894, Pago Pago, AS 96799, (684) 633-1405 o 633-1406. Pregunta si enmendará el nombre o el sexo en tu acta y qué documentos necesita. Pide la respuesta por escrito.
+    sources: [a4te-as]
+  - id: lawyer
+    title:
+      en: Talk to a lawyer before going to court
+      es: Habla con un abogado antes de ir al tribunal
+    body:
+      en: Because *Mase* limits what the court will order, a lawyer can advise whether a petition is worth filing and how to present it.
+      es: Como *Mase* limita lo que el tribunal ordenará, un abogado puede aconsejarte si vale la pena presentar una petición y cómo hacerlo.
+    sources: [mase]
+after:
+  en: Even if your birth certificate cannot be changed, you can still change your name with Social Security and on your U.S. passport (see the federal guides).
+  es: Aunque no puedas cambiar tu acta de nacimiento, sí puedes cambiar tu nombre en el Seguro Social y en tu pasaporte de EE. UU. (ver las guías federales).
+statutes:
+  - cite: A.S.C.A. § 13.0530 (as quoted in In re Mase)
+    title:
+      en: Correction of vital records by affidavit; the original record is not altered
+      es: Corrección de registros vitales por declaración jurada; el original no se altera
+    url: https://static.case.law/am-samoa-3d/9/html/0125-01.html
+  - cite: In re Mase, 9 Am. Samoa 3d 125 (2004)
+    title:
+      en: Birth certificate may not be amended to reflect a later name change
+      es: El acta no puede enmendarse para reflejar un cambio de nombre posterior
+    url: https://static.case.law/am-samoa-3d/9/html/0125-01.html
+related_links:
+  - title: Advocates for Trans Equality, American Samoa identity documents
+    url: https://transequality.org/documents/american-samoa-identity-documents
+sources:
+  - id: mase
+    url: https://static.case.law/am-samoa-3d/9/html/0125-01.html
+    title: In re Petition to Change Name of Tia'i Mase, 9 Am. Samoa 3d 125 (2004)
+    publisher: Caselaw Access Project
+    kind: court
+    accessed: "2026-09-24"
+    quote: We conclude that the plain language of Section 13.0530 does not give the Registrar of Vital Statistics authority to amend a birth certificate in situations in which a person changes his or her name.
+  - id: a4te-as
+    url: https://transequality.org/documents/american-samoa-identity-documents
+    title: American Samoa Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Anecdotally we have heard that the Office of Vital Statistics will change the name on a birth certificate when presented with a name change order, and may change the gender marker on a birth certificate upon receiving medical documentation of transition-related medical care.

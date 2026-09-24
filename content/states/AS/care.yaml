@@ -1,0 +1,163 @@
+jurisdiction: AS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    No American Samoa law on gender-affirming care was found. MAP's AS profile (checked 2026-09-24) shows no youth care
+    ban, no shield law, no Medicaid policy, and no insurance nondiscrimination law. The American Samoa Medicaid State
+    Agency (asmsa.gov) says nothing about gender-affirming care. It describes an off-island referral program, including a
+    partnership with Queen's Medical Center in Honolulu. The LBJ Tropical Medical Center website did not resolve. No
+    local prescriber could be verified. Plume's map lists no territories.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in American Samoa for adults and minors, and no territorial law bans it. Local access
+    is very limited, Medicaid coverage is unclear, and national telehealth services do not serve American Samoa. Many
+    people seek care in Hawaii.
+  es: >-
+    La atención de afirmación de género es legal en Samoa Americana para adultos y menores, y ninguna ley territorial la
+    prohíbe. El acceso local es muy limitado, la cobertura de Medicaid no está clara, y los servicios nacionales de
+    telesalud no atienden Samoa Americana. Muchas personas buscan atención en Hawái.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No law restricts adult care. In practice, options are few:
+      1. Ask your primary care provider or a community health center (use the HRSA finder) to prescribe or continue hormones.
+      2. If you travel to Hawaii, providers there, including telehealth services that serve Hawaii, can see you while you are physically in Hawaii.
+      3. Apply to national funds (Point of Pride, Genderbands). Check whether they accept American Samoa residents.
+    es: |
+      Ninguna ley restringe la atención para adultos. En la práctica hay pocas opciones:
+      1. Pide a tu proveedor de atención primaria o a un centro de salud comunitario (usa el buscador de HRSA) que recete o continúe tus hormonas.
+      2. Si viajas a Hawái, los proveedores de allí, incluidos servicios de telesalud que atienden Hawái, pueden atenderte mientras estés físicamente en Hawái.
+      3. Solicita fondos nacionales (Point of Pride, Genderbands). Verifica si aceptan residentes de Samoa Americana.
+  sources: [map-as, hrsa]
+minor_care:
+  status: available
+  detail:
+    en: No territorial law bans gender-affirming care for minors. There is no shield law. Parental consent is required.
+    es: Ninguna ley territorial prohíbe la atención de afirmación de género para menores. No hay ley escudo. Se requiere consentimiento de los padres.
+  sources: [map-as]
+medicaid:
+  program_name: American Samoa Medicaid (American Samoa Medicaid State Agency)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: >-
+      American Samoa Medicaid funds care for eligible residents and runs an off-island medical referral program. It
+      publishes no policy on gender-affirming care. Ask the agency directly, and ask for any denial in writing.
+    es: >-
+      Medicaid de Samoa Americana financia la atención de residentes elegibles y tiene un programa de referencias médicas
+      fuera de la isla. No publica una política sobre atención de afirmación de género. Pregunta directamente a la agencia
+      y pide por escrito cualquier negación.
+  how_to_apply_url: https://www.asmsa.gov/
+  sources: [asmsa, map-as]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: No American Samoa law bars insurers from excluding gender-affirming care.
+    es: Ninguna ley de Samoa Americana prohíbe a las aseguradoras excluir la atención de afirmación de género.
+  sources: [map-as]
+telehealth_hrt: []
+resources:
+  - id: asmsa
+    name: American Samoa Medicaid State Agency
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Medicaid benefits, off-island medical referral services, and a complaint process.
+      es: Beneficios de Medicaid, referencias médicas fuera de la isla y proceso de quejas.
+    url: https://www.asmsa.gov/
+    cost: free
+    verification: official_source
+    sources: [asmsa]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers. Search "American Samoa."
+      es: Buscador federal de centros de salud comunitarios. Busca "American Samoa".
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone access and surgery. Check eligibility for territory residents.
+      es: Fondos nacionales para hormonas y cirugía. Verifica la elegibilidad para residentes de territorios.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [point-of-pride]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Small national grants for transition costs.
+      es: Pequeñas becas nacionales para costos de transición.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: map-as
+    url: https://mapresearch.org/equality-profiles/AS/
+    title: American Samoa equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Negative Law: Laws Banning Best Practice Medical Care For Transgender Youth: No Negative Law"
+  - id: asmsa
+    url: https://www.asmsa.gov/
+    title: American Samoa Medicaid State Agency
+    publisher: American Samoa Medicaid State Agency
+    kind: official
+    accessed: "2026-09-24"
+    quote: Medicaid is a federal health program that provides funding for health services to eligible residents of American Samoa.
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: point-of-pride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

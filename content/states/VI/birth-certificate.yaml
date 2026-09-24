@@ -1,0 +1,133 @@
+guide_type: birth_certificate
+jurisdiction: VI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Copy fees and mailing instructions are from the Department of Health's Application for Certified Copy of Birth Record
+    (rev. 5-14-25), read 2026-09-24. No amendment form, amendment fee, or statute was found online. The V.I. Code is on
+    LexisNexis and was not fetched. The statements that name amendments follow a court order, that the reissued
+    certificate is marked amended, and that no sex marker protocol exists come from A4TE's undated, interview-based page.
+    Reviewer: find the V.I. Code vital records amendment section and confirm the amendment fee.
+status: unclear
+requirement_type: unclear
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in the Virgin Islands, Vital Records will reissue your birth certificate with a court-ordered name
+    change. No law bans a sex marker change, but there is no known procedure or legal standard for one. The only
+    possible route would be a court order, and no such petition is known to have been filed.
+  es: >-
+    Si naciste en las Islas Vírgenes, Registros Vitales reemite tu acta de nacimiento con un cambio de nombre ordenado por
+    el tribunal. Ninguna ley prohíbe cambiar el marcador de sexo, pero no hay un procedimiento ni estándar legal conocido.
+    La única vía posible sería una orden judicial, y no se conoce ninguna petición así.
+summary:
+  en: |
+    Birth records are kept by the **Office of Vital Records and Statistics** of the Virgin Islands Department of Health, which has one office for the St. Thomas/St. John district and one for the St. Croix district.
+
+    - **Name:** after the Superior Court issues your name change, Vital Records can issue a birth certificate showing the new name. Advocates were told you can request it in person with a government ID about five to seven business days after the order. The certificate is noted as amended but does not say what was changed.
+    - **Sex marker:** no statute bans the change, but no protocol exists. You would likely need a court order, and there is no known case of one being requested.
+
+    If you were born elsewhere, your birth state's or country's rules apply.
+  es: |
+    Los registros de nacimiento los guarda la **Oficina de Registros Vitales y Estadísticas** del Departamento de Salud, con una oficina para el distrito de St. Thomas/St. John y otra para St. Croix.
+
+    - **Nombre:** después de que el Tribunal Superior emite tu cambio de nombre, Registros Vitales puede emitir un acta con el nuevo nombre. A organizaciones de defensa se les dijo que puedes pedirla en persona con identificación oficial unos cinco a siete días hábiles después de la orden. El acta indica que fue enmendada, pero no qué se cambió.
+    - **Marcador de sexo:** ninguna ley lo prohíbe, pero no existe un protocolo. Probablemente necesitarías una orden judicial, y no se conoce ningún caso.
+
+    Si naciste en otro lugar, aplican las reglas de tu estado o país de nacimiento.
+eligibility:
+  other:
+    en: You must have been born in the U.S. Virgin Islands.
+    es: Debes haber nacido en las Islas Vírgenes de EE. UU.
+  sources: [vi-birth-app]
+forms:
+  - id: vi-birth-app
+    name:
+      en: Application for Certified Copy of Birth Record (for requests by mail)
+      es: Solicitud de copia certificada de acta de nacimiento (para solicitudes por correo)
+    url: https://doh.vi.gov/wp-content/uploads/2025/05/Off-Island-Birth-Application-5-14-25.pdf
+    required: conditional
+    condition:
+      en: To order certified copies by mail. The application must be notarized.
+      es: Para pedir copias certificadas por correo. La solicitud debe estar notariada.
+    sources: [vi-birth-app]
+steps:
+  - id: court-order
+    title:
+      en: Get your name change order
+      es: Obtén tu orden de cambio de nombre
+    body:
+      en: Complete your Superior Court name change (see the USVI name change guide). The court sends the final certificate to Vital Statistics.
+      es: Completa tu cambio de nombre en el Tribunal Superior (ver la guía de USVI). El tribunal envía el certificado final a Estadísticas Vitales.
+    applies_to: [name_change]
+    sources: [a4te-vi]
+  - id: request
+    title:
+      en: Request the new birth certificate
+      es: Pide la nueva acta de nacimiento
+    body:
+      en: About five to seven business days after the order, go in person with government photo ID to the Vital Records office for the district where you were born. St. Thomas/St. John district, 340-774-9000 ext. 4685. St. Croix district, 340-712-0117.
+      es: Unos cinco a siete días hábiles después de la orden, ve en persona con identificación oficial con foto a la oficina de Registros Vitales del distrito donde naciste. Distrito de St. Thomas/St. John, 340-774-9000 ext. 4685. Distrito de St. Croix, 340-712-0117.
+    fees: [certified-copy]
+    applies_to: [name_change, in_person]
+    sources: [a4te-vi, vi-vital-records]
+  - id: by-mail
+    title:
+      en: Or order copies by mail
+      es: O pide copias por correo
+    body:
+      en: If you live off-island, mail a notarized application, a copy of your photo ID, and a U.S. Postal money order ($15 per certificate, two per year at most) to the district office where you were born. St. Thomas/St. John, 1303 Hospital Ground, Suite 10, St. Thomas, VI 00802. St. Croix, 4006 Estate Diamond, Suite 104, St. Croix, VI 00820. Personal checks are not accepted.
+      es: Si vives fuera de la isla, envía una solicitud notariada, copia de tu identificación con foto y un giro postal de EE. UU. ($15 por acta, máximo dos al año) a la oficina del distrito donde naciste. St. Thomas/St. John, 1303 Hospital Ground, Suite 10, St. Thomas, VI 00802. St. Croix, 4006 Estate Diamond, Suite 104, St. Croix, VI 00820. No se aceptan cheques personales.
+    forms: [vi-birth-app]
+    fees: [certified-copy]
+    applies_to: [by_mail]
+    sources: [vi-birth-app]
+fees:
+  - id: certified-copy
+    label:
+      en: Certified birth certificate (per copy)
+      es: Acta de nacimiento certificada (por copia)
+    amount: 15
+    note:
+      en: A birth verification, which shows only name and date of birth, costs $6. The amendment fee is not published.
+      es: Una verificación de nacimiento, que solo muestra nombre y fecha, cuesta $6. La tarifa de enmienda no está publicada.
+    sources: [vi-birth-app]
+delivery:
+  in_person: true
+  by_mail: true
+  detail:
+    en: Copies can be ordered by mail. Reissued certificates after a name change were described as an in-person request.
+    es: Las copias se pueden pedir por correo. El acta reemitida tras un cambio de nombre se describió como trámite en persona.
+  sources: [vi-birth-app, a4te-vi]
+after:
+  en: Use the new certificate to update your BMV record. For your passport and Social Security, see the federal guides.
+  es: Usa la nueva acta para actualizar tu registro en la BMV. Para el pasaporte y el Seguro Social, ver las guías federales.
+related_links:
+  - title: Advocates for Trans Equality, US Virgin Islands identity documents
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+sources:
+  - id: vi-birth-app
+    url: https://doh.vi.gov/wp-content/uploads/2025/05/Off-Island-Birth-Application-5-14-25.pdf
+    title: Application for Certified Copy of Birth Record
+    publisher: Virgin Islands Department of Health, Office of Vital Records and Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Birth Verification Fee $6.00. Birth Certificate Fee $15.00. United States Postal Money Order of $15.00 each (Maximum of 2 per year)"
+  - id: vi-vital-records
+    url: https://doh.vi.gov/programs/vital-records-statistics/
+    title: Vital Records & Statistics
+    publisher: Virgin Islands Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-vi
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+    title: US Virgin Islands Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: There exist no statutory bans on changing a gender marker on a birth certificate however no protocol or legal standard is known to exist to do so.

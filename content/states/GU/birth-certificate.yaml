@@ -1,0 +1,129 @@
+guide_type: birth_certificate
+jurisdiction: GU
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text is from the Compiler of Laws PDF of 10 GCA ch. 3, stamped "COL 2026-04-23." § 3222(e) still requires a
+    sworn statement from the physician who performed surgery. No 2019 or later public law allowing self-attestation was
+    found in the current code text; the task brief asked us to check for one. DPHSS's Vital Statistics page lists no fees
+    or amendment forms, so none are given here (fees are set by regulation under § 3227). PR26-102 (June 1, 2026) limits
+    copies to one per event while security paper is short; check whether that limit has been lifted. Reviewer: confirm
+    whether OVS issues an amended certificate marked "Amended" for a sex change (the § 3222(b) default) and what the
+    amendment fee is.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Guam, you can change the sex on your birth certificate only with a sworn statement from the
+    physician who performed gender-affirming surgery. You can change the name with a certified court order. The amended
+    certificate is marked "Amended." Only male or female are available.
+  es: >-
+    Si naciste en Guam, solo puedes cambiar el sexo en tu acta de nacimiento con una declaración jurada del médico que
+    realizó la cirugía de afirmación de género. Puedes cambiar el nombre con una orden judicial certificada. El acta
+    enmendada lleva la marca "Amended". Solo están disponibles masculino o femenino.
+summary:
+  en: |
+    Birth certificates for people born in Guam are kept by the **Office of Vital Statistics (OVS)** of the Department of Public Health and Social Services (DPHSS).
+
+    - **Sex marker:** under 10 GCA § 3222(e), OVS amends the sex only when you submit a written request plus a **sworn statement from the physician who performed the surgery**, certifying that your sex has been changed by surgical procedure. No court order is needed, but hormone therapy alone or a letter from a doctor who did not perform surgery does not qualify under the statute. There is no X option.
+    - **Name:** under § 3222(c), OVS amends the name when you give it a certified copy of your Guam court order changing your name.
+    - Amended certificates are marked "Amended," and the date and evidence are noted on the record (§ 3222(b)). Certified copies of amended records show that they were amended (§ 3226).
+
+    If you were born elsewhere, the rules of your birth state or country apply.
+  es: |
+    Las actas de nacimiento de personas nacidas en Guam las guarda la **Oficina de Estadísticas Vitales (OVS)** del Departamento de Salud Pública y Servicios Sociales (DPHSS).
+
+    - **Marcador de sexo:** según 10 GCA § 3222(e), OVS enmienda el sexo solo si presentas una solicitud escrita y una **declaración jurada del médico que realizó la cirugía**, certificando que tu sexo se cambió mediante un procedimiento quirúrgico. No se necesita orden judicial, pero la terapia hormonal sola o una carta de un médico que no hizo la cirugía no cumplen la ley. No hay opción X.
+    - **Nombre:** según § 3222(c), OVS enmienda el nombre cuando entregas una copia certificada de la orden judicial de Guam.
+    - Las actas enmendadas llevan la marca "Amended" y se anotan la fecha y la evidencia (§ 3222(b)). Las copias certificadas indican que fueron enmendadas (§ 3226).
+
+    Si naciste en otro lugar, aplican las reglas de tu estado o país de nacimiento.
+eligibility:
+  other:
+    en: You must have been born in Guam. The request must come from you or, for a name change, your parent, guardian, or legal representative.
+    es: Debes haber nacido en Guam. La solicitud debe hacerla tú o, para cambio de nombre, tu padre, madre, tutor o representante legal.
+  sources: [gca-10-3222]
+steps:
+  - id: name-order
+    title:
+      en: For a name change, get your court order first
+      es: Para cambiar el nombre, obtén primero la orden judicial
+    body:
+      en: Finish your Superior Court name change (see the Guam name change guide) and get a certified copy of the order. Guam law requires the order to be filed with OVS within 30 days.
+      es: Termina tu cambio de nombre en el Tribunal Superior (ver la guía de cambio de nombre de Guam) y obtén una copia certificada. La ley de Guam exige presentarla en OVS dentro de 30 días.
+    applies_to: [name_change]
+    sources: [gca-10-3222]
+  - id: surgeon-statement
+    title:
+      en: For a sex marker change, get a sworn statement from your surgeon
+      es: Para cambiar el sexo, obtén una declaración jurada de tu cirujano
+    body:
+      en: Ask the physician who performed your surgery for a sworn (notarized) statement certifying that your sex has been changed by surgical procedure. Include your full name as it appears on the birth certificate and your date of birth.
+      es: Pide al médico que realizó tu cirugía una declaración jurada (notariada) que certifique que tu sexo se cambió mediante un procedimiento quirúrgico. Incluye tu nombre completo como aparece en el acta y tu fecha de nacimiento.
+    applies_to: [gender_marker]
+    sources: [gca-10-3222]
+  - id: contact-ovs
+    title:
+      en: Contact the Office of Vital Statistics
+      es: Comunícate con la Oficina de Estadísticas Vitales
+    body:
+      en: Call OVS at (671) 300-9263, 9264, 9265, or 9270 to confirm the current fee, the forms, and whether you can apply by mail. Then submit your written request, the supporting document (certified court order or surgeon's statement), and a photo ID.
+      es: Llama a OVS al (671) 300-9263, 9264, 9265 o 9270 para confirmar la tarifa actual, los formularios y si puedes enviar por correo. Luego entrega tu solicitud escrita, el documento de respaldo (orden judicial certificada o declaración del cirujano) y una identificación con foto.
+    sources: [dphss-pr26-102, dphss-ovs]
+  - id: copies
+    title:
+      en: Order certified copies
+      es: Pide copias certificadas
+    body:
+      en: Since June 2026 OVS has limited certified copies to one per event because of a shortage of security paper. Ask whether the limit is still in effect.
+      es: Desde junio de 2026 OVS limita las copias certificadas a una por evento por falta de papel de seguridad. Pregunta si el límite sigue vigente.
+    sources: [dphss-pr26-102]
+delivery:
+  in_person: true
+  detail:
+    en: DPHSS does not publish mail or online procedures for amendments. Call OVS first.
+    es: DPHSS no publica procedimientos por correo o en línea para enmiendas. Llama primero a OVS.
+  sources: [dphss-ovs]
+after:
+  en: With an amended Guam birth certificate you can update your Guam driver's license or ID. For your passport and Social Security record, see the federal guides. Their sex fields are currently frozen, but the name can be updated.
+  es: Con un acta de nacimiento de Guam enmendada puedes actualizar tu licencia o identificación de Guam. Para el pasaporte y el Seguro Social, ver las guías federales. Sus campos de sexo están congelados por ahora, pero el nombre se puede actualizar.
+tips:
+  - en: If you had surgery years ago, the statement must still come from the surgeon who performed it. If that surgeon is unavailable, ask OVS in writing what it will accept, and consider talking to a lawyer.
+    es: Si tu cirugía fue hace años, la declaración igual debe venir del cirujano que la hizo. Si no está disponible, pregunta por escrito a OVS qué acepta y considera hablar con un abogado.
+statutes:
+  - cite: 10 GCA § 3222
+    title:
+      en: Correction and Amendment of Vital Records (name change by court order; sex change on surgeon's sworn statement)
+      es: Corrección y enmienda de registros vitales (nombre por orden judicial; sexo con declaración jurada del cirujano)
+    url: https://col.guamcourts.gov/sites/default/files/10gc003_Q.pdf
+related_links:
+  - title: Advocates for Trans Equality, Guam identity documents
+    url: https://transequality.org/documents/guam-identity-documents
+sources:
+  - id: gca-10-3222
+    url: https://col.guamcourts.gov/sites/default/files/10gc003_Q.pdf
+    title: 10 GCA Chapter 3 (§ 3222, Correction and Amendment of Vital Records)
+    publisher: Guam Compiler of Laws
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a sworn statement from the physician performing the surgery certifying the sex of an individual has been changed by surgical procedure, and upon written request of an individual born in Guam, the sex of the individual shall be amended on the birth certificate to reflect such change.
+  - id: dphss-ovs
+    url: https://dphss.guam.gov/services/vital-statistics
+    title: Vital Statistics
+    publisher: Guam Department of Public Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Residents seeking additional information regarding vital records, application procedures, eligibility requirements, fees, or processing guidance are encouraged to contact the Office of Vital Statistics directly.
+  - id: dphss-pr26-102
+    url: https://dphss.guam.gov/sites/default/files/news_1780360007_PR26-102%20DPHSS%20Announces%20Temporary%20Limit%20on%20Vital%20Certificate%20Copies_0.pdf
+    title: PR26-102, DPHSS Announces Temporary Limit on Vital Certificate Copies (June 1, 2026)
+    publisher: Guam Department of Public Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Office of Vital Statistics will limit the issuance of vital certificates to one (1) certified copy per event.

@@ -1,0 +1,112 @@
+code: VI
+name:
+  en: U.S. Virgin Islands
+  es: Islas Vírgenes de EE. UU.
+kind: territory
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Few official sources describe these procedures. The Virgin Islands Code is hosted on LexisNexis and could not be
+    fetched, so no statute sections are cited. The Superior Court's forms library loads by script and returned no
+    documents. Much of the procedure comes from A4TE's USVI page (undated, based on staff interviews). MAP's USVI profile
+    (2026-09-24) lists a negative Medicaid policy on transgender coverage, no youth care ban, no shield law, and no
+    insurance nondiscrimination law.
+overview:
+  en: >-
+    In the U.S. Virgin Islands you change your name by petitioning the Superior Court, which requires notices in a local
+    newspaper. There is no written procedure for changing the sex marker on a Virgin Islands birth certificate or driver's
+    license. A Bureau of Motor Vehicles representative told advocates that a court order would be needed, but court staff
+    knew of no such petition ever being filed. No territorial law bans gender-affirming care. Advocates report that the
+    Medicaid program excludes transition-related care, and there are no known local informed-consent clinics.
+  es: >-
+    En las Islas Vírgenes de EE. UU. cambias tu nombre con una petición al Tribunal Superior, que exige avisos en un
+    periódico local. No hay un procedimiento escrito para cambiar el marcador de sexo en el acta de nacimiento ni en la
+    licencia de conducir. Un representante de la Oficina de Vehículos dijo a organizaciones de defensa que se necesitaría
+    una orden judicial, pero el personal del tribunal no conocía ninguna petición así. Ninguna ley territorial prohíbe la
+    atención de afirmación de género. Organizaciones de defensa informan que Medicaid excluye la atención de transición,
+    y no se conocen clínicas locales de consentimiento informado.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [a4te-vi, map-vi]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: []
+key_resources:
+  - id: lsvi
+    name: Legal Services of the Virgin Islands
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income residents, with offices on St. Croix and St. Thomas. Family law is among its practice areas.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos, con oficinas en St. Croix y St. Thomas. El derecho de familia es una de sus áreas.
+    url: https://lsvilaw.org/
+    phone: "340-774-6720"
+    address: 1832 Kongens Gade, Charlotte Amalie, St. Thomas, VI 00802
+    areas_served:
+      en: St. Thomas (340-774-6720) and St. Croix (340-718-2626)
+      es: St. Thomas (340-774-6720) y St. Croix (340-718-2626)
+    cost: free
+    verification: org_website
+    sources: [lsvi]
+  - id: vi-bar-lrs
+    name: Virgin Islands Bar Association lawyer referral
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: The Superior Court refers people without a lawyer to the Bar's lawyer referral program.
+      es: El Tribunal Superior refiere a personas sin abogado al programa de referencias del Colegio de Abogados.
+    phone: "340-778-7497"
+    cost: varies
+    verification: official_source
+    sources: [vi-civil-division]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people. It also offers microgrants for name and gender marker changes.
+      es: Línea de apoyo entre pares dirigida por y para personas trans. También ofrece microbecas para cambios de nombre y marcador.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: a4te-vi
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+    title: US Virgin Islands Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-vi
+    url: https://mapresearch.org/equality-profiles/VI/
+    title: U.S. Virgin Islands equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsvi
+    url: https://lsvilaw.org/
+    title: Legal Services of the Virgin Islands
+    publisher: Legal Services of the Virgin Islands
+    kind: org
+    accessed: "2026-09-24"
+    quote: LSVI is the only entity in the United States Virgin Islands that provides effective, efficient, and free, high-quality civil legal assistance to low income and underserved individuals.
+  - id: vi-civil-division
+    url: https://superior.vicourts.org/office_of_the_clerk/civil_division
+    title: Civil Division
+    publisher: Superior Court of the Virgin Islands
+    kind: court
+    accessed: "2026-09-24"
+    quote: If you do not have an attorney you can contact the Virgin Islands Bar Association at (340) 778-7497 and ask about their lawyer referral program.
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

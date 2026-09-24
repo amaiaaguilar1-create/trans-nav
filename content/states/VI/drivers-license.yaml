@@ -1,0 +1,157 @@
+guide_type: drivers_license
+jurisdiction: VI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Name change requirements, the 10-day notice rule, and fees are from bmv.vi.gov (Drivers License, Fees, and Forms
+    pages, read 2026-09-24). The BMV publishes nothing on sex markers, and its forms list only Male and Female. The
+    court-order requirement comes only from A4TE (undated), which reports that a BMV representative said a court order
+    reflecting the gender change would work, while court staff knew of no such petition. A4TE also reports that the court
+    order must show all nine digits of the SSN; this is not on the BMV site. The duplicate fee ($55) is stated on the
+    Drivers License page. The BMV does not say whether a name change is charged as a duplicate.
+status: unclear
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on a Virgin Islands license or ID with your court documents. There is no written policy for
+    changing the sex marker. A BMV representative told advocates a court order would be needed, but no such order is
+    known to have been issued. Only M and F are offered.
+  es: >-
+    Puedes actualizar tu nombre en la licencia o identificación de las Islas Vírgenes con tus documentos judiciales. No
+    hay política escrita para cambiar el marcador de sexo. Un representante de la Oficina de Vehículos dijo a
+    organizaciones de defensa que se necesitaría una orden judicial, pero no se conoce ninguna orden así. Solo se ofrecen
+    M y F.
+summary:
+  en: |
+    Licenses and ID cards are issued by the **Bureau of Motor Vehicles (BMV)** in St. Thomas, St. Croix, and St. John. **Appointments are required** for driver's licenses and ID cards.
+
+    **Name:** Virgin Islands law requires you to notify the BMV within **10 days** of a name change. Bring the Change of Name/Address Notice and the court documents showing your legal name change.
+
+    **Sex marker:** the BMV's forms offer Male and Female, and there is no published procedure. The only guidance is a BMV representative's statement to Advocates for Trans Equality that a **court order reflecting a change of gender** would be accepted. The Superior Court has no known procedure for issuing one, so talk to Legal Services of the Virgin Islands or a lawyer first.
+  es: |
+    Las licencias e identificaciones las emite la **Oficina de Vehículos de Motor (BMV)** en St. Thomas, St. Croix y St. John. **Se requiere cita** para licencias e identificaciones.
+
+    **Nombre:** la ley de las Islas Vírgenes exige notificar a la BMV dentro de **10 días** de un cambio de nombre. Lleva el Aviso de Cambio de Nombre/Dirección y los documentos judiciales que muestran el cambio.
+
+    **Marcador de sexo:** los formularios ofrecen masculino y femenino, y no hay un procedimiento publicado. La única guía es lo que un representante de la BMV dijo a Advocates for Trans Equality: se aceptaría una **orden judicial que refleje el cambio de género**. El Tribunal Superior no tiene un procedimiento conocido para emitirla, así que habla primero con Legal Services of the Virgin Islands o con un abogado.
+forms:
+  - id: BMV Form 2021-21
+    name:
+      en: Change of Name / Address Notice
+      es: Aviso de cambio de nombre / dirección
+    url: https://bmv.vi.gov/wp-content/uploads/2021/03/DH-LogoEdit_BMV-Name-AddressChange-Form_FILLABLE.pdf
+    required: always
+    how_to_fill:
+      en: Fill in your previous full name and your new full name exactly as on the court document. The form's Gender field offers only Male or Female.
+      es: Escribe tu nombre completo anterior y el nuevo tal como aparece en el documento judicial. El campo de género solo ofrece masculino o femenino.
+    sources: [bmv-forms]
+  - id: bmv-dl-app
+    name:
+      en: REAL ID Driver's License Application
+      es: Solicitud de licencia de conducir REAL ID
+    url: http://bmv.vi.gov/wp-content/uploads/2026/08/BMVForm-DriversLicenseApplication-6.10.2026.pdf
+    required: conditional
+    condition:
+      en: If a new card is issued at the same visit.
+      es: Si se emite una tarjeta nueva en la misma visita.
+    sources: [bmv-forms]
+steps:
+  - id: appointment
+    title:
+      en: Make an appointment
+      es: Haz una cita
+    body:
+      en: Book an appointment online at bmv.vi.gov for the St. Thomas, St. Croix, or St. John office. Appointments are required for licenses and ID cards.
+      es: Reserva una cita en bmv.vi.gov para la oficina de St. Thomas, St. Croix o St. John. Se requiere cita para licencias e identificaciones.
+    sources: [bmv-faq]
+  - id: name-change
+    title:
+      en: Bring your name change documents
+      es: Lleva tus documentos de cambio de nombre
+    body:
+      en: Bring the completed Change of Name/Address Notice, your certified court documents showing the legal name change, your current card, and REAL ID documents (proof of lawful status, Social Security number, and two proofs of address).
+      es: Lleva el Aviso de Cambio de Nombre/Dirección, tus documentos judiciales certificados del cambio de nombre, tu tarjeta actual y los documentos de REAL ID (estatus legal, número de Seguro Social y dos pruebas de dirección).
+    forms: [BMV Form 2021-21, bmv-dl-app]
+    fees: [dl-duplicate, id-card]
+    applies_to: [name_change, in_person]
+    sources: [bmv-dl, bmv-forms, bmv-fees]
+  - id: marker
+    title:
+      en: For a sex marker change, get legal advice first
+      es: Para cambiar el marcador de sexo, busca asesoría legal primero
+    body:
+      en: The only reported route is a court order reflecting the change of gender. Ask Legal Services of the Virgin Islands whether a petition is possible, then ask the BMV in writing what it will accept.
+      es: La única vía reportada es una orden judicial que refleje el cambio de género. Pregunta a Legal Services of the Virgin Islands si es posible una petición y luego pide por escrito a la BMV qué acepta.
+    applies_to: [gender_marker]
+    sources: [a4te-vi]
+fees:
+  - id: dl-duplicate
+    label:
+      en: REAL ID driver's license or ID card, adult (also the stated duplicate license fee)
+      es: Licencia o identificación REAL ID, adulto (también la tarifa de duplicado indicada)
+    amount: 55
+    note:
+      en: Seniors pay $27.50 for a REAL ID license.
+      es: Las personas mayores pagan $27.50 por la licencia REAL ID.
+    sources: [bmv-fees, bmv-dl]
+  - id: id-card
+    label:
+      en: Virgin Islands identification card (non-REAL ID), adult
+      es: Tarjeta de identificación de las Islas Vírgenes (no REAL ID), adulto
+    amount: 35
+    note:
+      en: $15 for applicants under 16.
+      es: $15 para menores de 16.
+    sources: [bmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  sources: [bmv-faq]
+after:
+  en: For your passport and Social Security record, see the federal guides. Name changes are available there, but sex marker changes currently are not.
+  es: Para el pasaporte y el Seguro Social, ver las guías federales. Allí se puede cambiar el nombre, pero por ahora no el marcador de sexo.
+related_links:
+  - title: Advocates for Trans Equality, US Virgin Islands identity documents
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+sources:
+  - id: bmv-dl
+    url: https://bmv.vi.gov/drivers-license/
+    title: Drivers License
+    publisher: USVI Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: The LAW requires YOU to notify the BUREAU OF MOTOR VEHICLES within TEN (10) DAYS of any change of name and/or address. For name changes, applicant must present marriage certificate, divorce decree or court documents showing legal name change.
+  - id: bmv-fees
+    url: https://bmv.vi.gov/fees/
+    title: Fees
+    publisher: USVI Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Real ID Driver's License/ Identification Card (Adult) $55.00. Virgin Islands Identification Card (Adult) $35.00"
+  - id: bmv-forms
+    url: https://bmv.vi.gov/forms/
+    title: Forms
+    publisher: USVI Bureau of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+  - id: bmv-faq
+    url: https://bmv.vi.gov/contact/faq/
+    title: FAQ
+    publisher: USVI Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Appointments are not required for all services. They are required for: Driver's licenses, Identification cards"
+  - id: a4te-vi
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+    title: US Virgin Islands Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: A representative of the USVI Bureau of Motor Vehicles stated that the gender marker on a driver's license could be changed if an individual presents a court order that reflects a change in gender marker.

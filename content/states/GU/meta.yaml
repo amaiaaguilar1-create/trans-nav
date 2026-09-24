@@ -1,0 +1,115 @@
+code: GU
+name:
+  en: Guam
+  es: Guam
+kind: territory
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate is a judgment call for a territory with few written rules. Name change is a routine Superior Court petition
+    (7 GCA ch. 36) with public posting, not newspaper publication. The birth certificate sex marker still requires a
+    surgeon's sworn statement under 10 GCA § 3222(e) (Compiler of Laws text dated 2026-04-23). No written policy was found
+    for driver's license sex markers. MAP's Guam profile, checked 2026-09-24, shows no youth care ban, no shield law, and
+    no insurance nondiscrimination law.
+overview:
+  en: >-
+    In Guam you can change your name through a standard Superior Court petition. Instead of a newspaper notice, the
+    court's order is posted in public places for four weeks. Changing the sex marker is harder. A Guam birth certificate
+    can be amended only with a sworn statement from the surgeon who performed gender-affirming surgery, and the Department
+    of Revenue and Taxation has no written policy for driver's licenses. No Guam law bans gender-affirming care, but no law
+    protects it either, and there are no known local informed-consent hormone clinics. The major national telehealth
+    services do not currently serve Guam.
+  es: >-
+    En Guam puedes cambiar tu nombre mediante una petición estándar ante el Tribunal Superior. En lugar de un aviso en el
+    periódico, la orden del tribunal se coloca en lugares públicos durante cuatro semanas. Cambiar el marcador de sexo es
+    más difícil. El acta de nacimiento de Guam solo se puede enmendar con una declaración jurada del cirujano que realizó
+    la cirugía de afirmación de género, y el Departamento de Ingresos e Impuestos no tiene una política escrita para las
+    licencias de conducir. Ninguna ley de Guam prohíbe la atención de afirmación de género, pero tampoco la protege, y no
+    se conocen clínicas locales de hormonas por consentimiento informado. Los principales servicios nacionales de
+    telesalud no atienden Guam por ahora.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [gca-10-3222, map-gu]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: []
+key_resources:
+  - id: guam-court-self-help
+    name: Superior Court of Guam, self-help and court navigators
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: >-
+        Free forms and instructions for people filing without a lawyer, including the Adult and Minor Name Change Request
+        packets and the fee waiver application. The packet says court navigators can help you fill out the forms.
+      es: >-
+        Formularios e instrucciones gratuitos para personas que presentan casos sin abogado, incluidos los paquetes de
+        cambio de nombre para adultos y menores y la solicitud de exención de tarifas. El paquete indica que los
+        navegadores del tribunal pueden ayudarte a llenar los formularios.
+    url: https://www.guamcourts.gov/quick-assist/specifically/self-help-litigants
+    phone: "671-475-3331"
+    address: 120 West O'Brien Drive, Hagåtña, GU 96910
+    cost: free
+    verification: official_source
+    sources: [guam-self-help]
+  - id: guam-bar-lrs
+    name: Guam Bar Association Lawyer Referral Service
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Referrals to private Guam attorneys. Useful if you need help with a court petition, such as a court order for a birth certificate change.
+      es: Referencias a abogados privados en Guam. Útil si necesitas ayuda con una petición judicial, por ejemplo una orden para cambiar el acta de nacimiento.
+    url: https://www.guambar.org/resources-tools/lawyer-referral-service-lrs
+    cost: varies
+    verification: org_website
+    sources: [guam-bar]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people. It also offers microgrants for name and gender marker changes.
+      es: Línea de apoyo entre pares dirigida por y para personas trans. También ofrece microbecas para cambios de nombre y marcador de género.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: gca-10-3222
+    url: https://col.guamcourts.gov/sites/default/files/10gc003_Q.pdf
+    title: 10 GCA Chapter 3, Public Health and Social Services (includes § 3222, Correction and Amendment of Vital Records)
+    publisher: Guam Compiler of Laws
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a sworn statement from the physician performing the surgery certifying the sex of an individual has been changed by surgical procedure, and upon written request of an individual born in Guam, the sex of the individual shall be amended on the birth certificate.
+  - id: map-gu
+    url: https://mapresearch.org/equality-profiles/GU/
+    title: Guam equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: guam-self-help
+    url: https://www.guamcourts.gov/quick-assist/specifically/self-help-litigants
+    title: Self-Help Litigants
+    publisher: Judiciary of Guam
+    kind: court
+    accessed: "2026-09-24"
+  - id: guam-bar
+    url: https://www.guambar.org/
+    title: Guam Bar Association
+    publisher: Guam Bar Association
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

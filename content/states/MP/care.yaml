@@ -1,0 +1,198 @@
+jurisdiction: MP
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    No CNMI law on gender-affirming care was found. MAP's MP profile (checked 2026-09-24) shows no youth care ban, no
+    shield law, no Medicaid policy, and no insurance nondiscrimination law. The Commonwealth Medicaid Agency's site
+    (medicaid.cnmi.gov) shows only a provider directory, and its main site link could not be found, so no
+    how_to_apply_url is given. CHCC's Behavioral Health page loaded but lists no services in plain text. No local
+    hormone prescriber could be verified. Plume's map lists no territories.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in the Northern Mariana Islands for adults and minors, and no CNMI law bans it. Local
+    access is very limited, Medicaid coverage is unclear, and the main telehealth services do not serve the CNMI.
+  es: >-
+    La atención de afirmación de género es legal en las Islas Marianas del Norte para adultos y menores, y ninguna ley de
+    la CNMI la prohíbe. El acceso local es muy limitado, la cobertura de Medicaid no está clara y los principales
+    servicios de telesalud no atienden la CNMI.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No law restricts adult care. Options:
+      1. Ask a primary care provider at the Commonwealth Healthcare Corporation (CHCC) or a community health center (HRSA finder) to prescribe or continue hormones.
+      2. If you travel to Guam, Hawaii, or the mainland, see what care is available there.
+      3. Apply to national funds (Point of Pride, Genderbands). Check whether they accept CNMI residents.
+    es: |
+      Ninguna ley restringe la atención para adultos. Opciones:
+      1. Pide a un proveedor de atención primaria de la Commonwealth Healthcare Corporation (CHCC) o de un centro de salud comunitario (buscador de HRSA) que recete o continúe tus hormonas.
+      2. Si viajas a Guam, Hawái o el continente, averigua qué atención hay allí.
+      3. Solicita fondos nacionales (Point of Pride, Genderbands). Verifica si aceptan residentes de la CNMI.
+  sources: [map-mp, hrsa, chcc]
+minor_care:
+  status: available
+  detail:
+    en: No CNMI law bans gender-affirming care for minors. There is no shield law. Parental consent is required (see also the CNMI Medical Consent Act, 3 CMC ch. 11).
+    es: Ninguna ley de la CNMI prohíbe la atención de afirmación de género para menores. No hay ley escudo. Se requiere consentimiento de los padres (ver también la Ley de Consentimiento Médico de la CNMI, 3 CMC cap. 11).
+  sources: [map-mp, cmc-t3-health]
+medicaid:
+  program_name: CNMI Medicaid (Commonwealth Medicaid Agency)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: The Commonwealth Medicaid Agency publishes no policy on gender-affirming care. Ask for a written coverage decision and appeal any denial.
+    es: La Commonwealth Medicaid Agency no publica una política sobre atención de afirmación de género. Pide una decisión de cobertura por escrito y apela cualquier negación.
+  sources: [cnmi-medicaid, map-mp]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: No CNMI law bars insurers from excluding gender-affirming care.
+    es: Ninguna ley de la CNMI prohíbe a las aseguradoras excluir la atención de afirmación de género.
+  sources: [map-mp]
+telehealth_hrt: []
+resources:
+  - id: chcc
+    name: Commonwealth Healthcare Corporation (CHCC)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: The CNMI's public hospital and health system, including public health, behavioral health, and the Rota and Tinian health centers.
+      es: El hospital y sistema de salud público de la CNMI, con salud pública, salud conductual y los centros de salud de Rota y Tinian.
+    url: https://www.chcc.health/
+    phone: "670-234-8950"
+    address: 1178 Hinemlu Street, Garapan, Saipan, MP 96950
+    cost: insurance
+    accepts_medicaid: true
+    verification: official_source
+    sources: [chcc]
+  - id: chcc-behavioral
+    name: CHCC Behavioral Health
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Public behavioral health services through CHCC.
+      es: Servicios públicos de salud conductual de CHCC.
+    url: https://www.chcc.health/behavioral-health.php
+    cost: varies
+    verification: official_source
+    sources: [chcc-bh]
+  - id: cnmi-medicaid
+    name: Commonwealth Medicaid Agency provider directory
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Directory of providers that accept CNMI Medicaid.
+      es: Directorio de proveedores que aceptan Medicaid de la CNMI.
+    url: https://medicaid.cnmi.gov/
+    cost: free
+    verification: official_source
+    sources: [cnmi-medicaid]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers. Search "Saipan."
+      es: Buscador federal de centros de salud comunitarios. Busca "Saipan".
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone access and surgery. Check eligibility for territory residents.
+      es: Fondos nacionales para hormonas y cirugía. Verifica la elegibilidad para residentes de territorios.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [point-of-pride]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Small national grants for transition costs.
+      es: Pequeñas becas nacionales para costos de transición.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: map-mp
+    url: https://mapresearch.org/equality-profiles/MP/
+    title: Northern Mariana Islands equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Negative Law: Laws Banning Best Practice Medical Care For Transgender Youth: No Negative Law"
+  - id: cmc-t3-health
+    url: https://cnmilaw.gov/commonwealth-code/2717
+    title: Title 3, Division 2 Health (includes Chapter 11, Medical Consent Act)
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: chcc
+    url: https://www.chcc.health/
+    title: Commonwealth Healthcare Corporation
+    publisher: Commonwealth Healthcare Corporation
+    kind: official
+    accessed: "2026-09-24"
+  - id: chcc-bh
+    url: https://www.chcc.health/behavioral-health.php
+    title: Behavioral Health
+    publisher: Commonwealth Healthcare Corporation
+    kind: official
+    accessed: "2026-09-24"
+  - id: cnmi-medicaid
+    url: https://medicaid.cnmi.gov/
+    title: Commonwealth Medicaid Agency provider directory
+    publisher: Commonwealth Medicaid Agency
+    kind: official
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: point-of-pride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

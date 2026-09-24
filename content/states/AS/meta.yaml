@@ -1,0 +1,92 @@
+code: AS
+name:
+  en: American Samoa
+  es: Samoa Americana
+kind: territory
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    American Samoa has no name change statute. The process comes from High Court decisions (Application of Amataga,
+    1995; In re Mase, 9 Am. Samoa 3d 125, 2004) and A4TE's page. In Mase, the High Court held that A.S.C.A. § 13.0530
+    does not let the Registrar amend a birth certificate after a name change, reasoning from Littleton v. Prange (Tex.
+    1999). This supports "restrictive" for ID documents. asbar.org returns 403 to scripts but loads through a browser
+    fetch. MAP's AS profile (2026-09-24) shows no youth care ban, no shield law, and a negative score for name change
+    publication requirements. American Samoa Legal Aid's name change page (linked by A4TE) now returns 404, and no
+    working site for the organization was found.
+overview:
+  en: >-
+    American Samoa has no name change statute. The High Court grants name changes under common law after newspaper
+    publication and notice to your matai and immediate family. There is no written procedure for changing the sex marker
+    on a birth certificate or driver's license. A 2004 High Court decision held that the Registrar may not amend a birth
+    certificate for a later name change, and its reasoning suggests sex marker changes would also be refused. No law bans
+    gender-affirming care, but local access is very limited, and national telehealth services do not serve the
+    territory.
+  es: >-
+    Samoa Americana no tiene una ley de cambio de nombre. El Tribunal Superior otorga cambios de nombre según el derecho
+    común, tras publicación en el periódico y aviso a tu matai y familia inmediata. No hay un procedimiento escrito para
+    cambiar el marcador de sexo en el acta de nacimiento ni en la licencia. Una decisión del Tribunal Superior de 2004
+    determinó que el Registro no puede enmendar un acta por un cambio de nombre posterior, y su razonamiento sugiere que
+    también se negarían los cambios de sexo. Ninguna ley prohíbe la atención de afirmación de género, pero el acceso
+    local es muy limitado, y los servicios nacionales de telesalud no atienden el territorio.
+climate:
+  id_documents: restrictive
+  care: mixed
+  shield_law: false
+  sources: [mase, map-as]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: []
+key_resources:
+  - id: high-court
+    name: High Court of American Samoa
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Hears name change petitions. There is no official form, so petitions are drafted by the petitioner or a lawyer. Mail to P.O. Box 309, Pago Pago, AS 96799.
+      es: Conoce las peticiones de cambio de nombre. No hay formulario oficial, así que las redacta la persona o un abogado. Correo a P.O. Box 309, Pago Pago, AS 96799.
+    url: https://asbar.org/
+    cost: varies
+    verification: community_reported
+    sources: [a4te-as]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health, name_change]
+    description:
+      en: Peer support hotline run by and for trans people, plus microgrants for name and gender marker changes.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, y microbecas para cambios de nombre y marcador.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: mase
+    url: https://static.case.law/am-samoa-3d/9/html/0125-01.html
+    title: In re Petition to Change Name of Tia'i Mase, 9 Am. Samoa 3d 125 (High Court 2004)
+    publisher: Caselaw Access Project
+    kind: court
+    accessed: "2026-09-24"
+    quote: Although Mase may change his legal name, absent fraudulent purpose and/or infringement on the rights of others, he may not amend his original birth certificate unless he can show improper recordation of his name at the time the original birth certificate was created.
+  - id: map-as
+    url: https://mapresearch.org/equality-profiles/AS/
+    title: American Samoa equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-as
+    url: https://transequality.org/documents/american-samoa-identity-documents
+    title: American Samoa Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

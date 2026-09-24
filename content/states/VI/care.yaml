@@ -1,0 +1,208 @@
+jurisdiction: VI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    MAP's USVI profile (checked 2026-09-24) scores the territory's Medicaid policy on transgender coverage as a
+    "Negative Law" (an exclusion) and shows no youth care ban, no shield law, and no insurance nondiscrimination law. The
+    exclusion could not be found in the Medicaid Providers General Information Manual (January 2026) or on the DHS Office
+    of Medicaid page, so covers_hrt and covers_surgery are "unclear," not "no." Reviewer: locate the exclusion in the
+    USVI Medicaid state plan or regulations. No informed-consent clinic could be verified. Plume's map lists no
+    territories.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in the U.S. Virgin Islands for adults and minors, and no territorial law bans it.
+    Advocates report that Virgin Islands Medicaid excludes transition-related care. No local informed-consent hormone
+    clinic is known, and the main telehealth services do not serve the territory.
+  es: >-
+    La atención de afirmación de género es legal en las Islas Vírgenes de EE. UU. para adultos y menores, y ninguna ley
+    territorial la prohíbe. Organizaciones de defensa informan que Medicaid de las Islas Vírgenes excluye la atención de
+    transición. No se conoce ninguna clínica local de consentimiento informado, y los principales servicios de telesalud
+    no atienden el territorio.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No territorial law restricts adult care. Finding a prescriber is the main barrier.
+
+      **What to try:**
+      1. Ask a primary care doctor or a community health center to prescribe or continue hormones. Use the HRSA finder to locate federally funded centers on St. Thomas and St. Croix.
+      2. The Department of Health's family planning clinics serve people regardless of ability to pay and may be a starting point for sexual health care and referrals.
+      3. Apply to national funds (Point of Pride, Genderbands). Check whether they accept Virgin Islands residents.
+    es: |
+      Ninguna ley territorial restringe la atención para adultos. El obstáculo principal es encontrar quien recete.
+
+      **Qué intentar:**
+      1. Pide a un médico de atención primaria o a un centro de salud comunitario que recete o continúe tus hormonas. Usa el buscador de HRSA para ubicar centros con fondos federales en St. Thomas y St. Croix.
+      2. Las clínicas de planificación familiar del Departamento de Salud atienden sin importar la capacidad de pago y pueden ser un punto de partida para salud sexual y referencias.
+      3. Solicita fondos nacionales (Point of Pride, Genderbands). Verifica si aceptan residentes de las Islas Vírgenes.
+  sources: [map-vi, hrsa, vi-family-planning]
+minor_care:
+  status: available
+  detail:
+    en: No territorial law bans gender-affirming care for minors, and there is no shield law. Parental consent is required, and pediatric specialists are very limited.
+    es: Ninguna ley territorial prohíbe la atención de afirmación de género para menores, y no hay ley escudo. Se requiere consentimiento de los padres, y los especialistas pediátricos son muy limitados.
+  sources: [map-vi]
+medicaid:
+  program_name: Virgin Islands Medicaid (Medical Assistance Program)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: >-
+      The Department of Human Services' Office of Medicaid runs the program. The Movement Advancement Project lists the
+      Virgin Islands as having a Medicaid policy that excludes transgender-related care, but we could not find the
+      exclusion in the program's published materials. Ask for a written coverage decision and appeal any denial. Legal
+      Services of the Virgin Islands handles health benefit cases.
+    es: >-
+      La Oficina de Medicaid del Departamento de Servicios Humanos administra el programa. El Movement Advancement Project
+      indica que Medicaid de las Islas Vírgenes tiene una política que excluye la atención relacionada con personas trans,
+      pero no encontramos la exclusión en los materiales publicados. Pide una decisión de cobertura por escrito y apela
+      cualquier negación. Legal Services of the Virgin Islands atiende casos de beneficios de salud.
+  how_to_apply_url: https://dhs.vi.gov/office-of-medicaid/
+  sources: [vi-medicaid, map-vi]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: No Virgin Islands law bars insurers from excluding gender-affirming care. Check your plan's exclusions.
+    es: Ninguna ley de las Islas Vírgenes prohíbe a las aseguradoras excluir la atención de afirmación de género. Revisa las exclusiones de tu plan.
+  sources: [map-vi]
+telehealth_hrt: []
+resources:
+  - id: vi-family-planning
+    name: Virgin Islands Department of Health family planning clinics
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Reproductive and sexual health services for all genders, regardless of ability to pay.
+      es: Servicios de salud reproductiva y sexual para todos los géneros, sin importar la capacidad de pago.
+    url: https://doh.vi.gov/programs/family-planning-clinics/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [vi-family-planning]
+  - id: vi-medicaid
+    name: DHS Office of Medicaid
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Medicaid applications, required documents, and program contacts.
+      es: Solicitudes de Medicaid, documentos requeridos y contactos del programa.
+    url: https://dhs.vi.gov/office-of-medicaid/
+    cost: free
+    verification: official_source
+    sources: [vi-medicaid]
+  - id: vi-988
+    name: Virgin Islands 988 Suicide and Crisis Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Call or text 988 for crisis support. Department of Health information page.
+      es: Llama o envía texto al 988 para apoyo en crisis. Página informativa del Departamento de Salud.
+    url: https://doh.vi.gov/programs/genz/
+    phone: "988"
+    cost: free
+    verification: official_source
+    sources: [vi-988]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for sliding-scale community health centers. Search by Virgin Islands ZIP code.
+      es: Buscador federal de centros de salud comunitarios con tarifas según ingresos. Busca por código postal.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone access and surgery. Check eligibility for territory residents.
+      es: Fondos nacionales para hormonas y cirugía. Verifica la elegibilidad para residentes de territorios.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [point-of-pride]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Small national grants for transition costs.
+      es: Pequeñas becas nacionales para costos de transición.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: map-vi
+    url: https://mapresearch.org/equality-profiles/VI/
+    title: U.S. Virgin Islands equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "State Medicaid Policy Related to Coverage for Transgender People: Negative Law. Laws Banning Best Practice Medical Care For Transgender Youth: No Negative Law"
+  - id: vi-medicaid
+    url: https://dhs.vi.gov/office-of-medicaid/
+    title: Office of Medicaid
+    publisher: Virgin Islands Department of Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: vi-family-planning
+    url: https://doh.vi.gov/programs/family-planning-clinics/
+    title: Family Planning Clinics
+    publisher: Virgin Islands Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: We offer a range of reproductive health services for women and men regardless of their ability to pay.
+  - id: vi-988
+    url: https://doh.vi.gov/programs/genz/
+    title: 988 Suicide and Crisis Lifeline
+    publisher: Virgin Islands Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: point-of-pride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

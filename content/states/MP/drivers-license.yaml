@@ -1,0 +1,83 @@
+guide_type: drivers_license
+jurisdiction: MP
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The BMV is part of the Department of Public Safety, and its website (dps.gov.mp) returned HTTP 401, so no official
+    BMV page, form, or fee could be read. The requirements (court order for the legal name and gender change, plus a
+    valid passport or original birth certificate, plus an application) come only from A4TE's undated page, based on an
+    interview with a BMV representative. PL 24-38 § 104(b) confirms that a name change order can be used to update ID
+    cards. Markers available are not confirmed and are therefore omitted.
+status: unclear
+requirement_type: court_order
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on a CNMI license or ID with your court order. For the sex marker, the BMV has reportedly
+    required a court order reflecting the gender change, plus a passport or birth certificate. There is no written
+    policy, and no court procedure for such an order exists except the surgery-based birth certificate rule.
+  es: >-
+    Puedes actualizar tu nombre en la licencia o identificación de la CNMI con tu orden judicial. Para el marcador de
+    sexo, según se informa la BMV ha exigido una orden judicial que refleje el cambio de género, más pasaporte o acta de
+    nacimiento. No hay política escrita, y no existe un procedimiento judicial para esa orden salvo la regla del acta de
+    nacimiento basada en cirugía.
+summary:
+  en: |
+    Licenses and ID cards are issued by the **Bureau of Motor Vehicles (BMV)**, Department of Public Safety.
+
+    **Name:** bring a certified copy of your Superior Court name change order, a completed application, and your current license. Public Law 24-38 says the order can be used to update identification cards.
+
+    **Sex marker:** a BMV representative told Advocates for Trans Equality that you need a court order for the legal name and gender change, plus a valid passport or original birth certificate. The only CNMI law on court-ordered sex changes is the birth certificate statute, which requires surgery. Ask the BMV in writing whether it will accept an amended CNMI birth certificate or other documentation.
+  es: |
+    Las licencias e identificaciones las emite la **Oficina de Vehículos de Motor (BMV)** del Departamento de Seguridad Pública.
+
+    **Nombre:** lleva una copia certificada de tu orden de cambio de nombre del Tribunal Superior, la solicitud llena y tu licencia actual. La Ley Pública 24-38 dice que la orden sirve para actualizar identificaciones.
+
+    **Marcador de sexo:** un representante de la BMV dijo a Advocates for Trans Equality que necesitas una orden judicial de cambio de nombre y género, más pasaporte válido o acta de nacimiento original. La única ley de la CNMI sobre cambios de sexo por orden judicial es la del acta de nacimiento, que exige cirugía. Pregunta por escrito a la BMV si acepta un acta de la CNMI enmendada u otra documentación.
+steps:
+  - id: ssa
+    title:
+      en: Update Social Security first
+      es: Actualiza primero el Seguro Social
+    body:
+      en: Change your name with Social Security using your certified court order (see the federal Social Security guide).
+      es: Cambia tu nombre en el Seguro Social con tu orden judicial certificada (ver la guía federal).
+    applies_to: [name_change]
+    sources: [pl-24-38]
+  - id: bmv
+    title:
+      en: Visit the BMV
+      es: Visita la BMV
+    body:
+      en: Bring your current license or ID, a certified copy of your court order, a valid passport or birth certificate, and a completed application. For a sex marker change, bring whatever court order or amended birth certificate you have, and ask for any refusal in writing.
+      es: Lleva tu licencia o identificación actual, copia certificada de la orden judicial, pasaporte válido o acta de nacimiento y la solicitud llena. Para cambiar el marcador de sexo, lleva la orden judicial o el acta enmendada que tengas y pide por escrito cualquier negación.
+    applies_to: [in_person]
+    sources: [a4te-mp, pl-24-38]
+delivery:
+  in_person: true
+  sources: [a4te-mp]
+after:
+  en: For your passport, see the federal passport guide.
+  es: Para el pasaporte, ver la guía federal.
+related_links:
+  - title: Advocates for Trans Equality, CNMI identity documents
+    url: https://transequality.org/documents/commonwealth-northern-mariana-islands-identity-documents
+sources:
+  - id: a4te-mp
+    url: https://transequality.org/documents/commonwealth-northern-mariana-islands-identity-documents
+    title: Commonwealth of the Northern Mariana Islands Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: In order to change the name and gender marker on a driver's license, the license holder must provide both the court order for the legal name and gender change, as well as a valid passport or original birth certificate.
+  - id: pl-24-38
+    url: https://cnmilaw.gov/docs/lrc-uploads/2026/public_law-pl-24-38-u48.pdf
+    title: Public Law 24-38 (HB 24-10)
+    publisher: CNMI Law Revision Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The petitioner may use the court order to update their legal documents, including identification cards, birth certificates, and other official records.

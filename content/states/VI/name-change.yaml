@@ -1,0 +1,200 @@
+guide_type: name_change
+jurisdiction: VI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Could not confirm from primary sources: (1) The governing statute. The V.I. Code is on LexisNexis public access,
+    linked from legvi.org, which cannot be fetched automatically. Reviewer: add the V.I. Code section for change of
+    name. (2) Forms. The Superior Court forms library (vicourts.org/forms/superior_court) loads by script and returned
+    no documents. The older domain visuperiorcourt.org is now a parked page. (3) Filing fee. A4TE reports $75; this is
+    not confirmed on a court fee schedule and so is not listed as a fee. (4) The publication procedure (a notice of
+    intent for four consecutive weeks, then two more weeks after tentative approval) and the harm-based sealing standard
+    come only from A4TE's undated, interview-based page. Status is "available" because an ordinary petition is heard,
+    but publication is mandatory with no known waiver, and a reviewer may prefer "restricted."
+status: available
+status_summary:
+  en: >-
+    You can change your name by petitioning the Superior Court of the Virgin Islands in your district. Advocates report
+    that the court requires two rounds of notice in a local newspaper. Sealing is possible only if you show you would be
+    harmed. There are no published statewide forms, so contact the Clerk's Office or Legal Services of the Virgin Islands
+    before filing.
+  es: >-
+    Puedes cambiar tu nombre con una petición al Tribunal Superior de las Islas Vírgenes en tu distrito. Organizaciones de
+    defensa informan que el tribunal exige dos rondas de aviso en un periódico local. Solo se puede sellar si demuestras
+    que sufrirías daño. No hay formularios publicados, así que comunícate con la secretaría o con Legal Services of the
+    Virgin Islands antes de presentar.
+summary:
+  en: |
+    Name changes are filed in the **Superior Court of the Virgin Islands**, in either the St. Thomas/St. John district or the St. Croix district. Court staff may not give legal advice, including which forms to use, so it helps to get free help from Legal Services of the Virgin Islands or a referral from the Virgin Islands Bar Association.
+
+    According to Advocates for Trans Equality, the petition states your current name, the name you want, your residence and place of birth, and includes ID such as your birth certificate. After you file, the court mails you its requirements. They include a **notice of intent published for four consecutive weeks** in a local newspaper, a hearing, and then a **second notice for two more weeks** before the final certificate of name change is issued. The court sends the final certificate to Vital Statistics.
+  es: |
+    Los cambios de nombre se presentan en el **Tribunal Superior de las Islas Vírgenes**, en el distrito de St. Thomas/St. John o en el de St. Croix. El personal no puede dar asesoría legal, ni decir qué formularios usar, así que conviene pedir ayuda gratuita a Legal Services of the Virgin Islands o una referencia al Colegio de Abogados.
+
+    Según Advocates for Trans Equality, la petición indica tu nombre actual, el nombre que quieres, tu residencia y lugar de nacimiento, e incluye identificación como tu acta de nacimiento. Después de presentar, el tribunal te envía por correo los requisitos. Incluyen un **aviso de intención publicado cuatro semanas seguidas** en un periódico local, una audiencia y luego un **segundo aviso por dos semanas más** antes de emitir el certificado final de cambio de nombre. El tribunal envía el certificado final a Estadísticas Vitales.
+eligibility:
+  residency:
+    en: File in the judicial district where you live, either St. Thomas/St. John or St. Croix.
+    es: Presenta en el distrito judicial donde vives, St. Thomas/St. John o St. Croix.
+  sources: [a4te-vi]
+steps:
+  - id: get-help
+    title:
+      en: Get legal help or instructions
+      es: Busca ayuda legal o instrucciones
+    body:
+      en: Call Legal Services of the Virgin Islands (St. Thomas 340-774-6720, St. Croix 340-718-2626) or the Virgin Islands Bar Association referral line (340-778-7497). Court staff cannot tell you which forms to use.
+      es: Llama a Legal Services of the Virgin Islands (St. Thomas 340-774-6720, St. Croix 340-718-2626) o a la línea de referencias del Colegio de Abogados (340-778-7497). El personal del tribunal no puede decirte qué formularios usar.
+    sources: [lsvi, vi-civil-division]
+  - id: petition
+    title:
+      en: File a petition with the Superior Court
+      es: Presenta una petición en el Tribunal Superior
+    body:
+      en: The petition should state your current legal name, your proposed name, your residence, your place of birth, and your reason. Attach proof of identity, including your birth certificate. File it with the Clerk in your district and pay the filing fee.
+      es: La petición debe indicar tu nombre legal actual, el nombre propuesto, tu residencia, tu lugar de nacimiento y tu motivo. Adjunta prueba de identidad, incluida tu acta de nacimiento. Preséntala en la secretaría de tu distrito y paga la tarifa.
+    sources: [a4te-vi]
+  - id: publish-intent
+    title:
+      en: Publish the notice of intent
+      es: Publica el aviso de intención
+    body:
+      en: Follow the court's written instructions. Advocates report a notice in a local newspaper for four consecutive weeks, showing your current name, your new name, and the hearing date.
+      es: Sigue las instrucciones escritas del tribunal. Organizaciones de defensa informan un aviso en un periódico local durante cuatro semanas seguidas, con tu nombre actual, el nuevo y la fecha de audiencia.
+    estimated_time:
+      en: 4 weeks
+      es: 4 semanas
+    sources: [a4te-vi]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: If no one shows a compelling reason against the change, the court may give tentative approval.
+      es: Si nadie presenta una razón convincente en contra, el tribunal puede dar su aprobación provisional.
+    sources: [a4te-vi]
+  - id: second-notice
+    title:
+      en: Publish the second notice and get the final certificate
+      es: Publica el segundo aviso y obtén el certificado final
+    body:
+      en: Publish the announcement for two more consecutive weeks and give the court proof of publication. The court then issues the final certificate of name change and sends it to Vital Statistics. Ask for certified copies.
+      es: Publica el anuncio dos semanas más y entrega al tribunal la prueba de publicación. Luego el tribunal emite el certificado final de cambio de nombre y lo envía a Estadísticas Vitales. Pide copias certificadas.
+    estimated_time:
+      en: 2 weeks
+      es: 2 semanas
+    sources: [a4te-vi]
+publication:
+  required: "yes"
+  detail:
+    en: Reported to be two separate newspaper notices, four weeks before the hearing and two weeks after tentative approval.
+    es: Se informa que son dos avisos en el periódico, cuatro semanas antes de la audiencia y dos semanas después de la aprobación provisional.
+  waiver_available: false
+  sources: [a4te-vi]
+hearing:
+  required: "yes"
+  sources: [a4te-vi]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: You may ask the court to seal the petition and order, but you must show evidence that you would be harmed without sealing.
+    es: Puedes pedir al tribunal que selle la petición y la orden, pero debes presentar evidencia de que sufrirías daño sin el sellado.
+  how:
+    en: Include a request to seal in your petition or a separate motion, with evidence of the risk (for example, threats or a protective order). A lawyer can help.
+    es: Incluye la solicitud de sellado en tu petición o en una moción aparte, con evidencia del riesgo (por ejemplo, amenazas u orden de protección). Un abogado puede ayudarte.
+  sources: [a4te-vi]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No published fee waiver form was found. Ask the Clerk or Legal Services of the Virgin Islands whether you can proceed without paying the fee.
+    es: No se encontró un formulario publicado de exención. Pregunta a la secretaría o a Legal Services of the Virgin Islands si puedes proceder sin pagar.
+  sources: [lsvi]
+minors:
+  summary:
+    en: No published procedure for minors was found. A parent or guardian would petition on the child's behalf. Ask the Clerk or a lawyer about notice to the other parent.
+    es: No se encontró un procedimiento publicado para menores. Un padre, madre o tutor presentaría la petición en nombre del menor. Pregunta a la secretaría o a un abogado sobre el aviso al otro padre.
+  sources: [a4te-vi]
+after:
+  en: |
+    1. **Social Security** first (see the federal Social Security guide).
+    2. **Driver's license or ID:** notify the Bureau of Motor Vehicles within 10 days and bring your court documents (see the USVI driver's license guide).
+    3. **Birth certificate:** if you were born in the Virgin Islands, ask Vital Records for a birth certificate reflecting the court-ordered name (see the USVI birth certificate guide).
+    4. **Passport:** see the federal passport guide.
+  es: |
+    1. **Seguro Social** primero (ver la guía federal).
+    2. **Licencia o identificación:** notifica a la Oficina de Vehículos dentro de 10 días y lleva tus documentos judiciales (ver la guía de licencia de USVI).
+    3. **Acta de nacimiento:** si naciste en las Islas Vírgenes, pide a Registros Vitales un acta con el nombre ordenado por el tribunal (ver la guía de acta de USVI).
+    4. **Pasaporte:** ver la guía federal.
+local_help:
+  - id: lsvi
+    name: Legal Services of the Virgin Islands
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income residents. St. Croix (340-718-2626) and St. Thomas (340-774-6720).
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos. St. Croix (340-718-2626) y St. Thomas (340-774-6720).
+    url: https://lsvilaw.org/
+    phone: "340-774-6720"
+    cost: free
+    verification: org_website
+    sources: [lsvi]
+  - id: vi-bar-lrs
+    name: Virgin Islands Bar Association lawyer referral
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Referral to private attorneys, recommended by the Superior Court for people without a lawyer.
+      es: Referencias a abogados privados, recomendadas por el Tribunal Superior para personas sin abogado.
+    phone: "340-778-7497"
+    cost: varies
+    verification: official_source
+    sources: [vi-civil-division]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline microgrants
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Microgrants toward name and gender marker change costs.
+      es: Microbecas para costos de cambio de nombre y marcador de género.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+related_links:
+  - title: Advocates for Trans Equality, US Virgin Islands identity documents
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+    note:
+      en: Based on interviews with court and agency staff. No date is shown.
+      es: Basado en entrevistas con personal del tribunal y agencias. No tiene fecha.
+sources:
+  - id: a4te-vi
+    url: https://transequality.org/documents/us-virgin-islands-identity-documents
+    title: US Virgin Islands Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The requirements include two periods of public notice in a local newspaper. The first notice is referred to as the notice of intent, which will be published for four consecutive weeks.
+  - id: vi-civil-division
+    url: https://superior.vicourts.org/office_of_the_clerk/civil_division
+    title: Civil Division
+    publisher: Superior Court of the Virgin Islands
+    kind: court
+    accessed: "2026-09-24"
+    quote: Virgin Islands law prohibits Court staff from providing legal advice. This includes what forms should be used, how to fill the forms out and what legal procedures to follow.
+  - id: lsvi
+    url: https://lsvilaw.org/contact-us/
+    title: Contact, Legal Services of the Virgin Islands
+    publisher: Legal Services of the Virgin Islands
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

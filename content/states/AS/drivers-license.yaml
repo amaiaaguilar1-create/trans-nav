@@ -1,0 +1,80 @@
+guide_type: drivers_license
+jurisdiction: AS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The only official source found is the Department of Public Safety, Office of Motor Vehicle driver education study
+    guide (PDF linked from americansamoa.gov), which covers documents for new licenses and renewals but not name or sex
+    marker changes. Everything else is from A4TE's undated page. That includes updating Social Security first, bringing
+    the court order and SSA card, the $12 fee for a 3-year license or ID, and the statement that there is "no established
+    policy for amending the gender marker." The fee is not listed here because it could not be confirmed.
+status: unclear
+requirement_type: unclear
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on an American Samoa license or ID after updating Social Security. American Samoa has no
+    established policy for changing the sex marker.
+  es: >-
+    Puedes actualizar tu nombre en la licencia o identificación de Samoa Americana después de actualizar el Seguro
+    Social. Samoa Americana no tiene una política establecida para cambiar el marcador de sexo.
+summary:
+  en: |
+    Licenses and ID cards are issued by the **Department of Public Safety, Office of Motor Vehicle**.
+
+    **Name:** there is no official guidance. Advocates recommend changing your name with Social Security first, then bringing the application, your certified High Court name change order, and your Social Security card showing the new name.
+
+    **Sex marker:** there is no established policy. Ask the Office of Motor Vehicle in writing what it would accept. A lawyer can help if you are refused.
+  es: |
+    Las licencias e identificaciones las emite el **Departamento de Seguridad Pública, Oficina de Vehículos de Motor**.
+
+    **Nombre:** no hay guía oficial. Organizaciones de defensa recomiendan cambiar primero el nombre en el Seguro Social y luego llevar la solicitud, la orden certificada del Tribunal Superior y tu tarjeta del Seguro Social con el nuevo nombre.
+
+    **Marcador de sexo:** no hay una política establecida. Pregunta por escrito a la Oficina de Vehículos qué aceptaría. Un abogado puede ayudarte si te lo niegan.
+steps:
+  - id: ssa
+    title:
+      en: Update Social Security first
+      es: Actualiza primero el Seguro Social
+    body:
+      en: Change your name with Social Security using your High Court order (see the federal Social Security guide).
+      es: Cambia tu nombre en el Seguro Social con tu orden del Tribunal Superior (ver la guía federal).
+    applies_to: [name_change]
+    sources: [a4te-as]
+  - id: omv
+    title:
+      en: Visit the Office of Motor Vehicle
+      es: Visita la Oficina de Vehículos de Motor
+    body:
+      en: Bring your current license or ID, your certified name change order, your new Social Security card, and any ASG Immigration ID if you are not a U.S. citizen or national. Fill out the application at the office and pay the fee. For renewals, the office also requires a traffic history clearance from the District Court.
+      es: Lleva tu licencia o identificación actual, la orden certificada de cambio de nombre, tu nueva tarjeta del Seguro Social y, si no eres ciudadano o nacional de EE. UU., tu identificación de inmigración de ASG. Llena la solicitud en la oficina y paga la tarifa. Para renovaciones, también piden una constancia de historial de tránsito del Tribunal de Distrito.
+    applies_to: [in_person]
+    sources: [a4te-as, as-omv-guide]
+delivery:
+  in_person: true
+  sources: [as-omv-guide]
+after:
+  en: For your passport, see the federal passport guide.
+  es: Para el pasaporte, ver la guía federal.
+related_links:
+  - title: Advocates for Trans Equality, American Samoa identity documents
+    url: https://transequality.org/documents/american-samoa-identity-documents
+sources:
+  - id: a4te-as
+    url: https://transequality.org/documents/american-samoa-identity-documents
+    title: American Samoa Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: American Samoa has no established policy for amending the gender marker on a driver's license.
+  - id: as-omv-guide
+    url: https://www.americansamoa.gov/_files/ugd/4bfff9_d853ec469ef34c75a8a5350a6b20b341.pdf
+    title: Driver's License Study Guide
+    publisher: American Samoa Department of Public Safety, Office of Motor Vehicle
+    kind: official
+    accessed: "2026-09-24"
+    quote: When renewing your driver's license, you must get a clearance from the American Samoa District Court.

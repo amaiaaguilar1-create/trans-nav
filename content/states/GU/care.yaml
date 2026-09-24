@@ -1,0 +1,229 @@
+jurisdiction: GU
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    No Guam statute restricting or protecting gender-affirming care was found. MAP's Guam profile (checked 2026-09-24)
+    shows no youth care ban, no shield law, no private insurance nondiscrimination law, no Medicaid policy, and a negative
+    score on trans-inclusive benefits for government employees. DPHSS's Medicaid and MIP pages do not address
+    gender-affirming care, so coverage is unclear. No local informed-consent hormone clinic could be verified. Plume's
+    service map (getplume.co/map, 2026-09-24) lists no U.S. territories; FOLX and QueerDoc also do not list Guam, so
+    telehealth_hrt is empty. Guam Pride and other community group websites did not resolve. Reviewer: ask local LGBTQ
+    groups which Guam providers prescribe hormones, and check whether Point of Pride's HRT Access Fund accepts territory
+    residents.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in Guam for adults and minors. No territorial law bans it, but none protects it. It is
+    unclear whether Guam Medicaid or the Medically Indigent Program pays for hormones or surgery, no local
+    informed-consent clinic is known, and the main U.S. telehealth services do not serve Guam. Most people work with a
+    local primary care doctor or travel off-island.
+  es: >-
+    La atención de afirmación de género es legal en Guam para adultos y menores. Ninguna ley territorial la prohíbe, pero
+    ninguna la protege. No está claro si Medicaid de Guam o el Programa para Personas Médicamente Indigentes cubren
+    hormonas o cirugía, no se conoce ninguna clínica local de consentimiento informado y los principales servicios de
+    telesalud de EE. UU. no atienden Guam. La mayoría trabaja con un médico de atención primaria local o viaja fuera de
+    la isla.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Guam law restricts care for adults. Access is the main barrier: we could not verify any clinic in Guam that advertises informed-consent hormone therapy.
+
+      **What to try:**
+      1. Ask a primary care doctor or a community health center to prescribe or continue hormones. Bring your records if you started care elsewhere. Some doctors will follow published guidelines (WPATH, Endocrine Society) if you ask directly.
+      2. The DPHSS public health clinics offer general medical care and can refer you. Find federally funded community health centers with the HRSA finder.
+      3. Apply to national funds (Point of Pride, Genderbands) for help with costs. Check whether they accept Guam residents.
+      4. If you travel to Hawaii or the mainland, telehealth services licensed there may be able to see you only while you are physically in a state they serve.
+    es: |
+      Ninguna ley de Guam restringe la atención para adultos. El obstáculo principal es el acceso: no pudimos verificar ninguna clínica en Guam que ofrezca terapia hormonal por consentimiento informado.
+
+      **Qué intentar:**
+      1. Pide a un médico de atención primaria o a un centro de salud comunitario que recete o continúe tus hormonas. Lleva tu historial si empezaste en otro lugar. Algunos médicos siguen las guías publicadas (WPATH, Endocrine Society) si se lo pides directamente.
+      2. Las clínicas de salud pública del DPHSS ofrecen atención médica general y pueden referirte. Busca centros de salud comunitarios con el buscador de HRSA.
+      3. Solicita fondos nacionales (Point of Pride, Genderbands) para ayuda con los costos. Verifica si aceptan residentes de Guam.
+      4. Si viajas a Hawái o al continente, los servicios de telesalud con licencia allí quizá solo puedan atenderte mientras estés físicamente en un estado donde operan.
+  sources: [map-gu, dphss-clinics, hrsa, plume-map]
+minor_care:
+  status: available
+  detail:
+    en: No Guam law bans gender-affirming care for minors, and Guam has no shield law. Care for minors requires parental consent, and local pediatric specialists may be very limited.
+    es: Ninguna ley de Guam prohíbe la atención de afirmación de género para menores, y Guam no tiene ley escudo. La atención a menores requiere consentimiento de los padres, y los especialistas pediátricos locales pueden ser muy limitados.
+  sources: [map-gu]
+medicaid:
+  program_name: Guam Medicaid (DPHSS); Medically Indigent Program (MIP)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: >-
+      DPHSS runs Guam's Medicaid program and the locally funded Medically Indigent Program (MIP) for low-income residents
+      who do not qualify for Medicaid. Neither program publishes a policy on gender-affirming care, either covering or
+      excluding it. Ask for a written coverage decision, and appeal if you are denied.
+    es: >-
+      El DPHSS administra el Medicaid de Guam y el Programa para Personas Médicamente Indigentes (MIP), con fondos locales,
+      para residentes de bajos ingresos que no califican para Medicaid. Ninguno publica una política sobre atención de
+      afirmación de género, ni para cubrirla ni para excluirla. Pide una decisión de cobertura por escrito y apela si te la
+      niegan.
+  how_to_apply_url: https://dphss.guam.gov/services/medicaremedicaid
+  sources: [dphss-medicaid, dphss-mip, map-gu]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: >-
+      Guam has no law barring insurers from excluding gender-affirming care. Read your plan's exclusions list. Federal
+      employees and military families on Guam have coverage set by their federal plans.
+    es: >-
+      Guam no tiene una ley que prohíba a las aseguradoras excluir la atención de afirmación de género. Revisa la lista de
+      exclusiones de tu plan. Los empleados federales y las familias militares en Guam tienen la cobertura de sus planes
+      federales.
+  sources: [map-gu]
+telehealth_hrt: []
+resources:
+  - id: dphss-clinics
+    name: DPHSS public health clinics
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Government clinics offering general medical care, screenings, lab services, and referrals, particularly for underserved residents.
+      es: Clínicas del gobierno con atención médica general, exámenes, laboratorio y referencias, sobre todo para residentes desatendidos.
+    url: https://dphss.guam.gov/services/clinics
+    cost: low_cost
+    verification: official_source
+    sources: [dphss-clinics]
+  - id: dphss-shvh
+    name: DPHSS STD/HIV/Viral Hepatitis Program
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Territorial program for HIV and STI prevention education, testing awareness, and linkage to care.
+      es: Programa territorial de prevención, información sobre pruebas y vinculación a atención de VIH e ITS.
+    url: https://dphss.guam.gov/dphss-programs/stdhivviral-hepatitis-shvh-program
+    cost: free
+    verification: official_source
+    sources: [dphss-shvh]
+  - id: dphss-medicaid-mip
+    name: DPHSS Medicaid and Medically Indigent Program enrollment
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Eligibility and enrollment help for Guam Medicaid and MIP.
+      es: Ayuda con elegibilidad e inscripción en Medicaid de Guam y MIP.
+    url: https://dphss.guam.gov/services/mip
+    cost: free
+    verification: official_source
+    sources: [dphss-mip]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale. Search "Guam."
+      es: Buscador federal de centros de salud comunitarios con tarifas según ingresos. Busca "Guam".
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone therapy access and surgery. Check whether Guam residents are eligible before applying.
+      es: Fondos nacionales para acceso a terapia hormonal y cirugía. Verifica si residentes de Guam son elegibles.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [point-of-pride]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Small national grants for transition costs, including hormones and surgery.
+      es: Pequeñas becas nacionales para costos de transición, incluidas hormonas y cirugía.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: map-gu
+    url: https://mapresearch.org/equality-profiles/GU/
+    title: Guam equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Negative Law: Laws Banning Best Practice Medical Care For Transgender Youth: No Negative Law"
+  - id: dphss-clinics
+    url: https://dphss.guam.gov/services/clinics
+    title: Clinics
+    publisher: Guam Department of Public Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: dphss-shvh
+    url: https://dphss.guam.gov/dphss-programs/stdhivviral-hepatitis-shvh-program
+    title: STD/HIV/Viral Hepatitis (SHVH) Program
+    publisher: Guam Department of Public Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: dphss-medicaid
+    url: https://dphss.guam.gov/services/medicaremedicaid
+    title: Medicare/Medicaid
+    publisher: Guam Department of Public Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: dphss-mip
+    url: https://dphss.guam.gov/services/mip
+    title: MIP, Medically Indigent Program
+    publisher: Guam Department of Public Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Medically Indigent Program (MIP) helps eligible individuals access necessary healthcare services when financial resources are limited.
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: plume-map
+    url: https://getplume.co/map/
+    title: Where is Plume Available?
+    publisher: Plume Clinic
+    kind: org
+    accessed: "2026-09-24"
+    quote: The state selector lists U.S. states and Washington D.C.; no U.S. territory appears.
+  - id: point-of-pride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

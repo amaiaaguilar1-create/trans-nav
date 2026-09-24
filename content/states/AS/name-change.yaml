@@ -1,0 +1,191 @@
+guide_type: name_change
+jurisdiction: AS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    No statute or official form exists. The requirements come from High Court decisions (Amataga 1995, read on asbar.org;
+    Mase 2004, read on case.law) and A4TE's step-by-step page (undated). A4TE reports a $100 civil filing fee; this was
+    not confirmed on a High Court fee schedule and is not listed as a fee. A4TE's reference to A.S.C.A. § 3.0208(a),
+    the High Court's general jurisdiction, was not checked against the code text because asbar.org blocks scripted
+    access. Status is "restricted" because newspaper publication and notice to the matai and family are required, with
+    no known waiver or sealing.
+status: restricted
+status_summary:
+  en: >-
+    You can ask the High Court of American Samoa to change your name, but there is no statute or official form. The
+    court requires notice in a newspaper and notice to your matai and immediate family, and no waiver or sealing is
+    known. Talk to a lawyer before you file.
+  es: >-
+    Puedes pedir al Tribunal Superior de Samoa Americana que cambie tu nombre, pero no hay ley ni formulario oficial. El
+    tribunal exige aviso en un periódico y aviso a tu matai y familia inmediata, y no se conoce exención ni sellado.
+    Habla con un abogado antes de presentar.
+summary:
+  en: |
+    American Samoa has **no name change statute**. The High Court recognizes the common-law right to change your name, and will grant a petition unless it is for a fraudulent purpose or infringes on others' rights (*Application of Amataga*, 1995; *In re Mase*, 2004).
+
+    Based on those decisions and A4TE's guide:
+    - You file a written **Petition for Name Change** and a **Notice of Hearing** with the High Court. There is no court form, so you or a lawyer draft them.
+    - The court sets a hearing date. You **publish the notice twice in a newspaper of general circulation**, the first time at least 30 days before the hearing.
+    - The court has also required **actual notice to your matai (family chief) and immediate family**.
+    - At the hearing, you show proof of publication and notice. If granted, the order is sent to the Registrar of Vital Statistics.
+  es: |
+    Samoa Americana **no tiene ley de cambio de nombre**. El Tribunal Superior reconoce el derecho común a cambiar de nombre y concede la petición salvo que sea con fines fraudulentos o afecte derechos de otros (*Application of Amataga*, 1995; *In re Mase*, 2004).
+
+    Según esas decisiones y la guía de A4TE:
+    - Presentas por escrito una **Petición de Cambio de Nombre** y un **Aviso de Audiencia** ante el Tribunal Superior. No hay formulario, así que los redactas tú o un abogado.
+    - El tribunal fija la audiencia. **Publicas el aviso dos veces en un periódico de circulación general**, la primera al menos 30 días antes.
+    - El tribunal también ha exigido **aviso directo a tu matai (jefe familiar) y familia inmediata**.
+    - En la audiencia muestras prueba de publicación y aviso. Si se concede, la orden se envía al Registro de Estadísticas Vitales.
+steps:
+  - id: draft
+    title:
+      en: Draft the petition and notice of hearing
+      es: Redacta la petición y el aviso de audiencia
+    body:
+      en: |
+        Include your citizenship or nationality and village of residence, your date of birth, your current name and the name you want, your reasons, and a statement that you are not changing your name to avoid law enforcement, legal process, or creditors and know of no pending legal action against you. Ask the court to set a hearing, grant the change, and send a certified copy of the order to the Registrar of Vital Statistics. Sign under oath before a notary.
+      es: |
+        Incluye tu ciudadanía o nacionalidad y aldea de residencia, tu fecha de nacimiento, tu nombre actual y el que quieres, tus motivos y una declaración de que no cambias tu nombre para evadir a la ley, procesos legales o acreedores y que no sabes de acciones legales pendientes en tu contra. Pide al tribunal que fije audiencia, conceda el cambio y envíe copia certificada de la orden al Registro de Estadísticas Vitales. Firma bajo juramento ante notario.
+    sources: [a4te-as, amataga]
+  - id: file
+    title:
+      en: File with the High Court
+      es: Presenta ante el Tribunal Superior
+    body:
+      en: File in person at the High Court or by mail to High Court of American Samoa, P.O. Box 309, Pago Pago, AS 96799. Ask the clerk for the current filing fee and whether it can be waived.
+      es: Presenta en persona en el Tribunal Superior o por correo a High Court of American Samoa, P.O. Box 309, Pago Pago, AS 96799. Pregunta en la secretaría la tarifa actual y si se puede eximir.
+    sources: [a4te-as]
+  - id: publish
+    title:
+      en: Publish the notice and notify your family
+      es: Publica el aviso y notifica a tu familia
+    body:
+      en: When the court returns the notice with a hearing date, have it published twice in a local newspaper, the first time at least 30 days before the hearing. Give notice to your matai and immediate family. Keep proof of both.
+      es: Cuando el tribunal devuelva el aviso con la fecha, publícalo dos veces en un periódico local, la primera al menos 30 días antes de la audiencia. Notifica a tu matai y familia inmediata. Guarda prueba de ambas cosas.
+    sources: [a4te-as, amataga]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: Bring proof of publication and notice. If notice is missing, the court may postpone the hearing and order you to give notice.
+      es: Lleva prueba de publicación y aviso. Si falta, el tribunal puede posponer la audiencia y ordenarte dar aviso.
+    sources: [amataga, a4te-as]
+  - id: vital-stats
+    title:
+      en: File the order with Vital Statistics
+      es: Presenta la orden en Estadísticas Vitales
+    body:
+      en: Send a certified copy of the order to the Office of Vital Statistics, P.O. Box 6894, Pago Pago, AS 96799, (684) 633-1405 or 633-1406. This records the name change but may not change your birth certificate (see the American Samoa birth certificate guide).
+      es: Envía copia certificada de la orden a la Oficina de Estadísticas Vitales, P.O. Box 6894, Pago Pago, AS 96799, (684) 633-1405 o 633-1406. Esto registra el cambio, pero quizá no modifique tu acta de nacimiento (ver la guía de acta de Samoa Americana).
+    sources: [a4te-as, mase]
+publication:
+  required: "yes"
+  detail:
+    en: Publication twice in a newspaper of general circulation, the first at least 30 days before the hearing, plus actual notice to your matai and immediate family.
+    es: Publicación dos veces en un periódico de circulación general, la primera al menos 30 días antes de la audiencia, más aviso directo a tu matai y familia inmediata.
+  waiver_available: false
+  sources: [amataga, a4te-as]
+hearing:
+  required: "yes"
+  sources: [amataga, a4te-as]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: No procedure for sealing a name change case is known.
+    es: No se conoce un procedimiento para sellar un caso de cambio de nombre.
+  sources: [a4te-as]
+minors:
+  summary:
+    en: There is no specific process for minors. A parent or guardian should consult an attorney.
+    es: No hay un proceso específico para menores. El padre, madre o tutor debe consultar a un abogado.
+  sources: [a4te-as]
+after:
+  en: |
+    1. **Social Security** first (see the federal Social Security guide). The Office of Motor Vehicles expects your Social Security card to show the new name.
+    2. **Driver's license or ID** (see the American Samoa driver's license guide).
+    3. **Passport** (see the federal passport guide).
+  es: |
+    1. **Seguro Social** primero (ver la guía federal). La Oficina de Vehículos espera que tu tarjeta del Seguro Social muestre el nuevo nombre.
+    2. **Licencia o identificación** (ver la guía de licencia de Samoa Americana).
+    3. **Pasaporte** (ver la guía federal).
+local_help:
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline microgrants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Microgrants toward name change costs, such as filing and publication fees.
+      es: Microbecas para costos de cambio de nombre, como tarifas de presentación y publicación.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small national grants that can cover name change fees. Check eligibility for territory residents.
+      es: Pequeñas becas nacionales que pueden cubrir tarifas de cambio de nombre. Verifica la elegibilidad.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+statutes:
+  - cite: Application of Amataga, CA No. 85-95 (High Court of American Samoa, Trial Division, 1995)
+    title:
+      en: Common-law name change; newspaper publication and notice to matai and family
+      es: Cambio de nombre por derecho común; publicación y aviso al matai y la familia
+    url: https://asbar.org/case-law/application-of-pita-amataga-for-change-of-name/
+  - cite: In re Mase, 9 Am. Samoa 3d 125 (2004)
+    title:
+      en: Name change granted; birth certificate amendment denied
+      es: Cambio de nombre concedido; enmienda del acta negada
+    url: https://static.case.law/am-samoa-3d/9/html/0125-01.html
+related_links:
+  - title: Advocates for Trans Equality, American Samoa identity documents
+    url: https://transequality.org/documents/american-samoa-identity-documents
+    note:
+      en: Step-by-step petition contents. No date is shown.
+      es: Contenido de la petición paso a paso. No tiene fecha.
+sources:
+  - id: a4te-as
+    url: https://transequality.org/documents/american-samoa-identity-documents
+    title: American Samoa Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Petitioner should forward that notice to a newspaper of general circulation to be published twice, with the first publication date at least 30 days before the hearing.
+  - id: amataga
+    url: https://asbar.org/case-law/application-of-pita-amataga-for-change-of-name/
+    title: Application of Pita Amataga for Change of Name, CA No. 85-95
+    publisher: High Court of American Samoa (via asbar.org)
+    kind: court
+    accessed: "2026-09-24"
+    quote: At common law, a person is free to adopt and use whatever name he or she chooses; however, the court is not subject to the whims of every petitioner.
+  - id: mase
+    url: https://static.case.law/am-samoa-3d/9/html/0125-01.html
+    title: In re Petition to Change Name of Tia'i Mase, 9 Am. Samoa 3d 125 (2004)
+    publisher: Caselaw Access Project
+    kind: court
+    accessed: "2026-09-24"
+    quote: An individual has a common law right to change his or her name, so long as such modification is not done for a fraudulent or improper purpose.
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: Genderbands
+    publisher: Genderbands
+    kind: org
+    accessed: "2026-09-24"
