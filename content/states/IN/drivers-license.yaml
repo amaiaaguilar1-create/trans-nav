@@ -1,0 +1,200 @@
+guide_type: drivers_license
+jurisdiction: IN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    BMV amendment page read 2026-09-24 and quotes the new policy (effective 2026-02-12, amended 140 IAC 7-1.1-3). The
+    final rule text on the Indiana Register (iar.iga.in.gov, LSA Document #25-321) is a JavaScript app that did not render
+    for automated fetching; the rule citation is confirmed by the BMV page and the LSA economic impact statement. Fee
+    ($9 amend or replace credential; voter ID card free) from the BMV fee chart PDF read 2026-09-24. NOT CONFIRMED:
+    (1) what the BMV does with cards whose marker was changed before 2026-02-12 at renewal; no source we could load
+    addresses it. (2) Whether any lawsuit challenges the rule; ACLU of Indiana's litigation list (April 2026) shows
+    none. (3) How the BMV sets the marker for new residents with an out-of-state amended document. Indiana Capital
+    Chronicle articles on the rule (2026-02-09, 2025-11-07) returned 403; WFYI coverage was used instead.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Since February 12, 2026 you cannot change the sex marker on an Indiana driver's license or ID card; the BMV no
+    longer accepts a court order or physician statement for this. You can still change your name on the card in person
+    with a certified court order, after updating Social Security, for $9.
+  es: >-
+    Desde el 12 de febrero de 2026 no puedes cambiar el marcador de sexo en una licencia de conducir o tarjeta de
+    identificación de Indiana; el BMV ya no acepta una orden judicial ni una declaración médica para esto. Todavía
+    puedes cambiar tu nombre en la tarjeta en persona con una orden judicial certificada, después de actualizar el
+    Seguro Social, por $9.
+summary:
+  en: |
+    For at least 16 years the Indiana BMV let people change the gender on a license or ID with a physician's statement (State Form 55617) or a court order. After Governor Braun's Executive Order 25-36 (March 2025), which tells state agencies to treat "sex" as "immutable biological classification", the BMV amended its rule, **140 IAC 7-1.1-3**. The BMV now says: "Effective Feb. 12, 2026, the BMV will no longer provide customers with the option to change their gender on their Indiana credential by using a court ordered gender change or physician statement."
+
+    What this means today:
+    - **No new marker changes**, with a physician's statement, a court order, or an amended birth certificate.
+    - **Indiana cards show only M or F.** In 2024 the Indiana Court of Appeals held that the BMV does not have to offer a nonbinary (X) marker.
+    - **Cards changed before February 12, 2026**: we could not confirm what happens at renewal. If the BMV refuses to renew your card as issued or changes it, contact the ILS LGBTQ+ Project or the ACLU of Indiana.
+    - **Name changes still work** (see steps).
+  es: |
+    Durante al menos 16 años el BMV de Indiana permitió cambiar el género en una licencia o identificación con una declaración médica (Formulario Estatal 55617) o una orden judicial. Tras la Orden Ejecutiva 25-36 del gobernador Braun (marzo de 2025), que indica a las agencias estatales tratar el "sexo" como "clasificación biológica inmutable", el BMV modificó su regla, **140 IAC 7-1.1-3**. El BMV dice ahora que desde el 12 de febrero de 2026 ya no ofrece la opción de cambiar el género en una credencial de Indiana con una orden judicial o una declaración médica.
+
+    Qué significa hoy:
+    - **No hay nuevos cambios de marcador**, ni con declaración médica, ni con orden judicial, ni con acta de nacimiento enmendada.
+    - **Las tarjetas de Indiana solo muestran M o F.** En 2024 el Tribunal de Apelaciones resolvió que el BMV no tiene que ofrecer un marcador no binario (X).
+    - **Tarjetas cambiadas antes del 12 de febrero de 2026**: no pudimos confirmar qué pasa al renovarlas. Si el BMV se niega a renovarla tal como está o la cambia, contacta al Proyecto LGBTQ+ de ILS o a la ACLU de Indiana.
+    - **El cambio de nombre sigue funcionando.**
+eligibility:
+  residency:
+    en: You must hold or be applying for an Indiana driver's license, permit, or ID card.
+    es: Debes tener o estar solicitando una licencia, permiso o tarjeta de identificación de Indiana.
+  other:
+    en: Your legal name and date of birth on BMV documents must match Social Security records, so update Social Security first. The BMV accepts only original documents or certified copies.
+    es: Tu nombre legal y fecha de nacimiento en los documentos del BMV deben coincidir con los registros del Seguro Social, así que actualiza primero el Seguro Social. El BMV solo acepta originales o copias certificadas.
+  sources: [bmv-amend, bmv-docket, eo-25-36, wfyi-bmv-2026, wfyi-bmv-proposed, wfyi-x-marker]
+steps:
+  - id: ssa-first
+    title:
+      en: Update your name with Social Security first
+      es: Actualiza primero tu nombre en el Seguro Social
+    body:
+      en: Apply for a replacement Social Security card in your new name (form SS-5, free) with a certified copy of your court order. Then wait at least one business day before going to the BMV so the records match.
+      es: Solicita una tarjeta de Seguro Social de reemplazo con tu nuevo nombre (formulario SS-5, gratis) con una copia certificada de tu orden judicial. Luego espera al menos un día hábil antes de ir al BMV.
+    applies_to: [name_change]
+    sources: [bmv-amend, ils-updating-ids]
+  - id: branch-visit
+    title:
+      en: Visit a BMV branch within 30 days
+      es: Visita una sucursal del BMV dentro de 30 días
+    body:
+      en: |
+        Name changes cannot be done online. Bring your current license or ID and a certified copy of your name change order (or marriage license, divorce decree, or amended birth certificate showing the new name). Documents must be originals or certified copies, in English or with a verified translation. The fee to amend or replace a credential is $9.
+      es: |
+        El cambio de nombre no se puede hacer en línea. Lleva tu licencia o identificación actual y una copia certificada de tu orden de cambio de nombre. Los documentos deben ser originales o copias certificadas, en inglés o con traducción verificada. La tarifa para enmendar o reemplazar una credencial es de $9.
+    fees: [amend]
+    applies_to: [name_change, in_person]
+    sources: [bmv-amend, bmv-fees]
+fees:
+  - id: amend
+    label:
+      en: Amend or replace a license, permit, or ID card
+      es: Enmendar o reemplazar una licencia, permiso o tarjeta de identificación
+    amount: 9
+    note:
+      en: Card payments add $0.40 plus 2.06%.
+      es: Los pagos con tarjeta agregan $0.40 más 2.06%.
+    sources: [bmv-fees, bmv-fees-page]
+  - id: voter-id
+    label:
+      en: Identification card for voting (if you have no license)
+      es: Tarjeta de identificación para votar (si no tienes licencia)
+    amount: 0
+    note:
+      en: The BMV fee chart lists a voter identification card as free; a non-voter ID card is $9.
+      es: La tabla de tarifas del BMV indica que la tarjeta de identificación para votar es gratis; la de no votante cuesta $9.
+    sources: [bmv-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: If you do not have a driver's license, an ID card issued for voting purposes is free.
+    es: Si no tienes licencia de conducir, la tarjeta de identificación para votar es gratuita.
+  sources: [bmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes must be done in person at a BMV branch.
+    es: Los cambios de nombre deben hacerse en persona en una sucursal del BMV.
+  sources: [bmv-amend]
+timeline:
+  en: One branch visit after your Social Security record is updated.
+  es: Una visita a la sucursal después de actualizar tu registro del Seguro Social.
+after:
+  en: |
+    Your Indiana license will show your new name but the sex marker will not change. Next, update your passport, voter registration, bank, and employer records. Check the current federal rules before applying for a passport, since passport sex-marker policy changed several times in 2025 and 2026. If a mismatch causes trouble at work, school, or with police, the ILS LGBTQ+ Project can advise.
+  es: |
+    Tu licencia de Indiana mostrará tu nuevo nombre pero mantendrá el sexo que tenía antes del 12 de febrero de 2026. Revisa las reglas federales actuales antes de solicitar un pasaporte, ya que la política cambió varias veces en 2025 y 2026. Si una discrepancia te causa problemas en el trabajo, la escuela o con la policía, el Proyecto LGBTQ+ de ILS puede asesorarte.
+tips:
+  - en: You can vote in Indiana even if your gender presentation does not match your ID, but you must be registered in the name on your ID. Update your registration at indianavoters.in.gov after the name change.
+    es: Puedes votar en Indiana aunque tu presentación de género no coincida con tu identificación, pero debes estar registrado con el nombre de tu identificación.
+  - en: Keep your old card's receipt and a copy of any previously changed card. If the BMV contacts you about a marker changed before February 2026, get legal advice before responding.
+    es: Guarda copia de cualquier tarjeta cambiada previamente. Si el BMV te contacta sobre un marcador cambiado antes de febrero de 2026, busca asesoría legal antes de responder.
+statutes:
+  - cite: 140 IAC 7-1.1-3 (as amended, LSA Document #25-321, effective February 12, 2026)
+    title:
+      en: BMV credential documentation requirements; ends gender changes by physician statement or court order
+    url: https://www.in.gov/bmv/resources/legal/rulemaking-docket/
+  - cite: Executive Order 25-36 (Gov. Braun, 2025)
+    title:
+      en: Directs the executive branch to define sex as immutable biological classification
+    url: https://www.in.gov/dA/9eb620be4a/EO-25-36.pdf
+related_links:
+  - title: Advocates for Trans Equality, Indiana identity documents
+    url: https://transequality.org/documents/indiana-identity-documents
+    note:
+      en: Last updated February 2026; confirms the BMV stopped correcting gender markers in February 2026.
+      es: Actualizado en febrero de 2026.
+  - title: Indiana Legal Services, Updating your IDs
+    url: https://www.indianalegalservices.org/updatingids/
+sources:
+  - id: bmv-amend
+    url: https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/amending-your-drivers-license-or-identification-card
+    title: Amending your driver's license or identification card
+    publisher: Indiana Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Effective Feb. 12, 2026, the BMV will no longer provide customers with the option to change their gender on their Indiana credential by using a court ordered gender change or physician statement per Amended Rule 140 Indiana Administrative Code section 7-1.1-3.
+  - id: bmv-fees
+    url: https://www.in.gov/bmv/files/Fee_Chart.pdf
+    title: BMV fee chart
+    publisher: Indiana Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Amend or replace credential $9.00 ... Non-voter identification card $9.00 ... Voter identification card Free"
+  - id: bmv-fees-page
+    url: https://www.in.gov/bmv/fees-taxes-home
+    title: Fees and taxes
+    publisher: Indiana Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: $0.40 + 2.06%
+  - id: bmv-docket
+    url: https://www.in.gov/bmv/resources/legal/rulemaking-docket/
+    title: Rulemaking docket (LSA #25-321, Credential Documentation Requirements)
+    publisher: Indiana Bureau of Motor Vehicles
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: eo-25-36
+    url: https://www.in.gov/dA/9eb620be4a/EO-25-36.pdf
+    title: Executive Order 25-36, Respecting the biological dichotomy between men and women
+    publisher: Office of the Governor of Indiana
+    kind: official
+    accessed: "2026-09-24"
+    quote: "\"Sex\"-when referring to a human being- means an individual human being's immutable biological classification as either male or female."
+  - id: wfyi-bmv-2026
+    url: https://www.wfyi.org/public-affairs/2026-02-10/indiana-bans-drivers-license-gender-changes-despite-public-pushback-lgbtq-transgender
+    title: Indiana bans driver's license gender changes despite public pushback
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: wfyi-bmv-proposed
+    url: https://www.wfyi.org/public-affairs/2025-06-26/public-can-comment-on-proposed-bmv-rule-to-ban-gender-marker-changes
+    title: Public can comment on proposed BMV rule to ban gender marker changes
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: wfyi-x-marker
+    url: https://www.wfyi.org/public-affairs/2024-04-10/bmv-doesnt-have-to-provide-nonbinary-gender-marker-on-ids-under-court-of-appeals-ruling
+    title: BMV doesn't have to provide nonbinary gender marker on IDs under Court of Appeals ruling
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: ils-updating-ids
+    url: https://www.indianalegalservices.org/wp-content/uploads/2025/08/Updating-ID-Docs-8.25.pdf
+    title: Updating ID documents packet (rev. 8.7.25)
+    publisher: Indiana Legal Services, LGBTQ+ Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "IMPORTANT: You have to change your name with Social Security first. After that, wait one business day before going to the BMV."

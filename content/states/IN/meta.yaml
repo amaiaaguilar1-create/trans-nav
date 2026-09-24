@@ -1,0 +1,114 @@
+code: IN
+name:
+  en: Indiana
+  es: Indiana
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings follow the guides: BMV sex-marker changes ended 2026-02-12 (140 IAC 7-1.1-3); IDOH stopped birth
+    certificate sex changes after EO 25-36 (March 2025); SEA 480 bans care for minors; no shield law (MAP). Name changes
+    remain available with publication and a hearing, which can be sealed and waived.
+overview:
+  en: >-
+    Indiana is restrictive. You can still change your name in court (with a newspaper notice that the judge can waive
+    if the case is sealed), but since 2025 the state no longer changes the sex on Indiana birth certificates, and since
+    February 12, 2026 the BMV no longer changes it on licenses and ID cards. Hormone therapy is legal and available for
+    adults, but care for anyone under 18 is banned, and there is no shield law or insurance protection.
+  es: >-
+    Indiana es restrictivo. Todavía puedes cambiar tu nombre ante un tribunal (con un aviso en el periódico que el juez
+    puede eximir si sella el caso), pero desde 2025 el estado ya no cambia el sexo en las actas de nacimiento de Indiana
+    y desde el 12 de febrero de 2026 el BMV ya no lo cambia en licencias ni tarjetas de identificación. La terapia
+    hormonal es legal y está disponible para adultos, pero la atención para menores de 18 años está prohibida, y no hay
+    ley escudo ni protección en los seguros.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [bmv-amend, eo-25-36, map-profile, ic-25-1-22-13]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [indianapolis]
+key_resources:
+  - id: ils-lgbtq
+    name: Indiana Legal Services, LGBTQ+ Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free statewide legal help for eligible low-income Hoosiers with name changes and updating IDs. 317-829-3180, lgbtgroup@ilsi.net.
+      es: Ayuda legal gratuita en todo el estado para personas de bajos ingresos con cambios de nombre y actualización de identificaciones. 317-829-3180, lgbtgroup@ilsi.net.
+    url: https://www.indianalegalservices.org/lgbtvap/identity-documents-information/
+    phone: "317-829-3180"
+    cost: free
+    verification: org_website
+    sources: [ils-id-info]
+  - id: gendernexus
+    name: GenderNexus
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Indianapolis nonprofit offering free care coordination, document help, counseling, and support groups for trans people and their families.
+      es: Organización de Indianápolis con coordinación de atención gratuita, ayuda con documentos, consejería y grupos de apoyo para personas trans y sus familias.
+    url: https://www.gendernexus.org/
+    phone: "317-650-5988"
+    cost: free
+    verification: org_website
+    sources: [gendernexus]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: bmv-amend
+    url: https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/amending-your-drivers-license-or-identification-card
+    title: Amending your driver's license or identification card
+    publisher: Indiana Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Effective Feb. 12, 2026, the BMV will no longer provide customers with the option to change their gender on their Indiana credential
+  - id: eo-25-36
+    url: https://www.in.gov/dA/9eb620be4a/EO-25-36.pdf
+    title: Executive Order 25-36
+    publisher: Office of the Governor of Indiana
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/IN
+    title: Indiana equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ic-25-1-22-13
+    url: https://codes.findlaw.com/in/title-25-professions-and-occupations/in-code-sect-25-1-22-13/
+    title: Ind. Code 25-1-22-13 (SEA 480)
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ils-id-info
+    url: https://www.indianalegalservices.org/lgbtvap/identity-documents-information/
+    title: Name and gender marker changes
+    publisher: Indiana Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: gendernexus
+    url: https://www.gendernexus.org/
+    title: GenderNexus
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

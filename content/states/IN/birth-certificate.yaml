@@ -1,0 +1,246 @@
+guide_type: birth_certificate
+jurisdiction: IN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Status set to prohibited based on: Indiana Legal Services' Updating ID packet (rev. 2025-08-07: "Right now, you
+    cannot change your sex/gender marker on your Indiana Birth Certificate"), WFYI 2026-05-21 (IDOH stopped processing
+    gender change requests after EO 25-36 and forwards them to the Attorney General; a department spokesperson confirmed
+    the policy remains active), ACLU of Indiana's litigation list (In re Change of Gender of V.E., Ind. Ct. App., docketed
+    2026-02-24; In re Z.C., Marion Superior Court), and MAP (Indiana scores -1 on birth certificates). DISAGREEMENT: A4TE's
+    Indiana page (updated February 2026) still says a certified court order can change the gender marker, and IDOH's own
+    FAQ still says "A court order is needed for a legal sex change". Neither reflects the halt described by ILS and WFYI;
+    reviewer may prefer status "litigation" or "unclear" if the V.E. appeal is decided. The ACLU's March 2025 suit over the
+    halt was dismissed per WFYI; case name not confirmed (Indiana Capital Chronicle article returned 403). No statute
+    addresses sex changes on birth certificates; IC 16-37-2-10 is the general amendment authority (read on FindLaw,
+    since iga.in.gov did not render). SB 182 (2026), which would have codified a ban, failed. Fees ($8 amendment, $10
+    first copy, $4 additional copies in the same order) confirmed on the IDOH vital records page 2026-09-24. Processing
+    time for amendments is not published; the 10-15 business day figure is for certificate orders.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    The Indiana Department of Health has not processed sex-marker changes on birth certificates since Governor Braun's
+    March 2025 executive order, even with a court order; requests are sent to the Attorney General's office. You can
+    still change the name on an Indiana birth certificate with a certified name-change order ($8 plus $10 for a copy).
+  es: >-
+    El Departamento de Salud de Indiana no procesa cambios del marcador de sexo en actas de nacimiento desde la orden
+    ejecutiva del gobernador Braun de marzo de 2025, ni siquiera con orden judicial; las solicitudes se envían a la
+    oficina del Fiscal General. Todavía puedes cambiar el nombre en un acta de Indiana con una orden judicial de cambio
+    de nombre certificada ($8 más $10 por una copia).
+summary:
+  en: |
+    Indiana has no statute on changing the sex on a birth certificate. For years, people born in Indiana got a court order and IDOH amended the record. That stopped in **March 2025**: after Executive Order 25-36 defined sex as "immutable biological classification", the State Registrar told local health departments to stop processing gender change requests and to send pending ones to the Attorney General's office.
+
+    What applies right now:
+    - **Sex marker**: not being changed. Indiana Legal Services advises **not** to send a gender-marker request to IDOH or your county health department, because your application may be forwarded to the Attorney General.
+    - **Court orders**: some judges still sign gender-marker orders, but IDOH is not honoring them, and the Attorney General has tried to intervene in and undo already-closed cases (see litigation). An order that changes both name and sex can cause trouble even for the name part.
+    - **Previously amended certificates**: there is no blanket voiding, but the Attorney General is challenging some past court-approved changes case by case.
+    - **Name**: still changes normally with a certified **name-only** court order.
+
+    This applies only if you were **born in Indiana**. If you were born in another state, that state's rules control your birth certificate.
+  es: |
+    Indiana no tiene una ley sobre el cambio de sexo en el acta de nacimiento. Durante años, las personas nacidas en Indiana obtenían una orden judicial y el IDOH enmendaba el registro. Eso terminó en **marzo de 2025**: tras la Orden Ejecutiva 25-36, que define el sexo como "clasificación biológica inmutable", el Registrador Estatal ordenó a los departamentos de salud locales dejar de procesar solicitudes de cambio de género y enviar las pendientes a la oficina del Fiscal General.
+
+    Qué aplica ahora:
+    - **Marcador de sexo**: no se está cambiando. Indiana Legal Services aconseja **no** enviar una solicitud de cambio de marcador al IDOH ni al departamento de salud del condado, porque tu solicitud podría enviarse al Fiscal General.
+    - **Órdenes judiciales**: algunos jueces todavía firman órdenes de cambio de marcador, pero el IDOH no las está aplicando, y el Fiscal General ha intentado intervenir y revertir casos ya cerrados.
+    - **Actas enmendadas antes**: no hay anulación general, pero el Fiscal General impugna algunos cambios pasados caso por caso.
+    - **Nombre**: se sigue cambiando normalmente con una orden judicial certificada **solo de nombre**.
+
+    Esto aplica solo si **naciste en Indiana**. Si naciste en otro estado, rigen las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Indiana. Where you live now does not matter.
+    es: Debes haber nacido en Indiana. No importa dónde vivas ahora.
+  age:
+    en: Adults request their own amendment. For a minor, a parent or guardian requests it.
+    es: Los adultos solicitan su propia enmienda. Para un menor, lo solicita un padre, madre o tutor.
+  sources: [idoh-amend, idoh-faq, ic-16-37-2-10, eo-25-36, wfyi-rokita-2026, wfyi-sb182, map-id, ils-updating-ids]
+steps:
+  - id: name-order
+    title:
+      en: Get a certified name-only court order
+      es: Obtén una orden judicial certificada solo de nombre
+    body:
+      en: See the name change guide. On the petition, check the box asking that the name on your birth certificate be changed. Do not combine a sex-marker request with the name change.
+      es: Consulta la guía de cambio de nombre. En la petición, marca la casilla para que se cambie el nombre en tu acta de nacimiento. No combines una solicitud de cambio de marcador de sexo con el cambio de nombre.
+    applies_to: [name_change]
+    sources: [ils-updating-ids, ilh-adult-packet]
+  - id: county-health
+    title:
+      en: Take the order to the health department of the county where you were born
+      es: Lleva la orden al departamento de salud del condado donde naciste
+    body:
+      en: |
+        Indiana Legal Services says this is often the fastest way. Bring your driver's license, state ID, or passport and a certified copy of the order. To do it by mail, call that county health department first. You can also call IDOH Vital Records at 317-233-2700 for the current statewide procedure.
+      es: |
+        Indiana Legal Services dice que suele ser la vía más rápida. Lleva tu licencia, identificación estatal o pasaporte y una copia certificada de la orden. Para hacerlo por correo, llama antes a ese departamento de salud. También puedes llamar a Registros Vitales del IDOH al 317-233-2700.
+    fees: [amendment, copy]
+    applies_to: [name_change, in_person]
+    sources: [ils-updating-ids, idoh-amend, idoh-fees]
+  - id: order-copies
+    title:
+      en: Order certified copies of the amended record
+      es: Pide copias certificadas del registro enmendado
+    body:
+      en: Order extra copies in the same request; each additional copy in the same order is $4.
+      es: Pide copias adicionales en la misma solicitud; cada copia adicional en el mismo pedido cuesta $4.
+    fees: [additional-copy]
+    sources: [idoh-fees]
+fees:
+  - id: amendment
+    label:
+      en: Amendment or correction of a birth certificate
+      es: Enmienda o corrección de un acta de nacimiento
+    amount: 8
+    waivable: false
+    sources: [idoh-fees]
+  - id: copy
+    label:
+      en: Certified birth certificate (first copy)
+      es: Acta de nacimiento certificada (primera copia)
+    amount: 10
+    sources: [idoh-fees]
+  - id: additional-copy
+    label:
+      en: Each additional copy in the same order
+      es: Cada copia adicional en el mismo pedido
+    amount: 4
+    sources: [idoh-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: In person at the local health department of the birth county, or by arrangement with that office or IDOH Vital Records (317-233-2700).
+    es: En persona en el departamento de salud local del condado de nacimiento, o por acuerdo con esa oficina o con Registros Vitales del IDOH (317-233-2700).
+  sources: [idoh-amend, ils-updating-ids]
+timeline:
+  en: IDOH does not publish a processing time for amendments. Copy orders take 10 to 15 business days after receipt.
+  es: El IDOH no publica un tiempo de procesamiento para enmiendas. Los pedidos de copias tardan de 10 a 15 días hábiles tras recibirse.
+after:
+  en: |
+    Once your name is updated, use the new certificate for anything that asks for proof of birth. The sex on it will not change for now. If you receive a letter from IDOH or the Attorney General about a past gender-marker amendment, contact the ILS LGBTQ+ Project (317-829-3180) or the ACLU of Indiana before responding.
+  es: |
+    Una vez actualizado tu nombre, usa la nueva acta para cualquier trámite que pida prueba de nacimiento. El sexo no cambiará por ahora. Si recibes una carta del IDOH o del Fiscal General sobre una enmienda de marcador anterior, contacta al Proyecto LGBTQ+ de ILS (317-829-3180) o a la ACLU de Indiana antes de responder.
+tips:
+  - en: If your old court order changed both your name and sex, Indiana Legal Services asks you to contact them before using it at vital records.
+    es: Si tu orden anterior cambió nombre y sexo, Indiana Legal Services pide que los contactes antes de usarla en registros vitales.
+litigation:
+  - case: In re the Change of Gender of V.E.
+    court: Indiana Court of Appeals
+    summary:
+      en: Appeal over the State's attempt to intervene in a closed gender-marker change case. The Attorney General argues trial courts cannot order agencies to change sex on birth certificates when that conflicts with EO 25-36.
+      es: Apelación sobre el intento del Estado de intervenir en un caso cerrado de cambio de marcador de género. El Fiscal General sostiene que los tribunales no pueden ordenar a las agencias cambiar el sexo en actas de nacimiento cuando eso contradice la EO 25-36.
+    effect_today:
+      en: Pending. Until it is decided, IDOH is not processing sex-marker changes and existing court orders may be challenged.
+      es: Pendiente. Hasta que se decida, el IDOH no procesa cambios de marcador y las órdenes existentes pueden ser impugnadas.
+    last_update: "2026-04-18"
+    sources: [aclu-in-litigation, wfyi-rokita-2026]
+  - case: In re the Matter of Z.C.
+    court: Marion County Superior Court
+    summary:
+      en: The State moved to intervene in a gender-marker and name change case seven months after it was resolved.
+      es: El Estado pidió intervenir en un caso de cambio de marcador y nombre siete meses después de resuelto.
+    effect_today:
+      en: Shows that orders issued in 2025 can be reopened by the State. Get legal advice if you have one.
+      es: Muestra que el Estado puede reabrir órdenes emitidas en 2025. Busca asesoría legal si tienes una.
+    last_update: "2026-04-18"
+    sources: [aclu-in-litigation]
+related_links:
+  - title: Advocates for Trans Equality, Indiana identity documents
+    url: https://transequality.org/documents/indiana-identity-documents
+    note:
+      en: Last updated February 2026. It still describes a court-order route for the gender marker; Indiana Legal Services and news reports say IDOH is not processing these.
+      es: Actualizado en febrero de 2026. Todavía describe una vía con orden judicial para el marcador; ILS y la prensa dicen que el IDOH no las procesa.
+  - title: IDOH Vital Records, corrections and amendments
+    url: https://www.in.gov/health/vital-records/corrections-and-amendments/
+statutes:
+  - cite: Ind. Code 16-37-2-10
+    title:
+      en: State Department of Health may amend a birth certificate on adequate documentary evidence
+    url: https://iga.in.gov/laws/2025/ic/titles/16
+  - cite: Executive Order 25-36 (Gov. Braun, 2025)
+    title:
+      en: Defines sex as immutable biological classification for the executive branch
+    url: https://www.in.gov/dA/9eb620be4a/EO-25-36.pdf
+sources:
+  - id: idoh-amend
+    url: https://www.in.gov/health/vital-records/corrections-and-amendments/
+    title: Corrections and amendments
+    publisher: Indiana Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: To correct or amend a birth certificate, please call (317) 233-2700.
+  - id: idoh-faq
+    url: https://www.in.gov/health/vital-records/frequently-asked-questions/amendments-corrections-faqs/
+    title: Amendments and corrections FAQs
+    publisher: Indiana Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: What is needed to change the sex on a birth record? A court order is needed for a legal sex change.
+  - id: idoh-fees
+    url: https://www.in.gov/health/vital-records/
+    title: Vital Records fee schedule
+    publisher: Indiana Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Birth Certificate $10.00; Additional Birth Certificates in the Same Order $4.00; Amendment / Correction on a Birth Certificate $8.00"
+  - id: ic-16-37-2-10
+    url: https://codes.findlaw.com/in/title-16-health/in-code-sect-16-37-2-10/
+    title: Ind. Code 16-37-2-10
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The state department may make additions to or corrections in a certificate of birth on receipt of adequate documentary evidence
+  - id: eo-25-36
+    url: https://www.in.gov/dA/9eb620be4a/EO-25-36.pdf
+    title: Executive Order 25-36
+    publisher: Office of the Governor of Indiana
+    kind: official
+    accessed: "2026-09-24"
+  - id: ils-updating-ids
+    url: https://www.indianalegalservices.org/wp-content/uploads/2025/08/Updating-ID-Docs-8.25.pdf
+    title: Updating ID documents packet (rev. 8.7.25)
+    publisher: Indiana Legal Services, LGBTQ+ Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Do not send a gender marker change request to the county or the State Department of Health. If you do, your application and forms may be sent to the attorney general's office."
+  - id: ilh-adult-packet
+    url: https://indianalegalhelp.org/wp-content/uploads/2024/09/Adult-Name-Change-Packet-202409-Update.pdf
+    title: Adult name change packet
+    publisher: Indiana Legal Help
+    kind: form
+    accessed: "2026-09-24"
+  - id: wfyi-rokita-2026
+    url: https://www.wfyi.org/statewide/2026-05-21/rokita-transgender-birth-record-court-order-changes-indiana
+    title: Indiana is trying to undo court-approved birth record changes for transgender people
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+    quote: Applications in process or received prior to the executive order will be submitted to the Indiana Office of the Attorney General for review.
+  - id: wfyi-sb182
+    url: https://www.wfyi.org/public-affairs/2026-03-21/a-wide-ranging-restrictive-gender-bill-failed-this-legislative-session
+    title: A wide-ranging restrictive gender bill failed this legislative session
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: aclu-in-litigation
+    url: https://www.aclu-in.org/cases/list-of-current-litigation/
+    title: List of current litigation
+    publisher: ACLU of Indiana
+    kind: org
+    accessed: "2026-09-24"
+    quote: "In re the Change of Gender of V.E. ... State attempted intervention in closed gender marker change case"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/profile_state/IN
+    title: Indiana equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"

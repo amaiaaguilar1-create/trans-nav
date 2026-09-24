@@ -1,0 +1,241 @@
+jurisdiction: IN
+slug: indianapolis
+name: Indianapolis
+area:
+  en: Marion County and the Indianapolis metro area
+  es: Condado de Marion y el área metropolitana de Indianápolis
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court address and phone from the Indiana courts' Directory of Courts and Clerks PDF (2026-09-24). indy.gov pages are
+    a JavaScript app and did not render, so Marion County's local name change procedures (which division hears name
+    changes, local forms, number of copies) were not confirmed; reviewer should check with the Marion County Clerk.
+    Organization details from each org's own site the same day, except Planned Parenthood (affiliate site returned 403;
+    WFYI used). Damien Center's site does not say whether it prescribes gender-affirming hormones; listed for PrEP,
+    testing, and primary care only.
+intro:
+  en: >-
+    Indianapolis has the state's main trans services: an informed-consent gender health program at Eskenazi Health, free
+    HIV and STI testing and PrEP at the Damien Center, care coordination and support groups at GenderNexus, a large
+    LGBTQ+ youth center, and statewide legal aid headquartered downtown. Name change petitions for Marion County
+    residents are filed with the Marion County Clerk at the Community Justice Campus.
+  es: >-
+    Indianápolis tiene los principales servicios trans del estado: un programa de salud de género por consentimiento
+    informado en Eskenazi Health, pruebas gratuitas de VIH e ITS y PrEP en el Damien Center, coordinación de atención y
+    grupos de apoyo en GenderNexus, un gran centro para jóvenes LGBTQ+ y asistencia legal estatal con sede en el centro.
+    Las peticiones de cambio de nombre de residentes del condado de Marion se presentan ante el Secretario del Condado
+    de Marion en el Community Justice Campus.
+court:
+  name: Marion County Clerk and Marion Superior Court (Civil Division), Community Justice Campus
+  url: https://www.in.gov/courts/files/court-directory.pdf
+  self_help_url: https://indianalegalhelp.org/legal-topic/name-change/
+  filing_fee: 157
+  notes:
+    en: >-
+      File at the Marion County Clerk's Office, 675 Justice Way, Indianapolis, IN 46203 (317-327-4740), or e-file. The
+      Civil Division's number is 317-327-4747. Ask the clerk which court your name change will be assigned to and whether
+      Marion County has any local forms. Bring the confidentiality forms with your petition if you want the case sealed
+      and publication waived.
+    es: >-
+      Presenta en la Oficina del Secretario del Condado de Marion, 675 Justice Way, Indianapolis, IN 46203
+      (317-327-4740), o electrónicamente. Pregunta al secretario a qué tribunal se asignará tu cambio de nombre y si hay
+      formularios locales. Lleva los formularios de confidencialidad con tu petición si quieres sellar el caso.
+  sources: [court-directory, ilh-fee-faq]
+resources:
+  - id: ils-lgbtq
+    name: Indiana Legal Services, LGBTQ+ Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help for eligible low-income people with name changes and updating IDs. Main office 1200 Madison Ave, Suite 300. LGBTQ+ Project 317-829-3180, lgbtgroup@ilsi.net.
+      es: Ayuda legal gratuita para personas elegibles de bajos ingresos con cambios de nombre y actualización de identificaciones. Proyecto LGBTQ+ 317-829-3180, lgbtgroup@ilsi.net.
+    url: https://www.indianalegalservices.org/lgbtvap/identity-documents-information/
+    phone: "317-829-3180"
+    address: 1200 Madison Ave, Suite 300, Indianapolis, IN 46225
+    cost: free
+    verification: org_website
+    sources: [ils-id-info, ils-home]
+  - id: gendernexus
+    name: GenderNexus
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Free care coordination for name and gender marker changes, medical referral letters, and affirming providers, plus counseling and support groups for trans people and families.
+      es: Coordinación gratuita para cambios de nombre y marcador, cartas de referencia médica y proveedores afirmativos, además de consejería y grupos de apoyo para personas trans y familias.
+    url: https://www.gendernexus.org/
+    phone: "317-650-5988"
+    address: 3833 N. Meridian St, Indianapolis, IN 46208
+    cost: free
+    verification: org_website
+    sources: [gendernexus, gendernexus-contact]
+  - id: eskenazi-gender-health
+    name: Eskenazi Health Gender Health Program
+    type: informed_consent_clinic
+    pillars: [hrt, mental_health, sexual_health]
+    description:
+      en: Adult informed-consent hormone therapy, primary care, voice therapy, counseling, and case management at the Sandra Eskenazi Outpatient Care Center. Waitlist for new patients. Uninsured patients should call financial counseling (855-202-1053) first; sliding fee scale.
+      es: Terapia hormonal por consentimiento informado para adultos, atención primaria, terapia de voz, consejería y manejo de casos. Lista de espera para pacientes nuevos. Si no tienes seguro, llama primero a asesoría financiera (855-202-1053); escala móvil.
+    url: https://www.eskenazihealth.edu/health-services/gender-health
+    phone: "317-880-6042"
+    address: 720 Eskenazi Ave, Indianapolis, IN 46202
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [eskenazi-gender, eskenazi-financial]
+  - id: eskenazi-prep
+    name: Eskenazi Health PrEP Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: PrEP visits with HIV, STI, and kidney testing, mainly on the downtown campus Tuesday afternoons and by appointment at several neighborhood health centers. Call 317-880-8300.
+      es: Consultas de PrEP con pruebas de VIH, ITS y función renal, principalmente en el campus del centro los martes por la tarde y con cita en varios centros de salud. Llama al 317-880-8300.
+    url: https://www.eskenazihealth.edu/health-services/infectious-disease-clinic/prep
+    phone: "317-880-8300"
+    address: 720 Eskenazi Ave, Indianapolis, IN 46202
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [eskenazi-prep]
+  - id: damien-center
+    name: Damien Center
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Free, confidential walk-in HIV, STI, and hepatitis C testing (317-632-0123), PrEP, HIV care, primary care, and mental health and substance use services on a sliding scale (clinic 317-423-0130).
+      es: Pruebas gratuitas y confidenciales de VIH, ITS y hepatitis C sin cita (317-632-0123), PrEP, atención del VIH, atención primaria y servicios de salud mental en escala móvil (clínica 317-423-0130).
+    url: https://damien.org/
+    phone: "317-423-0130"
+    address: 1420 E. Washington St, Indianapolis, IN 46201
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [damien-clinic, damien-testing]
+  - id: iyg
+    name: Indiana Youth Group (IYG)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Drop-in center and programs for LGBTQ+ youth 12 to 19 (Mon, Wed, Fri 3 to 8 pm) and young adults 18 to 24 (Tue, Thu 3 to 8 pm), plus family support and a pantry by appointment.
+      es: Centro y programas para jóvenes LGBTQ+ de 12 a 19 años (lun, mié, vie de 3 a 8 pm) y adultos jóvenes de 18 a 24 (mar, jue de 3 a 8 pm), apoyo familiar y despensa con cita.
+    url: https://www.iyg.org/
+    phone: "317-541-8726"
+    address: 3733 N. Meridian St, Indianapolis, IN 46208
+    cost: free
+    verification: org_website
+    sources: [iyg-locations]
+  - id: pp-indianapolis
+    org: planned-parenthood
+    name: Planned Parenthood (Indianapolis-area health centers)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for adults 18 and older, STI testing, and PrEP. Find the nearest center and book online.
+      es: Terapia hormonal por consentimiento informado para adultos de 18 años o más, pruebas de ITS y PrEP. Busca el centro más cercano y reserva en línea.
+    url: https://www.plannedparenthood.org/health-center
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [wfyi-pp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: court-directory
+    url: https://www.in.gov/courts/files/court-directory.pdf
+    title: Directory of courts and clerks in Indiana
+    publisher: Indiana Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Marion County Clerk's Office ... 675 Justice Way, Indianapolis, IN 46203, Pho: 317-327-4740"
+  - id: ilh-fee-faq
+    url: https://indianalegalhelp.org/filing-fee-frequently-asked-questions/
+    title: Filing fee frequently asked questions
+    publisher: Indiana Legal Help
+    kind: court
+    accessed: "2026-09-24"
+  - id: ils-id-info
+    url: https://www.indianalegalservices.org/lgbtvap/identity-documents-information/
+    title: Name and gender marker changes
+    publisher: Indiana Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: ils-home
+    url: https://www.indianalegalservices.org/
+    title: Indiana Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: gendernexus
+    url: https://www.gendernexus.org/
+    title: GenderNexus
+    kind: org
+    accessed: "2026-09-24"
+  - id: gendernexus-contact
+    url: https://www.gendernexus.org/contact
+    title: Contact GenderNexus
+    kind: org
+    accessed: "2026-09-24"
+  - id: eskenazi-gender
+    url: https://www.eskenazihealth.edu/health-services/gender-health
+    title: Gender Health Program
+    publisher: Eskenazi Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: eskenazi-financial
+    url: https://www.eskenazihealth.edu/programs/financial-counseling
+    title: Financial counseling
+    publisher: Eskenazi Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: eskenazi-prep
+    url: https://www.eskenazihealth.edu/health-services/infectious-disease-clinic/prep
+    title: PrEP
+    publisher: Eskenazi Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: damien-clinic
+    url: https://damien.org/clinic
+    title: Clinic
+    publisher: Damien Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: damien-testing
+    url: https://damien.org/community-health/testing
+    title: Testing
+    publisher: Damien Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Free and confidential HIV and STD testing by State-certified staff.
+  - id: iyg-locations
+    url: https://www.iyg.org/locations/
+    title: Locations
+    publisher: Indiana Youth Group
+    kind: org
+    accessed: "2026-09-24"
+  - id: wfyi-pp
+    url: https://www.wfyi.org/health/2024-09-18/indiana-planned-parenthood-expands-gender-affirming-care-capacity-at-statewide-clinics
+    title: Indiana Planned Parenthood expands gender-affirming care capacity at statewide clinics
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,329 @@
+jurisdiction: IN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    SEA 480 (2023) text read on FindLaw's copy of IC 25-1-22-13 (iga.in.gov did not render). Penalty and enforcement
+    provisions (IC 25-1-22-14 and following) were NOT read; the detail avoids specifics. Status of K.C. v. Individual
+    Members of the Medical Licensing Board from ACLU of Indiana's litigation list (April 2026): Seventh Circuit ruled
+    against plaintiffs 2-1, case being dismissed, fairness hearing September 10 (year presumably 2026). DOC surgery ban
+    cases (Allison, Wallace) from the same list; the statute was not read directly. Medicaid: no explicit inclusion or
+    exclusion found in 405 IAC 5-29-1 (noncovered services) or 405 IAC 5-3-13 (prior authorization) on Cornell LII, and
+    MAP lists "no explicit policy"; covers_hrt and covers_surgery are therefore "unclear". Reviewer should check the
+    IHCP provider manual and any 2025-2026 FSSA policy after EO 25-36. Planned Parenthood's affiliate pages returned 403;
+    PP details (18+, informed consent, trained staff in every Indiana clinic) come from WFYI (2024-09-18). IU Health's
+    gender health page timed out and is not listed. Eskenazi Gender Health read directly (adults only, informed consent,
+    waitlist). Private insurance: MAP scores Indiana 0 on nondiscrimination; no Indiana statute found.
+status_summary:
+  en: >-
+    Hormone therapy is legal for adults in Indiana, and informed-consent care is available in Indianapolis and through
+    Planned Parenthood clinics statewide. Care for anyone under 18 is banned by SEA 480, which has been in effect since
+    2024 after federal courts declined to block it. Indiana has no shield law, no insurance nondiscrimination rule, and
+    no clear Medicaid policy.
+  es: >-
+    La terapia hormonal es legal para adultos en Indiana, y hay atención por consentimiento informado en Indianápolis y
+    en las clínicas de Planned Parenthood del estado. La atención para menores de 18 años está prohibida por SEA 480,
+    vigente desde 2024 después de que los tribunales federales se negaron a bloquearla. Indiana no tiene ley escudo, ni
+    norma de no discriminación en seguros, ni una política clara de Medicaid.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Indiana law restricts gender-affirming care for adults 18 and older, with one exception: state law bars the Department of Correction from providing gender-affirming surgery to people in prison (challenged in *Allison* and *Wallace v. Commissioner*, in discovery). Telehealth prescribing is legal.
+
+      Eskenazi Health's Gender Health Program in Indianapolis and Planned Parenthood's Indiana clinics use **informed consent**: no therapist letter is needed to start hormones.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Medicaid / Healthy Indiana Plan (HIP)** at the FSSA Benefits Portal. Coverage of transition care is not clearly written; hormones and labs are often billed as ordinary prescriptions and visits, but ask before you start.
+      2. Go to a **federally qualified health center** such as Eskenazi Health, which must see you regardless of ability to pay and uses a sliding fee scale. Find others at findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood** clinics across Indiana offer hormone therapy for adults, often with same-day or next-day visits.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care (applications each May).
+      5. Generic estradiol and spironolactone are usually inexpensive with a pharmacy discount coupon; ask for the cash price.
+    es: |
+      Ninguna ley de Indiana restringe la atención de afirmación de género para adultos de 18 años o más, con una excepción: la ley prohíbe al Departamento de Corrección proporcionar cirugía de afirmación de género a personas en prisión (impugnada en *Allison* y *Wallace*). La telesalud es legal.
+
+      El Programa de Salud de Género de Eskenazi Health en Indianápolis y las clínicas de Planned Parenthood en Indiana usan **consentimiento informado**: no se necesita carta de terapeuta para empezar hormonas.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid / Healthy Indiana Plan (HIP)** en el portal de beneficios de FSSA. La cobertura de la transición no está escrita claramente; pregunta antes de empezar.
+      2. Acude a un **centro de salud federalmente calificado** como Eskenazi Health, que debe atenderte sin importar tu capacidad de pago y usa escala móvil.
+      3. Las clínicas de **Planned Parenthood** en Indiana ofrecen terapia hormonal para adultos, a menudo el mismo día o al día siguiente.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes cada mayo).
+      5. El estradiol y la espironolactona genéricos suelen ser baratos con un cupón de descuento de farmacia.
+  sources: [eskenazi-gender, wfyi-pp, aclu-in-litigation, hrsa, pop-hrt, in-medicaid]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Senate Enrolled Act 480 (2023)**, codified at IC 25-1-22, bars physicians and other practitioners from knowingly providing "gender transition procedures" (puberty blockers, hormones, and surgery) to anyone under 18, or aiding another practitioner in doing so. It was signed April 5, 2023 and was set to take effect July 1, 2023; a federal injunction blocked most of it until **February 27, 2024**, when the Seventh Circuit allowed it to take effect. The Seventh Circuit later ruled against the plaintiffs (*K.C. v. Individual Members of the Medical Licensing Board*), and the case is being wound down.
+
+      Exceptions in the statute: disorders of sex development, treatment of complications from earlier procedures, and emergencies. Mental health care, social transition, and counseling are not banned. Indiana has **no shield law**. If your family is considering care in another state, get legal advice first.
+    es: |
+      La **Ley 480 del Senado (2023)**, codificada en IC 25-1-22, prohíbe a médicos y otros profesionales proporcionar a sabiendas "procedimientos de transición de género" (bloqueadores de pubertad, hormonas y cirugía) a menores de 18 años, o ayudar a otro profesional a hacerlo. Se firmó el 5 de abril de 2023; una orden federal bloqueó la mayor parte hasta el **27 de febrero de 2024**, cuando el Séptimo Circuito permitió que entrara en vigor. El Séptimo Circuito falló después contra los demandantes (*K.C.*), y el caso se está cerrando.
+
+      Excepciones: trastornos del desarrollo sexual, tratamiento de complicaciones de procedimientos anteriores y emergencias. La salud mental, la transición social y la consejería no están prohibidas. Indiana **no tiene ley escudo**.
+  sources: [ic-25-1-22-13, wfyi-sea480-signed, wfyi-sea480-effect, aclu-in-litigation]
+medicaid:
+  program_name: Indiana Medicaid (Healthy Indiana Plan, Hoosier Healthwise, Hoosier Care Connect)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: |
+      Indiana has **no written Medicaid policy** either including or excluding gender-affirming care; transition care does not appear in the state's list of noncovered services (405 IAC 5-29-1). In practice, coverage of hormones, labs, and surgery depends on your managed care plan and prior authorization. If a claim is denied, ask for the denial in writing and appeal; the Trans Health Project has templates.
+
+      **Healthy Indiana Plan (HIP)** covers adults 19 to 64 with low income; Hoosier Healthwise covers children and pregnant people. Apply online at the FSSA Benefits Portal or call 1-800-457-4584.
+    es: |
+      Indiana **no tiene una política escrita de Medicaid** que incluya o excluya la atención de afirmación de género; no aparece en la lista estatal de servicios no cubiertos (405 IAC 5-29-1). En la práctica, la cobertura de hormonas, laboratorios y cirugía depende de tu plan y de la autorización previa. Si te niegan un reclamo, pide la negación por escrito y apela.
+
+      El **Healthy Indiana Plan (HIP)** cubre a adultos de 19 a 64 años con bajos ingresos. Solicita en línea en el portal de beneficios de FSSA o llama al 1-800-457-4584.
+  how_to_apply_url: https://fssabenefits.in.gov/CitizenPortal/application.do
+  sources: [in-medicaid, iac-405-5-29-1, map-profile, thp]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Indiana law does not prohibit insurers from excluding gender-affirming care. Read your plan's exclusions list. If a claim is denied, file an internal appeal, then an external review; you can also file a complaint with the Indiana Department of Insurance (800-622-4461). Employer self-funded plans are federally regulated; the Trans Health Project has appeal templates for those.
+    es: |
+      La ley de Indiana no prohíbe a las aseguradoras excluir la atención de afirmación de género. Lee la lista de exclusiones de tu plan. Si te niegan un reclamo, presenta una apelación interna y luego una revisión externa; también puedes presentar una queja ante el Departamento de Seguros de Indiana (800-622-4461).
+  complaint_url: https://www.in.gov/idoi/consumer-services/
+  sources: [idoi, map-profile, thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: eskenazi-gender-health
+    name: Eskenazi Health Gender Health Program
+    type: informed_consent_clinic
+    pillars: [hrt, mental_health, sexual_health, name_change]
+    description:
+      en: Indianapolis public hospital and FQHC program for adults with informed-consent hormone therapy, primary care, speech therapy, counseling, case management, PrEP, and help with name and gender marker paperwork through Indiana Legal Services. No therapist letter required. New patients currently go on a waitlist. 720 Eskenazi Ave; 317-880-6042.
+      es: Programa del hospital público y FQHC de Indianápolis para adultos con terapia hormonal por consentimiento informado, atención primaria, terapia del habla, consejería, manejo de casos, PrEP y ayuda con trámites de nombre y marcador a través de Indiana Legal Services. No se requiere carta de terapeuta. Hay lista de espera para pacientes nuevos.
+    url: https://www.eskenazihealth.edu/health-services/gender-health
+    phone: "317-880-6042"
+    address: 720 Eskenazi Ave, Indianapolis, IN 46202
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [eskenazi-gender, eskenazi-financial]
+  - id: pp-indiana
+    org: planned-parenthood
+    name: Planned Parenthood Great Northwest, Hawai'i, Alaska, Indiana, Kentucky (Indiana health centers)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent gender-affirming hormone therapy for adults 18 and older, with staff trained at every Indiana clinic and gender health navigators who help with documents and referrals. Also STI testing and PrEP.
+      es: Terapia hormonal de afirmación de género por consentimiento informado para adultos de 18 años o más, con personal capacitado en cada clínica de Indiana y navegadores de salud de género. También pruebas de ITS y PrEP.
+    url: https://www.plannedparenthood.org/health-center
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [wfyi-pp]
+  - id: damien-center
+    name: Damien Center
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Indianapolis LGBTQ+-welcoming clinic with primary care, PrEP, HIV care, mental health and substance use services, free walk-in HIV and STI testing, and a sliding fee scale. Ask about gender-affirming care when you call. 1420 E. Washington St; 317-423-0130.
+      es: Clínica de Indianápolis acogedora para personas LGBTQ+ con atención primaria, PrEP, atención del VIH, salud mental, pruebas gratuitas de VIH e ITS sin cita y escala móvil. Pregunta por atención de afirmación de género al llamar.
+    url: https://damien.org/clinic
+    phone: "317-423-0130"
+    address: 1420 E. Washington St, Indianapolis, IN 46201
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [damien-clinic]
+  - id: gendernexus
+    name: GenderNexus
+    type: lgbtq_center
+    pillars: [hrt, mental_health, name_change]
+    description:
+      en: Free care coordination (medical referral letters, connections to affirming providers), counseling with licensed social workers, and support groups for trans people and families. 3833 N. Meridian St, Indianapolis; 317-650-5988.
+      es: Coordinación de atención gratuita (cartas de referencia, conexión con proveedores afirmativos), consejería con trabajadores sociales y grupos de apoyo para personas trans y familias.
+    url: https://www.gendernexus.org/
+    phone: "317-650-5988"
+    address: 3833 N. Meridian St, Indianapolis, IN 46208
+    cost: free
+    verification: org_website
+    sources: [gendernexus]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of insurance and charge on a sliding scale. Call and ask whether they prescribe gender-affirming hormones.
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu seguro y cobran en escala móvil. Llama y pregunta si recetan hormonas de afirmación de género.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-in
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy; applications each May) and surgery and electrolysis funds.
+      es: Fondos nacionales para quienes no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis; solicitudes cada mayo) y fondos para cirugía y electrólisis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-in
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and transition costs including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y costos de transición, incluidas hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including Medicaid and employer plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Ind. Code 25-1-22 (SEA 480, 2023)
+    title:
+      en: Prohibits gender transition procedures for minors
+    url: https://iga.in.gov/legislative/2023/bills/senate/480
+litigation:
+  - case: K.C. v. Individual Members of the Medical Licensing Board of Indiana
+    court: US District Court, S.D. Indiana; Seventh Circuit
+    summary:
+      en: ACLU challenge to SEA 480 on behalf of transgender youth, parents, and a doctor. The Seventh Circuit lifted the injunction in February 2024 and later ruled 2-1 against the plaintiffs.
+      es: Impugnación de la ACLU contra SEA 480. El Séptimo Circuito levantó la orden judicial en febrero de 2024 y luego falló 2-1 contra los demandantes.
+    effect_today:
+      en: The ban is fully in effect. The case is being dismissed.
+      es: La prohibición está plenamente vigente. El caso se está cerrando.
+    last_update: "2026-04-18"
+    sources: [aclu-in-litigation, wfyi-sea480-effect]
+  - case: Allison v. Commissioner, Indiana Department of Correction; Wallace v. Commissioner
+    court: US District Court, S.D. Indiana
+    summary:
+      en: Challenges to the state law banning gender-affirming surgery for people in Indiana prisons.
+      es: Impugnaciones a la ley estatal que prohíbe la cirugía de afirmación de género para personas en prisiones de Indiana.
+    effect_today:
+      en: In discovery; the ban applies while the cases continue.
+      es: En etapa de descubrimiento; la prohibición aplica mientras continúan.
+    last_update: "2026-04-18"
+    sources: [aclu-in-litigation]
+sources:
+  - id: ic-25-1-22-13
+    url: https://codes.findlaw.com/in/title-25-professions-and-occupations/in-code-sect-25-1-22-13/
+    title: Ind. Code 25-1-22-13
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: a physician or other practitioner may not knowingly provide gender transition procedures to a minor.
+  - id: wfyi-sea480-signed
+    url: https://www.wfyi.org/public-affairs/2023-04-05/holcomb-signs-gender-affirming-care-ban-for-trans-youth-into-law
+    title: Holcomb signs gender-affirming care ban for trans youth into law
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: wfyi-sea480-effect
+    url: https://www.wfyi.org/public-affairs/2024-02-27/ban-on-gender-affirming-care-for-minors-allowed-to-take-effect-in-indiana
+    title: Ban on gender-affirming care for minors allowed to take effect in Indiana
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: aclu-in-litigation
+    url: https://www.aclu-in.org/cases/list-of-current-litigation/
+    title: List of current litigation
+    publisher: ACLU of Indiana
+    kind: org
+    accessed: "2026-09-24"
+    quote: Seventh Circuit ruled against plaintiffs (2-1 decision).
+  - id: in-medicaid
+    url: https://www.in.gov/medicaid/members/
+    title: Indiana Medicaid for members
+    publisher: Indiana Family and Social Services Administration
+    kind: official
+    accessed: "2026-09-24"
+    quote: Healthy Indiana Plan is a health insurance program for adults ages 19 through 64 who are not disabled
+  - id: iac-405-5-29-1
+    url: https://www.law.cornell.edu/regulations/indiana/405-IAC-5-29-1
+    title: 405 IAC 5-29-1, Noncovered services (Medicaid)
+    publisher: Legal Information Institute (copy of the Indiana Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/IN
+    title: Indiana equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: idoi
+    url: https://www.in.gov/idoi/consumer-services/
+    title: Consumer services
+    publisher: Indiana Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: eskenazi-gender
+    url: https://www.eskenazihealth.edu/health-services/gender-health
+    title: Gender Health Program
+    publisher: Eskenazi Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: gender-affirming care including hormone therapy and specialty services for adult transgender patients of all gender identities
+  - id: eskenazi-financial
+    url: https://www.eskenazihealth.edu/programs/financial-counseling
+    title: Financial counseling
+    publisher: Eskenazi Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: wfyi-pp
+    url: https://www.wfyi.org/health/2024-09-18/indiana-planned-parenthood-expands-gender-affirming-care-capacity-at-statewide-clinics
+    title: Indiana Planned Parenthood expands gender-affirming care capacity at statewide clinics
+    publisher: WFYI
+    kind: news
+    accessed: "2026-09-24"
+  - id: damien-clinic
+    url: https://damien.org/clinic
+    title: Clinic
+    publisher: Damien Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: gendernexus
+    url: https://www.gendernexus.org/
+    title: GenderNexus
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

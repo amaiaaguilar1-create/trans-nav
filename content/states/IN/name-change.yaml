@@ -1,0 +1,511 @@
+guide_type: name_change
+jurisdiction: IN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. The Indiana General Assembly code site (iga.in.gov) is a JavaScript app that did not render for
+    automated fetching, so statute text for IC 34-28-2-1, -1.5, -2, -2.5, -3, -4 and -5 was read on FindLaw's copy
+    (secondary) and should be checked against iga.in.gov. Forms and the $157 filing fee come from Indiana Legal Help (the
+    Indiana courts' self-help forms site) and agree with A4TE's Indiana page (updated February 2026). Open items for the
+    reviewer: (1) IC 34-28-2-2.5(a)(5) requires proof of US citizenship; the ILH adult petition form (Sept 2024) does
+    not have a line for it, and a 2016 federal challenge was dismissed in 2017. Confirm whether clerks currently demand
+    proof and whether any later ruling changed this. (2) Publication cost is not published anywhere we could load;
+    no amount is given. (3) Certified-copy cost "up to $2 a page" is from Indiana Legal Services, not a clerk fee
+    schedule. (4) Whether the sealing request's own public hearing notice (posted at the courthouse) reveals the new
+    name; ILH instructions say a public notice of the sealing hearing is posted 30 days before. (5) The state Attorney
+    General has moved to intervene in closed gender-marker cases (In re Change of Gender of V.E., Ind. Ct. App., docketed
+    2026-02-24; In re Z.C., Marion Superior Court), which is why the guide warns against combining name and gender in
+    one order. Confirm current status of those cases.
+status: available
+status_summary:
+  en: >-
+    You can change your name in Indiana by filing a petition in the circuit or superior court of your county. The law
+    requires a newspaper notice for three weeks and a hearing, but you can ask the judge to seal the case and skip the
+    newspaper for your safety, and Indiana appeals courts have granted this for transgender petitioners. The filing fee
+    is about $157, and it can be waived if you cannot afford it.
+  es: >-
+    Puedes cambiar tu nombre en Indiana presentando una petición en el tribunal de circuito o superior de tu condado. La
+    ley exige un aviso en el periódico durante tres semanas y una audiencia, pero puedes pedir al juez que selle el caso
+    y te exima del periódico por tu seguridad, y los tribunales de apelación de Indiana lo han concedido a personas
+    trans. La tarifa de presentación es de unos $157 y se puede exentar si no puedes pagarla.
+summary:
+  en: |
+    Indiana name changes go through a court under Indiana Code 34-28-2. You file a sworn (notarized) petition with the clerk in the county where you live, publish a notice in a local newspaper once a week for three weeks, and go to a short hearing. The judge then signs an order changing your name.
+
+    **For trans people, the most important step is optional**: you can file three extra papers at the start asking the court to keep the whole case confidential and to waive the newspaper notice. Indiana Legal Services wrote a memorandum for this, and the Indiana Court of Appeals has held that the general risk of harassment and violence against transgender people is enough to justify sealing (*In re Name Change of A.L.*, 2017; *In re M.E.B.*, 2019).
+
+    Indiana courts can change your **name**. Changing your **sex** on Indiana documents is a different matter: since 2025 the state health department is not changing sex on birth certificates and since February 12, 2026 the BMV does not change it on licenses. Ask for a **name-only** order (see the tips).
+  es: |
+    En Indiana el cambio de nombre se hace ante un tribunal bajo el Código de Indiana 34-28-2. Presentas una petición jurada (notarizada) ante el secretario del condado donde vives, publicas un aviso en un periódico local una vez por semana durante tres semanas y asistes a una audiencia breve. Luego el juez firma una orden que cambia tu nombre.
+
+    **Para personas trans, el paso más importante es opcional**: puedes presentar tres documentos adicionales al inicio pidiendo al tribunal que mantenga todo el caso confidencial y que te exima del aviso en el periódico. Indiana Legal Services redactó un memorando para esto, y el Tribunal de Apelaciones de Indiana ha resuelto que el riesgo general de acoso y violencia contra las personas trans basta para justificar el sellado.
+
+    Los tribunales de Indiana pueden cambiar tu **nombre**. Cambiar tu **sexo** en documentos de Indiana es otra cosa: desde 2025 el departamento de salud no cambia el sexo en actas de nacimiento y desde el 12 de febrero de 2026 el BMV no lo cambia en licencias. Pide una orden **solo de nombre**.
+eligibility:
+  residency:
+    en: File in the county where you live. Circuit, superior, and probate courts can all hear name changes; the clerk will direct you.
+    es: Presenta la petición en el condado donde vives. Los tribunales de circuito, superiores y de sucesiones pueden conocer cambios de nombre; el secretario te indicará.
+  age:
+    en: People 17 and older file for themselves. For a child under 17, a parent or guardian files (see Minors).
+    es: Las personas de 17 años o más presentan su propia petición. Para menores de 17, presenta un padre, madre o tutor.
+  criminal_history:
+    en: >-
+      You cannot petition while confined in a Department of Correction facility, or if you are a lifetime sex or violent
+      offender registrant (a narrow religious-belief exception exists). If you have a felony conviction in the last ten
+      years you can still file, but you must notify the sheriff, the prosecutor, and the state criminal history
+      repository (with fingerprints) at least 30 days before the hearing.
+    es: >-
+      No puedes presentar la petición si estás recluido en una instalación del Departamento de Corrección o si estás
+      registrado de por vida como agresor sexual o violento. Si tienes una condena por delito grave en los últimos diez
+      años, puedes presentar, pero debes notificar al alguacil, al fiscal y al registro estatal de antecedentes (con
+      huellas dactilares) al menos 30 días antes de la audiencia.
+  other:
+    en: >-
+      The statute lists "proof that the person is a United States citizen" among the petition requirements. If you are
+      not a US citizen, talk to Indiana Legal Services before filing.
+    es: >-
+      La ley incluye "prueba de que la persona es ciudadana de los Estados Unidos" entre los requisitos de la petición.
+      Si no eres ciudadano estadounidense, habla con Indiana Legal Services antes de presentar.
+  sources: [ic-34-28-2-1-5, ic-34-28-2-2-5, ic-34-28-2-3, ils-id-info]
+forms:
+  - id: ILH adult packet
+    name:
+      en: Adult Name Change packet (Appearance, Verified Petition for Change of Name, Order Setting Hearing, Notice of Petition, Notice of Filing Proof of Publication, Order)
+      es: Paquete de cambio de nombre para adultos (Comparecencia, Petición verificada, Orden de audiencia, Aviso de petición, Aviso de prueba de publicación, Orden)
+    url: https://indianalegalhelp.org/wp-content/uploads/2024/09/Adult-Name-Change-Packet-202409-Update.pdf
+    required: always
+    how_to_fill:
+      en: |
+        Read the instructions first: https://indianalegalhelp.org/wp-content/uploads/2024/09/Adult-Name-Change-Packet-INSTRUCTIONS-202409-Update.pdf
+        - **Verified Petition**: fill in your current name, date of birth, Indiana license or ID number, address, every prior name, whether you have a passport, and any felony convictions (or write "I do not have any felony convictions"). You do not have to give a reason or mention your gender.
+        - **Item 12 (birth certificate)**: check whether you want the name on your birth certificate changed. If you were born in Indiana, checking "be changed" is useful; the order will say so.
+        - Sign the petition **in front of a notary**.
+        - Leave the hearing date and cause number blank; the clerk and court fill them in.
+        - Do **not** add a request to change your sex or gender to this petition (see tips).
+      es: |
+        Lee primero las instrucciones.
+        - **Petición verificada**: tu nombre actual, fecha de nacimiento, número de licencia o identificación de Indiana, dirección, todos tus nombres anteriores, si tienes pasaporte y cualquier condena por delito grave. No tienes que dar una razón ni mencionar tu género.
+        - **Punto 12 (acta de nacimiento)**: marca si quieres que se cambie el nombre en tu acta de nacimiento.
+        - Firma la petición **ante un notario**.
+        - Deja en blanco la fecha de audiencia y el número de causa.
+        - **No** agregues una solicitud de cambio de sexo o género a esta petición.
+    sources: [ilh-name-change, ilh-adult-instructions]
+  - id: ILH confidentiality forms
+    name:
+      en: Request to keep the case confidential and waive publication (Notice of Exclusion of Confidential Information, Verified Request to Prohibit Public Access, ILS Memorandum of Law, Public Notice of Hearing, Order)
+      es: Solicitud para mantener el caso confidencial y eximir la publicación (Aviso de exclusión, Solicitud verificada, Memorando legal de ILS, Aviso público de audiencia, Orden)
+    url: https://indianalegalhelp.org/wp-content/uploads/2024/09/Adult-Name-Change-Packet-INSTRUCTIONS-202409-Update.pdf
+    required: optional
+    condition:
+      en: Included at the back of the adult instructions packet. Strongly recommended if being outed as trans could put you at risk.
+      es: Incluidos al final del paquete de instrucciones para adultos. Muy recomendados si ser identificado como persona trans podría ponerte en riesgo.
+    how_to_fill:
+      en: |
+        - **Verified Request to Prohibit Public Access**: item 1 lets you check transgender, gender non-conforming, or nonbinary. Item 6 lets you check any harm you have personally experienced (physical harm, discrimination, harassment, bullying, threats). You do not need to have been threatened personally; the attached memorandum explains that Indiana appellate courts accept the general risk to trans people.
+        - Attach the **Memorandum of Law** (written by Indiana Legal Services) as an exhibit, unchanged.
+        - File all five papers **with your petition**, before you publish anything. Once a notice is in the paper it cannot be taken back; Indiana public notices are archived online.
+        - The court must hold a short public hearing on the sealing request; the court posts a notice of that hearing at the courthouse at least 30 days ahead.
+      es: |
+        - **Solicitud verificada**: el punto 1 permite marcar transgénero, género no conforme o no binario. El punto 6 permite marcar daños que hayas sufrido. No necesitas haber sido amenazado personalmente; el memorando explica que los tribunales de apelación de Indiana aceptan el riesgo general para personas trans.
+        - Adjunta el **Memorando legal** (de Indiana Legal Services) sin cambios.
+        - Presenta los cinco documentos **junto con tu petición**, antes de publicar nada.
+        - El tribunal debe celebrar una audiencia pública breve sobre la solicitud de sellado; publica un aviso en el juzgado al menos 30 días antes.
+    sources: [ilh-adult-instructions, ilh-keep-private]
+  - id: ILH fee waiver packet
+    name:
+      en: Verified Motion for Fee Waiver and Order on Fee Waiver (general)
+      es: Moción verificada de exención de tarifas y Orden (general)
+    url: https://indianalegalhelp.org/wp-content/uploads/2023/08/GeneralFeeWaiver0420_FILLABLE-4.21.23.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. Instructions are at https://indianalegalhelp.org/wp-content/uploads/2023/08/GeneralFeeWaiver_0420INSTRUCTIONS-4.21.23.pdf
+      es: Solo si no puedes pagar la tarifa de presentación.
+    sources: [ilh-fee-waiver]
+  - id: ILH minor packets
+    name:
+      en: Child Name Change packets (parents agree / parents disagree)
+      es: Paquetes de cambio de nombre de menores (padres de acuerdo / en desacuerdo)
+    url: https://indianalegalhelp.org/legal-topic/name-change/
+    required: conditional
+    condition:
+      en: For a child under 17. Use the "with consent" packet if both parents agree and the "no consent" packet if a parent does not.
+      es: Para menores de 17 años. Usa el paquete "con consentimiento" si ambos padres están de acuerdo y el de "sin consentimiento" si uno no lo está.
+    sources: [ilh-name-change]
+steps:
+  - id: fill-forms
+    title:
+      en: Fill out the adult packet and the confidentiality forms
+      es: Llena el paquete para adultos y los formularios de confidencialidad
+    body:
+      en: |
+        Download the adult packet from Indiana Legal Help and read the instructions. If you want the case sealed and no newspaper notice, also fill out the confidentiality forms at the back of the instructions. Indiana Legal Help estimates 1 to 2 hours. Check your county's local rules for how many copies to bring.
+      es: |
+        Descarga el paquete para adultos de Indiana Legal Help y lee las instrucciones. Si quieres que el caso se selle y no haya aviso en el periódico, llena también los formularios de confidencialidad. Indiana Legal Help calcula de 1 a 2 horas. Revisa las reglas locales de tu condado sobre cuántas copias llevar.
+    forms: [ILH adult packet, ILH confidentiality forms]
+    sources: [ilh-name-change, ilh-adult-instructions]
+  - id: notarize
+    title:
+      en: Sign the petition in front of a notary
+      es: Firma la petición ante un notario
+    body:
+      en: The Verified Petition must be sworn. Many banks, public libraries, and the clerk's office offer notary service, often free.
+      es: La petición verificada debe ser jurada. Muchos bancos, bibliotecas públicas y la oficina del secretario ofrecen servicio de notario, a menudo gratis.
+    forms: [ILH adult packet]
+    sources: [ilh-adult-instructions]
+  - id: file
+    title:
+      en: File with the clerk and pay the fee or ask for a waiver
+      es: Presenta los documentos ante el secretario y paga la tarifa o pide una exención
+    body:
+      en: |
+        Take the originals and copies to the Clerk of Court in your county (or e-file). Pay the filing fee (about $157) or file the fee waiver motion. The clerk stamps your copies and the court sets a hearing date. Bring your Indiana driver's license or ID.
+      es: |
+        Lleva los originales y copias al secretario del tribunal de tu condado (o preséntalos electrónicamente). Paga la tarifa (unos $157) o presenta la moción de exención. El secretario sella tus copias y el tribunal fija una fecha de audiencia. Lleva tu licencia o identificación de Indiana.
+    forms: [ILH fee waiver packet]
+    fees: [filing]
+    sources: [ilh-adult-instructions, ilh-fee-faq, a4te-in]
+  - id: publish
+    title:
+      en: Publish the notice (unless the judge waived it)
+      es: Publica el aviso (a menos que el juez lo haya eximido)
+    body:
+      en: |
+        If you did not ask for a waiver, or the judge denied it, take the Notice of Petition to the legal-notices desk of a newspaper of general circulation in your county. It must run once a week for three weeks, and the last run must be at least 30 days before the hearing. The newspaper sends you a proof of publication; attach it to the Notice of Filing Proof of Publication and file both.
+      es: |
+        Si no pediste la exención, o el juez la negó, lleva el Aviso de Petición al departamento de avisos legales de un periódico de circulación general en tu condado. Debe publicarse una vez por semana durante tres semanas, y la última publicación debe ser al menos 30 días antes de la audiencia. El periódico te envía una prueba de publicación; adjúntala al Aviso de Prueba de Publicación y presenta ambos.
+    fees: [publication]
+    optional: true
+    estimated_time:
+      en: 3 weeks of notices, then at least 30 days before the hearing
+      es: 3 semanas de avisos y luego al menos 30 días antes de la audiencia
+    sources: [ic-34-28-2-3, ic-34-28-2-4, ilh-adult-instructions]
+  - id: felony-notice
+    title:
+      en: If you have a felony conviction in the last 10 years, send the required notices
+      es: Si tienes una condena por delito grave en los últimos 10 años, envía los avisos requeridos
+    body:
+      en: At least 30 days before the hearing, notify the county sheriff, the prosecuting attorney, and the Indiana central repository for criminal history information (with a full set of fingerprints). Skipping this is a Class A misdemeanor.
+      es: Al menos 30 días antes de la audiencia, notifica al alguacil del condado, al fiscal y al registro central de antecedentes penales de Indiana (con huellas dactilares completas). No hacerlo es un delito menor de clase A.
+    optional: true
+    sources: [ic-34-28-2-3]
+  - id: hearing
+    title:
+      en: Go to the hearing
+      es: Asiste a la audiencia
+    body:
+      en: Bring your ID and copies of everything you filed. The judge may ask a few questions to confirm the change is not to avoid debts or commit fraud. If the petition is granted, the judge signs the Order on Verified Petition for Change of Name.
+      es: Lleva tu identificación y copias de todo lo que presentaste. El juez puede hacer algunas preguntas para confirmar que el cambio no es para evadir deudas o cometer fraude. Si se concede, el juez firma la Orden.
+    sources: [ilh-adult-instructions, a4te-in]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Ask the clerk for 3 to 5 certified copies. Indiana Legal Services says certification can cost up to $2 a page.
+      es: Pide al secretario de 3 a 5 copias certificadas. Indiana Legal Services dice que la certificación puede costar hasta $2 por página.
+    fees: [certified-copies]
+    sources: [ils-updating-ids]
+fees:
+  - id: filing
+    label:
+      en: Court filing fee (civil case)
+      es: Tarifa de presentación (caso civil)
+    amount: 157
+    varies_by: county
+    waivable: true
+    note:
+      en: Indiana Legal Help lists $157 for a standard civil filing. Confirm with your county clerk.
+      es: Indiana Legal Help indica $157 para una presentación civil estándar. Confírmalo con el secretario de tu condado.
+    sources: [ilh-fee-faq, a4te-in]
+  - id: publication
+    label:
+      en: Newspaper publication (three weekly notices)
+      es: Publicación en el periódico (tres avisos semanales)
+    varies_by: vendor
+    note:
+      en: Set by the newspaper. Not needed if the judge waives publication.
+      es: La fija el periódico. No se necesita si el juez exime la publicación.
+    sources: [ic-34-28-2-3]
+  - id: certified-copies
+    label:
+      en: Certified copies of the order
+      es: Copias certificadas de la orden
+    max: 2
+    varies_by: county
+    note:
+      en: Up to about $2 per page, per Indiana Legal Services.
+      es: Hasta unos $2 por página, según Indiana Legal Services.
+    sources: [ils-updating-ids]
+fee_waiver:
+  available: true
+  forms: [ILH fee waiver packet]
+  eligibility:
+    en: The judge decides whether you are unable to pay. Receiving public benefits (SNAP, Medicaid/HIP, TANF, SSI) or having very low income supports the request; list your income, expenses, and benefits on the motion.
+    es: El juez decide si no puedes pagar. Recibir beneficios públicos (SNAP, Medicaid/HIP, TANF, SSI) o tener ingresos muy bajos apoya la solicitud; detalla tus ingresos, gastos y beneficios en la moción.
+  how:
+    en: File the Verified Motion for Fee Waiver and a proposed Order on Fee Waiver with your petition. A waiver covers court fees; it does not pay the newspaper.
+    es: Presenta la Moción verificada de exención y una Orden propuesta junto con tu petición. La exención cubre las tarifas del tribunal; no paga el periódico.
+  sources: [ilh-fee-waiver, ilh-fee-faq]
+publication:
+  required: conditional
+  detail:
+    en: The statute requires three weekly publications in a newspaper of general circulation in the county, with the last one at least 30 days before the hearing. Judges can waive it when they seal the case for safety under the Rules on Access to Court Records.
+    es: La ley exige tres publicaciones semanales en un periódico de circulación general en el condado, la última al menos 30 días antes de la audiencia. Los jueces pueden eximirla cuando sellan el caso por seguridad.
+  waiver_available: true
+  waiver_how:
+    en: File the Verified Request to Prohibit Public Access, the ILS Memorandum of Law, and the related notice and order with your petition. The Court of Appeals has held that the documented risk of violence and harassment against transgender people can be enough (In re Name Change of A.L., 81 N.E.3d 283 (Ind. Ct. App. 2017); In re M.E.B., 126 N.E.3d 932 (Ind. Ct. App. 2019)).
+    es: Presenta la Solicitud verificada, el Memorando de ILS y el aviso y orden relacionados junto con tu petición. El Tribunal de Apelaciones ha resuelto que el riesgo documentado de violencia y acoso contra personas trans puede ser suficiente.
+  sources: [ic-34-28-2-3, ilh-adult-instructions, ilh-keep-private]
+hearing:
+  required: "yes"
+  detail:
+    en: The court sets a hearing when you file. The decree cannot be entered until 30 days after proof of publication is filed. If you ask to seal the case, there is also a brief public hearing on that request.
+    es: El tribunal fija una audiencia al presentar. El decreto no puede dictarse hasta 30 días después de presentar la prueba de publicación. Si pides sellar el caso, también hay una audiencia pública breve sobre esa solicitud.
+  sources: [ic-34-28-2-4, ilh-adult-instructions]
+background_check:
+  required: conditional
+  detail:
+    en: No background check for most people. If you have a felony conviction in the last ten years, you must send notice with a full set of fingerprints to the state criminal history repository, which forwards your record to the court.
+    es: No hay verificación de antecedentes para la mayoría. Si tienes una condena por delito grave en los últimos diez años, debes enviar aviso con huellas dactilares al registro estatal, que envía tu historial al tribunal.
+  sources: [ic-34-28-2-3]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: Name change cases are public by default. The judge can exclude the whole record from public access under Rule 6 of the Indiana Rules on Access to Court Records if public access would create a significant risk of substantial harm.
+    es: Los casos de cambio de nombre son públicos por defecto. El juez puede excluir todo el expediente del acceso público bajo la Regla 6 de las Reglas de Acceso a Registros Judiciales si el acceso público crearía un riesgo significativo de daño sustancial.
+  how:
+    en: File the confidentiality forms from the Indiana Legal Help adult instructions packet at the same time as your petition.
+    es: Presenta los formularios de confidencialidad del paquete de Indiana Legal Help al mismo tiempo que tu petición.
+  sources: [ic-34-28-2-2-5, ilh-adult-instructions, ilh-keep-private]
+minors:
+  summary:
+    en: |
+      A parent or guardian files a verified petition that explains the reason for the change, for a child under 17. The written consent of the other parent must be filed with it (unless consent is not required, for example after abandonment), and both parents must be served with the petition. If a parent objects or does not consent, the court holds a hearing and decides based on the child's best interest; a parent who is current on child support gets a presumption in favor of their objection. Publication and the option to seal work the same as for adults. Indiana Legal Help has separate packets for "parents agree" and "parents disagree".
+    es: |
+      Un padre, madre o tutor presenta una petición verificada que explique el motivo del cambio, para menores de 17 años. Debe adjuntarse el consentimiento escrito del otro padre (salvo que no se requiera, por ejemplo por abandono), y ambos padres deben ser notificados. Si un padre se opone o no consiente, el tribunal celebra una audiencia y decide según el interés superior del menor; un padre al día con la manutención tiene una presunción a favor de su objeción. La publicación y la opción de sellar funcionan igual que para adultos.
+  forms: [ILH minor packets]
+  sources: [ic-34-28-2-2, ic-34-28-2-4, ilh-name-change, a4te-in]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the clerk's office or through Indiana's e-filing system. You must attend the hearing.
+    es: Presenta en persona en la oficina del secretario o mediante el sistema de presentación electrónica de Indiana. Debes asistir a la audiencia.
+  sources: [ilh-adult-instructions, courts-selfservice]
+timeline:
+  en: Usually two to three months from filing to a signed order, mostly the three weeks of publication plus the 30-day wait. A sealing request adds its own 30-day notice period.
+  es: Normalmente de dos a tres meses desde la presentación hasta la orden firmada, principalmente por las tres semanas de publicación más la espera de 30 días.
+after:
+  en: |
+    1. **Social Security** first (free). The name changes; the sex field cannot currently be changed.
+    2. Wait at least one business day, then go to a **BMV branch** within 30 days with a certified copy of the order ($9 to amend a license). The BMV no longer changes the sex marker.
+    3. **Birth certificate** if you were born in Indiana: bring a certified copy of a name-only order to the health department of the county where you were born, or call IDOH Vital Records at 317-233-2700. Sex changes are not being processed.
+    4. **Passport**, voter registration (indianavoters.in.gov), bank, employer, insurance, school records.
+  es: |
+    1. Primero el **Seguro Social** (gratis). El nombre cambia; el campo de sexo actualmente no se puede cambiar.
+    2. Espera al menos un día hábil y ve a una **sucursal del BMV** dentro de 30 días con una copia certificada de la orden ($9 para enmendar la licencia). El BMV ya no cambia el marcador de sexo.
+    3. **Acta de nacimiento** si naciste en Indiana: lleva una copia certificada de una orden solo de nombre al departamento de salud del condado donde naciste, o llama a Registros Vitales del IDOH al 317-233-2700. Los cambios de sexo no se están procesando.
+    4. **Pasaporte**, registro de votante, banco, empleador, seguro y expedientes escolares.
+tips:
+  - en: >-
+      Ask for a **name-only** order. Indiana Legal Services warns not to use an order that combines a name change and a
+      gender marker change to update your birth certificate, because gender-marker requests are being forwarded to the
+      Attorney General's office. If you already have a combined order, contact the ILS LGBTQ+ Project before using it.
+    es: >-
+      Pide una orden **solo de nombre**. Indiana Legal Services advierte no usar una orden que combine cambio de nombre y
+      de marcador de género para actualizar tu acta de nacimiento, porque esas solicitudes se envían a la oficina del
+      Fiscal General. Si ya tienes una orden combinada, contacta al Proyecto LGBTQ+ de ILS antes de usarla.
+  - en: File the confidentiality request with the petition, not later. Once a newspaper notice runs it is archived online and cannot be removed.
+    es: Presenta la solicitud de confidencialidad junto con la petición, no después. Una vez publicado el aviso, queda archivado en línea.
+  - en: Indiana Legal Services' LGBTQ+ Project (317-829-3180, lgbtgroup@ilsi.net) helps low-income Hoosiers with name changes and can review your forms.
+    es: El Proyecto LGBTQ+ de Indiana Legal Services (317-829-3180, lgbtgroup@ilsi.net) ayuda a personas de bajos ingresos con cambios de nombre.
+local_help:
+  - id: ils-lgbtq
+    name: Indiana Legal Services, LGBTQ+ Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for eligible low-income Hoosiers in all 92 counties, including name change packets and help updating IDs. Call 317-829-3180 or email lgbtgroup@ilsi.net, or apply online.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en los 92 condados, incluidos paquetes de cambio de nombre y ayuda para actualizar identificaciones. Llama al 317-829-3180 o escribe a lgbtgroup@ilsi.net.
+    url: https://www.indianalegalservices.org/lgbtvap/identity-documents-information/
+    phone: "317-829-3180"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [ils-id-info]
+  - id: indiana-legal-help
+    name: Indiana Legal Help (court-approved self-help forms)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: The Indiana courts' self-help site with free, court-approved name change and fee waiver forms, videos on publication and on keeping a case private, and a link to free legal answers online.
+      es: El sitio de autoayuda de los tribunales de Indiana con formularios gratuitos aprobados para cambio de nombre y exención de tarifas, videos sobre publicación y sobre mantener un caso privado.
+    url: https://indianalegalhelp.org/legal-topic-category/name-change/
+    cost: free
+    verification: official_source
+    sources: [ilh-name-change, courts-selfservice]
+  - id: gendernexus
+    name: GenderNexus
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Indianapolis nonprofit whose care coordinators help with legal name and gender marker changes, medical referral letters, and finding affirming providers; also support groups and counseling. Services are free. 3833 N. Meridian St; 317-650-5988.
+      es: Organización de Indianápolis cuyos coordinadores ayudan con cambios legales de nombre y marcador de género, cartas de referencia médica y proveedores afirmativos; también grupos de apoyo y consejería. Servicios gratuitos.
+    url: https://www.gendernexus.org/
+    phone: "317-650-5988"
+    address: 3833 N. Meridian St, Indianapolis, IN 46208
+    cost: free
+    verification: org_website
+    sources: [gendernexus]
+  - id: free-legal-answers
+    name: Indiana Free Legal Answers
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Ask a volunteer Indiana lawyer a civil legal question online for free, if you meet the income limits.
+      es: Haz una pregunta legal civil en línea a un abogado voluntario de Indiana, gratis, si cumples los límites de ingresos.
+    url: https://indiana.freelegalanswers.org/
+    cost: free
+    verification: official_source
+    sources: [courts-selfservice]
+  - id: genderbands-in
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small national grants for transition costs, including name change fees; 18 and older.
+      es: Pequeñas becas nacionales para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: Ind. Code 34-28-2
+    title:
+      en: Change of name (petition, notice by publication, hearing, minors, decree)
+      es: Cambio de nombre
+    url: https://iga.in.gov/laws/2025/ic/titles/34
+  - cite: Indiana Rules on Access to Court Records, Rule 6
+    title:
+      en: Excluding a case from public access for risk of harm
+    url: https://rules.incourts.gov/
+related_links:
+  - title: Advocates for Trans Equality, Indiana identity documents
+    url: https://transequality.org/documents/indiana-identity-documents
+    note:
+      en: Last updated February 2026.
+      es: Actualizado en febrero de 2026.
+  - title: Indiana Legal Services, Updating your IDs (August 2025)
+    url: https://www.indianalegalservices.org/updatingids/
+sources:
+  - id: ic-34-28-2-1-5
+    url: https://codes.findlaw.com/in/title-34-civil-law-and-procedure/in-code-sect-34-28-2-1-5/
+    title: Ind. Code 34-28-2-1.5 (persons who may not petition)
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A person may not petition for a change of name if the person: (1) is confined to a department of correction facility; or (2) ... is a lifetime sex or violent offender."
+  - id: ic-34-28-2-2
+    url: https://codes.findlaw.com/in/title-34-civil-law-and-procedure/in-code-sect-34-28-2-2/
+    title: Ind. Code 34-28-2-2 (petition for a minor)
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the written consent of a parent, or the written consent of the guardian if both parents are dead, must be filed with the petition
+  - id: ic-34-28-2-2-5
+    url: https://codes.findlaw.com/in/title-34-civil-law-and-procedure/in-code-sect-34-28-2-2-5/
+    title: Ind. Code 34-28-2-2.5 (petition contents, age 17 and older)
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "(5) Proof that the person is a United States citizen. ... A petition under subsection (a) is subject to Indiana Rules of Court Administrative Rule 9."
+  - id: ic-34-28-2-3
+    url: https://codes.findlaw.com/in/title-34-civil-law-and-procedure/in-code-sect-34-28-2-3/
+    title: Ind. Code 34-28-2-3 (notice by publication; felony-conviction notice)
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: By three (3) weekly publications in a newspaper of general circulation published in the county in which the petition is filed in court.
+  - id: ic-34-28-2-4
+    url: https://codes.findlaw.com/in/title-34-civil-law-and-procedure/in-code-sect-34-28-2-4/
+    title: Ind. Code 34-28-2-4 (proof of publication, timing of decree, objections, minors)
+    publisher: FindLaw (copy of the Indiana Code)
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ilh-name-change
+    url: https://indianalegalhelp.org/legal-topic/name-change/
+    title: Name change forms
+    publisher: Indiana Legal Help (Indiana Supreme Court Coalition for Court Access)
+    kind: court
+    accessed: "2026-09-24"
+    quote: You are not required to register as a sex or violent offender.
+  - id: ilh-adult-instructions
+    url: https://indianalegalhelp.org/wp-content/uploads/2024/09/Adult-Name-Change-Packet-INSTRUCTIONS-202409-Update.pdf
+    title: Instructions, Adult Name Change (with confidentiality forms and ILS memorandum)
+    publisher: Indiana Legal Help
+    kind: form
+    accessed: "2026-09-24"
+    quote: If you feel unsafe publishing in a newspaper (for example, because you are transgender), or having this case public would put you at significant risk of substantial harm, fill out all of the following forms and submit them to the Clerk of Court when you start your name change case.
+  - id: ilh-keep-private
+    url: https://indianalegalhelp.org/how-to-ask-a-court-to-keep-a-case-private/
+    title: How to ask a court to keep a case private
+    publisher: Indiana Legal Help
+    kind: court
+    accessed: "2026-09-24"
+  - id: ilh-fee-faq
+    url: https://indianalegalhelp.org/filing-fee-frequently-asked-questions/
+    title: Filing fee frequently asked questions
+    publisher: Indiana Legal Help
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Standard civil court filing: $157"
+  - id: ilh-fee-waiver
+    url: https://indianalegalhelp.org/wp-content/uploads/2023/08/GeneralFeeWaiver_0420INSTRUCTIONS-4.21.23.pdf
+    title: General fee waiver instructions and forms
+    publisher: Indiana Legal Help
+    kind: form
+    accessed: "2026-09-24"
+  - id: courts-selfservice
+    url: https://www.in.gov/courts/selfservice/
+    title: Self-Service Legal Center
+    publisher: Indiana Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: ils-id-info
+    url: https://www.indianalegalservices.org/lgbtvap/identity-documents-information/
+    title: Name and gender marker changes
+    publisher: Indiana Legal Services
+    kind: org
+    accessed: "2026-09-24"
+    quote: Adults (17 and older) who are not in jail or prison or registered lifetime sex offenders can change their name.
+  - id: ils-updating-ids
+    url: https://www.indianalegalservices.org/wp-content/uploads/2025/08/Updating-ID-Docs-8.25.pdf
+    title: Updating ID documents packet (rev. 8.7.25)
+    publisher: Indiana Legal Services, LGBTQ+ Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: If your name change and gender marker change are on the same court order, do not use it to update your birth certificate. Contact us right away.
+  - id: a4te-in
+    url: https://transequality.org/documents/indiana-identity-documents
+    title: Indiana identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: gendernexus
+    url: https://www.gendernexus.org/
+    title: GenderNexus
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
