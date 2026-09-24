@@ -1,0 +1,183 @@
+guide_type: drivers_license
+jurisdiction: AZ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    ADOT has no public web page on sex-marker changes. The URL
+    azdot.gov/mvd/services/driver-services/driver-license-information/gender-change returned HTTP 500, it is not in the
+    ADOT sitemap, and the Internet Archive was offline, so the requirement comes from secondary sources: A4TE's Arizona
+    page (no date shown) and a 2019 Carter Law Firm article. Both say MVD requires a signed statement from a licensed
+    physician that the applicant is "irrevocably committed" to the gender change, with the physician's license number,
+    dated within three months. Carter adds that the letter must be on letterhead, and that PAs, nurses, and therapists
+    cannot sign. The primary sources read are form 40-5122 (rev. R01/26: the Sex field has only Female and Male boxes, so
+    X appears unavailable), the ADOT fees page ($12 duplicate), and the ADOT change-your-name page. Reviewer: confirm
+    the current MVD policy (ADOT Policy or MVD customer service 602-255-0072), whether nurse practitioners can now sign,
+    and whether any 2025-2026 law changed it. The web-search budget ran out before searching for 2025-2026 bills.
+status: restricted
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on an Arizona driver's license or ID between M and F with a signed statement from a licensed
+    physician. No surgery or court order is needed. X is not offered. You must go in person to an MVD office, and a
+    duplicate card costs $12.
+  es: >-
+    Puedes cambiar el sexo en una licencia o identificación de Arizona entre M y F con una declaración firmada por un
+    médico con licencia. No se necesita cirugía ni orden judicial. No se ofrece X. Debes acudir en persona a una
+    oficina de MVD, y la tarjeta duplicada cuesta $12.
+summary:
+  en: |
+    Arizona's Motor Vehicle Division (MVD, part of ADOT) changes the sex on a license or ID card when you bring a **statement from a licensed physician** saying you are "irrevocably committed" to your gender transition. The statement must include the physician's license number and be no more than three months old. An amended birth certificate showing the new sex is also accepted. The application form (40-5122) offers only Female and Male.
+
+    Changing your **name** is a separate step. Update Social Security first, wait two business days, then bring the certified court order to MVD. You must report a legal name change to MVD within 10 days.
+  es: |
+    La División de Vehículos Motorizados de Arizona (MVD, parte de ADOT) cambia el sexo en la licencia o identificación cuando llevas una **declaración de un médico con licencia** que diga que estás "irrevocablemente comprometido/a" con tu transición de género. Debe incluir el número de licencia del médico y no tener más de tres meses. También se acepta un acta de nacimiento enmendada con el nuevo sexo. El formulario (40-5122) solo ofrece Femenino y Masculino.
+
+    Cambiar tu **nombre** es un paso aparte. Actualiza primero el Seguro Social, espera dos días hábiles y lleva la orden judicial certificada a MVD. Debes informar a MVD de un cambio de nombre legal dentro de 10 días.
+eligibility:
+  residency:
+    en: You must hold or be applying for an Arizona driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia o identificación de Arizona.
+  other:
+    en: The letter must come from a licensed physician (MD or DO). Letters from therapists, nurses, or physician assistants were not accepted as of the most recent secondary source.
+    es: La carta debe ser de un médico con licencia (MD o DO). Según la fuente secundaria más reciente, no se aceptaban cartas de terapeutas, enfermeros ni asistentes médicos.
+  sources: [a4te-az, carter-law]
+forms:
+  - id: 40-5122
+    name:
+      en: Travel License / Identification Application
+      es: Solicitud de licencia o identificación (Travel)
+    url: https://apps.azdot.gov/files/mvd/mvd-forms-lib/40-5122.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - In the **Sex** field, check the box for your gender: Female or Male. No X option is printed.
+        - If your name is also changing, write the new legal name exactly as it appears on your certified court order.
+        - The MVD clerk can also give you the form at the office.
+      es: |
+        - En el campo **Sex**, marca Femenino o Masculino. No hay opción X.
+        - Si también cambias de nombre, escribe el nuevo nombre tal como aparece en la orden judicial certificada.
+    sources: [form-40-5122]
+steps:
+  - id: physician-letter
+    title:
+      en: Get a signed statement from a licensed physician
+      es: Obtén una declaración firmada de un médico con licencia
+    body:
+      en: |
+        Ask your doctor for a letter on office letterhead stating that you are **irrevocably committed to the gender-change process**. It must include the physician's license number and be signed. Use it within **three months** of the date it was signed. Informed-consent hormone clinics and Planned Parenthood Arizona can often provide one.
+      es: |
+        Pide a tu médico una carta con membrete que diga que estás **irrevocablemente comprometido/a con el proceso de cambio de género**. Debe incluir su número de licencia y estar firmada. Úsala dentro de los **tres meses** siguientes a la firma.
+    applies_to: [gender_marker]
+    sources: [a4te-az, carter-law]
+  - id: ssa-first
+    title:
+      en: If your name changed, update Social Security first
+      es: Si cambiaste de nombre, actualiza primero el Seguro Social
+    body:
+      en: MVD checks your record with the Social Security Administration. After SSA updates your name, wait two business days before you go to MVD.
+      es: MVD verifica tus datos con el Seguro Social. Después de que el Seguro Social actualice tu nombre, espera dos días hábiles antes de ir a MVD.
+    applies_to: [name_change]
+    sources: [adot-name-change]
+  - id: visit
+    title:
+      en: Visit an MVD office
+      es: Visita una oficina de MVD
+    body:
+      en: |
+        Go to an MVD office or authorized third-party office with your current card, the physician's letter, form 40-5122, and a certified court order if your name is changing. You will take a new photo and pay for a duplicate card.
+      es: |
+        Ve a una oficina de MVD o de un proveedor autorizado con tu tarjeta actual, la carta médica, el formulario 40-5122 y la orden judicial certificada si cambias de nombre. Te tomarán una foto nueva y pagarás la tarjeta duplicada.
+    forms: [40-5122]
+    fees: [duplicate]
+    applies_to: [in_person]
+    sources: [adot-name-change, adot-fees, form-40-5122]
+fees:
+  - id: duplicate
+    label:
+      en: Duplicate driver's license or ID card (including Travel ID)
+      es: Licencia o tarjeta de identificación duplicada (incluida Travel ID)
+    amount: 12
+    note:
+      en: Non-travel ID cards are free for people 65 and older and for SSI recipients. Trans Spectrum of Arizona's Affirming Identification grant can pay this fee.
+      es: Las identificaciones no Travel son gratis para mayores de 65 años y beneficiarios de SSI. La beca de Trans Spectrum of Arizona puede pagar esta tarifa.
+    sources: [adot-fees, tsaz-aid]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no waiver for driver's licenses. A non-travel ID card has no fee if you are 65 or older or receive SSI.
+    es: No hay exención para licencias. La identificación no Travel no tiene costo si tienes 65 años o más o recibes SSI.
+  sources: [adot-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require an MVD office visit. Plan on the same for a sex-marker change, since you must present the physician's letter and take a new photo.
+    es: Los cambios de nombre requieren visitar una oficina de MVD. Lo mismo aplica al cambio de sexo, ya que debes presentar la carta médica y tomarte una foto nueva.
+  sources: [adot-name-change]
+timeline:
+  en: One office visit. You get an interim document, and the card arrives by mail.
+  es: Una visita a la oficina. Recibes un documento provisional y la tarjeta llega por correo.
+after:
+  en: |
+    Your license is the ID most places check, so do this soon after Social Security. The US passport and Social Security record currently cannot show a changed sex marker, but you can still update your name there.
+  es: |
+    Tu licencia es la identificación que más se revisa, así que hazlo poco después del Seguro Social. El pasaporte y el registro del Seguro Social actualmente no pueden mostrar un marcador de sexo cambiado, pero sí puedes actualizar tu nombre.
+tips:
+  - en: If a clerk asks for surgery records or a court order for the sex change, ask for a supervisor. The documented requirement is a physician's statement only.
+    es: Si te piden documentos de cirugía o una orden judicial para el cambio de sexo, pide hablar con un supervisor. El requisito documentado es solo una declaración médica.
+  - en: You do not need to change your name to change your sex marker, or the reverse.
+    es: No necesitas cambiar tu nombre para cambiar tu marcador de sexo, ni al revés.
+related_links:
+  - title: Advocates for Trans Equality, Arizona identity documents
+    url: https://transequality.org/documents/arizona-identity-documents
+    note:
+      en: No last-updated date shown. Source for the physician-letter wording.
+      es: No muestra fecha de actualización.
+sources:
+  - id: a4te-az
+    url: https://transequality.org/documents/arizona-identity-documents
+    title: Arizona identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: a signed statement from a licensed physician attesting that the applicant is irrevocably committed to the gender-change process
+  - id: carter-law
+    url: https://carterlawaz.com/how-to-legally-change-your-gender-in-arizona/
+    title: How to legally change your gender in Arizona (January 2019)
+    publisher: Carter Law Firm
+    kind: community
+    accessed: "2026-09-24"
+  - id: form-40-5122
+    url: https://apps.azdot.gov/files/mvd/mvd-forms-lib/40-5122.pdf
+    title: Form 40-5122, Travel License / Identification Application (rev. R01/26)
+    publisher: Arizona Department of Transportation, MVD
+    kind: form
+    accessed: "2026-09-24"
+    quote: Sex Female Male
+  - id: adot-fees
+    url: https://azdot.gov/mvd/services/driver-services/driver-license-information/fees-driver-license
+    title: Fees (Driver License)
+    publisher: Arizona Department of Transportation, MVD
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate license or ID card: $12"
+  - id: adot-name-change
+    url: https://azdot.gov/mvd/services/driver-license-ID/change-your-name
+    title: Change your name with MVD
+    publisher: Arizona Department of Transportation, MVD
+    kind: official
+    accessed: "2026-09-24"
+    quote: You must update your name with MVD within 10 days of your legal name change taking effect.
+  - id: tsaz-aid
+    url: https://tsaz.org/aid/
+    title: Affirming Identification Assistance
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"

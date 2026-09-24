@@ -1,0 +1,231 @@
+guide_type: birth_certificate
+jurisdiction: AZ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirements and fees were read directly from ADHS Vital Records content ("Other Types of Amendments",
+    "Change a Registrant's Name", and "Fee Schedules", served from azdhs.gov/director/vital-records/) and from
+    A.R.S. § 36-337 and A.A.C. R9-19-208(O) on 2026-09-24. Open items: (1) ADHS lists a certified court order as an
+    alternative to the surgery letter, but whether Arizona superior courts will issue an order changing the sex marker
+    without surgery varies by judge and was not confirmed. (2) Lambda Legal challenged the § 36-337 surgery requirement
+    in federal court (reportedly Roe v. Herrington, D. Ariz., filed 2020); its outcome and any effect on current practice
+    could not be confirmed because the web-search budget ran out. Check before publishing. (3) Processing time was not
+    published. (4) Carter Law Firm (2019) said "Arizona will not change your birth certificate to reflect your correct
+    gender"; this conflicts with the statute and the current ADHS page, which are used here.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Arizona, you can change the sex on your birth certificate only with a physician's letter
+    stating you have had a "sex change operation", or with a certified court order. Only M and F are available. The
+    amendment fee is $30, plus $20 per certified copy. Name changes need a certified court order.
+  es: >-
+    Si naciste en Arizona, solo puedes cambiar el sexo en tu acta de nacimiento con una carta médica que diga que te
+    sometiste a una "operación de cambio de sexo" o con una orden judicial certificada. Solo hay M y F. La enmienda
+    cuesta $30 más $20 por copia certificada. Los cambios de nombre requieren una orden judicial certificada.
+summary:
+  en: |
+    Under A.R.S. § 36-337(A)(3) and rule R9-19-208(O), the State Registrar amends the sex on an Arizona birth certificate when you send a written request, an affidavit, and a **statement on a physician's letterhead**, signed and dated, saying you have **undergone a sex change operation** (or have a chromosomal count showing a different sex). The law does not define which surgery counts. ADHS also accepts a **certified court order** that directs the sex-marker amendment (§ 36-337(A)(4)).
+
+    When the record is amended, the original certificate and the supporting documents are **sealed** (§ 36-337(G)). Sex-marker amendments must go to the **State Office** of Vital Records in Phoenix, not a county office.
+
+    To change your **name** on the certificate, you need a certified court order of your name change. For certificates issued in 1997 or later, county vital records offices can do name amendments; older records go to the State Office.
+  es: |
+    Según el A.R.S. § 36-337(A)(3) y la regla R9-19-208(O), el Registro Estatal enmienda el sexo en un acta de Arizona cuando envías una solicitud escrita, una declaración jurada y una **declaración con membrete médico**, firmada y fechada, que diga que te **sometiste a una operación de cambio de sexo** (o que tienes un conteo cromosómico que muestra un sexo distinto). La ley no define qué cirugía cuenta. ADHS también acepta una **orden judicial certificada** que ordene la enmienda.
+
+    Al enmendar el registro, el acta original y los documentos se **sellan** (§ 36-337(G)). Las enmiendas de sexo deben enviarse a la **Oficina Estatal** de Registro Civil en Phoenix, no a una oficina del condado.
+
+    Para cambiar tu **nombre** en el acta necesitas una copia certificada de la orden judicial de cambio de nombre.
+eligibility:
+  residency:
+    en: You must have been born in Arizona. Where you live now does not matter. If you were born in another state, follow that state's rules.
+    es: Debes haber nacido en Arizona. No importa dónde vivas ahora. Si naciste en otro estado, sigue las reglas de ese estado.
+  age:
+    en: You can apply yourself if you are of legal age or married. For a minor, a parent or legal guardian applies (a guardian must include the guardianship order). Surgery is banned under 18 in Arizona, so the physician-letter route is generally unavailable to minors.
+    es: Puedes solicitar si eres mayor de edad o estás casado/a. Para un menor, solicita el padre, la madre o el tutor legal. La cirugía está prohibida antes de los 18 en Arizona, por lo que la vía de carta médica generalmente no está disponible para menores.
+  sources: [ars-36-337, aac-r9-19-208, adhs-other-amendments, ars-32-3230]
+forms:
+  - id: birth-certificate-request
+    name:
+      en: Bureau of Vital Records Request for Copy of Birth Certificate
+      es: Solicitud de copia de acta de nacimiento
+    url: https://www.azdhs.gov/documents/vital-records/application-certificate-birth.pdf
+    url_es: https://www.azdhs.gov/documents/vital-records/application-certificate-birth-spanish.pdf
+    required: always
+    sources: [adhs-other-amendments]
+  - id: correction-affidavit
+    name:
+      en: Affidavit to Correct or Amend a Birth Certificate
+      es: Declaración jurada para corregir o enmendar un acta de nacimiento
+    url: https://www.azdhs.gov/documents/vital-records/manuals/correction-affidavit-correct-amend-birth.pdf
+    url_es: https://www.azdhs.gov/documents/vital-records/manuals/correction-affidavit-correct-amend-birth-spanish.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Enter the information exactly as it appears on the current certificate, then the item to amend (sex, and name if applicable) and the new value.
+        - Sign it yourself. Include a copy of the front and back of your signed government photo ID, or have your signature notarized.
+      es: |
+        - Escribe los datos tal como aparecen en el acta actual, luego el dato a enmendar (sexo y, si aplica, nombre) y el nuevo valor.
+        - Fírmala tú. Incluye copia del frente y reverso de tu identificación con foto firmada, o notariza tu firma.
+    sources: [adhs-other-amendments, adhs-name-change]
+steps:
+  - id: get-evidence
+    title:
+      en: Get the supporting document
+      es: Obtén el documento de respaldo
+    body:
+      en: |
+        For the sex marker, get **either**:
+        - a signed and dated statement on a **physician's letterhead** saying you have undergone a sex change operation, **or**
+        - a **certified court order** directing the amendment of the sex on your birth record.
+
+        For the name, get a **certified copy of your name change order**.
+      es: |
+        Para el sexo, consigue **una de estas**:
+        - una declaración firmada y fechada con **membrete médico** que diga que te sometiste a una operación de cambio de sexo, **o**
+        - una **orden judicial certificada** que ordene la enmienda del sexo.
+
+        Para el nombre, consigue una **copia certificada de tu orden de cambio de nombre**.
+    sources: [adhs-other-amendments, aac-r9-19-208, adhs-name-change]
+  - id: fill
+    title:
+      en: Fill out the request and affidavit
+      es: Llena la solicitud y la declaración jurada
+    body:
+      en: Complete the birth certificate request and the amendment affidavit. Include a copy of the front and back of your signed government photo ID, or have the forms notarized.
+      es: Completa la solicitud y la declaración jurada. Incluye copia del frente y reverso de tu identificación con foto firmada, o notariza los formularios.
+    forms: [birth-certificate-request, correction-affidavit]
+    sources: [adhs-other-amendments, adhs-name-change]
+  - id: submit
+    title:
+      en: Mail everything to the State Office of Vital Records
+      es: Envía todo por correo a la Oficina Estatal de Registro Civil
+    body:
+      en: |
+        Send the request, affidavit, supporting document, ID copy, fees, and a self-addressed stamped envelope to **ADHS Bureau of Vital Records, PO Box 6018, Phoenix, AZ 85005**. Sex-marker amendments must go to the State Office. Questions: 602-364-1300 or 888-816-5907.
+      es: |
+        Envía la solicitud, la declaración, el documento de respaldo, la copia de identificación, las tarifas y un sobre con franqueo y tu dirección a **ADHS Bureau of Vital Records, PO Box 6018, Phoenix, AZ 85005**. Las enmiendas de sexo deben ir a la Oficina Estatal. Preguntas: 602-364-1300 o 888-816-5907.
+    fees: [amendment, copy]
+    applies_to: [by_mail]
+    sources: [adhs-other-amendments, adhs-contact, adhs-fees]
+fees:
+  - id: amendment
+    label:
+      en: Request to amend a registered birth certificate
+      es: Solicitud para enmendar un acta de nacimiento
+    amount: 30
+    sources: [adhs-fees]
+  - id: copy
+    label:
+      en: Certified copy of the birth certificate (each)
+      es: Copia certificada del acta (cada una)
+    amount: 20
+    note:
+      en: Order at least one certified copy of the amended certificate. Trans Spectrum of Arizona's Affirming Identification grant can pay for amended birth certificates.
+      es: Pide al menos una copia certificada del acta enmendada. La beca de Trans Spectrum of Arizona puede pagarla.
+    sources: [adhs-fees, tsaz-aid]
+fee_waiver:
+  available: false
+  eligibility:
+    en: ADHS publishes no fee waiver. Trans Spectrum of Arizona's Affirming Identification grant may cover the cost for adults who have a court order.
+    es: ADHS no publica exención de tarifas. La beca de Trans Spectrum of Arizona puede cubrir el costo para adultos con orden judicial.
+  sources: [adhs-fees, tsaz-aid]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: The State Office handles sex-marker amendments by mail. Some services are available by appointment; call first.
+    es: La Oficina Estatal tramita las enmiendas de sexo por correo. Algunos servicios son con cita; llama primero.
+  sources: [adhs-other-amendments, maricopa-cvnca10p]
+after:
+  en: |
+    An amended birth certificate showing your sex can be used at MVD instead of a physician's letter. Keep the certified copy safe. The original is sealed and cannot be released without a court order.
+  es: |
+    Un acta enmendada con tu sexo puede usarse en MVD en lugar de la carta médica. Guarda bien la copia certificada. El acta original queda sellada y no se entrega sin orden judicial.
+tips:
+  - en: If you have not had surgery, ask a lawyer or Trans Spectrum of Arizona whether local judges have granted court orders for sex-marker amendments. The Maricopa name change packet says the court needs a certified copy of your current birth certificate before ordering any change to it.
+    es: Si no te has operado, pregunta a un abogado o a Trans Spectrum of Arizona si los jueces locales han concedido órdenes para enmendar el sexo. El paquete de Maricopa indica que el tribunal necesita una copia certificada de tu acta actual antes de ordenar cualquier cambio.
+statutes:
+  - cite: A.R.S. § 36-337
+    title:
+      en: Amending birth certificates (sex change operation or court order; sealing of the original)
+      es: Enmienda de actas de nacimiento
+    url: https://www.azleg.gov/ars/36/00337.htm
+  - cite: Ariz. Admin. Code R9-19-208
+    title:
+      en: Amendments to registered birth records; subsection O covers sex amendments
+    url: https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R9-19-208
+related_links:
+  - title: Advocates for Trans Equality, Arizona identity documents
+    url: https://transequality.org/documents/arizona-identity-documents
+    note:
+      en: No last-updated date shown. It says a notarized physician letter is needed; ADHS's page asks for letterhead, signature, and date.
+      es: No muestra fecha de actualización.
+sources:
+  - id: ars-36-337
+    url: https://www.azleg.gov/ars/36/00337.htm
+    title: A.R.S. § 36-337, Amending birth certificates
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the state registrar amends a registered birth certificate, the state registrar shall seal the previously registered birth certificate and the evidentiary documents provided to amend the registered birth certificate.
+  - id: ars-32-3230
+    url: https://www.azleg.gov/ars/32/03230.htm
+    title: A.R.S. § 32-3230, Prohibition of irreversible gender reassignment surgery for minors
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: aac-r9-19-208
+    url: https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R9-19-208
+    title: Ariz. Admin. Code R9-19-208, Amendments to registered birth records
+    publisher: Legal Information Institute (text of the Arizona Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: A written statement on a physician's letterhead paper, signed and dated by the physician, that the individual has undergone a sex change operation
+  - id: adhs-other-amendments
+    url: https://www.azdhs.gov/director/vital-records/index.php#corrections-amendments-other
+    title: Other Types of Amendments (sex/gender marker)
+    publisher: Arizona Department of Health Services, Bureau of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: Amendments to the parent role identifier or sex/gender must be submitted to the State Office.
+  - id: adhs-name-change
+    url: https://www.azdhs.gov/director/vital-records/index.php#corrections-amendments-registrants-name
+    title: Change a Registrant's Name on a Birth Certificate
+    publisher: Arizona Department of Health Services, Bureau of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: A certified, court ordered name change is required to amend the registrant's name one year or more after the registrant's birth.
+  - id: adhs-fees
+    url: https://www.azdhs.gov/director/vital-records/index.php#fee-schedule
+    title: Fee Schedules
+    publisher: Arizona Department of Health Services, Bureau of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Request to Amend or Correct Information in a Registered Birth Certificate: $30.00. Certificate of Birth Registration: $20.00."
+  - id: adhs-contact
+    url: https://www.azdhs.gov/director/vital-records/index.php#contact-us
+    title: Contact Us
+    publisher: Arizona Department of Health Services, Bureau of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: maricopa-cvnca10p
+    url: https://superiorcourt.maricopa.gov/media/2152/cvnca10pz.pdf
+    title: "CVNCA10p: How to file for a change of name for an adult with no minor children"
+    publisher: Superior Court of Arizona in Maricopa County
+    kind: court
+    accessed: "2026-09-24"
+    quote: The Bureau of Vital Records office is only available for mail-in service and some services by appointment.
+  - id: tsaz-aid
+    url: https://tsaz.org/aid/
+    title: Affirming Identification Assistance
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"

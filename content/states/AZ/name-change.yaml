@@ -1,0 +1,428 @@
+guide_type: name_change
+jurisdiction: AZ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Process details come from the Maricopa County Law Library Resource Center packet CVNCA10p (rev. 09/14/26)
+    and A.R.S. § 12-601, both read directly on 2026-09-24. Open items: (1) FILING FEE. The statewide schedule on
+    azcourts.gov (AO 2024-210, effective Dec 28, 2024) lists $252 for a name change petition, including surcharges.
+    The Maricopa Clerk's fee page (clerkofcourt.maricopa.gov) returned HTTP 403 to automated fetches, so the Maricopa
+    figure could not be confirmed. A4TE's Arizona page says "approximately $320", and a community snippet
+    attributed to Trans Spectrum of Arizona quoted $337 plus $31 per certified copy, which suggests county add-ons.
+    Confirm the Maricopa and Pima fee and certified-copy fee. (2) TSAZ's name change FAQ (tsaz.org/arizona-name-change-faq/)
+    now returns 404. (3) Confirm the Maricopa minors' packet name and link. (4) Confirm whether a gender-identity
+    name change qualifies for sealing; § 12-601(F) limits sealing to protected persons and stalking victims.
+    A4TE's page shows no last-updated date. The web-search budget ran out during research, so no search was run
+    for 2025-2026 bills on name changes.
+status: available
+status_summary:
+  en: >-
+    Arizona adults can change their name with a standard petition in the Superior Court of the county where they
+    live. There is no newspaper publication, but you must attend a short hearing (usually by video in Maricopa County)
+    and notify interested parties, such as a spouse, by certified mail at least 30 days beforehand.
+  es: >-
+    En Arizona, las personas adultas pueden cambiar su nombre con una petición estándar en el Tribunal Superior del
+    condado donde viven. No hay publicación en periódico, pero debes asistir a una audiencia breve (por video, por lo
+    general, en el condado de Maricopa) y notificar a las partes interesadas, como tu cónyuge, por correo certificado
+    al menos 30 días antes.
+summary:
+  en: |
+    A.R.S. § 12-601 lets anyone file an "Application for Change of Name" in the Superior Court of their county of residence. The law does not ask for a medical letter or any reason tied to gender. You only swear to a few facts, such as whether you have felony convictions and that the change is in your best interest.
+
+    Arizona has **no newspaper publication requirement**. The court does hold a hearing, and you must attend it. In Maricopa County (Phoenix) hearings are virtual unless the judge orders otherwise. Before the hearing you must notify any "interested parties" (a spouse or ex-spouse, the other parent of your minor child, creditors, or a prosecutor if you have a criminal record).
+
+    A name change order does **not** change your sex marker. For the driver's license and birth certificate, see those guides.
+  es: |
+    El A.R.S. § 12-601 permite a cualquier persona presentar una "Solicitud de Cambio de Nombre" en el Tribunal Superior de su condado de residencia. La ley no pide carta médica ni un motivo relacionado con el género. Solo declaras bajo juramento algunos datos, como si tienes condenas por delitos graves y que el cambio es en tu propio interés.
+
+    Arizona **no exige publicación en periódico**. El tribunal sí celebra una audiencia y debes asistir. En el condado de Maricopa (Phoenix) las audiencias son virtuales salvo que el juez ordene otra cosa. Antes de la audiencia debes notificar a las "partes interesadas" (cónyuge o excónyuge, el otro padre de tu hijo menor, acreedores, o la fiscalía si tienes antecedentes penales).
+
+    Una orden de cambio de nombre **no** cambia tu marcador de sexo. Para la licencia y el acta de nacimiento, consulta esas guías.
+eligibility:
+  residency:
+    en: File in the Superior Court of the Arizona county where you live.
+    es: Presenta la solicitud en el Tribunal Superior del condado de Arizona donde vives.
+  age:
+    en: 18 or older for the adult packet. A parent, guardian ad litem, or next friend files for a minor (see Minors).
+    es: 18 años o más para el paquete de adultos. Un padre, madre, tutor ad litem o representante presenta por un menor.
+  criminal_history:
+    en: >-
+      You must state under penalty of perjury whether you have a felony conviction, certain pending charges, or a
+      conviction requiring sex offender registration. A record does not automatically bar a name change, but you must
+      notify the prosecuting agency, and a victim or prosecutor can contest the change up to one year after judgment.
+    es: >-
+      Debes declarar bajo pena de perjurio si tienes una condena por delito grave, ciertos cargos pendientes o una
+      condena que requiera registro como agresor sexual. Los antecedentes no impiden automáticamente el cambio, pero
+      debes notificar a la fiscalía, y una víctima o fiscal puede impugnarlo hasta un año después de la sentencia.
+  sources: [ars-12-601, maricopa-cvnca10p]
+forms:
+  - id: CVNCA1
+    name:
+      en: Change of Name for an Adult with No Minor Children (complete packet, Maricopa County)
+      es: Cambio de nombre para un adulto sin hijos menores (paquete completo, condado de Maricopa)
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    required: conditional
+    condition:
+      en: Maricopa County residents without minor children. Other counties have their own packets; ask the clerk or the county's self-service center.
+      es: Residentes del condado de Maricopa sin hijos menores. Otros condados tienen sus propios paquetes.
+    sources: [maricopa-cvnca1]
+  - id: CVNC11F
+    name:
+      en: Application for Change of Name for an Adult
+      es: Solicitud de cambio de nombre para un adulto
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    required: always
+    how_to_fill:
+      en: |
+        - Write your current legal name exactly as it appears on your ID, then the new name you want.
+        - The form asks for a reason. A short, truthful answer such as "to match my gender identity" or "this is the name I use" is enough. The statute asks only that the change be in your best interest and not for fraud.
+        - Answer the felony and sex-offender questions honestly. They are required by A.R.S. § 12-601(C).
+        - **Do not sign yet.** Sign in front of the deputy clerk or a notary.
+      es: |
+        - Escribe tu nombre legal actual tal como aparece en tu identificación y luego el nombre nuevo.
+        - El formulario pide un motivo. Basta una respuesta breve y verdadera, como "para que coincida con mi identidad de género" o "es el nombre que uso".
+        - Responde con honestidad las preguntas sobre delitos graves y registro de agresores sexuales.
+        - **No firmes todavía.** Firma ante el secretario del tribunal o un notario.
+    sources: [maricopa-cvnca1, maricopa-cvnca10p, ars-12-601]
+  - id: CV10F
+    name:
+      en: Civil Cover Sheet
+      es: Portada de caso civil
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    required: always
+    how_to_fill:
+      en: Check box 152, "Change of Name", on page 2.
+      es: Marca la casilla 152, "Change of Name", en la página 2.
+    sources: [maricopa-cvnca10p]
+  - id: CVNC81F
+    name:
+      en: Order Changing Name of an Adult (proposed order)
+      es: Orden de cambio de nombre de un adulto (orden propuesta)
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    required: always
+    condition:
+      en: Must be typed. Do not date, sign, or file it. Send it to the court at least one week before your hearing.
+      es: Debe estar escrita a máquina. No la fechas, firmes ni presentes; envíala al tribunal al menos una semana antes de la audiencia.
+    sources: [maricopa-cvnca10p]
+  - id: CVNC16F
+    name:
+      en: Marital Waiver of Notice
+      es: Renuncia a la notificación por parte del cónyuge
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    required: conditional
+    condition:
+      en: Only if you are married and your spouse agrees. It must be notarized.
+      es: Solo si estás casado y tu cónyuge está de acuerdo. Debe notarizarse.
+    sources: [maricopa-cvnca10p]
+  - id: CVCM24F
+    name:
+      en: Affidavit of Notice by Certified Mail
+      es: Declaración jurada de notificación por correo certificado
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    required: conditional
+    condition:
+      en: Only if you have interested parties to notify by certified mail. Attach the signed green return-receipt card.
+      es: Solo si tienes partes interesadas a quienes notificar por correo certificado. Adjunta la tarjeta de acuse de recibo firmada.
+    sources: [maricopa-cvnca10p]
+  - id: AOCDFGF1F
+    name:
+      en: Application for Deferral or Waiver of Court Fees and Costs
+      es: Solicitud de aplazamiento o exención de tarifas y costos judiciales
+    url: https://www.azcourts.gov/courtfilingfees/Fee-Waivers-and-Deferrals
+    required: optional
+    condition:
+      en: Only if you cannot pay the filing fee. See the fee waiver section.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    sources: [azcourts-fee-waiver]
+steps:
+  - id: get-packet
+    title:
+      en: Get your county's name change packet
+      es: Obtén el paquete de cambio de nombre de tu condado
+    body:
+      en: |
+        In Maricopa County, download packet CVNCA1 (adults with no minor children) from the Law Library Resource Center. There is a separate packet if you have minor children. In other counties, ask the Superior Court clerk or self-service center for the local version. The steps are similar statewide because they follow A.R.S. § 12-601.
+      es: |
+        En el condado de Maricopa, descarga el paquete CVNCA1 (adultos sin hijos menores) del Law Library Resource Center. Hay otro paquete si tienes hijos menores. En otros condados, pide la versión local al secretario del Tribunal Superior.
+    forms: [CVNCA1]
+    sources: [maricopa-cvnca1, ars-12-601]
+  - id: fill
+    title:
+      en: Fill out the application, cover sheet, and proposed order
+      es: Llena la solicitud, la portada y la orden propuesta
+    body:
+      en: Complete the Civil Cover Sheet (box 152), the Application (sign it only in front of the clerk or a notary), and a typed proposed Order. Make one original and two copies of the Application, plus one more copy for each interested party.
+      es: Completa la portada (casilla 152), la Solicitud (fírmala solo ante el secretario o un notario) y una orden propuesta escrita a máquina. Haz un original y dos copias de la Solicitud, y una copia más por cada parte interesada.
+    forms: [CV10F, CVNC11F, CVNC81F]
+    sources: [maricopa-cvnca10p]
+  - id: file
+    title:
+      en: File with the Clerk of Superior Court
+      es: Presenta los documentos ante el Secretario del Tribunal Superior
+    body:
+      en: |
+        In Maricopa County, file in person at a Clerk of Superior Court location (Central Court Building, 201 W. Jefferson, Phoenix, or the Mesa, Surprise, or Northeast Phoenix facilities), weekdays 8 am to 5 pm, arriving at least two hours before closing. You can also e-file. Pay the filing fee or file a fee deferral or waiver application at the same time. Do not file the proposed order yet.
+      es: |
+        En el condado de Maricopa, presenta en persona en una oficina del Secretario del Tribunal Superior (Central Court Building, 201 W. Jefferson, Phoenix, o las sedes de Mesa, Surprise o el noreste de Phoenix), de lunes a viernes de 8 am a 5 pm, llegando al menos dos horas antes del cierre. También puedes presentar en línea. Paga la tarifa o presenta la solicitud de aplazamiento o exención al mismo tiempo.
+    fees: [filing]
+    sources: [maricopa-cvnca10p, azcourts-fees]
+  - id: schedule-hearing
+    title:
+      en: Schedule your hearing
+      es: Programa tu audiencia
+    body:
+      en: At least four business days after filing, call Maricopa County Civil Court Administration at 602-506-1497 (weekdays 8 am to 5 pm). Staff give you the date, time, and video link, and email you a Notice of Hearing.
+      es: Al menos cuatro días hábiles después de presentar, llama a Civil Court Administration del condado de Maricopa al 602-506-1497. Te darán la fecha, la hora y el enlace de video, y te enviarán por correo electrónico un Aviso de Audiencia.
+    sources: [maricopa-cvnca10p]
+  - id: notify
+    title:
+      en: Notify interested parties
+      es: Notifica a las partes interesadas
+    body:
+      en: |
+        If you have interested parties (a spouse or ex-spouse, the other parent of your minor child, creditors, or a prosecutor's office if you have a felony record), send each one a clerk-stamped copy of your Application and the Notice of Hearing by certified mail, restricted delivery, return receipt requested, **at least 30 days before the hearing**. A spouse who agrees can sign a notarized Marital Waiver of Notice instead. File the Affidavit of Notice with the green card attached. If you have no interested parties, skip this step.
+      es: |
+        Si tienes partes interesadas (cónyuge o excónyuge, el otro padre de tu hijo menor, acreedores, o la fiscalía si tienes antecedentes de delitos graves), envía a cada una una copia sellada de tu Solicitud y el Aviso de Audiencia por correo certificado con entrega restringida y acuse de recibo, **al menos 30 días antes de la audiencia**. Un cónyuge de acuerdo puede firmar una renuncia notarizada. Si no tienes partes interesadas, omite este paso.
+    forms: [CVNC16F, CVCM24F]
+    sources: [maricopa-cvnca10p]
+  - id: submit-documents
+    title:
+      en: Send your documents to the court a week before the hearing
+      es: Envía tus documentos al tribunal una semana antes de la audiencia
+    body:
+      en: |
+        At least one week before the hearing, email the proposed Order (with your case number filled in) as a PDF to civilhearings@jbazmc.maricopa.gov, or drop it off at a courthouse. Attach copies of your photo ID, all clerk-stamped filings, proof of notice, and, if they apply, your divorce decree, prior name change orders, and proof of immigration status. The court will not accept documents on the day of the hearing.
+      es: |
+        Al menos una semana antes de la audiencia, envía por correo electrónico la Orden propuesta (con tu número de caso) en PDF a civilhearings@jbazmc.maricopa.gov, o entrégala en un tribunal. Adjunta copias de tu identificación con foto, todos los documentos sellados, prueba de notificación y, si aplica, tu sentencia de divorcio, órdenes previas de cambio de nombre y prueba de estatus migratorio.
+    forms: [CVNC81F]
+    sources: [maricopa-cvnca10p]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: You must attend. Maricopa hearings are virtual unless the judge orders otherwise. If the judge grants the change, you receive a judge-signed copy of the order.
+      es: Debes asistir. Las audiencias en Maricopa son virtuales salvo que el juez ordene otra cosa. Si el juez concede el cambio, recibirás una copia de la orden firmada.
+    sources: [maricopa-cvnca10p]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Buy several certified copies at any Clerk of Court file counter, or at the Customer Service Center at 601 W. Jackson St in downtown Phoenix. Social Security, MVD, and Vital Records each need one. Trans Spectrum of Arizona's Affirming Identification grant can pay for certified copies.
+      es: Compra varias copias certificadas en cualquier ventanilla del Secretario, o en el Customer Service Center en 601 W. Jackson St, en el centro de Phoenix. El Seguro Social, MVD y Registro Civil necesitan una cada uno. La beca de identificación de Trans Spectrum of Arizona puede pagar las copias certificadas.
+    fees: [certified-copies]
+    sources: [maricopa-cvnca10p, tsaz-aid]
+fees:
+  - id: filing
+    label:
+      en: Superior Court filing fee (application for change of name)
+      es: Tarifa de presentación del Tribunal Superior (solicitud de cambio de nombre)
+    amount: 252
+    varies_by: county
+    waivable: true
+    note:
+      en: Statewide base fee, including surcharges, under the Supreme Court fee schedule effective December 28, 2024. Counties can add local fees, and community sources report totals of about $320 to $340 in some counties. Check your clerk's fee list before filing.
+      es: Tarifa base estatal, con recargos, según el arancel de la Corte Suprema vigente desde el 28 de diciembre de 2024. Los condados pueden agregar tarifas locales; fuentes comunitarias reportan totales de unos $320 a $340 en algunos condados. Consulta la lista de tarifas de tu secretario antes de presentar.
+    sources: [azcourts-fees, a4te-az]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    varies_by: county
+    note:
+      en: Set by each county clerk. The Maricopa fee list could not be read; ask at the counter.
+      es: La fija cada secretario de condado. Pregunta en la ventanilla.
+    sources: [maricopa-cvnca10p]
+fee_waiver:
+  available: true
+  forms: [AOCDFGF1F]
+  eligibility:
+    en: |
+      - **Waiver** (you pay nothing): the court should grant it if you receive SSI and attach proof.
+      - **Deferral** (fees postponed or paid in installments): the court should grant it if you receive TANF or SNAP (food stamps) or are helped by a nonprofit legal aid provider. The court may also set a payment plan if your income is between 150% and 225% of the federal poverty level, or if you have extraordinary expenses.
+    es: |
+      - **Exención** (no pagas nada): el tribunal debe concederla si recibes SSI y adjuntas comprobante.
+      - **Aplazamiento** (pago postergado o en cuotas): el tribunal debe concederlo si recibes TANF o SNAP (cupones de alimentos) o te ayuda un proveedor de asistencia legal sin fines de lucro. El tribunal también puede fijar un plan de pagos si tu ingreso está entre el 150% y el 225% del nivel federal de pobreza.
+  how:
+    en: File the Application for Deferral or Waiver of Court Fees and Costs (AOCDFGF1F) with supporting documents when you file your name change. Maricopa's Law Library Resource Center gives out deferral applications for free.
+    es: Presenta la Solicitud de Aplazamiento o Exención (AOCDFGF1F) con documentos de respaldo al presentar tu cambio de nombre. El Law Library Resource Center de Maricopa entrega las solicitudes gratis.
+  sources: [azcourts-fee-waiver, maricopa-cvnca10p]
+publication:
+  required: "no"
+  detail:
+    en: A.R.S. § 12-601 contains no newspaper publication requirement, and the Maricopa packet does not require publication. Notice goes directly to interested parties by certified mail instead.
+    es: El A.R.S. § 12-601 no exige publicación en periódico y el paquete de Maricopa tampoco. En su lugar, se notifica directamente a las partes interesadas por correo certificado.
+  sources: [ars-12-601, maricopa-cvnca10p]
+hearing:
+  required: "yes"
+  detail:
+    en: In Maricopa County, a hearing is scheduled for every adult application, and the applicant must attend. Hearings are virtual unless the court orders otherwise.
+    es: En el condado de Maricopa se programa una audiencia para cada solicitud de adulto y la persona solicitante debe asistir. Las audiencias son virtuales salvo que el tribunal ordene otra cosa.
+  sources: [maricopa-cvnca10p]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. You must disclose felonies and sex-offender registration under oath, send notice to any prosecuting agency that charged you, and, for a registration offense, serve the application on the prosecutor.
+    es: No hay huellas ni verificación de antecedentes. Debes declarar bajo juramento los delitos graves y el registro de agresores sexuales, y notificar a la fiscalía que te acusó.
+  sources: [ars-12-601, maricopa-cvnca10p]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Name change records are public. A.R.S. § 12-601(F) allows sealing only for people protected by an order of protection or injunction against harassment, or for victims of stalking. There is no gender-identity sealing provision. If you qualify under those grounds, ask the court when you file.
+    es: Los expedientes de cambio de nombre son públicos. El A.R.S. § 12-601(F) permite sellarlos solo para personas protegidas por una orden de protección o un mandato contra el acoso, o víctimas de acecho. No existe una disposición de sellado por identidad de género.
+  sources: [ars-12-601]
+minors:
+  summary:
+    en: A parent, guardian ad litem, or next friend files in the minor's county of residence, and the court decides based on the child's best interests (A.R.S. § 12-601(B)). In practice, the other legal parent must receive notice as an interested party. Maricopa County has separate packets for minors; find them on the Law Library Resource Center civil forms page.
+    es: Un padre, madre, tutor ad litem o representante presenta en el condado de residencia del menor, y el tribunal decide según el interés superior del menor (A.R.S. § 12-601(B)). En la práctica, el otro padre legal debe ser notificado como parte interesada. El condado de Maricopa tiene paquetes separados para menores.
+  sources: [ars-12-601, maricopa-civil-forms]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the clerk's counter or by e-filing. The hearing is usually by video in Maricopa County.
+    es: Presenta en persona en la ventanilla o por internet. En Maricopa, la audiencia suele ser por video.
+  sources: [maricopa-cvnca10p]
+timeline:
+  en: Plan on about 6 to 10 weeks. Hearing dates depend on the court's calendar, and notice must go out at least 30 days before the hearing if you have interested parties.
+  es: Calcula unas 6 a 10 semanas. La fecha de audiencia depende del calendario del tribunal, y la notificación debe enviarse al menos 30 días antes si tienes partes interesadas.
+after:
+  en: |
+    Start with **Social Security** (bring the certified order and photo ID). MVD requires this first and asks you to wait two business days. Then go to **MVD** in person within 10 days (see the driver's license guide). If you were born in Arizona, send **Vital Records** a certified copy of the order to amend the name on your birth certificate. Then update your **passport**, bank, employer, insurance, and voter registration.
+  es: |
+    Empieza con el **Seguro Social** (lleva la orden certificada e identificación con foto). MVD exige esto primero y pide esperar dos días hábiles. Luego ve a **MVD** en persona dentro de 10 días. Si naciste en Arizona, envía a **Registro Civil** una copia certificada de la orden para enmendar el nombre en tu acta de nacimiento. Después actualiza tu **pasaporte**, banco, empleador, seguro y registro electoral.
+tips:
+  - en: If you want the court to also order a change to the sex on your Arizona birth certificate, ask about it before your hearing and bring a certified copy of your current government-issued birth certificate. The Maricopa packet says the court will not change a birth certificate without seeing one. Whether a judge grants a sex-marker order varies; see the birth certificate guide.
+    es: Si quieres que el tribunal también ordene cambiar el sexo en tu acta de nacimiento de Arizona, pregúntalo antes de la audiencia y lleva una copia certificada de tu acta actual. El resultado varía según el juez.
+  - en: Trans Spectrum of Arizona's Affirming Identification grant pays for certified copies, a new license or ID, and an amended birth certificate once you have your order. It does not cover court filing fees.
+    es: La beca de identificación de Trans Spectrum of Arizona paga copias certificadas, licencia o identificación nueva y acta enmendada una vez que tienes la orden. No cubre la tarifa del tribunal.
+local_help:
+  - id: tsaz-aid
+    name: Trans Spectrum of Arizona, Affirming Identification Assistance
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Pays the agency fee for updated IDs, certified court orders, amended birth certificates, and passport cards for trans Arizona residents 18 and older who have their court order. Decisions within 10 business days.
+      es: Paga la tarifa de identificaciones actualizadas, copias certificadas de órdenes judiciales, actas enmendadas y tarjetas de pasaporte para residentes trans de Arizona de 18 años o más con su orden judicial.
+    url: https://tsaz.org/aid/
+    cost: free
+    verification: org_website
+    sources: [tsaz-aid]
+  - id: cls
+    name: Community Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Phoenix-based nonprofit providing free civil legal help to people with low incomes. Call to ask whether they can help with a name change or refer you.
+      es: Organización sin fines de lucro con sede en Phoenix que ofrece ayuda legal civil gratuita a personas de bajos ingresos. Llama para preguntar si pueden ayudarte con un cambio de nombre o referirte.
+    url: https://clsaz.org/
+    cost: free
+    verification: org_website
+    sources: [cls]
+  - id: maricopa-llrc
+    name: Maricopa County Law Library Resource Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court-run self-help library with free name change packets, instructions, and fee deferral applications.
+      es: Biblioteca de autoayuda del tribunal con paquetes gratuitos de cambio de nombre, instrucciones y solicitudes de aplazamiento de tarifas.
+    url: https://superiorcourt.maricopa.gov/llrc/civil-court-forms/
+    cost: free
+    verification: official_source
+    sources: [maricopa-civil-forms]
+  - id: tlc
+    org: transgender-law-center
+    name: Transgender Law Center, legal information helpdesk
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: National trans legal organization with a free legal information helpdesk.
+      es: Organización legal trans nacional con una línea gratuita de información legal.
+    url: https://transgenderlawcenter.org/
+    cost: free
+    verification: org_website
+    sources: [tlc]
+statutes:
+  - cite: A.R.S. § 12-601
+    title:
+      en: Application for change of name; venue; judgment; sealing of record
+      es: Solicitud de cambio de nombre; competencia; sentencia; sellado del expediente
+    url: https://www.azleg.gov/ars/12/00601.htm
+related_links:
+  - title: Advocates for Trans Equality, Arizona identity documents
+    url: https://transequality.org/documents/arizona-identity-documents
+    note:
+      en: No last-updated date shown. It says a hearing is required and estimates the fee at about $320.
+      es: No muestra fecha de actualización. Indica que se requiere audiencia y estima la tarifa en unos $320.
+  - title: Maricopa County Superior Court, Change of name for an adult with no minor children
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+sources:
+  - id: ars-12-601
+    url: https://www.azleg.gov/ars/12/00601.htm
+    title: A.R.S. § 12-601, Application; venue; judgment; sealing of record
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person who desires to change the person's name and to adopt another name may file an application in the superior court in the county of the person's residence
+  - id: maricopa-cvnca10p
+    url: https://superiorcourt.maricopa.gov/media/2152/cvnca10pz.pdf
+    title: "CVNCA10p: How to file for a change of name for an adult with no minor children"
+    publisher: Superior Court of Arizona in Maricopa County, Law Library Resource Center
+    kind: court
+    accessed: "2026-09-24"
+    quote: All hearings will occur virtually unless otherwise ordered by the Court.
+  - id: maricopa-cvnca1
+    url: https://superiorcourt.maricopa.gov/llrc/civil_cvnca1/
+    title: Application for Change of Name of an Adult with No Minor Children (CVNCA1)
+    publisher: Superior Court of Arizona in Maricopa County
+    kind: form
+    accessed: "2026-09-24"
+  - id: maricopa-civil-forms
+    url: https://superiorcourt.maricopa.gov/llrc/civil-court-forms/
+    title: Civil Department Court Forms
+    publisher: Superior Court of Arizona in Maricopa County
+    kind: court
+    accessed: "2026-09-24"
+  - id: azcourts-fees
+    url: https://www.azcourts.gov/courtfilingfees/Superior-Court-Filing-Fees
+    title: Superior Court Filing Fees
+    publisher: Arizona Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+    quote: Petition for name change (Class A), $222 base fee, $252 total with surcharges (AO 2024-210, effective December 28, 2024).
+  - id: azcourts-fee-waiver
+    url: https://www.azcourts.gov/courtfilingfees/Fee-Waivers-and-Deferrals
+    title: Fee Waivers and Deferrals
+    publisher: Arizona Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+    quote: If your income is between 150% and 225% of the current poverty level, or you have extraordinay expenses, the court may set a payment plan.
+  - id: a4te-az
+    url: https://transequality.org/documents/arizona-identity-documents
+    title: Arizona identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: tsaz-aid
+    url: https://tsaz.org/aid/
+    title: Affirming Identification Assistance
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"
+    quote: This scholarship will not pay court or legal fees for acquiring your legal name change, only for the updated identification documents.
+  - id: cls
+    url: https://clsaz.org/
+    title: Community Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: tlc
+    url: https://transgenderlawcenter.org/
+    title: Transgender Law Center
+    kind: org
+    accessed: "2026-09-24"

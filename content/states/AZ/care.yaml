@@ -1,0 +1,251 @@
+jurisdiction: AZ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Read directly on 2026-09-24: A.R.S. § 32-3230 (current text: surgery only, no hormone or puberty-blocker ban)
+    and A.A.C. R9-22-205(B)(4)(a) via Cornell LII (the azsos.gov PDF returned 403). Open items: (1) AHCCCS
+    coverage of hormone therapy. No exclusion was found in the rule or in any AMPM Chapter 300 policy PDF (all were
+    searched for "gender"), so covers_hrt is "unclear". Confirm with AHCCCS or a plan's formulary. (2) Doe v. Snyder
+    (D. Ariz., 9th Cir. 2022) challenged the AHCCCS surgery exclusion for minors; its current status was not confirmed.
+    (3) Governor Hobbs's EO 2023-12 could not be read (scanned PDF). (4) The web-search budget ran out, so 2025-2026
+    bills extending the minors' ban to hormones were not searched. As of the statute text read today, none is law.
+    Arizona's governor has vetoed such bills in past sessions; confirm. (5) Planned Parenthood Arizona's
+    gender-affirming care page returned 404; its hormone services and minimum age are community-reported. Valleywise
+    and Southwest Center (swhiv.org refused the connection) trans services were not verified. (6) Southern Arizona
+    Gender Alliance (sagaaz.org) returned 403, so it is left out. (7) difi.az.gov and the Planned Parenthood Arizona
+    affiliate page returned 403 to automated checks; confirm both URLs and the DIFI complaint path by hand.
+status_summary:
+  en: >-
+    Hormone therapy is legal in Arizona for adults and, with parental consent, for minors. Gender-affirming surgery is
+    banned for people under 18 (A.R.S. § 32-3230), and AHCCCS (Medicaid) excludes gender reassignment surgery for
+    everyone. No state law bars private insurance exclusions, and there is no shield law.
+  es: >-
+    La terapia hormonal es legal en Arizona para adultos y, con consentimiento de los padres, para menores. La cirugía
+    de afirmación de género está prohibida para menores de 18 años (A.R.S. § 32-3230), y AHCCCS (Medicaid) excluye la
+    cirugía de reasignación de género para todas las edades. Ninguna ley estatal prohíbe las exclusiones en seguros
+    privados y no hay ley escudo.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Adults can legally get hormone therapy from any willing provider, including by telehealth. The restriction is financial: **AHCCCS excludes gender reassignment surgeries** (Ariz. Admin. Code R9-22-205), and state law does not require private plans to cover gender-affirming care.
+
+      **If you have little money**, in rough order:
+      1. Apply for **AHCCCS**. It covers primary care, labs, and prescriptions. Ask your plan whether hormones are on its formulary.
+      2. Go to a **community health center** (FQHC), which charges on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood Arizona** and telehealth services (Plume, FOLX) prescribe hormones on an informed-consent basis.
+      4. **Point of Pride** runs an annual HRT access fund.
+    es: |
+      Las personas adultas pueden recibir terapia hormonal legalmente de cualquier proveedor dispuesto, incluso por telesalud. La restricción es económica: **AHCCCS excluye las cirugías de reasignación de género** (R9-22-205), y la ley estatal no obliga a los planes privados a cubrir la atención de afirmación de género.
+
+      **Si tienes poco dinero**, en orden aproximado:
+      1. Solicita **AHCCCS**. Cubre atención primaria, laboratorios y recetas. Pregunta a tu plan si las hormonas están en su formulario.
+      2. Acude a un **centro de salud comunitario**, que cobra en escala móvil. Búscalo en findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood Arizona** y servicios de telesalud (Plume, FOLX) recetan hormonas por consentimiento informado.
+      4. **Point of Pride** tiene un fondo anual de acceso a hormonas.
+  sources: [aac-r9-22-205, hrsa]
+minor_care:
+  status: restricted
+  detail:
+    en: |
+      **A.R.S. § 32-3230** (SB 1138, 2022) bars physicians from performing "irreversible gender reassignment surgery" on anyone under 18. The law lists genital surgeries, hysterectomy and oophorectomy, breast augmentation, and mastectomy. It has exceptions for differences of sex development and medical emergencies. Arizona law does **not** ban puberty blockers or hormone therapy for minors; these remain legal with parental consent, subject to each provider's policies. Arizona has no shield statute.
+    es: |
+      El **A.R.S. § 32-3230** (SB 1138, 2022) prohíbe a los médicos realizar "cirugía irreversible de reasignación de género" a menores de 18 años, incluidas cirugías genitales, histerectomía, ooforectomía, aumento de senos y mastectomía, con excepciones para diferencias del desarrollo sexual y emergencias médicas. La ley de Arizona **no** prohíbe los bloqueadores de pubertad ni la terapia hormonal para menores; siguen siendo legales con consentimiento de los padres. Arizona no tiene ley escudo.
+  sources: [ars-32-3230, sb1138]
+medicaid:
+  program_name: AHCCCS (Arizona Health Care Cost Containment System)
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: |
+      AHCCCS rules list "gender reassignment surgeries" among excluded services (Ariz. Admin. Code R9-22-205(B)(4)(a)), for all ages. No written exclusion of hormone therapy was found in AHCCCS rules or the AHCCCS Medical Policy Manual. Coverage of hormones depends on your plan's formulary and prior-authorization rules. If a prescription is denied, ask your plan for the reason in writing and file a grievance.
+    es: |
+      Las reglas de AHCCCS excluyen las "cirugías de reasignación de género" (R9-22-205(B)(4)(a)) para todas las edades. No se encontró una exclusión escrita de la terapia hormonal en las reglas ni en el manual de políticas médicas. La cobertura de hormonas depende del formulario de tu plan y de sus reglas de autorización previa. Si te niegan una receta, pide el motivo por escrito y presenta una queja.
+  how_to_apply_url: https://www.healthearizonaplus.gov/
+  sources: [aac-r9-22-205, ahcccs-ampm]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: No Arizona statute bars state-regulated health plans from excluding gender-affirming care, so check your plan's exclusions list. Federal law (ACA Section 1557) may still help in some cases. If your plan denies care, appeal with the plan first, then file a complaint or request an external review with the Arizona Department of Insurance and Financial Institutions. The Trans Health Project and Transgender Law Center have appeal templates.
+    es: Ninguna ley de Arizona impide que los planes regulados por el estado excluyan la atención de afirmación de género, así que revisa las exclusiones de tu plan. Si te niegan atención, apela primero ante el plan y luego presenta una queja o pide una revisión externa ante el Departamento de Seguros e Instituciones Financieras de Arizona.
+  complaint_url: https://difi.az.gov/
+  sources: [difi]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-arizona
+    org: planned-parenthood
+    name: Planned Parenthood Arizona
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Statewide affiliate with health centers in the Phoenix and Tucson areas and elsewhere. Reported to offer informed-consent gender-affirming hormone therapy for adults, in person and by telehealth, plus STI testing and PrEP. Confirm the minimum age and new-patient availability when you call.
+      es: Afiliada estatal con centros en las áreas de Phoenix y Tucson y otros lugares. Se reporta que ofrece terapia hormonal de afirmación de género por consentimiento informado para adultos, en persona y por telesalud, además de pruebas de ITS y PrEP. Confirma la edad mínima al llamar.
+    url: https://www.plannedparenthood.org/planned-parenthood-arizona
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: community_reported
+    sources: [pp-az]
+  - id: valleywise
+    name: Valleywise Health (Maricopa County safety-net system)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Maricopa County's public health system, with community health centers across the Phoenix area, sliding-scale fees for uninsured patients, and AHCCCS enrollment help. Ask for a primary care provider experienced with gender-affirming hormone therapy.
+      es: Sistema de salud público del condado de Maricopa con centros comunitarios en el área de Phoenix, tarifas de escala móvil para personas sin seguro y ayuda para inscribirse en AHCCCS. Pide un proveedor con experiencia en terapia hormonal de afirmación de género.
+    url: https://valleywisehealth.org/
+    phone: "602-344-5011"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: unverified
+    sources: [valleywise]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale regardless of insurance or immigration status.
+      es: Buscador federal de centros de salud comunitarios que cobran en escala móvil sin importar el seguro o el estatus migratorio.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: one-n-ten
+    name: one•n•ten
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: Phoenix LGBTQ youth and young adult center with trans and gender-expansive support programs (Hormones 101, Managing Gender Dysphoria) and an LGBTQ-inclusive sexual health program.
+      es: Centro para jóvenes LGBTQ en Phoenix con programas de apoyo para jóvenes trans y de género expansivo, y un programa de salud sexual inclusivo.
+    url: https://onenten.org/lgbtq-programs/health-wellness/
+    phone: "602-400-2601"
+    address: 1101 N Central Ave, Suite 104, Phoenix, AZ 85004
+    cost: free
+    verification: org_website
+    sources: [onenten-health]
+  - id: tsaz
+    name: Trans Spectrum of Arizona, peer support meetings
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Free peer support groups for trans adults 18 and older, in person in Phoenix and virtually on Discord.
+      es: Grupos de apoyo entre pares gratuitos para personas trans de 18 años o más, en persona en Phoenix y virtuales en Discord.
+    url: https://tsaz.org/peer-support-meetings/
+    cost: free
+    telehealth: true
+    verification: org_website
+    sources: [tsaz-peer]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for a year of telehealth hormone care for selected applicants; applications open once a year.
+      es: Fondo nacional que paga un año de atención hormonal por telesalud a personas seleccionadas; las solicitudes abren una vez al año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit offering grants toward gender-affirming procedures.
+      es: Organización nacional que otorga becas para procedimientos de afirmación de género.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: A.R.S. § 32-3230
+    title:
+      en: Prohibition of irreversible gender reassignment surgery for minors (SB 1138, 2022)
+      es: Prohibición de cirugía irreversible de reasignación de género para menores
+    url: https://www.azleg.gov/ars/32/03230.htm
+  - cite: Ariz. Admin. Code R9-22-205(B)(4)(a)
+    title:
+      en: AHCCCS exclusion of gender reassignment surgeries
+      es: Exclusión de AHCCCS de las cirugías de reasignación de género
+    url: https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R9-22-205
+sources:
+  - id: ars-32-3230
+    url: https://www.azleg.gov/ars/32/03230.htm
+    title: A.R.S. § 32-3230
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A physician may not provide irreversible gender reassignment surgery to any individual who is under eighteen years of age.
+  - id: sb1138
+    url: https://www.azleg.gov/legtext/55leg/2R/laws/0104.htm
+    title: SB 1138 (2022), Laws 2022, Chapter 104
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: aac-r9-22-205
+    url: https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R9-22-205
+    title: Ariz. Admin. Code R9-22-205
+    publisher: Legal Information Institute (text of the Arizona Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: "The following services are excluded from AHCCCS coverage: Infertility services, reversal of surgically induced infertility (sterilization), and gender reassignment surgeries"
+  - id: ahcccs-ampm
+    url: https://www.azahcccs.gov/shared/MedicalPolicyManual/
+    title: AHCCCS Medical Policy Manual
+    publisher: AHCCCS
+    kind: official
+    accessed: "2026-09-24"
+  - id: difi
+    url: https://difi.az.gov/
+    title: Arizona Department of Insurance and Financial Institutions
+    publisher: State of Arizona
+    kind: official
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-az
+    url: https://www.plannedparenthood.org/planned-parenthood-arizona
+    title: Planned Parenthood Arizona
+    publisher: Planned Parenthood Arizona
+    kind: org
+    accessed: "2026-09-24"
+  - id: valleywise
+    url: https://valleywisehealth.org/
+    title: Valleywise Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: onenten-health
+    url: https://onenten.org/lgbtq-programs/health-wellness/
+    title: Health and wellness programs
+    publisher: one•n•ten
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Our Trans & Gender Expansive support programs provide a safe space to discuss gender-affirming health topics"
+  - id: tsaz-peer
+    url: https://tsaz.org/peer-support-meetings/
+    title: Peer Support Meetings
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"

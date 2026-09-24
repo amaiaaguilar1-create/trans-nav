@@ -1,0 +1,217 @@
+jurisdiction: AZ
+slug: phoenix
+name: Phoenix
+area:
+  en: Maricopa County (Phoenix, Mesa, Tempe, Scottsdale, Glendale, and surrounding cities)
+  es: Condado de Maricopa (Phoenix, Mesa, Tempe, Scottsdale, Glendale y ciudades cercanas)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details come from the Maricopa CVNCA10p packet. The local filing fee could not be confirmed (the Clerk's
+    fee page returned 403), so filing_fee is omitted. Valleywise's trans-specific services and Planned Parenthood
+    Arizona's current hormone program were not verified. Southwest Center for HIV/AIDS (swhiv.org) refused the
+    connection and is omitted; the reviewer may add it. Trans Queer Pueblo's website was reached, but its specific
+    health and legal services were not confirmed.
+intro:
+  en: >-
+    Phoenix has the state's largest cluster of trans community organizations: Trans Spectrum of Arizona's peer groups
+    and ID fee grant, one•n•ten for youth and young adults, and Trans Queer Pueblo for LGBTQ+ migrants. Name change
+    petitions are filed with the Superior Court in Maricopa County. Hearings are usually held by video.
+  es: >-
+    Phoenix concentra la mayor cantidad de organizaciones trans del estado: los grupos de apoyo y la beca para
+    documentos de Trans Spectrum of Arizona, one•n•ten para jóvenes, y Trans Queer Pueblo para personas LGBTQ+
+    migrantes. Las peticiones de cambio de nombre se presentan en el Tribunal Superior del condado de Maricopa; las
+    audiencias suelen ser por video.
+court:
+  name: Superior Court of Arizona in Maricopa County
+  url: https://superiorcourt.maricopa.gov/
+  self_help_url: https://superiorcourt.maricopa.gov/llrc/civil-court-forms/
+  notes:
+    en: File at the Central Court Building (201 W. Jefferson St, Phoenix), the Southeast facility in Mesa, the Northwest facility in Surprise, or the Northeast Regional Court Center, or e-file. After filing, call Civil Court Administration at 602-506-1497 to get a hearing date. The statewide base fee is $252, and Maricopa may add local fees.
+    es: Presenta en el Central Court Building (201 W. Jefferson St, Phoenix), la sede sureste en Mesa, la noroeste en Surprise o el Northeast Regional Court Center, o por internet. Después llama a Civil Court Administration al 602-506-1497 para obtener fecha de audiencia. La tarifa base estatal es $252; Maricopa puede agregar tarifas locales.
+  sources: [maricopa-cvnca10p, azcourts-fees]
+resources:
+  - id: maricopa-llrc
+    name: Maricopa County Law Library Resource Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help library with free name change packets (CVNCA1 for adults without minor children), instructions, and fee deferral applications.
+      es: Biblioteca de autoayuda del tribunal con paquetes gratuitos de cambio de nombre, instrucciones y solicitudes de aplazamiento de tarifas.
+    url: https://superiorcourt.maricopa.gov/llrc/civil-court-forms/
+    cost: free
+    verification: official_source
+    sources: [maricopa-civil-forms]
+  - id: cls
+    name: Community Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Phoenix-based nonprofit providing free civil legal help to people with low incomes. Call to ask whether they can help with a name change or refer you.
+      es: Organización sin fines de lucro con sede en Phoenix que ofrece ayuda legal civil gratuita a personas de bajos ingresos. Llama para preguntar si pueden ayudarte con un cambio de nombre.
+    url: https://clsaz.org/
+    cost: free
+    verification: org_website
+    sources: [cls]
+  - id: tsaz-aid
+    name: Trans Spectrum of Arizona, Affirming Identification Assistance
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Pays the fee for certified court orders, new licenses or IDs, amended birth certificates, and passport cards for trans Arizonans 18 and older who have their court order.
+      es: Paga copias certificadas de la orden, licencias o identificaciones nuevas, actas enmendadas y tarjetas de pasaporte para personas trans de Arizona de 18 años o más con su orden judicial.
+    url: https://tsaz.org/aid/
+    cost: free
+    verification: org_website
+    sources: [tsaz-aid]
+  - id: tsaz-peer
+    name: Trans Spectrum of Arizona, peer support meetings
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Free peer support for trans adults and their loved ones. Meetings are held in person Tuesdays at 6:30 pm and on the 2nd and 4th Saturdays at 11 am, plus virtual meetings on Discord.
+      es: Apoyo entre pares gratuito para personas trans adultas y sus seres queridos. Reuniones en persona los martes a las 6:30 pm y el 2.º y 4.º sábado a las 11 am, además de reuniones virtuales en Discord.
+    url: https://tsaz.org/peer-support-meetings/
+    address: First Church UCC, 1407 N 2nd St, Phoenix, AZ 85004
+    cost: free
+    verification: org_website
+    sources: [tsaz-peer]
+  - id: one-n-ten
+    name: one•n•ten, Downtown Phoenix LGBTQ Youth Center
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: Drop-in center and programs for LGBTQ youth and young adults, including trans and gender-expansive support groups, a sexual health program, and housing help. TSAZ refers people under 18 here.
+      es: Centro y programas para jóvenes LGBTQ, incluidos grupos de apoyo para jóvenes trans y de género expansivo, un programa de salud sexual y ayuda con vivienda. TSAZ refiere aquí a menores de 18.
+    url: https://onenten.org/locations/downtown-phoenix-lgbtq-youth-center/
+    phone: "602-400-2601"
+    address: 1101 N Central Ave, Suite 104, Phoenix, AZ 85004
+    cost: free
+    verification: org_website
+    sources: [onenten-location, onenten-health, tsaz-peer]
+  - id: pp-arizona
+    org: planned-parenthood
+    name: Planned Parenthood Arizona
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Several Phoenix-area health centers. Reported to offer informed-consent hormone therapy for adults (in person and by telehealth), plus STI testing and PrEP. Confirm the minimum age when you call.
+      es: Varios centros en el área de Phoenix. Se reporta que ofrece terapia hormonal por consentimiento informado para adultos (en persona y por telesalud), además de pruebas de ITS y PrEP.
+    url: https://www.plannedparenthood.org/planned-parenthood-arizona
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: community_reported
+    sources: [pp-az]
+  - id: valleywise
+    name: Valleywise Health community health centers
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Maricopa County's public health system, with sliding-scale fees and AHCCCS enrollment help. Ask for a primary care provider experienced with gender-affirming hormone therapy.
+      es: Sistema de salud público del condado de Maricopa con tarifas de escala móvil y ayuda para inscribirse en AHCCCS. Pide un proveedor con experiencia en terapia hormonal de afirmación de género.
+    url: https://valleywisehealth.org/
+    phone: "602-344-5011"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: unverified
+    sources: [valleywise]
+  - id: tqp
+    name: Trans Queer Pueblo
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Phoenix organization led by LGBTQ+ migrants of color, building community solutions for basic needs. Spanish-language.
+      es: Organización de Phoenix dirigida por personas LGBTQ+ migrantes de color que crea soluciones comunitarias para necesidades básicas. En español.
+    url: https://www.tqpueblo.org/
+    languages: [Español, English]
+    verification: org_website
+    sources: [tqp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: maricopa-cvnca10p
+    url: https://superiorcourt.maricopa.gov/media/2152/cvnca10pz.pdf
+    title: "CVNCA10p: How to file for a change of name for an adult with no minor children"
+    publisher: Superior Court of Arizona in Maricopa County
+    kind: court
+    accessed: "2026-09-24"
+    quote: At least four business days after you filed your Application, contact Civil Court Administration at 602-506-1497 to get a hearing.
+  - id: maricopa-civil-forms
+    url: https://superiorcourt.maricopa.gov/llrc/civil-court-forms/
+    title: Civil Department Court Forms
+    publisher: Superior Court of Arizona in Maricopa County
+    kind: court
+    accessed: "2026-09-24"
+  - id: azcourts-fees
+    url: https://www.azcourts.gov/courtfilingfees/Superior-Court-Filing-Fees
+    title: Superior Court Filing Fees
+    publisher: Arizona Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+  - id: cls
+    url: https://clsaz.org/
+    title: Community Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: tsaz-aid
+    url: https://tsaz.org/aid/
+    title: Affirming Identification Assistance
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"
+  - id: tsaz-peer
+    url: https://tsaz.org/peer-support-meetings/
+    title: Peer Support Meetings
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"
+    quote: If you are under 18 or are seeking support for someone who is, we recommend contacting One n Ten.
+  - id: onenten-location
+    url: https://onenten.org/locations/downtown-phoenix-lgbtq-youth-center/
+    title: Downtown Phoenix LGBTQ Youth Center
+    publisher: one•n•ten
+    kind: org
+    accessed: "2026-09-24"
+  - id: onenten-health
+    url: https://onenten.org/lgbtq-programs/health-wellness/
+    title: Health and wellness programs
+    publisher: one•n•ten
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-az
+    url: https://www.plannedparenthood.org/planned-parenthood-arizona
+    title: Planned Parenthood Arizona
+    kind: org
+    accessed: "2026-09-24"
+  - id: valleywise
+    url: https://valleywisehealth.org/
+    title: Valleywise Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: tqp
+    url: https://www.tqpueblo.org/
+    title: Trans Queer Pueblo
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

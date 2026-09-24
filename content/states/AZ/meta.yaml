@@ -1,0 +1,143 @@
+code: AZ
+name:
+  en: Arizona
+  es: Arizona
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are an editorial judgment from the statutes cited in the guides (A.R.S. § 12-601, § 36-337,
+    § 32-3230, A.A.C. R9-22-205). Arizona has no shield statute; Governor Hobbs issued Executive Order 2023-12
+    ("Ensuring Access to Medically Necessary Gender-Affirming Healthcare", June 27, 2023), but its PDF is a scanned
+    image that could not be read, so its contents are not described here. Reviewer: read the EO and confirm it is
+    still in force. Southern Arizona Gender Alliance's website (sagaaz.org) returned HTTP 403 to automated fetches,
+    so it is not listed as a key resource.
+overview:
+  en: >-
+    Arizona sits in the middle. Adults can change their name through a standard Superior Court petition with no
+    newspaper publication, though a short hearing is required. The driver's license sex marker (M or F only) can be
+    changed with a letter from a licensed physician. The birth certificate is harder: the state requires a physician's
+    statement of a "sex change operation" or a court order. Hormone therapy is legal for adults and minors, but
+    surgery is banned under 18 (A.R.S. § 32-3230) and AHCCCS (Medicaid) excludes gender-affirming surgery.
+  es: >-
+    Arizona está en un punto intermedio. Las personas adultas pueden cambiar su nombre con una petición estándar en el
+    Tribunal Superior sin publicación en periódico, aunque se requiere una audiencia breve. El marcador de sexo de la
+    licencia de conducir (solo M o F) se puede cambiar con una carta de un médico con licencia. El acta de nacimiento
+    es más difícil: el estado exige una declaración médica de una "operación de cambio de sexo" o una orden judicial.
+    La terapia hormonal es legal para adultos y menores, pero la cirugía está prohibida antes de los 18 años
+    (A.R.S. § 32-3230) y AHCCCS (Medicaid) excluye la cirugía de afirmación de género.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [ars-36-337, ars-32-3230, aac-r9-22-205, eo-2023-12]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [phoenix]
+key_resources:
+  - id: tsaz
+    name: Trans Spectrum of Arizona
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: >-
+        Phoenix-based trans peer support organization. Runs free adult peer support meetings (in person in Phoenix and
+        virtually) and the Affirming Identification Assistance grant, which pays the fee for updated IDs, certified
+        court orders, and amended birth certificates for trans Arizonans 18 and older who already have their court order.
+      es: >-
+        Organización de apoyo entre pares trans con sede en Phoenix. Ofrece reuniones gratuitas de apoyo para adultos
+        (en persona en Phoenix y virtuales) y la beca Affirming Identification Assistance, que paga la tarifa de
+        identificaciones actualizadas, copias certificadas de la orden judicial y actas de nacimiento enmendadas para
+        personas trans de Arizona de 18 años o más que ya tienen su orden judicial.
+    url: https://tsaz.org/
+    cost: free
+    verification: org_website
+    sources: [tsaz-aid, tsaz-peer]
+  - id: one-n-ten
+    name: one•n•ten
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: LGBTQ youth and young adult center in downtown Phoenix with trans and gender-expansive support groups, housing, and health and wellness programs.
+      es: Centro para jóvenes LGBTQ en el centro de Phoenix con grupos de apoyo para jóvenes trans y de género expansivo, vivienda y programas de salud y bienestar.
+    url: https://onenten.org/
+    phone: "602-400-2601"
+    address: 1101 N Central Ave, Suite 104, Phoenix, AZ 85004
+    cost: free
+    verification: org_website
+    sources: [onenten-location, onenten-health]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ars-36-337
+    url: https://www.azleg.gov/ars/36/00337.htm
+    title: A.R.S. § 36-337, Amending birth certificates
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: For a person who has undergone a sex change operation or has a chromosomal count that establishes the sex of the person as different than in the registered birth certificate
+  - id: ars-32-3230
+    url: https://www.azleg.gov/ars/32/03230.htm
+    title: A.R.S. § 32-3230, Prohibition of irreversible gender reassignment surgery for minors
+    publisher: Arizona State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A physician may not provide irreversible gender reassignment surgery to any individual who is under eighteen years of age.
+  - id: aac-r9-22-205
+    url: https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R9-22-205
+    title: Ariz. Admin. Code R9-22-205, Attending physician, practitioner, and primary care provider services
+    publisher: Legal Information Institute (text of the Arizona Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: "The following services are excluded from AHCCCS coverage: Infertility services, reversal of surgically induced infertility (sterilization), and gender reassignment surgeries"
+  - id: eo-2023-12
+    url: https://azgovernor.gov/office-arizona-governor/executive-order/2023-12
+    title: Executive Order 2023-12, Ensuring Access to Medically Necessary Gender-Affirming Healthcare (June 27, 2023)
+    publisher: Office of the Arizona Governor
+    kind: official
+    accessed: "2026-09-24"
+  - id: tsaz-aid
+    url: https://tsaz.org/aid/
+    title: Affirming Identification Assistance
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Affirming Identification Assistance Program (AIDA) will pay the fee for new updated documentation for transgender and gender expansive residents of Arizona upon receiving their name and or gender change court order.
+  - id: tsaz-peer
+    url: https://tsaz.org/peer-support-meetings/
+    title: Peer Support Meetings
+    publisher: Trans Spectrum of Arizona
+    kind: org
+    accessed: "2026-09-24"
+  - id: onenten-location
+    url: https://onenten.org/locations/downtown-phoenix-lgbtq-youth-center/
+    title: Downtown Phoenix LGBTQ Youth Center
+    publisher: one•n•ten
+    kind: org
+    accessed: "2026-09-24"
+  - id: onenten-health
+    url: https://onenten.org/lgbtq-programs/health-wellness/
+    title: Health and wellness programs
+    publisher: one•n•ten
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our Trans & Gender Expansive support programs provide a safe space to discuss gender-affirming health topics
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
