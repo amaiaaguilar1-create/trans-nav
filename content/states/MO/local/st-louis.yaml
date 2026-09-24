@@ -1,0 +1,273 @@
+jurisdiction: MO
+slug: st-louis
+name: St. Louis
+area:
+  en: City of St. Louis and St. Louis County (the Missouri side of the metro area)
+  es: Ciudad de St. Louis y Condado de St. Louis (lado de Misuri del área metropolitana)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details read 2026-09-24 on stlcitycircuitcourt.com (Change My Name page; filing deposit order effective July
+    1, 2021; local rules placing change-of-name actions in Family Court) and stlcountycourts.com (Schedule of Deposits
+    and Fees effective January 1, 2026; Family Court forms list). The St. Louis City deposit dates from 2021; confirm
+    it with the clerk (314-622-4404). Metro Trans Umbrella Group's former website (mtug.org) now redirects to an
+    unrelated site; it is listed from PROMO's page only and has no URL. The St. Louis Queer+ Support Helpline numbers
+    and hours come from TransParent's Missouri list; its own website was not found. Southampton Healthcare's website
+    does not mention gender-affirming care (community_reported). St. Louis County Department of Public Health pages
+    blocked automated access, so its sexual health clinic is not listed. The Washington University Transgender Center
+    page on stlouischildrens.org now returns "Access denied".
+intro:
+  en: >-
+    St. Louis has the most trans-specific services in Missouri. Name changes are filed in the Family Court of the
+    circuit court for where you live: the 22nd Circuit for St. Louis City, the 21st Circuit in Clayton for St. Louis
+    County. Planned Parenthood Great Rivers offers informed-consent hormone therapy for adults, and its Fairview
+    Heights, Illinois center, across the river, can see minors that Missouri law bars from starting
+    care.
+  es: >-
+    St. Louis tiene la mayor cantidad de servicios específicos para personas trans en Misuri. Los cambios de nombre se
+    presentan en el Tribunal de Familia del circuito donde vives: el Circuito 22 para la Ciudad de St. Louis y el
+    Circuito 21 en Clayton para el Condado de St. Louis. Planned Parenthood Great Rivers ofrece terapia hormonal con
+    consentimiento informado para adultos, y su centro de Fairview Heights, Illinois, al otro lado
+    del río, puede atender a menores a quienes la ley de Misuri impide empezar tratamiento.
+court:
+  name: Circuit Court of the City of St. Louis (22nd Judicial Circuit), Family Court
+  url: https://www.stlcitycircuitcourt.com/how_do_i/change_my_name.php
+  self_help_url: https://www.stlcitycircuitcourt.com/courts_services/represent_yourself.php
+  filing_fee: 177.5
+  notes:
+    en: |
+      **City residents** file in person at the clerk's office, 3rd floor, Clyde S. Cahill Courts Building, 10 North Tucker Blvd (questions 314-622-4404). The Family Court deposit is $177.50.
+
+      **St. Louis County residents** file with the 21st Circuit, 105 South Central Avenue, Clayton (314-615-8029). The change-of-name deposit is **$135.50** (2026 schedule). The county has its own forms: Affidavit for Judgment (CCFC194) and Judgment of Name Change (CCFC137), plus the statewide Request for Publication (CAFC480). Certified copies are $1.50 for the first page with seal.
+    es: |
+      **Residentes de la Ciudad** presentan en persona en la oficina del secretario, 3.er piso, Clyde S. Cahill Courts Building, 10 North Tucker Blvd (preguntas 314-622-4404). El depósito del Tribunal de Familia es de $177.50.
+
+      **Residentes del Condado de St. Louis** presentan en el Circuito 21, 105 South Central Avenue, Clayton (314-615-8029). El depósito por cambio de nombre es de **$135.50** (tarifa de 2026). El condado tiene sus propios formularios: Declaración Jurada para Sentencia (CCFC194) y Sentencia de Cambio de Nombre (CCFC137), además de la Solicitud de Publicación estatal (CAFC480). Las copias certificadas cuestan $1.50 por la primera página con sello.
+  sources: [stlcity-name-change, stlcity-fees, stlcity-local-rules, stlco-fees, stlco-family-forms]
+resources:
+  - id: pp-cwe
+    org: planned-parenthood
+    name: Planned Parenthood Great Rivers, Central West End Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy on an informed consent basis for adults, plus HIV services and STI testing and treatment. Financial assistance for hormone therapy for those who qualify. Telehealth visits also available.
+      es: Terapia hormonal de afirmación de género con consentimiento informado para adultos, además de servicios de VIH y pruebas y tratamiento de ITS. Ayuda financiera para terapia hormonal para quienes califican. También hay consultas por telesalud.
+    url: https://www.plannedparenthood.org/health-center/missouri/saint-louis/63108/central-west-end-health-center-3301-90770
+    phone: "314-531-7526"
+    address: 4251 Forest Park Avenue, St. Louis, MO 63108
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-cwe, pp-great-rivers-hrt]
+  - id: pp-fairview-heights
+    org: planned-parenthood
+    name: Planned Parenthood Great Rivers, Fairview Heights (Illinois) health center
+    type: hrt_clinic
+    pillars: [hrt]
+    description:
+      en: Where Planned Parenthood Great Rivers sees minors (16 and 17, with a parent) who want to start hormone therapy, since Missouri bars it. The Regional Logistics Center (618-607-5080) helps with getting there.
+      es: Donde Planned Parenthood Great Rivers atiende a menores (16 y 17 años, con un padre) que quieren empezar terapia hormonal, ya que Misuri lo prohíbe. El Centro Regional de Logística (618-607-5080) ayuda con el traslado.
+    url: https://www.plannedparenthood.org/planned-parenthood-great-rivers/patients/our-services/hormone-therapy
+    phone: "314-531-7526"
+    areas_served:
+      en: Metro East, Illinois; serves Missouri patients
+      es: Metro East, Illinois; atiende a pacientes de Misuri
+    cost: varies
+    verification: org_website
+    sources: [pp-great-rivers-hrt]
+  - id: southampton
+    name: Southampton Healthcare
+    type: primary_care
+    pillars: [hrt]
+    description:
+      en: South St. Louis primary care practice that was a provider plaintiff in the SB 49 lawsuit and is known in the community for gender-affirming care. Its website does not describe trans services; call to ask about new patients.
+      es: Consultorio de atención primaria del sur de St. Louis que fue proveedor demandante en la demanda contra SB 49 y es conocido en la comunidad por su atención de afirmación de género. Su sitio web no describe servicios trans; llama para preguntar por pacientes nuevos.
+    url: https://www.southamptonhealthcare.com/
+    phone: "314-647-2200"
+    address: 2340 Hampton Ave, St. Louis, MO 63139
+    cost: insurance
+    verification: community_reported
+    sources: [southampton, lambda-en-v-kehoe]
+  - id: affinia
+    name: Affinia Healthcare
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Federally qualified health center with several St. Louis locations. Rapid Start PrEP, HIV testing and care, and STI services on a sliding fee scale; HIV patient navigators help with appointments.
+      es: Centro de salud federalmente calificado con varias sedes en St. Louis. PrEP de inicio rápido, pruebas y atención de VIH y servicios de ITS con tarifa en escala móvil; navegadores de pacientes ayudan con las citas.
+    url: https://affiniahealthcare.org/department/hiv-prevention-care/
+    phone: "314-814-8700"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [affinia-hiv]
+  - id: lsem
+    name: Legal Services of Eastern Missouri
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal aid for people with low income, including Medicaid and public benefits appeals and marketplace insurance help. Ask at intake about name change help. Phone intake Monday, Wednesday, and Thursday, 9 am to 1 pm, or apply online.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos, incluidas apelaciones de Medicaid y beneficios públicos y ayuda con seguros del Mercado. Pregunta al solicitar por ayuda con cambio de nombre. Solicitudes por teléfono lunes, miércoles y jueves, 9 am a 1 pm, o en línea.
+    url: https://lsem.org/get-help-now/
+    phone: "314-534-4200"
+    address: 701 Market Street, Suite 1100, St. Louis, MO 63101
+    cost: free
+    verification: org_website
+    sources: [lsem-help, lsem-services]
+  - id: transparent
+    name: TransParent
+    type: other
+    pillars: [mental_health, name_change]
+    description:
+      en: Support network for parents and families of trans children, founded in St. Louis, with local chapter meetings. Its Missouri list names St. Louis-area attorneys who handle name and gender marker changes and affirming therapists.
+      es: Red de apoyo para padres y familias de niños trans, fundada en St. Louis, con reuniones de capítulos locales. Su lista de Misuri incluye abogados del área de St. Louis que manejan cambios de nombre y marcador de género y terapeutas afirmativos.
+    url: https://transparentusa.org/resources-missouri/
+    cost: free
+    verification: org_website
+    sources: [transparent-mo]
+  - id: sqsh
+    name: St. Louis Queer+ Support Helpline (SQSH)
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support line, Friday to Monday, 1 pm to 7 pm, for anyone who needs to talk; you do not need to be in crisis. Local 314-380-7774, toll-free 844-785-7774.
+      es: Línea de apoyo entre pares, de viernes a lunes, de 1 pm a 7 pm, para cualquier persona que necesite hablar; no hace falta estar en crisis. Local 314-380-7774, gratis 844-785-7774.
+    phone: "314-380-7774"
+    cost: free
+    verification: community_reported
+    sources: [transparent-mo, promo-tj]
+  - id: thistl
+    name: Trans Housing Initiative St. Louis (THISTL)
+    type: fund
+    pillars: [mental_health]
+    description:
+      en: Trans-led group offering mutual aid for rent and housing costs to trans and gender nonconforming adults (applications reopen in winter 2026, mostly collected in person), plus credit and homebuyer workshops.
+      es: Grupo dirigido por personas trans que ofrece ayuda mutua para renta y vivienda a adultos trans y de género no conforme (las solicitudes reabren en invierno de 2026, principalmente en persona), además de talleres de crédito y compra de vivienda.
+    url: https://thi-stl.org/assistance
+    cost: free
+    verification: org_website
+    sources: [thistl]
+  - id: mtug
+    name: Metro Trans Umbrella Group (MTUG)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Long-running St. Louis trans community and support group, listed by PROMO. Its former website no longer works; ask PROMO or TransParent for current contact information.
+      es: Grupo comunitario y de apoyo trans de St. Louis con larga trayectoria, recomendado por PROMO. Su antiguo sitio web ya no funciona; pide a PROMO o TransParent la información de contacto actual.
+    cost: free
+    verification: community_reported
+    sources: [promo-tj]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: National peer support hotline run by trans people, 877-565-8860.
+      es: Línea nacional de apoyo entre pares dirigida por personas trans, 877-565-8860.
+    url: https://translifeline.org/hotline/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [promo-tj]
+sources:
+  - id: stlcity-name-change
+    url: https://www.stlcitycircuitcourt.com/how_do_i/change_my_name.php
+    title: Change My Name
+    publisher: 22nd Judicial Circuit Court of Missouri
+    kind: court
+    accessed: "2026-09-24"
+    quote: For questions, call 314-622-4404.
+  - id: stlcity-fees
+    url: https://www.stlcitycircuitcourt.com/Documents/Family%20Court/Filing%20Fees.pdf
+    title: Amended Administrative Order re Court Costs (effective July 1, 2021)
+    publisher: 22nd Judicial Circuit Court of Missouri
+    kind: court
+    accessed: "2026-09-24"
+    quote: Family Court Matters 177.50
+  - id: stlcity-local-rules
+    url: https://www.stlcitycircuitcourt.com/Documents/Court%20Administration/FINAL%20-%2022nd%20Judicial%20Circuit%20Court,%20Local%20Court%20Rules%20-%20effective%205-27-25.pdf
+    title: 22nd Judicial Circuit Local Court Rules (effective May 27, 2025)
+    publisher: 22nd Judicial Circuit Court of Missouri
+    kind: court
+    accessed: "2026-09-24"
+  - id: stlco-fees
+    url: https://www.stlcountycourts.com/sites/default/assets/pdfs/CCOPR101-WS---Schedule-of-Deposit-and-Fees.1.26.pdf
+    title: Schedule of Deposits and Fees, 21st Judicial Circuit (effective January 1, 2026)
+    publisher: St. Louis County Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: Change of Name ... 135.50
+  - id: stlco-family-forms
+    url: https://www.stlcountycourts.com/forms/family-court-forms1/
+    title: Family Court Forms
+    publisher: St. Louis County Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: pp-cwe
+    url: https://www.plannedparenthood.org/health-center/missouri/saint-louis/63108/central-west-end-health-center-3301-90770
+    title: Central West End Health Center
+    publisher: Planned Parenthood Great Rivers
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-great-rivers-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-great-rivers/patients/our-services/hormone-therapy
+    title: Gender-affirming hormone therapy
+    publisher: Planned Parenthood Great Rivers
+    kind: org
+    accessed: "2026-09-24"
+  - id: southampton
+    url: https://www.southamptonhealthcare.com/
+    title: Southampton Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: lambda-en-v-kehoe
+    url: https://lambdalegal.org/case/en-v-kehoe/
+    title: E.N. v. Kehoe (formerly Noe v. Parson)
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: affinia-hiv
+    url: https://affiniahealthcare.org/department/hiv-prevention-care/
+    title: HIV Prevention and Care
+    publisher: Affinia Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsem-help
+    url: https://lsem.org/get-help-now/
+    title: Get Help Now
+    publisher: Legal Services of Eastern Missouri
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsem-services
+    url: https://lsem.org/get-help-now/services/
+    title: Services
+    publisher: Legal Services of Eastern Missouri
+    kind: org
+    accessed: "2026-09-24"
+  - id: transparent-mo
+    url: https://transparentusa.org/resources-missouri/
+    title: "Resources: Missouri"
+    publisher: TransParent
+    kind: org
+    accessed: "2026-09-24"
+    quote: The SQSH helpline is open Friday to Monday, 1 p.m. to 7 p.m. for anyone in need of support.
+  - id: thistl
+    url: https://thi-stl.org/assistance
+    title: Assistance
+    publisher: Trans Housing Initiative St. Louis
+    kind: org
+    accessed: "2026-09-24"
+  - id: promo-tj
+    url: https://promomissouri.org/our-focus/transgender-justice/
+    title: Transgender Justice
+    publisher: PROMO
+    kind: org
+    accessed: "2026-09-24"

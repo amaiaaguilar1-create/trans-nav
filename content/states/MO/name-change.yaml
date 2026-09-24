@@ -1,0 +1,555 @@
+guide_type: name_change
+jurisdiction: MO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes (RSMo 527.270, 527.280, 527.290, 514.040) read on revisor.mo.gov 2026-09-24. RSMo 527.270 was amended by
+    HB 2637 & 3155 / SB 982 (2026, effective August 28, 2026) to add subsection 2 barring name changes by people
+    required to register as sex offenders; the rest of the section is unchanged. The statewide court site
+    courts.mo.gov returned HTTP 403 with a notice that automated access to Missouri judicial websites is prohibited,
+    so the statewide form numbers (CAFC401, CAFC402, CAFC470, CAFC472, CAFC480, CAFC482, FI-10, GN320, GN10) come from
+    A4TE's Missouri page (last updated December 2025) and the 22nd Circuit's "Change My Name" page, NOT from the forms
+    themselves. Reviewer: open courts.mo.gov in a browser, confirm each form number and title, and replace the
+    page.jsp?id=3834 links with direct PDF links. The 22nd Circuit links to page.jsp?id=3834 for instructions; that
+    URL could not be test-loaded. Fees confirmed: St. Louis County $135.50 change-of-name deposit (schedule effective
+    January 1, 2026); St. Louis City Family Court deposit $177.50 (administrative order effective July 1, 2021; local
+    rules place change-of-name actions in Family Court). Newspaper publication costs were not found on any official
+    page and are omitted. NOT CONFIRMED: whether St. Louis County's CCFC194 affidavit lets the judge rule without a
+    hearing in every case; whether GN10 is still the current in forma pauperis form number. MAP rates Missouri's name
+    change process negatively because of the publication requirement, consistent with RSMo 527.290.
+status: restricted
+status_summary:
+  en: >-
+    You can change your name in Missouri by filing a sworn petition in the circuit court of the county where you
+    live. After the judge signs the judgment, state law requires you to publish the name change in a local newspaper
+    three times within 20 days. Being trans is not a ground to skip publication; only survivors of domestic violence
+    or child abuse are exempt.
+  es: >-
+    Puedes cambiar tu nombre en Misuri presentando una petición jurada en el tribunal de circuito del condado donde
+    vives. Después de que el juez firma la sentencia, la ley estatal exige publicar el cambio de nombre en un
+    periódico local tres veces dentro de 20 días. Ser trans no es motivo para evitar la publicación; solo están
+    exentas las personas sobrevivientes de violencia doméstica o abuso infantil.
+summary:
+  en: |
+    Missouri's name change law is short and old (RSMo 527.270 to 527.290). You file a petition, "verified by affidavit" (signed in front of a notary), with the **circuit court in the county where you live**. The petition gives your current name, the new name, and a short reason. The judge grants it if satisfied the change is "proper and not detrimental to the interests of any other person." You do not have to explain your gender identity in detail; a short reason such as "to match the name I use in daily life and my gender identity" is common.
+
+    The hard part is **publication**. After the judgment, you must publish notice of the change at least three times in a newspaper in your county within 20 days (RSMo 527.290). Missouri has no publication waiver for trans people or for safety in general, only for survivors of domestic violence or child abuse.
+
+    Forms are statewide (CAFC401 for adults), but filing fees, hearing practice, and local cover forms vary by county. In **St. Louis City and St. Louis County**, name changes are handled by the Family Court.
+  es: |
+    La ley de cambio de nombre de Misuri es breve y antigua (RSMo 527.270 a 527.290). Presentas una petición "verificada por declaración jurada" (firmada ante notario) en el **tribunal de circuito del condado donde vives**. La petición indica tu nombre actual, el nuevo nombre y una breve razón. El juez la concede si considera que el cambio es "apropiado y no perjudicial para los intereses de otra persona". No tienes que explicar tu identidad de género en detalle; una razón breve como "para coincidir con el nombre que uso a diario y con mi identidad de género" es común.
+
+    Lo difícil es la **publicación**. Después de la sentencia, debes publicar el aviso del cambio al menos tres veces en un periódico de tu condado dentro de 20 días (RSMo 527.290). Misuri no tiene exención de publicación para personas trans ni por seguridad en general, solo para sobrevivientes de violencia doméstica o abuso infantil.
+
+    Los formularios son estatales (CAFC401 para adultos), pero las tarifas, la práctica de audiencias y los formularios locales varían por condado. En **la Ciudad de St. Louis y el Condado de St. Louis**, los cambios de nombre los maneja el Tribunal de Familia.
+eligibility:
+  residency:
+    en: File in the circuit court of the Missouri county where you live now. Where you were born does not matter.
+    es: Presenta la petición en el tribunal de circuito del condado de Misuri donde vives ahora. No importa dónde naciste.
+  age:
+    en: 18 or older for the adult petition. For a minor, a parent or guardian files as "next friend"; see the Minors section.
+    es: 18 años o más para la petición de adultos. Para un menor, un padre, madre o tutor presenta la petición como "next friend" (representante); ver la sección Menores.
+  criminal_history:
+    en: >-
+      Since August 28, 2026, a person who is required to register as a sex offender cannot change their name for as
+      long as they must stay on the registry (RSMo 527.270.2). Other criminal history is not an automatic bar, but the
+      judge must find the change is not meant to harm others, such as creditors.
+    es: >-
+      Desde el 28 de agosto de 2026, una persona obligada a registrarse como agresor sexual no puede cambiar su nombre
+      mientras deba permanecer en el registro (RSMo 527.270.2). Otros antecedentes penales no impiden el cambio
+      automáticamente, pero el juez debe determinar que el cambio no busca perjudicar a otros, como acreedores.
+  sources: [rsmo-527-270, stlcity-name-change]
+forms:
+  - id: CAFC401
+    name:
+      en: Petition for Change of Name (For Adult Individual)
+      es: Petición de cambio de nombre (persona adulta)
+    url: https://www.courts.mo.gov/page.jsp?id=3834
+    required: always
+    condition:
+      en: The main petition for adults. It must be signed in front of a notary.
+      es: La petición principal para adultos. Debe firmarse ante notario.
+    how_to_fill:
+      en: |
+        - Use your current legal name exactly as it appears on your ID, and the full new name you want.
+        - **Reason for the change**: a short, truthful statement is enough, for example "to conform my name to my gender identity and the name I use in daily life." You do not need medical records.
+        - State that you are not seeking the change to avoid debts or to defraud anyone, and answer the questions about criminal history and the sex offender registry honestly.
+        - Do not sign until you are in front of a notary; the petition must be "verified by affidavit."
+        - If you are a survivor of domestic violence or child abuse, say so and ask the court to make the finding that exempts you from publication (RSMo 527.290.2).
+      es: |
+        - Usa tu nombre legal actual tal como aparece en tu identificación y el nombre completo nuevo que quieres.
+        - **Razón del cambio**: basta una declaración breve y veraz, por ejemplo "para que mi nombre coincida con mi identidad de género y el nombre que uso a diario". No necesitas registros médicos.
+        - Declara que no buscas el cambio para evitar deudas ni defraudar a nadie, y responde con honestidad las preguntas sobre antecedentes penales y el registro de agresores sexuales.
+        - No firmes hasta estar ante un notario; la petición debe estar "verificada por declaración jurada".
+        - Si eres sobreviviente de violencia doméstica o abuso infantil, dilo y pide al tribunal la determinación que te exime de la publicación (RSMo 527.290.2).
+    sources: [a4te-mo, stlcity-name-change, rsmo-527-270]
+  - id: CAFC402
+    name:
+      en: Petition for Change of Name (For Minor Child)
+      es: Petición de cambio de nombre (menor de edad)
+    url: https://www.courts.mo.gov/page.jsp?id=3834
+    required: conditional
+    condition:
+      en: Only for a child under 18, filed by a parent or guardian as next friend.
+      es: Solo para menores de 18 años, presentada por un padre, madre o tutor como representante.
+    sources: [a4te-mo]
+  - id: CAFC470
+    name:
+      en: Judgment of Change of Name (adult), statewide form
+      es: Sentencia de cambio de nombre (adulto), formulario estatal
+    url: https://www.courts.mo.gov/page.jsp?id=3834
+    required: conditional
+    condition:
+      en: Proposed judgment for the judge to sign. Some counties use their own form instead (St. Louis County uses CCFC137).
+      es: Proyecto de sentencia para que el juez firme. Algunos condados usan su propio formulario (el Condado de St. Louis usa CCFC137).
+    sources: [a4te-mo]
+  - id: CAFC480
+    name:
+      en: Request for Publication after Judgment of Name Change for Adult
+      es: Solicitud de publicación después de la sentencia de cambio de nombre (adulto)
+    url: https://www.stlcountycourts.com/forms/domestic/request-for-publication-after-judgment-of-name-change-for-adult/
+    required: always
+    condition:
+      en: Sent to the newspaper after the judgment so the notice runs three times. Not needed if the court found you are exempt as a survivor of domestic violence or child abuse.
+      es: Se envía al periódico después de la sentencia para que el aviso se publique tres veces. No es necesario si el tribunal determinó que estás exento como sobreviviente de violencia doméstica o abuso infantil.
+    sources: [stlco-family-forms, a4te-mo]
+  - id: CAFC482
+    name:
+      en: Request for Publication after Judgment of Name Change for Minor Child
+      es: Solicitud de publicación después de la sentencia de cambio de nombre (menor)
+    url: https://www.stlcountycourts.com/forms/domestic/request-for-publication-after-judgment-of-name-change-for-minor-child/
+    required: conditional
+    condition:
+      en: Minor petitions only.
+      es: Solo peticiones para menores.
+    sources: [stlco-family-forms]
+  - id: FI-10
+    name:
+      en: Filing Information Sheet (cover form for new cases)
+      es: Hoja de información de presentación (portada para casos nuevos)
+    url: https://www.courts.mo.gov/page.jsp?id=3834
+    required: always
+    condition:
+      en: Listed by A4TE as filed with every new petition. Confirm the current version with your circuit clerk.
+      es: A4TE indica que se presenta con cada petición nueva. Confirma la versión actual con el secretario del tribunal.
+    sources: [a4te-mo]
+  - id: GN320
+    name:
+      en: Confidential Case Filing Information Sheet (personal identifiers)
+      es: Hoja confidencial de información del caso (datos personales)
+    url: https://www.courts.mo.gov/page.jsp?id=3834
+    required: always
+    condition:
+      en: Listed by A4TE; it keeps identifiers such as your Social Security number and date of birth out of the public file. Confirm the current version with your circuit clerk.
+      es: Indicado por A4TE; mantiene datos como tu número de Seguro Social y fecha de nacimiento fuera del expediente público. Confirma la versión actual con el secretario.
+    sources: [a4te-mo]
+  - id: GN10
+    name:
+      en: Application to proceed in forma pauperis (as a poor person)
+      es: Solicitud para litigar como persona de escasos recursos (in forma pauperis)
+    url: https://www.courts.mo.gov/page.jsp?id=3834
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. The judge decides.
+      es: Solo si no puedes pagar la tarifa de presentación. El juez decide.
+    sources: [a4te-mo, rsmo-514-040]
+  - id: CCFC194
+    name:
+      en: Affidavit for Judgment, change of name (St. Louis County only)
+      es: Declaración jurada para sentencia, cambio de nombre (solo Condado de St. Louis)
+    url: https://www.stlcountycourts.com/forms/name-change/affidavit-for-judgment/
+    required: conditional
+    condition:
+      en: St. Louis County local form. A notarized affidavit swearing that your petition is true, for use in name change cases; ask the clerk whether your division will decide the case on this affidavit instead of a hearing.
+      es: Formulario local del Condado de St. Louis. Declaración jurada ante notario de que tu petición es verdadera, para casos de cambio de nombre; pregunta al secretario si tu división decidirá con esta declaración en lugar de una audiencia.
+    sources: [stlco-ccfc194]
+steps:
+  - id: prepare-petition
+    title:
+      en: Fill out the petition and get it notarized
+      es: Llena la petición y hazla notarizar
+    body:
+      en: |
+        Get the adult petition (CAFC401) and cover sheets from the Missouri courts' self-help forms page or your circuit clerk. Fill in your current and new names and a short reason. Sign it **in front of a notary** (banks, libraries, and UPS stores often have one; many banks notarize free for customers).
+
+        Also prepare the proposed judgment for the judge to sign. In St. Louis County, use the county's Judgment of Name Change (CCFC137) and the Affidavit for Judgment (CCFC194).
+      es: |
+        Obtén la petición para adultos (CAFC401) y las hojas de portada en la página de formularios de autoayuda de los tribunales de Misuri o con el secretario del tribunal. Escribe tu nombre actual, el nuevo y una razón breve. Fírmala **ante un notario** (bancos, bibliotecas y tiendas UPS suelen tener; muchos bancos lo hacen gratis para sus clientes).
+
+        Prepara también el proyecto de sentencia para que lo firme el juez. En el Condado de St. Louis, usa la Sentencia de Cambio de Nombre del condado (CCFC137) y la Declaración Jurada para Sentencia (CCFC194).
+    forms: [CAFC401, FI-10, GN320, CAFC470, CCFC194]
+    sources: [a4te-mo, stlcity-name-change, stlco-family-forms]
+  - id: fee-waiver
+    title:
+      en: Ask to file without paying, if you cannot afford the fee
+      es: Pide presentar sin pagar si no puedes costear la tarifa
+    body:
+      en: File the in forma pauperis application with your petition. Missouri law lets a judge excuse court fees for a person who cannot pay them (RSMo 514.040). Bring proof of income or benefits.
+      es: Presenta la solicitud in forma pauperis con tu petición. La ley de Misuri permite al juez eximir las tarifas judiciales a quien no puede pagarlas (RSMo 514.040). Lleva comprobantes de ingresos o beneficios.
+    forms: [GN10]
+    optional: true
+    sources: [rsmo-514-040, a4te-mo]
+  - id: file
+    title:
+      en: File with the circuit clerk in your county
+      es: Presenta los documentos ante el secretario del tribunal de circuito de tu condado
+    body:
+      en: |
+        File in person at the circuit clerk's office of the county where you live, or have an attorney e-file for you. Pay the filing deposit, which varies by county: **$135.50 in St. Louis County** and **$177.50 in St. Louis City** (Family Court). Call your clerk for the exact amount elsewhere.
+      es: |
+        Presenta en persona en la oficina del secretario del tribunal de circuito del condado donde vives, o pide a un abogado que lo presente electrónicamente. Paga el depósito de presentación, que varía por condado: **$135.50 en el Condado de St. Louis** y **$177.50 en la Ciudad de St. Louis** (Tribunal de Familia). Llama al secretario para confirmar el monto en otros condados.
+    fees: [filing]
+    sources: [stlco-fees, stlcity-fees, stlcity-name-change]
+  - id: hearing
+    title:
+      en: Go to the hearing if the court sets one
+      es: Asiste a la audiencia si el tribunal la fija
+    body:
+      en: Many judges hold a short hearing where they ask you to confirm the petition under oath. Some counties decide on the papers and a sworn affidavit instead. Dress as you like to be seen; you can ask the clerk in advance how your division handles name changes.
+      es: Muchos jueces celebran una audiencia breve en la que te piden confirmar la petición bajo juramento. Algunos condados deciden con los documentos y una declaración jurada. Vístete como quieras ser vista o visto; puedes preguntar al secretario cómo maneja tu división los cambios de nombre.
+    sources: [stlcity-name-change, a4te-mo, stlco-ccfc194]
+  - id: publish
+    title:
+      en: Publish the name change within 20 days
+      es: Publica el cambio de nombre dentro de 20 días
+    body:
+      en: |
+        Within **20 days after the judgment**, the notice must run **at least three times** in a newspaper published in your county (RSMo 527.290). Send the Request for Publication (CAFC480) and a copy of the judgment to a legal newspaper that prints court notices, and pay its fee. Ask the newspaper for an **affidavit of publication** when the run ends and keep it with your judgment.
+
+        Only survivors of domestic violence or child abuse are exempt, and the court must make that finding on the record.
+      es: |
+        Dentro de los **20 días después de la sentencia**, el aviso debe publicarse **al menos tres veces** en un periódico de tu condado (RSMo 527.290). Envía la Solicitud de Publicación (CAFC480) y una copia de la sentencia a un periódico legal que publique avisos judiciales, y paga su tarifa. Pide al periódico una **declaración jurada de publicación** cuando termine y guárdala con tu sentencia.
+
+        Solo están exentas las personas sobrevivientes de violencia doméstica o abuso infantil, y el tribunal debe hacer esa determinación en el expediente.
+    forms: [CAFC480]
+    fees: [publication]
+    sources: [rsmo-527-290, a4te-mo]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the judgment
+      es: Obtén copias certificadas de la sentencia
+    body:
+      en: Buy several certified copies (A4TE suggests 5 to 7) from the circuit clerk. Social Security, the Department of Revenue, the passport agency, and banks each want one. In St. Louis County a certified copy costs $1.50 for the first page with seal plus $0.30 per extra page.
+      es: Compra varias copias certificadas (A4TE sugiere de 5 a 7) al secretario del tribunal. El Seguro Social, el Departamento de Ingresos, la agencia de pasaportes y los bancos piden una cada uno. En el Condado de St. Louis una copia certificada cuesta $1.50 por la primera página con sello más $0.30 por página adicional.
+    fees: [certified-copies]
+    sources: [a4te-mo, stlco-fees]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). The name can change; the sex field currently cannot.
+        2. **Missouri Department of Revenue** license or ID at a license office (see the driver's license guide).
+        3. **Birth certificate**, if you were born in Missouri: mail a certified copy of the judgment to Vital Records (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis). El nombre se puede cambiar; el campo de sexo actualmente no.
+        2. Licencia o identificación del **Departamento de Ingresos de Misuri** en una oficina de licencias (ver la guía de licencia de conducir).
+        3. **Acta de nacimiento**, si naciste en Misuri: envía por correo una copia certificada de la sentencia a Registros Vitales (ver la guía del acta de nacimiento).
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+    sources: [dor-general-faq, dhss-amend]
+fees:
+  - id: filing
+    label:
+      en: Court filing deposit (change of name)
+      es: Depósito de presentación (cambio de nombre)
+    varies_by: county
+    waivable: true
+    note:
+      en: St. Louis County $135.50 (schedule effective January 1, 2026). St. Louis City $177.50 (Family Court deposit, order effective July 1, 2021). Other counties set their own deposit under RSMo 527.280; call the circuit clerk.
+      es: Condado de St. Louis $135.50 (tarifa vigente desde el 1 de enero de 2026). Ciudad de St. Louis $177.50 (depósito del Tribunal de Familia, orden vigente desde el 1 de julio de 2021). Otros condados fijan su propio depósito según RSMo 527.280; llama al secretario.
+    sources: [stlco-fees, stlcity-fees, stlcity-local-rules, rsmo-527-280]
+  - id: publication
+    label:
+      en: Newspaper publication (three notices)
+      es: Publicación en periódico (tres avisos)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by the newspaper. Ask for the price before you file so you are ready to publish within 20 days of the judgment. A court fee waiver does not cover it.
+      es: Lo fija el periódico. Pregunta el precio antes de presentar para estar listo para publicar dentro de 20 días de la sentencia. Una exención de tarifas judiciales no lo cubre.
+    sources: [rsmo-527-290]
+  - id: certified-copies
+    label:
+      en: Certified copy of the judgment
+      es: Copia certificada de la sentencia
+    varies_by: county
+    note:
+      en: St. Louis County charges $1.50 for one page with seal plus $0.30 per extra page.
+      es: El Condado de St. Louis cobra $1.50 por una página con sello más $0.30 por página adicional.
+    sources: [stlco-fees]
+fee_waiver:
+  available: true
+  forms: [GN10]
+  eligibility:
+    en: A judge may let you file "as a poor person" if you cannot pay the court costs (RSMo 514.040). There is no fixed income cutoff; the judge looks at your income, benefits, and expenses.
+    es: Un juez puede permitirte litigar "como persona de escasos recursos" si no puedes pagar los costos judiciales (RSMo 514.040). No hay un límite fijo de ingresos; el juez considera tus ingresos, beneficios y gastos.
+  how:
+    en: File the in forma pauperis application with your petition, with proof of income or public benefits. It covers court fees, not the newspaper's publication charge.
+    es: Presenta la solicitud in forma pauperis con tu petición, con comprobantes de ingresos o beneficios públicos. Cubre las tarifas judiciales, no el cargo del periódico por la publicación.
+  sources: [rsmo-514-040, a4te-mo]
+publication:
+  required: "yes"
+  detail:
+    en: Notice must be published at least three times in a newspaper in your county within 20 days after the judgment (RSMo 527.290.1). There is no exemption for gender identity or for general safety concerns.
+    es: El aviso debe publicarse al menos tres veces en un periódico de tu condado dentro de 20 días después de la sentencia (RSMo 527.290.1). No hay exención por identidad de género ni por preocupaciones generales de seguridad.
+  waiver_available: false
+  waiver_how:
+    en: The only exemptions are for a petitioner the court finds is a victim of domestic violence (as defined in RSMo 455.010) or child abuse (RSMo 210.110). In those cases the change is also not posted on Case.net. Ask for the finding in your petition and at the hearing.
+    es: Las únicas exenciones son para quien el tribunal determine que es víctima de violencia doméstica (según RSMo 455.010) o abuso infantil (RSMo 210.110). En esos casos el cambio tampoco se publica en Case.net. Pide la determinación en tu petición y en la audiencia.
+  sources: [rsmo-527-290]
+hearing:
+  required: conditional
+  detail:
+    en: The statute leaves it to the judge. Many courts hold a short hearing; St. Louis County has a local affidavit form (CCFC194) for name change judgments, and the St. Louis City court describes a "possible hearing."
+    es: La ley lo deja a criterio del juez. Muchos tribunales celebran una audiencia breve; el Condado de St. Louis tiene un formulario local de declaración jurada (CCFC194) para sentencias de cambio de nombre, y el tribunal de la Ciudad de St. Louis habla de una "posible audiencia".
+  sources: [rsmo-527-270, stlcity-name-change, stlco-ccfc194]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprinting is required. Since August 28, 2026, people required to register as sex offenders cannot change their name while on the registry.
+    es: No se requieren huellas digitales. Desde el 28 de agosto de 2026, las personas obligadas a registrarse como agresores sexuales no pueden cambiar su nombre mientras estén en el registro.
+  sources: [rsmo-527-270]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Missouri has no procedure to seal a name change for gender identity. The case appears on Case.net and the newspaper notice is public. Only survivors of domestic violence or child abuse can keep the change off Case.net and out of the newspaper.
+    es: Misuri no tiene un procedimiento para sellar un cambio de nombre por identidad de género. El caso aparece en Case.net y el aviso en el periódico es público. Solo sobrevivientes de violencia doméstica o abuso infantil pueden mantener el cambio fuera de Case.net y del periódico.
+  sources: [rsmo-527-290]
+minors:
+  summary:
+    en: |
+      A parent or guardian files the minor petition (CAFC402) as the child's "next friend." If the other parent does not consent, they must be formally notified (A4TE describes certified mail), and a hearing is usually required. Publication after the judgment uses CAFC482, with the same exemption for victims of child abuse or domestic violence. A name change for a minor is not medical care and is not affected by SB 49.
+    es: |
+      Un padre, madre o tutor presenta la petición para menores (CAFC402) como "next friend" (representante) del menor. Si el otro progenitor no da su consentimiento, debe ser notificado formalmente (A4TE describe correo certificado), y normalmente se requiere audiencia. La publicación después de la sentencia usa CAFC482, con la misma exención para víctimas de abuso infantil o violencia doméstica. Un cambio de nombre para un menor no es atención médica y no se ve afectado por SB 49.
+  forms: [CAFC402, CAFC482]
+  sources: [a4te-mo, rsmo-527-290, stlco-family-forms]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Self-represented people file in person at the circuit clerk's office; attorneys must e-file. Ask your clerk whether self-represented e-filing is available in your county.
+    es: Las personas sin abogado presentan en persona en la oficina del secretario; los abogados deben presentar electrónicamente. Pregunta al secretario si en tu condado se permite la presentación electrónica sin abogado.
+  sources: [stlcity-name-change]
+timeline:
+  en: Commonly 1 to 3 months from filing to judgment, depending on the county's hearing calendar, then about 3 weeks for publication before you have the proof you need for other agencies.
+  es: Por lo general de 1 a 3 meses desde la presentación hasta la sentencia, según el calendario del condado, y luego unas 3 semanas de publicación antes de tener el comprobante que necesitas para otras agencias.
+after:
+  en: |
+    Start with **Social Security** (bring the certified judgment and photo ID; the name changes, the sex field currently cannot). Then a **Missouri license office** for a duplicate license or ID with your new name (bring the certified judgment plus identity, Social Security, and residency documents). If you were born in Missouri, mail a certified copy of the judgment, a signed cover letter, and $15 to the **Bureau of Vital Records**. Then your **passport** (name changes are processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva la sentencia certificada e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego una **oficina de licencias de Misuri** para un duplicado de licencia o identificación con tu nuevo nombre (lleva la sentencia certificada y documentos de identidad, Seguro Social y residencia). Si naciste en Misuri, envía por correo una copia certificada de la sentencia, una carta firmada y $15 a la **Oficina de Registros Vitales**. Después el **pasaporte** (se procesan cambios de nombre; no de marcador de sexo, a septiembre de 2026), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: Get a price quote from the newspaper before your hearing. The 20-day publication window starts when the judge signs, not when you get your copies.
+    es: Pide una cotización al periódico antes de la audiencia. El plazo de 20 días para publicar empieza cuando el juez firma, no cuando recibes tus copias.
+  - en: If you are a survivor of domestic violence or child abuse, raise it in your petition. It is the only way to avoid the newspaper notice and keep the change off Case.net.
+    es: Si eres sobreviviente de violencia doméstica o abuso infantil, menciónalo en tu petición. Es la única forma de evitar el aviso en el periódico y mantener el cambio fuera de Case.net.
+  - en: Genderbands gives small grants that can cover name change filing fees.
+    es: Genderbands otorga pequeñas becas que pueden cubrir tarifas de cambio de nombre.
+local_help:
+  - id: lsem
+    name: Legal Services of Eastern Missouri
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for people with low income in St. Louis and 20+ eastern Missouri counties. Name changes are not a listed practice area, so ask at intake whether they can help or refer you. Apply online or call (phone intake Monday, Wednesday, Thursday, 9 am to 1 pm).
+      es: Asistencia legal civil gratuita para personas de bajos ingresos en St. Louis y el este de Misuri. El cambio de nombre no aparece como área de práctica, así que pregunta al solicitar si pueden ayudarte o referirte. Solicita en línea o llama (lunes, miércoles y jueves, 9 am a 1 pm).
+    url: https://lsem.org/get-help-now/
+    phone: "314-534-4200"
+    address: 701 Market Street, Suite 1100, St. Louis, MO 63101
+    cost: free
+    verification: org_website
+    sources: [lsem-help]
+  - id: lawmo
+    name: Legal Aid of Western Missouri
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Civil legal aid for people with low income in Kansas City and western Missouri. Its website blocked automated reading, so services for name changes were not confirmed; call to ask.
+      es: Asistencia legal civil para personas de bajos ingresos en Kansas City y el oeste de Misuri. Su sitio web bloqueó la lectura automática, por lo que no se confirmaron servicios de cambio de nombre; llama para preguntar.
+    url: https://www.lawmo.org/
+    cost: free
+    verification: unverified
+    sources: [lawmo]
+  - id: transparent-mo
+    name: TransParent, Missouri resource list
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: St. Louis-founded support organization for parents of trans kids. Its Missouri list includes private attorneys in the St. Louis area who handle name and gender marker changes, plus therapists and support lines.
+      es: Organización de apoyo para padres de niños trans fundada en St. Louis. Su lista de Misuri incluye abogados privados del área de St. Louis que manejan cambios de nombre y de marcador de género, además de terapeutas y líneas de apoyo.
+    url: https://transparentusa.org/resources-missouri/
+    cost: varies
+    verification: org_website
+    sources: [transparent-mo]
+  - id: genderbands-mo
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small national grants for transition costs, including name change fees; 18 and older.
+      es: Pequeñas becas nacionales para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: promo
+    name: PROMO
+    type: advocacy_org
+    pillars: [name_change]
+    description:
+      en: Statewide LGBTQ+ advocacy group; its Transgender Justice page lists trans support groups around Missouri that can point you to local help.
+      es: Grupo estatal de defensa LGBTQ+; su página de Justicia Transgénero enumera grupos de apoyo trans en Misuri que pueden orientarte a ayuda local.
+    url: https://promomissouri.org/our-focus/transgender-justice/
+    cost: free
+    verification: org_website
+    sources: [promo-tj]
+statutes:
+  - cite: RSMo 527.270
+    title:
+      en: Name change petition in the circuit court of the county of residence; sex offender registrants barred (2026)
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.270
+  - cite: RSMo 527.280
+    title:
+      en: Fees for name change proceedings
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.280
+  - cite: RSMo 527.290
+    title:
+      en: Newspaper publication three times within 20 days; exemptions for domestic violence and child abuse victims
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.290
+  - cite: RSMo 514.040
+    title:
+      en: Proceeding as a poor person (court fee waiver)
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=514.040
+related_links:
+  - title: Advocates for Trans Equality, Missouri identity documents
+    url: https://transequality.org/documents/missouri-identity-documents
+    note:
+      en: Last updated December 2025. Step-by-step name change and document guide for Missouri.
+      es: Actualizado en diciembre de 2025. Guía paso a paso de cambio de nombre y documentos para Misuri.
+  - title: 22nd Judicial Circuit (St. Louis City), Change My Name
+    url: https://www.stlcitycircuitcourt.com/how_do_i/change_my_name.php
+sources:
+  - id: rsmo-527-270
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.270
+    title: RSMo 527.270, petition for change of name (effective August 28, 2026)
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      it shall be the duty of the judge of such court to order such change to be made ... if such judge is satisfied
+      that the desired change would be proper and not detrimental to the interests of any other person.
+  - id: rsmo-527-280
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.280
+    title: RSMo 527.280, fees to be paid by petitioner
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+  - id: rsmo-527-290
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.290
+    title: RSMo 527.290, notice of change to be given
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Public notice of such a change of name shall be given at least three times in a newspaper published in the
+      county where such person is residing, within twenty days after the order of court is made.
+  - id: rsmo-514-040
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=514.040
+    title: RSMo 514.040, plaintiff may sue as pauper
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+  - id: a4te-mo
+    url: https://transequality.org/documents/missouri-identity-documents
+    title: Missouri identity documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: stlcity-name-change
+    url: https://www.stlcitycircuitcourt.com/how_do_i/change_my_name.php
+    title: Change My Name
+    publisher: 22nd Judicial Circuit Court of Missouri (City of St. Louis)
+    kind: court
+    accessed: "2026-09-24"
+    quote: St. Louis city residents may file in person at the clerk's office on the third floor of the Clyde S. Cahill Courts Building, 10 North Tucker Boulevard.
+  - id: stlcity-fees
+    url: https://www.stlcitycircuitcourt.com/Documents/Family%20Court/Filing%20Fees.pdf
+    title: Amended Administrative Order re Court Costs (effective July 1, 2021)
+    publisher: 22nd Judicial Circuit Court of Missouri
+    kind: court
+    accessed: "2026-09-24"
+    quote: Family Court Matters 177.50
+  - id: stlcity-local-rules
+    url: https://www.stlcitycircuitcourt.com/Documents/Court%20Administration/FINAL%20-%2022nd%20Judicial%20Circuit%20Court,%20Local%20Court%20Rules%20-%20effective%205-27-25.pdf
+    title: 22nd Judicial Circuit Local Court Rules (effective May 27, 2025), Rule 100.8
+    publisher: 22nd Judicial Circuit Court of Missouri
+    kind: court
+    accessed: "2026-09-24"
+    quote: Change of name actions
+  - id: stlco-fees
+    url: https://www.stlcountycourts.com/sites/default/assets/pdfs/CCOPR101-WS---Schedule-of-Deposit-and-Fees.1.26.pdf
+    title: Schedule of Deposits and Fees, 21st Judicial Circuit (effective January 1, 2026)
+    publisher: St. Louis County Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: Change of Name ... 135.50
+  - id: stlco-family-forms
+    url: https://www.stlcountycourts.com/forms/family-court-forms1/
+    title: Family Court Forms
+    publisher: St. Louis County Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: stlco-ccfc194
+    url: https://www.stlcountycourts.com/forms/name-change/affidavit-for-judgment/
+    title: CCFC194, Affidavit for Judgment (for use in cases involving petition for change of name)
+    publisher: St. Louis County Circuit Court
+    kind: form
+    accessed: "2026-09-24"
+  - id: dor-general-faq
+    url: https://dor.mo.gov/faq/driver-license/general.html
+    title: Driver License General FAQ
+    publisher: Missouri Department of Revenue
+    kind: official
+    accessed: "2026-09-24"
+  - id: dhss-amend
+    url: https://health.mo.gov/vital-records-registries/vital-records/correctamend-vital-record
+    title: Correct/Amend a Vital Record
+    publisher: Missouri Department of Health and Senior Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: lsem-help
+    url: https://lsem.org/get-help-now/
+    title: Get Help Now
+    publisher: Legal Services of Eastern Missouri
+    kind: org
+    accessed: "2026-09-24"
+  - id: lawmo
+    url: https://www.lawmo.org/
+    title: Legal Aid of Western Missouri
+    kind: org
+    accessed: "2026-09-24"
+  - id: transparent-mo
+    url: https://transparentusa.org/resources-missouri/
+    title: "Resources: Missouri"
+    publisher: TransParent
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: promo-tj
+    url: https://promomissouri.org/our-focus/transgender-justice/
+    title: Transgender Justice
+    publisher: PROMO
+    kind: org
+    accessed: "2026-09-24"

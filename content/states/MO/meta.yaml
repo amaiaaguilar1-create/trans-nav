@@ -1,0 +1,160 @@
+code: MO
+name:
+  en: Missouri
+  es: Misuri
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings follow the statutes read on revisor.mo.gov on 2026-09-24 (RSMo 191.1720, 208.152.15, 217.230,
+    193.215.9, 527.290) and the MAP state profile. No shield law exists. Amendment 3 (HJR 73) is on the November 3,
+    2026 ballot; if it passes, the ban on care for minors becomes part of the state constitution and the statutory
+    August 28, 2027 sunset would no longer end it. Reviewer: update this file after the election.
+overview:
+  en: >-
+    Missouri is one of the harder states for trans people. A name change is possible in circuit court, but the new
+    name must be published in a newspaper three times, and the only waiver is for abuse survivors. Changing the sex on
+    a Missouri birth certificate takes a court order saying the sex was changed "by surgical procedure", and the
+    Department of Revenue no longer uses its old gender-change form for licenses. Since August 28, 2023, the SAFE Act
+    (SB 49) bars hormones, puberty blockers, and surgery for gender transition for anyone under 18 (with a
+    grandfather clause), MO HealthNet (Medicaid) does not pay for this care at any age, and prisons may not provide
+    gender transition surgery. Adults with private insurance or who pay cash can still get hormone therapy.
+    **November 3, 2026 ballot**: Amendment 3 would write the ban on care for minors into the state constitution.
+  es: >-
+    Misuri es uno de los estados más difíciles para las personas trans. Se puede cambiar el nombre en el tribunal de
+    circuito, pero el nuevo nombre debe publicarse tres veces en un periódico, y solo se exime a sobrevivientes de
+    abuso. Cambiar el sexo en un acta de nacimiento de Misuri requiere una orden judicial que diga que el sexo se
+    cambió "mediante procedimiento quirúrgico", y el Departamento de Ingresos ya no usa su antiguo formulario de cambio
+    de género para licencias. Desde el 28 de agosto de 2023, la Ley SAFE (SB 49) prohíbe hormonas, bloqueadores de
+    pubertad y cirugía de transición para menores de 18 años (con una excepción para quienes ya recibían tratamiento),
+    MO HealthNet (Medicaid) no paga esta atención a ninguna edad, y las prisiones no pueden ofrecer cirugía de
+    transición. Los adultos con seguro privado o que pagan en efectivo todavía pueden recibir terapia hormonal.
+    **Boleta del 3 de noviembre de 2026**: la Enmienda 3 incluiría en la constitución estatal la prohibición de
+    atención a menores.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [rsmo-191-1720, rsmo-208-152, rsmo-193-215, rsmo-527-290, map-profile, sos-2026-ballot]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [st-louis]
+key_resources:
+  - id: promo
+    name: PROMO (Missouri's statewide LGBTQ+ advocacy organization)
+    type: advocacy_org
+    pillars: [name_change, hrt, mental_health]
+    description:
+      en: Statewide advocacy group. Its Transgender Justice page explains SB 49, where adults and youth can still get care, and lists local trans groups across Missouri.
+      es: Grupo estatal de defensa. Su página de Justicia Transgénero explica SB 49, dónde adultos y jóvenes todavía pueden recibir atención, y enumera grupos trans locales en todo Misuri.
+    url: https://promomissouri.org/our-focus/transgender-justice/
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [promo-tj]
+  - id: lsem
+    name: Legal Services of Eastern Missouri
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal aid for people with low income in St. Louis and eastern Missouri, including help with Medicaid and other public benefits. Name changes are not a listed practice area, so ask at intake. Apply online or call 314-534-4200 or 800-444-0514 (phone intake Monday, Wednesday, and Thursday, 9 am to 1 pm).
+      es: Asistencia legal civil gratuita para personas de bajos ingresos en St. Louis y el este de Misuri, incluida ayuda con Medicaid y otros beneficios públicos. El cambio de nombre no aparece como área de práctica, así que pregunta al solicitar. Solicita en línea o llama al 314-534-4200 o 800-444-0514 (lunes, miércoles y jueves, 9 am a 1 pm).
+    url: https://lsem.org/get-help-now/
+    phone: "314-534-4200"
+    address: 701 Market Street, Suite 1100, St. Louis, MO 63101
+    cost: free
+    verification: org_website
+    sources: [lsem-help]
+  - id: aclu-mo
+    name: ACLU of Missouri
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Civil liberties group that co-counseled the state-court challenge to SB 49 and tracks anti-trans legislation in Missouri.
+      es: Organización de libertades civiles que fue co-abogada en la impugnación de SB 49 en tribunales estatales y da seguimiento a la legislación anti-trans en Misuri.
+    url: https://www.aclu-mo.org/
+    cost: free
+    verification: org_website
+    sources: [aclu-mo, lambda-en-v-kehoe]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people, 877-565-8860. PROMO also lists it for Missouri.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. PROMO también la recomienda en Misuri.
+    url: https://translifeline.org/hotline/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [promo-tj]
+sources:
+  - id: rsmo-191-1720
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=191.1720
+    title: RSMo 191.1720, Missouri Save Adolescents from Experimentation (SAFE) Act
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The provisions of this subsection shall expire on August 28, 2027.
+  - id: rsmo-208-152
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=208.152
+    title: RSMo 208.152, MO HealthNet covered services
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: There shall be no payments made under this section for gender transition surgeries, cross-sex hormones, or puberty-blocking drugs.
+  - id: rsmo-193-215
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=193.215
+    title: RSMo 193.215, amendment of vital records
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of an order of a court of competent jurisdiction indicating the sex of an individual born in this state has been changed by surgical procedure and that such individual's name has been changed, the certificate of birth of such individual shall be amended.
+  - id: rsmo-527-290
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=527.290
+    title: RSMo 527.290, notice of name change
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/MO
+    title: Missouri state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: sos-2026-ballot
+    url: https://www.sos.mo.gov/elections/petitions/2026BallotMeasures
+    title: 2026 ballot measures (Amendment 3, HCS HJR 73)
+    publisher: Missouri Secretary of State
+    kind: official
+    accessed: "2026-09-24"
+    quote: Prohibit gender transition procedures for minors?
+  - id: promo-tj
+    url: https://promomissouri.org/our-focus/transgender-justice/
+    title: Transgender Justice
+    publisher: PROMO
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsem-help
+    url: https://lsem.org/get-help-now/
+    title: Get Help Now
+    publisher: Legal Services of Eastern Missouri
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-mo
+    url: https://www.aclu-mo.org/
+    title: ACLU of Missouri
+    kind: org
+    accessed: "2026-09-24"
+  - id: lambda-en-v-kehoe
+    url: https://lambdalegal.org/case/en-v-kehoe/
+    title: E.N. v. Kehoe (formerly Noe v. Parson)
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"

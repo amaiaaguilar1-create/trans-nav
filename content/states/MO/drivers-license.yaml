@@ -1,0 +1,181 @@
+guide_type: drivers_license
+jurisdiction: MO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The Department of Revenue publishes NO current written procedure for changing the sex on a license. Read directly
+    2026-09-24: DOR's General FAQ lists a changed "gender" as a reason for a duplicate license, and the ID requirements
+    page says "additional documents may be required ... to request a change to the gender" without naming them. The
+    DOR driver license forms list (category 2) has no gender designation or physician statement form for sex
+    changes. The statement that DOR stopped accepting its gender designation form in 2024 and now requires a court
+    order or a surgeon's letter comes from A4TE's Missouri page (last updated December 2025), not from DOR; the
+    requirement_type is therefore set to unclear. MAP's Missouri profile scores the license policy negatively
+    (-0.75), consistent with a restrictive practice. No 2025-2026 Missouri statute on license sex markers was found
+    on revisor.mo.gov, but a full search of 2026 enacted bills was not possible (no web search). Reviewer: call a
+    license office or DOR (via dor.mo.gov/contact) to confirm what documents are accepted
+    today, whether an amended birth certificate alone suffices, and whether any prior changes are being reversed.
+    Fees from DOR's fee chart (08-2025); license offices also add a processing fee not listed here.
+status: restricted
+requirement_type: unclear
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can update the name on a Missouri license or ID at any license office with a certified court order. Changing
+    the sex marker is much harder: the Department of Revenue no longer uses its old gender-change form and does not
+    publish what it now accepts. Advocates report it requires a court order or a surgeon's letter. There is no X option.
+  es: >-
+    Puedes actualizar el nombre en una licencia o identificación de Misuri en cualquier oficina de licencias con una
+    orden judicial certificada. Cambiar el marcador de sexo es mucho más difícil: el Departamento de Ingresos ya no usa
+    su antiguo formulario de cambio de género y no publica qué acepta ahora. Organizaciones de defensa informan que
+    exige una orden judicial o una carta de un cirujano. No hay opción X.
+summary:
+  en: |
+    Missouri licenses and nondriver IDs are issued by the **Department of Revenue (DOR)** through local license offices (many run by contract agents). Any change to your name or sex marker is processed as a **duplicate** card, in person.
+
+    **Name**: bring a certified copy of your name change judgment plus proof of identity, Social Security number, and Missouri residency. This is routine.
+
+    **Sex marker**: for years DOR accepted a physician's statement form. According to Advocates for Trans Equality, **in 2024 DOR stopped accepting that form**, and updates now require an in-person application with a **court order or a letter from a surgeon**. DOR's own website only says "additional documents may be required ... to request a change to the gender" and does not list them. Only **M** and **F** are available.
+
+    If you were born in Missouri and have already amended your birth certificate, bring it; an amended birth certificate is one of DOR's listed name change documents, but whether it is enough on its own for the sex marker is not stated.
+  es: |
+    Las licencias e identificaciones de Misuri las emite el **Departamento de Ingresos (DOR)** a través de oficinas de licencias locales (muchas operadas por agentes contratados). Cualquier cambio de nombre o marcador de sexo se procesa como un **duplicado**, en persona.
+
+    **Nombre**: lleva una copia certificada de tu sentencia de cambio de nombre y comprobantes de identidad, número de Seguro Social y residencia en Misuri. Es un trámite de rutina.
+
+    **Marcador de sexo**: durante años DOR aceptó un formulario de declaración médica. Según Advocates for Trans Equality, **en 2024 DOR dejó de aceptar ese formulario**, y ahora las actualizaciones requieren una solicitud en persona con una **orden judicial o una carta de un cirujano**. El sitio web de DOR solo dice que "pueden requerirse documentos adicionales ... para solicitar un cambio de género" y no los enumera. Solo están disponibles **M** y **F**.
+
+    Si naciste en Misuri y ya enmendaste tu acta de nacimiento, llévala; un acta enmendada es uno de los documentos de cambio de nombre que DOR acepta, pero no se indica si basta por sí sola para el marcador de sexo.
+eligibility:
+  residency:
+    en: You must be a Missouri resident and bring proof of Missouri residency.
+    es: Debes residir en Misuri y llevar comprobante de residencia en Misuri.
+  other:
+    en: A duplicate is issued if your card is not within six months of expiring; otherwise you renew early.
+    es: Se emite un duplicado si a tu tarjeta le faltan más de seis meses para vencer; si no, renuevas anticipadamente.
+  sources: [dor-general-faq, dor-id-requirements]
+steps:
+  - id: gather-name
+    title:
+      en: Gather your documents for a name change
+      es: Reúne tus documentos para el cambio de nombre
+    body:
+      en: |
+        Bring:
+        - A **certified** copy of your name change judgment (or amended birth certificate).
+        - Proof of identity, your Social Security number, and Missouri residency (see DOR's document list).
+        - Update your name with **Social Security first**; DOR checks your Social Security record.
+
+        If you are also getting a REAL ID-compliant card for the first time, bring the extra REAL ID documents.
+      es: |
+        Lleva:
+        - Una copia **certificada** de tu sentencia de cambio de nombre (o acta de nacimiento enmendada).
+        - Comprobantes de identidad, número de Seguro Social y residencia en Misuri (ver la lista de documentos de DOR).
+        - Actualiza tu nombre en el **Seguro Social primero**; DOR verifica tu registro del Seguro Social.
+
+        Si además obtienes por primera vez una tarjeta compatible con REAL ID, lleva los documentos adicionales de REAL ID.
+    applies_to: [name_change, in_person]
+    sources: [dor-general-faq, dor-id-requirements]
+  - id: gather-marker
+    title:
+      en: For a sex marker change, bring a court order or surgeon's letter
+      es: Para cambiar el marcador de sexo, lleva una orden judicial o carta del cirujano
+    body:
+      en: |
+        DOR does not publish its current requirement. Based on A4TE's report, bring one of these:
+        - A certified **court order** directing or recognizing the change of sex, or
+        - A **letter from your surgeon** confirming gender-affirming surgery.
+
+        If you have an amended Missouri birth certificate, bring that too. Call the license office before you go, because practice may differ between offices. There is no X marker.
+      es: |
+        DOR no publica su requisito actual. Según el informe de A4TE, lleva uno de estos:
+        - Una **orden judicial** certificada que ordene o reconozca el cambio de sexo, o
+        - Una **carta de tu cirujano** que confirme la cirugía de afirmación de género.
+
+        Si tienes un acta de nacimiento de Misuri enmendada, llévala también. Llama a la oficina antes de ir, porque la práctica puede variar entre oficinas. No hay marcador X.
+    applies_to: [gender_marker, in_person]
+    sources: [a4te-mo, dor-id-requirements]
+  - id: visit-office
+    title:
+      en: Apply in person at a license office and pay the duplicate fee
+      es: Solicita en persona en una oficina de licencias y paga el duplicado
+    body:
+      en: A new signature is captured and a new photo may be taken. A duplicate Class F (regular) license costs $16.50 (3-year) or $25.50 (6-year); a nondriver ID costs $24. The license office adds a processing fee. If your card expires within six months, renew instead.
+      es: Se captura una nueva firma y puede tomarse una nueva foto. Un duplicado de licencia Clase F (regular) cuesta $16.50 (3 años) o $25.50 (6 años); una identificación de no conductor cuesta $24. La oficina agrega una tarifa de procesamiento. Si tu tarjeta vence en seis meses o menos, renueva en su lugar.
+    fees: [duplicate-license, nondriver-id]
+    applies_to: [in_person]
+    sources: [dor-fees, dor-general-faq]
+fees:
+  - id: duplicate-license
+    label:
+      en: Duplicate Class F driver license
+      es: Duplicado de licencia de conducir Clase F
+    min: 16.5
+    max: 25.5
+    note:
+      en: $16.50 for a 3-year license, $25.50 for a 6-year license, plus the license office processing fee.
+      es: $16.50 por una licencia de 3 años, $25.50 por una de 6 años, más la tarifa de procesamiento de la oficina.
+    sources: [dor-fees]
+  - id: nondriver-id
+    label:
+      en: Nondriver ID (duplicate)
+      es: Identificación de no conductor (duplicado)
+    amount: 24
+    note:
+      en: Plus the license office processing fee. A nondriver ID for voting purposes is free.
+      es: Más la tarifa de procesamiento de la oficina. La identificación de no conductor para votar es gratuita.
+    sources: [dor-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and sex changes are done in person at a Missouri license office.
+    es: Los cambios de nombre y sexo se hacen en persona en una oficina de licencias de Misuri.
+  sources: [dor-general-faq]
+after:
+  en: Keep the certified documents you used. Your old card is invalid once the duplicate is issued. If DOR refuses the sex marker change, ask for the refusal and the rule it is based on in writing, and contact the ACLU of Missouri or PROMO.
+  es: Guarda los documentos certificados que usaste. Tu tarjeta anterior deja de ser válida al emitirse el duplicado. Si DOR rechaza el cambio de marcador de sexo, pide por escrito el rechazo y la norma en que se basa, y contacta a la ACLU de Missouri o a PROMO.
+tips:
+  - en: Change your name at Social Security at least a day or two before going to the license office so the records match.
+    es: Cambia tu nombre en el Seguro Social al menos uno o dos días antes de ir a la oficina de licencias para que los registros coincidan.
+  - en: If your card is within six months of expiring, you can renew early and make the change at the same time, avoiding a separate duplicate fee.
+    es: Si a tu tarjeta le faltan seis meses o menos para vencer, puedes renovar anticipadamente y hacer el cambio al mismo tiempo, evitando pagar un duplicado aparte.
+related_links:
+  - title: Advocates for Trans Equality, Missouri identity documents
+    url: https://transequality.org/documents/missouri-identity-documents
+    note:
+      en: Last updated December 2025; source of the report that DOR stopped accepting its gender designation form in 2024.
+      es: Actualizado en diciembre de 2025; fuente del informe de que DOR dejó de aceptar su formulario de designación de género en 2024.
+sources:
+  - id: dor-general-faq
+    url: https://dor.mo.gov/faq/driver-license/general.html
+    title: Driver License General FAQ
+    publisher: Missouri Department of Revenue
+    kind: official
+    accessed: "2026-09-24"
+    quote: Your name, date of birth, gender, or residence address has changed
+  - id: dor-id-requirements
+    url: https://dor.mo.gov/driver-license/issuance/id-requirements.html
+    title: Documentation requirements
+    publisher: Missouri Department of Revenue
+    kind: official
+    accessed: "2026-09-24"
+    quote: Additional documents may be required ... to request a change to the gender or date of birth.
+  - id: dor-fees
+    url: https://dor.mo.gov/driver-license/documents/feechart.pdf
+    title: Permit/Driver License/Nondriver ID Fees (08-2025)
+    publisher: Missouri Department of Revenue
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-mo
+    url: https://transequality.org/documents/missouri-identity-documents
+    title: Missouri identity documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: As of 2024, the Missouri Department of Revenue stopped accepting a form to update the gender marker.

@@ -1,0 +1,221 @@
+guide_type: birth_certificate
+jurisdiction: MO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Read directly 2026-09-24: RSMo 193.215 (subsection 9, effective August 28, 2014); 19 CSR 10-10 (the correction
+    table says for child's sex "Court order if 1) sex changed by surgical procedure"); the DHSS Correct/Amend page;
+    the DHSS Notice of Fees PDF (May 2024) and the birth/death application (MO 580-0641). DHSS pages do not mention
+    sex or gender changes at all. A4TE (December 2025) says gender marker changes need "a court order or letter from
+    a physician confirming gender affirming surgery"; the statute and regulation require a court order, so the
+    physician-letter-only route is NOT confirmed and is not presented as an option. NOT CONFIRMED: whether DHSS
+    issues a new certificate or an amended one showing the change for sex changes (the DHSS page says a new
+    certificate is "established" for approved amendments generally), whether the original is sealed, how Missouri
+    judges handle petitions for a sex-change order (no statute sets a procedure), and current processing time for
+    amendments (the FAQ gives 4 to 8 weeks for mail-in certificate orders only). No 2025-2026 change to 193.215 was
+    found on revisor.mo.gov; no Missouri action voiding prior amendments was found.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Missouri, the law allows the sex on your birth certificate to be changed only with a certified
+    court order saying your sex "has been changed by surgical procedure" and that your name has been changed. Without
+    surgery, a sex change is not available. Name-only changes are routine with a certified name change judgment and a
+    $15 fee.
+  es: >-
+    Si naciste en Misuri, la ley permite cambiar el sexo en tu acta de nacimiento solo con una orden judicial
+    certificada que diga que tu sexo "ha sido cambiado mediante procedimiento quirúrgico" y que tu nombre ha sido
+    cambiado. Sin cirugía, el cambio de sexo no está disponible. Los cambios solo de nombre son de rutina con una
+    sentencia certificada de cambio de nombre y una tarifa de $15.
+summary:
+  en: |
+    Missouri birth records are kept by the **Bureau of Vital Records** of the Department of Health and Senior Services (DHSS) in Jefferson City. This guide applies only if you were **born in Missouri**; if you were born elsewhere, your birth state's rules apply, wherever you live now.
+
+    **Sex marker**: RSMo 193.215.9 says the certificate "shall be amended" when DHSS receives a certified court order stating that your sex "has been changed by surgical procedure" and that your name has been changed. The state regulation (19 CSR 10-10) repeats that a court order is required when "sex changed by surgical procedure." There is no self-attestation or doctor-letter route in the law, no X option, and no statute telling judges how to handle a request for such an order, so practice varies by judge.
+
+    **Name only**: send a certified copy of your name change judgment, a signed cover letter asking DHSS to apply it to your birth record, and the $15 processing fee. The fee does not include a new certified copy ($15 each).
+  es: |
+    Las actas de nacimiento de Misuri las guarda la **Oficina de Registros Vitales** del Departamento de Salud y Servicios para Personas Mayores (DHSS) en Jefferson City. Esta guía aplica solo si **naciste en Misuri**; si naciste en otro lugar, se aplican las reglas de tu estado de nacimiento, vivas donde vivas.
+
+    **Marcador de sexo**: RSMo 193.215.9 dice que el acta "se enmendará" cuando DHSS reciba una orden judicial certificada que indique que tu sexo "ha sido cambiado mediante procedimiento quirúrgico" y que tu nombre ha sido cambiado. El reglamento estatal (19 CSR 10-10) repite que se requiere orden judicial cuando el "sexo se cambió mediante procedimiento quirúrgico". La ley no contempla una declaración propia ni una carta médica, no hay opción X, y ninguna ley indica a los jueces cómo tramitar esa orden, por lo que la práctica varía según el juez.
+
+    **Solo nombre**: envía una copia certificada de tu sentencia de cambio de nombre, una carta firmada pidiendo a DHSS que la aplique a tu registro de nacimiento y la tarifa de procesamiento de $15. La tarifa no incluye una nueva copia certificada ($15 cada una).
+eligibility:
+  residency:
+    en: You must have been born in Missouri. Where you live now does not matter.
+    es: Debes haber nacido en Misuri. No importa dónde vivas ahora.
+  age:
+    en: Adults request their own amendment. For a minor, a parent or legal guardian applies; a court order for a minor's sex change is not realistic under current law because gender transition surgery is banned for anyone under 18 (RSMo 191.1720).
+    es: Los adultos solicitan su propia enmienda. Para un menor, solicita un padre, madre o tutor legal; una orden judicial de cambio de sexo para un menor no es realista con la ley actual porque la cirugía de transición está prohibida para menores de 18 años (RSMo 191.1720).
+  sources: [rsmo-193-215, csr-19-10-10, rsmo-191-1720]
+forms:
+  - id: MO 580-0641
+    name:
+      en: Application for Missouri Vital Record, Birth/Death (to order certified copies)
+      es: Solicitud de registro vital de Misuri, nacimiento/defunción (para pedir copias certificadas)
+    url: https://health.mo.gov/sites/health/files/media/pdf/2026/04/birthdeath.pdf
+    required: conditional
+    condition:
+      en: Use it to order the new certified copy along with your amendment. Mail-in requests must be notarized and include a self-addressed stamped envelope.
+      es: Úsala para pedir la nueva copia certificada junto con tu enmienda. Las solicitudes por correo deben notarizarse e incluir un sobre con franqueo y tu dirección.
+    how_to_fill:
+      en: |
+        - Write your name as it will read after the amendment in "Full name on certificate" and your prior name under "Also known as."
+        - The form's sex box offers only Female or Male.
+        - Sign in front of a notary if mailing; include $15 per copy.
+      es: |
+        - Escribe tu nombre como quedará después de la enmienda en "Full name on certificate" y tu nombre anterior en "Also known as".
+        - La casilla de sexo solo ofrece Femenino o Masculino.
+        - Firma ante notario si lo envías por correo; incluye $15 por copia.
+    sources: [dhss-application]
+steps:
+  - id: get-order
+    title:
+      en: Get the right court order
+      es: Obtén la orden judicial adecuada
+    body:
+      en: |
+        - **Name only**: your certified name change judgment is enough.
+        - **Sex marker**: you need a certified order from a court "indicating the sex ... has been changed by surgical procedure" and that your name has been changed (RSMo 193.215.9). The order must identify your birth record (full name at birth, date and place of birth) and tell the Bureau which items to change (19 CSR 10-10). Missouri has no standard form for this; talk to a lawyer about asking for this language in your name change judgment or in a separate petition.
+      es: |
+        - **Solo nombre**: basta tu sentencia certificada de cambio de nombre.
+        - **Marcador de sexo**: necesitas una orden certificada de un tribunal "que indique que el sexo ... ha sido cambiado mediante procedimiento quirúrgico" y que tu nombre ha sido cambiado (RSMo 193.215.9). La orden debe identificar tu registro de nacimiento (nombre completo al nacer, fecha y lugar de nacimiento) e indicar a la Oficina qué datos cambiar (19 CSR 10-10). Misuri no tiene un formulario estándar para esto; habla con un abogado sobre pedir ese lenguaje en tu sentencia de cambio de nombre o en una petición aparte.
+    sources: [rsmo-193-215, csr-19-10-10, dhss-amend]
+  - id: mail
+    title:
+      en: Mail the order, a cover letter, and the fees to Vital Records
+      es: Envía por correo la orden, una carta y las tarifas a Registros Vitales
+    body:
+      en: |
+        Send to **Missouri Department of Health and Senior Services, Bureau of Vital Records, 930 Wildwood Drive, Jefferson City, MO 65109**:
+        - A **certified** copy of the court order.
+        - A **signed cover letter** asking that the order be applied to your birth record.
+        - **$15** processing fee for the court-ordered change, plus **$15** for each new certified copy (application MO 580-0641, notarized).
+
+        Questions: 573-751-6387, option 2.
+      es: |
+        Envía a **Missouri Department of Health and Senior Services, Bureau of Vital Records, 930 Wildwood Drive, Jefferson City, MO 65109**:
+        - Una copia **certificada** de la orden judicial.
+        - Una **carta firmada** pidiendo que la orden se aplique a tu registro de nacimiento.
+        - **$15** por procesar el cambio ordenado por el tribunal, más **$15** por cada copia certificada nueva (solicitud MO 580-0641, notarizada).
+
+        Preguntas: 573-751-6387, opción 2.
+    forms: [MO 580-0641]
+    fees: [amendment, certified-copy]
+    applies_to: [by_mail]
+    sources: [dhss-amend, dhss-fees, dhss-application]
+fees:
+  - id: amendment
+    label:
+      en: Processing a court-ordered change to a birth record
+      es: Procesamiento de un cambio ordenado por el tribunal en un acta de nacimiento
+    amount: 15
+    note:
+      en: Does not include a new certified copy.
+      es: No incluye una nueva copia certificada.
+    sources: [dhss-fees]
+  - id: certified-copy
+    label:
+      en: Certified copy of a birth certificate (each)
+      es: Copia certificada del acta de nacimiento (cada una)
+    amount: 15
+    note:
+      en: Local public health agencies can print certified copies, often the same day; VitalChek adds a service charge.
+      es: Las agencias locales de salud pública pueden imprimir copias certificadas, a menudo el mismo día; VitalChek cobra un cargo adicional.
+    sources: [dhss-fees, dhss-faq]
+fee_waiver:
+  available: false
+  sources: [dhss-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Amendments are sent to the Bureau of Vital Records in Jefferson City by mail or delivered in person there.
+    es: Las enmiendas se envían a la Oficina de Registros Vitales en Jefferson City por correo o se entregan en persona allí.
+  sources: [dhss-amend]
+timeline:
+  en: DHSS does not publish a processing time for amendments. Mail-in orders for certified copies take about 4 to 8 weeks.
+  es: DHSS no publica un tiempo de procesamiento para enmiendas. Los pedidos de copias certificadas por correo tardan unas 4 a 8 semanas.
+after:
+  en: Use the new certified copy to update your passport and other records. If your sex marker could not be changed here, you can still update the name everywhere else with your court judgment.
+  es: Usa la nueva copia certificada para actualizar tu pasaporte y otros registros. Si no pudiste cambiar el marcador de sexo aquí, igual puedes actualizar el nombre en todo lo demás con tu sentencia judicial.
+tips:
+  - en: Order two or three certified copies at the same time as your amendment; each costs $15.
+    es: Pide dos o tres copias certificadas al mismo tiempo que tu enmienda; cada una cuesta $15.
+  - en: If you were born in another state, check that state's rules; many allow sex marker changes without surgery.
+    es: Si naciste en otro estado, revisa las reglas de ese estado; muchos permiten cambiar el marcador de sexo sin cirugía.
+statutes:
+  - cite: RSMo 193.215.9
+    title:
+      en: Birth certificate amended on a court order that sex was changed by surgical procedure and name changed
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=193.215
+  - cite: 19 CSR 10-10
+    title:
+      en: Vital records rules, including when a court order is required for corrections
+    url: https://www.sos.mo.gov/cmsimages/adrules/csr/current/19csr/19c10-10.pdf
+related_links:
+  - title: Advocates for Trans Equality, Missouri identity documents
+    url: https://transequality.org/documents/missouri-identity-documents
+    note:
+      en: Last updated December 2025. Says a physician's letter confirming surgery may also be accepted; this guide could not confirm that with DHSS.
+      es: Actualizado en diciembre de 2025. Dice que también podría aceptarse una carta médica que confirme la cirugía; esta guía no pudo confirmarlo con DHSS.
+sources:
+  - id: rsmo-193-215
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=193.215
+    title: RSMo 193.215, amendment of vital records
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Upon receipt of a certified copy of an order of a court of competent jurisdiction indicating the sex of an
+      individual born in this state has been changed by surgical procedure and that such individual's name has been
+      changed, the certificate of birth of such individual shall be amended.
+  - id: csr-19-10-10
+    url: https://www.sos.mo.gov/cmsimages/adrules/csr/current/19csr/19c10-10.pdf
+    title: 19 CSR 10-10, Vital Records
+    publisher: Missouri Secretary of State, Code of State Regulations
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Court order if 1) sex changed by surgical procedure
+  - id: rsmo-191-1720
+    url: https://revisor.mo.gov/main/OneSection.aspx?section=191.1720
+    title: RSMo 191.1720, SAFE Act
+    publisher: Missouri Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dhss-amend
+    url: https://health.mo.gov/vital-records-registries/vital-records/correctamend-vital-record
+    title: Correct/Amend a Vital Record
+    publisher: Missouri Department of Health and Senior Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      When sending in a legal name change court order, the certified copy of the court order is required, along with
+      the statutorily required fee, and a signed cover letter requesting the court order be applied to the applicable
+      record.
+  - id: dhss-fees
+    url: https://health.mo.gov/sites/health/files/media/pdf/2026/04/fee-information.pdf
+    title: Notice of Fees (May 2024)
+    publisher: Missouri Department of Health and Senior Services, Bureau of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: $15.00 - Processing court-ordered change related to birth/fetal death/stillbirth (does not include new certified copy)
+  - id: dhss-application
+    url: https://health.mo.gov/sites/health/files/media/pdf/2026/04/birthdeath.pdf
+    title: Application for Missouri Vital Record, Birth/Death (MO 580-0641)
+    publisher: Missouri Department of Health and Senior Services
+    kind: form
+    accessed: "2026-09-24"
+  - id: dhss-faq
+    url: https://health.mo.gov/vital-records-registries/vital-records/frequently-asked-questions
+    title: Vital Records FAQ
+    publisher: Missouri Department of Health and Senior Services
+    kind: official
+    accessed: "2026-09-24"
