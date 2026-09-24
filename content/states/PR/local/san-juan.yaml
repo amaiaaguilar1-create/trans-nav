@@ -1,0 +1,239 @@
+jurisdiction: PR
+slug: san-juan
+name: San Juan
+area:
+  en: San Juan metropolitan area (San Juan, Guaynabo, Bayamón, Carolina, Trujillo Alto)
+  es: Área metropolitana de San Juan (San Juan, Guaynabo, Bayamón, Carolina, Trujillo Alto)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Starter list, drafted 2026-09-24. The TransSalud address and prices come from its own site. Centro Ararat's San Juan
+    addresses come from its own clinics page, but the trans-specific "Clínica Translucent" name comes only from
+    directories. Centro Comunitario LGBTT de Puerto Rico has only a Facebook page and an old Weebly site with an address
+    (Calle Mayagüez 37, Hato Rey) that may be out of date, so it is listed as unverified. We could not find websites for
+    CAFT (Comité Amigos y Familiares de Trans) or CoRE's trans clinic; they are omitted. Taller Salud (Loíza) is a
+    feminist community health organization, not trans-specific; not listed. There is no Planned Parenthood in Puerto Rico.
+    Court: the San Juan Superior Court is in the Centro Judicial de San Juan, Hato Rey (A4TE gives Ave. Muñoz Rivera esq.
+    Coll y Toste, Parada 37); confirm.
+intro:
+  en: >-
+    The San Juan metro area has most of Puerto Rico's trans-focused services: community clinics offering hormone therapy
+    to adults 21 and older, PrEP and HIV testing, legal aid, and LGBTQ+ organizations. Name change petitions are filed at
+    the Superior Court in the Centro Judicial de San Juan. Remember that Ley 63-2025 bans hormones and surgery for anyone
+    under 21.
+  es: >-
+    El área metropolitana de San Juan concentra la mayoría de los servicios para personas trans en Puerto Rico: clínicas
+    comunitarias que ofrecen terapia hormonal a personas de 21 años o más, PrEP y pruebas de VIH, ayuda legal y
+    organizaciones LGBTQ+. Las peticiones de cambio de nombre se presentan en la Sala Superior del Centro Judicial de San
+    Juan. Recuerda que la Ley 63-2025 prohíbe las hormonas y la cirugía a toda persona menor de 21 años.
+court:
+  name: Tribunal de Primera Instancia, Región Judicial de San Juan, Sala Superior (Centro Judicial de San Juan)
+  url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-de-nombre-ante-el-tribunal/
+  self_help_url: https://poderjudicial.pr/formularios/
+  filing_fee: 78
+  notes:
+    en: File OAT 1896 at the Secretaría (you can swear it there for free) and give a copy to the Fiscalía of the San Juan region the same day. Ask at the courthouse for the Centro Pro Se, which helps people without a lawyer.
+    es: Presenta el OAT 1896 en la Secretaría (puedes juramentarlo allí gratis) y entrega copia a la Fiscalía de la región de San Juan el mismo día. Pregunta en el tribunal por el Centro Pro Se, que orienta a quienes no tienen abogado.
+  sources: [pj-cambio-nombre, pj-aranceles]
+resources:
+  - id: transsalud
+    name: Clínica TransSalud
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+ primary care clinic with hormone therapy for adults, PrEP, free HIV testing, and telemedicine follow-up. Posted prices ($80 first virtual visit, $99 basic hormone labs) and a membership for uninsured patients.
+      es: Clínica de cuidado primario LGBTQ+ con terapia hormonal para adultos, PrEP, pruebas de VIH gratis y seguimiento por telemedicina. Precios publicados ($80 primera visita virtual, $99 laboratorios básicos) y membresía para pacientes sin plan.
+    url: https://transsalud.org/
+    address: Carr. 21 U3-2, Las Lomas, San Juan, PR 00921
+    cost: paid
+    accepts_uninsured: true
+    telehealth: true
+    languages: [Español]
+    verification: org_website
+    sources: [transsalud]
+  - id: ararat-anexo
+    name: Centro Ararat, Anexo San Juan
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Nonprofit clinic focused on HIV, sexual health, and PrEP, with mental health integrated into primary care. The annex is listed in directories as "Clínica Translucent" for trans care; call to confirm hormone services.
+      es: Clínica sin fines de lucro enfocada en VIH, salud sexual y PrEP, con salud mental integrada al cuidado primario. El anexo aparece en directorios como "Clínica Translucent" para atención trans; llama para confirmar servicios de hormonas.
+    url: https://centroararat.org/centro-ararat-clinics/
+    phone: "787-296-8888"
+    address: 700 Calle Dr. Manuel F. Pavía esq. Ave. Fernández Juncos, Edificio Europa, Suite 301, San Juan, PR 00909
+    cost: varies
+    languages: [Español, English]
+    verification: community_reported
+    sources: [ararat]
+  - id: ararat-sexual-health
+    name: Centro Ararat, Clínica de Salud Sexual
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: PrEP appointments, STI testing, and free rapid HIV tests (by mail or pickup at the clinic). Main San Juan clinic at Condominio Asia.
+      es: Citas de PrEP, pruebas de ITS y pruebas rápidas de VIH gratis (por correo o recogido en la clínica). Clínica principal de San Juan en el Condominio Asia.
+    url: https://centroararat.org/clinica-de-salud-sexual/
+    phone: "787-296-8888"
+    address: 1503 Calle Prof. Augusto Rodríguez, Condominio Asia, Suite 600, San Juan, PR 00909
+    cost: varies
+    verification: org_website
+    sources: [ararat, ararat-home]
+  - id: upr-clinica-legal
+    name: Clínica de Asistencia Legal, Escuela de Derecho UPR
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal advice and representation by supervised law students in Río Piedras, including a notary clinic.
+      es: Asesoría y representación legal gratuita por estudiantes de Derecho supervisados en Río Piedras, incluida una clínica de notaría.
+    url: https://academiacomun.uprrp.edu/unidadeseiniciativas/clinica-de-asistencia-legal/
+    address: Ave. Universitaria Ste 701, San Juan, PR 00925
+    cost: free
+    languages: [Español]
+    verification: org_website
+    sources: [upr-clinica]
+  - id: slpr
+    name: Servicios Legales de Puerto Rico
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal aid for low-income people. Central intake (787) 728-5070 or 1-800-981-5342.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos. Entrevistas centrales (787) 728-5070 o 1-800-981-5342.
+    url: https://www.servicioslegales.org/
+    phone: "787-728-5070"
+    cost: free
+    verification: community_reported
+    sources: [slpr]
+  - id: true-self
+    name: True Self Foundation (Embrace)
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: Guaynabo-based LGBTQ+ nonprofit. Its "Embrace" program supports legal name changes for trans, queer, and nonbinary people living in Puerto Rico; it has also offered partial surgery grants.
+      es: Organización LGBTQ+ con sede en Guaynabo. Su programa "Embrace" apoya el cambio legal de nombre de personas trans, cuir y no binarias que viven en Puerto Rico; también ha ofrecido becas parciales para cirugías.
+    url: https://www.trueselffoundation.org/
+    cost: free
+    languages: [Español, English]
+    verification: community_reported
+    sources: [true-self, recursos-trans]
+  - id: centro-lgbtt
+    name: Centro Comunitario LGBTT de Puerto Rico
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Community center offering psychosocial support, counseling, and guidance for LGBTT people. Contact details could not be confirmed; check its Facebook page first.
+      es: Centro de servicios psicosociales, consejería y orientación para personas LGBTT. No pudimos confirmar sus datos de contacto; revisa primero su página de Facebook.
+    url: https://www.facebook.com/Centro.LGBTT.PR/
+    cost: free
+    languages: [Español]
+    verification: unverified
+    sources: [centro-lgbtt-fb]
+  - id: salud-vih-line
+    name: Departamento de Salud, línea de VIH/ETS
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Department of Health line for HIV and STI testing and treatment services, (787) 765-1010.
+      es: Línea del Departamento de Salud sobre pruebas y tratamiento de VIH y ETS, (787) 765-1010.
+    url: https://www.salud.pr.gov/CMS/38
+    phone: "787-765-1010"
+    cost: free
+    verification: official_source
+    sources: [salud-servicios]
+  - id: linea-pas
+    name: Línea PAS (ASSMCA)
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: 24-hour mental health and crisis line, 1-800-981-0023. You can also call or text 988.
+      es: Línea de salud mental y crisis, 24 horas, 1-800-981-0023. También puedes llamar o enviar texto al 988.
+    url: https://www.salud.pr.gov/CMS/38
+    phone: "1-800-981-0023"
+    cost: free
+    verification: official_source
+    sources: [salud-servicios]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: pj-cambio-nombre
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-de-nombre-ante-el-tribunal/
+    title: Cambio de nombre ante el Tribunal
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+  - id: pj-aranceles
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/sistema-de-gobierno-y-tribunales/aranceles/
+    title: Aranceles
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+  - id: transsalud
+    url: https://transsalud.org/
+    title: TransSalud Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+  - id: ararat
+    url: https://centroararat.org/centro-ararat-clinics/
+    title: Centro Ararat Clinics
+    publisher: Centro Ararat
+    kind: org
+    accessed: "2026-09-24"
+  - id: ararat-home
+    url: https://centroararat.org/
+    title: Centro Ararat
+    kind: org
+    accessed: "2026-09-24"
+    quote: Coordina llamada para agendar cita inicial de PrEP
+  - id: upr-clinica
+    url: https://academiacomun.uprrp.edu/unidadeseiniciativas/clinica-de-asistencia-legal/
+    title: Clínica de Asistencia Legal
+    publisher: Universidad de Puerto Rico, Recinto de Río Piedras
+    kind: org
+    accessed: "2026-09-24"
+  - id: slpr
+    url: https://www.servicioslegales.org/
+    title: Servicios Legales de Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+  - id: true-self
+    url: https://www.trueselffoundation.org/
+    title: True Self Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: recursos-trans
+    url: https://recursostrans.org/docs/paises/puerto-rico/contactos/
+    title: Contactos, Puerto Rico
+    publisher: Recursos Trans
+    kind: community
+    accessed: "2026-09-24"
+  - id: centro-lgbtt-fb
+    url: https://www.facebook.com/Centro.LGBTT.PR/
+    title: Centro Comunitario LGBTT de Puerto Rico (Facebook)
+    kind: community
+    accessed: "2026-09-24"
+  - id: salud-servicios
+    url: https://www.salud.pr.gov/CMS/38
+    title: Programas de Salud
+    publisher: Departamento de Salud de Puerto Rico
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

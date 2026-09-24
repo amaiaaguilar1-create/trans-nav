@@ -1,0 +1,143 @@
+code: PR
+name:
+  en: Puerto Rico
+  es: Puerto Rico
+kind: territory
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate: ID documents marked mixed because F/M changes are available by clinician letter on the license and birth
+    certificate, but there is no X option (the First Circuit reversed the X ruling on 2026-09-03) and RCC 185 (in committee)
+    would push agencies to use only "biological sex". Care marked restrictive because of Ley 63-2025 (ban under 21,
+    public funds bar). No shield law. Spanish is the primary language; Spanish text was drafted first and should be
+    reviewed by a native Puerto Rican Spanish speaker.
+overview:
+  en: >-
+    Puerto Rico lets people born there change the gender on their birth certificate to F or M without a court order,
+    and anyone with a Puerto Rico license can update its gender with a clinician's signature. There is no X option.
+    Name changes go through the Tribunal de Primera Instancia (or a notary) with no newspaper publication. **Ley
+    63-2025 bans hormones and gender-affirming surgery for everyone under 21** and bars public funds from paying for it.
+    Care is legal for adults 21 and older.
+  es: >-
+    Puerto Rico permite a las personas nacidas allí cambiar el género en su certificado de nacimiento a F o M sin orden
+    judicial, y cualquier persona con licencia de Puerto Rico puede actualizar su género con la firma de un profesional
+    clínico. No hay opción X. Los cambios de nombre se tramitan en el Tribunal de Primera Instancia (o ante notario) sin
+    publicación en periódicos. **La Ley 63-2025 prohíbe las hormonas y la cirugía de afirmación de género para toda
+    persona menor de 21 años** y prohíbe usar fondos públicos para pagarlas. La atención es legal para personas de 21
+    años o más.
+climate:
+  id_documents: mixed
+  care: restrictive
+  shield_law: false
+  sources: [pj-genero, dis-324, ley-63-2025, lambda-first-circuit, map-pr]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [san-juan]
+key_resources:
+  - id: slpr
+    name: Servicios Legales de Puerto Rico
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal aid for low-income people in every region of Puerto Rico. Central intake (787) 728-5070 or 1-800-981-5342.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en todas las regiones de Puerto Rico. Entrevistas centrales (787) 728-5070 o 1-800-981-5342.
+    url: https://www.servicioslegales.org/
+    phone: "787-728-5070"
+    cost: free
+    languages: [Español, English]
+    verification: community_reported
+    sources: [slpr]
+  - id: aclu-pr
+    name: ACLU de Puerto Rico
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Tracks and challenges anti-trans laws in Puerto Rico, including Ley 63-2025, and supports the X-marker case.
+      es: Vigila e impugna leyes contra personas trans en Puerto Rico, incluida la Ley 63-2025, y apoya el caso de la marca X.
+    url: https://www.aclu-pr.org/
+    cost: free
+    languages: [Español, English]
+    verification: org_website
+    sources: [aclu-pr]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860, with Spanish-speaking operators.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860, con operadores que hablan español.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+  - id: linea-pas
+    name: Línea PAS (ASSMCA)
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Puerto Rico's 24-hour mental health and crisis line, 1-800-981-0023.
+      es: Línea de salud mental y crisis de Puerto Rico, 24 horas, 1-800-981-0023.
+    url: https://www.salud.pr.gov/CMS/38
+    phone: "1-800-981-0023"
+    cost: free
+    languages: [Español, English]
+    verification: official_source
+    sources: [salud-servicios]
+sources:
+  - id: pj-genero
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-del-identificador-de-genero-en-el-certificado-de-nacimiento/
+    title: Cambio del identificador de género en el Certificado de Nacimiento
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+  - id: dis-324
+    url: https://docs.pr.gov/files/cesco/Documentos%20Esenciales/Folmularios%2026%20junio%20de%202026/DTOP-DIS-324%20SOLICITUD%20PARA%20EL%20CAMBIO%20DE%20GENERO%20POR%20PERSONAS%20TRANSGENERO%20%20rev.%2018may2025%20%20borrador.pdf
+    title: DTOP-DIS-324, Solicitud para el cambio de género de personas transgénero
+    publisher: Departamento de Transportación y Obras Públicas
+    kind: form
+    accessed: "2026-09-24"
+  - id: ley-63-2025
+    url: https://www.lexjuris.com/lexlex/Leyes2025/lexl2025063.htm
+    title: Ley Núm. 63 de 2025
+    publisher: LexJuris de Puerto Rico
+    kind: statute
+    accessed: "2026-09-24"
+  - id: lambda-first-circuit
+    url: https://lambdalegal.org/newsroom/de-la-fuentes-diaz_pr_20260903_ll-disappointed-by-the-first-circuit-decision-on-birth-certificate-case/
+    title: Lambda Legal statement on the First Circuit decision in De la Fuente Díaz
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-pr
+    url: https://www.mapresearch.org/equality_maps/profile_state/PR
+    title: Puerto Rico's equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: slpr
+    url: https://www.servicioslegales.org/
+    title: Servicios Legales de Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-pr
+    url: https://www.aclu-pr.org/
+    title: ACLU de Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: salud-servicios
+    url: https://www.salud.pr.gov/CMS/38
+    title: Programas de Salud
+    publisher: Departamento de Salud de Puerto Rico
+    kind: official
+    accessed: "2026-09-24"

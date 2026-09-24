@@ -1,0 +1,257 @@
+guide_type: birth_certificate
+jurisdiction: PR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The two routes (administrative at the Registro Demográfico, or in court) and the $20 stamp come from the Poder
+    Judicial's education page, read 2026-09-24. The administrative form text comes from the 2018 version that Lambda
+    Legal published ("Solicitud para el cambio de género en los certificados de eventos vitales"). We could not find a
+    current copy on a Department of Health site: salud.pr.gov has no Registro Demográfico forms page, and the online
+    certificate order page (gobiernodigital.pr.gov) runs only in JavaScript and could not be read. The reviewer should get
+    the current form and mailing address from the Registro Demográfico, (787) 765-2929. Certified copy prices ($5 first,
+    $12 each additional) come from A4TE's undated page and are not confirmed. X marker: the federal district court
+    ordered it on May 30, 2025 (De la Fuente Díaz v. González Colón), but the First Circuit reversed on 2026-09-03 and
+    sent the case back; Lambda Legal says the case continues. As of today the Registro offers only F and M. Also flag:
+    the 2020 Civil Code (Art. 694) has a sex-annotation provision that Lambda Legal said in 2020 conflicts with the Arroyo
+    injunction; the court and Registro still apply the Arroyo procedure.
+status: available
+requirement_type: provider_letter_any
+markers_available: [F, M]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in Puerto Rico, you can get a birth certificate showing female or male without going to court.
+    File the Registro Demográfico's gender change form with a license or passport that already shows the change, or a
+    signed certificate from a health or behavioral health professional, plus a $20 stamp. An X marker is not available
+    right now. Changing the name requires a court (or notary) order.
+  es: >-
+    Si naciste en Puerto Rico, puedes obtener un certificado de nacimiento con femenino o masculino sin ir al tribunal.
+    Presenta en el Registro Demográfico el formulario de cambio de género con una licencia o pasaporte que ya refleje el
+    cambio, o una certificación firmada por un profesional de la salud o de la conducta, y un sello de $20. La marca X no
+    está disponible en este momento. Cambiar el nombre requiere una orden del tribunal (o de un notario).
+summary:
+  en: |
+    Until 2018 Puerto Rico did not allow any change to the sex on a birth certificate. In **Arroyo González v. Rosselló Nevares** (D.P.R., April 2018), a federal court struck down that ban. It ordered the Registro Demográfico to issue a **new birth certificate** with the correct gender, **without strike-outs or anything that reveals the change**. The Registro started accepting requests in July 2018.
+
+    Today there are two ways to do it:
+    - **Administrative (most people)**: at a Registro Demográfico office, file the form "Solicitud para el cambio de género en los certificados de eventos vitales". Attach **one** of: a current driver's license showing your gender, a current passport showing your gender, or the certificate on the form signed by a health or behavioral health professional who treats you. Add $20 in internal revenue stamps. No lawyer, notary, or judge is needed.
+    - **Court**: ask for it in a name change petition (form OAT 1896) or in a petition only for the gender identifier, under Article 694 of the Civil Code. Then take the certified resolution to the Registro.
+
+    Only **F** and **M** are available. Only people **born in Puerto Rico** can use this. If you were born in another state or country, contact that place's vital records office.
+  es: |
+    Hasta 2018 Puerto Rico no permitía cambiar el sexo en el certificado de nacimiento. En **Arroyo González v. Rosselló Nevares** (Tribunal federal de Puerto Rico, abril de 2018), un tribunal federal anuló esa prohibición. Ordenó al Registro Demográfico emitir un **certificado de nacimiento nuevo** con el género correcto, **sin tachaduras ni nada que revele el cambio**. El Registro comenzó a aceptar solicitudes en julio de 2018.
+
+    Hoy hay dos maneras:
+    - **Administrativa (la mayoría)**: en una oficina del Registro Demográfico, presenta el formulario "Solicitud para el cambio de género en los certificados de eventos vitales". Incluye **uno** de estos: licencia de conducir vigente con tu género, pasaporte vigente con tu género, o la certificación del formulario firmada por un profesional de la salud o de la conducta que te atienda. Añade $20 en sellos de Rentas Internas. No necesitas abogado, notario ni juez.
+    - **Tribunal**: pídelo en una petición de cambio de nombre (formulario OAT 1896) o en una petición solo del identificador de género, bajo el Artículo 694 del Código Civil. Luego lleva la resolución certificada al Registro.
+
+    Solo están disponibles **F** y **M**. Solo pueden usar este trámite las personas **nacidas en Puerto Rico**. Si naciste en otro estado o país, comunícate con la oficina de registros vitales de ese lugar.
+eligibility:
+  residency:
+    en: You must have been born in Puerto Rico. Where you live now does not matter.
+    es: Debes haber nacido en Puerto Rico. No importa dónde vivas ahora.
+  age:
+    en: The form is signed by the person whose certificate it is. We could not confirm the procedure for minors.
+    es: El formulario lo firma la persona titular del certificado. No pudimos confirmar el procedimiento para menores.
+  sources: [pj-genero, solicitud-genero]
+forms:
+  - id: Solicitud cambio de género
+    name:
+      en: Request for gender change on vital records certificates (Registro Demográfico)
+      es: Solicitud para el cambio de género en los certificados de eventos vitales
+    url: https://lambdalegal.org/wp-content/uploads/2018/07/arroyo_pr_20180718_solicitud-para-el-cambio-de-genero.pdf
+    required: conditional
+    condition:
+      en: For the administrative route. This link is the 2018 version published by Lambda Legal; ask the Registro for the current copy.
+      es: Para la vía administrativa. Este enlace es la versión de 2018 publicada por Lambda Legal; pide la copia vigente en el Registro.
+    how_to_fill:
+      en: |
+        - **Part A**: your name as on your current certificate, the ID you are presenting, and your addresses. Check Femenino or Masculino. Sign the statement, under penalty of perjury, that the request is only so your certificate matches the gender you identify with.
+        - **Part B**: only if you are not bringing a license or passport that shows the change. A psychologist, therapist, social worker, physician, case manager, or counselor who treats you writes their license number, checks F or M, and signs.
+      es: |
+        - **Parte A**: tu nombre como aparece en tu certificado actual, la identificación que presentas y tus direcciones. Marca Femenino o Masculino. Firma la declaración bajo pena de perjurio de que la solicitud es solo para que tu certificado coincida con el género con el que te identificas.
+        - **Parte B**: solo si no llevas licencia o pasaporte con el cambio. Un psicólogo, terapeuta, trabajador social, médico, manejador de casos o consejero que te atienda escribe su número de licencia, marca F o M y firma.
+    sources: [solicitud-genero, pj-genero]
+  - id: OAT 1896
+    name:
+      en: Court petition for change of name, surname, and/or gender identifier
+      es: Petición de cambio de nombre, apellido y/o identificador de género
+    url: https://poderjudicial.pr/documentos/formularios/OAT-1896-Peticion-de-Cambio-de-Nombre-o-Apellido.pdf
+    required: conditional
+    condition:
+      en: Only for the court route, or if you are also changing your name. See the name change guide.
+      es: Solo para la vía judicial o si también cambias el nombre. Mira la guía de cambio de nombre.
+    sources: [pj-genero]
+steps:
+  - id: support-doc
+    title:
+      en: Get one supporting document
+      es: Consigue un documento de apoyo
+    body:
+      en: A current Puerto Rico license or ID showing your gender (see the driver's license guide), a current passport showing your gender, or Part B of the form signed by your clinician.
+      es: Una licencia o identificación vigente de Puerto Rico con tu género (mira la guía de licencia), un pasaporte vigente con tu género, o la Parte B del formulario firmada por tu profesional clínico.
+    forms: [Solicitud cambio de género]
+    applies_to: [gender_marker]
+    sources: [pj-genero, solicitud-genero]
+  - id: file-registro
+    title:
+      en: File the form at the Registro Demográfico with a $20 stamp
+      es: Presenta el formulario en el Registro Demográfico con un sello de $20
+    body:
+      en: Take the completed form, your supporting document, a photo ID, and $20 in internal revenue stamps to a Registro Demográfico office. Ask by phone first which offices handle gender changes; in 2018 it was the central office.
+      es: Lleva el formulario completado, tu documento de apoyo, una identificación con foto y $20 en sellos de Rentas Internas a una oficina del Registro Demográfico. Llama antes para saber qué oficinas atienden cambios de género; en 2018 era la oficina central.
+    forms: [Solicitud cambio de género]
+    fees: [gender-change]
+    applies_to: [gender_marker, in_person]
+    sources: [pj-genero, lambda-2018]
+  - id: name-court
+    title:
+      en: To change the name, get a court resolution first
+      es: Para cambiar el nombre, obtén primero la resolución del tribunal
+    body:
+      en: The Registro changes a name only on a court or notary order. You can ask for the name and gender identifier together on OAT 1896, then bring the certified resolution to the Registro.
+      es: El Registro solo cambia el nombre con una orden del tribunal o de un notario. Puedes pedir nombre e identificador de género juntos en el OAT 1896 y luego llevar la resolución certificada al Registro.
+    forms: [OAT 1896]
+    applies_to: [name_change]
+    optional: true
+    sources: [pj-genero, ley-24-1931]
+  - id: verify
+    title:
+      en: Order a new certificate and check it
+      es: Pide un certificado nuevo y revísalo
+    body:
+      en: Order a certified copy and check that the gender (and name, if changed) are correct and that nothing reveals the change.
+      es: Pide una copia certificada y verifica que el género (y el nombre, si cambió) estén correctos y que nada revele el cambio.
+    fees: [copy]
+    sources: [pj-genero, arroyo-order]
+fees:
+  - id: gender-change
+    label:
+      en: Gender change request (internal revenue stamps)
+      es: Solicitud de cambio de género (sellos de Rentas Internas)
+    amount: 20
+    sources: [pj-genero]
+  - id: copy
+    label:
+      en: Certified copy of the birth certificate
+      es: Copia certificada del certificado de nacimiento
+    note:
+      en: A4TE lists $5 for the first copy and $12 for each additional copy. Not confirmed with the Registro.
+      es: A4TE indica $5 por la primera copia y $12 por cada copia adicional. No confirmado con el Registro.
+    sources: [a4te-pr]
+delivery:
+  in_person: true
+  detail:
+    en: The court's page describes the administrative route as done in person at a Registro office. A4TE describes a mail option; not confirmed.
+    es: La página del tribunal describe la vía administrativa como un trámite en persona en una oficina del Registro. A4TE describe una opción por correo; no confirmado.
+  sources: [pj-genero, a4te-pr]
+timeline:
+  en: Not published. Ask the Registro when you file.
+  es: No publicado. Pregunta en el Registro al presentar.
+after:
+  en: |
+    With your new birth certificate you can update records that ask for it, such as the Comisión Estatal de Elecciones, schools, and employers. For REAL ID, CESCO wants the post-2010 Puerto Rico certificate. The U.S. passport and Social Security record currently cannot change the sex marker; you can still update your name on them.
+  es: |
+    Con tu certificado nuevo puedes actualizar los récords que lo piden, como la Comisión Estatal de Elecciones, escuelas y patronos. Para REAL ID, el CESCO pide el certificado de Puerto Rico emitido después de 2010. El pasaporte de EE. UU. y el récord del Seguro Social actualmente no permiten cambiar el marcador de sexo; sí puedes actualizar tu nombre en ellos.
+tips:
+  - en: Change your driver's license first (a clinician can sign that form too), then use the license as your supporting document at the Registro.
+    es: Cambia primero tu licencia (un profesional clínico también puede firmar ese formulario) y luego usa la licencia como documento de apoyo en el Registro.
+  - en: If the new certificate shows a strike-out, a note, or anything revealing the change, the Arroyo court order says it should not. Contact Lambda Legal's Help Desk or the ACLU de Puerto Rico.
+    es: Si el certificado nuevo muestra tachaduras, notas o cualquier señal del cambio, la orden del caso Arroyo dice que no debe. Comunícate con el Help Desk de Lambda Legal o con la ACLU de Puerto Rico.
+statutes:
+  - cite: Ley Núm. 24 de 22 de abril de 1931 (24 LPRA § 1231)
+    title:
+      en: Registro Demográfico law; amendments to certificates and name changes
+      es: Ley del Registro Demográfico; enmiendas a certificados y cambios de nombre
+    url: https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Salud/24-1931/24-1931.pdf
+litigation:
+  - case: Arroyo González v. Rosselló Nevares, 305 F. Supp. 3d 327 (D.P.R. 2018)
+    court: U.S. District Court for the District of Puerto Rico
+    summary:
+      en: Struck down Puerto Rico's ban on changing the gender marker on birth certificates and ordered new certificates with no marks showing the change. The government did not appeal.
+      es: Anuló la prohibición de cambiar el marcador de género en el certificado de nacimiento y ordenó certificados nuevos sin marcas que muestren el cambio. El gobierno no apeló.
+    effect_today:
+      en: This permanent order is why F/M changes are available today.
+      es: Esta orden permanente es la razón por la que hoy se pueden hacer cambios a F o M.
+    last_update: "2018-07-16"
+    url: https://lambdalegal.org/case/pr_arroyo-v-rossello/
+    sources: [arroyo-order, lambda-2018]
+  - case: De la Fuente Díaz v. González Colón
+    court: U.S. Court of Appeals for the First Circuit (on appeal from D.P.R.)
+    summary:
+      en: Six nonbinary people born in Puerto Rico sued for an X marker. The district court ruled for them on May 30, 2025. On September 3, 2026 the First Circuit reversed that ruling under rational-basis review and sent the case back to decide whether a stricter standard applies.
+      es: Seis personas no binarias nacidas en Puerto Rico demandaron para obtener la marca X. El tribunal de distrito les dio la razón el 30 de mayo de 2025. El 3 de septiembre de 2026 el Primer Circuito revocó ese fallo bajo el escrutinio de base racional y devolvió el caso para decidir si aplica un estándar más riguroso.
+    effect_today:
+      en: No X marker is available now. F and M changes are not affected.
+      es: No hay marca X disponible ahora. Los cambios a F y M no se afectan.
+    last_update: "2026-09-03"
+    url: https://lambdalegal.org/case/de-la-fuente-diaz-v-gonzalez-colon/
+    sources: [lambda-first-circuit, lambda-dlf-case]
+related_links:
+  - title: Advocates for Trans Equality, Puerto Rico identity documents
+    url: https://transequality.org/documents/puerto-rico-identity-documents
+    note:
+      en: Undated; cites Department of Health Circular Letter 3-18.
+      es: Sin fecha; cita la Carta Circular 3-18 del Departamento de Salud.
+  - title: Poder Judicial, Cambio del identificador de género en el Certificado de Nacimiento
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-del-identificador-de-genero-en-el-certificado-de-nacimiento/
+sources:
+  - id: pj-genero
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-del-identificador-de-genero-en-el-certificado-de-nacimiento/
+    title: Cambio del identificador de género en el Certificado de Nacimiento
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+    quote: >-
+      El proceso ante el Registro Demográfico es un proceso administrativo que se realiza en una de sus oficinas. No
+      requiere intervención de abogados(as), ni de notarios(as) o del Tribunal... Sellos de Rentas Internas por la cantidad
+      de $20.00
+  - id: solicitud-genero
+    url: https://lambdalegal.org/wp-content/uploads/2018/07/arroyo_pr_20180718_solicitud-para-el-cambio-de-genero.pdf
+    title: Solicitud para el cambio de género en los certificados de eventos vitales (2018)
+    publisher: Registro Demográfico (copy published by Lambda Legal)
+    kind: form
+    accessed: "2026-09-24"
+  - id: lambda-2018
+    url: https://lambdalegal.org/newsroom/pr_20180716_pr-allows-birth-cert-updates/
+    title: Puerto Rico Begins Allowing Transgender People to Change Their Birth Certificates
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: arroyo-order
+    url: https://lambdalegal.org/legal_document/pr_arroyo_20180420_opinion-and-order/
+    title: Arroyo González v. Rosselló Nevares, Opinion and Order (D.P.R. Apr. 20, 2018)
+    publisher: Lambda Legal
+    kind: court
+    accessed: "2026-09-24"
+  - id: lambda-first-circuit
+    url: https://lambdalegal.org/newsroom/de-la-fuentes-diaz_pr_20260903_ll-disappointed-by-the-first-circuit-decision-on-birth-certificate-case/
+    title: "Lambda Legal: Disappointed by the First Circuit's Decision on Puerto Rico's Birth Certificate Case for Nonbinary People"
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+    quote: >-
+      This decision does not affect the earned rights of transgender Puerto Ricans who identify as male or female to
+      correct their birth certificates.
+  - id: lambda-dlf-case
+    url: https://lambdalegal.org/case/de-la-fuente-diaz-v-gonzalez-colon/
+    title: De la Fuente Díaz v. González Colón (case page)
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: ley-24-1931
+    url: https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Salud/24-1931/24-1931.pdf
+    title: Ley del Registro Demográfico de Puerto Rico (Ley 24-1931), consolidated text
+    publisher: Oficina de Gerencia y Presupuesto
+    kind: statute
+    accessed: "2026-09-24"
+  - id: a4te-pr
+    url: https://transequality.org/documents/puerto-rico-identity-documents
+    title: Puerto Rico Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

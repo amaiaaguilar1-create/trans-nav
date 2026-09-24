@@ -1,0 +1,419 @@
+guide_type: name_change
+jurisdiction: PR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from primary sources. The statute (Ley 24-1931, Art. 31, 24 LPRA § 1231) was read in the OGP
+    consolidated text (rev. April 16, 2024). The process, required documents, OAT 1896 form (rev. June 2024), and certified
+    copy costs come from the Poder Judicial's own pages. The $78 filing fee comes from the court's aranceles page, which
+    describes the ER-2015-1 fee schedule in effect since August 30, 2015; the reviewer should confirm no later change.
+    A4TE's Puerto Rico page still says $75, which looks out of date. Open items: (1) the court page says only people
+    **born in Puerto Rico** can use this court procedure. We could not confirm what a PR resident born in a state
+    should do (probably petition in the state of birth, or use a federal document route); please confirm. (2) We could
+    not confirm the procedure for minors (the OAT 1896 form assumes an adult petitioner; the age of majority in PR is 21).
+    (3) We found no procedure for sealing name change records. (4) The notary route (Ley 282-1999) was not checked
+    against the statute text; fees for notaries vary. (5) CAFT, Centro Comunitario LGBTT de PR, and Clínica de Salud
+    Trans/CoRE websites could not be located or loaded; they are not listed here. (6) servicioslegales.org blocks automated
+    access (Cloudflare 403); its intake phone numbers come from ayudalegalpr.org search snippets.
+status: available
+status_summary:
+  en: >-
+    If you were born in Puerto Rico, you can change your name, and your gender marker (F or M) at the same time, by
+    filing a sworn ex parte petition (form OAT 1896) in the Superior Court of the Tribunal de Primera Instancia. There is
+    no newspaper publication. A hearing happens only if the prosecutor objects or the judge asks for one. The filing
+    fee is $78 unless the court waives it.
+  es: >-
+    Si naciste en Puerto Rico, puedes cambiar tu nombre, y al mismo tiempo tu identificador de género (F o M),
+    presentando una petición ex parte juramentada (formulario OAT 1896) en la Sala Superior del Tribunal de Primera
+    Instancia. No hay publicación en periódicos. Solo hay vista si el Ministerio Público objeta o si el juez o la jueza
+    la ordena. El arancel de presentación es de $78, salvo que el tribunal te exima del pago.
+summary:
+  en: |
+    Puerto Rico handles name changes under **Article 31 of the Ley del Registro Demográfico (Ley 24 of 1931, 24 LPRA § 1231)**. You file a sworn petition explaining why you want the change, with supporting documents, at a Superior Court of the Tribunal de Primera Instancia. The same day, you give a copy of everything to the prosecutor (Ministerio Público). If the prosecutor does not object within 10 days, the judge decides, usually on the papers alone, and the court says the change is "ordinarily granted".
+
+    Since June 2024, the court's form **OAT 1896** also lets you ask for a change of the **gender identifier** on your birth certificate (female or male) in the same petition, under Article 694 of the 2020 Civil Code. You can also change the gender marker without going to court, directly at the Registro Demográfico; see the birth certificate guide.
+
+    There is a second route: a **notary** (abogado notario) can process a name change as a non-contested matter under Ley 282-1999. Notaries charge their own fees.
+
+    **Important limit**: the court describes this procedure as available to people **born in Puerto Rico** and recorded in the Registro Demográfico, because the order is carried out on your Puerto Rico birth record.
+  es: |
+    Puerto Rico tramita los cambios de nombre bajo el **Artículo 31 de la Ley del Registro Demográfico (Ley 24 de 1931, 24 LPRA § 1231)**. Presentas una petición juramentada en la que explicas por qué quieres el cambio, con documentos de apoyo, en una Sala Superior del Tribunal de Primera Instancia. Ese mismo día entregas copia de todo al Ministerio Público (fiscalía). Si la fiscalía no objeta en 10 días, el juez o la jueza decide, normalmente solo con los documentos, y según el propio tribunal el cambio "de ordinario se concede".
+
+    Desde junio de 2024, el formulario **OAT 1896** del tribunal también te permite pedir en la misma petición el cambio del **identificador de género** en tu certificado de nacimiento (femenino o masculino), conforme al Artículo 694 del Código Civil de 2020. También puedes cambiar el marcador de género sin ir al tribunal, directamente en el Registro Demográfico; mira la guía del certificado de nacimiento.
+
+    Hay una segunda vía: un **abogado notario o abogada notaria** puede tramitar el cambio de nombre como asunto no contencioso bajo la Ley 282-1999. Los notarios cobran sus propios honorarios.
+
+    **Límite importante**: el tribunal indica que este procedimiento es para personas **nacidas en Puerto Rico** e inscritas en el Registro Demográfico, porque la orden se anota en tu acta de nacimiento puertorriqueña.
+eligibility:
+  residency:
+    en: >-
+      File at the Superior Court of the Tribunal de Primera Instancia (the form asks for the town where you live). The
+      statute allows filing in any court part. The court describes the procedure as available to people born in Puerto
+      Rico and recorded in the Registro Demográfico.
+    es: >-
+      Presenta la petición en la Sala Superior del Tribunal de Primera Instancia (el formulario pide el pueblo donde
+      resides). La ley permite presentarla en cualquier sala. El tribunal indica que el procedimiento es para personas
+      nacidas en Puerto Rico e inscritas en el Registro Demográfico.
+  age:
+    en: >-
+      Form OAT 1896 is written for adults. In Puerto Rico the age of majority is 21. See the Minors section.
+    es: >-
+      El formulario OAT 1896 está redactado para personas mayores de edad. En Puerto Rico la mayoría de edad es a los
+      21 años. Mira la sección de menores.
+  criminal_history:
+    en: >-
+      You must attach a Certificado de Antecedentes Penales (criminal record certificate), plus one from any other
+      jurisdiction where you lived. The petition also states that no civil, administrative, or criminal case is pending
+      against you. A record does not automatically bar a name change, but the judge may ask for more information.
+    es: >-
+      Debes incluir un Certificado de Antecedentes Penales, y además uno de cualquier otra jurisdicción donde hayas
+      residido. La petición también afirma que no tienes casos civiles, administrativos ni criminales pendientes. Tener
+      antecedentes no impide automáticamente el cambio, pero el juez o la jueza puede pedir más información.
+  sources: [pj-cambio-nombre, oat-1896]
+forms:
+  - id: OAT 1896
+    name:
+      en: Petition for Change of Name, Surname, and/or Gender Identifier
+      es: Petición de cambio de nombre, apellido y/o identificador de género
+    url: https://poderjudicial.pr/documentos/formularios/OAT-1896-Peticion-de-Cambio-de-Nombre-o-Apellido.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Item 1**: sex choices on the form are woman, man, intersex, "I identify as", or "prefer not to say". Choose what fits you.
+        - **Item 2**: write your name exactly as it appears on your birth certificate, plus the name you are known by.
+        - **Item 3**: the new name you want. Surnames can only be corrected or reordered, not replaced.
+        - **Item 4** (optional): check it if you also want your birth certificate to show female or male. Attach **one** of: a passport or driver's license that already shows the change, or a certificate from a health or behavioral health professional who treats you.
+        - **Item 5 (reasons)**: the form has ready-made checkboxes, including "assumed a gender identity different from the one associated with my legal name". You do not need to explain more.
+        - The form includes the sworn statement (declaración jurada). You can swear it for free in front of the court clerk (Secretaría) when you file.
+        - The form also has a section to certify that you delivered a copy to the Ministerio Público.
+      es: |
+        - **Punto 1**: las opciones de sexo son mujer, hombre, intersexo, "me identifico como" o "prefiero no informar". Escoge la que te corresponda.
+        - **Punto 2**: escribe tu nombre tal como aparece en tu certificado de nacimiento y el nombre por el que te conocen.
+        - **Punto 3**: el nombre nuevo que quieres. Los apellidos solo se pueden corregir o cambiar de orden, no sustituir.
+        - **Punto 4** (opcional): márcalo si también quieres que tu certificado de nacimiento indique femenino o masculino. Incluye **uno** de estos: pasaporte o licencia de conducir que ya refleje el cambio, o una certificación de un profesional de la salud o de la conducta que te atienda.
+        - **Punto 5 (razones)**: el formulario tiene encasillados ya redactados, incluido "asumió una identidad de género distinta a la asociada a su nombre legal". No tienes que explicar más.
+        - El formulario incluye la declaración jurada. Puedes juramentarla gratis ante la Secretaría del tribunal al presentarla.
+        - También tiene una parte para certificar que entregaste copia al Ministerio Público.
+    sources: [oat-1896, pj-cambio-nombre]
+  - id: OAT 1480
+    name:
+      en: Request and Declaration for Waiver of Court Fees Due to Indigency
+      es: Solicitud y declaración para que se exima de pago de arancel por razón de indigencia
+    url: https://poderjudicial.pr/documentos/formularios/OAT-1480.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $78 filing fee.
+      es: Solo si no puedes pagar el arancel de $78.
+    sources: [pj-indigencia]
+steps:
+  - id: gather
+    title:
+      en: Gather your supporting documents
+      es: Reúne los documentos de apoyo
+    body:
+      en: |
+        Get the documents the court lists (all in your current legal name):
+        - Original Puerto Rico birth certificate (order online or at a Registro Demográfico office).
+        - Copy of a photo ID.
+        - Certificación Negativa de Deuda from **CRIM** (municipal property tax), for all categories.
+        - **Certificado de Antecedentes Penales** (criminal record certificate; available online from the Puerto Rico Police through servicios.pr.gov). If you lived outside Puerto Rico, also get one from that jurisdiction.
+        - Certificación de Cumplimiento from **ASUME** (child support).
+        - Certificación Negativa de Deuda from **Hacienda** (Treasury).
+        - If you also want to change the gender marker: a passport or driver's license showing the change, or a certificate from your health or behavioral health professional.
+        The judge may ask for more.
+      es: |
+        Consigue los documentos que pide el tribunal (todos con tu nombre legal actual):
+        - Certificado de nacimiento original de Puerto Rico (se pide en línea o en una oficina del Registro Demográfico).
+        - Copia de una identificación con foto.
+        - Certificación Negativa de Deuda del **CRIM**, por todos los conceptos.
+        - **Certificado de Antecedentes Penales** (en línea a través de servicios.pr.gov). Si viviste fuera de Puerto Rico, también uno de esa jurisdicción.
+        - Certificación de Cumplimiento de **ASUME**.
+        - Certificación Negativa de Deuda de **Hacienda**.
+        - Si también quieres cambiar el marcador de género: pasaporte o licencia que refleje el cambio, o una certificación de tu profesional de la salud o de la conducta.
+        El juez o la jueza puede pedir más documentos.
+    sources: [pj-cambio-nombre, oat-1896]
+  - id: fill-petition
+    title:
+      en: Fill out form OAT 1896 and make two sets of copies
+      es: Llena el formulario OAT 1896 y prepara dos juegos de copias
+    body:
+      en: Complete the petition. Make one full set of the petition and documents for the court and a second full set for the Ministerio Público. If you cannot pay the fee, also fill out OAT 1480.
+      es: Completa la petición. Prepara un juego completo de la petición y los documentos para el tribunal y otro juego completo para el Ministerio Público. Si no puedes pagar el arancel, llena también el OAT 1480.
+    forms: [OAT 1896, OAT 1480]
+    sources: [pj-cambio-nombre]
+  - id: file
+    title:
+      en: File at the court clerk's office and swear the petition
+      es: Presenta en la Secretaría del tribunal y juramenta la petición
+    body:
+      en: File everything at the Secretaría of the Superior Court. You can swear the petition there for free. Pay the $78 filing fee, or ask the judge to waive it with OAT 1480.
+      es: Presenta todo en la Secretaría de la Sala Superior. Puedes juramentar la petición allí gratis. Paga el arancel de $78 o pide al juez o la jueza que te exima con el OAT 1480.
+    forms: [OAT 1896, OAT 1480]
+    fees: [filing]
+    sources: [pj-cambio-nombre, pj-aranceles]
+  - id: serve-prosecutor
+    title:
+      en: Deliver a copy to the Ministerio Público the same day
+      es: Entrega copia al Ministerio Público el mismo día
+    body:
+      en: Take or send the second set to the prosecutor's office (Fiscalía) for your judicial region the same day, and certify this to the court on the form. The prosecutor has 10 days to object.
+      es: Lleva o envía el segundo juego a la Fiscalía de tu región judicial el mismo día y certifícalo al tribunal en el formulario. El Ministerio Público tiene 10 días para objetar.
+    sources: [pj-cambio-nombre, ley-24-1931]
+  - id: decision
+    title:
+      en: Wait for the court's resolution
+      es: Espera la resolución del tribunal
+    body:
+      en: |
+        If there is no objection, the judge decides on the papers or may order a hearing. If there is a hearing, bring at least **two people who know you** and can confirm you are known by the name you are asking for. The resolution is sent to you and to the Registro Demográfico.
+      es: |
+        Si no hay objeción, el juez o la jueza decide con los documentos o puede ordenar una vista. Si hay vista, lleva al menos **dos personas que te conozcan** y puedan confirmar que te conocen por el nombre que pides. La resolución se te notifica a ti y al Registro Demográfico.
+    sources: [pj-cambio-nombre]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the resolution
+      es: Obtén copias certificadas de la resolución
+    body:
+      en: Go back to the Secretaría and ask for certified copies. Each costs $6 (records search and first page) plus $0.60 per extra page and $1 for the certification. Get several; you will need one for each agency.
+      es: Regresa a la Secretaría y pide copias certificadas. Cada una cuesta $6 (búsqueda y primera página), más $0.60 por página adicional y $1 por la certificación. Pide varias; necesitarás una para cada agencia.
+    fees: [certified-copy]
+    sources: [pj-cambio-nombre]
+fees:
+  - id: filing
+    label:
+      en: Filing fee (arancel) for a voluntary-jurisdiction (ex parte) petition
+      es: Arancel por promoción de un expediente de jurisdicción voluntaria (ex parte)
+    amount: 78
+    waivable: true
+    sources: [pj-aranceles]
+  - id: certified-copy
+    label:
+      en: Certified copy of the resolution
+      es: Copia certificada de la resolución
+    amount: 7
+    note:
+      en: $6 for the search and first page, plus $1 for the certification and $0.60 for each additional page.
+      es: $6 por la búsqueda y la primera página, más $1 por la certificación y $0.60 por cada página adicional.
+    sources: [pj-cambio-nombre]
+  - id: supporting-certs
+    label:
+      en: Supporting certificates (birth certificate, CRIM, Hacienda, ASUME, criminal record)
+      es: Certificaciones de apoyo (nacimiento, CRIM, Hacienda, ASUME, antecedentes penales)
+    varies_by: office
+    note:
+      en: Some of these certificates are free online and some have small fees. We did not confirm each fee.
+      es: Algunas de estas certificaciones son gratis en línea y otras tienen cargos pequeños. No confirmamos cada cargo.
+    sources: [pj-cambio-nombre]
+fee_waiver:
+  available: true
+  forms: [OAT 1480]
+  eligibility:
+    en: People who cannot afford court fees (indigency). The judge decides, may ask for more information, and may hold a short hearing.
+    es: Personas que no pueden pagar los aranceles (indigencia). El juez o la jueza decide, puede pedir más información y puede celebrar una vista breve.
+  how:
+    en: Swear the OAT 1480 declaration in front of the court clerk (free) when you file. If the judge approves, you proceed as if you had paid. If denied, you must pay the $78.
+    es: Juramenta la declaración OAT 1480 ante la Secretaría (gratis) al presentar. Si se aprueba, sigues como si hubieras pagado. Si se deniega, debes pagar los $78.
+  sources: [pj-indigencia]
+publication:
+  required: "no"
+  detail:
+    en: Neither the statute nor the court's instructions require a newspaper notice. Notice goes only to the Ministerio Público.
+    es: Ni la ley ni las instrucciones del tribunal exigen aviso en periódicos. La notificación va solo al Ministerio Público.
+  sources: [ley-24-1931, pj-cambio-nombre]
+hearing:
+  required: conditional
+  detail:
+    en: The statute lets the court decide without a hearing once the prosecutor's 10 days pass with no objection. The court usually holds a hearing if the prosecutor objects, and a judge may order one anyway.
+    es: La ley permite al tribunal resolver sin vista cuando pasan los 10 días sin objeción del Ministerio Público. De ordinario hay vista si la fiscalía objeta, y el juez o la jueza puede ordenarla de todos modos.
+  sources: [ley-24-1931, pj-cambio-nombre]
+background_check:
+  required: "yes"
+  detail:
+    en: No fingerprinting, but you must attach a Certificado de Antecedentes Penales (and one from any other place you lived), plus debt and child-support certifications.
+    es: No se toman huellas, pero debes incluir un Certificado de Antecedentes Penales (y uno de cualquier otro lugar donde viviste), además de certificaciones de deuda y de ASUME.
+  sources: [pj-cambio-nombre]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      We found no procedure for sealing a name change case. Since Ley 114-2025, records at the Registro Demográfico
+      are confidential and copies go only to interested parties. When the gender marker is changed, Puerto Rico must
+      issue a new birth certificate with no strike-outs or other signs of the change (Arroyo González v. Rosselló Nevares).
+    es: >-
+      No encontramos un procedimiento para sellar un caso de cambio de nombre. Desde la Ley 114-2025, los certificados
+      del Registro Demográfico son confidenciales y solo se entregan a partes interesadas. Cuando se cambia el marcador
+      de género, Puerto Rico debe emitir un certificado nuevo sin tachaduras ni otras señales del cambio (Arroyo González
+      v. Rosselló Nevares).
+  sources: [ley-114-2025, arroyo-order]
+minors:
+  summary:
+    en: >-
+      The court's form is written for adults, and the age of majority in Puerto Rico is 21. We could not confirm how a
+      parent files for a child. Ask a legal aid office or the court's Centro Pro Se before filing for anyone under 21.
+    es: >-
+      El formulario del tribunal está redactado para personas mayores de edad, y en Puerto Rico la mayoría de edad es a
+      los 21 años. No pudimos confirmar cómo presenta la petición un padre o una madre por su hijo o hija. Consulta con
+      una oficina de ayuda legal o el Centro Pro Se del tribunal antes de presentar por alguien menor de 21 años.
+  sources: [oat-1896]
+timeline:
+  en: At least 10 days for the prosecutor's review, then the judge's decision. Most uncontested cases take a few weeks to a few months; it varies by court.
+  es: Al menos 10 días para la revisión de la fiscalía y luego la decisión del juez o la jueza. La mayoría de los casos sin oposición toman de unas semanas a unos meses; varía según el tribunal.
+after:
+  en: |
+    1. **Registro Demográfico**: the court sends the resolution there, but bring a certified copy and ask for a new birth certificate to check the change.
+    2. **Social Security**: update your name (form SS-5) with the certified resolution. Federal records currently cannot change the sex marker.
+    3. **DTOP / CESCO**: update your driver's license or ID with the resolution and corrected birth certificate. See the driver's license guide.
+    4. **U.S. passport**: name changes are still possible with a certified court order.
+    5. Then the Comisión Estatal de Elecciones, banks, employers, schools, and insurers.
+  es: |
+    1. **Registro Demográfico**: el tribunal le envía la resolución, pero lleva una copia certificada y pide un certificado de nacimiento nuevo para verificar el cambio.
+    2. **Seguro Social**: actualiza tu nombre (formulario SS-5) con la resolución certificada. Los registros federales actualmente no permiten cambiar el marcador de sexo.
+    3. **DTOP / CESCO**: actualiza tu licencia o identificación con la resolución y el certificado de nacimiento corregido. Mira la guía de licencia de conducir.
+    4. **Pasaporte de EE. UU.**: el cambio de nombre sigue siendo posible con una orden judicial certificada.
+    5. Luego la Comisión Estatal de Elecciones, bancos, empleo, escuelas y aseguradoras.
+tips:
+  - en: If you want both a new name and a new gender marker, ask for both on one OAT 1896 petition. It saves a second trip and a second fee.
+    es: Si quieres nombre nuevo y marcador de género nuevo, pide ambos en una sola petición OAT 1896. Te ahorras otro viaje y otro arancel.
+  - en: The Centros Pro Se at the courts help people who file without a lawyer. Ask at the Secretaría where the nearest one is.
+    es: Los Centros Pro Se de los tribunales orientan a quienes presentan sin abogado. Pregunta en la Secretaría dónde está el más cercano.
+  - en: Order the CRIM, Hacienda, ASUME, and criminal record certificates online first; they are usually the slowest part.
+    es: Pide primero en línea las certificaciones del CRIM, Hacienda, ASUME y antecedentes penales; suelen ser lo más lento.
+local_help:
+  - id: slpr
+    name: Servicios Legales de Puerto Rico
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income people across Puerto Rico. Central intake line (787) 728-5070 or 1-800-981-5342. Call to ask whether they can take a name change case.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en todo Puerto Rico. Línea central de entrevistas (787) 728-5070 o 1-800-981-5342. Llama para preguntar si pueden atender un caso de cambio de nombre.
+    url: https://www.servicioslegales.org/
+    phone: "787-728-5070"
+    cost: free
+    languages: [Español, English]
+    verification: community_reported
+    sources: [slpr]
+  - id: upr-clinica-legal
+    name: Clínica de Asistencia Legal, Escuela de Derecho UPR
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: University of Puerto Rico law school clinic in Río Piedras. Students supervised by professors give free advice and representation in court and administrative cases; there is also a notary clinic.
+      es: Clínica de la Escuela de Derecho de la UPR en Río Piedras. Estudiantes supervisados por profesores ofrecen asesoría y representación gratuita ante tribunales y agencias; también hay una clínica de notaría.
+    url: https://academiacomun.uprrp.edu/unidadeseiniciativas/clinica-de-asistencia-legal/
+    address: Ave. Universitaria Ste 701, San Juan, PR 00925
+    cost: free
+    languages: [Español]
+    verification: org_website
+    sources: [upr-clinica]
+  - id: true-self
+    name: True Self Foundation
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Puerto Rico LGBTQ+ nonprofit. Its "Embrace" program helps trans, queer, and nonbinary people living in Puerto Rico with the legal name change process, including free legal services. Apply on its website.
+      es: Organización LGBTQ+ sin fines de lucro de Puerto Rico. Su programa "Embrace" acompaña a personas trans, cuir y no binarias que viven en Puerto Rico en el cambio legal de nombre, incluidos servicios legales gratuitos. Solicita en su página.
+    url: https://www.trueselffoundation.org/
+    cost: free
+    languages: [Español, English]
+    verification: community_reported
+    sources: [true-self]
+  - id: aclu-pr
+    name: ACLU de Puerto Rico
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization that tracks anti-trans bills in Puerto Rico and takes impact cases. Contact them if an agency refuses a change it is required to make.
+      es: Organización de libertades civiles que vigila los proyectos contra personas trans en Puerto Rico y litiga casos de impacto. Contáctala si una agencia se niega a hacer un cambio al que está obligada.
+    url: https://www.aclu-pr.org/es/issues/derechos-de-las-personas-transgenero/
+    cost: free
+    verification: org_website
+    sources: [aclu-pr]
+statutes:
+  - cite: Ley Núm. 24 de 22 de abril de 1931, Art. 31 (24 LPRA § 1231)
+    title:
+      en: Registro Demográfico law; name changes by sworn petition with notice to the Ministerio Público
+      es: Ley del Registro Demográfico; cambios de nombre por petición juramentada con notificación al Ministerio Público
+    url: https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Salud/24-1931/24-1931.pdf
+related_links:
+  - title: Advocates for Trans Equality, Puerto Rico identity documents
+    url: https://transequality.org/documents/puerto-rico-identity-documents
+    note:
+      en: Undated page; its $75 filing fee is older than the court's current $78.
+      es: Página sin fecha; su arancel de $75 es anterior al actual de $78 del tribunal.
+  - title: Poder Judicial, Cambio de nombre ante el Tribunal
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-de-nombre-ante-el-tribunal/
+sources:
+  - id: ley-24-1931
+    url: https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Salud/24-1931/24-1931.pdf
+    title: Ley del Registro Demográfico de Puerto Rico (Ley 24-1931), consolidated text rev. April 16, 2024
+    publisher: Oficina de Gerencia y Presupuesto
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      El cambio, adición o modificación de nombre o apellido sólo podrá hacerse a instancia del interesado... Transcurridos
+      diez (10) días desde la remisión y notificación al Ministerio Fiscal, sin que éste haya formulado objeción alguna, el
+      tribunal entenderá y resolverá los méritos de la petición sin necesidad de celebrar vista
+  - id: pj-cambio-nombre
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/casos-civiles/cambio-de-nombre-ante-el-tribunal/
+    title: Cambio de nombre ante el Tribunal
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+    quote: Aquellas personas nacidas en Puerto Rico y que hayan sido inscritas en el Registro Demográfico.
+  - id: oat-1896
+    url: https://poderjudicial.pr/documentos/formularios/OAT-1896-Peticion-de-Cambio-de-Nombre-o-Apellido.pdf
+    title: Formulario OAT 1896, Petición de cambio de nombre, apellido y/o identificador de género (rev. junio 2024)
+    publisher: Poder Judicial de Puerto Rico
+    kind: form
+    accessed: "2026-09-24"
+  - id: pj-aranceles
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/sistema-de-gobierno-y-tribunales/aranceles/
+    title: Aranceles
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Promoción de un expediente de jurisdicción voluntaria: $78.00"
+  - id: pj-indigencia
+    url: https://poderjudicial.pr/educacion-a-la-comunidad/informacion-sobres-temas-legales/acceso-a-los-tribunales/litigacion-en-estado-de-indigencia/
+    title: Litigación en estado de indigencia
+    publisher: Poder Judicial de Puerto Rico
+    kind: court
+    accessed: "2026-09-24"
+  - id: ley-114-2025
+    url: https://www.lexjuris.com/lexlex/Leyes2025/lexl2025114.htm
+    title: Ley Núm. 114 de 5 de septiembre de 2025 (confidentiality of Registro Demográfico certificates)
+    publisher: LexJuris de Puerto Rico
+    kind: statute
+    accessed: "2026-09-24"
+  - id: arroyo-order
+    url: https://lambdalegal.org/legal_document/pr_arroyo_20180420_opinion-and-order/
+    title: Arroyo González v. Rosselló Nevares, Opinion and Order (D.P.R. Apr. 20, 2018)
+    publisher: Lambda Legal
+    kind: court
+    accessed: "2026-09-24"
+  - id: slpr
+    url: https://www.servicioslegales.org/
+    title: Servicios Legales de Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+  - id: upr-clinica
+    url: https://academiacomun.uprrp.edu/unidadeseiniciativas/clinica-de-asistencia-legal/
+    title: Clínica de Asistencia Legal
+    publisher: Universidad de Puerto Rico, Recinto de Río Piedras
+    kind: org
+    accessed: "2026-09-24"
+  - id: true-self
+    url: https://www.trueselffoundation.org/
+    title: True Self Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-pr
+    url: https://www.aclu-pr.org/es/issues/derechos-de-las-personas-transgenero/
+    title: Derechos de las personas transgénero
+    publisher: ACLU de Puerto Rico
+    kind: org
+    accessed: "2026-09-24"

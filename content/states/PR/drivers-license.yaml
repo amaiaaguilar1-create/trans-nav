@@ -1,0 +1,207 @@
+guide_type: drivers_license
+jurisdiction: PR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The requirement comes from DTOP form DTOP-DIS-324 (rev. May 18, 2025; the file name says "borrador", or draft),
+    linked from CESCO's forms page on 2026-09-24. The duplicate license and ID fees come from the same CESCO page. The
+    CESCO page does NOT list a separate fee for the gender change transaction; the reviewer should confirm what is
+    charged (probably the duplicate fee). We found no X option; the form offers only Femenino and Masculino. We could
+    not confirm the "2015 administrative order" mentioned in the task; Lambda Legal said in 2017 that DTOP already
+    allowed gender changes on licenses. Watch RCC 185 (2025), a House joint resolution that would order all agencies to
+    use only "biological sex" in documents; it was in committee (Comisión de Gobierno) as of its last action on
+    2025-08-28 and has not passed a chamber, so it is not listed as a pending bill.
+status: available
+requirement_type: provider_letter_any
+markers_available: [F, M]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the gender on your Puerto Rico driver's license or ID to F or M by filing form DTOP-DIS-324 at a
+    CESCO office. Attach a birth certificate or passport that already shows the change, or have any licensed health or
+    behavioral health professional who treats you sign Part B. There is no X option.
+  es: >-
+    Puedes cambiar el género en tu licencia de conducir o tarjeta de identificación de Puerto Rico a F o M presentando
+    el formulario DTOP-DIS-324 en un CESCO. Incluye un certificado de nacimiento o pasaporte que ya refleje el cambio,
+    o pide a cualquier profesional licenciado de la salud o de la conducta que te atienda que firme la Parte B. No hay
+    opción X.
+summary:
+  en: |
+    DTOP (Departamento de Transportación y Obras Públicas) processes driver's licenses and ID cards through its CESCO offices (Centros de Servicios al Conductor). Its form **DTOP-DIS-324, "Solicitud para el cambio de género de personas transgénero"**, lets you ask for a license or ID card showing female or male.
+
+    You sign a statement under penalty of perjury that the request matches the gender you identify with and is not for fraud. Then you attach **one** of:
+    - a birth certificate showing the change,
+    - a passport showing the change, or
+    - Part B of the same form, signed by a clinical professional who has a relationship with you: psychologist, therapist, social worker, physician, case manager, or counselor, with their license number.
+
+    You do not need surgery or a court order.
+
+    Changing your **name** is a separate part of the same visit. You need your certified court resolution (or a birth certificate showing the new name) and an updated Social Security record.
+  es: |
+    El DTOP (Departamento de Transportación y Obras Públicas) tramita licencias de conducir y tarjetas de identificación en sus CESCO (Centros de Servicios al Conductor). Su formulario **DTOP-DIS-324, "Solicitud para el cambio de género de personas transgénero"**, te permite pedir una licencia o tarjeta de identificación con femenino o masculino.
+
+    Firmas una declaración bajo pena de perjurio de que la petición corresponde al género con el que te identificas y no tiene fines de fraude. Luego incluyes **uno** de estos:
+    - un certificado de nacimiento que refleje el cambio,
+    - un pasaporte que refleje el cambio, o
+    - la Parte B del mismo formulario, firmada por un profesional clínico que tenga relación contigo: psicólogo, terapeuta, trabajador social, médico, manejador de casos o consejero, con su número de licencia.
+
+    No necesitas cirugía ni orden judicial.
+
+    Cambiar tu **nombre** es otra parte de la misma visita. Necesitas la resolución certificada del tribunal (o un certificado de nacimiento con el nombre nuevo) y tu récord del Seguro Social actualizado.
+eligibility:
+  residency:
+    en: For people who hold or are applying for a Puerto Rico driver's license or ID card.
+    es: Para personas que tienen o solicitan una licencia de conducir o tarjeta de identificación de Puerto Rico.
+  age:
+    en: Adult ID cards start at 16; applicants under 18 need a parent or legal guardian. The gender form itself does not set an age limit.
+    es: Las tarjetas de identificación de adultos comienzan a los 16 años; menores de 18 necesitan al padre, la madre o el tutor legal. El formulario de género en sí no fija una edad.
+  sources: [dis-324, cesco-forms]
+forms:
+  - id: DTOP-DIS-324
+    name:
+      en: Request for gender change for transgender people (driver's license or ID card)
+      es: Solicitud para el cambio de género de personas transgénero
+    url: https://docs.pr.gov/files/cesco/Documentos%20Esenciales/Folmularios%2026%20junio%20de%202026/DTOP-DIS-324%20SOLICITUD%20PARA%20EL%20CAMBIO%20DE%20GENERO%20POR%20PERSONAS%20TRANSGENERO%20%20rev.%2018may2025%20%20borrador.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Part A**: your name, Social Security number, license or ID number, addresses, phone, and email. Check "licencia de conducir" or "tarjeta de identificación", then check Femenino or Masculino.
+        - Sign the perjury statement and date it (day/month/year).
+        - **Part B** only if you are not bringing a birth certificate or passport that already shows the change. Your clinician (psychologist, therapist, social worker, physician, case manager, or counselor) fills in their name, title, address, phone, and **license number (theirs or their supervisor's)**, checks F or M, and signs.
+      es: |
+        - **Parte A**: tu nombre, número de Seguro Social, número de licencia o identificación, direcciones, teléfono y correo electrónico. Marca "licencia de conducir" o "tarjeta de identificación" y luego Femenino o Masculino.
+        - Firma la declaración bajo pena de perjurio y pon la fecha (día/mes/año).
+        - **Parte B** solo si no llevas un certificado de nacimiento o pasaporte que ya refleje el cambio. Tu profesional clínico (psicólogo, terapeuta, trabajador social, médico, manejador de casos o consejero) llena su nombre, título, dirección, teléfono y **número de licencia (suyo o de su supervisor)**, marca F o M y firma.
+    sources: [dis-324]
+  - id: DTOP-DIS-256
+    name:
+      en: Driver's license application (renewal, duplicate, or name change)
+      es: Solicitud de certificado de licencia para conducir (renovación, duplicado o cambio de nombre)
+    url: https://docs.pr.gov/files/cesco/Solicitud%20de%20Licencias/DTOP-DIS-256%20Sol%20%20Cert%20%20Lic%20para%20Conducir%20Vehiculos%20de%20Motor%20RENOVACION_%20%20DUPLICADO%20O%20CAMBIO%20DE%20NOMBRE%20Rev.%2017feb2025.pdf
+    required: conditional
+    condition:
+      en: For a driver's license. Use DTOP-DIS-137 instead for an ID card.
+      es: Para licencia de conducir. Para tarjeta de identificación usa el DTOP-DIS-137.
+    sources: [cesco-forms]
+  - id: DTOP-DIS-137
+    name:
+      en: ID card application for people 16 and older
+      es: Solicitud para tarjeta de identificación para personas de 16 años o más
+    url: https://docs.pr.gov/files/cesco/Documentos%20Esenciales/DTOP-DIS-137%20SOLITUD%20TARJETA%20DE%20IDENTIFICACION%20Rev%20%2019feb2026.pdf
+    required: conditional
+    condition:
+      en: For an ID card instead of a driver's license.
+      es: Para tarjeta de identificación en lugar de licencia.
+    sources: [cesco-forms]
+steps:
+  - id: documents
+    title:
+      en: Get your supporting document
+      es: Consigue tu documento de apoyo
+    body:
+      en: Bring a birth certificate or passport that already shows your gender, or ask your clinician to complete and sign Part B of DTOP-DIS-324. If your name is also changing, update Social Security first and bring the certified court resolution.
+      es: Lleva un certificado de nacimiento o pasaporte que ya refleje tu género, o pide a tu profesional clínico que complete y firme la Parte B del DTOP-DIS-324. Si también cambias el nombre, actualiza primero el Seguro Social y lleva la resolución certificada del tribunal.
+    forms: [DTOP-DIS-324]
+    sources: [dis-324]
+  - id: appointment
+    title:
+      en: Make a CESCO appointment
+      es: Saca una cita en el CESCO
+    body:
+      en: Request an appointment at the CESCO of your choice through cesco.turnospr.com. Bring DTOP-DIS-324, the license or ID application, your current card, a photo ID, proof of address from the last 2 months, and your Social Security card.
+      es: Solicita cita en el CESCO de tu preferencia a través de cesco.turnospr.com. Lleva el DTOP-DIS-324, la solicitud de licencia o identificación, tu tarjeta actual, identificación con foto, evidencia de dirección de los últimos 2 meses y tu tarjeta de Seguro Social.
+    forms: [DTOP-DIS-324, DTOP-DIS-256, DTOP-DIS-137]
+    applies_to: [in_person]
+    sources: [cesco-home, cesco-forms]
+  - id: pay
+    title:
+      en: Pay with internal revenue stamps
+      es: Paga con sellos y comprobantes de Rentas Internas
+    body:
+      en: CESCO fees are paid with Hacienda internal revenue stamps (sellos) and vouchers (comprobantes), which you can buy at collection offices or online. Ask CESCO which amount applies to a gender or name change; the duplicate fees are shown below.
+      es: Los derechos del CESCO se pagan con sellos y comprobantes de Rentas Internas de Hacienda, que se compran en colecturías o en línea. Pregunta en el CESCO qué cantidad aplica a un cambio de género o de nombre; abajo están los derechos de duplicado.
+    fees: [dl-duplicate, id-duplicate]
+    sources: [cesco-forms]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Driver's license duplicate
+      es: Duplicado de licencia de conducir
+    amount: 8
+    note:
+      en: $6 internal revenue stamp (code 5120) plus $2 voucher (code 0842). Add $17 (code 2028) the first time you validate REAL ID. The CESCO page does not list a separate fee for a gender change.
+      es: Sello de $6 (código 5120) más comprobante de $2 (código 0842). Añade $17 (código 2028) la primera vez que valides REAL ID. La página del CESCO no indica un derecho separado para el cambio de género.
+    sources: [cesco-forms]
+  - id: id-duplicate
+    label:
+      en: ID card duplicate
+      es: Duplicado de tarjeta de identificación
+    min: 7
+    max: 8
+    note:
+      en: $5 stamp for a regular card or $6 for REAL ID (code 5120), plus a $2 voucher (code 0842).
+      es: Sello de $5 para tarjeta regular o $6 para REAL ID (código 5120), más comprobante de $2 (código 0842).
+    sources: [cesco-forms]
+fee_waiver:
+  available: false
+  eligibility:
+    en: We found no general fee waiver for licenses or ID cards on CESCO's page.
+    es: No encontramos una exención general de derechos para licencias o tarjetas de identificación en la página del CESCO.
+  sources: [cesco-forms]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Done in person at a CESCO office; the form is signed on paper. CESCO Digital handles some other transactions online.
+    es: Se hace en persona en un CESCO; el formulario se firma en papel. CESCO Digital atiende otras gestiones en línea.
+  sources: [cesco-home, dis-324]
+timeline:
+  en: Usually one CESCO visit.
+  es: Normalmente una visita al CESCO.
+after:
+  en: |
+    Your license or ID is often the easiest document to change first. With it you can ask the Registro Demográfico to change the gender on your birth certificate (it accepts a license that shows the change). The U.S. passport and Social Security record currently cannot show a changed sex marker; your Puerto Rico card is still valid ID.
+  es: |
+    Tu licencia o identificación suele ser el documento más fácil de cambiar primero. Con ella puedes pedir al Registro Demográfico que cambie el género en tu certificado de nacimiento (acepta una licencia que refleje el cambio). El pasaporte de EE. UU. y el récord del Seguro Social actualmente no pueden mostrar un marcador de sexo cambiado; tu tarjeta de Puerto Rico sigue siendo una identificación válida.
+tips:
+  - en: A case manager or counselor can sign Part B, as long as they give a license number (theirs or their supervisor's). You do not need a psychiatrist or endocrinologist.
+    es: Un manejador de casos o consejero puede firmar la Parte B, siempre que indique un número de licencia (suyo o de su supervisor). No necesitas psiquiatra ni endocrinólogo.
+  - en: For REAL ID, CESCO accepts only the Puerto Rico birth certificate version issued since 2010.
+    es: Para REAL ID, el CESCO solo acepta el certificado de nacimiento de Puerto Rico emitido desde 2010.
+  - en: If staff refuse the form, ask for a supervisor and show the DTOP-DIS-324 printed from CESCO's own forms page. The ACLU de Puerto Rico can help if you are turned away.
+    es: Si el personal rechaza el formulario, pide un supervisor y muestra el DTOP-DIS-324 impreso de la propia página de formularios del CESCO. La ACLU de Puerto Rico puede ayudarte si te rechazan.
+related_links:
+  - title: Advocates for Trans Equality, Puerto Rico identity documents
+    url: https://transequality.org/documents/puerto-rico-identity-documents
+    note:
+      en: Undated page; agrees that any licensed clinical professional can sign the gender form.
+      es: Página sin fecha; coincide en que cualquier profesional clínico licenciado puede firmar el formulario.
+sources:
+  - id: dis-324
+    url: https://docs.pr.gov/files/cesco/Documentos%20Esenciales/Folmularios%2026%20junio%20de%202026/DTOP-DIS-324%20SOLICITUD%20PARA%20EL%20CAMBIO%20DE%20GENERO%20POR%20PERSONAS%20TRANSGENERO%20%20rev.%2018may2025%20%20borrador.pdf
+    title: DTOP-DIS-324, Solicitud para el cambio de género de personas transgénero (rev. 18 mayo 2025)
+    publisher: Departamento de Transportación y Obras Públicas
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      Deberá presentar este formulario acompañado de uno de los siguientes documentos: Certificado de nacimiento, el
+      pasaporte o certificación emitida por un profesional de la salud o profesional de la conducta que tenga relación con
+      el solicitante.
+  - id: cesco-forms
+    url: https://www.cesco.pr.gov/solicitudes-y-formularios
+    title: Solicitudes y formularios
+    publisher: CESCO, Departamento de Transportación y Obras Públicas
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Licencia de Conducir - Duplicado ... Sello de Rentas Internas por el valor de seis (6) dólares, código 5120. Comprobante de Rentas Internas por valor de dos (2) dólares, código 0842."
+  - id: cesco-home
+    url: https://www.cesco.pr.gov/
+    title: Directoría de Servicios al Conductor (CESCO)
+    publisher: Departamento de Transportación y Obras Públicas
+    kind: official
+    accessed: "2026-09-24"

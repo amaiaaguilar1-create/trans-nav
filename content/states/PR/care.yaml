@@ -1,0 +1,302 @@
+jurisdiction: PR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Ley 63-2025 text read on LexJuris 2026-09-24 (the official OGP copy was not found). The ban covers everyone under 21
+    (Art. 3(4)), carries a fixed 15-year prison term plus loss of license (Art. 6), and bars public funds (Art. 4). We found no
+    court order blocking it. The Federación LGBTQ+ announced in July 2025 that it would sue, but we found no filed case;
+    the reviewer should check. PC 162 (2025) would expand the restrictions; its status was not confirmed. Medicaid
+    (Plan Vital, run by ASES): we could not load asespr.org (a Cloudflare block and an odd redirect), so adult HRT coverage
+    is marked unclear. MAP scores Puerto Rico negative on Medicaid, likely because of Ley 63's public-funds ban. Private
+    insurance: MAP marks Puerto Rico as having a nondiscrimination law or policy, but we found no matching Carta Normativa
+    or Carta Circular on the Oficina del Comisionado de Seguros site; the true value is based on MAP only, so please verify.
+    Telehealth: Plume says it serves 47 states (not Puerto Rico); FOLX and QueerDoc do not list Puerto Rico; Planned
+    Parenthood has no affiliate in Puerto Rico, so telehealth_hrt is empty. Clinics: TransSalud prices were read on its
+    site. Centro Ararat's own site lists the San Juan annex address and PrEP services but does not mention hormone care;
+    the "Clínica Translucent" name comes from directories. We could not find websites for CoRE's Clínica de Salud Trans,
+    Centro Comunitario LGBTT (Facebook only), or CAFT, so they are left out.
+status_summary:
+  en: >-
+    Hormone therapy and surgery are legal for adults 21 and older in Puerto Rico. **Ley 63-2025 bans puberty blockers,
+    hormones, and gender-affirming surgery for anyone under 21**, with a 15-year prison term for providers, and bars
+    public funds from paying for that care. No shield law exists. Informed-consent style care is available in San Juan
+    from community clinics; the main US telehealth services do not currently serve Puerto Rico.
+  es: >-
+    La terapia hormonal y la cirugía son legales para personas de 21 años o más en Puerto Rico. **La Ley 63-2025 prohíbe
+    los bloqueadores de pubertad, las hormonas y la cirugía de afirmación de género para toda persona menor de 21 años**,
+    con 15 años de cárcel para los proveedores, y prohíbe usar fondos públicos para esa atención. No hay ley escudo. En San
+    Juan hay clínicas comunitarias que ofrecen esta atención; los principales servicios de telesalud de EE. UU. no
+    atienden Puerto Rico actualmente.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      **Age 21 and older**: no law limits your care. Clinics in San Juan such as TransSalud and Centro Ararat offer hormone therapy, and many community health centers (330 clinics) charge on a sliding scale.
+
+      **Ages 18 to 20**: in Puerto Rico you are legally a minor until 21, and **Ley 63-2025 bans hormones and gender-affirming surgery for you**. Mental health care is not banned. Some people this age get care outside Puerto Rico; the Campaign for Southern Equality can connect trans people aged 18 to 21 in Puerto Rico with travel and care navigation.
+
+      **If you have little money**:
+      1. Ask about **Plan Vital** (Puerto Rico's Medicaid). Coverage of hormones for adults is not published; ask your plan or clinic.
+      2. Community health centers: find one at findahealthcenter.hrsa.gov.
+      3. TransSalud posts its cash prices (about $80 for a first virtual visit and $99 for basic hormone labs).
+      4. **Point of Pride's HRT Access Fund** (applications each May).
+    es: |
+      **21 años o más**: ninguna ley limita tu atención. Clínicas de San Juan como TransSalud y Centro Ararat ofrecen terapia hormonal, y muchos centros de salud comunitarios (centros 330) cobran en escala móvil.
+
+      **De 18 a 20 años**: en Puerto Rico eres menor de edad hasta los 21, y **la Ley 63-2025 te prohíbe recibir hormonas y cirugía de afirmación de género**. La atención de salud mental no está prohibida. Algunas personas de esta edad reciben atención fuera de Puerto Rico; Campaign for Southern Equality puede conectar a personas trans de 18 a 21 años en Puerto Rico con ayuda para viajar y buscar proveedores.
+
+      **Si tienes poco dinero**:
+      1. Pregunta por el **Plan Vital** (el Medicaid de Puerto Rico). La cobertura de hormonas para adultos no está publicada; pregunta a tu plan o clínica.
+      2. Centros de salud comunitarios: búscalos en findahealthcenter.hrsa.gov.
+      3. TransSalud publica sus precios en efectivo (unos $80 la primera visita virtual y $99 los laboratorios básicos de terapia hormonal).
+      4. El **Fondo de Acceso a TRH de Point of Pride** (solicitudes cada mayo).
+  sources: [ley-63-2025, cse-pr, transsalud, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Ley 63-2025** ("Ley para la protección de la salud y el bienestar de los menores de edad en Puerto Rico", Senate Bill 350), signed July 16, 2025 and in effect immediately:
+      - **Who**: anyone under **21** (Art. 3).
+      - **What**: puberty blockers, sex hormones (including androgen blockers, estrogen, progesterone, testosterone), and surgeries used for gender transition or to treat gender dysphoria (Arts. 3 and 4). Public and publicly funded institutions may not spend funds on these treatments.
+      - **Exceptions**: intersex conditions and other genetic or hormonal disorders certified by a pediatric endocrinologist or pediatrician, and treatment of unrelated conditions.
+      - **Penalties**: a fixed **15-year prison term** for anyone who violates the law, plus revocation of a health professional's license. Organizations face a $50,000 fine per violation and loss of all licenses and operating permits (Art. 6). The Department of Justice enforces it.
+      - **Not banned**: mental health care and counseling.
+      - **Status**: in effect. We found no court order blocking it.
+    es: |
+      **Ley 63-2025** ("Ley para la protección de la salud y el bienestar de los menores de edad en Puerto Rico", Proyecto del Senado 350), firmada el 16 de julio de 2025 y vigente de inmediato:
+      - **A quién aplica**: toda persona menor de **21** años (Art. 3).
+      - **Qué prohíbe**: bloqueadores de pubertad, hormonas sexuales (incluidos bloqueadores androgénicos, estrógenos, progesterona y testosterona) y cirugías para transición de género o para tratar la disforia de género (Arts. 3 y 4). Las instituciones públicas o con fondos públicos no pueden destinar fondos a estos tratamientos.
+      - **Excepciones**: condiciones intersexuales y otras disfunciones genéticas u hormonales certificadas por un endocrinólogo pediátrico o pediatra, y el tratamiento de condiciones no relacionadas.
+      - **Penalidades**: **15 años de reclusión** (término fijo) para quien viole la ley, además de la revocación de la licencia del profesional de la salud. Las entidades enfrentan multa de $50,000 por violación y la revocación de todas sus licencias y permisos (Art. 6). El Departamento de Justicia la fiscaliza.
+      - **No prohibido**: la atención de salud mental y la consejería.
+      - **Estado**: vigente. No encontramos ninguna orden judicial que la bloquee.
+  sources: [ley-63-2025, cse-pr, aclu-pr]
+medicaid:
+  program_name: Plan Vital
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: |
+      Puerto Rico's Medicaid program, **Plan Vital**, is run by ASES (Administración de Seguros de Salud) through private managed care plans. We could not find a published policy on gender-affirming care for adults. **Ley 63-2025 bars public funds from paying for this care for anyone under 21.** If you are 21 or older, ask your Plan Vital plan in writing whether hormones and labs are covered, and appeal any denial. Apply for Medicaid through the Programa Medicaid of the Department of Health.
+    es: |
+      El Medicaid de Puerto Rico, **Plan Vital**, lo administra ASES (Administración de Seguros de Salud) a través de aseguradoras privadas. No encontramos una política publicada sobre la atención de afirmación de género para adultos. **La Ley 63-2025 prohíbe usar fondos públicos para esta atención en menores de 21 años.** Si tienes 21 años o más, pregunta por escrito a tu plan si cubre hormonas y laboratorios, y apela cualquier denegación. Solicita Medicaid a través del Programa Medicaid del Departamento de Salud.
+  how_to_apply_url: https://www.medicaid.pr.gov/
+  sources: [ley-63-2025, medicaid-pr]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      The Movement Advancement Project lists Puerto Rico as having a law or policy against transgender exclusions in private insurance, but we could not find the rule itself on the Insurance Commissioner's site, so treat this as unconfirmed. If a plan denies care, first file an internal appeal. Then file a complaint with the **Oficina del Comisionado de Seguros (OCS)**. Employer self-funded plans are federally regulated. A4TE's Trans Health Project has appeal templates.
+    es: |
+      El Movement Advancement Project indica que Puerto Rico tiene una ley o política contra exclusiones de personas trans en seguros privados, pero no encontramos la norma en la página del Comisionado de Seguros, así que tómalo como no confirmado. Si tu plan deniega atención, primero presenta una apelación interna. Luego presenta una querella ante la **Oficina del Comisionado de Seguros (OCS)**. Los planes autofinanciados por patronos se rigen por ley federal. El Trans Health Project de A4TE tiene modelos de apelación.
+  complaint_url: https://www.ocs.pr.gov/sistema-de-querellas
+  sources: [map-health, ocs]
+telehealth_hrt: []
+resources:
+  - id: transsalud
+    name: Clínica TransSalud
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: San Juan clinic for LGBTQ+ people. Hormone therapy for adults, primary care, PrEP and free HIV testing, and virtual follow-up visits. Publishes cash prices and a membership plan for people without insurance.
+      es: Clínica en San Juan para personas LGBTQ+. Terapia hormonal para adultos, cuidado primario, PrEP y pruebas de VIH gratis, y seguimiento por telemedicina. Publica precios en efectivo y una membresía para personas sin plan médico.
+    url: https://transsalud.org/
+    address: Carr. 21 U3-2, Las Lomas, San Juan, PR 00921
+    cost: paid
+    accepts_uninsured: true
+    telehealth: true
+    languages: [Español]
+    verification: org_website
+    sources: [transsalud]
+  - id: centro-ararat
+    name: Centro Ararat
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Nonprofit primary care clinics in San Juan, Ponce, Juana Díaz, and Arecibo focused on HIV, sexual health, and PrEP, with integrated mental health. Its San Juan annex in Edificio Europa is listed in directories as "Clínica Translucent", a trans care clinic; call to confirm hormone services.
+      es: Clínicas de cuidado primario sin fines de lucro en San Juan, Ponce, Juana Díaz y Arecibo, enfocadas en VIH, salud sexual y PrEP, con salud mental integrada. Su anexo de San Juan en el Edificio Europa aparece en directorios como "Clínica Translucent", una clínica de salud trans; llama para confirmar servicios de hormonas.
+    url: https://centroararat.org/centro-ararat-clinics/
+    phone: "787-296-8888"
+    cost: varies
+    languages: [Español, English]
+    verification: community_reported
+    sources: [ararat]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for community health centers (330 clinics) in Puerto Rico. They charge on a sliding scale and serve people without insurance.
+      es: Buscador federal de centros de salud comunitarios (centros 330) en Puerto Rico. Cobran en escala móvil y atienden a personas sin seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: cse-tyep
+    name: Campaign for Southern Equality, Trans Youth Emergency Project
+    type: other
+    pillars: [hrt]
+    description:
+      en: Does not operate in Puerto Rico directly, but connects trans people aged 18 to 21 in Puerto Rico, and parents of younger youth, with an organization that helps find care outside Puerto Rico and pay for travel.
+      es: No opera directamente en Puerto Rico, pero conecta a personas trans de 18 a 21 años en Puerto Rico, y a padres de jóvenes menores, con una organización que ayuda a buscar atención fuera de Puerto Rico y pagar el viaje.
+    url: https://southernequality.org/pr/
+    cost: free
+    verification: org_website
+    sources: [cse-pr]
+  - id: pop-hrt
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for a period of telehealth hormone care; applications open each May. Check whether the partner telehealth service can serve Puerto Rico.
+      es: Fondo nacional que paga un periodo de atención hormonal por telesalud; las solicitudes abren cada mayo. Verifica si el servicio de telesalud asociado puede atender Puerto Rico.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: true-self-surgery
+    name: True Self Foundation
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Puerto Rico nonprofit that has offered partial grants for gender-affirming surgery for trans adults, among other programs.
+      es: Organización sin fines de lucro de Puerto Rico que ha ofrecido becas parciales para cirugías de afirmación de género para adultos trans, entre otros programas.
+    url: https://www.trueselffoundation.org/
+    cost: free
+    verification: community_reported
+    sources: [true-self, recursos-trans]
+  - id: salud-vih-line
+    name: Departamento de Salud, línea de VIH y enfermedades de transmisión sexual
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Department of Health information line for HIV and STI testing, treatment, and prevention services, (787) 765-1010.
+      es: Línea del Departamento de Salud sobre pruebas, tratamiento y prevención de VIH y enfermedades de transmisión sexual, (787) 765-1010.
+    url: https://www.salud.pr.gov/CMS/38
+    phone: "787-765-1010"
+    cost: free
+    languages: [Español]
+    verification: official_source
+    sources: [salud-servicios]
+  - id: linea-pas
+    name: Línea PAS (ASSMCA)
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Puerto Rico's 24-hour crisis and mental health line, 1-800-981-0023 (TDD 1-888-672-7622). You can also call or text 988.
+      es: Línea de crisis y salud mental de Puerto Rico, 24 horas, 1-800-981-0023 (TDD 1-888-672-7622). También puedes llamar o enviar texto al 988.
+    url: https://www.salud.pr.gov/CMS/38
+    phone: "1-800-981-0023"
+    cost: free
+    languages: [Español, English]
+    verification: official_source
+    sources: [salud-servicios]
+  - id: trans-health-project
+    org: a4te
+    name: Trans Health Project (A4TE)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Guides and templates for appealing insurance denials of gender-affirming care.
+      es: Guías y modelos para apelar denegaciones de seguros de atención de afirmación de género.
+    url: https://transequality.org/
+    cost: free
+    verification: unverified
+    sources: [a4te]
+statutes:
+  - cite: Ley Núm. 63 de 16 de julio de 2025 (P. del S. 350)
+    title:
+      en: Bans gender-affirming medications and surgery for people under 21; bars public funds; 15-year prison term for violations
+      es: Prohíbe medicamentos y cirugías de afirmación de género para menores de 21 años; prohíbe fondos públicos; 15 años de reclusión por violaciones
+    url: https://www.lexjuris.com/lexlex/Leyes2025/lexl2025063.htm
+sources:
+  - id: ley-63-2025
+    url: https://www.lexjuris.com/lexlex/Leyes2025/lexl2025063.htm
+    title: Ley Núm. 63 de 2025, Ley para la protección de la salud y el bienestar de los menores de edad en Puerto Rico
+    publisher: LexJuris de Puerto Rico
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Niño o menor de edad - Toda persona menor de 21 años... será sancionada con pena de reclusión por un término fijo de quince (15) años."
+  - id: cse-pr
+    url: https://southernequality.org/pr/
+    title: Resources for Trans Youth & Their Families in Puerto Rico
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Transgender young people in Puerto Rico can still access mental health care, which is not restricted or banned by this law.
+  - id: aclu-pr
+    url: https://www.aclu-pr.org/es/issues/derechos-de-las-personas-transgenero/
+    title: Derechos de las personas transgénero
+    publisher: ACLU de Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+  - id: medicaid-pr
+    url: https://www.medicaid.pr.gov/
+    title: Programa Medicaid de Puerto Rico
+    publisher: Departamento de Salud de Puerto Rico
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-health
+    url: https://www.mapresearch.org/equality_maps/profile_state/PR
+    title: Puerto Rico's equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ocs
+    url: https://www.ocs.pr.gov/sistema-de-querellas
+    title: Sistema de querellas
+    publisher: Oficina del Comisionado de Seguros de Puerto Rico
+    kind: official
+    accessed: "2026-09-24"
+  - id: transsalud
+    url: https://transsalud.org/
+    title: TransSalud Puerto Rico
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Consulta con el proveedor (visita inicial virtual) $80 ... Laboratorios (Terapia hormonal básica de afirmación de género) $99"
+  - id: ararat
+    url: https://centroararat.org/centro-ararat-clinics/
+    title: Centro Ararat Clinics
+    publisher: Centro Ararat
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: true-self
+    url: https://www.trueselffoundation.org/
+    title: True Self Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: recursos-trans
+    url: https://recursostrans.org/docs/paises/puerto-rico/contactos/
+    title: Contactos, Puerto Rico
+    publisher: Recursos Trans
+    kind: community
+    accessed: "2026-09-24"
+  - id: salud-servicios
+    url: https://www.salud.pr.gov/CMS/38
+    title: Programas de Salud
+    publisher: Departamento de Salud de Puerto Rico
+    kind: official
+    accessed: "2026-09-24"
+    quote: "VIH/Enfermedades de transmisión sexual (787) 765-1010 ... Línea PAS 1-800-981-0023 1-888-672-7622 TDD"
+  - id: a4te
+    url: https://transequality.org/
+    title: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
