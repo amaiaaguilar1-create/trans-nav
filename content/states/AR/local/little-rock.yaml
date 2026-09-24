@@ -1,0 +1,214 @@
+jurisdiction: AR
+slug: little-rock
+name: Little Rock
+area:
+  en: Pulaski County and the central Arkansas metro (North Little Rock, Conway, Benton)
+  es: Condado de Pulaski y el área metropolitana del centro de Arkansas (North Little Rock, Conway, Benton)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Pulaski fee schedules are dated May 20, 2019 (latest posted); confirm $165. The Pulaski Circuit/County Clerk site
+    advertises a "free civil legal help desk event" but we did not read its details. Planned Parenthood Little Rock
+    address and phone from its health center page. We found no verified Little Rock LGBTQ community center or
+    FQHC with a published trans health program; Lucie's Place's domain no longer works. Reviewer: consider adding
+    local FQHCs and LGBTQ-affirming mental health providers after checking their pages.
+intro:
+  en: >-
+    Little Rock is home to the state courts, the Department of Health's Vital Records office, and a Planned Parenthood
+    health center that prescribes hormones to adults by informed consent. Name-change petitions for Pulaski County
+    residents are filed with the Pulaski County Circuit Clerk.
+  es: >-
+    Little Rock tiene los tribunales estatales, la oficina de Registros Vitales del Departamento de Salud y un centro
+    de Planned Parenthood que receta hormonas a adultos por consentimiento informado. Las peticiones de cambio de
+    nombre de residentes del condado de Pulaski se presentan ante el Secretario del Tribunal de Circuito de Pulaski.
+court:
+  name: Pulaski County Circuit Court (Circuit Clerk, 401 West Markham St., Little Rock)
+  url: https://pulaskiclerkar.gov/
+  filing_fee: 165
+  notes:
+    en: Filing fee from the clerk's court filings fee schedule; certified copies are $5 per seal. Clerk's office phone 501-340-8500.
+    es: Tarifa según la tabla de tarifas del secretario; las copias certificadas cuestan $5 por sello. Teléfono 501-340-8500.
+  sources: [pulaski-clerk, pulaski-fees]
+resources:
+  - id: pulaski-clerk
+    name: Pulaski County Circuit/County Clerk
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Files name-change petitions and sells certified copies of orders. Pay by cash, money order, check, or card in person.
+      es: Recibe peticiones de cambio de nombre y vende copias certificadas de las órdenes. Pago en efectivo, giro, cheque o tarjeta en persona.
+    url: https://pulaskiclerkar.gov/about-us/all-fees/
+    phone: "501-340-8500"
+    address: 401 West Markham St., Little Rock, AR 72201
+    cost: paid
+    verification: official_source
+    sources: [pulaski-clerk]
+  - id: adh-vital-records
+    name: Arkansas Department of Health, Vital Records
+    type: government_office
+    pillars: [gender_marker, name_change]
+    description:
+      en: Amends Arkansas birth certificates ($15) and issues copies ($12 first). Walk-in service weekdays.
+      es: Enmienda actas de nacimiento de Arkansas ($15) y emite copias ($12 la primera). Atención sin cita entre semana.
+    url: https://healthy.arkansas.gov/programs-services/certificates-records/change-or-amend-a-birth-or-death-certificate/change-sex-and-name-on-a-birth-record/
+    phone: "501-682-1214"
+    address: 4815 West Markham St., Little Rock, AR 72205
+    cost: paid
+    verification: official_source
+    sources: [adh-sex-name]
+  - id: legal-aid-ar
+    name: Legal Aid of Arkansas
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal help for low-income residents; statewide intake at 1-800-952-9243.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos; admisión estatal al 1-800-952-9243.
+    url: https://arlegalaid.org/
+    phone: "1-800-952-9243"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-ar]
+  - id: pp-little-rock
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains, Little Rock Aldersgate Road Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Hormone therapy for adults 18+ with no therapist letter; STI testing and birth control. Most insurance accepted; financial counselors for the uninsured.
+      es: Terapia hormonal para adultos de 18+ sin carta de terapeuta; pruebas de ITS y anticonceptivos. Acepta la mayoría de los seguros; asesores financieros para quienes no tienen seguro.
+    url: https://www.plannedparenthood.org/health-center/arkansas/little-rock/72205/little-rock-aldersgate-road-health-center-9998-90740
+    phone: "501-666-7526"
+    address: 1501 Aldersgate Rd, Little Rock, AR 72205
+    cost: varies
+    accepts_uninsured: true
+    verification: org_website
+    sources: [pp-little-rock, ppgp-gac]
+  - id: adh-hiv
+    name: Arkansas Department of Health, HIV Prevention Program
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: State HIV testing, education, and PrEP-related program based in Little Rock; local health units offer testing.
+      es: Programa estatal de pruebas de VIH, educación y PrEP con sede en Little Rock; las unidades de salud locales ofrecen pruebas.
+    url: https://healthy.arkansas.gov/programs-services/prevention-healthy-living/hiv-prevention/
+    phone: "501-661-2943"
+    address: 4815 W. Markham St., Little Rock, AR 72205
+    cost: varies
+    verification: official_source
+    sources: [adh-hiv]
+  - id: intransitive
+    name: Intransitive
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Trans-led Arkansas organization with community care spaces, workshops, anti-violence advocacy, and financial support funds.
+      es: Organización de Arkansas dirigida por personas trans con espacios de cuidado comunitario, talleres, apoyo contra la violencia y fondos de ayuda.
+    url: https://www.intransitive.org/our-work
+    cost: free
+    verification: org_website
+    sources: [intransitive]
+  - id: aclu-ar
+    name: ACLU of Arkansas
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Little Rock-based civil rights organization working on LGBTQ rights.
+      es: Organización de derechos civiles con sede en Little Rock que trabaja por los derechos LGBTQ.
+    url: https://www.acluarkansas.org/issues/lgbt-rights/
+    cost: free
+    verification: org_website
+    sources: [aclu-ar]
+  - id: pop
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone therapy and other gender-affirming needs.
+      es: Fondos nacionales para terapia hormonal y otras necesidades de afirmación de género.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: pulaski-clerk
+    url: https://pulaskiclerkar.gov/about-us/all-fees/
+    title: All Fees
+    publisher: Pulaski County Circuit/County Clerk
+    kind: official
+    accessed: "2026-09-24"
+  - id: pulaski-fees
+    url: https://media.ark.org/pulaskiclerk/061019_Fee_Schedule_-_Central.pdf
+    title: Court Filings Fee Schedule (May 20, 2019)
+    publisher: Pulaski County Circuit/County Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: For initiating ANY cause of action in Circuit Court ... $165.00
+  - id: adh-sex-name
+    url: https://healthy.arkansas.gov/programs-services/certificates-records/change-or-amend-a-birth-or-death-certificate/change-sex-and-name-on-a-birth-record/
+    title: Change Sex and Name on a Birth Record
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: legal-aid-ar
+    url: https://arlegalaid.org/
+    title: Legal Aid of Arkansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-little-rock
+    url: https://www.plannedparenthood.org/health-center/arkansas/little-rock/72205/little-rock-aldersgate-road-health-center-9998-90740
+    title: Little Rock Aldersgate Road Health Center
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgp-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains/patient-resources/gender-affirming-care
+    title: Gender Affirming Care
+    publisher: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer gender-affirming hormone care for patients 18 years and older at all of our health centers.
+  - id: adh-hiv
+    url: https://healthy.arkansas.gov/programs-services/prevention-healthy-living/hiv-prevention/
+    title: HIV Prevention
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: intransitive
+    url: https://www.intransitive.org/our-work
+    title: Our Work
+    publisher: Intransitive
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ar
+    url: https://www.acluarkansas.org/issues/lgbt-rights/
+    title: LGBTQ Rights
+    publisher: ACLU of Arkansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

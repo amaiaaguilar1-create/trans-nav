@@ -1,0 +1,175 @@
+guide_type: drivers_license
+jurisdiction: NV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirement is from NAC 483.070 (amended R090-17, effective 2018-05-16), read 2026-09-24. DMV 002 (rev. 09/2024) has
+    a SEX box with M, F, X. The DMV no longer has a dedicated gender-change page: dmv.nv.gov/dlgender.htm returns 404,
+    and the forms index has no separate gender-declaration form. So it is unconfirmed whether the "form provided by
+    the Department" in NAC 483.070 is just DMV 002 or a separate declaration handed out in the office. Reviewer: call
+    the DMV. The fee used is "Change of Information (other than address) $8.50" from dlfees.htm, which matches NRS
+    483.410's $5 statutory fee plus the technology fee. NRS 483.410 has a new version effective 2027-01-01, so recheck
+    fees then. The year X became available (2019, per common reporting) was not confirmed on a DMV page. A4TE
+    (December 2025) says M, F, or X with no medical documentation and an in-person appointment.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Nevada lets you choose M, F, or X on your driver's license or ID card by declaring your gender yourself. No doctor's
+    letter, court order, or surgery is needed. The change is made in person at a DMV office and costs $8.50.
+  es: >-
+    Nevada te permite elegir M, F o X en tu licencia o tarjeta de identificación con tu propia declaración. No se
+    necesita carta médica, orden judicial ni cirugía. El cambio se hace en persona en una oficina del DMV y cuesta
+    $8.50.
+summary:
+  en: |
+    Under NAC 483.070, you change the gender on a Nevada license or ID by declaring yourself a person of the identified gender on a DMV form. No medical or court documentation is required. The Application for Driving Privileges or ID Card (DMV 002) has a SEX field where you circle M, F, or X. The DMV surrenders your old card and issues a new one (NAC 483.075).
+
+    Changing your **name** requires proof of the legal name change, such as a certified court order, marriage certificate, or divorce decree (NAC 483.055). You can do both at the same visit.
+  es: |
+    Según NAC 483.070, cambias el género en una licencia o identificación de Nevada declarándote persona del género identificado en un formulario del DMV, sin documentación médica ni judicial. La solicitud DMV 002 tiene un campo SEX donde marcas M, F o X. El DMV recoge tu tarjeta anterior y emite una nueva.
+
+    Cambiar tu **nombre** requiere prueba del cambio legal (orden judicial certificada, certificado de matrimonio o sentencia de divorcio). Puedes hacer ambos en la misma visita.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Nevada driver's license, driver authorization card, or ID card.
+    es: Debes tener o solicitar una licencia, tarjeta de autorización o identificación de Nevada.
+  sources: [nac-483, dmv002]
+forms:
+  - id: DMV 002
+    name:
+      en: Application for Driving Privileges or ID Card
+      es: Solicitud de privilegios de conducir o tarjeta de identificación
+    url: https://dmv.nv.gov/pdfforms/dmv002en.pdf
+    url_es: https://dmv.nv.gov/pdfforms/dmv002es.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Check **CHANGE** at the top, and REAL ID or Standard.
+        - Name: your current legal name, or your new name if you are bringing the certified court order.
+        - **SEX (circle 1): M, F, or X.** Circle the marker you want.
+        - Ask at the counter whether the office also needs a separate gender declaration (NAC 483.070). Sign whatever they provide. No medical proof may be required.
+      es: |
+        - Marca **CHANGE** arriba, y REAL ID o Standard.
+        - Nombre: tu nombre legal actual, o el nuevo si llevas la orden judicial certificada.
+        - **SEX: marca M, F o X.**
+        - Pregunta si la oficina necesita una declaración de género aparte y fírmala. No pueden pedir prueba médica.
+    sources: [dmv002, nac-483, dmv-duplicate]
+steps:
+  - id: appointment
+    title:
+      en: Make a DMV appointment and print DMV 002
+      es: Haz una cita en el DMV e imprime el DMV 002
+    body:
+      en: Book an appointment online and fill in DMV 002 before you go. The DMV's online duplicate service is for replacing a card, and a gender change means surrendering your old card for a new one (NAC 483.075), so plan on going in person.
+      es: Haz una cita en línea y llena el DMV 002 antes de ir. El cambio de género implica entregar tu tarjeta por una nueva, así que planea ir en persona.
+    forms: [DMV 002]
+    sources: [dmv-duplicate]
+  - id: visit
+    title:
+      en: Go to the office and declare your gender
+      es: Ve a la oficina y declara tu género
+    body:
+      en: Bring your current card, the completed DMV 002, and, if your name is changing, a certified copy of your name change order. Update Social Security first so the name matches. Sign the gender declaration if one is provided. You will surrender your old card, take a new photo, and pay the change-of-information fee.
+      es: Lleva tu tarjeta actual, el DMV 002 y, si cambias de nombre, una copia certificada de la orden (actualiza primero el Seguro Social). Firma la declaración de género si te la dan. Entregarás tu tarjeta, te tomarán una foto nueva y pagarás la tarifa.
+    fees: [change-info]
+    applies_to: [in_person]
+    sources: [nac-483, dmv-fees]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: You get a temporary paper document at the office. The card is mailed to you.
+      es: Recibes un documento temporal en papel; la tarjeta llega por correo.
+    sources: [nac-483]
+fees:
+  - id: change-info
+    label:
+      en: Change of information other than address (driver's license or ID card)
+      es: Cambio de información distinta a la dirección (licencia o identificación)
+    amount: 8.5
+    note:
+      en: The DMV lists the same $8.50 fee for licenses and ID cards. If the card is also due for renewal, renewal fees apply instead. People under 25 who declare themselves homeless can get fee exemptions (DMV 128).
+      es: El mismo cargo de $8.50 aplica a licencias e identificaciones. Personas sin hogar menores de 25 años pueden estar exentas (DMV 128).
+    sources: [dmv-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: People under 25 who declare themselves homeless get full fee exemptions for original, renewal, and duplicate cards. People 25 and older who declare homelessness can get a one-time waiver for a duplicate ID. People released from prison or jail within 90 days can get a one-time duplicate waiver. It is not clear whether these waivers cover a change-of-information transaction.
+    es: Las personas sin hogar menores de 25 años están exentas; las de 25 o más pueden obtener una exención única para una identificación duplicada; también hay una exención única para personas liberadas en los últimos 90 días.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: The DMV surrenders your old card and issues a new one with a new photo, so plan on an office visit.
+    es: El DMV recoge tu tarjeta y emite una nueva con foto nueva; planea una visita a la oficina.
+  sources: [nac-483, dmv-duplicate]
+timeline:
+  en: One office visit. The card arrives by mail, typically within a few weeks.
+  es: Una visita a la oficina; la tarjeta llega por correo en pocas semanas.
+after:
+  en: |
+    Your Nevada card is valid for driving, voting, and REAL ID purposes with any marker. The US passport and Social Security record currently cannot show X or a changed sex marker, so your documents may not match. That is legal, but carry your license when traveling.
+  es: |
+    Tu tarjeta de Nevada es válida para conducir, votar y REAL ID con cualquier marcador. El pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado, así que tus documentos pueden no coincidir.
+tips:
+  - en: You can change your marker without changing your name, and vice versa.
+    es: Puedes cambiar tu marcador sin cambiar tu nombre, y al revés.
+  - en: If staff ask for a doctor's letter, cite NAC 483.070, which requires only your declaration. Legal Aid Center of Southern Nevada (702-386-1070) helps with gender marker changes.
+    es: Si te piden carta médica, cita NAC 483.070, que solo exige tu declaración.
+statutes:
+  - cite: NAC 483.070
+    title:
+      en: Declaration required for change of gender
+    url: https://www.leg.state.nv.us/NAC/NAC-483.html#NAC483Sec070
+  - cite: NAC 483.055
+    title:
+      en: Documentation required for change of full legal name
+    url: https://www.leg.state.nv.us/NAC/NAC-483.html#NAC483Sec055
+  - cite: NRS 483.410
+    title:
+      en: License fees, including change of name or other information
+    url: https://www.leg.state.nv.us/NRS/NRS-483.html#NRS483Sec410
+related_links:
+  - title: Advocates for Trans Equality, Nevada identity documents
+    url: https://transequality.org/documents/nevada-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+sources:
+  - id: nac-483
+    url: https://www.leg.state.nv.us/NAC/NAC-483.html
+    title: NAC Chapter 483 (NAC 483.055, 483.070, 483.075)
+    publisher: Nevada Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: A person who wishes to change the gender indicated on his or her drivers license ... must attest to such a change by submitting his or her declaration as a person of the identified gender on a form provided by the Department.
+  - id: dmv002
+    url: https://dmv.nv.gov/pdfforms/dmv002en.pdf
+    title: DMV 002, Application for Driving Privileges or ID Card (rev. 09/2024)
+    publisher: Nevada DMV
+    kind: form
+    accessed: "2026-09-24"
+    quote: SEX (CIRCLE 1) M F X
+  - id: dmv-fees
+    url: https://dmv.nv.gov/dlfees.htm
+    title: Driver License/ID Fees and Exemptions
+    publisher: Nevada DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: Change of Information (other than address) $8.50
+  - id: dmv-duplicate
+    url: https://dmv.nv.gov/dlduplicate.htm
+    title: Duplicate Driver License, ID or DAC
+    publisher: Nevada DMV
+    kind: official
+    accessed: "2026-09-24"

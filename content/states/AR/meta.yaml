@@ -1,0 +1,126 @@
+code: AR
+name:
+  en: Arkansas
+  es: Arkansas
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate based on primary sources: Act 711 of 2025 (license marker only with amended birth certificate, no X), ADH
+    birth certificate page (court order citing surgery), Act 626 of 2021 upheld in Brandt v. Griffin (8th Cir. en banc,
+    Aug. 12, 2025), Act 955 of 2025 (SB 486, sex-designated multi-occupancy restrooms, changing rooms, and sleeping
+    quarters in shelters, correctional facilities, and public buildings). MAP's Arkansas profile agrees (negative on
+    IDs and care, no shield law). Lucie's Place's domain now redirects to an unrelated site, and the Arkansas
+    Transgender Equality Coalition and Center for Artistic Revolution sites did not resolve; they are not listed.
+overview:
+  en: >-
+    Arkansas is restrictive for trans people. Name changes are straightforward (no newspaper publication, fee about
+    $165), but the sex on a birth certificate changes only with a court order citing surgery, and a 2025 law (Act 711)
+    lets the driver's license show only M or F matching an amended birth certificate. Adults can get hormone therapy,
+    including by informed consent, but care for minors is banned (Act 626, upheld in 2025), insurers need not cover
+    transition care, and there is no shield law.
+  es: >-
+    Arkansas es restrictivo para las personas trans. El cambio de nombre es sencillo (sin publicación en periódico,
+    tarifa de unos $165), pero el sexo en el acta de nacimiento solo cambia con una orden judicial que mencione
+    cirugía, y una ley de 2025 (Ley 711) permite que la licencia muestre solo M o F según un acta enmendada. Los
+    adultos pueden obtener terapia hormonal, incluso por consentimiento informado, pero la atención para menores está
+    prohibida (Ley 626, confirmada en 2025), las aseguradoras no están obligadas a cubrirla y no hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [act711, adh-sex-name, act626, brandt-8th, act955, map-ar]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [little-rock]
+key_resources:
+  - id: legal-aid-ar
+    name: Legal Aid of Arkansas
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal help for low-income Arkansans statewide. Call 1-800-952-9243 or apply online.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en todo Arkansas. Llama al 1-800-952-9243 o solicita en línea.
+    url: https://arlegalaid.org/
+    phone: "1-800-952-9243"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-ar]
+  - id: intransitive
+    name: Intransitive
+    type: advocacy_org
+    pillars: [mental_health, name_change]
+    description:
+      en: Trans-led Arkansas organization offering anti-violence advocacy, community care, immigration support, and financial support funds.
+      es: Organización de Arkansas dirigida por personas trans con apoyo contra la violencia, cuidado comunitario, apoyo migratorio y fondos de ayuda económica.
+    url: https://www.intransitive.org/
+    cost: free
+    verification: org_website
+    sources: [intransitive]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: act711
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=711.pdf&ddBienniumSession=2025%2F2025R
+    title: Act 711 of 2025 (HB 1796)
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: adh-sex-name
+    url: https://healthy.arkansas.gov/programs-services/certificates-records/change-or-amend-a-birth-or-death-certificate/change-sex-and-name-on-a-birth-record/
+    title: Change Sex and Name on a Birth Record
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: act626
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=626.pdf&ddBienniumSession=2021%2F2021R
+    title: Act 626 of 2021 (HB 1570), Arkansas SAFE Act
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: brandt-8th
+    url: https://ecf.ca8.uscourts.gov/opndir/25/08/232681P.pdf
+    title: Brandt v. Griffin, No. 23-2681 (8th Cir. Aug. 12, 2025) (en banc)
+    publisher: U.S. Court of Appeals for the Eighth Circuit
+    kind: court
+    accessed: "2026-09-24"
+  - id: act955
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=955.pdf&ddBienniumSession=2025%2F2025R
+    title: Act 955 of 2025 (SB 486), safety and privacy in certain entities
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-ar
+    url: https://www.mapresearch.org/equality-maps/profile_state/AR
+    title: Arkansas equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-aid-ar
+    url: https://arlegalaid.org/
+    title: Legal Aid of Arkansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: intransitive
+    url: https://www.intransitive.org/
+    title: Intransitive
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

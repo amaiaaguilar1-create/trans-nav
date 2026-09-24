@@ -1,0 +1,148 @@
+guide_type: birth_certificate
+jurisdiction: AR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirement read on ADH's "Change Sex and Name on a Birth Record" page 2026-09-24 ("A court order is required in
+    order to change one's sex and name on a birth certificate following a surgical procedure"). The statute, Ark. Code
+    20-18-307, could not be fetched (Lexis/Justia blocked); we checked the legislature's code-sections-amended lists
+    for 2021, 2023, and 2025 and found no act amending 20-18-307, so we did NOT find a 2025 law barring birth
+    certificate sex changes (the task brief suggested one might exist; HB 1668 of 2025 was withdrawn and is about a
+    civil action, not vital records). Reviewer: confirm no 2025-2026 act or ADH rule change. Whether ADH issues a new
+    certificate or marks the old one "amended," and whether the original is sealed, is not stated on ADH pages.
+    Fees ($15 amendment, $12 first copy, $10 each additional) from ADH pages. Processing time for amendments not
+    published; the 10 to 14 day figure is for ordinary mail orders.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Arkansas, you can change the sex on your birth certificate only with a certified court order
+    stating that your sex was changed by a surgical procedure. Only male or female are available. A name change needs
+    a certified court order.
+  es: >-
+    Si naciste en Arkansas, solo puedes cambiar el sexo en tu acta de nacimiento con una orden judicial certificada que
+    diga que tu sexo se cambió mediante un procedimiento quirúrgico. Solo hay masculino o femenino. Un cambio de nombre
+    requiere una orden judicial certificada.
+summary:
+  en: |
+    The Arkansas Department of Health (ADH) Vital Records amends birth certificates for people **born in Arkansas**. For a sex change, ADH requires a **certified court order** that changes your name and states that "the sex is to be changed due to a surgical procedure." Once ADH has the order and the fee, it makes the amendment without any other form. ADH notes that an attorney is normally needed to get this kind of order.
+
+    **Name only**: send a certified copy of your circuit court name-change order. You can also ask the circuit clerk to forward your order to Vital Records.
+
+    **Born in another state?** Follow your birth state's rules. Arkansas's driver's license office accepts amended birth certificates from any state.
+  es: |
+    Registros Vitales del Departamento de Salud de Arkansas (ADH) enmienda actas de nacimiento de personas **nacidas en Arkansas**. Para cambiar el sexo, ADH exige una **orden judicial certificada** que cambie tu nombre y diga que "el sexo debe cambiarse debido a un procedimiento quirúrgico". Con la orden y el pago, ADH hace la enmienda sin otro formulario. ADH señala que normalmente se necesita un abogado para obtener este tipo de orden.
+
+    **Solo nombre**: envía una copia certificada de tu orden de cambio de nombre. También puedes pedir al secretario del tribunal que envíe la orden a Registros Vitales.
+
+    **¿Naciste en otro estado?** Sigue las reglas de tu estado de nacimiento. La oficina de licencias de Arkansas acepta actas enmendadas de cualquier estado.
+eligibility:
+  residency:
+    en: You must have been born in Arkansas. Where you live now does not matter.
+    es: Debes haber nacido en Arkansas. No importa dónde vivas ahora.
+  other:
+    en: For a sex change, the court order must say the change is due to a surgical procedure.
+    es: Para cambiar el sexo, la orden judicial debe decir que el cambio se debe a un procedimiento quirúrgico.
+  sources: [adh-sex-name, act331-2023]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified court order
+      es: Obtén una orden judicial certificada
+    body:
+      en: Petition the circuit court (see the name change guide). For a sex change, the order must state your new name and that your sex is to be changed due to a surgical procedure. Consider asking a lawyer or Legal Aid of Arkansas for help with the wording.
+      es: Presenta una petición en el tribunal de circuito (ver la guía de cambio de nombre). Para cambiar el sexo, la orden debe indicar tu nuevo nombre y que tu sexo debe cambiarse debido a un procedimiento quirúrgico. Considera pedir ayuda a un abogado o a Legal Aid of Arkansas.
+    sources: [adh-sex-name]
+  - id: send
+    title:
+      en: Send the order and fees to Vital Records
+      es: Envía la orden y el pago a Registros Vitales
+    body:
+      en: |
+        Mail or bring the certified order, a copy of your photo ID, and payment to: Arkansas Department of Health, Vital Records, 4815 West Markham, Slot 44, Little Rock, AR 72205. Pay the $15 amendment fee plus $12 for a certified copy of the new certificate. Checks and money orders go to "Arkansas Department of Health"; do not mail cash. Questions: 501-682-1214.
+      es: |
+        Envía o lleva la orden certificada, copia de tu identificación con foto y el pago a: Arkansas Department of Health, Vital Records, 4815 West Markham, Slot 44, Little Rock, AR 72205. Paga $15 por la enmienda más $12 por una copia certificada. Cheques y giros a nombre de "Arkansas Department of Health"; no envíes efectivo. Preguntas: 501-682-1214.
+    fees: [amendment, copy-first, copy-additional]
+    sources: [adh-sex-name, adh-amend, adh-order]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee
+      es: Tarifa de enmienda
+    amount: 15
+    sources: [adh-amend]
+  - id: copy-first
+    label:
+      en: Certified copy (first)
+      es: Copia certificada (primera)
+    amount: 12
+    sources: [adh-order, adh-amend]
+  - id: copy-additional
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 10
+    sources: [adh-order]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail or in person at the Little Rock office (4815 West Markham Street), Monday to Friday.
+    es: Por correo o en persona en la oficina de Little Rock (4815 West Markham Street), de lunes a viernes.
+  sources: [adh-sex-name]
+timeline:
+  en: ADH does not publish a time for amendments; ordinary mailed orders take 10 to 14 days plus mail time.
+  es: ADH no publica un plazo para enmiendas; los pedidos normales por correo tardan de 10 a 14 días más el envío.
+after:
+  en: Use the amended certificate to change the marker on your Arkansas driver's license or ID (see that guide), then update your passport and other records as needed.
+  es: Usa el acta enmendada para cambiar el marcador en tu licencia o identificación de Arkansas (ver esa guía) y luego actualiza tu pasaporte y otros registros según sea necesario.
+tips:
+  - en: Order several certified copies at once; extra copies cost less in the same order.
+    es: Pide varias copias certificadas a la vez; las adicionales cuestan menos en el mismo pedido.
+statutes:
+  - cite: Ark. Code Ann. § 20-18-307
+    title:
+      en: Amendment of vital records (the consolidated text could not be fetched; see review notes)
+    url: https://www.arkleg.state.ar.us/ArkansasLaw
+related_links:
+  - title: Advocates for Trans Equality, Arkansas identity documents
+    url: https://transequality.org/documents/arkansas-identity-documents
+    note:
+      en: Also says a court order and certification of surgery are required.
+      es: También dice que se requiere orden judicial y certificación de cirugía.
+sources:
+  - id: adh-sex-name
+    url: https://healthy.arkansas.gov/programs-services/certificates-records/change-or-amend-a-birth-or-death-certificate/change-sex-and-name-on-a-birth-record/
+    title: Change Sex and Name on a Birth Record
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: A court order is required in order to change one's sex and name on a birth certificate following a surgical procedure.
+  - id: adh-amend
+    url: https://healthy.arkansas.gov/programs-services/certificates-records/change-or-amend-a-birth-or-death-certificate/
+    title: Change or amend a birth or death certificate
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Amendment fee $15.00
+  - id: adh-order
+    url: https://healthy.arkansas.gov/programs-services/certificates-records/order-birth-records/
+    title: Order birth records
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: First copy $12.00; additional copies ordered at the same time $10.00 each
+  - id: act331-2023
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=331.pdf&ddBienniumSession=2023%2F2023R
+    title: Act 331 of 2023 (HB 1473), name change procedure
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The clerk shall deliver the unredacted order to the ... Division of Vital Records, if requested by the petitioner.

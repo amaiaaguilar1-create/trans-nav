@@ -1,0 +1,154 @@
+code: NV
+name:
+  en: Nevada
+  es: Nevada
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    SB 302 (2023), the proposed shield law for gender-affirming care, was vetoed by Governor Lombardo on June 3, 2023
+    (NELIS history, read 2026-09-24). The research request assumed it had passed. It did not. As of the NRS revision that
+    includes 2025 laws, the phrase "gender-affirming" shows up only in the Medicaid and insurance chapters (NRS 422,
+    689A), not in the licensing chapters (630-633) or the extradition and criminal chapters where a shield law would sit.
+    MAP also scores Nevada 0/1 for a trans-care shield law. Reviewer: confirm that no 2025 or 2026 shield bill became law.
+climate:
+  id_documents: protective
+  care: mixed
+  shield_law: false
+  sources: [nrs-41, nac-483, sb302-nelis, nrs-422, map-nv]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [las-vegas]
+key_resources:
+  - id: lacsn
+    name: Legal Aid Center of Southern Nevada
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help with name changes and gender marker changes for eligible low-income clients. Walk in Monday to Thursday, 9 a.m. to 4 p.m. Also runs the Clark County Family Law Self-Help Center.
+      es: Ayuda gratuita con cambios de nombre y de marcador de género para personas de bajos ingresos que califican. Atención sin cita de lunes a jueves, de 9 a. m. a 4 p. m.
+    url: https://www.lacsn.org/practice-areas/family-justice-project/name-change-gender-marker
+    phone: "702-386-1070"
+    address: 725 E. Charleston Blvd., Las Vegas, NV 89104
+    cost: free
+    verification: org_website
+    sources: [lacsn-ncgm]
+  - id: the-center-lv
+    name: The LGBTQ+ Center of Las Vegas (The Center)
+    type: lgbtq_center
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: Southern Nevada's LGBTQ+ community center. It runs an informed-consent hormone clinic, a sexual health clinic, behavioral health services, and help enrolling in health insurance.
+      es: Centro comunitario LGBTQ+ del sur de Nevada. Tiene una clínica de hormonas por consentimiento informado, una clínica de salud sexual, servicios de salud mental y ayuda para inscribirse en un seguro médico.
+    url: https://thecenterlv.org/
+    phone: "702-733-9800"
+    address: 401 S. Maryland Pkwy, Las Vegas, NV 89101
+    cost: varies
+    verification: org_website
+    sources: [center-lv]
+  - id: our-center-reno
+    name: Our Center (Reno)
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: Northern Nevada's LGBTQ+ community center. It hosts trans peer support groups for adults, teens, and parents, and offers free HIV and STI testing by appointment.
+      es: Centro comunitario LGBTQ+ del norte de Nevada. Tiene grupos de apoyo trans para adultos, adolescentes y padres, y pruebas gratuitas de VIH e ITS con cita.
+    url: https://ourcenterreno.org/programs/
+    phone: "775-328-2470"
+    cost: free
+    verification: org_website
+    sources: [our-center-reno]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+overview:
+  en: >-
+    Nevada is broadly protective on ID documents. Adults changing their name to match their gender identity do not
+    have to publish it in a newspaper. You can pick M, F, or X on your driver's license by self-declaration, and people
+    born in Nevada can change the sex on their birth certificate with notarized affidavits, with no court order or
+    surgery. Nevada Medicaid and state-regulated insurance must cover medically necessary gender-affirming care, and
+    care for minors is not banned. Nevada has **no** shield law for gender-affirming care: the Governor vetoed SB 302 in
+    2023. Federal documents (passport, Social Security) are a separate matter: their sex fields are currently frozen
+    nationwide.
+  es: >-
+    Nevada protege bastante en materia de documentos de identidad. Los adultos que cambian su nombre por identidad de
+    género no tienen que publicarlo en un periódico. Puedes elegir M, F o X en tu licencia con tu propia declaración, y
+    las personas nacidas en Nevada pueden cambiar el sexo en su acta de nacimiento con declaraciones juradas
+    notariadas, sin orden judicial ni cirugía. Nevada Medicaid y los seguros regulados por el estado deben cubrir la
+    atención de afirmación de género médicamente necesaria, y la atención para menores no está prohibida. Nevada **no**
+    tiene ley escudo para la atención de afirmación de género: el Gobernador vetó la SB 302 en 2023.
+sources:
+  - id: nrs-41
+    url: https://www.leg.state.nv.us/NRS/NRS-041.html
+    title: NRS Chapter 41, Proceedings to change names of natural persons (NRS 41.270-41.2999)
+    publisher: Nevada Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the petition filed by the applicant states that the reason for desiring the change is to conform the applicant's name to his or her gender identity, the court shall not require the applicant to comply with the provisions of subsection 1.
+  - id: nac-483
+    url: https://www.leg.state.nv.us/NAC/NAC-483.html
+    title: NAC 483.070, Declaration required for change of gender
+    publisher: Nevada Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: A person who wishes to change the gender indicated on his or her drivers license ... must attest to such a change by submitting his or her declaration as a person of the identified gender on a form provided by the Department.
+  - id: sb302-nelis
+    url: https://www.leg.state.nv.us/App/NELIS/REL/82nd2023/Bill/10178/Overview
+    title: SB 302 (2023), gender-affirming health care protections, bill history
+    publisher: Nevada Legislature (NELIS)
+    kind: official
+    accessed: "2026-09-24"
+    quote: Jun 03, 2023 Vetoed by the Governor. Returned to Senate with Governor's veto message.
+  - id: nrs-422
+    url: https://www.leg.state.nv.us/NRS/NRS-422.html
+    title: NRS 422.272362, Medicaid coverage for gender dysphoria and gender incongruence
+    publisher: Nevada Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Authority shall not categorically refuse to cover any medically necessary gender-affirming treatments or procedures ...
+  - id: map-nv
+    url: https://www.mapresearch.org/equality-maps/profile_state/NV
+    title: Nevada equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Shield law for transgender health care 0/1; gender neutral markers on driver's licenses and birth certificates.
+  - id: lacsn-ncgm
+    url: https://www.lacsn.org/practice-areas/family-justice-project/name-change-gender-marker
+    title: Name/Gender Marker Change
+    publisher: Legal Aid Center of Southern Nevada
+    kind: org
+    accessed: "2026-09-24"
+    quote: We assist eligible individuals with name changes and gender marker changes ... walk-in hours Monday through Thursday between the hours of 9:00 a.m. and 4:00 p.m.
+  - id: center-lv
+    url: https://thecenterlv.org/wellness-clinic
+    title: Gavin J Goorjian Community Health Center
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Gender-Affirming Care: Hormone replacement therapy (HRT), Informed consent"
+  - id: our-center-reno
+    url: https://ourcenterreno.org/programs/
+    title: Programs
+    publisher: Our Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Trans Support Reno (TSR): Adult Peer-to-Peer Support Group meets every Tuesday"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

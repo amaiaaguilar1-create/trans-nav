@@ -1,0 +1,227 @@
+jurisdiction: NV
+slug: las-vegas
+name: Las Vegas
+area:
+  en: Clark County (Las Vegas, Henderson, North Las Vegas)
+  es: Condado de Clark (Las Vegas, Henderson, North Las Vegas)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Starter list from org and agency websites read 2026-09-24. Huntridge Family Clinic now redirects to CAN Community
+    Health Las Vegas, whose page lists HIV, PrEP, and STI services but not gender-affirming care. Verify before listing
+    it for hormones. Check hours, phone scheduling, and new-patient availability at The Center's clinics.
+intro:
+  en: >-
+    Las Vegas has free legal help for name and gender marker changes through Legal Aid Center of Southern Nevada, an
+    informed-consent hormone clinic at The Center, and low-cost sexual health clinics. Name change petitions are filed
+    with the Eighth Judicial District Court, Family Division, at 601 N. Pecos Rd.
+  es: >-
+    Las Vegas tiene ayuda legal gratuita para cambios de nombre y marcador de género a través de Legal Aid Center of
+    Southern Nevada, una clínica de hormonas por consentimiento informado en The Center y clínicas de salud sexual de
+    bajo costo. Las peticiones de cambio de nombre se presentan en el Octavo Tribunal Judicial de Distrito, División
+    de Familia, en 601 N. Pecos Rd.
+court:
+  name: Eighth Judicial District Court, Family Division (Family Courts and Services Center)
+  url: https://www.clarkcountycourts.us/
+  self_help_url: https://www.familylawselfhelpcenter.org/self-help/name-changes/name-changes-for-adults
+  filing_fee: 270
+  notes:
+    en: File in person at 601 N. Pecos Rd, Las Vegas, NV 89101, by mail, or through eFileNV ($3.50 extra). The Family Law Self-Help Center in the same building has free forms and a guided interview.
+    es: Presenta en persona en 601 N. Pecos Rd, por correo o por eFileNV ($3.50 adicional). El Centro de Autoayuda en el mismo edificio ofrece formularios gratuitos.
+  sources: [flshc-adult]
+resources:
+  - id: lacsn
+    name: Legal Aid Center of Southern Nevada, Name/Gender Marker Change
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help with name and gender marker changes for eligible clients. Walk in Monday to Thursday, 9 a.m. to 4 p.m., with proof of income, ID, and your birth certificate if you have it.
+      es: Ayuda gratuita con cambios de nombre y marcador de género; atención sin cita de lunes a jueves de 9 a 4.
+    url: https://www.lacsn.org/practice-areas/family-justice-project/name-change-gender-marker
+    phone: "702-386-1070"
+    address: 725 E. Charleston Blvd., Las Vegas, NV 89104
+    cost: free
+    verification: org_website
+    sources: [lacsn-ncgm]
+  - id: flshc
+    name: Family Law Self-Help Center
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Free forms, a guided online interview, and filing help for name changes, run by LACSN at the Family Courthouse.
+      es: Formularios gratuitos, entrevista guiada y ayuda para presentar cambios de nombre.
+    url: https://www.familylawselfhelpcenter.org/self-help/name-changes
+    address: 601 N. Pecos Rd, Las Vegas, NV 89101
+    cost: free
+    verification: org_website
+    sources: [flshc-adult]
+  - id: center-goorjian
+    name: The Center, Gavin J Goorjian Community Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy, primary care, PrEP/PEP, STI care, HIV care, and an on-site pharmacy. Scheduling is by phone.
+      es: Terapia hormonal por consentimiento informado, atención primaria, PrEP/PEP, ITS, VIH y farmacia. Citas por teléfono.
+    url: https://thecenterlv.org/wellness-clinic
+    phone: "702-780-4925"
+    address: 921 S. Las Vegas Blvd., Las Vegas, NV
+    cost: varies
+    verification: org_website
+    sources: [center-wellness]
+  - id: center-acchc
+    name: The Center, Arlene Cooper Community Health Center
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free rapid HIV testing, low-cost STI testing and treatment, and PrEP. Some walk-in slots are available daily. Out-of-state IDs are accepted.
+      es: Pruebas rápidas de VIH gratuitas, pruebas de ITS de bajo costo y PrEP; algunos cupos sin cita.
+    url: https://thecenterlv.org/health-center
+    phone: "702-802-5432"
+    address: 401 S. Maryland Pkwy, Las Vegas, NV 89101
+    cost: low_cost
+    verification: org_website
+    sources: [center-health]
+  - id: center-insurance
+    name: The Center, Health Insurance Services
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help enrolling in Nevada Health Link plans and with coverage questions.
+      es: Ayuda gratuita para inscribirse en Nevada Health Link.
+    url: https://thecenterlv.org/services/health-insurance-services
+    phone: "702-733-9800"
+    cost: free
+    verification: org_website
+    sources: [center-insurance]
+  - id: center-empower
+    name: The Center, Empower Behavioral Health
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Individual, family, and group therapy at The LGBTQ+ Center of Las Vegas.
+      es: Terapia individual, familiar y grupal en The Center.
+    url: https://thecenterlv.org/empower-behavioral-health
+    phone: "702-733-9800"
+    cost: unknown
+    verification: org_website
+    sources: [center-empower]
+  - id: pp-north-las-vegas
+    org: planned-parenthood
+    name: Planned Parenthood North Las Vegas Health Center (Mar Monte)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care, STI testing and treatment, HIV services, and birth control. Minimum age for hormone care not confirmed.
+      es: Ofrece atención de afirmación de género, pruebas de ITS, servicios de VIH y anticonceptivos.
+    url: https://www.plannedparenthood.org/health-center/nevada/north-las-vegas/89030/north-las-vegas-health-center-21949-90130
+    address: 2225 Civic Center Drive, Suite 230, North Las Vegas, NV 89030
+    cost: sliding_scale
+    verification: org_website
+    sources: [pp-nlv]
+  - id: snhd-sexual-health
+    name: Southern Nevada Health District Sexual Health Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: STI testing and treatment, PrEP, and PEP on a sliding scale based on income. No one is turned away for inability to pay. Walk-ins are accepted until capacity is reached.
+      es: Pruebas y tratamiento de ITS, PrEP y PEP en escala móvil; nadie es rechazado por no poder pagar.
+    url: https://www.southernnevadahealthdistrict.org/community-health-center/sexual-health-clinic/
+    phone: "702-759-1700"
+    address: 280 S. Decatur Blvd., Las Vegas, NV 89107
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [snhd-shc]
+  - id: can-community-health
+    name: CAN Community Health, Las Vegas (formerly Huntridge Family Clinic)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV and STI testing and treatment, PrEP, nPEP, and Ryan White services. Walk-ins welcome.
+      es: Pruebas y tratamiento de VIH e ITS, PrEP y nPEP; se aceptan pacientes sin cita.
+    url: https://www.cancommunityhealth.org/las-vegas/
+    phone: "702-979-1111"
+    address: 1820 E Sahara Ave, Suite 201, Las Vegas, NV 89104
+    cost: varies
+    verification: org_website
+    sources: [can-lv]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: flshc-adult
+    url: https://www.familylawselfhelpcenter.org/self-help/name-changes/name-changes-for-adults
+    title: Name Changes for Adults
+    publisher: Family Law Self-Help Center
+    kind: court
+    accessed: "2026-09-24"
+    quote: The court charges $270 to file the papers.
+  - id: lacsn-ncgm
+    url: https://www.lacsn.org/practice-areas/family-justice-project/name-change-gender-marker
+    title: Name/Gender Marker Change
+    publisher: Legal Aid Center of Southern Nevada
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-wellness
+    url: https://thecenterlv.org/wellness-clinic
+    title: Gavin J Goorjian Community Health Center
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Gender-Affirming Care: Hormone replacement therapy (HRT), Informed consent"
+  - id: center-health
+    url: https://thecenterlv.org/health-center
+    title: Arlene Cooper Community Health Center
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-insurance
+    url: https://thecenterlv.org/services/health-insurance-services
+    title: Health Insurance Services
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-empower
+    url: https://thecenterlv.org/empower-behavioral-health
+    title: Empower Behavioral Health
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-nlv
+    url: https://www.plannedparenthood.org/health-center/nevada/north-las-vegas/89030/north-las-vegas-health-center-21949-90130
+    title: North Las Vegas Health Center
+    publisher: Planned Parenthood Mar Monte
+    kind: org
+    accessed: "2026-09-24"
+  - id: snhd-shc
+    url: https://www.southernnevadahealthdistrict.org/community-health-center/sexual-health-clinic/
+    title: Sexual Health Clinic
+    publisher: Southern Nevada Health District
+    kind: official
+    accessed: "2026-09-24"
+    quote: You will not be turned away due to inability to pay on the day of your visit.
+  - id: can-lv
+    url: https://www.cancommunityhealth.org/las-vegas/
+    title: CAN Community Health Las Vegas
+    publisher: CAN Community Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

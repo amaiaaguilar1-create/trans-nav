@@ -1,0 +1,232 @@
+guide_type: drivers_license
+jurisdiction: AR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Act 711 of 2025 (HB 1796, approved April 16, 2025, amending Ark. Code 27-16-1104) read in full on arkleg. It has no
+    emergency clause, so it took effect on the 2025 general effective date (believed to be August 5, 2025; reviewer
+    confirm). DFA forms "Application to Amend Gender Information" and "Statement of Gender Information" (both posted
+    10/09/2024) downloaded and read. The 2024 DFA emergency rule that first ended X markers is background we did not
+    re-verify; it is not cited. Fees: Class D 8-year $40 and ID card $5 read on DFA pages; the duplicate/amended
+    license fee under Ark. Code 27-16-806 could NOT be confirmed on a DFA page, so no amount is given. Name-change
+    documents at the counter were not listed on DFA pages we could read; the step relies on the court order and Act 331
+    (clerk sends orders to Driver Control). Previously issued X cards: Act 711 lets ODS change them to M or F and
+    notify the holder by mail; not confirmed how many were changed. MAP rates AR driver's license marker as "negative
+    law," consistent with this. No active litigation found.
+status: restricted
+requirement_type: amended_birth_certificate
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on an Arkansas driver's license or ID only by bringing an amended birth certificate that
+    shows the new sex. Doctor's letters and court orders alone are not accepted, and X is not available. Name changes
+    work with a court order.
+  es: >-
+    Solo puedes cambiar el sexo en una licencia o identificación de Arkansas presentando un acta de nacimiento
+    enmendada con el nuevo sexo. No se aceptan solo cartas médicas ni órdenes judiciales, y no existe la X. Los
+    cambios de nombre se hacen con una orden judicial.
+summary:
+  en: |
+    **Act 711 of 2025** rewrote Ark. Code § 27-16-1104. Now:
+    - Every license and ID must show **M or F**, matching the sex on your "identity document" (original or amended birth certificate, passport, or DHS document). **X or a blank marker is not allowed.**
+    - To change the marker you file the Office of Driver Services' **Application to Amend Gender Information** with an **original or certified amended birth certificate** from Arkansas or any other state's vital records office. The new marker must match that certificate.
+    - If your only identity document shows X or no sex, you must pick M or F on a Statement of Gender Information to get a card at all.
+    - Cards already issued with **X** may be changed by the office to M or F to match your records; the office must tell you by mail.
+
+    Because an Arkansas birth certificate can be amended only with a court order saying your sex was changed by surgery, most people born in Arkansas cannot meet this requirement without surgery. People born in states that amend birth certificates on self-attestation can use that amended certificate here.
+  es: |
+    La **Ley 711 de 2025** reescribió el Código de Arkansas § 27-16-1104. Ahora:
+    - Toda licencia e identificación debe mostrar **M o F**, igual al sexo de tu "documento de identidad" (acta de nacimiento original o enmendada, pasaporte o documento del DHS). **No se permite X ni dejarlo en blanco.**
+    - Para cambiar el marcador presentas la **Solicitud para enmendar la información de género** de la Oficina de Servicios al Conductor con un **acta de nacimiento enmendada original o certificada** de Arkansas o de otro estado. El nuevo marcador debe coincidir con esa acta.
+    - Si tu único documento muestra X o no tiene sexo, debes elegir M o F en una Declaración de información de género para obtener la tarjeta.
+    - Las tarjetas emitidas con **X** pueden ser cambiadas por la oficina a M o F según tus registros; la oficina debe avisarte por correo.
+
+    Como un acta de nacimiento de Arkansas solo se enmienda con una orden judicial que diga que el sexo se cambió por cirugía, la mayoría de las personas nacidas en Arkansas no pueden cumplir este requisito sin cirugía. Quienes nacieron en estados que enmiendan actas por declaración propia pueden usar esa acta aquí.
+eligibility:
+  residency:
+    en: You must hold or be applying for an Arkansas driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia o identificación de Arkansas.
+  age:
+    en: Under 18, a parent or legal guardian must also sign the gender application.
+    es: Si tienes menos de 18 años, un padre, madre o tutor también debe firmar la solicitud.
+  other:
+    en: Your driving privileges must not be suspended or revoked to get an amended duplicate license (an ID card is still possible).
+    es: Tus privilegios de conducir no deben estar suspendidos ni revocados para obtener un duplicado enmendado de licencia (la identificación sí es posible).
+  sources: [act711, dfa-gender-app]
+forms:
+  - id: DS-GenderApplication
+    name:
+      en: Application to Amend Gender Information Contained on Driver's License or Identification Card
+      es: Solicitud para enmendar la información de género en la licencia o identificación
+    url: https://www.dfa.arkansas.gov/wp-content/uploads/DS_GenderApplication.pdf
+    required: conditional
+    condition:
+      en: Only for a sex-marker change. Attach an original or certified amended birth certificate.
+      es: Solo para cambiar el marcador de sexo. Adjunta un acta de nacimiento enmendada original o certificada.
+    how_to_fill:
+      en: |
+        - Fill in your name, date of birth, phone, license or ID number, and address.
+        - Check MALE (M) or FEMALE (F). It must match the amended birth certificate.
+        - Sign. A parent or guardian also signs if you are under 18.
+    sources: [dfa-gender-app, dfa-forms]
+  - id: DS-GenderStatement
+    name:
+      en: Statement of Gender Information to Be Displayed on Driver's License or Identification Card (first issuance)
+      es: Declaración de información de género (primera emisión)
+    url: https://www.dfa.arkansas.gov/wp-content/uploads/DS_GenderStatement_1st_issuance.pdf
+    required: conditional
+    condition:
+      en: Only if you are getting your first Arkansas card and your identity document shows X or no sex.
+      es: Solo si obtienes tu primera tarjeta de Arkansas y tu documento de identidad muestra X o no tiene sexo.
+    sources: [dfa-gender-statement, dfa-forms]
+steps:
+  - id: ssa-first
+    title:
+      en: Update Social Security first (name change)
+      es: Actualiza primero el Seguro Social (cambio de nombre)
+    body:
+      en: If you changed your name, update it with Social Security before visiting a revenue office so the records match.
+      es: Si cambiaste tu nombre, actualízalo en el Seguro Social antes de ir a la oficina para que los registros coincidan.
+    applies_to: [name_change]
+    sources: [a4te-ar]
+  - id: name-change-visit
+    title:
+      en: Bring your certified court order to a revenue office
+      es: Lleva tu orden judicial certificada a una oficina de ingresos
+    body:
+      en: Go in person to a state revenue office that issues licenses, with your current card and a certified copy of your name-change order. The circuit clerk also sends name-change orders to Driver Control.
+      es: Ve en persona a una oficina estatal de ingresos que emita licencias, con tu tarjeta actual y una copia certificada de tu orden de cambio de nombre. El secretario del tribunal también envía las órdenes a Control de Conductores.
+    applies_to: [name_change, in_person]
+    fees: [license-class-d, id-card]
+    sources: [act331-2023, dfa-locations]
+  - id: amended-bc
+    title:
+      en: Get an amended birth certificate first
+      es: Obtén primero un acta de nacimiento enmendada
+    body:
+      en: The office accepts only an amended birth certificate as proof for a marker change. If you were born in Arkansas, see the birth certificate guide (a court order about surgery is required). If you were born elsewhere, follow your birth state's process.
+      es: La oficina solo acepta un acta de nacimiento enmendada como prueba para cambiar el marcador. Si naciste en Arkansas, ve la guía del acta (se requiere una orden judicial sobre cirugía). Si naciste en otro estado, sigue el proceso de ese estado.
+    applies_to: [gender_marker]
+    sources: [act711, dfa-gender-app]
+  - id: marker-visit
+    title:
+      en: Submit the gender application in person
+      es: Presenta la solicitud de género en persona
+    body:
+      en: Bring the completed application, the original or certified amended birth certificate, and your current card. Both documents are scanned into your record. If approved, you get an amended duplicate. If denied, the office must mail you the reasons in writing.
+      es: Lleva la solicitud llena, el acta enmendada original o certificada y tu tarjeta actual. Ambos documentos se escanean en tu registro. Si se aprueba, recibes un duplicado enmendado. Si se niega, la oficina debe enviarte las razones por escrito.
+    forms: [DS-GenderApplication]
+    fees: [duplicate]
+    applies_to: [gender_marker, in_person]
+    sources: [act711, dfa-gender-app]
+fees:
+  - id: license-class-d
+    label:
+      en: Class D driver's license (8 years)
+      es: Licencia clase D (8 años)
+    amount: 40
+    sources: [dfa-class-d]
+  - id: id-card
+    label:
+      en: State ID card
+      es: Tarjeta de identificación estatal
+    amount: 5
+    sources: [dfa-id]
+  - id: duplicate
+    label:
+      en: Amended duplicate license or ID
+      es: Duplicado enmendado de licencia o identificación
+    note:
+      en: Act 711 charges the duplicate fee set in Ark. Code § 27-16-806 (license) or § 27-16-805 (ID). We could not confirm the dollar amount on a DFA page; ask at the office.
+      es: La Ley 711 cobra la tarifa de duplicado del § 27-16-806 (licencia) o § 27-16-805 (identificación). No pudimos confirmar el monto en una página del DFA; pregunta en la oficina.
+    sources: [act711]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Marker and name changes are done in person at a revenue office; the application and birth certificate must be imaged to your record.
+    es: Los cambios de marcador y de nombre se hacen en persona en una oficina de ingresos; la solicitud y el acta se escanean en tu registro.
+  sources: [dfa-gender-app, dfa-locations]
+after:
+  en: Keep a copy of your approved application. Your amended marker carries over when you renew or get a duplicate. Next, update your passport, bank, and employer records if needed.
+  es: Guarda una copia de tu solicitud aprobada. El marcador enmendado se mantiene al renovar o pedir un duplicado. Después, actualiza tu pasaporte, banco y empleador si es necesario.
+tips:
+  - en: If you were born in a state that amends birth certificates without surgery or a court order, getting that amended certificate first is the most practical path to an Arkansas marker change.
+    es: Si naciste en un estado que enmienda actas sin cirugía ni orden judicial, obtener esa acta enmendada primero es el camino más práctico para cambiar el marcador en Arkansas.
+  - en: If the office changes your X card to M or F without your request, it must notify you by mail. Contact the ACLU of Arkansas if you have problems.
+    es: Si la oficina cambia tu tarjeta con X a M o F sin que lo pidas, debe avisarte por correo. Contacta a la ACLU de Arkansas si tienes problemas.
+statutes:
+  - cite: Ark. Code Ann. § 27-16-1104 (as amended by Act 711 of 2025)
+    title:
+      en: License and ID must show M or F matching identity document; marker changes need an amended birth certificate; no X
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=711.pdf&ddBienniumSession=2025%2F2025R
+related_links:
+  - title: Advocates for Trans Equality, Arkansas identity documents
+    url: https://transequality.org/documents/arkansas-identity-documents
+    note:
+      en: Agrees that an amended birth certificate is required and only M or F is allowed.
+      es: Coincide en que se requiere acta enmendada y solo se permite M o F.
+sources:
+  - id: act711
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=711.pdf&ddBienniumSession=2025%2F2025R
+    title: Act 711 of 2025 (HB 1796), to require the display of gender information on an Arkansas driver's license or identification card
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Office of Driver Services shall not issue a driver's license or identification card that contains (A) Gender information stated as "X"; or (B) No gender information.
+  - id: dfa-gender-app
+    url: https://www.dfa.arkansas.gov/wp-content/uploads/DS_GenderApplication.pdf
+    title: Application to Amend Gender Information Contained on Driver's License or Identification Card
+    publisher: Arkansas DFA, Office of Driver Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: you must also submit an original or certified copy of an amended birth certificate
+  - id: dfa-gender-statement
+    url: https://www.dfa.arkansas.gov/wp-content/uploads/DS_GenderStatement_1st_issuance.pdf
+    title: Statement of Gender Information to Be Displayed on Driver's License or Identification Card
+    publisher: Arkansas DFA, Office of Driver Services
+    kind: form
+    accessed: "2026-09-24"
+  - id: dfa-forms
+    url: https://www.dfa.arkansas.gov/office/driver-services/driver-services-forms/
+    title: Driver Services forms
+    publisher: Arkansas DFA
+    kind: official
+    accessed: "2026-09-24"
+  - id: dfa-class-d
+    url: https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/non-commercial-information-ncl/
+    title: Non-commercial license information
+    publisher: Arkansas DFA
+    kind: official
+    accessed: "2026-09-24"
+    quote: Class D (Ages 21+) $40.00, 8 years
+  - id: dfa-id
+    url: https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/identification-only/
+    title: Identification only
+    publisher: Arkansas DFA
+    kind: official
+    accessed: "2026-09-24"
+  - id: dfa-locations
+    url: https://www.dfa.arkansas.gov/office/driver-services/
+    title: Driver Services
+    publisher: Arkansas DFA
+    kind: official
+    accessed: "2026-09-24"
+  - id: act331-2023
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=331.pdf&ddBienniumSession=2023%2F2023R
+    title: Act 331 of 2023 (HB 1473), name change procedure
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: a4te-ar
+    url: https://transequality.org/documents/arkansas-identity-documents
+    title: Arkansas Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,206 @@
+guide_type: birth_certificate
+jurisdiction: NV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The process comes from the Office of Vital Records correction instructions and the Correction Packet for birth
+    certificates (dpbh.nv.gov, read 2026-09-24). The evidence chart lists "Gender Change: Medical Certifier on Record,
+    Person of Record or Parents; Affidavit; supplemental affidavit yes; not required with court order." The authority
+    is NAC 440.030 and 440.035. The standalone gender-change regulation (formerly NAC 440.130) no longer appears in NAC
+    440. There is no separate gender-change form on the state forms page. Unconfirmed: (1) whether X is available on
+    birth certificates, since A4TE (December 2025) and MAP say yes but no state page we read shows it; (2) whether a
+    new certificate is issued or the existing one is amended, and whether the amendment is visible; (3) whether a
+    provider letter can replace the supplemental affidavit, which A4TE says it can and NAC 440.030 allows as "other
+    verifiable evidence." Fees disagree: the state says $45 (correction plus one copy) and $25 per extra copy, while
+    A4TE says $40 and $20. We used the state figures.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+status_summary:
+  en: >-
+    If you were born in Nevada, you can change the sex on your birth certificate without surgery or a court order. You
+    send a notarized Affidavit for Correction and a supplemental affidavit from someone who knows you to the Office of
+    Vital Records, with a $45 fee.
+  es: >-
+    Si naciste en Nevada, puedes cambiar el sexo en tu acta de nacimiento sin cirugía ni orden judicial. Envías una
+    declaración jurada de corrección notariada y una declaración suplementaria de alguien que te conoce a la Oficina
+    de Registros Vitales, con una tarifa de $45.
+summary:
+  en: |
+    Nevada treats a gender change as a correction under NAC 440.030. You (or a parent, for a minor) sign a notarized **Affidavit for Correction of a Record** stating the change. Someone else with personal knowledge signs a notarized **Supplemental Affidavit**. No medical proof or surgery is required, and a court order is optional: if you have one, it replaces both affidavits.
+
+    The fee is $45, which includes the correction and one certified copy. Extra copies are $25 each. Processing takes 4 to 6 weeks. A4TE reports that the certificate can show F, M, or X (see review notes).
+
+    **Name change:** for anyone older than one year, a name change on the birth certificate requires a certified court order. Send it with the Court Ordered Change application. You can send both requests together.
+
+    This process is only for people **born in Nevada**. If you were born in another state, follow that state's rules.
+  es: |
+    Nevada trata el cambio de género como una corrección (NAC 440.030). Tú (o un padre, si eres menor) firmas una **declaración jurada de corrección** notariada, y otra persona que te conoce firma una **declaración suplementaria** notariada. No se exige prueba médica ni cirugía; una orden judicial es opcional y reemplaza ambas declaraciones.
+
+    La tarifa es de $45 e incluye una copia certificada; las copias adicionales cuestan $25. El trámite tarda de 4 a 6 semanas.
+
+    **Cambio de nombre:** para mayores de un año, se necesita una orden judicial certificada, enviada con la solicitud de cambio por orden judicial.
+
+    Solo para personas **nacidas en Nevada**. Si naciste en otro estado, sigue sus reglas.
+eligibility:
+  residency:
+    en: Your birth must be registered in Nevada. Where you live now does not matter.
+    es: Tu nacimiento debe estar registrado en Nevada; no importa dónde vivas ahora.
+  age:
+    en: Adults sign for themselves. For minors, a parent or guardian signs. A minor who signs must also have a parent's signature.
+    es: Los adultos firman por sí mismos; por los menores firma un padre o tutor.
+  sources: [ovr-instructions, ovr-birth-packet]
+forms:
+  - id: correction-packet-birth
+    name:
+      en: Application for a Correction of a Birth Record, with Affidavit for Correction of a Record and Supplemental Affidavit
+      es: Solicitud de corrección de un registro de nacimiento, con declaración jurada de corrección y declaración suplementaria
+    url: https://www.dpbh.nv.gov/uploadedFiles/dpbh.nv.gov/content/Programs/BirthDeath/dta/Forms/Corrections%20-%20Birth.pdf
+    required: conditional
+    condition:
+      en: Use this if you are changing your sex marker without a court order.
+      es: Úsalo para cambiar tu marcador sin orden judicial.
+    how_to_fill:
+      en: |
+        - Page 1 (application): your contact details. Under "Reason for Correction," write "gender change." Fill in the person-of-record details exactly as on the current certificate.
+        - Page 2 (Affidavit for Correction): under "Statement of Corrections," list the Sex item, what it says now, and what it should say (F, M, or X). Under "Why are corrections necessary?", a short statement such as "to reflect my gender identity" is enough. Sign in front of a notary.
+        - Page 3 (Supplemental Affidavit): signed by a **different** person with personal knowledge, such as a friend, relative, or provider. They describe how they know you. It must also be notarized.
+        - Use blue or black ink only. Forms with white-out, cross-outs, or blanks are returned.
+      es: |
+        - Página 1: tus datos; en "Reason for Correction" escribe "gender change".
+        - Página 2: en "Statement of Corrections" indica el sexo actual y el correcto (F, M o X); en "Why are corrections necessary?" basta "para reflejar mi identidad de género". Firma ante notario.
+        - Página 3: la firma **otra** persona que te conoce, ante notario.
+        - Tinta azul o negra; sin correcciones ni espacios en blanco.
+    sources: [ovr-birth-packet, ovr-instructions]
+  - id: court-ordered-change
+    name:
+      en: Application for a Correction of a Record, Court Ordered Change Only
+      es: Solicitud de corrección de un registro, solo cambios por orden judicial
+    url: https://www.dpbh.nv.gov/uploadedFiles/dpbh.nv.gov/content/Programs/BirthDeath/dta/Forms/Court%20Ordered%20Change%20ONLY.pdf
+    required: conditional
+    condition:
+      en: Use this for a name change, or for a sex change if you have a court order. Include a **certified** copy of the order.
+      es: Para un cambio de nombre, o de sexo con orden judicial. Incluye una copia **certificada**.
+    sources: [ovr-court-order]
+steps:
+  - id: gather
+    title:
+      en: Fill out the correction packet
+      es: Llena el paquete de corrección
+    body:
+      en: Complete the application and the Affidavit for Correction. Ask someone who knows you to complete the Supplemental Affidavit. If you are also changing your name, add the Court Ordered Change application and a certified copy of your court order.
+      es: Llena la solicitud y la declaración jurada; pide a alguien que te conoce que llene la declaración suplementaria. Si también cambias de nombre, agrega la solicitud por orden judicial y una copia certificada.
+    forms: [correction-packet-birth, court-ordered-change]
+    sources: [ovr-birth-packet, ovr-court-order]
+  - id: notarize
+    title:
+      en: Get both affidavits notarized
+      es: Notariza ambas declaraciones
+    body:
+      en: Each person signs in front of a notary. Many banks and UPS stores notarize for free or for a small fee.
+      es: Cada persona firma ante un notario; muchos bancos lo hacen gratis o por poco dinero.
+    sources: [ovr-instructions]
+  - id: mail
+    title:
+      en: Mail everything with ID and payment
+      es: Envía todo con identificación y pago
+    body:
+      en: |
+        Include a copy of the photo ID of the person signing the affidavit, and a $45 check or money order payable to "Office of Vital Records". For credit cards, use the Authorization for Credit Card Use form. Do not send cash. Mail to Office of Vital Records and Statistics, Attn: Corrections, 4150 Technology Way, Suite 104, Carson City, NV 89706. Questions: 775-684-4242 or ovrpac@health.nv.gov.
+      es: |
+        Incluye copia de la identificación con foto de quien firma y un cheque o giro de $45 a nombre de "Office of Vital Records". No envíes efectivo. Envía a Office of Vital Records and Statistics, Attn: Corrections, 4150 Technology Way, Suite 104, Carson City, NV 89706. Preguntas: 775-684-4242.
+    fees: [correction, extra-copy]
+    applies_to: [by_mail]
+    estimated_time:
+      en: 4 to 6 weeks
+      es: 4 a 6 semanas
+    sources: [ovr-instructions]
+fees:
+  - id: correction
+    label:
+      en: Correction or amendment, including one certified copy
+      es: Corrección o enmienda, con una copia certificada
+    amount: 45
+    sources: [ovr-instructions, ovr-forms]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy
+      es: Cada copia certificada adicional
+    amount: 25
+    sources: [ovr-instructions, ovr-forms]
+fee_waiver:
+  available: false
+  sources: [ovr-forms]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Corrections are submitted by mail to the state Office of Vital Records in Carson City. County health districts issue copies but do not process corrections.
+    es: Las correcciones se envían por correo a la Oficina de Registros Vitales en Carson City.
+  sources: [ovr-instructions]
+timeline:
+  en: Up to 4 to 6 weeks after the office receives a complete packet.
+  es: Hasta 4 a 6 semanas después de recibir un paquete completo.
+after:
+  en: Use your corrected birth certificate for your passport application, if the federal policy allows, and for any agency that asks for proof of sex. Keep the certified copy safe, and order extras now at $25 each.
+  es: Usa tu acta corregida donde te pidan prueba de sexo. Guarda la copia certificada y pide copias extra ahora ($25 cada una).
+tips:
+  - en: The supplemental affidavit must come from someone other than you. A friend, partner, family member, therapist, or doctor who knows about your gender identity can sign it.
+    es: La declaración suplementaria la firma otra persona que conoce tu identidad de género.
+  - en: No fee waiver is listed. The state does offer a separate free birth certificate application for adults experiencing homelessness, for copies only.
+    es: No hay exención de tarifa; existe una solicitud gratuita de copias para adultos sin hogar.
+  - en: Under NAC 440.035(5), the registrar needs a court order to change information that was already corrected once. If you might switch between markers later (for example, from F to X), a court order may be needed the second time.
+    es: Según NAC 440.035(5), cambiar información ya corregida requiere orden judicial; un segundo cambio de marcador podría necesitarla.
+statutes:
+  - cite: NAC 440.030
+    title:
+      en: Alteration or correction of certificate, principal affidavit and other verifiable evidence (includes gender or sex)
+    url: https://www.leg.state.nv.us/NAC/NAC-440.html#NAC440Sec030
+  - cite: NAC 440.035
+    title:
+      en: Changes that require a court order (including name changes more than one year after birth)
+    url: https://www.leg.state.nv.us/NAC/NAC-440.html#NAC440Sec035
+  - cite: NAC 440.400
+    title:
+      en: Vital records fees
+    url: https://www.leg.state.nv.us/NAC/NAC-440.html#NAC440Sec400
+related_links:
+  - title: Advocates for Trans Equality, Nevada identity documents
+    url: https://transequality.org/documents/nevada-identity-documents
+    note:
+      en: Last updated December 2025. Lists fees as $40 and $20, which differs from the state's current $45 and $25.
+      es: Actualizado en diciembre de 2025; sus tarifas difieren de las actuales del estado.
+sources:
+  - id: ovr-instructions
+    url: https://www.dpbh.nv.gov/siteassets/programs/birthdeath/dta/forms/corrections---instructions-death.birth-corrections.pdf
+    title: Amending or Correcting a Birth or Death Certificate (instructions and evidence chart)
+    publisher: Nevada Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Gender Change: Medical Certifier on Record, Person of Record or Parents; Affidavit; Yes, with Affidavit; Not required with court order. ... The payment of $45.00 includes the correction AND one certified copy ... Please allow up to 4-6 weeks."
+  - id: ovr-birth-packet
+    url: https://www.dpbh.nv.gov/uploadedFiles/dpbh.nv.gov/content/Programs/BirthDeath/dta/Forms/Corrections%20-%20Birth.pdf
+    title: Application for a Correction of a Birth Record (packet)
+    publisher: Nevada Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: The person signing the affidavit CANNOT be the same person signing the Affidavit for Correction of a Record.
+  - id: ovr-court-order
+    url: https://www.dpbh.nv.gov/uploadedFiles/dpbh.nv.gov/content/Programs/BirthDeath/dta/Forms/Court%20Ordered%20Change%20ONLY.pdf
+    title: Application for a Correction of a Record, Court Ordered Change Only
+    publisher: Nevada Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: Our office will only accept a CERTIFIED copy of a court order to process your request.
+  - id: ovr-forms
+    url: https://www.dpbh.nv.gov/programs/birth-death-marriage-divorce-records/birth-death-vital-records-forms/
+    title: Birth/Death Vital Records Forms and Fee Schedule
+    publisher: Nevada Division of Public and Behavioral Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Amendments, correction, paternities, court-ordered records USD45.00 (with certified copy).

@@ -1,0 +1,421 @@
+guide_type: name_change
+jurisdiction: NV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text is from NRS Chapter 41 on leg.state.nv.us, read 2026-09-24. The latest amendments to NRS
+    41.270-41.290 are from 2017. We found no 2019-2025 changes to the gender-identity publication exemption. Forms,
+    the $270 fee, and the steps come from Clark County's Family Law Self-Help Center, which is run by LACSN, and from
+    the Eighth Judicial District Court fee chart (effective 2019-10-01). Things to check: (1) the statute requires
+    fingerprints when the applicant "has a criminal record", but the Clark form and page say this applies only to
+    felony convictions, so confirm current practice; (2) filing fees in other counties (Washoe and the rural counties)
+    were not checked; (3) the certified-copy cost is based on the clerk's fee chart ($3 certification plus 50 cents a
+    page), so confirm with the Records office; (4) the statewide self-help site (nvcourts.gov) returned 403 to
+    automated fetching. A4TE's Nevada page (updated December 2025) agrees there is no publication for gender-identity
+    changes.
+status: available
+status_summary:
+  en: >-
+    Nevada adults can change their name in district court. If you check the box saying the change is to match your
+    gender identity, the court may not require newspaper publication. Most petitions are granted on paper without a
+    hearing about 10 days after filing, as long as no one objects.
+  es: >-
+    En Nevada, los adultos pueden cambiar su nombre en el tribunal de distrito. Si marcas la casilla que indica que el
+    cambio es para que coincida con tu identidad de género, el tribunal no puede exigir publicación en un periódico. La
+    mayoría de las peticiones se aprueban por escrito, sin audiencia, unos 10 días después de presentarlas si nadie se
+    opone.
+summary:
+  en: |
+    You file a verified petition with the district court clerk in the county where you live (NRS 41.270). The petition asks why you want the change. If you say it is to conform your name to your gender identity, the court **shall not** require you to publish a notice in a newspaper (NRS 41.280(3)). If no written objection is filed within 10 days after filing, the judge can sign the order without a hearing (NRS 41.290).
+
+    In Clark County (Las Vegas), the filing fee is $270. You can ask for a fee waiver if you cannot afford it. Free forms and a guided online interview are available from the Family Law Self-Help Center. Other counties use similar forms. Check your district court's self-help page.
+
+    A name change order does not change your gender marker. In Nevada you do **not** need a court order to change the sex on your driver's license or your Nevada birth certificate. See those guides.
+  es: |
+    Presentas una petición verificada ante el secretario del tribunal de distrito del condado donde vives (NRS 41.270). La petición pregunta por qué quieres el cambio. Si indicas que es para que tu nombre coincida con tu identidad de género, el tribunal **no puede** exigir que publiques un aviso en un periódico (NRS 41.280(3)). Si nadie presenta una objeción por escrito dentro de los 10 días posteriores a la presentación, el juez puede firmar la orden sin audiencia (NRS 41.290).
+
+    En el condado de Clark (Las Vegas), la tarifa de presentación es de $270, y puedes pedir una exención si no puedes pagarla. El Centro de Autoayuda de Derecho Familiar ofrece formularios gratuitos y una entrevista guiada en línea.
+
+    Una orden de cambio de nombre no cambia tu marcador de género. En Nevada **no** necesitas una orden judicial para cambiar el sexo en tu licencia ni en tu acta de nacimiento de Nevada.
+eligibility:
+  residency:
+    en: File in the district court of the judicial district where you live. The Clark County petition asks since when you have lived in the county.
+    es: Presenta la petición en el tribunal de distrito donde vives.
+  age:
+    en: Adults and emancipated minors use the adult petition. Parents file for unemancipated minors (NRS 41.295).
+    es: Los adultos y los menores emancipados usan la petición de adultos. Los padres presentan la petición de un menor no emancipado.
+  criminal_history:
+    en: >-
+      You must state whether you have been convicted of a felony. If you have a criminal record, you must file a full
+      set of fingerprints with the petition, and the judge will consider your record. A record does not automatically
+      bar a name change.
+    es: >-
+      Debes indicar si te han condenado por un delito grave. Si tienes antecedentes penales, debes presentar tus
+      huellas dactilares con la petición. Los antecedentes no impiden automáticamente el cambio.
+  sources: [nrs-41, flshc-adult]
+forms:
+  - id: family-court-cover-sheet
+    name:
+      en: Family Court Cover Sheet (Clark County)
+      es: Hoja de portada del Tribunal de Familia (condado de Clark)
+    url: https://www.familylawselfhelpcenter.org/images/forms/misc/family-court-cover-sheet-pdf-fillable.pdf
+    required: always
+    condition:
+      en: Required in Clark County. Use your current legal name. You are the Petitioner.
+    sources: [flshc-forms]
+  - id: petition-adult-name-change
+    name:
+      en: Petition for Adult Name Change (Clark County, filing code PCON)
+      es: Petición de cambio de nombre de adulto (condado de Clark)
+    url: https://www.familylawselfhelpcenter.org/images/forms/name-change/name-adult-petition-pdf-fillable.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Item 3: your current legal name exactly as on your ID, then the new name you want. Check the spelling, because the order will copy it exactly.
+        - Item 4: check **"I want to change my name to conform to my gender identity."** This box is what triggers the no-publication rule in NRS 41.280(3). You do not need to explain further or attach any medical letter.
+        - Item 5: check whether you have a felony conviction. If you do, bring fingerprints from a Department of Public Safety site when you file.
+        - Sign the petition and the verification on page 3.
+      es: |
+        - Punto 3: tu nombre legal actual tal como aparece en tu identificación y el nuevo nombre que quieres.
+        - Punto 4: marca **"I want to change my name to conform to my gender identity."** Esta casilla activa la regla de no publicación (NRS 41.280(3)). No necesitas carta médica.
+        - Punto 5: indica si tienes una condena por delito grave; si es así, lleva tus huellas al presentar.
+        - Firma la petición y la verificación en la página 3.
+    sources: [flshc-forms, flshc-adult, nrs-41]
+  - id: summary-disposition
+    name:
+      en: Request for Summary Disposition and Declaration in Support (Adult Name Change)
+      es: Solicitud de resolución sumaria y declaración de apoyo (cambio de nombre de adulto)
+    url: https://www.familylawselfhelpcenter.org/images/forms/name-change/name-adult-summary-dispo-pdf-fillable.pdf
+    required: always
+    condition:
+      en: Asks the judge to decide without a hearing.
+    sources: [flshc-forms]
+  - id: order-adult-name-change
+    name:
+      en: Order for Adult Name Change
+      es: Orden de cambio de nombre de adulto
+    url: https://www.familylawselfhelpcenter.org/images/forms/name-change/name-adult-order-pdf-fillable.pdf
+    required: always
+    condition:
+      en: Fill in everything except the judge's date and signature. Submit it to your assigned department at least 10 days after filing. Do not e-file it.
+    sources: [flshc-forms, flshc-adult]
+  - id: notice-adult-name-change
+    name:
+      en: Notice of Petition for Adult Name Change
+      es: Aviso de petición de cambio de nombre de adulto
+    url: https://www.familylawselfhelpcenter.org/images/forms/name-change/name-adult-notice-pdf-fillable.pdf
+    required: conditional
+    condition:
+      en: Only if your reason is **not** gender identity. Skip it if you checked the gender identity box.
+      es: Solo si tu motivo **no** es la identidad de género.
+    sources: [flshc-adult]
+  - id: publication-waiver-packet
+    name:
+      en: Publication Waiver packet (safety)
+      es: Paquete de exención de publicación (seguridad)
+    url: https://www.familylawselfhelpcenter.org/images/forms/name-change/name-adult-waive-packet-pdf-fillable.pdf
+    required: optional
+    condition:
+      en: For people who need publication waived **and** the case sealed because publishing would put their safety at risk (NRS 41.280(2)). You do not need this just to skip publication for a gender-identity change.
+      es: Para quienes necesitan que se exima la publicación **y** se selle el caso por riesgo a su seguridad. No lo necesitas solo para evitar la publicación en un cambio por identidad de género.
+    sources: [flshc-adult, nrs-41]
+  - id: fee-waiver-application
+    name:
+      en: Application to Waive Filing Fee (standard)
+      es: Solicitud de exención de tarifas (estándar)
+    url: https://www.familylawselfhelpcenter.org/images/forms/misc/waiver-standard-application-pdf-fillable.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. File it with your petition.
+    sources: [flshc-fees]
+  - id: fee-waiver-order
+    name:
+      en: Order to Waive Filing Fee (standard)
+      es: Orden de exención de tarifas (estándar)
+    url: https://www.familylawselfhelpcenter.org/images/forms/misc/waiver-standard-order-pdf-fillable.pdf
+    required: optional
+    condition:
+      en: Goes with the fee waiver application. Submit it to the judge after filing.
+    sources: [flshc-fees]
+steps:
+  - id: fill-forms
+    title:
+      en: Fill out the forms
+      es: Llena los formularios
+    body:
+      en: |
+        The easiest way is the court's free guided interview ("NAME CHANGE: Adult Name Change" on the Guide and File site, linked from the Self-Help Center page). Use Chrome or Firefox. You can also fill in the PDFs yourself: cover sheet, petition, request for summary disposition, and proposed order. Check the gender identity reason on the petition and skip the notice form.
+      es: |
+        Lo más fácil es la entrevista guiada gratuita del tribunal ("NAME CHANGE: Adult Name Change" en el sitio Guide and File). También puedes llenar los PDF tú: portada, petición, solicitud de resolución sumaria y orden propuesta. Marca el motivo de identidad de género y omite el aviso.
+    forms: [family-court-cover-sheet, petition-adult-name-change, summary-disposition, order-adult-name-change]
+    sources: [flshc-adult]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you need one
+      es: Pide una exención de tarifas si la necesitas
+    body:
+      en: If you get public assistance, earn under 150% of the federal poverty level, or your basic expenses exceed your income, fill out the standard fee waiver application and file it with your petition. A granted waiver covers court filings for one year.
+      es: Si recibes asistencia pública, ganas menos del 150% del nivel federal de pobreza o tus gastos básicos superan tus ingresos, llena la solicitud de exención y preséntala con tu petición. La exención cubre las presentaciones durante un año.
+    forms: [fee-waiver-application, fee-waiver-order]
+    optional: true
+    sources: [flshc-fees]
+  - id: file
+    title:
+      en: File with the district court clerk
+      es: Presenta los documentos ante el secretario del tribunal
+    body:
+      en: |
+        In Clark County, file online through eFileNV (adds $3.50, and each form must be uploaded as its own PDF), in person at the Family Courts and Services Center (601 N. Pecos Rd, Las Vegas), or by mail (takes 3 to 4 weeks). Do not e-file the proposed order. Pay $270 or file your fee waiver. If you have a felony conviction, include your fingerprints.
+      es: |
+        En el condado de Clark, presenta en línea por eFileNV ($3.50 adicional; cada formulario en su propio PDF), en persona en el Family Courts and Services Center (601 N. Pecos Rd, Las Vegas) o por correo (3 a 4 semanas). No presentes la orden propuesta electrónicamente. Paga $270 o presenta tu exención.
+    fees: [filing, efiling]
+    sources: [flshc-adult, ejdc-fees]
+  - id: wait-and-submit-order
+    title:
+      en: Wait 10 days, then submit the order to the judge
+      es: Espera 10 días y entrega la orden al juez
+    body:
+      en: If you did not publish, the objection period is 10 days from filing (NRS 41.290). After that, email the proposed order as a PDF to your assigned department, with the subject line "[case number] - OCON - [last name]". You can also bring it in or mail it. Look up your department at clarkcountycourts.us/Portal. The signed order comes back by mail or eservice.
+      es: Si no publicaste, el plazo de objeción es de 10 días desde la presentación. Luego envía la orden propuesta en PDF por correo electrónico a tu departamento asignado, con el asunto "[número de caso] - OCON - [apellido]". También puedes llevarla o enviarla por correo.
+    forms: [order-adult-name-change]
+    estimated_time:
+      en: 10 days after filing, plus the judge's review time
+      es: 10 días después de presentar, más el tiempo de revisión del juez
+    sources: [flshc-adult, nrs-41]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Order 3 or 4 certified copies (A4TE suggests 5 to 7) from the Clerk of Court's Records Department, online or in person at 601 N. Pecos Rd, Monday to Friday, 8 a.m. to 4 p.m. Agencies accept only certified copies. The clerk also sends a certified copy to the State Registrar of Vital Statistics.
+      es: Pide 3 o 4 copias certificadas (A4TE sugiere de 5 a 7) al Departamento de Registros del Secretario, en línea o en persona. Las agencias solo aceptan copias certificadas.
+    fees: [certified-copy]
+    sources: [flshc-adult, nrs-41, a4te-nv]
+fees:
+  - id: filing
+    label:
+      en: Filing fee for the name change petition (Clark County)
+      es: Tarifa de presentación de la petición (condado de Clark)
+    amount: 270
+    varies_by: county
+    waivable: true
+    note:
+      en: This is the Eighth Judicial District Court fee for a civil petition. Other counties set their own amounts, so check with your clerk.
+      es: Tarifa del Octavo Tribunal Judicial de Distrito; otros condados pueden variar.
+    sources: [flshc-adult, ejdc-fees]
+  - id: efiling
+    label:
+      en: eFileNV upload fee (only if you file online)
+      es: Tarifa de carga de eFileNV (solo si presentas en línea)
+    amount: 3.5
+    sources: [flshc-adult]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    note:
+      en: The Clark County fee chart lists $3 per certification plus 50 cents per page copied. Confirm the total with the Records Department.
+      es: La tabla de tarifas de Clark indica $3 por certificación más 50 centavos por página.
+    sources: [ejdc-fees]
+fee_waiver:
+  available: true
+  forms: [fee-waiver-application, fee-waiver-order]
+  eligibility:
+    en: You qualify if you receive public assistance, your basic monthly expenses exceed your income, your household income is below 150% of the federal poverty level, or you have another compelling reason.
+    es: Calificas si recibes asistencia pública, tus gastos básicos superan tus ingresos, tu ingreso familiar es menor al 150% del nivel federal de pobreza u otra razón convincente.
+  how:
+    en: File the application with your petition. Submit the proposed order to your assigned department by email or mail. A waiver lasts one year.
+    es: Presenta la solicitud con tu petición y entrega la orden propuesta a tu departamento. La exención dura un año.
+  sources: [flshc-fees]
+publication:
+  required: conditional
+  detail:
+    en: Normally a notice must run once in a newspaper in your county (NRS 41.280(1)). If your petition says the change is to conform your name to your gender identity, the court shall not require publication (NRS 41.280(3)).
+    es: Normalmente el aviso se publica una vez en un periódico del condado. Si tu petición indica que el cambio es por identidad de género, el tribunal no puede exigir la publicación.
+  waiver_available: true
+  waiver_how:
+    en: For a gender-identity change, just check that reason on the petition. No separate motion is needed. For any other reason, you can ask for a safety waiver by showing that publication would put you at risk (NRS 41.280(2)). Clark County uses its Publication Waiver packet for this and says such waivers are granted only rarely.
+    es: Para un cambio por identidad de género, basta con marcar ese motivo en la petición. Por otros motivos, puedes pedir una exención por seguridad (NRS 41.280(2)) con el paquete de exención de publicación.
+  sources: [nrs-41, flshc-adult]
+hearing:
+  required: conditional
+  detail:
+    en: No hearing unless someone files a written objection within the 10-day period. In that case the court sets a hearing (NRS 41.290(1)). The Request for Summary Disposition asks the judge to rule on the papers.
+    es: No hay audiencia a menos que alguien presente una objeción por escrito dentro de los 10 días. La solicitud de resolución sumaria pide al juez que decida por escrito.
+  sources: [nrs-41, flshc-adult]
+background_check:
+  required: conditional
+  detail:
+    en: If you have a criminal record, the statute requires a full set of fingerprints with the petition, and the clerk sends the order to the Central Repository for Nevada Records of Criminal History. Clark County's forms apply this to felony convictions. Fingerprints can be taken at a Department of Public Safety site or at LVMPD headquarters.
+    es: Si tienes antecedentes penales, debes presentar tus huellas dactilares con la petición. Los formularios de Clark lo aplican a condenas por delitos graves.
+  sources: [nrs-41, flshc-adult]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: Sealing comes only with a **safety** waiver under NRS 41.280(2). The court then seals the records, which can be opened only by court order or at your request. The gender-identity exemption skips publication but does **not** seal the case on its own.
+    es: El sellado solo acompaña una exención por **seguridad** (NRS 41.280(2)). La exención por identidad de género evita la publicación pero **no** sella el caso por sí sola.
+  how:
+    en: Use the Publication Waiver packet and explain the safety risk. LACSN can help you prepare it.
+    es: Usa el paquete de exención de publicación y explica el riesgo. LACSN puede ayudarte.
+  sources: [nrs-41, flshc-adult]
+minors:
+  summary:
+    en: |
+      A parent files for an unemancipated minor in the district where the child lives (NRS 41.295). A child over 14 must consent. The petition states the other parent's verified consent, if given. Otherwise the other parent must be personally served and has 10 days to object. If personal service is impossible, the court may order publication once a week for 3 weeks plus certified mail (NRS 41.296). If the other parent objects, the court holds a hearing (NRS 41.297). Clark County has a child packet with parent and child consent forms. Note that the adult gender-identity publication exemption in NRS 41.280(3) does not appear in the minor sections.
+    es: |
+      Un padre o madre presenta la petición de un menor no emancipado (NRS 41.295). Un menor de más de 14 años debe dar su consentimiento. Si el otro padre no da su consentimiento verificado, debe ser notificado personalmente y tiene 10 días para objetar; si no se le puede notificar, el tribunal puede ordenar publicación semanal durante 3 semanas. Si hay objeción, hay audiencia.
+  sources: [nrs-41, flshc-children]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: Clark County accepts filings through eFileNV, in person, or by mail.
+    es: Clark acepta presentaciones por eFileNV, en persona o por correo.
+  sources: [flshc-adult]
+timeline:
+  en: Usually 3 to 6 weeks in Clark County. The 10-day objection window runs from filing, the judge then reviews the order, and mail adds about 3 to 4 weeks at each step.
+  es: Normalmente de 3 a 6 semanas en Clark. El plazo de objeción de 10 días corre desde la presentación, luego el juez revisa la orden, y el correo añade 3 a 4 semanas por trámite.
+after:
+  en: |
+    1. **Social Security** first (the DMV checks SSA records).
+    2. **Nevada DMV**: bring a certified copy of the order. You can change your sex marker at the same visit by self-declaration.
+    3. **Birth certificate**: if you were born in Nevada, send a certified copy with the Court Ordered Change application to the Office of Vital Records ($45). If you were born elsewhere, follow your birth state's rules.
+    4. **Passport**, then banks, employer, and everything else.
+  es: |
+    1. **Seguro Social** primero.
+    2. **DMV de Nevada**: lleva una copia certificada de la orden; puedes cambiar tu marcador de sexo en la misma visita.
+    3. **Acta de nacimiento**: si naciste en Nevada, envía una copia certificada con la solicitud de cambio por orden judicial a Registros Vitales ($45). Si naciste en otro estado, sigue sus reglas.
+    4. **Pasaporte**, bancos, empleador y demás.
+tips:
+  - en: The Clark County forms say they "will not change the gender." You do not need a court order for your Nevada driver's license or Nevada birth certificate marker. Those are handled directly by the agencies.
+    es: Los formularios de Clark no cambian el género. No necesitas orden judicial para el marcador en tu licencia o acta de nacimiento de Nevada.
+  - en: If the clerk or a judge asks you to publish even though you checked the gender identity reason, point to NRS 41.280(3) and contact LACSN.
+    es: Si te piden publicar aunque marcaste el motivo de identidad de género, cita NRS 41.280(3) y contacta a LACSN.
+local_help:
+  - id: lacsn
+    name: Legal Aid Center of Southern Nevada, Name/Gender Marker Change
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help with name and gender marker changes for eligible clients. Walk in Monday to Thursday, 9 a.m. to 4 p.m., with proof of income, ID, and your birth certificate if you have it.
+      es: Ayuda gratuita con cambios de nombre y de marcador de género. Atención sin cita de lunes a jueves, de 9 a 4.
+    url: https://www.lacsn.org/practice-areas/family-justice-project/name-change-gender-marker
+    phone: "702-386-1070"
+    address: 725 E. Charleston Blvd., Las Vegas, NV 89104
+    cost: free
+    verification: org_website
+    sources: [lacsn-ncgm]
+  - id: flshc
+    name: Family Law Self-Help Center (Clark County)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Court self-help center run by LACSN. Free forms, a guided online interview, and staff help with filing. Ask-A-Lawyer programs are listed on the site.
+      es: Centro de autoayuda del tribunal operado por LACSN; formularios gratuitos y entrevista guiada.
+    url: https://www.familylawselfhelpcenter.org/self-help/name-changes/name-changes-for-adults
+    address: 601 N. Pecos Rd, Las Vegas, NV 89101
+    cost: free
+    verification: org_website
+    sources: [flshc-adult]
+  - id: nls
+    name: Nevada Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide free civil legal aid for low-income Nevadans, with offices outside Clark County. Name changes are not listed as a practice area, so call to ask.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Llama para preguntar por cambios de nombre.
+    url: https://nevadalegalservices.org/
+    phone: "866-432-0404"
+    cost: free
+    verification: org_website
+    sources: [nls]
+statutes:
+  - cite: NRS 41.270
+    title:
+      en: Verified petition; felony disclosure; fingerprints if criminal record
+    url: https://www.leg.state.nv.us/NRS/NRS-041.html#NRS041Sec270
+  - cite: NRS 41.280
+    title:
+      en: Publication; safety waiver with sealing; no publication for gender-identity changes
+    url: https://www.leg.state.nv.us/NRS/NRS-041.html#NRS041Sec280
+  - cite: NRS 41.290
+    title:
+      en: Order; 10-day objection period; hearing on objection
+    url: https://www.leg.state.nv.us/NRS/NRS-041.html#NRS041Sec290
+  - cite: NRS 41.291-41.299
+    title:
+      en: Name changes for unemancipated minors
+    url: https://www.leg.state.nv.us/NRS/NRS-041.html#NRS041Sec295
+related_links:
+  - title: Advocates for Trans Equality, Nevada identity documents
+    url: https://transequality.org/documents/nevada-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+sources:
+  - id: nrs-41
+    url: https://www.leg.state.nv.us/NRS/NRS-041.html
+    title: NRS Chapter 41, Proceedings to change names of natural persons
+    publisher: Nevada Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the petition filed by the applicant states that the reason for desiring the change is to conform the applicant's name to his or her gender identity, the court shall not require the applicant to comply with the provisions of subsection 1.
+  - id: flshc-adult
+    url: https://www.familylawselfhelpcenter.org/self-help/name-changes/name-changes-for-adults
+    title: Name Changes for Adults
+    publisher: Family Law Self-Help Center (Legal Aid Center of Southern Nevada, for Clark County)
+    kind: court
+    accessed: "2026-09-24"
+    quote: If you are changing your name for gender identity purposes, you do not have to fill out this form and you do not have to publish anything in the newspaper. ... The court charges $270 to file the papers.
+  - id: flshc-forms
+    url: https://www.familylawselfhelpcenter.org/forms/name-change-forms
+    title: Name Change Forms
+    publisher: Family Law Self-Help Center
+    kind: form
+    accessed: "2026-09-24"
+    quote: Petition for Adult Name Change ... I want to change my name to conform to my gender identity.
+  - id: flshc-fees
+    url: https://www.familylawselfhelpcenter.org/self-help/getting-started/court-basics/filing-fees-and-waivers
+    title: Filing Fees and Fee Waivers
+    publisher: Family Law Self-Help Center
+    kind: court
+    accessed: "2026-09-24"
+    quote: Your household income is less than 150% of the federal poverty level ... You will not be charged to file court documents for one year.
+  - id: flshc-children
+    url: https://www.familylawselfhelpcenter.org/self-help/name-changes/name-changes-for-children
+    title: Name Changes for Children
+    publisher: Family Law Self-Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: ejdc-fees
+    url: http://www.clarkcountycourts.us/res/clerk/civil-criminal-library/legal-forms/Filing-Fee-List.pdf
+    title: Official Fees for the Eighth Judicial District Court (effective October 1, 2019)
+    publisher: Eighth Judicial District Court Clerk
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Civil Petition ... $270.00. Certification of Any Copy of a Document Prepared by the Clerk $3.00. Copies Each Page 50 cents."
+  - id: lacsn-ncgm
+    url: https://www.lacsn.org/practice-areas/family-justice-project/name-change-gender-marker
+    title: Name/Gender Marker Change
+    publisher: Legal Aid Center of Southern Nevada
+    kind: org
+    accessed: "2026-09-24"
+    quote: We assist eligible individuals with name changes and gender marker changes.
+  - id: nls
+    url: https://nevadalegalservices.org/
+    title: Nevada Legal Services
+    publisher: Nevada Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-nv
+    url: https://transequality.org/documents/nevada-identity-documents
+    title: Nevada identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: It is recommended that you ask for 5-7 copies of this order.

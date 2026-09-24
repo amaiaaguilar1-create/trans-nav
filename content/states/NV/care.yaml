@@ -1,0 +1,308 @@
+jurisdiction: NV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read 2026-09-24. Sources: NRS 422.272362 and 422.2701 (Medicaid, 2023), NRS 689A.0432 and 689A.033
+    (individual insurance), Medicaid Services Manual Chapter 600 section 608 (rev. 2026-05-27; page 2 updated
+    2026-01-01), and SB 302 (2023) NELIS history showing a veto. So there is **no** shield law, contrary to the task
+    prompt. No Nevada ban on care for minors was found in the NRS as revised with 2025 laws. Not verified: any federal
+    2025-2026 action restricting Medicaid funding for gender-affirming care (NRS 422.2702, added 2025, bars the state
+    from acting against federal requirements), so reviewer should check CMS rules. Planned Parenthood in Nevada is run
+    by Planned Parenthood **Mar Monte**, not Rocky Mountains (plannedparenthood.org health-center pages). Its minimum
+    age for hormone care was not confirmed. Huntridge Family Clinic is now CAN Community Health, whose Las Vegas page
+    does not mention gender-affirming care, so it is listed only for sexual health in the local file. Gender Justice
+    Nevada's domain now redirects to an unrelated site, and Silver State Equality's site blocked fetching; both were
+    omitted. Trans Pride Initiative is a Texas organization and was omitted. Plan specifics (step therapy, prior
+    authorization for hormones under MSM Chapter 1200) were not reviewed.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Nevada. State law requires Nevada Medicaid and
+    state-regulated health insurance to cover medically necessary hormone therapy, surgery, and mental health care.
+    Nevada does **not** have a shield law protecting patients and providers from other states' actions. Informed-consent
+    hormone care is available in Las Vegas and Reno, and by telehealth.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Nevada. La ley estatal exige que Nevada
+    Medicaid y los seguros regulados por el estado cubran terapia hormonal, cirugía y salud mental médicamente
+    necesarias. Nevada **no** tiene una ley escudo que proteja a pacientes y proveedores de acciones de otros estados.
+    Hay atención hormonal por consentimiento informado en Las Vegas, Reno y por telesalud.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restrictions on adult care. The Center's Gavin J Goorjian Community Health Center in Las Vegas prescribes hormones on an **informed consent** basis, meaning no therapist letter is needed. Northern Nevada HOPES in Reno runs a gender and sexual health clinic. Planned Parenthood's North Las Vegas and Reno health centers list gender-affirming care. Telehealth (Plume, FOLX, Planned Parenthood) is also an option.
+
+      **If you have no insurance and little money:**
+      1. Apply for **Nevada Medicaid** at Access Nevada. Adults qualify up to about 138% of the federal poverty level, and it covers hormones, surgery, and mental health care.
+      2. Go to a **community health center**. Northern Nevada HOPES charges on a sliding scale. Find others at findahealthcenter.hrsa.gov.
+      3. The Center in Las Vegas offers free help with Medicaid and Nevada Health Link enrollment.
+      4. **Point of Pride** runs funds for hormone care and other gender-affirming needs.
+      5. Generic spironolactone and estradiol tablets are often inexpensive with a discount coupon, so ask the pharmacy for the cash price.
+    es: |
+      No hay restricciones estatales para adultos. El Gavin J Goorjian Community Health Center de The Center en Las Vegas receta hormonas por **consentimiento informado** (sin carta de terapeuta). Northern Nevada HOPES en Reno tiene una clínica de salud de género. Planned Parenthood en North Las Vegas y Reno ofrece atención de afirmación de género. También hay telesalud (Plume, FOLX, Planned Parenthood).
+
+      **Si no tienes seguro ni mucho dinero:**
+      1. Solicita **Nevada Medicaid** en Access Nevada (adultos hasta aproximadamente el 138% del nivel federal de pobreza); cubre hormonas, cirugía y salud mental.
+      2. Acude a un **centro de salud comunitario** con escala móvil, como Northern Nevada HOPES; busca otros en findahealthcenter.hrsa.gov.
+      3. The Center en Las Vegas ayuda gratis con la inscripción en Medicaid y Nevada Health Link.
+      4. **Point of Pride** tiene fondos para atención hormonal.
+      5. La espironolactona y el estradiol genéricos suelen ser baratos con un cupón; pregunta el precio en efectivo.
+  sources: [center-wellness, nnhopes-lgbtq, pp-nlv, center-insurance, hrsa, nrs-422]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Nevada has no law banning gender-affirming care for minors. Care requires parental consent and follows clinical guidelines. Nevada Medicaid covers hormone therapy based on medical necessity, but genital surgery is covered only at age 18 or older (MSM 608.1). State-regulated insurers may set their own requirements for covering surgery for minors (NRS 689A.0432). Nevada has **no shield law**: SB 302 (2023), which would have barred cooperation with other states' investigations and extradition over gender-affirming care, was vetoed. Families who travel from states with bans should get legal advice.
+    es: |
+      Nevada no tiene una ley que prohíba la atención de afirmación de género para menores. Requiere consentimiento de los padres y sigue guías clínicas. Medicaid cubre terapia hormonal según necesidad médica, pero la cirugía genital solo desde los 18 años. Nevada **no tiene ley escudo**: la SB 302 (2023) fue vetada. Las familias que vienen de estados con prohibiciones deben buscar asesoría legal.
+  sources: [msm-608, nrs-689a, sb302-nelis]
+medicaid:
+  program_name: Nevada Medicaid
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      NRS 422.272362 (2023) requires Nevada Medicaid to pay for medically necessary treatment of gender dysphoria and gender incongruence, including hormone therapy, surgery, and psychosocial care, following the current WPATH Standards of Care. It may not categorically refuse gender-affirming treatments that it covers for other purposes. NRS 422.2701 bans gender-identity discrimination in coverage. If you appeal a medical-necessity denial, the state must consult a provider experienced in gender-affirming care.
+
+      Under Medicaid Services Manual section 608, hormones are covered by medical necessity (prior-authorization rules are in Chapter 1200). Surgery requires prior authorization, age 18 or older, two letters from mental health professionals, and generally 12 months of hormones and 12 months living in your gender role before genital surgery. Breast augmentation is covered only if 12 months of estrogen did not produce enough growth. Cosmetic procedures, reversals, and fertility preservation are excluded.
+    es: |
+      NRS 422.272362 (2023) exige que Nevada Medicaid pague el tratamiento médicamente necesario de la disforia e incongruencia de género, incluidas hormonas, cirugía y atención psicosocial, según los Estándares de Atención de WPATH. Si apelas una negación por necesidad médica, el estado debe consultar a un proveedor con experiencia.
+
+      Según el manual de servicios (sección 608), las hormonas se cubren por necesidad médica. La cirugía requiere autorización previa, 18 años o más, dos cartas de profesionales de salud mental y, en general, 12 meses de hormonas antes de la cirugía genital. Se excluyen procedimientos cosméticos, reversiones y preservación de fertilidad.
+  how_to_apply_url: https://accessnevada.nv.gov/
+  sources: [nrs-422, msm-608]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      NRS 689A.0432 requires state-regulated health insurance to cover medically necessary treatment of gender dysphoria and gender incongruence, including psychosocial and surgical care, and bars categorical refusals. NRS 689A.033 bans discrimination based on gender identity or expression. Self-funded employer plans are governed by federal law and may not follow these rules. To complain about a denial, contact the Nevada Division of Insurance.
+    es: |
+      NRS 689A.0432 exige que los seguros regulados por el estado cubran el tratamiento médicamente necesario de la disforia de género, incluida la cirugía, y prohíbe negativas categóricas; NRS 689A.033 prohíbe la discriminación por identidad o expresión de género. Los planes autofinanciados de empleadores pueden no estar sujetos a estas normas. Para quejas, contacta a la División de Seguros de Nevada.
+  complaint_url: https://doi.nv.gov/Consumers/File-a-Complaint/
+  sources: [nrs-689a, doi-complaint]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: center-goorjian
+    name: The Center, Gavin J Goorjian Community Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: LGBTQ+ primary care clinic in Las Vegas with informed-consent hormone therapy, PrEP/PEP, STI care, and an on-site pharmacy. Call to schedule.
+      es: Clínica LGBTQ+ en Las Vegas con terapia hormonal por consentimiento informado, PrEP/PEP, atención de ITS y farmacia.
+    url: https://thecenterlv.org/wellness-clinic
+    phone: "702-780-4925"
+    address: 921 S. Las Vegas Blvd., Las Vegas, NV
+    areas_served:
+      en: Southern Nevada
+    cost: varies
+    verification: org_website
+    sources: [center-wellness]
+  - id: nnhopes
+    name: Northern Nevada HOPES, Barry Frank Family Gender and Sexual Healthcare Clinic
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Reno community health center offering gender-affirming care, case management, and financial support for people transitioning, plus primary care and behavioral health. Accepts Medicaid and has a sliding fee scale.
+      es: Centro de salud comunitario en Reno con atención de afirmación de género, gestión de casos y apoyo financiero; acepta Medicaid y tiene escala móvil.
+    url: https://www.nnhopes.org/health-services/lgbtq-health/
+    phone: "775-786-4673"
+    areas_served:
+      en: Northern Nevada
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [nnhopes-lgbtq, nnhopes-home]
+  - id: pp-mar-monte-nv
+    org: planned-parenthood
+    name: Planned Parenthood Mar Monte (North Las Vegas and Reno)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: The North Las Vegas Health Center (2225 Civic Center Dr, Suite 230) lists gender-affirming care, STI testing, and HIV services. There is also a Reno health center. Minimum age for hormone care not confirmed.
+      es: El centro de North Las Vegas ofrece atención de afirmación de género, pruebas de ITS y servicios de VIH; también hay un centro en Reno.
+    url: https://www.plannedparenthood.org/health-center/nevada/las-vegas
+    address: 2225 Civic Center Drive, Suite 230, North Las Vegas, NV 89030
+    cost: sliding_scale
+    verification: org_website
+    sources: [pp-nlv]
+  - id: center-insurance
+    name: The Center, Health Insurance Services
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free in-house help with Nevada Health Link enrollment, renewals, and coverage questions.
+      es: Ayuda gratuita para inscribirse en Nevada Health Link y con preguntas de cobertura.
+    url: https://thecenterlv.org/services/health-insurance-services
+    phone: "702-733-9800"
+    cost: free
+    verification: org_website
+    sources: [center-insurance]
+  - id: access-nevada
+    name: Access Nevada (Medicaid application)
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: The state's online portal to apply for Medicaid and other benefits.
+      es: Portal estatal para solicitar Medicaid y otros beneficios.
+    url: https://accessnevada.nv.gov/
+    cost: free
+    verification: official_source
+    sources: [nevada-medicaid]
+  - id: our-center-reno
+    name: Our Center (Reno)
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: Trans peer support groups for adults (Tuesdays), middle and high schoolers, and parents, plus free HIV and STI testing by appointment.
+      es: Grupos de apoyo trans para adultos, adolescentes y padres, y pruebas gratuitas de VIH e ITS con cita.
+    url: https://ourcenterreno.org/programs/
+    phone: "775-328-2470"
+    cost: free
+    verification: org_website
+    sources: [our-center-reno]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone therapy access and other gender-affirming needs.
+      es: Fondos nacionales para acceso a terapia hormonal y otras necesidades.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale.
+      es: Buscador federal de centros de salud comunitarios con escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: NRS 422.272362
+    title:
+      en: Medicaid coverage for gender dysphoria and gender incongruence
+    url: https://www.leg.state.nv.us/NRS/NRS-422.html#NRS422Sec272362
+  - cite: NRS 422.2701
+    title:
+      en: Medicaid may not discriminate based on gender identity or expression
+    url: https://www.leg.state.nv.us/NRS/NRS-422.html#NRS422Sec2701
+  - cite: NRS 689A.0432
+    title:
+      en: Individual health insurance must cover medically necessary gender dysphoria treatment
+    url: https://www.leg.state.nv.us/NRS/NRS-689A.html#NRS689ASec0432
+  - cite: NRS 689A.033
+    title:
+      en: Insurers may not discriminate based on gender identity or expression
+    url: https://www.leg.state.nv.us/NRS/NRS-689A.html#NRS689ASec033
+pending_bills:
+  - bill: SB 302 (2023)
+    summary:
+      en: Would have protected gender-affirming care providers and patients from out-of-state discipline, extradition, and investigations. Vetoed by the Governor on June 3, 2023, and not overridden.
+      es: Habría protegido a proveedores y pacientes de acciones de otros estados; vetado el 3 de junio de 2023.
+    status: vetoed
+    last_action: "2023-06-05"
+    url: https://www.leg.state.nv.us/App/NELIS/REL/82nd2023/Bill/10178/Overview
+    sources: [sb302-nelis]
+sources:
+  - id: nrs-422
+    url: https://www.leg.state.nv.us/NRS/NRS-422.html
+    title: NRS Chapter 422 (NRS 422.2701, 422.272362)
+    publisher: Nevada Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Authority shall not categorically refuse to cover any medically necessary gender-affirming treatments or procedures ... the Authority must consider the most recent Standards of Care published by the World Professional Association for Transgender Health.
+  - id: msm-608
+    url: https://www.nevadamedicaid.nv.gov/siteassets/content/resources/adminsupport/manuals/msm/c600/msm_600_26_05_27.pdf
+    title: Medicaid Services Manual Chapter 600, Section 608 Gender Reassignment Services
+    publisher: Nevada Medicaid
+    kind: official
+    accessed: "2026-09-24"
+    quote: Treatment of gender dysphoria and gender incongruence is a Nevada Medicaid covered benefit, including both hormonal and surgical modalities, and psychotherapy, based on medical necessity. ... To qualify for surgery, the recipient must be 18 years of age or older.
+  - id: nrs-689a
+    url: https://www.leg.state.nv.us/NRS/NRS-689A.html
+    title: NRS Chapter 689A (NRS 689A.033, 689A.0432)
+    publisher: Nevada Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: an insurer that issues a policy of health insurance shall include in the policy coverage for the medically necessary treatment of conditions relating to gender dysphoria and gender incongruence.
+  - id: sb302-nelis
+    url: https://www.leg.state.nv.us/App/NELIS/REL/82nd2023/Bill/10178/Overview
+    title: SB 302 (2023) bill history
+    publisher: Nevada Legislature (NELIS)
+    kind: official
+    accessed: "2026-09-24"
+    quote: Jun 03, 2023 Vetoed by the Governor.
+  - id: doi-complaint
+    url: https://doi.nv.gov/Consumers/File-a-Complaint/
+    title: File a Complaint
+    publisher: Nevada Division of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: nevada-medicaid
+    url: https://www.nevadamedicaid.nv.gov/
+    title: Nevada Medicaid
+    publisher: Nevada Medicaid
+    kind: official
+    accessed: "2026-09-24"
+  - id: center-wellness
+    url: https://thecenterlv.org/wellness-clinic
+    title: Gavin J Goorjian Community Health Center
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Gender-Affirming Care: Hormone replacement therapy (HRT), Informed consent"
+  - id: center-insurance
+    url: https://thecenterlv.org/services/health-insurance-services
+    title: Health Insurance Services
+    publisher: The LGBTQ+ Center of Las Vegas
+    kind: org
+    accessed: "2026-09-24"
+  - id: nnhopes-lgbtq
+    url: https://www.nnhopes.org/health-services/lgbtq-health/
+    title: LGBTQ+ Health
+    publisher: Northern Nevada HOPES
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Barry Frank Family Gender and Sexual Healthcare Clinic at HOPES provides gender affirming resources, case management, and financial support for individuals who are transitioning.
+  - id: nnhopes-home
+    url: https://www.nnhopes.org/
+    title: Northern Nevada HOPES
+    publisher: Northern Nevada HOPES
+    kind: org
+    accessed: "2026-09-24"
+    quote: We accept Medicaid, most major health plans, and, for those without insurance, we have a sliding fee scale.
+  - id: pp-nlv
+    url: https://www.plannedparenthood.org/health-center/nevada/north-las-vegas/89030/north-las-vegas-health-center-21949-90130
+    title: North Las Vegas Health Center
+    publisher: Planned Parenthood Mar Monte
+    kind: org
+    accessed: "2026-09-24"
+    quote: Services Offered ... Gender-Affirming Care
+  - id: our-center-reno
+    url: https://ourcenterreno.org/programs/
+    title: Programs
+    publisher: Our Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

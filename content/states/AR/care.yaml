@@ -1,0 +1,283 @@
+jurisdiction: AR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Act 626 of 2021 (SAFE Act) read in full on arkleg, including Ark. Code 20-9-1501 to -1504 and 23-79-164. Brandt v.
+    Griffin, No. 23-2681 (8th Cir. Aug. 12, 2025) (en banc) read on ca8.uscourts.gov: reversed the district court's
+    permanent injunction; the law is enforceable. We did not check for later cert petitions. Act 274 of 2023 (SB 199)
+    and Act 979 of 2025 (HB 1916) read on arkleg. Arkansas Medicaid coverage of HRT or surgery for ADULTS could not be
+    confirmed: humanservices.arkansas.gov returned 403 and no adult exclusion statute was found; MAP marks AR Medicaid
+    policy negative (consistent with the minors' ban in 20-9-1503(d)). Reviewer should check the Arkansas Medicaid
+    provider manuals. Planned Parenthood Great Plains hormone page (18+, no therapy letter) read 2026-09-24. QueerMed
+    lists Arkansas as served on its Locations page. FOLX does not serve AR per project list. HB 1668 of 2025 (civil
+    action for "social transitioning") was withdrawn. The 2025 restroom law is Act 955 (SB 486), not HB 1916. Arkansas
+    has no shield law.
+status_summary:
+  en: >-
+    Adults 18 and older can legally get hormone therapy in Arkansas, including by informed consent at Planned
+    Parenthood and by telehealth. Hormones, puberty blockers, surgery, and referrals for gender transition are banned
+    for everyone under 18 (Act 626); a federal appeals court upheld the ban in August 2025. Insurers are not required
+    to cover transition care at any age, and Arkansas has no shield law.
+  es: >-
+    Los adultos de 18 años o más pueden obtener legalmente terapia hormonal en Arkansas, incluso por consentimiento
+    informado en Planned Parenthood y por telesalud. Las hormonas, bloqueadores de pubertad, cirugías y referidos para
+    la transición están prohibidos para menores de 18 años (Ley 626); un tribunal federal de apelaciones confirmó la
+    prohibición en agosto de 2025. Las aseguradoras no están obligadas a cubrir la atención de transición a ninguna
+    edad, y Arkansas no tiene ley escudo.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Arkansas law bans gender-affirming care for adults 18 and older. But Ark. Code § 23-79-164(c) says health plans are **not required** to cover gender transition procedures, so check your plan before you start.
+
+      **If you have little money or no insurance**, in rough order:
+      1. **Planned Parenthood Great Plains** offers hormone therapy to patients **18 and older** at all its health centers, including Little Rock and Rogers, with **no therapy letter**. It takes most insurance and has financial counselors. Call 1-800-230-PLAN.
+      2. **Telehealth**: Plume and QueerMed serve Arkansas. Point of Pride's HRT Access Fund can help pay.
+      3. **Community health centers** charge on a sliding scale; find one at findahealthcenter.hrsa.gov and ask whether they prescribe hormones.
+    es: |
+      Ninguna ley de Arkansas prohíbe la atención de afirmación de género para adultos de 18 años o más. Pero el Código de Arkansas § 23-79-164(c) dice que los planes de salud **no están obligados** a cubrir procedimientos de transición, así que revisa tu plan antes de empezar.
+
+      **Si tienes poco dinero o no tienes seguro**, en orden aproximado:
+      1. **Planned Parenthood Great Plains** ofrece terapia hormonal a pacientes de **18 años o más** en todos sus centros, incluidos Little Rock y Rogers, **sin carta de terapeuta**. Acepta la mayoría de los seguros y tiene asesores financieros. Llama al 1-800-230-PLAN.
+      2. **Telesalud**: Plume y QueerMed atienden Arkansas. El Fondo de Acceso a TRH de Point of Pride puede ayudar a pagar.
+      3. Los **centros de salud comunitarios** cobran en escala móvil; búscalos en findahealthcenter.hrsa.gov y pregunta si recetan hormonas.
+  sources: [act626, ppgp-gac, queermed, pop-hrt, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Act 626 of 2021** (the SAFE Act, Ark. Code §§ 20-9-1501 to -1504), passed over the governor's veto, bars physicians and other health care professionals from providing **puberty blockers, cross-sex hormones, or gender transition surgery** to anyone under 18, and from **referring** a minor for them. Exceptions cover differences of sex development and treating complications. Violations are unprofessional conduct subject to license discipline, and patients can sue. Public funds, state and local facilities, and Arkansas Medicaid may not pay for or provide this care to minors, and no health plan may cover it for minors.
+
+      A federal district court struck the law down in 2023, but on **August 12, 2025** the full Eighth Circuit (en banc) reversed in *Brandt v. Griffin* and the law is in effect.
+
+      The Protecting Minors from Medical Malpractice Act (**Act 274 of 2023**, expanded by **Act 979 of 2025**) lets a person who received transition procedures, puberty blockers, or cross-sex hormones as a minor sue the provider up to **15 years after turning 18**, and Act 979 extends this to mental health professionals who provide a "gender-affirming intervention."
+    es: |
+      La **Ley 626 de 2021** (Ley SAFE, Código de Arkansas §§ 20-9-1501 a -1504), aprobada sobre el veto del gobernador, prohíbe a médicos y otros profesionales dar **bloqueadores de pubertad, hormonas cruzadas o cirugía de transición** a menores de 18 años, y **referir** a un menor para recibirlos. Hay excepciones para diferencias del desarrollo sexual y para tratar complicaciones. Las violaciones son conducta no profesional sujeta a disciplina de licencia, y los pacientes pueden demandar. Los fondos públicos, las instalaciones estatales y locales y Medicaid de Arkansas no pueden pagar ni dar esta atención a menores, y ningún plan de salud puede cubrirla para menores.
+
+      Un tribunal federal de distrito anuló la ley en 2023, pero el **12 de agosto de 2025** el Octavo Circuito en pleno revocó esa decisión en *Brandt v. Griffin* y la ley está vigente.
+
+      La Ley de protección de menores contra la negligencia médica (**Ley 274 de 2023**, ampliada por la **Ley 979 de 2025**) permite a quien recibió estos tratamientos siendo menor demandar al proveedor hasta **15 años después de cumplir 18**, e incluye a profesionales de salud mental que hagan una "intervención de afirmación de género".
+  sources: [act626, brandt-8th, act274, act979]
+medicaid:
+  program_name: Arkansas Medicaid (including ARHOME)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: State law bars Arkansas Medicaid from covering gender transition procedures for anyone under 18. We could not confirm the program's policy for adults; ask your plan or doctor before starting, and appeal any denial.
+    es: La ley estatal prohíbe que Medicaid de Arkansas cubra procedimientos de transición para menores de 18 años. No pudimos confirmar la política para adultos; pregunta a tu plan o médico antes de empezar y apela cualquier negativa.
+  how_to_apply_url: https://access.arkansas.gov/
+  sources: [act626, access-ar]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: Arkansas has no law requiring coverage of gender-affirming care. Ark. Code § 23-79-164 bans coverage for minors and says plans are not required to cover it for anyone. Plans governed by federal law (many employer plans) may have different rules. You can file a complaint with the Arkansas Insurance Department.
+    es: Arkansas no tiene ley que exija cubrir la atención de afirmación de género. El § 23-79-164 prohíbe la cobertura para menores y dice que los planes no están obligados a cubrirla para nadie. Los planes regidos por la ley federal (muchos planes de empleadores) pueden tener otras reglas. Puedes presentar una queja ante el Departamento de Seguros de Arkansas.
+  complaint_url: https://insurance.arkansas.gov/consumer-assistance/consumer-services/file-a-complaint/
+  sources: [act626, aid-complaint]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: ppgp-little-rock
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains, Little Rock Aldersgate Road Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy for patients 18 and older without a therapist letter, plus STI testing and birth control. Accepts most insurance; financial counselors help uninsured patients.
+      es: Terapia hormonal de afirmación de género para pacientes de 18 años o más sin carta de terapeuta, además de pruebas de ITS y anticonceptivos. Acepta la mayoría de los seguros; asesores financieros ayudan a quienes no tienen seguro.
+    url: https://www.plannedparenthood.org/health-center/arkansas/little-rock/72205/little-rock-aldersgate-road-health-center-9998-90740
+    phone: "501-666-7526"
+    address: 1501 Aldersgate Rd, Little Rock, AR 72205
+    cost: varies
+    accepts_uninsured: true
+    verification: org_website
+    sources: [ppgp-gac, pp-little-rock]
+  - id: ppgp-rogers
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains, Rogers Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Northwest Arkansas health center; PPGP offers hormone therapy (18+) at all its health centers.
+      es: Centro de salud del noroeste de Arkansas; PPGP ofrece terapia hormonal (18+) en todos sus centros.
+    url: https://www.plannedparenthood.org/health-center/arkansas/rogers/72756/rogers-health-center-3690-90740
+    cost: varies
+    verification: org_website
+    sources: [ppgp-gac, pp-rogers]
+  - id: queermed
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming care that lists Arkansas among the states it serves. $25 booking fee applied to the visit.
+      es: Atención de afirmación de género por telesalud que incluye Arkansas entre los estados que atiende. Cargo de reserva de $25 que se aplica a la consulta.
+    url: https://queermed.com/locations/
+    phone: "404-445-0350"
+    telehealth: true
+    cost: paid
+    verification: org_website
+    sources: [queermed]
+  - id: pop-hrt
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that helps trans people pay for hormone therapy.
+      es: Fondo nacional que ayuda a personas trans a pagar la terapia hormonal.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: adh-hiv
+    name: Arkansas Department of Health, HIV Prevention Program
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: State program for HIV testing, education, and PrEP-related activities; local health units offer testing. Call 501-661-2943.
+      es: Programa estatal de pruebas de VIH, educación y actividades de PrEP; las unidades de salud locales ofrecen pruebas. Llama al 501-661-2943.
+    url: https://healthy.arkansas.gov/programs-services/prevention-healthy-living/hiv-prevention/
+    phone: "501-661-2943"
+    address: 4815 W. Markham St., Little Rock, AR 72205
+    cost: varies
+    verification: official_source
+    sources: [adh-hiv]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale by income.
+      es: Buscador federal de centros de salud comunitarios con tarifas según ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+statutes:
+  - cite: Ark. Code Ann. §§ 20-9-1501 to -1504 (Act 626 of 2021)
+    title:
+      en: Arkansas Save Adolescents from Experimentation (SAFE) Act; ban on transition care and referrals for minors
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=626.pdf&ddBienniumSession=2021%2F2021R
+  - cite: Ark. Code Ann. § 23-79-164 (Act 626 of 2021)
+    title:
+      en: No insurance coverage for minors; plans not required to cover transition procedures
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=626.pdf&ddBienniumSession=2021%2F2021R
+  - cite: Ark. Code Ann. §§ 16-114-401 to -403 (Act 274 of 2023, amended by Act 979 of 2025)
+    title:
+      en: Protecting Minors from Medical Malpractice Act; 15-year window to sue after age 18
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=979.pdf&ddBienniumSession=2025%2F2025R
+litigation:
+  - case: Brandt v. Griffin, No. 23-2681
+    court: U.S. Court of Appeals for the Eighth Circuit (en banc)
+    summary:
+      en: Families and doctors challenged Act 626. The district court permanently enjoined it in 2023; the en banc Eighth Circuit reversed on August 12, 2025.
+      es: Familias y médicos impugnaron la Ley 626. El tribunal de distrito la bloqueó en 2023; el Octavo Circuito en pleno revocó esa decisión el 12 de agosto de 2025.
+    effect_today:
+      en: The ban on transition care for minors is in effect.
+      es: La prohibición de atención de transición para menores está vigente.
+    last_update: "2025-08-12"
+    url: https://ecf.ca8.uscourts.gov/opndir/25/08/232681P.pdf
+    sources: [brandt-8th]
+sources:
+  - id: act626
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=626.pdf&ddBienniumSession=2021%2F2021R
+    title: Act 626 of 2021 (HB 1570), Arkansas SAFE Act
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A health benefit plan under an insurance policy or other plan providing healthcare coverage in this state is not required to provide coverage for gender transition procedures.
+  - id: brandt-8th
+    url: https://ecf.ca8.uscourts.gov/opndir/25/08/232681P.pdf
+    title: Brandt v. Griffin, No. 23-2681 (8th Cir. Aug. 12, 2025) (en banc)
+    publisher: U.S. Court of Appeals for the Eighth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: The judgment is reversed and the case remanded for proceedings consistent with this opinion.
+  - id: act274
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=274.pdf&ddBienniumSession=2023%2F2023R
+    title: Act 274 of 2023 (SB 199), Protecting Minors from Medical Malpractice Act
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: act979
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=979.pdf&ddBienniumSession=2025%2F2025R
+    title: Act 979 of 2025 (HB 1916), amending the Protecting Minors from Medical Malpractice Act
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: filed not later than fifteen (15) years after the date on which the minor turns eighteen (18) years of age
+  - id: ppgp-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains/patient-resources/gender-affirming-care
+    title: Gender Affirming Care
+    publisher: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer gender-affirming hormone care for patients 18 years and older at all of our health centers.
+  - id: pp-little-rock
+    url: https://www.plannedparenthood.org/health-center/arkansas/little-rock/72205/little-rock-aldersgate-road-health-center-9998-90740
+    title: Little Rock Aldersgate Road Health Center
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-rogers
+    url: https://www.plannedparenthood.org/health-center/arkansas/rogers/72756/rogers-health-center-3690-90740
+    title: Rogers Health Center
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: queermed
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: adh-hiv
+    url: https://healthy.arkansas.gov/programs-services/prevention-healthy-living/hiv-prevention/
+    title: HIV Prevention
+    publisher: Arkansas Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: access-ar
+    url: https://access.arkansas.gov/
+    title: ACCESS Arkansas
+    publisher: Arkansas Department of Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: aid-complaint
+    url: https://insurance.arkansas.gov/consumer-assistance/consumer-services/file-a-complaint/
+    title: File a complaint
+    publisher: Arkansas Insurance Department
+    kind: official
+    accessed: "2026-09-24"

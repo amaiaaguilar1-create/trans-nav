@@ -1,0 +1,418 @@
+guide_type: name_change
+jurisdiction: AR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text read from Act 331 of 2023 (HB 1473) on arkleg.state.ar.us, which rewrote Ark. Code 9-2-101; no later
+    amendment to 9-2-101 was found in the 2025 code-sections-amended list. The consolidated code (Lexis, Justia) could
+    not be fetched. Filing fee $165 and certified copy $5 per seal are from the Pulaski County Circuit/County Clerk fee
+    schedules dated May 20, 2019 (the most recent posted); reviewer should confirm they are current. We could NOT find
+    a verified URL for a statewide adult "Petition for Change of Name" template: A4TE's Arkansas page links to Arkansas
+    Law Help (a.arlawhelp.org) forms, but the adult-petition link on A4TE points to a cover sheet, and the Arkansas Law
+    Help LGBTQIA guide URL returned 404 on 2026-09-24. The Order for Name Change and the minor petition, consent, and
+    proof-of-service templates on a.arlawhelp.org were downloaded and read. Hearing practice (held or not) varies by
+    county per A4TE; not confirmed with Pulaski clerk. A4TE (no visible last-updated date) says the case type on the
+    cover sheet is "(OM) Civil - Other"; the current (11/15/2023) cover sheet has a specific "(NC) Name Change" box, so
+    that is used here. Minor best-interest factors are from A4TE citing Poindexter v. Poindexter, 360 Ark. 538 (2005);
+    the opinion itself was not read.
+status: available
+status_summary:
+  en: >-
+    Adults in Arkansas can change their name by filing a sworn petition in circuit court in the county where they live.
+    There is no newspaper publication. The filing fee is about $165 (a fee waiver is available), and some judges hold
+    a short hearing.
+  es: >-
+    En Arkansas, las personas adultas pueden cambiar su nombre presentando una petición jurada en el tribunal de
+    circuito del condado donde viven. No hay publicación en periódico. La tarifa es de unos $165 (hay exención de
+    tarifas) y algunos jueces hacen una audiencia breve.
+summary:
+  en: |
+    Arkansas Code § 9-2-101 lets the circuit court change the name of any person within its jurisdiction "upon good reasons shown." You file a **verified (notarized) petition** stating your reasons with the circuit clerk in your county. The law does not require publishing a notice in a newspaper. The judge signs an **Order for Name Change** listing your prior name, birth date, identifying information, and new name.
+
+    Since 2023 the clerk sends the unredacted order to the Arkansas Crime Information Center and to Driver Control, and to Vital Records if you ask. If you show by clear and convincing evidence that you would otherwise be endangered, the court must seal the file.
+
+    You do not have to say you are transgender. Many people give "common usage" or "this is the name I use" as the reason.
+  es: |
+    El Código de Arkansas § 9-2-101 permite al tribunal de circuito cambiar el nombre de cualquier persona dentro de su jurisdicción "si se muestran buenas razones". Presentas una **petición jurada (notariada)** con tus razones ante el secretario del tribunal de circuito de tu condado. La ley no exige publicar un aviso en un periódico. El juez firma una **Orden de cambio de nombre** con tu nombre anterior, fecha de nacimiento, datos de identificación y nombre nuevo.
+
+    Desde 2023, el secretario envía la orden sin tachar al Centro de Información Criminal de Arkansas y a Control de Conductores, y a Registros Vitales si lo pides. Si demuestras con evidencia clara y convincente que de otro modo estarías en peligro, el tribunal debe sellar el expediente.
+
+    No tienes que decir que eres trans. Muchas personas indican como razón "uso común" o "es el nombre que uso".
+eligibility:
+  residency:
+    en: File in the circuit court of the Arkansas county where you live.
+    es: Presenta la petición en el tribunal de circuito del condado de Arkansas donde vives.
+  age:
+    en: 18 or older files for themselves. For anyone under 18, a parent or guardian files as "next friend"; see Minors.
+    es: Las personas de 18 años o más presentan por sí mismas. Para menores de 18, un padre, madre o tutor presenta la petición; ver Menores.
+  criminal_history:
+    en: The statute does not bar people with convictions, but the clerk sends every name-change order to the Arkansas Crime Information Center.
+    es: La ley no excluye a personas con condenas, pero el secretario envía cada orden al Centro de Información Criminal de Arkansas.
+  sources: [act331-2023, a4te-ar]
+forms:
+  - id: CV-cover
+    name:
+      en: Cover Sheet, State of Arkansas Circuit Court, Civil (11/15/2023)
+      es: Hoja de portada civil del Tribunal de Circuito de Arkansas
+    url: https://arcourts.gov/sites/default/files/formatted-files/CV_cover_Nov_2023_0.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Case type: check **(NC) Name Change** under Miscellaneous Civil.
+        - Plaintiff: your current legal name. Mark that you are self-represented.
+    sources: [arcourts-forms, cv-cover]
+  - id: petition-adult
+    name:
+      en: Petition for Change of Name (verified)
+      es: Petición de cambio de nombre (jurada)
+    url: https://www.arlawhelp.org/
+    required: always
+    condition:
+      en: >-
+        There is no official statewide form. Arkansas Law Help publishes sample name-change forms; Legal Aid of
+        Arkansas can also help. The petition must be signed in front of a notary.
+    how_to_fill:
+      en: |
+        - Use your current legal name in the caption. The new name appears only in the body of the petition and in the order.
+        - Reason: "common usage" or "this is the name I use" is enough. You do not need to mention gender identity.
+        - If you fear for your safety, add a request that the court **seal the file** and explain why (see Confidentiality).
+        - Sign in front of a notary; the statute requires a verified petition.
+    sources: [act331-2023, a4te-ar]
+  - id: order-name-change
+    name:
+      en: Order for Name Change
+      es: Orden de cambio de nombre
+    url: https://a.arlawhelp.org/ld.php?content_id=62148970
+    required: always
+    condition:
+      en: Fill in the county, your current name, and your new name; the judge signs it.
+    sources: [arlawhelp-order]
+  - id: IFP
+    name:
+      en: Affidavit in Support of Request to Proceed In Forma Pauperis (Rule 72)
+      es: Declaración jurada para proceder in forma pauperis (exención de tarifas)
+    url: https://arcourts.gov/sites/default/files/formatted-files/In-Forma-Pauperis-Affidavit-see-Rule-72-2026-1.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee.
+    sources: [arcourts-forms, ifp-form]
+  - id: petition-minor
+    name:
+      en: Petition for Name Change (minor, by guardian and next friend)
+    url: https://a.arlawhelp.org/ld.php?content_id=62149170
+    required: conditional
+    condition:
+      en: For a child under 18.
+    sources: [arlawhelp-minor]
+  - id: consent-minor
+    name:
+      en: Waiver of Notice, Entry of Appearance and Consent to Name Change
+    url: https://a.arlawhelp.org/ld.php?content_id=62149189
+    required: conditional
+    condition:
+      en: Signed by the parent who is not filing, if they agree.
+    sources: [arlawhelp-minor]
+  - id: proof-service-minor
+    name:
+      en: Affidavit of Proof of Service by Certified Mail (child's name)
+    url: https://a.arlawhelp.org/ld.php?content_id=62149204
+    required: conditional
+    condition:
+      en: If the other parent does not sign the consent and must be served instead.
+    sources: [arlawhelp-minor]
+steps:
+  - id: call-clerk
+    title:
+      en: Call your county's circuit clerk
+      es: Llama al secretario del tribunal de circuito de tu condado
+    body:
+      en: Ask the clerk for the current filing fee, whether your judge holds a hearing, and whether the county wants any extra paperwork (some ask for a disposition sheet). The state court website lists every circuit clerk.
+      es: Pregunta al secretario la tarifa actual, si tu juez hace audiencia y si el condado pide documentos adicionales (algunos piden una hoja de disposición). El sitio de los tribunales estatales tiene la lista de secretarios.
+    sources: [a4te-ar, arcourts-clerks]
+  - id: prepare
+    title:
+      en: Prepare the cover sheet, petition, and proposed order
+      es: Prepara la portada, la petición y la orden propuesta
+    body:
+      en: Fill out the civil cover sheet, a petition for change of name, and the order for name change. Use your current legal name everywhere except where the new name is asked for. Sign the petition in front of a notary.
+      es: Llena la hoja de portada civil, una petición de cambio de nombre y la orden. Usa tu nombre legal actual en todo, salvo donde se pide el nombre nuevo. Firma la petición ante notario.
+    forms: [CV-cover, petition-adult, order-name-change]
+    sources: [act331-2023, cv-cover, arlawhelp-order]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: File the in forma pauperis affidavit describing your income, property, and expenses. According to A4TE, a judge has to grant the waiver before the clerk accepts your petition without the fee.
+      es: Presenta la declaración in forma pauperis sobre tus ingresos, bienes y gastos. Según A4TE, un juez debe aprobar la exención antes de que el secretario acepte tu petición sin pago.
+    forms: [IFP]
+    optional: true
+    sources: [ifp-form, a4te-ar]
+  - id: file
+    title:
+      en: File with the circuit clerk and pay the fee
+      es: Presenta los documentos ante el secretario y paga la tarifa
+    body:
+      en: File in person at the circuit clerk's office, or through the courts' e-filing system if you have an account. The fee to start a civil case is $165 in Pulaski County.
+      es: Presenta en persona en la oficina del secretario, o por el sistema de presentación electrónica si tienes cuenta. La tarifa para iniciar un caso civil es de $165 en el condado de Pulaski.
+    fees: [filing]
+    sources: [pulaski-fees, act331-2023]
+  - id: hearing
+    title:
+      en: Go to the hearing if one is set
+      es: Asiste a la audiencia si la programan
+    body:
+      en: Some judges sign the order from the paperwork; others set a short hearing and ask why you want the change. Bring ID and a copy of everything you filed.
+      es: Algunos jueces firman la orden solo con los documentos; otros programan una audiencia breve y preguntan por qué quieres el cambio. Lleva identificación y copia de todo lo que presentaste.
+    sources: [a4te-ar]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the signed order
+      es: Obtén copias certificadas de la orden firmada
+    body:
+      en: Buy several certified copies from the clerk ($5 per seal in Pulaski County). Social Security, the revenue office, your bank, and the passport agency each need to see one.
+      es: Compra varias copias certificadas al secretario ($5 por sello en Pulaski). El Seguro Social, la oficina de licencias, tu banco y la agencia de pasaportes necesitan ver una.
+    fees: [certified-copy]
+    sources: [pulaski-fees-misc]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee
+      es: Tarifa de presentación en el tribunal de circuito
+    amount: 165
+    varies_by: county
+    waivable: true
+    note:
+      en: Pulaski County fee schedule (dated 2019) lists $165 for initiating any civil cause of action; A4TE says the fee is typically about $165 statewide. Confirm with your clerk.
+      es: La tabla de tarifas de Pulaski (fechada 2019) indica $165 para iniciar cualquier causa civil; A4TE dice que suele ser unos $165 en todo el estado. Confírmalo con el secretario.
+    sources: [pulaski-fees, a4te-ar]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order (per seal)
+      es: Copia certificada de la orden (por sello)
+    amount: 5
+    varies_by: county
+    note:
+      en: Pulaski County figure; plus a small per-page copy fee.
+      es: Cifra del condado de Pulaski, más un pequeño cargo por página.
+    sources: [pulaski-fees-misc]
+fee_waiver:
+  available: true
+  forms: [IFP]
+  eligibility:
+    en: You must swear that because of poverty you cannot pay the costs. The affidavit asks about your job, income in the past year, cash, property, and people who depend on you. The judge decides.
+    es: Debes jurar que por pobreza no puedes pagar los costos. La declaración pregunta por tu empleo, ingresos del último año, efectivo, bienes y dependientes. El juez decide.
+  how:
+    en: File the affidavit (Ark. R. Civ. P. 72) with or before your petition.
+    es: Presenta la declaración (Regla 72 de Procedimiento Civil) con tu petición o antes.
+  sources: [ifp-form, arcourts-forms]
+publication:
+  required: "no"
+  detail:
+    en: Ark. Code § 9-2-101 has no newspaper publication requirement.
+    es: El § 9-2-101 no exige publicación en periódico.
+  sources: [act331-2023, a4te-ar]
+hearing:
+  required: conditional
+  detail:
+    en: The statute requires the court to find good reason but does not require a hearing; practice varies by county and judge.
+    es: La ley exige que el tribunal encuentre una buena razón, pero no exige audiencia; la práctica varía por condado y juez.
+  sources: [act331-2023, a4te-ar]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints are required, but the clerk must send the unredacted order to the Arkansas Crime Information Center and to Driver Control.
+    es: No se requieren huellas, pero el secretario debe enviar la orden sin tachar al Centro de Información Criminal de Arkansas y a Control de Conductores.
+  sources: [act331-2023]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: The court "shall order the court file sealed upon clear and convincing evidence" that you would otherwise be endangered. Otherwise, the case is public but the clerk redacts identifying information other than your old and new names, and indexes the case under both names.
+    es: El tribunal "ordenará sellar el expediente" si hay evidencia clara y convincente de que de otro modo estarías en peligro. Si no, el caso es público, pero el secretario tacha los datos de identificación salvo tu nombre anterior y el nuevo, y lo indexa con ambos nombres.
+  how:
+    en: Ask for sealing in your petition (or a separate motion) and bring evidence of the danger, such as police reports, protective orders, or documented threats.
+    es: Pide el sellado en tu petición (o en una moción aparte) y presenta evidencia del peligro, como informes policiales, órdenes de protección o amenazas documentadas.
+  sources: [act331-2023]
+minors:
+  summary:
+    en: |
+      A parent or guardian files as the child's "next friend" using a minor petition. The other parent can sign a consent and waiver of notice; if they do not, they must be served (for example by certified mail) and can object. The judge decides based on the child's best interests, including the child's own preference (weighed more as the child gets older), the relationship with each parent, and any harassment the child faces under the current name. A hearing is likely.
+    es: |
+      Un padre, madre o tutor presenta la petición como "representante" del menor. El otro padre puede firmar un consentimiento y renuncia a notificación; si no, debe ser notificado (por ejemplo por correo certificado) y puede objetar. El juez decide según el interés superior del menor, incluida su preferencia (con más peso según su edad), la relación con cada padre y el acoso que sufra con su nombre actual. Es probable que haya audiencia.
+  forms: [petition-minor, consent-minor, proof-service-minor]
+  sources: [arlawhelp-minor, a4te-ar]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at the circuit clerk's office, or through the Arkansas courts' e-filing system (registration needed). Ask your clerk whether it accepts mailed filings.
+    es: En persona en la oficina del secretario de circuito o por el sistema electrónico de los tribunales (requiere registro). Pregunta si aceptan documentos por correo.
+  sources: [a4te-ar, act331-2023]
+timeline:
+  en: Usually a few weeks to a couple of months from filing to a signed order, depending on the county and whether a hearing is set.
+  es: Normalmente de unas semanas a un par de meses desde la presentación hasta la orden firmada, según el condado y si hay audiencia.
+after:
+  en: |
+    Update **Social Security** first (bring the certified order and ID). Then the **driver's license or ID** at a revenue office (in person; see the driver's license guide). If you were born in Arkansas, send the order to **Vital Records** to change the name on your birth certificate ($15 amendment fee plus $12 for a copy), or ask the clerk to forward it. Then your **passport**, bank, employer, insurance, voter registration, and school records.
+  es: |
+    Actualiza primero el **Seguro Social** (lleva la orden certificada e identificación). Luego la **licencia o identificación** en una oficina de ingresos (en persona; ver la guía de licencia). Si naciste en Arkansas, envía la orden a **Registros Vitales** para cambiar el nombre en tu acta de nacimiento ($15 de enmienda más $12 por copia), o pide al secretario que la envíe. Después el **pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: You can ask the clerk to send the order straight to Vital Records; the law says the clerk will if you request it.
+    es: Puedes pedir al secretario que envíe la orden directamente a Registros Vitales; la ley dice que lo hará si lo pides.
+  - en: An Arkansas birth certificate sex change needs a court order that says your sex was changed by a surgical procedure. If that applies to you, ask for it in the same petition; see the birth certificate guide.
+    es: Cambiar el sexo en un acta de nacimiento de Arkansas requiere una orden judicial que diga que el sexo se cambió mediante cirugía. Si te aplica, pídelo en la misma petición; ver la guía del acta de nacimiento.
+local_help:
+  - id: legal-aid-ar
+    name: Legal Aid of Arkansas
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide nonprofit law firm giving free civil legal help to low-income Arkansans. Call 1-800-952-9243 or apply online. Its site does not list name changes among case types, so ask.
+      es: Bufete sin fines de lucro que da ayuda legal civil gratuita a personas de bajos ingresos en todo Arkansas. Llama al 1-800-952-9243 o solicita en línea. Su sitio no menciona cambios de nombre, así que pregunta.
+    url: https://arlegalaid.org/
+    phone: "1-800-952-9243"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [legal-aid-ar]
+  - id: aclu-ar
+    name: ACLU of Arkansas
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil rights organization working on LGBTQ rights in Arkansas; contact it if an official refuses your paperwork or treats you unfairly.
+      es: Organización de derechos civiles que trabaja por los derechos LGBTQ en Arkansas; contáctala si un funcionario rechaza tus documentos o te trata injustamente.
+    url: https://www.acluarkansas.org/issues/lgbt-rights/
+    cost: free
+    verification: org_website
+    sources: [aclu-ar]
+  - id: intransitive
+    name: Intransitive
+    type: advocacy_org
+    pillars: [name_change, mental_health]
+    description:
+      en: Trans-led Arkansas organization offering anti-violence advocacy, community care, workshops, immigration support, and financial support funds for trans Arkansans.
+      es: Organización de Arkansas dirigida por personas trans que ofrece apoyo contra la violencia, cuidado comunitario, talleres, apoyo migratorio y fondos de ayuda económica para personas trans.
+    url: https://www.intransitive.org/our-work
+    cost: free
+    verification: org_website
+    sources: [intransitive]
+  - id: tlc-helpdesk
+    org: transgender-law-center
+    name: Transgender Law Center, legal information helpdesk
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: National trans legal organization; free legal information helpdesk for people in any state.
+      es: Organización legal trans nacional; línea gratuita de información legal para personas de cualquier estado.
+    url: https://transgenderlawcenter.org/
+    cost: free
+    verification: org_website
+    sources: [tlc]
+statutes:
+  - cite: Ark. Code Ann. § 9-2-101 (as amended by Act 331 of 2023)
+    title:
+      en: Name change by circuit court; verified petition; redaction; clerk delivers order; sealing if endangered
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=331.pdf&ddBienniumSession=2023%2F2023R
+related_links:
+  - title: Advocates for Trans Equality, Arkansas identity documents
+    url: https://transequality.org/documents/arkansas-identity-documents
+    note:
+      en: Step-by-step guide with links to sample forms; no last-updated date shown when read on 2026-09-24.
+      es: Guía paso a paso con enlaces a formularios de muestra; no mostraba fecha de actualización el 2026-09-24.
+  - title: Arkansas Judiciary, circuit clerk directory
+    url: https://www.arcourts.gov/directories/circuit-clerks
+sources:
+  - id: act331-2023
+    url: https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=331.pdf&ddBienniumSession=2023%2F2023R
+    title: Act 331 of 2023 (HB 1473), amending Ark. Code § 9-2-101
+    publisher: Arkansas General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court shall order the court file sealed upon clear and convincing evidence presented by the petitioner that the petitioner would otherwise be endangered.
+  - id: arcourts-forms
+    url: https://arcourts.gov/forms-and-publications/court-forms
+    title: Court forms
+    publisher: Arkansas Judiciary
+    kind: official
+    accessed: "2026-09-24"
+  - id: cv-cover
+    url: https://arcourts.gov/sites/default/files/formatted-files/CV_cover_Nov_2023_0.pdf
+    title: Cover Sheet, Circuit Court Civil (11/15/2023)
+    publisher: Arkansas Judiciary
+    kind: form
+    accessed: "2026-09-24"
+    quote: (NC) Name Change
+  - id: ifp-form
+    url: https://arcourts.gov/sites/default/files/formatted-files/In-Forma-Pauperis-Affidavit-see-Rule-72-2026-1.pdf
+    title: Affidavit in Support of Request to Proceed In Forma Pauperis
+    publisher: Arkansas Judiciary
+    kind: form
+    accessed: "2026-09-24"
+    quote: because of my poverty I am unable to pay the costs of said proceeding
+  - id: arlawhelp-order
+    url: https://a.arlawhelp.org/ld.php?content_id=62148970
+    title: Order for Name Change (sample form)
+    publisher: Arkansas Law Help
+    kind: form
+    accessed: "2026-09-24"
+  - id: arlawhelp-minor
+    url: https://a.arlawhelp.org/ld.php?content_id=62149170
+    title: Petition for Name Change of a minor, consent, and proof of service (sample forms)
+    publisher: Arkansas Law Help
+    kind: form
+    accessed: "2026-09-24"
+  - id: pulaski-fees
+    url: https://media.ark.org/pulaskiclerk/061019_Fee_Schedule_-_Central.pdf
+    title: Court Filings Fee Schedule (May 20, 2019)
+    publisher: Pulaski County Circuit/County Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: For initiating ANY cause of action in Circuit Court (This applies to CIVIL, DOMESTIC, PROBATE cases, including appeals) $165.00
+  - id: pulaski-fees-misc
+    url: https://media.ark.org/pulaskiclerk/Fee_Schedule_-_Misc.pdf
+    title: Misc. Fee Schedule (May 20, 2019)
+    publisher: Pulaski County Circuit/County Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: Certified/Authenticated Copies $5.00 per seal
+  - id: arcourts-clerks
+    url: https://www.arcourts.gov/directories/circuit-clerks
+    title: Circuit clerks directory
+    publisher: Arkansas Judiciary
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-ar
+    url: https://transequality.org/documents/arkansas-identity-documents
+    title: Arkansas Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: No requirement for publication in a newspaper or a hearing.
+  - id: legal-aid-ar
+    url: https://arlegalaid.org/
+    title: Legal Aid of Arkansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ar
+    url: https://www.acluarkansas.org/issues/lgbt-rights/
+    title: LGBTQ Rights
+    publisher: ACLU of Arkansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: intransitive
+    url: https://www.intransitive.org/our-work
+    title: Our Work
+    publisher: Intransitive
+    kind: org
+    accessed: "2026-09-24"
+  - id: tlc
+    url: https://transgenderlawcenter.org/
+    title: Transgender Law Center
+    kind: org
+    accessed: "2026-09-24"
