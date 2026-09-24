@@ -1,0 +1,332 @@
+jurisdiction: NJ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework from primary sources read 2026-09-24: P.L.2017, c.176 (insurance and Medicaid-contractor
+    nondiscrimination, approved July 21, 2017), Executive Order 326 (April 2023), and P.L.2026, c.74 (S2260 SCS 3R;
+    bill history from the Legislature's API shows "Approved P.L.2026, c.74" on 8/20/2026, "This act shall take effect
+    immediately"). Open items: (1) I could not load a DMAHS/NJ FamilyCare policy document on gender-affirming
+    coverage (the NJ FamilyCare benefits page returned 403; DMAHS newsletter URLs 404). covers_hrt/covers_surgery
+    "yes" rests on C.30:4D-9.1 plus MAP's healthcare map (Medicaid covers transgender care, 1/1). Reviewer should
+    find the DMAHS newsletter or managed-care contract language. (2) The DOBI bulletin blt18_07.pdf is image-only and
+    could not be read, so it is not cited. (3) Planned Parenthood affiliate pages (Metropolitan NJ; Northern, Central
+    and Southern NJ) returned 403; hormone therapy availability and minimum ages are unverified. (4) The "Rutgers
+    PROUD Gender Center" named in the task appears to be RWJBarnabas Health's PROUD Gender Center of New Jersey at
+    Robert Wood Johnson University Hospital in New Brunswick (Rutgers' teaching hospital); its page states hormone
+    therapy and surgery are for ages 19 and older. The old NJMS Rutgers Center for Transgender Health URL linked from
+    the state hub now returns 404. (5) Trans Health Project page was only checked for HTTP 200, not read.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected for adults and minors in New Jersey. State law bars NJ FamilyCare
+    (Medicaid) plans and state-regulated insurers from discriminating against trans people, and a 2026 shield law
+    (P.L.2026, c.74) plus Executive Order 326 protect patients and providers from other states' investigations and
+    lawsuits. Hospital gender centers, community health centers, and Planned Parenthood offer hormone care.
+  es: >-
+    La atención de afirmación de género es legal y está protegida para adultos y menores en Nueva Jersey. La ley
+    estatal prohíbe que los planes de NJ FamilyCare (Medicaid) y los seguros regulados por el estado discriminen a
+    personas trans, y una ley escudo de 2026 (P.L.2026, c.74) junto con la Orden Ejecutiva 326 protegen a pacientes y
+    proveedores frente a investigaciones y demandas de otros estados. Centros de género hospitalarios, centros de
+    salud comunitarios y Planned Parenthood ofrecen atención hormonal.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. P.L.2026, c.74 (August 20, 2026) writes gender-affirming care into state law as protected "reproductive health care services": New Jersey courts may not apply other states' laws that punish this care, the Governor may not extradite people charged elsewhere for care that is legal here, state courts may not issue subpoenas for out-of-state proceedings targeting it, and licensing boards may not discipline providers for it. Executive Order 326 (2023) already barred state agencies from helping other states' investigations.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **NJ FamilyCare** (free for adults 19 to 64 with income up to 138% of the federal poverty level). See below.
+      2. Go to a **community health center** (FQHC). They charge on a sliding scale; find one at findahealthcenter.hrsa.gov and ask whether they prescribe hormones.
+      3. **Planned Parenthood** affiliates in New Jersey offer hormone care; call your local center.
+      4. **Point of Pride's HRT Access Fund** pays for 18 months of telehealth hormone care (applications each May).
+    es: |
+      Sin restricciones estatales. P.L.2026, c.74 (20 de agosto de 2026) incluye la atención de afirmación de género en la ley estatal como "servicios de salud reproductiva" protegidos: los tribunales de Nueva Jersey no pueden aplicar leyes de otros estados que castiguen esta atención, el Gobernador no puede extraditar a personas acusadas en otro estado por atención legal aquí, los tribunales no pueden emitir citaciones para procesos de otros estados contra ella y las juntas de licencias no pueden sancionar a proveedores por darla. La Orden Ejecutiva 326 (2023) ya prohibía a las agencias estatales colaborar con investigaciones de otros estados.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **NJ FamilyCare** (gratis para adultos de 19 a 64 años con ingresos hasta el 138% del nivel federal de pobreza).
+      2. Acude a un **centro de salud comunitario** con escala móvil; búscalo en findahealthcenter.hrsa.gov y pregunta si recetan hormonas.
+      3. Las afiliadas de **Planned Parenthood** en Nueva Jersey ofrecen atención hormonal.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga 18 meses de atención hormonal por telesalud (solicitudes cada mayo).
+  sources: [pl2026-c74, eo-326, njfc-eligibility, hrsa, pop]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. New Jersey has no ban on gender-affirming care for minors, and the 2026 shield law and Executive Order 326 protect families and providers from other states' actions. Care for minors requires a parent or guardian's consent. Availability is narrower than the law: for example, RWJBarnabas Health's PROUD Gender Center of New Jersey lists hormone therapy and surgery for ages 19 and older. Call ahead to confirm a clinic sees patients under 18 or 19.
+    es: |
+      Legal. Nueva Jersey no prohíbe la atención de afirmación de género para menores, y la ley escudo de 2026 y la Orden Ejecutiva 326 protegen a familias y proveedores frente a acciones de otros estados. La atención de menores requiere consentimiento de un padre, madre o tutor. La disponibilidad es más limitada que la ley: por ejemplo, el PROUD Gender Center de RWJBarnabas Health ofrece hormonas y cirugía desde los 19 años. Llama antes para confirmar si una clínica atiende a menores.
+  sources: [pl2026-c74, eo-326, map-shield, proud-nb]
+medicaid:
+  program_name: NJ FamilyCare
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Under P.L.2017, c.176 (N.J.S.A. 30:4D-9.1), plans that contract with the state to serve NJ FamilyCare members may not discriminate based on gender identity or expression. That includes denying care related to gender transition, such as hormone therapy, hysterectomy, mastectomy, and vocal training, when the plan covers those services for other reasons. The Movement Advancement Project lists New Jersey Medicaid as covering transgender-related care.
+
+      **Who qualifies**: adults 19 to 64 with income up to 138% of the federal poverty level (about $1,836 a month for one person); higher limits for children and pregnant people. Children under 19 can enroll regardless of immigration status (Cover All Kids).
+
+      **Apply** online at njfamilycare.org or call 1-800-701-0710 (TTY 711).
+    es: |
+      Según P.L.2017, c.176 (N.J.S.A. 30:4D-9.1), los planes que atienden a miembros de NJ FamilyCare no pueden discriminar por identidad o expresión de género, incluido negar atención relacionada con la transición, como terapia hormonal, histerectomía, mastectomía y entrenamiento vocal, cuando el plan cubre esos servicios por otros motivos.
+
+      **Quién califica**: adultos de 19 a 64 años con ingresos hasta el 138% del nivel federal de pobreza (unos $1,836 al mes para una persona). Los menores de 19 años pueden inscribirse sin importar su estatus migratorio (Cover All Kids).
+
+      **Solicita** en njfamilycare.org o llama al 1-800-701-0710 (TTY 711).
+  how_to_apply_url: https://njfamilycare.dhs.state.nj.us/
+  sources: [pl2017-c176, map-profile, njfc-eligibility, njfc-home]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      P.L.2017, c.176 bars state-regulated health insurers, HMOs, and the State and School Employees' Health Benefits plans from denying, limiting, or charging more for coverage because you are transgender, from treating gender identity as a preexisting condition, and from denying transition-related care (for example hormone therapy, hysterectomy, mastectomy, vocal training) that the plan covers for other purposes. If your plan denies care, appeal with the plan first, then file a complaint with the NJ Department of Banking and Insurance. Self-funded employer plans are federally regulated and may not be covered by this law.
+    es: |
+      P.L.2017, c.176 prohíbe a las aseguradoras y HMO regulados por el estado, y a los planes de beneficios de empleados estatales y escolares, negar, limitar o cobrar más por ser una persona trans, tratar la identidad de género como condición preexistente o negar atención de transición (por ejemplo terapia hormonal, histerectomía, mastectomía, entrenamiento vocal) que el plan cubre para otros fines. Si tu plan niega la atención, apela primero ante el plan y luego presenta una queja ante el Departamento de Banca y Seguros de NJ. Los planes autofinanciados por empleadores se rigen por ley federal y pueden no estar cubiertos.
+  complaint_url: https://www.nj.gov/dobi/consumer.htm
+  sources: [pl2017-c176, dobi-consumer]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: njfamilycare
+    name: NJ FamilyCare (Medicaid and CHIP)
+    type: government_office
+    pillars: [hrt, insurance]
+    description:
+      en: Free or low-cost public health coverage. Apply online or call 1-800-701-0710 (TTY 711); Monday and Thursday 8 am to 8 pm, Tuesday, Wednesday, and Friday 8 am to 5 pm.
+      es: Cobertura médica pública gratuita o de bajo costo. Solicita en línea o llama al 1-800-701-0710 (TTY 711).
+    url: https://njfamilycare.dhs.state.nj.us/
+    phone: "800-701-0710"
+    cost: free
+    languages: [English, Español]
+    verification: official_source
+    sources: [njfc-home]
+  - id: proud-gender-center
+    name: PROUD Gender Center of New Jersey (Robert Wood Johnson University Hospital)
+    type: hrt_clinic
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Hospital-based gender center with primary care, hormone therapy, gender-affirming surgery (top, bottom, facial), gynecology and urology, voice training, mental health, and LGBT health navigators. Hormones and surgery for ages 19 and older. Call 1-833-BH-PROUD (1-833-247-7683).
+      es: Centro de género hospitalario con atención primaria, terapia hormonal, cirugía de afirmación de género, ginecología y urología, entrenamiento de voz, salud mental y navegadores de salud LGBT. Hormonas y cirugía desde los 19 años. Llama al 1-833-247-7683.
+    url: https://www.rwjbh.org/rwj-university-hospital-new-brunswick/treatment-care/lgbtqia-program/proud-gender-center-transgender-community-servic/
+    phone: "833-247-7683"
+    address: 181 Somerset St, 2nd Floor, New Brunswick, NJ 08901
+    cost: insurance
+    verification: org_website
+    sources: [proud-nb]
+  - id: babs-siperstein-proud
+    name: Babs Siperstein PROUD Center (RWJ University Hospital Somerset)
+    type: hrt_clinic
+    pillars: [hrt]
+    description:
+      en: Adult transgender primary care, hormone therapy and monitoring, injection training, hysterectomy, breast/chest care, and screenings. Call 855-776-8334.
+      es: Atención primaria para adultos trans, terapia hormonal y seguimiento, entrenamiento de inyecciones, histerectomía, atención de pecho y exámenes. Llama al 855-776-8334.
+    url: https://www.rwjbh.org/rwj-university-hospital-somerset/treatment-care/babs-siperstein-proud-center/transgender-health/
+    phone: "855-776-8334"
+    address: 110 Rehill Ave, Somerville, NJ 08876
+    cost: insurance
+    verification: org_website
+    sources: [proud-somerset]
+  - id: vnacj-lgbtq
+    name: VNACJ Community Health Center, LGBTQ Center for Health & Wellness
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Community health center program offering hormone therapy (endocrinology) and support groups, listed by the state's Transgender Information Hub. Call 732-502-5130.
+      es: Programa de centro de salud comunitario con terapia hormonal y grupos de apoyo, incluido en el Hub Transgénero del estado. Llama al 732-502-5130.
+    url: https://lgbtqhealthcenter.org/
+    phone: "732-502-5130"
+    cost: unknown
+    verification: official_source
+    sources: [nj-hub-medical]
+  - id: gse-health-map
+    name: Garden State Equality, Affirming Healthcare Map
+    type: advocacy_org
+    pillars: [hrt, mental_health]
+    description:
+      en: Searchable map of more than 200 LGBTQ-affirming health care providers across New Jersey.
+      es: Mapa con más de 200 proveedores de salud afirmativos LGBTQ en Nueva Jersey.
+    url: https://www.gardenstateequality.org/our-work/health/map/
+    cost: free
+    verification: official_source
+    sources: [nj-hub-medical]
+  - id: hyacinth-clinic
+    name: Hyacinth Health & Wellness Clinic
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: HIV care and testing, PrEP and PEP prescribing, STI testing and treatment, hepatitis C treatment, and mental health evaluation in Newark. Free rapid HIV testing at regional offices in Newark, Jersey City, Paterson, Plainfield, New Brunswick, and Trenton. Call 862-240-1461.
+      es: Atención y pruebas de VIH, PrEP y PEP, pruebas y tratamiento de ITS, tratamiento de hepatitis C y evaluación de salud mental en Newark. Pruebas rápidas de VIH gratuitas en oficinas regionales. Llama al 862-240-1461.
+    url: https://www.hyacinth.org/live/
+    phone: "862-240-1461"
+    address: 201 Washington St, Newark, NJ
+    cost: varies
+    verification: org_website
+    sources: [hyacinth-live, hyacinth-prevent]
+  - id: planned-parenthood-nj
+    org: planned-parenthood
+    name: Planned Parenthood (New Jersey affiliates)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: New Jersey's Planned Parenthood affiliates (Metropolitan New Jersey; Northern, Central and Southern New Jersey) offer sexual health care and, at many centers, gender-affirming hormone therapy. Minimum ages and availability were not confirmed; call your local center.
+      es: Las afiliadas de Planned Parenthood en Nueva Jersey ofrecen salud sexual y, en muchos centros, terapia hormonal de afirmación de género. No se confirmaron edades mínimas ni disponibilidad; llama a tu centro local.
+    url: https://www.plannedparenthood.org/
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [pp]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for 18 months of hormone therapy through partner telehealth providers; applications open each May.
+      es: Paga 18 meses de terapia hormonal a través de proveedores de telesalud asociados; solicitudes cada mayo.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: trans-health-project
+    name: Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guidance for appealing insurance denials of gender-affirming care, including for self-funded employer plans.
+      es: Plantillas y orientación gratuitas para apelar negaciones de cobertura de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: unverified
+    sources: [thp]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios que cobran en escala móvil sin importar el seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: P.L.2026, c.74 (S2260 SCS)
+    title:
+      en: Shield law protecting reproductive and gender-affirming health care activity; approved August 20, 2026, effective immediately
+    url: https://pub.njleg.gov/Bills/2026/S2500/2260_R3.HTM
+  - cite: P.L.2017, c.176 (N.J.S.A. 17:48-6oo, 17:48A-7ll, 26:2J-4.40, 30:4D-9.1 and others)
+    title:
+      en: Health coverage may not discriminate on the basis of gender identity or expression, including in Medicaid contracts
+    url: https://pub.njleg.gov/bills/2016/PL17/176_.HTM
+  - cite: Executive Order No. 326 (2023)
+    title:
+      en: New Jersey as a safe haven for gender-affirming health care
+    url: https://nj.gov/infobank/eo/056murphy/pdf/EO-326.pdf
+sources:
+  - id: pl2026-c74
+    url: https://pub.njleg.gov/Bills/2026/S2500/2260_R3.HTM
+    title: S2260 (SCS, Third Reprint), enacted as P.L.2026, c.74
+    publisher: New Jersey Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Reproductive health care services shall include ... medication, to support a person's alignment with their gender identity or expression.
+  - id: eo-326
+    url: https://nj.gov/infobank/eo/056murphy/pdf/EO-326.pdf
+    title: Executive Order No. 326 (2023)
+    publisher: Office of the Governor of New Jersey
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-shield
+    url: https://www.mapresearch.org/equality-maps/healthcare/trans_shield_laws
+    title: Transgender health care shield laws
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: New Jersey, 2023 EO, 2026 law
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/NJ
+    title: New Jersey equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: pl2017-c176
+    url: https://pub.njleg.gov/bills/2016/PL17/176_.HTM
+    title: P.L.2017, c.176, discrimination in health benefits coverage based on gender identity or expression (approved July 21, 2017)
+    publisher: New Jersey Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any contract between a carrier and the Division of Medical Assistance and Health Services ... shall not contain any provision that discriminates ... on the basis of a covered person's or prospective covered person's gender identity or expression.
+  - id: njfc-home
+    url: https://njfamilycare.dhs.state.nj.us/
+    title: NJ FamilyCare
+    publisher: New Jersey Department of Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: As of January 1, 2023, children under 19 may now apply for NJ FamilyCare regardless of their immigration status.
+  - id: njfc-eligibility
+    url: https://njfamilycare.dhs.state.nj.us/who_eligbl.aspx
+    title: Who is eligible
+    publisher: NJ FamilyCare
+    kind: official
+    accessed: "2026-09-24"
+    quote: Adults age 19-64 with income up to 138% FPL ($1,836/month for a single person).
+  - id: dobi-consumer
+    url: https://www.nj.gov/dobi/consumer.htm
+    title: Consumer information and insurance complaints
+    publisher: New Jersey Department of Banking and Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: proud-nb
+    url: https://www.rwjbh.org/rwj-university-hospital-new-brunswick/treatment-care/lgbtqia-program/proud-gender-center-transgender-community-servic/
+    title: PROUD Gender Center of New Jersey
+    publisher: RWJBarnabas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: proud-somerset
+    url: https://www.rwjbh.org/rwj-university-hospital-somerset/treatment-care/babs-siperstein-proud-center/transgender-health/
+    title: Babs Siperstein PROUD Center, transgender health
+    publisher: RWJBarnabas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: nj-hub-medical
+    url: https://www.nj.gov/transgender/support-resources/medical-support.shtml
+    title: Medical support
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+  - id: hyacinth-live
+    url: https://www.hyacinth.org/live/
+    title: Live (care and treatment, Health & Wellness Clinic)
+    publisher: Hyacinth
+    kind: org
+    accessed: "2026-09-24"
+  - id: hyacinth-prevent
+    url: https://www.hyacinth.org/prevent/
+    title: Prevent (HIV testing and PrEP)
+    publisher: Hyacinth
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp
+    url: https://www.plannedparenthood.org/
+    title: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

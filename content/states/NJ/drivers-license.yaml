@@ -1,0 +1,186 @@
+guide_type: drivers_license
+jurisdiction: NJ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Form GENDER1 (R3/21) text extracted from the MVC PDF on 2026-09-24; fees from the MVC license fee table
+    (licfees.htm, "Changes/duplicate" $11) and the non-driver ID page ($11 duplicate). Reviewer: (1) the MVC has no
+    dedicated gender page that I could find; the April 19, 2021 press release and the NJ Transgender Hub page describe
+    the walk-in process. (2) Confirm whether a name change also costs $11 when done together with a gender change (the
+    fee table lists one $11 "changes/duplicate" fee). (3) No 2025-2026 law or policy change found; New Jersey is not
+    among the states that restricted marker changes.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    New Jersey lets you choose M, F, or X on your driver's license or non-driver ID by signing a one-page
+    self-attestation form. No doctor's letter or court order is needed. You walk in to any MVC Licensing Center and
+    pay $11.
+  es: >-
+    Nueva Jersey te permite elegir M, F o X en tu licencia de conducir o identificación de no conductor firmando un
+    formulario de declaración propia de una página. No se necesita carta médica ni orden judicial. Vas sin cita a
+    cualquier Centro de Licencias de la MVC y pagas $11.
+summary:
+  en: |
+    Since February 2020 the Motor Vehicle Commission (MVC) changes the gender on a license or ID based only on your signed **Declaration of Gender Designation Change** (form GENDER1), and since April 2021 it offers **X** ("unspecified") alongside M and F. X is available to anyone who prefers not to have a gender shown, not only nonbinary people. No medical documentation is required.
+
+    Changing your **name** on the card is a separate step that requires your certified court order (see the name change guide). You can do both in the same visit.
+  es: |
+    Desde febrero de 2020 la Comisión de Vehículos Motorizados (MVC) cambia el género en una licencia o identificación solo con tu **Declaración de Cambio de Designación de Género** firmada (formulario GENDER1), y desde abril de 2021 ofrece **X** ("no especificado") además de M y F. X está disponible para cualquier persona que prefiera no mostrar un género. No se requiere documentación médica.
+
+    Cambiar tu **nombre** en la tarjeta es un paso aparte que requiere tu orden judicial certificada. Puedes hacer ambos en la misma visita.
+eligibility:
+  residency:
+    en: You must hold or be applying for a New Jersey driver's license or non-driver ID card.
+    es: Debes tener o estar solicitando una licencia de conducir o identificación de no conductor de Nueva Jersey.
+  sources: [gender1, mvc-press-2021]
+forms:
+  - id: GENDER1
+    name:
+      en: Declaration of Gender Designation Change for NJ MVC Driver License or Non-Driver Identification Card
+      es: Declaración de cambio de designación de género para licencia de conducir o identificación de no conductor de la MVC
+    url: https://www.nj.gov/mvc/pdf/license/genderchange.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Print your full name, address, date of birth, and license or ID number exactly as on your current card.
+        - Check **M** (male), **F** (female), or **X** (unspecified).
+        - Print your name again in the attestation line and sign and date. You are attesting under penalty of perjury that the change is to conform your legal gender to your gender identity and is not for fraud. Nothing else is required.
+      es: |
+        - Escribe tu nombre completo, dirección, fecha de nacimiento y número de licencia o identificación tal como aparecen en tu tarjeta.
+        - Marca **M** (masculino), **F** (femenino) o **X** (no especificado).
+        - Escribe tu nombre en la línea de declaración, firma y pon la fecha. Declaras bajo pena de perjurio que el cambio es para que tu género legal coincida con tu identidad de género. No se requiere nada más.
+    sources: [gender1]
+steps:
+  - id: fill-form
+    title:
+      en: Fill out and sign form GENDER1
+      es: Llena y firma el formulario GENDER1
+    body:
+      en: Print it from the MVC website or pick one up at an MVC agency. Check M, F, or X and sign. No doctor's signature or medical records.
+      es: Imprímelo del sitio de la MVC o pídelo en una agencia. Marca M, F o X y firma. Sin firma médica ni expedientes médicos.
+    forms: [GENDER1]
+    sources: [gender1, nj-hub-dl-gender]
+  - id: name-docs
+    title:
+      en: If you are also changing your name, bring your court order and 6 points of ID
+      es: Si también cambias tu nombre, lleva tu orden judicial y 6 puntos de identificación
+    body:
+      en: Bring a certified copy (raised seal) of your Final Judgment with the Addendum, plus documents adding up to the MVC's 6 points of ID. Documents still showing your old name are accepted for the 6 points. By the name change kit's instructions, you must do this within two weeks after the effective date in your judgment.
+      es: Lleva una copia certificada (con sello) de tu Sentencia Final con el Anexo, más documentos que sumen los 6 puntos de identificación de la MVC. Se aceptan documentos con tu nombre anterior. Según el paquete de cambio de nombre, debes hacerlo dentro de dos semanas después de la fecha de vigencia de tu sentencia.
+    applies_to: [name_change]
+    optional: true
+    sources: [nj-hub-dl-name, cn10551]
+  - id: visit
+    title:
+      en: Walk in to any MVC Licensing Center
+      es: Ve sin cita a cualquier Centro de Licencias de la MVC
+    body:
+      en: This is a walk-in transaction; no appointment is needed. Hand in the form, surrender your current card, and pay **$11** for the duplicate. It must be done in person because staff verify your documents and collect your old card.
+      es: Es un trámite sin cita. Entrega el formulario, devuelve tu tarjeta actual y paga **$11** por el duplicado. Debe hacerse en persona porque verifican tus documentos y recogen tu tarjeta anterior.
+    fees: [duplicate]
+    applies_to: [in_person]
+    sources: [mvc-press-2021, nj-hub-dl-gender, mvc-fees]
+fees:
+  - id: duplicate
+    label:
+      en: Duplicate or changed license or non-driver ID
+      es: Licencia o identificación de no conductor duplicada o con cambios
+    amount: 11
+    sources: [gender1, mvc-fees, mvc-nondriver-id]
+fee_waiver:
+  available: false
+  eligibility:
+    en: The MVC's fee pages list no waiver for a duplicate license or ID.
+    es: Las páginas de tarifas de la MVC no indican exención para una licencia o identificación duplicada.
+  sources: [mvc-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at an MVC Licensing Center, walk-in.
+    es: En persona en un Centro de Licencias de la MVC, sin cita.
+  sources: [nj-hub-dl-gender]
+timeline:
+  en: One walk-in visit. Licenses are centrally issued, so the permanent card arrives by mail.
+  es: Una visita sin cita. Las licencias se emiten de forma central, así que la tarjeta definitiva llega por correo.
+after:
+  en: |
+    Your license is the ID most places check first. If you chose X, the US passport and Social Security record currently cannot show X or a changed sex marker; your New Jersey card is still valid ID, including for REAL ID and TSA.
+  es: |
+    Tu licencia es la identificación que la mayoría de los lugares revisa primero. Si elegiste X, el pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; tu tarjeta de Nueva Jersey sigue siendo identificación válida.
+tips:
+  - en: You do not need a court order, an amended birth certificate, or a name change to change your gender marker.
+    es: No necesitas orden judicial, acta de nacimiento enmendada ni cambio de nombre para cambiar tu marcador de género.
+  - en: If staff ask for medical proof, point to the form itself; it states that the self-attestation is all that is required. The NJ Division on Civil Rights takes discrimination complaints.
+    es: Si el personal pide prueba médica, muestra el formulario; la declaración propia es todo lo que se requiere. La División de Derechos Civiles de NJ recibe quejas por discriminación.
+statutes:
+  - cite: P.L.2018, c.58 (Babs Siperstein Law)
+    title:
+      en: Removed the surgery requirement for amended records; the MVC adopted self-attestation after its passage
+    url: https://pub.njleg.gov/bills/2018/PL18/58_.HTM
+related_links:
+  - title: NJ Transgender Information Hub, updating the gender marker on your driver's license
+    url: https://www.nj.gov/transgender/name-changes/drivers-license-gender-change.shtml
+  - title: Advocates for Trans Equality, New Jersey identity documents
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    note:
+      en: No last-updated date shown when checked on 2026-09-24.
+      es: No muestra fecha de actualización (revisado el 2026-09-24).
+sources:
+  - id: gender1
+    url: https://www.nj.gov/mvc/pdf/license/genderchange.pdf
+    title: Form GENDER1 (R3/21), Declaration of Gender Designation Change
+    publisher: New Jersey Motor Vehicle Commission
+    kind: form
+    accessed: "2026-09-24"
+    quote: You must surrender your current driver license or identification card and obtain a duplicate for the standard fee of $11.00.
+  - id: mvc-press-2021
+    url: https://www.nj.gov/mvc/press/archives/2021/041921.htm
+    title: Gender "X" option now available for licenses/IDs in New Jersey (April 19, 2021)
+    publisher: New Jersey Motor Vehicle Commission
+    kind: official
+    accessed: "2026-09-24"
+    quote: This is offered not only to New Jersey residents who identify as non-binary, but for anyone who prefers that their gender not be specified on their license or ID.
+  - id: mvc-fees
+    url: https://www.nj.gov/mvc/license/licfees.htm
+    title: License fees, restrictions, and valid time frames
+    publisher: New Jersey Motor Vehicle Commission
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Changes Fees: Correction/Downgrade 11; Duplicate 11."
+  - id: mvc-nondriver-id
+    url: https://www.nj.gov/mvc/license/nondriverid.htm
+    title: Non-driver ID
+    publisher: New Jersey Motor Vehicle Commission
+    kind: official
+    accessed: "2026-09-24"
+    quote: The fee for renewal of the non-driver ID card is $24, the fee for a duplicate or lost ID card is $11.
+  - id: nj-hub-dl-gender
+    url: https://www.nj.gov/transgender/name-changes/drivers-license-gender-change.shtml
+    title: Updating the gender marker on your driver's license
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+    quote: This process must be done in person as your documents must be verified and you will have to turn in your current license.
+  - id: nj-hub-dl-name
+    url: https://www.nj.gov/transgender/name-changes/drivers-license-name-change.shtml
+    title: Changing your name on a NJ driver's license
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+    quote: It's okay if your birth name is on your 6 points documents and IDs. They will still be accepted.
+  - id: cn10551
+    url: https://www.njcourts.gov/sites/default/files/forms/10551_namechg_adult.pdf
+    title: CN 10551, How to Ask the Court to Change Your Name, Adults Only
+    publisher: New Jersey Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: You must present the Final Judgment, with the Final Judgment Addendum, in person at any Motor Vehicle Agency or Regional Service Center within two weeks after the effective date set forth in the Final Judgment.

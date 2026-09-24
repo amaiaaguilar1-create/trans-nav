@@ -1,0 +1,247 @@
+jurisdiction: NJ
+slug: newark
+name: Newark / Jersey City / North Jersey
+area:
+  en: Essex, Hudson, Bergen, Passaic, and Union counties (Newark, Jersey City, and surrounding North Jersey)
+  es: Condados de Essex, Hudson, Bergen, Passaic y Union (Newark, Jersey City y el norte de Nueva Jersey)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Starter list from org websites and state pages read 2026-09-24. Open items: (1) Essex vicinage page lists
+    courthouses but not which building's Civil Division counter takes name change filings; confirm (likely the Hall of
+    Records / MLK Justice Building area). (2) Hudson Pride Center street addresses and phone not captured. (3) North
+    Hudson Community Action Corporation is an FQHC; whether it prescribes hormones is unverified. (4) Planned
+    Parenthood Metropolitan NJ pages returned 403; Newark center address and hormone services not verified. (5) No
+    informed-consent HRT clinic inside Newark itself could be confirmed from a primary page; the nearest confirmed
+    hospital gender centers are in New Brunswick and Somerville (see care.yaml).
+intro:
+  en: >-
+    North Jersey has the state's densest mix of LGBTQ services: the Newark LGBTQ Community Center, Hudson Pride Center in
+    Jersey City and Union City, Hyacinth's HIV and PrEP clinic in Newark, and Garden State Equality's free Name Change
+    Project for Bergen, Hudson, and Passaic residents. Name change petitions are filed with the Superior Court in the
+    county where you live (for Newark, the Essex vicinage; for Jersey City, Hudson), or online through JEDS.
+  es: >-
+    El norte de Nueva Jersey tiene la mayor concentración de servicios LGBTQ del estado: el Newark LGBTQ Community
+    Center, el Hudson Pride Center en Jersey City y Union City, la clínica de VIH y PrEP de Hyacinth en Newark y el
+    Proyecto de Cambio de Nombre gratuito de Garden State Equality para residentes de Bergen, Hudson y Passaic. Las
+    peticiones de cambio de nombre se presentan en el Tribunal Superior del condado donde vives (Essex para Newark,
+    Hudson para Jersey City) o en línea mediante JEDS.
+court:
+  name: Superior Court of New Jersey, Essex Vicinage (Law Division, Civil Part)
+  url: https://www.njcourts.gov/courts/vicinages/essex
+  self_help_url: https://www.njcourts.gov/self-help/name-change
+  filing_fee: 250
+  notes:
+    en: Essex courthouses are on Dr. Martin Luther King Jr. Blvd and West Market Street in Newark; general phone 973-776-9300, weekdays 8:30 am to 4:30 pm. You can skip the counter by filing through JEDS or by mail. Jersey City residents file with the Hudson Vicinage instead. The $250 fee is the same statewide.
+    es: Los tribunales de Essex están en Dr. Martin Luther King Jr. Blvd y West Market Street en Newark; teléfono 973-776-9300, de lunes a viernes de 8:30 am a 4:30 pm. Puedes presentar por JEDS o por correo. Los residentes de Jersey City presentan en el condado de Hudson. La tarifa de $250 es igual en todo el estado.
+  sources: [essex-vicinage, cn10551]
+resources:
+  - id: newark-lgbtq-center
+    name: Newark LGBTQ Community Center
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Volunteer-run community center offering support programs, events, and advocacy. Open Tuesday 10 am to 2 pm, Wednesday 2 to 8 pm, Thursday 10 am to 2 pm; Monday by appointment.
+      es: Centro comunitario dirigido por voluntarios con programas de apoyo, eventos y defensa. Abierto martes de 10 am a 2 pm, miércoles de 2 a 8 pm, jueves de 10 am a 2 pm; lunes con cita.
+    url: https://www.newarklgbtqcenter.org/
+    phone: "973-474-4677"
+    address: 89 Market St, 2nd Floor, Newark, NJ 07102
+    cost: free
+    verification: org_website
+    sources: [newark-center]
+  - id: hudson-pride
+    name: Hudson Pride Center
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: LGBTQ+ social services center for Hudson County, with offices in Jersey City and Union City; health and mental health support, support groups, youth and elder programs.
+      es: Centro de servicios sociales LGBTQ+ del condado de Hudson, con oficinas en Jersey City y Union City; apoyo de salud y salud mental, grupos de apoyo, programas para jóvenes y mayores.
+    url: https://www.hudsonpride.org/
+    areas_served:
+      en: Hudson County
+      es: Condado de Hudson
+    cost: free
+    verification: org_website
+    sources: [hudson-pride]
+  - id: gse-ncp
+    name: Garden State Equality, Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Free legal help preparing your name change petition for trans adults (and minors with parental consent) in Bergen, Hudson, and Passaic counties who meet income limits, through Northeast New Jersey Legal Services and volunteer attorneys. Helps with the fee waiver; does not pay fees. Call 973-509-5428.
+      es: Ayuda legal gratuita para preparar tu petición de cambio de nombre para adultos trans (y menores con consentimiento) en los condados de Bergen, Hudson y Passaic que cumplan límites de ingresos. Ayuda con la exención de tarifas; no paga tarifas. Llama al 973-509-5428.
+    url: https://www.gardenstateequality.org/programs/name-change-project/
+    phone: "973-509-5428"
+    areas_served:
+      en: Bergen, Hudson, and Passaic counties
+      es: Condados de Bergen, Hudson y Passaic
+    cost: free
+    verification: org_website
+    sources: [gse-ncp]
+  - id: a4te-ncp
+    org: a4te
+    name: Advocates for Trans Equality, Name Change Project (New Jersey)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Connects low-income trans, nonbinary, and gender nonconforming people in several New Jersey counties with free legal representation for name changes. Counties served are not listed publicly; apply on A4TE's site.
+      es: Conecta a personas trans, no binarias y de género no conforme de bajos ingresos en varios condados de Nueva Jersey con representación legal gratuita para cambios de nombre.
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    cost: free
+    verification: org_website
+    sources: [a4te-nj]
+  - id: lsnj-hotline
+    name: Legal Services of New Jersey, LSNJLAW Hotline
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal help for people with low incomes, with regional offices serving Essex, Hudson, and every other county. Call 1-888-576-5529.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, con oficinas regionales en todos los condados. Llama al 1-888-576-5529.
+    url: https://www.lsnjlawhotline.org/
+    phone: "888-576-5529"
+    cost: free
+    languages: [English, Español]
+    verification: official_source
+    sources: [nj-hub-legal-help]
+  - id: hyacinth-clinic
+    name: Hyacinth Health & Wellness Clinic
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: HIV care, PrEP and PEP, STI testing and treatment, hepatitis C treatment, and mental health evaluation. Free rapid HIV testing (walk-ins welcome, appointments recommended) at Hyacinth's Newark and Jersey City offices; PrEP counselors help uninsured clients get medication free.
+      es: Atención de VIH, PrEP y PEP, pruebas y tratamiento de ITS, hepatitis C y evaluación de salud mental. Pruebas rápidas de VIH gratuitas en las oficinas de Newark y Jersey City; consejeros de PrEP ayudan a personas sin seguro a obtener el medicamento gratis.
+    url: https://www.hyacinth.org/live/
+    phone: "862-240-1461"
+    address: 201 Washington St, Newark, NJ
+    cost: varies
+    accepts_uninsured: true
+    verification: org_website
+    sources: [hyacinth-live, hyacinth-prevent]
+  - id: nhcac
+    name: North Hudson Community Action Corporation (community health centers)
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federally funded community health center network with sites across Hudson, Bergen, and Passaic counties. Call 201-210-0200 and ask whether your site prescribes gender-affirming hormones.
+      es: Red de centros de salud comunitarios con sitios en los condados de Hudson, Bergen y Passaic. Llama al 201-210-0200 y pregunta si tu sitio receta hormonas de afirmación de género.
+    url: https://www.nhcac.org/
+    phone: "201-210-0200"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [nhcac]
+  - id: planned-parenthood
+    org: planned-parenthood
+    name: Planned Parenthood of Metropolitan New Jersey
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual health care, PrEP, STI testing, and (at many Planned Parenthood centers in New Jersey) gender-affirming hormone therapy. Hours, ages, and services not verified; call ahead.
+      es: Salud sexual, PrEP, pruebas de ITS y, en muchos centros de Planned Parenthood en Nueva Jersey, terapia hormonal de afirmación de género. No se verificaron horarios, edades ni servicios; llama antes.
+    url: https://www.plannedparenthood.org/
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for 18 months of telehealth hormone therapy; applications open each May.
+      es: Paga 18 meses de terapia hormonal por telesalud; solicitudes cada mayo.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: essex-vicinage
+    url: https://www.njcourts.gov/courts/vicinages/essex
+    title: Essex Vicinage
+    publisher: New Jersey Courts
+    kind: official
+    accessed: "2026-09-24"
+  - id: cn10551
+    url: https://www.njcourts.gov/sites/default/files/forms/10551_namechg_adult.pdf
+    title: CN 10551, How to Ask the Court to Change Your Name, Adults Only
+    publisher: New Jersey Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: Completed forms are to be submitted to the county where you are filing your case.
+  - id: newark-center
+    url: https://www.newarklgbtqcenter.org/
+    title: Newark LGBTQ Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hudson-pride
+    url: https://www.hudsonpride.org/
+    title: Hudson Pride Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: gse-ncp
+    url: https://www.gardenstateequality.org/programs/name-change-project/
+    title: Name Change Project
+    publisher: Garden State Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-nj
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    title: New Jersey identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: nj-hub-legal-help
+    url: https://www.nj.gov/transgender/legal-protections/get-legal-help.shtml
+    title: How to get legal help
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+  - id: hyacinth-live
+    url: https://www.hyacinth.org/live/
+    title: Live (care and treatment, Health & Wellness Clinic)
+    publisher: Hyacinth
+    kind: org
+    accessed: "2026-09-24"
+  - id: hyacinth-prevent
+    url: https://www.hyacinth.org/prevent/
+    title: Prevent (HIV testing and PrEP)
+    publisher: Hyacinth
+    kind: org
+    accessed: "2026-09-24"
+  - id: nhcac
+    url: https://www.nhcac.org/
+    title: North Hudson Community Action Corporation
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp
+    url: https://www.plannedparenthood.org/
+    title: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

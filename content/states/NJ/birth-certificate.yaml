@@ -1,0 +1,222 @@
+guide_type: birth_certificate
+jurisdiction: NJ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Forms REG-L2 (Feb 19) and the DOH FAQ (Feb. 4, 2019) text extracted from the PDFs on 2026-09-24; statute text from
+    P.L.2018, c.58 on the Legislature's site. Reviewer: (1) the FAQ says online submission is "coming soon", but the
+    NJ Transgender Hub links an online application at appengine.egov.com; that URL timed out for automated access, so
+    confirm it works. (2) Processing time (8 to 12 weeks) comes from the Hub, not DOH. (3) A4TE's page lists a $25
+    first copy; REG-L2 and the DOH FAQ say $6 for the first copy ordered with the amendment ($25 only for copies
+    ordered later). Primary source used. (4) The marker is written "undesignated/non-binary" on the certificate; mapped
+    to X here.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in New Jersey, you can change the sex on your birth certificate to female, male, or
+    undesignated/non-binary by signing a one-page attestation (form REG-L2). No doctor's letter or court order is
+    needed for the gender change. You get a new certificate that is not marked as amended.
+  es: >-
+    Si naciste en Nueva Jersey, puedes cambiar el sexo en tu acta de nacimiento a femenino, masculino o no
+    designado/no binario firmando una declaración de una página (formulario REG-L2). No se necesita carta médica ni
+    orden judicial para el cambio de género. Recibes un acta nueva que no dice que fue enmendada.
+summary:
+  en: |
+    Under the **Babs Siperstein Law** (P.L.2018, c.58, N.J.S.A. 26:8-40.12, in effect since February 1, 2019), the State Registrar issues an amended birth certificate showing your gender when you send a signed attestation. Choices are **female, male, or undesignated/non-binary** ("encompasses all gender identities that are not exclusively male or female"). No surgery, medical records, or court order is required.
+
+    The new certificate is the same type as the original and **is not marked "amended"**. The original and all papers are sealed. You can change your **name** in the same request if you include a certified copy of your court order.
+
+    **Filing the form is free.** You pay only for copies: $6 for the first certified copy and $2 for each additional copy ordered at the same time, plus $2 if you are registering a name change.
+
+    This only applies if you were **born in New Jersey**. If you were born elsewhere, contact your birth state's vital records office.
+  es: |
+    Según la **Ley Babs Siperstein** (P.L.2018, c.58, N.J.S.A. 26:8-40.12, vigente desde el 1 de febrero de 2019), el Registro Estatal emite un acta de nacimiento enmendada con tu género cuando envías una declaración firmada. Opciones: **femenino, masculino o no designado/no binario**. No se requiere cirugía, expedientes médicos ni orden judicial.
+
+    El acta nueva es del mismo tipo que la original y **no dice "enmendada"**. La original y todos los papeles quedan sellados. Puedes cambiar tu **nombre** en la misma solicitud si incluyes una copia certificada de tu orden judicial.
+
+    **Presentar el formulario es gratis.** Solo pagas copias: $6 por la primera copia certificada y $2 por cada copia adicional pedida al mismo tiempo, más $2 si registras un cambio de nombre.
+
+    Esto solo aplica si **naciste en Nueva Jersey**. Si naciste en otro lugar, contacta al registro civil de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in New Jersey. Where you live now does not matter.
+    es: Debes haber nacido en Nueva Jersey. No importa dónde vives ahora.
+  age:
+    en: Adults 18 and older sign REG-L2 themselves. For a minor, a parent or legal guardian signs REG-L3.
+    es: Los adultos de 18 años o más firman el REG-L2. Para un menor, un padre, madre o tutor legal firma el REG-L3.
+  sources: [doh-faq, reg-l2]
+forms:
+  - id: REG-L2
+    name:
+      en: Request Form and Attestation to Amend Sex Designation to Reflect Gender Identity on a Birth Certificate, Adult
+      es: Formulario de solicitud y declaración para enmendar la designación de sexo en el acta de nacimiento, adulto
+    url: https://www.nj.gov/health/forms/reg-l2_1.pdf
+    required: conditional
+    condition:
+      en: Adults (18 and older).
+      es: Adultos (18 años o más).
+    how_to_fill:
+      en: |
+        - **1A**: your name exactly as on your current birth certificate. **1B**: your current legal name; attach a copy of government photo ID.
+        - **1C**: if your legal name differs from the birth certificate, attach a certified copy of your court order (or marriage certificate).
+        - **2B**: choose Female, Male, or Undesignated/Non-binary.
+        - **2C to 2E**: only if you want your new name on the certificate; you must attach the certified court order.
+        - **3A/3B**: how many certified copies you want now ($6 first, $2 each additional). Order several now; later copies cost $25.
+        - Sign the attestation. Pay by check or money order to "Treasurer, State of New Jersey"; no cash.
+      es: |
+        - **1A**: tu nombre tal como aparece en tu acta actual. **1B**: tu nombre legal actual; adjunta copia de identificación con foto.
+        - **1C**: si tu nombre legal es distinto al del acta, adjunta copia certificada de tu orden judicial.
+        - **2B**: elige Femenino, Masculino o No designado/No binario.
+        - **2C a 2E**: solo si quieres tu nuevo nombre en el acta; adjunta la orden judicial certificada.
+        - **3A/3B**: cuántas copias certificadas quieres ahora ($6 la primera, $2 cada adicional). Pide varias ahora; después cuestan $25.
+        - Firma la declaración. Paga con cheque o giro a "Treasurer, State of New Jersey"; no se acepta efectivo.
+    sources: [reg-l2]
+  - id: REG-L3
+    name:
+      en: Parent/Guardian Request Form and Attestation to Amend Sex Designation on a Birth Certificate, Minor
+      es: Formulario de solicitud y declaración del padre, madre o tutor para enmendar la designación de sexo, menor
+    url: https://www.nj.gov/health/forms/reg-l3_1.pdf
+    required: conditional
+    condition:
+      en: Minors under 18; signed by a parent listed on the certificate or a legal guardian (with the guardianship order).
+      es: Menores de 18; lo firma un padre o madre que aparece en el acta o un tutor legal (con la orden de tutela).
+    sources: [doh-faq]
+steps:
+  - id: fill-form
+    title:
+      en: Fill out and sign REG-L2 (or REG-L3 for a minor)
+      es: Llena y firma el REG-L2 (o REG-L3 para un menor)
+    body:
+      en: Choose female, male, or undesignated/non-binary and sign the attestation under penalty of perjury. No medical documentation.
+      es: Elige femenino, masculino o no designado/no binario y firma la declaración bajo pena de perjurio. Sin documentación médica.
+    forms: [REG-L2, REG-L3]
+    sources: [reg-l2, doh-faq]
+  - id: gather
+    title:
+      en: Gather ID, your court order if changing your name, and payment
+      es: Reúne tu identificación, tu orden judicial si cambias el nombre y el pago
+    body:
+      en: Attach a copy of government-issued photo ID. If you are changing your name on the certificate, attach a certified copy of the court order and add the $2 name registration fee. Add $6 for the first copy and $2 for each extra copy.
+      es: Adjunta copia de una identificación oficial con foto. Si cambias el nombre en el acta, adjunta copia certificada de la orden judicial y agrega $2. Agrega $6 por la primera copia y $2 por cada copia extra.
+    fees: [first-copy, additional-copy, name-registration]
+    sources: [doh-faq, reg-l2]
+  - id: submit
+    title:
+      en: Submit online or by mail (not in person)
+      es: Envía en línea o por correo (no en persona)
+    body:
+      en: |
+        Mail everything to: Office of Vital Statistics & Registry, Records Modification Unit, NJ Department of Health, P.O. Box 370, Trenton, NJ 08625-0370. The state also offers an online application where you upload documents and pay by card (linked from the NJ Transgender Hub). Local registrars and walk-in counters do not accept these amendments.
+      es: |
+        Envía todo a: Office of Vital Statistics & Registry, Records Modification Unit, NJ Department of Health, P.O. Box 370, Trenton, NJ 08625-0370. El estado también ofrece una solicitud en línea donde subes documentos y pagas con tarjeta (enlazada desde el Hub Transgénero de NJ). Los registros locales no aceptan estas enmiendas.
+    applies_to: [by_mail, online]
+    sources: [doh-faq, nj-hub-bc]
+  - id: receive
+    title:
+      en: Receive your new certificate
+      es: Recibe tu nueva acta
+    body:
+      en: Processing takes about 8 to 12 weeks. The original certificate is sealed and can only be unsealed by court order or at your own request.
+      es: El trámite toma unas 8 a 12 semanas. El acta original queda sellada y solo puede abrirse por orden judicial o a tu propia solicitud.
+    estimated_time:
+      en: 8 to 12 weeks
+      es: 8 a 12 semanas
+    sources: [nj-hub-bc, pl2018-c58]
+fees:
+  - id: first-copy
+    label:
+      en: First certified copy of the amended certificate (ordered with the request)
+      es: Primera copia certificada del acta enmendada (pedida con la solicitud)
+    amount: 6
+    note:
+      en: Filing the form itself is free. Copies ordered later cost $25 for the first and $2 for each additional.
+      es: Presentar el formulario es gratis. Las copias pedidas después cuestan $25 la primera y $2 cada adicional.
+    sources: [reg-l2, doh-faq]
+  - id: additional-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 2
+    sources: [reg-l2]
+  - id: name-registration
+    label:
+      en: Registering a court-ordered name change (one time)
+      es: Registro de un cambio de nombre por orden judicial (una vez)
+    amount: 2
+    sources: [reg-l2, doh-faq]
+fee_waiver:
+  available: true
+  eligibility:
+    en: People experiencing homelessness can get one free copy of their birth certificate (N.J.S.A. 26:8-63(f)) with a signed request on agency letterhead from a shelter coordinator or social worker, plus a copy of that worker's photo ID.
+    es: Las personas sin hogar pueden obtener una copia gratis de su acta (N.J.S.A. 26:8-63(f)) con una solicitud firmada en papel membretado de un coordinador de albergue o trabajador social, más copia de la identificación con foto de esa persona.
+  sources: [doh-faq]
+delivery:
+  online: true
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail to the State Office of Vital Statistics and Registry, or through the state's online application. Not accepted in person.
+    es: Por correo a la Oficina Estatal de Estadísticas Vitales, o mediante la solicitud en línea del estado. No se acepta en persona.
+  sources: [doh-faq, nj-hub-bc]
+timeline:
+  en: About 8 to 12 weeks after the state receives your request.
+  es: Unas 8 a 12 semanas después de que el estado recibe tu solicitud.
+after:
+  en: |
+    Your new birth certificate can be used anywhere a birth certificate is required, including for the MVC's 6 points of ID. If you change your name later, you can file again with the court order and the $2 registration fee. Questions: Records@doh.nj.gov (subject "Sex Designation Amendment") or 866-649-8726.
+  es: |
+    Tu nueva acta sirve en cualquier lugar donde se pida un acta de nacimiento, incluidos los 6 puntos de identificación de la MVC. Si cambias tu nombre después, puedes volver a presentar con la orden judicial y la tarifa de $2. Preguntas: Records@doh.nj.gov (asunto "Sex Designation Amendment") o 866-649-8726.
+tips:
+  - en: Order all the copies you need with your first request; they cost $2 each then, but $25 for the first copy later.
+    es: Pide todas las copias que necesites con tu primera solicitud; cuestan $2 cada una entonces, pero $25 la primera después.
+  - en: You do not need to change your name to change your sex designation, and you do not need a court order for the gender change.
+    es: No necesitas cambiar tu nombre para cambiar tu designación de sexo, ni orden judicial para el cambio de género.
+statutes:
+  - cite: N.J.S.A. 26:8-40.12, as amended by P.L.2018, c.58 (Babs Siperstein Law)
+    title:
+      en: Amended birth certificate showing gender by self-attestation; female, male, or undesignated/non-binary; original sealed
+    url: https://pub.njleg.gov/bills/2018/PL18/58_.HTM
+related_links:
+  - title: NJ Department of Health, amending sex designation to reflect gender identity
+    url: https://www.nj.gov/health/vital/correcting-vital/transgender
+  - title: Advocates for Trans Equality, New Jersey identity documents
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    note:
+      en: No last-updated date shown when checked on 2026-09-24; lists a $25 first copy, which differs from the current DOH form.
+      es: No muestra fecha de actualización; indica $25 por la primera copia, distinto del formulario actual del DOH.
+sources:
+  - id: pl2018-c58
+    url: https://pub.njleg.gov/bills/2018/PL18/58_.HTM
+    title: P.L.2018, c.58 (Babs Siperstein Law), amending N.J.S.A. 26:8-40.12
+    publisher: New Jersey Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The amended certificate of birth shall be of the same general type as the original certificate of birth, and shall not be marked as amended.
+  - id: reg-l2
+    url: https://www.nj.gov/health/forms/reg-l2_1.pdf
+    title: Form REG-L2 (Feb 19), Request Form and Attestation to Amend Sex Designation to Reflect Gender Identity on a Birth Certificate, Adult
+    publisher: New Jersey Department of Health, Office of Vital Statistics and Registry
+    kind: form
+    accessed: "2026-09-24"
+    quote: $6.00 one-time fee for the first requested certified copy of the amended birth certificate.
+  - id: doh-faq
+    url: https://www.nj.gov/health/vital/documents/Vital_Records_FAQ_transgender.pdf
+    title: Amendment to Sex Designation on a Birth Certificate to Reflect Gender Identity, FAQs (as of February 4, 2019)
+    publisher: New Jersey Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is no fee to simply file either the REG-L2 or the REG-L3 forms with the State Registrar. Fees are charged only upon request for copies of amended birth certificates.
+  - id: nj-hub-bc
+    url: https://www.nj.gov/transgender/name-changes/updating-birth-certificate.shtml
+    title: How to update your birth certificate
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+    quote: Expect 8-12 weeks for processing; timelines may vary.

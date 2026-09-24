@@ -1,0 +1,449 @@
+guide_type: name_change
+jurisdiction: NJ
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the Judiciary's adult kit CN 10551 (revised Feb. 8, 2021; text extracted from the PDF), the
+    family kit CN 10552 (revised June 11, 2021, copy hosted on nj.gov/transgender), the Nov. 17, 2020 Supreme Court
+    order amending R. 4:72-3 and 4:72-4, the NJ Transgender Information Hub step-by-step guide, and the Judiciary
+    fee-waiver page. Open items: (1) the task brief mentioned "P.L. 2021 c. 200" as the source of the publication
+    change; I found no such statute. Publication was eliminated by Supreme Court rule amendment (Nov. 17, 2020,
+    effective immediately), which is what this file cites. (2) Confidentiality: the Sept. 1, 2021 amendment to R.
+    1:38-3 (all name change records excluded from public access) was confirmed only through secondary sources (search
+    snippets, NJ Hub quote); the Judiciary notice was not loaded. (3) njcourts.gov blocks automated fetching of HTML
+    pages (403); the CN 10551 PDF loaded. Confirm the kit has not been revised since 2021 and that fees ($250 filing,
+    $25 certified copy, $50 Treasury) are current. (4) Whether counties routinely decide on the papers without an
+    in-person hearing varies; the kit and the Hub both say to appear. (5) N.J.S.A. links go to Justia because the
+    Legislature's statute viewer has no stable per-section URL; Justia returned 403 to curl (bot blocking) but is a
+    known-good path. (6) A4TE's NJ page had no visible last-updated date and does not list the counties its Name Change
+    Project serves. (7) The Hub notes "pending legislation may waive" the $50 Treasury fee; not tracked here.
+status: available
+status_summary:
+  en: >-
+    New Jersey adults can change their name by filing a petition in the Superior Court in their county. There is no
+    newspaper publication, the court record is not public, and no medical information is needed. You usually attend
+    one short hearing. Filing costs $250 (a fee waiver is available).
+  es: >-
+    En Nueva Jersey, las personas adultas pueden cambiar su nombre presentando una petición en el Tribunal Superior
+    de su condado. No hay publicación en periódico, el expediente no es público y no se necesita información médica.
+    Normalmente asistes a una audiencia breve. La presentación cuesta $250 (hay exención de tarifas).
+summary:
+  en: |
+    New Jersey uses one court process for every adult name change (N.J.S.A. 2A:52-1 and Court Rule 4:72). You fill in the Judiciary's free self-help kit (**CN 10551**), file it with the **Law Division, Civil Part** of the Superior Court in the county where you live, and pay **$250**. The court gives you a hearing date at least 30 days out, you mail a notice to the state Division of Criminal Justice, and the judge signs a Final Judgment at the hearing.
+
+    Since November 2020 you **never publish** your name in a newspaper, and since September 2021 **all name change records are excluded from public access**. You do not need to give any medical information or say you are trans; "this is the name I use" is enough.
+
+    Changing your gender marker is a separate, no-court process in New Jersey: see the driver's license and birth certificate guides.
+  es: |
+    Nueva Jersey usa un solo proceso judicial para todo cambio de nombre de adultos (N.J.S.A. 2A:52-1 y Regla 4:72). Llenas el paquete gratuito de autoayuda del Poder Judicial (**CN 10551**), lo presentas en la **División de Derecho, Parte Civil** del Tribunal Superior del condado donde vives y pagas **$250**. El tribunal fija una audiencia al menos 30 días después, envías un aviso a la División de Justicia Penal del estado y el juez firma la Sentencia Final en la audiencia.
+
+    Desde noviembre de 2020 **nunca publicas** tu nombre en un periódico, y desde septiembre de 2021 **todos los expedientes de cambio de nombre están excluidos del acceso público**. No necesitas dar información médica ni decir que eres trans.
+
+    Cambiar tu marcador de género es un trámite aparte y sin tribunal en Nueva Jersey: consulta las guías de licencia de conducir y acta de nacimiento.
+eligibility:
+  residency:
+    en: File in the Superior Court of the New Jersey county where you live.
+    es: Presenta la petición en el Tribunal Superior del condado de Nueva Jersey donde vives.
+  age:
+    en: 18 or older for the adult (Civil Part) kit. Children under 18 use the Family Part kit; see Minors.
+    es: 18 años o más para el paquete de adultos. Los menores de 18 usan el paquete de la Parte de Familia; ver Menores.
+  criminal_history:
+    en: >-
+      You must list any criminal convictions and pending charges on the Verified Complaint. A record does not bar a
+      name change, but if charges are pending you must also mail notice to the prosecutor handling them.
+    es: >-
+      Debes indicar en la demanda verificada cualquier condena o cargo pendiente. Tener antecedentes no impide el
+      cambio de nombre, pero si hay cargos pendientes también debes enviar aviso a la fiscalía que los lleva.
+  sources: [cn10551]
+forms:
+  - id: CN 10551
+    name:
+      en: How to Ask the Court to Change Your Name, Adults Only (kit with Forms A, A1, B, C, C1, D)
+      es: Cómo pedir al tribunal que cambie tu nombre, solo adultos (paquete con los formularios A, A1, B, C, C1, D)
+    url: https://www.njcourts.gov/sites/default/files/forms/10551_namechg_adult.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Form A, Verified Complaint**: item 10 asks why you want the change. A short answer such as "This is the name I use and am known by" is enough. You do not have to mention gender, transition, or any medical information.
+        - Item 7: list convictions or pending charges honestly. Item 8: check "is not" being made to avoid creditors or prosecution.
+        - **Form A1** holds your Social Security number so it stays out of the main file.
+        - **Forms B, C, C1**: fill in your names only; the court completes the dates. The effective date on Form C is set by the judge at least 30 days after the judgment.
+        - **Form D, Proof of Mailing**: fill in after you mail the hearing order to the Division of Criminal Justice, and attach the green certified-mail card.
+      es: |
+        - **Formulario A, Demanda verificada**: el punto 10 pregunta por qué quieres el cambio. Basta con algo como "Este es el nombre que uso y por el que me conocen". No tienes que mencionar género, transición ni información médica.
+        - Punto 7: indica con honestidad condenas o cargos pendientes. Punto 8: marca que "no" se hace para evadir acreedores o procesos penales.
+        - El **Formulario A1** contiene tu número de Seguro Social para que no quede en el expediente principal.
+        - **Formularios B, C, C1**: llena solo tus nombres; el tribunal completa las fechas.
+        - **Formulario D, Prueba de envío**: llénalo después de enviar la orden de audiencia a la División de Justicia Penal y adjunta la tarjeta verde del correo certificado.
+    sources: [cn10551, nj-hub-steps]
+  - id: CIS
+    name:
+      en: Civil Case Information Statement (self-represented version)
+      es: Declaración de información del caso civil (versión para personas sin abogado)
+    url: https://www.njcourts.gov/self-help/name-change
+    required: always
+    condition:
+      en: Required with every new civil filing. The case type number for a name change is 151. Download it from the Judiciary's Self-Help Center.
+      es: Obligatoria con toda nueva demanda civil. El número de tipo de caso para cambio de nombre es 151.
+    sources: [cn10551]
+  - id: CN 11208
+    name:
+      en: Filing Fee Waiver application
+      es: Solicitud de exención de tarifas de presentación
+    url: https://www.njcourts.gov/sites/default/files/forms/11208_filingfeewaiver.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $250 filing fee. See the fee waiver section.
+      es: Solo si no puedes pagar la tarifa de $250. Ver la sección de exención.
+    how_to_fill:
+      en: |
+        - List household size, all income, and liquid assets (cash, bank accounts).
+        - Attach six months of bank statements for any checking or savings account.
+        - File it at the same time as your name change papers.
+      es: |
+        - Indica el tamaño del hogar, todos los ingresos y los bienes líquidos (efectivo, cuentas bancarias).
+        - Adjunta seis meses de estados de cuenta bancarios.
+        - Preséntala al mismo tiempo que tus documentos de cambio de nombre.
+    sources: [fee-waiver-page]
+  - id: CN 10552
+    name:
+      en: How to Ask the Court to Change a Name in the Chancery Division, Family Part (minors)
+      es: Cómo pedir al tribunal un cambio de nombre en la División de Equidad, Parte de Familia (menores)
+    url: https://www.nj.gov/transgender/10552_fd_namechg_family.pdf
+    required: conditional
+    condition:
+      en: Only for a child under 18, or for a parent changing their own name at the same time as their child's.
+      es: Solo para menores de 18 años, o para un padre o madre que cambia su nombre al mismo tiempo que el de su hijo.
+    sources: [cn10552]
+steps:
+  - id: fill-kit
+    title:
+      en: Fill out the adult name change kit
+      es: Llena el paquete de cambio de nombre para adultos
+    body:
+      en: Download CN 10551 and complete Forms A, A1, B, C, and C1, plus the Civil Case Information Statement (case type 151). Type or print on plain 8.5 x 11 white paper. Make one copy of everything for yourself.
+      es: Descarga CN 10551 y completa los formularios A, A1, B, C y C1, más la Declaración de información del caso civil (tipo 151). Escribe a máquina o con letra clara en papel blanco tamaño carta. Haz una copia de todo para ti.
+    forms: [CN 10551, CIS]
+    sources: [cn10551]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you qualify
+      es: Pide una exención de tarifas si calificas
+    body:
+      en: If your household income is at or below 150% of the federal poverty level and you have no more than $2,500 in cash or bank accounts, fill out CN 11208 and file it with your papers instead of paying.
+      es: Si el ingreso de tu hogar es igual o menor al 150% del nivel federal de pobreza y no tienes más de $2,500 en efectivo o cuentas, llena CN 11208 y preséntala con tus documentos en lugar de pagar.
+    forms: [CN 11208]
+    optional: true
+    sources: [fee-waiver-page]
+  - id: file
+    title:
+      en: File with the Superior Court, Civil Part, in your county
+      es: Presenta en el Tribunal Superior, Parte Civil, de tu condado
+    body:
+      en: |
+        File online through the Judiciary Electronic Document Submission system (JEDS), by mail, or by delivering the papers to the Civil Division in your county. By mail or delivery, send the originals plus one copy, a check or money order for **$250** payable to "Treasurer, State of New Jersey" (or your fee waiver), and a self-addressed stamped envelope.
+      es: |
+        Presenta en línea mediante el sistema JEDS del Poder Judicial, por correo o entregando los documentos en la División Civil de tu condado. Por correo o entrega, envía los originales más una copia, un cheque o giro de **$250** a nombre de "Treasurer, State of New Jersey" (o tu exención) y un sobre con tu dirección y estampilla.
+    fees: [filing]
+    applies_to: [by_mail, online, in_person]
+    sources: [cn10551]
+  - id: notify-dcj
+    title:
+      en: Mail the hearing order to the Division of Criminal Justice
+      es: Envía la orden de audiencia a la División de Justicia Penal
+    body:
+      en: |
+        The court returns your papers with a docket number and a hearing date (at least 30 days away). At least **20 days before the hearing**, send a copy of the Order Fixing Date of Hearing by **both regular and certified mail, return receipt requested** to: Director, Division of Criminal Justice, ATTN: Records and Identification Section, R. J. Hughes Justice Complex, 25 Market Street, P.O. Box 085, Trenton, NJ 08625-0085. If you have pending charges, also send the complaint and Form A1, and send the same papers to the county prosecutor. When the green card comes back, file Form D (Proof of Mailing) with the court.
+      es: |
+        El tribunal te devuelve los documentos con un número de expediente y una fecha de audiencia (al menos 30 días después). Al menos **20 días antes de la audiencia**, envía una copia de la Orden que fija la audiencia por **correo regular y certificado con acuse de recibo** a: Director, Division of Criminal Justice, ATTN: Records and Identification Section, R. J. Hughes Justice Complex, 25 Market Street, P.O. Box 085, Trenton, NJ 08625-0085. Cuando regrese la tarjeta verde, presenta el Formulario D ante el tribunal.
+    forms: [CN 10551]
+    sources: [cn10551, rule-472-order]
+  - id: hearing
+    title:
+      en: Go to your hearing
+      es: Asiste a tu audiencia
+    body:
+      en: Bring proof of your current name (a photo ID). The judge may ask routine questions, such as whether you are trying to avoid debts or prosecution. You do not have to share medical information. If the judge is satisfied there is no reasonable objection, they sign the Final Judgment, which takes effect on a date at least 30 days later.
+      es: Lleva prueba de tu nombre actual (identificación con foto). El juez puede hacer preguntas de rutina, como si intentas evadir deudas o procesos penales. No tienes que compartir información médica. Si el juez no ve objeción razonable, firma la Sentencia Final, que entra en vigor al menos 30 días después.
+    sources: [cn10551, rule-472-order, nj-hub-steps]
+  - id: certified-copies
+    title:
+      en: Order certified copies of the Final Judgment
+      es: Pide copias certificadas de la Sentencia Final
+    body:
+      en: Order at least 3 certified copies with a raised seal, each with the Final Judgment Addendum attached ($25 each; request through JEDS). Photocopies are not accepted by the MVC, Social Security, or Vital Records.
+      es: Pide al menos 3 copias certificadas con sello en relieve, cada una con el Anexo de la Sentencia Final ($25 cada una; se piden por JEDS). Las fotocopias no son aceptadas por la MVC, el Seguro Social ni el Registro Civil.
+    fees: [certified-copy]
+    sources: [cn10551, nj-hub-steps]
+  - id: treasury
+    title:
+      en: File the judgment with the NJ Treasury within 45 days
+      es: Registra la sentencia en el Tesoro de NJ dentro de 45 días
+    body:
+      en: 'Within 45 days of the judgment, mail one certified copy (with the Addendum), a $50 check or money order payable to "Treasurer, State of New Jersey", and a self-addressed stamped envelope to: Department of Treasury, Division of Revenue, Judgment Name Change Unit, P.O. Box 453, Trenton, NJ 08646.'
+      es: 'Dentro de los 45 días siguientes a la sentencia, envía una copia certificada (con el Anexo), un cheque o giro de $50 a nombre de "Treasurer, State of New Jersey" y un sobre con estampilla a: Department of Treasury, Division of Revenue, Judgment Name Change Unit, P.O. Box 453, Trenton, NJ 08646.'
+    fees: [treasury]
+    sources: [cn10551]
+  - id: update-documents
+    title:
+      en: Update your other documents
+      es: Actualiza tus demás documentos
+    body:
+      en: |
+        1. **Social Security** first (free; bring a certified copy and photo ID).
+        2. **NJ MVC** license or ID, in person, **within two weeks after the effective date** in your judgment (see the driver's license guide).
+        3. **Birth certificate**: if born in New Jersey, send a certified copy with form REG-L2 (or the name-change request) to Vital Records; $2 to register the name change. Born elsewhere: contact your birth state.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis; lleva copia certificada e identificación con foto).
+        2. **MVC de NJ**, en persona, **dentro de las dos semanas posteriores a la fecha de vigencia** de tu sentencia.
+        3. **Acta de nacimiento**: si naciste en Nueva Jersey, envía una copia certificada con el formulario REG-L2 al Registro Civil; $2 por registrar el cambio. Si naciste en otro lugar, contacta a tu estado de nacimiento.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [cn10551, nj-hub-steps]
+fees:
+  - id: filing
+    label:
+      en: Superior Court filing fee (covers all adult family members on one petition)
+      es: Tarifa de presentación del Tribunal Superior (cubre a todos los adultos de la familia en una petición)
+    amount: 250
+    waivable: true
+    sources: [cn10551, nj-hub-steps]
+  - id: certified-copy
+    label:
+      en: Certified copy of the Final Judgment with raised seal (each)
+      es: Copia certificada de la Sentencia Final con sello (cada una)
+    amount: 25
+    sources: [cn10551, nj-hub-steps]
+  - id: treasury
+    label:
+      en: Department of Treasury filing fee for the judgment
+      es: Tarifa de registro de la sentencia en el Departamento del Tesoro
+    amount: 50
+    note:
+      en: Due within 45 days of the judgment. The NJ Transgender Hub notes pending legislation may waive this fee.
+      es: Se paga dentro de los 45 días siguientes a la sentencia. El Hub Transgénero de NJ indica que una propuesta de ley podría eliminarla.
+    sources: [cn10551, nj-hub-steps]
+fee_waiver:
+  available: true
+  forms: [CN 11208]
+  eligibility:
+    en: |
+      Both must be true:
+      - Your household income is at or below **150% of the federal poverty level** for your household size.
+      - You have **no more than $2,500** in liquid assets (cash, bank accounts).
+    es: |
+      Deben cumplirse ambas:
+      - El ingreso de tu hogar es igual o menor al **150% del nivel federal de pobreza** según el tamaño del hogar.
+      - No tienes **más de $2,500** en bienes líquidos (efectivo, cuentas bancarias).
+  how:
+    en: File CN 11208 with your name change papers, with six months of bank statements. Note that fee waiver applications are generally public records, unlike the name change file itself.
+    es: Presenta CN 11208 con tus documentos de cambio de nombre y seis meses de estados de cuenta. Las solicitudes de exención suelen ser públicas, a diferencia del expediente de cambio de nombre.
+  sources: [fee-waiver-page]
+publication:
+  required: "no"
+  detail:
+    en: The New Jersey Supreme Court eliminated newspaper publication of both the notice of application and the judgment for all name changes, adults and minors, by order of November 17, 2020 (amendments to R. 4:72-3 and 4:72-4, effective immediately). The Court cited the safety and privacy of transgender, gender nonconforming, and nonbinary people.
+    es: La Corte Suprema de Nueva Jersey eliminó la publicación en periódico tanto del aviso como de la sentencia para todos los cambios de nombre, de adultos y menores, por orden del 17 de noviembre de 2020 (enmiendas a las Reglas 4:72-3 y 4:72-4, vigentes de inmediato).
+  sources: [rule-472-order]
+hearing:
+  required: "yes"
+  detail:
+    en: The court sets a hearing at least 30 days after it signs the Order Fixing Date of Hearing. Under R. 4:72-4 the judge may decide "from the filed papers, with or without oral testimony", but the Judiciary kit and the state's Transgender Hub both tell you to appear. Expect a short hearing.
+    es: El tribunal fija una audiencia al menos 30 días después de firmar la orden. Según la Regla 4:72-4 el juez puede decidir con base en los documentos, con o sin testimonio oral, pero el paquete del Poder Judicial y el Hub Transgénero del estado indican que debes comparecer.
+  sources: [rule-472-order, cn10551, nj-hub-steps]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints. You must mail the hearing order to the Division of Criminal Justice, Records and Identification Section, at least 20 days before the hearing, and disclose convictions and pending charges on the complaint. If you have a conviction or pending charges, the clerk sends the judgment to the State Bureau of Identification.
+    es: No se toman huellas. Debes enviar la orden de audiencia a la División de Justicia Penal al menos 20 días antes y declarar condenas y cargos pendientes en la demanda.
+  sources: [cn10551, rule-472-order]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      Since September 1, 2021, Court Rule 1:38-3 excludes **all records** in name change actions from public access, a change adopted to protect transgender, gender nonconforming, and nonbinary people. Your Social Security number goes on separate confidential forms (A1 and C1). Separately, Executive Order 311 (2022) makes name change orders filed with the Department of Treasury confidential and exempt from the Open Public Records Act.
+    es: |
+      Desde el 1 de septiembre de 2021, la Regla 1:38-3 excluye **todos los expedientes** de cambio de nombre del acceso público, para proteger a personas trans, de género no conforme y no binarias. Tu número de Seguro Social va en formularios confidenciales aparte (A1 y C1). Además, la Orden Ejecutiva 311 (2022) hace confidenciales las órdenes de cambio de nombre registradas en el Departamento del Tesoro.
+  how:
+    en: Nothing to do; confidentiality is automatic. The fee waiver application is the exception and may be public.
+    es: No tienes que hacer nada; la confidencialidad es automática. La solicitud de exención de tarifas es la excepción.
+  sources: [nj-hub-steps, eo-311]
+minors:
+  summary:
+    en: |
+      A parent or guardian files in the **Chancery Division, Family Part** using kit **CN 10552** ($250 filing fee; one fee covers a parent and child filed together). The steps match the adult process (Division of Criminal Justice notice, hearing, certified copies, Treasury filing). If the child's other parent does not live with you, you must mail the Verified Complaint and the hearing order to that parent's last known address by regular and certified mail, return receipt requested, so they can object at the hearing. If there is an active restraining order with the other parent, contact the Family Court for instructions. Records are confidential and there is no publication.
+    es: |
+      Un padre, madre o tutor presenta en la **División de Equidad, Parte de Familia** con el paquete **CN 10552** ($250; una sola tarifa cubre a padre e hijo presentados juntos). Los pasos son iguales al proceso de adultos. Si el otro padre del menor no vive contigo, debes enviarle la demanda y la orden de audiencia a su última dirección conocida por correo regular y certificado con acuse de recibo, para que pueda objetar en la audiencia. Si hay una orden de restricción activa con el otro padre, consulta al Tribunal de Familia. Los expedientes son confidenciales y no hay publicación.
+  forms: [CN 10552]
+  sources: [cn10552, rule-472-order]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: Online through JEDS, by mail, or by delivery to your county's Civil Division. Documents are filed as of the date received.
+    es: En línea mediante JEDS, por correo o entregándolos en la División Civil de tu condado.
+  sources: [cn10551]
+timeline:
+  en: Plan on roughly two to three months. The hearing is at least 30 days after filing is processed, and the new name takes effect at least 30 days after the judgment. Then allow a few weeks for certified copies and updates.
+  es: Calcula unos dos a tres meses. La audiencia es al menos 30 días después de tramitada la petición, y el nuevo nombre entra en vigor al menos 30 días después de la sentencia.
+after:
+  en: |
+    On or after the **effective date** in your judgment: update **Social Security** (free), then the **MVC** in person within two weeks ($11 duplicate fee; bring a certified copy and your 6 points of ID). Mail the **Treasury** copy with $50 within 45 days of the judgment. If you were born in New Jersey, send Vital Records a certified copy with form REG-L2 to update your birth certificate (name and, if you want, gender at the same time). Then your **passport** (name changes are processed; sex marker changes are not, as of September 2026), bank, employer, insurance, and voter registration.
+  es: |
+    A partir de la **fecha de vigencia** de tu sentencia: actualiza el **Seguro Social** (gratis) y luego la **MVC** en persona dentro de dos semanas ($11; lleva copia certificada y tus 6 puntos de identificación). Envía la copia al **Tesoro** con $50 dentro de 45 días de la sentencia. Si naciste en Nueva Jersey, envía al Registro Civil una copia certificada con el formulario REG-L2 para actualizar tu acta (nombre y, si quieres, género al mismo tiempo). Luego tu **pasaporte** (los cambios de nombre se procesan; los de marcador de sexo no, a septiembre de 2026), banco, empleador, seguro y registro de votante.
+tips:
+  - en: The judge cannot require medical documentation. If asked a private question, you can say the new name is the name you use and decline to say more.
+    es: El juez no puede exigir documentación médica. Si te hacen una pregunta privada, puedes decir que es el nombre que usas y no dar más detalles.
+  - en: Watch the two deadlines after the hearing, 45 days for Treasury and two weeks after the effective date for the MVC.
+    es: Cuida los dos plazos posteriores a la audiencia, 45 días para el Tesoro y dos semanas después de la fecha de vigencia para la MVC.
+  - en: One $250 fee covers several adult family members on the same petition.
+    es: Una sola tarifa de $250 cubre a varios adultos de la familia en la misma petición.
+local_help:
+  - id: gse-ncp
+    name: Garden State Equality, Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Free legal guidance and document preparation for trans adults (and minors with parental consent) who live in Bergen, Hudson, or Passaic County and meet income limits, through Northeast New Jersey Legal Services and volunteer attorneys. Does not pay filing fees, but helps you apply for a fee waiver. Call 973-509-5428.
+      es: Orientación legal y preparación de documentos gratuitas para adultos trans (y menores con consentimiento de los padres) que viven en los condados de Bergen, Hudson o Passaic y cumplen límites de ingresos, a través de Northeast New Jersey Legal Services y abogados voluntarios. No paga tarifas, pero ayuda a pedir la exención. Llama al 973-509-5428.
+    url: https://www.gardenstateequality.org/programs/name-change-project/
+    phone: "973-509-5428"
+    areas_served:
+      en: Bergen, Hudson, and Passaic counties
+      es: Condados de Bergen, Hudson y Passaic
+    cost: free
+    verification: org_website
+    sources: [gse-ncp]
+  - id: a4te-ncp
+    org: a4te
+    name: Advocates for Trans Equality, Name Change Project (New Jersey)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Connects low-income transgender, nonbinary, and gender nonconforming people in several New Jersey counties with free legal representation for their name change. Apply through A4TE's website.
+      es: Conecta a personas trans, no binarias y de género no conforme de bajos ingresos en varios condados de Nueva Jersey con representación legal gratuita para su cambio de nombre.
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    cost: free
+    verification: org_website
+    sources: [a4te-nj]
+  - id: lsnj-hotline
+    name: Legal Services of New Jersey, LSNJLAW Hotline
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide free civil legal help for people with low incomes; call 1-888-576-5529 or apply online. Regional offices cover every county.
+      es: Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos; llama al 1-888-576-5529 o solicita en línea.
+    url: https://www.lsnjlawhotline.org/
+    phone: "888-576-5529"
+    cost: free
+    languages: [English, Español]
+    verification: official_source
+    sources: [nj-hub-legal-help]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline, ID microgrants
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Peer hotline (877-565-8860) that also offers microgrants toward name change and ID fees when funding allows.
+      es: Línea de apoyo (877-565-8860) que también ofrece microsubvenciones para tarifas de cambio de nombre e identificación cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: N.J.S.A. 2A:52-1 to -4
+    title:
+      en: Change of name by judgment of the Superior Court
+    url: https://law.justia.com/codes/new-jersey/title-2a/section-2a-52-1/
+  - cite: N.J. Court Rules 4:72-1 to 4:72-4 (as amended November 17, 2020)
+    title:
+      en: Name change procedure; newspaper publication eliminated
+    url: https://www.njcourts.gov/sites/default/files/notices/2020/11/n201119b.pdf
+  - cite: Executive Order No. 311 (2022)
+    title:
+      en: Name change orders filed with Treasury are confidential and exempt from OPRA
+    url: https://www.nj.gov/infobank/eo/056murphy/pdf/EO-311.pdf
+related_links:
+  - title: NJ Transgender Information Hub, step-by-step guide to changing your legal name
+    url: https://www.nj.gov/transgender/name-changes/step-by-step-guide.shtml
+    note:
+      en: The state's own plain-language walkthrough.
+      es: La guía oficial del estado en lenguaje sencillo.
+  - title: Advocates for Trans Equality, New Jersey identity documents
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    note:
+      en: No last-updated date shown when checked on 2026-09-24; it lists the older $25 first-copy fee for amended birth certificates rather than the $6 fee on the current REG-L2 form.
+      es: No muestra fecha de actualización (revisado el 2026-09-24); indica la tarifa antigua de $25 para actas enmendadas en lugar de los $6 del formulario REG-L2 actual.
+sources:
+  - id: cn10551
+    url: https://www.njcourts.gov/sites/default/files/forms/10551_namechg_adult.pdf
+    title: CN 10551, How to Ask the Court to Change Your Name, Adults Only (revised February 8, 2021)
+    publisher: New Jersey Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: Complete the attached forms and a Civil Case Information Statement and send them to the court with a $250 filing fee.
+  - id: cn10552
+    url: https://www.nj.gov/transgender/10552_fd_namechg_family.pdf
+    title: CN 10552, How to Ask the Court to Change a Name in the Chancery Division, Family Part (revised June 11, 2021)
+    publisher: New Jersey Courts (copy hosted by the NJ Transgender Information Hub)
+    kind: form
+    accessed: "2026-09-24"
+    quote: If you are changing the name of a child who is under the age of 18 years and the child's other parent does not reside with you, you must send a copy of the Verified Complaint and the Order Fixing Date for Hearing to the last known address of the child's other parent.
+  - id: rule-472-order
+    url: https://www.njcourts.gov/sites/default/files/notices/2020/11/n201119b.pdf
+    title: Notice and Order, Name Change Applications, Elimination of the Requirement of Newspaper Publication (Amendments to R. 4:72-3 and 4:72-4)
+    publisher: Supreme Court of New Jersey
+    kind: court
+    accessed: "2026-09-24"
+    quote: The Supreme Court has amended Rule 4:72-3 and 4:72-4 so as to eliminate the requirement of newspaper publication of the notice of application and judgment granting a name change.
+  - id: nj-hub-steps
+    url: https://www.nj.gov/transgender/name-changes/step-by-step-guide.shtml
+    title: Step-by-step guide to changing your legal name
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+    quote: In 2021, the NJ Supreme Court ordered that all records of name changes be excluded from public access to respect the rights and privacy of transgender individuals.
+  - id: fee-waiver-page
+    url: https://www.njcourts.gov/self-help/fee-waiver
+    title: Court Fees and Fee Waivers
+    publisher: New Jersey Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: Have income at or below 150 percent of the current poverty level ... Have no more than $2,500 in liquid assets such as cash or bank accounts.
+  - id: eo-311
+    url: https://www.nj.gov/infobank/eo/056murphy/pdf/EO-311.pdf
+    title: Executive Order No. 311 (2022)
+    publisher: Office of the Governor of New Jersey
+    kind: official
+    accessed: "2026-09-24"
+  - id: gse-ncp
+    url: https://www.gardenstateequality.org/programs/name-change-project/
+    title: Name Change Project
+    publisher: Garden State Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-nj
+    url: https://transequality.org/documents/new-jersey-identity-documents
+    title: New Jersey identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our Name Change Project also connects low-income transgender, non-binary, and gender non-conforming people in several counties in New Jersey with legal representation for their name changes.
+  - id: nj-hub-legal-help
+    url: https://www.nj.gov/transgender/legal-protections/get-legal-help.shtml
+    title: How to get legal help
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

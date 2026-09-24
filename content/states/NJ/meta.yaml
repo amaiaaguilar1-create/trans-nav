@@ -1,0 +1,122 @@
+code: NJ
+name:
+  en: New Jersey
+  es: Nueva Jersey
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Climate signals from primary sources: Rule 4:72 amendments (no publication, Nov. 2020), Rule 1:38-3 (name change
+    records excluded from public access since Sept. 1, 2021), MVC form GENDER1 (self-attestation, M/F/X), N.J.S.A.
+    26:8-40.12 as amended by P.L.2018, c.58 (birth certificate self-attestation), P.L.2017, c.176 (insurance and Medicaid
+    nondiscrimination), Executive Order 326 (April 2023) and P.L.2026, c.74 (S2260, approved Aug. 20, 2026; bill
+    history read from the Legislature's API). MAP lists New Jersey as "2023 EO, 2026 law", consistent with this.
+overview:
+  en: >-
+    New Jersey is one of the most protective states for trans people. Name changes need no newspaper publication and
+    the court record is confidential, driver's licenses and birth certificates offer M, F, or X (called
+    "undesignated/non-binary" on birth certificates) by signing a self-attestation form, NJ FamilyCare (Medicaid) and
+    state-regulated insurance may not discriminate against trans people, and a 2026 law (P.L.2026, c.74) plus Executive
+    Order 326 protect patients and providers of gender-affirming care from other states' bans. Federal documents
+    (passport, Social Security) are the exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Nueva Jersey es uno de los estados que más protege a las personas trans. Los cambios de nombre no requieren
+    publicación en periódico y el expediente judicial es confidencial, las licencias de conducir y actas de nacimiento
+    ofrecen M, F o X (llamado "no designado/no binario" en actas de nacimiento) firmando un formulario de declaración
+    propia, NJ FamilyCare (Medicaid) y los seguros regulados por el estado no pueden discriminar a personas trans, y una
+    ley de 2026 (P.L.2026, c.74) junto con la Orden Ejecutiva 326 protegen a pacientes y proveedores de atención de
+    afirmación de género frente a las prohibiciones de otros estados. Los documentos federales (pasaporte, Seguro
+    Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [pl2026-c74, eo-326, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [newark]
+key_resources:
+  - id: gse
+    name: Garden State Equality
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: New Jersey's largest LGBTQ+ advocacy organization. Runs the Name Change Project (free legal help for eligible trans adults in Bergen, Hudson, and Passaic counties through partner legal aid groups) and an Affirming Healthcare Map of LGBTQ-friendly providers. Call 973-509-5428.
+      es: La organización de defensa LGBTQ+ más grande de Nueva Jersey. Dirige el Proyecto de Cambio de Nombre (ayuda legal gratuita para adultos trans elegibles en los condados de Bergen, Hudson y Passaic a través de grupos de asistencia legal) y un mapa de proveedores de salud afirmativos. Llama al 973-509-5428.
+    url: https://www.gardenstateequality.org/
+    phone: "973-509-5428"
+    cost: free
+    verification: org_website
+    sources: [gse, gse-ncp]
+  - id: lsnj-hotline
+    name: Legal Services of New Jersey, LSNJLAW Hotline
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Statewide free civil legal aid for people with low incomes. Call 1-888-576-5529 or apply online.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Llama al 1-888-576-5529 o solicita en línea.
+    url: https://www.lsnjlawhotline.org/
+    phone: "888-576-5529"
+    cost: free
+    languages: [English, Español]
+    verification: official_source
+    sources: [nj-hub-legal-help]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: pl2026-c74
+    url: https://pub.njleg.gov/Bills/2026/S2500/2260_R3.HTM
+    title: S2260 (SCS, 3R), enacted as P.L.2026, c.74 (approved August 20, 2026), protections for reproductive and gender-affirming health care
+    publisher: New Jersey Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Reproductive health care services shall include ... medication, to support a person's alignment with their gender identity or expression.
+  - id: eo-326
+    url: https://nj.gov/infobank/eo/056murphy/pdf/EO-326.pdf
+    title: Executive Order No. 326 (2023), gender-affirming health care safe haven
+    publisher: Office of the Governor of New Jersey
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/healthcare/trans_shield_laws
+    title: Transgender health care shield laws
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: New Jersey, 2023 EO, 2026 law
+  - id: gse
+    url: https://www.gardenstateequality.org/
+    title: Garden State Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: gse-ncp
+    url: https://www.gardenstateequality.org/programs/name-change-project/
+    title: Name Change Project
+    publisher: Garden State Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: nj-hub-legal-help
+    url: https://www.nj.gov/transgender/legal-protections/get-legal-help.shtml
+    title: How to get legal help
+    publisher: State of New Jersey, Transgender Information Hub
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
