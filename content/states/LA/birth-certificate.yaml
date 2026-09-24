@@ -1,0 +1,243 @@
+guide_type: birth_certificate
+jurisdiction: LA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    R.S. 40:62 text read on legis.la.gov 2026-09-24 (Title 40 not yet marked updated for the 2026 session). Act 814 of
+    2026 (HB 578) is not listed as amending R.S. 40:62 in its résumé digest, but it adds a statewide biological
+    definition of "sex" in R.S. 1:8 effective Aug. 1, 2026; how courts and Vital Records will treat new R.S. 40:62
+    petitions is unknown. Reviewer: confirm with LDH Vital Records (504-593-5100) whether R.S. 40:62 judgments are
+    still being processed after Aug. 1, 2026. Fees ($27.50 amendment including one copy; $9 additional copies at the
+    time of amendment; $15 search fee if the original certificate is not provided; $15 per certified copy ordered
+    separately) and 8 to 12 week processing from LDH pages 2026-09-24. LDH's amendments page says the two-provider
+    statement to correct the sex of a child is "not applicable for gender reassignment." Louisiana Trans Advocates
+    reports that out-of-state gender judgments made executory in Louisiana are regularly denied (community report).
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Louisiana, you can get a new birth certificate with a different sex only by suing the state
+    registrar in district court and proving you have had sex reassignment surgery; the judge must be convinced before
+    ordering a new certificate. No X marker exists. A 2026 law defining sex as observed at birth adds uncertainty.
+    Changing only the name requires a Louisiana court name-change judgment and a $27.50 fee.
+  es: >-
+    Si naciste en Luisiana, solo puedes obtener una nueva acta de nacimiento con otro sexo demandando al registrador
+    estatal ante un tribunal de distrito y probando que tuviste cirugía de reasignación de sexo; el juez debe quedar
+    convencido antes de ordenar la nueva acta. No existe el marcador X. Una ley de 2026 que define el sexo como el
+    observado al nacer agrega incertidumbre. Cambiar solo el nombre requiere una sentencia judicial de cambio de nombre
+    y una tarifa de $27.50.
+summary:
+  en: |
+    **Sex marker.** Under La. R.S. 40:62, a person born in Louisiana who has had "sex reassignment or corrective surgery" may petition the district court of the parish where they live or were born (nonresidents file in the parish of birth). The suit is filed against the **state registrar of vital records**; your spouse, if you are married, is a necessary party, and the district attorney is too if you also ask for a name change. You must attach a certified long-form copy of your original birth record. The court requires whatever proof it considers necessary that you were diagnosed, that surgery was performed, and that your anatomy was changed. If the judge agrees, the court orders a **new certificate**, and the original certificate and court papers are **sealed** at Vital Records. You can ask for a name change in the same suit.
+
+    **What changed in 2026:** Act 814 (effective August 1, 2026) adds a definition to R.S. 1:8 that "sex" means biological sex observed or clinically certified at birth. It did not expressly repeal R.S. 40:62, but it may make judges or Vital Records less willing to grant changes. Talk to a lawyer before filing.
+
+    **Name only.** Send Vital Records a certified copy of a Louisiana name change judgment, the petition, and the district attorney's answer, with the Application to Amend and $27.50. Only the name is changed (R.S. 13:4754).
+
+    **Born in another state?** Follow the rules of the state where you were born; Louisiana Vital Records only holds Louisiana births.
+  es: |
+    **Marcador de sexo.** Según La. R.S. 40:62, una persona nacida en Luisiana que tuvo "cirugía de reasignación de sexo o correctiva" puede presentar una demanda ante el tribunal de distrito de la parroquia donde vive o donde nació (quienes no residen en Luisiana presentan en la parroquia de nacimiento). La demanda es contra el **registrador estatal de estadísticas vitales**; tu cónyuge, si estás casado, es parte necesaria, y también el fiscal de distrito si pides cambio de nombre. Debes adjuntar una copia certificada completa de tu acta original. El tribunal exige la prueba que considere necesaria de diagnóstico, cirugía y cambio anatómico. Si el juez está de acuerdo, ordena una **nueva acta**, y la original y los documentos judiciales se **sellan** en Estadísticas Vitales. Puedes pedir el cambio de nombre en la misma demanda.
+
+    **Qué cambió en 2026:** la Ley 814 (vigente desde el 1 de agosto de 2026) agrega a R.S. 1:8 que "sexo" significa el sexo biológico observado o certificado clínicamente al nacer. No derogó expresamente R.S. 40:62, pero puede hacer que los jueces o Estadísticas Vitales sean menos dispuestos a concederlo. Consulta a un abogado antes de presentar.
+
+    **Solo el nombre.** Envía a Estadísticas Vitales una copia certificada de una sentencia de cambio de nombre de Luisiana, la petición y la respuesta del fiscal, con la solicitud de enmienda y $27.50.
+
+    **¿Naciste en otro estado?** Sigue las reglas del estado donde naciste.
+eligibility:
+  residency:
+    en: You must have been born in Louisiana. You do not need to live in Louisiana; nonresidents file the sex-change suit in the parish of birth.
+    es: Debes haber nacido en Luisiana. No necesitas vivir en Luisiana; quienes no residen presentan la demanda en la parroquia de nacimiento.
+  other:
+    en: For a sex marker change, R.S. 40:62 requires proof of sex reassignment or corrective surgery.
+    es: Para cambiar el marcador de sexo, R.S. 40:62 exige prueba de cirugía de reasignación de sexo o correctiva.
+  sources: [rs-40-62, ldh-order]
+forms:
+  - id: Application to Amend
+    name:
+      en: Application to Amend Certificate of Birth
+      es: Solicitud para enmendar el acta de nacimiento
+    url: https://ldh.la.gov/assets/oph/Center-RS/S2_ApplicationtoAmendCertificateofBirth.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - List each item to change (name, sex) exactly as it should appear.
+        - Include a legible copy of your government photo ID, your current (incorrect) birth certificate, the certified court documents, and a check or money order payable to Vital Records Registry.
+    sources: [ldh-amend]
+steps:
+  - id: get-court-order
+    title:
+      en: Get the court judgment
+      es: Obtén la sentencia judicial
+    body:
+      en: |
+        - **Sex marker:** file a petition under R.S. 40:62 against the state registrar in the district court of your parish of residence or birth, with a certified long-form copy of your original birth record and medical proof of surgery. Name your spouse if married, and the district attorney if you also want a name change. A lawyer is strongly recommended.
+        - **Name only:** get a name change judgment under R.S. 13:4751 (see the name change guide).
+      es: |
+        - **Marcador de sexo:** presenta una demanda según R.S. 40:62 contra el registrador estatal en el tribunal de distrito de tu parroquia de residencia o nacimiento, con una copia certificada completa de tu acta original y prueba médica de la cirugía. Nombra a tu cónyuge si estás casado, y al fiscal si también quieres cambio de nombre. Se recomienda mucho un abogado.
+        - **Solo nombre:** obtén una sentencia de cambio de nombre según R.S. 13:4751.
+    sources: [rs-40-62, rs-13-4754, rs-1-8, lta-id]
+  - id: send-to-vital-records
+    title:
+      en: Send the application to Vital Records
+      es: Envía la solicitud a Estadísticas Vitales
+    body:
+      en: |
+        Mail the Application to Amend, a copy of your photo ID, your current birth certificate, certified copies of the judgment (plus the petition and the district attorney's answer for a name change), and the fee to: Vital Records Registry, Attn: Amendments Department, P.O. Box 60630, New Orleans, LA 70160. For a sex change judgment, R.S. 40:62 also requires the court papers to be sent to the registrar within ten days of the judgment; send your own copy anyway.
+      es: |
+        Envía por correo la solicitud, una copia de tu identificación con foto, tu acta actual, copias certificadas de la sentencia (y la petición y la respuesta del fiscal para un cambio de nombre) y la tarifa a: Vital Records Registry, Attn: Amendments Department, P.O. Box 60630, New Orleans, LA 70160.
+    forms: [Application to Amend]
+    fees: [amendment, extra-copies]
+    applies_to: [by_mail]
+    sources: [ldh-amend, rs-40-62]
+  - id: wait
+    title:
+      en: Wait for the new certificate
+      es: Espera la nueva acta
+    body:
+      en: Vital Records says amendments take about 8 to 12 weeks. A specialist reviews each application and will contact you if more is needed, which adds time.
+      es: Estadísticas Vitales indica que las enmiendas tardan de 8 a 12 semanas. Un especialista revisa cada solicitud y te contactará si falta algo.
+    estimated_time:
+      en: 8 to 12 weeks
+      es: 8 a 12 semanas
+    sources: [ldh-amend]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee (includes one certified copy)
+      es: Tarifa de enmienda (incluye una copia certificada)
+    amount: 27.5
+    waivable: false
+    note:
+      en: Non-refundable. Add a $15 search fee if you cannot send the original certificate, and $0.50 state charge on mail orders. Vital Records fees are set by statute and cannot be waived.
+      es: No reembolsable. Agrega $15 de búsqueda si no puedes enviar el acta original y $0.50 de cargo estatal en pedidos por correo. Las tarifas no se pueden eximir.
+    sources: [ldh-amend, ldh-fees]
+  - id: extra-copies
+    label:
+      en: Additional certified copies ordered with the amendment (each)
+      es: Copias certificadas adicionales pedidas con la enmienda (cada una)
+    amount: 9
+    note:
+      en: A certified birth certificate ordered separately costs $15.
+      es: Un acta certificada pedida por separado cuesta $15.
+    sources: [ldh-amend, ldh-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: LDH says Vital Records fees are set by statute and are not subject to waiver. Court costs for the R.S. 40:62 suit can be waived with an In Forma Pauperis affidavit if you qualify.
+    es: LDH indica que las tarifas de Estadísticas Vitales están fijadas por ley y no se pueden eximir. Los costos judiciales de la demanda pueden eximirse con una declaración In Forma Pauperis si calificas.
+  sources: [ldh-fees]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: After a sex change judgment, the original certificate and the court papers are sealed at Vital Records and can be opened only on your demand and by order of the court that granted the judgment.
+    es: Después de una sentencia de cambio de sexo, el acta original y los documentos judiciales se sellan en Estadísticas Vitales y solo pueden abrirse a tu solicitud y por orden del tribunal.
+  sources: [rs-40-62]
+minors:
+  summary:
+    en: R.S. 40:62 applies to anyone born in Louisiana who has had surgery, but Louisiana has banned gender-affirming surgery for minors since January 1, 2024, so a minor cannot meet the requirement. First and middle names of a child under 12 can be corrected by an affidavit signed by both parents.
+    es: R.S. 40:62 se aplica a cualquier persona nacida en Luisiana que tuvo cirugía, pero Luisiana prohíbe la cirugía de afirmación de género para menores desde el 1 de enero de 2024, así que un menor no puede cumplir el requisito. El primer y segundo nombre de un niño menor de 12 años pueden corregirse con una declaración de ambos padres.
+  sources: [rs-40-62, rs-40-1098-2, ldh-amend]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Amendments are submitted by mail to the Amendments Department in New Orleans.
+    es: Las enmiendas se envían por correo al Departamento de Enmiendas en Nueva Orleans.
+  sources: [ldh-amend]
+timeline:
+  en: Months for the court case (longer if contested), then 8 to 12 weeks at Vital Records.
+  es: Meses para el caso judicial, luego de 8 a 12 semanas en Estadísticas Vitales.
+after:
+  en: |
+    Use the new certificate to update records that rely on it. Social Security and the US passport currently do not change sex markers, even with an amended birth certificate. Keep certified copies of the court judgment in a safe place.
+  es: |
+    Usa la nueva acta para actualizar los registros que dependen de ella. El Seguro Social y el pasaporte de EE. UU. actualmente no cambian el marcador de sexo, incluso con un acta enmendada. Guarda copias certificadas de la sentencia en un lugar seguro.
+tips:
+  - en: A Louisiana name change judgment works for the name on the certificate even if you live elsewhere now; a gender judgment from another state may need to be made executory in Louisiana, and community reports say these are often refused.
+    es: Una sentencia de cambio de nombre de Luisiana sirve para el nombre del acta aunque vivas en otro lugar; una sentencia de género de otro estado puede necesitar hacerse ejecutoria en Luisiana, y hay reportes de que suelen rechazarse.
+statutes:
+  - cite: La. R.S. 40:62
+    title:
+      en: New birth certificate after anatomical change of sex by surgery
+    url: https://legis.la.gov/Legis/Law.aspx?d=98725
+  - cite: La. R.S. 13:4754
+    title:
+      en: Name change judgment used to alter the Louisiana birth record (name only)
+    url: https://legis.la.gov/Legis/Law.aspx?d=77846
+  - cite: La. R.S. 1:8(B) (Act 814 of 2026)
+    title:
+      en: Statewide definition of sex as observed or clinically certified at birth; effective August 1, 2026
+    url: https://legis.la.gov/Legis/Law.aspx?d=74106
+related_links:
+  - title: Louisiana Trans Advocates, ID Documents Center
+    url: https://www.latransadvocates.org/id-documents-center
+  - title: Advocates for Trans Equality, Louisiana identity documents
+    url: https://transequality.org/documents/louisiana-identity-documents
+    note:
+      en: Last updated November 2025; predates Act 814.
+      es: Actualizado en noviembre de 2025; es anterior a la Ley 814.
+sources:
+  - id: rs-40-62
+    url: https://legis.la.gov/Legis/Law.aspx?d=98725
+    title: La. R.S. 40:62, Issuance of new birth certificate after anatomical change of sex by surgery
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The court shall require such proof as it deems necessary to be convinced that ... sex reassignment or corrective
+      surgery has been properly performed upon the petitioner
+  - id: rs-13-4754
+    url: https://legis.la.gov/Legis/Law.aspx?d=77846
+    title: La. R.S. 13:4754
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: which judgment shall be accepted by the registrar who may alter only the name of the registrant.
+  - id: rs-1-8
+    url: https://legis.la.gov/Legis/Law.aspx?d=74106
+    title: La. R.S. 1:8 (Act 814 of 2026)
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: '"Sex" means an individual''s biological sex, either male or female, as observed or clinically certified at birth.'
+  - id: rs-40-1098-2
+    url: https://legis.la.gov/Legis/Law.aspx?d=965985
+    title: La. R.S. 40:1098.2
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ldh-amend
+    url: https://ldh.la.gov/vital-records/amendments-to-birth-records
+    title: Amendments to Birth Records
+    publisher: Louisiana Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: The non-refundable fee for correcting or amending a birth certificate is $27.50, which includes one certified copy. Requests are processed in approximately 8 to 12 weeks.
+  - id: ldh-fees
+    url: https://ldh.la.gov/page/691
+    title: Vital Records service fees
+    publisher: Louisiana Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Vital Records fees are set by statute and are subject to change during any Legislative Session. They are not subject to waiver.
+  - id: ldh-order
+    url: https://ldh.la.gov/vital-records/request-a-birth-or-death-certificate
+    title: Request a Birth or Death Certificate
+    publisher: Louisiana Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Louisiana Vital Records Registry ONLY maintains birth and death records that occurred in Louisiana.
+  - id: lta-id
+    url: https://www.latransadvocates.org/id-documents-center
+    title: ID Documents Center
+    publisher: Louisiana Trans Advocates
+    kind: org
+    accessed: "2026-09-24"
+    quote: it's been regularly reported to us that these are denied, and folks are forced to navigate the process within Louisiana.

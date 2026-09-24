@@ -1,0 +1,122 @@
+code: LA
+name:
+  en: Louisiana
+  es: Luisiana
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from legis.la.gov (R.S. 13:4751-4755, 40:62, 40:1098.1-.6, 9:55-65, 1:8), OMV policies on
+    PowerDMS, LDH vital records pages, and org websites. Act 814 of 2026 (HB 578, "Restoring Biological Truth Act",
+    effective Aug. 1, 2026) adds a statewide biological definition of "sex" to R.S. 1:8; its effect on OMV and vital
+    records practice is not yet documented anywhere we could find. Reviewer: confirm current OMV practice.
+overview:
+  en: >-
+    Louisiana lets adults change their name by petition in district court with no newspaper publication. Changing the
+    sex marker is much harder: the Office of Motor Vehicles' written policy asks for a physician's statement that you
+    have had a "successful gender change/reassignment," and a new birth certificate requires a court judgment based on
+    proof of surgery. A 2026 law (Act 814) defines "sex" throughout state law as sex observed at birth, and it is not
+    yet clear how agencies will apply it. Gender-affirming medical care for minors has been banned since January 1,
+    2024; adults can get care, but Louisiana Medicaid reportedly excludes it and there is no shield law.
+  es: >-
+    Luisiana permite a las personas adultas cambiar su nombre mediante una petición ante el tribunal de distrito, sin
+    publicación en periódico. Cambiar el marcador de sexo es mucho más difícil: la política escrita de la Oficina de
+    Vehículos Motorizados pide una declaración médica de que tuviste un "cambio/reasignación de género exitoso", y una
+    nueva acta de nacimiento requiere una sentencia judicial basada en prueba de cirugía. Una ley de 2026 (Ley 814)
+    define "sexo" en toda la ley estatal como el sexo observado al nacer, y aún no está claro cómo la aplicarán las
+    agencias. La atención médica de afirmación de género para menores está prohibida desde el 1 de enero de 2024; los
+    adultos pueden recibirla, pero según informes Medicaid de Luisiana la excluye y no hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [act-814, rs-40-1098-2, omv-22-01, map-profile]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [new-orleans]
+key_resources:
+  - id: la-trans-advocates
+    name: Louisiana Trans Advocates
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Statewide trans-led group. Its ID Documents Center has a step-by-step name change packet and a physician statement form for the OMV; it also keeps a trans-friendly health care provider list and support group schedule. 504-450-7496, info@latransadvocates.org.
+      es: Grupo estatal dirigido por personas trans. Su Centro de Documentos de Identidad tiene un paquete paso a paso para el cambio de nombre y un formulario de declaración médica para la OMV; también mantiene una lista de proveedores de salud y grupos de apoyo. 504-450-7496, info@latransadvocates.org.
+    url: https://www.latransadvocates.org/id-documents-center
+    phone: "504-450-7496"
+    cost: free
+    verification: org_website
+    sources: [lta-id]
+  - id: crescentcare-legal
+    name: CrescentCare Legal Services (Transgender Rights Project)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal aid statewide for income-eligible people on issues arising from their HIV or transgender status, including insurance denials for trans care. Offices in New Orleans and Baton Rouge; call 504-821-2601.
+      es: Asistencia legal civil gratuita en todo el estado para personas con ingresos elegibles en asuntos relacionados con su condición de VIH o transgénero, incluidas negaciones de seguro. Oficinas en Nueva Orleans y Baton Rouge; llama al 504-821-2601.
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    phone: "504-821-2601"
+    cost: free
+    verification: org_website
+    sources: [crescentcare-legal]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: act-814
+    url: https://legis.la.gov/Legis/Law.aspx?d=74106
+    title: La. R.S. 1:8, definition of sex (added by Act 814 of 2026, HB 578)
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      "Sex" means an individual's biological sex, either male or female, as observed or clinically certified at birth.
+  - id: rs-40-1098-2
+    url: https://legis.la.gov/Legis/Law.aspx?d=965985
+    title: La. R.S. 40:1098.2, Stop Harming Our Kids Act, healthcare professionals; restrictions
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: omv-22-01
+    url: https://public.powerdms.com/ladpsc/documents/368304
+    title: OMV Policy 22.01, Gender Change / Reassignment
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: A medical statement signed by a physician stating that the applicant has undergone a successful gender change/reassignment.
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/LA
+    title: Louisiana equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: lta-id
+    url: https://www.latransadvocates.org/id-documents-center
+    title: ID Documents Center
+    publisher: Louisiana Trans Advocates
+    kind: org
+    accessed: "2026-09-24"
+  - id: crescentcare-legal
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    title: CrescentCare Legal Services
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

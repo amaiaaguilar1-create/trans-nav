@@ -1,0 +1,449 @@
+guide_type: name_change
+jurisdiction: LA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (R.S. 13:4751-4755) read on legis.la.gov 2026-09-24; Title 13 is marked updated through the 2026
+    Regular Session. Orleans Parish fee ($250 petition for name change; certified copies $3/page) from the Orleans
+    Parish Civil Clerk's fee schedule effective July 1, 2026. Open items: (1) Louisiana has no statewide official
+    name-change petition form; each parish clerk may have local requirements, and the petition is usually drafted
+    from a model (Louisiana Trans Advocates packet); (2) costs beyond the filing fee (sheriff's service on the district
+    attorney, recording the judgment in the parish miscellaneous records) were not confirmed for Orleans; (3) whether
+    a hearing is routinely set in Orleans CDC is practice-dependent; (4) A4TE's Louisiana page (last updated November
+    2025) agrees on no publication and no required hearing. Louisiana has no statute allowing the record to be sealed.
+    Real Name Campaign NOLA and Capitol City Alliance sites did not resolve for automated fetching and are not listed.
+status: available
+status_summary:
+  en: >-
+    Adults in Louisiana can change their name by filing a petition in the district court of the parish where they
+    live or were born. There is no newspaper publication, the district attorney is named as the other party, and a
+    judge decides with or without a hearing. People currently serving a felony sentence cannot petition.
+  es: >-
+    En Luisiana, las personas adultas pueden cambiar su nombre presentando una petición ante el tribunal de distrito
+    de la parroquia donde viven o donde nacieron. No hay publicación en periódico, el fiscal de distrito figura como
+    la otra parte y un juez decide con o sin audiencia. Las personas que están cumpliendo una sentencia por delito
+    grave no pueden presentar la petición.
+summary:
+  en: |
+    Louisiana name changes are governed by La. R.S. 13:4751 to 13:4755. You file a short written petition with the **district court** of the parish where you live (or where you were born), give the reasons for the change, and name the **district attorney** as the defendant; the DA must be served with the petition and a citation. There is **no publication requirement** in the statute. The judge may decide the case "in open court or in chambers," so a hearing is up to the court.
+
+    Once the judge signs the judgment, the new name becomes your legal name after the judgment is recorded in the parish's miscellaneous records. You can then use certified copies to update Social Security, the OMV, your Louisiana birth certificate (name only), and your passport.
+
+    Louisiana has no official statewide petition form. Most people use a model petition and judgment, such as the free step-by-step packet from Louisiana Trans Advocates, and check the parish clerk's local requirements.
+  es: |
+    Los cambios de nombre en Luisiana se rigen por La. R.S. 13:4751 a 13:4755. Presentas una petición escrita breve ante el **tribunal de distrito** de la parroquia donde vives (o donde naciste), explicas las razones del cambio y nombras al **fiscal de distrito** como demandado; al fiscal se le debe notificar la petición y una citación. La ley **no exige publicación**. El juez puede decidir el caso "en audiencia pública o en su despacho", así que la audiencia depende del tribunal.
+
+    Cuando el juez firma la sentencia, el nuevo nombre es tu nombre legal después de que la sentencia se inscribe en los registros misceláneos de la parroquia. Luego puedes usar copias certificadas para actualizar el Seguro Social, la OMV, tu acta de nacimiento de Luisiana (solo el nombre) y tu pasaporte.
+
+    Luisiana no tiene un formulario estatal oficial. La mayoría usa un modelo de petición y sentencia, como el paquete gratuito de Louisiana Trans Advocates, y revisa los requisitos locales del secretario de la parroquia.
+eligibility:
+  residency:
+    en: File in the district court of the parish where you live, the parish where you were born, or the parish of venue for the Vital Records Registry (Orleans). People who are incarcerated file in the parish where they were sentenced.
+    es: Presenta la petición en el tribunal de distrito de la parroquia donde vives, donde naciste o en la sede del Registro de Estadísticas Vitales (Orleans). Las personas encarceladas presentan en la parroquia donde fueron sentenciadas.
+  age:
+    en: 18 or older for your own petition. For minors, parents or a tutor sign; see the Minors section.
+    es: 18 años o más para tu propia petición. Para menores, firman los padres o un tutor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      If you were convicted of a felony you cannot petition until your sentence is satisfied, including probation or
+      parole. People convicted of a crime of violence listed in R.S. 14:2(B) can never petition under this statute.
+    es: >-
+      Si fuiste condenado por un delito grave no puedes presentar la petición hasta cumplir tu sentencia, incluida la
+      libertad condicional. Las personas condenadas por un delito violento de la lista de R.S. 14:2(B) nunca pueden
+      presentarla bajo esta ley.
+  sources: [rs-13-4751]
+forms:
+  - id: IFP Affidavit
+    name:
+      en: In Forma Pauperis Affidavit (Louisiana District Court Rules, Appendix 8.0)
+      es: Declaración jurada para litigar sin costos (In Forma Pauperis)
+    url: https://www.lasc.org/rules/dist.ct/COURTRULESAPPENDIX8.0.PDF
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee and court costs. It must be notarized and includes a third-party affidavit.
+      es: Solo si no puedes pagar la tarifa de presentación y los costos judiciales. Debe notarizarse e incluye una declaración de un tercero.
+    how_to_fill:
+      en: |
+        - Answer every question; the form says incomplete answers can be rejected.
+        - If a legal services program funded by the Legal Services Corporation (or a pro bono project it refers to) is helping you and your income is at or below 125% of the federal poverty level, you can skip the assets section (question 9) and have the program sign the Legal Service Programs' Declaration, which creates a presumption that you qualify.
+        - Sign the Mover's Affidavit before a notary, and have someone who knows you sign the Third Party Affidavit before a notary.
+        - File it with your petition along with the proposed Order at the end of the form for the judge to sign.
+      es: |
+        - Responde todas las preguntas.
+        - Si te ayuda un programa de servicios legales financiado por la Legal Services Corporation y tu ingreso es igual o menor al 125% del nivel federal de pobreza, puedes omitir la sección de bienes (pregunta 9) y pedir al programa que firme su declaración.
+        - Firma la declaración jurada ante notario y pide a alguien que te conozca que firme la declaración de tercero ante notario.
+    sources: [ifp-form, ccp-5181]
+steps:
+  - id: prepare-petition
+    title:
+      en: Prepare your petition and proposed judgment
+      es: Prepara tu petición y la sentencia propuesta
+    body:
+      en: |
+        Write (or fill in a model of) a **Petition for Change of Name** that states your current name, the name you want, your parish of residence or birth, and the reasons for the change. A simple statement that you are transgender and known by the new name is a common reason; you do not have to include medical details. Name the **district attorney** of that parish as the defendant and ask that the DA be served. Prepare a proposed **Judgment** for the judge to sign.
+
+        Louisiana Trans Advocates has a free step-by-step packet with model forms. Attach a copy of your birth certificate and photo ID if your parish asks for them.
+      es: |
+        Redacta (o completa un modelo de) una **Petición de Cambio de Nombre** con tu nombre actual, el nombre que quieres, tu parroquia de residencia o nacimiento y las razones del cambio. Una declaración simple de que eres una persona transgénero y te conocen por el nuevo nombre es una razón común; no necesitas incluir detalles médicos. Nombra al **fiscal de distrito** de esa parroquia como demandado y pide que se le notifique. Prepara una **Sentencia** propuesta para que el juez la firme.
+    sources: [rs-13-4751, rs-13-4752, lta-id, a4te-la]
+  - id: fee-waiver
+    title:
+      en: Ask to proceed without paying costs, if you qualify
+      es: Pide litigar sin pagar costos, si calificas
+    body:
+      en: File the notarized In Forma Pauperis affidavit with your petition. If the judge signs the order, you do not pay costs up front. Note that R.S. 13:4755 says the applicant pays the costs of the proceeding, so ask the clerk how a granted pauper order is handled in your parish.
+      es: Presenta la declaración In Forma Pauperis notarizada con tu petición. Si el juez firma la orden, no pagas los costos por adelantado. La ley R.S. 13:4755 dice que el solicitante paga los costos, así que pregunta al secretario cómo se aplica una orden aprobada en tu parroquia.
+    forms: [IFP Affidavit]
+    optional: true
+    sources: [ifp-form, ccp-5181, rs-13-4755]
+  - id: file
+    title:
+      en: File with the district court clerk
+      es: Presenta los documentos ante el secretario del tribunal de distrito
+    body:
+      en: |
+        File the petition, proposed judgment, and any pauper affidavit with the clerk of the district court in your parish, and pay the filing fee. In New Orleans that is the **Orleans Parish Civil District Court** clerk (421 Loyola Ave, Room 402), where the fee for a petition for name change is **$250**. Ask the clerk to have the sheriff serve the district attorney and what the service fee is.
+      es: |
+        Presenta la petición, la sentencia propuesta y cualquier declaración de pobreza ante el secretario del tribunal de distrito de tu parroquia y paga la tarifa. En Nueva Orleans es el secretario del **Tribunal Civil de Distrito de la Parroquia de Orleans** (421 Loyola Ave, Sala 402), donde la tarifa de una petición de cambio de nombre es **$250**. Pide al secretario que el alguacil notifique al fiscal de distrito y pregunta el costo de la notificación.
+    fees: [filing-orleans]
+    sources: [orleans-fees, rs-13-4752]
+  - id: da-answer
+    title:
+      en: Wait for the district attorney's answer and the judge's decision
+      es: Espera la respuesta del fiscal y la decisión del juez
+    body:
+      en: The district attorney represents the state and usually files an answer stating whether they object. The judge can then decide in chambers or set a hearing in open court. If a hearing is set, bring ID and be ready to explain briefly why you want the new name.
+      es: El fiscal de distrito representa al estado y normalmente presenta una respuesta indicando si se opone. Luego el juez puede decidir en su despacho o fijar una audiencia pública. Si hay audiencia, lleva identificación y prepárate para explicar brevemente por qué quieres el nuevo nombre.
+    sources: [rs-13-4752, rs-13-4753]
+  - id: record-and-copies
+    title:
+      en: Record the judgment and get certified copies
+      es: Inscribe la sentencia y obtén copias certificadas
+    body:
+      en: |
+        The new name becomes your legal name after the judgment is **recorded in the parish's miscellaneous records**; ask the clerk to record it. Then buy several certified copies of the judgment. Louisiana Vital Records also wants certified copies of the **petition and the district attorney's answer** if you will update your Louisiana birth certificate, so get those too.
+      es: |
+        El nuevo nombre es tu nombre legal después de que la sentencia se **inscribe en los registros misceláneos de la parroquia**; pide al secretario que la inscriba. Luego compra varias copias certificadas de la sentencia. Estadísticas Vitales de Luisiana también pide copias certificadas de la **petición y de la respuesta del fiscal** si vas a actualizar tu acta de nacimiento de Luisiana.
+    fees: [certified-copies]
+    sources: [rs-13-4754, orleans-fees, ldh-amend]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first. The OMV checks the SSA record electronically and will not change your name until SSA has it (about 24 hours after SSA updates).
+        2. **Louisiana OMV** driver's license or ID (in person; see the driver's license guide).
+        3. **Birth certificate**, if you were born in Louisiana (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero. La OMV verifica el registro del SSA electrónicamente y no cambiará tu nombre hasta que el SSA lo tenga.
+        2. **OMV de Luisiana**, licencia o identificación (en persona).
+        3. **Acta de nacimiento**, si naciste en Luisiana.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [omv-22-00]
+fees:
+  - id: filing-orleans
+    label:
+      en: Filing fee, petition for name change (Orleans Parish Civil District Court)
+      es: Tarifa de presentación, petición de cambio de nombre (Tribunal Civil de Distrito de Orleans)
+    amount: 250
+    varies_by: court
+    waivable: true
+    note:
+      en: $225 filing fee plus $25 building fund fee, effective July 1, 2026. Other parishes set their own fees; ask your clerk. Sheriff's service and recording costs may be extra.
+      es: $225 de presentación más $25 del fondo de edificio, vigente desde el 1 de julio de 2026. Otras parroquias fijan sus propias tarifas. La notificación del alguacil y la inscripción pueden costar aparte.
+    sources: [orleans-fees]
+  - id: certified-copies
+    label:
+      en: Certified copies (Orleans Parish Civil District Court)
+      es: Copias certificadas (Tribunal Civil de Distrito de Orleans)
+    amount: 3
+    varies_by: court
+    note:
+      en: $3.00 per page in Orleans Parish. A judgment is usually one or two pages.
+      es: $3.00 por página en Orleans. Una sentencia suele tener una o dos páginas.
+    sources: [orleans-fees]
+fee_waiver:
+  available: true
+  forms: [IFP Affidavit]
+  eligibility:
+    en: |
+      A judge may let you proceed without paying costs in advance if you cannot pay them because of poverty (La. Code Civ. Proc. art. 5181 and following). If you are a client of an LSC-funded legal services program (or a pro bono project it refers to) and receive public benefits or have income at or below 125% of the federal poverty level, the program's declaration creates a presumption that you qualify.
+    es: |
+      Un juez puede permitirte litigar sin pagar costos por adelantado si no puedes pagarlos por pobreza (Código de Procedimiento Civil art. 5181 y siguientes). Si eres cliente de un programa de servicios legales financiado por la LSC y recibes beneficios públicos o tu ingreso es igual o menor al 125% del nivel federal de pobreza, la declaración del programa crea la presunción de que calificas.
+  how:
+    en: File the notarized In Forma Pauperis affidavit and proposed order with your petition.
+    es: Presenta la declaración In Forma Pauperis notarizada y la orden propuesta con tu petición.
+  sources: [ifp-form, ccp-5181]
+publication:
+  required: "no"
+  detail:
+    en: Louisiana's name change statutes (R.S. 13:4751-4755) contain no newspaper publication requirement.
+    es: Las leyes de cambio de nombre de Luisiana (R.S. 13:4751-4755) no exigen publicación en periódico.
+  sources: [rs-13-4751, a4te-la]
+hearing:
+  required: conditional
+  detail:
+    en: The judge may decide "either in open court or in chambers" (R.S. 13:4753). Some courts sign the judgment without a hearing after the district attorney answers; others set a short hearing. Minors' petitions not signed by both parents are more likely to have one.
+    es: El juez puede decidir "en audiencia pública o en su despacho" (R.S. 13:4753). Algunos tribunales firman la sentencia sin audiencia después de la respuesta del fiscal; otros fijan una audiencia breve.
+  sources: [rs-13-4753, a4te-la]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints are required, but the district attorney is a party and can object. People serving a felony sentence (including probation or parole) cannot petition, and people convicted of a crime of violence can never petition under this statute.
+    es: No se requieren huellas, pero el fiscal de distrito es parte y puede oponerse. Las personas que cumplen una sentencia por delito grave no pueden presentar la petición, y las condenadas por un delito violento nunca pueden hacerlo bajo esta ley.
+  sources: [rs-13-4751, rs-13-4752]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Louisiana law has no provision for sealing a name change record, and the judgment is recorded in the parish's public miscellaneous records. If you have a safety concern, talk to a legal aid organization before filing.
+    es: La ley de Luisiana no prevé sellar el expediente de cambio de nombre, y la sentencia se inscribe en los registros misceláneos públicos de la parroquia. Si tienes un problema de seguridad, consulta con una organización de asistencia legal antes de presentar.
+  sources: [rs-13-4754]
+minors:
+  summary:
+    en: |
+      Both parents sign the petition (or the surviving parent). The other parent's consent is not needed if their parental rights were terminated, or if they were served with the petition and have failed to pay court-ordered support for a year, failed to support the child for three years after a custody judgment, or not paid support and not communicated with the child without just cause for two years. If there is no living parent, the tutor signs. A4TE notes a hearing is likely when a known parent does not sign. Name changes for minors remain legal; the 2023 health care ban does not affect them.
+    es: |
+      Ambos padres firman la petición (o el padre sobreviviente). No se necesita el consentimiento del otro padre si se terminaron sus derechos, o si fue notificado y no ha pagado la manutención ordenada por un año, no ha mantenido al niño por tres años después de una sentencia de custodia, o no paga manutención ni se comunica con el niño sin causa justa por dos años. Si no hay padres vivos, firma el tutor. Es probable que haya audiencia si un padre conocido no firma.
+  sources: [rs-13-4751, a4te-la]
+delivery:
+  in_person: true
+  detail:
+    en: File at the clerk of the district court. Some clerks accept mail or e-filing; ask your parish clerk.
+    es: Presenta los documentos ante el secretario del tribunal de distrito. Algunos aceptan correo o presentación electrónica; pregunta a tu secretario.
+  sources: [orleans-fees]
+timeline:
+  en: Often 1 to 3 months from filing to a signed judgment, depending on how quickly the district attorney answers and whether a hearing is set. This is an estimate, not a legal deadline.
+  es: A menudo de 1 a 3 meses desde la presentación hasta la sentencia firmada, según la rapidez de la respuesta del fiscal y si hay audiencia. Es una estimación, no un plazo legal.
+after:
+  en: |
+    Start with **Social Security** (bring the certified judgment and photo ID; the name changes, the sex field currently cannot). Then the **OMV**, in person, for a duplicate license or ID with the new name (about $17 to $25 for most cards). If you were born in Louisiana, mail **Vital Records** the Application to Amend, certified copies of the judgment, petition, and DA's answer, and $27.50. Then your **passport** (name changes are still processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva la sentencia certificada e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego la **OMV**, en persona, para una licencia o identificación duplicada con el nuevo nombre (unos $17 a $25). Si naciste en Luisiana, envía a **Estadísticas Vitales** la solicitud de enmienda, copias certificadas de la sentencia, la petición y la respuesta del fiscal, y $27.50. Después el **pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: Ask for 5 to 7 certified copies of the judgment at once; each agency may want its own.
+    es: Pide de 5 a 7 copias certificadas de la sentencia de una vez; cada agencia puede querer la suya.
+  - en: If you live outside Louisiana but were born here, you can file in your parish of birth, or get a name change where you live and send that order to Louisiana Vital Records for the name on your birth certificate.
+    es: Si vives fuera de Luisiana pero naciste aquí, puedes presentar en tu parroquia de nacimiento, o cambiar tu nombre donde vives y enviar esa orden a Estadísticas Vitales de Luisiana.
+  - en: The Louisiana Supreme Court's judicial district map shows which district court covers your parish.
+    es: El mapa de distritos judiciales de la Corte Suprema de Luisiana muestra qué tribunal cubre tu parroquia.
+local_help:
+  - id: crescentcare-legal
+    name: CrescentCare Legal Services (Transgender Rights Project)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal aid statewide for income-eligible people with legal issues related to their transgender or HIV status. New Orleans and Baton Rouge (4550 North Blvd, Suite 230) offices, by appointment; 504-821-2601.
+      es: Asistencia legal civil gratuita en todo el estado para personas con ingresos elegibles con asuntos legales relacionados con su condición transgénero o de VIH. Oficinas en Nueva Orleans y Baton Rouge, con cita; 504-821-2601.
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    phone: "504-821-2601"
+    cost: free
+    verification: org_website
+    sources: [crescentcare-legal, crescentcare-search]
+  - id: la-trans-advocates
+    name: Louisiana Trans Advocates, ID Documents Center
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free step-by-step name change instructions with model petition and judgment, plus a physician statement form for the OMV gender marker change.
+      es: Instrucciones gratuitas paso a paso para el cambio de nombre con modelo de petición y sentencia, además de un formulario de declaración médica para la OMV.
+    url: https://www.latransadvocates.org/id-documents-center
+    phone: "504-450-7496"
+    cost: free
+    verification: org_website
+    sources: [lta-id]
+  - id: pro-bono-project
+    name: The Pro Bono Project (New Orleans)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services from volunteer attorneys for low-income residents of six Southeast Louisiana parishes, plus self-help resources. Ask whether name change help is available.
+      es: Servicios legales civiles gratuitos de abogados voluntarios para residentes de bajos ingresos de seis parroquias del sureste de Luisiana, además de recursos de autoayuda.
+    url: https://www.probono-no.org/
+    cost: free
+    verification: org_website
+    sources: [pro-bono-project]
+  - id: slls
+    name: Southeast Louisiana Legal Services
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: LSC-funded legal aid for low-income people in southeast Louisiana parishes, including Medicaid and benefits problems. Apply online. As an LSC-funded program, it can sign the pauper declaration that helps you get the court fee waived.
+      es: Asistencia legal financiada por la LSC para personas de bajos ingresos en el sureste de Luisiana, incluidos problemas de Medicaid y beneficios. Solicita en línea.
+    url: https://slls.org/en/get-help/
+    cost: free
+    verification: org_website
+    sources: [slls]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: fund
+    pillars: [name_change, mental_health]
+    description:
+      en: Peer hotline (877-565-8860) that also offers microgrants for name change and ID costs when funding allows.
+      es: Línea de apoyo (877-565-8860) que también otorga microsubvenciones para costos de cambio de nombre e identificación cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: La. R.S. 13:4751
+    title:
+      en: Petition for name change; venue; minors; felony restrictions
+    url: https://legis.la.gov/Legis/Law.aspx?d=77843
+  - cite: La. R.S. 13:4752
+    title:
+      en: District attorney represents the state and must be served
+    url: https://legis.la.gov/Legis/Law.aspx?d=77844
+  - cite: La. R.S. 13:4753
+    title:
+      en: Hearing in open court or in chambers
+    url: https://legis.la.gov/Legis/Law.aspx?d=77845
+  - cite: La. R.S. 13:4754
+    title:
+      en: Judgment; recordation; altering the Louisiana birth record (name only)
+    url: https://legis.la.gov/Legis/Law.aspx?d=77846
+  - cite: La. R.S. 13:4755
+    title:
+      en: Applicant pays the costs
+    url: https://legis.la.gov/Legis/Law.aspx?d=77847
+  - cite: La. Code Civ. Proc. art. 5181 et seq.
+    title:
+      en: Waiver of costs for indigent party
+    url: https://legis.la.gov/Legis/Law.aspx?d=112172
+related_links:
+  - title: Louisiana Trans Advocates, ID Documents Center
+    url: https://www.latransadvocates.org/id-documents-center
+    note:
+      en: Step-by-step name change packet and OMV physician statement form.
+      es: Paquete paso a paso para el cambio de nombre y formulario médico para la OMV.
+  - title: Advocates for Trans Equality, Louisiana identity documents
+    url: https://transequality.org/documents/louisiana-identity-documents
+    note:
+      en: Last updated November 2025; predates Act 814 of 2026.
+      es: Actualizado en noviembre de 2025; es anterior a la Ley 814 de 2026.
+  - title: Louisiana Supreme Court, maps of judicial districts
+    url: https://www.lasc.org/About/MapsofJudicialDistricts
+sources:
+  - id: rs-13-4751
+    url: https://legis.la.gov/Legis/Law.aspx?d=77843
+    title: La. R.S. 13:4751, Petition for name change; adults; minors
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      he shall present a petition to the district court of the parish of his residence, the parish of his birth, or
+      the parish of venue for the Vital Records Registry
+  - id: rs-13-4752
+    url: https://legis.la.gov/Legis/Law.aspx?d=77844
+    title: La. R.S. 13:4752, Representation of state; service
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The proceedings shall be carried on contradictorily with the district attorney or district attorney pro tem of the parish in which the application is made.
+  - id: rs-13-4753
+    url: https://legis.la.gov/Legis/Law.aspx?d=77845
+    title: La. R.S. 13:4753, Hearing and determination
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The judge to whom the application is made, either in open court or in chambers, may proceed to hear and determine the case.
+  - id: rs-13-4754
+    url: https://legis.la.gov/Legis/Law.aspx?d=77846
+    title: La. R.S. 13:4754, Judgment; true and lawful name; altering birth record
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: which shall be the true and lawful name of the party asking the change after the recordation of the judgment in the miscellaneous records of the parish
+  - id: rs-13-4755
+    url: https://legis.la.gov/Legis/Law.aspx?d=77847
+    title: La. R.S. 13:4755, Payment of cost
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The applicant in all cases shall pay the cost of the proceedings.
+  - id: ccp-5181
+    url: https://legis.la.gov/Legis/Law.aspx?d=112172
+    title: La. Code Civ. Proc. art. 5181, Waiver of costs for indigent party
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ifp-form
+    url: https://www.lasc.org/rules/dist.ct/COURTRULESAPPENDIX8.0.PDF
+    title: In Forma Pauperis Affidavit, Louisiana District Court Rules Appendix 8.0
+    publisher: Louisiana Supreme Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      has qualified to receive free legal services based on his/her income being less than or equal to 125% of the
+      federal poverty level and therefore is entitled to a rebuttable presumption
+  - id: orleans-fees
+    url: https://www.orleanscivilclerk.com/memos/feeschedule2026-07-01.pdf
+    title: Civil District Court civil filing fee schedule, effective July 1, 2026
+    publisher: Orleans Parish Civil Clerk of Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Petition for Name Change: $225.00 filing fee, $25.00 building fund fee, $250.00 total. Certified copies $3.00/pg."
+  - id: omv-22-00
+    url: https://public.powerdms.com/ladpsc/documents/368302
+    title: OMV Policy 22.00, Name Changes and Usage (revised 10/31/2025)
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: You must change your name with the Social Security Administration prior to changing your name with the Office of Motor Vehicles (OMV).
+  - id: ldh-amend
+    url: https://ldh.la.gov/vital-records/amendments-to-birth-records
+    title: Amendments to Birth Records
+    publisher: Louisiana Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: A certified copy of the judgment, petition, and district attorney's answer must be submitted to Vital Records.
+  - id: lta-id
+    url: https://www.latransadvocates.org/id-documents-center
+    title: ID Documents Center
+    publisher: Louisiana Trans Advocates
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-la
+    url: https://transequality.org/documents/louisiana-identity-documents
+    title: Louisiana identity documents (last updated November 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: A hearing is not required. There is no publication requirement.
+  - id: crescentcare-legal
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    title: CrescentCare Legal Services
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: crescentcare-search
+    url: https://www.crescentcare.org/?s=transgender
+    title: CrescentCare site search, transgender (Legal Services description and Transgender Rights Project)
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our new Transgender Rights Project focuses on denials of requests for coverage and insurance claims for medically necessary services for transgender clients.
+    watch: false
+  - id: pro-bono-project
+    url: https://www.probono-no.org/
+    title: The Pro Bono Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: slls
+    url: https://slls.org/en/get-help/
+    title: Get Help
+    publisher: Southeast Louisiana Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

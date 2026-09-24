@@ -1,0 +1,216 @@
+guide_type: drivers_license
+jurisdiction: LA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    OMV Policy 22.01 (Gender Change / Reassignment, revised 03/12/2009) was still posted on the OMV policy index on
+    2026-09-24 and requires a physician's statement of a "successful gender change/reassignment." Act 814 of 2026
+    (HB 578), effective Aug. 1, 2026, added R.S. 1:8(B) defining "sex" as biological sex observed or clinically
+    certified at birth; R.S. 32:410 requires "sex" on the license. We found no OMV notice or rule change applying Act
+    814 to credentials, so status is "unclear." Reviewer: call OMV (225-925-6146) or check with Louisiana Trans
+    Advocates about whether field offices still process changes under Policy 22.01 after Aug. 1, 2026. A4TE (Nov
+    2025) describes the requirement as "a physician's letter testifying to your transition"; the OMV's own policy
+    text says a successful gender change/reassignment, which many read as surgery, and Louisiana Trans Advocates notes
+    physicians interpret "successful" in their own judgment. Fees from OMV Policy 2.00 (revised 07/01/2026). Policy
+    22.00 fees: a name-only change is charged as a duplicate. The duplicate fee for a sex marker change is assumed
+    to be the same; not confirmed. Title 32 on legis.la.gov is not yet updated for the 2026 session.
+status: unclear
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Louisiana's OMV policy still allows a change between M and F with a statement signed by a physician that you have
+    had a "successful gender change/reassignment." A 2026 law (Act 814, effective August 1, 2026) now defines "sex" in
+    state law as sex observed at birth, and it is not yet clear whether the OMV will keep accepting these changes. No X
+    marker is offered. Name changes work normally with a court order after you update Social Security.
+  es: >-
+    La política de la OMV de Luisiana todavía permite cambiar entre M y F con una declaración firmada por un médico de
+    que tuviste un "cambio/reasignación de género exitoso". Una ley de 2026 (Ley 814, vigente desde el 1 de agosto de
+    2026) ahora define "sexo" en la ley estatal como el sexo observado al nacer, y aún no está claro si la OMV seguirá
+    aceptando estos cambios. No se ofrece el marcador X. Los cambios de nombre funcionan normalmente con una orden
+    judicial después de actualizar el Seguro Social.
+summary:
+  en: |
+    The Office of Motor Vehicles' written policy (Policy 22.01, last revised in 2009) says that if you have undergone a gender change/reassignment procedure, the OMV will note the change and issue a new license or ID when you bring **a medical statement signed by a physician** stating that you have undergone a successful gender change/reassignment. The statement must be signed by a physician (MD or DO), not a nurse practitioner or physician assistant. The policy does not define "successful"; Louisiana Trans Advocates notes that physicians apply their own judgment. Only M and F are available.
+
+    **What changed in 2026:** Act 814 (HB 578, the "Restoring Biological Truth Act") took effect August 1, 2026. It adds a definition to R.S. 1:8 that applies across the Revised Statutes: "sex" means biological sex "as observed or clinically certified at birth," and gender identity may not be used as a substitute. The law did not expressly amend the OMV's licensing statutes or repeal Policy 22.01, and we found no OMV announcement. Expect that a field office could refuse, and call ahead.
+
+    Changing your **name** is separate: you must update Social Security first, then bring a certified court order.
+  es: |
+    La política escrita de la Oficina de Vehículos Motorizados (Política 22.01, revisada por última vez en 2009) dice que si te sometiste a un procedimiento de cambio/reasignación de género, la OMV anotará el cambio y emitirá una nueva licencia o identificación cuando presentes **una declaración médica firmada por un médico** que indique que tuviste un cambio/reasignación de género exitoso. Debe firmarla un médico (MD o DO), no una enfermera practicante ni un asistente médico. La política no define "exitoso". Solo hay M y F.
+
+    **Qué cambió en 2026:** la Ley 814 (HB 578) entró en vigor el 1 de agosto de 2026. Agrega a R.S. 1:8 una definición que se aplica a todos los Estatutos Revisados: "sexo" significa el sexo biológico "observado o certificado clínicamente al nacer". La ley no modificó expresamente las leyes de licencias ni derogó la Política 22.01, y no encontramos ningún anuncio de la OMV. Es posible que una oficina lo rechace; llama antes.
+
+    Cambiar tu **nombre** es aparte: primero actualizas el Seguro Social y luego llevas una orden judicial certificada.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Louisiana driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia o identificación de Luisiana.
+  age:
+    en: Applicants under 18 need a custodial parent's or guardian's signature on license transactions.
+    es: Los menores de 18 años necesitan la firma de un padre con custodia o tutor en los trámites de licencia.
+  sources: [omv-22-01, omv-duplicate]
+steps:
+  - id: ssa-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: The OMV verifies your name with the Social Security Administration online and will not change it until SSA's record matches (about 24 hours after SSA updates). The SSA sex field currently cannot be changed; that does not block the OMV name change.
+      es: La OMV verifica tu nombre con el Seguro Social en línea y no lo cambiará hasta que el registro coincida (unas 24 horas después de que el SSA lo actualice).
+    applies_to: [name_change]
+    sources: [omv-22-00]
+  - id: physician-statement
+    title:
+      en: Get the physician's statement (for a sex marker change)
+      es: Obtén la declaración del médico (para cambiar el marcador de sexo)
+    body:
+      en: Ask your physician (MD or DO) to sign a statement that you have undergone a successful gender change/reassignment. Louisiana Trans Advocates offers a one-page template form. Bring the signed original.
+      es: Pide a tu médico (MD o DO) que firme una declaración de que tuviste un cambio/reasignación de género exitoso. Louisiana Trans Advocates ofrece un formulario modelo de una página. Lleva el original firmado.
+    applies_to: [gender_marker]
+    sources: [omv-22-01, lta-id]
+  - id: visit
+    title:
+      en: Visit an OMV office
+      es: Visita una oficina de la OMV
+    body:
+      en: |
+        Book an appointment online. Bring your current card, the physician's statement (for the marker), a certified court order (for a name change), and any identity documents the office asks for. You will pay the duplicate fee, or the renewal fee if your license is within 180 days of expiring (90 days for an ID card) and you choose to renew. Because of Act 814, call ahead or bring an advocate if you can.
+      es: |
+        Haz una cita en línea. Lleva tu tarjeta actual, la declaración médica (para el marcador), una orden judicial certificada (para el nombre) y los documentos de identidad que pida la oficina. Pagarás la tarifa de duplicado, o la de renovación si tu licencia vence dentro de 180 días (90 para identificación) y decides renovar. Por la Ley 814, llama antes o lleva a alguien que te apoye si puedes.
+    fees: [dl-duplicate, id-duplicate]
+    applies_to: [in_person]
+    sources: [omv-22-00, omv-fees, omv-appointments, act-814, rs-1-8]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Driver's license (Class E), duplicate or change
+      es: Licencia de conducir (Clase E), duplicado o cambio
+    min: 17
+    max: 25
+    varies_by: office
+    note:
+      en: $5 license fee plus $12 handling fee for a 6-year license ($8 handling for a 4-year license, total $13 to $21), plus a service fee of $0 to $8 depending on the office.
+      es: $5 de licencia más $12 de manejo para una licencia de 6 años ($8 para una de 4 años, total $13 a $21), más un cargo de servicio de $0 a $8 según la oficina.
+    sources: [omv-fees]
+  - id: id-duplicate
+    label:
+      en: ID card, duplicate or change (age 59 and under)
+      es: Tarjeta de identificación, duplicado o cambio (59 años o menos)
+    min: 17
+    max: 25
+    varies_by: office
+    note:
+      en: Same structure as the license ($13 to $21 for a 4-year card). Free for people 60 and older.
+      es: Misma estructura que la licencia ($13 a $21 para una tarjeta de 4 años). Gratis para personas de 60 años o más.
+    sources: [omv-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: There is no general fee waiver. ID cards are free at 60 and older, and the OMV has free credentials for disabled veterans and children in foster care. A 2026 bill to expand OMV fee waivers (HB 712) failed in the Senate.
+    es: No hay exención general. Las identificaciones son gratis desde los 60 años, y la OMV tiene credenciales gratuitas para veteranos discapacitados y niños en cuidado temporal. Un proyecto de 2026 para ampliar las exenciones (HB 712) fracasó en el Senado.
+  sources: [omv-fees, hb712]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and sex marker changes are done in person at an OMV office. The online duplicate service is for lost or stolen cards with no changes.
+    es: Los cambios de nombre y de marcador de sexo se hacen en persona en una oficina de la OMV.
+  sources: [omv-duplicate, omv-22-00]
+timeline:
+  en: One office visit. Ask at the counter how long the permanent card takes to arrive.
+  es: Una visita a la oficina. Pregunta en la ventanilla cuánto tarda en llegar la tarjeta permanente.
+after:
+  en: |
+    Keep a copy of the physician's statement. If a field office refuses the marker change and cites Act 814, write down the office, date, and employee's name and contact Louisiana Trans Advocates or the ACLU of Louisiana. Your passport and Social Security record currently cannot show a changed sex marker; a Louisiana license is still valid for REAL ID, flying, and voting.
+  es: |
+    Guarda una copia de la declaración médica. Si una oficina rechaza el cambio de marcador y menciona la Ley 814, anota la oficina, la fecha y el nombre del empleado y comunícate con Louisiana Trans Advocates o la ACLU de Luisiana. Tu pasaporte y tu registro del Seguro Social actualmente no pueden mostrar un marcador cambiado.
+tips:
+  - en: You can change your name without changing your marker, and vice versa.
+    es: Puedes cambiar tu nombre sin cambiar tu marcador, y viceversa.
+  - en: The OMV policy requires a physician's signature; a statement from a nurse practitioner or physician assistant may be refused.
+    es: La política de la OMV exige la firma de un médico; una declaración de una enfermera practicante o asistente médico puede ser rechazada.
+statutes:
+  - cite: La. R.S. 1:8(B) (Act 814 of 2026)
+    title:
+      en: Statewide definition of sex as observed or clinically certified at birth; effective August 1, 2026
+    url: https://legis.la.gov/Legis/Law.aspx?d=74106
+  - cite: La. R.S. 32:410
+    title:
+      en: Contents of the driver's license, including sex
+    url: https://legis.la.gov/Legis/Law.aspx?d=88391
+related_links:
+  - title: Louisiana Trans Advocates, ID Documents Center (OMV physician statement form)
+    url: https://www.latransadvocates.org/id-documents-center
+  - title: Advocates for Trans Equality, Louisiana identity documents
+    url: https://transequality.org/documents/louisiana-identity-documents
+    note:
+      en: Last updated November 2025; predates Act 814.
+      es: Actualizado en noviembre de 2025; es anterior a la Ley 814.
+sources:
+  - id: omv-22-01
+    url: https://public.powerdms.com/ladpsc/documents/368304
+    title: OMV Policy 22.01, Gender Change / Reassignment (revised 03/12/2009)
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: A medical statement signed by a physician stating that the applicant has undergone a successful gender change/reassignment.
+  - id: omv-22-00
+    url: https://public.powerdms.com/ladpsc/documents/368302
+    title: OMV Policy 22.00, Name Changes and Usage (revised 10/31/2025)
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change Only - Applicable charges apply as a duplicate license fee."
+  - id: omv-fees
+    url: https://public.powerdms.com/LADPSC/documents/311263
+    title: OMV Policy 2.00, Fees and Duration of License/Identification Card (revised 07/01/2026)
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Class E Duplicate / Change of Address, 6-year expiration: $5.00 license fee, $12.00 handling fee, $0-$8.00 service fee, $17.00 - $25.00."
+  - id: omv-duplicate
+    url: https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/duplicate-replacement-reconstructed-cards/
+    title: Duplicate / Replacement / Reconstructed Cards
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: omv-appointments
+    url: https://la.omvappointments.com/customer/booking/start
+    title: Book an OMV appointment
+    publisher: Louisiana Office of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: act-814
+    url: https://legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB578
+    title: HB 578 (2026), Restoring Biological Truth Act, Act 814
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: New law defines "sex" as an individual's biological sex, either male or female, as observed or clinically certified at birth. Effective August 1, 2026.
+  - id: rs-1-8
+    url: https://legis.la.gov/Legis/Law.aspx?d=74106
+    title: La. R.S. 1:8
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: '"Gender identity" and other subjective terms shall not be used as synonyms or substitutes for the term "sex".'
+  - id: hb712
+    url: https://legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB712
+    title: HB 712 (2026), OMV fee waivers (failed Senate final passage)
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: lta-id
+    url: https://www.latransadvocates.org/id-documents-center
+    title: ID Documents Center
+    publisher: Louisiana Trans Advocates
+    kind: org
+    accessed: "2026-09-24"
+    quote: Since the state law specifically requires the signature be a physician's, be sure to make sure that your form is not signed by a nurse, office administrator, or physician assistant.

@@ -1,0 +1,325 @@
+jurisdiction: LA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minor ban text (R.S. 40:1098.1-1098.6, Act 466 of 2023) read on legis.la.gov 2026-09-24. Soe v. Louisiana State
+    Board of Medical Examiners status from Lambda Legal's case page (summary judgment for the state denied January
+    2026; trial pending; ban not enjoined). Medicaid: the Movement Advancement Project reports that Louisiana Medicaid
+    policy explicitly excludes transgender-related care for all ages; we could not locate the exclusion text in LDH's
+    Professional Services Provider Manual (PDF not text-searchable here). Reviewer: find the primary exclusion (provider
+    manual or LAC Title 50) and confirm whether hormone prescriptions are paid in practice. LDI (ldi.la.gov) returned
+    403 to automated fetches, so no complaint URL is given. Planned Parenthood Gulf Coast stopped operating in Louisiana
+    on September 30, 2025 (confirmed on its page); Planned Parenthood Direct offers only birth control, emergency
+    contraception, and UTI care to Louisiana patients, so planned-parenthood is left out of telehealth_hrt. FOLX and
+    QueerDoc do not list Louisiana; QueerMed's state list could not be read. CrescentCare's site describes
+    "gender-affirming primary care" but no longer has a dedicated hormone therapy page; confirm HRT intake and
+    informed-consent policy by phone. Tulane and Capitol City Alliance pages could not be loaded and are not listed.
+    2026 session: HR 290 (study of gender-affirming therapy on mental health) did not pass the House; Act 814 (HB 578)
+    defines sex statewide but does not regulate adult care. Medicaid expansion income limit (about 138% FPL) stated from general knowledge, not re-read on LDH.
+status_summary:
+  en: >-
+    Adults can legally get hormone therapy and other gender-affirming care in Louisiana, but Louisiana Medicaid is
+    reported to exclude it, state law does not stop private plans from excluding it, and there is no Planned Parenthood
+    health center in the state since October 2025. Since January 1, 2024, hormones, puberty blockers, and surgery are
+    banned for anyone under 18; a state-court challenge is headed to trial and the ban remains in effect.
+  es: >-
+    Los adultos pueden recibir legalmente terapia hormonal y otra atención de afirmación de género en Luisiana, pero
+    según informes Medicaid de Luisiana la excluye, la ley estatal no impide que los planes privados la excluyan y no
+    hay un centro de Planned Parenthood en el estado desde octubre de 2025. Desde el 1 de enero de 2024, las hormonas,
+    los bloqueadores de pubertad y la cirugía están prohibidos para menores de 18 años; una demanda en tribunal estatal
+    va a juicio y la prohibición sigue vigente.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      There is no state law against gender-affirming care for adults 18 and older, and telehealth prescribing is allowed. The restriction is **coverage**: Louisiana Medicaid reportedly excludes transgender-related care, and no state law requires private insurers to cover it. Louisiana has no shield law.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Go to a **community health center** (FQHC). They must see you regardless of ability to pay and charge on a sliding scale. In New Orleans, **CrescentCare** offers gender-affirming primary care. Find others at findahealthcenter.hrsa.gov and on Louisiana Trans Advocates' provider list.
+      2. **Telehealth**: Plume serves Louisiana adults (self-pay, about $99 a month plus labs and medication).
+      3. **Point of Pride's HRT Access Fund** pays for 18 months of telehealth hormone care (applications each May); **Genderbands** gives small grants.
+      4. Generic spironolactone and estradiol are usually cheap with a pharmacy discount coupon; ask the pharmacy for the cash price.
+    es: |
+      No hay ley estatal contra la atención de afirmación de género para adultos de 18 años o más, y la telesalud está permitida. La restricción es la **cobertura**: según informes, Medicaid de Luisiana excluye la atención trans y ninguna ley estatal obliga a los seguros privados a cubrirla. Luisiana no tiene ley escudo.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Acude a un **centro de salud comunitario**. Deben atenderte sin importar tu capacidad de pago y cobran en escala móvil. En Nueva Orleans, **CrescentCare** ofrece atención primaria de afirmación de género. Busca otros en findahealthcenter.hrsa.gov y en la lista de proveedores de Louisiana Trans Advocates.
+      2. **Telesalud**: Plume atiende a adultos en Luisiana (pago directo, unos $99 al mes más laboratorios y medicamentos).
+      3. El **Fondo de Acceso a TRH de Point of Pride** paga 18 meses de atención hormonal por telesalud (solicitudes cada mayo); **Genderbands** otorga pequeñas becas.
+      4. La espironolactona y el estradiol genéricos suelen ser baratos con un cupón de descuento de farmacia.
+  sources: [map-medicaid, crescentcare-search, hrsa, pop-hrt, lta-providers, ppgc]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      The **Stop Harming Our Kids Act** (Act 466 of 2023, HB 648; La. R.S. 40:1098.1 to 1098.6), in effect since **January 1, 2024**, bars health care professionals from giving anyone under 18 puberty blockers, cross-sex hormones, or gender-affirming surgery. Minors cannot consent to these treatments. The grace period for tapering existing patients ended December 31, 2024. Exceptions cover intersex conditions and complications of prohibited treatment.
+
+      **Penalties:** a licensing board that finds a violation must revoke the provider's license for at least two years; people harmed can sue for damages until 12 years after turning 18 (consent is no defense); and the attorney general can sue.
+
+      Mental health care and therapy are **not** banned. Families can travel to states where care is legal; the Campaign for Southern Equality's Trans Youth Emergency Project offers navigation and $500 renewable travel grants.
+
+      **Litigation:** *Soe v. Louisiana State Board of Medical Examiners* (19th Judicial District Court, East Baton Rouge) challenges the ban under the Louisiana Constitution. In January 2026 the court denied the state's motion for summary judgment and the case is moving toward trial. The ban has not been blocked.
+    es: |
+      La **Ley Stop Harming Our Kids** (Ley 466 de 2023, HB 648; La. R.S. 40:1098.1 a 1098.6), vigente desde el **1 de enero de 2024**, prohíbe que profesionales de la salud den a menores de 18 años bloqueadores de pubertad, hormonas o cirugía de afirmación de género. Los menores no pueden consentir estos tratamientos. El período para reducir gradualmente tratamientos existentes terminó el 31 de diciembre de 2024. Hay excepciones para condiciones intersexuales.
+
+      **Sanciones:** la junta de licencias debe revocar la licencia del proveedor por al menos dos años; las personas afectadas pueden demandar hasta 12 años después de cumplir 18; y el procurador general puede demandar.
+
+      La salud mental y la terapia **no** están prohibidas. Las familias pueden viajar a estados donde la atención es legal; el Trans Youth Emergency Project de Campaign for Southern Equality ofrece orientación y becas de viaje renovables de $500.
+
+      **Litigio:** *Soe v. Louisiana State Board of Medical Examiners* impugna la prohibición bajo la Constitución de Luisiana. En enero de 2026 el tribunal negó el juicio sumario del estado y el caso avanza a juicio. La prohibición no ha sido bloqueada.
+  sources: [rs-40-1098-2, rs-40-1098-3, rs-40-1098-5, soe-case, cse-la]
+medicaid:
+  program_name: Louisiana Medicaid (Healthy Louisiana)
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: |
+      The Movement Advancement Project reports that Louisiana Medicaid policy explicitly excludes transgender-related health care for people of all ages. We could not confirm the exact policy text or whether hormone prescriptions are denied in practice; some community health centers accept Medicaid for primary care visits. For minors, the 2023 ban also applies. If a claim is denied, CrescentCare Legal Services' Transgender Rights Project handles coverage denials for trans clients.
+
+      Louisiana expanded Medicaid, so adults with income up to about 138% of the federal poverty level can qualify. Apply through LDH's Medicaid site.
+    es: |
+      El Movement Advancement Project informa que la política de Medicaid de Luisiana excluye explícitamente la atención trans para todas las edades. No pudimos confirmar el texto exacto ni si las recetas de hormonas se niegan en la práctica. Para menores también aplica la prohibición de 2023. Si te niegan un reclamo, el Proyecto de Derechos Trans de CrescentCare Legal Services atiende negaciones de cobertura.
+
+      Luisiana amplió Medicaid, así que los adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza pueden calificar. Solicita en el sitio de Medicaid de LDH.
+  how_to_apply_url: https://ldh.la.gov/medicaid
+  sources: [map-medicaid, ldh-medicaid, crescentcare-search]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Louisiana has no state law barring insurers from excluding gender-affirming care, so coverage depends on your plan. Read your plan's exclusions list, ask for a written denial, and appeal. The Trans Health Project has free appeal templates, and CrescentCare Legal Services helps with denials. The Louisiana Department of Insurance takes complaints about state-regulated plans; self-funded employer plans are federally regulated.
+    es: |
+      Luisiana no tiene una ley que impida a las aseguradoras excluir la atención de afirmación de género, así que la cobertura depende de tu plan. Revisa las exclusiones, pide la negación por escrito y apela. El Trans Health Project tiene plantillas gratuitas y CrescentCare Legal Services ayuda con negaciones. El Departamento de Seguros de Luisiana recibe quejas sobre planes regulados por el estado.
+  sources: [map-profile, thp, crescentcare-search]
+telehealth_hrt: [plume]
+resources:
+  - id: crescentcare
+    name: CrescentCare (New Orleans community health center)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federally qualified health center offering LGBTQ-affirming primary care, including gender-affirming primary care, plus PrEP/PEP, HIV care, behavioral health, and dental. Sliding-scale fees. Clinics at 2515 Canal St (Mid-City) and 1631 Elysian Fields Ave (St. Roch). Appointments 504-821-2601.
+      es: Centro de salud federalmente calificado con atención primaria afirmativa LGBTQ, incluida atención primaria de afirmación de género, además de PrEP/PEP, atención del VIH, salud mental y dental. Tarifas en escala móvil. Clínicas en 2515 Canal St y 1631 Elysian Fields Ave. Citas 504-821-2601.
+    url: https://www.crescentcare.org/lgbtq-health-and-wellness-2
+    phone: "504-821-2601"
+    areas_served:
+      en: Greater New Orleans
+      es: Área de Nueva Orleans
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [crescentcare-lgbtq, crescentcare-search, crescentcare-sexual-health]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of insurance or ability to pay and charge on a sliding scale. Call and ask whether they prescribe hormones for adults.
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu seguro o capacidad de pago y cobran en escala móvil. Llama y pregunta si recetan hormonas a adultos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: lta-providers
+    name: Louisiana Trans Advocates, Health Care Provider List
+    type: advocacy_org
+    pillars: [hrt, mental_health]
+    description:
+      en: Community-sourced list of trans-affirming providers by region (Greater New Orleans, Baton Rouge, Southwest Louisiana, Acadiana, Northwest Louisiana, telehealth), with a feedback form.
+      es: Lista comunitaria de proveedores afirmativos por región (Nueva Orleans, Baton Rouge, suroeste, Acadiana, noroeste, telesalud).
+    url: https://www.latransadvocates.org/health-care-providers
+    cost: free
+    verification: community_reported
+    sources: [lta-providers]
+  - id: cse-tyep
+    name: Campaign for Southern Equality, Trans Youth Emergency Project (Louisiana)
+    type: fund
+    pillars: [hrt]
+    description:
+      en: One-on-one navigation for families of trans youth affected by Louisiana's ban, and renewable $500 travel grants paid to the parent or caregiver.
+      es: Orientación individual para familias de jóvenes trans afectados por la prohibición de Luisiana y becas de viaje renovables de $500 para el padre o cuidador.
+    url: https://southernequality.org/la/
+    cost: free
+    verification: org_website
+    sources: [cse-la]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: HRT Access Fund (18 months of free telehealth hormone therapy; applications each May), surgery fund, and free binders and shapewear.
+      es: Fondo de Acceso a TRH (18 meses de terapia hormonal por telesalud gratis; solicitudes cada mayo), fondo de cirugía y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and transition costs including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y costos de transición, incluidos hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: crescentcare-legal
+    name: CrescentCare Legal Services, Transgender Rights Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free legal help statewide for income-eligible trans people facing insurance or coverage denials for medically necessary care. 504-821-2601.
+      es: Ayuda legal gratuita en todo el estado para personas trans con ingresos elegibles ante negaciones de seguro o cobertura. 504-821-2601.
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    phone: "504-821-2601"
+    cost: free
+    verification: org_website
+    sources: [crescentcare-search]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including employer self-funded plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: La. R.S. 40:1098.1-1098.6 (Act 466 of 2023, HB 648)
+    title:
+      en: Stop Harming Our Kids Act; ban on gender-affirming medical care for minors, effective January 1, 2024
+    url: https://legis.la.gov/Legis/Law.aspx?d=965985
+litigation:
+  - case: Soe v. Louisiana State Board of Medical Examiners
+    court: 19th Judicial District Court, East Baton Rouge Parish
+    summary:
+      en: Five trans youth and their families, represented by Lambda Legal and Harvard's Center for Health Law and Policy Innovation, argue the minors' care ban violates the Louisiana Constitution (parental rights, right to medical treatment, sex discrimination).
+      es: Cinco jóvenes trans y sus familias argumentan que la prohibición viola la Constitución de Luisiana.
+    effect_today:
+      en: The ban is in effect. In January 2026 the court denied the state's motion for summary judgment, so the case goes to trial.
+      es: La prohibición está vigente. En enero de 2026 el tribunal negó el juicio sumario del estado y el caso irá a juicio.
+    last_update: "2026-01-31"
+    url: https://lambdalegal.org/case/soe-v-louisiana-state-board-of-medical-examiners/
+    sources: [soe-case]
+sources:
+  - id: rs-40-1098-2
+    url: https://legis.la.gov/Legis/Law.aspx?d=965985
+    title: La. R.S. 40:1098.2, Healthcare professionals; restrictions
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The period may not extend beyond December 31, 2024.
+  - id: rs-40-1098-3
+    url: https://legis.la.gov/Legis/Law.aspx?d=965986
+    title: La. R.S. 40:1098.3, Healthcare professionals; disciplinary actions
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the board shall revoke any professional or occupational license or certificate held by the healthcare professional for a minimum of two years.
+  - id: rs-40-1098-5
+    url: https://legis.la.gov/Legis/Law.aspx?d=965988
+    title: La. R.S. 40:1098.5, Civil actions; remedies
+    publisher: Louisiana State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Consent shall not operate as a defense to a petitioner's claim that is filed pursuant to this Section.
+  - id: soe-case
+    url: https://lambdalegal.org/case/soe-v-louisiana-state-board-of-medical-examiners/
+    title: Soe v. Louisiana State Board of Medical Examiners
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+    quote: In January 2026, the court denied the state's motion for summary judgment, allowing the case to proceed to trial.
+  - id: cse-la
+    url: https://southernequality.org/la/
+    title: Resources for Families of Trans Youth in Louisiana
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: renewable travel grants of $500. Grants can be made to the parent/caregiver of an impacted youth.
+  - id: map-medicaid
+    url: https://www.mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care/
+    title: Medicaid coverage of transgender-related health care
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: State Medicaid policy explicitly excludes transgender-related health care for all ages (Louisiana).
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/LA
+    title: Louisiana equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ldh-medicaid
+    url: https://ldh.la.gov/medicaid
+    title: Louisiana Medicaid
+    publisher: Louisiana Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: crescentcare-lgbtq
+    url: https://www.crescentcare.org/lgbtq-health-and-wellness-2
+    title: LGBTQ health and wellness
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: crescentcare-search
+    url: https://www.crescentcare.org/?s=transgender
+    title: CrescentCare site search, transgender
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+    quote: including gender-affirming primary care for transgender and gender non-conforming people.
+    watch: false
+  - id: crescentcare-sexual-health
+    url: https://www.crescentcare.org/lsu-crescentcare-sexual-health-center/
+    title: LSU-CrescentCare Sexual Health Center
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+    quote: Ask about our sliding-scale fee service. If you are uninsured, please don't hesitate to visit our location for services.
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: lta-providers
+    url: https://www.latransadvocates.org/health-care-providers
+    title: Health Care Providers List
+    publisher: Louisiana Trans Advocates
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgc
+    url: https://www.plannedparenthood.org/planned-parenthood-gulf-coast
+    title: Planned Parenthood Gulf Coast is no longer operating
+    publisher: Planned Parenthood Gulf Coast
+    kind: org
+    accessed: "2026-09-24"
+    quote: September 30, 2025 was PPGC's final day of operations in Louisiana.

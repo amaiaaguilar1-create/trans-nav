@@ -1,0 +1,228 @@
+jurisdiction: LA
+slug: new-orleans
+name: New Orleans
+area:
+  en: Orleans Parish and the Greater New Orleans area
+  es: Parroquia de Orleans y el área de Nueva Orleans
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court fee from the Orleans Parish Civil Clerk's July 1, 2026 fee schedule. The Civil District Court's own site
+    (orleanscdc.com) did not resolve for automated fetching, so the clerk's site is used. Resources from org websites
+    2026-09-24. BreakOUT! (youthbreakout.org) returned 403, and Real Name Campaign NOLA, House of Tulip, and the
+    Tulane clinics could not be loaded; they are not listed and should be checked by a human. Planned Parenthood's
+    New Orleans health center closed September 30, 2025. Confirm CrescentCare's current hormone therapy intake.
+intro:
+  en: >-
+    New Orleans has the state's largest cluster of trans-affirming services, centered on CrescentCare, a sliding-scale
+    community health center with LGBTQ primary care, PrEP, and same-day STI testing, and on free legal help from
+    CrescentCare Legal Services and local legal aid groups. Name change petitions for Orleans Parish residents are
+    filed at Civil District Court on Loyola Avenue.
+  es: >-
+    Nueva Orleans tiene la mayor concentración de servicios afirmativos para personas trans del estado, centrada en
+    CrescentCare, un centro de salud comunitario con escala móvil que ofrece atención primaria LGBTQ, PrEP y pruebas de
+    ITS el mismo día, y en la ayuda legal gratuita de CrescentCare Legal Services y grupos locales. Las peticiones de
+    cambio de nombre de residentes de Orleans se presentan en el Tribunal Civil de Distrito en Loyola Avenue.
+court:
+  name: Civil District Court for the Parish of Orleans (Clerk of Court, Civil Division)
+  url: https://www.orleanscivilclerk.com/
+  filing_fee: 250
+  notes:
+    en: File at the Civil Division, 421 Loyola Avenue, Room 402 (504-407-0000). The petition for name change fee is $250 ($225 plus $25 building fund) as of July 1, 2026; certified copies are $3 per page. The clerk's forms page has the In Forma Pauperis affidavit.
+    es: Presenta en la División Civil, 421 Loyola Avenue, Sala 402 (504-407-0000). La tarifa de la petición de cambio de nombre es $250 desde el 1 de julio de 2026; las copias certificadas cuestan $3 por página. La página de formularios del secretario tiene la declaración In Forma Pauperis.
+  sources: [orleans-fees, orleans-forms]
+resources:
+  - id: crescentcare
+    name: CrescentCare
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federally qualified health center with LGBTQ-affirming and gender-affirming primary care, HIV care, behavioral health, and dental, on a sliding scale. Weekdays 8:30 am to 5 pm by appointment; call 504-821-2601.
+      es: Centro de salud federalmente calificado con atención primaria afirmativa LGBTQ y de afirmación de género, atención del VIH, salud mental y dental, en escala móvil. Entre semana de 8:30 am a 5 pm con cita; llama al 504-821-2601.
+    url: https://www.crescentcare.org/lgbtq-health-and-wellness-2
+    phone: "504-821-2601"
+    address: 2515 Canal St, New Orleans, LA 70119
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [crescentcare-lgbtq, crescentcare-search, crescentcare-hours]
+  - id: lsu-crescentcare-shc
+    name: LSU-CrescentCare Sexual Health Center
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Walk-in and same-day STI testing and treatment, rapid HIV and syphilis tests with same-day results. Monday to Friday, 8 am to 3 pm. Sliding scale; uninsured patients welcome.
+      es: Pruebas y tratamiento de ITS sin cita y el mismo día, pruebas rápidas de VIH y sífilis con resultados el mismo día. Lunes a viernes, 8 am a 3 pm. Escala móvil; se atiende a personas sin seguro.
+    url: https://www.crescentcare.org/lsu-crescentcare-sexual-health-center/
+    address: 2515 Canal St, New Orleans, LA 70119
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [crescentcare-sexual-health]
+  - id: crescentcare-prep
+    name: CrescentCare PrEP and PEP
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: PrEP (pills and injectable) and same-day emergency PEP appointments. Call 504-821-2601.
+      es: PrEP (pastillas e inyectable) y citas de emergencia para PEP el mismo día. Llama al 504-821-2601.
+    url: https://www.crescentcare.org/service/prep/
+    phone: "504-821-2601"
+    cost: sliding_scale
+    verification: org_website
+    sources: [crescentcare-prep]
+  - id: crescentcare-legal
+    name: CrescentCare Legal Services (Transgender Rights Project)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal aid for income-eligible people with legal issues related to their transgender or HIV status, including insurance denials. By appointment; 504-821-2601.
+      es: Asistencia legal civil gratuita para personas con ingresos elegibles con asuntos legales relacionados con su condición transgénero o de VIH, incluidas negaciones de seguro. Con cita; 504-821-2601.
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    phone: "504-821-2601"
+    cost: free
+    verification: org_website
+    sources: [crescentcare-legal, crescentcare-search]
+  - id: pro-bono-project
+    name: The Pro Bono Project
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services from volunteer attorneys for low-income residents of six Southeast Louisiana parishes, plus self-help resources.
+      es: Servicios legales civiles gratuitos de abogados voluntarios para residentes de bajos ingresos de seis parroquias del sureste de Luisiana, además de recursos de autoayuda.
+    url: https://www.probono-no.org/
+    cost: free
+    verification: org_website
+    sources: [pro-bono-project]
+  - id: slls
+    name: Southeast Louisiana Legal Services
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Legal aid for low-income people, including Medicaid, SNAP, and disability benefits problems. Apply online.
+      es: Asistencia legal para personas de bajos ingresos, incluidos problemas con Medicaid, SNAP y beneficios por discapacidad. Solicita en línea.
+    url: https://slls.org/en/get-help/
+    cost: free
+    verification: org_website
+    sources: [slls]
+  - id: la-trans-advocates
+    name: Louisiana Trans Advocates
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Trans-led advocacy group with support group meetings, a provider list, and ID document guides. 504-450-7496.
+      es: Grupo de defensa dirigido por personas trans con grupos de apoyo, lista de proveedores y guías de documentos. 504-450-7496.
+    url: https://www.latransadvocates.org/resources
+    phone: "504-450-7496"
+    cost: free
+    verification: org_website
+    sources: [lta-resources]
+  - id: nola-health
+    name: New Orleans Health Department
+    type: government_office
+    pillars: [sexual_health, mental_health]
+    description:
+      en: City health department; check its site for current public health clinics and programs.
+      es: Departamento de salud de la ciudad; consulta su sitio para clínicas y programas actuales.
+    url: https://nola.gov/next/health/home/
+    cost: varies
+    verification: official_source
+    sources: [nola-health]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: orleans-fees
+    url: https://www.orleanscivilclerk.com/memos/feeschedule2026-07-01.pdf
+    title: Civil District Court civil filing fee schedule, effective July 1, 2026
+    publisher: Orleans Parish Civil Clerk of Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Petition for Name Change: $225.00, building fund $25.00, total $250.00."
+  - id: orleans-forms
+    url: https://www.orleanscivilclerk.com/civil_forms.htm
+    title: Civil forms (In Forma Pauperis Affidavit)
+    publisher: Orleans Parish Civil Clerk of Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: crescentcare-lgbtq
+    url: https://www.crescentcare.org/lgbtq-health-and-wellness-2
+    title: LGBTQ health and wellness
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: crescentcare-search
+    url: https://www.crescentcare.org/?s=transgender
+    title: CrescentCare site search, transgender
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+    watch: false
+  - id: crescentcare-hours
+    url: https://www.crescentcare.org/about/hours-and-locations/
+    title: Hours and locations
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: crescentcare-sexual-health
+    url: https://www.crescentcare.org/lsu-crescentcare-sexual-health-center/
+    title: LSU-CrescentCare Sexual Health Center
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Sexual Health Center is located at CrescentCare's MidCity location at 2515 Canal Street.
+  - id: crescentcare-prep
+    url: https://www.crescentcare.org/service/prep/
+    title: PrEP and PEP for HIV Prevention
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: crescentcare-legal
+    url: https://www.crescentcare.org/service/cc-legal-services/
+    title: CrescentCare Legal Services
+    publisher: CrescentCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: pro-bono-project
+    url: https://www.probono-no.org/
+    title: The Pro Bono Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: We provide free legal services to low-income residents of 6 local parishes.
+  - id: slls
+    url: https://slls.org/en/get-help/
+    title: Get Help
+    publisher: Southeast Louisiana Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: lta-resources
+    url: https://www.latransadvocates.org/resources
+    title: Resources
+    publisher: Louisiana Trans Advocates
+    kind: org
+    accessed: "2026-09-24"
+  - id: nola-health
+    url: https://nola.gov/next/health/home/
+    title: New Orleans Health Department
+    publisher: City of New Orleans
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
