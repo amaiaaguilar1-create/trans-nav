@@ -10,6 +10,10 @@ review:
     Drafted from primary sources on 2026-09-23. Open items for the human reviewer: (1) confirm each county's current
     fee schedule beyond LA (statewide baseline is $435); (2) confirm certified-copy fee for decrees; (3) confirm no
     fingerprint/background-check requirement in CCP 1277 text; (4) confirm NC-225 is no longer used for adults after AB 1084.
+    Cross-checked 2026-09-23 against A4TE's California page (last updated Sept 2025) and TLC's ID Please guide (Nov 2025):
+    both agree on fee, no publication, no hearing, and NC-300/NC-330, but both still list the pre-July-2026 NC-100-series
+    numbers for the name-only path; the live court self-help site uses NC-200/NC-230. Minors' gender recognition uses the
+    NC-500 series (confirmed on the court site).
 status: available
 status_summary:
   en: >-
@@ -244,11 +248,13 @@ fees:
     label:
       en: Certified copy of the decree (each)
       es: Copia certificada del decreto (cada una)
+    amount: 40.5
     varies_by: court
     waivable: true
     note:
-      en: Set by each court's fee schedule; typically under $50 per copy. A granted fee waiver usually covers the first copies.
-    sources: [statewide-fee-schedule]
+      en: The court self-help site quotes $40.50 per certified copy; a granted fee waiver covers them.
+      es: El sitio de autoayuda del tribunal indica $40.50 por copia certificada; una exención de tarifas aprobada las cubre.
+    sources: [selfhelp-gender-recognition, statewide-fee-schedule]
 fee_waiver:
   available: true
   forms: [FW-001, FW-003]
@@ -297,10 +303,10 @@ confidentiality:
 minors:
   summary:
     en: |
-      A parent or guardian files for a child using the same NC-200 or NC-300 series (the child-specific forms are listed on the court's guided interview). If every living parent signs the petition, the court grants it without a hearing within six weeks, like an adult petition. If a parent does not sign, the court sends that parent notice and holds a hearing only if they object with good cause. All records are confidential (AB 223, since 2024, and SB 59).
+      A parent or guardian files for the child. **Name only**: NC-200 + NC-230 (+ CM-010; add MC-025 if more than two petitioners sign). **Gender recognition, with or without name change**: the child series NC-500 (petition) + NC-520 (order to show cause) + NC-530 (order), plus NC-510G if a guardian or juvenile attorney is involved. If every living parent signs, the court grants the petition without a hearing within six weeks, like an adult petition. If a parent does not sign, the court uses a separate "one parent" pathway: the other parent must be served, and a hearing is held only if they object with good cause. All records are confidential (AB 223 since 2024, and SB 59 since July 2026).
     es: |
-      Un padre, madre o tutor presenta la petición por el menor usando las mismas series NC-200 o NC-300. Si todos los padres con vida firman, el tribunal la concede sin audiencia dentro de seis semanas. Si un padre no firma, el tribunal le envía notificación y celebra una audiencia solo si objeta con causa justificada. Todos los registros son confidenciales (AB 223 y SB 59).
-  sources: [ab1084, ab223, selfhelp-gender-recognition]
+      Un padre, madre o tutor presenta la petición por el menor. **Solo nombre**: NC-200 + NC-230 (+ CM-010). **Reconocimiento de género, con o sin cambio de nombre**: la serie para menores NC-500 (petición) + NC-520 + NC-530, más NC-510G si interviene un tutor. Si todos los padres con vida firman, el tribunal la concede sin audiencia dentro de seis semanas. Si un padre no firma, hay una vía separada: se debe notificar al otro padre y se celebra audiencia solo si objeta con causa justificada. Todos los registros son confidenciales (AB 223 y SB 59).
+  sources: [ab1084, ab223, selfhelp-gender-recognition, selfhelp-child-gender-forms, selfhelp-child-name-forms]
 delivery:
   online: true
   by_mail: true
@@ -323,16 +329,43 @@ tips:
   - en: Every court has a free Self-Help Center that will review your forms before you file. Ask for it at the clerk's window.
 local_help:
   - id: tlc
-    name: Transgender Law Center
+    org: transgender-law-center
+    name: Transgender Law Center, legal helpdesk
     type: legal_aid
     pillars: [name_change, gender_marker]
     description:
-      en: Statewide legal information helpline and the "ID Please" guide to California and federal document changes.
-      es: Línea de información legal estatal y la guía "ID Please" sobre cambios de documentos en California y a nivel federal.
-    url: https://transgenderlawcenter.org/
+      en: Free legal information helpdesk (510-587-9696 English, 415-296-2029 Spanish, collect line 510-380-8229 for people who are incarcerated or detained) and the "ID Please" guide to California and federal document changes.
+      es: Línea de información legal gratuita (510-587-9696 inglés, 415-296-2029 español, línea de cobro revertido 510-380-8229 para personas encarceladas o detenidas) y la guía "ID Please" sobre cambios de documentos en California y a nivel federal.
+    url: https://transgenderlawcenter.org/resources/id/id-please
+    phone: "510-587-9696"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [tlc, tlc-idplease]
+  - id: sd-center-clinic
+    name: San Diego LGBT Community Center, Name and Gender Marker Change Legal Clinic (with USD School of Law)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free clinic on the first Tuesday of each month, 6:30 to 8:30 pm, at The Center (3909 Centre St). Law students and attorneys help complete and file petitions. Email trans@thecentersd.org or call 619-692-2077 ext. 109.
+      es: Clínica gratuita el primer martes de cada mes, de 6:30 a 8:30 pm, en The Center (3909 Centre St). Estudiantes de derecho y abogados ayudan a completar y presentar peticiones. Escribe a trans@thecentersd.org o llama al 619-692-2077 ext. 109.
+    url: https://www.thecentersd.org/transgender-services-project-trans
+    phone: "619-692-2077"
+    address: 3909 Centre St, San Diego, CA 92103
     cost: free
     verification: org_website
-    sources: [tlc]
+    sources: [sd-center]
+  - id: sac-center-legal
+    name: Sacramento LGBT Community Center, transgender services
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help with name and gender marker change paperwork, plus HIV/STI testing and PrEP navigation.
+      es: Ayuda gratuita con los trámites de cambio de nombre y marcador de género, además de pruebas de VIH/ITS y navegación de PrEP.
+    url: https://saccenter.org/transgender-services
+    cost: free
+    verification: org_website
+    sources: [sac-center]
   - id: baylegal-clinic
     name: Bay Area Legal Aid, Name and Gender Marker Change Clinic
     type: name_change_clinic
@@ -401,8 +434,13 @@ related_links:
     note:
       en: Official guided interview and step-by-step instructions.
       es: Entrevista guiada oficial e instrucciones paso a paso.
-  - title: Advocates for Trans Equality, ID Documents Center (California)
-    url: https://transequality.org/documents/state/california
+  - title: Advocates for Trans Equality, California identity documents
+    url: https://transequality.org/documents/california-identity-documents
+    note:
+      en: Last updated September 2025; still shows the pre-July-2026 NC-100-series form numbers for the name-only path.
+      es: Actualizado en septiembre de 2025; todavía muestra los números de formulario de la serie NC-100 anteriores a julio de 2026.
+  - title: Transgender Law Center, ID Please guide (November 2025)
+    url: https://transgenderlawcenter.org/resources/id/id-please
 sources:
   - id: selfhelp-nc200-forms
     url: https://selfhelp.courts.ca.gov/name-change/name-match-gender-adult/fill-forms
@@ -494,6 +532,37 @@ sources:
     url: https://transgenderlawcenter.org/
     title: Transgender Law Center
     kind: org
+    accessed: "2026-09-23"
+  - id: tlc-idplease
+    url: https://transgenderlawcenter.org/resources/id/id-please
+    title: ID Please (November 2025 edition) and legal helpdesk
+    publisher: Transgender Law Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: sd-center
+    url: https://www.thecentersd.org/transgender-services-project-trans
+    title: Project TRANS and the Name and Gender Marker Change Legal Clinic
+    publisher: The San Diego LGBT Community Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: sac-center
+    url: https://saccenter.org/transgender-services
+    title: Transgender services
+    publisher: Sacramento LGBT Community Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: selfhelp-child-gender-forms
+    url: https://selfhelp.courts.ca.gov/gender-recognition/gender-name-child/fill-forms
+    title: Fill out your forms, court order recognizing a child's gender change (with or without name change)
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
+    accessed: "2026-09-23"
+    quote: NC-500 (petition), NC-520 (order to show cause), NC-530 (order), CM-010; NC-510G if applicable.
+  - id: selfhelp-child-name-forms
+    url: https://selfhelp.courts.ca.gov/name-change/name-match-gender-child/fill-forms
+    title: Fill out your forms, name change for a child to match gender identity
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
     accessed: "2026-09-23"
   - id: baylegal
     url: https://baylegal.org/name-and-gender-marker-change-legal-clinic_english-2/

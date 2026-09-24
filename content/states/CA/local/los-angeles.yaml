@@ -67,18 +67,32 @@ resources:
     verification: org_website
     sources: [lls]
   - id: lalgbt-health
-    name: Los Angeles LGBT Center, Health Services
+    name: Los Angeles LGBT Center, Trans Health Clinic
     type: informed_consent_clinic
     pillars: [hrt, sexual_health, mental_health]
     description:
-      en: Primary care, informed-consent hormone therapy, HIV/STI testing and PrEP, and mental health services; sliding scale and Medi-Cal.
-      es: Atención primaria, terapia hormonal por consentimiento informado, pruebas de VIH/ITS y PrEP, y salud mental; escala móvil y Medi-Cal.
+      en: Hormone therapy, primary care, surgery referrals, HIV/STI testing and PrEP, and mental health. New patients call 323-993-2900 (weekdays 10 am to 2 pm and 3 to 6 pm). Accepts most insurance except Kaiser HMO, and helps uninsured patients enroll in coverage.
+      es: Terapia hormonal, atención primaria, referencias para cirugía, pruebas de VIH/ITS y PrEP, y salud mental. Pacientes nuevos llaman al 323-993-2900 (entre semana de 10 am a 2 pm y de 3 a 6 pm). Acepta la mayoría de los seguros excepto Kaiser HMO y ayuda a pacientes sin seguro a inscribirse en cobertura.
     url: https://lalgbtcenter.org/health-services/
+    phone: "323-993-2900"
     cost: sliding_scale
     accepts_medicaid: true
     accepts_uninsured: true
-    verification: unverified
+    verification: org_website
     sources: [lalgbt-health]
+  - id: st-johns-la
+    name: St. John's Community Health, Transgender Health Program
+    type: informed_consent_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Federally qualified health center in South and Central LA with a dedicated transgender health program (hormone therapy, primary care, mental health, case management) and an online new-patient intake form; sliding scale and Medi-Cal.
+      es: Centro de salud federalmente calificado en el sur y centro de LA con programa de salud trans (terapia hormonal, atención primaria, salud mental, manejo de casos) y formulario de admisión en línea; escala móvil y Medi-Cal.
+    url: https://www.sjch.org/transgender-health-program
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [sjch]
   - id: pp-la
     org: planned-parenthood
     name: Planned Parenthood Los Angeles, gender-affirming care
@@ -150,6 +164,12 @@ sources:
     url: https://lalgbtcenter.org/health-services/
     title: Health services
     publisher: Los Angeles LGBT Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: sjch
+    url: https://www.sjch.org/transgender-health-program
+    title: Transgender Health Program
+    publisher: St. John's Community Health
     kind: org
     accessed: "2026-09-23"
   - id: pp-la

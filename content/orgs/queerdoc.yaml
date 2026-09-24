@@ -1,0 +1,38 @@
+id: queerdoc
+name: QueerDoc
+url: https://queerdoc.com/
+type: telehealth_hrt
+pillars: [hrt]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    State list from queerdoc.com via search on 2026-09-23. Pricing has changed before; reviewer should confirm at
+    queerdoc.com/pricing before publishing amounts. Serves some minors with parental consent depending on state.
+description:
+  en: Small telehealth practice offering informed-consent hormone therapy with transparent sliding-scale pricing. Does not bill insurance for visits, but labs and prescriptions can go through your insurance. A Point of Pride HRT Access Fund partner.
+  es: Consulta de telesalud pequeña que ofrece terapia hormonal por consentimiento informado con precios transparentes en escala móvil. No cobra las consultas al seguro, pero laboratorios y recetas pueden pasar por tu seguro. Socio del Fondo de Acceso a TRH de Point of Pride.
+scope: multi_state
+states_served: [AK, CA, FL, HI, ID, MT, OR, UT, WA, WY]
+cost: sliding_scale
+cost_detail:
+  en: Sliding scale by income; check the current pricing page.
+  es: Escala móvil según ingresos; consulta la página de precios actual.
+accepts_insurance: false
+telehealth: true
+program_status: active
+sources:
+  - id: queerdoc
+    url: https://queerdoc.com/
+    title: QueerDoc
+    kind: org
+    accessed: "2026-09-23"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-23"

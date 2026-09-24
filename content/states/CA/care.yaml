@@ -6,55 +6,182 @@ review:
   confidence: medium
   es_status: machine_draft
   notes: >-
-    Legal framework (Medi-Cal coverage, IGNA, SB 923, SB 107) drafted from official pages 2026-09-23. Clinic list is a
-    starting point from org websites; verify each clinic's current informed-consent policy and new-patient status.
+    Legal framework (Medi-Cal coverage, IGNA, SB 923, SB 107) from official pages 2026-09-23. Government programs
+    (Gender Health SF, PrEP-AP, ADAP, Family PACT, Santa Clara County Gender Health Center) from state and county sites
+    the same day; DHCS's consumer page and familypact.org did not render for automated fetching, so eligibility details
+    there come from DHCS All Plan Letters and the LAO budget report. Clinic list is from org websites; verify each
+    clinic's current informed-consent policy and new-patient status. Planned Parenthood age minimums are per affiliate
+    pages; Mar Monte's minimum age was not confirmed.
 status_summary:
   en: >-
     Gender-affirming care is legal and protected for adults and minors in California. Medi-Cal covers hormone therapy,
     surgery, and related care, state-regulated private plans may not exclude it, and a shield law protects patients and
-    providers. Informed-consent hormone clinics operate in every major metro.
+    providers. Informed-consent hormone clinics, Planned Parenthood affiliates, and sliding-scale community health centers
+    operate in every major metro, and several state and city programs pay for care if you are uninsured.
   es: >-
     La atención de afirmación de género es legal y está protegida para adultos y menores en California. Medi-Cal cubre
     terapia hormonal, cirugía y atención relacionada, los planes privados regulados por el estado no pueden excluirla, y
-    una ley escudo protege a pacientes y proveedores. Hay clínicas de hormonas por consentimiento informado en cada área metropolitana.
+    una ley escudo protege a pacientes y proveedores. Hay clínicas de hormonas por consentimiento informado, afiliadas de
+    Planned Parenthood y centros de salud comunitarios con escala móvil en cada área metropolitana, y varios programas
+    estatales y municipales pagan la atención si no tienes seguro.
 adult_care:
   status: available
   detail:
     en: |
       No state restriction. Most community clinics and Planned Parenthood affiliates prescribe hormones on an **informed consent** basis: you discuss risks and benefits with the prescriber and sign a consent form, with no therapist letter required. Telehealth prescribing is legal statewide.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **Medi-Cal** (free for adults up to about 138% of the federal poverty level; see below). It covers hormones, labs, and surgery.
+      2. Go to a **community health center** (federally qualified health center). They charge on a sliding scale, many run informed-consent hormone programs, and their pharmacies often sell generics at cost. Find one at findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood** affiliates offer sliding-scale hormone care; several start by telehealth.
+      4. **Point of Pride's HRT Access Fund** pays for 18 months of telehealth hormone care each year (applications in May).
+      5. For the medications themselves, generic spironolactone runs about $5 to $10 a month and generic estradiol tablets about $13 to $35 with a GoodRx coupon; Cost Plus Drugs also carries estradiol tablets at cost. Testosterone prices vary more; ask the pharmacy about cash price versus insurance.
     es: |
       Sin restricciones estatales. La mayoría de las clínicas comunitarias y afiliadas de Planned Parenthood recetan hormonas mediante **consentimiento informado**: hablas de riesgos y beneficios con quien receta y firmas un consentimiento, sin carta de terapeuta. La telesalud es legal en todo el estado.
-  sources: [dmhc-tgi, pp-norcal]
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medi-Cal** (gratis para adultos hasta aproximadamente el 138% del nivel federal de pobreza). Cubre hormonas, laboratorios y cirugía.
+      2. Acude a un **centro de salud comunitario**. Cobran en escala móvil, muchos tienen programas de hormonas por consentimiento informado y sus farmacias suelen vender genéricos a costo. Búscalo en findahealthcenter.hrsa.gov.
+      3. Las afiliadas de **Planned Parenthood** ofrecen atención hormonal en escala móvil; varias empiezan por telesalud.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga 18 meses de atención hormonal por telesalud cada año (solicitudes en mayo).
+      5. Para los medicamentos, la espironolactona genérica cuesta unos $5 a $10 al mes y las tabletas de estradiol genérico unos $13 a $35 con un cupón de GoodRx; Cost Plus Drugs también vende estradiol a costo.
+  sources: [dmhc-tgi, pp-norcal, hrsa, pop-hrt, goodrx]
 minor_care:
   status: available
   detail:
     en: |
-      Legal. California's shield law (SB 107, 2022) bars state courts and agencies from cooperating with other states' attempts to punish families or providers for gender-affirming care, and protects medical records from out-of-state subpoenas. Care for minors follows clinical guidelines and requires parental consent (or the consent of a minor who is legally able to consent to their own care).
+      Legal. California's shield law (SB 107, 2022) bars state courts and agencies from cooperating with other states' attempts to punish families or providers for gender-affirming care, and protects medical records from out-of-state subpoenas. Care for minors follows clinical guidelines and requires parental consent. Some Planned Parenthood affiliates see 16- and 17-year-olds with a parent and a readiness letter (Northern California, California Central Coast); most other affiliates are 18 and older. Santa Clara County's Gender Health Center and several LGBTQ community health centers see all ages.
     es: |
-      Legal. La ley escudo de California (SB 107, 2022) impide que tribunales y agencias estatales cooperen con intentos de otros estados de castigar a familias o proveedores por atención de afirmación de género, y protege los expedientes médicos de citaciones de otros estados.
-  sources: [sb107]
+      Legal. La ley escudo de California (SB 107, 2022) impide que tribunales y agencias estatales cooperen con intentos de otros estados de castigar a familias o proveedores por atención de afirmación de género, y protege los expedientes médicos de citaciones de otros estados. La atención a menores sigue guías clínicas y requiere consentimiento de los padres. Algunas afiliadas de Planned Parenthood atienden a jóvenes de 16 y 17 años con un padre y carta de preparación (Northern California, California Central Coast); la mayoría de las demás atienden desde los 18.
+  sources: [sb107, pp-norcal, pp-central-coast, scc-ghc]
 medicaid:
   program_name: Medi-Cal
   covers_hrt: "yes"
   covers_surgery: "yes"
   detail:
     en: |
-      Medi-Cal covers medically necessary transgender health services, including hormone therapy, puberty blockers, mental health care, hair removal, voice therapy, and chest, genital, and facial surgeries, following recognized standards of care. Since March 2025, Medi-Cal managed care plans must mark in their provider directories which in-network providers offer gender-affirming care (SB 923, TGI Inclusive Care Act). Apply through Covered California or your county; adults up to 138% of the federal poverty level qualify regardless of immigration status.
+      Medi-Cal covers medically necessary transgender health services, including hormone therapy, puberty blockers, mental health care, hair removal, voice therapy, and chest, genital, and facial surgeries, following recognized standards of care (DHCS All Plan Letter 25-014 and Policy Letter 24-03). Since March 2025, Medi-Cal managed care plans must mark in their provider directories which in-network providers offer gender-affirming care (SB 923).
+
+      **Who qualifies**: adults with income up to about 138% of the federal poverty level; higher limits for children and pregnant people. Immigration status does not matter for people already enrolled, but **new enrollment of undocumented adults 19 and older into full-scope Medi-Cal was frozen on January 1, 2026** under the 2025 state budget. If you were enrolled before then, keep renewing on time to keep full coverage. Dental benefits for adults with unsatisfactory immigration status end July 1, 2026, and a $30 monthly premium for ages 19 to 59 in that group begins July 1, 2027.
+
+      **Apply** at BenefitsCal.com, through Covered California, or at your county human services office. Dental and county specialty mental health are included benefits.
     es: |
-      Medi-Cal cubre servicios de salud trans médicamente necesarios, incluidos terapia hormonal, bloqueadores de pubertad, salud mental, depilación, terapia de voz y cirugías de pecho, genitales y rostro, según estándares de atención reconocidos. Desde marzo de 2025, los planes de Medi-Cal deben indicar en sus directorios qué proveedores ofrecen atención de afirmación de género (SB 923). Solicítalo a través de Covered California o tu condado.
-  how_to_apply_url: https://www.coveredca.com/
-  sources: [dhcs-apl, sb923]
+      Medi-Cal cubre servicios de salud trans médicamente necesarios, incluidos terapia hormonal, bloqueadores de pubertad, salud mental, depilación, terapia de voz y cirugías de pecho, genitales y rostro (Carta a Todos los Planes 25-014 y Carta de Política 24-03 de DHCS). Desde marzo de 2025, los planes de Medi-Cal deben indicar en sus directorios qué proveedores ofrecen atención de afirmación de género (SB 923).
+
+      **Quién califica**: adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza. El estatus migratorio no importa para quienes ya están inscritos, pero **la nueva inscripción de adultos indocumentados de 19 años o más en Medi-Cal de alcance completo se congeló el 1 de enero de 2026**. Si te inscribiste antes, renueva a tiempo para mantener la cobertura completa. Los beneficios dentales para adultos con estatus migratorio no satisfactorio terminan el 1 de julio de 2026.
+
+      **Solicita** en BenefitsCal.com, a través de Covered California o en la oficina de servicios humanos de tu condado.
+  how_to_apply_url: https://benefitscal.com/
+  sources: [dhcs-apl, dhcs-pl, sb923, dhcs-eligibility, lao-budget]
 private_insurance:
   nondiscrimination_protection: true
   detail:
     en: |
-      The Insurance Gender Nondiscrimination Act (Health & Safety Code § 1365.5; Insurance Code § 10140) bars state-regulated health plans and insurers from denying, limiting, or excluding gender-affirming benefits based on sex or gender identity. If a plan denies care, file a grievance with the plan; if it is not resolved in 30 days (or the situation is urgent), file a complaint or request an Independent Medical Review with the Department of Managed Health Care. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates for those.
+      The Insurance Gender Nondiscrimination Act (Health & Safety Code § 1365.5; Insurance Code § 10140) bars state-regulated health plans and insurers from denying, limiting, or excluding gender-affirming benefits based on sex or gender identity. If a plan denies care, file a grievance with the plan; if it is not resolved in 30 days (or the situation is urgent), file a complaint or request an Independent Medical Review with the Department of Managed Health Care (free; 1-888-466-2219). Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates for those.
+
+      **Covered California** plans must include gender-affirming care. State subsidies bring the benchmark plan to $0 premium for households up to 150% of the federal poverty level, with partial help up to 165%, on top of federal subsidies. Note: a 2025 federal rule bars federal premium subsidies from covering the portion of a premium attributed to gender-affirming care; check coveredca.com for how this affects your quote.
     es: |
-      La Ley de No Discriminación de Género en Seguros prohíbe a los planes y aseguradoras regulados por el estado negar, limitar o excluir beneficios de afirmación de género. Si un plan niega la atención, presenta una queja ante el plan; si no se resuelve en 30 días (o es urgente), presenta una queja o solicita una Revisión Médica Independiente ante el Departamento de Atención Médica Administrada (DMHC).
+      La Ley de No Discriminación de Género en Seguros prohíbe a los planes y aseguradoras regulados por el estado negar, limitar o excluir beneficios de afirmación de género. Si un plan niega la atención, presenta una queja ante el plan; si no se resuelve en 30 días (o es urgente), presenta una queja o solicita una Revisión Médica Independiente ante el Departamento de Atención Médica Administrada (gratis; 1-888-466-2219).
+
+      Los planes de **Covered California** deben incluir atención de afirmación de género. Los subsidios estatales dejan el plan de referencia en $0 de prima para hogares hasta el 150% del nivel federal de pobreza, con ayuda parcial hasta el 165%.
   complaint_url: https://www.dmhc.ca.gov/HealthCareinCalifornia/GettheBestCare/TGICare.aspx
-  sources: [dmhc-tgi]
-telehealth_hrt: [plume, folx, planned-parenthood]
+  sources: [dmhc-tgi, coveredca-subsidy]
+telehealth_hrt: [plume, folx, queerdoc, planned-parenthood]
 resources:
+  - id: gender-health-sf
+    name: Gender Health SF (San Francisco Department of Public Health)
+    type: government_office
+    pillars: [hrt, insurance]
+    description:
+      en: City program that gives uninsured and underinsured San Francisco residents access to gender-affirming surgery plus preparation, education, and navigation, at no cost. Requires SF residency, enrollment in SF Health Network coverage (SF Medi-Cal managed care, Healthy San Francisco, or Healthy Workers), and a referral from your primary care clinic.
+      es: Programa municipal que da a residentes de San Francisco sin seguro o con seguro insuficiente acceso a cirugía de afirmación de género más preparación, educación y navegación, sin costo. Requiere residencia en SF, inscripción en la cobertura de SF Health Network (Medi-Cal de SF, Healthy San Francisco o Healthy Workers) y referencia de tu clínica de atención primaria.
+    url: https://www.sf.gov/departments--department-public-health--gender-health-sf
+    areas_served:
+      en: San Francisco residents
+      es: Residentes de San Francisco
+    cost: free
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [ghsf]
+  - id: healthy-sf
+    name: Healthy San Francisco
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: San Francisco's safety-net program for uninsured residents of any immigration status with income up to 500% of the federal poverty level. Not insurance, but it assigns you a primary care home in the SF Health Network with sliding-scale fees, and it is one of the coverage types accepted by Gender Health SF. Call 415-615-4555.
+      es: Programa de red de seguridad de San Francisco para residentes sin seguro de cualquier estatus migratorio con ingresos hasta el 500% del nivel federal de pobreza. No es seguro, pero te asigna una clínica de atención primaria con tarifas en escala móvil y es una de las coberturas aceptadas por Gender Health SF. Llama al 415-615-4555.
+    url: https://healthysanfrancisco.org/
+    phone: "415-615-4555"
+    areas_served:
+      en: San Francisco residents
+      es: Residentes de San Francisco
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [healthy-sf]
+  - id: sf-oti
+    name: San Francisco Office of Transgender Initiatives
+    type: government_office
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: City office connecting residents to free name and gender marker change clinics (with Transgender Law Center and the Transgender District), employment support, and health care navigation.
+      es: Oficina municipal que conecta a residentes con clínicas gratuitas de cambio de nombre y marcador de género (con Transgender Law Center y el Transgender District), apoyo laboral y navegación de atención médica.
+    url: https://www.sf.gov/topics--transgender
+    cost: free
+    verification: official_source
+    sources: [sf-oti]
+  - id: prep-ap
+    name: PrEP Assistance Program (PrEP-AP), CDPH Office of AIDS
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: State program that pays for PrEP and PEP medication, labs, and clinic visits for HIV-negative California residents 18 and older with income up to 500% of the federal poverty level, whether uninsured or underinsured. Immigration status does not matter and it is not a public charge issue. Enroll through a PrEP-AP enrollment site or provider.
+      es: Programa estatal que paga la PrEP y PEP, laboratorios y consultas para residentes de California VIH negativos de 18 años o más con ingresos hasta el 500% del nivel federal de pobreza, con o sin seguro. El estatus migratorio no importa. Inscríbete a través de un sitio de inscripción o proveedor de PrEP-AP.
+    url: https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_adap_PrEP-AP.aspx
+    cost: free
+    accepts_uninsured: true
+    verification: official_source
+    sources: [prep-ap]
+  - id: adap
+    name: AIDS Drug Assistance Program (ADAP), CDPH Office of AIDS
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: Pays for HIV medications for California residents living with HIV, 18 and older, with income up to 600% of the federal poverty level (no cost below 400%). Enroll through a certified ADAP enrollment worker.
+      es: Paga los medicamentos para el VIH a residentes de California que viven con VIH, de 18 años o más, con ingresos hasta el 600% del nivel federal de pobreza (sin costo por debajo del 400%). Inscríbete con un trabajador de inscripción certificado de ADAP.
+    url: https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_adap_eligibility.aspx
+    cost: free
+    accepts_uninsured: true
+    verification: official_source
+    sources: [adap]
+  - id: family-pact
+    name: Family PACT
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: State program providing free family planning and sexual health services, including STI testing and treatment, to low-income Californians of any gender who have no other coverage for those services. Enroll on the spot at any Family PACT provider (many Planned Parenthood and community clinics).
+      es: Programa estatal que ofrece servicios gratuitos de planificación familiar y salud sexual, incluidas pruebas y tratamiento de ITS, a californianos de bajos ingresos de cualquier género sin otra cobertura para esos servicios. Inscríbete en el momento en cualquier proveedor de Family PACT.
+    url: https://familypact.org/
+    cost: free
+    accepts_uninsured: true
+    verification: official_source
+    sources: [family-pact]
+  - id: scc-ghc
+    name: Santa Clara County Gender Health Center (county-run)
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: County health system clinic in San Jose providing primary care, hormone therapy, mental health, and nursing and social services for trans people of all ages, with walk-in social services. 777 E. Santa Clara St; 408-977-4550.
+      es: Clínica del sistema de salud del condado en San José con atención primaria, terapia hormonal, salud mental y servicios sociales para personas trans de todas las edades. 777 E. Santa Clara St; 408-977-4550.
+    url: https://health.sccgov.org/
+    phone: "408-977-4550"
+    address: 777 E. Santa Clara St, San Jose, CA 95112
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [scc-ghc]
   - id: lyon-martin
     name: Lyon-Martin Community Health Services
     type: informed_consent_clinic
@@ -68,14 +195,28 @@ resources:
     accepts_uninsured: true
     verification: org_website
     sources: [lyon-martin]
+  - id: st-johns
+    name: St. John's Community Health, Transgender Health Program (Los Angeles)
+    type: informed_consent_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Large federally qualified health center in South and Central Los Angeles with a dedicated transgender health program offering hormone therapy, primary care, mental health, and case management; online new-patient intake.
+      es: Gran centro de salud federalmente calificado en el sur y centro de Los Ángeles con un programa de salud trans que ofrece terapia hormonal, atención primaria, salud mental y manejo de casos; admisión de pacientes nuevos en línea.
+    url: https://www.sjch.org/transgender-health-program
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [sjch]
   - id: fhcsd
     name: Family Health Centers of San Diego, Transgender Health Services
     type: hrt_clinic
     pillars: [hrt, sexual_health, mental_health]
     description:
-      en: Federally qualified health center with dedicated transgender health program across San Diego County; sliding scale and Medi-Cal.
-      es: Centro de salud federalmente calificado con programa de salud trans en el condado de San Diego; escala móvil y Medi-Cal.
-    url: https://www.fhcsd.org/transgender-health-services/
+      en: Federally qualified health center with a transgender health program and patient advocates across San Diego County; sliding scale and Medi-Cal. Hillcrest site at 4094 4th Ave, 619-515-2300.
+      es: Centro de salud federalmente calificado con programa de salud trans y defensores de pacientes en el condado de San Diego; escala móvil y Medi-Cal. Sede de Hillcrest en 4094 4th Ave, 619-515-2300.
+    url: https://www.fhcsd.org/lgbtq-services/
+    phone: "619-515-2300"
     cost: sliding_scale
     accepts_medicaid: true
     accepts_uninsured: true
@@ -86,28 +227,89 @@ resources:
     type: informed_consent_clinic
     pillars: [hrt, mental_health]
     description:
-      en: Sacramento nonprofit offering informed-consent hormone clinic (with UC Davis), counseling, and advocacy on a sliding scale.
-      es: Organización sin fines de lucro en Sacramento con clínica de hormonas por consentimiento informado, consejería y defensoría en escala móvil.
+      en: Trans- and BIPOC-led Sacramento nonprofit with sliding-scale therapy, hormone therapy, HIV and STI testing, harm reduction, and legal and health care navigation. 3823 V St; 916-455-2391.
+      es: Organización de Sacramento dirigida por personas trans y BIPOC con terapia en escala móvil, terapia hormonal, pruebas de VIH e ITS, reducción de daños y navegación legal y de salud. 3823 V St; 916-455-2391.
     url: https://genderhealthcenter.org/
+    phone: "916-455-2391"
+    address: 3823 V St, Sacramento, CA 95817
     cost: sliding_scale
     accepts_uninsured: true
-    verification: unverified
+    verification: org_website
     sources: [ghc]
-  - id: pp-norcal-gaht
+  - id: oakland-lgbtq-center
+    name: Oakland LGBTQ Community Center, Trans Wellness Center and Glenn Burke Clinic
+    type: lgbtq_center
+    pillars: [hrt, mental_health]
+    description:
+      en: Free therapy and support groups at the Lakeshore Avenue center, plus a Trans Wellness Center and clinic in East Oakland opened in 2025 for culturally competent trans health care.
+      es: Terapia gratuita y grupos de apoyo en el centro de Lakeshore Avenue, más un Trans Wellness Center y clínica en East Oakland abiertos en 2025 para atención de salud trans culturalmente competente.
+    url: https://www.oaklandlgbtqcenter.org/
+    address: 3207 Lakeshore Ave, Oakland, CA 94610
+    cost: free
+    verification: org_website
+    sources: [oakland-center]
+  - id: pp-california
     org: planned-parenthood
-    name: Planned Parenthood Northern California, gender-affirming hormone therapy
+    name: Planned Parenthood affiliates in California, gender-affirming hormone therapy
     type: informed_consent_clinic
     pillars: [hrt, sexual_health]
     description:
-      en: Informed-consent hormone therapy at many Northern California health centers and by telehealth; Medi-Cal and sliding scale. Other California affiliates (Los Angeles, Pacific Southwest, Central Coast, Mar Monte) offer the same service.
-      es: Terapia hormonal por consentimiento informado en muchos centros del norte de California y por telesalud; Medi-Cal y escala móvil. Otras afiliadas de California ofrecen el mismo servicio.
-    url: https://www.plannedparenthood.org/planned-parenthood-northern-california/get-involved-locally/learn/gaht
+      en: >-
+        Informed-consent hormone therapy on a sliding scale, with Medi-Cal and Family PACT accepted. Northern California
+        (17+ health centers; ages 16 and 17 with a parent and readiness letter; first visits by telehealth), California
+        Central Coast (16+; minors' first visit in person with a guardian), Pacific Southwest (San Diego, Riverside,
+        Imperial; 18+; telehealth center in San Diego), Los Angeles (18+), Orange and San Bernardino (18+; 714-922-4100 or
+        909-890-5511), and Mar Monte (Central Valley and South Bay; confirm minimum age).
+      es: >-
+        Terapia hormonal por consentimiento informado en escala móvil, con Medi-Cal y Family PACT. Northern California
+        (más de 17 centros; jóvenes de 16 y 17 con un padre y carta de preparación; primeras visitas por telesalud),
+        California Central Coast (16+; primera visita de menores en persona con tutor), Pacific Southwest (San Diego,
+        Riverside, Imperial; 18+), Los Angeles (18+), Orange y San Bernardino (18+; 714-922-4100 o 909-890-5511) y Mar
+        Monte (Valle Central y South Bay; confirma la edad mínima).
+    url: https://www.plannedparenthood.org/health-center
     cost: sliding_scale
     accepts_medicaid: true
     accepts_uninsured: true
     telehealth: true
     verification: org_website
-    sources: [pp-norcal]
+    sources: [pp-norcal, pp-central-coast, pp-pacific-sw, pp-la, pp-osb, pp-mar-monte]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of insurance or ability to pay and charge on a sliding scale. Many California centers run informed-consent hormone programs; call and ask for "transgender health" or "gender-affirming care".
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu seguro o capacidad de pago y cobran en escala móvil. Muchos centros de California tienen programas de hormonas por consentimiento informado; llama y pregunta por "salud trans" o "atención de afirmación de género".
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-ca
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care. HRT Access Fund (18 months of free telehealth hormone therapy; applications each May), Annual Trans Surgery Fund (November 1 to 30), Electrolysis and Thrive Funds, and free binders and shapewear.
+      es: Fondos nacionales para personas que no pueden pagar la atención. Fondo de Acceso a TRH (18 meses de terapia hormonal por telesalud gratis; solicitudes cada mayo), Fondo Anual de Cirugía Trans (1 al 30 de noviembre), Fondos de Electrólisis y Thrive, y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-ca
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and for transition costs including hormones, electrolysis, clothing, and name change fees; 18 and older. Surgery applications October 1 to November 30 each year.
+      es: Pequeñas becas para cirugía y costos de transición, incluidos hormonas, electrólisis, ropa y tarifas de cambio de nombre; 18 años o más. Solicitudes para cirugía del 1 de octubre al 30 de noviembre de cada año.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
   - id: trans-health-project
     name: Trans Health Project (Advocates for Trans Equality)
     type: insurance_help
@@ -140,10 +342,34 @@ sources:
     kind: official
     accessed: "2026-09-23"
   - id: dhcs-apl
-    url: https://www.dhcs.ca.gov/wp-content/uploads/2025/10/APL16-013.pdf
-    title: All Plan Letter 16-013, Transgender services (Medi-Cal managed care)
+    url: https://www.dhcs.ca.gov/wp-content/uploads/2025/10/APL25-014.pdf
+    title: All Plan Letter 25-014, Gender-affirming services (Medi-Cal managed care)
     publisher: California Department of Health Care Services
     kind: regulation
+    accessed: "2026-09-23"
+  - id: dhcs-pl
+    url: https://www.dhcs.ca.gov/services/ltc/Documents/PL-24-03-SB923-GenderAffirmingCare-Policy-Letter.pdf
+    title: Policy Letter 24-03, SB 923 gender-affirming care
+    publisher: California Department of Health Care Services
+    kind: regulation
+    accessed: "2026-09-23"
+  - id: dhcs-eligibility
+    url: https://www.dhcs.ca.gov/medi-cal/qualify/qualify-for-medi-cal-eligibility-chart/
+    title: Do you qualify for Medi-Cal? Eligibility chart
+    publisher: California Department of Health Care Services
+    kind: official
+    accessed: "2026-09-23"
+  - id: lao-budget
+    url: https://lao.ca.gov/Publications/Report/5075
+    title: The 2025-26 California Spending Plan, Health (Medi-Cal enrollment freeze for undocumented adults, premiums, dental)
+    publisher: Legislative Analyst's Office
+    kind: official
+    accessed: "2026-09-23"
+  - id: coveredca-subsidy
+    url: https://hbex.coveredca.com/
+    title: 2026 state premium subsidy program
+    publisher: Covered California
+    kind: official
     accessed: "2026-09-23"
   - id: sb923
     url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB923
@@ -157,10 +383,82 @@ sources:
     publisher: California Legislative Information
     kind: statute
     accessed: "2026-09-23"
+  - id: ghsf
+    url: https://www.sf.gov/departments--department-public-health--gender-health-sf
+    title: Gender Health SF
+    publisher: San Francisco Department of Public Health
+    kind: official
+    accessed: "2026-09-23"
+  - id: healthy-sf
+    url: https://healthysanfrancisco.org/
+    title: Healthy San Francisco
+    publisher: San Francisco Department of Public Health
+    kind: official
+    accessed: "2026-09-23"
+  - id: sf-oti
+    url: https://www.sf.gov/topics--transgender
+    title: Transgender services and the Office of Transgender Initiatives
+    publisher: City and County of San Francisco
+    kind: official
+    accessed: "2026-09-23"
+  - id: prep-ap
+    url: https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_adap_PrEP-AP.aspx
+    title: PrEP Assistance Program
+    publisher: California Department of Public Health, Office of AIDS
+    kind: official
+    accessed: "2026-09-23"
+  - id: adap
+    url: https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_adap_eligibility.aspx
+    title: ADAP eligibility
+    publisher: California Department of Public Health, Office of AIDS
+    kind: official
+    accessed: "2026-09-23"
+  - id: family-pact
+    url: https://familypact.org/
+    title: Family PACT
+    publisher: California Department of Health Care Services
+    kind: official
+    accessed: "2026-09-23"
+  - id: scc-ghc
+    url: https://health.sccgov.org/
+    title: Gender Health Center
+    publisher: County of Santa Clara Health System
+    kind: official
+    accessed: "2026-09-23"
   - id: pp-norcal
     url: https://www.plannedparenthood.org/planned-parenthood-northern-california/get-involved-locally/learn/gaht
     title: Gender-affirming hormone therapy
     publisher: Planned Parenthood Northern California
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-central-coast
+    url: https://www.plannedparenthood.org/planned-parenthood-california-central-coast/patient-resources/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood California Central Coast
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-pacific-sw
+    url: https://www.plannedparenthood.org/planned-parenthood-pacific-southwest/campaigns/gender-affirming-care/gender-affirming-care-services
+    title: Gender-affirming care services
+    publisher: Planned Parenthood of the Pacific Southwest
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-la
+    url: https://www.plannedparenthood.org/health-center/california/los-angeles/90042/highland-park-health-center-3695-90090/gender-affirming-care
+    title: Gender-affirming care, Highland Park Health Center
+    publisher: Planned Parenthood Los Angeles
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-osb
+    url: https://www.plannedparenthood.org/planned-parenthood-orange-san-bernardino/patients/insurance-forms
+    title: Insurance and payment
+    publisher: Planned Parenthood of Orange and San Bernardino Counties
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-mar-monte
+    url: https://www.plannedparenthood.org/planned-parenthood-mar-monte/patient-resources/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood Mar Monte
     kind: org
     accessed: "2026-09-23"
   - id: lyon-martin
@@ -169,9 +467,15 @@ sources:
     publisher: Lyon-Martin Community Health Services
     kind: org
     accessed: "2026-09-23"
+  - id: sjch
+    url: https://www.sjch.org/transgender-health-program
+    title: Transgender Health Program
+    publisher: St. John's Community Health
+    kind: org
+    accessed: "2026-09-23"
   - id: fhcsd
-    url: https://www.fhcsd.org/transgender-health-services/
-    title: Transgender health services
+    url: https://www.fhcsd.org/lgbtq-services/
+    title: LGBTQ services
     publisher: Family Health Centers of San Diego
     kind: org
     accessed: "2026-09-23"
@@ -179,6 +483,34 @@ sources:
     url: https://genderhealthcenter.org/
     title: Gender Health Center
     kind: org
+    accessed: "2026-09-23"
+  - id: oakland-center
+    url: https://www.oaklandlgbtqcenter.org/
+    title: Oakland LGBTQ Community Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-23"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-23"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-23"
+  - id: goodrx
+    url: https://www.goodrx.com/spironolactone
+    title: Spironolactone and estradiol cash prices
+    publisher: GoodRx
+    kind: community
     accessed: "2026-09-23"
   - id: thp
     url: https://transhealthproject.org/

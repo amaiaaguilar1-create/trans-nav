@@ -9,7 +9,9 @@ review:
   notes: >-
     Fee ($26 including one copy; $31 per additional copy) and processing time (7 to 9 weeks average) confirmed on
     CDPH pages 2026-09-23. Reviewer: confirm the current mailing address printed on VS 24B and whether CDPH still
-    issues a brand-new certificate (rather than an amended one) under H&SC 103426.
+    issues a brand-new certificate (rather than an amended one) under H&SC 103426. Cross-check 2026-09-23: A4TE's
+    California page (Sept 2025) lists $40 per certified copy and 10 to 12 weeks; CDPH's own fee and processing pages,
+    read directly the same day, say $31 and 7 to 9 weeks, so the CDPH figures are used here.
 status: available
 requirement_type: self_attestation
 markers_available: [M, F, X]
@@ -156,8 +158,11 @@ statutes:
 related_links:
   - title: CDPH, Amending a California birth record
     url: https://www.cdph.ca.gov/Programs/CHSI/Pages/Amending-a-California-Birth-Record.aspx
-  - title: Advocates for Trans Equality, ID Documents Center (California)
-    url: https://transequality.org/documents/state/california
+  - title: Advocates for Trans Equality, California identity documents
+    url: https://transequality.org/documents/california-identity-documents
+    note:
+      en: Last updated September 2025.
+      es: Actualizado en septiembre de 2025.
 sources:
   - id: hsc-103426
     url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=103426

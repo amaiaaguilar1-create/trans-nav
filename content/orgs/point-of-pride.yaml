@@ -7,22 +7,61 @@ review:
   status: draft
   last_verified: "2026-09-23"
   verified_by: ai-draft
-  confidence: medium
+  confidence: high
   es_status: machine_draft
+  notes: >-
+    Program details and 2026 cycle results from pointofpride.org on 2026-09-23. Electrolysis and Thrive Fund 2027
+    windows were not yet posted; the site's FAQ has the live status.
 description:
-  en: National nonprofit funding gender-affirming care for trans people who cannot afford it, including an HRT Access Fund (a year of hormone therapy through partner telehealth providers), an Electrolysis Fund, a Thrive Fund for surgery and other costs, and a free chest binder and femme shapewear program.
+  en: >-
+    National nonprofit that pays for gender-affirming care for trans people who cannot afford it. Programs: the HRT
+    Access Fund (18 months of free hormone therapy through partner telehealth providers Plume, FOLX, QueerMed, QueerDoc,
+    TrueU, Spectrum, and Outpatient Family Medicine Transformed; applications open each May), the Annual Trans Surgery
+    Fund (formerly the Jim Collins Foundation; applications November 1 to 30), the Electrolysis Support Fund, the Thrive
+    Fund (wigs, prosthetics, fertility preservation, voice training), and free chest binders and femme shapewear by waitlist.
   es: >-
-    Organización nacional que financia atención de afirmación de género para personas trans sin recursos: un Fondo de Acceso a TRH (un año de terapia hormonal con proveedores de telesalud asociados), un Fondo de Electrólisis, un Fondo Thrive para cirugía y otros costos, y un programa gratuito de binders y prendas moldeadoras.
+    Organización nacional que paga atención de afirmación de género para personas trans sin recursos. Programas: el
+    Fondo de Acceso a TRH (18 meses de terapia hormonal gratuita con proveedores de telesalud asociados; solicitudes cada
+    mayo), el Fondo Anual de Cirugía Trans (antes Jim Collins Foundation; solicitudes del 1 al 30 de noviembre), el Fondo
+    de Electrólisis, el Fondo Thrive (pelucas, prótesis, preservación de fertilidad, entrenamiento de voz) y binders y
+    prendas moldeadoras gratis por lista de espera.
 scope: national
 states_served: [ALL]
 cost: free
 program_status: active
 notes:
-  en: Funds open for applications in cycles; check the site for current windows.
-  es: Los fondos abren solicitudes por ciclos; revisa el sitio para las fechas actuales.
+  en: >-
+    2026 HRT Access Fund cycle (May 1 to 31) is closed; 153 people were funded. Next expected May 2027. Trans Surgery
+    Fund applications open November 1 to 30, 2026 (very competitive: 28 of 1,588 applicants funded in 2026). Binder and
+    shapewear programs are first-come, first-served with no deadline. Eligibility for funds: 18 or older, trans or
+    nonbinary, financial need, living where a partner provider is licensed.
+  es: >-
+    El ciclo 2026 del Fondo de Acceso a TRH (1 al 31 de mayo) está cerrado; 153 personas recibieron fondos. El próximo
+    se espera en mayo de 2027. Las solicitudes del Fondo de Cirugía Trans abren del 1 al 30 de noviembre de 2026 (muy
+    competitivo). Los programas de binders y prendas moldeadoras no tienen fecha límite. Requisitos: 18 años o más,
+    persona trans o no binaria, necesidad económica.
 sources:
-  - id: pop
-    url: https://www.pointofpride.org/
-    title: Point of Pride
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-23"
+  - id: pop-surgery
+    url: https://www.pointofpride.org/jim-collins
+    title: Annual Trans Surgery Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-23"
+  - id: pop-thrive
+    url: https://www.pointofpride.org/thrive-fund
+    title: Thrive Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-23"
+  - id: pop-faq
+    url: https://www.pointofpride.org/faq
+    title: FAQ and program status
+    publisher: Point of Pride
     kind: org
     accessed: "2026-09-23"

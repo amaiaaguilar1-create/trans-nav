@@ -1,0 +1,41 @@
+id: transgender-law-center
+name: Transgender Law Center
+url: https://transgenderlawcenter.org/
+type: legal_aid
+pillars: [name_change, gender_marker, insurance]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: Helpdesk numbers and the ID Please guide (November 2025 edition) confirmed on transgenderlawcenter.org 2026-09-23. Helpdesk hours not published.
+description:
+  en: >-
+    National trans-led legal organization based in Oakland. Runs a free legal information helpdesk (510-587-9696 in
+    English, 415-296-2029 in Spanish, and a collect line at 510-380-8229 for people who are incarcerated or detained),
+    an online intake form, and publishes the "ID Please" guide to changing California and federal identity documents.
+  es: >-
+    Organización legal nacional dirigida por personas trans con sede en Oakland. Ofrece una línea gratuita de
+    información legal (510-587-9696 en inglés, 415-296-2029 en español y una línea de cobro revertido 510-380-8229 para
+    personas encarceladas o detenidas), un formulario de admisión en línea y publica la guía "ID Please" sobre cambios
+    de documentos de identidad en California y a nivel federal.
+scope: national
+states_served: [ALL]
+cost: free
+phone: "510-587-9696"
+languages: [English, Español]
+program_status: active
+sources:
+  - id: tlc-idplease
+    url: https://transgenderlawcenter.org/resources/id/id-please
+    title: ID Please
+    publisher: Transgender Law Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: tlc-resources
+    url: https://transgenderlawcenter.org/resources/
+    title: Resources and legal help intake
+    publisher: Transgender Law Center
+    kind: org
+    accessed: "2026-09-23"

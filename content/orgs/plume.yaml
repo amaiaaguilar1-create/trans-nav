@@ -9,23 +9,35 @@ review:
   verified_by: ai-draft
   confidence: medium
   es_status: machine_draft
-  notes: Coverage and price from the company site via research on 2026-09-23; confirm state list and current monthly fee.
+  notes: >-
+    Researched 2026-09-23 from getplume.co via search. Plume ended insurance-based membership on Dec 31, 2025 and is
+    self-pay only. Reviewer: confirm current monthly price and the list of states served.
 description:
-  en: Trans-led telehealth service providing informed-consent hormone therapy, lab orders, and letters for surgery and documents, by app and video visit.
-  es: Servicio de telesalud dirigido por personas trans que ofrece terapia hormonal por consentimiento informado, órdenes de laboratorio y cartas para cirugía y documentos, por app y videollamada.
+  en: Trans-led telehealth service providing informed-consent hormone therapy, lab orders, prescriptions, and letters for surgery and documents, by app and video visit. Self-pay only since January 2026. A Point of Pride HRT Access Fund partner.
+  es: Servicio de telesalud dirigido por personas trans que ofrece terapia hormonal por consentimiento informado, órdenes de laboratorio, recetas y cartas para cirugía y documentos, por app y videollamada. Solo pago directo desde enero de 2026. Socio del Fondo de Acceso a TRH de Point of Pride.
 scope: national
 states_served: [ALL]
 cost: paid
 cost_detail:
-  en: Flat monthly membership (about $99/month as of 2025); medications and labs billed separately, often covered by insurance or discount programs.
-  es: Membresía mensual fija (alrededor de $99/mes en 2025); medicamentos y laboratorios se cobran por separado.
+  en: About $99 per month ($90 in NY and NJ), which includes visits, messaging, prescriptions, and document letters. Labs and medications are billed separately and are often cheap with GoodRx or at a community pharmacy. Free for 18 months if you win a Point of Pride HRT Access Fund grant.
+  es: Alrededor de $99 al mes ($90 en NY y NJ), que incluye consultas, mensajería, recetas y cartas para documentos. Laboratorios y medicamentos se cobran por separado. Gratis por 18 meses si obtienes una beca del Fondo de Acceso a TRH de Point of Pride.
 accepts_insurance: false
+accepts_medicaid: false
 serves_minors: false
 telehealth: true
 program_status: active
+notes:
+  en: Adults 18 and older (19 and older in Nebraska and Alabama). People enrolled in Medicaid in Colorado or Kentucky cannot enroll.
+  es: Adultos de 18 años o más (19 o más en Nebraska y Alabama). Personas inscritas en Medicaid en Colorado o Kentucky no pueden inscribirse.
 sources:
   - id: plume
     url: https://getplume.co/
     title: Plume
+    kind: org
+    accessed: "2026-09-23"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
     kind: org
     accessed: "2026-09-23"

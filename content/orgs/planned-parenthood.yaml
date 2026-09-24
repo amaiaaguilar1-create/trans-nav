@@ -9,10 +9,21 @@ review:
   verified_by: ai-draft
   confidence: medium
   es_status: machine_draft
-  notes: Availability of hormone therapy varies by affiliate; the state care pages list the specific affiliates that offer it.
+  notes: >-
+    The national gender-affirming care page returned HTTP 403 to automated fetching on 2026-09-23; details come from
+    affiliate pages and the GAHT patient handbook PDF. Availability, minimum age, and telehealth vary by affiliate; the
+    state care pages list specific affiliates.
 description:
-  en: Many Planned Parenthood affiliates provide informed-consent gender-affirming hormone therapy alongside sexual and reproductive health care, on a sliding scale and with Medicaid. Availability and age limits vary by affiliate.
-  es: Muchas afiliadas de Planned Parenthood ofrecen terapia hormonal de afirmación de género por consentimiento informado junto con salud sexual y reproductiva, en escala móvil y con Medicaid. La disponibilidad y los límites de edad varían según la afiliada.
+  en: >-
+    Many Planned Parenthood affiliates provide informed-consent gender-affirming hormone therapy alongside sexual and
+    reproductive health care, on a sliding scale and with Medicaid. Most affiliates see adults 18 and older; a few see
+    16- and 17-year-olds with parental consent and a readiness letter. Many start hormone care by telehealth. Self-pay
+    initial consults typically run about $120 to $250 before sliding-scale discounts.
+  es: >-
+    Muchas afiliadas de Planned Parenthood ofrecen terapia hormonal de afirmación de género por consentimiento
+    informado junto con salud sexual y reproductiva, en escala móvil y con Medicaid. La mayoría atiende a adultos de 18
+    años o más; algunas atienden a jóvenes de 16 y 17 con consentimiento de los padres y carta de preparación. Muchas
+    inician la atención hormonal por telesalud.
 scope: national
 states_served: [ALL]
 cost: sliding_scale
@@ -25,5 +36,11 @@ sources:
     url: https://www.plannedparenthood.org/learn/gender-identity/transgender/what-do-i-need-know-about-transitioning
     title: Gender-affirming care at Planned Parenthood
     publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-handbook
+    url: https://cdn.plannedparenthood.org/uploads/filer_public/f9/36/f9363309-3b58-47e8-b6e6-f7421f7b4172/gaht_health_care_handbook_web.pdf
+    title: Gender-affirming hormone therapy patient handbook
+    publisher: Planned Parenthood
     kind: org
     accessed: "2026-09-23"

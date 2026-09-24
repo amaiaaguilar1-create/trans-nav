@@ -9,18 +9,20 @@ review:
   verified_by: ai-draft
   confidence: medium
   es_status: machine_draft
-  notes: Research on 2026-09-23 indicated 47 states (not AK, HI, LA) and insurance acceptance; confirm current list.
+  notes: >-
+    State list (33 states) and pricing from folxhealth.com via search on 2026-09-23. Reviewer: confirm the state list,
+    current self-pay price, and whether minors are served.
 description:
-  en: LGBTQ-focused telehealth offering hormone therapy, PrEP, primary care, and mental health visits; accepts many insurance plans.
-  es: Telesalud enfocada en personas LGBTQ con terapia hormonal, PrEP, atención primaria y salud mental; acepta muchos planes de seguro.
+  en: LGBTQ-focused telehealth offering hormone therapy, PrEP, primary care, and mental health visits. Accepts major commercial insurance (Aetna, Blue Cross Blue Shield, Cigna, UnitedHealthcare) but not Medicaid or Medicare. A Point of Pride HRT Access Fund partner.
+  es: Telesalud enfocada en personas LGBTQ con terapia hormonal, PrEP, atención primaria y salud mental. Acepta los principales seguros comerciales (Aetna, Blue Cross Blue Shield, Cigna, UnitedHealthcare) pero no Medicaid ni Medicare. Socio del Fondo de Acceso a TRH de Point of Pride.
 scope: multi_state
-states_served: [ALL]
-states_excluded: [AK, HI, LA]
+states_served: [AZ, CA, CO, CT, DE, FL, GA, IL, IN, KS, KY, MA, MD, MI, MN, MO, MT, NV, NJ, NM, NY, NC, OH, OR, PA, RI, SC, TN, TX, UT, VA, WA, WI]
 cost: insurance
 cost_detail:
-  en: Insurance accepted in most states; self-pay membership available.
-  es: Acepta seguro en la mayoría de los estados; membresía de pago directo disponible.
+  en: In-network with many commercial plans; self-pay membership about $69 to $98 per month all-inclusive.
+  es: Dentro de la red de muchos planes comerciales; membresía de pago directo de unos $69 a $98 al mes, todo incluido.
 accepts_insurance: true
+accepts_medicaid: false
 serves_minors: false
 telehealth: true
 program_status: active
@@ -28,5 +30,11 @@ sources:
   - id: folx
     url: https://www.folxhealth.com/
     title: FOLX Health
+    kind: org
+    accessed: "2026-09-23"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
     kind: org
     accessed: "2026-09-23"

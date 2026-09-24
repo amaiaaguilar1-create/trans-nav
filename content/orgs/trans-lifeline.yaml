@@ -7,24 +7,32 @@ review:
   status: draft
   last_verified: "2026-09-23"
   verified_by: ai-draft
-  confidence: medium
+  confidence: high
   es_status: machine_draft
-  notes: Microgrant program was reported paused for funding reasons; confirm current status at translifeline.org/microgrants before listing it as available.
+  notes: >-
+    Microgrants page read 2026-09-23. Since 2025 the microgrants are distributed through regional trans-led partner
+    organizations rather than by individual application; the 2026 structure was still being finalized.
 description:
-  en: Peer-support and crisis hotline run by and for trans people (877-565-8860, English and Spanish). Its Name Change Microgrants program, when funded, pays court and document fees for people who cannot afford them.
-  es: Línea de apoyo y crisis dirigida por y para personas trans (877-565-8860, inglés y español). Su programa de microsubvenciones para cambio de nombre, cuando tiene fondos, paga tarifas judiciales y de documentos.
+  en: Peer-support and crisis hotline run by and for trans people (877-565-8860, English and Spanish), with no nonconsensual active rescue. Its microgrant program, which historically paid name change and ID document fees, now moves money through trans-led regional partner organizations rather than individual applications.
+  es: Línea de apoyo y crisis dirigida por y para personas trans (877-565-8860, inglés y español). Su programa de microsubvenciones, que históricamente pagaba tarifas de cambio de nombre y documentos, ahora canaliza fondos a través de organizaciones regionales dirigidas por personas trans en lugar de solicitudes individuales.
 scope: national
 states_served: [ALL]
 cost: free
 phone: "877-565-8860"
 languages: [English, Español]
-program_status: paused
+program_status: active
 notes:
-  en: Hotline is active. Microgrants were paused as of the last check; the page will say when applications reopen.
-  es: La línea está activa. Las microsubvenciones estaban en pausa en la última revisión; la página indicará cuándo se reabren.
+  en: >-
+    Hotline is active. Microgrants: no individual application is open. In 2025 the program distributed $100,000 through
+    five regional partners; it plans $150,000 in 2026 prioritizing Black, Brown, and Indigenous trans people in the
+    South and rural areas. Sign up on the microgrants page to hear when a channel opens.
+  es: >-
+    La línea está activa. Microsubvenciones: no hay solicitud individual abierta. En 2025 el programa distribuyó
+    $100,000 a través de cinco socios regionales; planea $150,000 en 2026 con prioridad para personas trans negras,
+    morenas e indígenas del Sur y zonas rurales. Suscríbete en la página de microsubvenciones para saber cuándo se abre un canal.
 sources:
   - id: tl
-    url: https://translifeline.org/microgrants
+    url: https://translifeline.org/microgrants/
     title: Microgrants
     publisher: Trans Lifeline
     kind: org
