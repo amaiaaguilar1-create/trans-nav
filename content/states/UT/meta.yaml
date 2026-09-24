@@ -1,0 +1,127 @@
+code: UT
+name:
+  en: Utah
+  es: Utah
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are editorial summaries of the guide files. id_documents is "mixed": name changes and court-ordered
+    birth certificate sex changes are possible, but the sex change standard is demanding and the DLD has no written
+    marker policy. care is "restrictive" because of the minors ban (SB 16, 2023; HB 174, 2026), no insurance
+    protections, and no shield law. MAP's Utah profile (read 2026-09-24) rates Utah "Low" on gender identity policy.
+overview:
+  en: >-
+    Utah allows name changes through district court and lets adults change the sex on a Utah birth certificate with
+    a court order, but only after proving transition, six months of living as their gender, and clinical distress.
+    The Driver License Division has no published policy for changing the sex marker. Adults can get hormone therapy,
+    and Medicaid covers it, but care for minors is banned and most remaining minor care ends January 28, 2027. Utah
+    has no shield law.
+  es: >-
+    Utah permite cambios de nombre en el tribunal de distrito y deja que los adultos cambien el sexo en un acta de
+    nacimiento de Utah con orden judicial, pero solo tras probar la transición, seis meses viviendo según su género y
+    malestar clínico. La División de Licencias no tiene una política publicada para cambiar el marcador de sexo. Los
+    adultos pueden recibir terapia hormonal y Medicaid la cubre, pero la atención para menores está prohibida y la
+    mayor parte de la que queda termina el 28 de enero de 2027. Utah no tiene ley escudo.
+climate:
+  id_documents: mixed
+  care: restrictive
+  shield_law: false
+  sources: [ucode-26b-8-111, ucode-58-1-603-1, map-profile]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [salt-lake-city]
+key_resources:
+  - id: rainbow-law
+    name: Rainbow Law Clinic (S.J. Quinney College of Law)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free University of Utah law school clinic answering questions about name and gender marker changes and other LGBTQIA+ legal issues.
+      es: Clínica gratuita de la facultad de derecho de la Universidad de Utah que responde preguntas sobre cambios de nombre y marcador y otros temas legales LGBTQIA+.
+    url: https://www.law.utah.edu/pro-bono-initiative/clients/
+    phone: "801-581-8895"
+    cost: free
+    verification: org_website
+    sources: [ulaw-pbi]
+  - id: utah-pride-center
+    name: Utah Pride Center
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ+ center in Salt Lake City with peer support groups and a list of affirming health, legal, and housing resources.
+      es: Centro LGBTQ+ estatal en Salt Lake City con grupos de apoyo y una lista de recursos de salud, legales y de vivienda.
+    url: https://utahpridecenter.org/
+    phone: "801-539-8800"
+    cost: free
+    verification: org_website
+    sources: [upc]
+  - id: equality-utah
+    name: Equality Utah
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Utah's leading LGBTQ civil rights organization; tracks legislation affecting trans Utahns.
+      es: Principal organización de derechos civiles LGBTQ de Utah; sigue la legislación que afecta a personas trans.
+    url: https://equalityutah.org/
+    cost: free
+    verification: org_website
+    sources: [equality-utah]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ucode-26b-8-111
+    url: https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S111.html
+    title: Utah Code 26B-8-111, Birth certificate name or sex designation change
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ucode-58-1-603-1
+    url: https://le.utah.gov/xcode/Title58/Chapter1/58-1-S603.1.html
+    title: Utah Code 58-1-603.1, Hormonal transgender treatment prohibition for minors
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-profiles/ut/
+    title: Utah equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Gender Identity Policy Score ... 1.25/25 ... Low"
+  - id: ulaw-pbi
+    url: https://www.law.utah.edu/pro-bono-initiative/clients/
+    title: Pro Bono Initiative, Clients
+    publisher: S.J. Quinney College of Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: upc
+    url: https://utahpridecenter.org/
+    title: Utah Pride Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: equality-utah
+    url: https://equalityutah.org/
+    title: Equality Utah
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Utah's Leading LGBTQ Civil Rights Organization"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

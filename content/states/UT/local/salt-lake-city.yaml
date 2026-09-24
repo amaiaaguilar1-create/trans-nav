@@ -1,0 +1,278 @@
+jurisdiction: UT
+slug: salt-lake-city
+name: Salt Lake City
+area:
+  en: Salt Lake County and the Wasatch Front
+  es: Condado de Salt Lake y el Wasatch Front
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Resources checked on each organization's own site on 2026-09-24 except where marked. Addresses for Maliheh Free
+    Clinic and the Community Health Centers Neighborhood clinic come from the Utah Pride Center's resource list (their
+    own sites did not respond to automated requests). Planned Parenthood pages returned 403. The Third District Court
+    handles Salt Lake County; the courthouse address was not confirmed on the court directory page and is omitted.
+    Reviewer: confirm the Rainbow Law Clinic's current schedule and intake method, and Encircle's hours.
+intro:
+  en: >-
+    Salt Lake City has most of Utah's trans-specific services: the University of Utah's adult Transgender Health
+    Program, community clinics that prescribe hormones on informed consent, a free law school clinic for name and
+    gender marker questions, and LGBTQ+ centers for adults and youth. Name change petitions for Salt Lake County
+    residents are filed in the Third District Court.
+  es: >-
+    Salt Lake City concentra la mayoría de los servicios trans de Utah: el Programa de Salud Transgénero para adultos
+    de la Universidad de Utah, clínicas comunitarias que recetan hormonas por consentimiento informado, una clínica
+    legal gratuita de la facultad de derecho para cambios de nombre y marcador, y centros LGBTQ+ para adultos y
+    jóvenes. Las peticiones de cambio de nombre de residentes del condado de Salt Lake se presentan en el Tercer
+    Tribunal de Distrito.
+court:
+  name: Third District Court (Salt Lake County)
+  url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/sex-change.html
+  self_help_url: https://www.utcourts.gov/en/self-help/services/contact.html
+  filing_fee: 375
+  notes:
+    en: File with the district court in the county where you have lived for at least a year. Salt Lake County residents file in the Third District Court, or online through the court's MyPaperwork tool. The statewide Self-Help Center helps with forms for free.
+    es: Presenta en el tribunal de distrito del condado donde has vivido al menos un año. Los residentes del condado de Salt Lake presentan en el Tercer Tribunal de Distrito, o en línea con MyPaperwork. El Centro de Autoayuda estatal ayuda gratis con los formularios.
+  sources: [courts-adult-page, ucode-78a-2-301, courts-shc]
+resources:
+  - id: rainbow-law
+    name: Rainbow Law Clinic (S.J. Quinney College of Law Pro Bono Initiative)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free clinic where law students and volunteer attorneys answer questions on LGBTQIA+ legal issues, including name and gender marker changes.
+      es: Clínica gratuita donde estudiantes de derecho y abogados voluntarios responden preguntas sobre temas legales LGBTQIA+, incluidos cambios de nombre y marcador.
+    url: https://www.law.utah.edu/pro-bono-initiative/clients/
+    phone: "801-581-8895"
+    cost: free
+    verification: org_website
+    sources: [ulaw-pbi]
+  - id: uls
+    name: Utah Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Civil legal aid for low-income Utahns (generally up to 200% of the poverty level). Handles priority case types only; call 801-328-8891 (9 am to 2 pm weekdays) or apply online.
+      es: Asistencia legal civil para personas de bajos ingresos (generalmente hasta el 200% del nivel de pobreza). Solo casos prioritarios; llama al 801-328-8891 (9 am a 2 pm entre semana) o solicita en línea.
+    url: https://www.utahlegalservices.org/
+    phone: "801-328-8891"
+    address: 960 South Main St, Salt Lake City, UT
+    cost: free
+    verification: org_website
+    sources: [uls]
+  - id: uofu-trans-health
+    name: University of Utah Transgender Health Program
+    type: hrt_clinic
+    pillars: [hrt, mental_health, insurance, gender_marker]
+    description:
+      en: Adult hormone therapy, primary care, surgery, voice therapy, hair reduction, and counseling. No referral needed. Providers write letters for gender marker changes, and coordinators help with insurance prior authorizations and appeals.
+      es: Terapia hormonal para adultos, atención primaria, cirugía, terapia de voz, depilación y consejería. No requiere referencia. Los proveedores escriben cartas para cambios de marcador y los coordinadores ayudan con autorizaciones y apelaciones.
+    url: https://healthcare.utah.edu/transgender-health
+    phone: "801-213-2195"
+    address: 50 North Medical Drive, Salt Lake City, UT 84132
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [uofu-trans, uofu-support]
+  - id: uaf-legacy-health
+    name: UAF Legacy Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Primary care, hormone therapy, PrEP and HIV care, STI testing, and therapy. Low-cost after-hours HIV/STI testing with no insurance required. Accepts Medicaid and most insurance.
+      es: Atención primaria, terapia hormonal, PrEP y atención del VIH, pruebas de ITS y terapia. Pruebas nocturnas de VIH/ITS de bajo costo sin seguro. Acepta Medicaid y la mayoría de los seguros.
+    url: https://www.utahaids.org/
+    phone: "801-823-1988"
+    address: 150 South 1000 East, Salt Lake City, UT 84102
+    cost: insurance
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [uaf]
+  - id: identity-hormones
+    name: Identity Hormones & Healthcare
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy and PrEP with walk-in visits.
+      es: Terapia hormonal por consentimiento informado y PrEP con visitas sin cita.
+    url: https://identityhormones.com/
+    phone: "385-259-0166"
+    address: 1327 East 2100 South, Suite 101, Salt Lake City, UT
+    cost: paid
+    verification: org_website
+    sources: [identity-hormones, upc-resources]
+  - id: slco-id-clinic
+    name: Salt Lake County Health Department Infectious Disease Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: STI and HIV testing and same-day treatment for people of all genders and identities. Appointments at 385-468-4242; walk-ins when possible. Enter from 200 East.
+      es: Pruebas de ITS y VIH y tratamiento el mismo día para personas de todos los géneros. Citas al 385-468-4242; se atiende sin cita cuando es posible.
+    url: https://www.saltlakecounty.gov/health/id-clinic/testing/
+    phone: "385-468-4242"
+    address: 610 South 200 East, Salt Lake City, UT
+    cost: low_cost
+    verification: official_source
+    sources: [slco-id]
+  - id: uofu-prep
+    name: University of Utah Health HIV PrEP Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free PrEP if you have no insurance; virtual and in-person visits. Call 801-585-2031.
+      es: PrEP gratis si no tienes seguro; visitas virtuales y presenciales. Llama al 801-585-2031.
+    url: https://healthcare.utah.edu/infectious-diseases/hiv-prep
+    phone: "801-585-2031"
+    address: 50 North Medical Drive, Clinic E10, Salt Lake City, UT 84132
+    cost: free
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [uofu-prep]
+  - id: maliheh
+    name: Maliheh Free Clinic
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Free medical clinic for low-income people without insurance.
+      es: Clínica médica gratuita para personas de bajos ingresos sin seguro.
+    phone: "801-266-3700"
+    address: 941 East 3300 South, Millcreek, UT
+    cost: free
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [upc-resources]
+  - id: utah-pride-center
+    name: Utah Pride Center
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: LGBTQ+ community center with peer support groups (including religious trauma and recovery groups) and a detailed list of local affirming health, legal, and housing resources. Open weekdays 4 to 8 pm.
+      es: Centro comunitario LGBTQ+ con grupos de apoyo entre pares y una lista detallada de recursos locales de salud, legales y de vivienda. Abierto entre semana de 4 a 8 pm.
+    url: https://utahpridecenter.org/
+    phone: "801-539-8800"
+    address: 68 South Main Street, 9th Floor, Salt Lake City, UT 84101
+    cost: free
+    verification: org_website
+    sources: [upc-home, upc-resources]
+  - id: encircle-slc
+    name: Encircle Salt Lake City
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Drop-in home for LGBTQ+ youth and young adults ages 12 to 25, with free programs, family programs, and access to licensed therapists. Open weekdays 3 to 8 pm.
+      es: Casa de acogida para jóvenes LGBTQ+ de 12 a 25 años, con programas gratuitos, programas para familias y acceso a terapeutas. Abierto entre semana de 3 a 8 pm.
+    url: https://encircletogether.org/locations/salt-lake-city
+    address: 331 South 600 East, Salt Lake City, UT
+    cost: free
+    verification: org_website
+    sources: [encircle]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people, 877-565-8860. In a crisis you can also call or text 988.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. En una crisis también puedes llamar o enviar texto al 988.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: courts-adult-page
+    url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/sex-change.html
+    title: Petition for Name or Sex Designation Change - Adult
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "File the forms with the district court in the county where you live."
+  - id: courts-shc
+    url: https://www.utcourts.gov/en/self-help/services/contact.html
+    title: Self-Help Center
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+  - id: ucode-78a-2-301
+    url: https://le.utah.gov/xcode/Title78A/Chapter2/78A-2-S301.html
+    title: Utah Code 78A-2-301, Civil fees of the courts of record
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ulaw-pbi
+    url: https://www.law.utah.edu/pro-bono-initiative/clients/
+    title: Pro Bono Initiative, Clients
+    publisher: S.J. Quinney College of Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Rainbow Law Answers questions related to LGBTQIA+ legal issues, including employment, name and gender marker changes"
+  - id: uls
+    url: https://www.utahlegalservices.org/page/16/who-qualifies-get-help-utah-legal-services
+    title: Who Qualifies to Get Help from Utah Legal Services?
+    publisher: Utah Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: uofu-trans
+    url: https://healthcare.utah.edu/transgender-health
+    title: Transgender Health Program
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: uofu-support
+    url: https://healthcare.utah.edu/transgender-health/support-services-resources
+    title: Transgender Support Services and Resources
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: uofu-prep
+    url: https://healthcare.utah.edu/infectious-diseases/hiv-prep
+    title: HIV PrEP
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: uaf
+    url: https://www.utahaids.org/
+    title: UAF Legacy Health
+    publisher: Utah AIDS Foundation
+    kind: org
+    accessed: "2026-09-24"
+    quote: "After-Hours HIV/STI Clinic No insurance required, low-cost, after-hours HIV/STI testing."
+  - id: identity-hormones
+    url: https://identityhormones.com/
+    title: Identity Hormones & Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: slco-id
+    url: https://www.saltlakecounty.gov/health/id-clinic/testing/
+    title: Infectious Disease Clinic, Testing and Treatment
+    publisher: Salt Lake County Health Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: "We provide compassionate and professional services to people of all genders, identities, and sexual orientations."
+  - id: upc-home
+    url: https://utahpridecenter.org/
+    title: Utah Pride Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: upc-resources
+    url: https://utahpridecenter.org/resources
+    title: Utah Pride Center, Community Resources
+    kind: org
+    accessed: "2026-09-24"
+  - id: encircle
+    url: https://encircletogether.org/locations/salt-lake-city
+    title: Encircle Salt Lake City
+    publisher: Encircle
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Folks ages 12-25 are welcome to drop in"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

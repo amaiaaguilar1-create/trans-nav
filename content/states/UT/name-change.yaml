@@ -1,0 +1,541 @@
+guide_type: name_change
+jurisdiction: UT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from Utah Code 42-1-1 to 42-1-3 and 26B-8-111 (read on le.utah.gov), the Utah Courts adult and
+    minor name/sex change pages (last modified June 2026), the court forms service (form names and PDF URLs for 1158XX,
+    1730FA, 1731FA, 1703FA, 1720FA, 1721FA, 1723FA, 1301GE, 1302GE), the court fee page, and Utah Code 78A-2-301.
+    Open items for the reviewer: (1) the $375 filing fee is the general "petition not governed by another subsection"
+    fee in 78A-2-301(1)(a); no line item names name-change petitions, so confirm with a district court clerk; (2) the
+    court page says a hearing is always scheduled, but 42-1-2 leaves notice (and publication) to the judge; confirm
+    whether any Third District judges still order newspaper publication; (3) there is no written timeline; "4 to 10
+    weeks" is not stated anywhere official and was left out; (4) confirm whether the minor-page requirement that all
+    custodial parents consent applies only to the sex-designation part (the statute says so) or also to name-only
+    petitions (it does not; the other parent can be served instead). Cross-check: A4TE's Utah page (undated, still
+    citing the pre-2023 statute number 26-2-11) agrees that notice is at the court's discretion. MAP lists Utah as
+    "unclear publication requirement / court discretion" and flags extra rules for people with criminal records, which
+    matches 42-1-1(2) and (3).
+status: available
+status_summary:
+  en: >-
+    Adults in Utah can change their name by filing a petition in the district court of the county where they have
+    lived for at least one year. A judge holds a hearing. The filing fee is about $375 (waivable). You can ask for a
+    name change and a sex designation change in the same petition. People in state prison or on probation or parole
+    cannot file.
+  es: >-
+    En Utah, las personas adultas pueden cambiar su nombre presentando una petición en el tribunal de distrito del
+    condado donde han vivido al menos un año. Un juez celebra una audiencia. La tarifa de presentación es de unos $375
+    (se puede exonerar). Puedes pedir el cambio de nombre y el cambio de designación de sexo en la misma petición.
+    Las personas en prisión estatal o en libertad condicional o supervisada no pueden presentarla.
+summary:
+  en: |
+    Utah name changes are governed by Utah Code **42-1-1 to 42-1-3**. You file one form, the **Petition for Name or Sex Change (1730FA)**, in the **district court** of the county where you live. The same form is used to ask for a legal sex designation change under Utah Code 26B-8-111 (see the birth certificate guide), so you can do both in one case and one fee.
+
+    The judge decides what notice, if any, must be given (42-1-2), and the court self-help page says a hearing will be scheduled after you file. You do not need a medical letter to change your **name**; you only need evidence if you are also asking for a **sex** change.
+
+    The easiest way to fill out and file the forms is the court's free **MyPaperwork** tool, which builds the forms from your answers and files them online.
+  es: |
+    Los cambios de nombre en Utah se rigen por el Código de Utah **42-1-1 a 42-1-3**. Presentas un formulario, la **Petición de cambio de nombre o sexo (1730FA)**, en el **tribunal de distrito** del condado donde vives. El mismo formulario sirve para pedir un cambio legal de designación de sexo según el Código de Utah 26B-8-111 (ver la guía del acta de nacimiento), así que puedes hacer ambos en un solo caso y con una sola tarifa.
+
+    El juez decide qué aviso, si alguno, debe darse (42-1-2), y la página de autoayuda del tribunal indica que se programará una audiencia después de presentar la petición. No necesitas carta médica para cambiar tu **nombre**; solo necesitas pruebas si también pides un cambio de **sexo**.
+
+    La forma más fácil de llenar y presentar los formularios es la herramienta gratuita **MyPaperwork** del tribunal, que prepara los formularios con tus respuestas y los presenta en línea.
+eligibility:
+  residency:
+    en: You must have been a resident of the county where you file for at least one year before filing (Utah Code 42-1-1(1)(c)).
+    es: Debes haber vivido en el condado donde presentas la petición al menos un año antes de presentarla (Código de Utah 42-1-1(1)(c)).
+  age:
+    en: 18 or older for the adult process. A parent or guardian files for a minor; see the Minors section.
+    es: 18 años o más para el proceso de adultos. Un padre, madre o tutor presenta la petición por un menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      You cannot file while you are committed to the custody of the Utah Department of Corrections or supervised on
+      probation or parole by Adult Probation and Parole (42-1-1(2), referring to the definition of "offender" in
+      64-13-1). If you are on the Sex, Kidnap, and Child Abuse Offender Registry you must say so on the petition, the
+      court may ask for more information, and you must send the notice of hearing to the registry at least 30 days
+      before the hearing.
+    es: >-
+      No puedes presentar la petición mientras estés bajo custodia del Departamento de Correcciones de Utah o bajo
+      libertad condicional o supervisada de Adult Probation and Parole (42-1-1(2)). Si estás en el Registro de
+      Delincuentes Sexuales, de Secuestro y de Abuso Infantil debes indicarlo en la petición y enviar el aviso de
+      audiencia al registro al menos 30 días antes de la audiencia.
+  other:
+    en: You cannot change your name to avoid creditors, fines, or criminal sentences, to commit fraud, or to a name that is bizarre, unduly long, ridiculous, or offensive.
+    es: No puedes cambiar tu nombre para evitar acreedores, multas o sentencias penales, para cometer fraude, ni a un nombre extraño, demasiado largo, ridículo u ofensivo.
+  sources: [ucode-42-1-1, courts-adult-page]
+forms:
+  - id: 1730FA
+    name:
+      en: Petition for Name or Sex Change
+      es: Petición de cambio de nombre o sexo
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1730FA
+    required: always
+    how_to_fill:
+      en: |
+        - At the top, check **name change**, **sex designation change**, or both. You can ask for both in one petition.
+        - Item 3: list any other court cases you are involved in (protective orders, civil suits, juvenile or criminal cases).
+        - Items 4 and 5: confirm you are not in Department of Corrections custody or on probation or parole.
+        - Item 8: say whether you are on the Sex and Kidnap Offender Registry.
+        - Item 11: the reason for the change can be short and plain, for example "to match my gender identity" or "this is the name I use." You do not need a medical letter for a name change.
+        - Item 12: the county you live in and the date you moved there (at least one year before filing).
+        - Items 13 to 18 are only for a sex designation change; see the birth certificate guide for what evidence to attach.
+        - You sign under criminal penalty that everything is true; no notary is required for adult petitions.
+      es: |
+        - Arriba, marca **cambio de nombre**, **cambio de designación de sexo** o ambos.
+        - Punto 3: enumera cualquier otro caso judicial en el que participes.
+        - Puntos 4 y 5: confirma que no estás bajo custodia de Correcciones ni en libertad condicional o supervisada.
+        - Punto 8: indica si estás en el Registro de Delincuentes Sexuales y de Secuestro.
+        - Punto 11: el motivo puede ser breve, por ejemplo "para que coincida con mi identidad de género". No necesitas carta médica para un cambio de nombre.
+        - Punto 12: el condado donde vives y la fecha en que te mudaste allí (al menos un año antes).
+        - Los puntos 13 a 18 son solo para el cambio de designación de sexo.
+    sources: [form-1730fa, courts-adult-page]
+  - id: 1731FA
+    name:
+      en: Order on Petition for Name or Sex Change
+      es: Orden sobre la petición de cambio de nombre o sexo
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1731FA
+    required: always
+    condition:
+      en: Proposed order you prepare and file with the petition. The judge signs it if the petition is granted. Vital Records needs a certified copy.
+      es: Orden propuesta que preparas y presentas con la petición. El juez la firma si concede la petición.
+    sources: [courts-adult-page, forms-service]
+  - id: 1158XX
+    name:
+      en: Utah District Court Cover Sheet for Probate Actions
+      es: Portada para acciones de sucesiones del Tribunal de Distrito de Utah
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1158XX
+    required: always
+    condition:
+      en: Filed with the petition when you use the PDF forms instead of MyPaperwork.
+      es: Se presenta con la petición si usas los formularios PDF en lugar de MyPaperwork.
+    sources: [courts-adult-page, forms-service]
+  - id: 1703FA
+    name:
+      en: Notice of Hearing on Petition for Name Change
+      es: Aviso de audiencia sobre la petición de cambio de nombre
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1703FA
+    required: conditional
+    condition:
+      en: Only if you are on the Sex and Kidnap Offender Registry. Send it to the Offender Registration Program at least 30 days before the hearing.
+      es: Solo si estás en el Registro de Delincuentes Sexuales y de Secuestro. Envíalo al programa de registro al menos 30 días antes de la audiencia.
+    sources: [courts-adult-page, forms-service]
+  - id: 1301GE
+    name:
+      en: Motion to Waive Fees
+      es: Moción para exonerar tarifas
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1301GE
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. See the fee waiver section.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    how_to_fill:
+      en: |
+        - If you receive SNAP, Medicaid, SSI, or FEP/TANF, or you are represented by a nonprofit legal provider or a Utah State Bar pro bono lawyer, fill out pages 1 and 2 only.
+        - Otherwise, you also fill in your income, expenses, and assets.
+        - File it with the Order on Motion to Waive Fees (fill in only the heading).
+      es: |
+        - Si recibes SNAP, Medicaid, SSI o FEP/TANF, o te representa un proveedor legal sin fines de lucro, llena solo las páginas 1 y 2.
+        - De lo contrario, también anotas ingresos, gastos y bienes.
+        - Preséntala con la Orden sobre la moción (llena solo el encabezado).
+    sources: [courts-fee-waiver, forms-service]
+  - id: 1302GE
+    name:
+      en: Order on Motion to Waive Fees
+      es: Orden sobre la moción para exonerar tarifas
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1302GE
+    required: optional
+    condition:
+      en: Goes with 1301GE. Fill in the heading only; the judge completes the rest.
+      es: Acompaña a 1301GE. Llena solo el encabezado.
+    sources: [courts-fee-waiver, forms-service]
+steps:
+  - id: check-eligibility
+    title:
+      en: Check that you can file
+      es: Verifica que puedes presentar la petición
+    body:
+      en: You must have lived in your county for at least one year, and you cannot be in Department of Corrections custody or on probation or parole. If you just moved, you have to wait until you reach one year in the new county.
+      es: Debes haber vivido en tu condado al menos un año y no puedes estar bajo custodia de Correcciones ni en libertad condicional o supervisada. Si te mudaste hace poco, tienes que esperar a cumplir un año en el nuevo condado.
+    sources: [ucode-42-1-1, courts-adult-page]
+  - id: prepare-forms
+    title:
+      en: Prepare your petition and proposed order
+      es: Prepara tu petición y la orden propuesta
+    body:
+      en: |
+        Use **MyPaperwork** (free, on the Utah Courts website) to answer questions and generate the forms, or fill in the PDF forms yourself: **1158XX** cover sheet, **1730FA** petition, and **1731FA** proposed order.
+
+        If you also want a legal sex change, check that box and gather your evidence now (see the birth certificate guide).
+      es: |
+        Usa **MyPaperwork** (gratis, en el sitio de los Tribunales de Utah) para responder preguntas y generar los formularios, o llena tú los PDF: portada **1158XX**, petición **1730FA** y orden propuesta **1731FA**.
+
+        Si también quieres un cambio legal de sexo, marca esa casilla y reúne tus pruebas ahora.
+    forms: [1158XX, 1730FA, 1731FA]
+    sources: [courts-adult-page]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you qualify
+      es: Pide una exención de tarifas si calificas
+    body:
+      en: File the Motion to Waive Fees (1301GE) and the Order on Motion to Waive Fees (1302GE) with your petition. The court page explains what happens if the judge denies the request.
+      es: Presenta la Moción para exonerar tarifas (1301GE) y la Orden (1302GE) con tu petición. La página del tribunal explica qué pasa si el juez la niega.
+    forms: [1301GE, 1302GE]
+    optional: true
+    sources: [courts-fee-waiver]
+  - id: file
+    title:
+      en: File in the district court for your county
+      es: Presenta en el tribunal de distrito de tu condado
+    body:
+      en: |
+        Click **File** in MyPaperwork, or take the PDF forms to the district court in the county where you live. In **Utah County**, PDF filings go to the Provo Courthouse in person or by email to ProvoFiling@utcourts.gov. Pay the filing fee or attach your fee waiver request.
+      es: |
+        Haz clic en **File** en MyPaperwork, o lleva los PDF al tribunal de distrito del condado donde vives. En el **condado de Utah**, los PDF se presentan en el Tribunal de Provo en persona o por correo electrónico a ProvoFiling@utcourts.gov. Paga la tarifa o adjunta tu solicitud de exención.
+    fees: [filing]
+    sources: [courts-adult-page, ucode-78a-2-301]
+  - id: hearing
+    title:
+      en: Go to the hearing
+      es: Asiste a la audiencia
+    body:
+      en: |
+        The court schedules a hearing after you file. The judge may ask you a few questions and signs the order if the requirements are met. The judge also decides whether any notice to others is needed (42-1-2); in most cases there is none. If you are on the offender registry, send form 1703FA to the Offender Registration Program at least 30 days before the hearing.
+      es: |
+        El tribunal programa una audiencia después de la presentación. El juez puede hacerte algunas preguntas y firma la orden si se cumplen los requisitos. Algunas audiencias son remotas; tu aviso lo indicará. El juez también decide si hace falta avisar a otras personas (42-1-2).
+    forms: [1703FA]
+    sources: [courts-adult-page, ucode-42-1-2]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the signed order
+      es: Obtén copias certificadas de la orden firmada
+    body:
+      en: Ask the clerk for several certified copies of the signed Order (1731FA). Social Security, the Driver License Division, Vital Records, and the passport agency each want one. Certified copies cost $4 per document plus 50 cents per page.
+      es: Pide al secretario varias copias certificadas de la orden firmada (1731FA). El Seguro Social, la División de Licencias, Estadísticas Vitales y la agencia de pasaportes piden una cada uno. Cuestan $4 por documento más 50 centavos por página.
+    fees: [certified-copy]
+    sources: [courts-adult-page, courts-fees]
+  - id: update-documents
+    title:
+      en: Update your other records
+      es: Actualiza tus demás documentos
+    body:
+      en: |
+        1. **Social Security** first (free).
+        2. **Driver License Division** in person (see the driver's license guide).
+        3. **Utah birth certificate** through Vital Records, if you were born in Utah (see the birth certificate guide).
+        4. Passport, banks, employer, voter registration, and everyone else.
+      es: |
+        1. **Seguro Social** primero (gratis).
+        2. **División de Licencias de Conducir** en persona.
+        3. **Acta de nacimiento de Utah** a través de Estadísticas Vitales, si naciste en Utah.
+        4. Pasaporte, bancos, empleador, registro de votantes y demás.
+    sources: [courts-adult-page]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (petition)
+      es: Tarifa de presentación en el tribunal de distrito (petición)
+    amount: 375
+    waivable: true
+    note:
+      en: General fee for a civil petition not covered by another fee category (Utah Code 78A-2-301(1)(a)). Confirm the amount with the clerk.
+      es: Tarifa general para una petición civil que no tiene otra categoría (Código de Utah 78A-2-301(1)(a)). Confirma el monto con el secretario.
+    sources: [ucode-78a-2-301, courts-fees]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    amount: 4
+    note:
+      en: $4 per document plus $0.50 per page.
+      es: $4 por documento más $0.50 por página.
+    sources: [courts-fees]
+fee_waiver:
+  available: true
+  forms: [1301GE, 1302GE]
+  eligibility:
+    en: |
+      You may qualify if **any one** is true:
+      - You receive SNAP, Medicaid, SSI, or FEP/TANF.
+      - A nonprofit legal services provider or a Utah State Bar pro bono lawyer is helping you.
+      - Your monthly household income is at or below the court's table (for example $1,882.50 for one person, $2,555 for two, plus $672.50 for each additional person above six).
+      - You cannot pay the fees and still afford food, shelter, clothing, and other necessities.
+    es: |
+      Puedes calificar si se cumple **cualquiera** de estas condiciones:
+      - Recibes SNAP, Medicaid, SSI o FEP/TANF.
+      - Te ayuda un proveedor legal sin fines de lucro o un abogado pro bono del Colegio de Abogados de Utah.
+      - El ingreso mensual de tu hogar está en o por debajo de la tabla del tribunal (por ejemplo $1,882.50 para una persona, $2,555 para dos).
+      - No puedes pagar las tarifas y cubrir comida, vivienda, ropa y otras necesidades.
+  how:
+    en: File 1301GE and 1302GE with your petition. A judge decides the motion.
+    es: Presenta 1301GE y 1302GE con tu petición. El juez decide sobre la moción.
+  sources: [courts-fee-waiver]
+publication:
+  required: conditional
+  detail:
+    en: Utah law does not require newspaper publication. Section 42-1-2 lets the judge order "what, if any, notice" is given. The court's self-help instructions for adults do not include any publication step.
+    es: La ley de Utah no exige publicación en periódico. La sección 42-1-2 permite al juez ordenar qué aviso, si alguno, se da. Las instrucciones del tribunal para adultos no incluyen un paso de publicación.
+  waiver_available: true
+  waiver_how:
+    en: If a judge orders notice and you have safety concerns, tell the judge at or before the hearing and ask that no notice be required; it is the judge's decision.
+    es: Si un juez ordena aviso y tienes preocupaciones de seguridad, díselo al juez y pide que no se exija aviso; la decisión es del juez.
+  sources: [ucode-42-1-2, courts-adult-page]
+hearing:
+  required: "yes"
+  detail:
+    en: The court self-help page says the court will schedule a hearing after you file, and 42-1-2 requires proof "in open court." Attend and bring your ID; if the judge grants the petition, ask how to get certified copies.
+    es: La página de autoayuda indica que el tribunal programará una audiencia después de presentar la petición, y 42-1-2 exige prueba en audiencia pública. Asiste con tu identificación.
+  sources: [courts-adult-page, ucode-42-1-2]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. You must disclose other court cases, probation or parole status, and registry status on the petition, and people in Department of Corrections custody or on probation or parole cannot file at all.
+    es: No se requieren huellas ni verificación de antecedentes. Debes declarar otros casos, libertad condicional y estatus en el registro; las personas bajo custodia de Correcciones o en libertad condicional o supervisada no pueden presentar la petición.
+  sources: [ucode-42-1-1, form-1730fa]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: If your petition includes a **sex designation change**, the court automatically marks the case private; only the case history and public hearings are public. A **name-only** case is a public record unless the judge orders otherwise.
+    es: Si tu petición incluye un **cambio de designación de sexo**, el tribunal marca el caso como privado automáticamente. Un caso **solo de nombre** es público salvo que el juez ordene otra cosa.
+  how:
+    en: For a name-only case, you can file a motion asking the judge to classify the record as private or sealed, explaining your safety or privacy reasons. Vital Records charges an extra $40 sealed-record fee if your order is sealed.
+    es: En un caso solo de nombre, puedes presentar una moción pidiendo al juez que clasifique el expediente como privado o sellado, explicando tus razones. Estadísticas Vitales cobra $40 adicionales si tu orden está sellada.
+  sources: [courts-adult-page, vr-fees]
+minors:
+  summary:
+    en: |
+      A parent or guardian files in the district court of the county where the child has lived for at least a year, using the cover sheet **1158XX**, the **Petition for Minor's Name or Sex Change (1720FA)**, a notice of hearing, and the proposed **Order (1723FA)**. The other parent either signs a **Consent (1721FA)** or must be formally served with a summons, the petition, and the notice of hearing. In Juab, Millard, Utah, and Wasatch counties, signatures must be notarized. A hearing is held.
+
+      A **sex designation** change for a minor has extra limits under 26B-8-111: the child must be at least 15 years and 6 months old, every parent or guardian with legal custody must consent, the court appoints a guardian ad litem (paid by the parents unless indigent), the hearing is closed, and an order does not take effect until the child turns 16.
+    es: |
+      Un padre, madre o tutor presenta en el tribunal de distrito del condado donde el menor ha vivido al menos un año, con la portada **1158XX**, la **Petición de cambio de nombre o sexo de un menor (1720FA)**, un aviso de audiencia y la **Orden (1723FA)** propuesta. El otro progenitor firma un **Consentimiento (1721FA)** o debe ser notificado formalmente. En los condados de Juab, Millard, Utah y Wasatch las firmas deben notarizarse. Se celebra una audiencia.
+
+      Un cambio de **designación de sexo** para un menor tiene límites adicionales: el menor debe tener al menos 15 años y 6 meses, todos los padres o tutores con custodia legal deben consentir, el tribunal nombra un tutor ad litem, la audiencia es cerrada y la orden no surte efecto hasta que el menor cumpla 16 años.
+  sources: [courts-minor-page, ucode-26b-8-111]
+timeline:
+  en: The court does not publish a processing time. Expect several weeks between filing and the hearing, depending on the county's calendar.
+  es: El tribunal no publica un plazo. Espera varias semanas entre la presentación y la audiencia, según el calendario del condado.
+after:
+  en: |
+    With certified copies of your signed order:
+    1. **Social Security** (free; the sex field cannot currently be changed at SSA, but the name can).
+    2. **Utah Driver License Division**, in person, for a new license or ID ($23 replacement).
+    3. **Utah Vital Records**, if you were born in Utah: form 902 plus a birth certificate application, $50 including one copy.
+    4. **Passport**, banks, employer, school, voter registration, insurance, and utilities.
+  es: |
+    Con copias certificadas de tu orden firmada:
+    1. **Seguro Social** (gratis; el campo de sexo no se puede cambiar actualmente en la SSA, pero el nombre sí).
+    2. **División de Licencias de Conducir de Utah**, en persona, para una nueva licencia o identificación ($23 por reemplazo).
+    3. **Estadísticas Vitales de Utah**, si naciste en Utah: formulario 902 más una solicitud de acta, $50 con una copia.
+    4. **Pasaporte**, bancos, empleador, escuela, registro de votantes, seguro y servicios.
+tips:
+  - en: Ask for the name change and the sex designation change in the **same petition** if you want both. You pay one filing fee, and the whole case becomes private.
+    es: Pide el cambio de nombre y el de designación de sexo en la **misma petición** si quieres ambos. Pagas una sola tarifa y todo el caso se vuelve privado.
+  - en: The Utah Courts Self-Help Center gives free help with forms and court process questions, even though its attorneys cannot represent you.
+    es: El Centro de Autoayuda de los Tribunales de Utah ayuda gratis con formularios y preguntas sobre el proceso, aunque sus abogados no pueden representarte.
+  - en: Order extra certified copies at the courthouse on the day your order is signed; it saves a trip and they are inexpensive.
+    es: Pide copias certificadas adicionales el día en que se firma tu orden; te ahorras un viaje y son económicas.
+local_help:
+  - id: rainbow-law
+    name: Rainbow Law Clinic, S.J. Quinney College of Law Pro Bono Initiative
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal clinic run by University of Utah law students with volunteer attorneys. Answers questions about LGBTQIA+ legal issues, including name and gender marker changes.
+      es: Clínica legal gratuita dirigida por estudiantes de derecho de la Universidad de Utah con abogados voluntarios. Responde preguntas sobre temas legales LGBTQIA+, incluidos cambios de nombre y marcador de género.
+    url: https://www.law.utah.edu/pro-bono-initiative/clients/
+    phone: "801-581-8895"
+    cost: free
+    verification: org_website
+    sources: [ulaw-pbi]
+  - id: utcourts-shc
+    name: Utah State Courts Self-Help Center
+    type: government_office
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help from court staff attorneys with forms, instructions, and process questions for people without a lawyer. They cannot give legal advice or represent you.
+      es: Ayuda gratuita de abogados del tribunal con formularios, instrucciones y preguntas sobre el proceso para personas sin abogado. No pueden dar asesoría legal ni representarte.
+    url: https://www.utcourts.gov/en/self-help/services/contact.html
+    cost: free
+    languages: [English, Español]
+    verification: official_source
+    sources: [courts-shc]
+  - id: uls
+    name: Utah Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide civil legal aid for low-income Utahns (generally up to 200% of the federal poverty level). Takes only priority case types, so call to ask whether they can help with your name change or refer you.
+      es: Asistencia legal civil en todo el estado para personas de bajos ingresos (generalmente hasta el 200% del nivel federal de pobreza). Solo acepta ciertos tipos de casos; llama para preguntar si pueden ayudarte o referirte.
+    url: https://www.utahlegalservices.org/
+    phone: "801-328-8891"
+    address: 960 South Main St, Salt Lake City, UT
+    cost: free
+    verification: org_website
+    sources: [uls]
+  - id: utah-pride-center
+    name: Utah Pride Center
+    type: lgbtq_center
+    pillars: [name_change, mental_health]
+    description:
+      en: Salt Lake City LGBTQ+ center with peer support groups and a community resource list that includes legal help referrals.
+      es: Centro LGBTQ+ en Salt Lake City con grupos de apoyo entre pares y una lista de recursos que incluye referencias legales.
+    url: https://utahpridecenter.org/resources
+    phone: "801-539-8800"
+    address: 68 South Main Street, 9th Floor, Salt Lake City, UT 84101
+    cost: free
+    verification: org_website
+    sources: [upc-resources]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: Orem-based fund that has given grants for transition costs. Its website says it is transitioning its programs and assets to local organizations, so check what is still open before applying.
+      es: Fondo con sede en Orem que ha otorgado becas para costos de transición. Su sitio indica que está transfiriendo sus programas a organizaciones locales; verifica qué sigue abierto antes de solicitar.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: Utah Code 42-1-1
+    title:
+      en: Name change by petition to district court; contents; offenders barred
+    url: https://le.utah.gov/xcode/Title42/Chapter1/42-1-S1.html
+  - cite: Utah Code 42-1-2
+    title:
+      en: Notice of hearing; order of change
+    url: https://le.utah.gov/xcode/Title42/Chapter1/42-1-S2.html
+  - cite: Utah Code 26B-8-111
+    title:
+      en: Birth certificate name or sex designation change
+    url: https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S111.html
+  - cite: Utah Code 78A-2-301
+    title:
+      en: Civil filing fees
+    url: https://le.utah.gov/xcode/Title78A/Chapter2/78A-2-S301.html
+related_links:
+  - title: Utah Courts, Petition for Name or Sex Designation Change (Adult)
+    url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/sex-change.html
+    note:
+      en: Official step-by-step instructions and forms.
+      es: Instrucciones oficiales paso a paso y formularios.
+  - title: Advocates for Trans Equality, Utah identity documents
+    url: https://transequality.org/documents/utah-identity-documents
+    note:
+      en: Undated and partly out of date (cites the pre-2023 statute number). Use for background only.
+      es: Sin fecha y en parte desactualizada. Úsala solo como referencia.
+sources:
+  - id: ucode-42-1-1
+    url: https://le.utah.gov/xcode/Title42/Chapter1/42-1-S1.html
+    title: Utah Code 42-1-1, By petition to district court, contents
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A natural person who is an offender, as that term is defined in Section 64-13-1, may not file a petition in district court to change the natural person's name."
+  - id: ucode-42-1-2
+    url: https://le.utah.gov/xcode/Title42/Chapter1/42-1-S2.html
+    title: Utah Code 42-1-2, Notice of hearing, order of change
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "The court shall order what, if any, notice shall be given of the hearing"
+  - id: ucode-26b-8-111
+    url: https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S111.html
+    title: Utah Code 26B-8-111, Birth certificate name or sex designation change
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A petition for a sex designation under this section may be combined with a petition under Title 42, Names."
+  - id: ucode-78a-2-301
+    url: https://le.utah.gov/xcode/Title78A/Chapter2/78A-2-S301.html
+    title: Utah Code 78A-2-301, Civil fees of the courts of record
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "The fee for filing any civil complaint or petition invoking the jurisdiction of a court of record not governed by another subsection is $375."
+  - id: courts-adult-page
+    url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/sex-change.html
+    title: Petition for Name or Sex Designation Change - Adult
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "After you file your papers, the court will schedule a hearing."
+  - id: courts-minor-page
+    url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/juvenile/instruct.html
+    title: Name or Sex Designation Change - Minor
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "the minor must be at least 15 years and 6 months old"
+  - id: forms-service
+    url: https://www.utcourts.gov/en/forms.html
+    title: Utah Courts forms (form ids 1158XX, 1730FA, 1731FA, 1703FA, 1301GE, 1302GE)
+    publisher: Utah State Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: form-1730fa
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1730FA
+    title: Form 1730FA, Petition for Name or Sex Change
+    publisher: Utah State Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: "I am not currently committed to the custody of the Utah Department of Corrections or being supervised on probation or parole by Adult Probation and Parole."
+  - id: courts-fees
+    url: https://www.utcourts.gov/en/self-help/legal-help/procedures/fees.html
+    title: Filing, Transcript, and Record Fees
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Certified copy Per document Subsection (1)(z) $4.00 Per page Subsection (1)(z) $0.50"
+  - id: courts-fee-waiver
+    url: https://www.utcourts.gov/en/self-help/legal-help/procedures/waiver.html
+    title: Fees and Fee Waiver
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Do you receive any of these government benefits? Food stamps (SNAP), Medicaid, SSI, FEP or TANF"
+  - id: courts-shc
+    url: https://www.utcourts.gov/en/self-help/services/contact.html
+    title: Self-Help Center
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "The Utah State Courts' Self-Help Center (SHC) provides free legal help to people who do not have a lawyer."
+  - id: vr-fees
+    url: https://vitalrecords.utah.gov/fee-schedule
+    title: Vital Records Fee Schedule (effective July 1, 2026)
+    publisher: Utah Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Sealed record Fee $40.00"
+  - id: ulaw-pbi
+    url: https://www.law.utah.edu/pro-bono-initiative/clients/
+    title: Pro Bono Initiative, Clients
+    publisher: S.J. Quinney College of Law, University of Utah
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Rainbow Law Answers questions related to LGBTQIA+ legal issues, including employment, name and gender marker changes, estate planning, and family law."
+  - id: uls
+    url: https://www.utahlegalservices.org/page/16/who-qualifies-get-help-utah-legal-services
+    title: Who Qualifies to Get Help from Utah Legal Services?
+    publisher: Utah Legal Services
+    kind: org
+    accessed: "2026-09-24"
+    quote: "In most cases, income must be at or below 200% of the current federal poverty level for the household's size."
+  - id: upc-resources
+    url: https://utahpridecenter.org/resources
+    title: Utah Pride Center, Community Resources
+    publisher: Utah Pride Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

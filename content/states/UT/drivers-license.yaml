@@ -1,0 +1,217 @@
+guide_type: drivers_license
+jurisdiction: UT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The Utah Driver License Division (dld.utah.gov) publishes NO page, form, or rule on changing the sex marker. We
+    searched every page title on the site (WordPress page list and search API) on 2026-09-24; only name change pages
+    exist. No Utah statute addresses marker changes; 53-3-205 only requires the applicant's "sex." Utah Code
+    68-3-12.5 (sex definitions added by HB 257 in 2024, per the bill's code-sections list; section amended again in 2026) defines "sex" code-wide as biological sex at birth unless a
+    different definition is expressly provided, which could be read to govern the license field; we found no DLD
+    guidance applying it. Secondary sources disagree: MAP classifies Utah as "no form; no court order or proof of
+    surgery required, but ... provider certification required from limited range of professionals" and says X is
+    available; A4TE's undated Utah page says the DLD requires a passport or birth certificate showing the new gender.
+    The University of Utah Transgender Health Program says its providers write a (notarized) letter "needed to change
+    your gender marker on official documents." Because we could not confirm the DLD's current practice from a
+    primary source, status and requirement_type are "unclear" and markers_available lists only M and F. Reviewer:
+    call DLD customer service (801-965-4437) and ask what documents an examiner accepts for a sex change and whether
+    X is offered; also ask Equality Utah or the Rainbow Law Clinic about recent experience. Fees ($23 replacement
+    license or ID; 4 to 6 weeks for the mailed card) and name change document list confirmed on DLD pages.
+status: unclear
+requirement_type: unclear
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on a Utah license or ID in person for $23 with your court order. Changing the sex marker
+    is less clear: the Driver License Division has no published form or policy. An amended Utah birth certificate is
+    the most reliable document to bring; call the DLD before your visit to ask what else they accept.
+  es: >-
+    Puedes actualizar tu nombre en una licencia o identificación de Utah en persona por $23 con tu orden judicial.
+    Cambiar el marcador de sexo es menos claro: la División de Licencias no tiene un formulario ni una política
+    publicados. Un acta de nacimiento de Utah enmendada es el documento más confiable; llama a la DLD antes de tu
+    visita para preguntar qué más aceptan.
+summary:
+  en: |
+    **Name.** The DLD updates your name when you bring legal proof of the change, such as a certified court order, a new or amended birth certificate, or an updated passport. It must be done in person at an office, by appointment, and costs $23.
+
+    **Sex marker.** Utah has no statute, rule, or DLD form on changing the sex shown on a license or ID. Advocacy groups report different requirements (a provider letter, or a birth certificate or passport showing the new sex). Since 2025, U.S. passports show sex at birth, so for most people the practical routes are:
+    - an **amended Utah birth certificate** (requires a court order; see the birth certificate guide), or
+    - a **court order** changing your sex designation, or
+    - a **letter from your medical provider**, which some reports say the DLD accepts.
+
+    Call the DLD before you go and bring every document you have. If an examiner refuses, ask for a supervisor and write down the name, office, and date. A Utah law passed in 2024 (HB 257) defines "sex" throughout state law as biological sex at birth, which may affect DLD practice; we have not found any DLD notice about it.
+  es: |
+    **Nombre.** La DLD actualiza tu nombre si presentas prueba legal del cambio, como una orden judicial certificada, un acta de nacimiento nueva o enmendada o un pasaporte actualizado. Se hace en persona, con cita, y cuesta $23.
+
+    **Marcador de sexo.** Utah no tiene ley, reglamento ni formulario de la DLD sobre cómo cambiar el sexo en una licencia o identificación. Los grupos de apoyo reportan requisitos distintos (carta de un proveedor, o un acta o pasaporte con el nuevo sexo). Desde 2025 los pasaportes de EE. UU. muestran el sexo al nacer, así que para la mayoría las vías prácticas son:
+    - un **acta de nacimiento de Utah enmendada** (requiere orden judicial), o
+    - una **orden judicial** que cambie tu designación de sexo, o
+    - una **carta de tu proveedor médico**, que según algunos reportes la DLD acepta.
+
+    Llama a la DLD antes de ir y lleva todos tus documentos. Una ley de Utah de 2024 (HB 257) define "sexo" en toda la ley estatal como el sexo biológico al nacer, lo que podría afectar la práctica de la DLD; no encontramos ningún aviso de la DLD al respecto.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Utah driver license, driving privilege card, or ID card.
+    es: Debes tener o estar solicitando una licencia, tarjeta de privilegio de conducir o identificación de Utah.
+  sources: [dld-replacement, dld-id-replacement]
+steps:
+  - id: get-documents
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - Your current Utah license or ID.
+        - **For a name change**: a certified court order, amended birth certificate, or updated passport showing the new name.
+        - **For a sex marker change**: your amended Utah birth certificate or certified court order if you have one, and a signed letter from your medical provider. Bring originals or certified copies; the DLD does not accept photocopies.
+      es: |
+        - Tu licencia o identificación actual de Utah.
+        - **Para cambio de nombre**: orden judicial certificada, acta enmendada o pasaporte actualizado con el nuevo nombre.
+        - **Para cambio de marcador**: tu acta de Utah enmendada u orden judicial certificada si la tienes, y una carta firmada de tu proveedor médico. Lleva originales o copias certificadas.
+    sources: [dld-name-change, dld-required-docs, uofu-support]
+  - id: call-first
+    title:
+      en: Call the DLD about the sex marker
+      es: Llama a la DLD sobre el marcador de sexo
+    body:
+      en: Because there is no written policy, call DLD customer service (801-965-4437 or toll free 888-353-4224) and ask which documents they accept to change the sex on a license or ID. Note the date and the name of the person you spoke with.
+      es: Como no hay política escrita, llama al servicio al cliente de la DLD (801-965-4437 o gratis al 888-353-4224) y pregunta qué documentos aceptan para cambiar el sexo en una licencia o identificación. Anota la fecha y el nombre de quien te atendió.
+    applies_to: [gender_marker]
+    sources: [dld-id-replacement]
+  - id: apply-appointment
+    title:
+      en: Apply online and schedule an appointment
+      es: Solicita en línea y programa una cita
+    body:
+      en: Start a **replacement** application for your license or ID on dld.utah.gov and book an appointment. A name change cannot be finished online.
+      es: Inicia una solicitud de **reemplazo** de tu licencia o identificación en dld.utah.gov y reserva una cita. Un cambio de nombre no se puede terminar en línea.
+    applies_to: [in_person]
+    sources: [dld-replacement, dld-name-change]
+  - id: visit
+    title:
+      en: Visit the office and pay
+      es: Acude a la oficina y paga
+    body:
+      en: Check in, take a new photo, show your documents to the examiner, take the eye test (license only), and pay $23. You get a temporary card the same day; the permanent card arrives by mail in about 4 to 6 weeks.
+      es: Regístrate, tómate una foto nueva, muestra tus documentos al examinador, haz el examen de la vista (solo licencia) y paga $23. Recibes una tarjeta temporal ese día; la permanente llega por correo en unas 4 a 6 semanas.
+    fees: [replacement-license, replacement-id]
+    estimated_time:
+      en: 4 to 6 weeks for the mailed card
+      es: 4 a 6 semanas para la tarjeta por correo
+    sources: [dld-replacement, dld-id-replacement]
+fees:
+  - id: replacement-license
+    label:
+      en: Replacement driver license (name change)
+      es: Reemplazo de licencia de conducir (cambio de nombre)
+    amount: 23
+    sources: [dld-fees, dld-replacement]
+  - id: replacement-id
+    label:
+      en: Replacement ID card
+      es: Reemplazo de tarjeta de identificación
+    amount: 23
+    note:
+      en: Free with written verification of homelessness.
+      es: Gratis con verificación escrita de falta de vivienda.
+    sources: [dld-fees, dld-id-replacement, dld-homeless]
+fee_waiver:
+  available: true
+  eligibility:
+    en: The ID card fee (not the driver license fee) is waived if you give the DLD written verification of homelessness from an approved homeless service provider (Utah Code 53-3-105).
+    es: La tarifa de la tarjeta de identificación (no de la licencia) se exonera si entregas verificación escrita de falta de vivienda de un proveedor aprobado.
+  how:
+    en: Ask a listed homeless service provider to complete the Verification of Homeless Status to Waive form and bring it to your appointment.
+    es: Pide a un proveedor de servicios para personas sin hogar que complete el formulario de verificación y llévalo a tu cita.
+  sources: [dld-homeless]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require an office visit. You can start the application online and must book an appointment.
+    es: Los cambios de nombre requieren una visita a la oficina. Puedes iniciar la solicitud en línea y debes reservar una cita.
+  sources: [dld-name-change]
+after:
+  en: Keep your temporary card until the new card arrives. Update your voter registration and vehicle registration with the new name.
+  es: Guarda tu tarjeta temporal hasta que llegue la nueva. Actualiza tu registro de votante y de vehículo con el nuevo nombre.
+tips:
+  - en: If you were born in Utah, getting the court order for your birth certificate first gives you the document least likely to be questioned at the DLD.
+    es: Si naciste en Utah, obtener primero la orden judicial para tu acta te da el documento con menos probabilidades de ser cuestionado en la DLD.
+  - en: Change your name at Social Security before visiting the DLD, since agencies check each other's records.
+    es: Cambia tu nombre en el Seguro Social antes de ir a la DLD, ya que las agencias verifican sus registros entre sí.
+statutes:
+  - cite: Utah Code 53-3-205
+    title:
+      en: Application for license; information required
+    url: https://le.utah.gov/xcode/Title53/Chapter3/53-3-S205.html
+  - cite: Utah Code 68-3-12.5
+    title:
+      en: Code-wide definitions, including "sex" (from HB 257, 2024)
+    url: https://le.utah.gov/xcode/Title68/Chapter3/68-3-S12.5.html
+related_links:
+  - title: Utah DLD, Name Change Information
+    url: https://dld.utah.gov/name-change-info/
+    note:
+      en: Official list of name change documents.
+      es: Lista oficial de documentos para cambio de nombre.
+  - title: Advocates for Trans Equality, Utah identity documents
+    url: https://transequality.org/documents/utah-identity-documents
+    note:
+      en: Undated. Says the DLD requires a passport or birth certificate with the new gender; not confirmed.
+      es: Sin fecha. Indica que la DLD exige pasaporte o acta con el nuevo género; no confirmado.
+sources:
+  - id: dld-name-change
+    url: https://dld.utah.gov/name-change-info/
+    title: Name Change Information
+    publisher: Utah Driver License Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: "To change your name on your license/ID card you must appear in person at the Driver License Division."
+  - id: dld-required-docs
+    url: https://dld.utah.gov/required-documents/
+    title: Required Documents
+    publisher: Utah Driver License Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Documents Cannot Be Photocopies, faxed copies, laminated birth certificates, or hospital certificates."
+  - id: dld-replacement
+    url: https://dld.utah.gov/regular-replacement/
+    title: Regular Driver License Replacement
+    publisher: Utah Driver License Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Pay the non-refundable fee of $23.00. ... The completed license will be mailed to you in approximately 4-6 weeks."
+  - id: dld-id-replacement
+    url: https://dld.utah.gov/id-card-replacement/
+    title: ID Card Replacement
+    publisher: Utah Driver License Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: "You can check eligibility by calling our customer service at 801.965.4437 or toll free 888.353.4224."
+  - id: dld-fees
+    url: https://dld.utah.gov/fees/
+    title: Fees
+    publisher: Utah Driver License Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Replacement License (lost/stolen, address, name change) ... Regular Driver License (Class D) $23.00"
+  - id: dld-homeless
+    url: https://dld.utah.gov/homeless-fee-waiver/
+    title: Homeless Fee Waiver
+    publisher: Utah Driver License Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: "The Driver License Division shall waive the application fee for your Utah identification card if you provide written verification of homelessness."
+  - id: uofu-support
+    url: https://healthcare.utah.edu/transgender-health/support-services-resources
+    title: Transgender Support Services and Resources
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Our providers can provide you with the letter needed to change your gender marker on official documents."

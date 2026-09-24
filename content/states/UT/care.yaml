@@ -1,0 +1,343 @@
+jurisdiction: UT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minor-care law read from the current Utah Code on le.utah.gov (58-1-603 effective May 6, 2026; 58-1-603.1 effective
+    March 18, 2026 as amended by HB 174, 2026 General Session, Laws of Utah 2026 ch. 109) and the enrolled HB 174 text
+    and bill status (signed March 18, 2026). The code sets March 18, 2026 as the reference date, but Utah Medicaid's
+    hormone therapy PA form (updated 8-1-26) uses 05/06/2026 instead; reviewer should confirm which date applies (the
+    bill took effect on signing only if it passed both houses by two-thirds; final votes were House 53-15-7 and Senate
+    20-6-3, which appear to meet that bar, and the codified text uses March 18). Surgery ban for minors from
+    58-67-502(1)(g). Medicaid HRT coverage confirmed from the Medicaid pharmacy PA form "Hormone Therapy for Gender
+    Dysphoria"; surgery coverage NOT confirmed (Medicaid provider manuals could not be listed by automated fetch).
+    Planned Parenthood Association of Utah pages returned 403, so PPAU's hormone program and minimum age are
+    unverified. No active lawsuit against HB 174 or SB 16 was found, but we could not search news sites; reviewer
+    should check. HB 193 (2026, PEHP exclusion) did not pass. Genderbands says it is winding down and transferring
+    programs. MAP lists Utah Medicaid as covering transgender-related care and Utah as having no insurance
+    nondiscrimination protection and no shield law, consistent with what we found.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults in Utah, and Utah Medicaid covers hormone therapy with prior
+    authorization. For people under 18, new hormone treatment and puberty blockers have been banned since 2023, and a
+    2026 law (HB 174) ends most remaining care for minors on January 28, 2027. Surgery for minors is banned. Utah has
+    no shield law and no law against insurance exclusions.
+  es: >-
+    La atención de afirmación de género es legal para adultos en Utah, y Medicaid de Utah cubre la terapia hormonal
+    con autorización previa. Para menores de 18 años, los nuevos tratamientos hormonales y bloqueadores de pubertad
+    están prohibidos desde 2023, y una ley de 2026 (HB 174) pone fin a la mayor parte de la atención restante para
+    menores el 28 de enero de 2027. La cirugía para menores está prohibida. Utah no tiene ley escudo ni ley contra
+    exclusiones de seguros.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state law restricts care for adults 18 and older. Several Salt Lake City clinics prescribe hormones on an **informed consent** basis (no therapist letter), and telehealth prescribing is legal.
+
+      **If you have little money**, in rough order:
+      1. Apply for **Utah Medicaid**. Adults qualify with income up to about 138% of the federal poverty level, and Medicaid covers hormone therapy with prior authorization.
+      2. Go to a **community health center** (sliding-scale fees). Find one at findahealthcenter.hrsa.gov.
+      3. **UAF Legacy Health** in Salt Lake City offers hormone therapy and accepts Medicaid and most insurance.
+      4. **Point of Pride** runs an HRT access fund that pays for telehealth hormone care.
+      5. Generic estradiol and spironolactone are inexpensive with discount cards; ask the pharmacy for the cash price.
+    es: |
+      Ninguna ley estatal restringe la atención para adultos de 18 años o más. Varias clínicas de Salt Lake City recetan hormonas por **consentimiento informado** (sin carta de terapeuta), y la telesalud es legal.
+
+      **Si tienes poco dinero**, en orden aproximado:
+      1. Solicita **Medicaid de Utah**. Los adultos califican con ingresos hasta aproximadamente el 138% del nivel federal de pobreza, y Medicaid cubre la terapia hormonal con autorización previa.
+      2. Acude a un **centro de salud comunitario** (tarifas en escala móvil). Búscalo en findahealthcenter.hrsa.gov.
+      3. **UAF Legacy Health** en Salt Lake City ofrece terapia hormonal y acepta Medicaid y la mayoría de los seguros.
+      4. **Point of Pride** tiene un fondo que paga atención hormonal por telesalud.
+      5. El estradiol y la espironolactona genéricos son baratos con tarjetas de descuento; pregunta el precio en efectivo.
+  sources: [medicaid-pa-gd, uaf, identity-hormones, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Hormones and puberty blockers.** Since January 28, 2023 (SB 16), providers may not start hormone treatment or puberty blockers for gender dysphoria in anyone under 18 unless the minor was diagnosed before January 28, 2023 (Utah Code 58-1-603.1). **HB 174 (2026)**, signed March 18, 2026, goes further: **beginning January 28, 2027**, providers may not give hormone treatment to a minor who was younger than 16 on March 18, 2026, or who had not already started cross-sex hormones by that date. Providers may taper treatment off before January 28, 2027 without the special state certification. Anyone still eligible must see a provider with Utah's "transgender treatment certification," after at least six months of treatment for gender dysphoria, with written consent from the minor and a parent.
+
+      **Surgery.** Genital and other sex-characteristic surgeries on anyone under 18 are banned (58-67-502).
+
+      **Penalties.** Violations are "unprofessional conduct," which means discipline of the provider's license. Families are not penalized.
+
+      Exceptions cover intersex conditions (disorders of sexual development), precocious puberty, and certain other medical conditions. Utah has no shield law; families traveling to Colorado, Nevada, or other states for care should ask the out-of-state clinic about that state's protections.
+    es: |
+      **Hormonas y bloqueadores.** Desde el 28 de enero de 2023 (SB 16), los proveedores no pueden iniciar tratamiento hormonal ni bloqueadores de pubertad por disforia de género en menores de 18 años, salvo que el diagnóstico sea anterior al 28 de enero de 2023. **HB 174 (2026)**, firmada el 18 de marzo de 2026, va más allá: **a partir del 28 de enero de 2027**, los proveedores no pueden dar tratamiento hormonal a un menor que tenía menos de 16 años el 18 de marzo de 2026, o que no había empezado hormonas cruzadas para esa fecha. Los proveedores pueden reducir el tratamiento gradualmente antes del 28 de enero de 2027.
+
+      **Cirugía.** Las cirugías de características sexuales en menores de 18 años están prohibidas (58-67-502).
+
+      **Sanciones.** Las violaciones son "conducta no profesional", lo que implica disciplina de la licencia del proveedor. Las familias no son sancionadas.
+
+      Hay excepciones para condiciones intersexuales, pubertad precoz y otras condiciones médicas. Utah no tiene ley escudo.
+  sources: [ucode-58-1-603-1, ucode-58-1-603, hb174, ucode-58-67-502, uofu-trans]
+medicaid:
+  program_name: Utah Medicaid
+  covers_hrt: "yes"
+  covers_surgery: unclear
+  detail:
+    en: |
+      Utah Medicaid covers hormone therapy for gender dysphoria through its pharmacy **prior authorization** form (updated August 2026). For adults the prescriber documents a gender dysphoria diagnosis of at least six months, informed consent, a discussion of risks, and a lab monitoring plan. For minors the form applies the SB 16 and HB 174 limits described above.
+
+      We could not confirm whether Medicaid covers gender-affirming surgery; ask your plan or the University of Utah Transgender Health Program's coordinators, who help with prior authorizations and appeals.
+
+      **Who qualifies**: adults with income up to about 138% of the federal poverty level (Utah expanded Medicaid), plus children, pregnant people, and people with disabilities under other programs. Apply online, by mail, by fax, or at a Department of Workforce Services office; call 1-866-435-7414 (Salt Lake County 801-526-0950).
+    es: |
+      Medicaid de Utah cubre la terapia hormonal para la disforia de género mediante su formulario de **autorización previa** de farmacia (actualizado en agosto de 2026). Para adultos, quien receta documenta un diagnóstico de al menos seis meses, consentimiento informado, riesgos y un plan de laboratorios. Para menores aplica los límites de SB 16 y HB 174.
+
+      No pudimos confirmar si Medicaid cubre la cirugía; pregunta a tu plan o a los coordinadores del Programa de Salud Transgénero de la Universidad de Utah.
+
+      **Quién califica**: adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza, además de niños, embarazadas y personas con discapacidad. Solicita en línea, por correo, por fax o en una oficina del Departamento de Servicios Laborales; llama al 1-866-435-7414.
+  how_to_apply_url: https://medicaid.utah.gov/apply-medicaid/
+  sources: [medicaid-pa-gd, medicaid-apply, uofu-support]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      No Utah law prohibits health plans from excluding gender-affirming care, so coverage depends on your plan. Read your plan's exclusions list, and if care is denied, appeal with the plan first. If that fails, you can file a complaint with the Utah Insurance Department (801-957-9200; toll-free in Utah 1-800-439-3805). Self-funded employer plans are federally regulated. The University of Utah Transgender Health Program's coordinators help patients with prior authorizations and appeals.
+    es: |
+      Ninguna ley de Utah prohíbe a los planes de salud excluir la atención de afirmación de género, así que la cobertura depende de tu plan. Revisa las exclusiones y, si te niegan la atención, apela primero con el plan. Si no funciona, puedes presentar una queja ante el Departamento de Seguros de Utah (801-957-9200; gratis en Utah 1-800-439-3805). Los planes autofinanciados de empleadores se rigen por leyes federales.
+  complaint_url: https://insurance.utah.gov/complaints/
+  sources: [uid-complaints, uofu-support]
+telehealth_hrt: [plume, folx, queerdoc, planned-parenthood]
+resources:
+  - id: uofu-trans-health
+    name: University of Utah Transgender Health Program
+    type: hrt_clinic
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Adult program offering primary care and hormone therapy, gender-affirming surgery, fertility, voice therapy, hair reduction, counseling, and pelvic floor therapy. No referral needed. Coordinators help with prior authorizations, appeals, and letters for gender marker changes. Call 801-213-2195.
+      es: Programa para adultos con atención primaria y terapia hormonal, cirugía, fertilidad, terapia de voz, depilación, consejería y terapia de piso pélvico. No requiere referencia. Los coordinadores ayudan con autorizaciones previas, apelaciones y cartas para cambios de marcador. Llama al 801-213-2195.
+    url: https://healthcare.utah.edu/transgender-health
+    phone: "801-213-2195"
+    address: 50 North Medical Drive, Salt Lake City, UT 84132
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [uofu-trans, uofu-support]
+  - id: uaf-legacy-health
+    name: UAF Legacy Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Community clinic from the Utah AIDS Foundation offering primary care, hormone therapy, PrEP and HIV care, STI testing (including a low-cost after-hours clinic with no insurance required), and therapy. Accepts Medicaid, Medicare, PEHP, and most major insurers.
+      es: Clínica comunitaria de la Fundación del SIDA de Utah con atención primaria, terapia hormonal, PrEP y atención del VIH, pruebas de ITS (incluida una clínica nocturna de bajo costo sin seguro) y terapia. Acepta Medicaid, Medicare, PEHP y la mayoría de los seguros.
+    url: https://www.utahaids.org/
+    phone: "801-823-1988"
+    address: 150 South 1000 East, Salt Lake City, UT 84102
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [uaf]
+  - id: identity-hormones
+    name: Identity Hormones & Healthcare
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: LGBTQIA+ specialty clinic in Salt Lake City using an informed consent model for hormone therapy, with walk-in visits and PrEP.
+      es: Clínica especializada LGBTQIA+ en Salt Lake City que usa consentimiento informado para terapia hormonal, con visitas sin cita y PrEP.
+    url: https://identityhormones.com/
+    phone: "385-259-0166"
+    address: 1327 East 2100 South, Suite 101, Salt Lake City, UT
+    cost: paid
+    verification: org_website
+    sources: [identity-hormones, upc-resources]
+  - id: ppau
+    org: planned-parenthood
+    name: Planned Parenthood Association of Utah
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Utah's Planned Parenthood affiliate provides sexual and reproductive health care at health centers statewide and has offered gender-affirming hormone therapy for adults. Call to confirm current availability and cost.
+      es: La afiliada de Planned Parenthood en Utah ofrece salud sexual y reproductiva en centros de todo el estado y ha ofrecido terapia hormonal para adultos. Llama para confirmar disponibilidad y costo.
+    url: https://www.plannedparenthood.org/planned-parenthood-utah
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [ppau]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for telehealth hormone therapy for trans people who cannot afford it. Check the site for the current application window.
+      es: Fondo nacional que paga terapia hormonal por telesalud para personas trans que no pueden costearla. Consulta el sitio para las fechas de solicitud.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Utah-based transition grant fund. Its website says it is transitioning its programs and assets to local organizations; check what is still open.
+      es: Fondo de becas de transición con sede en Utah. Su sitio indica que está transfiriendo sus programas a organizaciones locales.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: uofu-prep
+    name: University of Utah Health HIV PrEP Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: PrEP is free for people without health insurance; virtual and in-person appointments Monday to Friday. Call 801-585-2031.
+      es: PrEP gratis para personas sin seguro; citas virtuales y presenciales de lunes a viernes. Llama al 801-585-2031.
+    url: https://healthcare.utah.edu/infectious-diseases/hiv-prep
+    phone: "801-585-2031"
+    cost: free
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [uofu-prep]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers, which charge on a sliding scale based on income regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios, que cobran en escala móvil según ingresos, con o sin seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: Utah Code 58-1-603.1
+    title:
+      en: Hormonal transgender treatment prohibition for minors (as amended by HB 174, 2026)
+    url: https://le.utah.gov/xcode/Title58/Chapter1/58-1-S603.1.html
+  - cite: Utah Code 58-1-603
+    title:
+      en: Hormonal transgender treatment on minors, requirements and certification
+    url: https://le.utah.gov/xcode/Title58/Chapter1/58-1-S603.html
+  - cite: Utah Code 58-67-502
+    title:
+      en: Unprofessional conduct, including sex characteristic surgery on minors
+    url: https://le.utah.gov/xcode/Title58/Chapter67/58-67-S502.html
+pending_bills:
+  - bill: HB 174 (2026)
+    summary:
+      en: Ends the grandfather clause for minors already receiving hormone treatment, effective January 28, 2027, except for those who were at least 16 and already on cross-sex hormones on March 18, 2026. Repeals the required state review of the medical evidence.
+      es: Pone fin a la excepción para menores que ya reciben tratamiento hormonal a partir del 28 de enero de 2027, salvo quienes tenían al menos 16 años y ya usaban hormonas cruzadas el 18 de marzo de 2026. Deroga la revisión estatal de la evidencia médica.
+    status: signed
+    last_action: "2026-03-18"
+    url: https://le.utah.gov/~2026/bills/static/HB0174.html
+    sources: [hb174]
+sources:
+  - id: ucode-58-1-603-1
+    url: https://le.utah.gov/xcode/Title58/Chapter1/58-1-S603.1.html
+    title: Utah Code 58-1-603.1, Hormonal transgender treatment prohibition for minors
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "beginning on January 28, 2027, a health care provider may not provide a hormonal transgender treatment to a patient who is a minor if the patient: (a) would be younger than 16 years old as of March 18, 2026; or (b) has not received cross-sex hormones as of March 18, 2026."
+  - id: ucode-58-1-603
+    url: https://le.utah.gov/xcode/Title58/Chapter1/58-1-S603.html
+    title: Utah Code 58-1-603, Hormonal transgender treatment on minors, requirements
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A health care provider may provide a hormonal transgender treatment to a minor only if the health care provider has been treating the minor for gender dysphoria for at least six months."
+  - id: ucode-58-67-502
+    url: https://le.utah.gov/xcode/Title58/Chapter67/58-67-S502.html
+    title: Utah Code 58-67-502, Unprofessional conduct
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "performing, or causing to be performed, upon an individual who is less than 18 years old: (i) a primary sex characteristic surgical procedure; or (ii) a secondary sex characteristic surgical procedure"
+  - id: hb174
+    url: https://le.utah.gov/~2026/bills/static/HB0174.html
+    title: HB 174 (2026), Sex Characteristic Change Treatment Amendments
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "prohibits providing cross-sex hormones and puberty blockers to minors after a certain date."
+  - id: medicaid-pa-gd
+    url: https://medicaid-documents.dhhs.utah.gov/pharmacy%2Fpriorauthorization%2Fpdf%2FHormone+Therapy+for+Gender+Dysphoria.pdf
+    title: Utah Medicaid Pharmacy Prior Authorization Request Form, Hormone Therapy for Gender Dysphoria (updated 8-1-26)
+    publisher: Utah Department of Health and Human Services, Medicaid
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Criteria for Approval in Adults ... Is the patient 18 years of age or older?"
+  - id: medicaid-apply
+    url: https://medicaid.utah.gov/apply-medicaid/
+    title: Apply for Medicaid
+    publisher: Utah Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "You may apply in person, by mail, or online."
+  - id: uid-complaints
+    url: https://insurance.utah.gov/complaints/
+    title: Complaints
+    publisher: Utah Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Salt Lake City area: 801-957-9200 In-state toll-free: 1-800-439-3805."
+  - id: uofu-trans
+    url: https://healthcare.utah.edu/transgender-health
+    title: Transgender Health Program
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: "The Trans Health Program at University of Utah Health brings quality health care to trans adults from all walks of life."
+  - id: uofu-support
+    url: https://healthcare.utah.edu/transgender-health/support-services-resources
+    title: Transgender Support Services and Resources
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Explain the insurance prior authorization process and assist with appeals"
+  - id: uofu-prep
+    url: https://healthcare.utah.edu/infectious-diseases/hiv-prep
+    title: HIV PrEP
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: "University of Utah Health offers PrEP for free if you do not have health insurance."
+  - id: uaf
+    url: https://www.utahaids.org/
+    title: UAF Legacy Health
+    publisher: Utah AIDS Foundation
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Hormone Therapy Supportive and affirming healthcare for all individuals."
+  - id: identity-hormones
+    url: https://identityhormones.com/
+    title: Identity Hormones & Healthcare
+    kind: org
+    accessed: "2026-09-24"
+    quote: "We follow an informed consent model"
+  - id: upc-resources
+    url: https://utahpridecenter.org/resources
+    title: Utah Pride Center, Community Resources
+    publisher: Utah Pride Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppau
+    url: https://www.plannedparenthood.org/planned-parenthood-utah
+    title: Planned Parenthood Association of Utah
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

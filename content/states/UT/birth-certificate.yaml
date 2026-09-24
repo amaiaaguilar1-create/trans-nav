@@ -1,0 +1,339 @@
+guide_type: birth_certificate
+jurisdiction: UT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (26B-8-111, current version effective May 7, 2025, amended by Laws of Utah 2025 ch. 299) read on
+    le.utah.gov 2026-09-24; no 2026 bill affected it. Fees ($25 amendment + $25 certified copy = $50; $10 extra
+    copies; $25 expedite; $40 sealed record) from the Vital Records fee schedule effective July 1, 2026 and the June
+    2026 revision of form 902, both read directly. Processing time (6 to 12 weeks) from the Vital Records amendment
+    page. Open items: (1) whether Vital Records will record anything other than male or female: form 1730FA offers
+    "other" as a choice, and MAP lists Utah as allowing X on birth certificates, but neither the statute nor Vital
+    Records' page says so; markers_available lists only M and F; (2) the statute says the new certificate does not
+    show which fields were amended unless you ask, but an amendment history is kept and issued; confirm with Vital
+    Records whether the amendment history page is attached to every certified copy; (3) Utah Code 68-3-12.5 (general
+    definitions, amended 2026) defines "sex" as biological sex at birth for the whole code "unless a different
+    definition is expressly provided"; it has not been read as blocking 26B-8-111 orders, but a reviewer should watch
+    for agency guidance. MAP lists Utah as "unclear process, judge discretion"; A4TE's Utah page is undated and cites
+    the old statute number 26-2-11. Both predate the 2025 amendment.
+status: restricted
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Utah, you can change the sex on your birth certificate only with a district court order. The
+    judge must find, by clear and convincing evidence, that you have transitioned, have lived as your gender for at
+    least six months, and experience clinically significant distress. With the order, Vital Records amends the
+    certificate for $50 including one copy.
+  es: >-
+    Si naciste en Utah, solo puedes cambiar el sexo en tu acta de nacimiento con una orden de un tribunal de distrito.
+    El juez debe determinar, con pruebas claras y convincentes, que has hecho la transición, has vivido según tu
+    género al menos seis meses y sufres malestar clínicamente significativo. Con la orden, Estadísticas Vitales
+    enmienda el acta por $50 con una copia incluida.
+summary:
+  en: |
+    Utah Code **26B-8-111** sets the rules. There is no administrative route: you first need a court order, then you send it to the Office of Vital Records and Statistics.
+
+    **Step one, the court.** You file the Petition for Name or Sex Change (form 1730FA) in the district court of your county, with evidence. The judge may grant it only if convinced, by clear and convincing evidence, that you:
+    - are not involved in any lawsuit and are not in Department of Corrections custody or on probation or parole;
+    - are not seeking the change for fraud, to avoid creditors, or to affect a criminal case;
+    - have transitioned from your sex at birth to the sex you are asking for;
+    - have outwardly expressed as that sex "in a consistent and uniform manner" for at least six months; and
+    - experience clinically significant distress or impairment because of the current sex on your certificate.
+
+    The judge must consider evidence of your medical history, care, or treatment related to transition, and evidence that your identity is sincerely held. Surgery is not required by the statute. The court case is automatically private.
+
+    **Step two, Vital Records.** Mail the certified order with the court-order amendment form (902), a birth certificate application, a copy of your ID, and $50. Vital Records issues a certificate that does not show which fields were changed unless you ask, and keeps an amendment history.
+
+    This guide applies only to people born in Utah. If you were born in another state, that state's rules control your birth certificate.
+  es: |
+    El Código de Utah **26B-8-111** establece las reglas. No hay trámite administrativo: primero necesitas una orden judicial y luego la envías a la Oficina de Estadísticas Vitales.
+
+    **Paso uno, el tribunal.** Presentas la Petición de cambio de nombre o sexo (formulario 1730FA) en el tribunal de distrito de tu condado, con pruebas. El juez solo puede concederla si queda convencido, con pruebas claras y convincentes, de que no participas en ninguna demanda ni estás bajo custodia de Correcciones o en libertad condicional; no buscas el cambio con fines fraudulentos; has hecho la transición; te has expresado de forma constante como ese sexo durante al menos seis meses; y sufres malestar clínicamente significativo por el sexo actual en tu acta.
+
+    El juez debe considerar pruebas de tu historial médico o tratamiento relacionado con la transición y de que tu identidad es sincera. La ley no exige cirugía. El caso judicial es privado automáticamente.
+
+    **Paso dos, Estadísticas Vitales.** Envía por correo la orden certificada con el formulario de enmienda por orden judicial (902), una solicitud de acta, copia de tu identificación y $50. Estadísticas Vitales emite un acta que no muestra qué campos cambiaron salvo que lo pidas, y conserva un historial de enmiendas.
+
+    Esta guía solo aplica a personas nacidas en Utah. Si naciste en otro estado, las reglas de ese estado controlan tu acta.
+eligibility:
+  residency:
+    en: You must have been born in Utah. To get the court order, you file in the district court of the Utah county where you live; the name change part requires one year of residence in that county.
+    es: Debes haber nacido en Utah. Para obtener la orden, presentas en el tribunal de distrito del condado de Utah donde vives; la parte del cambio de nombre requiere un año de residencia en ese condado.
+  age:
+    en: Adults. For minors, the child must be at least 15 years and 6 months old, all custodial parents must consent, and the order takes effect at 16.
+    es: Adultos. Para menores, deben tener al menos 15 años y 6 meses, todos los padres con custodia deben consentir y la orden surte efecto a los 16.
+  criminal_history:
+    en: People in Department of Corrections custody or on probation or parole cannot get an order. People on the offender registry must disclose it, and the court may ask for more information.
+    es: Las personas bajo custodia de Correcciones o en libertad condicional o supervisada no pueden obtener una orden. Quienes estén en el registro de delincuentes deben declararlo.
+  sources: [ucode-26b-8-111, courts-adult-page]
+forms:
+  - id: 1730FA
+    name:
+      en: Petition for Name or Sex Change (court)
+      es: Petición de cambio de nombre o sexo (tribunal)
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1730FA
+    required: always
+    how_to_fill:
+      en: |
+        - Check **Sex Designation Change** (and **Name Change** too if you want both).
+        - Items 13 and 14: the sex now on your certificate and the sex you are asking for. The form offers male, female, or "other"; ask a legal clinic before choosing "other," because it is not clear Vital Records will record it.
+        - Items 15 to 18: you state that you have transitioned, have expressed as that sex for at least six months, and experience clinically significant distress, and that you attached evidence.
+        - **Attach evidence**: a letter from a licensed medical provider about your transition-related care and the distress the current marker causes you; proof you have lived as your gender for six months (for example ID, school or work records, letters from people who know you); and a short statement about why this is part of your core identity.
+      es: |
+        - Marca **Cambio de designación de sexo** (y **Cambio de nombre** si quieres ambos).
+        - Puntos 13 y 14: el sexo que aparece en tu acta y el que pides. El formulario ofrece masculino, femenino u "otro"; consulta a una clínica legal antes de elegir "otro".
+        - Puntos 15 a 18: declaras que has hecho la transición, te has expresado como ese sexo al menos seis meses y sufres malestar clínicamente significativo, y que adjuntas pruebas.
+        - **Adjunta pruebas**: una carta de un proveedor médico con licencia; prueba de que has vivido según tu género seis meses; y una breve declaración sobre tu identidad.
+    sources: [form-1730fa, courts-adult-page]
+  - id: 1731FA
+    name:
+      en: Order on Petition for Name or Sex Change (court)
+      es: Orden sobre la petición de cambio de nombre o sexo (tribunal)
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1731FA
+    required: always
+    condition:
+      en: Proposed order. Vital Records requires that it state your full name, the sex currently on the record, and the sex to be recorded.
+      es: Orden propuesta. Estadísticas Vitales exige que indique tu nombre completo, el sexo que aparece actualmente y el sexo que se registrará.
+    sources: [courts-adult-page, vr-amend]
+  - id: UDOH-OVRS-902
+    name:
+      en: Amendment of a Record by Court Order (Vital Records form 902)
+      es: Enmienda de un registro por orden judicial (formulario 902)
+    url: https://vitalrecords.utah.gov/wp-content/uploads/902-Affidavit-to-Amend-by-Court-Order-062426.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Section A: copy the information exactly as it appears on your current birth certificate.
+        - Section B: the court name, case number, county, and date of the order, then each item number and the corrected information from the order (for example "2. Sex" and the new sex, and the new name if it changed).
+        - Section C: you sign under penalty of perjury. Your attorney may sign instead if they represented you.
+      es: |
+        - Sección A: copia la información tal como aparece en tu acta actual.
+        - Sección B: el tribunal, número de caso, condado y fecha de la orden, y cada dato corregido según la orden.
+        - Sección C: firmas bajo pena de perjurio.
+    sources: [vr-902]
+  - id: UDOH-OVRS-104
+    name:
+      en: Birth Certificate Application (Vital Records form 104)
+      es: Solicitud de acta de nacimiento (formulario 104)
+    url: https://vitalrecords.utah.gov/wp-content/uploads/104-Birth-Certificate-Application-2026-062426.pdf
+    url_es: https://vitalrecords.utah.gov/wp-content/uploads/104s-Birth-Certificate-Application-Spanish-062426.pdf
+    required: always
+    condition:
+      en: Check the $25 amendment fee line in addition to the $25 search/copy fee.
+      es: Marca la línea de la tarifa de enmienda de $25 además de la tarifa de búsqueda y copia de $25.
+    sources: [vr-104, vr-forms]
+steps:
+  - id: gather-evidence
+    title:
+      en: Gather your evidence
+      es: Reúne tus pruebas
+    body:
+      en: Get a letter from a licensed medical provider describing your transition-related care and the distress your current marker causes, plus proof that you have lived as your gender for at least six months. The University of Utah Transgender Health Program says its providers write these letters for patients (allow up to two weeks).
+      es: Consigue una carta de un proveedor médico con licencia que describa tu atención relacionada con la transición y el malestar que te causa tu marcador actual, además de prueba de que has vivido según tu género al menos seis meses. El Programa de Salud Transgénero de la Universidad de Utah indica que sus proveedores escriben estas cartas (hasta dos semanas).
+    sources: [courts-adult-page, uofu-support]
+  - id: court-petition
+    title:
+      en: File the petition and attend the hearing
+      es: Presenta la petición y asiste a la audiencia
+    body:
+      en: File form 1730FA (with the name change too, if you want it), the proposed order 1731FA, cover sheet 1158XX, and your evidence in the district court of your county. Pay the filing fee (about $375) or ask for a fee waiver. Attend the hearing. See the name change guide for filing details.
+      es: Presenta el formulario 1730FA (con el cambio de nombre si lo quieres), la orden propuesta 1731FA, la portada 1158XX y tus pruebas en el tribunal de distrito de tu condado. Paga la tarifa (unos $375) o pide una exención. Asiste a la audiencia.
+    forms: [1730FA, 1731FA]
+    fees: [court-filing]
+    sources: [courts-adult-page, ucode-78a-2-301]
+  - id: certified-order
+    title:
+      en: Get a certified copy of the signed order
+      es: Obtén una copia certificada de la orden firmada
+    body:
+      en: Vital Records needs a **certified** copy of the order. Get it from the court clerk.
+      es: Estadísticas Vitales necesita una copia **certificada** de la orden. Pídela al secretario del tribunal.
+    sources: [courts-adult-page, vr-amend]
+  - id: send-to-vital-records
+    title:
+      en: Send the order to Vital Records
+      es: Envía la orden a Estadísticas Vitales
+    body:
+      en: |
+        Mail the certified order, form 902, form 104, a copy of your photo ID, and a check or money order for $50 payable to "Vital Records" to:
+
+        Office of Vital Records and Statistics, PO Box 141012, Salt Lake City, UT 84114-1012.
+
+        Add $10 for each extra copy ordered at the same time and $25 if you want expedited processing. Name and sex changes from the same order are handled in one request.
+      es: |
+        Envía por correo la orden certificada, el formulario 902, el formulario 104, copia de tu identificación con foto y un cheque o giro por $50 a nombre de "Vital Records" a:
+
+        Office of Vital Records and Statistics, PO Box 141012, Salt Lake City, UT 84114-1012.
+
+        Agrega $10 por cada copia adicional y $25 si quieres trámite acelerado. Los cambios de nombre y sexo de la misma orden se tramitan en una sola solicitud.
+    forms: [UDOH-OVRS-902, UDOH-OVRS-104]
+    fees: [amendment, certified-copy, extra-copy]
+    estimated_time:
+      en: 6 to 12 weeks
+      es: 6 a 12 semanas
+    sources: [vr-902, vr-amend, courts-adult-page]
+fees:
+  - id: court-filing
+    label:
+      en: District court filing fee for the petition
+      es: Tarifa de presentación de la petición en el tribunal de distrito
+    amount: 375
+    waivable: true
+    note:
+      en: Only one fee if you combine the name and sex change. See the name change guide.
+      es: Una sola tarifa si combinas el cambio de nombre y de sexo.
+    sources: [ucode-78a-2-301]
+  - id: amendment
+    label:
+      en: Vital Records amendment fee
+      es: Tarifa de enmienda de Estadísticas Vitales
+    amount: 25
+    sources: [vr-fees, vr-902]
+  - id: certified-copy
+    label:
+      en: Certified birth certificate (first copy, required with the amendment)
+      es: Acta certificada (primera copia, requerida con la enmienda)
+    amount: 25
+    sources: [vr-fees, vr-902]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 10
+    sources: [vr-fees]
+  - id: expedite
+    label:
+      en: Expedited processing (optional)
+      es: Trámite acelerado (opcional)
+    amount: 25
+    sources: [vr-fees, vr-902]
+fee_waiver:
+  available: false
+  how:
+    en: Vital Records' fee schedule lists no fee waiver for amendments. The court filing fee can be waived (see the name change guide). Vital Records has a separate homeless verification form for certificates; ask whether it applies to you.
+    es: La lista de tarifas de Estadísticas Vitales no incluye exención para enmiendas. La tarifa del tribunal sí puede exonerarse. Estadísticas Vitales tiene un formulario de verificación para personas sin hogar; pregunta si aplica.
+  sources: [vr-fees, vr-forms]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Amendments are sent by mail to the Office of Vital Records and Statistics (PO Box 141012, Salt Lake City). Form 902 lists the office at 288 North 1460 West, Salt Lake City, and phone 801-538-6105.
+    es: Las enmiendas se envían por correo a la Oficina de Estadísticas Vitales. El formulario 902 indica la oficina en 288 North 1460 West, Salt Lake City, teléfono 801-538-6105.
+  sources: [vr-902, courts-adult-page]
+minors:
+  summary:
+    en: A court may not grant a sex designation change for a child younger than 15 years and 6 months, or without the permission of every parent or guardian with legal custody. The court appoints a guardian ad litem, closes the hearing, considers any parent's objection, and must find the change is in the child's best interest by clear and convincing evidence. The order is not effective until the child turns 16.
+    es: Un tribunal no puede conceder un cambio de designación de sexo a un menor de 15 años y 6 meses, ni sin el permiso de todos los padres o tutores con custodia legal. El tribunal nombra un tutor ad litem, cierra la audiencia y debe determinar que el cambio es en el mejor interés del menor. La orden no surte efecto hasta que el menor cumpla 16.
+  sources: [ucode-26b-8-111, courts-minor-page]
+timeline:
+  en: The court case takes several weeks or more depending on the county. Vital Records then takes about 6 to 12 weeks.
+  es: El caso judicial tarda varias semanas o más según el condado. Luego Estadísticas Vitales tarda unas 6 a 12 semanas.
+after:
+  en: With your amended birth certificate, update your Utah driver license or ID (see the driver's license guide). Federal records are different right now; the U.S. passport and Social Security sex fields cannot currently be changed, but the name can.
+  es: Con tu acta enmendada, actualiza tu licencia o identificación de Utah (ver la guía de licencia). Los registros federales son distintos por ahora; los campos de sexo del pasaporte y del Seguro Social no se pueden cambiar actualmente, pero el nombre sí.
+tips:
+  - en: Combine the name change and the sex change in one court petition and one Vital Records request to save fees.
+    es: Combina el cambio de nombre y de sexo en una sola petición judicial y una sola solicitud a Estadísticas Vitales para ahorrar.
+  - en: Under Utah's 2024 facilities law (HB 257), an amended birth certificate is one of the conditions for using some sex-designated changing rooms in government buildings, together with surgery. It does not affect restrooms in most places, but it is one more reason some people pursue the amendment.
+    es: Según la ley de instalaciones de 2024 (HB 257), un acta enmendada es una de las condiciones, junto con la cirugía, para usar algunos vestidores designados por sexo en edificios del gobierno.
+statutes:
+  - cite: Utah Code 26B-8-111
+    title:
+      en: Birth certificate name or sex designation change
+    url: https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S111.html
+  - cite: Utah Code 68-3-12.5
+    title:
+      en: Definitions for Utah Code, including "sex"
+    url: https://le.utah.gov/xcode/Title68/Chapter3/68-3-S12.5.html
+related_links:
+  - title: Utah Vital Records, Amend a Vital Record
+    url: https://vitalrecords.utah.gov/amend-a-vital-record
+    note:
+      en: Official instructions for gender change amendments.
+      es: Instrucciones oficiales para enmiendas de género.
+  - title: Advocates for Trans Equality, Utah identity documents
+    url: https://transequality.org/documents/utah-identity-documents
+    note:
+      en: Undated and partly out of date; it predates the 2025 statute.
+      es: Sin fecha y en parte desactualizada.
+sources:
+  - id: ucode-26b-8-111
+    url: https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S111.html
+    title: Utah Code 26B-8-111, Birth certificate name or sex designation change
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A court may grant a petition ordering a sex designation change on a birth certificate if the court determines by clear and convincing evidence that the individual seeking the sex designation change"
+  - id: ucode-78a-2-301
+    url: https://le.utah.gov/xcode/Title78A/Chapter2/78A-2-S301.html
+    title: Utah Code 78A-2-301, Civil fees of the courts of record
+    publisher: Utah State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: courts-adult-page
+    url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/sex-change.html
+    title: Petition for Name or Sex Designation Change - Adult
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "When you file paperwork asking to change your legal sex (including requests to change both your name and legal sex), the court will mark the case as private."
+  - id: courts-minor-page
+    url: https://www.utcourts.gov/en/self-help/case-categories/family/name-change/juvenile/instruct.html
+    title: Name or Sex Designation Change - Minor
+    publisher: Utah State Courts
+    kind: court
+    accessed: "2026-09-24"
+  - id: form-1730fa
+    url: https://apps.utcourts.gov/aem-services/aem/forms/template/1730FA
+    title: Form 1730FA, Petition for Name or Sex Change
+    publisher: Utah State Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: "I ask the court to order that my legal sex designation is male female other"
+  - id: vr-amend
+    url: https://vitalrecords.utah.gov/amend-a-vital-record
+    title: Amend a Vital Record
+    publisher: Utah Department of Health and Human Services, Office of Vital Records and Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: "The court order for a change in sex designation must state the individual's full name, the gender that is currently on the birth record and the gender that will be corrected on the birth record."
+  - id: vr-fees
+    url: https://vitalrecords.utah.gov/fee-schedule
+    title: Vital Records Fee Schedule (effective July 1, 2026)
+    publisher: Utah Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Amendment - affidavit, court order, voluntary declaration of paternity. (In addition to the certificate fee.) $25.00"
+  - id: vr-902
+    url: https://vitalrecords.utah.gov/wp-content/uploads/902-Affidavit-to-Amend-by-Court-Order-062426.pdf
+    title: Amendment of a Record by Court Order (form 902)
+    publisher: Utah Office of Vital Records and Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: "The current fee to complete this amendment is $25 plus the fee for a certified birth certificate which is $25 for a total of $50."
+  - id: vr-104
+    url: https://vitalrecords.utah.gov/wp-content/uploads/104-Birth-Certificate-Application-2026-062426.pdf
+    title: Birth Certificate Application (form 104)
+    publisher: Utah Office of Vital Records and Statistics
+    kind: form
+    accessed: "2026-09-24"
+  - id: vr-forms
+    url: https://vitalrecords.utah.gov/forms-and-links
+    title: Forms and Links
+    publisher: Utah Office of Vital Records and Statistics
+    kind: official
+    accessed: "2026-09-24"
+  - id: uofu-support
+    url: https://healthcare.utah.edu/transgender-health/support-services-resources
+    title: Transgender Support Services and Resources
+    publisher: University of Utah Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Our providers can provide you with the letter needed to change your gender marker on official documents. This process can take up to two weeks"
