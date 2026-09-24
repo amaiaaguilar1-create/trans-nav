@@ -1,0 +1,218 @@
+jurisdiction: KS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    K.S.A. 65-28,138 (SB 63, Help Not Harm Act, enacted February 20, 2025 per history line) read on kslegislature.gov
+    2026-09-24. Loe v. Kansas status is from ACLU of Kansas pages: an order granting a preliminary/temporary
+    injunction was issued May 15, 2026 by the Douglas County District Court. NOT CONFIRMED: the order's scope (the
+    press release suggests it may cover only the plaintiffs), which SB 63 provisions it covers, and whether the state
+    appealed. kancare.ks.gov, insurance.kansas.gov, and Planned Parenthood pages returned 403 to automated access, so
+    KanCare adult coverage, the complaint URL, and PP Great Plains services and ages are unverified. We found no
+    explicit KanCare exclusion for adults, but we could not confirm coverage either. KU Health System's
+    gender-affirming medicine page was read directly.
+status_summary:
+  en: >-
+    Adults in Kansas can legally get gender-affirming care, including hormones and surgery, but there are no state
+    insurance protections. SB 63 (2025) bans medical transition for minors and bars KanCare and state funds from
+    paying for it; a state court partly blocked the ban in May 2026 while the lawsuit continues.
+  es: >-
+    Los adultos en Kansas pueden recibir legalmente atención de afirmación de género, incluidas hormonas y cirugía,
+    pero no hay protecciones estatales en los seguros. SB 63 (2025) prohíbe la transición médica para menores e impide
+    que KanCare y fondos estatales la paguen; un tribunal estatal bloqueó parcialmente la prohibición en mayo de 2026
+    mientras sigue la demanda.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Kansas law restricts gender-affirming care for adults 18 and older. The University of Kansas Health System in Kansas City runs a multidisciplinary gender-affirming medicine program (hormones, surgery, voice therapy, primary care) and offers telehealth to Kansas patients. Telehealth providers such as Plume and FOLX serve Kansas.
+
+      **If you have no insurance and little money:**
+      1. Kansas has not expanded Medicaid, so most adults without children or a disability do not qualify for KanCare. Check anyway, and check **HealthCare.gov**, where low-income adults often qualify for subsidized plans.
+      2. Look for a **community health center** at findahealthcenter.hrsa.gov; they charge on a sliding scale.
+      3. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for a year or more (applications open once a year).
+    es: |
+      Ninguna ley de Kansas restringe la atención de afirmación de género para adultos. The University of Kansas Health System en Kansas City tiene un programa multidisciplinario (hormonas, cirugía, terapia de voz, atención primaria) y ofrece telesalud a pacientes de Kansas. Proveedores de telesalud como Plume y FOLX atienden en Kansas.
+
+      **Si no tienes seguro ni mucho dinero:**
+      1. Kansas no amplió Medicaid, así que la mayoría de los adultos sin hijos ni discapacidad no califica para KanCare. Revisa de todos modos, y revisa **HealthCare.gov**, donde muchas personas de bajos ingresos califican para planes subsidiados.
+      2. Busca un **centro de salud comunitario** en findahealthcenter.hrsa.gov; cobran en escala móvil.
+      3. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes una vez al año).
+  sources: [kuhs-gam, hrsa, healthcare-gov, pop]
+minor_care:
+  status: litigation
+  detail:
+    en: |
+      SB 63, the Help Not Harm Act (K.S.A. 65-28,137 to 65-28,142), became law on February 20, 2025, after the Legislature overrode Governor Kelly's veto. It bars providers from giving puberty blockers, hormones, or surgery to people under 18 for gender dysphoria, bars recipients of state funds and state facilities from providing or subsidizing that care, and bars KanCare from covering it.
+
+      On May 15, 2026, the Douglas County District Court granted a temporary injunction in **Loe v. Kansas**, finding the law likely violates the Kansas Constitution. The order may protect only the families who sued; confirm with a provider or the ACLU of Kansas before relying on it. KU Health System lists adolescent care for ages 16 and up.
+    es: |
+      SB 63, la Ley Help Not Harm (K.S.A. 65-28,137 a 65-28,142), entró en vigor el 20 de febrero de 2025, después de que la Legislatura anulara el veto de la gobernadora Kelly. Prohíbe dar bloqueadores de pubertad, hormonas o cirugía a menores de 18 años por disforia de género, impide que receptores de fondos estatales e instalaciones estatales la presten o subsidien, y prohíbe que KanCare la cubra.
+
+      El 15 de mayo de 2026, el Tribunal de Distrito del Condado de Douglas otorgó un mandato temporal en **Loe v. Kansas**, al considerar que la ley probablemente viola la Constitución de Kansas. La orden podría proteger solo a las familias demandantes; confirma con un proveedor o la ACLU de Kansas antes de contar con ella.
+  sources: [ksa-65-28-138, aclu-loe, aclu-loe-pr, kuhs-gam]
+medicaid:
+  program_name: KanCare
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: KanCare may not cover gender-affirming medication or surgery for anyone under 18 (K.S.A. 65-28,138). We found no written adult exclusion but could not confirm adult coverage; ask your KanCare health plan for its policy in writing. Kansas has not expanded Medicaid, so most adults without children or a disability are not eligible.
+    es: KanCare no puede cubrir medicamentos ni cirugía de afirmación de género para menores de 18 años (K.S.A. 65-28,138). No encontramos una exclusión escrita para adultos, pero no pudimos confirmar la cobertura; pide a tu plan de KanCare su política por escrito. Kansas no amplió Medicaid, así que la mayoría de los adultos sin hijos ni discapacidad no califica.
+  how_to_apply_url: https://www.kancare.ks.gov/
+  sources: [ksa-65-28-138, kancare]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: Kansas has no law that bars insurers from excluding gender-affirming care. Read your plan's exclusions. If a claim is denied, appeal with the plan first, then file a complaint with the Kansas Insurance Department. Employer self-funded plans are federally regulated.
+    es: Kansas no tiene una ley que prohíba a las aseguradoras excluir la atención de afirmación de género. Revisa las exclusiones de tu plan. Si niegan un reclamo, apela ante el plan y luego presenta una queja ante el Departamento de Seguros de Kansas.
+  complaint_url: https://insurance.kansas.gov/consumer-assistance/
+  sources: [kid]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: ku-health-gender-affirming-medicine
+    name: The University of Kansas Health System, Gender-Affirming Medicine
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Multidisciplinary program in Kansas City, KS offering hormone therapy, adult surgery, voice therapy, fertility preservation, primary care, and psychology; adolescent care from age 16. Telehealth for Kansas patients. Call 913-588-6200 for a consultation.
+      es: Programa multidisciplinario en Kansas City, KS con terapia hormonal, cirugía para adultos, terapia de voz, preservación de fertilidad, atención primaria y psicología; atención a adolescentes desde los 16. Telesalud para pacientes de Kansas. Llama al 913-588-6200.
+    url: https://www.kansashealthsystem.com/care/specialties/gender-affirming-medicine
+    phone: "913-588-6200"
+    cost: insurance
+    telehealth: true
+    verification: org_website
+    sources: [kuhs-gam]
+  - id: pp-great-plains
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Affiliate with health centers in Kansas including Overland Park and Wichita. Reported to offer gender-affirming hormone therapy for adults; call to confirm services and age limits.
+      es: Afiliada con centros en Kansas, incluidos Overland Park y Wichita. Se reporta que ofrece terapia hormonal para adultos; llama para confirmar servicios y edades.
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-gp]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for telehealth hormone care for trans people who cannot afford it; applications open once a year.
+      es: Paga atención hormonal por telesalud para personas trans sin recursos; solicitudes una vez al año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale.
+      es: Buscador federal de centros de salud comunitarios con tarifas en escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: vivent-health-kc
+    name: Vivent Health Kansas City
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP, HIV/STI/hepatitis C testing, HIV care, primary care, behavioral health, and pharmacy. Located in Kansas City, Missouri, serving the metro. Phone 816-561-8784.
+      es: PrEP, pruebas de VIH/ITS/hepatitis C, atención de VIH, atención primaria, salud mental y farmacia. En Kansas City, Missouri. Teléfono 816-561-8784.
+    url: https://viventhealth.org/locations/kansas-city/
+    phone: "816-561-8784"
+    address: 4309 E 50th Terrace, Suite 100, Kansas City, MO 64130
+    cost: varies
+    verification: org_website
+    sources: [vivent]
+statutes:
+  - cite: K.S.A. 65-28,137 to 65-28,142 (SB 63, 2025), Help Not Harm Act
+    title:
+      en: Ban on gender-affirming medical care for minors; no state funds or KanCare coverage
+    url: https://www.kslegislature.gov/li/b2025_26/statute/065_000_0000_chapter/065_028_0000_article/065_028_0138_section/065_028_0138_k/
+litigation:
+  - case: Loe v. Kansas
+    court: District Court of Douglas County, Kansas
+    summary:
+      en: Two transgender adolescents and their mothers challenge SB 63 under the Kansas Constitution. Filed May 2025; temporary injunction granted May 15, 2026.
+      es: Dos adolescentes trans y sus madres impugnan SB 63 bajo la Constitución de Kansas. Presentada en mayo de 2025; mandato temporal otorgado el 15 de mayo de 2026.
+    effect_today:
+      en: The injunction may apply only to the plaintiffs. Families should confirm with a provider or the ACLU of Kansas.
+      es: El mandato podría aplicarse solo a los demandantes. Las familias deben confirmar con un proveedor o la ACLU de Kansas.
+    last_update: "2026-09-24"
+    url: https://www.aclukansas.org/cases/loe-v-kansas/
+    sources: [aclu-loe, aclu-loe-pr]
+sources:
+  - id: ksa-65-28-138
+    url: https://www.kslegislature.gov/li/b2025_26/statute/065_000_0000_chapter/065_028_0000_article/065_028_0138_section/065_028_0138_k/
+    title: K.S.A. 65-28,138
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Kansas program of medical assistance ... shall not reimburse or provide coverage for medication or surgery ... as a treatment for a child.
+  - id: aclu-loe
+    url: https://www.aclukansas.org/cases/loe-v-kansas/
+    title: Loe v. Kansas
+    publisher: ACLU of Kansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-loe-pr
+    url: https://www.aclukansas.org/press-releases/state-court-blocks-kansas-ban-on-gender-affirming-medical-care-for-transgender-youth/
+    title: State Court Blocks Kansas Ban on Gender-Affirming Medical Care for Transgender Youth
+    publisher: ACLU of Kansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: kuhs-gam
+    url: https://www.kansashealthsystem.com/care/specialties/gender-affirming-medicine
+    title: Gender-Affirming Medicine
+    publisher: The University of Kansas Health System
+    kind: org
+    accessed: "2026-09-24"
+    quote: Telehealth visits available for those in Kansas, Nebraska, Oklahoma, Arkansas, Alabama and Tennessee.
+  - id: kancare
+    url: https://www.kancare.ks.gov/
+    title: KanCare
+    publisher: State of Kansas
+    kind: official
+    accessed: "2026-09-24"
+  - id: kid
+    url: https://insurance.kansas.gov/consumer-assistance/
+    title: Consumer Assistance
+    publisher: Kansas Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-gp
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains
+    title: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: healthcare-gov
+    url: https://www.healthcare.gov/
+    title: HealthCare.gov
+    kind: official
+    accessed: "2026-09-24"
+  - id: vivent
+    url: https://viventhealth.org/locations/kansas-city/
+    title: Vivent Health Kansas City
+    kind: org
+    accessed: "2026-09-24"

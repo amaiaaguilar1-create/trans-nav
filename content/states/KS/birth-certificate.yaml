@@ -1,0 +1,121 @@
+guide_type: birth_certificate
+jurisdiction: KS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    SB 244 new section 2 (birth certificates) read from the enrolled PDF 2026-09-24. KDHE's website (kdhe.ks.gov)
+    returned 403 to automated access, so KDHE's current procedure, amendment and copy fees, forms, and processing
+    times are NOT confirmed and no fees are listed. We also could not confirm whether KDHE has mailed notices or
+    reissued previously amended certificates under SB 244, or how K.S.A. 65-2422c name amendments are handled today.
+    Background from memory that the reviewer should confirm with primary sources: Kansas allowed sex marker changes
+    from 2019 under the Foster v. Stanek consent judgment, and KDHE stopped after SB 180 took effect July 1, 2023.
+    Note that section 2 covers certificates "issued prior to July 1, 2026", while the act took effect on Kansas
+    Register publication in February 2026.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Kansas does not change the sex on a Kansas birth certificate. A 2026 law (SB 244) declared certificates that had
+    already been amended invalid and told the state registrar to correct those records back to sex assigned at birth.
+    You can still ask to update the name.
+  es: >-
+    Kansas no cambia el sexo en un acta de nacimiento de Kansas. Una ley de 2026 (SB 244) declaró inválidas las
+    actas ya enmendadas y ordenó al registro estatal corregir esos registros al sexo asignado al nacer. Todavía
+    puedes pedir que se actualice el nombre.
+summary:
+  en: |
+    SB 180 (2023) defined "sex" in Kansas law as biological sex at birth (K.S.A. 77-207). House Substitute for SB 244 (2026) went further: under its section 2, any birth certificate issued before July 1, 2026 that shows a sex contrary to that definition "shall be invalid", and the state registrar must correct the record. That includes certificates amended legally between 2019 and 2023.
+
+    A court order recognizing your gender will not change a Kansas birth certificate. You can still request a **name** amendment with a certified court order; contact KDHE's Office of Vital Statistics for the current form and fee.
+
+    This guide applies only to people born in Kansas. If you were born in another state, that state's rules control your birth certificate, even if you live in Kansas.
+  es: |
+    SB 180 (2023) definió "sexo" en la ley de Kansas como el sexo biológico al nacer (K.S.A. 77-207). House Substitute for SB 244 (2026) fue más allá: según su sección 2, toda acta de nacimiento emitida antes del 1 de julio de 2026 que muestre un sexo contrario a esa definición es inválida, y el registro estatal debe corregirla. Eso incluye actas enmendadas legalmente entre 2019 y 2023.
+
+    Una orden judicial que reconozca tu género no cambia un acta de Kansas. Todavía puedes pedir una enmienda de **nombre** con una orden judicial certificada; contacta a la Oficina de Estadísticas Vitales de KDHE para el formulario y la tarifa actuales.
+
+    Esta guía aplica solo a personas nacidas en Kansas. Si naciste en otro estado, se aplican las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Kansas. Where you live now does not matter.
+    es: Debes haber nacido en Kansas. No importa dónde vivas ahora.
+  sources: [sb244]
+steps:
+  - id: name-amendment
+    title:
+      en: Ask KDHE Vital Statistics to amend your name
+      es: Pide a Estadísticas Vitales de KDHE que enmiende tu nombre
+    body:
+      en: Get a certified copy of your court order changing your name, then contact the KDHE Office of Vital Statistics for the current amendment application and fee. The sex field will remain as assigned at birth.
+      es: Obtén una copia certificada de tu orden de cambio de nombre y contacta a la Oficina de Estadísticas Vitales de KDHE para la solicitud y tarifa actuales. El campo de sexo seguirá como se asignó al nacer.
+    applies_to: [name_change]
+    sources: [kdhe-vs, ksa-65-2422c]
+  - id: previously-amended
+    title:
+      en: If your certificate was amended before, get legal advice
+      es: Si tu acta fue enmendada antes, busca asesoría legal
+    body:
+      en: SB 244 makes previously amended Kansas certificates invalid. Before relying on one, talk to the ACLU of Kansas or legal aid, and follow Doe v. State of Kansas.
+      es: SB 244 invalida las actas de Kansas enmendadas antes. Antes de usarla, habla con la ACLU de Kansas o asistencia legal y sigue el caso Doe v. State of Kansas.
+    applies_to: [gender_marker]
+    sources: [sb244, aclu-doe]
+after:
+  en: Use your court order, not your birth certificate, to update Social Security, your license, and your passport name. If you were born elsewhere, check your birth state's guide.
+  es: Usa tu orden judicial, no tu acta de nacimiento, para actualizar el nombre en el Seguro Social, tu licencia y tu pasaporte. Si naciste en otro estado, revisa la guía de ese estado.
+statutes:
+  - cite: H Sub for SB 244 (2026), section 2
+    title:
+      en: Invalidation and correction of birth certificates showing sex contrary to K.S.A. 77-207
+    url: https://www.kslegislature.gov/li/b2025_26/measures/sb244/
+  - cite: SB 180 (2023), K.S.A. 77-207
+    title:
+      en: Definition of sex as biological sex at birth
+    url: https://www.kslegislature.gov/li_2024/b2023_24/measures/sb180/
+  - cite: K.S.A. 65-2422c
+    title:
+      en: Amendment of vital records
+    url: https://www.kslegislature.gov/li/b2025_26/statute/065_000_0000_chapter/065_024_0000_article/065_024_0022c_section/065_024_0022c_k/
+litigation:
+  - case: Doe v. State of Kansas
+    court: District Court of Douglas County, Kansas
+    summary:
+      en: Challenges SB 244 under the Kansas Constitution, including restrictions on birth certificate sex markers. A temporary restraining order was denied March 10, 2026; a temporary injunction hearing was set for September 29, 2026.
+      es: Impugna SB 244 bajo la Constitución de Kansas, incluidas las restricciones a los marcadores de sexo en actas de nacimiento. Se negó una orden de restricción temporal el 10 de marzo de 2026; una audiencia sobre un mandato temporal se fijó para el 29 de septiembre de 2026.
+    effect_today:
+      en: No court order blocks SB 244 as of September 24, 2026.
+      es: Ninguna orden judicial bloquea SB 244 al 24 de septiembre de 2026.
+    last_update: "2026-09-24"
+    url: https://www.aclukansas.org/cases/doe-v-state-of-kansas/
+    sources: [aclu-doe]
+sources:
+  - id: sb244
+    url: https://kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year2/ready_for_publication/sb_244/sb244_enrolled.pdf
+    title: House Substitute for SB 244, enrolled text
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any birth certificate issued prior to July 1, 2026, that identifies the sex of the individual named on such certificate in a manner that is contrary to the definition of such term as defined in K.S.A. 2025 Supp. 77-207, and amendments thereto, shall be invalid.
+  - id: ksa-65-2422c
+    url: https://www.kslegislature.gov/li/b2025_26/statute/065_000_0000_chapter/065_024_0000_article/065_024_0022c_section/065_024_0022c_k/
+    title: K.S.A. 65-2422c
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: kdhe-vs
+    url: https://www.kdhe.ks.gov/220/Vital-Statistics
+    title: Vital Statistics
+    publisher: Kansas Department of Health and Environment
+    kind: official
+    accessed: "2026-09-24"
+    watch: true
+  - id: aclu-doe
+    url: https://www.aclukansas.org/cases/doe-v-state-of-kansas/
+    title: Doe v. State of Kansas
+    publisher: ACLU of Kansas
+    kind: org
+    accessed: "2026-09-24"

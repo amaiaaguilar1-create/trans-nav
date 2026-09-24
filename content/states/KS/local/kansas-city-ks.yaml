@@ -1,0 +1,165 @@
+jurisdiction: KS
+slug: kansas-city-ks
+name: Kansas City, Kansas
+area:
+  en: Kansas side of the Kansas City metro (Wyandotte and Johnson counties); some listed services are across the state line in Kansas City, Missouri.
+  es: Lado de Kansas del área metropolitana de Kansas City (condados de Wyandotte y Johnson); algunos servicios están en Kansas City, Missouri.
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Wyandotte County (29th Judicial District) and Johnson County (10th Judicial District) court pages were not
+    reached (wycokck.org returned 403; the jocogov.org district court URL we tried was a 404), so no court URL or
+    local fee is listed. Planned Parenthood and Equality Kansas pages blocked automated fetching; those entries are
+    unverified. KU Health System, Vivent Health, Johnson County STI testing, and Kansas Legal Services were read
+    on their own sites. Wichita (Sedgwick County, 18th Judicial District, dc18.org) was considered but has fewer
+    trans-specific services we could verify.
+intro:
+  en: >-
+    The Kansas City metro has the state's largest concentration of trans health services, anchored by The University
+    of Kansas Health System's gender-affirming medicine program. Name change petitions are filed in the district court
+    of the county where you live: Wyandotte County (29th Judicial District) or Johnson County (10th Judicial District).
+  es: >-
+    El área metropolitana de Kansas City tiene la mayor concentración de servicios de salud trans del estado, con el
+    programa de medicina de afirmación de género de The University of Kansas Health System. Las peticiones de cambio de
+    nombre se presentan en el tribunal de distrito del condado donde vives: Wyandotte (Distrito Judicial 29) o Johnson
+    (Distrito Judicial 10).
+court:
+  name: District Court of Wyandotte County (29th Judicial District) or Johnson County (10th Judicial District)
+  notes:
+    en: File in your county of residence. The statewide docket fee is $173 plus a court surcharge (about $195 total); confirm with the clerk.
+    es: Presenta en tu condado de residencia. La tarifa estatal es $173 más un recargo (unos $195); confirma con el secretario.
+  sources: [ksa-60-2001]
+resources:
+  - id: ku-health-gender-affirming-medicine
+    name: The University of Kansas Health System, Gender-Affirming Medicine
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Hormone therapy, adult surgery, voice therapy, primary care, and psychology, with nurse coordinators; adolescent care from 16. Call 913-588-6200.
+      es: Terapia hormonal, cirugía para adultos, terapia de voz, atención primaria y psicología, con coordinadoras de enfermería; adolescentes desde los 16. Llama al 913-588-6200.
+    url: https://www.kansashealthsystem.com/care/specialties/gender-affirming-medicine
+    phone: "913-588-6200"
+    cost: insurance
+    telehealth: true
+    verification: org_website
+    sources: [kuhs-gam]
+  - id: pp-overland-park
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains, Overland Park
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Reported to offer adult gender-affirming hormone therapy, STI testing, and PrEP. Call to confirm services and age limits.
+      es: Se reporta que ofrece terapia hormonal para adultos, pruebas de ITS y PrEP. Llama para confirmar servicios y edades.
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-gp]
+  - id: vivent-health-kc
+    name: Vivent Health Kansas City
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP, HIV/STI/hepatitis C testing, HIV care, primary care, behavioral health, and pharmacy, in Kansas City, Missouri. Phone 816-561-8784.
+      es: PrEP, pruebas de VIH/ITS/hepatitis C, atención de VIH, atención primaria, salud mental y farmacia, en Kansas City, Missouri. Teléfono 816-561-8784.
+    url: https://viventhealth.org/locations/kansas-city/
+    phone: "816-561-8784"
+    address: 4309 E 50th Terrace, Suite 100, Kansas City, MO 64130
+    cost: varies
+    verification: org_website
+    sources: [vivent]
+  - id: joco-sti
+    name: Johnson County Department of Health and Environment, STI Testing and Treatment
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: County walk-in health services including STI testing and treatment.
+      es: Servicios de salud del condado, incluidas pruebas y tratamiento de ITS.
+    url: https://www.jocogov.org/department/health/walk-health-services/sti-testing-treatment
+    cost: low_cost
+    verification: official_source
+    sources: [joco-sti]
+  - id: kansas-legal-services
+    name: Kansas Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free legal help for low- and moderate-income Kansans, with interactive name change and fee waiver forms. Apply at 316-267-3975.
+      es: Ayuda legal gratuita para personas de bajos y moderados ingresos, con formularios interactivos. Llama al 316-267-3975.
+    url: https://www.kansaslegalservices.org/
+    phone: "316-267-3975"
+    cost: free
+    verification: org_website
+    sources: [kls]
+  - id: equality-kansas
+    name: Equality Kansas
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ advocacy group with a Kansas City chapter; community connections and updates on SB 244.
+      es: Grupo estatal de defensa LGBTQ con capítulo en Kansas City; conexiones comunitarias y novedades sobre SB 244.
+    url: https://www.eqks.org/
+    cost: free
+    verification: unverified
+    sources: [eqks]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ksa-60-2001
+    url: https://www.kslegislature.gov/li/b2025_26/statute/060_000_0000_chapter/060_020_0000_article/060_020_0001_section/060_020_0001_k/
+    title: K.S.A. 60-2001, Docket fee
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: kuhs-gam
+    url: https://www.kansashealthsystem.com/care/specialties/gender-affirming-medicine
+    title: Gender-Affirming Medicine
+    publisher: The University of Kansas Health System
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-gp
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains
+    title: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+  - id: vivent
+    url: https://viventhealth.org/locations/kansas-city/
+    title: Vivent Health Kansas City
+    kind: org
+    accessed: "2026-09-24"
+  - id: joco-sti
+    url: https://www.jocogov.org/department/health/walk-health-services/sti-testing-treatment
+    title: STI Testing and Treatment
+    publisher: Johnson County, Kansas
+    kind: official
+    accessed: "2026-09-24"
+  - id: kls
+    url: https://www.kansaslegalservices.org/
+    title: Kansas Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: eqks
+    url: https://www.eqks.org/
+    title: Equality Kansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

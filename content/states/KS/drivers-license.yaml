@@ -1,0 +1,162 @@
+guide_type: drivers_license
+jurisdiction: KS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    SB 244 enrolled text (K.S.A. 8-243(g) as amended) read from the kslegislature.gov PDF 2026-09-24. The DOV
+    "Gender Reclassification" FAQ (ksrevenue.gov/dovgender.html) was read in full the same day and gives the March 25,
+    2026 surrender deadline. Fees come from the Kansas Credential Fee Chart (updated 5/2023). NOT CONFIRMED: exact dates
+    of the veto, the override votes, and Kansas Register publication (the bill page gives no dates; ACLU of Kansas says
+    the override happened by February 18, 2026); whether a fee is charged for the reissued card; the case number and
+    exact filing date of Doe v. State of Kansas (the ACLU case page says March 2, 2026, while its case list says March 6);
+    the result of the temporary injunction hearing set to begin September 29, 2026. Background not included here
+    because we did not read primary sources for it: the 2023 AG opinion and Shawnee County order that stopped marker
+    changes before SB 244.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Kansas does not allow changing the sex marker on a driver's license or ID. A 2026 law (SB 244) also made
+    licenses that had already been changed invalid; holders were told to surrender them by March 25, 2026. You can
+    still update your name.
+  es: >-
+    Kansas no permite cambiar el marcador de sexo en una licencia de conducir o identificación. Una ley de 2026
+    (SB 244) además invalidó las licencias que ya se habían cambiado; se ordenó entregarlas antes del 25 de marzo de
+    2026. Todavía puedes actualizar tu nombre.
+summary:
+  en: |
+    House Substitute for SB 244, passed over Governor Kelly's veto in February 2026, defines "gender" in the driver's license law as sex at birth (K.S.A. 77-207). Under the amended K.S.A. 8-243(g), any license issued before July 1, 2026 that shows a different gender "shall be invalid". The Division of Vehicles must correct its records, send written notice, and issue a new license showing sex assigned at birth when the old one is surrendered.
+
+    **If you had changed your marker**: the Division of Vehicles says affected people received a letter. You bring your current card to a driver's license office and surrender it. No other documents are needed; you get a temporary license right away and the new card by mail in 10 to 14 days. The Division says people who had not done this by close of business March 25, 2026 are "subject to all applicable penalties" if stopped by police. You can check whether your license is valid with the free online status check, which shows the same status police see.
+
+    **Name changes** are still processed normally with a certified court order.
+  es: |
+    House Substitute for SB 244, aprobada sobre el veto de la gobernadora Kelly en febrero de 2026, define "género" en la ley de licencias como el sexo al nacer (K.S.A. 77-207). Según K.S.A. 8-243(g), toda licencia emitida antes del 1 de julio de 2026 que muestre otro género es inválida. La División de Vehículos debe corregir sus registros, enviar un aviso por escrito y emitir una nueva licencia con el sexo asignado al nacer al entregar la anterior.
+
+    **Si habías cambiado tu marcador**: la División dice que las personas afectadas recibieron una carta. Llevas tu tarjeta a una oficina de licencias y la entregas. No se necesitan otros documentos; recibes una licencia temporal en el momento y la nueva por correo en 10 a 14 días. La División dice que quien no lo hizo antes del cierre del 25 de marzo de 2026 está sujeto a las sanciones aplicables si la policía lo detiene. Puedes revisar si tu licencia es válida en la consulta gratuita en línea, que muestra lo mismo que ve la policía.
+
+    Los **cambios de nombre** se siguen tramitando normalmente con una orden judicial certificada.
+eligibility:
+  other:
+    en: Applies to all Kansas driver's licenses and ID cards.
+    es: Aplica a todas las licencias e identificaciones de Kansas.
+  sources: [dov-gender, sb244]
+steps:
+  - id: check-status
+    title:
+      en: Check whether your license is still valid
+      es: Revisa si tu licencia sigue siendo válida
+    body:
+      en: If you ever changed the sex marker on a Kansas license or ID, use the Division of Vehicles' free driver's license status check. Its status is what police see.
+      es: Si alguna vez cambiaste el marcador de sexo en una licencia o identificación de Kansas, usa la consulta gratuita de estado de licencia de la División de Vehículos. Ese estado es el que ve la policía.
+    applies_to: [gender_marker]
+    sources: [dov-gender]
+  - id: surrender
+    title:
+      en: If your card was invalidated, surrender it for a new one
+      es: Si tu tarjeta fue invalidada, entrégala por una nueva
+    body:
+      en: Bring your current card to a driver's license office. No other documents are needed unless you are changing something else, like your address. You get a temporary license right away. If you believe your license was invalidated in error, you can appeal under K.S.A. 8-259, but an appeal does not keep your current card valid.
+      es: Lleva tu tarjeta actual a una oficina de licencias. No necesitas otros documentos a menos que cambies otra cosa, como tu dirección. Recibes una licencia temporal en el momento. Si crees que fue un error, puedes apelar según K.S.A. 8-259, pero la apelación no mantiene válida tu tarjeta.
+    applies_to: [gender_marker, in_person]
+    sources: [dov-gender]
+  - id: name-change
+    title:
+      en: Update your name with a certified court order
+      es: Actualiza tu nombre con una orden judicial certificada
+    body:
+      en: Update Social Security first, then bring the certified name change order and your current card to a driver's license office.
+      es: Actualiza primero el Seguro Social y luego lleva la orden certificada de cambio de nombre y tu tarjeta actual a una oficina de licencias.
+    fees: [name-change-dl, name-change-id]
+    applies_to: [name_change, in_person]
+    sources: [dov-fees]
+fees:
+  - id: name-change-dl
+    label:
+      en: Name change on a driver's license or learner's permit
+      es: Cambio de nombre en licencia de conducir o permiso
+    amount: 16
+    note:
+      en: $8 credential fee plus $8 photo fee.
+      es: $8 de credencial más $8 de foto.
+    sources: [dov-fees]
+  - id: name-change-id
+    label:
+      en: Name change on an ID card
+      es: Cambio de nombre en tarjeta de identificación
+    amount: 12
+    note:
+      en: $4 credential fee plus $8 photo fee.
+      es: $4 de credencial más $8 de foto.
+    sources: [dov-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Surrendering a card and name changes are done at a driver's license office.
+    es: La entrega de la tarjeta y los cambios de nombre se hacen en una oficina de licencias.
+  sources: [dov-gender]
+timeline:
+  en: Temporary license the same day; the permanent card arrives by mail in 10 to 14 days.
+  es: Licencia temporal el mismo día; la tarjeta llega por correo en 10 a 14 días.
+after:
+  en: Your Kansas license will show the sex assigned at birth. If you have a passport or another state's document with a different marker, carry what you need for travel and work, and talk to legal aid if an employer or landlord questions the mismatch.
+  es: Tu licencia de Kansas mostrará el sexo asignado al nacer. Si tienes un pasaporte u otro documento con otro marcador, lleva lo que necesites para viajar y trabajar, y consulta con asistencia legal si un empleador o arrendador cuestiona la diferencia.
+tips:
+  - en: Driving on a license the state has invalidated can lead to penalties. Check your status online before you drive.
+    es: Conducir con una licencia invalidada puede traer sanciones. Revisa tu estado en línea antes de conducir.
+statutes:
+  - cite: K.S.A. 8-243(g), as amended by H Sub for SB 244 (2026)
+    title:
+      en: Invalidation and reissue of licenses showing a gender other than sex at birth
+    url: https://www.kslegislature.gov/li/b2025_26/measures/sb244/
+  - cite: K.S.A. 77-207
+    title:
+      en: Statutory definitions of sex (from SB 180, 2023)
+    url: https://www.kslegislature.gov/li/b2025_26/statute/077_000_0000_chapter/077_002_0000_article/077_002_0007_section/077_002_0007_k/
+litigation:
+  - case: Doe v. State of Kansas
+    court: District Court of Douglas County, Kansas
+    summary:
+      en: Transgender Kansans represented by the ACLU, ACLU of Kansas, and Ballard Spahr challenge SB 244 under the Kansas Constitution, including the invalidation of driver's licenses. A temporary restraining order was denied March 10, 2026. An evidentiary hearing on a temporary injunction was set to begin September 29, 2026.
+      es: Personas trans representadas por la ACLU, ACLU de Kansas y Ballard Spahr impugnan SB 244 bajo la Constitución de Kansas, incluida la invalidación de licencias. Se negó una orden de restricción temporal el 10 de marzo de 2026. Una audiencia sobre un mandato temporal estaba fijada para comenzar el 29 de septiembre de 2026.
+    effect_today:
+      en: No court order blocks SB 244 as of September 24, 2026. The law is in effect.
+      es: Ninguna orden judicial bloquea SB 244 al 24 de septiembre de 2026. La ley está vigente.
+    last_update: "2026-09-24"
+    url: https://www.aclukansas.org/cases/doe-v-state-of-kansas/
+    sources: [aclu-doe]
+sources:
+  - id: sb244
+    url: https://kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year2/ready_for_publication/sb_244/sb244_enrolled.pdf
+    title: House Substitute for SB 244, enrolled text
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon the surrender of any such license, the director shall issue a new driver's license to such individual with the correct gender identification for such individual.
+  - id: dov-gender
+    url: https://www.ksrevenue.gov/dovgender.html
+    title: Gender Reclassification FAQs, Driver's License
+    publisher: Kansas Department of Revenue, Division of Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you have not changed your driver's license credentials already, you must now do so by close of business March 25, 2026.
+  - id: dov-fees
+    url: https://www.ksrevenue.gov/pdf/dmvlicfees.pdf
+    title: Kansas Credential Fee Chart
+    publisher: Kansas Department of Revenue, Division of Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change on ID $4.00 $8.00 $12.00. Name Change on DL or LP $8.00 $8.00 $16.00"
+  - id: aclu-doe
+    url: https://www.aclukansas.org/cases/doe-v-state-of-kansas/
+    title: Doe v. State of Kansas
+    publisher: ACLU of Kansas
+    kind: org
+    accessed: "2026-09-24"

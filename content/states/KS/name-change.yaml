@@ -1,0 +1,266 @@
+guide_type: name_change
+jurisdiction: KS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    K.S.A. 60-1401 and 60-1402 read on kslegislature.gov 2026-09-24. K.S.A. 60-2001 read the same day: $173 docket
+    fee, plus a Supreme Court surcharge of up to $22 that the text authorizes "through June 30, 2025". CONFIRM whether
+    the surcharge was extended (many sources cite about $195 total) and the current total in Wyandotte, Johnson, and
+    Sedgwick counties. kscourts.gov self-help pages and the Kansas Judicial Council forms page (kjc.ks.gov) blocked
+    automated access (Cloudflare/Akamai 403), so form names and numbers are NOT listed; forms are linked through Kansas
+    Legal Services' free forms page, which we did read. The 60-1402 text we read says the court may direct notice by
+    mail or by publication; we could not confirm a written safety waiver rule or statewide practice on waiving
+    publication for trans petitioners. No statute on sealing name change records was found. Minors' procedure not
+    confirmed from a primary source. A4TE's Kansas page did not render its content for automated fetching.
+status: available
+status_summary:
+  en: >-
+    Adults in Kansas can change their name by petitioning the district court in the county where they live, after 60
+    days of Kansas residence. Expect a filing fee of roughly $173 to $195 (or file a poverty affidavit), notice by mail
+    or newspaper publication as the judge directs, and a short hearing.
+  es: >-
+    En Kansas, las personas adultas pueden cambiar su nombre presentando una petición en el tribunal de distrito del
+    condado donde viven, después de 60 días de residencia en Kansas. Calcula una tarifa de unos $173 a $195 (o presenta
+    una declaración de pobreza), un aviso por correo o publicación en periódico según indique el juez, y una audiencia breve.
+summary:
+  en: |
+    Kansas district courts can change any person's name under K.S.A. 60-1401. You file a petition in the county where you live stating that you have lived in Kansas for at least 60 days, the reason for the change, and the name you want (K.S.A. 60-1402). The judge decides how notice must be given: by publication in a newspaper or by mail to interested people. At a hearing, if the judge is satisfied the petition is true and there is reasonable cause, the judge signs an order.
+
+    A name change is still fully available to trans Kansans. What Kansas no longer allows is changing the **sex marker** on a Kansas driver's license or birth certificate (see those guides). A court order changing your name does not change your legal sex under Kansas law.
+  es: |
+    Los tribunales de distrito de Kansas pueden cambiar el nombre de cualquier persona según K.S.A. 60-1401. Presentas una petición en el condado donde vives indicando que has vivido en Kansas al menos 60 días, el motivo del cambio y el nombre que deseas (K.S.A. 60-1402). El juez decide cómo se da el aviso: por publicación en un periódico o por correo a las personas interesadas. En una audiencia, si el juez considera que la petición es verdadera y hay causa razonable, firma una orden.
+
+    El cambio de nombre sigue plenamente disponible para las personas trans en Kansas. Lo que Kansas ya no permite es cambiar el **marcador de sexo** en una licencia de conducir o acta de nacimiento de Kansas (ver esas guías).
+eligibility:
+  residency:
+    en: You must have lived in Kansas for at least 60 days. File in the district court of the county where you live.
+    es: Debes haber vivido en Kansas al menos 60 días. Presenta la petición en el tribunal de distrito del condado donde vives.
+  age:
+    en: The adult process is for people 18 and older. For minors, see the Minors section.
+    es: El proceso de adultos es para mayores de 18 años. Para menores, ver la sección Menores.
+  sources: [ksa-60-1402]
+forms:
+  - id: kls-adult-name-change
+    name:
+      en: Adult Name Change in Kansas (Kansas Legal Services interactive form)
+      es: Cambio de nombre de adultos en Kansas (formulario interactivo de Kansas Legal Services)
+    url: https://lawhelpinteractive.org/Interview/GenerateInterview/7222/engine
+    required: always
+    how_to_fill:
+      en: |
+        - The interview produces the petition and related papers for you to print and file with the clerk.
+        - **Reason for the change**: a short, true statement is enough, such as "to use the name I am known by and that matches my gender identity." You do not need medical records.
+        - If newspaper publication would put you at risk, say so in the petition and ask the judge to order notice by mail only (or no notice). K.S.A. 60-1402 lets the court choose mail instead of publication.
+    sources: [kls-forms, ksa-60-1402]
+  - id: kls-fee-waiver
+    name:
+      en: Request to Waive Filing Fees / poverty affidavit (Kansas Legal Services interactive form)
+      es: Solicitud de exención de tarifas / declaración de pobreza (formulario interactivo de Kansas Legal Services)
+    url: https://lawhelpinteractive.org/Interview/GenerateInterview/2112/engine
+    required: optional
+    condition:
+      en: Only if you cannot afford the docket fee.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    sources: [kls-forms, ksa-60-2001]
+steps:
+  - id: prepare
+    title:
+      en: Prepare your petition
+      es: Prepara tu petición
+    body:
+      en: Use the free Kansas Legal Services interactive form, or ask your county's district court clerk or self-help center for the local name change packet. Decide whether to ask for mail notice instead of newspaper publication.
+      es: Usa el formulario interactivo gratuito de Kansas Legal Services o pide al secretario del tribunal de distrito de tu condado el paquete local de cambio de nombre. Decide si pedirás aviso por correo en lugar de publicación en periódico.
+    forms: [kls-adult-name-change]
+    sources: [kls-forms]
+  - id: file
+    title:
+      en: File with the district court clerk and pay the fee
+      es: Presenta la petición ante el secretario del tribunal y paga la tarifa
+    body:
+      en: File in the county where you live. Pay the docket fee, or file a poverty affidavit so no fee is charged. Many Kansas courts accept electronic filing; ask the clerk. The clerk or judge will set a hearing date.
+      es: Presenta la petición en el condado donde vives. Paga la tarifa o presenta una declaración de pobreza para no pagar. Muchos tribunales de Kansas aceptan presentación electrónica; pregunta al secretario. Se fijará una fecha de audiencia.
+    forms: [kls-fee-waiver]
+    fees: [docket-fee]
+    sources: [ksa-60-2001]
+  - id: notice
+    title:
+      en: Give notice the way the judge orders
+      es: Da aviso en la forma que ordene el juez
+    body:
+      en: If the judge orders publication, the notice runs in a local newspaper under K.S.A. 60-307 and you pay the newspaper and file its proof of publication. If the judge orders notice by mail, send it by certified or registered mail to the people the court names.
+      es: Si el juez ordena publicación, el aviso se publica en un periódico local según K.S.A. 60-307; pagas al periódico y presentas la prueba de publicación. Si ordena aviso por correo, envíalo por correo certificado o registrado a las personas que indique el tribunal.
+    fees: [publication]
+    sources: [ksa-60-1402]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: The judge asks you to confirm the facts in your petition. If the judge is satisfied that they are true and that there is reasonable cause for the change, the judge signs the order changing your name.
+      es: El juez te pide confirmar los datos de tu petición. Si está convencido de que son verdaderos y hay causa razonable, firma la orden de cambio de nombre.
+    sources: [ksa-60-1402]
+  - id: copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Ask the clerk for several certified copies. Social Security, the Division of Vehicles, the passport agency, and banks each want one.
+      es: Pide al secretario varias copias certificadas. El Seguro Social, la División de Vehículos, la agencia de pasaportes y los bancos piden una cada uno.
+    sources: [ksa-60-1402]
+fees:
+  - id: docket-fee
+    label:
+      en: District court docket fee
+      es: Tarifa de registro del tribunal de distrito
+    min: 173
+    max: 195
+    waivable: true
+    note:
+      en: The statute sets a $173 docket fee; a court surcharge of up to $22 has been added, for about $195 total. Confirm the current amount with your county clerk.
+      es: La ley fija $173; se ha sumado un recargo judicial de hasta $22, para un total de unos $195. Confirma el monto con el secretario de tu condado.
+    sources: [ksa-60-2001]
+  - id: publication
+    label:
+      en: Newspaper publication (only if the judge orders it)
+      es: Publicación en periódico (solo si el juez la ordena)
+    varies_by: vendor
+    note:
+      en: Set by the newspaper; ask for a quote before you file.
+      es: La fija el periódico; pide una cotización antes de presentar.
+    sources: [ksa-60-1402]
+fee_waiver:
+  available: true
+  forms: [kls-fee-waiver]
+  eligibility:
+    en: If you cannot pay the docket fee because of poverty, file an affidavit saying so and no fee is required (K.S.A. 60-2001(b)).
+    es: Si no puedes pagar por pobreza, presenta una declaración jurada y no se cobra la tarifa (K.S.A. 60-2001(b)).
+  how:
+    en: File the poverty affidavit with your petition. The judge may ask about your income. Publication costs are separate; ask the judge to order notice by mail if you cannot pay a newspaper.
+    es: Presenta la declaración de pobreza con tu petición. El juez puede preguntar por tus ingresos. La publicación es aparte; pide aviso por correo si no puedes pagar el periódico.
+  sources: [ksa-60-2001, kls-forms]
+publication:
+  required: conditional
+  detail:
+    en: The court directs notice either by newspaper publication (K.S.A. 60-307) or by certified or registered mail. There is no written exemption for trans petitioners, but the judge can choose mail instead of publication.
+    es: El tribunal ordena el aviso por publicación en periódico (K.S.A. 60-307) o por correo certificado o registrado. No hay exención escrita para personas trans, pero el juez puede elegir correo en lugar de publicación.
+  waiver_available: true
+  waiver_how:
+    en: In your petition (or a separate motion), explain why publishing your old and new names would put your safety or privacy at risk and ask for notice by mail only. Legal aid can help you word this.
+    es: En tu petición (o una moción aparte), explica por qué publicar tus nombres pondría en riesgo tu seguridad o privacidad y pide aviso solo por correo.
+  sources: [ksa-60-1402]
+hearing:
+  required: "yes"
+  detail:
+    en: The statute calls for a hearing before the order is signed. Hearings are usually short.
+    es: La ley exige una audiencia antes de firmar la orden. Suelen ser breves.
+  sources: [ksa-60-1402]
+background_check:
+  required: "no"
+  detail:
+    en: The name change statutes do not require fingerprints or a background check.
+    es: Las leyes de cambio de nombre no exigen huellas ni verificación de antecedentes.
+  sources: [ksa-60-1402]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: We found no Kansas statute that seals name change records. The case is generally a public court record. You can ask the judge to limit access if you face a safety risk.
+    es: No encontramos una ley de Kansas que selle estos expedientes. El caso es en general un registro público. Puedes pedir al juez que limite el acceso si corres riesgo.
+  sources: [ksa-60-1402]
+minors:
+  summary:
+    en: A parent or guardian files for a child in the county where the child lives. Courts generally require notice to both parents; confirm the local procedure with your clerk or Kansas Legal Services.
+    es: Un padre, madre o tutor presenta la petición por el menor en el condado donde vive. Los tribunales suelen exigir aviso a ambos padres; confirma el procedimiento local con el secretario o Kansas Legal Services.
+  sources: [kls-forms]
+timeline:
+  en: Usually one to two months from filing to order, depending on the court's hearing calendar and any publication period.
+  es: Normalmente uno a dos meses desde la presentación hasta la orden, según el calendario del tribunal y la publicación.
+after:
+  en: |
+    1. **Social Security**: update your name first (Form SS-5, with a certified copy of the order).
+    2. **Driver's license or ID**: bring the certified order to a Division of Vehicles office ($16 for a license, $12 for an ID). The sex marker will stay as assigned at birth.
+    3. **Birth certificate** (if born in Kansas): ask KDHE Vital Statistics to amend the name.
+    4. **Passport**, then banks, employer, and everything else.
+  es: |
+    1. **Seguro Social**: actualiza tu nombre primero (Formulario SS-5, con copia certificada de la orden).
+    2. **Licencia o identificación**: lleva la orden certificada a una oficina de la División de Vehículos ($16 licencia, $12 identificación). El marcador de sexo seguirá siendo el asignado al nacer.
+    3. **Acta de nacimiento** (si naciste en Kansas): pide a Estadísticas Vitales de KDHE que enmiende el nombre.
+    4. **Pasaporte**, y luego bancos, empleador y todo lo demás.
+tips:
+  - en: Ask the clerk whether your county has a self-help center or a name change packet; local forms vary.
+    es: Pregunta al secretario si tu condado tiene un centro de autoayuda o un paquete de formularios; varían según el condado.
+  - en: Order extra certified copies at the start; it is cheaper than coming back.
+    es: Pide copias certificadas adicionales desde el principio.
+local_help:
+  - id: kansas-legal-services
+    name: Kansas Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide legal aid for low- and moderate-income Kansans; free interactive name change and fee waiver forms. Call 316-267-3975 to apply.
+      es: Asistencia legal en todo el estado para personas de bajos ingresos; formularios interactivos gratuitos. Llama al 316-267-3975.
+    url: https://www.kansaslegalservices.org/
+    phone: "316-267-3975"
+    cost: free
+    verification: org_website
+    sources: [kls-forms]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: fund
+    pillars: [name_change, mental_health]
+    description:
+      en: Peer hotline (877-565-8860); microgrants for name change and ID fees when funding allows.
+      es: Línea de apoyo (877-565-8860); microsubvenciones para tarifas de cambio de nombre cuando hay fondos.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: K.S.A. 60-1401
+    title:
+      en: District court authority to change names
+    url: https://www.kslegislature.gov/li/b2025_26/statute/060_000_0000_chapter/060_014_0000_article/060_014_0001_section/060_014_0001_k/
+  - cite: K.S.A. 60-1402
+    title:
+      en: Petition, notice, and order for change of a person's name
+    url: https://www.kslegislature.gov/li/b2025_26/statute/060_000_0000_chapter/060_014_0000_article/060_014_0002_section/060_014_0002_k/
+  - cite: K.S.A. 60-2001
+    title:
+      en: Docket fee and poverty affidavit
+    url: https://www.kslegislature.gov/li/b2025_26/statute/060_000_0000_chapter/060_020_0000_article/060_020_0001_section/060_020_0001_k/
+related_links:
+  - title: Advocates for Trans Equality, Kansas
+    url: https://transequality.org/documents/state/kansas
+    note:
+      en: Check the page's last-updated date; Kansas rules changed in 2026.
+      es: Revisa la fecha de actualización; las reglas de Kansas cambiaron en 2026.
+sources:
+  - id: ksa-60-1402
+    url: https://www.kslegislature.gov/li/b2025_26/statute/060_000_0000_chapter/060_014_0000_article/060_014_0002_section/060_014_0002_k/
+    title: K.S.A. 60-1402, Change of name of person
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If upon hearing the judge is satisfied as to the truth of the allegations of the petition, and that there is reasonable cause for changing the name of the petitioner the judge shall so order.
+  - id: ksa-60-2001
+    url: https://www.kslegislature.gov/li/b2025_26/statute/060_000_0000_chapter/060_020_0000_article/060_020_0001_section/060_020_0001_k/
+    title: K.S.A. 60-2001, Docket fee
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In any case where a plaintiff by reason of poverty is unable to pay a docket fee, and an affidavit so stating is filed, no fee will be required.
+  - id: kls-forms
+    url: https://www.kansaslegalservices.org/page/785/free-legal-forms
+    title: Free Legal Forms
+    publisher: Kansas Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

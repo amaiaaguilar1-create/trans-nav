@@ -1,0 +1,127 @@
+code: KS
+name:
+  en: Kansas
+  es: Kansas
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on H Sub for SB 244 (2026, enrolled text read on kslegislature.gov), SB 180 (2023),
+    SB 63 (2025), and the Division of Vehicles gender reclassification FAQ. Equality Kansas (eqks.org) returned an
+    empty page to automated fetching; its listing is unverified. Kansas has no shield law that we found.
+overview:
+  en: >-
+    Kansas is one of the most restrictive states for trans people's identity documents. A 2026 law (H Sub for SB 244,
+    passed over the governor's veto) declared driver's licenses and birth certificates showing a sex other than sex
+    assigned at birth **invalid**, including ones changed years ago, and Kansas no longer changes the sex marker on
+    either document. Name changes through district court are still available. Adults can get hormone therapy legally;
+    the 2025 ban on medical transition for minors (SB 63) is partly blocked by a state court while a lawsuit continues.
+  es: >-
+    Kansas es uno de los estados más restrictivos para los documentos de identidad de las personas trans. Una ley de
+    2026 (H Sub for SB 244, aprobada sobre el veto de la gobernadora) declaró **inválidas** las licencias de conducir y
+    actas de nacimiento que muestran un sexo distinto al asignado al nacer, incluso las cambiadas hace años, y Kansas
+    ya no cambia el marcador de sexo en ninguno de los dos documentos. El cambio de nombre en el tribunal de distrito
+    sigue disponible. Los adultos pueden recibir terapia hormonal legalmente; la prohibición de 2025 para menores
+    (SB 63) está parcialmente bloqueada por un tribunal estatal mientras continúa una demanda.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [sb244, sb63, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [kansas-city-ks]
+key_resources:
+  - id: kansas-legal-services
+    name: Kansas Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide nonprofit law firm for low- and moderate-income Kansans. Its free forms page links an interactive adult name change form and a fee waiver (poverty affidavit) form. Apply at 316-267-3975, Monday to Friday 8:00 a.m. to 4:30 p.m.
+      es: Bufete sin fines de lucro para personas de ingresos bajos y moderados en todo Kansas. Su página de formularios gratuitos enlaza un formulario interactivo de cambio de nombre para adultos y uno de exención de tarifas. Solicita ayuda al 316-267-3975, de lunes a viernes de 8:00 a.m. a 4:30 p.m.
+    url: https://www.kansaslegalservices.org/
+    phone: "316-267-3975"
+    cost: free
+    verification: org_website
+    sources: [kls]
+  - id: aclu-kansas
+    name: ACLU of Kansas
+    type: advocacy_org
+    pillars: [gender_marker, hrt]
+    description:
+      en: Represents the plaintiffs challenging SB 244 (Doe v. State of Kansas) and the minors' care ban (Loe v. Kansas). Follow its case pages for updates on what applies right now.
+      es: Representa a quienes demandan contra SB 244 (Doe v. State of Kansas) y contra la prohibición de atención para menores (Loe v. Kansas). Sigue sus páginas de casos para saber qué aplica ahora.
+    url: https://www.aclukansas.org/
+    cost: free
+    verification: org_website
+    sources: [aclu-doe]
+  - id: equality-kansas
+    name: Equality Kansas
+    type: advocacy_org
+    pillars: [gender_marker, mental_health]
+    description:
+      en: Statewide LGBTQ advocacy organization with local chapters, including Wichita and Kansas City. Contact it for community connections and legislative updates.
+      es: Organización estatal de defensa LGBTQ con capítulos locales, incluidos Wichita y Kansas City. Contáctala para conexiones comunitarias y novedades legislativas.
+    url: https://www.eqks.org/
+    cost: free
+    verification: unverified
+    sources: [eqks]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860. Also runs microgrants for ID document fees when funding allows.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. También otorga microsubvenciones para tarifas de documentos cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: sb244
+    url: https://www.kslegislature.gov/li/b2025_26/measures/sb244/
+    title: House Substitute for SB 244 (2026)
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any driver's license issued prior to July 1, 2026, that identifies the gender of the individual named on such license in a manner that is contrary to the definition of such term as defined in K.S.A. 2025 Supp. 77-207, and amendments thereto, shall be invalid.
+  - id: sb63
+    url: https://www.kslegislature.gov/li/b2025_26/measures/sb63/
+    title: SB 63 (2025), Help Not Harm Act
+    publisher: Kansas Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: kls
+    url: https://www.kansaslegalservices.org/page/785/free-legal-forms
+    title: Free Legal Forms
+    publisher: Kansas Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-doe
+    url: https://www.aclukansas.org/cases/doe-v-state-of-kansas/
+    title: Doe v. State of Kansas
+    publisher: ACLU of Kansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: eqks
+    url: https://www.eqks.org/
+    title: Equality Kansas
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
