@@ -1,0 +1,135 @@
+code: GA
+name:
+  en: Georgia
+  es: Georgia
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings follow the guides: name changes require four weeks of newspaper publication; license and birth
+    certificate sex changes require surgery; SB 140 bans hormones and surgery for minors; no shield law; no insurance
+    nondiscrimination law. MAP's Georgia profile (read 2026-09-24) agrees (identity documents score -2.5/4; health
+    care 0.75/10). See care.yaml notes on the unresolved Medicaid question.
+overview:
+  en: >-
+    Georgia is restrictive for trans people's documents and for minors' care. Name changes go through Superior Court
+    with four weeks of mandatory newspaper publication, and the driver's license and birth certificate sex markers can
+    be changed only after surgery (M or F only). Adults can get hormone therapy and surgery, but hormones and
+    surgery are banned for minors (SB 140, 2023), there is no shield law, and state law does not require insurers to
+    cover gender-affirming care.
+  es: >-
+    Georgia es restrictiva para los documentos de las personas trans y para la atención de menores. Los cambios de
+    nombre pasan por el Tribunal Superior con cuatro semanas de publicación obligatoria en periódico, y el marcador de
+    sexo de la licencia y del acta de nacimiento solo se cambia después de una cirugía (solo M o F). Los adultos pueden
+    recibir terapia hormonal y cirugía, pero las hormonas y la cirugía están prohibidas para menores (SB 140, 2023), no
+    hay ley escudo y la ley estatal no obliga a las aseguradoras a cubrir esta atención.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [map-profile, dds-rule, ocga-31-10-23, ga-sb140]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [atlanta]
+key_resources:
+  - id: georgia-legal-aid
+    name: GeorgiaLegalAid.org (Georgia Legal Services Program and Atlanta Legal Aid Society)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free statewide legal information on name and gender marker changes, guided interviews that produce court forms, and a sample doctor's letter.
+      es: Información legal gratuita en todo el estado sobre cambios de nombre y marcador de género, entrevistas guiadas que generan formularios y una carta médica de ejemplo.
+    url: https://www.georgialegalaid.org/resource/what-should-i-know-about-name-changes-and-gender-marker-changes-in-georgia
+    cost: free
+    verification: org_website
+    sources: [gla-name-gender]
+  - id: lambda-legal-south
+    name: Lambda Legal, Southern Regional Office (Atlanta)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: National LGBTQ+ legal organization with its Southern Regional Office in Atlanta; free Help Desk for legal information and referrals.
+      es: Organización legal LGBTQ+ nacional con su Oficina Regional del Sur en Atlanta; mesa de ayuda gratuita para información legal y referencias.
+    url: https://lambdalegal.org/southern-region/
+    cost: free
+    verification: org_website
+    sources: [lambda-south]
+  - id: georgia-equality
+    name: Georgia Equality
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Statewide LGBTQ+ advocacy organization; its TransAction Georgia program works on trans policy and publishes resources, including a transgender voting ID toolkit.
+      es: Organización estatal de defensa LGBTQ+; su programa TransAction Georgia trabaja en políticas trans y publica recursos, incluida una guía de identificación para votar.
+    url: https://georgiaequality.org/issues/transaction-ga-2/
+    phone: "404-523-3070"
+    cost: free
+    verification: org_website
+    sources: [georgia-equality]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/GA
+    title: Georgia equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Overall Gender Identity Score for Identity Documents: -2.5/4. Health Care Total: 0.75/10."
+  - id: dds-rule
+    url: https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-375-3-1-.17
+    title: Ga. Comp. R. & Regs. R. 375-3-1-.17, Changing Gender on License
+    publisher: Legal Information Institute (Cornell)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: A person may have the gender designation on their driver's license changed after a gender reassignment operation.
+  - id: ocga-31-10-23
+    url: https://codes.findlaw.com/ga/title-31-health/ga-code-sect-31-10-23/
+    title: O.C.G.A. § 31-10-23, Amendment of certificates or reports
+    publisher: FindLaw
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of a court order indicating the sex of an individual born in this state has been changed by surgical procedure and that such individual's name has been changed, the certificate of birth of such individual shall be amended.
+  - id: ga-sb140
+    url: https://www.legis.ga.gov/legislation/64231
+    title: SB 140 (2023), treatment of gender dysphoria in minors
+    publisher: Georgia General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: gla-name-gender
+    url: https://www.georgialegalaid.org/resource/what-should-i-know-about-name-changes-and-gender-marker-changes-in-georgia
+    title: What should I know about name changes and gender marker changes in Georgia?
+    publisher: GeorgiaLegalAid.org
+    kind: org
+    accessed: "2026-09-24"
+  - id: lambda-south
+    url: https://lambdalegal.org/southern-region/
+    title: Southern Regional Office
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: georgia-equality
+    url: https://georgiaequality.org/issues/transaction-ga-2/
+    title: Transgender Advocacy (TransAction Georgia)
+    publisher: Georgia Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,489 @@
+guide_type: name_change
+jurisdiction: GA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. Statute text (O.C.G.A. § 19-12-1) was read through FindLaw (version current as of March 2024);
+    Georgia's official code is hosted by LexisNexis and Justia/FindLaw block automated fetches, so a reviewer should
+    confirm the text against the official O.C.G.A. and check for 2025-2026 amendments (the Georgia General Assembly's
+    bill records show HB 681 (2025), which would have allowed sealing of name change petitions on request, never got
+    past second reading in the House). Fees: Fulton County Clerk's online fee schedule lists a general civil action at
+    $218 effective July 1, 2024, but the Clerk's downloadable PDF schedule still shows $215 (effective 2019); the
+    web page figure is used. There is no separate name-change fee line, so confirm with the clerk. Publication cost
+    (about $80) and the statewide filing range ($200 to $250) come from GeorgiaLegalAid.org (last updated July 2022),
+    not a primary source. Fulton's forms are dated 2014-2015 and instruct publication in the Fulton County Daily
+    Report; confirm the current legal organ. Hearing practice (whether the judge requires you to appear) varies by
+    county and was not confirmed outside Fulton. A4TE's Georgia page shows no last-updated date. MAP agrees Georgia
+    requires publication.
+status: restricted
+status_summary:
+  en: >-
+    You can legally change your name in Georgia by petitioning the Superior Court in the county where you live, but
+    the law requires you to publish a notice in the county's legal newspaper once a week for four weeks. The only
+    exception is for victims of family violence or human trafficking. Expect about $300 in total costs unless you
+    file an affidavit of indigence.
+  es: >-
+    Puedes cambiar tu nombre legalmente en Georgia con una petición ante el Tribunal Superior del condado donde vives,
+    pero la ley exige publicar un aviso en el periódico legal del condado una vez por semana durante cuatro semanas.
+    La única excepción es para víctimas de violencia familiar o trata de personas. Calcula unos $300 en total, a
+    menos que presentes una declaración jurada de indigencia.
+summary:
+  en: |
+    Georgia name changes are governed by O.C.G.A. § 19-12-1. Anyone may ask the Superior Court of the county where they live to change their name. There is no statewide form: each county's clerk or self-help center provides its own petition packet, and GeorgiaLegalAid.org has a free guided interview that produces the forms.
+
+    The process has three parts that make Georgia harder than many states:
+    - **Newspaper publication.** Within seven days of filing, you must publish a notice of your petition (old name, new name, court, and filing date) in the county's legal organ once a week for four weeks. This makes your old and new names public.
+    - **Waiting period and hearing.** An adult's petition can be heard no sooner than 30 days after filing. Fulton County gives you a court date when you file and expects you to appear.
+    - **No gender-identity-specific process.** You do not have to give your gender identity as the reason; courts must grant a name change that is not for fraud. A court order that also mentions a change of sex is what Georgia's vital records office requires for a birth certificate (see that guide).
+  es: |
+    Los cambios de nombre en Georgia se rigen por O.C.G.A. § 19-12-1. Cualquier persona puede pedir al Tribunal Superior del condado donde vive que cambie su nombre. No hay un formulario estatal: cada secretaría de condado o centro de autoayuda tiene su propio paquete, y GeorgiaLegalAid.org ofrece una entrevista guiada gratuita que genera los formularios.
+
+    Tres aspectos hacen que Georgia sea más difícil que muchos estados:
+    - **Publicación en periódico.** Dentro de los siete días siguientes a la presentación, debes publicar un aviso de tu petición (nombre anterior, nombre nuevo, tribunal y fecha) en el periódico legal del condado una vez por semana durante cuatro semanas. Esto hace públicos tus nombres anterior y nuevo.
+    - **Periodo de espera y audiencia.** La petición de un adulto se puede ver como mínimo 30 días después de presentarla. El condado de Fulton te asigna una fecha de audiencia al presentar y espera que comparezcas.
+    - **No hay un proceso específico por identidad de género.** No tienes que dar tu identidad de género como motivo; el tribunal debe conceder un cambio de nombre que no sea para cometer fraude.
+eligibility:
+  residency:
+    en: File in the Superior Court of the Georgia county where you live. Fulton County's packet says you must have lived in Fulton County for at least six months before filing.
+    es: Presenta la petición en el Tribunal Superior del condado de Georgia donde vives. El paquete del condado de Fulton indica que debes haber vivido allí al menos seis meses antes de presentar.
+  age:
+    en: 18 or older to file for yourself. A parent or guardian files for a child under 18 (see Minors).
+    es: 18 años o más para presentar por ti mismo. Un padre, madre o tutor presenta por un menor de 18 (ver Menores).
+  criminal_history:
+    en: >-
+      The statute does not bar people with a criminal record, but the purpose of publication is to let anyone object
+      that the change is meant to defraud or hide a record. Expect the judge to ask.
+    es: >-
+      La ley no excluye a personas con antecedentes penales, pero la publicación sirve para que cualquiera pueda
+      objetar que el cambio busca defraudar u ocultar antecedentes. El juez puede preguntar.
+  sources: [ocga-19-12-1, fulton-instructions, gla-name-gender]
+forms:
+  - id: Fulton Petition to Change Name of Adult
+    name:
+      en: Petition to Change Name (of an Adult), Fulton County Superior Court
+      es: Petición de cambio de nombre (adulto), Tribunal Superior del condado de Fulton
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Petition%20for%20Adult%20Name%20Change.pdf
+    required: always
+    condition:
+      en: This is Fulton County's form. Other counties (DeKalb, Cobb, Gwinnett, and so on) use their own; ask the clerk or use the GeorgiaLegalAid.org guided interview.
+      es: Este es el formulario del condado de Fulton. Otros condados usan el suyo; pregunta en la secretaría o usa la entrevista guiada de GeorgiaLegalAid.org.
+    how_to_fill:
+      en: |
+        - Caption: your current legal name next to "Petitioner". Leave the case number blank; the clerk fills it in.
+        - Paragraph 1: current full name, home address, phone, and year and place of birth.
+        - Paragraph 2: the complete new name. Do not use initials.
+        - Paragraph 3 (reason): a short, truthful reason is enough, for example "to reflect the name I use in daily life." You are not required to mention gender identity or give medical information. If you will also want a birth certificate change, talk to a lawyer first: Georgia vital records wants a court order that states the sex change.
+        - Sign and date. The separate Verification page must be signed in front of a notary.
+      es: |
+        - Encabezado: tu nombre legal actual junto a "Petitioner". Deja en blanco el número de caso.
+        - Párrafo 1: nombre completo actual, domicilio, teléfono y año y lugar de nacimiento.
+        - Párrafo 2: el nombre nuevo completo, sin iniciales.
+        - Párrafo 3 (motivo): basta un motivo breve y veraz, por ejemplo "para reflejar el nombre que uso en mi vida diaria". No tienes que mencionar tu identidad de género ni dar información médica. Si también quieres cambiar tu acta de nacimiento, consulta primero con un abogado.
+        - Firma y fecha. La página de Verificación debe firmarse ante notario.
+    sources: [fulton-instructions, fulton-petition]
+  - id: Fulton Notice of Petition to Change Name
+    name:
+      en: Notice of Petition to Change Name (the text that gets published)
+      es: Aviso de petición de cambio de nombre (el texto que se publica)
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Notice%20of%20Petition%20for%20Adult%20Name%20Change.pdf
+    required: always
+    sources: [fulton-instructions, fulton-notice]
+  - id: Fulton Final Order Changing Name of Adult
+    name:
+      en: Final Order Changing Name of Adult (proposed order for the judge to sign)
+      es: Orden final de cambio de nombre de adulto (orden propuesta para firma del juez)
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Final%20Decree%20for%20Adult%20Name%20Change.pdf
+    required: always
+    sources: [fulton-forms]
+  - id: GLA name change interview
+    name:
+      en: GeorgiaLegalAid.org name change guided interview (any county)
+      es: Entrevista guiada de cambio de nombre de GeorgiaLegalAid.org (cualquier condado)
+    url: https://www.georgialegalaid.org/resource/forms-for-a-name-change-in-georgia-guided-interview
+    required: optional
+    condition:
+      en: Free tool from Atlanta Legal Aid Society and Georgia Legal Services Program that produces printable petition forms if your county has no packet.
+      es: Herramienta gratuita de Atlanta Legal Aid Society y Georgia Legal Services Program que genera formularios imprimibles si tu condado no tiene paquete.
+    sources: [gla-interview]
+steps:
+  - id: get-forms
+    title:
+      en: Get your county's name change packet
+      es: Consigue el paquete de cambio de nombre de tu condado
+    body:
+      en: |
+        In Fulton County, download the adult packet from the Superior Court's Family Law forms page or pick it up at the Justice Resource Center (free online; $5 in person). Outside Fulton, ask your Superior Court clerk (find yours at gaclerks.org) or use the free GeorgiaLegalAid.org guided interview. A typical packet has a petition, a notarized verification, a notice of petition for publication, and a proposed final order.
+      es: |
+        En Fulton, descarga el paquete para adultos de la página de formularios de derecho familiar del Tribunal Superior o recógelo en el Justice Resource Center (gratis en línea; $5 en persona). Fuera de Fulton, pregunta en la secretaría del Tribunal Superior (búscala en gaclerks.org) o usa la entrevista guiada gratuita de GeorgiaLegalAid.org.
+    forms: [Fulton Petition to Change Name of Adult, Fulton Notice of Petition to Change Name, Fulton Final Order Changing Name of Adult, GLA name change interview]
+    sources: [fulton-forms, fulton-jrc, gla-interview, georgia-gov]
+  - id: fee-waiver
+    title:
+      en: If you cannot afford the fees, prepare an affidavit of indigence
+      es: Si no puedes pagar, prepara una declaración jurada de indigencia
+    body:
+      en: Georgia law lets you file without paying court costs if you swear in an affidavit that you cannot pay them (O.C.G.A. § 9-15-2). Have it notarized and file it with your petition. The judge can question it. It does not cover the newspaper's publication charge.
+      es: La ley de Georgia te permite presentar sin pagar costos judiciales si declaras bajo juramento que no puedes pagarlos (O.C.G.A. § 9-15-2). Hazla notarizar y preséntala con tu petición. No cubre el cobro del periódico por la publicación.
+    optional: true
+    sources: [ocga-9-15-2, gla-name-gender]
+  - id: file
+    title:
+      en: File with the Superior Court clerk and get a court date
+      es: Presenta en la secretaría del Tribunal Superior y obtén una fecha de audiencia
+    body:
+      en: Make a copy of everything, then file the originals with the Clerk of Superior Court in your county (in person or by e-filing where offered) and pay the filing fee. In Fulton County, you get your court date when you file.
+      es: Haz una copia de todo y presenta los originales en la secretaría del Tribunal Superior de tu condado (en persona o por vía electrónica donde se ofrezca) y paga la tarifa. En Fulton te dan la fecha de audiencia al presentar.
+    fees: [filing]
+    sources: [fulton-instructions, fulton-fees, georgia-gov]
+  - id: publish
+    title:
+      en: Publish the notice once a week for four weeks
+      es: Publica el aviso una vez por semana durante cuatro semanas
+    body:
+      en: |
+        Within 7 days of filing, take the Notice of Petition to the county's legal organ (the newspaper designated for legal notices; in Fulton the instructions name the Fulton County Daily Report). It must run once a week for four consecutive weeks before your court date. The newspaper gives you a **Publisher's Affidavit** as proof; bring it to court.
+
+        If you are a victim of family violence or human trafficking, you can instead ask the court to file your petition under seal and waive publication (see Publication).
+      es: |
+        Dentro de los 7 días siguientes a la presentación, lleva el aviso al periódico legal del condado (en Fulton, las instrucciones indican el Fulton County Daily Report). Debe publicarse una vez por semana durante cuatro semanas consecutivas antes de tu audiencia. El periódico te da una **declaración jurada del editor** como prueba; llévala al tribunal.
+
+        Si eres víctima de violencia familiar o trata de personas, puedes pedir que tu petición se presente bajo sello y se exima la publicación.
+    fees: [publication]
+    estimated_time:
+      en: 4 weeks
+      es: 4 semanas
+    sources: [ocga-19-12-1, fulton-instructions]
+  - id: hearing
+    title:
+      en: Go to your court date
+      es: Asiste a tu audiencia
+    body:
+      en: Bring photo ID and the Publisher's Affidavit. The hearing can happen no sooner than 30 days after filing for an adult. Only someone claiming fraud has grounds to object. If the judge grants it, the judge signs the final order.
+      es: Lleva identificación con foto y la declaración jurada del editor. La audiencia puede realizarse como mínimo 30 días después de la presentación para un adulto. Solo alguien que alegue fraude tiene motivos para objetar. Si el juez lo concede, firma la orden final.
+    sources: [ocga-19-12-1, gla-name-gender]
+  - id: certified-copies
+    title:
+      en: Buy certified copies of the final order
+      es: Compra copias certificadas de la orden final
+    body:
+      en: Get 3 or 4 certified copies from the clerk. In Fulton, a certified copy costs $2.50 for the first page plus $0.50 for each additional page.
+      es: Pide 3 o 4 copias certificadas en la secretaría. En Fulton, cada copia certificada cuesta $2.50 por la primera página más $0.50 por cada página adicional.
+    fees: [certified-copies]
+    sources: [fulton-fees]
+  - id: update-documents
+    title:
+      en: Update your other documents
+      es: Actualiza tus demás documentos
+    body:
+      en: |
+        1. **Social Security** first (free). The name changes; the sex field currently cannot be changed.
+        2. **Georgia DDS** license or ID within 60 days of the order (see the driver's license guide).
+        3. **Birth certificate** if you were born in Georgia (see that guide; the name alone can be amended with a court order, but the office also asks for a physician's statement).
+        4. **Passport**, bank, employer, insurance, voter registration.
+      es: |
+        1. **Seguro Social** primero (gratis). El nombre cambia; el campo de sexo actualmente no se puede cambiar.
+        2. Licencia o identificación del **DDS de Georgia** dentro de los 60 días siguientes a la orden.
+        3. **Acta de nacimiento** si naciste en Georgia (ver esa guía).
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante.
+    sources: [dds-faq, dph-3977]
+fees:
+  - id: filing
+    label:
+      en: Superior Court filing fee (civil action)
+      es: Tarifa de presentación en el Tribunal Superior (acción civil)
+    amount: 218
+    min: 200
+    max: 250
+    varies_by: county
+    waivable: true
+    note:
+      en: $218 is Fulton County's general civil action fee (effective July 1, 2024). Other counties set their own; GeorgiaLegalAid.org estimates $200 to $250. Call your clerk to confirm.
+      es: $218 es la tarifa de acción civil general del condado de Fulton (vigente desde el 1 de julio de 2024). Otros condados fijan la suya; GeorgiaLegalAid.org calcula entre $200 y $250.
+    sources: [fulton-fees, gla-name-gender]
+  - id: publication
+    label:
+      en: Newspaper publication (four weekly notices)
+      es: Publicación en periódico (cuatro avisos semanales)
+    amount: 80
+    varies_by: vendor
+    waivable: false
+    note:
+      en: About $80 according to GeorgiaLegalAid.org; the newspaper sets the price. An affidavit of indigence does not cover it.
+      es: Unos $80 según GeorgiaLegalAid.org; el periódico fija el precio. La declaración de indigencia no lo cubre.
+    sources: [gla-name-gender]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (Fulton, first page)
+      es: Copia certificada de la orden (Fulton, primera página)
+    amount: 2.5
+    varies_by: county
+    note:
+      en: Plus $0.50 per additional page in Fulton.
+      es: Más $0.50 por página adicional en Fulton.
+    sources: [fulton-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: Anyone who swears they cannot pay court costs because of indigence. There is no fixed income cutoff in the statute; the judge may ask about your finances.
+    es: Cualquier persona que declare bajo juramento que no puede pagar los costos por indigencia. La ley no fija un límite de ingresos; el juez puede preguntar sobre tus finanzas.
+  how:
+    en: File a notarized affidavit of indigence (sometimes called a pauper's affidavit or affidavit of poverty) with your petition. Ask the clerk or Justice Resource Center for the local form.
+    es: Presenta con tu petición una declaración jurada de indigencia notarizada. Pide el formulario local en la secretaría o en el Justice Resource Center.
+  sources: [ocga-9-15-2, gla-name-gender]
+publication:
+  required: "yes"
+  detail:
+    en: Within 7 days of filing, the notice must be published once a week for four consecutive weeks in the legal organ of the county. There is no exemption for gender-identity name changes.
+    es: Dentro de los 7 días siguientes a la presentación, el aviso debe publicarse una vez por semana durante cuatro semanas consecutivas en el periódico legal del condado. No hay exención para cambios por identidad de género.
+  waiver_available: true
+  waiver_how:
+    en: Only for petitioners who are victims of family violence or human trafficking. You ask the court to file the petition under seal; if the judge finds you are a victim, it may waive publication and hear the case under seal. If the judge finds you are not, publication is required before the hearing.
+    es: Solo para víctimas de violencia familiar o trata de personas. Pides al tribunal que la petición se presente bajo sello; si el juez determina que eres víctima, puede eximir la publicación. Si no, se exige publicar antes de la audiencia.
+  sources: [ocga-19-12-1, gla-name-gender]
+hearing:
+  required: "yes"
+  detail:
+    en: The statute sets the hearing no sooner than 30 days after filing for an adult. Fulton County assigns a court date at filing and tells you to appear for the final ruling. Practice in other counties may differ.
+    es: La ley fija la audiencia como mínimo 30 días después de la presentación para un adulto. Fulton asigna fecha al presentar y te pide comparecer. En otros condados puede variar.
+  sources: [ocga-19-12-1, fulton-instructions]
+background_check:
+  required: "no"
+  detail:
+    en: The statute does not require fingerprints or a background check. Publication exists so creditors or others can object if they believe the change is for fraud.
+    es: La ley no exige huellas ni verificación de antecedentes. La publicación existe para que otros puedan objetar si creen que el cambio es fraudulento.
+  sources: [ocga-19-12-1, gla-name-gender]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Name change files are public, and the published notice is in the newspaper. Sealing is available only to victims of family violence or human trafficking.
+    es: Los expedientes de cambio de nombre son públicos, y el aviso sale en el periódico. El sellado solo está disponible para víctimas de violencia familiar o trata de personas.
+  how:
+    en: If you qualify as a victim, request filing under seal at the start. Otherwise, a lawyer can advise whether any other protective order is possible in your county.
+    es: Si calificas como víctima, solicita presentar bajo sello desde el inicio. De lo contrario, un abogado puede orientarte.
+  sources: [ocga-19-12-1]
+minors:
+  summary:
+    en: |
+      A parent or guardian petitions for a child under 18. Written consent from each living parent (unless a parent has abandoned the child) or the guardian is required. A parent who has not consented must be served: in person if in Georgia, by certified mail or overnight delivery if out of state, or by publication if the address is unknown. The hearing can occur 30 days after service on an in-state parent, or 60 days for an out-of-state parent. Publication of the petition is also required. Fulton County has a separate minor packet with a consent form.
+    es: |
+      Un padre, madre o tutor presenta la petición por un menor de 18 años. Se necesita el consentimiento por escrito de cada padre con vida (salvo abandono) o del tutor. Al padre que no consienta hay que notificarlo: en persona si está en Georgia, por correo certificado o entrega al día siguiente si está fuera del estado, o por publicación si se desconoce su dirección. La audiencia puede ser 30 días después de notificar a un padre en el estado, o 60 días si está fuera. También se exige la publicación. Fulton tiene un paquete aparte para menores con formulario de consentimiento.
+  sources: [ocga-19-12-1, fulton-forms]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: File at the clerk's office in person, or by e-filing where your county offers it (check with the clerk). You must appear in court for the hearing.
+    es: Presenta en persona en la secretaría, o por vía electrónica donde tu condado lo ofrezca. Debes comparecer a la audiencia.
+  sources: [georgia-gov, fulton-instructions]
+timeline:
+  en: About 5 to 7 weeks from filing to a signed order, according to the state's own guide, because of the four-week publication and 30-day wait.
+  es: Unas 5 a 7 semanas desde la presentación hasta la orden firmada, según la guía del estado, por la publicación de cuatro semanas y la espera de 30 días.
+after:
+  en: |
+    Take certified copies to **Social Security** first (the name changes; the sex field cannot currently be changed), then **Georgia DDS** within 60 days (see the driver's license guide). If you were born in Georgia, see the birth certificate guide: vital records asks for a court order plus a physician's statement to change a first name, and a court order stating a surgical sex change to change the sex marker. Then update your **passport** (name only), bank, employer, insurance, and voter registration.
+  es: |
+    Lleva copias certificadas primero al **Seguro Social** (el nombre cambia; el campo de sexo actualmente no), luego al **DDS de Georgia** dentro de 60 días. Si naciste en Georgia, consulta la guía del acta de nacimiento: la oficina pide orden judicial más una declaración médica para cambiar el nombre, y una orden judicial que indique un cambio de sexo quirúrgico para cambiar el marcador. Después actualiza tu **pasaporte** (solo el nombre), banco, empleador, seguro y registro de votante.
+tips:
+  - en: If you might later want a Georgia birth certificate change, ask a lawyer whether to request an order that also addresses sex in the same case; vital records requires a court order stating the sex change and the name change.
+    es: Si más adelante quieres cambiar tu acta de nacimiento de Georgia, pregunta a un abogado si conviene pedir en el mismo caso una orden que también aborde el sexo.
+  - en: Publication makes your old and new names public. If that is a safety risk for you and you are a survivor of family violence or trafficking, ask for the sealed process from the start.
+    es: La publicación hace públicos tus nombres. Si eso es un riesgo y eres sobreviviente de violencia familiar o trata, pide el proceso sellado desde el principio.
+  - en: Fulton County's Justice Resource Center holds a free legal clinic on the last Friday of each month (first 50 people who register) and offers low-cost 30-minute attorney consultations.
+    es: El Justice Resource Center del condado de Fulton ofrece una clínica legal gratuita el último viernes de cada mes (primeras 50 personas registradas) y consultas de 30 minutos con abogado a bajo costo.
+local_help:
+  - id: fulton-jrc
+    name: Fulton County Courts Justice Resource Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help center with name change packets, 30-minute attorney consultations for a nominal fee, and a free legal clinic on the last Friday of each month, 9 am to noon. Staff are not lawyers.
+      es: Centro de autoayuda del tribunal con paquetes de cambio de nombre, consultas de 30 minutos con abogado por una tarifa baja y una clínica legal gratuita el último viernes de cada mes, de 9 am a mediodía.
+    url: http://jrc.fultonsuperiorcourtga.gov/family-law
+    phone: "404-612-2789"
+    address: 185 Shirley C. Franklin Blvd SW, Suite J1-7001, Atlanta, GA 30303
+    cost: low_cost
+    verification: official_source
+    sources: [fulton-jrc]
+  - id: atlanta-legal-aid
+    name: Atlanta Legal Aid Society
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income people in metro Atlanta; co-author of the GeorgiaLegalAid.org name change and gender marker guides and guided interviews.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en el área de Atlanta; coautora de las guías y entrevistas guiadas de GeorgiaLegalAid.org.
+    url: https://atlantalegalaid.org/
+    cost: free
+    verification: org_website
+    sources: [atlanta-legal-aid, gla-interview]
+  - id: georgia-legal-aid-site
+    name: GeorgiaLegalAid.org (Georgia Legal Services Program and Atlanta Legal Aid)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide free legal information site with a name change and gender marker explainer, free guided interviews that produce court forms, and a sample doctor's letter for gender marker changes.
+      es: Sitio estatal gratuito de información legal con guía de cambio de nombre y marcador de género, entrevistas guiadas que generan formularios y una carta médica de ejemplo.
+    url: https://www.georgialegalaid.org/resource/what-should-i-know-about-name-changes-and-gender-marker-changes-in-georgia
+    cost: free
+    verification: org_website
+    sources: [gla-name-gender]
+  - id: lambda-legal-south
+    name: Lambda Legal, Southern Regional Office (Atlanta)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: National LGBTQ+ legal organization whose Southern Regional Office is in Atlanta. Its Help Desk gives free legal information and referrals about gender identity discrimination.
+      es: Organización legal LGBTQ+ nacional con su Oficina Regional del Sur en Atlanta. Su mesa de ayuda da información legal gratuita y referencias sobre discriminación por identidad de género.
+    url: https://lambdalegal.org/southern-region/
+    cost: free
+    verification: org_website
+    sources: [lambda-south]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: National trans-led nonprofit with direct financial aid programs; check its site for current funds that may help with document or care costs.
+      es: Organización nacional dirigida por personas trans con programas de ayuda económica; revisa su sitio para ver los fondos vigentes.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [queermed-costs]
+statutes:
+  - cite: O.C.G.A. § 19-12-1
+    title:
+      en: Petition for name change; publication; family violence and human trafficking exception; minors
+      es: Petición de cambio de nombre; publicación; excepción por violencia familiar y trata; menores
+    url: https://codes.findlaw.com/ga/title-19-domestic-relations/ga-code-sect-19-12-1/
+  - cite: O.C.G.A. § 9-15-2
+    title:
+      en: Affidavit of indigence; relief from court costs
+      es: Declaración jurada de indigencia; exención de costos judiciales
+    url: https://codes.findlaw.com/ga/title-9-civil-practice/ga-code-sect-9-15-2/
+related_links:
+  - title: Advocates for Trans Equality, Georgia identity documents
+    url: https://transequality.org/documents/georgia-identity-documents
+    note:
+      en: The page shows no last-updated date.
+      es: La página no muestra fecha de actualización.
+  - title: Georgia.gov, Apply for a name change
+    url: https://georgia.gov/apply-name-change
+sources:
+  - id: ocga-19-12-1
+    url: https://codes.findlaw.com/ga/title-19-domestic-relations/ga-code-sect-19-12-1/
+    title: O.C.G.A. § 19-12-1, Petition for name change
+    publisher: FindLaw (Georgia Code, current as of March 2024)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      When a name change is requested by a petitioner who alleges to be a victim of family violence or human
+      trafficking, such petitioner may petition the court to file his or her petition to change his or her name under
+      seal. ... Such hearing shall occur upon the expiration of: (1) Thirty days from the filing of the petition if the
+      individual whose name to be changed is an adult.
+  - id: ocga-9-15-2
+    url: https://codes.findlaw.com/ga/title-9-civil-practice/ga-code-sect-9-15-2/
+    title: O.C.G.A. § 9-15-2, Affidavit of indigence
+    publisher: FindLaw
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the party shall subscribe an affidavit to the effect that because of his indigence he is unable to pay the costs, the party shall be relieved from paying the costs.
+  - id: fulton-instructions
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Instructions%20for%20Adult%20Name%20Change.pdf
+    title: How to change the name of an adult in Fulton County (rev. 7/2014)
+    publisher: Fulton County Superior Court, Family Division
+    kind: court
+    accessed: "2026-09-24"
+    quote: >-
+      YOU MUST HAVE LIVED IN FULTON COUNTY FOR A LEAST SIX MONTHS PRIOR TO FILING THIS PETITION ... This notice must be
+      published once a week for four weeks in the Fulton County Daily Report.
+  - id: fulton-petition
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Petition%20for%20Adult%20Name%20Change.pdf
+    title: Petition to Change Name of Adult (rev. Oct. 2015)
+    publisher: Fulton County Superior Court
+    kind: form
+    accessed: "2026-09-24"
+  - id: fulton-notice
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Notice%20of%20Petition%20for%20Adult%20Name%20Change.pdf
+    title: Notice of Petition to Change Name (adult)
+    publisher: Fulton County Superior Court
+    kind: form
+    accessed: "2026-09-24"
+  - id: fulton-forms
+    url: http://jrc.fultonsuperiorcourtga.gov/family-court-forms
+    title: Family Court Forms (name change, adult and minor)
+    publisher: Fulton County Courts Justice Resource Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: fulton-jrc
+    url: http://jrc.fultonsuperiorcourtga.gov/family-law
+    title: Family Law and Senior Services, Justice Resource Center
+    publisher: Fulton County Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: Monthly clinics (last Friday of each month, 9 a.m. to 12 p.m.) provide free legal assistance to the first 50 people who register.
+  - id: fulton-fees
+    url: https://www.fultonclerk.org/400/Fee-Schedule
+    title: Fee Schedule
+    publisher: Fulton County Clerk of Superior and Magistrate Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: "General Civil Action: $218.00 (effective July 1st, 2024). Copy-Certified/Exemplified 1st page: $2.50; each page after 1st page: $0.50."
+  - id: gla-name-gender
+    url: https://www.georgialegalaid.org/resource/what-should-i-know-about-name-changes-and-gender-marker-changes-in-georgia
+    title: What should I know about name changes and gender marker changes in Georgia?
+    publisher: GeorgiaLegalAid.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: There is no reason other than fraud that someone can object to your name change.
+  - id: gla-interview
+    url: https://www.georgialegalaid.org/resource/forms-for-a-name-change-in-georgia-guided-interview
+    title: Forms for a name change in Georgia (guided interview)
+    publisher: GeorgiaLegalAid.org (Atlanta Legal Aid Society and Georgia Legal Services Program)
+    kind: org
+    accessed: "2026-09-24"
+  - id: georgia-gov
+    url: https://georgia.gov/apply-name-change
+    title: Apply for a name change
+    publisher: Georgia.gov
+    kind: official
+    accessed: "2026-09-24"
+    quote: The process generally takes about five to seven weeks from filing to final order.
+  - id: dds-faq
+    url: https://dds.georgia.gov/license-faqs
+    title: License FAQs
+    publisher: Georgia Department of Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: You can obtain a name change on your Georgia driver's license/ID by submitting a certified court order indicating the name change.
+  - id: dph-3977
+    url: https://dph.georgia.gov/document/document/affidavit-amendment-form-3977-revisedpdf/download
+    title: Affidavit for Amendment, Form 3977 (rev. 09/2018)
+    publisher: Georgia Department of Public Health, State Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: To amend the name on the birth certificate requires a court order ... In addition, please provide a statement on letterhead from the physician indicating the intersex/transgender diagnosis.
+  - id: atlanta-legal-aid
+    url: https://atlantalegalaid.org/
+    title: Atlanta Legal Aid Society
+    publisher: Atlanta Legal Aid Society
+    kind: org
+    accessed: "2026-09-24"
+  - id: lambda-south
+    url: https://lambdalegal.org/southern-region/
+    title: Southern Regional Office
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+    quote: Lambda Legal established the Southern Regional Office in 1997, serving ten states through advocacy, litigation, and community building.
+  - id: queermed-costs
+    url: https://queermed.com/plans-and-costs/
+    title: Plans and Costs (financial assistance list)
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Point of Pride - HRT Access Fund: Providing direct financial assistance to trans folks who cannot afford their gender-affirming hormone replacement therapy."

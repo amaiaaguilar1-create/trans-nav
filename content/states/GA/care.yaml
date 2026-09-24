@@ -1,0 +1,423 @@
+jurisdiction: GA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    SB 140 (2023) text read from the enrolled bill on legis.ga.gov; bill status for SB 30, SB 39, HB 54, and SB 185
+    read from the Georgia General Assembly's legislation API on 2026-09-24. HB 54 (amended in the Senate on
+    2/10/2026 to ban puberty blockers for minors and bar state health plan coverage) shows no action after the
+    Senate's 2/10/2026 vote and SB 39's last action is a House committee report on 4/2/2026, so neither became law;
+    the 2025-2026 biennium has ended. Reviewer: confirm with Georgia Equality that nothing passed in the final days.
+    MEDICAID: the task brief assumed a Georgia Medicaid exclusion, but MAP's Medicaid map (read 2026-09-24) lists
+    Georgia as "explicitly covers transgender-related health care". No DCH manual was fetched to confirm either way,
+    so covers_hrt and covers_surgery are set to "unclear". This is the most important item to verify in the
+    Department of Community Health's provider manuals. SB 140 litigation (Koe v. Noggle, a 2023 injunction later
+    lifted) was not re-checked; confirm no injunction is in effect. Prison case name was not confirmed (Georgia
+    Recorder describes a suit by five incarcerated people, filed by the Center for Constitutional Rights). The CMS
+    rule barring federal Medicaid funds for minors' care (effective Oct. 13, 2026) is from a Stateline story.
+    Planned Parenthood Southeast's hormone therapy offering and minimum age could not be confirmed on its site.
+    QueerMed's service map lists Georgia; QueerMed is not in content/orgs, so it appears as a resource, not in
+    telehealth_hrt.
+status_summary:
+  en: >-
+    Adults in Georgia can get hormone therapy and surgery; there is no state law restricting adult care outside
+    prisons. For people under 18, Georgia bans hormone therapy and gender-affirming surgery (SB 140, since July 1,
+    2023), though puberty blockers remain legal. Georgia has no shield law and no insurance nondiscrimination law.
+    Informed-consent clinics and telehealth services operate in Atlanta.
+  es: >-
+    En Georgia, las personas adultas pueden recibir terapia hormonal y cirugía; no hay ley estatal que restrinja la
+    atención de adultos fuera de las prisiones. Para menores de 18 años, Georgia prohíbe la terapia hormonal y la
+    cirugía de afirmación de género (SB 140, desde el 1 de julio de 2023), aunque los bloqueadores de pubertad siguen
+    siendo legales. Georgia no tiene ley escudo ni ley de no discriminación en seguros. Hay clínicas de
+    consentimiento informado y servicios de telesalud en Atlanta.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state law limits gender-affirming care for adults in the community. Several Atlanta providers prescribe hormones on an **informed consent** basis (no therapist letter), including the Feminist Center for Reproductive Liberation (18+) and QueerMed (telehealth and in person), and national telehealth services such as Plume and FOLX serve Georgia.
+
+      **Exceptions and fights to watch:**
+      - **State prisons**: SB 185 (2025) banned state funds for hormone therapy and surgery for people in state custody. A federal judge blocked it in September 2025 and struck it down in December 2025; the state has appealed to the 11th Circuit. For now, doctors in the Department of Corrections may prescribe hormones based on individual medical need.
+      - **State Health Benefit Plan**: under a 2023 settlement the plan covers gender-affirming care. SB 39 and an amended HB 54 would have ended that coverage and barred state-owned hospitals from providing care; both passed the Senate but did not become law before the 2025-2026 session ended.
+
+      **If you have no insurance and little money**: go to a community health center (sliding scale; find one at findahealthcenter.hrsa.gov), compare telehealth self-pay prices (QueerMed lists $99 a month including labs, not medications), and apply to Point of Pride's HRT Access Fund.
+    es: |
+      Ninguna ley estatal limita la atención de afirmación de género para adultos en la comunidad. Varios proveedores de Atlanta recetan hormonas por **consentimiento informado** (sin carta de terapeuta), como el Feminist Center for Reproductive Liberation (18+) y QueerMed (telesalud y en persona), y servicios nacionales de telesalud como Plume y FOLX atienden en Georgia.
+
+      **Excepciones:**
+      - **Prisiones estatales**: SB 185 (2025) prohibió usar fondos estatales para terapia hormonal y cirugía de personas bajo custodia estatal. Un juez federal la bloqueó en septiembre de 2025 y la anuló en diciembre de 2025; el estado apeló. Por ahora, los médicos del Departamento de Correcciones pueden recetar hormonas según la necesidad médica individual.
+      - **Plan de Beneficios de Salud del Estado**: por un acuerdo de 2023 el plan cubre esta atención. SB 39 y una versión enmendada de HB 54 habrían eliminado esa cobertura; ambas pasaron el Senado pero no se convirtieron en ley.
+
+      **Si no tienes seguro ni mucho dinero**: acude a un centro de salud comunitario (escala móvil; búscalo en findahealthcenter.hrsa.gov), compara precios de telesalud (QueerMed indica $99 al mes con laboratorios, sin medicamentos) y solicita el Fondo de Acceso a TRH de Point of Pride.
+  sources: [fcrl, queermed-locations, queermed-costs, gr-prison-appeal, gr-hb54, gr-sb39-2025, ga-sb39, ga-hb54, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **SB 140 (2023)**, effective July 1, 2023, prohibits for anyone under 18 being treated for gender dysphoria: (1) sex reassignment surgeries and other surgeries that alter primary or secondary sex characteristics, and (2) hormone replacement therapy (O.C.G.A. § 43-34-15; hospitals and licensed facilities under § 31-7-3.5).
+
+      - **Still legal**: puberty blockers, mental health care, and social transition. A 2026 Senate amendment (HB 54) to ban puberty blockers did not become law.
+      - **Exceptions**: minors already on hormone therapy before July 1, 2023 may continue; care for intersex conditions (differences of sex development, partial androgen insensitivity); treatment for conditions other than gender dysphoria.
+      - **Penalties**: physicians face discipline by the Georgia Composite Medical Board; facilities can lose their permit.
+      - **Medicaid**: a federal CMS rule bars state Medicaid and CHIP from covering puberty blockers, hormones, and surgery for minors starting October 13, 2026 (current patients may be covered for up to six months).
+
+      Families traveling to another state for care should ask a lawyer about Georgia's rules; Georgia has no shield law.
+    es: |
+      **SB 140 (2023)**, vigente desde el 1 de julio de 2023, prohíbe para menores de 18 años tratados por disforia de género: (1) cirugías de reasignación de sexo y otras que alteren características sexuales primarias o secundarias, y (2) terapia de reemplazo hormonal.
+
+      - **Siguen siendo legales**: bloqueadores de pubertad, salud mental y transición social. Una enmienda del Senado en 2026 (HB 54) para prohibir los bloqueadores no se convirtió en ley.
+      - **Excepciones**: menores que ya recibían terapia hormonal antes del 1 de julio de 2023 pueden continuar; atención de condiciones intersexuales; tratamientos por otras condiciones.
+      - **Sanciones**: los médicos enfrentan disciplina de la Junta Médica; los establecimientos pueden perder su permiso.
+      - **Medicaid**: una regla federal de CMS prohíbe que Medicaid y CHIP cubran bloqueadores, hormonas y cirugía para menores desde el 13 de octubre de 2026.
+  sources: [ga-sb140, ga-hb54, gr-hb54, gr-cms-minors]
+medicaid:
+  program_name: Georgia Medicaid (including Georgia Pathways to Coverage)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: |
+      Adults who do not qualify for traditional Medicaid may qualify through **Georgia Pathways to Coverage**, which requires you to meet and report "qualifying activities". Pathways eligibility rules change on January 1, 2027; check pathways.georgia.gov.
+
+      We could not confirm Georgia Medicaid's written policy on gender-affirming care. The Movement Advancement Project lists Georgia Medicaid as explicitly covering transgender-related care for adults; no state law excludes it. For minors, federal rules end coverage in October 2026. If you are enrolled, ask your care management organization (CMO) for prior authorization and request any denial in writing so you can appeal.
+    es: |
+      Los adultos que no califican para Medicaid tradicional pueden calificar mediante **Georgia Pathways to Coverage**, que exige cumplir y reportar "actividades calificadas". Las reglas cambian el 1 de enero de 2027; consulta pathways.georgia.gov.
+
+      No pudimos confirmar la política escrita de Medicaid de Georgia sobre esta atención. El Movement Advancement Project indica que Medicaid de Georgia cubre explícitamente la atención trans para adultos; ninguna ley estatal la excluye. Para menores, las reglas federales terminan la cobertura en octubre de 2026. Si estás inscrito, pide autorización previa a tu organización de atención (CMO) y cualquier negativa por escrito para apelar.
+  how_to_apply_url: https://gateway.ga.gov/
+  sources: [map-medicaid, gr-cms-minors, ga-medicaid-apply, ga-pathways]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Georgia has no state law barring insurers from excluding gender-affirming care, so coverage depends on your plan. Marketplace (ACA) plans and employer plans may cover it or exclude it. If your plan denies care, appeal in writing; A4TE's Trans Health Project has appeal templates. You can file a complaint about a state-regulated insurer with the Georgia Office of Commissioner of Insurance.
+
+      Employer plans in Georgia are also shaped by the 11th Circuit's 2025 en banc ruling in Lange v. Houston County, which held that a county plan's exclusion of "sex change" surgery did not violate Title VII; the case went back to the trial court.
+    es: |
+      Georgia no tiene una ley que impida a las aseguradoras excluir la atención de afirmación de género, así que la cobertura depende de tu plan. Si tu plan la niega, apela por escrito; el Trans Health Project de A4TE tiene modelos de apelación. Puedes presentar una queja sobre una aseguradora regulada por el estado ante la Oficina del Comisionado de Seguros de Georgia.
+
+      En 2025, el 11.º Circuito resolvió en pleno en Lange v. Houston County que la exclusión de cirugía de "cambio de sexo" en un plan del condado no violaba el Título VII; el caso volvió al tribunal de primera instancia.
+  complaint_url: https://oci.georgia.gov/file-consumer-insurance-complaint
+  sources: [map-profile, oci-complaint, a4te-thp, gr-lange]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: fcrl
+    name: Feminist Center for Reproductive Liberation (formerly Feminist Women's Health Center)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Atlanta clinic offering hormone therapy (testosterone, estrogen, anti-androgens, progesterone), surgical clearance labs and letters, and gender marker support letters. Ages 18 and older. A trans health coordinator helps new patients.
+      es: Clínica en Atlanta con terapia hormonal (testosterona, estrógeno, antiandrógenos, progesterona), laboratorios y cartas para cirugía, y cartas para cambio de marcador. Mayores de 18 años. Un coordinador de salud trans orienta a pacientes nuevos.
+    url: https://feministcenter.org/gender-affirming-care/
+    phone: "404-728-7900"
+    address: 1924 Cliff Valley Way NE, Atlanta, GA 30329
+    cost: varies
+    verification: org_website
+    sources: [fcrl]
+  - id: queermed
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Atlanta-based gender-affirming care practice serving Georgia and most other states by telehealth. Accepts insurance or self-pay ($99 a month, including visits and labs; medications extra). Writes gender marker letters.
+      es: Práctica de atención de afirmación de género con sede en Atlanta que atiende Georgia y la mayoría de los estados por telesalud. Acepta seguro o pago propio ($99 al mes con consultas y laboratorios; medicamentos aparte).
+    url: https://queermed.com/
+    phone: "404-445-0350"
+    cost: paid
+    telehealth: true
+    verification: org_website
+    sources: [queermed-locations, queermed-costs]
+  - id: pp-southeast
+    org: planned-parenthood
+    name: Planned Parenthood Southeast (Atlanta-area health centers)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual and reproductive health care in metro Atlanta, with telehealth. Call to confirm whether gender-affirming hormone therapy is offered at your center and the minimum age (adults only under SB 140).
+      es: Salud sexual y reproductiva en el área de Atlanta, con telesalud. Llama para confirmar si ofrecen terapia hormonal de afirmación de género en tu centro y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-southeast
+    phone: "404-688-9300"
+    cost: sliding_scale
+    telehealth: true
+    verification: unverified
+    sources: [pp-southeast]
+  - id: positive-impact
+    name: Positive Impact Health Centers
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Metro Atlanta nonprofit clinics (Duluth, Decatur, Marietta) with same-day PrEP, PEP, STI screening, HIV care, and mental health; most services on a sliding fee.
+      es: Clínicas sin fines de lucro en el área de Atlanta (Duluth, Decatur, Marietta) con PrEP el mismo día, PEP, pruebas de ITS, atención del VIH y salud mental; la mayoría con tarifa móvil.
+    url: https://www.positiveimpacthealthcenters.org/
+    phone: "678-365-4300"
+    cost: sliding_scale
+    verification: org_website
+    sources: [pihc]
+  - id: ga-aids-sti-infoline
+    name: Georgia AIDS & STI InfoLine (Georgia Department of Public Health)
+    type: hotline
+    pillars: [sexual_health]
+    description:
+      en: Free, anonymous statewide information line on HIV, STIs, PrEP, and PEP, with referrals to testing and prevention services.
+      es: Línea estatal gratuita y anónima de información sobre VIH, ITS, PrEP y PEP, con referencias a servicios de pruebas y prevención.
+    url: https://dph.georgia.gov/preventhiv
+    phone: "1-800-551-2728"
+    cost: free
+    verification: official_source
+    sources: [dph-hiv]
+  - id: hrsa
+    name: Community health centers (HRSA Find a Health Center)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federally qualified health centers charge on a sliding scale and see uninsured patients. Search by ZIP code, then call to ask whether the center prescribes gender-affirming hormones.
+      es: Los centros de salud federalmente calificados cobran en escala móvil y atienden a personas sin seguro. Busca por código postal y llama para preguntar si recetan hormonas.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Direct financial help for people who cannot afford gender-affirming hormone therapy.
+      es: Ayuda económica directa para quienes no pueden pagar la terapia hormonal.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: community_reported
+    sources: [queermed-costs]
+  - id: trans-health-project
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Health insurance tutorial, medical necessity letter checklists, and a surgery appeal template for fighting denials.
+      es: Tutorial de seguros médicos, listas para cartas de necesidad médica y modelo de apelación para negativas de cirugía.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [a4te-thp]
+  - id: georgia-equality
+    name: Georgia Equality (TransAction Georgia)
+    type: advocacy_org
+    pillars: [hrt, insurance]
+    description:
+      en: Statewide LGBTQ+ advocacy group tracking legislation on trans health care; its transgender program publishes resources and a transgender voting ID toolkit.
+      es: Organización estatal de defensa LGBTQ+ que sigue la legislación sobre salud trans; su programa trans publica recursos y una guía de identificación para votar.
+    url: https://georgiaequality.org/issues/transaction-ga-2/
+    phone: "404-523-3070"
+    cost: free
+    verification: org_website
+    sources: [georgia-equality]
+statutes:
+  - cite: SB 140 (2023); O.C.G.A. §§ 31-7-3.5, 43-34-15
+    title:
+      en: Prohibits hormone therapy and gender-affirming surgery for minors with gender dysphoria; effective July 1, 2023
+      es: Prohíbe la terapia hormonal y la cirugía de afirmación de género para menores con disforia de género; vigente desde el 1 de julio de 2023
+    url: https://www.legis.ga.gov/legislation/64231
+  - cite: SB 185 (2025)
+    title:
+      en: Bars state funds for gender-affirming care for people in state and county correctional custody (struck down in federal court; on appeal)
+      es: Prohíbe fondos estatales para atención de afirmación de género de personas bajo custodia correccional (anulada por un tribunal federal; en apelación)
+    url: https://www.legis.ga.gov/legislation/70386
+litigation:
+  - case: Challenge to SB 185 (incarcerated plaintiffs v. Georgia Department of Corrections officials)
+    court: U.S. District Court (Judge Victoria M. Calvert); appeal to the 11th Circuit
+    summary:
+      en: Five transgender people in state custody challenged SB 185's ban on state-funded hormone therapy in prisons. The court blocked the law in September 2025 and permanently struck it down in December 2025 under the Eighth Amendment. The state appealed.
+      es: Cinco personas trans bajo custodia estatal impugnaron la prohibición de SB 185. El tribunal bloqueó la ley en septiembre de 2025 y la anuló en diciembre de 2025 por la Octava Enmienda. El estado apeló.
+    effect_today:
+      en: People in Georgia prisons can receive hormone therapy when their doctors find it medically necessary, while the appeal is pending.
+      es: Las personas en prisiones de Georgia pueden recibir terapia hormonal cuando sus médicos la consideren necesaria, mientras se resuelve la apelación.
+    last_update: "2025-12-08"
+    sources: [gr-prison-appeal]
+  - case: Lange v. Houston County
+    court: U.S. Court of Appeals for the 11th Circuit (en banc)
+    summary:
+      en: A transgender sheriff's deputy challenged her county health plan's exclusion of gender-affirming surgery. In September 2025 the full 11th Circuit reversed her earlier jury win, holding the exclusion was not sex discrimination under Title VII, and sent the case back.
+      es: Una ayudante del sheriff trans impugnó la exclusión de cirugía en el plan de salud de su condado. En septiembre de 2025 el 11.º Circuito en pleno revocó su victoria anterior y devolvió el caso.
+    effect_today:
+      en: Employers in Georgia can currently rely on this ruling to keep exclusions in their health plans.
+      es: Los empleadores en Georgia pueden por ahora apoyarse en este fallo para mantener exclusiones en sus planes.
+    last_update: "2025-09-10"
+    sources: [gr-lange]
+pending_bills:
+  - bill: HB 54 (2025-2026), as amended by the Senate
+    summary:
+      en: Senate amendments would ban puberty blockers for minors with gender dysphoria and bar State Health Benefit Plan coverage and state-hospital provision of gender-affirming care. The Senate passed it on Feb. 10, 2026; the House never took a final vote before the biennium ended. Similar bills may return in 2027.
+      es: Las enmiendas del Senado prohibirían los bloqueadores de pubertad para menores y la cobertura en el plan de salud estatal. El Senado la aprobó el 10 de febrero de 2026; la Cámara nunca votó antes de terminar el bienio.
+    status: dead
+    last_action: "2026-02-10"
+    url: https://www.legis.ga.gov/legislation/69352
+    sources: [ga-hb54, gr-hb54]
+  - bill: SB 39 (2025-2026)
+    summary:
+      en: Would prohibit gender-affirming care coverage under the State Health Benefit Plan or with any state funds, and bar state facilities and state-employed providers from providing it. Passed the Senate Feb. 11, 2025; reported by a House committee Apr. 2, 2026 but never got a House floor vote.
+      es: Prohibiría la cobertura en el plan de salud estatal o con fondos estatales. Pasó el Senado el 11 de febrero de 2025; un comité de la Cámara la aprobó el 2 de abril de 2026, pero nunca se votó en el pleno.
+    status: dead
+    last_action: "2026-04-02"
+    url: https://www.legis.ga.gov/legislation/69560
+    sources: [ga-sb39, gr-sb39-2025]
+sources:
+  - id: ga-sb140
+    url: https://www.legis.ga.gov/legislation/64231
+    title: SB 140 (2023), treatment of gender dysphoria in minors
+    publisher: Georgia General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The following irreversible procedures and therapies performed on a minor for the treatment of gender dysphoria
+      are prohibited in this state: (1) Sex reassignment surgeries ... (2) Hormone replacement therapies. ... (4)
+      Continued treatment of minors who are, prior to July 1, 2023, being treated with irreversible hormone
+      replacement therapies.
+  - id: ga-hb54
+    url: https://www.legis.ga.gov/legislation/69352
+    title: HB 54 (2025-2026), status history
+    publisher: Georgia General Assembly
+    kind: official
+    accessed: "2026-09-24"
+    quote: 2/10/2026 Senate Agreed to House Amendment to Senate Substitute as Amended
+  - id: ga-sb39
+    url: https://www.legis.ga.gov/legislation/69560
+    title: SB 39 (2025-2026), status history
+    publisher: Georgia General Assembly
+    kind: official
+    accessed: "2026-09-24"
+    quote: "2026-04-02: House Committee Favorably Reported By Substitute"
+  - id: gr-hb54
+    url: https://georgiarecorder.com/2026/02/10/georgia-senate-passes-surprise-ban-on-puberty-blockers-for-minors/
+    title: Georgia Senate passes surprise ban on puberty blockers for minors
+    publisher: Georgia Recorder
+    kind: news
+    accessed: "2026-09-24"
+    quote: >-
+      Another amendment to the bill, authored by Vidalia Republican Sen. Blake Tillery, would bar Georgia's state
+      health insurance plan from covering gender-affirming care for state employees and their dependents, and prohibit
+      Georgia's state-owned hospitals from providing such care.
+  - id: gr-sb39-2025
+    url: https://georgiarecorder.com/2025/04/02/georgia-lawmakers-on-verge-of-ending-trans-care-in-state-health-plan-state-prisons/
+    title: Georgia lawmakers on verge of ending trans care in state health plan, state prisons
+    publisher: Georgia Recorder
+    kind: news
+    accessed: "2026-09-24"
+    quote: Those numbers include $365,000 paid out in a 2023 settlement in which the state agreed to provide coverage for gender-affirming care and not to restrict it again.
+  - id: gr-prison-appeal
+    url: https://georgiarecorder.com/2025/12/08/georgia-officials-appeal-ruling-that-blocked-ban-on-gender-affirming-care-in-state-prisons/
+    title: Georgia officials appeal ruling that blocked ban on gender-affirming care in state prisons
+    publisher: Georgia Recorder
+    kind: news
+    accessed: "2026-09-24"
+    quote: A federal judge has struck down Georgia's ban on gender-affirming care for transgender inmates in state custody, but the state is appealing the decision.
+  - id: gr-lange
+    url: https://georgiarecorder.com/2025/09/10/georgia-transgender-sheriffs-deputy-seeking-coverage-for-care-dealt-a-setback-after-earlier-win/
+    title: Georgia transgender sheriff's deputy seeking coverage for care dealt a setback after earlier win
+    publisher: Georgia Recorder
+    kind: news
+    accessed: "2026-09-24"
+    quote: The 11th U.S. Circuit Court of Appeals struck down a trial court's decision in favor of Houston County Sheriff's Office Sgt. Anna Lange and sent the case back to the lower court.
+  - id: gr-cms-minors
+    url: https://georgiarecorder.com/2026/08/12/repub/federal-agency-blocks-medicaid-coverage-of-kids-gender-affirming-care/
+    title: Federal agency blocks Medicaid coverage of kids' gender-affirming care (Stateline)
+    publisher: Georgia Recorder / Stateline
+    kind: news
+    accessed: "2026-09-24"
+    quote: The Centers for Medicare & Medicaid Services announced Tuesday a rule that prohibits state Medicaid plans from covering gender-affirming procedures for minors ... The policy takes effect Oct. 13.
+  - id: map-medicaid
+    url: https://mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care/
+    title: "Equality Maps: Medicaid coverage of transgender-related health care"
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Georgia: State Medicaid policy explicitly covers transgender-related health care"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/GA
+    title: Georgia equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Health Insurance Providers Banned from Excluding Coverage for Transgender People: 0/1"
+  - id: ga-medicaid-apply
+    url: https://medicaid.georgia.gov/how-apply
+    title: How to apply for Georgia Medicaid
+    publisher: Georgia Department of Community Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: ga-pathways
+    url: https://pathways.georgia.gov/
+    title: Georgia Pathways to Coverage
+    publisher: State of Georgia
+    kind: official
+    accessed: "2026-09-24"
+    quote: Georgia Pathways offers healthcare coverage to residents who meet program requirements and are not otherwise eligible for traditional Medicaid. ... Pathways eligibility requirements change Jan. 1, 2027.
+  - id: oci-complaint
+    url: https://oci.georgia.gov/file-consumer-insurance-complaint
+    title: File a consumer insurance complaint
+    publisher: Georgia Office of Commissioner of Insurance and Safety Fire
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: fcrl
+    url: https://feministcenter.org/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Feminist Center for Reproductive Liberation
+    kind: org
+    accessed: "2026-09-24"
+    quote: At this time, our gender-affirming care is only available to those over the age of 18.
+  - id: queermed-locations
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+    quote: "QueerMed Services Available: ... Georgia ..."
+  - id: queermed-costs
+    url: https://queermed.com/plans-and-costs/
+    title: Plans and Costs
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Self-Pay per Month: $99/month ... All labwork ... Letters for gender marker change ... *Cost of medications not included"
+  - id: pp-southeast
+    url: https://www.plannedparenthood.org/planned-parenthood-southeast
+    title: Planned Parenthood Southeast
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: pihc
+    url: https://www.positiveimpacthealthcenters.org/sexual-health-prep-pep-stis/
+    title: Sexual Health, PrEP, PEP, STIs
+    publisher: Positive Impact Health Centers
+    kind: org
+    accessed: "2026-09-24"
+    quote: Pre-Exposure Prophylaxis (PrEP) can prevent HIV.
+  - id: dph-hiv
+    url: https://dph.georgia.gov/preventhiv
+    title: HIV Prevention Program
+    publisher: Georgia Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: For free anonymous information and support, contact the Georgia AIDS & STI InfoLine at 1-800-551-2728.
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: georgia-equality
+    url: https://georgiaequality.org/issues/transaction-ga-2/
+    title: Transgender Advocacy (TransAction Georgia)
+    publisher: Georgia Equality
+    kind: org
+    accessed: "2026-09-24"

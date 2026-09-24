@@ -1,0 +1,212 @@
+guide_type: drivers_license
+jurisdiction: GA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirement is from DDS rule 375-3-1-.17 (adopted 2006), read on Cornell LII 2026-09-24: a gender change is
+    allowed "after a gender reassignment operation" on a court order or physician's letter, at DDS's discretion. The
+    $10 "Gender Change" and $10 replacement fees were read directly on dds.georgia.gov/fees-and-terms the same day.
+    A4TE's Georgia page adds that a passport showing the updated gender is accepted; that is not in the rule and
+    passports can no longer be issued with a changed sex marker, so it is omitted. Reviewer: (1) confirm current DDS
+    field practice (whether examiners accept letters describing non-genital surgery or hormone therapy only; the
+    rule does not define the operation, and GeorgiaLegalAid.org says DDS may reject non-surgical documentation);
+    (2) confirm there is no DDS form number for this request; (3) check whether any 2026 DDS policy change followed the
+    federal executive order on sex definitions. The Georgia General Assembly's bill records show no 2025-2026 bill on
+    license sex markers that passed a chamber. MAP rates Georgia's license policy as restrictive, consistent with this.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Georgia changes the sex on a driver's license or ID only after gender-affirming surgery, shown by a physician's
+    letter or a court order that gives the date of the operation. Only M and F are offered, and DDS has final
+    discretion. Name changes need only a certified court order.
+  es: >-
+    Georgia cambia el sexo en la licencia o identificación solo después de una cirugía de afirmación de género,
+    demostrada con una carta médica o una orden judicial que indique la fecha de la operación. Solo se ofrecen M y F,
+    y el DDS tiene la decisión final. Los cambios de nombre solo requieren una orden judicial certificada.
+summary:
+  en: |
+    The Department of Driver Services (DDS) rule on changing gender (Ga. Comp. R. & Regs. 375-3-1-.17) says a person may have the gender on their license changed **after a gender reassignment operation** by showing a driver examiner either a court order reflecting the change or a physician's letter certifying it. You must surrender your current card and pay a fee, and the decision is at DDS's discretion. There is no X option.
+
+    In practice this means people who have not had surgery, or whose surgery is not accepted by the examiner, cannot currently change the marker. If that applies to you, you can still change your **name** on the card with a certified court order.
+  es: |
+    La regla del Departamento de Servicios al Conductor (DDS) sobre cambio de género (Ga. Comp. R. & Regs. 375-3-1-.17) dice que una persona puede cambiar el género en su licencia **después de una operación de reasignación de género** mostrando al examinador una orden judicial o una carta médica que lo certifique. Debes entregar tu tarjeta actual y pagar una tarifa, y la decisión queda a discreción del DDS. No hay opción X.
+
+    En la práctica, quienes no se han operado, o cuya cirugía no acepta el examinador, no pueden cambiar el marcador por ahora. Aun así puedes cambiar tu **nombre** en la tarjeta con una orden judicial certificada.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Georgia driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia o identificación de Georgia.
+  other:
+    en: For a gender change, you must have had a gender reassignment operation, documented by a physician's letter or court order that states your name, date of birth, and the date of the operation.
+    es: Para cambiar el género, debes haberte sometido a una operación de reasignación de género, documentada con carta médica u orden judicial que indique tu nombre, fecha de nacimiento y fecha de la operación.
+  sources: [dds-rule, gla-name-gender]
+forms:
+  - id: sample-physician-letter
+    name:
+      en: Physician's letter certifying the gender change (sample from GeorgiaLegalAid.org)
+      es: Carta médica que certifica el cambio de género (ejemplo de GeorgiaLegalAid.org)
+    url: https://www.georgialegalaid.org/resource/sample-doctors-letter-for-a-gender-marker-change
+    required: conditional
+    condition:
+      en: Needed unless you bring a court order instead. DDS has no official form for this.
+      es: Necesaria a menos que lleves una orden judicial. El DDS no tiene formulario oficial.
+    how_to_fill:
+      en: |
+        - On the physician's letterhead, signed in original ink by a licensed MD or DO.
+        - Include your full name and date of birth, the statement that you had surgery for gender confirmation, **the date of the surgery**, and the gender your documents should show (M or F).
+        - The sample ends with a declaration under penalty of perjury.
+      es: |
+        - En papel membretado del médico, con firma original de un MD o DO con licencia.
+        - Incluye tu nombre completo y fecha de nacimiento, la declaración de que te operaste para confirmar tu género, **la fecha de la cirugía** y el género que deben mostrar tus documentos (M o F).
+        - El ejemplo termina con una declaración bajo pena de perjurio.
+    sources: [gla-letter, dds-rule]
+steps:
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - **Gender change**: a physician's letter or court order stating your name, date of birth, and the date of your gender reassignment operation.
+        - **Name change**: a certified copy of your court order (or marriage or divorce document). Do this within 60 days of the change.
+        - Your current Georgia license or ID, which you must surrender.
+      es: |
+        - **Cambio de género**: carta médica u orden judicial con tu nombre, fecha de nacimiento y fecha de la operación.
+        - **Cambio de nombre**: copia certificada de la orden judicial. Hazlo dentro de los 60 días siguientes al cambio.
+        - Tu licencia o identificación actual de Georgia, que debes entregar.
+    forms: [sample-physician-letter]
+    sources: [dds-rule, dds-faq]
+  - id: visit
+    title:
+      en: Visit a DDS Customer Service Center
+      es: Visita un Centro de Servicio al Cliente del DDS
+    body:
+      en: A driver examiner must see the letter or order in person, so a gender change cannot be done online. Pay the fee (cash, card, Apple Pay or Google Pay are accepted at centers). Your new photo and card follow the usual process.
+      es: Un examinador debe ver la carta u orden en persona, así que el cambio de género no se puede hacer en línea. Paga la tarifa (se acepta efectivo, tarjeta, Apple Pay o Google Pay en los centros).
+    fees: [gender-change, replacement]
+    applies_to: [in_person]
+    sources: [dds-rule, dds-fees]
+  - id: if-denied
+    title:
+      en: If DDS refuses
+      es: Si el DDS se niega
+    body:
+      en: The rule leaves the decision to DDS's discretion. Ask for a supervisor and for the reason in writing, and contact Lambda Legal's Help Desk or GeorgiaLegalAid.org for advice.
+      es: La regla deja la decisión a discreción del DDS. Pide hablar con un supervisor y el motivo por escrito, y contacta a la mesa de ayuda de Lambda Legal o a GeorgiaLegalAid.org.
+    optional: true
+    sources: [dds-rule, gla-name-gender]
+fees:
+  - id: gender-change
+    label:
+      en: Gender change on license or ID
+      es: Cambio de género en licencia o identificación
+    amount: 10
+    note:
+      en: DDS's fee table lists "Gender Change" at $10, keeping the card's original expiration date. If you are within 150 days of expiration, it is processed as a renewal ($32 for an 8-year license or ID).
+      es: La tabla de tarifas del DDS indica "Gender Change" a $10, con la fecha de vencimiento original. Si faltan 150 días o menos para el vencimiento, se procesa como renovación ($32 por 8 años).
+    sources: [dds-fees]
+  - id: replacement
+    label:
+      en: Replacement or duplicate license, permit, or ID (name change beyond the one free change)
+      es: Reemplazo o duplicado de licencia, permiso o identificación (cambio de nombre después del primero gratuito)
+    amount: 10
+    note:
+      en: You get one free name or address change during the term of your card; additional changes cost $10.
+      es: Tienes un cambio gratuito de nombre o domicilio durante la vigencia de tu tarjeta; los siguientes cuestan $10.
+    sources: [dds-fees, dds-update]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no waiver for the gender-change fee. A $5 indigent ID card is available with a voucher from a participating shelter or agency, and a free Voter ID card is available to registered voters (it can serve as photo ID but is not a driver's license).
+    es: No hay exención para la tarifa de cambio de género. Existe una identificación para personas de bajos recursos por $5 con un vale de un albergue o agencia participante, y una identificación de votante gratuita para votantes registrados.
+  sources: [dds-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Gender changes are presented to a driver examiner at a DDS Customer Service Center.
+    es: Los cambios de género se presentan ante un examinador en un Centro de Servicio al Cliente del DDS.
+  sources: [dds-rule]
+timeline:
+  en: One visit to a DDS center if DDS accepts your documents.
+  es: Una visita a un centro del DDS si aceptan tus documentos.
+after:
+  en: |
+    Your Georgia license is accepted for REAL ID, flying, and voting. Note that as of September 2026 the US passport and Social Security record cannot show a changed sex marker, so your documents may not match; carry your court order if you are worried about questions.
+  es: |
+    Tu licencia de Georgia se acepta para REAL ID, volar y votar. Ten en cuenta que, a septiembre de 2026, el pasaporte de EE. UU. y el registro del Seguro Social no pueden mostrar un marcador de sexo cambiado, así que tus documentos podrían no coincidir.
+tips:
+  - en: You do not need to change your name to change the marker, or vice versa.
+    es: No necesitas cambiar tu nombre para cambiar el marcador, ni al revés.
+  - en: Some informed-consent clinics (for example the Feminist Center for Reproductive Liberation in Atlanta and QueerMed) write gender marker letters, but DDS's rule still requires that the letter document surgery.
+    es: Algunas clínicas de consentimiento informado escriben cartas para cambio de marcador, pero la regla del DDS exige que la carta documente una cirugía.
+statutes:
+  - cite: Ga. Comp. R. & Regs. 375-3-1-.17
+    title:
+      en: Changing gender on license (Department of Driver Services rule)
+      es: Cambio de género en la licencia (regla del DDS)
+    url: https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-375-3-1-.17
+related_links:
+  - title: GeorgiaLegalAid.org, Name and gender marker changes in Georgia
+    url: https://www.georgialegalaid.org/resource/what-should-i-know-about-name-changes-and-gender-marker-changes-in-georgia
+    note:
+      en: Last updated July 2022.
+      es: Actualizado en julio de 2022.
+  - title: Advocates for Trans Equality, Georgia identity documents
+    url: https://transequality.org/documents/georgia-identity-documents
+    note:
+      en: The page shows no last-updated date.
+      es: La página no muestra fecha de actualización.
+sources:
+  - id: dds-rule
+    url: https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-375-3-1-.17
+    title: Ga. Comp. R. & Regs. R. 375-3-1-.17, Changing Gender on License
+    publisher: Legal Information Institute (Cornell)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: >-
+      A person may have the gender designation on their driver's license changed after a gender reassignment
+      operation upon the presentation to a driver examiner of either a court order reflecting such change, or a
+      physician's letter certifying such change. ... In all cases the decision to change the gender designation on the
+      license is at the discretion of the Department.
+  - id: dds-fees
+    url: https://dds.georgia.gov/fees-and-terms
+    title: Fees and Terms
+    publisher: Georgia Department of Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Gender Change: Original Expiration Date, $10. Replacement/Duplicate: Driver's License, Permit, or ID Card: $10. Georgia ID Card: 8 Years, $32."
+  - id: dds-update
+    url: https://dds.georgia.gov/georgia-licenseid/existing-licenseid/how-do-i-update-license
+    title: How do I update/change license information?
+    publisher: Georgia Department of Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Customers are allowed one free name or address change during the term of their original driver's license/permit/ID card.
+  - id: dds-faq
+    url: https://dds.georgia.gov/license-faqs
+    title: License FAQs
+    publisher: Georgia Department of Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: You can obtain a name change on your Georgia driver's license/ID by submitting a certified court order indicating the name change.
+  - id: gla-letter
+    url: https://www.georgialegalaid.org/resource/sample-doctors-letter-for-a-gender-marker-change
+    title: Sample doctor's letter for a gender marker change
+    publisher: GeorgiaLegalAid.org
+    kind: org
+    accessed: "2026-09-24"
+  - id: gla-name-gender
+    url: https://www.georgialegalaid.org/resource/what-should-i-know-about-name-changes-and-gender-marker-changes-in-georgia
+    title: What should I know about name changes and gender marker changes in Georgia?
+    publisher: GeorgiaLegalAid.org
+    kind: org
+    accessed: "2026-09-24"

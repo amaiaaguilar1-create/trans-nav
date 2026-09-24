@@ -1,0 +1,267 @@
+jurisdiction: GA
+slug: atlanta
+name: Atlanta
+area:
+  en: Metro Atlanta (Fulton, DeKalb, Cobb, Gwinnett, and Clayton counties)
+  es: Área metropolitana de Atlanta (condados de Fulton, DeKalb, Cobb, Gwinnett y Clayton)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details are for Fulton County only; DeKalb, Cobb, Gwinnett, and Clayton residents file in their own
+    Superior Courts, which were not checked. Fulton filing fee ($218) is from the Clerk's online fee schedule; the
+    Clerk's PDF schedule still shows $215. Southern Fried Queer Pride's site describes arts and community programs; it
+    did not describe mutual aid or health services, so it is listed for community support only. Planned Parenthood
+    Southeast's hormone therapy offering was not confirmed. Verify hours and new-patient availability before marking
+    reviewed.
+intro:
+  en: >-
+    Metro Atlanta has most of Georgia's trans-specific services: an informed-consent hormone clinic, an Atlanta-based
+    telehealth practice, HIV and PrEP clinics, and the Southern office of Lambda Legal. Fulton County residents file
+    name change petitions with the Fulton County Superior Court, whose Justice Resource Center provides the forms and
+    a free monthly legal clinic.
+  es: >-
+    El área de Atlanta concentra la mayoría de los servicios trans de Georgia: una clínica de hormonas por
+    consentimiento informado, una práctica de telesalud con sede en Atlanta, clínicas de VIH y PrEP, y la oficina del
+    Sur de Lambda Legal. Los residentes del condado de Fulton presentan su petición de cambio de nombre en el Tribunal
+    Superior de Fulton, cuyo Justice Resource Center ofrece los formularios y una clínica legal gratuita mensual.
+court:
+  name: Superior Court of Fulton County (Family Division)
+  url: https://www.fultoncourt.org/
+  self_help_url: http://jrc.fultonsuperiorcourtga.gov/family-law
+  filing_fee: 218
+  notes:
+    en: >-
+      File with the Clerk of Superior Court of Fulton County (call 404-613-5313 for filing questions); the Justice Resource Center is at
+      185 Shirley C. Franklin Blvd SW, Suite J1-7001 (404-612-2789). Fulton requires six months of county residence
+      before an adult files, and the notice is published in the Fulton County Daily Report. Residents of DeKalb, Cobb,
+      Gwinnett, or Clayton file in their own county's Superior Court.
+    es: >-
+      Presenta en la secretaría del Tribunal Superior; el Justice Resource Center está en 185 Shirley C. Franklin Blvd
+      SW, Suite J1-7001 (404-612-2789). Fulton exige seis meses de residencia en el condado antes de que un adulto
+      presente, y el aviso se publica en el Fulton County Daily Report. Los residentes de DeKalb, Cobb, Gwinnett o
+      Clayton presentan en el Tribunal Superior de su condado.
+  sources: [fulton-jrc, fulton-fees, fulton-instructions]
+resources:
+  - id: fulton-jrc
+    name: Fulton County Courts Justice Resource Center
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Name change forms, low-cost 30-minute attorney consultations, and a free legal clinic on the last Friday of each month, 9 am to noon (first 50 people who register).
+      es: Formularios de cambio de nombre, consultas de 30 minutos con abogado a bajo costo y una clínica legal gratuita el último viernes de cada mes, de 9 am a mediodía (primeras 50 personas registradas).
+    url: http://jrc.fultonsuperiorcourtga.gov/family-law
+    phone: "404-612-2789"
+    address: 185 Shirley C. Franklin Blvd SW, Suite J1-7001, Atlanta, GA 30303
+    cost: low_cost
+    verification: official_source
+    sources: [fulton-jrc]
+  - id: atlanta-legal-aid
+    name: Atlanta Legal Aid Society
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income people in metro Atlanta; co-author of GeorgiaLegalAid.org's name change guided interview.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en el área de Atlanta; coautora de la entrevista guiada de cambio de nombre de GeorgiaLegalAid.org.
+    url: https://atlantalegalaid.org/
+    cost: free
+    verification: org_website
+    sources: [atlanta-legal-aid]
+  - id: lambda-legal-south
+    name: Lambda Legal, Southern Regional Office
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Atlanta-based regional office of the national LGBTQ+ legal organization; its free Help Desk gives legal information about gender identity discrimination.
+      es: Oficina regional con sede en Atlanta de la organización legal LGBTQ+ nacional; su mesa de ayuda gratuita da información legal sobre discriminación por identidad de género.
+    url: https://lambdalegal.org/southern-region/
+    cost: free
+    verification: org_website
+    sources: [lambda-south]
+  - id: fcrl
+    name: Feminist Center for Reproductive Liberation (formerly Feminist Women's Health Center)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, gender_marker]
+    description:
+      en: Hormone therapy (testosterone, estrogen, anti-androgens, progesterone), surgical clearance labs and letters, and gender marker letters for adults 18 and older. Call 404-728-7900 or toll-free 1-800-877-6013.
+      es: Terapia hormonal (testosterona, estrógeno, antiandrógenos, progesterona), laboratorios y cartas para cirugía, y cartas para cambio de marcador para mayores de 18. Llama al 404-728-7900 o al 1-800-877-6013.
+    url: https://feministcenter.org/gender-affirming-care/
+    phone: "404-728-7900"
+    address: 1924 Cliff Valley Way NE, Atlanta, GA 30329
+    cost: varies
+    verification: org_website
+    sources: [fcrl]
+  - id: queermed
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt, gender_marker]
+    description:
+      en: Atlanta-based gender-affirming care practice (virtual and in-person visits). Insurance or $99 a month self-pay including labs; medications extra. Writes gender marker letters.
+      es: Práctica de atención de afirmación de género con sede en Atlanta (consultas virtuales y en persona). Seguro o $99 al mes de pago propio con laboratorios; medicamentos aparte. Escribe cartas para cambio de marcador.
+    url: https://queermed.com/
+    phone: "404-445-0350"
+    cost: paid
+    telehealth: true
+    verification: org_website
+    sources: [queermed-costs]
+  - id: positive-impact
+    name: Positive Impact Health Centers
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Same-day PrEP, PEP, STI screening, HIV care, and mental health at centers in Decatur (678-365-4300), Duluth (470-361-2724), and Marietta; most services on a sliding fee.
+      es: PrEP el mismo día, PEP, pruebas de ITS, atención del VIH y salud mental en Decatur (678-365-4300), Duluth (470-361-2724) y Marietta; la mayoría con tarifa móvil.
+    url: https://www.positiveimpacthealthcenters.org/sexual-health-prep-pep-stis/
+    phone: "678-365-4300"
+    cost: sliding_scale
+    verification: org_website
+    sources: [pihc]
+  - id: pp-southeast
+    org: planned-parenthood
+    name: Planned Parenthood Southeast
+    type: sexual_health
+    pillars: [sexual_health, hrt]
+    description:
+      en: Sexual and reproductive health care with in-person and telehealth visits. Call to ask whether gender-affirming hormone therapy is offered at your center.
+      es: Salud sexual y reproductiva con consultas en persona y por telesalud. Llama para preguntar si ofrecen terapia hormonal en tu centro.
+    url: https://www.plannedparenthood.org/planned-parenthood-southeast
+    phone: "404-688-9300"
+    cost: sliding_scale
+    telehealth: true
+    verification: unverified
+    sources: [pp-southeast]
+  - id: sfqp
+    name: Southern Fried Queer Pride
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Atlanta-based, Black queer and QTPOC-centered arts and community organization with events, workshops, and gatherings.
+      es: Organización artística y comunitaria con sede en Atlanta centrada en personas negras queer y QTPOC, con eventos, talleres y encuentros.
+    url: https://www.southernfriedqueerpride.com/
+    cost: free
+    verification: org_website
+    sources: [sfqp]
+  - id: georgia-equality
+    name: Georgia Equality
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Atlanta-based statewide LGBTQ+ advocacy group; its TransAction Georgia program works on trans policy and resources.
+      es: Organización estatal de defensa LGBTQ+ con sede en Atlanta; su programa TransAction Georgia trabaja en políticas y recursos trans.
+    url: https://georgiaequality.org/issues/transaction-ga-2/
+    phone: "404-523-3070"
+    cost: free
+    verification: org_website
+    sources: [georgia-equality]
+  - id: ga-aids-sti-infoline
+    name: Georgia AIDS & STI InfoLine
+    type: hotline
+    pillars: [sexual_health]
+    description:
+      en: Free, anonymous Georgia Department of Public Health line for HIV, STI, PrEP, and PEP information and referrals.
+      es: Línea gratuita y anónima del Departamento de Salud Pública de Georgia sobre VIH, ITS, PrEP y PEP.
+    url: https://dph.georgia.gov/preventhiv
+    phone: "1-800-551-2728"
+    cost: free
+    verification: official_source
+    sources: [dph-hiv]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: fulton-jrc
+    url: http://jrc.fultonsuperiorcourtga.gov/family-law
+    title: Family Law and Senior Services, Justice Resource Center
+    publisher: Fulton County Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: Monthly clinics (last Friday of each month, 9 a.m. to 12 p.m.) provide free legal assistance to the first 50 people who register.
+  - id: fulton-fees
+    url: https://www.fultonclerk.org/400/Fee-Schedule
+    title: Fee Schedule
+    publisher: Fulton County Clerk of Superior and Magistrate Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: "General Civil Action: $218.00 (effective July 1st, 2024)"
+  - id: fulton-instructions
+    url: https://www.fultonsuperiorcourtga.gov/sites/default/files/family/forms/name-change-adult/Instructions%20for%20Adult%20Name%20Change.pdf
+    title: How to change the name of an adult in Fulton County (rev. 7/2014)
+    publisher: Fulton County Superior Court, Family Division
+    kind: court
+    accessed: "2026-09-24"
+    quote: This notice must be published once a week for four weeks in the Fulton County Daily Report.
+  - id: atlanta-legal-aid
+    url: https://atlantalegalaid.org/
+    title: Atlanta Legal Aid Society
+    publisher: Atlanta Legal Aid Society
+    kind: org
+    accessed: "2026-09-24"
+  - id: lambda-south
+    url: https://lambdalegal.org/southern-region/
+    title: Southern Regional Office
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: fcrl
+    url: https://feministcenter.org/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Feminist Center for Reproductive Liberation
+    kind: org
+    accessed: "2026-09-24"
+    quote: At this time, our gender-affirming care is only available to those over the age of 18.
+  - id: queermed-costs
+    url: https://queermed.com/plans-and-costs/
+    title: Plans and Costs
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: pihc
+    url: https://www.positiveimpacthealthcenters.org/sexual-health-prep-pep-stis/
+    title: Sexual Health, PrEP, PEP, STIs
+    publisher: Positive Impact Health Centers
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-southeast
+    url: https://www.plannedparenthood.org/planned-parenthood-southeast
+    title: Planned Parenthood Southeast
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: sfqp
+    url: https://www.southernfriedqueerpride.com/
+    title: Southern Fried Queer Pride
+    publisher: Southern Fried Queer Pride
+    kind: org
+    accessed: "2026-09-24"
+    quote: An Atlanta-based organization empowering Black queer and QTPOC centered communities in the South through the arts.
+  - id: georgia-equality
+    url: https://georgiaequality.org/issues/transaction-ga-2/
+    title: Transgender Advocacy (TransAction Georgia)
+    publisher: Georgia Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: dph-hiv
+    url: https://dph.georgia.gov/preventhiv
+    title: HIV Prevention Program
+    publisher: Georgia Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: For free anonymous information and support, contact the Georgia AIDS & STI InfoLine at 1-800-551-2728.
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

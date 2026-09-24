@@ -1,0 +1,220 @@
+guide_type: birth_certificate
+jurisdiction: GA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute O.C.G.A. § 31-10-23(e) read via FindLaw (current as of March 2024). Fees ($10 amendment, $25 first
+    certified copy, $5 each additional copy) confirmed on DPH's fee page (last updated 3/11/2026) and on Form 3977
+    (rev. 09/2018). DPH has no web page specific to sex-marker amendments; the process here is pieced together from
+    the statute, Form 3977's instructions (which describe the name route for transgender registrants and a separate
+    "amend the sex" route that asks for a five-year-old record, not written for trans people), and A4TE's Georgia
+    page (lists affidavit, certified court order, physician certification, ID, and payment; says the new certificate
+    is not marked amended). DPH's rules PDF (Chapter 511-1-3) returned an HTML page instead of the PDF, so the rule
+    that says a § 31-10-23(e) amendment is done by preparing a new certificate was seen only in a search-result
+    excerpt. Reviewer: confirm (1) whether the new certificate is marked "amended" (§ 31-10-23(d) says name-change
+    certificates are marked amended; A4TE says (e) certificates are not); (2) what surgery DPH accepts; (3) processing
+    time (not published); (4) whether the original is sealed. No 2025-2026 bill changing this passed a chamber per
+    the Georgia General Assembly's records (HB 181, on foreign birth certificates, is unrelated). MAP rates the
+    policy restrictive.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in Georgia, the State Office of Vital Records will change the sex on your birth certificate only
+    with a certified court order stating that your sex was changed by surgery and that your name was changed. Only M
+    and F are available. Changing just the first name also needs a court order plus a physician's statement.
+  es: >-
+    Si naciste en Georgia, la Oficina Estatal de Registros Vitales cambiará el sexo en tu acta de nacimiento solo con
+    una orden judicial certificada que indique que tu sexo cambió mediante cirugía y que tu nombre cambió. Solo hay M y
+    F. Cambiar solo el nombre también requiere orden judicial más una declaración médica.
+summary:
+  en: |
+    Georgia law (O.C.G.A. § 31-10-23(e)) says that when the state registrar receives a certified copy of a court order indicating that the sex of a person born in Georgia **has been changed by surgical procedure and that the person's name has been changed**, the birth certificate "shall be amended." So you need:
+
+    1. A Superior Court order that changes your name **and** states that your sex has been changed by surgery (usually requested in the name change petition or a separate petition, with medical evidence; see the name change guide).
+    2. A physician's statement on letterhead with an original signature.
+    3. Form 3977 (Affidavit for Amendment), notarized, a copy of your photo ID, and the fees.
+
+    If you have not had surgery, Georgia will not change the sex marker. The **name** can still be amended with a court order, but Form 3977 also asks for a physician's statement "indicating the intersex/transgender diagnosis."
+
+    Only people born in Georgia use this process. If you were born elsewhere, your birth state's rules apply, even if you live in Georgia.
+  es: |
+    La ley de Georgia (O.C.G.A. § 31-10-23(e)) dice que cuando el registro estatal recibe una copia certificada de una orden judicial que indique que el sexo de una persona nacida en Georgia **ha cambiado mediante un procedimiento quirúrgico y que su nombre ha cambiado**, el acta de nacimiento "se enmendará". Necesitas:
+
+    1. Una orden del Tribunal Superior que cambie tu nombre **y** declare que tu sexo cambió mediante cirugía.
+    2. Una declaración del médico en papel membretado con firma original.
+    3. El formulario 3977 (Declaración Jurada para Enmienda), notarizado, copia de tu identificación con foto y las tarifas.
+
+    Si no te has operado, Georgia no cambiará el marcador de sexo. El **nombre** sí se puede enmendar con una orden judicial, pero el formulario 3977 también pide una declaración médica.
+
+    Solo las personas nacidas en Georgia usan este proceso. Si naciste en otro estado, se aplican las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Georgia. Where you live now does not matter.
+    es: Debes haber nacido en Georgia. No importa dónde vivas ahora.
+  age:
+    en: The registrant (you, if an adult), a parent listed on the certificate, a legal guardian, or a legal representative may apply.
+    es: Puede solicitar la persona registrada (tú, si eres adulto), un padre o madre que figure en el acta, un tutor legal o un representante legal.
+  other:
+    en: A court order stating a surgical sex change is required for the sex marker.
+    es: Se requiere una orden judicial que indique un cambio de sexo quirúrgico para el marcador.
+  sources: [ocga-31-10-23, dph-3977, dph-birth]
+forms:
+  - id: Form 3977
+    name:
+      en: Affidavit for Amendment
+      es: Declaración jurada para enmienda
+    url: https://dph.georgia.gov/document/document/affidavit-amendment-form-3977-revisedpdf/download
+    required: always
+    how_to_fill:
+      en: |
+        - Section 1: check "Birth", then fill in the certificate exactly as it reads now (state file number if known, name at birth, date of birth, parents' names).
+        - "Item omitted or in error": list each item you are changing (for example "Sex" and "First name"), what the certificate shows now, and what it should be.
+        - Sign in front of a notary (Section 2); the notary records your ID.
+        - Attach a **certified** copy of the court order (uncertified copies are rejected), the physician's statement on letterhead with original signature, a copy of your photo ID, and a money order or certified check payable to the State Office of Vital Records (no personal checks; no cash by mail).
+      es: |
+        - Sección 1: marca "Birth" y llena los datos exactamente como aparecen hoy en el acta.
+        - "Item omitted or in error": anota cada dato que cambias (por ejemplo "Sex" y "First name"), lo que dice ahora y lo que debe decir.
+        - Firma ante notario (Sección 2).
+        - Adjunta copia **certificada** de la orden judicial, la declaración médica en papel membretado con firma original, copia de tu identificación con foto y un giro postal o cheque certificado a nombre de State Office of Vital Records (sin cheques personales; sin efectivo por correo).
+    sources: [dph-3977]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified court order
+      es: Obtén una orden judicial certificada
+    body:
+      en: The order must say that your sex has been changed by surgical procedure and that your name has been changed. Ask a lawyer or legal aid group how to request this in your Superior Court petition; courts may ask for medical evidence.
+      es: La orden debe decir que tu sexo cambió mediante un procedimiento quirúrgico y que tu nombre cambió. Pregunta a un abogado o a una organización de ayuda legal cómo pedirlo en tu petición al Tribunal Superior.
+    sources: [ocga-31-10-23]
+  - id: physician-statement
+    title:
+      en: Get a physician's statement
+      es: Obtén una declaración del médico
+    body:
+      en: On the physician's letterhead, with an original signature and the physician's title. Vital records keeps it on file with the court order.
+      es: En papel membretado del médico, con firma original y su título. Registros Vitales la archiva junto con la orden judicial.
+    sources: [dph-3977]
+  - id: form
+    title:
+      en: Complete and notarize Form 3977
+      es: Llena y notariza el formulario 3977
+    body:
+      en: Fill in the form as described above and sign it in front of a notary.
+      es: Llena el formulario como se describe arriba y fírmalo ante notario.
+    forms: [Form 3977]
+    sources: [dph-3977]
+  - id: submit
+    title:
+      en: Submit by mail or in person with payment
+      es: Envía por correo o entrega en persona con el pago
+    body:
+      en: |
+        Send or bring everything to the State Office of Vital Records, 1680 Phoenix Blvd, Suite 100, Atlanta, GA 30349 (404-679-4702). Pay the $10 amendment fee plus $25 for the first certified copy and $5 for each extra copy ordered at the same time (for example, $40 for the amendment and two copies).
+      es: |
+        Envía o lleva todo a la Oficina Estatal de Registros Vitales, 1680 Phoenix Blvd, Suite 100, Atlanta, GA 30349 (404-679-4702). Paga $10 por la enmienda más $25 por la primera copia certificada y $5 por cada copia adicional pedida al mismo tiempo (por ejemplo, $40 por la enmienda y dos copias).
+    fees: [amendment, first-copy, extra-copy]
+    applies_to: [by_mail, in_person]
+    sources: [dph-3977, dph-fees]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee (does not include a copy)
+      es: Tarifa de enmienda (no incluye copia)
+    amount: 10
+    waivable: false
+    sources: [dph-fees, dph-3977]
+  - id: first-copy
+    label:
+      en: First certified copy of the new certificate
+      es: Primera copia certificada del acta nueva
+    amount: 25
+    waivable: false
+    sources: [dph-fees, dph-3977]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 5
+    waivable: false
+    sources: [dph-fees, dph-3977]
+fee_waiver:
+  available: false
+  how:
+    en: DPH does not list a fee waiver; fees are non-refundable. Funds such as Point of Pride may help with document costs.
+    es: DPH no ofrece exención; las tarifas no son reembolsables. Algunos fondos pueden ayudar con los costos.
+  sources: [dph-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail or at the State Office of Vital Records in Atlanta. Mail requests need a money order or certified check.
+    es: Por correo o en la Oficina Estatal de Registros Vitales en Atlanta. Por correo se paga con giro postal o cheque certificado.
+  sources: [dph-3977]
+timeline:
+  en: DPH does not publish a processing time for amendments. The court order step usually takes longest.
+  es: DPH no publica un tiempo de procesamiento para enmiendas. La orden judicial suele ser lo que más tarda.
+after:
+  en: |
+    The amended certificate replaces the original record on file. As of September 2026, Social Security and the State Department will not update the sex field based on it. If you were born in another state, that state's rules control your birth certificate, not Georgia's.
+  es: |
+    El acta enmendada reemplaza el registro original. A septiembre de 2026, el Seguro Social y el Departamento de Estado no actualizarán el campo de sexo con base en ella. Si naciste en otro estado, las reglas de ese estado rigen tu acta, no las de Georgia.
+tips:
+  - en: Order extra copies ($5 each) with the same request; ordering later costs $25 for the first copy again.
+    es: Pide copias adicionales ($5 cada una) en la misma solicitud; pedirlas después cuesta otra vez $25 la primera.
+statutes:
+  - cite: O.C.G.A. § 31-10-23(e)
+    title:
+      en: Amendment of a birth certificate on a court order stating a surgical sex change and a name change
+      es: Enmienda del acta de nacimiento con orden judicial que indique un cambio de sexo quirúrgico y un cambio de nombre
+    url: https://codes.findlaw.com/ga/title-31-health/ga-code-sect-31-10-23/
+related_links:
+  - title: Georgia DPH, Birth records and certificate corrections
+    url: https://dph.georgia.gov/ways-request-vital-record/birth
+  - title: Advocates for Trans Equality, Georgia identity documents
+    url: https://transequality.org/documents/georgia-identity-documents
+    note:
+      en: The page shows no last-updated date.
+      es: La página no muestra fecha de actualización.
+sources:
+  - id: ocga-31-10-23
+    url: https://codes.findlaw.com/ga/title-31-health/ga-code-sect-31-10-23/
+    title: O.C.G.A. § 31-10-23, Amendment of certificates or reports
+    publisher: FindLaw (Georgia Code, current as of March 2024)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Upon receipt of a certified copy of a court order indicating the sex of an individual born in this state has
+      been changed by surgical procedure and that such individual's name has been changed, the certificate of birth of
+      such individual shall be amended as prescribed by regulation.
+  - id: dph-3977
+    url: https://dph.georgia.gov/document/document/affidavit-amendment-form-3977-revisedpdf/download
+    title: Affidavit for Amendment, Form 3977 (rev. 09/2018)
+    publisher: Georgia Department of Public Health, State Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      To amend the name on the birth certificate requires a court order indicating the changes from (original name)
+      and change to (new name). In addition, please provide a statement on letterhead from the physician indicating
+      the intersex/transgender diagnosis. ... The fee for amendments to Vital Records is $10.00.
+  - id: dph-fees
+    url: https://dph.georgia.gov/ways-request-vital-record/fees
+    title: Vital records fees
+    publisher: Georgia Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Birth Certificates - $25.00 + $5.00 for additional copies. Amendments - $10.00 + cost of the certificate."
+  - id: dph-birth
+    url: https://dph.georgia.gov/ways-request-vital-record/birth
+    title: Birth records
+    publisher: Georgia Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: A general amendment is defined as a change that is made to a certificate after 1 year of age.
