@@ -1,0 +1,300 @@
+jurisdiction: HI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Shield law: ACLU of Hawaii's legislation page (read 2026-09-24) lists HB 1875 (2026 session) as "Signed by
+    governor", expanding Act 2, SLH 2023 (the reproductive health shield law) to gender-affirming care; act number and
+    effective date not confirmed because capitol.hawaii.gov blocked automated access. Private insurance: HRS
+    431:10A-118.3 (from 2016) is cited from secondary knowledge and MAP's profile (1/1 for nondiscrimination and
+    exclusion bans); statute text not read. Parallel provisions for mutual benefit societies and HMOs (ch. 432 and
+    432D) were not checked. MEDICAID IS A GAP: no Med-QUEST policy on gender-affirming care could be found on
+    medquest.hawaii.gov (its memo pages render by JavaScript), and MAP scores Hawaii 0/1 for a Medicaid coverage
+    policy, so covers_hrt and covers_surgery are "unclear". Reviewer: look for a Med-QUEST memo or health plan policies
+    (HMSA QUEST, AlohaCare, Kaiser, Ohana, UHC Community Plan) and update. Clinic details are from org websites.
+    Planned Parenthood's minimum age for hormone care in Hawaii was not stated on its pages. Kalihi-Palama Health
+    Center's site blocked automated access and is not listed.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Hawaii. State law bars private insurers from excluding
+    transition care, and a 2026 shield law protects patients and providers from other states' bans. In Honolulu you can
+    get hormones at HHHRC's clinic or Planned Parenthood, and QueerDoc, Plume, and Planned Parenthood offer telehealth.
+    Whether Med-QUEST (Medicaid) covers transition care is not clearly stated in any published policy.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Hawái. La ley estatal prohíbe a las
+    aseguradoras privadas excluir la atención de transición, y una ley escudo de 2026 protege a pacientes y proveedores
+    de las prohibiciones de otros estados. En Honolulu puedes recibir hormonas en la clínica de HHHRC o en Planned
+    Parenthood, y QueerDoc, Plume y Planned Parenthood ofrecen telesalud. No hay una política publicada clara sobre si
+    Med-QUEST (Medicaid) cubre la atención de transición.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Hormone therapy is available in person in Honolulu and statewide by telehealth.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **Med-QUEST** (Hawaii Medicaid) at medical.mybenefits.hawaii.gov. Coverage for transition care is not spelled out publicly, but hormones and labs are ordinary prescriptions and office visits; ask your health plan.
+      2. Contact **HHHRC** in Honolulu (808-521-2437). Its clinic offers hormone therapy with primary care and peer navigators who help with insurance.
+      3. **Planned Parenthood** offers gender-affirming hormone care at all its health centers, including Honolulu, and by telehealth. Insurance is not required.
+      4. **Community health centers** (FQHCs) charge on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      5. **Point of Pride's HRT Access Fund** pays for up to 18 months of telehealth hormone care (applications open each year).
+    es: |
+      Sin restricciones estatales. La terapia hormonal está disponible en persona en Honolulu y por telesalud en todo el estado.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Med-QUEST** (Medicaid de Hawái) en medical.mybenefits.hawaii.gov. La cobertura de transición no está detallada públicamente, pero las hormonas y los análisis son recetas y consultas comunes; pregunta a tu plan.
+      2. Contacta a **HHHRC** en Honolulu (808-521-2437). Su clínica ofrece terapia hormonal con atención primaria y navegadoras que ayudan con el seguro.
+      3. **Planned Parenthood** ofrece atención hormonal de afirmación de género en todos sus centros, incluido Honolulu, y por telesalud. No se requiere seguro.
+      4. Los **centros de salud comunitarios** cobran en escala móvil. Búscalos en findahealthcenter.hrsa.gov.
+      5. El **Fondo de Acceso a TRH de Point of Pride** paga hasta 18 meses de atención hormonal por telesalud.
+  sources: [hhhrc-hormone, pp-hrt, hrsa, pop-hrt, medquest-apply]
+minor_care:
+  status: available
+  detail:
+    en: >-
+      Legal. Hawaii has no ban on gender-affirming care for minors (MAP). HB 1875 (2026) extends the protections of Act 2,
+      SLH 2023 to gender-affirming care, shielding patients, families, and providers from other states' legal actions and
+      restricting disclosure of health information. Care for minors follows clinical guidelines and generally requires a
+      parent's consent. Planned Parenthood did not publish a minimum age for hormone care in Hawaii; call to ask.
+    es: >-
+      Legal. Hawái no prohíbe la atención de afirmación de género para menores (MAP). HB 1875 (2026) extiende las
+      protecciones de la Ley 2 de 2023 a la atención de afirmación de género, protegiendo a pacientes, familias y
+      proveedores de acciones legales de otros estados. La atención a menores sigue guías clínicas y en general requiere
+      consentimiento de un padre o madre. Planned Parenthood no publica una edad mínima en Hawái; llama para preguntar.
+  sources: [map-hi, aclu-hb1875, pp-hrt]
+medicaid:
+  program_name: Med-QUEST (QUEST Integration)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: >-
+      No published Med-QUEST policy on gender-affirming care was found, and MAP does not list Hawaii as having an
+      explicit Medicaid coverage policy. There is also no known exclusion. Hormones are usually covered like other
+      prescriptions, sometimes with prior authorization; surgery coverage is decided by your QUEST health plan. If you
+      are denied, ask the plan for the written reason, request a grievance or appeal, and contact the Trans Health
+      Project for appeal templates.
+    es: >-
+      No se encontró una política publicada de Med-QUEST sobre atención de afirmación de género, y MAP no registra una
+      política explícita de cobertura en Hawái. Tampoco se conoce una exclusión. Las hormonas suelen cubrirse como otras
+      recetas, a veces con autorización previa; la cobertura de cirugía la decide tu plan QUEST. Si te niegan, pide el
+      motivo por escrito, presenta una queja o apelación y contacta al Trans Health Project.
+  how_to_apply_url: https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html
+  sources: [medquest-apply, map-hi, thp]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: >-
+      Since 2016, HRS § 431:10A-118.3 prohibits health insurers regulated by Hawaii from denying or limiting coverage
+      because of gender identity, including blanket exclusions of transition-related care. It does not reach
+      self-funded employer plans, which are governed by federal law. File complaints with the Insurance Division of the
+      Department of Commerce and Consumer Affairs.
+    es: >-
+      Desde 2016, HRS § 431:10A-118.3 prohíbe a las aseguradoras reguladas por Hawái negar o limitar la cobertura por
+      identidad de género, incluidas las exclusiones generales de atención de transición. No aplica a planes
+      autofinanciados de empleadores, regidos por ley federal. Presenta quejas ante la División de Seguros del DCCA.
+  complaint_url: https://cca.hawaii.gov/ins/complaint/
+  sources: [map-hi, cca-complaint]
+telehealth_hrt: [plume, queerdoc, planned-parenthood]
+resources:
+  - id: hhhrc-clinic
+    name: Hawaii Health & Harm Reduction Center, Hormone Therapy Services
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, insurance]
+    description:
+      en: >-
+        In-house hormone therapy with primary care, lab monitoring, STI/HIV testing, PrEP and PEP, surgical and mental
+        health referrals, and Kua'ana Project peer navigators for insurance and document help. Request an appointment
+        through the website form or call 808-521-2437 (weekdays 9 am to 4:30 pm).
+      es: >-
+        Terapia hormonal con atención primaria, análisis, pruebas de ITS/VIH, PrEP y PEP, referencias quirúrgicas y de
+        salud mental, y navegadoras del Proyecto Kua'ana para seguro y documentos. Pide cita con el formulario del sitio
+        o al 808-521-2437 (entre semana de 9 am a 4:30 pm).
+    url: https://www.hhhrc.org/hormonetherapy
+    phone: "808-521-2437"
+    address: 677 Ala Moana Blvd, Suite 226, Honolulu, HI 96813
+    cost: unknown
+    verification: org_website
+    sources: [hhhrc-hormone]
+  - id: pp-hawaii
+    org: planned-parenthood
+    name: Planned Parenthood Great Northwest, Hawaii, Alaska, Indiana, Kentucky (Honolulu and virtual)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: >-
+        Gender-affirming hormone care at all health centers, including Honolulu (839 S Beretania St) and Kahului, and by
+        telehealth. Insurance not required; accepts Medicaid and most Hawaii plans. Call 800-769-0045. Minimum age not
+        published; ask when booking.
+      es: >-
+        Atención hormonal de afirmación de género en todos sus centros, incluidos Honolulu (839 S Beretania St) y Kahului,
+        y por telesalud. No se requiere seguro; acepta Medicaid y la mayoría de los planes de Hawái. Llama al
+        800-769-0045. Edad mínima no publicada.
+    url: https://www.plannedparenthood.org/health-center/hawaii/honolulu/96813/honolulu-health-center-2951-91810
+    phone: "800-769-0045"
+    cost: varies
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-hrt, pp-honolulu]
+  - id: queerdoc-hi
+    org: queerdoc
+    name: QueerDoc
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming hormone care by LGBTQ+ providers; serves Hawaii.
+      es: Atención hormonal de afirmación de género por telesalud con proveedores LGBTQ+; atiende Hawái.
+    url: https://www.queerdoc.com/
+    telehealth: true
+    cost: paid
+    verification: org_website
+    sources: [queerdoc]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of ability to pay and charge on a sliding scale. Call and ask whether they prescribe gender-affirming hormones.
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu capacidad de pago y cobran en escala móvil. Llama y pregunta si recetan hormonas de afirmación de género.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: medquest-enroll
+    name: Med-QUEST Division, apply for coverage
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Apply for Hawaii Medicaid online at medical.mybenefits.hawaii.gov, by phone, by mail or fax, or at a Med-QUEST eligibility office.
+      es: Solicita Medicaid de Hawái en línea en medical.mybenefits.hawaii.gov, por teléfono, por correo o fax, o en una oficina de elegibilidad de Med-QUEST.
+    url: https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html
+    cost: free
+    verification: official_source
+    sources: [medquest-apply]
+  - id: point-of-pride-hi
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy) and a yearly surgery fund.
+      es: Fondos nacionales para personas que no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal gratis por telesalud) y un fondo anual de cirugía.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-hi
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and transition costs, including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y costos de transición, incluidas hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Haw. Rev. Stat. § 431:10A-118.3
+    title:
+      en: Nondiscrimination on the basis of actual gender identity or perceived gender identity (accident and health insurance)
+    url: https://www.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010A-0118_0003.htm
+  - cite: HB 1875 (2026)
+    title:
+      en: Gender-affirming care shield law (expands Act 2, SLH 2023)
+    url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1875&year=2026
+sources:
+  - id: map-hi
+    url: https://www.mapresearch.org/equality-maps/profile_state/HI
+    title: Hawaii equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Private health insurance nondiscrimination law 1/1; insurance exclusion ban 1/1; shield law 1/1; no law banning best-practice care for transgender youth; Medicaid coverage policy 0/1.
+  - id: aclu-hb1875
+    url: https://www.acluhi.org/legislation/hb1875-gender-affirming-care-shield-law/
+    title: "HB1875: Gender-Affirming Care Shield Law"
+    publisher: ACLU of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+    quote: Expands the protections established under Act 2, SLH 2023, to include gender-affirming health care services ... Status Signed by governor
+  - id: hhhrc-hormone
+    url: https://www.hhhrc.org/hormonetherapy
+    title: Hormone Therapy Services
+    publisher: Hawaii Health & Harm Reduction Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: HHHRC's clinic, in coordination with the Kua'ana Project, provides a patient-centered affirming environment where patients can receive hormone therapy
+  - id: pp-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck/patients/health-care-services/hrt-hormone-therapy-for-trans-and-non-binary-patients
+    title: "HRT: Hormone Therapy for Trans and Non-Binary Patients"
+    publisher: Planned Parenthood Great Northwest, Hawaii, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+    quote: These services include gender-affirming hormone care at all our health centers. We also offer care by telehealth.
+  - id: pp-honolulu
+    url: https://www.plannedparenthood.org/health-center/hawaii/honolulu/96813/honolulu-health-center-2951-91810
+    title: Honolulu Health Center
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+    quote: 839 S Beretania Street Honolulu, HI 96813 ... Insurance not required ... Gender-Affirming Care
+  - id: queerdoc
+    url: https://www.queerdoc.com/
+    title: QueerDoc
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: medquest-apply
+    url: https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html
+    title: Apply for Medicaid
+    publisher: Hawaii Department of Human Services, Med-QUEST Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Med-QUEST Division accepts applications for medical assistance coverage online, over the phone, by mail or Fax.
+  - id: cca-complaint
+    url: https://cca.hawaii.gov/ins/complaint/
+    title: Filing a Complaint
+    publisher: Hawaii Department of Commerce and Consumer Affairs, Insurance Division
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

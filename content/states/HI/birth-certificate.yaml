@@ -1,0 +1,194 @@
+guide_type: birth_certificate
+jurisdiction: HI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    IMPORTANT DISCREPANCY: the task brief (and Wikipedia's "LGBTQ rights in Hawaii" page) say Hawaii birth certificates
+    moved to self-attestation in 2019 with an X option from 2020. The Department of Health's own page, read 2026-09-24,
+    still cites HRS 338-17.7 as amended by Act 226 (2015) and requires a notarized affidavit from a US-licensed physician;
+    it offers no X option. MAP's Hawaii profile (read the same day) agrees: birth certificate change allowed, no X
+    option. HB 1165 (2019) appears to have covered driver's licenses and state IDs only. This guide follows the DOH page.
+    Reviewer: confirm the current text of HRS 338-17.7 (capitol.hawaii.gov blocked automated access) and call DOH
+    (808-586-4541) to confirm whether X is available and whether the 2015 forms are still current. Fee: DOH says $3 per
+    amended item; certified copies $10 first, $4 each additional, plus a $2.50 administration fee per 5 copies. Processing
+    time was not published.
+status: restricted
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Hawaii, you can get a new birth certificate showing male or female by sending the Department of
+    Health an application and a notarized affidavit from a US-licensed physician. No court order or surgery is required,
+    but a therapist or nurse practitioner cannot sign, and X is not offered.
+  es: >-
+    Si naciste en Hawái, puedes obtener una nueva acta de nacimiento con masculino o femenino enviando al Departamento
+    de Salud una solicitud y una declaración jurada notarizada de un médico con licencia en EE. UU. No se requiere orden
+    judicial ni cirugía, pero no la puede firmar un terapeuta o enfermero practicante, y no se ofrece X.
+summary:
+  en: |
+    Under HRS § 338-17.7 (as amended in 2015), the Hawaii Department of Health (DOH) issues a **new** birth certificate with a changed sex designation when you submit an application and a **notarized affidavit from a physician licensed in the United States**. The physician must state that they have a bona fide physician-patient relationship with you, have evaluated your medical history, and that you "had appropriate clinical treatment for gender transition" and have completed transition to the new gender. What counts as appropriate treatment is up to the physician; **surgery is not required**.
+
+    Only a physician as defined in HRS § 338-1 can sign. Naturopathic doctors are expressly not accepted. The DOH page lists only a change of sex designation and does not offer an X or nonbinary option.
+
+    The new certificate replaces the original, which is **sealed** and can be opened only by court order or at your request. This guide applies only if you were born in Hawaii. If you were born in another state, follow that state's rules.
+  es: |
+    Según HRS § 338-17.7 (modificado en 2015), el Departamento de Salud de Hawái (DOH) emite una **nueva** acta de nacimiento con el sexo cambiado cuando presentas una solicitud y una **declaración jurada notarizada de un médico con licencia en Estados Unidos**. El médico debe declarar que tiene una relación médico-paciente de buena fe contigo, que evaluó tu historial médico y que recibiste "tratamiento clínico apropiado para la transición de género" y completaste la transición. Qué cuenta como tratamiento apropiado lo decide el médico; **no se requiere cirugía**.
+
+    Solo puede firmar un médico según la definición de HRS § 338-1. No se aceptan médicos naturópatas. La página del DOH no ofrece opción X ni no binaria.
+
+    La nueva acta reemplaza a la original, que queda **sellada** y solo puede abrirse por orden judicial o a petición tuya. Esta guía aplica solo si naciste en Hawái. Si naciste en otro estado, sigue las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Hawaii with a birth certificate on file with DOH. You do not need to live in Hawaii now.
+    es: Debes haber nacido en Hawái y tener un acta registrada en el DOH. No necesitas vivir en Hawái ahora.
+  other:
+    en: You need a physician who has treated you and will sign the affidavit before a notary.
+    es: Necesitas un médico que te haya atendido y que firme la declaración ante un notario.
+  sources: [doh-sex-designation]
+forms:
+  - id: amendment-application
+    name:
+      en: Application for Amendment to Birth Record
+      es: Solicitud de enmienda del registro de nacimiento
+    url: https://health.hawaii.gov/vitalrecords/files/2015/07/Application-for-Amendment-to-Birth-Record.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Fill in the birth record information exactly as it appears on your current certificate.
+        - List the sex designation as the item to change. If you have already completed a legal name change, also list the name and attach a certified copy of your recorded name change Order.
+        - Sign and have it notarized; DOH asks for original notarized forms.
+      es: |
+        - Llena los datos exactamente como aparecen en tu acta actual.
+        - Indica el sexo como el dato a cambiar. Si ya completaste un cambio legal de nombre, indica también el nombre y adjunta una copia certificada de tu Orden registrada.
+        - Firma y notariza; el DOH pide formularios originales notarizados.
+    sources: [doh-sex-designation]
+  - id: physician-affidavit
+    name:
+      en: Physician Affidavit Form for Sex Designation Change
+      es: Formulario de declaración jurada del médico para cambio de sexo
+    url: https://health.hawaii.gov/vitalrecords/files/2015/07/Physician-Affidavit-for-Sex-Designation-Change.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Give your physician a **current certified copy of your birth certificate**; the physician must attest to having seen it.
+        - The physician (MD or DO licensed in any US state, not a naturopath) completes and signs the affidavit in front of a notary.
+      es: |
+        - Entrega a tu médico una **copia certificada actual de tu acta de nacimiento**; el médico debe declarar que la vio.
+        - El médico (MD o DO con licencia en cualquier estado, no naturópata) completa y firma ante notario.
+    sources: [doh-sex-designation]
+steps:
+  - id: certified-copy
+    title:
+      en: Get a current certified copy of your birth certificate
+      es: Obtén una copia certificada actual de tu acta de nacimiento
+    body:
+      en: Order online at vitrec.ehawaii.gov ($10 for the first copy plus a $2.50 administration fee). Your physician needs to see it.
+      es: Pídela en línea en vitrec.ehawaii.gov ($10 la primera copia más $2.50 de administración). Tu médico necesita verla.
+    fees: [certified-copy]
+    sources: [doh-copies]
+  - id: physician
+    title:
+      en: Ask your physician to complete the notarized affidavit
+      es: Pide a tu médico que complete la declaración jurada notarizada
+    body:
+      en: >-
+        Any US-licensed physician who treats you can sign, including a prescriber at an informed-consent hormone clinic
+        or a telehealth provider, as long as they are a physician (not a nurse practitioner or naturopath). Many clinics
+        have done this before; ask them.
+      es: >-
+        Puede firmar cualquier médico con licencia en EE. UU. que te atienda, incluido quien te receta en una clínica de
+        hormonas o por telesalud, siempre que sea médico (no enfermero practicante ni naturópata).
+    forms: [physician-affidavit]
+    sources: [doh-sex-designation]
+  - id: submit
+    title:
+      en: Send the forms and fee to the Department of Health
+      es: Envía los formularios y la tarifa al Departamento de Salud
+    body:
+      en: |
+        Send the original notarized application, the physician affidavit, and the fee.
+        - **By mail**: Department of Health, Office of Health Status Monitoring, Registration/Corrections Section, P.O. Box 3378, Honolulu, HI 96801-3378. Pay by cashier's check, certified check, or money order payable to the State Department of Health.
+        - **In person** (by appointment, weekdays 7:45 am to 2:30 pm): 1250 Punchbowl Street, Room 105, Honolulu. Call 808-586-4541 to schedule.
+
+        Add the fee for any certified copies of the new certificate you want.
+      es: |
+        Envía la solicitud original notarizada, la declaración del médico y la tarifa.
+        - **Por correo**: Department of Health, Office of Health Status Monitoring, Registration/Corrections Section, P.O. Box 3378, Honolulu, HI 96801-3378. Paga con cheque de caja, cheque certificado o giro a nombre del State Department of Health.
+        - **En persona** (con cita, entre semana de 7:45 am a 2:30 pm): 1250 Punchbowl Street, Room 105, Honolulu. Llama al 808-586-4541 para programar.
+    forms: [amendment-application]
+    fees: [amendment, certified-copy]
+    sources: [doh-sex-designation, doh-amendments, doh-copies]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee (per item changed)
+      es: Tarifa de enmienda (por dato cambiado)
+    amount: 3
+    sources: [doh-sex-designation, doh-amendments]
+  - id: certified-copy
+    label:
+      en: Certified copy ($10 first copy, $4 each additional, plus $2.50 administration fee per up to 5 copies)
+      es: Copia certificada ($10 la primera, $4 cada adicional, más $2.50 de administración por hasta 5 copias)
+    amount: 12.5
+    note:
+      en: $12.50 is the total for one copy.
+      es: $12.50 es el total por una copia.
+    sources: [doh-copies]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Mail, or in person by appointment in Honolulu.
+    es: Por correo, o en persona con cita en Honolulu.
+  sources: [doh-sex-designation, doh-amendments]
+after:
+  en: >-
+    Order extra certified copies of the new certificate. The birth certificate is not required to update a Hawaii
+    driver's license, which uses self-attestation, but you may need it for a passport or other records.
+  es: >-
+    Pide copias certificadas adicionales de la nueva acta. No necesitas el acta para cambiar tu licencia de Hawái, que
+    usa declaración propia, pero puede servirte para el pasaporte u otros registros.
+tips:
+  - en: To have your new name on the new certificate, finish your legal name change (including recording the Order) first. If you change your name later, it has to be amended separately.
+    es: Para que el nuevo nombre aparezca en la nueva acta, termina primero tu cambio legal de nombre (incluido el registro de la Orden). Si lo cambias después, habrá que enmendarla por separado.
+  - en: Once an item is amended, DOH will not amend it again without a court order (or, for a name, a new name change decree).
+    es: Una vez enmendado un dato, el DOH no lo vuelve a enmendar sin orden judicial (o, para el nombre, un nuevo decreto de cambio de nombre).
+statutes:
+  - cite: Haw. Rev. Stat. § 338-17.7
+    title:
+      en: New certificate of birth, including sex designation change
+    url: https://www.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0338/HRS_0338-0017_0007.htm
+related_links:
+  - title: MAP, Hawaii equality profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/HI
+    note:
+      en: Confirms that Hawaii allows birth certificate changes but does not offer an X option.
+      es: Confirma que Hawái permite cambiar el acta pero no ofrece la opción X.
+sources:
+  - id: doh-sex-designation
+    url: https://health.hawaii.gov/vitalrecords/amendments/new-birth-certificate-for-sex-designation-change/
+    title: New Birth Certificate for Sex Designation Change
+    publisher: Hawaii State Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: The requestor must provide a notarized affidavit from a United States licensed physician attesting that ... The birth registrant has had appropriate clinical treatment for gender transition to the new gender
+  - id: doh-amendments
+    url: https://health.hawaii.gov/vitalrecords/amendments/
+    title: Amendments
+    publisher: Hawaii State Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: In most cases, a fee of $3.00 is charged for each request for the amendment of an item or group of items on a given certificate.
+  - id: doh-copies
+    url: https://health.hawaii.gov/vitalrecords/birth-marriage-certificates/
+    title: Hawaii Birth & Marriage Certificates
+    publisher: Hawaii State Department of Health, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: $10.00 First Copy $4.00 Each Additional Copy $2.50 General Administration Fee (for up to 5 copies)

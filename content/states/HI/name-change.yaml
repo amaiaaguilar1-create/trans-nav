@@ -1,0 +1,447 @@
+guide_type: name_change
+jurisdiction: HI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the Lieutenant Governor's Name Change Guide, the online system's About page, and the
+    printable instructions (Rev 3-2026), all read directly. Fees ($50 filing + $1 archive + $5 service = $56;
+    publication "starting at $204.19"; $41 Bureau of Conveyances recording) and the 60-day publication and recording
+    deadlines come from those pages. NOT verified: (1) the text of HRS 574-5 itself; capitol.hawaii.gov, Justia, and
+    FindLaw all blocked automated access, so the statute URL is the standard capitol.hawaii.gov path and was not
+    loaded. (2) The publication waiver for safety (prosecutor affidavit) and the sex-offender restriction come only
+    from A4TE's Hawaii page, which is otherwise outdated (it still describes the pre-2020 driver's license rule); confirm
+    in HRS 574-5 and HAR Title 2 Ch. 2. (3) No fee waiver was found on any official page; confirm with the LG office.
+    (4) Cost of certified copies of the recorded order from the Bureau of Conveyances was not found. (5) The Bureau of
+    Conveyances fee page (dlnr.hawaii.gov/boc) returned HTTP 429. (6) Whether Family Court can also grant name changes
+    (for example in a divorce) was not researched. Status is "available", but a reviewer may prefer "restricted" given
+    mandatory newspaper publication with no gender-identity waiver.
+status: available
+status_summary:
+  en: >-
+    Hawaii adults change their name through the Lieutenant Governor's office, not a court. You apply online, mail a
+    notarized petition, and then must publish a notice in the Honolulu Star-Advertiser before the order is signed.
+    Expect about $300 in total fees and 8 to 12 weeks.
+  es: >-
+    En Hawái, las personas adultas cambian su nombre a través de la oficina del Vicegobernador, no de un tribunal.
+    Solicitas en línea, envías por correo una petición notarizada y luego debes publicar un aviso en el Honolulu
+    Star-Advertiser antes de que se firme la orden. Calcula unos $300 en tarifas y de 8 a 12 semanas.
+summary:
+  en: |
+    In Hawaii a name change is an **administrative** process. Under HRS § 574-5 the **Lieutenant Governor** signs a name change order after you file a notarized petition. There is no court, no judge, and no hearing. You do not have to give a reason, and nothing in the process asks about gender.
+
+    The steps are: apply and pay online at namechange.ehawaii.gov, print and notarize the petition, mail it with a recent certified birth certificate, wait for the Lieutenant Governor to sign a Notice, **publish that Notice in the Honolulu Star-Advertiser**, and finally record the signed Order with the Bureau of Conveyances. The name change is not complete until the Order is recorded.
+
+    The publication step means your old and new names appear in the newspaper. There is no waiver for gender identity reasons. If publishing would put you in danger, talk to a legal aid organization before you apply (see Minors and Tips below).
+  es: |
+    En Hawái el cambio de nombre es un trámite **administrativo**. Según HRS § 574-5, el **Vicegobernador** firma una orden de cambio de nombre después de que presentas una petición notarizada. No hay tribunal, juez ni audiencia. No tienes que dar un motivo y nada en el proceso pregunta por tu género.
+
+    Los pasos son: solicitar y pagar en línea en namechange.ehawaii.gov, imprimir y notarizar la petición, enviarla por correo con un acta de nacimiento certificada reciente, esperar a que el Vicegobernador firme un Aviso, **publicar ese Aviso en el Honolulu Star-Advertiser** y, por último, registrar la Orden firmada en la Oficina de Registro (Bureau of Conveyances). El cambio no está completo hasta que se registra la Orden.
+
+    La publicación hace que tu nombre anterior y el nuevo aparezcan en el periódico. No hay exención por motivos de identidad de género. Si publicar te pondría en peligro, habla con una organización de ayuda legal antes de solicitar.
+eligibility:
+  residency:
+    en: You must be a Hawaii resident. Active-duty military stationed in Hawaii apply using their physical Hawaii address.
+    es: Debes residir en Hawái. El personal militar activo destinado en Hawái solicita con su dirección física en Hawái.
+  age:
+    en: Adults apply for themselves. For a child under 18, a parent applies as the petitioner (see Minors).
+    es: Las personas adultas solicitan por sí mismas. Para menores de 18 años, un padre o madre presenta la petición (ver Menores).
+  criminal_history:
+    en: >-
+      The online application asks for any felony convictions. According to A4TE, people with sex offense convictions
+      cannot get a name change unless a court finds it is in the interest of justice and will not harm public safety.
+    es: >-
+      La solicitud en línea pregunta por condenas por delitos graves. Según A4TE, las personas con condenas por delitos
+      sexuales no pueden cambiar su nombre salvo que un tribunal determine que es de interés de la justicia y no afecta
+      la seguridad pública.
+  sources: [ltgov-name-change, instructions-pdf, a4te-hi]
+forms:
+  - id: online-application
+    name:
+      en: Online Name Change Application (generates Petition, Fact Sheet, Notice of Change of Name, and Order)
+      es: Solicitud de cambio de nombre en línea (genera la Petición, la Hoja de datos, el Aviso de cambio de nombre y la Orden)
+    url: https://namechange.ehawaii.gov/public/welcome.html
+    required: always
+    how_to_fill:
+      en: |
+        - You need a free ehawaii.gov account. The session times out after 120 minutes and nothing is saved until you pay, so gather everything first.
+        - Have ready: your current legal name, your mother's maiden name and father's name, the name, date, and number on your birth certificate, names on your Social Security card, driver's license, marriage or divorce records, names and birth dates of living children, and any felony convictions.
+        - Type your new name exactly as you want it, including any ʻokina or kahakō. The Order copies it exactly.
+        - After paying, download and print the four documents **single-sided**.
+      es: |
+        - Necesitas una cuenta gratuita de ehawaii.gov. La sesión expira a los 120 minutos y nada se guarda hasta que pagas, así que reúne todo antes.
+        - Ten a mano: tu nombre legal actual, el apellido de soltera de tu madre y el nombre de tu padre, el nombre, fecha y número de tu acta de nacimiento, los nombres en tu tarjeta de Seguro Social, licencia, registros de matrimonio o divorcio, nombres y fechas de nacimiento de hijos vivos y cualquier condena por delito grave.
+        - Escribe tu nuevo nombre exactamente como lo quieres, con ʻokina o kahakō si corresponde.
+        - Después de pagar, descarga e imprime los cuatro documentos **por un solo lado**.
+    sources: [instructions-pdf, ehawaii-about]
+  - id: instructions
+    name:
+      en: Instructions for Change of Name Using the Online System (Rev 3-2026)
+      es: Instrucciones para el cambio de nombre con el sistema en línea (Rev 3-2026)
+    url: https://namechange.ehawaii.gov/public/pdf/instructions.pdf
+    required: optional
+    condition:
+      en: Read before you start; it lists every document to mail and the mailing addresses.
+      es: Léelas antes de empezar; enumeran cada documento que debes enviar y las direcciones.
+    sources: [instructions-pdf]
+steps:
+  - id: birth-certificate
+    title:
+      en: Order a new certified copy of your birth certificate
+      es: Pide una copia certificada nueva de tu acta de nacimiento
+    body:
+      en: >-
+        If you were born in the United States you must mail a certified birth certificate issued **no more than 90 days**
+        before you submit. For a Hawaii birth certificate, order at vitrec.ehawaii.gov ($10 plus a $2.50 fee). If you were
+        born outside the US, send your original naturalization certificate, or if you are not a citizen, a copy of your
+        passport plus your birth certificate, family register, or green card.
+      es: >-
+        Si naciste en Estados Unidos debes enviar un acta de nacimiento certificada emitida **no más de 90 días** antes de
+        presentar la solicitud. Para un acta de Hawái, pídela en vitrec.ehawaii.gov ($10 más una tarifa de $2.50). Si naciste
+        fuera de EE. UU., envía tu certificado de naturalización original o, si no eres ciudadano, copia de tu pasaporte
+        más tu acta de nacimiento, registro familiar o tarjeta de residencia.
+    sources: [instructions-pdf]
+  - id: apply-online
+    title:
+      en: Apply and pay online
+      es: Solicita y paga en línea
+    body:
+      en: >-
+        Create an account and complete the application at namechange.ehawaii.gov, choosing "individual". Pay the $56 fee by
+        credit card. Fees are non-refundable. If the office later rejects the petition for a typo or missing information,
+        the fee carries over to your corrected petition; call the office to reopen it instead of starting a new one.
+      es: >-
+        Crea una cuenta y completa la solicitud en namechange.ehawaii.gov, eligiendo "individual". Paga la tarifa de $56 con
+        tarjeta de crédito. Las tarifas no son reembolsables. Si la oficina rechaza la petición por un error o falta de
+        información, la tarifa se aplica a la petición corregida; llama a la oficina para reabrirla en lugar de empezar otra.
+    forms: [online-application]
+    fees: [lg-filing]
+    sources: [instructions-pdf, ehawaii-about]
+  - id: notarize
+    title:
+      en: Print and notarize the petition
+      es: Imprime y notariza la petición
+    body:
+      en: >-
+        Print the Petition, Fact Sheet, Notice of Change of Name, and Order single-sided. Sign the Petition in front of a
+        notary commissioned in Hawaii. You must mail it within **30 days** of notarization. Many banks and credit unions
+        notarize free for members.
+      es: >-
+        Imprime la Petición, la Hoja de datos, el Aviso de cambio de nombre y la Orden por un solo lado. Firma la Petición
+        ante un notario con comisión en Hawái. Debes enviarla por correo dentro de **30 días** después de notarizarla.
+        Muchos bancos y cooperativas de crédito notarizan gratis para sus socios.
+    sources: [instructions-pdf]
+  - id: mail
+    title:
+      en: Mail your packet to the Lieutenant Governor
+      es: Envía tu paquete por correo al Vicegobernador
+    body:
+      en: |
+        Mail to: Office of the Lieutenant Governor, Hawaii State Capitol, 415 South Beretania Street, 5th floor, Honolulu, HI 96813. Include:
+        - the notarized Petition, Fact Sheet, Notice of Change of Name, and Order
+        - your certified birth certificate (no older than 90 days)
+        - any marriage, civil union, or divorce records and prior name change decrees
+        - one self-addressed #10 envelope with first-class postage, and one self-addressed 9 x 12 envelope with $3.00 postage
+
+        You can ask to pick up your documents instead of having them mailed.
+      es: |
+        Envía a: Office of the Lieutenant Governor, Hawaii State Capitol, 415 South Beretania Street, 5th floor, Honolulu, HI 96813. Incluye:
+        - la Petición notarizada, la Hoja de datos, el Aviso de cambio de nombre y la Orden
+        - tu acta de nacimiento certificada (no mayor de 90 días)
+        - registros de matrimonio, unión civil o divorcio y decretos de cambio de nombre anteriores
+        - un sobre #10 con tu dirección y franqueo de primera clase, y un sobre de 9 x 12 con tu dirección y $3.00 de franqueo
+    applies_to: [by_mail]
+    sources: [instructions-pdf]
+  - id: publish
+    title:
+      en: Publish the signed Notice within 60 days
+      es: Publica el Aviso firmado dentro de 60 días
+    body:
+      en: >-
+        When your petition is approved, the Lieutenant Governor signs the Notice of Change of Name and mails it to you.
+        Send it to the Honolulu Star-Advertiser (legals@staradvertiser.com, 808-529-4747) and pay for publication (starting
+        at about $204). You have **60 days** from the date the Notice was signed; if you miss it, your petition is
+        automatically void. The newspaper sends an affidavit of publication to you and to the LG's office.
+      es: >-
+        Cuando se aprueba tu petición, el Vicegobernador firma el Aviso de cambio de nombre y te lo envía. Mándalo al
+        Honolulu Star-Advertiser (legals@staradvertiser.com, 808-529-4747) y paga la publicación (desde unos $204). Tienes
+        **60 días** desde la fecha de firma del Aviso; si no publicas a tiempo, tu petición queda anulada automáticamente.
+        El periódico envía una declaración jurada de publicación a ti y a la oficina del Vicegobernador.
+    fees: [publication]
+    estimated_time:
+      en: 6 to 12 weeks from mailing to signed Notice
+      es: 6 a 12 semanas desde el envío hasta el Aviso firmado
+    sources: [instructions-pdf, ltgov-name-change]
+  - id: record-order
+    title:
+      en: Record the signed Order with the Bureau of Conveyances within 60 days
+      es: Registra la Orden firmada en la Oficina de Registro dentro de 60 días
+    body:
+      en: >-
+        After the newspaper's affidavit arrives, the Lieutenant Governor signs the Order and mails it to you. Your name
+        change is **not complete** until you file the original Order with the Bureau of Conveyances within 60 days of
+        the date it was signed. Fee $41. By mail, send the original Order with a check or money order payable to "Bureau
+        of Conveyances" to P.O. Box 2867, Honolulu, HI 96803. In person, go to the Kalanimoku Building, 1151 Punchbowl
+        Street, Honolulu (cash, check, or money order).
+      es: >-
+        Cuando llega la declaración del periódico, el Vicegobernador firma la Orden y te la envía. Tu cambio de nombre
+        **no está completo** hasta que registres la Orden original en la Oficina de Registro (Bureau of Conveyances)
+        dentro de 60 días de su firma. Tarifa de $41. Por correo, envía la Orden original con cheque o giro a nombre de
+        "Bureau of Conveyances" a P.O. Box 2867, Honolulu, HI 96803. En persona, ve al edificio Kalanimoku, 1151 Punchbowl
+        Street, Honolulu (efectivo, cheque o giro).
+    fees: [recording]
+    sources: [instructions-pdf]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). Bring the recorded Order and photo ID. The sex field cannot currently be changed at SSA; the name can.
+        2. **Driver's license or state ID** at your county's driver licensing office (see the driver's license guide).
+        3. **Birth certificate** through the Department of Health, if you were born in Hawaii (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records, utilities.
+      es: |
+        1. **Seguro Social** primero (gratis). Lleva la Orden registrada y una identificación con foto. El campo de sexo no se puede cambiar actualmente en la SSA; el nombre sí.
+        2. **Licencia o identificación estatal** en la oficina de licencias de tu condado (ver la guía de licencia).
+        3. **Acta de nacimiento** en el Departamento de Salud, si naciste en Hawái (ver la guía de acta de nacimiento).
+        4. **Pasaporte**, banco, empleador, seguro, registro de votantes, registros escolares, servicios.
+    sources: [ltgov-name-change]
+fees:
+  - id: lg-filing
+    label:
+      en: Lieutenant Governor filing fee ($50 filing + $1 archive + $5 service)
+      es: Tarifa del Vicegobernador ($50 de presentación + $1 de archivo + $5 de servicio)
+    amount: 56
+    waivable: false
+    note:
+      en: Non-refundable. No fee waiver was found on the official pages.
+      es: No reembolsable. No se encontró exención de tarifa en las páginas oficiales.
+    sources: [ltgov-name-change, ehawaii-about]
+  - id: publication
+    label:
+      en: Newspaper publication (Honolulu Star-Advertiser)
+      es: Publicación en periódico (Honolulu Star-Advertiser)
+    min: 204.19
+    varies_by: vendor
+    note:
+      en: The LG's office quotes "starting at $204.19". Ask the newspaper for the current rate.
+      es: La oficina del Vicegobernador indica "desde $204.19". Pregunta al periódico la tarifa actual.
+    sources: [ltgov-name-change]
+  - id: recording
+    label:
+      en: Bureau of Conveyances recording fee
+      es: Tarifa de registro de la Oficina de Registro (Bureau of Conveyances)
+    amount: 41
+    sources: [ltgov-name-change, instructions-pdf]
+fee_waiver:
+  available: false
+  how:
+    en: >-
+      No official fee waiver exists on the LG's pages. For help paying, ask the Kua'ana Project about local assistance
+      and apply to Genderbands, which gives small grants that can cover name change fees.
+    es: >-
+      Las páginas del Vicegobernador no ofrecen exención de tarifas. Para ayuda con el pago, pregunta al Proyecto Kua'ana
+      por asistencia local y solicita a Genderbands, que da pequeñas becas que pueden cubrir tarifas de cambio de nombre.
+  sources: [ltgov-name-change, genderbands]
+publication:
+  required: "yes"
+  detail:
+    en: >-
+      After approval you must publish the signed Notice of Change of Name in the Honolulu Star-Advertiser within 60 days,
+      or the petition is void. The Order is signed only after the newspaper's affidavit of publication reaches the LG's
+      office.
+    es: >-
+      Tras la aprobación debes publicar el Aviso firmado en el Honolulu Star-Advertiser dentro de 60 días, o la petición
+      queda anulada. La Orden se firma solo cuando la declaración de publicación del periódico llega a la oficina.
+  waiver_available: true
+  waiver_how:
+    en: >-
+      Only for safety: according to A4TE, publication can be waived when a prosecutor files an affidavit that
+      publishing would endanger you (for example, survivors of domestic violence). There is no waiver for gender identity.
+      Contact Legal Aid or the LG's office (LTgov.help@hawaii.gov) before applying if this applies to you.
+    es: >-
+      Solo por seguridad: según A4TE, se puede omitir la publicación cuando un fiscal presenta una declaración de que
+      publicar te pondría en peligro (por ejemplo, sobrevivientes de violencia doméstica). No hay exención por identidad
+      de género. Contacta a Legal Aid o a la oficina del Vicegobernador antes de solicitar si este es tu caso.
+  sources: [instructions-pdf, a4te-hi]
+hearing:
+  required: "no"
+  detail:
+    en: There is no court hearing. The Lieutenant Governor reviews the petition on paper.
+    es: No hay audiencia judicial. El Vicegobernador revisa la petición por escrito.
+  sources: [ehawaii-about]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints. You must disclose felony convictions on the application.
+    es: No se toman huellas. Debes declarar condenas por delitos graves en la solicitud.
+  sources: [instructions-pdf]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      No sealing option was found. The Notice is published in a newspaper and the Order is recorded with the Bureau of
+      Conveyances, a public land-records office.
+    es: >-
+      No se encontró opción de sellar el expediente. El Aviso se publica en un periódico y la Orden se registra en la
+      Oficina de Registro, que es un registro público.
+  sources: [instructions-pdf]
+minors:
+  summary:
+    en: >-
+      A parent applies online as the petitioner, choosing the "minor" application type. **All parents listed on the
+      child's birth certificate must sign and notarize** the petition or a consent form. If a parent has died, include
+      the death certificate; include adoption or guardianship decrees if relevant. The child's certified birth certificate
+      must be no older than 90 days; parents' birth certificates may be photocopies.
+    es: >-
+      Un padre o madre solicita en línea como peticionario, eligiendo "menor". **Todos los padres que aparecen en el acta
+      de nacimiento del menor deben firmar y notarizar** la petición o un formulario de consentimiento. Si un padre
+      falleció, incluye el acta de defunción; incluye decretos de adopción o tutela si corresponde. El acta certificada del
+      menor no puede tener más de 90 días; las de los padres pueden ser fotocopias.
+  sources: [instructions-pdf]
+delivery:
+  online: true
+  by_mail: true
+  in_person: false
+  detail:
+    en: Apply and pay online, then mail the notarized forms. No office visit is needed.
+    es: Solicita y paga en línea y luego envía por correo los formularios notarizados. No necesitas ir a la oficina.
+  sources: [ltgov-name-change]
+timeline:
+  en: The LG's office says 8 to 12 weeks, plus up to 60 days each for publication and recording.
+  es: La oficina del Vicegobernador indica de 8 a 12 semanas, más hasta 60 días para publicar y otros 60 para registrar.
+after:
+  en: >-
+    Once the Order is recorded, get certified copies (ask the Bureau of Conveyances), then update Social Security first,
+    then your Hawaii driver's license or state ID, then your birth certificate, passport, bank, and other records.
+  es: >-
+    Una vez registrada la Orden, obtén copias certificadas (pregunta en la Oficina de Registro) y actualiza primero el
+    Seguro Social, luego tu licencia o identificación de Hawái, después tu acta de nacimiento, pasaporte, banco y otros
+    registros.
+tips:
+  - en: Do not start a second application if you need to fix something. Email LTgov.help@hawaii.gov to reopen the first one so you do not pay twice.
+    es: No inicies una segunda solicitud si necesitas corregir algo. Escribe a LTgov.help@hawaii.gov para reabrir la primera y no pagar dos veces.
+  - en: Put the two 60-day deadlines (publication and recording) in your calendar the day each document arrives. Missing either one means starting over.
+    es: Anota en tu calendario los dos plazos de 60 días (publicación y registro) el día que llegue cada documento. Si pierdes uno, debes empezar de nuevo.
+  - en: The Kua'ana Project at HHHRC in Honolulu has trans peer navigators who help with the paperwork at no cost.
+    es: El Proyecto Kua'ana de HHHRC en Honolulu tiene navegadoras trans que ayudan con los trámites sin costo.
+local_help:
+  - id: hhhrc-kuaana
+    name: Hawaii Health & Harm Reduction Center, Kua'ana Project
+    type: lgbtq_center
+    pillars: [name_change, gender_marker]
+    description:
+      en: Trans peer navigators who help with legal name changes and document updates. Call 808-521-2437 or email kuaana@hhhrc.org.
+      es: Navegadoras trans entre pares que ayudan con cambios legales de nombre y actualización de documentos. Llama al 808-521-2437 o escribe a kuaana@hhhrc.org.
+    url: https://www.hhhrc.org/transgender
+    phone: "808-521-2437"
+    address: 677 Ala Moana Blvd, Suite 226, Honolulu, HI 96813
+    cost: free
+    verification: org_website
+    sources: [hhhrc-trans]
+  - id: legal-aid-hawaii
+    name: Legal Aid Society of Hawaii
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help statewide for people with low incomes. Phone intake at 808-536-4302 (Oahu) or 1-800-499-4302 (neighbor islands).
+      es: Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos. Admisión al 808-536-4302 (Oahu) o 1-800-499-4302 (otras islas).
+    url: https://www.legalaidhawaii.org/
+    phone: "808-536-4302"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-hi]
+  - id: aclu-hawaii
+    name: ACLU of Hawaii
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Accepts requests for legal assistance online, including discrimination related to gender identity.
+      es: Recibe solicitudes de asistencia legal en línea, incluida discriminación por identidad de género.
+    url: https://www.acluhi.org/request-legal-assistance/
+    cost: free
+    verification: org_website
+    sources: [aclu-legal-help]
+  - id: genderbands-hi
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: Small national grants for transition costs, including name change fees; 18 and older.
+      es: Pequeñas becas nacionales para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: Haw. Rev. Stat. § 574-5
+    title:
+      en: Change of name; procedure
+    url: https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0574/HRS_0574-0005.htm
+  - cite: Haw. Admin. Rules Title 2, Ch. 2
+    title:
+      en: Lieutenant Governor's name change rules
+    url: https://namechange.ehawaii.gov/public/about.html
+related_links:
+  - title: A4TE, Hawaii Identity Documents
+    url: https://transequality.org/documents/hawaii-identity-documents
+    note:
+      en: Partly outdated. Its driver's license and birth certificate sections describe older rules; use this guide's official sources instead.
+      es: Parcialmente desactualizado. Sus secciones de licencia y acta describen reglas anteriores.
+sources:
+  - id: ltgov-name-change
+    url: https://ltgov.hawaii.gov/featured/name-change-guide/
+    title: Name Change Guide
+    publisher: Office of the Lieutenant Governor of Hawaii
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is a $50.00 filing fee, $1.00 archive fee, and a $5.00 service fee per petition submitted ... publication fee (starting at $204.19) and registration fee ($41).
+  - id: ehawaii-about
+    url: https://namechange.ehawaii.gov/public/about.html
+    title: About the Name Change Application
+    publisher: State of Hawaii Online Name Change System
+    kind: official
+    accessed: "2026-09-24"
+    quote: a name may be legally changed upon an order of the Lieutenant Governor upon a notarized petition, signed by the person requesting the change of name.
+  - id: instructions-pdf
+    url: https://namechange.ehawaii.gov/public/pdf/instructions.pdf
+    title: Instructions for Change of Name Using the Online System (Rev 3-2026)
+    publisher: Office of the Lieutenant Governor of Hawaii
+    kind: form
+    accessed: "2026-09-24"
+    quote: You have sixty (60) days from the date your Notice was signed to publish in the newspaper. Failure to publish within sixty (60) days will automatically void your Petition for Change of Name.
+  - id: a4te-hi
+    url: https://transequality.org/documents/hawaii-identity-documents
+    title: Hawaii Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The publication requirement can be waived if a prosecutor files an affidavit attesting the need to waive publication for an applicant's safety.
+  - id: hhhrc-trans
+    url: https://www.hhhrc.org/transgender
+    title: Transgender Services, Kua'ana Project
+    publisher: Hawaii Health & Harm Reduction Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-aid-hi
+    url: https://www.legalaidhawaii.org/need-help.html
+    title: Need Help?
+    publisher: Legal Aid Society of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-legal-help
+    url: https://www.acluhi.org/request-legal-assistance/
+    title: Request Legal Assistance
+    publisher: ACLU of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

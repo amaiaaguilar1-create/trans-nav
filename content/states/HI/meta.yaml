@@ -1,0 +1,151 @@
+code: HI
+name:
+  en: Hawaii
+  es: Hawái
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on official pages read 2026-09-24 (Lieutenant Governor name change guide, DOH vital
+    records, Honolulu DCS forms) and MAP's Hawaii profile. The Hawaii Legislature site (capitol.hawaii.gov) blocked
+    automated access, so statute and bill text (HRS 574-5, 338-17.7, 431:10A-118.3, HB 1165 (2019), HB 1875 (2026))
+    were not read directly. id_documents is "mixed" because the driver's license is self-attestation with X, but the
+    birth certificate still requires a physician affidavit and has no X, and name changes require newspaper
+    publication. Reviewer: confirm the HB 1875 (2026) act number and effective date.
+overview:
+  en: >-
+    Hawaii is generally protective. Driver's licenses and state IDs show M, F, or X based on your own statement, private
+    insurers may not exclude transition care, there is no ban on care for minors, and a 2026 shield law (HB 1875)
+    extends Hawaii's 2023 protections to gender-affirming care. Two things are harder than in some states: name changes
+    are handled by the Lieutenant Governor's office and must be **published in a newspaper**, and a new birth
+    certificate needs a **notarized affidavit from a physician** and offers only male or female.
+  es: >-
+    Hawái es en general protector. Las licencias de conducir y las identificaciones estatales muestran M, F o X según
+    tu propia declaración, las aseguradoras privadas no pueden excluir la atención de transición, no hay prohibición
+    de atención para menores, y una ley escudo de 2026 (HB 1875) extiende las protecciones de 2023 a la atención de
+    afirmación de género. Dos trámites son más difíciles que en otros estados: los cambios de nombre los tramita la
+    oficina del Vicegobernador y deben **publicarse en un periódico**, y una nueva acta de nacimiento requiere una
+    **declaración jurada notarizada de un médico** y solo ofrece masculino o femenino.
+climate:
+  id_documents: mixed
+  care: protective
+  shield_law: true
+  sources: [map-hi, aclu-hb1875, doh-sex-designation, ltgov-name-change]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [honolulu]
+key_resources:
+  - id: hhhrc-kuaana
+    name: Hawaii Health & Harm Reduction Center, Kua'ana Project
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, sexual_health, insurance]
+    description:
+      en: >-
+        Trans peer navigators in Honolulu who help with legal name and document changes, insurance, housing, and jobs,
+        linked to HHHRC's in-house hormone therapy clinic. Call 808-521-2437 or email kuaana@hhhrc.org.
+      es: >-
+        Navegadoras trans entre pares en Honolulu que ayudan con cambios de nombre y documentos, seguro médico, vivienda
+        y empleo, vinculadas a la clínica de terapia hormonal de HHHRC. Llama al 808-521-2437 o escribe a kuaana@hhhrc.org.
+    url: https://www.hhhrc.org/transgender
+    phone: "808-521-2437"
+    address: 677 Ala Moana Blvd, Suite 226, Honolulu, HI 96813
+    cost: free
+    verification: org_website
+    sources: [hhhrc-trans]
+  - id: legal-aid-hawaii
+    name: Legal Aid Society of Hawaii
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Statewide free civil legal aid for people with low incomes. Phone intake weekdays 9 to 11:30 am and 1 to 3:30 pm
+        at 808-536-4302 (Oahu) or 1-800-499-4302 (neighbor islands); online intake is also available.
+      es: >-
+        Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos. Admisión telefónica entre semana de
+        9 a 11:30 am y de 1 a 3:30 pm al 808-536-4302 (Oahu) o 1-800-499-4302 (otras islas); también hay admisión en línea.
+    url: https://www.legalaidhawaii.org/
+    phone: "808-536-4302"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-hi]
+  - id: aclu-hawaii
+    name: ACLU of Hawaii
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Civil liberties organization that tracks LGBTQ+ legislation in Hawaii and accepts requests for legal assistance online.
+      es: Organización de libertades civiles que da seguimiento a la legislación LGBTQ+ en Hawái y recibe solicitudes de asistencia legal en línea.
+    url: https://www.acluhi.org/request-legal-assistance/
+    cost: free
+    verification: org_website
+    sources: [aclu-legal-help]
+  - id: trans-lifeline-hi
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people. It does not call police without your consent.
+      es: Línea de apoyo entre pares dirigida por y para personas trans. No llama a la policía sin tu consentimiento.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: map-hi
+    url: https://www.mapresearch.org/equality-maps/profile_state/HI
+    title: Hawaii equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Driver's license gender marker change allowed, with X option; birth certificate change allowed, no X option; shield law protecting access to transgender health care.
+  - id: aclu-hb1875
+    url: https://www.acluhi.org/legislation/hb1875-gender-affirming-care-shield-law/
+    title: "HB1875: Gender-Affirming Care Shield Law"
+    publisher: ACLU of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+    quote: Expands the protections established under Act 2, SLH 2023, to include gender-affirming health care services ... Status Signed by governor
+  - id: doh-sex-designation
+    url: https://health.hawaii.gov/vitalrecords/amendments/new-birth-certificate-for-sex-designation-change/
+    title: New Birth Certificate for Sex Designation Change
+    publisher: Hawaii State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: The requestor must provide a notarized affidavit from a United States licensed physician
+  - id: ltgov-name-change
+    url: https://ltgov.hawaii.gov/featured/name-change-guide/
+    title: Name Change Guide
+    publisher: Office of the Lieutenant Governor of Hawaii
+    kind: official
+    accessed: "2026-09-24"
+    quote: Only Hawaii residents are eligible for a name change granted by the Lieutenant Governor of the State of Hawaii.
+  - id: hhhrc-trans
+    url: https://www.hhhrc.org/transgender
+    title: Transgender Services, Kua'ana Project
+    publisher: Hawaii Health & Harm Reduction Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Whether it be to search for jobs, legally change their names, or access stable housing, our Kua'ana Project staff are able to support
+  - id: legal-aid-hi
+    url: https://www.legalaidhawaii.org/need-help.html
+    title: Need Help?
+    publisher: Legal Aid Society of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+    quote: Legal Aid phone intake services are available Monday-Friday 9:00 am - 11:30 am & 1:00 pm - 3:30 pm 808-536-4302 (Oahu) 1-800-499-4302 (neighbor islands)
+  - id: aclu-legal-help
+    url: https://www.acluhi.org/request-legal-assistance/
+    title: Request Legal Assistance
+    publisher: ACLU of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

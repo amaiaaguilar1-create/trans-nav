@@ -1,0 +1,214 @@
+guide_type: drivers_license
+jurisdiction: HI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The current Honolulu Driver's License Application (Rev 3/15/2023) and State ID Application (Rev 09/20/2023), read
+    2026-09-24, offer "Gender Designation: Male / Female / Not Specified" with no supporting-document requirement, and
+    the applicant certifies under penalty of perjury. That matches A4TE's summary of HB 1165 (2019), effective July 1,
+    2020, and MAP's profile (X available). NOT verified: the bill text and codified HRS sections (capitol.hawaii.gov
+    blocked automated access), and no Honolulu DCS web page describes the marker change explicitly, so the
+    "Not Specified" = X card label and the in-person, $6 duplicate path are inferred from the form and fee table.
+    Reviewer: confirm with DCS (dl@honolulu.gov) that a marker-only change is processed as a $6 duplicate and that no
+    Gender Designation Form is still requested. Hawaii, Maui, and Kauai counties run their own licensing offices; their
+    fees were not checked. No 2025-2026 legislation restricting markers was found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    You can choose male, female, or X (shown on the form as "Not Specified") on a Hawaii driver's license or state ID
+    by checking the box on the application. No doctor's letter or court order is needed. In Honolulu the change is made
+    in person as a duplicate card for $6.
+  es: >-
+    Puedes elegir masculino, femenino o X ("Not Specified" en el formulario) en una licencia de conducir o identificación
+    estatal de Hawái marcando la casilla en la solicitud. No se necesita carta médica ni orden judicial. En Honolulu el
+    cambio se hace en persona como un duplicado por $6.
+summary:
+  en: |
+    Since July 1, 2020 (HB 1165, 2019), Hawaii issues driver's licenses and state IDs with the gender you state on the application: **male, female, or not specified (X)**. You do not need medical records, a provider letter, or an updated birth certificate.
+
+    Driver's licenses and state IDs are issued by each county. On Oahu that is the City and County of Honolulu Department of Customer Services (DCS) driver licensing centers and some satellite city halls; on other islands, use your county's office. Changes to the name or gender on a card require an **AlohaQ appointment in person**; online and mail duplicates only reprint an exact copy of your current card.
+  es: |
+    Desde el 1 de julio de 2020 (HB 1165, 2019), Hawái emite licencias e identificaciones estatales con el género que declaras en la solicitud: **masculino, femenino o no especificado (X)**. No necesitas expedientes médicos, carta de un proveedor ni acta de nacimiento actualizada.
+
+    Las licencias e identificaciones las emite cada condado. En Oahu es el Departamento de Servicios al Cliente (DCS) de la Ciudad y Condado de Honolulu; en otras islas, la oficina de tu condado. Los cambios de nombre o género requieren una **cita de AlohaQ en persona**; los duplicados en línea o por correo solo reimprimen tu tarjeta actual.
+forms:
+  - id: DL-application
+    name:
+      en: State of Hawaii Driver's License Application
+      es: Solicitud de licencia de conducir del Estado de Hawái
+    url: https://www4.honolulu.gov/docushare/dsweb/Get/Document-325980/State%20of%20Hawaii%20Driver_s%20License%20Application.pdf
+    required: conditional
+    condition:
+      en: For a driver's license or instruction permit. Check "Duplicate (Lost, Name/Address Changes)".
+      es: Para licencia de conducir o permiso. Marca "Duplicate (Lost, Name/Address Changes)".
+    how_to_fill:
+      en: |
+        - Transaction: check **Duplicate** (or Renewal if you are renewing anyway).
+        - **Gender Designation**: check Male, Female, or **Not Specified** (X). No proof is required.
+        - If you are also changing your name, write your new legal name and bring your recorded name change Order.
+        - You sign under penalty of perjury that the information is true.
+      es: |
+        - Trámite: marca **Duplicate** (o Renewal si vas a renovar).
+        - **Gender Designation**: marca Male, Female o **Not Specified** (X). No se requiere prueba.
+        - Si también cambias tu nombre, escribe tu nuevo nombre legal y lleva tu Orden de cambio de nombre registrada.
+        - Firmas bajo pena de perjurio que la información es verdadera.
+    sources: [dl-application-pdf]
+  - id: SID-application
+    name:
+      en: State of Hawaii Identification Card Application
+      es: Solicitud de tarjeta de identificación del Estado de Hawái
+    url: https://www4.honolulu.gov/docushare/dsweb/Get/Document-325988/State%20ID%20Application.pdf
+    required: conditional
+    condition:
+      en: For a state ID card. Check "Duplicate (Lost, Name/Address Changes)" and the gender box you want.
+      es: Para una identificación estatal. Marca "Duplicate (Lost, Name/Address Changes)" y la casilla de género que quieras.
+    sources: [sid-application-pdf]
+steps:
+  - id: ssa-first
+    title:
+      en: If you changed your name, update Social Security first
+      es: Si cambiaste tu nombre, actualiza primero el Seguro Social
+    body:
+      en: >-
+        Bring your recorded name change Order to Social Security before going to the DMV so the names match. Skip this
+        step if you are only changing the gender marker.
+      es: >-
+        Lleva tu Orden de cambio de nombre registrada al Seguro Social antes de ir al DMV para que los nombres coincidan.
+        Omite este paso si solo cambias el marcador de género.
+    applies_to: [name_change]
+    optional: true
+    sources: [dcs-dl-procedures]
+  - id: appointment
+    title:
+      en: Book an AlohaQ appointment
+      es: Reserva una cita en AlohaQ
+    body:
+      en: >-
+        Book at alohaq.honolulu.gov for a driver licensing center (satellite city halls at Downtown, Hawaii Kai,
+        Pearlridge, and Windward City handle duplicates). Outside Oahu, contact your county's licensing office.
+      es: >-
+        Reserva en alohaq.honolulu.gov en un centro de licencias (las alcaldías satélite de Downtown, Hawaii Kai,
+        Pearlridge y Windward City hacen duplicados). Fuera de Oahu, contacta la oficina de licencias de tu condado.
+    applies_to: [in_person]
+    sources: [dcs-dl-procedures, dcs-dl-faq]
+  - id: apply
+    title:
+      en: Fill out the application and bring your documents
+      es: Llena la solicitud y lleva tus documentos
+    body:
+      en: >-
+        Complete the application, choosing Male, Female, or Not Specified. Bring your current card. For a name change,
+        bring the original or certified recorded name change Order. If you want a REAL ID (star) card and have not given
+        DCS your documents before, bring proof of identity and two proofs of Hawaii address. You will do an eye test,
+        fingerprinting, and a new photo.
+      es: >-
+        Completa la solicitud eligiendo Male, Female o Not Specified. Lleva tu tarjeta actual. Para cambio de nombre,
+        lleva la Orden de cambio de nombre registrada original o certificada. Si quieres una tarjeta REAL ID (con
+        estrella) y no has entregado antes tus documentos, lleva prueba de identidad y dos pruebas de domicilio en Hawái.
+        Harás una prueba de la vista, huellas y una foto nueva.
+    forms: [DL-application, SID-application]
+    fees: [duplicate-dl, duplicate-id]
+    sources: [dcs-dl-procedures, dl-application-pdf, dcs-fee-table]
+  - id: receive
+    title:
+      en: Get your temporary license, then the card by mail
+      es: Recibe tu licencia temporal y luego la tarjeta por correo
+    body:
+      en: DCS says a temporary license is issued in about 3 to 5 business days and the plastic card arrives by mail in about 4 to 5 weeks.
+      es: DCS indica que la licencia temporal se emite en unos 3 a 5 días hábiles y la tarjeta llega por correo en unas 4 a 5 semanas.
+    estimated_time:
+      en: 4 to 5 weeks for the card
+      es: 4 a 5 semanas para la tarjeta
+    sources: [dcs-dl-faq]
+fees:
+  - id: duplicate-dl
+    label:
+      en: Duplicate driver's license (Honolulu)
+      es: Duplicado de licencia de conducir (Honolulu)
+    amount: 6
+    varies_by: county
+    note:
+      en: If your license is due for renewal, the 8-year renewal fee is $40 (ages 25 to 71) instead.
+      es: Si toca renovar, la renovación de 8 años cuesta $40 (edades 25 a 71).
+    sources: [dcs-fee-table]
+  - id: duplicate-id
+    label:
+      en: Duplicate state ID card (Honolulu)
+      es: Duplicado de identificación estatal (Honolulu)
+    amount: 6
+    varies_by: county
+    sources: [dcs-fee-table]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Online and mail duplicates only reprint your current card with the same name and details, so name or gender changes must be done in person.
+    es: Los duplicados en línea o por correo solo reimprimen tu tarjeta actual, así que los cambios de nombre o género se hacen en persona.
+  sources: [dcs-dl-procedures, dcs-dl-faq]
+after:
+  en: >-
+    Your Hawaii license can show X, but federal documents currently cannot: the passport and Social Security sex fields
+    are frozen nationwide. Carry your license as usual; a mismatch with federal records is not illegal.
+  es: >-
+    Tu licencia de Hawái puede mostrar X, pero los documentos federales actualmente no: los campos de sexo del pasaporte
+    y del Seguro Social están congelados a nivel nacional. Una diferencia con los registros federales no es ilegal.
+tips:
+  - en: The form says "Not Specified"; that is Hawaii's X option.
+    es: El formulario dice "Not Specified"; esa es la opción X de Hawái.
+  - en: Questions can go to Honolulu DCS at dl@honolulu.gov.
+    es: Puedes enviar preguntas a DCS de Honolulu en dl@honolulu.gov.
+statutes:
+  - cite: HB 1165 (2019)
+    title:
+      en: Gender designation on driver's licenses and state IDs (effective July 1, 2020)
+    url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1165&year=2019
+related_links:
+  - title: A4TE, Hawaii Identity Documents
+    url: https://transequality.org/documents/hawaii-identity-documents
+    note:
+      en: Its driver's license section still describes the pre-2020 Gender Designation Form rule.
+      es: Su sección de licencia todavía describe la regla anterior a 2020.
+sources:
+  - id: dl-application-pdf
+    url: https://www4.honolulu.gov/docushare/dsweb/Get/Document-325980/State%20of%20Hawaii%20Driver_s%20License%20Application.pdf
+    title: State of Hawaii Driver's License Application (Rev. 3/15/2023)
+    publisher: City and County of Honolulu, Department of Customer Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: "GENDER DESIGNATION: MALE, FEMALE, NOT SPECIFIED"
+  - id: sid-application-pdf
+    url: https://www4.honolulu.gov/docushare/dsweb/Get/Document-325988/State%20ID%20Application.pdf
+    title: State of Hawaii Identification Card Application (Rev. 09/20/2023)
+    publisher: City and County of Honolulu, Department of Customer Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: "GENDER DESIGNATION: MALE, FEMALE, NOT SPECIFIED"
+  - id: dcs-dl-procedures
+    url: https://www.honolulu.gov/csd/drivers-license-procedures/
+    title: Driver's License Procedures
+    publisher: City and County of Honolulu, Department of Customer Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: To Change My Name Make an AlohaQ Appointment at a Driver Licensing Center. Complete the Driver's License Application Form. Submit proof of name change.
+  - id: dcs-dl-faq
+    url: https://www.honolulu.gov/csd/drivers-license-faq/
+    title: Driver's License FAQs
+    publisher: City and County of Honolulu, Department of Customer Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: about 3 - 5 business days before you would receive a temporary driver's license and 4 - 5 weeks to receive the permanent plastic license
+  - id: dcs-fee-table
+    url: https://www.honolulu.gov/csd/fee-table/
+    title: Fee Table
+    publisher: City and County of Honolulu, Department of Customer Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Duplicate (to Replace Lost, Stolen or Damaged) $ 6

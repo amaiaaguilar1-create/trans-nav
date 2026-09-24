@@ -1,0 +1,246 @@
+jurisdiction: HI
+slug: honolulu
+name: Honolulu
+area:
+  en: City and County of Honolulu (the island of Oahu)
+  es: Ciudad y Condado de Honolulu (la isla de Oahu)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Starter list from org websites read 2026-09-24. Waikiki Health's pages list primary care, behavioral health, HIV
+    services, and a sliding fee scale but do not mention gender-affirming hormone care; confirm before describing it as
+    a hormone provider. Kalihi-Palama Health Center (kphc.org) returned a bot challenge and was not verified, so it is
+    omitted. The Hawaii LGBT Legacy Foundation site describes its mission and community calendar but not specific
+    services. Verify hours and new-patient availability before marking reviewed.
+intro:
+  en: >-
+    Most of Hawaii's trans-specific services are in Honolulu. Name changes are not filed in court here: they go to the
+    Lieutenant Governor's office at the State Capitol, mostly online and by mail. The Hawaii Health & Harm Reduction
+    Center's Kua'ana Project, a trans peer program, is the main local starting point for help with documents, hormones,
+    and insurance.
+  es: >-
+    La mayoría de los servicios específicos para personas trans de Hawái están en Honolulu. Los cambios de nombre no se
+    presentan en un tribunal: van a la oficina del Vicegobernador en el Capitolio estatal, casi todo en línea y por
+    correo. El Proyecto Kua'ana del Hawaii Health & Harm Reduction Center, un programa de pares trans, es el principal
+    punto de partida para ayuda con documentos, hormonas y seguro.
+court:
+  name: Office of the Lieutenant Governor, Hawaii State Capitol (administrative, not a court)
+  url: https://ltgov.hawaii.gov/featured/name-change-guide/
+  self_help_url: https://namechange.ehawaii.gov/public/welcome.html
+  filing_fee: 56
+  notes:
+    en: >-
+      Hawaii name changes are statewide and handled by the Lieutenant Governor, 415 South Beretania Street, 5th floor,
+      Honolulu. Apply online, then mail the notarized petition. Questions go to LTgov.help@hawaii.gov or 808-586-0255.
+      Publication in the Honolulu Star-Advertiser (from about $204) and a $41 recording fee are extra.
+    es: >-
+      Los cambios de nombre en Hawái son estatales y los tramita el Vicegobernador, 415 South Beretania Street, 5.º piso,
+      Honolulu. Solicita en línea y luego envía por correo la petición notarizada. Preguntas a LTgov.help@hawaii.gov o al
+      808-586-0255. La publicación en el Honolulu Star-Advertiser (desde unos $204) y el registro ($41) son adicionales.
+  sources: [ltgov-name-change]
+resources:
+  - id: hhhrc-kuaana
+    name: Hawaii Health & Harm Reduction Center, Kua'ana Project
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, insurance, mental_health]
+    description:
+      en: >-
+        Trans peer navigators who help with legal name changes, document updates, insurance, housing, and jobs, plus
+        support circles. Call 808-521-2437 or email kuaana@hhhrc.org.
+      es: >-
+        Navegadoras trans entre pares que ayudan con cambios legales de nombre, documentos, seguro, vivienda y empleo,
+        además de círculos de apoyo. Llama al 808-521-2437 o escribe a kuaana@hhhrc.org.
+    url: https://www.hhhrc.org/transgender
+    phone: "808-521-2437"
+    address: 677 Ala Moana Blvd, Suite 226, Honolulu, HI 96813
+    cost: free
+    verification: org_website
+    sources: [hhhrc-trans]
+  - id: hhhrc-clinic
+    name: Hawaii Health & Harm Reduction Center, clinic (hormone therapy and PrEP)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: >-
+        Hormone therapy with primary care and lab monitoring, STI and HIV testing, PrEP and PEP, and referrals for surgery
+        and mental health. Weekdays 9 am to 4:30 pm.
+      es: >-
+        Terapia hormonal con atención primaria y análisis, pruebas de ITS y VIH, PrEP y PEP, y referencias para cirugía
+        y salud mental. Entre semana de 9 am a 4:30 pm.
+    url: https://www.hhhrc.org/hormonetherapy
+    phone: "808-521-2437"
+    address: 677 Ala Moana Blvd, Suite 226, Honolulu, HI 96813
+    cost: unknown
+    verification: org_website
+    sources: [hhhrc-hormone, hhhrc-prep]
+  - id: pp-honolulu
+    org: planned-parenthood
+    name: Planned Parenthood, Honolulu Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: >-
+        Gender-affirming hormone care, HIV services, STI testing, and birth control, in person or by telehealth. Walk-ins
+        welcome; insurance not required; accepts Medicaid. Call 800-769-0045.
+      es: >-
+        Atención hormonal de afirmación de género, servicios de VIH, pruebas de ITS y anticonceptivos, en persona o por
+        telesalud. Se aceptan visitas sin cita; no se requiere seguro; acepta Medicaid. Llama al 800-769-0045.
+    url: https://www.plannedparenthood.org/health-center/hawaii/honolulu/96813/honolulu-health-center-2951-91810
+    phone: "800-769-0045"
+    address: 839 S Beretania St, Honolulu, HI 96813
+    cost: varies
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-honolulu]
+  - id: waikiki-health
+    name: Waikiki Health, Ohua Clinic
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: >-
+        Federally qualified health center with primary care, behavioral health, free confidential HIV testing, and an
+        on-site pharmacy. Accepts Medicaid and most insurance; sliding fee scale for uninsured patients. Ask whether a
+        provider prescribes gender-affirming hormones.
+      es: >-
+        Centro de salud federalmente calificado con atención primaria, salud mental, pruebas de VIH gratuitas y
+        confidenciales y farmacia. Acepta Medicaid y la mayoría de los seguros; escala móvil para personas sin seguro.
+        Pregunta si algún proveedor receta hormonas de afirmación de género.
+    url: https://www.waikikihealth.org/locations/ohua/
+    phone: "808-922-4787"
+    address: 277 Ohua Ave, Honolulu, HI 96815
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [waikiki-ohua, waikiki-hiv]
+  - id: legal-aid-hawaii
+    name: Legal Aid Society of Hawaii
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free civil legal aid for people with low incomes. Phone intake weekdays 9 to 11:30 am and 1 to 3:30 pm at
+        808-536-4302. No walk-in intake.
+      es: >-
+        Ayuda legal civil gratuita para personas de bajos ingresos. Admisión telefónica entre semana de 9 a 11:30 am y de
+        1 a 3:30 pm al 808-536-4302. No se atiende sin cita.
+    url: https://www.legalaidhawaii.org/
+    phone: "808-536-4302"
+    address: 924 Bethel St, Honolulu, HI 96813
+    cost: free
+    verification: org_website
+    sources: [legal-aid-hi]
+  - id: aclu-hawaii
+    name: ACLU of Hawaii
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Accepts requests for legal assistance online and tracks LGBTQ+ legislation in Hawaii.
+      es: Recibe solicitudes de asistencia legal en línea y da seguimiento a la legislación LGBTQ+ en Hawái.
+    url: https://www.acluhi.org/request-legal-assistance/
+    cost: free
+    verification: org_website
+    sources: [aclu-legal-help]
+  - id: hawaii-lgbt-legacy
+    name: Hawaii LGBT Legacy Foundation
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: >-
+        Honolulu nonprofit serving LGBTQIA+ and māhū and other Pacific gender-diverse communities; runs Honolulu Pride and
+        a community calendar of support and social events.
+      es: >-
+        Organización sin fines de lucro de Honolulu que sirve a comunidades LGBTQIA+, māhū y otras identidades de género
+        del Pacífico; organiza Honolulu Pride y un calendario comunitario de apoyo y eventos.
+    url: https://hawaiilgbtlegacyfoundation.com/
+    cost: free
+    verification: org_website
+    sources: [hllf]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people. It does not call police without your consent.
+      es: Línea de apoyo entre pares dirigida por y para personas trans. No llama a la policía sin tu consentimiento.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ltgov-name-change
+    url: https://ltgov.hawaii.gov/featured/name-change-guide/
+    title: Name Change Guide
+    publisher: Office of the Lieutenant Governor of Hawaii
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is a $50.00 filing fee, $1.00 archive fee, and a $5.00 service fee per petition submitted.
+  - id: hhhrc-trans
+    url: https://www.hhhrc.org/transgender
+    title: Transgender Services, Kua'ana Project
+    publisher: Hawaii Health & Harm Reduction Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: To learn more about our services, please call (808) 521-2437 or email kuaana@hhhrc.org.
+  - id: hhhrc-hormone
+    url: https://www.hhhrc.org/hormonetherapy
+    title: Hormone Therapy Services
+    publisher: Hawaii Health & Harm Reduction Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhhrc-prep
+    url: https://www.hhhrc.org/prep
+    title: PrEP
+    publisher: Hawaii Health & Harm Reduction Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-honolulu
+    url: https://www.plannedparenthood.org/health-center/hawaii/honolulu/96813/honolulu-health-center-2951-91810
+    title: Honolulu Health Center
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+    quote: Walk-ins welcome ... Insurance not required ... Gender-Affirming Care
+  - id: waikiki-ohua
+    url: https://www.waikikihealth.org/locations/ohua/
+    title: Ohua Clinic
+    publisher: Waikiki Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Medicaid, Medicare and most private insurance plans are accepted. A sliding fee scale is available for patients without insurance.
+  - id: waikiki-hiv
+    url: https://www.waikikihealth.org/patients/services/hiv-services/
+    title: HIV Early Intervention Services
+    publisher: Waikiki Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-aid-hi
+    url: https://www.legalaidhawaii.org/need-help.html
+    title: Need Help?
+    publisher: Legal Aid Society of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-legal-help
+    url: https://www.acluhi.org/request-legal-assistance/
+    title: Request Legal Assistance
+    publisher: ACLU of Hawaii
+    kind: org
+    accessed: "2026-09-24"
+  - id: hllf
+    url: https://hawaiilgbtlegacyfoundation.com/
+    title: Hawaii LGBT Legacy Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
