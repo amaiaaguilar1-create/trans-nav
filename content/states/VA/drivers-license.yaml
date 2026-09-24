@@ -1,0 +1,206 @@
+guide_type: drivers_license
+jurisdiction: VA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Self-attestation and M/F/X confirmed on the DMV "Change Address, Name or Sex Designation" page and in Va. Code
+    §§ 46.2-323 and 46.2-345 on 2026-09-24. Application form DL 1P (rev. 07/01/2025) shows Female / Male / Non-Binary.
+    Replacement license fee ($20) from fee chart DMV 201 (08/10/2026). Reviewer: (1) the fee chart lists ID cards at
+    $2 per year of validity (minimum $10, maximum $16) but does not list a separate replacement-ID fee, so no ID amount is
+    stated; confirm; (2) the online sex-designation transaction page does not state eligibility limits ("you may be
+    eligible"); confirm who must go in person; (3) an older standalone form (DL 17, Gender Designation Change Request)
+    appears in third-party form archives but is not linked from the DMV page; it appears to be retired and is not used
+    here. A4TE (November 2023) agrees: no medical certification, M/F/X.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Virginia lets you choose male (M), female (F), or non-binary (X) on your driver's license or ID with no doctor's
+    letter or court order. You can often make the change online; it is processed as a replacement card ($20 for a
+    driver's license).
+  es: >-
+    Virginia te permite elegir masculino (M), femenino (F) o no binario (X) en tu licencia de conducir o identificación
+    sin carta médica ni orden judicial. A menudo puedes hacer el cambio en línea; se tramita como tarjeta de reemplazo
+    ($20 por licencia de conducir).
+summary:
+  en: |
+    Since 2020, Virginia law (Va. Code §§ 46.2-323 and 46.2-345) says applicants "shall be permitted to choose between male, female, or non-binary" on the license or ID application. The DMV states that **certification from a healthcare provider is not required**. You simply select your marker.
+
+    You can change the marker online (if eligible), or any time you apply for, renew, or replace a license, learner's permit, ID card, or driver privilege card. Changing your **name** is separate: it requires an original court order (or marriage or divorce document) and an in-person visit.
+  es: |
+    Desde 2020, la ley de Virginia (§§ 46.2-323 y 46.2-345) dice que los solicitantes "podrán elegir entre masculino, femenino o no binario". El DMV indica que **no se requiere certificación de un proveedor de salud**. Simplemente eliges tu marcador.
+
+    Puedes cambiarlo en línea (si calificas) o al solicitar, renovar o reemplazar una licencia, permiso, tarjeta de identificación o tarjeta de privilegio de conducir. Cambiar tu **nombre** es aparte: requiere una orden judicial original y una visita en persona.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Virginia driver's license, learner's permit, ID card, or driver privilege card.
+    es: Debes tener o estar solicitando una licencia, permiso, tarjeta de identificación o tarjeta de privilegio de conducir de Virginia.
+  sources: [dmv-updates, va-46-2-323]
+forms:
+  - id: DL 1P
+    name:
+      en: Driver's License and Identification Card Application
+      es: Solicitud de licencia de conducir y tarjeta de identificación
+    url: https://www.dmv.virginia.gov/sites/default/files/forms/dl1p.pdf
+    required: conditional
+    condition:
+      en: Needed for an in-person change (name change, or a marker change you cannot do online). You can also start the application online.
+      es: Necesaria para un cambio en persona (cambio de nombre o cambio de marcador que no puedas hacer en línea).
+    how_to_fill:
+      en: |
+        - Check "Replacement License or Identification Card" and "I am surrendering my current license or ID card".
+        - Full legal name exactly as on your court order if you are changing your name; put your former name in the "If your name has changed" box.
+        - **Sex (check one)**: Female, Male, or Non-Binary. No other document is needed for this box.
+        - Answer the medical questions and sign.
+      es: |
+        - Marca "Replacement License or Identification Card".
+        - Nombre legal completo tal como aparece en tu orden judicial si cambias de nombre; escribe tu nombre anterior en la casilla correspondiente.
+        - **Sexo**: Femenino, Masculino o No binario. No se necesita otro documento.
+    sources: [dl1p, dmv-updates]
+steps:
+  - id: online
+    title:
+      en: Try the online sex designation change
+      es: Intenta el cambio de designación de sexo en línea
+    body:
+      en: >-
+        Use the DMV's online "Change Sex Designation" transaction if you are only changing the marker on your current
+        card. It is processed as a replacement and you pay the replacement fee. If the system says you are not eligible,
+        do it in person.
+      es: >-
+        Usa el trámite en línea "Change Sex Designation" del DMV si solo cambias el marcador en tu tarjeta actual. Se
+        tramita como reemplazo y pagas la tarifa de reemplazo. Si el sistema dice que no calificas, hazlo en persona.
+    fees: [dl-replacement]
+    applies_to: [gender_marker, online]
+    sources: [dmv-online-gender, dmv-fees]
+  - id: in-person
+    title:
+      en: Or visit a DMV customer service center
+      es: O visita un centro de servicio del DMV
+    body:
+      en: >-
+        Make an appointment, bring your current license or ID and DL 1P (or your online confirmation email). For a
+        **name change**, bring the **original** certified court order; copies are not accepted. Select F, M, or X on the
+        application. You will get a new photo.
+      es: >-
+        Haz una cita y lleva tu licencia o identificación actual y el DL 1P (o tu correo de confirmación). Para un
+        **cambio de nombre**, lleva la orden judicial certificada **original**; no aceptan copias. Selecciona F, M o X.
+    forms: [DL 1P]
+    fees: [dl-replacement]
+    applies_to: [in_person, name_change]
+    sources: [dmv-updates, dl1p]
+  - id: receive
+    title:
+      en: Receive your new card by mail
+      es: Recibe tu nueva tarjeta por correo
+    body:
+      en: The card is mailed to the address on file; the Postal Service will not forward it, so update your address first.
+      es: La tarjeta se envía a la dirección registrada; el correo no la reenvía, así que actualiza tu dirección primero.
+    sources: [dl1p]
+fees:
+  - id: dl-replacement
+    label:
+      en: Replacement driver's license (including marker or name change)
+      es: Licencia de conducir de reemplazo (incluido cambio de marcador o nombre)
+    amount: 20
+    sources: [dmv-fees]
+  - id: id-card
+    label:
+      en: Photo ID card
+      es: Tarjeta de identificación con foto
+    min: 10
+    max: 16
+    note:
+      en: The fee chart lists ID cards at $2 per year of validity (minimum $10, maximum $16); ask DMV what a replacement ID costs.
+      es: La tabla de tarifas indica $2 por año de validez (mínimo $10, máximo $16); pregunta al DMV el costo de un reemplazo.
+    sources: [dmv-fees]
+fee_waiver:
+  available: false
+  how:
+    en: >-
+      No general fee waiver was found on the DMV fee chart. DMV runs a no-cost credentials program for youth experiencing
+      homelessness; ask DMV whether you qualify.
+    es: >-
+      No se encontró una exención general en la tabla de tarifas del DMV. El DMV tiene un programa de credenciales sin
+      costo para jóvenes sin hogar; pregunta si calificas.
+  sources: [dmv-fees, dmv-updates]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: Marker-only changes may be done online if you are eligible; name changes require a visit to a DMV customer service center.
+    es: Los cambios solo de marcador pueden hacerse en línea si calificas; los cambios de nombre requieren visitar un centro del DMV.
+  sources: [dmv-updates, dmv-online-gender]
+timeline:
+  en: Same day online or at the office; the card arrives by mail.
+  es: El mismo día en línea o en la oficina; la tarjeta llega por correo.
+after:
+  en: |
+    Update Social Security first if you are also changing your name. If you choose X, note that US passports and Social Security records currently cannot show X or a changed sex marker; your Virginia card remains valid for REAL ID purposes, voting, and TSA screening.
+  es: |
+    Si también cambias tu nombre, actualiza primero el Seguro Social. Si eliges X, ten en cuenta que el pasaporte y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; tu tarjeta de Virginia sigue siendo válida para REAL ID, votar y la TSA.
+tips:
+  - en: You do not need a court order, a doctor's letter, or an amended birth certificate to change the marker at DMV.
+    es: No necesitas orden judicial, carta médica ni acta de nacimiento enmendada para cambiar el marcador en el DMV.
+  - en: If staff ask for medical documentation, point to the DMV page stating "Certification from a healthcare provider is not required."
+    es: Si el personal pide documentación médica, señala la página del DMV que dice que no se requiere certificación de un proveedor de salud.
+statutes:
+  - cite: Va. Code § 46.2-323
+    title:
+      en: Driver's license application; applicant may choose male, female, or non-binary
+    url: https://law.lis.virginia.gov/vacode/title46.2/chapter3/section46.2-323/
+  - cite: Va. Code § 46.2-345
+    title:
+      en: Identification cards; applicant may choose male, female, or non-binary
+    url: https://law.lis.virginia.gov/vacode/title46.2/chapter3/section46.2-345/
+related_links:
+  - title: Advocates for Trans Equality, Virginia identity documents
+    url: https://transequality.org/documents/virginia-identity-documents
+    note:
+      en: Last updated November 2023.
+      es: Actualizado en noviembre de 2023.
+sources:
+  - id: dmv-updates
+    url: https://www.dmv.virginia.gov/records/personal-information-updates
+    title: Change address, name or sex designation
+    publisher: Virginia Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      Sex designation indicators are displayed on your DMV credential as male (M), female (F) or non-binary (X).
+      Certification from a healthcare provider is not required.
+  - id: dmv-online-gender
+    url: https://www.dmv.virginia.gov/online-services/gender
+    title: Transaction, change sex designation
+    publisher: Virginia Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: This transaction is considered a driver's license or ID card replacement and WILL incur a fee
+  - id: dmv-fees
+    url: https://www.dmv.virginia.gov/sites/default/files/dmv201.pdf
+    title: DMV fee chart (DMV 201, 08/10/2026)
+    publisher: Virginia Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Replacement driver's, motorcycle or CDL license $20.00
+  - id: dl1p
+    url: https://www.dmv.virginia.gov/sites/default/files/forms/dl1p.pdf
+    title: Form DL 1P, Driver's License and Identification Card Application (07/01/2025)
+    publisher: Virginia Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: "SEX (check one) FEMALE MALE NON-BINARY"
+  - id: va-46-2-323
+    url: https://law.lis.virginia.gov/vacode/title46.2/chapter3/section46.2-323/
+    title: Code of Virginia § 46.2-323
+    publisher: Virginia General Assembly, Legislative Information System
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Applicants shall be permitted to choose between "male," "female," or "non-binary" when designating the applicant's sex on the driver's license application form.

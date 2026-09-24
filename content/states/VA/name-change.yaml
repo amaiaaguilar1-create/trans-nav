@@ -1,0 +1,535 @@
+guide_type: name_change
+jurisdiction: VA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from Va. Code § 8.01-217 (read on law.lis.virginia.gov), the statewide forms CC-1411, CC-1427, and
+    CC-1414 (July 2026 revisions, read directly from vacourts.gov), and the Fairfax Circuit Court name change brochure
+    and civil fee schedule (both revised July 2026). Open items for the reviewer: (1) the $44 filing fee is Fairfax's
+    figure; other circuit courts set their own totals under Va. Code § 17.1-275 and may differ by a few dollars, and no
+    statewide fee table was fetched; (2) Arlington's court website returned 403 to automated access and Alexandria's
+    name-change page could not be located, so their procedures are not described; (3) Legal Services of Northern
+    Virginia and the Legal Aid Justice Center were not confirmed to take name-change cases (listed as general legal aid
+    only); (4) the web-search budget was exhausted mid-research, so 2026 session bills affecting § 8.01-217 were not
+    searched; the Code page (current through 2026) shows the last amendment as 2025, cc. 206 and 220.
+    Cross-check: A4TE's Virginia page (last updated November 2023) agrees on no publication and sealing for safety.
+status: available
+status_summary:
+  en: >-
+    Adults in Virginia can change their name by filing a sworn application (form CC-1411) with the circuit court where
+    they live. There is no newspaper publication, most adult petitions are decided on the papers without a hearing, and
+    the court can seal the record if publicity would threaten your safety.
+  es: >-
+    En Virginia, las personas adultas pueden cambiar su nombre presentando una solicitud jurada (formulario CC-1411) en
+    el tribunal de circuito donde viven. No hay publicación en periódico, la mayoría de las peticiones de adultos se
+    deciden por escrito sin audiencia y el tribunal puede sellar el expediente si la publicidad pondría en riesgo tu
+    seguridad.
+summary:
+  en: |
+    Virginia Code § 8.01-217 lets any person apply to the **circuit court of the city or county where they live** for a name change. The court **must** grant it unless the change is sought for a fraudulent purpose or would infringe on the rights of others. You do not have to give a gender-related reason, and you do not need any medical letter.
+
+    You fill out a one-page sworn application (**CC-1411**), sign it in front of a notary or the clerk, and file it with a proposed order. There is **no publication requirement** for adults. In most courts a judge reviews the papers and signs the order without a hearing; a hearing happens only if the court asks for one.
+
+    The clerk records the order in the deed book and sends a copy to Vital Records and the State Police records exchange. If making the change public would put you or your family at serious risk, you can ask the court to **seal the record** (§ 8.01-217(G)).
+  es: |
+    El Código de Virginia § 8.01-217 permite a cualquier persona solicitar un cambio de nombre al **tribunal de circuito de la ciudad o condado donde vive**. El tribunal **debe** concederlo salvo que el cambio tenga fines fraudulentos o afecte los derechos de otras personas. No necesitas dar una razón relacionada con el género ni carta médica.
+
+    Llenas una solicitud jurada de una página (**CC-1411**), la firmas ante notario o el secretario y la presentas con una propuesta de orden. **No se exige publicación** para adultos. En la mayoría de los tribunales un juez revisa los documentos y firma la orden sin audiencia.
+
+    El secretario registra la orden y envía copia a Registros Vitales y al registro de antecedentes penales. Si hacer público el cambio pondría en grave riesgo a ti o a tu familia, puedes pedir que el tribunal **selle el expediente** (§ 8.01-217(G)).
+eligibility:
+  residency:
+    en: >-
+      File in the circuit court of the Virginia city or county where you live. If you have no home, you may apply to any
+      circuit court, which will hear the application if it finds good cause. A person who is incarcerated may apply where
+      they are incarcerated.
+    es: >-
+      Presenta la solicitud en el tribunal de circuito de la ciudad o condado de Virginia donde vives. Si no tienes
+      domicilio, puedes presentarla en cualquier tribunal de circuito, que la considerará si encuentra causa justificada.
+  age:
+    en: 18 or older uses CC-1411. For anyone under 18, a parent, guardian, or next friend files CC-1427 (see Minors).
+    es: Personas de 18 años o más usan el CC-1411. Para menores de 18, un padre, madre, tutor o representante presenta el CC-1427.
+  criminal_history:
+    en: >-
+      You must list any felony convictions. If you are on probation, incarcerated, or required to register as a sex
+      offender, the court accepts the application only if it finds good cause, notifies the Commonwealth's attorney
+      (who has 30 days to respond), and holds a hearing. A felony record alone does not bar a name change.
+    es: >-
+      Debes indicar cualquier condena por delito grave. Si estás en libertad condicional, encarcelado o debes
+      registrarte como agresor sexual, el tribunal solo acepta la solicitud si encuentra causa justificada, notifica al
+      fiscal (que tiene 30 días para responder) y celebra una audiencia.
+  sources: [va-8-01-217, cc1411]
+forms:
+  - id: CC-1411
+    name:
+      en: Application for Change of Name (Adult)
+      es: Solicitud de cambio de nombre (adulto)
+    url: https://www.vacourts.gov/static/forms/circuit/cc1411.pdf
+    url_es: https://www.vacourts.gov/static/forms/circuit/fls/cc1411sp.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Court**: check City or County and write the name of the circuit court where you live (for example, "Fairfax" County, "Arlington" County, "Alexandria" City).
+        - **In re**: your current legal name. Item 1 is your birth name.
+        - **Item 7, reason**: a short, true reason is enough, such as "to conform my name to my gender identity" or "personal preference". You do not need to explain your transition or attach medical records. If you are worried about safety, say so here and see the sealing section.
+        - **Items 8 to 11**: answer the felony, incarceration, probation, and sex-offender-registry questions honestly.
+        - **Item 12**: list earlier name changes (including by marriage) and attach proof.
+        - Sign only in front of a notary or a deputy clerk; the application is sworn. The Spanish version is a translation to help you read it; file the English form.
+      es: |
+        - **Tribunal**: marca Ciudad o Condado y escribe el nombre del tribunal de circuito donde vives.
+        - **In re**: tu nombre legal actual. El punto 1 es tu nombre de nacimiento.
+        - **Punto 7, razón**: basta una razón breve y verdadera, como "para que mi nombre coincida con mi identidad de género". No necesitas adjuntar expedientes médicos.
+        - **Puntos 8 a 11**: responde con honestidad las preguntas sobre delitos graves, encarcelamiento, libertad condicional y registro de agresores sexuales.
+        - Firma solo ante notario o un secretario adjunto. La versión en español es una traducción de ayuda; presenta el formulario en inglés.
+    sources: [cc1411, vacourts-civil-forms]
+  - id: Proposed order
+    name:
+      en: Proposed order changing name (court-specific)
+      es: Propuesta de orden de cambio de nombre (según el tribunal)
+    url: https://www.fairfaxcounty.gov/circuit/civil-case-information/name-change
+    required: always
+    condition:
+      en: >-
+        Virginia has no statewide order form. Most circuit courts want a proposed order filed with the application;
+        Fairfax publishes a fillable petition-and-order packet. For other courts, ask the clerk for their template. By
+        law the order may contain only your former name(s), new name, and current address.
+      es: >-
+        Virginia no tiene un formulario estatal de orden. La mayoría de los tribunales piden una propuesta de orden junto
+        con la solicitud; Fairfax publica un paquete editable. En otros tribunales, pide la plantilla al secretario.
+    sources: [ffx-nc-page, ffx-brochure, va-8-01-217]
+  - id: CC-1427
+    name:
+      en: Application for Change of Name (Minor)
+      es: Solicitud de cambio de nombre (menor)
+    url: https://www.vacourts.gov/static/forms/circuit/cc1427.pdf
+    url_es: https://www.vacourts.gov/static/forms/circuit/fls/cc1427sp.pdf
+    required: conditional
+    condition:
+      en: Only for a person under 18. A second parent can sign the joint-application box on page two.
+      es: Solo para personas menores de 18 años. El otro padre o madre puede firmar la sección de solicitud conjunta.
+    sources: [cc1427]
+  - id: CC-1414
+    name:
+      en: Petition for Proceeding in Civil Case Without Payment of Fees or Costs
+      es: Petición para proceder en un caso civil sin pago de tarifas o costas
+    url: https://www.vacourts.gov/static/forms/circuit/cc1414.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    how_to_fill:
+      en: |
+        - Check the public assistance you receive (TANF, Medicaid, SNAP, SSI) and the amount, or check that you receive none.
+        - Check the box if a legal aid organization or pro bono lawyer represents you.
+        - Fill in income (A), liquid assets (B), and exceptional expenses (C). The judge decides based on these numbers.
+        - Sign and file it with your application.
+      es: |
+        - Marca la asistencia pública que recibes (TANF, Medicaid, SNAP, SSI) y el monto, o marca que no recibes ninguna.
+        - Completa ingresos (A), bienes líquidos (B) y gastos excepcionales (C). El juez decide con base en estas cifras.
+    sources: [cc1414, va-17-1-606]
+steps:
+  - id: fill-application
+    title:
+      en: Fill out CC-1411 and a proposed order
+      es: Llena el CC-1411 y una propuesta de orden
+    body:
+      en: >-
+        Download CC-1411 from the Virginia courts website and get your court's proposed-order template (Fairfax
+        publishes one; other courts provide theirs at the clerk's office). Type or print neatly on single-sided
+        8.5 x 11 paper.
+      es: >-
+        Descarga el CC-1411 del sitio de los tribunales de Virginia y consigue la plantilla de orden de tu tribunal.
+        Escribe a máquina o con letra clara en hojas de un solo lado.
+    forms: [CC-1411, Proposed order]
+    sources: [cc1411, ffx-brochure]
+  - id: notarize
+    title:
+      en: Sign the application in front of a notary or the clerk
+      es: Firma la solicitud ante notario o el secretario
+    body:
+      en: >-
+        The application is under oath, so sign it only in front of a notary public or a deputy clerk. Many banks and
+        UPS stores notarize for free or a few dollars. If a safety threat makes this impossible, the chief judge can
+        waive the oath requirement (§ 8.01-217(G)).
+      es: >-
+        La solicitud es bajo juramento, así que fírmala solo ante notario o un secretario adjunto. Si una amenaza a tu
+        seguridad lo impide, el juez principal puede eximir el juramento.
+    sources: [va-8-01-217, cc1411]
+  - id: fee-waiver
+    title:
+      en: Ask to proceed without fees if you cannot pay
+      es: Pide proceder sin tarifas si no puedes pagar
+    body:
+      en: File CC-1414 with your application. A judge decides based on your benefits, income, and assets.
+      es: Presenta el CC-1414 con tu solicitud. Un juez decide según tus beneficios, ingresos y bienes.
+    forms: [CC-1414]
+    optional: true
+    sources: [cc1414, va-17-1-606]
+  - id: file
+    title:
+      en: File with the circuit court clerk where you live
+      es: Presenta los documentos ante el secretario del tribunal de circuito donde vives
+    body:
+      en: |
+        Bring or mail the signed original application, copies (Fairfax asks for two photocopies), the proposed order, a self-addressed stamped envelope, and the filing fee. Fairfax charges **$44** (effective July 1, 2026) and does not take personal checks: pay by cash, certified check, money order, or card. Other courts' fees are similar; call the clerk to confirm.
+      es: |
+        Lleva o envía por correo la solicitud original firmada, copias (Fairfax pide dos), la propuesta de orden, un sobre con tu dirección y franqueo, y la tarifa. Fairfax cobra **$44** (desde el 1 de julio de 2026) y no acepta cheques personales. Las tarifas de otros tribunales son similares; confirma con el secretario.
+    fees: [filing]
+    applies_to: [in_person, by_mail]
+    sources: [ffx-brochure, ffx-fees]
+  - id: wait
+    title:
+      en: Wait for the judge to sign the order
+      es: Espera a que el juez firme la orden
+    body:
+      en: >-
+        A judge reviews the papers. If anything needs fixing, the clerk contacts you by email or mail. If everything is
+        in order, the judge signs and the clerk mails you a certified copy. A hearing is set only if the court requires
+        one (for example, if the petition could not be notarized in your current name, or for applicants on probation or
+        registered as sex offenders).
+      es: >-
+        Un juez revisa los documentos. Si algo debe corregirse, el secretario te avisa por correo electrónico o postal.
+        Si todo está en orden, el juez firma y el secretario te envía una copia certificada.
+    sources: [ffx-brochure, va-8-01-217]
+  - id: certified-copies
+    title:
+      en: Order extra certified copies
+      es: Pide copias certificadas adicionales
+    body:
+      en: >-
+        One certified copy comes with the order in Fairfax; each extra costs $2.50. Order at least three so you can
+        update Social Security, the DMV, your passport, and your bank without waiting.
+      es: >-
+        En Fairfax se incluye una copia certificada con la orden; cada copia adicional cuesta $2.50. Pide al menos tres.
+    fees: [certified-copy]
+    sources: [ffx-brochure]
+  - id: update-documents
+    title:
+      en: Update your other records, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free; bring the certified order and photo ID).
+        2. **Virginia DMV** license or ID (see the driver's license guide).
+        3. **Birth certificate**: if you were born in Virginia, the clerk already sends the order to Vital Records, but you must still request and pay for new copies (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis; lleva la orden certificada e identificación con foto).
+        2. **DMV de Virginia** (ver la guía de licencia de conducir).
+        3. **Acta de nacimiento**: si naciste en Virginia, el secretario ya envía la orden a Registros Vitales, pero debes pedir y pagar las nuevas copias.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+    sources: [ffx-brochure, va-8-01-217]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee, name change (Fairfax)
+      es: Tarifa de presentación, cambio de nombre (Fairfax)
+    amount: 44
+    varies_by: court
+    waivable: true
+    note:
+      en: Fairfax Circuit Court fee schedule effective July 1, 2026. Other circuit courts may differ slightly; ask the clerk.
+      es: Tarifa del Tribunal de Circuito de Fairfax desde el 1 de julio de 2026. Otros tribunales pueden variar un poco.
+    sources: [ffx-fees]
+  - id: certified-copy
+    label:
+      en: Each additional certified copy of the order (Fairfax)
+      es: Cada copia certificada adicional de la orden (Fairfax)
+    amount: 2.5
+    varies_by: court
+    sources: [ffx-brochure]
+fee_waiver:
+  available: true
+  forms: [CC-1414]
+  eligibility:
+    en: >-
+      A judge decides based on the public assistance you receive (TANF, Medicaid, SNAP, SSI), your income, assets, and
+      exceptional expenses, as listed on CC-1414. Being represented by legal aid or a pro bono lawyer is also noted on
+      the form.
+    es: >-
+      Un juez decide según la asistencia pública que recibes (TANF, Medicaid, SNAP, SSI), tus ingresos, bienes y gastos
+      excepcionales, según el CC-1414.
+  how:
+    en: File CC-1414 together with your application instead of paying the fee.
+    es: Presenta el CC-1414 junto con tu solicitud en lugar de pagar la tarifa.
+  sources: [cc1414, va-17-1-606]
+publication:
+  required: "no"
+  detail:
+    en: >-
+      Virginia law does not require adults to publish a name change in a newspaper. Publication comes up only in a
+      minor's case when a non-consenting parent cannot be found and must be served by an order of publication.
+    es: >-
+      La ley de Virginia no exige que las personas adultas publiquen el cambio de nombre en un periódico. Solo aplica en
+      casos de menores cuando no se puede localizar al otro padre.
+  sources: [va-8-01-217, ffx-brochure]
+hearing:
+  required: conditional
+  detail:
+    en: >-
+      The statute provides for a hearing "if such be demanded". In practice most adult petitions are granted on the
+      papers. A hearing is required for applicants who are on probation, incarcerated, or on the sex offender registry,
+      and in minors' cases when a parent objects. Fairfax also notes that a hearing may be needed if you cannot get the
+      petition notarized in your current legal name.
+    es: >-
+      La ley prevé una audiencia si se solicita. En la práctica, la mayoría de las peticiones de adultos se conceden por
+      escrito. Se requiere audiencia para personas en libertad condicional, encarceladas o en el registro de agresores
+      sexuales, y en casos de menores cuando un padre se opone.
+  sources: [va-8-01-217, ffx-brochure]
+background_check:
+  required: conditional
+  detail:
+    en: >-
+      No fingerprinting. You swear to your felony record and registry, probation, and incarceration status on the
+      application, and the clerk sends the order to the Central Criminal Records Exchange. Applicants on probation,
+      incarcerated, or on the sex offender registry face the extra good-cause review, prosecutor notice, and hearing.
+    es: >-
+      No se toman huellas. Declaras bajo juramento tus antecedentes, y el secretario envía la orden al registro central
+      de antecedentes penales. Hay revisión adicional para personas en libertad condicional, encarceladas o registradas.
+  sources: [va-8-01-217, cc1411]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      Name change orders are normally public: the clerk records the order in the deed book, indexed under both names.
+      Under § 8.01-217(G), if you show that making the change public would create a serious threat to your or your
+      immediate family's health or safety, the court may seal the record, not record or index the order, and not send
+      it to Vital Records or the criminal records exchange. The chief judge can also waive the oath requirement.
+    es: >-
+      Las órdenes de cambio de nombre normalmente son públicas. Según § 8.01-217(G), si demuestras que hacerlo público
+      crearía una amenaza grave para tu salud o seguridad o la de tu familia, el tribunal puede sellar el expediente y
+      no registrar ni enviar la orden.
+  how:
+    en: >-
+      Explain the threat in your application (item 7 or a supplemental sheet) and ask in writing that the court seal the
+      record under Va. Code § 8.01-217(G). Attach any supporting documents, such as a protective order or police report.
+      If the record is sealed, the order is not sent to Vital Records, so you will need to send it yourself to update a
+      Virginia birth certificate.
+    es: >-
+      Explica la amenaza en tu solicitud (punto 7 o una hoja adicional) y pide por escrito que el tribunal selle el
+      expediente según § 8.01-217(G). Adjunta documentos de apoyo si los tienes.
+  sources: [va-8-01-217]
+minors:
+  summary:
+    en: |
+      A parent, guardian, or next friend files **CC-1427** in the circuit court where the child lives. If both parents are living and both sign (each signature notarized), most courts decide without a hearing. If one parent does not join, that parent must be formally served under § 8.01-296; if they object, the court holds a hearing and grants the change only if it is in the child's best interest. If a parent cannot be found, the court can order service by publication (Fairfax uses The Washington Times, four weeks, about $30). A judge can waive notice to the other parent after an ex parte hearing if notice would present a serious threat to the child's health and safety.
+    es: |
+      Un padre, madre, tutor o representante presenta el **CC-1427** en el tribunal de circuito donde vive el menor. Si ambos padres viven y firman (cada firma notariada), la mayoría de los tribunales deciden sin audiencia. Si uno no se une, debe ser notificado formalmente; si se opone, hay audiencia y el cambio se concede solo si es en el mejor interés del menor. Si no se localiza a un padre, el tribunal puede ordenar notificación por publicación. El juez puede eximir la notificación si representaría una amenaza grave para la salud y seguridad del menor.
+  forms: [CC-1427]
+  sources: [va-8-01-217, cc1427, ffx-brochure]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: In person at the civil intake counter or by mail (Fairfax accepts both). Some courts also accept e-filing by attorneys.
+    es: En persona en la ventanilla civil o por correo (Fairfax acepta ambos).
+  sources: [ffx-brochure]
+timeline:
+  en: Usually a few weeks from filing to a signed order when no hearing is needed; longer if a hearing is set or a parent must be served.
+  es: Normalmente unas semanas desde la presentación hasta la orden firmada si no hay audiencia; más si hay audiencia o hay que notificar a un padre.
+after:
+  en: |
+    Start with **Social Security** (bring the certified order and photo ID). Then the **Virginia DMV** (online or in person; $20 for a replacement license). If you were born in Virginia, request new birth certificates from **VDH Vital Records** ($10 administrative fee plus $15 per copy when changing the sex marker). Then your **passport**, bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva la orden certificada e identificación con foto). Luego el **DMV de Virginia** ($20 por licencia de reemplazo). Si naciste en Virginia, pide nuevas actas a **Registros Vitales de VDH**. Después el **pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: The court must grant the change unless it is fraudulent or infringes on others' rights. "To conform my name to my gender identity" is a sufficient reason.
+    es: El tribunal debe conceder el cambio salvo que sea fraudulento o afecte derechos de otros. "Para que mi nombre coincida con mi identidad de género" es razón suficiente.
+  - en: Courthouse staff cannot give legal advice, but they can tell you the exact fee and whether the court wants a proposed order.
+    es: El personal del tribunal no puede dar asesoría legal, pero sí puede decirte la tarifa exacta y si piden propuesta de orden.
+  - en: Whitman-Walker Health's free legal team helps Virginia residents with name and gender changes, including help seeking assistance with court fees.
+    es: El equipo legal gratuito de Whitman-Walker Health ayuda a residentes de Virginia con cambios de nombre y género, incluida ayuda con las tarifas judiciales.
+local_help:
+  - id: whitman-walker-legal
+    name: Whitman-Walker Health, Legal Services (Name and Gender Change Clinics)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free legal help for clients from DC, Maryland, and Virginia with name changes and updating licenses, birth
+        certificates, Social Security, and passports, including Name and Gender Change Clinics with TransLAW and help
+        finding assistance with court fees. 202-745-7000.
+      es: >-
+        Ayuda legal gratuita para personas de DC, Maryland y Virginia con cambios de nombre y actualización de licencias,
+        actas de nacimiento, Seguro Social y pasaportes, incluidas clínicas de cambio de nombre y género con TransLAW.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    phone: "202-745-7000"
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: acluva
+    name: ACLU of Virginia
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: >-
+        Legal intake for civil rights problems, including discrimination; case-by-case legal help for trans and
+        nonbinary Virginians and referrals as capacity allows. 804-644-8022.
+      es: >-
+        Admisión legal para problemas de derechos civiles, incluida discriminación; ayuda caso por caso para personas
+        trans y no binarias y referencias según capacidad.
+    url: https://www.acluva.org/
+    phone: "804-644-8022"
+    cost: free
+    verification: official_source
+    sources: [vdh-trrl]
+  - id: lajc
+    name: Legal Aid Justice Center
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: >-
+        Civil legal aid for low-income people in Northern Virginia, Richmond, Petersburg, and Charlottesville. Not
+        confirmed to handle name changes; call intake to ask.
+      es: >-
+        Asistencia legal civil para personas de bajos ingresos en el norte de Virginia, Richmond, Petersburg y
+        Charlottesville. No se confirmó que atienda cambios de nombre; pregunta en admisión.
+    url: https://www.justice4all.org/
+    cost: free
+    verification: community_reported
+    sources: [ev-legal]
+  - id: barylaw
+    name: Law Office of Bary W. Hausrath (Richmond)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Private practice focused on name and gender marker changes in Virginia, with pro bono and sliding-scale help for
+        households under published income limits (capacity limited). 804-482-1649.
+      es: >-
+        Despacho privado enfocado en cambios de nombre y marcador de género en Virginia, con ayuda gratuita o en escala
+        móvil para hogares bajo límites de ingresos publicados (capacidad limitada).
+    url: https://www.barylaw.com/faqs/fees
+    phone: "804-482-1649"
+    cost: sliding_scale
+    verification: org_website
+    sources: [barylaw, vdh-trrl]
+  - id: genderbands-va
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small grants for transition costs, including name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: Va. Code § 8.01-217
+    title:
+      en: How name of person may be changed; no publication; sealing for safety
+    url: https://law.lis.virginia.gov/vacode/title8.01/chapter3/section8.01-217/
+  - cite: Va. Code § 17.1-606
+    title:
+      en: Proceeding without payment of fees or costs
+    url: https://law.lis.virginia.gov/vacode/title17.1/chapter6/section17.1-606/
+related_links:
+  - title: Virginia's Judicial System, circuit court civil forms
+    url: https://www.vacourts.gov/forms/circuit/civil.html
+  - title: Advocates for Trans Equality, Virginia identity documents
+    url: https://transequality.org/documents/virginia-identity-documents
+    note:
+      en: Last updated November 2023.
+      es: Actualizado en noviembre de 2023.
+sources:
+  - id: va-8-01-217
+    url: https://law.lis.virginia.gov/vacode/title8.01/chapter3/section8.01-217/
+    title: Code of Virginia § 8.01-217, How name of person may be changed
+    publisher: Virginia General Assembly, Legislative Information System
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      If the applicant shall show cause to believe that in the event his change of name should become a public record,
+      a serious threat to the health or safety of the applicant or his immediate family would exist, ... the court may
+      order the record sealed
+  - id: cc1411
+    url: https://www.vacourts.gov/static/forms/circuit/cc1411.pdf
+    title: Form CC-1411, Application for Change of Name (Adult), rev. 07/26
+    publisher: Supreme Court of Virginia
+    kind: form
+    accessed: "2026-09-24"
+    quote: I further certify under oath that this name change is not sought for any fraudulent purposes and will not infringe upon the rights of others
+  - id: cc1427
+    url: https://www.vacourts.gov/static/forms/circuit/cc1427.pdf
+    title: Form CC-1427, Application for Change of Name (Minor), rev. 07/26
+    publisher: Supreme Court of Virginia
+    kind: form
+    accessed: "2026-09-24"
+  - id: cc1414
+    url: https://www.vacourts.gov/static/forms/circuit/cc1414.pdf
+    title: Form CC-1414, Petition for Proceeding in Civil Case Without Payment of Fees or Costs, rev. 07/26
+    publisher: Supreme Court of Virginia
+    kind: form
+    accessed: "2026-09-24"
+  - id: va-17-1-606
+    url: https://law.lis.virginia.gov/vacode/title17.1/chapter6/section17.1-606/
+    title: Code of Virginia § 17.1-606
+    publisher: Virginia General Assembly, Legislative Information System
+    kind: statute
+    accessed: "2026-09-24"
+  - id: vacourts-civil-forms
+    url: https://www.vacourts.gov/forms/circuit/civil.html
+    title: Circuit court civil forms
+    publisher: Virginia's Judicial System
+    kind: court
+    accessed: "2026-09-24"
+    quote: "CC-1411 Application for Change of Name (Adult); Spanish Translation of CC-1411"
+  - id: ffx-nc-page
+    url: https://www.fairfaxcounty.gov/circuit/civil-case-information/name-change
+    title: Name change information
+    publisher: Fairfax Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: ffx-brochure
+    url: https://www.fairfaxcounty.gov/circuit/sites/circuit/files/Assets/Documents/PDF/name-change-brochure.pdf
+    title: Name change brochure (CCR-A-160, revised July 2026)
+    publisher: Fairfax Circuit Court Clerk's Office
+    kind: court
+    accessed: "2026-09-24"
+    quote: >-
+      Your Petition for Name Change and proposed Order will be sent to a Judge, for review. If everything is acceptable,
+      the Judge will sign the Order.
+  - id: ffx-fees
+    url: https://www.fairfaxcounty.gov/circuit/sites/circuit/files/assets/documents/pdf/fees-civil-and-filing-instructions.pdf
+    title: Civil filing instructions and fee schedule, effective July 1, 2026
+    publisher: Fairfax Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: Name Change $44.00
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Legal services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: We assist clients from DC, Maryland, and Virginia with obtaining name changes
+  - id: vdh-trrl
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    title: Virginia Transgender Resource and Referral List (updated September 17, 2026)
+    publisher: Virginia Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: ev-legal
+    url: https://equalityvirginia.org/resources/legal/
+    title: Legal resources
+    publisher: Equality Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: barylaw
+    url: https://www.barylaw.com/faqs/fees
+    title: Fees, pro bono and sliding scale assistance
+    publisher: Law Office of Bary W. Hausrath, PLLC
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,133 @@
+code: VA
+name:
+  en: Virginia
+  es: Virginia
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate: id_documents "protective" (no publication for name changes; self-attested M/F/X on licenses; birth
+    certificate by provider form without surgery, but no X). Care marked "mixed" rather than "protective" because
+    Virginia has private-insurance and Medicaid protections but no shield law, the main pediatric program closed in
+    2025, and a federal Medicaid funding rule for youth care is expected mid-October 2026; reviewer may prefer
+    "protective" since no state law restricts care.
+overview:
+  en: >-
+    Virginia makes it fairly easy to update ID documents: name changes need no newspaper publication, driver's licenses
+    offer M, F, or X with no medical proof, and a new birth certificate (male or female) needs only a form from a
+    health care provider. Gender-affirming care is legal for all ages, and Medicaid and state-regulated insurance cover
+    it, but Virginia has no shield law and care for minors has become harder to find. Federal documents (passport,
+    Social Security) currently cannot change their sex field.
+  es: >-
+    Virginia facilita bastante actualizar documentos: los cambios de nombre no requieren publicación, las licencias
+    ofrecen M, F o X sin prueba médica y una nueva acta de nacimiento (masculino o femenino) solo necesita un formulario
+    de un proveedor de salud. La atención de afirmación de género es legal a toda edad y Medicaid y los seguros
+    regulados por el estado la cubren, pero Virginia no tiene ley escudo y la atención para menores es más difícil de
+    encontrar. Los documentos federales (pasaporte, Seguro Social) actualmente no permiten cambiar el sexo.
+climate:
+  id_documents: protective
+  care: mixed
+  shield_law: false
+  sources: [map-id, map-shield, map-profile]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [northern-virginia]
+key_resources:
+  - id: equality-virginia
+    name: Equality Virginia
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt, insurance]
+    description:
+      en: >-
+        Statewide LGBTQ+ advocacy group. Publishes legal, health, housing, and youth resource lists, tracks bills, and
+        organizes the Transgender Information and Empowerment Summit (TIES). 804-643-4816.
+      es: >-
+        Organización estatal de defensa LGBTQ+. Publica listas de recursos legales, de salud, vivienda y juventud, sigue
+        proyectos de ley y organiza la Cumbre de Información y Empoderamiento Transgénero (TIES).
+    url: https://equalityvirginia.org/
+    phone: "804-643-4816"
+    cost: free
+    verification: org_website
+    sources: [ev, ev-ties]
+  - id: vdh-trrl
+    name: Virginia Transgender Resource and Referral List (VDH)
+    type: government_office
+    pillars: [hrt, mental_health, name_change, sexual_health]
+    description:
+      en: State health department's regional directory of trans-affirming medical, mental health, legal, and support providers, updated September 2026. Listings are self-reported.
+      es: Directorio regional del departamento de salud estatal de proveedores afirmativos, actualizado en septiembre de 2026.
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    cost: free
+    verification: official_source
+    sources: [vdh-trrl]
+  - id: virginia-avp
+    name: Virginia Anti-Violence Project, LGBTQ Helpline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: 24/7 LGBTQ helpline (866-356-6998) and text line (804-793-9999) for LGBTQ survivors of violence; advocacy and support groups; Spanish available.
+      es: Línea LGBTQ 24/7 (866-356-6998) y mensajes de texto (804-793-9999) para sobrevivientes LGBTQ de violencia; servicios en español.
+    url: https://www.virginiaavp.org/
+    phone: "866-356-6998"
+    cost: free
+    languages: [English, Español]
+    verification: official_source
+    sources: [vdh-trrl]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-shield
+    url: https://mapresearch.org/equality-map/transgender-healthcare-shield-laws/
+    title: Transgender healthcare shield laws
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality_maps/profile_state/VA
+    title: Virginia state policy profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ev
+    url: https://equalityvirginia.org/
+    title: Equality Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: ev-ties
+    url: https://equalityvirginia.org/ties/
+    title: Transgender Information and Empowerment Summit (TIES)
+    publisher: Equality Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: vdh-trrl
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    title: Virginia Transgender Resource and Referral List (updated September 17, 2026)
+    publisher: Virginia Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

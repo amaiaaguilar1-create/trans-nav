@@ -1,0 +1,221 @@
+guide_type: birth_certificate
+jurisdiction: VA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (Va. Code § 32.1-261(A)(5) and (B)) read on law.lis.virginia.gov 2026-09-24 (last amended 2026, c. 587,
+    which appears to concern adoption provisions, not sex changes; reviewer should confirm). VDH procedure page lists a
+    $10 administrative fee and $15 per certified copy. Form VS42 text read directly: the provider fills in "Male or
+    Female" only, so X is treated as unavailable; MAP's Virginia profile agrees (0/0.5 for gender-neutral birth
+    certificate markers). A4TE (November 2023) lists $12 per copy, which is outdated. Reviewer: (1) confirm current
+    processing time (not published on the pages read); (2) confirm whether a separate written request letter or VDH's
+    general amendment application is expected along with VS42; (3) Virginia Mercury (2023) reporting on volumes returned
+    403 and was not used.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in Virginia, you can get a new birth certificate showing male or female by mailing VDH Vital
+    Records form VS42, signed by any licensed health care provider who has treated you. No surgery or court order is
+    required for the sex change. Nonbinary (X) is not offered. Changing the name requires a certified court order.
+  es: >-
+    Si naciste en Virginia, puedes obtener una nueva acta de nacimiento con masculino o femenino enviando a Registros
+    Vitales de VDH el formulario VS42, firmado por cualquier proveedor de salud con licencia que te haya atendido. No se
+    requiere cirugía ni orden judicial para el cambio de sexo. No se ofrece la opción no binaria (X). Cambiar el nombre
+    requiere una orden judicial certificada.
+summary:
+  en: |
+    Since 2020, Va. Code § 32.1-261(A)(5) requires the State Registrar to issue a **new** birth certificate showing a change of sex when you submit a VDH form completed by a health care provider who has treated you, stating that you have "undergone clinically appropriate treatment for gender transition". The law bars VDH from requiring **any evidence or documentation of a medical procedure**. Clinically appropriate treatment is decided by you and your provider; it can be counseling, hormones, a change in gender expression, or other care.
+
+    The new certificate replaces the original, and the original is **sealed**. If you also send a certified court order changing your name, the new certificate shows the new name.
+  es: |
+    Desde 2020, el Código de Virginia § 32.1-261(A)(5) obliga al Registro Estatal a emitir una **nueva** acta de nacimiento con el cambio de sexo cuando presentas un formulario de VDH completado por un proveedor de salud que te ha atendido, indicando que has recibido "tratamiento clínicamente apropiado para la transición de género". La ley prohíbe exigir **cualquier prueba o documentación de un procedimiento médico**.
+
+    La nueva acta reemplaza a la original, que queda **sellada**. Si también envías una orden judicial certificada de cambio de nombre, la nueva acta muestra el nuevo nombre.
+eligibility:
+  residency:
+    en: You must have been born in Virginia. Where you live now does not matter. If you were born in another state, that state's rules apply.
+    es: Debes haber nacido en Virginia. No importa dónde vivas ahora. Si naciste en otro estado, se aplican las reglas de ese estado.
+  age:
+    en: Adults request for themselves. For someone under 18, a parent makes the request.
+    es: Las personas adultas lo solicitan por sí mismas. Para menores de 18, lo solicita un padre o madre.
+  sources: [va-32-1-261, vdh-procedure]
+forms:
+  - id: VS42
+    name:
+      en: Form for Changing Sex Designation
+      es: Formulario para cambiar la designación de sexo
+    url: https://www.vdh.virginia.gov/content/uploads/sites/93/2020/07/VS42_Gender-Designation-Form.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Your provider** completes and signs this form, not you. It must be a licensed health care provider (any type, licensed in any state) from whom you have received treatment: for example a doctor, nurse practitioner, physician assistant, or licensed therapist.
+        - The provider fills in their name, provider type, state and license number, your full name, date of birth, and Virginia city or county of birth, and writes **Male** or **Female**.
+        - It needs a **live ink signature** and date (no electronic signature) and the provider's business address. No notary is required on the form.
+      es: |
+        - **Tu proveedor** llena y firma este formulario, no tú. Debe ser un proveedor de salud con licencia (de cualquier tipo y estado) que te haya atendido.
+        - El proveedor anota su nombre, tipo, estado y número de licencia, tu nombre completo, fecha de nacimiento y ciudad o condado de nacimiento en Virginia, y escribe **Masculino** o **Femenino**.
+        - Requiere **firma en tinta original** y fecha, y la dirección profesional del proveedor.
+    sources: [vs42, vdh-procedure]
+steps:
+  - id: provider-form
+    title:
+      en: Ask your provider to complete VS42
+      es: Pide a tu proveedor que llene el VS42
+    body:
+      en: >-
+        Any licensed health care provider who has treated you can sign. Community clinics such as Health Brigade in
+        Richmond and Whitman-Walker in DC routinely provide letters for legal document updates.
+      es: >-
+        Cualquier proveedor de salud con licencia que te haya atendido puede firmar. Clínicas comunitarias como Health
+        Brigade en Richmond y Whitman-Walker en DC suelen dar cartas para actualizar documentos legales.
+    forms: [VS42]
+    sources: [vs42, vdh-trrl]
+  - id: assemble
+    title:
+      en: Put together your request
+      es: Reúne tu solicitud
+    body:
+      en: |
+        Include:
+        - A written request from you (or your parent if you are under 18).
+        - A copy of your valid photo ID.
+        - The original VS42 with the provider's ink signature.
+        - A **certified** copy of your name change court order, if you want the new name on the certificate.
+        - Payment: $10 administrative fee plus $15 for each certified copy you want.
+      es: |
+        Incluye:
+        - Una solicitud escrita tuya (o de tu padre o madre si eres menor de 18).
+        - Copia de tu identificación con foto vigente.
+        - El VS42 original con la firma en tinta del proveedor.
+        - Copia **certificada** de tu orden judicial de cambio de nombre, si quieres el nuevo nombre en el acta.
+        - Pago: $10 de tarifa administrativa más $15 por cada copia certificada.
+    forms: [VS42]
+    fees: [admin, copy]
+    sources: [vdh-procedure]
+  - id: mail
+    title:
+      en: Mail it to VDH Vital Records in Richmond
+      es: Envíalo a Registros Vitales de VDH en Richmond
+    body:
+      en: Mail to Virginia Department of Health, Division of Vital Records, P.O. Box 1000, Richmond, VA 23218 (the address printed on VS42). Keep copies of everything.
+      es: Envíalo a Virginia Department of Health, Division of Vital Records, P.O. Box 1000, Richmond, VA 23218. Guarda copias de todo.
+    applies_to: [by_mail]
+    sources: [vs42]
+  - id: receive
+    title:
+      en: Receive your new certificate
+      es: Recibe tu nueva acta
+    body:
+      en: >-
+        VDH establishes a new certificate that replaces the original and seals the old one. If VDH decides your paperwork
+        is insufficient, it must tell you in writing and explain your right to petition a circuit court.
+      es: >-
+        VDH crea una nueva acta que reemplaza la original y sella la anterior. Si VDH considera insuficiente tu
+        documentación, debe informarte por escrito y explicarte tu derecho a acudir a un tribunal de circuito.
+    sources: [va-32-1-261, va-32-1-269]
+fees:
+  - id: admin
+    label:
+      en: Administrative fee to establish the new birth certificate
+      es: Tarifa administrativa para crear la nueva acta
+    amount: 10
+    waivable: false
+    sources: [vdh-procedure]
+  - id: copy
+    label:
+      en: Each certified copy of the new certificate
+      es: Cada copia certificada de la nueva acta
+    amount: 15
+    waivable: false
+    sources: [vdh-procedure]
+fee_waiver:
+  available: false
+  how:
+    en: >-
+      No fee waiver is listed by VDH. The Virginia DMV has a program for no-cost vital records for youth experiencing
+      homelessness; funds like Genderbands and He She Ze and We's Trans Wellness Fund may help with costs.
+    es: >-
+      VDH no indica exención de tarifas. El DMV tiene un programa de registros vitales sin costo para jóvenes sin hogar;
+      fondos como Genderbands pueden ayudar con los costos.
+  sources: [vdh-procedure]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail to VDH Division of Vital Records in Richmond. DMV offices sell copies of existing Virginia vital records but do not process sex-marker amendments.
+    es: Por correo a la División de Registros Vitales de VDH en Richmond. Las oficinas del DMV venden copias pero no procesan cambios de sexo.
+  sources: [vs42, vdh-procedure]
+timeline:
+  en: VDH does not publish a processing time for these requests; plan on several weeks.
+  es: VDH no publica un tiempo de procesamiento para estas solicitudes; calcula varias semanas.
+after:
+  en: |
+    Your new Virginia birth certificate is accepted by the Virginia DMV and most state agencies. As of September 2026, the Social Security Administration and the State Department will **not** change the sex field based on it, but they will update your name with a court order. If you were born outside Virginia, contact your birth state's vital records office.
+  es: |
+    Tu nueva acta de Virginia es aceptada por el DMV de Virginia y la mayoría de las agencias estatales. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** cambian el campo de sexo con base en ella, pero sí actualizan tu nombre con una orden judicial. Si naciste fuera de Virginia, contacta la oficina de registros vitales de tu estado de nacimiento.
+tips:
+  - en: Order several certified copies in the same request; each later copy is another separate order.
+    es: Pide varias copias certificadas en la misma solicitud.
+  - en: A circuit court can also adjudicate a change of sex (§ 32.1-261(A)(6)), but the VS42 route is simpler and cheaper for most people.
+    es: Un tribunal de circuito también puede declarar un cambio de sexo, pero la vía del VS42 es más sencilla y barata para la mayoría.
+statutes:
+  - cite: Va. Code § 32.1-261(A)(5)
+    title:
+      en: New birth certificate showing change of sex on a provider form; no medical-procedure proof may be required
+    url: https://law.lis.virginia.gov/vacode/title32.1/chapter7/section32.1-261/
+  - cite: Va. Code § 32.1-269
+    title:
+      en: Amending vital records; name change by court order; denial and right to petition circuit court
+    url: https://law.lis.virginia.gov/vacode/title32.1/chapter7/section32.1-269/
+related_links:
+  - title: VDH Vital Records, updating a birth certificate after gender transition
+    url: https://www.vdh.virginia.gov/vital-records/what-is-the-procedure-to-update-a-virginia-birth-certificate-after-a-person-has-undergone-gender-transition/
+  - title: Advocates for Trans Equality, Virginia identity documents
+    url: https://transequality.org/documents/virginia-identity-documents
+    note:
+      en: Last updated November 2023; its $12 copy fee is out of date (VDH now lists $15).
+      es: Actualizado en noviembre de 2023; su tarifa de $12 por copia está desactualizada.
+sources:
+  - id: va-32-1-261
+    url: https://law.lis.virginia.gov/vacode/title32.1/chapter7/section32.1-261/
+    title: Code of Virginia § 32.1-261
+    publisher: Virginia General Assembly, Legislative Information System
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Requirements related to obtaining a new certificate of birth to show a change of sex shall not include any
+      requirement for evidence or documentation of any medical procedure.
+  - id: va-32-1-269
+    url: https://law.lis.virginia.gov/vacode/title32.1/chapter7/section32.1-269/
+    title: Code of Virginia § 32.1-269
+    publisher: Virginia General Assembly, Legislative Information System
+    kind: statute
+    accessed: "2026-09-24"
+  - id: vdh-procedure
+    url: https://www.vdh.virginia.gov/vital-records/what-is-the-procedure-to-update-a-virginia-birth-certificate-after-a-person-has-undergone-gender-transition/
+    title: What is the procedure to update a Virginia birth certificate after a person has undergone gender transition?
+    publisher: Virginia Department of Health, Division of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "$10 administrative fee to establish the new birth certificate; $15 for each certified birth certificate requested"
+  - id: vs42
+    url: https://www.vdh.virginia.gov/content/uploads/sites/93/2020/07/VS42_Gender-Designation-Form.pdf
+    title: Form VS42, Form for Changing Sex Designation
+    publisher: Virginia Department of Health, Division of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: To be completed by the health care provider from whom the person received clinically appropriate treatment for gender transition.
+  - id: vdh-trrl
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    title: Virginia Transgender Resource and Referral List (updated September 17, 2026)
+    publisher: Virginia Department of Health
+    kind: official
+    accessed: "2026-09-24"

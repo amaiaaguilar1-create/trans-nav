@@ -1,0 +1,253 @@
+jurisdiction: VA
+slug: northern-virginia
+name: Northern Virginia
+area:
+  en: Arlington County, Fairfax County, the City of Alexandria, and nearby Northern Virginia localities (Prince William County, Falls Church, Fairfax City)
+  es: Condado de Arlington, condado de Fairfax, ciudad de Alexandria y localidades cercanas del norte de Virginia
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details are Fairfax's (brochure and fee schedule revised July 2026). Arlington's court website returned 403 to
+    automated access and Alexandria's name-change page was not found, so their fees and procedures are not described;
+    each is a separate circuit court and residents must file there. Most clinic entries come from VDH's September 2026
+    Transgender Resource and Referral List (self-reported; VDH does not vet) and are marked community_reported unless
+    the org's own page was read. Verify new-patient availability, sliding-scale policies, and informed-consent practice
+    for Inova Fair Oaks and Meadow before marking reviewed. No Planned Parenthood health center in Northern Virginia
+    was confirmed.
+intro:
+  en: >-
+    Northern Virginia has several trans-affirming primary care and hormone prescribers, free HIV/STI testing, and peer
+    support groups, and many residents also use Whitman-Walker Health just across the river in DC for hormones and free
+    name-change legal help. You file a name change in the circuit court of the county or city where you live: Fairfax,
+    Arlington, and Alexandria each have their own court.
+  es: >-
+    El norte de Virginia tiene varios proveedores afirmativos de atención primaria y hormonas, pruebas gratuitas de
+    VIH/ITS y grupos de apoyo, y muchas personas también usan Whitman-Walker Health en DC para hormonas y ayuda legal
+    gratuita con el cambio de nombre. El cambio de nombre se presenta en el tribunal de circuito del condado o ciudad
+    donde vives: Fairfax, Arlington y Alexandria tienen cada uno su propio tribunal.
+court:
+  name: Fairfax Circuit Court (Arlington and Alexandria residents file in their own circuit courts)
+  url: https://www.fairfaxcounty.gov/circuit/civil-case-information/name-change
+  self_help_url: https://www.vacourts.gov/forms/circuit/civil.html
+  filing_fee: 44
+  notes:
+    en: >-
+      Fairfax Circuit Court, 4110 Chain Bridge Road, Fairfax (civil intake, Suite 319, weekdays 8 am to 4 pm;
+      703-691-7320). File in person or by mail; Fairfax publishes a fillable petition-and-order packet and does not
+      accept personal checks. $44 filing fee; $2.50 per extra certified copy. Arlington County and City of Alexandria
+      residents: use statewide form CC-1411 and ask your court clerk for the fee and proposed-order format.
+    es: >-
+      Tribunal de Circuito de Fairfax, 4110 Chain Bridge Road, Fairfax (ventanilla civil, Suite 319, de lunes a
+      viernes de 8 am a 4 pm; 703-691-7320). Presenta en persona o por correo. Tarifa de $44; $2.50 por copia certificada
+      adicional. Residentes de Arlington y Alexandria: usen el formulario CC-1411 y consulten al secretario de su
+      tribunal.
+  sources: [ffx-nc-page, ffx-brochure, ffx-fees, vacourts-civil-forms]
+resources:
+  - id: whitman-walker-legal
+    name: Whitman-Walker Health, Legal Services (Name and Gender Change Clinics)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help for DC, Maryland, and Virginia residents with name change petitions and updating licenses, birth certificates, Social Security, and passports; clinics run with TransLAW. 202-745-7000.
+      es: Ayuda gratuita para residentes de DC, Maryland y Virginia con peticiones de cambio de nombre y actualización de documentos; clínicas con TransLAW. 202-745-7000.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    phone: "202-745-7000"
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: lsnv
+    name: Legal Services of Northern Virginia
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Civil legal aid for low-income residents of Northern Virginia. Not confirmed to handle name changes; ask at intake.
+      es: Asistencia legal civil para residentes de bajos ingresos del norte de Virginia. No se confirmó que atienda cambios de nombre.
+    url: https://www.lsnv.org/
+    cost: free
+    verification: unverified
+    sources: [lsnv]
+  - id: whitman-walker-health
+    name: Whitman-Walker Health (1525 14th St NW, Washington, DC)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: Gender-affirming hormone therapy, primary care, PrEP and STI care, behavioral health, peer support, and insurance navigation; closest large trans health program for Arlington and Alexandria residents.
+      es: Terapia hormonal, atención primaria, PrEP e ITS, salud conductual, apoyo entre pares y navegación de seguros; el programa de salud trans grande más cercano para Arlington y Alexandria.
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/
+    phone: "202-745-7000"
+    address: 1525 14th St NW, Washington, DC 20005
+    cost: sliding_scale
+    verification: org_website
+    sources: [ww-trans, vdh-trrl]
+  - id: inova-fair-oaks
+    name: Inova Primary Care, Fair Oaks
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Primary care, hormone therapy, and counseling; most insurance and Medicare accepted, with a sliding-scale fee available; Spanish on site. 3650 Joseph Siewick Dr, Suite 400, Fairfax; 703-391-2020.
+      es: Atención primaria, terapia hormonal y consejería; acepta la mayoría de los seguros y tiene escala móvil; español en el sitio. 703-391-2020.
+    url: https://www.inova.org/locations/primary-care/fairfax-family-practice
+    phone: "703-391-2020"
+    address: 3650 Joseph Siewick Dr, Suite 400, Fairfax, VA 22033
+    cost: sliding_scale
+    verification: community_reported
+    sources: [vdh-trrl]
+  - id: meadow
+    name: Meadow Reproductive Health and Wellness
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Primary care, gender-affirming care, and reproductive and sexual health (STI testing, contraception); Medicaid and many insurance plans accepted; English and Spanish. 1749 Old Meadow Rd, Suite 600, McLean; 703-783-3300.
+      es: Atención primaria, atención de afirmación de género y salud reproductiva y sexual; acepta Medicaid y muchos seguros; inglés y español. 703-783-3300.
+    url: https://meadowrepro.org/
+    phone: "703-783-3300"
+    address: 1749 Old Meadow Rd, Suite 600, McLean, VA 22102
+    cost: insurance
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [vdh-trrl]
+  - id: novasalud
+    name: NovaSalud
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Free HIV, hepatitis, and STI testing, PrEP and PEP navigation, harm reduction supplies, trans-specific health programs, and counseling, in Spanish and English. 2946 Sleepy Hollow Rd, Suite 3C, Falls Church; 703-533-1858.
+      es: Pruebas gratuitas de VIH, hepatitis e ITS, navegación de PrEP y PEP, programas de salud para personas trans y consejería, en español e inglés. 703-533-1858.
+    url: https://www.novasaludinc.org/
+    phone: "703-533-1858"
+    address: 2946 Sleepy Hollow Rd, Suite 3C, Falls Church, VA 22044
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [novasalud, vdh-trrl]
+  - id: arlington-public-health
+    name: Arlington County Public Health, STI clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: STI screening and treatment, confidential HIV testing, and doxy-PEP by appointment at Sequoia Plaza, 2100 Washington Blvd. Call 703-228-7444.
+      es: Detección y tratamiento de ITS, prueba confidencial de VIH y doxy-PEP con cita en Sequoia Plaza. Llama al 703-228-7444.
+    phone: "703-228-7444"
+    address: 2100 Washington Blvd, 2nd Floor, Arlington, VA 22204
+    cost: low_cost
+    verification: official_source
+    sources: [vdh-trrl]
+  - id: tgea
+    name: Transgender Education Association (TGEA) support groups
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Peer-facilitated trans support groups on the second Friday of each month, 7 to 8:30 pm, at Metropolitan Community Church of Northern Virginia, 10383 Democracy Lane, Fairfax. Partners, family, and allies welcome.
+      es: Grupos de apoyo trans entre pares el segundo viernes de cada mes, de 7 a 8:30 pm, en Fairfax. Parejas, familiares y aliados son bienvenidos.
+    url: https://www.tgea.org/
+    address: 10383 Democracy Lane, Fairfax, VA 22030
+    cost: free
+    verification: community_reported
+    sources: [vdh-trrl]
+  - id: safe-space-nova
+    name: Safe Space NOVA
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Year-round social, educational, and wellness programs for LGBTQIA+ young people under 21 across Northern Virginia. 571-549-7073.
+      es: Programas sociales, educativos y de bienestar para jóvenes LGBTQIA+ menores de 21 años en el norte de Virginia. 571-549-7073.
+    url: https://safespacenova.org/
+    phone: "571-549-7073"
+    cost: free
+    verification: community_reported
+    sources: [vdh-trrl]
+  - id: point-of-pride-nova
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds including free telehealth hormone therapy (HRT Access Fund) and a surgery fund.
+      es: Fondos nacionales, incluida terapia hormonal por telesalud gratis y un fondo de cirugía.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: trans-lifeline-nova
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ffx-nc-page
+    url: https://www.fairfaxcounty.gov/circuit/civil-case-information/name-change
+    title: Name change information
+    publisher: Fairfax Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: ffx-brochure
+    url: https://www.fairfaxcounty.gov/circuit/sites/circuit/files/Assets/Documents/PDF/name-change-brochure.pdf
+    title: Name change brochure (CCR-A-160, revised July 2026)
+    publisher: Fairfax Circuit Court Clerk's Office
+    kind: court
+    accessed: "2026-09-24"
+  - id: ffx-fees
+    url: https://www.fairfaxcounty.gov/circuit/sites/circuit/files/assets/documents/pdf/fees-civil-and-filing-instructions.pdf
+    title: Civil filing instructions and fee schedule, effective July 1, 2026
+    publisher: Fairfax Circuit Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: Name Change $44.00
+  - id: vacourts-civil-forms
+    url: https://www.vacourts.gov/forms/circuit/civil.html
+    title: Circuit court civil forms
+    publisher: Virginia's Judicial System
+    kind: court
+    accessed: "2026-09-24"
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Legal services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ww-trans
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/
+    title: Transgender healthcare
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsnv
+    url: https://www.lsnv.org/
+    title: Legal Services of Northern Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: novasalud
+    url: https://www.novasaludinc.org/
+    title: NovaSalud
+    kind: org
+    accessed: "2026-09-24"
+  - id: vdh-trrl
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    title: Virginia Transgender Resource and Referral List (updated September 17, 2026), Northern Virginia section
+    publisher: Virginia Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

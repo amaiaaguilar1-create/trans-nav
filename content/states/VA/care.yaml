@@ -1,0 +1,382 @@
+jurisdiction: VA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Medicaid coverage from the DMAS bulletin "Coverage of gender dysphoria services" (effective December 10, 2021) and
+    the Gender Dysphoria Supplement to the Physician/Practitioner manual (12.8.21 version, still linked from the DMAS
+    manual library on 2026-09-24); MAP's Medicaid citations (January 2026) agree Virginia explicitly covers this care.
+    Reviewer: confirm DMAS has not revised the supplement since, and track the CMS final rule on federal Medicaid/CHIP
+    funding for youth care (Equality Virginia statement, August 25, 2026; expected effective mid-October 2026; the rule
+    itself was not read, and whether it will be challenged is unknown). Children's Hospital of Richmond at VCU ended
+    gender-affirming care for under-19s on July 29, 2025 (read on chrichmond.org); UVA's status was not checked. No
+    Virginia shield law per MAP (data as of 2026-09-23); the web-search budget was exhausted so 2026 session bills could
+    not be searched directly, but Equality Virginia reports all 12 anti-trans bills failed in 2026. QueerMed coverage of
+    Virginia not confirmed. Resources marked community_reported come from VDH's self-reported referral list, which VDH
+    states it does not vet.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in Virginia for adults and for minors with parental consent. Virginia Medicaid
+    (Cardinal Care) covers hormones and many surgeries, and state-regulated private plans may not exclude trans care.
+    Virginia has no shield law, and access for minors has shrunk: the Richmond children's hospital program closed in
+    2025, and a new federal rule will bar federal Medicaid funding for youth care.
+  es: >-
+    La atención de afirmación de género es legal en Virginia para adultos y para menores con consentimiento de los
+    padres. Medicaid de Virginia (Cardinal Care) cubre hormonas y muchas cirugías, y los planes privados regulados por el
+    estado no pueden excluir la atención trans. Virginia no tiene ley escudo y el acceso para menores se ha reducido: el
+    programa del hospital infantil de Richmond cerró en 2025 y una nueva regla federal prohibirá fondos federales de
+    Medicaid para atención juvenil.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction on care for adults. Several community clinics prescribe hormones using an **informed consent** intake (you review risks and benefits and sign consent; no therapist letter needed), and telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Cardinal Care (Medicaid)** at Cover Virginia. Adults qualify with income up to about 138% of the federal poverty level. It covers hormones, labs, and many surgeries.
+      2. **Health Brigade** in Richmond serves trans patients who are uninsured or on Medicaid, after a financial screening.
+      3. A **community health center** (find one at findahealthcenter.hrsa.gov) must see you on a sliding scale regardless of ability to pay.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care; **He She Ze and We's Trans Wellness Fund** helps Virginians bridge the cost of gender-affirming care.
+    es: |
+      Sin restricciones estatales para adultos. Varias clínicas comunitarias recetan hormonas con **consentimiento informado** (sin carta de terapeuta), y la telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Cardinal Care (Medicaid)** en Cover Virginia. Los adultos califican con ingresos hasta aproximadamente el 138% del nivel federal de pobreza. Cubre hormonas, laboratorios y muchas cirugías.
+      2. **Health Brigade** en Richmond atiende a pacientes trans sin seguro o con Medicaid, tras una evaluación financiera.
+      3. Un **centro de salud comunitario** (findahealthcenter.hrsa.gov) debe atenderte en escala móvil.
+      4. El **Fondo de Acceso a TRH de Point of Pride** y el **Trans Wellness Fund de He She Ze and We** ayudan con los costos.
+  sources: [health-brigade, hrsa, pop-hrt, hszw, coverva]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Virginia has no law banning gender-affirming care for minors (Movement Advancement Project, data as of September 2026). Care requires parental or guardian consent.
+
+      Access is limited in practice. **Children's Hospital of Richmond at VCU stopped providing gender-affirming care to patients under 19 on July 29, 2025**, citing federal directives. A **federal CMS final rule** announced in August 2026 bars federal Medicaid and CHIP funding for gender-affirming care for people under 18 (Medicaid) or 19 (CHIP); it is expected to take effect in mid-October 2026. It does not ban care, but Medicaid-covered youth may lose coverage. Virginia has **no shield law** protecting patients or providers from other states' investigations.
+    es: |
+      Legal. Virginia no tiene ley que prohíba la atención de afirmación de género para menores. Requiere consentimiento de los padres o tutores.
+
+      El acceso es limitado en la práctica. **El Children's Hospital of Richmond at VCU dejó de ofrecer esta atención a menores de 19 años el 29 de julio de 2025**. Una **regla final federal de CMS** anunciada en agosto de 2026 prohíbe fondos federales de Medicaid y CHIP para esta atención a menores de 18 (Medicaid) o 19 (CHIP); se espera que entre en vigor a mediados de octubre de 2026. No prohíbe la atención, pero la juventud con Medicaid puede perder cobertura. Virginia **no tiene ley escudo**.
+  sources: [map-profile, chor, ev-cms-rule, map-shield]
+medicaid:
+  program_name: Cardinal Care (Virginia Medicaid and FAMIS)
+  covers_hrt: "yes"
+  covers_surgery: partial
+  detail:
+    en: |
+      Since December 2021, DMAS has affirmed coverage of gender dysphoria services for fee-for-service and managed care members. Under the Gender Dysphoria Supplement:
+      - **Hormones** (including puberty blockers) are covered with a gender dysphoria diagnosis. For adults, the diagnosis can come from a gender-informed hormone prescriber; minors need a licensed mental health provider's assessment and parental consent.
+      - **Chest surgery** (mastectomy, chest contouring, breast augmentation) is covered at 18+ with one mental health professional's support; augmentation requires 12 months of hormones unless contraindicated.
+      - **Genital surgeries** (hysterectomy, phalloplasty, metoidioplasty, vaginoplasty, orchiectomy, and others) are covered at 18+ with two mental health letters, 12 months of hormones, and 12 months living in your gender (with exceptions).
+      - **Facial procedures** (tracheal shave, genioplasty, forehead contouring, facial hair removal), behavioral health, and speech therapy are covered.
+      - **Not covered**: voice surgery, hair transplants, liposuction, gluteal augmentation, pectoral implants, fertility preservation, and other listed cosmetic procedures.
+
+      Surgery needs prior authorization (form DMAS-P264 for fee-for-service; managed care plans use their own forms). The August 2026 federal CMS rule is expected to end federal funding for this care for members under 18 (under 19 in FAMIS/CHIP) starting in mid-October 2026.
+
+      **Apply** at Cover Virginia (coverva.dmas.virginia.gov), by phone, or at your local Department of Social Services.
+    es: |
+      Desde diciembre de 2021, DMAS cubre servicios de disforia de género. Según el Suplemento de Disforia de Género:
+      - **Hormonas** (incluidos bloqueadores de pubertad) cubiertas con diagnóstico. Menores necesitan evaluación de salud mental y consentimiento de los padres.
+      - **Cirugía de pecho** cubierta desde los 18 años con apoyo de un profesional de salud mental.
+      - **Cirugías genitales** cubiertas desde los 18 años con dos cartas de salud mental, 12 meses de hormonas y 12 meses viviendo en tu género (con excepciones).
+      - **Procedimientos faciales**, salud conductual y terapia del habla cubiertos.
+      - **No cubiertos**: cirugía de voz, trasplante de cabello, liposucción, aumento de glúteos, preservación de fertilidad y otros procedimientos cosméticos.
+
+      La cirugía requiere autorización previa. La regla federal de CMS de agosto de 2026 eliminaría fondos federales para menores de 18 (19 en FAMIS) a partir de mediados de octubre de 2026. **Solicita** en Cover Virginia.
+  how_to_apply_url: https://coverva.dmas.virginia.gov/
+  sources: [dmas-bulletin, dmas-gd-supplement, map-medicaid, ev-cms-rule, coverva]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Va. Code § 38.2-3449.1 (2020) requires health carriers selling individual or group plans in Virginia to cover people without discrimination based on gender identity and bars them from denying or limiting sex-specific services because your sex assigned at birth or recorded gender differs. It defines medically necessary transition-related care to include therapy, continuous hormone therapy, related lab work, and gender reassignment surgeries.
+
+      If your plan denies care, appeal with the plan first, then file a complaint with the State Corporation Commission's **Bureau of Insurance**. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates. Individual plans are sold through **Virginia's Insurance Marketplace** (marketplace.virginia.gov).
+    es: |
+      El Código de Virginia § 38.2-3449.1 (2020) exige que las aseguradoras que venden planes individuales o grupales en Virginia no discriminen por identidad de género y no nieguen servicios por sexo asignado al nacer. Define la atención de transición médicamente necesaria para incluir terapia, hormonas, laboratorios y cirugías.
+
+      Si tu plan niega la atención, apela primero ante el plan y luego presenta una queja ante el **Bureau of Insurance** de la State Corporation Commission. Los planes autofinanciados de empleadores se rigen por leyes federales. Los planes individuales se venden en **Virginia's Insurance Marketplace**.
+  complaint_url: https://www.scc.virginia.gov/consumers/insurance/file-an-insurance-complaint/
+  sources: [va-38-2-3449-1, scc-complaint, map-insurance]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: health-brigade
+    name: Health Brigade, Trans Health Services (Richmond)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, gender_marker]
+    description:
+      en: >-
+        Richmond community health center offering primary care, hormone therapy with an informed-consent intake,
+        counseling, support groups, STI testing, surgery letters, and letters for legal name and gender marker updates.
+        Trans health services are for patients who are uninsured or have Medicaid. 1010 N. Thompson St; 804-358-6343.
+      es: >-
+        Centro de salud en Richmond con atención primaria, terapia hormonal con consentimiento informado, consejería,
+        pruebas de ITS y cartas para cirugía y cambios legales. Atiende a pacientes trans sin seguro o con Medicaid.
+    url: https://www.healthbrigade.org/patients-and-clients/trans-health/
+    phone: "804-358-6343"
+    address: 1010 N. Thompson St, Richmond, VA 23230
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [health-brigade]
+  - id: vlpp
+    org: planned-parenthood
+    name: Virginia League for Planned Parenthood, transgender services (Richmond and Hampton Roads)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: >-
+        Hormone therapy, primary care, OB/GYN, and STI testing at the Hamilton and East End health centers in Richmond,
+        with telehealth for patients located in Virginia. Medicaid and most insurance accepted. New hormone appointments
+        cannot be booked online; call or email tgnbservices@vlpp.org. Minimum age not confirmed.
+      es: >-
+        Terapia hormonal, atención primaria, ginecología y pruebas de ITS en Richmond, con telesalud para pacientes en
+        Virginia. Acepta Medicaid y la mayoría de los seguros. Las citas de hormonas no se reservan en línea.
+    url: https://www.plannedparenthood.org/planned-parenthood-virginia-league/for-patients/transgender-services
+    phone: "804-355-4358"
+    cost: insurance
+    accepts_medicaid: true
+    telehealth: true
+    verification: community_reported
+    sources: [vdh-trrl]
+  - id: whitman-walker
+    name: Whitman-Walker Health (Washington, DC; serves Northern Virginia)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, name_change, insurance]
+    description:
+      en: >-
+        DC community health center with gender-affirming hormone therapy, primary care, behavioral health, PrEP and STI
+        care, insurance navigation, and free legal help with name and gender changes for Virginia residents.
+        202-745-7000.
+      es: >-
+        Centro de salud comunitario en DC con terapia hormonal, atención primaria, salud conductual, PrEP y navegación
+        de seguros, además de ayuda legal gratuita para cambios de nombre y género para residentes de Virginia.
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/
+    phone: "202-745-7000"
+    cost: sliding_scale
+    verification: org_website
+    sources: [ww-trans, ww-legal]
+  - id: nationz
+    name: Nationz Foundation (Richmond)
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: >-
+        LGBTQIA+ community organization with free HIV/STI testing, PrEP clinic, food pantry, trans support groups
+        (T-Gurlz Rock; Beyond Brothers for transmasculine people), and referrals. 1603 Santa Rosa Rd, Suite 101;
+        804-716-7597.
+      es: >-
+        Organización LGBTQIA+ con pruebas gratuitas de VIH/ITS, clínica de PrEP, despensa de alimentos y grupos de apoyo
+        trans. 804-716-7597.
+    url: https://www.nationzfoundationrva.org/
+    phone: "804-716-7597"
+    address: 1603 Santa Rosa Rd, Suite 101, Richmond, VA 23229
+    cost: free
+    verification: org_website
+    sources: [nationz, vdh-trrl]
+  - id: hszw-twf
+    name: He She Ze and We, Trans Wellness Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: >-
+        Statewide Virginia nonprofit for trans people and their families; its Trans Wellness Fund helps bridge the gap in
+        access to gender-affirming care. Also runs family support meetings.
+      es: >-
+        Organización estatal para personas trans y sus familias; su Trans Wellness Fund ayuda a cubrir el acceso a la
+        atención de afirmación de género.
+    url: https://heshezewe.org/twf
+    cost: free
+    verification: community_reported
+    sources: [hszw, vdh-trrl]
+  - id: vdh-trrl
+    name: Virginia Transgender Resource and Referral List (Virginia Department of Health)
+    type: government_office
+    pillars: [hrt, mental_health, sexual_health, name_change]
+    description:
+      en: >-
+        VDH's regularly updated statewide directory of trans-affirming medical, mental health, legal, and support
+        providers, by region. Listings are self-reported and not vetted by VDH. Virginia Disease Prevention Hotline for
+        HIV, STI, and hepatitis questions: 800-533-4148.
+      es: >-
+        Directorio estatal de VDH de proveedores médicos, de salud mental, legales y de apoyo afirmativos, por región.
+        Línea de prevención de enfermedades: 800-533-4148.
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    phone: "800-533-4148"
+    cost: free
+    verification: official_source
+    sources: [vdh-trrl]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which see you regardless of insurance and charge on a sliding scale. Call and ask whether they offer gender-affirming hormone therapy.
+      es: Localizador oficial de centros de salud federalmente calificados, que atienden sin importar tu seguro y cobran en escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-va
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds including the HRT Access Fund (free telehealth hormone therapy), a surgery fund, and free binders and shapewear.
+      es: Fondos nacionales, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis), un fondo de cirugía y binders gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Va. Code § 38.2-3449.1
+    title:
+      en: Health insurance may not discriminate based on gender identity or transgender status (HB 1429, 2020)
+    url: https://law.lis.virginia.gov/vacode/title38.2/chapter34/section38.2-3449.1/
+sources:
+  - id: dmas-bulletin
+    url: https://vamedicaid.dmas.virginia.gov/bulletin/coverage-gender-dysphoria-services
+    title: Coverage of gender dysphoria services (bulletin effective December 10, 2021)
+    publisher: Virginia Department of Medical Assistance Services
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: DMAS affirms coverage of services related to gender dysphoria for fee-for-service (FFS) and managed care organization (MCO) Medicaid members.
+  - id: dmas-gd-supplement
+    url: https://vamedicaid.dmas.virginia.gov/sites/default/files/2023-07/Gender%20Dysphoria%20Supplement_12.8.21_Final.pdf
+    title: Gender Dysphoria Supplement, Physician/Practitioner Provider Manual
+    publisher: Virginia Department of Medical Assistance Services
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Medical (hormonal) therapy for gender dysphoria, including puberty suppressing hormone therapy, gender-affirming hormone therapy and associated laboratory services, will be covered
+  - id: map-medicaid
+    url: https://mapresearch.org/wp-content/uploads/2026/01/citations-medicaid.pdf
+    title: Citations, Medicaid coverage for transgender-related health care
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: coverva
+    url: https://coverva.dmas.virginia.gov/
+    title: Cover Virginia
+    publisher: Virginia Department of Medical Assistance Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: ev-cms-rule
+    url: https://equalityvirginia.org/equality-virginia-statement-on-federal-rule-stripping-medicaid-coverage-for-transgender-youth-health-care/
+    title: Equality Virginia statement on federal rule stripping Medicaid coverage for transgender youth health care (August 25, 2026)
+    publisher: Equality Virginia
+    kind: org
+    accessed: "2026-09-24"
+    quote: >-
+      The new CMS rule impacts youth under the age of 18 for Medicaid and 19 for CHIP—it does not ban care, but does
+      prohibit federal Medicaid and CHIP funding from being used for medically necessary care for transgender youth.
+  - id: map-profile
+    url: https://www.mapresearch.org/equality_maps/profile_state/VA
+    title: Virginia state policy profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Negative Law: Laws Banning Best Practice Medical Care For Transgender Youth: No Negative Law"
+  - id: chor
+    url: https://www.chrichmond.org/services/transgender
+    title: Gender-affirming care program update
+    publisher: Children's Hospital of Richmond at VCU
+    kind: org
+    accessed: "2026-09-24"
+    quote: a decision was made on July 29, 2025 to cease providing Gender-Affirming Care at Children's Hospital of Richmond at VCU for youth under age 19
+  - id: map-shield
+    url: https://mapresearch.org/equality-map/transgender-healthcare-shield-laws/
+    title: Transgender healthcare shield laws
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: va-38-2-3449-1
+    url: https://law.lis.virginia.gov/vacode/title38.2/chapter34/section38.2-3449.1/
+    title: Code of Virginia § 38.2-3449.1
+    publisher: Virginia General Assembly, Legislative Information System
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Provide coverage under the health benefit plan without discrimination on the basis of gender identity or status as a transgender individual
+  - id: scc-complaint
+    url: https://www.scc.virginia.gov/consumers/insurance/file-an-insurance-complaint/
+    title: File an insurance complaint
+    publisher: Virginia State Corporation Commission, Bureau of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-insurance
+    url: https://mapresearch.org/wp-content/uploads/2026/02/citations-nondisc-insurance.pdf
+    title: Citations, private insurance nondiscrimination laws
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: health-brigade
+    url: https://www.healthbrigade.org/patients-and-clients/trans-health/
+    title: Trans health
+    publisher: Health Brigade
+    kind: org
+    accessed: "2026-09-24"
+    quote: Please note that Health Brigade only accepts transgender patients who are uninsured or have Medicaid.
+  - id: vdh-trrl
+    url: https://www.vdh.virginia.gov/content/uploads/sites/10/2025/06/TransRRList.pdf
+    title: Virginia Transgender Resource and Referral List (updated September 17, 2026)
+    publisher: Virginia Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: ww-trans
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/
+    title: Transgender healthcare
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Legal services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: nationz
+    url: https://www.nationzfoundationrva.org/
+    title: Nationz Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: hszw
+    url: https://heshezewe.org/twf
+    title: Trans Wellness Fund
+    publisher: He She Ze and We
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
