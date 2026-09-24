@@ -1,0 +1,140 @@
+code: OR
+name:
+  en: Oregon
+  es: Oregón
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on ORS 33.460 (self-attested legal sex change), ORS 432.235 (administrative birth record
+    amendment), the Oregon DMV gender marker page (M, F, X with no documentation), ORS 743A.325 and HB 2002 (2023).
+    Legal Aid Services of Oregon's site blocked automated access, so its entry is linked but its phone number was not
+    confirmed. Reviewer: confirm no 2025 or 2026 Oregon bill changed these rules (web search was unavailable while drafting).
+overview:
+  en: >-
+    Oregon is one of the most protective states for trans people. You can change your name and legal sex (male, female,
+    or nonbinary) in circuit court for a $124 fee, with no newspaper notice and usually no hearing. The DMV offers M, F,
+    or X with no documentation, and if you were born in Oregon you can amend your birth certificate by notarized form
+    without a court order. HB 2002 (2023) requires state-regulated insurance to cover gender-affirming care and protects
+    patients and providers from other states' laws. The Oregon Health Plan covers hormones and surgery. Federal documents
+    (passport, Social Security) are the exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Oregón es uno de los estados que más protege a las personas trans. Puedes cambiar tu nombre y tu sexo legal
+    (masculino, femenino o no binario) en el tribunal de circuito por una tarifa de $124, sin aviso en periódico y
+    normalmente sin audiencia. El DMV ofrece M, F o X sin documentación, y si naciste en Oregón puedes enmendar tu acta
+    de nacimiento con un formulario notarizado sin orden judicial. La ley HB 2002 (2023) exige que los seguros regulados
+    por el estado cubran la atención de afirmación de género y protege a pacientes y proveedores de las leyes de otros
+    estados. El Oregon Health Plan cubre hormonas y cirugía. Los documentos federales (pasaporte, Seguro Social) son la
+    excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [ors-33-460, ors-432-235, dmv-gender, hb2002, ors-743a-325]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [portland]
+key_resources:
+  - id: basic-rights-oregon
+    name: Basic Rights Oregon
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt, insurance]
+    description:
+      en: Statewide LGBTQ+ advocacy organization in Portland. Offers resource navigation and referrals and keeps lists of LGBTQ-friendly health care, legal help, and support groups across Oregon. Call 503-222-6151.
+      es: Organización estatal de defensa LGBTQ+ con sede en Portland. Ofrece orientación y referencias, y mantiene listas de atención médica, ayuda legal y grupos de apoyo afirmativos en todo Oregón. Llama al 503-222-6151.
+    url: https://www.basicrights.org/resources/
+    phone: "503-222-6151"
+    cost: free
+    verification: org_website
+    sources: [bro, bro-resources]
+  - id: laso
+    name: Legal Aid Services of Oregon and Oregon Law Center
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Oregon's statewide free civil legal aid programs for people with low incomes. Oregon Law Center's statewide line is 1-800-672-4919; you can also find your county's office and self-help guides at oregonlawhelp.org.
+      es: Programas estatales de ayuda legal civil gratuita para personas de bajos ingresos. La línea estatal de Oregon Law Center es 1-800-672-4919; también puedes encontrar la oficina de tu condado y guías de autoayuda en oregonlawhelp.org.
+    url: https://oregonlawhelp.org/
+    phone: "1-800-672-4919"
+    cost: free
+    verification: org_website
+    sources: [olc-portland, oregonlawhelp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ors-33-460
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors033.html
+    title: ORS 33.410 to 33.460, Change of name and legal change of sex (2025 edition)
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A circuit court may order a legal change of sex and enter a judgment indicating the change of sex if the individual attests that the individual has undergone surgical, hormonal or other treatment appropriate for the individual for the purpose of affirming gender identity.
+  - id: ors-432-235
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors432.html
+    title: ORS 432.235, Requirements for amending or correcting vital record
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dmv-gender
+    url: https://www.oregon.gov/odot/DMV/Pages/driverid/chg_gender_designation.aspx
+    title: Changing your gender marker on your driver's license or ID card
+    publisher: Oregon DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: Select one of the three gender markers — M (male), F (female) or X (not specified).
+  - id: hb2002
+    url: https://olis.oregonlegislature.gov/liz/2023R1/Measures/Overview/HB2002
+    title: HB 2002 (2023), Oregon Laws 2023 chapter 228
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Modifies provisions relating to access to reproductive health care and gender-affirming treatment.
+  - id: ors-743a-325
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors743a.html
+    title: ORS 743A.325, Gender-affirming treatment
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: bro
+    url: https://www.basicrights.org/
+    title: Basic Rights Oregon
+    kind: org
+    accessed: "2026-09-24"
+  - id: bro-resources
+    url: https://www.basicrights.org/resources/
+    title: LGBTQ+ resources
+    publisher: Basic Rights Oregon
+    kind: org
+    accessed: "2026-09-24"
+  - id: olc-portland
+    url: https://oregonlawcenter.org/how-to-get-help/olc-offices/portland/
+    title: Portland Regional Office
+    publisher: Oregon Law Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: oregonlawhelp
+    url: https://oregonlawhelp.org/
+    title: Oregon Law Help
+    publisher: Legal Aid Services of Oregon and Oregon Law Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,302 @@
+jurisdiction: OR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework from ORS 743A.325, ORS 109.640, HB 2002 (2023) on OLIS, and OHA's Oregon Health Plan gender-affirming
+    care page, all read 2026-09-24. OHA's page says it is reviewing a federal rule "proposed to take effect Oct. 13, 2026"
+    that would bar federal Medicaid/CHIP reimbursement for some gender-affirming medications and surgery for patients under
+    18; the reviewer should check its status after that date and whether Oregon has sued. Planned Parenthood Columbia
+    Willamette and Outside In pages returned 403 to automated fetching, so their hormone-therapy details (minimum age,
+    informed consent) are unverified. Prism Health's site lists primary care, PrEP, and behavioral health; CAP Northwest's
+    site says gender-affirming care is provided through Prism Health. Could not confirm whether any Oregon hospital system
+    has curtailed care for minors in response to federal pressure in 2025-2026; the reviewer should check OHSU Doernbecher
+    and Legacy. Web search was unavailable, so 2025-2026 Oregon bills were not surveyed.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected in Oregon for adults and minors. The Oregon Health Plan covers hormones,
+    surgery, and related care, state-regulated private plans may not exclude it (HB 2002), and state law shields patients
+    and providers from other states' bans. A federal rule proposed to take effect October 13, 2026 could cut federal
+    Medicaid funding for some care for patients under 18; OHA says there is no change to coverage today.
+  es: >-
+    La atención de afirmación de género es legal y está protegida en Oregón para adultos y menores. El Oregon Health Plan
+    cubre hormonas, cirugía y atención relacionada, los planes privados regulados por el estado no pueden excluirla
+    (HB 2002) y la ley estatal protege a pacientes y proveedores de las prohibiciones de otros estados. Una regla federal
+    propuesta para entrar en vigor el 13 de octubre de 2026 podría quitar fondos federales de Medicaid para parte de la
+    atención de menores de 18; OHA dice que hoy no hay cambios en la cobertura.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Gender-affirming care is protected under the Reproductive Health Equity Act (2017) and HB 2002 (2023), which also protects Oregon patients and providers from out-of-state legal action. Telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for the **Oregon Health Plan** (Oregon's Medicaid). It covers hormones, labs, and surgery.
+      2. Go to a **community health center**. They charge on a sliding scale; find one at findahealthcenter.hrsa.gov. In Portland, Outside In and Prism Health serve LGBTQ+ patients regardless of ability to pay.
+      3. **Planned Parenthood Columbia Willamette** offers hormone therapy at Oregon health centers and by telehealth.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who qualify.
+    es: |
+      Sin restricciones estatales. La atención de afirmación de género está protegida por la Ley de Equidad en Salud Reproductiva (2017) y la HB 2002 (2023), que también protege a pacientes y proveedores de Oregón de acciones legales de otros estados. La telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita el **Oregon Health Plan** (el Medicaid de Oregón). Cubre hormonas, laboratorios y cirugía.
+      2. Acude a un **centro de salud comunitario** con escala móvil; búscalo en findahealthcenter.hrsa.gov. En Portland, Outside In y Prism Health atienden a personas LGBTQ+ sin importar su capacidad de pago.
+      3. **Planned Parenthood Columbia Willamette** ofrece terapia hormonal en centros de Oregón y por telesalud.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud a quienes califican.
+  sources: [ohp-gac, hb2002, hrsa, prism]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Oregon has no ban on gender-affirming care for minors, and HB 2002 protects families and providers. Under ORS 109.640, a minor **15 or older** may consent to medical diagnosis and treatment by a physician, physician associate, or nurse practitioner without a parent's consent; many clinics still involve parents for hormone therapy. The Oregon Health Plan covers puberty blockers and hormones for adolescents who have entered stage 2 of puberty, and surgery after at least 12 months of hormone therapy.
+
+      **Watch**: OHA is reviewing a federal rule proposed to take effect October 13, 2026 that would bar federal Medicaid and CHIP reimbursement for some gender-affirming medications and surgery for patients under 18. OHA says the rule is not in effect and OHP coverage has not changed.
+    es: |
+      Legal. Oregón no prohíbe la atención de afirmación de género para menores, y la HB 2002 protege a familias y proveedores. Según ORS 109.640, un menor de **15 años o más** puede consentir diagnóstico y tratamiento médico sin el consentimiento de sus padres; muchas clínicas igual involucran a los padres para la terapia hormonal. El Oregon Health Plan cubre bloqueadores de pubertad y hormonas para adolescentes en etapa 2 de la pubertad, y cirugía tras al menos 12 meses de terapia hormonal.
+
+      **Atención**: OHA está revisando una regla federal propuesta para el 13 de octubre de 2026 que prohibiría el reembolso federal de Medicaid y CHIP para algunos medicamentos y cirugías de afirmación de género para menores de 18. OHA dice que la regla no está vigente y la cobertura de OHP no ha cambiado.
+  sources: [ors-109-640, hb2002, ohp-gac, ohsu-thp]
+medicaid:
+  program_name: Oregon Health Plan (OHP)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      OHP covers medically necessary gender-affirming care prescribed under the WPATH Standards of Care, Version 8: hormone therapy, puberty blockers, mental health therapy, hair removal, speech therapy, physical therapy, lab work, and medical tattooing, plus facial surgery, chest surgery, gonadectomy, genital surgery, and body contouring. For adults, OHP criteria include a mental health and medical assessment, documented gender dysphoria, informed consent, and fertility counseling. OHP Client Services: 1-800-273-0557.
+
+      Apply online at ONE.Oregon.gov, by phone, or with a free community partner.
+    es: |
+      OHP cubre la atención de afirmación de género médicamente necesaria según los Estándares de Atención de WPATH, versión 8: terapia hormonal, bloqueadores de pubertad, terapia de salud mental, depilación, terapia del habla, fisioterapia, laboratorios y tatuaje médico, además de cirugía facial, de pecho, gonadectomía, cirugía genital y contorno corporal. Para adultos, los criterios incluyen una evaluación médica y de salud mental, disforia de género documentada, consentimiento informado y asesoría de fertilidad. Servicios al Cliente de OHP: 1-800-273-0557.
+
+      Solicita en línea en ONE.Oregon.gov, por teléfono o con un socio comunitario gratuito.
+  how_to_apply_url: https://one.oregon.gov/
+  sources: [ohp-gac, ohp-apply]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Since January 1, 2024, ORS 743A.325 (HB 2002) bars state-regulated health plans from denying or limiting medically necessary gender-affirming treatment prescribed under accepted standards of care, from applying blanket or cosmetic exclusions (it names tracheal shave, electrolysis, facial feminization, and revisions), and from denying care unless a provider experienced in gender-affirming treatment has reviewed the denial. If a plan denies care, appeal with the plan first, then file a complaint with the Oregon Division of Financial Regulation. Self-funded employer plans are federally regulated and may not be covered.
+    es: |
+      Desde el 1 de enero de 2024, ORS 743A.325 (HB 2002) prohíbe a los planes regulados por el estado negar o limitar tratamientos de afirmación de género médicamente necesarios, aplicar exclusiones generales o "cosméticas" (menciona afeitado traqueal, electrólisis, feminización facial y revisiones) y negar atención sin que la revise un proveedor con experiencia en afirmación de género. Si el plan niega la atención, apela primero ante el plan y luego presenta una queja ante la División de Regulación Financiera de Oregón. Los planes autofinanciados de empleadores están regulados federalmente y pueden no estar cubiertos.
+  complaint_url: https://dfr.oregon.gov/help/complaints-licenses/Pages/file-complaint.aspx
+  sources: [ors-743a-325, dfr-complaint]
+telehealth_hrt: [plume, folx, queerdoc, planned-parenthood]
+resources:
+  - id: ohsu-thp
+    name: OHSU Transgender Health Program
+    type: hrt_clinic
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Oregon's academic trans health program. Coordinates hormone therapy, primary care, surgery (top surgery, vaginoplasty, phalloplasty, and more), voice therapy, hair removal, and fertility care, plus the Doernbecher Gender Clinic for children and teens. Navigation, education, and advocacy are free. Call 503-494-7970 or email transhealth@ohsu.edu.
+      es: Programa académico de salud trans de Oregón. Coordina terapia hormonal, atención primaria, cirugías, terapia de voz, depilación y fertilidad, además de la Clínica de Género Doernbecher para niños y adolescentes. La navegación, educación y defensa son gratuitas. Llama al 503-494-7970 o escribe a transhealth@ohsu.edu.
+    url: https://www.ohsu.edu/transgender-health
+    phone: "503-494-7970"
+    areas_served:
+      en: Oregon and southwest Washington, all ages
+      es: Oregón y el suroeste de Washington, todas las edades
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [ohsu-thp, ohsu-contact]
+  - id: prism-health
+    name: Prism Health (CAP Northwest)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+ focused clinic run by CAP Northwest (formerly Cascade AIDS Project) with primary care, gender-affirming care, PrEP, HIV care, behavioral health, and an on-site pharmacy. Serves patients regardless of ability to pay; takes OHP and most insurance. Call 503-445-7699.
+      es: Clínica enfocada en personas LGBTQ+ de CAP Northwest (antes Cascade AIDS Project) con atención primaria, atención de afirmación de género, PrEP, atención de VIH, salud conductual y farmacia. Atiende sin importar la capacidad de pago; acepta OHP y la mayoría de los seguros. Llama al 503-445-7699.
+    url: https://www.prismhealth.org/
+    phone: "503-445-7699"
+    address: 2236 SE Belmont St, Portland, OR 97214
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [prism, prism-prep, capnw]
+  - id: outside-in
+    name: Outside In
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Portland community health center offering primary care and clinically indicated hormone therapy. Call 503-535-3800.
+      es: Centro de salud comunitario de Portland con atención primaria y terapia hormonal clínicamente indicada. Llama al 503-535-3800.
+    url: https://outsidein.org/
+    phone: "503-535-3800"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [outsidein]
+  - id: ppcw
+    org: planned-parenthood
+    name: Planned Parenthood Columbia Willamette
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Planned Parenthood affiliate for Oregon and southwest Washington. Offers gender-affirming hormone therapy at health centers and by telehealth, plus PrEP and STI testing. Confirm the minimum age and new-patient availability when you call.
+      es: Afiliada de Planned Parenthood para Oregón y el suroeste de Washington. Ofrece terapia hormonal de afirmación de género en sus centros y por telesalud, además de PrEP y pruebas de ITS. Confirma la edad mínima y la disponibilidad al llamar.
+    url: https://www.plannedparenthood.org/planned-parenthood-columbia-willamette
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: unverified
+    sources: [ppcw]
+  - id: ohp
+    name: Oregon Health Plan enrollment (ONE.Oregon.gov)
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Apply for OHP online, by phone, or with free help from a community partner. OHP covers hormones and surgery.
+      es: Solicita OHP en línea, por teléfono o con ayuda gratuita de un socio comunitario. OHP cubre hormonas y cirugía.
+    url: https://www.oregon.gov/oha/HSD/OHP/Pages/apply.aspx
+    cost: free
+    verification: official_source
+    sources: [ohp-apply]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale by income.
+      es: Buscador federal de centros de salud comunitarios con tarifas según ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for telehealth hormone therapy for trans people who cannot afford it; applications open periodically.
+      es: Paga terapia hormonal por telesalud a personas trans que no pueden costearla; las solicitudes abren periódicamente.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit that gives grants toward gender-affirming care costs.
+      es: Organización nacional que otorga subvenciones para costos de atención de afirmación de género.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: ORS 743A.325
+    title:
+      en: Health plans may not deny or limit medically necessary gender-affirming treatment (HB 2002, 2023)
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors743a.html
+  - cite: HB 2002 (2023), Oregon Laws 2023 chapter 228
+    title:
+      en: Reproductive health and gender-affirming care access and legal protections for patients and providers
+    url: https://olis.oregonlegislature.gov/liz/2023R1/Measures/Overview/HB2002
+  - cite: ORS 109.640
+    title:
+      en: Minors 15 and older may consent to medical treatment
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors109.html
+sources:
+  - id: ohp-gac
+    url: https://www.oregon.gov/oha/HSD/OHP/Pages/Gender-Affirming-Care.aspx
+    title: Gender-affirming care, Oregon Health Plan
+    publisher: Oregon Health Authority
+    kind: official
+    accessed: "2026-09-24"
+    quote: OHA is currently reviewing a federal rule change that is proposed to take effect Oct. 13, 2026, and calls for prohibiting federal reimbursement for some gender-affirming medications and surgery provided to patients under 18 who are covered by Medicaid and Children's Health Insurance Program (CHIP). The rule is not in effect today and there are no changes to Medicaid coverage in Oregon.
+  - id: ohp-apply
+    url: https://www.oregon.gov/oha/HSD/OHP/Pages/apply.aspx
+    title: Apply for the Oregon Health Plan
+    publisher: Oregon Health Authority
+    kind: official
+    accessed: "2026-09-24"
+  - id: hb2002
+    url: https://olis.oregonlegislature.gov/liz/2023R1/Measures/Overview/HB2002
+    title: HB 2002 (2023), Oregon Laws 2023 chapter 228
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Modifies provisions relating to access to reproductive health care and gender-affirming treatment.
+  - id: ors-743a-325
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors743a.html
+    title: ORS 743A.325, Gender-affirming treatment
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A carrier offering a health benefit plan in this state may not ... Apply categorical cosmetic or blanket exclusions to medically necessary gender-affirming treatment.
+  - id: ors-109-640
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors109.html
+    title: ORS 109.640, Medical treatment without parental consent
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A minor 15 years of age or older may give consent, without the consent of a parent or guardian of the minor, to ... medical or surgical diagnosis or treatment by a physician.
+  - id: dfr-complaint
+    url: https://dfr.oregon.gov/help/complaints-licenses/Pages/file-complaint.aspx
+    title: File a complaint
+    publisher: Oregon Division of Financial Regulation
+    kind: official
+    accessed: "2026-09-24"
+  - id: ohsu-thp
+    url: https://www.ohsu.edu/transgender-health
+    title: Transgender Health Program
+    publisher: OHSU
+    kind: org
+    accessed: "2026-09-24"
+  - id: ohsu-contact
+    url: https://www.ohsu.edu/transgender-health/contact-us
+    title: Contact the Transgender Health Program
+    publisher: OHSU
+    kind: org
+    accessed: "2026-09-24"
+  - id: prism
+    url: https://www.prismhealth.org/
+    title: Prism Health
+    publisher: CAP Northwest
+    kind: org
+    accessed: "2026-09-24"
+  - id: prism-prep
+    url: https://www.prismhealth.org/prep
+    title: PrEP at Prism Health
+    publisher: CAP Northwest
+    kind: org
+    accessed: "2026-09-24"
+  - id: capnw
+    url: https://www.capnw.org/
+    title: CAP Northwest (formerly Cascade AIDS Project)
+    kind: org
+    accessed: "2026-09-24"
+    quote: Through Prism Health, the organization provides gender-affirming care and behavioral health services.
+  - id: outsidein
+    url: https://outsidein.org/
+    title: Outside In
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppcw
+    url: https://www.plannedparenthood.org/planned-parenthood-columbia-willamette
+    title: Planned Parenthood Columbia Willamette
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,254 @@
+jurisdiction: OR
+slug: portland
+name: Portland
+area:
+  en: Multnomah, Washington, and Clackamas counties
+  es: Condados de Multnomah, Washington y Clackamas
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Starter list from org websites read 2026-09-24. Outside In and Planned Parenthood Columbia Willamette blocked automated
+    fetching (403), so their details are unverified. Legal Aid Services of Oregon's Portland office page blocked automated
+    access; its phone and address are omitted. Verify hours, new-patient availability, and informed-consent policies
+    before marking reviewed. Name change filing fee ($124) is statewide under ORS 21.145.
+intro:
+  en: >-
+    The Portland area has Oregon's largest cluster of trans services: the OHSU Transgender Health Program, LGBTQ+ focused
+    clinics like Prism Health, community health centers, and the Q Center. Name and sex change petitions for Multnomah
+    County residents are filed at the Multnomah County Circuit Court downtown; a sex change petition can be filed in any
+    Oregon county.
+  es: >-
+    El área de Portland tiene la mayor concentración de servicios trans de Oregón: el Programa de Salud Transgénero de
+    OHSU, clínicas enfocadas en personas LGBTQ+ como Prism Health, centros de salud comunitarios y el Q Center. Las
+    peticiones de cambio de nombre y sexo de residentes del condado de Multnomah se presentan en el Tribunal de Circuito
+    del Condado de Multnomah en el centro; una petición de cambio de sexo se puede presentar en cualquier condado.
+court:
+  name: Multnomah County Circuit Court
+  url: https://www.courts.oregon.gov/courts/multnomah/Pages/default.aspx
+  self_help_url: https://www.courts.oregon.gov/programs/family/forms/Pages/name-sex-change.aspx
+  filing_fee: 124
+  notes:
+    en: Main courthouse at 1200 SW 1st Ave, Portland, OR 97204. Use the statewide Name and Sex Change packet. Washington County (Hillsboro) and Clackamas County (Oregon City) residents file a name-only change in their own county's circuit court.
+    es: Tribunal principal en 1200 SW 1st Ave, Portland, OR 97204. Usa el paquete estatal de cambio de nombre y sexo. Los residentes de los condados de Washington (Hillsboro) y Clackamas (Oregon City) presentan un cambio solo de nombre en el tribunal de su propio condado.
+  sources: [multnomah-court, ojd-adult-packet, ors-21-145]
+resources:
+  - id: laso-portland
+    name: Legal Aid Services of Oregon, Portland Regional Office
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income residents of the Portland area. Start at oregonlawhelp.org to find the office and intake line for your county.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos del área de Portland. Empieza en oregonlawhelp.org para encontrar la oficina y línea de admisión de tu condado.
+    url: https://lasoregon.org/locations/portland-regional-office/
+    cost: free
+    verification: unverified
+    sources: [laso-portland, oregonlawhelp]
+  - id: olc-portland
+    name: Oregon Law Center, Portland Regional Office
+    type: legal_aid
+    pillars: [insurance]
+    description:
+      en: Free legal help for low-income people with housing, employment, consumer, and public benefits problems (including OHP denials). Does not handle family law. Most cases come by referral from Legal Aid Services of Oregon. 621 SW Morrison St, Suite 1450.
+      es: Ayuda legal gratuita para personas de bajos ingresos con problemas de vivienda, empleo, consumo y beneficios públicos (incluidas negaciones de OHP). No maneja derecho de familia. La mayoría de los casos llegan por referencia de Legal Aid Services of Oregon.
+    url: https://oregonlawcenter.org/how-to-get-help/olc-offices/portland/
+    phone: "1-800-672-4919"
+    address: 621 SW Morrison St, Suite 1450, Portland, OR 97205
+    cost: free
+    verification: org_website
+    sources: [olc-portland]
+  - id: q-center
+    name: Q Center
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: LGBTQIA2S+ community center with peer-led support groups (including a queer and trans masc group), resource navigation, a food pantry, a gender-affirming clothing closet, and the Marsha P. Johnson Community Fund for Black and Indigenous trans people.
+      es: Centro comunitario LGBTQIA2S+ con grupos de apoyo entre pares (incluido uno para personas queer y trans masculinas), orientación sobre recursos, despensa de alimentos, ropero de afirmación de género y el Fondo Comunitario Marsha P. Johnson para personas trans negras e indígenas.
+    url: https://www.pdxqcenter.org/
+    phone: "503-234-7837"
+    address: 4115 N Mississippi Ave, Portland, OR 97217
+    cost: free
+    verification: org_website
+    sources: [qcenter]
+  - id: ohsu-thp
+    name: OHSU Transgender Health Program
+    type: hrt_clinic
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Coordinates hormone therapy, primary care, surgery, voice therapy, and hair removal across OHSU clinics, plus the Doernbecher Gender Clinic for youth. Free navigation help. Call 503-494-7970.
+      es: Coordina terapia hormonal, atención primaria, cirugía, terapia de voz y depilación en clínicas de OHSU, además de la Clínica de Género Doernbecher para jóvenes. Ayuda de navegación gratuita. Llama al 503-494-7970.
+    url: https://www.ohsu.edu/transgender-health
+    phone: "503-494-7970"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [ohsu-thp]
+  - id: prism-health
+    name: Prism Health
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+ focused primary care, gender-affirming care, PrEP and HIV care, behavioral health, and pharmacy, run by CAP Northwest. Serves patients regardless of ability to pay. Belmont clinic at 2236 SE Belmont St; also 15 N Morris St.
+      es: Atención primaria enfocada en personas LGBTQ+, atención de afirmación de género, PrEP y VIH, salud conductual y farmacia, de CAP Northwest. Atiende sin importar la capacidad de pago.
+    url: https://www.prismhealth.org/
+    phone: "503-445-7699"
+    address: 2236 SE Belmont St, Portland, OR 97214
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [prism, capnw]
+  - id: capnw
+    name: CAP Northwest (formerly Cascade AIDS Project)
+    type: sexual_health
+    pillars: [sexual_health, insurance]
+    description:
+      en: HIV and STI testing, PrEP and PEP navigation, health insurance enrollment help, housing services, and support groups for LGBTQ+ people and people affected by HIV. PrEP navigators help uninsured people find payment assistance (prep@capnw.org).
+      es: Pruebas de VIH e ITS, navegación de PrEP y PEP, ayuda para inscribirse en seguros, vivienda y grupos de apoyo para personas LGBTQ+ y afectadas por el VIH. Navegadores de PrEP ayudan a personas sin seguro a encontrar asistencia.
+    url: https://www.capnw.org/
+    phone: "503-223-5907"
+    address: 520 NW Davis St, Suite 215, Portland, OR 97209
+    cost: free
+    verification: org_website
+    sources: [capnw, prism-prep]
+  - id: outside-in
+    name: Outside In
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Community health center with clinics downtown and in East Portland; offers primary care and clinically indicated hormone therapy. Call 503-535-3800.
+      es: Centro de salud comunitario con clínicas en el centro y en el este de Portland; ofrece atención primaria y terapia hormonal clínicamente indicada. Llama al 503-535-3800.
+    url: https://outsidein.org/
+    phone: "503-535-3800"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [outsidein]
+  - id: ppcw
+    org: planned-parenthood
+    name: Planned Parenthood Columbia Willamette
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy, PrEP, and STI testing at Portland-area health centers and by telehealth. Confirm minimum age when booking.
+      es: Terapia hormonal de afirmación de género, PrEP y pruebas de ITS en centros del área de Portland y por telesalud. Confirma la edad mínima al reservar.
+    url: https://www.plannedparenthood.org/planned-parenthood-columbia-willamette
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: unverified
+    sources: [ppcw]
+  - id: basic-rights-oregon
+    name: Basic Rights Oregon
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Statewide LGBTQ+ advocacy group based in Portland; resource navigation and referral lists for health care, legal help, housing, and support groups.
+      es: Grupo estatal de defensa LGBTQ+ con sede en Portland; orientación y listas de referencias para salud, ayuda legal, vivienda y grupos de apoyo.
+    url: https://www.basicrights.org/resources/
+    phone: "503-222-6151"
+    cost: free
+    verification: org_website
+    sources: [bro-resources]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: multnomah-court
+    url: https://www.courts.oregon.gov/courts/multnomah/Pages/default.aspx
+    title: Multnomah County Circuit Court
+    publisher: Oregon Judicial Department
+    kind: court
+    accessed: "2026-09-24"
+  - id: ojd-adult-packet
+    url: https://www.courts.oregon.gov/forms/Documents/Name%20and%20Sex%20Change%20Packet%20(Adult).pdf
+    title: Name and Sex Change (Adult) Packet, revised July 2026
+    publisher: Oregon Judicial Department
+    kind: form
+    accessed: "2026-09-24"
+  - id: ors-21-145
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors021.html
+    title: ORS 21.145, Simple proceeding filing fee ($124)
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: laso-portland
+    url: https://lasoregon.org/locations/portland-regional-office/
+    title: Portland Regional Office
+    publisher: Legal Aid Services of Oregon
+    kind: org
+    accessed: "2026-09-24"
+  - id: oregonlawhelp
+    url: https://oregonlawhelp.org/
+    title: Oregon Law Help
+    kind: org
+    accessed: "2026-09-24"
+  - id: olc-portland
+    url: https://oregonlawcenter.org/how-to-get-help/olc-offices/portland/
+    title: Portland Regional Office
+    publisher: Oregon Law Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: The office does not handle family law matters.
+  - id: qcenter
+    url: https://www.pdxqcenter.org/
+    title: Q Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: ohsu-thp
+    url: https://www.ohsu.edu/transgender-health
+    title: Transgender Health Program
+    publisher: OHSU
+    kind: org
+    accessed: "2026-09-24"
+  - id: prism
+    url: https://www.prismhealth.org/
+    title: Prism Health
+    publisher: CAP Northwest
+    kind: org
+    accessed: "2026-09-24"
+  - id: prism-prep
+    url: https://www.prismhealth.org/prep
+    title: PrEP at Prism Health
+    publisher: CAP Northwest
+    kind: org
+    accessed: "2026-09-24"
+  - id: capnw
+    url: https://www.capnw.org/
+    title: CAP Northwest
+    kind: org
+    accessed: "2026-09-24"
+  - id: outsidein
+    url: https://outsidein.org/
+    title: Outside In
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppcw
+    url: https://www.plannedparenthood.org/planned-parenthood-columbia-willamette
+    title: Planned Parenthood Columbia Willamette
+    kind: org
+    accessed: "2026-09-24"
+  - id: bro-resources
+    url: https://www.basicrights.org/resources/
+    title: LGBTQ+ resources
+    publisher: Basic Rights Oregon
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

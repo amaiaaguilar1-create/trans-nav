@@ -1,0 +1,181 @@
+guide_type: drivers_license
+jurisdiction: OR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Process from the Oregon DMV gender marker page and February 2025 fact sheet, read 2026-09-24. Fees from ORS 807.370
+    (driver license replacement $30) and ORS 807.410 (ID card replacement $40; free for people experiencing homelessness);
+    the DMV fee page loads its fee tables with JavaScript and could not be read, so the reviewer should confirm current
+    amounts and the extra REAL ID fee (ORS 807.460, amount not captured). The task brief suggested a form "735-7325"; the
+    DMV pages read do not require any gender-specific form, so none is listed. Oregon began offering X in 2017 (widely
+    reported; not re-confirmed on a primary page today).
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Oregon lets you choose M, F, or X on your driver's license or ID card with no doctor's letter, court order, or
+    special form. You go to a DMV office in person and pay the replacement or renewal fee.
+  es: >-
+    Oregón te permite elegir M, F o X en tu licencia de conducir o tarjeta de identificación sin carta médica, orden
+    judicial ni formulario especial. Vas en persona a una oficina del DMV y pagas la tarifa de reemplazo o renovación.
+summary:
+  en: |
+    Oregon DMV offers three gender markers (shown as "sex" on the card): **M** (male), **F** (female), and **X** (not specified). If you are changing only the marker, you bring your current license, permit, or ID card to a DMV office, choose the marker, and pay for a replacement or renewal. No medical or court documentation is required. X is available on both standard and REAL ID cards, and DMV says it will keep issuing X unless federal direction changes.
+
+    Changing your **name** requires proof of the legal name change (such as a certified court judgment), and you must update Social Security first because DMV verifies your name with SSA. You can change your name and marker in the same visit.
+  es: |
+    El DMV de Oregón ofrece tres marcadores de género (aparecen como "sex" en la tarjeta): **M** (masculino), **F** (femenino) y **X** (no especificado). Si solo cambias el marcador, llevas tu licencia, permiso o tarjeta actual a una oficina del DMV, eliges el marcador y pagas un reemplazo o renovación. No se requiere documentación médica ni judicial. X está disponible en tarjetas estándar y REAL ID.
+
+    Cambiar tu **nombre** requiere prueba del cambio legal (como una sentencia judicial certificada), y debes actualizar primero el Seguro Social porque el DMV verifica tu nombre con la SSA. Puedes cambiar nombre y marcador en la misma visita.
+eligibility:
+  residency:
+    en: You must hold or be applying for an Oregon driver's license, permit, or ID card.
+    es: Debes tener o estar solicitando una licencia, permiso o tarjeta de identificación de Oregón.
+  other:
+    en: You must meet the normal requirements for a renewal or replacement card. For REAL ID, the name must match Social Security's records.
+    es: Debes cumplir los requisitos normales de renovación o reemplazo. Para REAL ID, el nombre debe coincidir con el registro del Seguro Social.
+  sources: [dmv-gender, dmv-name]
+steps:
+  - id: ssa-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: DMV checks your name against Social Security. For a REAL ID the names must match. For a standard card, DMV can verify under another name if you bring proof of that name. Skip this step if you are only changing the marker.
+      es: El DMV verifica tu nombre con el Seguro Social. Para REAL ID los nombres deben coincidir. Para una tarjeta estándar, el DMV puede verificar con otro nombre si llevas prueba de ese nombre. Omite este paso si solo cambias el marcador.
+    applies_to: [name_change]
+    optional: true
+    sources: [dmv-name]
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - **Marker only**: your current Oregon license, permit, or ID card. That is all.
+        - **Name change too**: proof of your legal name change (certified court judgment, or another document on DMV's acceptable list) plus proof of identity and address.
+        - **REAL ID**: the extra identity, Social Security, and residency documents DMV lists.
+      es: |
+        - **Solo marcador**: tu licencia, permiso o tarjeta actual de Oregón. Nada más.
+        - **Con cambio de nombre**: prueba del cambio legal de nombre (sentencia judicial certificada u otro documento aceptado) más prueba de identidad y domicilio.
+        - **REAL ID**: los documentos adicionales de identidad, Seguro Social y residencia que pide el DMV.
+    sources: [dmv-gender, dmv-idproof]
+  - id: visit
+    title:
+      en: Visit a DMV office and choose M, F, or X
+      es: Visita una oficina del DMV y elige M, F o X
+    body:
+      en: Walk in or make an appointment at DMV2U.oregon.gov. Tell the clerk you want to change your gender marker (and name, if applicable), select M, F, or X, have your photo taken, and pay the replacement or renewal fee.
+      es: Ve sin cita o haz una cita en DMV2U.oregon.gov. Dile al empleado que quieres cambiar tu marcador de género (y nombre, si aplica), elige M, F o X, tómate la foto y paga la tarifa de reemplazo o renovación.
+    fees: [dl-replace, id-replace]
+    applies_to: [in_person]
+    sources: [dmv-gender, dmv-fact-sheet, ors-807]
+  - id: receive
+    title:
+      en: Receive your new card by mail
+      es: Recibe tu nueva tarjeta por correo
+    body:
+      en: You leave with a temporary paper credential and the card is mailed to you.
+      es: Sales con una credencial temporal de papel y la tarjeta se te envía por correo.
+    sources: [dmv-gender]
+fees:
+  - id: dl-replace
+    label:
+      en: Driver license replacement
+      es: Reemplazo de licencia de conducir
+    amount: 30
+    note:
+      en: If your card is due for renewal, you pay the renewal fee instead ($48 for a Class C license). REAL ID costs extra.
+      es: Si tu licencia está por renovarse, pagas la tarifa de renovación ($48 para licencia Clase C). REAL ID cuesta más.
+    sources: [ors-807]
+  - id: id-replace
+    label:
+      en: ID card replacement
+      es: Reemplazo de tarjeta de identificación
+    amount: 40
+    note:
+      en: Renewal is $43. Free for people experiencing homelessness with a verification form from a service provider. REAL ID costs extra.
+      es: La renovación cuesta $43. Gratis para personas sin hogar con un formulario de verificación de un proveedor de servicios. REAL ID cuesta más.
+    sources: [ors-807]
+fee_waiver:
+  available: true
+  eligibility:
+    en: No waiver for driver licenses. DMV may not charge for issuing or renewing an ID card, or for up to two replacements, for someone experiencing homelessness who brings a qualifying form from a nonprofit or state agency that serves people experiencing homelessness.
+    es: No hay exención para licencias. El DMV no puede cobrar por emitir o renovar una tarjeta de identificación, ni por hasta dos reemplazos, a una persona sin hogar que presente el formulario de una organización o agencia que atiende a personas sin hogar.
+  sources: [ors-807]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and marker changes require an in-person visit to a DMV office (walk-in or appointment).
+    es: Los cambios de nombre y marcador requieren visitar en persona una oficina del DMV (con o sin cita).
+  sources: [dmv-fact-sheet]
+timeline:
+  en: One office visit; the card arrives by mail afterwards.
+  es: Una visita a la oficina; la tarjeta llega por correo después.
+after:
+  en: |
+    DMV keeps a history of your prior names and markers and shares name, date of birth, and sex with some federal systems (National Driver Register, Selective Service) and Oregon's law-enforcement data system. Your Oregon card with X or a changed marker is valid for REAL ID and TSA screening. Social Security stopped processing sex-marker changes on January 31, 2025, and US passports currently show sex at birth, so expect mismatches between federal and state records.
+  es: |
+    El DMV conserva el historial de tus nombres y marcadores anteriores y comparte nombre, fecha de nacimiento y sexo con algunos sistemas federales (Registro Nacional de Conductores, Servicio Selectivo) y con el sistema de datos policiales de Oregón. Tu tarjeta de Oregón con X o con marcador cambiado es válida para REAL ID y para la TSA. El Seguro Social dejó de procesar cambios de marcador de sexo el 31 de enero de 2025, y los pasaportes muestran actualmente el sexo al nacer, así que habrá diferencias entre registros federales y estatales.
+tips:
+  - en: You do not need a court order, amended birth certificate, or doctor's letter for the marker. If someone asks, point them to DMV's "Changing Your Gender Marker" page.
+    es: No necesitas orden judicial, acta enmendada ni carta médica para el marcador. Si te lo piden, muestra la página "Changing Your Gender Marker" del DMV.
+  - en: Name and marker changes are independent; you can do either one alone.
+    es: Los cambios de nombre y marcador son independientes; puedes hacer uno sin el otro.
+statutes:
+  - cite: ORS 807.370
+    title:
+      en: Driver license fees, including $30 replacement
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors807.html
+  - cite: ORS 807.410
+    title:
+      en: ID card fees, including $40 replacement and the homelessness fee waiver
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors807.html
+related_links:
+  - title: Advocates for Trans Equality, Oregon identity documents
+    url: https://transequality.org/documents/oregon-identity-documents
+    note:
+      en: Last updated December 2025; agrees on self-attestation and M, F, or X.
+      es: Actualizado en diciembre de 2025; coincide en la autodeclaración y en M, F o X.
+sources:
+  - id: dmv-gender
+    url: https://www.oregon.gov/odot/DMV/Pages/driverid/chg_gender_designation.aspx
+    title: Changing your gender marker on your driver's license or ID card
+    publisher: Oregon DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: Oregon DMV will continue to issue both standard and REAL ID credentials with the option to choose M, F or X for the gender marker.
+  - id: dmv-fact-sheet
+    url: https://www.oregon.gov/odot/DMV/docs/Changing_Name_Gender_Marker_Fact_Sheet.pdf
+    title: Fact sheet, Changing name or gender markers (February 2025)
+    publisher: Oregon DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you are changing only your gender marker, just bring your current ID, instruction permit or driver's license with you to your local DMV to start your application.
+  - id: dmv-name
+    url: https://www.oregon.gov/odot/DMV/pages/dv/chgname.aspx
+    title: Changing your name
+    publisher: Oregon DMV
+    kind: official
+    accessed: "2026-09-24"
+  - id: dmv-idproof
+    url: https://www.oregon.gov/odot/DMV/Pages/DriverID/IDProof.aspx
+    title: Acceptable documents
+    publisher: Oregon DMV
+    kind: official
+    accessed: "2026-09-24"
+  - id: ors-807
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors807.html
+    title: ORS chapter 807, Driving privileges and identification cards (fees in ORS 807.370 and 807.410)
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Fee to replace a driver license or driver permit, $30. ... For replacement of an identification card, $40."

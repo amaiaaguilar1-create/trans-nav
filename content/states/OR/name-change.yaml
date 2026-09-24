@@ -1,0 +1,433 @@
+guide_type: name_change
+jurisdiction: OR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from ORS 33.410 to 33.460 and ORS 21.145 (2025 edition on oregonlegislature.gov) and the Oregon
+    Judicial Department's statewide Name and Sex Change packets (adult and minor, revised July 2026), read as PDFs.
+    The OJD forms page itself renders its form list with JavaScript, so the packet PDFs were located through the OJD
+    document library. Open items: (1) confirm the certified-copy fee for a judgment (not found in statute; set by the
+    Chief Justice under ORS 21.258, so no amount is given); (2) the packet instructions say all legal sex change records
+    are confidential, while ORS 33.420(4) says the court seals them on request; the July 2026 petition has no sealing
+    checkbox except for Address Confidentiality Program participants, so confirm with OJD whether sealing is now automatic
+    for sex-change petitions; (3) confirm whether self-represented filers can e-file name changes in Multnomah County.
+    Cross-check: A4TE's Oregon page (updated December 2025) agrees on the $124 fee, no publication, and usually no
+    hearing. Could not locate a working website for the Trans Assistance Project, so it is not listed.
+status: available
+status_summary:
+  en: >-
+    Oregon adults can change their name, their legal sex (male, female, or nonbinary), or both with one short petition
+    in circuit court. The filing fee is $124 (waivable), there is no newspaper notice, and a hearing is rare. You do not
+    need a doctor's letter; you sign a statement yourself.
+  es: >-
+    En Oregón, las personas adultas pueden cambiar su nombre, su sexo legal (masculino, femenino o no binario) o ambos
+    con una petición breve en el tribunal de circuito. La tarifa es de $124 (se puede exonerar), no hay aviso en
+    periódico y las audiencias son raras. No necesitas carta médica; tú misma(o) firmas una declaración.
+summary:
+  en: |
+    Oregon uses one statewide packet, **Change of Name or Sex**, for adults. You check the boxes for what you want: a new name, a new legal sex, or both. The judge must grant a name change unless it is "not consistent with the public interest" (ORS 33.410). For a legal sex change you attest, on the petition itself, that you have had "surgical, hormonal, or other treatment appropriate to me for the purpose of affirming my gender identity" (ORS 33.460). "Other treatment" is broad and no proof is filed: no doctor's letter, no surgery.
+
+    **Where to file**: a name change alone is filed in the circuit court of the county where you live. A sex change, or a name and sex change together, can be filed in **any** circuit court in Oregon.
+
+    You may not even need the court for your Oregon birth certificate: if you were born in Oregon, you can change the name and sex on it with a notarized form (see the birth certificate guide). A court judgment is still useful because Social Security, the passport agency, banks, and other states accept it.
+  es: |
+    Oregón usa un solo paquete estatal, **Cambio de nombre o sexo**, para adultos. Marcas lo que quieres: un nombre nuevo, un sexo legal nuevo o ambos. El juez debe conceder el cambio de nombre salvo que "no sea compatible con el interés público" (ORS 33.410). Para el cambio de sexo legal declaras, en la misma petición, que has recibido "tratamiento quirúrgico, hormonal u otro tratamiento apropiado para mí con el fin de afirmar mi identidad de género" (ORS 33.460). No se presenta ninguna prueba: ni carta médica ni cirugía.
+
+    **Dónde presentar**: un cambio de nombre solo se presenta en el tribunal de circuito del condado donde vives. Un cambio de sexo, o de nombre y sexo juntos, se puede presentar en **cualquier** tribunal de circuito de Oregón.
+
+    Si naciste en Oregón, puedes cambiar el nombre y el sexo en tu acta de nacimiento con un formulario notarizado, sin orden judicial (ver la guía del acta de nacimiento). Aun así, una sentencia judicial es útil porque la aceptan el Seguro Social, la agencia de pasaportes, los bancos y otros estados.
+eligibility:
+  residency:
+    en: Name change only, file in the county where you live. Sex change (with or without a name change), any Oregon circuit court.
+    es: Solo cambio de nombre, en el condado donde vives. Cambio de sexo (con o sin cambio de nombre), en cualquier tribunal de circuito de Oregón.
+  age:
+    en: 18 or older, or emancipated by court order. A parent or guardian files for a minor using the minor packet.
+    es: 18 años o más, o emancipación por orden judicial. Un padre, madre o tutor presenta por un menor con el paquete para menores.
+  criminal_history:
+    en: >-
+      The petition asks whether you owe child support, have a protective or restraining order against you, are on
+      probation, parole, or post-prison supervision, or must register as a sex offender. Answering yes does not
+      automatically bar the change; the judge weighs it under the public-interest standard.
+    es: >-
+      La petición pregunta si debes manutención infantil, si tienes una orden de protección en tu contra, si estás en
+      libertad condicional o supervisión, o si debes registrarte como agresor sexual. Responder que sí no impide
+      automáticamente el cambio; el juez lo considera según el criterio de interés público.
+  sources: [ojd-adult-packet, ors-33]
+forms:
+  - id: OJD Name and Sex Change (Adult) Packet
+    name:
+      en: Change of Name or Sex packet for adults (instructions, Petition, General Judgment)
+      es: Paquete de cambio de nombre o sexo para adultos (instrucciones, petición, sentencia general)
+    url: https://www.courts.oregon.gov/forms/Documents/Name%20and%20Sex%20Change%20Packet%20(Adult).pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Top of each page**: write the county name. This is the most common mistake.
+        - **Petition**: check "name", "sex", or both at the top. For a name change, write your full current name and your full new name (first, middle, last).
+        - **Sex**: check "changing my legal sex" and choose male, female, or nonbinary, then check the box stating you have had treatment appropriate to you to affirm your gender identity. You attach nothing.
+        - **Public interest**: check any box that applies (child support owed, restraining order against you, probation or parole, sex offender registration) and explain briefly with state and case number.
+        - **Former names**: list names you have used legally or by custom.
+        - **Sealing box**: only for participants in Oregon's Address Confidentiality Program.
+        - **Judgment**: fill in the caption, your names, and the same choices as the petition; sign the Certificate of Readiness at the bottom. Leave the judge's signature blank.
+      es: |
+        - **Arriba de cada página**: escribe el nombre del condado. Es el error más común.
+        - **Petición**: marca "nombre", "sexo" o ambos. Para el nombre, escribe tu nombre actual completo y tu nombre nuevo completo.
+        - **Sexo**: marca "cambiar mi sexo legal" y elige masculino, femenino o no binario; luego marca la casilla que declara que has recibido tratamiento apropiado para afirmar tu identidad de género. No adjuntas nada.
+        - **Interés público**: marca lo que aplique y explica brevemente.
+        - **Sentencia**: llena el encabezado y las mismas opciones; firma el Certificado de Preparación. Deja en blanco la firma del juez.
+    sources: [ojd-adult-packet]
+  - id: OJD Name and Sex Change (Minor) Packet
+    name:
+      en: Change of Name or Sex packet for a minor child (Petition, Notice, Declaration of Notice, General Judgment)
+      es: Paquete de cambio de nombre o sexo para un menor (petición, aviso, declaración de aviso, sentencia general)
+    url: https://www.courts.oregon.gov/forms/Documents/Name-Sex%20Change-PACKET-Minor.pdf
+    required: conditional
+    condition:
+      en: Only when a parent, legal guardian, or legal representative files for a child under 18.
+      es: Solo cuando un padre, madre, tutor o representante legal presenta por un menor de 18 años.
+    sources: [ojd-minor-packet]
+  - id: OJD Fee Deferral or Waiver Packet
+    name:
+      en: Application and Declaration for Deferral or Waiver of Fees, with Order
+      es: Solicitud y declaración para aplazamiento o exoneración de tarifas, con orden
+    url: https://www.courts.oregon.gov/forms/Documents/EntirePacket10.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $124 filing fee.
+      es: Solo si no puedes pagar la tarifa de $124.
+    how_to_fill:
+      en: |
+        - Fill in the Application and Declaration (confidential; only the court sees it) with your income, household, and expenses.
+        - Fill in the case information on the Order, but **do not** mark anything below "The court finds Applicant". The judge does that.
+        - Use the same county and case caption as your petition.
+      es: |
+        - Llena la Solicitud y Declaración (confidencial; solo la ve el tribunal) con tus ingresos, hogar y gastos.
+        - Llena los datos del caso en la Orden, pero **no** marques nada debajo de "The court finds Applicant". Eso lo hace el juez.
+    sources: [ojd-fee-waiver-instr, ojd-fee-waiver-page]
+steps:
+  - id: get-packet
+    title:
+      en: Download the statewide packet
+      es: Descarga el paquete estatal
+    body:
+      en: Print the adult Change of Name or Sex packet from the Oregon Judicial Department (or pick one up at the courthouse). It is three pages. Decide whether you want a name change, a sex change, or both; one petition covers everything.
+      es: Imprime el paquete de Cambio de nombre o sexo para adultos del Departamento Judicial de Oregón (o recógelo en el tribunal). Son tres páginas. Decide si quieres cambiar el nombre, el sexo o ambos; una sola petición cubre todo.
+    forms: [OJD Name and Sex Change (Adult) Packet]
+    sources: [ojd-adult-packet]
+  - id: fill
+    title:
+      en: Fill in the petition and the judgment
+      es: Llena la petición y la sentencia
+    body:
+      en: Write the county at the top of every page. Complete the Petition and sign it (you declare under penalty of perjury that it is true). Fill in the General Judgment with the same choices and sign the Certificate of Readiness at the bottom. You do not need a notary.
+      es: Escribe el condado arriba de cada página. Completa la Petición y fírmala (declaras bajo pena de perjurio que es verdad). Llena la Sentencia General con las mismas opciones y firma el Certificado de Preparación. No necesitas notario.
+    forms: [OJD Name and Sex Change (Adult) Packet]
+    sources: [ojd-adult-packet]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver or deferral if you need one
+      es: Pide exoneración o aplazamiento de la tarifa si lo necesitas
+    body:
+      en: If you are low-income, file the fee deferral or waiver application and order with your petition. The court may waive the fee, defer it onto a payment plan, postpone deciding, or deny the request.
+      es: Si tienes bajos ingresos, presenta la solicitud y orden de aplazamiento o exoneración con tu petición. El tribunal puede exonerar la tarifa, aplazarla con un plan de pagos, posponer la decisión o negarla.
+    forms: [OJD Fee Deferral or Waiver Packet]
+    optional: true
+    sources: [ojd-fee-waiver-instr]
+  - id: file
+    title:
+      en: File with the circuit court
+      es: Presenta los documentos en el tribunal de circuito
+    body:
+      en: |
+        File the petition and proposed judgment with the circuit court clerk (in your county of residence for a name-only change; any county for a sex change) and pay the $124 filing fee or hand in your fee waiver application. Keep a copy of everything. Find each court's address at courts.oregon.gov.
+      es: |
+        Presenta la petición y la sentencia propuesta ante el secretario del tribunal de circuito (en tu condado de residencia si solo cambias el nombre; en cualquier condado si cambias el sexo) y paga la tarifa de $124 o entrega tu solicitud de exoneración. Guarda copia de todo.
+    fees: [filing]
+    sources: [ojd-adult-packet, ors-21-145]
+  - id: wait
+    title:
+      en: Wait for the judgment (a hearing is unusual)
+      es: Espera la sentencia (las audiencias son poco comunes)
+    body:
+      en: You do not go to court unless the court tells you to or sends you a hearing notice. When the judge signs, the court enters the judgment and mails you a Notice of Entry of Judgment. The judgment is effective once it is entered.
+      es: No vas al tribunal salvo que el tribunal te lo indique o te envíe un aviso de audiencia. Cuando el juez firma, el tribunal registra la sentencia y te envía un Aviso de Registro de Sentencia. La sentencia es válida desde que se registra.
+    sources: [ojd-adult-packet]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the signed judgment
+      es: Obtén copias certificadas de la sentencia firmada
+    body:
+      en: The court does **not** send your judgment to any agency. Call the clerk to order certified copies; get at least three (Social Security, DMV, passport, bank). Copy fees are set by the court.
+      es: El tribunal **no** envía tu sentencia a ninguna agencia. Llama al secretario para pedir copias certificadas; pide al menos tres (Seguro Social, DMV, pasaporte, banco). Las tarifas de copias las fija el tribunal.
+    sources: [ojd-adult-packet]
+  - id: update-documents
+    title:
+      en: Update your other records, in this order
+      es: Actualiza tus demás registros, en este orden
+    body:
+      en: |
+        1. **Social Security** first. Oregon DMV checks your name against SSA, so SSA must be updated before the DMV. The name can change; the sex field currently cannot.
+        2. **Oregon DMV** license or ID (in person; see the driver's license guide).
+        3. **Birth certificate** (see the birth certificate guide; born in Oregon, use OHA; born elsewhere, contact your birth state).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. Primero el **Seguro Social**. El DMV de Oregón verifica tu nombre con la SSA, así que la SSA debe actualizarse antes. El nombre se puede cambiar; el campo de sexo actualmente no.
+        2. Licencia o identificación del **DMV de Oregón** (en persona).
+        3. **Acta de nacimiento** (ver la guía correspondiente).
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [dmv-name]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee (change of name, legal change of sex, or both)
+      es: Tarifa de presentación en el tribunal de circuito (cambio de nombre, de sexo legal o ambos)
+    amount: 124
+    waivable: true
+    note:
+      en: Set by statute (ORS 21.145) and the same in every county. One fee covers a combined name and sex petition.
+      es: Fijada por ley (ORS 21.145) e igual en todos los condados. Una sola tarifa cubre una petición combinada de nombre y sexo.
+    sources: [ors-21-145]
+  - id: certified-copies
+    label:
+      en: Certified copies of the judgment
+      es: Copias certificadas de la sentencia
+    varies_by: court
+    note:
+      en: Ask the clerk for the current per-copy price.
+      es: Pregunta al secretario el precio actual por copia.
+    sources: [ojd-adult-packet]
+fee_waiver:
+  available: true
+  forms: [OJD Fee Deferral or Waiver Packet]
+  eligibility:
+    en: The court can defer or waive fees only if you are low-income according to federal poverty guidelines. The application is confidential.
+    es: El tribunal puede aplazar o exonerar tarifas solo si tienes bajos ingresos según las guías federales de pobreza. La solicitud es confidencial.
+  how:
+    en: File the Application and Declaration and the Order together with your petition. If the court defers instead of waiving, you pay later, possibly on a payment plan with added collection costs.
+    es: Presenta la Solicitud y Declaración y la Orden junto con tu petición. Si el tribunal aplaza en lugar de exonerar, pagas después, posiblemente con un plan de pagos y costos adicionales.
+  sources: [ojd-fee-waiver-instr, ors-21]
+publication:
+  required: "no"
+  detail:
+    en: Oregon does not require newspaper publication or posted notice for an adult's name or sex change. Only name changes for minors require written notice to parents and guardians.
+    es: Oregón no exige publicación en periódico ni aviso público para el cambio de nombre o sexo de una persona adulta. Solo los cambios de nombre de menores requieren aviso por escrito a padres y tutores.
+  sources: [ors-33, ojd-adult-packet]
+hearing:
+  required: "conditional"
+  detail:
+    en: The judgment is submitted ex parte. You go to court only if the court tells you to or sends a hearing notice, which is uncommon for adults.
+    es: La sentencia se presenta sin audiencia (ex parte). Solo vas al tribunal si el tribunal te lo indica o te envía un aviso, lo que es poco común para adultos.
+  sources: [ojd-adult-packet]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. The petition asks you to disclose child support arrears, restraining orders against you, supervision status, and sex offender registration.
+    es: No se toman huellas ni se hace verificación de antecedentes. La petición te pide revelar deudas de manutención, órdenes de restricción en tu contra, supervisión y registro de agresor sexual.
+  sources: [ojd-adult-packet]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      For a **legal sex change** (alone or with a name change), the court must seal the record if you ask (ORS 33.420(4)), and the state's packet instructions say all records of sex-change petitions are confidential. For a **name-only** change, the court seals the record for participants in Oregon's Address Confidentiality Program unless it finds good cause not to.
+    es: |
+      Para un **cambio de sexo legal** (solo o con cambio de nombre), el tribunal debe sellar el expediente si lo pides (ORS 33.420(4)), y las instrucciones del paquete estatal dicen que todos los expedientes de cambio de sexo son confidenciales. Para un cambio **solo de nombre**, el tribunal sella el expediente de participantes del Programa de Confidencialidad de Domicilio salvo que encuentre causa justificada.
+  how:
+    en: If your petition includes a sex change, ask the clerk when you file to confirm the case is confidential; if in doubt, add a written request to seal under ORS 33.420(4). For a name-only change, sealing is available through the Address Confidentiality Program box on the petition.
+    es: Si tu petición incluye cambio de sexo, pide al secretario al presentar que confirme que el caso es confidencial; si hay duda, agrega una solicitud escrita de sellado bajo ORS 33.420(4). Para un cambio solo de nombre, el sellado está disponible mediante la casilla del Programa de Confidencialidad de Domicilio.
+  sources: [ors-33, ojd-adult-packet]
+minors:
+  summary:
+    en: |
+      A parent, legal guardian, or legal representative files the minor packet in the county where the child lives (any county if the petition includes a sex change) and explains why the change is in the child's best interest. For a **name change**, written notice must go to the other parent and any legal guardian after filing, then you file a Declaration of Notice. Notice to the other parent is not needed if the child has not lived with that parent and that parent has not contributed or tried to contribute to support. The judge may talk with the child privately. A minor's **sex change** requires the petitioner to attest that the child has had appropriate treatment affirming gender identity.
+    es: |
+      Un padre, madre, tutor o representante legal presenta el paquete para menores en el condado donde vive el menor (cualquier condado si incluye cambio de sexo) y explica por qué el cambio es en su mejor interés. Para un **cambio de nombre**, se debe enviar aviso por escrito al otro padre y a cualquier tutor después de presentar, y luego presentar una Declaración de Aviso. No se requiere aviso al otro padre si el menor no ha vivido con él y este no ha contribuido ni intentado contribuir a su manutención. El juez puede hablar con el menor en privado.
+  forms: [OJD Name and Sex Change (Minor) Packet]
+  sources: [ojd-minor-packet, ors-33]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: File in person at the circuit court clerk's office or by mail. Some courts accept electronic filing; ask your county clerk.
+    es: Presenta en persona en la oficina del secretario del tribunal de circuito o por correo. Algunos tribunales aceptan presentación electrónica; pregunta al secretario.
+  sources: [ojd-adult-packet, multnomah-court]
+timeline:
+  en: Often a few weeks from filing to a signed judgment, depending on the county, then time to order certified copies and update Social Security and the DMV.
+  es: A menudo unas semanas desde la presentación hasta la sentencia firmada, según el condado, y luego tiempo para pedir copias certificadas y actualizar el Seguro Social y el DMV.
+after:
+  en: |
+    Start with **Social Security** (bring a certified copy of the judgment and photo ID; the sex field currently cannot be changed). Then the **Oregon DMV** (in person; replacement license $30, replacement ID card $40). If you were born in Oregon, send your judgment to **Oregon Vital Records** or use the notarized OHA 2673 form ($35 amendment fee). Then your **passport** (name changes are processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva una copia certificada de la sentencia e identificación con foto; el campo de sexo actualmente no se puede cambiar). Luego el **DMV de Oregón** (en persona; reemplazo de licencia $30, de tarjeta de identificación $40). Si naciste en Oregón, envía tu sentencia a **Oregon Vital Records** o usa el formulario notarizado OHA 2673 (tarifa de enmienda de $35). Después tu **pasaporte** (se procesan cambios de nombre, no de marcador de sexo, a septiembre de 2026), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: You can ask for a name change and a sex change in the same petition for one $124 fee, and then file in any Oregon county.
+    es: Puedes pedir el cambio de nombre y de sexo en la misma petición por una sola tarifa de $124 y presentarla en cualquier condado de Oregón.
+  - en: Court staff cannot give legal advice. The Oregon State Bar Lawyer Referral Service is 503-684-3763 or 800-452-7636.
+    es: El personal del tribunal no puede dar asesoría legal. El Servicio de Referencia de Abogados del Colegio de Abogados de Oregón es 503-684-3763 o 800-452-7636.
+  - en: A court judgment on sex is not required for an Oregon birth certificate or DMV card, but other states and some federal and foreign agencies may still ask for one.
+    es: No se requiere sentencia judicial sobre el sexo para el acta de nacimiento de Oregón ni para el DMV, pero otros estados y algunas agencias federales o extranjeras pueden pedirla.
+local_help:
+  - id: laso
+    name: Legal Aid Services of Oregon and Oregon Law Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal aid for people with low incomes across Oregon. Find your county's office and self-help information at oregonlawhelp.org; Oregon Law Center's statewide number is 1-800-672-4919.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en Oregón. Encuentra la oficina de tu condado e información de autoayuda en oregonlawhelp.org; el número estatal de Oregon Law Center es 1-800-672-4919.
+    url: https://oregonlawhelp.org/
+    phone: "1-800-672-4919"
+    cost: free
+    verification: org_website
+    sources: [oregonlawhelp, olc-portland]
+  - id: osb-lrs
+    name: Oregon State Bar Lawyer Referral Service
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Referral to a private lawyer if you want advice, for example on a minor's petition or a contested case. Listed in the court's own packet.
+      es: Referencia a un abogado privado si quieres asesoría, por ejemplo para la petición de un menor o un caso impugnado. Aparece en el paquete del tribunal.
+    url: https://www.oregonstatebar.org/
+    phone: "503-684-3763"
+    cost: varies
+    verification: official_source
+    sources: [ojd-adult-packet]
+  - id: basic-rights-oregon
+    name: Basic Rights Oregon
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ+ advocacy group that provides resource navigation and referrals, including to legal help.
+      es: Grupo estatal de defensa LGBTQ+ que ofrece orientación y referencias, incluida ayuda legal.
+    url: https://www.basicrights.org/resources/
+    phone: "503-222-6151"
+    cost: free
+    verification: org_website
+    sources: [bro-resources]
+  - id: q-center
+    name: Q Center (Portland)
+    type: lgbtq_center
+    pillars: [name_change, mental_health]
+    description:
+      en: Portland LGBTQIA2S+ center with resource navigation, peer support groups, and the Marsha P. Johnson Community Fund, which gives emergency microgrants to Black and Indigenous trans people.
+      es: Centro LGBTQIA2S+ de Portland con orientación sobre recursos, grupos de apoyo y el Fondo Comunitario Marsha P. Johnson, que da microsubvenciones de emergencia a personas trans negras e indígenas.
+    url: https://www.pdxqcenter.org/
+    phone: "503-234-7837"
+    address: 4115 N Mississippi Ave, Portland, OR 97217
+    cost: free
+    verification: org_website
+    sources: [qcenter]
+statutes:
+  - cite: ORS 33.410
+    title:
+      en: Change of name in the circuit court of the county of residence; granted unless inconsistent with the public interest
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors033.html
+  - cite: ORS 33.420
+    title:
+      en: Notice for minors' name changes; sealing for Address Confidentiality Program participants and for legal sex change on request
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors033.html
+  - cite: ORS 33.460
+    title:
+      en: Legal change of sex in any circuit court, on the applicant's attestation of appropriate treatment
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors033.html
+  - cite: ORS 21.145
+    title:
+      en: $124 filing fee for change of name and legal change of sex
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors021.html
+related_links:
+  - title: Oregon Judicial Department, Name and Sex Change forms
+    url: https://www.courts.oregon.gov/programs/family/forms/Pages/name-sex-change.aspx
+    note:
+      en: Official forms page (adult and minor packets, plus translations).
+      es: Página oficial de formularios (paquetes para adultos y menores, y traducciones).
+  - title: Advocates for Trans Equality, Oregon identity documents
+    url: https://transequality.org/documents/oregon-identity-documents
+    note:
+      en: Last updated December 2025; agrees on the $124 fee and no publication.
+      es: Actualizado en diciembre de 2025; coincide en la tarifa de $124 y en que no hay publicación.
+sources:
+  - id: ors-33
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors033.html
+    title: ORS chapter 33, Change of name and legal change of sex (2025 edition)
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In a case to determine an application for legal change of sex of a person under ORS 33.460, if an applicant requests the court to seal the record of the case, the court shall seal the record of the case.
+  - id: ors-21-145
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors021.html
+    title: ORS 21.145, Simple proceeding filing fee
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A circuit court shall collect a filing fee of $124 ... (1) Applications for change of name under ORS 33.410. (2) Applications for a legal change of sex under ORS 33.460."
+  - id: ors-21
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors021.html
+    title: ORS 21.680 to 21.698, Waiver and deferral of fees
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ojd-adult-packet
+    url: https://www.courts.oregon.gov/forms/Documents/Name%20and%20Sex%20Change%20Packet%20(Adult).pdf
+    title: Name and Sex Change (Adult) Packet, revised July 2026
+    publisher: Oregon Judicial Department
+    kind: form
+    accessed: "2026-09-24"
+    quote: Sex Change – You can file in any circuit court in Oregon. If you are also asking for a name change, you can file for both at the same time in any circuit court in Oregon. All records of legal sex change petitions, including changes to both sex and name, are confidential.
+  - id: ojd-minor-packet
+    url: https://www.courts.oregon.gov/forms/Documents/Name-Sex%20Change-PACKET-Minor.pdf
+    title: Name and Sex Change (Minor) Packet, revised July 2026
+    publisher: Oregon Judicial Department
+    kind: form
+    accessed: "2026-09-24"
+  - id: ojd-fee-waiver-instr
+    url: https://www.courts.oregon.gov/forms/Documents/Gen-FeeWaiver-Instr.pdf
+    title: Instructions for Fee Deferral or Waiver Application and Declaration (January 2026)
+    publisher: Oregon Judicial Department
+    kind: form
+    accessed: "2026-09-24"
+    quote: The court can only defer or waive fees if you are low-income (according to federal poverty guidelines).
+  - id: ojd-fee-waiver-page
+    url: https://www.courts.oregon.gov/forms/Pages/fee-waiver.aspx
+    title: Fee Deferral and Waiver forms
+    publisher: Oregon Judicial Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: dmv-name
+    url: https://www.oregon.gov/odot/DMV/pages/dv/chgname.aspx
+    title: Changing your name
+    publisher: Oregon DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: DMV verifies a customer's social security number with Social Security Administration, so customers wanting to change their name on their credential must first change their name with SSA.
+  - id: multnomah-court
+    url: https://www.courts.oregon.gov/courts/multnomah/Pages/default.aspx
+    title: Multnomah County Circuit Court
+    publisher: Oregon Judicial Department
+    kind: court
+    accessed: "2026-09-24"
+  - id: oregonlawhelp
+    url: https://oregonlawhelp.org/
+    title: Oregon Law Help
+    publisher: Legal Aid Services of Oregon and Oregon Law Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: olc-portland
+    url: https://oregonlawcenter.org/how-to-get-help/olc-offices/portland/
+    title: Portland Regional Office
+    publisher: Oregon Law Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: bro-resources
+    url: https://www.basicrights.org/resources/
+    title: LGBTQ+ resources
+    publisher: Basic Rights Oregon
+    kind: org
+    accessed: "2026-09-24"
+  - id: qcenter
+    url: https://www.pdxqcenter.org/
+    title: Q Center
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,196 @@
+guide_type: birth_certificate
+jurisdiction: OR
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Process, fees ($35 amendment, $25 or $30 per certificate, $30 expedite), mailing address, and one-time limit from the
+    OHA gender identity page and form OHA 2673 (revised 03/26), read 2026-09-24. Processing times are posted weekly by
+    OHA and were not captured. Reviewer: confirm whether the original record is sealed (OHA says the new certificate
+    carries no footnote about prior designations, but does not say how the original is kept) and confirm the "one
+    administrative change of name and one of sex" limit is still on the page. A4TE (December 2025) agrees on the $35 fee.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Oregon you can change the sex (male, female, or X) and the name on your birth certificate by
+    mailing a notarized form to Oregon Vital Records. No court order and no medical documentation are needed. The
+    amendment fee is $35, plus $25 or $30 for each new certificate.
+  es: >-
+    Si naciste en Oregón puedes cambiar el sexo (masculino, femenino o X) y el nombre en tu acta de nacimiento enviando
+    por correo un formulario notarizado a Oregon Vital Records. No se necesita orden judicial ni documentación médica.
+    La tarifa de enmienda es de $35, más $25 o $30 por cada acta nueva.
+summary:
+  en: |
+    ORS 432.235 requires the State Registrar to amend an Oregon birth record to change the **sex**, the **name**, or both when you submit OHA's form with ID and a signed statement that the request is to affirm your gender identity. There are two routes:
+
+    1. **Administrative (no court)**: form OHA 2673, signed in front of a notary. Choices are male, female, or X (non-binary). You can make one administrative name change and one administrative sex change this way; later changes need a court order.
+    2. **Court order**: send a certified copy of an Oregon (or other) court judgment changing your name or sex.
+
+    Approved changes get a new certificate with no footnote about the earlier name or sex. This only works if you were **born in Oregon**; if you were born elsewhere, contact your birth state's vital records office.
+  es: |
+    ORS 432.235 exige que el Registrador Estatal enmiende un acta de nacimiento de Oregón para cambiar el **sexo**, el **nombre** o ambos cuando presentas el formulario de OHA con identificación y una declaración firmada de que la solicitud es para afirmar tu identidad de género. Hay dos vías:
+
+    1. **Administrativa (sin tribunal)**: formulario OHA 2673, firmado ante notario. Opciones: masculino, femenino o X (no binario). Puedes hacer un cambio administrativo de nombre y uno de sexo; los cambios posteriores requieren orden judicial.
+    2. **Orden judicial**: envía una copia certificada de una sentencia que cambie tu nombre o sexo.
+
+    Los cambios aprobados reciben un acta nueva sin nota sobre el nombre o sexo anterior. Solo aplica si **naciste en Oregón**; si naciste en otro lugar, comunícate con la oficina de registros vitales de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Oregon. Where you live now does not matter.
+    es: Debes haber nacido en Oregón. No importa dónde vives ahora.
+  age:
+    en: 18 or older, or an emancipated minor (with court documentation). For a child under 18, a parent listed on the certificate or a legal guardian applies; one parent's signature is enough.
+    es: 18 años o más, o menor emancipado (con documentación judicial). Para un menor de 18, solicita un padre o madre que aparezca en el acta o un tutor legal; basta la firma de uno.
+  sources: [oha-gender, oha-2673]
+forms:
+  - id: OHA 2673
+    name:
+      en: Application to Change the Name and/or Sex on a Record of Live Birth to Support Gender Identity
+      es: Solicitud para cambiar el nombre y/o sexo en un registro de nacimiento para apoyar la identidad de género
+    url: https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/Document%20Forms/OHA2673FormEnglish.pdf
+    url_es: https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/Document%20Forms/OHA2673FormSpanish.pdf
+    required: conditional
+    condition:
+      en: Use for the administrative route (no court order).
+      es: Úsalo para la vía administrativa (sin orden judicial).
+    how_to_fill:
+      en: |
+        - Items 7 to 12: copy the names, sex, and parents' names **exactly** as they appear on your current birth certificate. If unsure, order a copy first (it can be exchanged free within a year).
+        - Item 13: check it and write the new name, if changing your name.
+        - Items 14a and 14b: check 14a and choose Male, Female, or X (Non-binary).
+        - Item 15: check it and choose how many new certificates you want and which type (computer-issued $25, full image $30).
+        - **Do not sign until you are in front of a notary.** No cross-outs or white-out; the form will be rejected.
+      es: |
+        - Puntos 7 a 12: copia los nombres, sexo y nombres de los padres **exactamente** como aparecen en tu acta actual.
+        - Punto 13: márcalo y escribe el nombre nuevo, si cambias el nombre.
+        - Puntos 14a y 14b: marca 14a y elige Masculino, Femenino o X (No binario).
+        - Punto 15: indica cuántas actas nuevas quieres y de qué tipo.
+        - **No firmes hasta estar frente a un notario.** Sin tachaduras ni corrector.
+    sources: [oha-2673]
+steps:
+  - id: choose-route
+    title:
+      en: Choose the administrative form or a court order
+      es: Elige el formulario administrativo o una orden judicial
+    body:
+      en: Most people use form OHA 2673, which needs no court case. If you already have a court judgment changing your name or sex, you can send a certified copy instead. If you have already used the administrative route once for your name or sex, a further change needs a court order.
+      es: La mayoría usa el formulario OHA 2673, que no requiere caso judicial. Si ya tienes una sentencia que cambia tu nombre o sexo, puedes enviar una copia certificada. Si ya usaste la vía administrativa una vez para el nombre o el sexo, otro cambio requiere orden judicial.
+    forms: [OHA 2673]
+    sources: [oha-gender, ors-432-235]
+  - id: fill-notarize
+    title:
+      en: Fill out OHA 2673 and sign it in front of a notary
+      es: Llena el OHA 2673 y fírmalo ante notario
+    body:
+      en: Complete items 1 to 15, then sign in the notary's presence. The notary's signature and seal must be on the form itself. Many banks and UPS stores notarize for a small fee or free for customers.
+      es: Completa los puntos 1 a 15 y firma frente al notario. La firma y el sello del notario deben estar en el mismo formulario. Muchos bancos y tiendas de envío notarizan por poco dinero o gratis para clientes.
+    forms: [OHA 2673]
+    sources: [oha-2673]
+  - id: submit
+    title:
+      en: Mail or drop off the form, ID copy, and payment
+      es: Envía o deposita el formulario, la copia de identificación y el pago
+    body:
+      en: |
+        Include a legible copy of your current government photo ID and one check or money order covering the $35 amendment fee plus any certificates. Send to **Oregon Vital Records, PO Box 14050, Portland, OR 97293**, or use the drop box at the west door of 800 NE Oregon St, Portland, OR 97232. Add $30 for expedited processing.
+      es: |
+        Incluye una copia legible de tu identificación oficial con foto y un cheque o giro que cubra la tarifa de enmienda de $35 más las actas. Envía a **Oregon Vital Records, PO Box 14050, Portland, OR 97293**, o usa el buzón en la puerta oeste de 800 NE Oregon St, Portland, OR 97232. Agrega $30 para servicio acelerado.
+    fees: [amendment, certificate, expedite]
+    applies_to: [by_mail]
+    sources: [oha-gender, oha-2673]
+  - id: receive
+    title:
+      en: Receive the decision and your new certificate
+      es: Recibe la decisión y tu acta nueva
+    body:
+      en: Requests are processed in the order received; OHA posts current amendment processing times weekly. If approved, you get a copy of your application, a letter from the State Registrar, and the new certificates you paid for.
+      es: Las solicitudes se procesan en orden de llegada; OHA publica los tiempos actuales cada semana. Si se aprueba, recibes una copia de tu solicitud, una carta del Registrador Estatal y las actas nuevas que pagaste.
+    sources: [oha-gender, oha-2673]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee
+      es: Tarifa de enmienda
+    amount: 35
+    sources: [oha-gender, oha-2673]
+  - id: certificate
+    label:
+      en: Each new certified birth certificate
+      es: Cada acta de nacimiento certificada nueva
+    min: 25
+    max: 30
+    note:
+      en: $25 computer-issued; $30 full-image (only for births before 2008).
+      es: $25 emitida por computadora; $30 imagen completa (solo nacimientos antes de 2008).
+    sources: [oha-2673]
+  - id: expedite
+    label:
+      en: Optional expedite fee
+      es: Tarifa opcional de servicio acelerado
+    amount: 30
+    sources: [oha-gender]
+fee_waiver:
+  available: false
+  sources: [oha-2673]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail or the Portland drop box. Payment by check or money order.
+    es: Por correo o en el buzón de Portland. Pago con cheque o giro.
+  sources: [oha-2673]
+timeline:
+  en: Varies; check OHA's weekly amendment processing times. The $30 expedite option targets about 3 business days.
+  es: Varía; revisa los tiempos semanales de OHA. La opción acelerada de $30 apunta a unos 3 días hábiles.
+after:
+  en: |
+    Use the new certificate for anything that asks for a birth certificate. OHA cannot guarantee that other agencies will accept an administratively amended certificate, so keep a court judgment if you have one. Social Security and US passports currently do not change sex markers even with an amended birth certificate; the name still changes.
+  es: |
+    Usa el acta nueva para cualquier trámite que pida acta de nacimiento. OHA no puede garantizar que otras agencias acepten un acta enmendada administrativamente, así que guarda una sentencia judicial si la tienes. El Seguro Social y los pasaportes de EE. UU. actualmente no cambian el marcador de sexo ni con acta enmendada; el nombre sí.
+tips:
+  - en: Order a copy of your current certificate before filling the form if you are unsure of the exact names on it; a mismatch gets the application rejected.
+    es: Pide una copia de tu acta actual antes de llenar el formulario si no estás seguro de los nombres exactos; una diferencia causa el rechazo.
+  - en: A false statement on OHA 2673 is a Class C felony, so answer carefully.
+    es: Una declaración falsa en el OHA 2673 es un delito grave de Clase C, así que responde con cuidado.
+statutes:
+  - cite: ORS 432.235
+    title:
+      en: Amendment of vital records; name and sex changes to affirm gender identity by form or court order
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors432.html
+related_links:
+  - title: Oregon Health Authority, Change a birth record to support gender identity
+    url: https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/Pages/ChangeBirthSupportGenderIdentity.aspx
+  - title: Advocates for Trans Equality, Oregon identity documents
+    url: https://transequality.org/documents/oregon-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+sources:
+  - id: oha-gender
+    url: https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/Pages/ChangeBirthSupportGenderIdentity.aspx
+    title: Change a birth record to support gender identity
+    publisher: Oregon Health Authority, Center for Health Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: Requests are reviewed and processed in the order they were received.
+  - id: oha-2673
+    url: https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/Document%20Forms/OHA2673FormEnglish.pdf
+    title: Form OHA 2673 and information sheet (revised 03/26)
+    publisher: Oregon Health Authority
+    kind: form
+    accessed: "2026-09-24"
+    quote: House Bill 2673 allows an administrative change to a birth record for anyone who was born in Oregon and who needs to change their name and/or sex designation to reflect their gender identity without a court order.
+  - id: ors-432-235
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors432.html
+    title: ORS 432.235, Requirements for amending or correcting vital record
+    publisher: Oregon State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A statement signed by the applicant in which the applicant attests, as prescribed by the state registrar by rule, to making the request for the purpose of affirming the applicant's gender identity.
