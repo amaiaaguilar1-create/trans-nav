@@ -1,0 +1,230 @@
+jurisdiction: ME
+slug: portland-me
+name: Portland
+area:
+  en: Greater Portland (Cumberland County)
+  es: Área de Portland (condado de Cumberland)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from Cumberland County's Probate Court page and 2021 fee schedule (the schedule still lists an
+    obsolete $30 adult publication fee). Clinic and org details from their own websites 2026-09-24. Reviewer: confirm
+    whether Greater Portland Health prescribes gender-affirming hormones (its site does not say); confirm the City of
+    Portland Public Health clinic's current STI/PrEP services (its page renders only with JavaScript and was not read,
+    so it is omitted); confirm MaineTransNet support group schedule; MaineHealth's pediatric gender clinic page was not
+    found after the site redesign and is omitted.
+intro:
+  en: >-
+    Portland has Maine's largest cluster of trans services: the statewide trans organization MaineTransNet and the
+    Equality Community Center, a Planned Parenthood health center that prescribes hormones, a sliding-scale community
+    health center, and HIV prevention and PrEP navigation. Name change petitions for Cumberland County residents are
+    filed at the Cumberland County Probate Court in Portland.
+  es: >-
+    Portland tiene la mayor concentración de servicios trans de Maine: la organización estatal MaineTransNet y el
+    Equality Community Center, un centro de Planned Parenthood que receta hormonas, un centro de salud comunitario con
+    escala móvil y navegación de PrEP. Las peticiones de cambio de nombre de residentes del condado de Cumberland se
+    presentan en el Probate Court del condado en Portland.
+court:
+  name: Cumberland County Probate Court (Registry of Probate)
+  url: https://www.cumberlandcountyme.gov/departments/probate_court/index.php
+  self_help_url: https://www.maineprobate.net/welcome/probateforms-2019/
+  filing_fee: 75
+  notes:
+    en: 142 Federal St, Suite 125, Portland, ME 04101; 207-871-8382. Open weekdays 8:30 am to noon and 1 to 4 pm (closed noon to 1). Forms are also available in person at the office. Certificates of name change are $10 each.
+    es: 142 Federal St, Suite 125, Portland, ME 04101; 207-871-8382. Abierto entre semana de 8:30 am a mediodía y de 1 a 4 pm. Los certificados de cambio de nombre cuestan $10 cada uno.
+  sources: [cumberland-probate, cumberland-fees]
+resources:
+  - id: mainetransnet
+    name: MaineTransNet
+    type: lgbtq_center
+    pillars: [mental_health, name_change, gender_marker]
+    description:
+      en: Statewide trans-led organization with peer support groups and community programs, an online community for trans Mainers 18 and older, and Safe Combinations, an affordable trans and queer thrift store, at the Equality Community Center.
+      es: Organización estatal dirigida por personas trans con grupos de apoyo entre pares, una comunidad en línea para personas trans de 18 años o más y Safe Combinations, una tienda de segunda mano asequible, en el Equality Community Center.
+    url: https://www.mainetrans.net/
+    address: 15 Casco St, Portland, ME 04101
+    cost: free
+    verification: org_website
+    sources: [mainetransnet]
+  - id: ppnne-portland
+    org: planned-parenthood
+    name: Planned Parenthood, Portland Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy for people 16 and older (parental consent required at 16 and 17), plus STI testing, PrEP and PEP, and HIV services. In-person and telehealth; insurance not required and payment plans available. Validated parking at the Elm Street Garage.
+      es: Terapia hormonal de afirmación de género para personas de 16 años o más (consentimiento de los padres a los 16 y 17), además de pruebas de ITS, PrEP y PEP. En persona y por telesalud; no se requiere seguro.
+    url: https://www.plannedparenthood.org/health-center/maine/portland/04101/portland-health-center-2940-91770/gender-affirming-care
+    phone: "207-797-8881"
+    address: 443 Congress St, 2nd Floor, Portland, ME 04101
+    cost: varies
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ppnne-portland]
+  - id: greater-portland-health
+    name: Greater Portland Health (formerly Portland Community Health Center)
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Federally qualified health center with a sliding fee scale; accepts MaineCare, Medicare, and private insurance. Primary care, behavioral health, HIV specialty care with PrEP for partners, and free financial assistance counselors who help with coverage. Its website does not describe gender-affirming hormone therapy; ask when you call.
+      es: Centro de salud comunitario con escala móvil; acepta MaineCare, Medicare y seguros privados. Atención primaria, salud mental, atención del VIH y consejeros financieros gratuitos. Su sitio web no describe terapia hormonal de afirmación de género; pregunta al llamar.
+    url: https://www.greaterportlandhealth.org/
+    phone: "207-874-2141"
+    address: 180 Park Ave, Portland, ME 04102
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [gph-story, gph-locations]
+  - id: frannie-peabody
+    name: Frannie Peabody Center
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free, confidential HIV and hepatitis C testing, free HIV self-test kits, PrEP and PEP navigation, and case management and housing help for people living with HIV. Schedule testing at 207-749-6818.
+      es: Pruebas gratuitas y confidenciales de VIH y hepatitis C, autopruebas de VIH gratis, navegación de PrEP y PEP, y apoyo para personas que viven con VIH. Agenda una prueba al 207-749-6818.
+    url: https://www.peabodycenter.org/
+    phone: "207-774-6877"
+    address: 30 Danforth St, Suite 309, Portland, ME 04101
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [peabody]
+  - id: prep207
+    name: PrEP207
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Maine PrEP and PEP navigation network; call or text 207-553-PREP for free help getting on PrEP.
+      es: Red de navegación de PrEP y PEP de Maine; llama o envía texto al 207-553-PREP.
+    url: https://prep207.org/
+    phone: "207-553-7737"
+    cost: free
+    verification: org_website
+    sources: [prep207]
+  - id: glad-law-answers
+    name: GLAD Law Answers and Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential legal information and referrals for LGBTQ+ New Englanders (online intake or voicemail 800-455-GLAD), and free help updating name and gender marker documents.
+      es: Información legal y referencias gratuitas y confidenciales para personas LGBTQ+ de Nueva Inglaterra (formulario en línea o 800-455-GLAD), y ayuda gratuita para actualizar documentos.
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-answers]
+  - id: ptla
+    name: Pine Tree Legal Assistance
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal aid for low-income Mainers, with a step-by-step guide to name and gender marker changes and help for people with safety concerns.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos en Maine, con una guía paso a paso para cambios de nombre y marcador de género.
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    cost: free
+    verification: org_website
+    sources: [ptla-guide]
+  - id: out-maine
+    name: OUT Maine
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Statewide organization for LGBTQ+ youth, with support groups (including a youth mental health support group) and resources for families and providers.
+      es: Organización estatal para jóvenes LGBTQ+, con grupos de apoyo y recursos para familias y proveedores.
+    url: https://www.outmaine.org/
+    cost: free
+    verification: org_website
+    sources: [out-maine]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: cumberland-probate
+    url: https://www.cumberlandcountyme.gov/departments/probate_court/index.php
+    title: Probate Court
+    publisher: Cumberland County, Maine
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Registry of Probate 142 Federal St. Ste. 125 Portland, ME 04101 ... processes: minor and adult name changes"
+  - id: cumberland-fees
+    url: "https://www.cumberlandcountyme.gov/Departments/Probate%20Court/2021%20Fee%20Schedule_202112030846466186.pdf"
+    title: Register of Probate and Probate Court fee schedule (effective 10-18-2021)
+    publisher: Cumberland County, Maine
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Petition for Change of Name $75.00"
+  - id: mainetransnet
+    url: https://www.mainetrans.net/
+    title: MaineTransNet
+    kind: org
+    accessed: "2026-09-24"
+    quote: Located inside the Equality Community Center at 15 Casco St in Portland, ME, Safe Combinations is a project of MaineTransNet.
+  - id: ppnne-portland
+    url: https://www.plannedparenthood.org/health-center/maine/portland/04101/portland-health-center-2940-91770/gender-affirming-care
+    title: Hormone Therapy and Gender-Affirming Care in Portland, ME
+    publisher: Planned Parenthood of Northern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: At our health centers in Maine, GAHT is offered to people 16 years of age and older. 16 and 17-year-olds will need parental consent.
+  - id: gph-story
+    url: https://www.greaterportlandhealth.org/about/our-story
+    title: Our Story
+    publisher: Greater Portland Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Greater Portland Health, a Federally Qualified Health Center, opened its doors in 2009 with the name Portland Community Health Center. ... We offer a sliding fee scale program and accept MaineCare, Medicare and commercial insurances.
+  - id: gph-locations
+    url: https://www.greaterportlandhealth.org/locations
+    title: Locations
+    publisher: Greater Portland Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: peabody
+    url: https://www.peabodycenter.org/
+    title: Frannie Peabody Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: prep207
+    url: https://prep207.org/
+    title: PrEP207
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: ptla-guide
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    title: How to change your name and gender marker in Maine
+    publisher: Pine Tree Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: out-maine
+    url: https://www.outmaine.org/
+    title: OUT Maine
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

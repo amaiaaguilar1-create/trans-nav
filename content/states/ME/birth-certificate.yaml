@@ -1,0 +1,230 @@
+guide_type: birth_certificate
+jurisdiction: ME
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Process, fee ($60 including one certified copy; $6 per additional copy), notarization, M/F/X options, new
+    certificate not marked "amended", original sealed, and 4 to 6 week processing all confirmed 2026-09-24 on the DHHS
+    Vital Records gender-marker page and the VS-7 form, and in 22 M.R.S. §§ 2705 and 2765. Reviewer: (1) the DHHS page
+    gives (207) 287-3181 for in-person appointments while the VS-7 instructions give (207) 287-3771; both are listed;
+    (2) VS-7 says "The Department does not have the authority to waive any fees," while PTLA says the $15 copy fee may
+    be waived by letter in extreme cases; the amendment fee is treated as not waivable. Cross-check: A4TE's Maine page
+    still lists a physician's affidavit for adults and says the record will be marked with the evidence; both are out
+    of date under PL 2021 c. 309 and the current VS-7, so the primary sources are used.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Maine and are 18 or older, you can get a new birth certificate showing male, female, or X
+    (non-binary) by mailing a notarized form VS-7 and $60 to Vital Records. No court order or medical letter is needed.
+    You can change your first and middle names on the same form. The new certificate is not marked "amended."
+  es: >-
+    Si naciste en Maine y tienes 18 años o más, puedes obtener una nueva acta de nacimiento con masculino, femenino o
+    X (no binario) enviando por correo el formulario VS-7 notarizado y $60 a Registros Vitales. No se necesita orden
+    judicial ni carta médica. Puedes cambiar tu primer y segundo nombre en el mismo formulario. La nueva acta no dice
+    "enmendada".
+summary:
+  en: |
+    Since 2021 (PL 2021, c. 309), Maine law lets the State Registrar establish a **new birth certificate** after an application for a gender marker change. Adults simply complete form **VS-7**, sign it in front of a notary, and swear under penalty of perjury that the request is not fraudulent. You can choose **Male, Female, or X (Non-binary)**.
+
+    - The new certificate shows your new marker and, if you ask at the same time, your new **first and middle names**. It is **not marked "amended"**.
+    - The original is sealed; only you or your legal representative can see it, except by court order.
+    - To change your **last name**, or to change your name at a different time from your marker, you need a court name change first (see the name change guide), then the court's VS-14 form and $60.
+    - Once an item is amended, any later change to that same item needs a court order, so double-check your choices.
+  es: |
+    Desde 2021 (PL 2021, c. 309), la ley de Maine permite emitir una **nueva acta de nacimiento** tras una solicitud de cambio de marcador de género. Las personas adultas llenan el formulario **VS-7**, lo firman ante notario y juran bajo pena de perjurio que la solicitud no es fraudulenta. Puedes elegir **Masculino, Femenino o X (No binario)**.
+
+    - La nueva acta muestra tu nuevo marcador y, si lo pides a la vez, tu nuevo **primer y segundo nombre**. **No dice "enmendada"**.
+    - El original queda sellado.
+    - Para cambiar tu **apellido**, o cambiar el nombre en otro momento, necesitas primero un cambio de nombre judicial y luego el formulario VS-14 del tribunal y $60.
+    - Una vez enmendado un dato, cualquier cambio posterior requiere orden judicial.
+eligibility:
+  residency:
+    en: You must have been born in Maine. Where you live now does not matter. If you were born in another state or country, that place's rules apply.
+    es: Debes haber nacido en Maine. No importa dónde vivas ahora. Si naciste en otro estado o país, se aplican sus reglas.
+  age:
+    en: 18 or older (or an emancipated minor) apply for themselves. For a minor, the parents listed on the certificate (or a court-appointed guardian) apply, all signatures notarized, plus a Declaration of Gender Transition signed by a licensed health care professional who treats the child.
+    es: Las personas de 18 años o más (o menores emancipados) solicitan por sí mismas. Para un menor, solicitan los padres que figuran en el acta (o un tutor designado), con firmas notarizadas, más una Declaración de Transición de Género firmada por un profesional de salud con licencia.
+  sources: [dhhs-gender, vs7, mrs-2765, mrs-2705]
+forms:
+  - id: VS-7
+    name:
+      en: Application to Correct a Vital Record in Maine
+      es: Solicitud para corregir un registro vital en Maine
+    url: "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Application%20to%20Correct%20a%20Vital%20Record%20in%20Maine%20%28VS-7%29.pdf"
+    required: always
+    how_to_fill:
+      en: |
+        - Check **Birth** at the top and write your full name exactly as it appears on your current birth certificate, with your date and city or town of birth.
+        - Sex/gender: check what the record shows now (M, F, or U) and what it should show (**Male, Female, or X (Non-binary)**).
+        - Items to correct: if you also want new **first and middle names**, list the current names on the left and the new names on the right. Do it now; a later separate request costs another $60.
+        - Sign in front of a **notary public or municipal clerk**. Leave the "Personal Affidavit Section" blank unless you are changing a marriage certificate (your spouse signs there).
+        - Add your mailing address, email, and phone so Vital Records can reach you.
+      es: |
+        - Marca **Birth** (nacimiento) y escribe tu nombre completo tal como aparece en tu acta actual, con tu fecha y ciudad de nacimiento.
+        - Sexo/género: marca lo que muestra ahora (M, F o U) y lo que debe mostrar (**Masculino, Femenino o X (No binario)**).
+        - Si también quieres nuevos **primer y segundo nombre**, anota los actuales a la izquierda y los nuevos a la derecha.
+        - Firma ante un **notario o secretario municipal**. Deja en blanco la sección de declaración personal salvo que cambies un certificado de matrimonio.
+    sources: [vs7, dhhs-gender]
+  - id: Declaration of Gender Transition
+    name:
+      en: Gender Marker Change Health Care Professional Declaration (minors only)
+      es: Declaración de profesional de salud para cambio de marcador de género (solo menores)
+    url: "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Gender%20Marker%20Change%20Health%20Care%20Professional%20Declaration.pdf"
+    required: conditional
+    condition:
+      en: Only for a child under 18. A licensed health care provider with a bona fide patient relationship affirms that the requested gender matches the child's gender identity.
+      es: Solo para menores de 18. Un proveedor de salud con licencia que atiende al menor afirma que el género solicitado coincide con su identidad.
+    sources: [dhhs-gender]
+steps:
+  - id: fill
+    title:
+      en: Fill out form VS-7
+      es: Llena el formulario VS-7
+    body:
+      en: Choose Male, Female, or X, and list new first and middle names if you want them changed too.
+      es: Elige Masculino, Femenino o X, y anota nuevos primer y segundo nombre si también quieres cambiarlos.
+    forms: [VS-7]
+    sources: [vs7]
+  - id: notarize
+    title:
+      en: Sign it in front of a notary or town clerk
+      es: Fírmalo ante un notario o secretario municipal
+    body:
+      en: All signatures must be notarized. Municipal clerks, banks, and many libraries have notaries, often free.
+      es: Todas las firmas deben notarizarse. Los secretarios municipales, bancos y muchas bibliotecas tienen notarios, a menudo gratis.
+    forms: [VS-7]
+    sources: [vs7, dhhs-gender]
+  - id: mail
+    title:
+      en: Mail the form with $60
+      es: Envía el formulario con $60
+    body:
+      en: |
+        Check or money order payable to **"Treasurer, State of Maine"** ($60, plus $6 for each extra copy you want). Mail to: Data, Research, and Vital Statistics, Vital Records, 11 State House Station, 220 Capitol Street, Augusta, ME 04333-0011. Applications without payment are returned. You can instead make an in-person appointment in Augusta by calling (207) 287-3181.
+      es: |
+        Cheque o giro postal a nombre de **"Treasurer, State of Maine"** ($60, más $6 por cada copia adicional). Envía a: Data, Research, and Vital Statistics, Vital Records, 11 State House Station, 220 Capitol Street, Augusta, ME 04333-0011. También puedes pedir cita en persona en Augusta al (207) 287-3181.
+    fees: [amendment, extra-copy]
+    sources: [dhhs-gender, vs7]
+  - id: wait
+    title:
+      en: Wait for your new certificate
+      es: Espera tu nueva acta
+    body:
+      en: Corrections are processed in the order received and may take 4 to 6 weeks. A certified copy of the new certificate is mailed to you with any documents you sent.
+      es: Las correcciones se procesan en orden de llegada y pueden tardar de 4 a 6 semanas. Te envían por correo una copia certificada de la nueva acta.
+    estimated_time:
+      en: 4 to 6 weeks
+      es: 4 a 6 semanas
+    sources: [vs7]
+fees:
+  - id: amendment
+    label:
+      en: Gender marker change (with first and middle names if requested at the same time), includes one certified copy
+      es: Cambio de marcador de género (con primer y segundo nombre si se piden a la vez), incluye una copia certificada
+    amount: 60
+    waivable: false
+    note:
+      en: A name change filed separately later costs another $60.
+      es: Un cambio de nombre presentado después por separado cuesta otros $60.
+    sources: [vs7, dhhs-gender]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy ordered at the same time
+      es: Cada copia certificada adicional pedida al mismo tiempo
+    amount: 6
+    waivable: false
+    sources: [vs7, dhhs-request]
+fee_waiver:
+  available: false
+  how:
+    en: The VS-7 instructions state that the Department has no authority to waive fees. Funds such as Genderbands help with document costs.
+    es: Las instrucciones del VS-7 dicen que el Departamento no puede exentar tarifas. Fondos como Genderbands ayudan con costos de documentos.
+  sources: [vs7]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail to Vital Records in Augusta, or in person by appointment only. Town clerks do not process these amendments.
+    es: Por correo a Registros Vitales en Augusta, o en persona solo con cita.
+  sources: [dhhs-gender, dhhs-request]
+timeline:
+  en: About 4 to 6 weeks after Vital Records receives your application.
+  es: Unas 4 a 6 semanas después de que Registros Vitales recibe tu solicitud.
+after:
+  en: |
+    The new certificate is proof of your name and sex for state purposes. As of September 2026, the Social Security Administration and the State Department will **not** change the sex field based on it, but a birth certificate with new first and middle names can support a name update. If you have a Maine marriage certificate, the same VS-7 can amend it too (your spouse must sign the personal affidavit). If you were born outside Maine, contact your birth state.
+  es: |
+    La nueva acta es prueba de tu nombre y sexo para fines estatales. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** cambiarán el campo de sexo con base en ella. Si tienes un certificado de matrimonio de Maine, el mismo VS-7 puede enmendarlo (tu cónyuge debe firmar). Si naciste fuera de Maine, contacta a tu estado de nacimiento.
+tips:
+  - en: Order a few extra copies ($6 each) with the same request; ordering later costs $15 for the first copy.
+    es: Pide algunas copias adicionales ($6 cada una) en la misma solicitud; pedirlas después cuesta $15 la primera.
+  - en: You do not need to amend your birth certificate to change your Maine driver's license or ID.
+    es: No necesitas enmendar tu acta para cambiar tu licencia o identificación de Maine.
+statutes:
+  - cite: 22 M.R.S. § 2765
+    title:
+      en: New certificate of birth following gender marker change; not marked "amended"; original sealed
+      es: Nueva acta de nacimiento tras cambio de marcador de género
+    url: https://legislature.maine.gov/statutes/22/title22sec2765.html
+  - cite: 22 M.R.S. § 2705
+    title:
+      en: Amendment of vital statistics records; gender marker changes governed by § 2765
+      es: Enmienda de registros vitales
+    url: https://legislature.maine.gov/statutes/22/title22sec2705.html
+related_links:
+  - title: Maine DHHS, Change the Gender Marker on Your Birth Record
+    url: https://www.maine.gov/dhhs/mecdc/vital-records/amend-correct-or-complete-vital-records/change-the-gender-marker-on-your-birth-record
+  - title: Pine Tree Legal Assistance, How to change your name and gender marker in Maine
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    note:
+      en: Last updated September 2025.
+      es: Actualizado en septiembre de 2025.
+  - title: Advocates for Trans Equality, Maine identity documents
+    url: https://transequality.org/documents/maine-identity-documents
+    note:
+      en: Parts of the birth certificate section are out of date (it still mentions a physician's affidavit).
+      es: Partes están desactualizadas (aún menciona una declaración médica).
+sources:
+  - id: mrs-2765
+    url: https://legislature.maine.gov/statutes/22/title22sec2765.html
+    title: 22 M.R.S. § 2765, New certificate of birth following adoption, legitimation or gender marker change
+    publisher: Maine Legislature, Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: When a new birth certificate is established after changes are made to the gender marker ... the requested gender marker and, if requested at the same time, the first and middle names ... must be entered on the new birth certificate. A new birth certificate may be requested by a parent on behalf of a minor. The new birth certificate may not be marked "amended."
+  - id: mrs-2705
+    url: https://legislature.maine.gov/statutes/22/title22sec2705.html
+    title: 22 M.R.S. § 2705, Amendment of vital statistics records
+    publisher: Maine Legislature, Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Amendment of a certificate following adoption, legitimation or gender marker change is governed by section 2765, subsections 2-A and 2-B.
+  - id: dhhs-gender
+    url: https://www.maine.gov/dhhs/mecdc/vital-records/amend-correct-or-complete-vital-records/change-the-gender-marker-on-your-birth-record
+    title: Change the Gender Marker on Your Birth Record
+    publisher: Maine DHHS, Data, Research, and Vital Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: A replacement certificate will be created, and the original certificate will be sealed from public inspection ... The completed application and the $60.00 fee may be mailed to the address below or an in-person appointment may be made by calling (207) 287-3181.
+  - id: vs7
+    url: "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Application%20to%20Correct%20a%20Vital%20Record%20in%20Maine%20%28VS-7%29.pdf"
+    title: VS-7, Application to Correct a Vital Record in Maine (with instructions)
+    publisher: Maine DHHS, Data, Research, and Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: A change of gender of an adult 18 years or older and the change of their first and middle names on a birth record may be amended to align with the gender identity at any point in time by completing the application with the applicant's signature notarized. ... The processing time for corrections may be up to 4 to 6 weeks.
+  - id: dhhs-request
+    url: https://www.maine.gov/dhhs/mecdc/vital-records/request-documents
+    title: Request Documents
+    publisher: Maine DHHS, Data, Research, and Vital Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: $15.00 per certificate, $6.00 for each additional copy ordered at the same time. ... Corrections or amendments of any vital record [by appointment only]

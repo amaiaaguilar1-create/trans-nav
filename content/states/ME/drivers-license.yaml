@@ -1,0 +1,221 @@
+guide_type: drivers_license
+jurisdiction: ME
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Gender Designation Form (MVL-20, rev. 11/04/2019) and the Secretary of State's March 3, 2025 guidance read directly
+    2026-09-24; both confirm self-attestation and M, F, or X (X offered since 2018 per the SOS press release). Duplicate
+    fees ($5 standard, $30 REAL ID) are from the BMV duplicate-license page and form MV-10; the BMV does not publish a
+    separate fee for a gender or name correction, and PTLA says a name change costs the $5 replacement fee. Reviewer:
+    (1) confirm the fee charged for a gender-marker correction on a REAL ID ($30 assumed); (2) confirm whether the BMV
+    accepts the MVL-20 by mail (the form lists a mailing address and requires surrendering the old card, but PTLA
+    describes an in-person visit with a new photo); (3) confirm the 30-day name-update deadline PTLA cites (statute
+    not located); (4) confirm minors' eligibility. No 2025-2026 Maine law or policy change found; SOS guidance says
+    none is planned. The BMV website was being redesigned and several old URLs return 404.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Maine lets you choose M, F, or X on your driver's license or state ID by signing a one-page Gender Designation
+    Form under penalty of perjury. No doctor's letter, court order, or surgery is needed. Bring the form and your
+    current card to a BMV branch; the replacement costs $5 for a standard card or $30 for a REAL ID.
+  es: >-
+    Maine te permite elegir M, F o X en tu licencia de conducir o identificación estatal firmando un Formulario de
+    Designación de Género de una página bajo pena de perjurio. No se necesita carta médica, orden judicial ni cirugía.
+    Lleva el formulario y tu tarjeta actual a una sucursal del BMV; el reemplazo cuesta $5 por una tarjeta estándar o
+    $30 por una REAL ID.
+summary:
+  en: |
+    Since November 2019 the Bureau of Motor Vehicles has accepted a simple self-attestation: you swear that the change is so your card "accurately reflects my gender identity and is not for any fraudulent or other unlawful purpose." You can choose **male, female, or non-binary (X)**; the X option has been offered since 2018.
+
+    In March 2025, after federal passport changes, the Secretary of State publicly confirmed that **nothing has changed for Maine licenses and IDs**: the federal executive order does not apply to state credentials, existing cards with changed or X markers stay valid, and REAL ID with an X marker is still issued.
+
+    Changing your **name** on the card is a separate request that needs proof of your legal name change (your Certificate of Name Change from Probate Court). You can do both at the same visit and pay one fee.
+  es: |
+    Desde noviembre de 2019 el Buró de Vehículos Motorizados (BMV) acepta una simple declaración propia: juras que el cambio es para que tu tarjeta refleje con exactitud tu identidad de género y no tiene fines fraudulentos. Puedes elegir **masculino, femenino o no binario (X)**; la opción X existe desde 2018.
+
+    En marzo de 2025, tras los cambios federales de pasaportes, la Secretaría de Estado confirmó que **nada cambió para las licencias e identificaciones de Maine**: la orden ejecutiva federal no se aplica a documentos estatales, las tarjetas existentes siguen siendo válidas y se sigue emitiendo REAL ID con X.
+
+    Cambiar tu **nombre** en la tarjeta es un trámite aparte que requiere prueba del cambio legal (tu Certificado de Cambio de Nombre). Puedes hacer ambos en la misma visita y pagar una sola tarifa.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Maine driver's license or state ID card.
+    es: Debes tener o estar solicitando una licencia o identificación de Maine.
+  sources: [mvl20, sos-guidance, sos-news]
+forms:
+  - id: MVL-20
+    name:
+      en: Gender Designation Form
+      es: Formulario de Designación de Género
+    url: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/GENDER%20DESIGNATION%20FORM2019.pdf"
+    required: always
+    how_to_fill:
+      en: |
+        - Top section: your name, address, Social Security number, and license/ID number **exactly as on your current card**.
+        - Gender Designation Statement: print your name and check Male, Female, or Non-binary.
+        - Sign and date. You are swearing under penalty of perjury that the request reflects your gender identity; no other documentation is required.
+        - The BMV accepts only the **original** signed form, not a photocopy or fax.
+      es: |
+        - Sección superior: tu nombre, dirección, número de Seguro Social y número de licencia **tal como aparecen en tu tarjeta actual**.
+        - Declaración: escribe tu nombre y marca Masculino, Femenino o No binario.
+        - Firma y fecha. Juras bajo pena de perjurio que la solicitud refleja tu identidad de género; no se requiere otra documentación.
+        - El BMV solo acepta el formulario **original** firmado, no copias ni faxes.
+    sources: [mvl20, ptla-guide]
+steps:
+  - id: fill-form
+    title:
+      en: Fill out and sign the Gender Designation Form
+      es: Llena y firma el Formulario de Designación de Género
+    body:
+      en: Print the form, choose M, F, or X, and sign it. No doctor, therapist, or notary is needed.
+      es: Imprime el formulario, elige M, F o X y fírmalo. No se necesita médico, terapeuta ni notario.
+    forms: [MVL-20]
+    sources: [mvl20, ptla-guide]
+  - id: name-proof
+    title:
+      en: If your name is changing too, bring proof
+      es: Si también cambias tu nombre, lleva la prueba
+    body:
+      en: Bring your certified Certificate of Name Change (or other court order). Update Social Security first so the records match. Pine Tree Legal Assistance advises updating the BMV within 30 days of your name change.
+      es: Lleva tu Certificado de Cambio de Nombre certificado. Actualiza primero el Seguro Social. Pine Tree Legal Assistance recomienda actualizar el BMV dentro de 30 días.
+    optional: true
+    applies_to: [name_change]
+    sources: [ptla-guide]
+  - id: visit
+    title:
+      en: Visit a BMV branch or mobile unit
+      es: Visita una sucursal o unidad móvil del BMV
+    body:
+      en: |
+        Bring the original signed form, your **current license or ID** (you must surrender it), and name-change proof if needed. You will get a new photo and a temporary paper card, and pay the replacement fee ($5 for a standard card, $30 for REAL ID). If you do the name and gender change together, you pay once.
+      es: |
+        Lleva el formulario original firmado, tu **licencia o identificación actual** (debes entregarla) y la prueba del cambio de nombre si aplica. Te tomarán una foto nueva, recibirás una tarjeta temporal de papel y pagarás el reemplazo ($5 tarjeta estándar, $30 REAL ID).
+    fees: [duplicate-standard, duplicate-realid]
+    applies_to: [in_person]
+    sources: [bmv-duplicate, ptla-guide, mvl20]
+  - id: receive
+    title:
+      en: Receive your new card by mail
+      es: Recibe tu nueva tarjeta por correo
+    body:
+      en: The BMV mails the card. For ID cards the BMV says to allow two to three weeks.
+      es: El BMV envía la tarjeta por correo. Para tarjetas de identificación, calcula dos a tres semanas.
+    estimated_time:
+      en: 2 to 3 weeks
+      es: 2 a 3 semanas
+    sources: [bmv-id]
+fees:
+  - id: duplicate-standard
+    label:
+      en: Replacement license or ID card, standard (non-REAL ID)
+      es: Licencia o identificación de reemplazo, estándar (no REAL ID)
+    amount: 5
+    sources: [bmv-duplicate, mv10]
+  - id: duplicate-realid
+    label:
+      en: Replacement license or ID card, REAL ID
+      es: Licencia o identificación de reemplazo, REAL ID
+    amount: 30
+    note:
+      en: Assumed to apply to a gender or name correction on a REAL ID; confirm at the branch.
+      es: Se asume que aplica a una corrección en una REAL ID; confirma en la sucursal.
+    sources: [bmv-duplicate, mv10]
+fee_waiver:
+  available: false
+  how:
+    en: The BMV does not list a fee waiver for replacement cards. Funds such as Genderbands help with document costs.
+    es: El BMV no ofrece exención para tarjetas de reemplazo. Fondos como Genderbands ayudan con costos de documentos.
+  sources: [bmv-duplicate]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Done at a BMV branch or mobile unit, where a new photo is taken. The form lists the License Services mailing address; call 207-624-9000 ext. 52114 to ask whether a mailed request is possible in your situation.
+    es: Se hace en una sucursal o unidad móvil del BMV, donde te toman una foto nueva. Llama al 207-624-9000 ext. 52114 para preguntar si puedes enviarlo por correo.
+  sources: [ptla-guide, mvl20]
+timeline:
+  en: One branch visit, then about 2 to 3 weeks for the card to arrive by mail.
+  es: Una visita a la sucursal y luego unas 2 a 3 semanas para que llegue la tarjeta.
+after:
+  en: |
+    Your Maine card is valid for driving, voting, and ID in Maine whatever marker it shows, and the Secretary of State says REAL ID cards with an X are still being issued. Federal records are different: as of September 2026, US passports and Social Security records only show sex assigned at birth, so your documents may not match. The TSA accepts state IDs with an X marker.
+  es: |
+    Tu tarjeta de Maine es válida para conducir, votar e identificarte en Maine sin importar el marcador, y la Secretaría de Estado dice que se siguen emitiendo REAL ID con X. Los registros federales son distintos: a septiembre de 2026, los pasaportes y el Seguro Social solo muestran el sexo asignado al nacer, así que tus documentos pueden no coincidir.
+tips:
+  - en: You do not need to change your name, your birth certificate, or anything else first. The Gender Designation Form alone is enough for the marker.
+    es: No necesitas cambiar primero tu nombre ni tu acta de nacimiento. El formulario basta para el marcador.
+  - en: If a clerk asks for medical proof, politely point to the form's self-attestation statement and the Secretary of State's March 2025 guidance, and ask for a supervisor. GLAD Law Answers (800-455-GLAD) can help.
+    es: Si te piden prueba médica, señala la declaración del formulario y la guía de la Secretaría de Estado de marzo de 2025, y pide hablar con un supervisor.
+statutes:
+  - cite: Maine Human Rights Act, 5 M.R.S. § 4551 et seq.
+    title:
+      en: The Secretary of State cites Maine human rights law as the basis for gender marker changes on state credentials
+      es: La Secretaría de Estado cita la ley de derechos humanos de Maine como base
+    url: https://legislature.maine.gov/statutes/5/title5ch337sec0.html
+related_links:
+  - title: Secretary of State, Guidance about Gender Designations on Maine Driver's Licenses (March 3, 2025)
+    url: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/Guidance%20about%20Gender%20Designations%20on%20Maine%20Drivers%20Licenses_1.pdf"
+  - title: Pine Tree Legal Assistance, How to change your name and gender marker in Maine
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    note:
+      en: Last updated September 2025.
+      es: Actualizado en septiembre de 2025.
+  - title: Advocates for Trans Equality, Maine identity documents
+    url: https://transequality.org/documents/maine-identity-documents
+sources:
+  - id: mvl20
+    url: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/GENDER%20DESIGNATION%20FORM2019.pdf"
+    title: Gender Designation Form (MVL-20, rev. 11/04/2019)
+    publisher: Maine Bureau of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: I hereby swear, under the penalty of perjury, that this request for the selected gender designation to appear on my Driver's License/ID Card is for the purpose of ensuring that my Driver's License/ID Card accurately reflects my gender identity and is not for any fraudulent or other unlawful purpose.
+  - id: sos-guidance
+    url: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/Guidance%20about%20Gender%20Designations%20on%20Maine%20Drivers%20Licenses_1.pdf"
+    title: Guidance about Gender Designations on Maine Driver's Licenses (as of March 3, 2025)
+    publisher: Maine Department of the Secretary of State
+    kind: official
+    accessed: "2026-09-24"
+    quote: Maine-issued driver's licenses and state IDs are governed by state laws, not the federal executive order. That means that individuals may receive or update a credential to reflect their gender identity.
+  - id: sos-news
+    url: https://www.maine.gov/sos/news/secretary-state-offers-public-guidance-regarding-gender-designations-maine-drivers-licenses
+    title: Secretary of State Offers Public Guidance Regarding Gender Designations on Maine Driver's Licenses (3/03/2025)
+    publisher: Maine Department of the Secretary of State
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Maine Bureau of Motor Vehicles will continue to offer the option of a gender marker "X" designation on driver's licenses and identification cards upon receipt of a completed gender designation form. This policy has been in place in Maine since 2018.
+  - id: bmv-duplicate
+    url: https://www.maine.gov/sos/bmv/driver-licenses-and-ids/update-my-current-license/replacement-duplicate-license-identification-card
+    title: I Need a Replacement (Duplicate) License/Identification Card
+    publisher: Maine Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is a $5 fee for a duplicate non-compliant license/identification card. There is a $30 fee for a duplicate REAL ID license/identification card.
+  - id: mv10
+    url: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/MV-10%20Duplicate%20Credential%20Application%20Rev%2008-25_3.pdf"
+    title: MV-10, Request for Duplicate Driver's License, Identification Card, or Learner's Permit (rev. 08/2025)
+    publisher: Maine Bureau of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: $5.00 for a learner's permit or a non-compliant license or identification card, or $30.00 for a REAL ID license or identification card
+  - id: bmv-id
+    url: https://www.maine.gov/sos/bmv/driver-licenses-and-ids/id
+    title: State Identification Cards
+    publisher: Maine Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Identification cards will be mailed within two-to-three weeks from the date ordered.
+  - id: ptla-guide
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    title: How to change your name and gender marker in Maine (last updated September 2025)
+    publisher: Pine Tree Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+    quote: You no longer need a medical provider to fill out this form - you are now able to 'self-attest' ... You will have 30 days to do this once your name change is official!

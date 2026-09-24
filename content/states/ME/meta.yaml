@@ -1,0 +1,121 @@
+code: ME
+name:
+  en: Maine
+  es: Maine
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on primary sources read 2026-09-24: self-attestation with X on licenses (MVL-20) and birth
+    certificates (VS-7, 22 M.R.S. § 2765), no publication for adult name changes (18-C M.R.S. § 1-701), MaineCare
+    coverage (MBM Ch. II § 90), private-plan nondiscrimination (24-A M.R.S. § 4320-L), and the shield law (14 M.R.S.
+    ch. 763, LD 227, PL 2023 c. 648, signed 2024). The task brief called LD 227 a 2023 law; it was introduced in 2023
+    and enacted April 22, 2024. Consistent with MAP's Maine profile. No 2025-2026 rollback found, but WebSearch was
+    unavailable, so the 132nd Legislature's bills were not reviewed.
+overview:
+  en: >-
+    Maine is protective for trans people. Adult name changes need no newspaper publication, and you can choose M, F, or
+    X on your driver's license and your Maine birth certificate by signing a form, with no doctor's letter. MaineCare
+    covers hormone therapy and surgery, state-regulated private plans may not exclude transition care, and a 2024 shield
+    law protects patients and providers from other states' bans. Federal documents (passport, Social Security) are the
+    exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Maine protege a las personas trans. Los cambios de nombre de adultos no requieren publicación en periódico, y puedes
+    elegir M, F o X en tu licencia y en tu acta de nacimiento de Maine firmando un formulario, sin carta médica.
+    MaineCare cubre la terapia hormonal y la cirugía, los planes privados regulados no pueden excluir la atención de
+    transición, y una ley escudo de 2024 protege a pacientes y proveedores. Los documentos federales (pasaporte, Seguro
+    Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [ld227, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [portland-me]
+key_resources:
+  - id: glad-law
+    name: GLAD Law Answers and Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: New England LGBTQ+ legal organization; free, confidential legal information line (800-455-GLAD or online intake) and free help updating name and gender marker documents.
+      es: Organización legal LGBTQ+ de Nueva Inglaterra; línea de información legal gratuita y confidencial (800-455-GLAD o formulario en línea) y ayuda gratuita para actualizar documentos.
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad]
+  - id: ptla
+    name: Pine Tree Legal Assistance
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide free civil legal aid for low-income Mainers, with a detailed name and gender marker change guide.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos, con una guía detallada de cambio de nombre y marcador de género.
+    url: https://www.ptla.org/
+    cost: free
+    verification: org_website
+    sources: [ptla]
+  - id: mainetransnet
+    name: MaineTransNet
+    type: lgbtq_center
+    pillars: [mental_health, name_change, gender_marker]
+    description:
+      en: Statewide trans-led organization offering peer support groups and community programs; based at the Equality Community Center in Portland.
+      es: Organización estatal dirigida por personas trans con grupos de apoyo entre pares y programas comunitarios; con sede en Portland.
+    url: https://www.mainetrans.net/
+    cost: free
+    verification: org_website
+    sources: [mainetransnet]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ld227
+    url: "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=227&SessionID=15"
+    title: LD 227 (131st Legislature), shield law for gender-affirming and reproductive care (PL 2023 c. 648)
+    publisher: Maine Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Signed by the Governor. Chapter 648. Public Law. Date 4/22/2024"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/profile_state/ME
+    title: Maine's equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: ptla
+    url: https://www.ptla.org/
+    title: Pine Tree Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: mainetransnet
+    url: https://www.mainetrans.net/
+    title: MaineTransNet
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

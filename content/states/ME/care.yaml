@@ -1,0 +1,310 @@
+jurisdiction: ME
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read 2026-09-24 from primary sources: shield law (LD 227, 131st Legislature, enacted as PL 2023 c. 648,
+    signed 4/22/2024; codified at 14 M.R.S. ch. 763, § 9001 et seq.), private insurance nondiscrimination (24-A M.R.S.
+    § 4320-L), and MaineCare Benefits Manual Ch. II § 90 (Word file dated 05.14.2022 on the SOS rules page; 90.04-33
+    Transgender Services and 90.05-1(A)(4) surgery prior authorization with two letters). The brief referred to
+    "10-144 CMR ch. 101"; the MaineCare Benefits Manual is 10-144 CMR ch. 101, and § 90 is the relevant section.
+    Reviewer: (1) confirm § 90 has not been amended since 2022 and whether MaineCare's pharmacy benefit restricts any
+    hormone formulations; (2) federal 2025-2026 actions affecting Medicaid or marketplace coverage of gender-affirming
+    care were not researched here (WebSearch unavailable); check CMS and CoverME.gov; (3) Maine Family Planning and
+    PPNNE minimum age (16 with parental consent) read on their sites; (4) Greater Portland Health's site does not
+    describe gender-affirming hormone therapy, so it is listed as sliding-scale primary care only; (5) no statewide
+    Maine PrEP payment program was verified; PrEP207 is navigation. MaineHealth's pediatric gender clinic page could not
+    be located after the site redesign and is omitted. Minor care: no ban; LD 1735 (2023), a separate shield bill,
+    died; the enacted shield law is LD 227. MAP lists Medicaid explicit inclusion, private insurance nondiscrimination,
+    shield law, and no youth ban, consistent with the primary sources.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected in Maine for adults and for minors with parental consent. MaineCare
+    (Medicaid) covers hormone therapy and, with prior authorization, surgery; state-regulated private plans may not
+    exclude transition care; and a 2024 shield law protects patients and providers from other states' bans. Maine
+    Family Planning and Planned Parenthood of Northern New England offer hormone therapy from age 16 with sliding fees.
+  es: >-
+    La atención de afirmación de género es legal y está protegida en Maine para adultos y para menores con
+    consentimiento de sus padres. MaineCare (Medicaid) cubre la terapia hormonal y, con autorización previa, la cirugía;
+    los planes privados regulados por el estado no pueden excluir la atención de transición; y una ley escudo de 2024
+    protege a pacientes y proveedores de las prohibiciones de otros estados. Maine Family Planning y Planned Parenthood
+    of Northern New England ofrecen terapia hormonal desde los 16 años con tarifas en escala móvil.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Maine Family Planning and Planned Parenthood of Northern New England both prescribe hormones and teach self-injection, and telehealth prescribing is legal statewide.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **MaineCare** (Medicaid). It covers hormone therapy and related care; see below.
+      2. Call **Maine Family Planning** (207-922-3222). It has a sliding fee scale for gender-affirming care for people without insurance and serves much of the state through its clinics and telehealth.
+      3. **Planned Parenthood of Northern New England** offers hormone therapy at its Maine health centers (Portland, Biddeford, Sanford, Topsham) and by telehealth; payment plans are available.
+      4. A **community health center** (federally qualified health center) charges on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      5. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for a year and a half (applications open each May).
+    es: |
+      Sin restricciones estatales. Maine Family Planning y Planned Parenthood of Northern New England recetan hormonas y enseñan a autoinyectarse, y la telesalud es legal en todo el estado.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **MaineCare** (Medicaid). Cubre la terapia hormonal y la atención relacionada.
+      2. Llama a **Maine Family Planning** (207-922-3222). Tiene escala móvil para atención de afirmación de género para personas sin seguro.
+      3. **Planned Parenthood of Northern New England** ofrece terapia hormonal en sus centros de Maine (Portland, Biddeford, Sanford, Topsham) y por telesalud.
+      4. Un **centro de salud comunitario** cobra en escala móvil. Búscalo en findahealthcenter.hrsa.gov.
+      5. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes cada mayo).
+  sources: [mfp-gaht, ppnne-portland, hrsa, pop-hrt]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Maine has no ban on gender-affirming care for minors. Its shield law (14 M.R.S. ch. 763, enacted 2024) declares access to gender-affirming care a legal right in Maine and treats other states' attempts to punish people for care lawfully provided in Maine as against public policy. Maine Family Planning and Planned Parenthood of Northern New England offer hormone therapy from **age 16**; PPNNE requires parental consent for 16- and 17-year-olds. For a minor's birth certificate change, a licensed provider must sign a declaration (see the birth certificate guide).
+    es: |
+      Legal. Maine no prohíbe la atención de afirmación de género para menores. Su ley escudo (14 M.R.S. cap. 763, promulgada en 2024) declara que el acceso a esta atención es un derecho legal en Maine y considera contrarios al orden público los intentos de otros estados de castigar la atención legal brindada en Maine. Maine Family Planning y Planned Parenthood of Northern New England ofrecen terapia hormonal desde los **16 años**; PPNNE exige consentimiento de los padres para jóvenes de 16 y 17 años.
+  sources: [shield-9001, ld227, mfp-gaht, ppnne-portland]
+medicaid:
+  program_name: MaineCare
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      The MaineCare Benefits Manual reimburses providers for covered services "to treat a member with gender dysphoria" (Ch. II § 90.04-33, Transgender Services). **Surgery** requires prior authorization and letters from **two qualified Maine-licensed health professionals** who assessed you independently; medical necessity may be judged using WPATH Standards of Care (§ 90.05-1(A)(4)).
+
+      Maine expanded Medicaid, so adults with income up to about 138% of the federal poverty level can qualify. **Apply** online at My Maine Connection, by phone, or at a DHHS Office for Family Independence office. Maine Family Planning can also enroll uninsured people in MaineCare's limited family planning benefit, but that benefit does **not** cover gender-affirming care or hormones.
+    es: |
+      El Manual de Beneficios de MaineCare reembolsa a los proveedores por servicios cubiertos "para tratar a un miembro con disforia de género" (Cap. II § 90.04-33). La **cirugía** requiere autorización previa y cartas de **dos profesionales de salud con licencia en Maine** que te evaluaron por separado; la necesidad médica puede juzgarse con los Estándares de Atención de WPATH.
+
+      Maine expandió Medicaid, así que adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza pueden calificar. **Solicita** en My Maine Connection o en una oficina de DHHS. El beneficio limitado de planificación familiar **no** cubre la atención de afirmación de género.
+  how_to_apply_url: https://www.mymaineconnection.gov/benefits/s/?language=en_US
+  sources: [mainecare-90, ofi-health, mfp-gaht]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Maine's Health Plan Improvement Act (24-A M.R.S. § 4320-L, since 2019) bars state-regulated health plans from categorical exclusions of "all health services related to gender transition," from denying sex-specific care to trans people, and from other discriminatory limits on transition care. Plans may still decide medical necessity case by case. If your plan denies care, appeal with the plan first, then file a complaint with the **Maine Bureau of Insurance**. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates.
+
+      **CoverME.gov** is Maine's health insurance marketplace, where you can compare plans and get help paying premiums.
+    es: |
+      La ley de Maine (24-A M.R.S. § 4320-L, desde 2019) prohíbe a los planes regulados por el estado excluir de forma categórica "todos los servicios de salud relacionados con la transición de género" y negar atención específica de un sexo a personas trans. Si tu plan niega la atención, apela ante el plan y luego presenta una queja ante el **Buró de Seguros de Maine**. Los planes autofinanciados de empleadores se rigen por la ley federal.
+
+      **CoverME.gov** es el mercado de seguros médicos de Maine.
+  complaint_url: https://www.maine.gov/pfr/insurance/consumers/file-a-complaint-dispute/life-health-complaint-form
+  sources: [mrs-4320l, boi-complaint, coverme]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: maine-family-planning
+    name: Maine Family Planning, gender clinics
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Hormone therapy and monitoring for trans people 16 and older, on-site self-injection lessons, referrals, STI testing, and wellness care. Providers in Ellsworth, Farmington, Lewiston, Norway, Belfast, Thomaston, and Bangor, with telehealth to sites closer to home. Accepts MaineCare, Medicare, and private insurance; sliding fee scale for gender-affirming care if uninsured. Call 207-922-3222.
+      es: Terapia hormonal y seguimiento para personas trans de 16 años o más, clases de autoinyección, referencias, pruebas de ITS y atención preventiva. Proveedores en Ellsworth, Farmington, Lewiston, Norway, Belfast, Thomaston y Bangor, con telesalud. Acepta MaineCare, Medicare y seguros privados; escala móvil si no tienes seguro. Llama al 207-922-3222.
+    url: https://mainefamilyplanning.org/gender-affirming-healthcare/
+    phone: "207-922-3222"
+    areas_served:
+      en: Statewide, especially central, western, and eastern Maine
+      es: Todo el estado, especialmente el centro, oeste y este de Maine
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [mfp-gaht]
+  - id: ppnne-maine
+    org: planned-parenthood
+    name: Planned Parenthood of Northern New England (Maine health centers)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy at Maine health centers (Portland, Biddeford, Sanford, Topsham) and a virtual health center, for people 16 and older; 16- and 17-year-olds need parental consent. Also PrEP and PEP, STI testing, and payment plans.
+      es: Terapia hormonal de afirmación de género en los centros de Maine (Portland, Biddeford, Sanford, Topsham) y un centro virtual, para personas de 16 años o más; los de 16 y 17 necesitan consentimiento de los padres. También PrEP y PEP, pruebas de ITS y planes de pago.
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england
+    cost: varies
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ppnne-portland, ppnne-centers]
+  - id: mainecare-apply
+    name: MaineCare application (DHHS Office for Family Independence)
+    type: government_office
+    pillars: [insurance, hrt]
+    description:
+      en: Apply for MaineCare online through My Maine Connection or at a DHHS office. MaineCare covers hormone therapy and, with prior authorization, gender-affirming surgery.
+      es: Solicita MaineCare en línea en My Maine Connection o en una oficina de DHHS. MaineCare cubre la terapia hormonal y, con autorización previa, la cirugía.
+    url: https://www.maine.gov/dhhs/ofi/programs-services/health-care-assistance
+    cost: free
+    verification: official_source
+    sources: [ofi-health]
+  - id: prep207
+    name: PrEP207
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Network of Maine community organizations and providers that helps people get PrEP and PEP, with free navigators; call or text 207-553-PREP. Coordinated from the Frannie Peabody Center in Portland.
+      es: Red de organizaciones y proveedores de Maine que ayuda a obtener PrEP y PEP, con navegadores gratuitos; llama o envía texto al 207-553-PREP.
+    url: https://prep207.org/
+    phone: "207-553-7737"
+    cost: free
+    verification: org_website
+    sources: [prep207]
+  - id: hrsa-fqhc
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers, which must serve everyone on a sliding fee scale regardless of ability to pay.
+      es: Buscador federal de centros de salud comunitarios, que deben atender a todos con escala móvil sin importar la capacidad de pago.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-me
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy; applications each May) and surgery, electrolysis, and binder programs.
+      es: Fondos nacionales para quienes no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis; solicitudes cada mayo) y programas de cirugía, electrólisis y binders.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-me
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and other transition costs, including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y otros costos de transición, incluidas hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including employer self-funded plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: 14 M.R.S. ch. 763, § 9001 et seq. (LD 227, PL 2023 c. 648)
+    title:
+      en: Legally protected health care activity (shield law for gender-affirming and reproductive care), signed April 22, 2024
+      es: Actividad de atención médica legalmente protegida (ley escudo)
+    url: https://legislature.maine.gov/statutes/14/title14ch763sec0.html
+  - cite: 24-A M.R.S. § 4320-L
+    title:
+      en: Health plan nondiscrimination, including a ban on categorical exclusions of gender transition care
+      es: No discriminación en planes de salud
+    url: https://legislature.maine.gov/statutes/24-A/title24-Asec4320-L.html
+  - cite: 10-144 C.M.R. ch. 101, Ch. II § 90 (MaineCare Benefits Manual, Physician Services)
+    title:
+      en: Transgender Services (90.04-33) and gender dysphoria related surgery prior authorization (90.05-1(A)(4))
+      es: Servicios transgénero y cirugía relacionada con disforia de género
+    url: https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual
+sources:
+  - id: shield-9001
+    url: https://legislature.maine.gov/statutes/14/title14sec9001.html
+    title: 14 M.R.S. § 9001, Legislative findings and declaration of policy
+    publisher: Maine Legislature, Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Access to gender-affirming health care services and reproductive health care services in this State, as authorized under the laws of this State, is a legal right
+  - id: ld227
+    url: "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=227&SessionID=15"
+    title: LD 227 (131st Legislature), An Act Regarding Legally Protected Health Care Activity in the State
+    publisher: Maine Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Signed by the Governor. Chapter 648. Public Law. Date 4/22/2024"
+  - id: mrs-4320l
+    url: https://legislature.maine.gov/statutes/24-A/title24-Asec4320-L.html
+    title: 24-A M.R.S. § 4320-L, Nondiscrimination
+    publisher: Maine Legislature, Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A carrier may not ... Have or implement a categorical coverage exclusion or limitation for all health services related to gender transition
+  - id: mainecare-90
+    url: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/c2s090%2005.14.2022%20%28ACK%29.docx"
+    title: MaineCare Benefits Manual, Chapter II, Section 90, Physician Services
+    publisher: Maine DHHS, Office of MaineCare Services (via Secretary of State rules page)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Physicians and rendering providers will be reimbursed for providing MaineCare covered services to treat a member with gender dysphoria ... Coverage for surgical services related to gender dysphoria will require a prior authorization
+  - id: ofi-health
+    url: https://www.maine.gov/dhhs/ofi/programs-services/health-care-assistance
+    title: Health Care Assistance (MaineCare)
+    publisher: Maine DHHS, Office for Family Independence
+    kind: official
+    accessed: "2026-09-24"
+  - id: boi-complaint
+    url: https://www.maine.gov/pfr/insurance/consumers/file-a-complaint-dispute/life-health-complaint-form
+    title: Life/Health Complaint Form
+    publisher: Maine Bureau of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: coverme
+    url: https://www.coverme.gov/
+    title: CoverME.gov
+    publisher: State of Maine
+    kind: official
+    accessed: "2026-09-24"
+  - id: mfp-gaht
+    url: https://mainefamilyplanning.org/gender-affirming-healthcare/
+    title: Gender-Affirming Healthcare
+    publisher: Maine Family Planning
+    kind: org
+    accessed: "2026-09-24"
+    quote: Hormonal transition therapy & monitoring for trans people 16 years old & over ... For gender-affirming healthcare services, we do have a sliding fee scale based on household income for people without insurance
+  - id: ppnne-portland
+    url: https://www.plannedparenthood.org/health-center/maine/portland/04101/portland-health-center-2940-91770/gender-affirming-care
+    title: Hormone Therapy and Gender-Affirming Care in Portland, ME
+    publisher: Planned Parenthood of Northern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: At our health centers in Maine, GAHT is offered to people 16 years of age and older. 16 and 17-year-olds will need parental consent.
+  - id: ppnne-centers
+    url: https://www.plannedparenthood.org/health-center/maine
+    title: Planned Parenthood health centers in Maine
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+  - id: prep207
+    url: https://prep207.org/
+    title: PrEP207
+    kind: org
+    accessed: "2026-09-24"
+    quote: PrEP207 is a collection of community-based organizations and service providers dedicated to helping patients get access to PrEP, PEP, and other crucial HIV services in Maine.
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

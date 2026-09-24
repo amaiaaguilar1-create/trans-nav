@@ -1,0 +1,412 @@
+guide_type: name_change
+jurisdiction: ME
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (18-C MRSA § 1-701) read on the Legislature's site 2026-09-24: $75 filing fee, no public notice for adults,
+    mandatory criminal history record check, optional confidentiality (sub-§ 3-A) and optional non-transmission of the
+    abstract to the State Bureau of Identification (sub-§ 3-B). CN-1 text read from the PDF (maineprobate.net blocks
+    curl; the PDF was retrieved through WebFetch). Open items for the reviewer: (1) the cost of the background check,
+    if any, is not published; (2) no statewide Probate Court fee-waiver form number was found (PTLA says courts may
+    waive fees on a financial showing; confirm the form each county uses, and whether Cumberland uses one); (3) hearing
+    practice varies by county per PTLA; confirm Cumberland's; (4) the Cumberland fee schedule on the county site is
+    dated 2021 and still lists a $30 adult publication fee, which is obsolete under § 1-701(2); (5) Certificate of Name
+    Change fee ($10) is Cumberland's; other counties not checked. Cross-check: A4TE's Maine page still says publication
+    is required unless waived and cites repealed Title 18-A; the current statute says the court may not require public
+    notice for adults, so the statute is followed here. MAP agrees there is no publication requirement.
+status: available
+status_summary:
+  en: >-
+    Maine adults change their name by filing a petition (form CN-1) in the Probate Court of the county where they live.
+    The filing fee is $75, there is no newspaper publication, and the court runs a routine criminal background check.
+    You can ask the court to keep the name change confidential. If you were born in Maine, you may be able to skip
+    court entirely for a first and middle name change by doing it together with your birth certificate gender marker.
+  es: >-
+    En Maine, las personas adultas cambian su nombre presentando una petición (formulario CN-1) en el Tribunal de
+    Sucesiones (Probate Court) del condado donde viven. La tarifa es de $75, no hay publicación en periódico y el
+    tribunal hace una verificación rutinaria de antecedentes penales. Puedes pedir que el cambio sea confidencial. Si
+    naciste en Maine, quizás puedas evitar el tribunal para cambiar tu primer y segundo nombre haciéndolo junto con el
+    cambio de marcador de género en tu acta de nacimiento.
+summary:
+  en: |
+    Name changes in Maine are handled by the **Probate Court** in each county. Each county runs its own court, so small details (extra forms, whether you must attend a hearing) vary. The state law, 18-C M.R.S. § 1-701, sets the basics everywhere: a **$75 filing fee**, **no public notice** for adults, and a **criminal history record check** for every adult petitioner.
+
+    Maine does not require you to give a gender-related reason. The petition asks why you want the change; any honest answer works, for example "This is the name I use and I want it to be my legal name."
+
+    **Shortcut for people born in Maine:** if you are changing your gender marker on your Maine birth certificate, you can change your **first and middle names** on that same application (form VS-7), without a court order. That changes the birth certificate only. Many agencies (Social Security, banks) will still ask for a court order or the amended birth certificate as proof, so read the birth certificate guide before deciding. A last name change always needs the Probate Court.
+  es: |
+    En Maine, los cambios de nombre los tramita el **Tribunal de Sucesiones (Probate Court)** de cada condado. Cada condado administra su propio tribunal, así que algunos detalles (formularios adicionales, si debes asistir a una audiencia) varían. La ley estatal, 18-C M.R.S. § 1-701, fija lo básico: una **tarifa de $75**, **sin aviso público** para adultos y una **verificación de antecedentes penales** para toda persona adulta.
+
+    Maine no exige que des una razón relacionada con el género. La petición pregunta por qué quieres el cambio; cualquier respuesta honesta sirve.
+
+    **Atajo para personas nacidas en Maine:** si cambias el marcador de género en tu acta de nacimiento de Maine, puedes cambiar tu **primer y segundo nombre** en la misma solicitud (formulario VS-7), sin orden judicial. Eso solo cambia el acta. El apellido siempre requiere el Probate Court.
+eligibility:
+  residency:
+    en: File in the Probate Court of the Maine county where you live.
+    es: Presenta la petición en el Probate Court del condado de Maine donde vives.
+  age:
+    en: 18 or older for the adult petition (CN-1). For people under 18, see the Minors section.
+    es: 18 años o más para la petición de adultos (CN-1). Para menores de 18, ver la sección Menores.
+  criminal_history:
+    en: >-
+      Every adult petitioner goes through a criminal history record check. A record does not automatically bar a name
+      change, but the court may not grant a change it believes is meant to defraud anyone, and there is a presumption
+      against the change if you are currently on probation, parole, or supervised release as a sex offender, or must
+      register as a sex offender.
+    es: >-
+      Toda persona adulta pasa por una verificación de antecedentes penales. Tener antecedentes no impide
+      automáticamente el cambio, pero hay una presunción en contra si estás actualmente en libertad condicional,
+      libertad supervisada como agresor sexual o debes registrarte como agresor sexual.
+  sources: [mrs-1-701, cn1]
+forms:
+  - id: CN-1
+    name:
+      en: Petition for Change of Name (Adult)
+      es: Petición de cambio de nombre (adulto)
+    url: "https://www.maineprobate.net/forms2019/Name%20Change%20Adult/CN-1%20Name%20Change%20Petition%20(Rev.%2011-03-24).pdf"
+    required: always
+    how_to_fill:
+      en: |
+        - Items 1 to 5: your current legal name, address, email, date of birth, and every name you have been known by (including your birth name).
+        - Item 6: the new name you want. Check spelling carefully; the certificate copies it exactly.
+        - Item 7 (reasons): there is no required reason. A short, honest sentence is enough, such as "This is the name I use and I want it to be my legal name." You do not have to mention being trans.
+        - Item 8: acknowledges the court will run a criminal history check (and may run a motor vehicle or credit check).
+        - Item 9, confidentiality: check the first box if you want the name change order kept **confidential** and explain why (for example, you fear harassment or violence if your former name is linked to your new name). The court weighs whether you are a victim of abuse, whether you reasonably fear for your safety, and whether you are in the Address Confidentiality Program.
+        - Item 9, State Bureau of Identification: check the second box only if there are **extraordinary circumstances** for not sending an abstract of the order to the State Bureau of Identification; this is only available together with a confidentiality order.
+        - Sign using your **current** legal name in front of a notary, the Register of Probate, or an attorney (page 3).
+      es: |
+        - Puntos 1 a 5: tu nombre legal actual, dirección, correo, fecha de nacimiento y todos los nombres que has usado.
+        - Punto 6: el nombre nuevo. Revisa la ortografía.
+        - Punto 7 (razones): no hay una razón obligatoria. Una frase breve y honesta es suficiente. No tienes que mencionar que eres trans.
+        - Punto 9, confidencialidad: marca la primera casilla si quieres que la orden sea **confidencial** y explica por qué (por ejemplo, temor a acoso o violencia).
+        - Punto 9, Oficina Estatal de Identificación: marca la segunda casilla solo si hay **circunstancias extraordinarias**; solo es posible junto con una orden de confidencialidad.
+        - Firma con tu nombre legal **actual** ante un notario, el Registro de Sucesiones o un abogado.
+    sources: [cn1, ptla-guide]
+  - id: AF-103
+    name:
+      en: Affidavit by Adult Seeking to Have Name Changed
+      es: Declaración jurada de adulto que solicita cambio de nombre
+    url: "https://www.maineprobate.net/forms2019/affidavits/AF-103%20Affidavit%20of%20Name%20Change%20for%20Adult%20Rev.%209-19.pdf"
+    required: conditional
+    condition:
+      en: Most Probate Courts require it. You swear you are not changing your name to avoid debts or criminal charges. Must be notarized.
+      es: La mayoría de los tribunales la exigen. Declaras que no cambias tu nombre para evitar deudas o cargos penales. Debe notarizarse.
+    sources: [probate-forms, ptla-guide]
+  - id: AF-101
+    name:
+      en: Jurisdictional Affidavit (Probate)
+      es: Declaración jurada de jurisdicción (Sucesiones)
+    url: "https://www.maineprobate.net/forms2019/affidavits/AF-101%20Jurisdictional%20Affidavit%20(Rev.%2003-01-2025).pdf"
+    required: conditional
+    condition:
+      en: Required for minor name changes and some other family cases; ask your Probate Court whether it wants one with an adult petition.
+      es: Requerida para cambios de nombre de menores y otros casos familiares; pregunta si tu tribunal la quiere con una petición de adulto.
+    sources: [probate-forms, ptla-topic]
+steps:
+  - id: gather
+    title:
+      en: Get the forms and a recent birth certificate
+      es: Consigue los formularios y un acta de nacimiento reciente
+    body:
+      en: |
+        Download CN-1 and AF-103 from the Maine Probate Courts forms page, or pick them up at your county Registry of Probate (a small charge of $1 to $5 may apply). Courts may prefer their own printed copy, so call ahead. Pine Tree Legal Assistance reports that courts ask for a **certified copy of your birth certificate issued within the last 6 months** and a government photo ID. If you were born in Maine, a certified copy costs $15 from Vital Records.
+      es: |
+        Descarga CN-1 y AF-103 de la página de formularios de los Probate Courts de Maine, o recógelos en el Registro de Sucesiones de tu condado. Según Pine Tree Legal Assistance, los tribunales piden una **copia certificada de tu acta de nacimiento emitida en los últimos 6 meses** y una identificación oficial con foto. Si naciste en Maine, una copia certificada cuesta $15.
+    forms: [CN-1, AF-103]
+    sources: [probate-forms, ptla-guide]
+  - id: fill-notarize
+    title:
+      en: Fill out the petition and affidavit and have them notarized
+      es: Llena la petición y la declaración jurada y notarízalas
+    body:
+      en: Sign both in front of a notary. Notaries are available at many town offices, banks, and at the Registry of Probate, often free. Decide now whether to ask for confidentiality (item 9 on CN-1).
+      es: Firma ambos ante un notario. Hay notarios en muchas oficinas municipales, bancos y en el Registro de Sucesiones, a menudo gratis. Decide si pedirás confidencialidad (punto 9 del CN-1).
+    forms: [CN-1, AF-103]
+    sources: [cn1, ptla-guide]
+  - id: file
+    title:
+      en: File at the Probate Court in your county and pay $75
+      es: Presenta los documentos en el Probate Court de tu condado y paga $75
+    body:
+      en: |
+        Hand the forms to the Registry of Probate clerk and pay the $75 filing fee. If you cannot afford it, ask the clerk for the fee waiver paperwork before you pay; the court may waive fees or set up a payment plan. If you are married, ask whether your court requires notice to your spouse (your spouse can sign waiver form N-107); you can ask the court to skip spouse notice if you fear for your safety.
+      es: |
+        Entrega los formularios al secretario del Registro de Sucesiones y paga la tarifa de $75. Si no puedes pagarla, pide los formularios de exención antes de pagar; el tribunal puede exentar la tarifa o establecer un plan de pagos. Si estás casado/a, pregunta si tu tribunal exige notificar a tu cónyuge; puedes pedir que no se notifique si temes por tu seguridad.
+    fees: [filing]
+    sources: [mrs-1-701, ptla-guide]
+  - id: background
+    title:
+      en: The court runs a background check
+      es: El tribunal hace una verificación de antecedentes
+    body:
+      en: The court orders a criminal history record check through the State Bureau of Identification, and may also check your driving record or credit. You do not usually need to do anything; the results are confidential and destroyed after the case is decided.
+      es: El tribunal solicita una verificación de antecedentes penales a la Oficina Estatal de Identificación, y puede revisar tu historial de manejo o crédito. Normalmente no tienes que hacer nada; los resultados son confidenciales.
+    sources: [mrs-1-701, cn1]
+  - id: hearing
+    title:
+      en: Attend the hearing if your court requires it
+      es: Asiste a la audiencia si tu tribunal la exige
+    body:
+      en: The court schedules the petition on its docket and sends you the date. Some Probate Courts require you to appear; others decide on the papers. Call your Registry of Probate to ask.
+      es: El tribunal programa la petición y te envía la fecha. Algunos tribunales exigen que comparezcas; otros deciden con los documentos. Llama al Registro de Sucesiones para preguntar.
+    sources: [ptla-guide]
+  - id: certificate
+    title:
+      en: Get your Certificate of Name Change and extra copies
+      es: Obtén tu Certificado de Cambio de Nombre y copias adicionales
+    body:
+      en: |
+        When the judge approves, the court mails you a **Certificate of Name Change**. Buy a few extra certified certificates: Social Security, the BMV, the passport agency, and banks each want to see one. In Cumberland County each certificate costs $10. If you were born in Maine, ask the court for the **VS-14** form, which you send with $60 to Vital Records to update your birth certificate.
+      es: |
+        Cuando el juez lo aprueba, el tribunal te envía por correo un **Certificado de Cambio de Nombre**. Compra varias copias certificadas. En el condado de Cumberland cada certificado cuesta $10. Si naciste en Maine, pide al tribunal el formulario **VS-14** para actualizar tu acta de nacimiento ($60).
+    fees: [certificate]
+    sources: [ptla-guide, cumberland-fees]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free).
+        2. **Maine BMV** license or ID, within 30 days (see the driver's license guide).
+        3. **Birth certificate** if born in Maine (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis).
+        2. Licencia o identificación del **BMV de Maine**, dentro de 30 días.
+        3. **Acta de nacimiento** si naciste en Maine.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [ptla-guide]
+fees:
+  - id: filing
+    label:
+      en: Probate Court filing fee, name change petition
+      es: Tarifa de presentación, petición de cambio de nombre
+    amount: 75
+    waivable: true
+    note:
+      en: Set by statute (18-C M.R.S. § 1-701(4)). There is no publication cost for adults. The court may charge you for the background check; no amount is published.
+      es: Fijada por ley (18-C M.R.S. § 1-701(4)). No hay costo de publicación para adultos. El tribunal puede cobrar la verificación de antecedentes; no se publica un monto.
+    sources: [mrs-1-701, ptla-guide]
+  - id: certificate
+    label:
+      en: Certificate of Name Change (each)
+      es: Certificado de Cambio de Nombre (cada uno)
+    amount: 10
+    varies_by: county
+    note:
+      en: Cumberland County fee. Attested or certified copies of other documents are $1 per page plus $5 per document there.
+      es: Tarifa del condado de Cumberland. Las copias certificadas de otros documentos cuestan $1 por página más $5 por documento.
+    sources: [cumberland-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: The Probate Court may waive fees if you cannot afford them. You will need to give the court information about your income, expenses, and any public benefits (MaineCare, SNAP, SSI, TANF).
+    es: El Probate Court puede exentar las tarifas si no puedes pagarlas. Tendrás que dar información sobre tus ingresos, gastos y beneficios públicos.
+  how:
+    en: Ask the Registry of Probate clerk for the fee waiver forms when you file. The court may also offer a payment plan.
+    es: Pide los formularios de exención al secretario del Registro de Sucesiones al presentar. El tribunal también puede ofrecer un plan de pagos.
+  sources: [ptla-guide]
+publication:
+  required: "no"
+  detail:
+    en: For adults, the court may not require public notice before approving a name change (18-C M.R.S. § 1-701(2)). Some older county fee schedules still list a publication fee; that is out of date.
+    es: Para adultos, el tribunal no puede exigir aviso público antes de aprobar un cambio de nombre (18-C M.R.S. § 1-701(2)).
+  waiver_available: true
+  sources: [mrs-1-701, ptla-guide]
+hearing:
+  required: conditional
+  detail:
+    en: The statute does not require a hearing for adults. In practice the court schedules one; some counties require you to attend and others do not. Ask your Registry of Probate.
+    es: La ley no exige audiencia para adultos. En la práctica el tribunal programa una; algunos condados exigen tu presencia y otros no.
+  sources: [mrs-1-701, ptla-guide]
+background_check:
+  required: "yes"
+  detail:
+    en: The court must run a criminal history record check on every adult petitioner and may also check your motor vehicle record or credit (18-C M.R.S. § 1-701(5)). The court may make you pay for the checks. After the order, an abstract (old name, new name, date of birth) is sent to the State Bureau of Identification unless the court, in a confidential case, finds extraordinary circumstances not to send it.
+    es: El tribunal debe verificar los antecedentes penales de toda persona adulta y puede revisar tu historial de manejo o crédito. Después de la orden, se envía un resumen a la Oficina Estatal de Identificación salvo que el tribunal decida lo contrario en un caso confidencial.
+  sources: [mrs-1-701, cn1]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      Adult name change orders are **public by default**. You can ask the court to make yours confidential. The court grants it if your interest in confidentiality outweighs the public interest, considering whether you are a victim of abuse, whether you reasonably fear for your safety, whether you are in the Address Confidentiality Program, and your background check. There is a presumption against confidentiality for recent serious convictions, and it is not available if you are on probation, parole, or sex-offender supervision or registration.
+    es: |
+      Las órdenes de cambio de nombre de adultos son **públicas por defecto**. Puedes pedir que la tuya sea confidencial. El tribunal la concede si tu interés supera el interés público, considerando si eres víctima de abuso, si temes razonablemente por tu seguridad y si participas en el Programa de Confidencialidad de Domicilio.
+  how:
+    en: Check the confidentiality box in item 9 of CN-1 and explain your reasons. Fear of harassment or violence as a trans person is a relevant reason to describe.
+    es: Marca la casilla de confidencialidad en el punto 9 del CN-1 y explica tus razones.
+  sources: [mrs-1-701, cn1]
+minors:
+  summary:
+    en: |
+      A parent or guardian files in the Probate Court of the county where the child lives, using **NC-001** (Petition for Change of Name, Child) plus a jurisdictional affidavit; if a family matter is already open in District Court, the request goes there instead. The petitioner must give notice to the other parent, any guardian or custodian, and the child if 14 or older. If everyone agrees (they can sign **NC-003**, Waiver and Consent), the court must grant the change. If not, the judge decides based on the child's best interest, including the child's preference, whether a child 14 or older consents, how much the child already uses the name, and any harassment or embarrassment the child faces with the current name. The court may make a minor's name change confidential and may limit notice when there is abuse or a safety fear.
+    es: |
+      Un padre, madre o tutor presenta la petición en el Probate Court del condado donde vive el menor, con el formulario **NC-001** y una declaración jurada de jurisdicción. Se debe notificar al otro padre, a cualquier tutor y al menor si tiene 14 años o más. Si todos están de acuerdo (pueden firmar **NC-003**), el tribunal debe conceder el cambio. Si no, el juez decide según el interés superior del menor, incluida su preferencia, si consiente cuando tiene 14 años o más, y cuánto usa ya el nombre. El tribunal puede hacer confidencial el cambio de un menor.
+  sources: [mrs-1-701, probate-forms, ptla-minor]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the county Registry of Probate. Some counties may accept filings by mail; call first.
+    es: Presenta en persona en el Registro de Sucesiones del condado. Algunos condados aceptan por correo; llama antes.
+  sources: [ptla-guide]
+timeline:
+  en: Varies by county, usually several weeks to a few months from filing to the certificate, depending on the background check and the hearing schedule.
+  es: Varía por condado; normalmente de varias semanas a unos meses desde la presentación hasta el certificado.
+after:
+  en: |
+    Start with **Social Security** (bring the Certificate of Name Change and photo ID; the name can change, the sex field currently cannot). Then the **Maine BMV** within 30 days ($5 replacement fee for a standard card, $30 for REAL ID). If you were born in Maine, update your **birth certificate** with the VS-14 from the court and $60. Then your **passport** (name changes are processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el Certificado de Cambio de Nombre e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego el **BMV de Maine** dentro de 30 días ($5 por tarjeta estándar, $30 por REAL ID). Si naciste en Maine, actualiza tu **acta de nacimiento** con el VS-14 del tribunal y $60. Después el **pasaporte** (se procesan cambios de nombre, no de sexo a septiembre de 2026), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: The Registry of Probate staff can explain the forms and local practice; they cannot give legal advice, but asking them saves trips.
+    es: El personal del Registro de Sucesiones puede explicar los formularios y la práctica local.
+  - en: If you were born in Maine and only need your first and middle names changed along with your gender marker, the VS-7 birth certificate route costs $60 and skips court, but it does not produce a court order. If you will need a court order for other states, banks, or immigration, file CN-1.
+    es: Si naciste en Maine y solo necesitas cambiar tu primer y segundo nombre junto con tu marcador de género, la vía VS-7 cuesta $60 y evita el tribunal, pero no produce una orden judicial.
+  - en: GLAD Law's Transgender ID Project gives free help to New Englanders updating their name and gender marker; fill out its intake form.
+    es: El Transgender ID Project de GLAD Law ayuda gratis a residentes de Nueva Inglaterra a cambiar nombre y marcador de género.
+local_help:
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project and GLAD Law Answers
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help for trans people in New England updating their legal name and gender marker on state and federal documents, with pro bono attorneys from partner firms. GLAD Law Answers is a free, confidential legal information line (online intake or voicemail at 800-455-GLAD); replies within about 3 working days.
+      es: Ayuda gratuita para personas trans en Nueva Inglaterra que actualizan su nombre y marcador de género, con abogados voluntarios. GLAD Law Answers es una línea de información legal gratuita y confidencial (formulario en línea o buzón al 800-455-GLAD).
+    url: https://www.gladlaw.org/id/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-id, glad-answers]
+  - id: ptla
+    name: Pine Tree Legal Assistance
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide free civil legal aid for low-income Mainers. Publishes a detailed, current guide to changing your name and gender marker in Maine, and may be able to help directly, especially if you have safety concerns about notice.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Publica una guía detallada sobre cambio de nombre y marcador de género en Maine.
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    cost: free
+    verification: org_website
+    sources: [ptla-guide]
+  - id: mainetransnet
+    name: MaineTransNet
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Statewide trans-led organization running peer support groups and community programs, based at the Equality Community Center in Portland.
+      es: Organización estatal dirigida por personas trans, con grupos de apoyo entre pares y programas comunitarios, con sede en el Equality Community Center de Portland.
+    url: https://www.mainetrans.net/
+    address: 15 Casco St, Portland, ME 04101
+    cost: free
+    verification: org_website
+    sources: [mainetransnet]
+  - id: genderbands-me
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: Small grants for transition costs, including legal name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: 18-C M.R.S. § 1-701
+    title:
+      en: Process to change name (Probate Court; $75 fee; no public notice for adults; background check; confidentiality)
+      es: Proceso de cambio de nombre
+    url: https://legislature.maine.gov/statutes/18-C/title18-Csec1-701.html
+related_links:
+  - title: Pine Tree Legal Assistance, How to change your name and gender marker in Maine
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    note:
+      en: Last updated September 2025.
+      es: Actualizado en septiembre de 2025.
+  - title: Advocates for Trans Equality, Maine identity documents
+    url: https://transequality.org/documents/maine-identity-documents
+    note:
+      en: Undated; parts are out of date (it still describes a publication requirement and cites repealed Title 18-A).
+      es: Sin fecha; partes están desactualizadas (aún describe un requisito de publicación).
+  - title: GLAD Law, Transgender ID Project quick reference guides
+    url: https://www.gladlaw.org/id/
+sources:
+  - id: mrs-1-701
+    url: https://legislature.maine.gov/statutes/18-C/title18-Csec1-701.html
+    title: 18-C M.R.S. § 1-701, Process to change name
+    publisher: Maine Legislature, Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court may not require public notice before approving the name change. ... The fee for filing a name change petition is $75. ... The court shall require an adult seeking a name change to undergo a criminal history record check.
+  - id: cn1
+    url: "https://www.maineprobate.net/forms2019/Name%20Change%20Adult/CN-1%20Name%20Change%20Petition%20(Rev.%2011-03-24).pdf"
+    title: Form CN-1, Petition for Change of Name (Adult), Rev. 11/03/24
+    publisher: Maine Probate Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: The name change order be confidential. I assert that the public interest in being aware of my name change is outweighed by my interest in maintaining the confidentiality of the name change for the following reasons
+  - id: probate-forms
+    url: https://www.maineprobate.net/welcome/probateforms-2019/
+    title: Probate Court forms
+    publisher: Maine Probate Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: "CN-1 Petition Name Change Adult; NC-001 Petition for Name Change of Minor; NC-003 Waiver & Consent; AF-101 Jurisdictional Affidavit; AF-103 Affidavit of Name Change for Adult"
+  - id: cumberland-fees
+    url: "https://www.cumberlandcountyme.gov/Departments/Probate%20Court/2021%20Fee%20Schedule_202112030846466186.pdf"
+    title: Register of Probate and Probate Court fee schedule (effective 10-18-2021)
+    publisher: Cumberland County, Maine
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Petition for Change of Name $75.00 ... Certificate of Appointment/Name Change/Adoption/Guardianship/Conservatorship $10.00 per certificate"
+  - id: ptla-guide
+    url: https://www.ptla.org/maine-name-gender-change-guide
+    title: How to change your name and gender marker in Maine (last updated September 2025)
+    publisher: Pine Tree Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+    quote: Publication of a name change in the local paper is no longer required in Maine. ... Some courts require you to come to the hearing. Others don't.
+  - id: ptla-topic
+    url: https://www.ptla.org/self-help/divorce-custody-family/name-gender-marker-change
+    title: Name and gender marker change (topic page)
+    publisher: Pine Tree Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: ptla-minor
+    url: https://www.ptla.org/minor-name-changes-maine
+    title: Minor name changes in Maine
+    publisher: Pine Tree Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-id
+    url: https://www.gladlaw.org/id/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: Free resources for transgender people living in New England (Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, or Vermont) seeking to update their legal name and gender on federal and state documents.
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: GLAD Law Answers is a free and confidential legal information line ... or leave a voicemail at 800-455-GLAD.
+  - id: mainetransnet
+    url: https://www.mainetrans.net/
+    title: MaineTransNet
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
