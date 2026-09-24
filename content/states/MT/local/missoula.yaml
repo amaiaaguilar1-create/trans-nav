@@ -1,0 +1,202 @@
+jurisdiction: MT
+slug: missoula
+name: Missoula
+area:
+  en: Missoula County and western Montana
+  es: Condado de Missoula y el oeste de Montana
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Missoula chosen over Billings because it has the longest-running trans care provider (Blue Mountain Clinic), HIV
+    and testing services (Open Aid Alliance), and the courts where the major trans rights cases were filed. Billings
+    has 406 Pride (406pride.org) but I found fewer clinical services there. Open items: (1) the Western Montana LGBTQ+
+    Community Center's former site (gaymontana.org) now shows a blank directory listing; I could not find a current
+    site, so it is omitted. (2) Montana Human Rights Network's site (mhrn.org) shows "Website Expired"; omitted. (3)
+    Planned Parenthood of Montana's Missoula center details and hormone therapy availability are unverified (403).
+    (4) Filing fee total at Missoula County Clerk of District Court is not published online; call 406-258-4780.
+    Open Aid Alliance details come from a 2026 Wayback capture because the live site returns 403.
+intro:
+  en: >-
+    Missoula has western Montana's most established trans health services, including a clinic that has provided
+    hormone therapy for more than a decade, free STI and HIV testing, and statewide legal and advocacy groups. Name
+    change petitions for Missoula County residents are filed with the Clerk of District Court at the Missoula County
+    Courthouse.
+  es: >-
+    Missoula tiene los servicios de salud trans más establecidos del oeste de Montana, incluida una clínica que ofrece
+    terapia hormonal desde hace más de una década, pruebas gratuitas de ITS y VIH, y grupos legales y de defensa a
+    nivel estatal. Las peticiones de cambio de nombre de residentes del condado de Missoula se presentan ante el
+    Secretario del Tribunal de Distrito en el Palacio de Justicia del condado.
+court:
+  name: Montana Fourth Judicial District Court, Missoula County (Clerk of District Court)
+  url: https://www.missoulacounty.gov/departments/district-court/
+  self_help_url: https://courts.mt.gov/forms/namechange
+  notes:
+    en: The Clerk of District Court is on the second floor of the Missoula County Courthouse, 200 West Broadway, Missoula, MT 59802 (406-258-4780), open 8 a.m. to 5 p.m. weekdays. The office accepts cash, money orders, and credit/debit cards (with a processing fee), not personal checks. Call to confirm the total filing fee.
+    es: El Secretario del Tribunal de Distrito está en el segundo piso del Palacio de Justicia, 200 West Broadway, Missoula, MT 59802 (406-258-4780), de 8 a.m. a 5 p.m. entre semana. Acepta efectivo, giros postales y tarjetas (con cargo), no cheques personales.
+  sources: [missoula-clerk, courts-namechange-page]
+resources:
+  - id: blue-mountain-clinic
+    name: Blue Mountain Clinic
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, name_change]
+    description:
+      en: Family medicine clinic with more than a decade of gender-affirming care; hormone therapy, walk-in injection support and training, surgery referrals, help with legal name change documents, and an internal Access Fund for patients who cannot afford care.
+      es: Clínica de medicina familiar con más de una década de atención de afirmación de género; terapia hormonal, apoyo y capacitación para inyecciones, referencias quirúrgicas, ayuda con documentos de cambio de nombre y un fondo interno de ayuda.
+    url: https://www.bluemountainclinic.org/services/gender-affirming-care/
+    phone: (406) 721-1646
+    address: 610 North California Street, Missoula, MT 59802
+    cost: varies
+    verification: org_website
+    sources: [blue-mountain]
+  - id: open-aid-alliance
+    name: Open Aid Alliance
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Confidential STI, HIV, hepatitis C, and syphilis testing; PrEP information; free condoms, lube, naloxone, and safer-use supplies; housing help for people living with HIV. Office open noon to 5 p.m. Monday to Thursday.
+      es: Pruebas confidenciales de ITS, VIH, hepatitis C y sífilis; información sobre PrEP; condones, lubricante, naloxona y suministros gratuitos; ayuda de vivienda para personas con VIH.
+    url: https://openaidalliance.org/
+    phone: 406-543-4770
+    address: 715 Ronan St, Missoula, MT 59801
+    cost: free
+    verification: org_website
+    sources: [open-aid]
+  - id: pp-missoula
+    org: planned-parenthood
+    name: Planned Parenthood of Montana, Missoula
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual and reproductive health care. Whether this center offers gender-affirming hormone therapy, and at what minimum age, is unconfirmed; call before you go.
+      es: Atención de salud sexual y reproductiva. No está confirmado si este centro ofrece terapia hormonal ni la edad mínima; llama antes de ir.
+    url: https://www.plannedparenthood.org/planned-parenthood-montana
+    cost: varies
+    verification: unverified
+    sources: [pp-montana]
+  - id: mlsa
+    name: Montana Legal Services Association
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income Montanans, including a Missoula office. HelpLine Tuesday to Thursday, 9 a.m. to 1 p.m.; response times are currently longer because of reduced staffing.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, con oficina en Missoula. Línea de ayuda de martes a jueves, de 9 a.m. a 1 p.m.
+    url: https://www.mtlsa.org/
+    phone: 1-800-666-6899
+    cost: free
+    verification: org_website
+    sources: [mlsa]
+  - id: transvisible-montana
+    name: TransVisible Montana
+    type: name_change_clinic
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Statewide trans, nonbinary, and Two Spirit collective offering free name change workshops and consultations, peer community, and leadership development. Email transvisiblemt@gmail.com.
+      es: Colectivo estatal trans, no binario y Two Spirit con talleres y consultas gratuitos de cambio de nombre, comunidad de pares y desarrollo de liderazgo.
+    url: https://transvisiblemontana.wordpress.com/
+    cost: free
+    verification: org_website
+    sources: [transvisible]
+  - id: aclu-montana
+    name: ACLU of Montana
+    type: advocacy_org
+    pillars: [gender_marker, hrt]
+    description:
+      en: Statewide civil liberties organization that brought the birth certificate, driver's license, and youth care cases. Contact them if an agency refuses a change the courts have required.
+      es: Organización estatal de libertades civiles que llevó los casos de actas de nacimiento, licencias y atención a jóvenes. Contáctala si una agencia rechaza un cambio que los tribunales exigen.
+    url: https://www.aclumontana.org/
+    cost: free
+    verification: org_website
+    sources: [aclu-cases]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares, dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: unverified
+    sources: [trans-lifeline]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit with funds for hormone therapy, surgery, and binders.
+      es: Organización nacional con fondos para terapia hormonal, cirugías y binders.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [point-of-pride]
+sources:
+  - id: missoula-clerk
+    url: https://www.missoulacounty.gov/departments/district-court/court-fines-fees/
+    title: Court Fines & Fees, Clerk of District Court
+    publisher: Missoula County
+    kind: official
+    accessed: "2026-09-24"
+    quote: Our office is located at 200 West Broadway on the second floor of the courthouse.
+  - id: courts-namechange-page
+    url: https://courts.mt.gov/forms/namechange
+    title: Name Change forms
+    publisher: Montana Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: blue-mountain
+    url: https://www.bluemountainclinic.org/services/gender-affirming-care/
+    title: Gender-Affirming Care
+    publisher: Blue Mountain Clinic
+    kind: org
+    accessed: "2026-09-24"
+    quote: Assistance with legal name change documents
+  - id: open-aid
+    url: https://openaidalliance.org/
+    title: Open Aid Alliance (read via Wayback Machine 2026 capture; live site returns 403)
+    publisher: Open Aid Alliance
+    kind: org
+    accessed: "2026-09-24"
+    quote: Missoula 715 Ronan St. Our office is open Noon to 5PM Monday-Thursday.
+  - id: pp-montana
+    url: https://www.plannedparenthood.org/planned-parenthood-montana
+    title: Planned Parenthood of Montana (page returned 403 to automated access)
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: mlsa
+    url: https://www.mtlsa.org/
+    title: Montana Legal Services Association
+    publisher: MLSA
+    kind: org
+    accessed: "2026-09-24"
+  - id: transvisible
+    url: https://transvisiblemontana.wordpress.com/
+    title: TransVisible Montana
+    publisher: TransVisible Montana
+    kind: org
+    accessed: "2026-09-24"
+    quote: TransVisible Montana is a statewide collective of transgender, non-binary, and Two Spirit Montanans
+  - id: aclu-cases
+    url: https://www.aclumontana.org/cases/
+    title: Cases
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: point-of-pride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

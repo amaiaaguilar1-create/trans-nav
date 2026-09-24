@@ -1,0 +1,123 @@
+code: MT
+name:
+  en: Montana
+  es: Montana
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate rated "mixed" for both ID documents and care. The legislature has passed restrictive laws (SB 280 in 2021,
+    SB 99 and SB 458 in 2023, SB 437 in 2025), but Montana courts have blocked or struck them down under the state
+    constitution, and document changes are currently available under the Kalarchik preliminary injunction. No shield
+    law. See each guide's review notes for open items. MAP pages returned 403 and could not be used as a cross-check.
+overview:
+  en: >-
+    Montana's legislature has passed several laws aimed at trans people, but state courts have blocked most of them
+    under the Montana Constitution's strong privacy and equal protection guarantees. Right now you can change the sex
+    on a Montana birth certificate by affidavit and on a driver's license with that amended certificate, because of an
+    injunction the Montana Supreme Court upheld in April 2026. Name changes require newspaper publication and a hearing
+    unless your safety is at risk. The 2023 ban on care for minors has been struck down, adults can get hormone therapy,
+    and Montana has no shield law.
+  es: >-
+    La legislatura de Montana ha aprobado varias leyes dirigidas a personas trans, pero los tribunales estatales han
+    bloqueado la mayoría según las fuertes garantías de privacidad e igualdad de la Constitución de Montana. Ahora
+    mismo puedes cambiar el sexo en un acta de nacimiento de Montana por declaración jurada y en la licencia de conducir
+    con esa acta enmendada, gracias a una orden que la Corte Suprema de Montana confirmó en abril de 2026. El cambio de
+    nombre requiere publicación en el periódico y audiencia, salvo que tu seguridad esté en riesgo. La prohibición de
+    2023 para menores fue anulada, los adultos pueden recibir terapia hormonal y Montana no tiene ley escudo.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [aclu-kalarchik, aclu-cross, dm-sb437]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [missoula]
+key_resources:
+  - id: mlsa
+    name: Montana Legal Services Association
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income Montanans; co-author of the court's self-help name change forms.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en Montana; coautora de los formularios de cambio de nombre del tribunal.
+    url: https://www.mtlsa.org/
+    phone: 1-800-666-6899
+    cost: free
+    verification: org_website
+    sources: [mlsa]
+  - id: transvisible-montana
+    name: TransVisible Montana
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide trans, nonbinary, and Two Spirit collective offering free name change assistance.
+      es: Colectivo estatal trans, no binario y Two Spirit que ofrece ayuda gratuita con el cambio de nombre.
+    url: https://transvisiblemontana.wordpress.com/name-change-assistance/
+    cost: free
+    verification: org_website
+    sources: [transvisible]
+  - id: aclu-montana
+    name: ACLU of Montana
+    type: advocacy_org
+    pillars: [gender_marker, hrt]
+    description:
+      en: Brought the birth certificate, driver's license, and youth care cases; tracks current law.
+      es: Llevó los casos de actas de nacimiento, licencias y atención a jóvenes; da seguimiento a la ley vigente.
+    url: https://www.aclumontana.org/
+    cost: free
+    verification: org_website
+    sources: [aclu-kalarchik]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares, dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: unverified
+    sources: [trans-lifeline]
+sources:
+  - id: aclu-kalarchik
+    url: https://www.aclumontana.org/cases/kalarchik-et-al-v-state-montana-et-al/
+    title: Kalarchik et al. v. State of Montana et al.
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+    quote: transgender Montanans will continue to have access to accurate and usable identity documents while the case proceeds.
+  - id: aclu-cross
+    url: https://www.aclumontana.org/cases/cross-v-state/
+    title: Cross v. State
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+  - id: dm-sb437
+    url: https://dailymontanan.com/2026/03/30/bill-redefining-sex-signed-nearly-a-year-after-it-passed/
+    title: Bill redefining sex signed nearly a year after it passed
+    publisher: Daily Montanan
+    kind: news
+    accessed: "2026-09-24"
+  - id: mlsa
+    url: https://www.mtlsa.org/
+    title: Montana Legal Services Association
+    publisher: MLSA
+    kind: org
+    accessed: "2026-09-24"
+  - id: transvisible
+    url: https://transvisiblemontana.wordpress.com/name-change-assistance/
+    title: Name Change Assistance
+    publisher: TransVisible Montana
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

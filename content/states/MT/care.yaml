@@ -1,0 +1,260 @@
+jurisdiction: MT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. Open items: (1) Minor care: ACLU of Montana's Cross v. State page (latest update Jul 9, 2026)
+    says the Montana Supreme Court ruled SB 99 unconstitutional under the state privacy clause; the page body only
+    documents the Dec 11, 2024 Supreme Court preliminary ruling and the May 13, 2025 district court summary judgment
+    striking SB 99. I could not load the July 2026 opinion itself; confirm the date and holding. SB 99 remains
+    printed in MCA 50-4-1001 to 1006. (2) MCA 50-4-1405 (Ch. 560, L. 2025) creates a private cause of action against
+    providers for injuries from gender-affirming treatment given to minors (2-year discovery rule, tolled until age 23);
+    it is not a ban and I found no injunction against it. The bill number for Ch. 560 was not confirmed. (3) Medicaid:
+    I found no DPHHS page or rule stating whether Montana Medicaid covers or excludes gender-affirming hormones or
+    surgery for adults; MAP pages returned 403. Coverage marked unclear. Blue Mountain Clinic and Bridgercare accept
+    Medicaid per their sites, but that is not a coverage statement. (4) Federal: CMS rule announced Aug 13, 2026
+    bars Medicaid/CHIP payment for gender-affirming care for under-18s effective Oct 13, 2026 (Daily Montanan repub);
+    confirm effective date and any litigation. (5) Private insurance: no Montana statute or CSI bulletin prohibiting
+    trans exclusions found; csimt.gov returns 403, complaint URL taken from Wayback. (6) Planned Parenthood of
+    Montana pages return 403; hormone therapy availability and minimum age at PP Montana are unverified. (7) SB 437
+    (signed 2026-03-24) redefines sex across the MCA; its effect on care is unknown. No shield law in Montana.
+status_summary:
+  en: >-
+    Adults in Montana can get gender-affirming care, including informed hormone therapy at clinics in Missoula and
+    Bozeman. Montana's 2023 ban on care for minors (SB 99) has been struck down under the state constitution's privacy
+    clause, so care for minors is legal, but a 2025 law lets patients sue providers over care given to minors, and a
+    federal Medicaid funding cutoff for minors takes effect October 13, 2026.
+  es: >-
+    Las personas adultas en Montana pueden recibir atención de afirmación de género, incluida la terapia hormonal en
+    clínicas de Missoula y Bozeman. La prohibición de 2023 para menores (SB 99) fue anulada según la cláusula de
+    privacidad de la constitución estatal, así que la atención a menores es legal, pero una ley de 2025 permite
+    demandar a proveedores por atención dada a menores, y un recorte federal de Medicaid para menores entra en vigor
+    el 13 de octubre de 2026.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Montana law restricts gender-affirming care for adults. Clinics such as Blue Mountain Clinic in Missoula and Bridgercare in Bozeman prescribe hormones for adults, and telehealth providers (FOLX, QueerDoc, Plume) serve Montana. Montana has **no shield law** protecting patients or providers from other states' actions.
+    es: |
+      Ninguna ley de Montana restringe la atención de afirmación de género para adultos. Clínicas como Blue Mountain Clinic en Missoula y Bridgercare en Bozeman recetan hormonas a adultos, y proveedores de telesalud (FOLX, QueerDoc, Plume) atienden en Montana. Montana **no tiene ley escudo**.
+  sources: [blue-mountain, bridgercare]
+minor_care:
+  status: available
+  detail:
+    en: |
+      SB 99 (2023, the "Youth Health Protection Act," MCA 50-4-1001 to 1006) banned puberty blockers, hormones, and surgery for minors with gender dysphoria and barred public funds for that care. It never took full effect: a Missoula County district court blocked it in 2023, the Montana Supreme Court upheld that block on December 11, 2024, and the district court struck the law down on May 13, 2025. ACLU of Montana reports that the Montana Supreme Court has since ruled SB 99 unconstitutional under the state privacy clause.
+
+      Two things still affect minors' care:
+      - **MCA 50-4-1405** (2025) lets a person treated as a minor sue the provider for injuries caused by a departure from the standard of care, until two years after discovering the injury (and not before age 23).
+      - A **federal CMS rule** bars Medicaid and CHIP from paying for gender-affirming medical care for people under 18 starting **October 13, 2026**; current patients get six months of transition coverage.
+
+      Parental consent is required for minors. Ask any clinic about its own age policy.
+    es: |
+      SB 99 (2023, MCA 50-4-1001 a 1006) prohibía bloqueadores de pubertad, hormonas y cirugías para menores con disforia de género. Nunca entró plenamente en vigor: un tribunal de Missoula la bloqueó en 2023, la Corte Suprema de Montana confirmó el bloqueo el 11 de diciembre de 2024 y el tribunal la anuló el 13 de mayo de 2025. La ACLU de Montana informa que la Corte Suprema declaró SB 99 inconstitucional.
+
+      Dos cosas siguen afectando la atención a menores:
+      - **MCA 50-4-1405** (2025) permite demandar al proveedor por daños causados por apartarse del estándar de atención.
+      - Una **regla federal de CMS** prohíbe que Medicaid y CHIP paguen la atención médica de afirmación de género para menores de 18 a partir del **13 de octubre de 2026**.
+  sources: [aclu-cross, dm-sb99-2025, mca-50-4-1004, mca-50-4-1405, dm-cms-2026]
+medicaid:
+  program_name: Montana Medicaid / Healthy Montana Kids
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: |
+      We could not find a Montana Medicaid rule or policy that states whether gender-affirming hormones or surgery are covered for adults. Some Montana clinics that prescribe hormones accept Medicaid; ask the clinic and your pharmacy to check coverage before you start, and ask for a written denial if a claim is refused so you can appeal. For people under 18, federal rules end Medicaid and CHIP payment for gender-affirming medical care on October 13, 2026.
+    es: |
+      No encontramos una regla de Medicaid de Montana que diga si cubre hormonas o cirugías de afirmación de género para adultos. Algunas clínicas que recetan hormonas aceptan Medicaid; pide a la clínica y a tu farmacia que verifiquen la cobertura y pide una negación por escrito si rechazan un reclamo. Para menores de 18, las reglas federales terminan el pago de Medicaid y CHIP el 13 de octubre de 2026.
+  how_to_apply_url: https://apply.mt.gov/
+  sources: [dphhs-medicaid, dm-cms-2026]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: Montana has no law requiring state-regulated health plans to cover gender-affirming care or banning trans-specific exclusions. Plans governed by federal rules (for example the ACA's Section 1557) may have separate protections that are in flux. You can file a complaint with the Commissioner of Securities and Insurance (CSI) if a Montana-regulated insurer denies a claim improperly.
+    es: Montana no tiene una ley que obligue a los planes regulados por el estado a cubrir la atención de afirmación de género ni que prohíba exclusiones. Puedes presentar una queja ante el Comisionado de Valores y Seguros (CSI) si una aseguradora de Montana niega un reclamo indebidamente.
+  complaint_url: https://csimt.gov/consumer-or-professional-online-complaint-form/
+  sources: [csi-complaint]
+telehealth_hrt: [plume, folx, queerdoc, planned-parenthood]
+resources:
+  - id: blue-mountain-clinic
+    name: Blue Mountain Clinic
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Independent Missoula family medicine clinic that has provided gender-affirming care for over a decade; hormone therapy (injections, gels, patches, tablets), injection training, surgery referrals, help with name change paperwork, and an internal Access Fund for patients facing cost barriers.
+      es: Clínica de medicina familiar en Missoula con más de una década de atención de afirmación de género; terapia hormonal, capacitación para inyecciones, referencias quirúrgicas, ayuda con documentos de cambio de nombre y un fondo interno de ayuda.
+    url: https://www.bluemountainclinic.org/services/gender-affirming-care/
+    phone: (406) 721-1646
+    address: 610 North California Street, Missoula, MT 59802
+    cost: varies
+    verification: org_website
+    sources: [blue-mountain]
+  - id: bridgercare
+    name: Bridgercare
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Bozeman nonprofit sexual and reproductive health clinic offering hormone therapy and transitioning visits for adults only, plus PrEP, PEP, and STI testing.
+      es: Clínica sin fines de lucro en Bozeman con terapia hormonal y visitas de transición solo para adultos, además de PrEP, PEP y pruebas de ITS.
+    url: https://www.bridgercare.org/services-1
+    phone: (406) 587-0681
+    address: 1288 N 14th Ave #201, Bozeman, MT 59715
+    cost: varies
+    verification: org_website
+    sources: [bridgercare]
+  - id: pp-montana
+    org: planned-parenthood
+    name: Planned Parenthood of Montana
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Health centers in several Montana cities. Whether each center offers gender-affirming hormone therapy, and the minimum age, could not be confirmed; call your nearest center.
+      es: Centros de salud en varias ciudades de Montana. No pudimos confirmar si cada centro ofrece terapia hormonal ni la edad mínima; llama al centro más cercano.
+    url: https://www.plannedparenthood.org/planned-parenthood-montana
+    cost: varies
+    verification: unverified
+    sources: [pp-montana]
+  - id: open-aid-alliance
+    name: Open Aid Alliance
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Missoula and Polson harm reduction and HIV organization offering confidential STI, HIV, hepatitis C, and syphilis testing, PrEP information, free condoms, naloxone, and syringe services.
+      es: Organización de Missoula y Polson que ofrece pruebas confidenciales de ITS, VIH, hepatitis C y sífilis, información sobre PrEP, condones gratis, naloxona y servicios de jeringas.
+    url: https://openaidalliance.org/
+    phone: 406-543-4770
+    address: 715 Ronan St, Missoula, MT 59801
+    cost: free
+    verification: org_website
+    sources: [open-aid]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit with programs that help trans people pay for hormone therapy, surgery, and binders.
+      es: Organización nacional con programas que ayudan a pagar terapia hormonal, cirugías y binders.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [point-of-pride]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale, including in rural Montana.
+      es: Buscador federal de centros de salud comunitarios con tarifas escalonadas, incluso en zonas rurales de Montana.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: MCA 50-4-1004
+    title:
+      en: Youth Health Protection Act prohibitions (SB 99, 2023; struck down)
+    url: https://archive.legmt.gov/bills/mca/title_0500/chapter_0040/part_0100/section_0040/0500-0040-0100-0040.html
+  - cite: MCA 50-4-1405
+    title:
+      en: Private cause of action for injuries caused by treatment of gender dysphoria in minors (2025)
+    url: https://archive.legmt.gov/bills/mca/title_0500/chapter_0040/part_0140/section_0050/0500-0040-0140-0050.html
+litigation:
+  - case: Cross v. State (formerly van Garderen v. State)
+    court: Montana Fourth Judicial District Court (Missoula County); Montana Supreme Court
+    summary:
+      en: Families and providers challenged SB 99. The Montana Supreme Court upheld a preliminary injunction on December 11, 2024, finding the law likely violates the state constitution's right to privacy. The district court granted summary judgment striking SB 99 on May 13, 2025; ACLU of Montana reports the Montana Supreme Court has ruled it unconstitutional (update of July 9, 2026).
+      es: Familias y proveedores impugnaron SB 99. La Corte Suprema de Montana confirmó una orden preliminar el 11 de diciembre de 2024. El tribunal anuló SB 99 el 13 de mayo de 2025; la ACLU de Montana informa que la Corte Suprema lo declaró inconstitucional (actualización del 9 de julio de 2026).
+    effect_today:
+      en: SB 99 is not enforced. Gender-affirming care for minors is legal in Montana with parental consent.
+      es: SB 99 no se aplica. La atención de afirmación de género para menores es legal en Montana con consentimiento de los padres.
+    last_update: "2026-07-09"
+    url: https://www.aclumontana.org/cases/cross-v-state/
+    sources: [aclu-cross, dm-sb99-2025]
+sources:
+  - id: blue-mountain
+    url: https://www.bluemountainclinic.org/services/gender-affirming-care/
+    title: Gender-Affirming Care
+    publisher: Blue Mountain Clinic
+    kind: org
+    accessed: "2026-09-24"
+    quote: Blue Mountain Clinic has provided gender-affirming care for our community for over a decade
+  - id: bridgercare
+    url: https://www.bridgercare.org/services-1
+    title: Patient Services
+    publisher: Bridgercare
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Transgender Care: Adults Only"
+  - id: pp-montana
+    url: https://www.plannedparenthood.org/planned-parenthood-montana
+    title: Planned Parenthood of Montana (page returned 403 to automated access)
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: open-aid
+    url: https://openaidalliance.org/
+    title: Open Aid Alliance (read via Wayback Machine 2026 capture; live site returns 403)
+    publisher: Open Aid Alliance
+    kind: org
+    accessed: "2026-09-24"
+    quote: Book your confidential and fast STI, HIV, Hep-c, and Syphilis test here.
+  - id: point-of-pride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: aclu-cross
+    url: https://www.aclumontana.org/cases/cross-v-state/
+    title: Cross v. State
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Montana Supreme Court ruled that SB 99, a 2023 Montana law that categorically bans life-saving gender-affirming care for transgender youth, is unconstitutional under the Montana state constitution's privacy clause.
+  - id: dm-sb99-2025
+    url: https://dailymontanan.com/2025/05/14/district-court-strikes-down-ban-on-gender-affirming-care-for-trans-youth/
+    title: District court strikes down ban on gender-affirming care for trans youth
+    publisher: Daily Montanan
+    kind: news
+    accessed: "2026-09-24"
+  - id: mca-50-4-1004
+    url: https://archive.legmt.gov/bills/mca/title_0500/chapter_0040/part_0100/section_0040/0500-0040-0100-0040.html
+    title: MCA 50-4-1004, Prohibitions (Youth Health Protection Act)
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mca-50-4-1405
+    url: https://archive.legmt.gov/bills/mca/title_0500/chapter_0040/part_0140/section_0050/0500-0040-0140-0050.html
+    title: MCA 50-4-1405, Private cause of action for injuries caused by treatment of gender dysphoria
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any health care professional or physician who provides the medical treatments listed in subsection (4) to a minor may be subject to a civil action
+  - id: dm-cms-2026
+    url: https://dailymontanan.com/2026/08/13/repub/federal-agency-blocks-medicaid-coverage-of-kids-gender-affirming-care/
+    title: Federal agency blocks Medicaid coverage of kids' gender-affirming care
+    publisher: Daily Montanan (republished)
+    kind: news
+    accessed: "2026-09-24"
+  - id: dphhs-medicaid
+    url: https://dphhs.mt.gov/MontanaHealthcarePrograms/MemberServices
+    title: Montana Healthcare Programs, Member Services
+    publisher: Montana DPHHS
+    kind: official
+    accessed: "2026-09-24"
+  - id: csi-complaint
+    url: https://csimt.gov/consumer-or-professional-online-complaint-form/
+    title: Consumer or Professional Online Complaint Form (live site returns 403; URL confirmed via Wayback)
+    publisher: Montana Commissioner of Securities and Insurance
+    kind: official
+    accessed: "2026-09-24"

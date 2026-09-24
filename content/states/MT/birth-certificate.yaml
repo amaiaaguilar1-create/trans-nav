@@ -1,0 +1,277 @@
+guide_type: birth_certificate
+jurisdiction: MT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. Key facts: DPHHS Vital Records currently posts a "Gender Designation Form" (PDF last modified
+    2026-09-19 per server header) that asks only for a signed statement that the person "has undergone gender
+    transition or has an intersex condition", submitted with a notarized Affidavit for Correction of a Vital Record.
+    This is how DPHHS is complying with the Kalarchik preliminary injunction (Dec 16, 2024; affirmed by the Montana
+    Supreme Court 5-2 on Apr 14, 2026). A4TE (Dec 2025) agrees: affidavit-based, no court order or medical proof, $41.
+    MCA 50-15-224 (SB 280, 2021) still says a court order showing surgery is required; it has been enjoined since the
+    Marquez preliminary injunction (Apr 21, 2022). Marquez page shows a fee award on Apr 7, 2026, which suggests
+    plaintiffs prevailed, but I could not load the final judgment; reviewer should confirm whether SB 280 is
+    permanently enjoined. Kalarchik is a preliminary injunction only; trial not scheduled. SB 437 (2025, signed
+    2026-03-24) redefines sex across the MCA; plaintiffs in the SB 458 case sought to add it; no injunction against
+    SB 437 found. Confirm SB 437 has not changed DPHHS practice. Markers: the form has a blank for the "updated gender
+    designation"; I found no statement that X is offered. Listed M and F only. Whether a new certificate is issued vs.
+    an amended one for gender changes is not stated on the DPHHS pages; A4TE says "a new birth certificate".
+    Processing time: DPHHS says 3-4 weeks for corrections; A4TE says 2-3 weeks.
+status: litigation
+requirement_type: self_attestation
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Right now, if you were born in Montana you can change the sex on your birth certificate by sending Vital Records
+    a signed Gender Designation Form and a notarized affidavit, with no court order or medical proof. This is possible
+    because of a court injunction that the Montana Supreme Court upheld in April 2026; the case is still going, so
+    apply sooner rather than later.
+  es: >-
+    Ahora mismo, si naciste en Montana puedes cambiar el sexo en tu acta de nacimiento enviando a Registros Vitales un
+    Formulario de Designación de Género firmado y una declaración jurada notariada, sin orden judicial ni prueba
+    médica. Esto es posible por una orden judicial que la Corte Suprema de Montana confirmó en abril de 2026; el caso
+    sigue en curso, así que es mejor hacerlo pronto.
+summary:
+  en: |
+    Montana's law on paper (MCA 50-15-224, from SB 280 in 2021) allows a sex change on a birth certificate only with a court order saying you had surgery, and in 2022 the health department (DPHHS) adopted a rule banning changes entirely. Courts have blocked both. In **Kalarchik v. State**, a district court ordered the state on December 16, 2024 to stop enforcing the ban, and the Montana Supreme Court upheld that order on April 14, 2026, holding that discrimination against transgender people is sex discrimination under the Montana Constitution.
+
+    DPHHS now publishes a one-page **Gender Designation Form**. You state that you have undergone gender transition (or have an intersex condition) and the marker that should appear, and send it with a notarized **Affidavit for Correction of a Vital Record** and the $41 fee. You can change your name at the same time by adding a certified court order.
+
+    This only applies if you were **born in Montana**. If you were born in another state, follow that state's rules; your Montana residence does not matter.
+  es: |
+    La ley de Montana (MCA 50-15-224, de SB 280 en 2021) solo permite cambiar el sexo en el acta con una orden judicial que diga que tuviste cirugía, y en 2022 el departamento de salud (DPHHS) prohibió los cambios por completo. Los tribunales bloquearon ambas cosas. En **Kalarchik v. State**, un tribunal de distrito ordenó el 16 de diciembre de 2024 que el estado dejara de aplicar la prohibición, y la Corte Suprema de Montana confirmó esa orden el 14 de abril de 2026.
+
+    DPHHS ahora publica un **Formulario de Designación de Género** de una página. Declaras que has hecho una transición de género (o tienes una condición intersexual) y el marcador que debe aparecer, y lo envías con una **Declaración Jurada de Corrección** notariada y la tarifa de $41. Puedes cambiar tu nombre al mismo tiempo agregando una orden judicial certificada.
+
+    Esto solo aplica si **naciste en Montana**. Si naciste en otro estado, sigue las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Montana. You do not need to live in Montana now.
+    es: Debes haber nacido en Montana. No necesitas vivir en Montana ahora.
+  age:
+    en: Adults sign for themselves. The form lets a parent, guardian, or legal representative sign for someone else.
+    es: Los adultos firman por sí mismos. El formulario permite que un padre, tutor o representante legal firme por otra persona.
+  sources: [dphhs-gender-form, a4te-mt]
+forms:
+  - id: gender-designation
+    name:
+      en: Gender Designation Form
+      es: Formulario de Designación de Género
+    url: https://dphhs.mt.gov/assets/Statistics/VitalStats/MTGenderDesignationForm.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Write your current name exactly as it appears on your birth certificate, your city and county of birth, and date of birth.
+        - In "Updated Gender Designation," write the marker you want (for example, female or male).
+        - Sign, print your name, check "Self," and add your address and phone. No doctor's signature is needed.
+      es: |
+        - Escribe tu nombre actual tal como aparece en tu acta, tu ciudad y condado de nacimiento y fecha de nacimiento.
+        - En "Updated Gender Designation", escribe el marcador que quieres (por ejemplo, femenino o masculino).
+        - Firma, escribe tu nombre, marca "Self" y agrega tu dirección y teléfono. No se necesita firma médica.
+    sources: [dphhs-gender-form]
+  - id: affidavit-correction
+    name:
+      en: Affidavit for Correction of a Vital Record
+      es: Declaración Jurada de Corrección de un Registro Vital
+    url: https://dphhs.mt.gov/assets/Statistics/VitalStats/affidavitcorr.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Circle BIRTH and fill in your current name on the record, place and date of birth.
+        - Under "The record now shows" write the current sex (and name, if changing it); under "The true facts are" write the corrected sex (and new name).
+        - Sign **in front of a notary**. The notary must check your ID.
+      es: |
+        - Encierra BIRTH en un círculo y escribe tu nombre actual, lugar y fecha de nacimiento.
+        - En "The record now shows" escribe el sexo actual (y nombre, si lo cambias); en "The true facts are" escribe el sexo corregido (y el nuevo nombre).
+        - Firma **ante un notario**.
+    sources: [dphhs-affidavit, dphhs-gender-form]
+steps:
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - Gender Designation Form, signed.
+        - Affidavit for Correction of a Vital Record, signed before a notary.
+        - A photocopy of your photo ID.
+        - If you are also changing your name: a certified copy of your court order (from any state).
+        - A check or money order for $41 (includes one certified copy). Add $16 for each extra copy.
+      es: |
+        - Formulario de Designación de Género, firmado.
+        - Declaración Jurada de Corrección, firmada ante notario.
+        - Fotocopia de tu identificación con foto.
+        - Si también cambias tu nombre: copia certificada de tu orden judicial (de cualquier estado).
+        - Cheque o giro postal por $41 (incluye una copia certificada). Agrega $16 por cada copia adicional.
+    forms: [gender-designation, affidavit-correction]
+    fees: [amendment, extra-copy]
+    sources: [dphhs-gender-form, dphhs-corrections, dphhs-fees]
+  - id: notarize
+    title:
+      en: Get the affidavit notarized
+      es: Notariza la declaración jurada
+    body:
+      en: Banks, libraries, and county clerk offices often have free or low-cost notaries. Bring your photo ID and do not sign until you are with the notary.
+      es: Los bancos, bibliotecas y oficinas del condado suelen tener notarios gratuitos o baratos. Lleva tu identificación y no firmes hasta estar con el notario.
+    forms: [affidavit-correction]
+    sources: [dphhs-affidavit]
+  - id: submit
+    title:
+      en: Mail or bring everything to Montana Vital Records
+      es: Envía o lleva todo a Registros Vitales de Montana
+    body:
+      en: |
+        Mail to **Montana Vital Records, PO Box 4210, Helena, MT 59604**, or bring it in person to the office in Helena (111 N. Sanders). Questions about name changes: 406-444-4226. General corrections: 406-444-9039.
+      es: |
+        Envía a **Montana Vital Records, PO Box 4210, Helena, MT 59604**, o llévalo en persona a la oficina en Helena (111 N. Sanders). Preguntas: 406-444-4226 o 406-444-9039.
+    applies_to: [by_mail, in_person]
+    sources: [dphhs-corrections, dphhs-affidavit, a4te-mt]
+  - id: receive
+    title:
+      en: Get your updated certificate
+      es: Recibe tu acta actualizada
+    body:
+      en: Allow 3 to 4 weeks. Then use the new certificate to update your driver's license (see that guide) and other records.
+      es: Espera de 3 a 4 semanas. Luego usa la nueva acta para actualizar tu licencia de conducir y otros registros.
+    estimated_time:
+      en: 3 to 4 weeks
+      es: 3 a 4 semanas
+    sources: [dphhs-corrections]
+fees:
+  - id: amendment
+    label:
+      en: Amendment processing plus one certified copy
+      es: Trámite de enmienda más una copia certificada
+    amount: 41
+    note:
+      en: $25 processing plus $16 for the certified certificate.
+      es: $25 de trámite más $16 por el acta certificada.
+    sources: [dphhs-fees, dphhs-corrections]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy
+      es: Cada copia certificada adicional
+    amount: 16
+    sources: [dphhs-fees]
+fee_waiver:
+  available: false
+  how:
+    en: DPHHS does not list a fee waiver for amendments. Corrections requested within one year of birth are free.
+    es: DPHHS no ofrece exención de tarifas para enmiendas. Las correcciones dentro del primer año de nacimiento son gratuitas.
+  sources: [dphhs-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  sources: [a4te-mt, dphhs-affidavit]
+timeline:
+  en: 3 to 4 weeks after DPHHS receives a complete request.
+  es: De 3 a 4 semanas después de que DPHHS reciba la solicitud completa.
+after:
+  en: Update your Montana driver's license or ID at the MVD with the new certificate, then Social Security, your passport, and other records as needed. Order a few extra certified copies now; each later copy costs $16.
+  es: Actualiza tu licencia o identificación de Montana en el MVD con la nueva acta, luego el Seguro Social, tu pasaporte y otros registros. Pide algunas copias certificadas adicionales ahora.
+tips:
+  - en: Because the current process depends on a preliminary injunction, apply as soon as you can and keep extra certified copies.
+    es: Como el proceso actual depende de una orden judicial preliminar, haz el trámite pronto y guarda copias certificadas adicionales.
+  - en: Your name can be changed on the same request if you include a certified name change order, even one from another state.
+    es: Puedes cambiar tu nombre en la misma solicitud si incluyes una orden certificada de cambio de nombre, incluso de otro estado.
+statutes:
+  - cite: MCA 50-15-224
+    title:
+      en: Sex change designation on birth certificate (SB 280, 2021; enjoined)
+    url: https://archive.legmt.gov/bills/mca/title_0500/chapter_0150/part_0020/section_0240/0500-0150-0020-0240.html
+  - cite: MCA 1-1-209
+    title:
+      en: Terms of wide applicability (sex definitions, SB 437, 2025)
+    url: https://archive.legmt.gov/bills/mca/title_0010/chapter_0010/part_0020/section_0090/0010-0010-0020-0090.html
+litigation:
+  - case: Kalarchik v. State of Montana
+    court: Montana First Judicial District Court (Lewis and Clark County); Montana Supreme Court
+    summary:
+      en: Class action by two transgender women challenging the 2022 DPHHS rule banning sex-marker changes on birth certificates and the MVD policy blocking changes on driver's licenses. Preliminary injunction granted December 16, 2024; upheld by the Montana Supreme Court 5-2 on April 14, 2026. Trial not yet scheduled.
+      es: Demanda colectiva de dos mujeres trans contra la regla de DPHHS de 2022 que prohibía cambiar el sexo en actas de nacimiento y la política del MVD. Orden preliminar concedida el 16 de diciembre de 2024; confirmada por la Corte Suprema de Montana el 14 de abril de 2026.
+    effect_today:
+      en: The state may not enforce the ban while the case continues. DPHHS is accepting the Gender Designation Form.
+      es: El estado no puede aplicar la prohibición mientras sigue el caso. DPHHS acepta el Formulario de Designación de Género.
+    last_update: "2026-04-14"
+    url: https://www.aclumontana.org/cases/kalarchik-et-al-v-state-montana-et-al/
+    sources: [aclu-kalarchik, dm-kalarchik-2026]
+  - case: Marquez v. State of Montana
+    court: Montana Thirteenth Judicial District Court (Yellowstone County)
+    summary:
+      en: Challenge to SB 280 (2021), which required a court order showing surgery. The court preliminarily enjoined SB 280 on April 21, 2022. On April 7, 2026 the court awarded the plaintiffs attorney fees.
+      es: Impugnación de SB 280 (2021), que exigía una orden judicial que demostrara cirugía. El tribunal bloqueó SB 280 el 21 de abril de 2022. El 7 de abril de 2026 otorgó honorarios a los demandantes.
+    effect_today:
+      en: The surgery and court-order requirement in MCA 50-15-224 is not being enforced.
+      es: El requisito de cirugía y orden judicial de MCA 50-15-224 no se está aplicando.
+    last_update: "2026-04-07"
+    url: https://www.aclumontana.org/cases/marquez-v-state-montana/
+    sources: [aclu-marquez]
+related_links:
+  - title: A4TE, Montana ID documents
+    url: https://transequality.org/documents/montana-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Última actualización en diciembre de 2025.
+  - title: ACLU of Montana, Kalarchik v. State
+    url: https://www.aclumontana.org/cases/kalarchik-et-al-v-state-montana-et-al/
+sources:
+  - id: dphhs-gender-form
+    url: https://dphhs.mt.gov/assets/Statistics/VitalStats/MTGenderDesignationForm.pdf
+    title: Gender Designation Form
+    publisher: Montana DPHHS Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: This individual has undergone gender transition or has an intersex condition, and the gender designation on this birth certificate should be corrected to
+  - id: dphhs-affidavit
+    url: https://dphhs.mt.gov/assets/Statistics/VitalStats/affidavitcorr.pdf
+    title: Affidavit for Correction of a Vital Record
+    publisher: Montana DPHHS Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: Verification of Signer's ID Is Mandatory
+  - id: dphhs-corrections
+    url: https://dphhs.mt.gov/vitalrecords/CorrectionstoCertificates
+    title: Corrections to Certificates
+    publisher: Montana DPHHS Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Please allow 3–4 weeks for legal action and processing."
+  - id: dphhs-fees
+    url: https://dphhs.mt.gov/vitalrecords/Fees
+    title: Office of Vital Records Fee Schedule (effective September 21, 2024)
+    publisher: Montana DPHHS
+    kind: official
+    accessed: "2026-09-24"
+    quote: Adoption (or rescission) and Name Change Processing $41 $25 to process and $16 for the certified birth certificate.
+  - id: aclu-kalarchik
+    url: https://www.aclumontana.org/cases/kalarchik-et-al-v-state-montana-et-al/
+    title: Kalarchik et al. v. State of Montana et al.
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Montana Supreme Court upheld a District Court order temporarily preventing the State of Montana from enforcing policies that bar transgender people from obtaining accurate sex designations on their birth certificates and driver's licenses.
+  - id: dm-kalarchik-2026
+    url: https://dailymontanan.com/2026/04/15/montana-supreme-court-upholds-ability-of-transgender-residents-to-update-documents/
+    title: Montana Supreme Court upholds ability of transgender residents to update documents
+    publisher: Daily Montanan
+    kind: news
+    accessed: "2026-09-24"
+  - id: aclu-marquez
+    url: https://www.aclumontana.org/cases/marquez-v-state-montana/
+    title: Marquez v. State of Montana
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-mt
+    url: https://transequality.org/documents/montana-identity-documents
+    title: Montana ID documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: No court order or medical documentation is required.

@@ -1,0 +1,217 @@
+guide_type: drivers_license
+jurisdiction: MT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    mvdmt.gov and dojmt.gov return HTTP 403 to automated fetching; MVD pages were read from Wayback Machine captures
+    (licensing fees, replacement, required documents), and the current sex-marker procedure comes from A4TE's Montana
+    page (last updated December 2025), not from MVD. Open items: (1) the exact documents MVD accepts today for a sex
+    marker change. A4TE says an amended birth certificate OR a certified court order for change of gender. Before
+    April 2024 MVD reportedly accepted a doctor's note (Daily Montanan 2024-04-18); the 2024 policy requiring an
+    amended birth certificate was among those preliminarily enjoined in Kalarchik (Dec 16, 2024; affirmed Apr 14,
+    2026). Whether MVD has returned to accepting a provider letter, and what it does for people born in states that
+    will not amend birth certificates, is unconfirmed. Earlier reports of MVD refusing court orders could not be
+    checked against a current primary source. (2) No MVD form number for a sex change was found. (3) Fees: $10.30
+    replacement license or ID, $36.05 with REAL ID, from the archived fee page; confirm the current fee page. (4)
+    Berndt v. DOJ (Missoula County, Dec 4, 2025) ordered MVD to issue a license to a nonbinary applicant; A4TE says no
+    X marker is offered. Confirm whether MVD now offers X. (5) SB 437 (signed 2026-03-24) redefines sex in the MCA;
+    no injunction found; confirm it has not changed MVD practice.
+status: litigation
+requirement_type: amended_birth_certificate
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Montana MVD sex-marker changes are possible right now because a court blocked the state's 2024 policy, and the
+    Montana Supreme Court upheld that order in April 2026. Bring an amended birth certificate or a court order showing
+    your gender to an in-person MVD appointment. Only M and F are offered. The case is still going.
+  es: >-
+    Ahora es posible cambiar el marcador de sexo en el MVD de Montana porque un tribunal bloqueó la política estatal de
+    2024, y la Corte Suprema de Montana confirmó esa orden en abril de 2026. Lleva un acta de nacimiento enmendada o una
+    orden judicial sobre tu género a una cita en persona en el MVD. Solo se ofrecen M y F. El caso sigue en curso.
+summary:
+  en: |
+    In 2024 the Motor Vehicle Division (part of the Montana Department of Justice) stopped accepting a doctor's note and began requiring an amended birth certificate, at a time when the health department refused to amend birth certificates at all. In **Kalarchik v. State**, a district court blocked both policies on December 16, 2024, and the Montana Supreme Court upheld that ruling on April 14, 2026.
+
+    According to A4TE's Montana guide, the MVD currently updates the sex on a license or ID when you bring **an amended birth certificate showing your gender, or a certified court order for a change of gender**, to an in-person appointment. If you were born in Montana, you can get an amended birth certificate by affidavit (see the birth certificate guide), so that is usually the simplest path. Montana licenses show **M or F**; there is no X option.
+
+    To change your **name**, update Social Security first, then bring a certified copy of your name change order to the MVD.
+  es: |
+    En 2024 la División de Vehículos Motorizados (parte del Departamento de Justicia) dejó de aceptar una nota médica y empezó a exigir un acta de nacimiento enmendada, cuando el departamento de salud se negaba a enmendar actas. En **Kalarchik v. State**, un tribunal bloqueó ambas políticas el 16 de diciembre de 2024, y la Corte Suprema de Montana confirmó el fallo el 14 de abril de 2026.
+
+    Según la guía de A4TE, el MVD actualmente cambia el sexo en la licencia o identificación si llevas **un acta de nacimiento enmendada o una orden judicial certificada de cambio de género** a una cita en persona. Si naciste en Montana, puedes obtener el acta enmendada por declaración jurada. Las licencias de Montana muestran **M o F**; no hay opción X.
+
+    Para cambiar tu **nombre**, actualiza primero el Seguro Social y luego lleva una copia certificada de tu orden de cambio de nombre al MVD.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Montana driver's license or ID card, with two proofs of Montana residency.
+    es: Debes tener o estar solicitando una licencia o identificación de Montana, con dos pruebas de residencia en Montana.
+  sources: [a4te-mt, mvd-required-docs]
+steps:
+  - id: get-document
+    title:
+      en: Get your supporting document first
+      es: Primero consigue tu documento de respaldo
+    body:
+      en: |
+        - **Born in Montana**: get an amended birth certificate from Montana Vital Records using the Gender Designation Form (see the birth certificate guide).
+        - **Born elsewhere**: get an amended birth certificate from your birth state if it allows changes, or a certified court order recognizing your change of gender. Call the MVD (406-444-3933) before your appointment to confirm what it will accept in your situation.
+      es: |
+        - **Nacido en Montana**: obtén un acta enmendada de Registros Vitales de Montana con el Formulario de Designación de Género.
+        - **Nacido en otro lugar**: obtén un acta enmendada de tu estado de nacimiento, si lo permite, o una orden judicial certificada que reconozca tu cambio de género. Llama al MVD (406-444-3933) antes de tu cita para confirmar qué acepta.
+    applies_to: [gender_marker]
+    sources: [a4te-mt]
+  - id: update-ssa
+    title:
+      en: Update Social Security if you changed your name
+      es: Actualiza el Seguro Social si cambiaste tu nombre
+    body:
+      en: The MVD verifies your name and Social Security number with SSA, so change your name with Social Security before your MVD visit. You do not need to bring your Social Security card, but you need to know your number.
+      es: El MVD verifica tu nombre y número de Seguro Social con la SSA, así que cambia tu nombre en el Seguro Social antes de ir al MVD.
+    applies_to: [name_change]
+    sources: [a4te-mt, mvd-required-docs]
+  - id: appointment
+    title:
+      en: Make an in-person MVD appointment
+      es: Haz una cita en persona en el MVD
+    body:
+      en: |
+        Name and sex-marker changes are done in person at a Driver Exam Station. Bring:
+        - Your amended birth certificate or certified court order for change of gender.
+        - A certified copy of your name change order, if you are changing your name too.
+        - Proof of identity and your current license or ID.
+        - Two proofs of Montana residency.
+        - Payment for the replacement fee.
+      es: |
+        Los cambios de nombre y de marcador se hacen en persona en una estación de exámenes. Lleva:
+        - Tu acta enmendada u orden judicial certificada de cambio de género.
+        - Copia certificada de tu orden de cambio de nombre, si también cambias el nombre.
+        - Prueba de identidad y tu licencia o identificación actual.
+        - Dos pruebas de residencia en Montana.
+        - El pago de la tarifa de reemplazo.
+    fees: [replacement-dl, replacement-id]
+    applies_to: [in_person]
+    sources: [a4te-mt, mvd-required-docs, mvd-fees]
+fees:
+  - id: replacement-dl
+    label:
+      en: Replacement driver's license (any age)
+      es: Reemplazo de licencia de conducir (cualquier edad)
+    amount: 10.30
+    note:
+      en: $36.05 if the replacement is a REAL ID. A full renewal costs more and depends on your age.
+      es: $36.05 si el reemplazo es REAL ID. Una renovación completa cuesta más y depende de tu edad.
+    sources: [mvd-fees]
+  - id: replacement-id
+    label:
+      en: Replacement ID card
+      es: Reemplazo de tarjeta de identificación
+    amount: 10.30
+    sources: [mvd-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Online and mail replacement exist only for lost or stolen cards with no changes. Name and gender marker updates require an in-person appointment.
+    es: El reemplazo en línea o por correo es solo para tarjetas perdidas sin cambios. Los cambios de nombre y marcador requieren cita en persona.
+  sources: [a4te-mt, mvd-replace]
+after:
+  en: With your updated license, update your passport, bank, employer, and voter registration. If your license and passport show different markers, carry both when traveling if you can.
+  es: Con tu licencia actualizada, actualiza tu pasaporte, banco, empleador y registro de votante.
+tips:
+  - en: Because the current rules depend on a preliminary injunction, make the change as soon as you have your documents.
+    es: Como las reglas actuales dependen de una orden judicial preliminar, haz el cambio en cuanto tengas tus documentos.
+  - en: If an MVD clerk refuses a document the injunction covers, ask for a supervisor, write down the date and name, and contact the ACLU of Montana.
+    es: Si un empleado del MVD rechaza un documento cubierto por la orden judicial, pide hablar con un supervisor, anota la fecha y el nombre y contacta a la ACLU de Montana.
+statutes:
+  - cite: MCA 1-1-209
+    title:
+      en: Terms of wide applicability (sex definitions, SB 437, 2025)
+    url: https://archive.legmt.gov/bills/mca/title_0010/chapter_0010/part_0020/section_0090/0010-0010-0020-0090.html
+litigation:
+  - case: Kalarchik v. State of Montana
+    court: Montana First Judicial District Court (Lewis and Clark County); Montana Supreme Court
+    summary:
+      en: Challenges the MVD policy that made it impossible to update the sex on a license and the DPHHS birth certificate ban. Preliminary injunction December 16, 2024; affirmed 5-2 by the Montana Supreme Court on April 14, 2026, which held that transgender discrimination is sex discrimination under the Montana Constitution.
+      es: Impugna la política del MVD que impedía cambiar el sexo en la licencia y la prohibición de DPHHS. Orden preliminar del 16 de diciembre de 2024; confirmada 5-2 por la Corte Suprema de Montana el 14 de abril de 2026.
+    effect_today:
+      en: MVD may not enforce the blocked policy while the case continues. Changes are available now.
+      es: El MVD no puede aplicar la política bloqueada mientras sigue el caso. Los cambios están disponibles ahora.
+    last_update: "2026-04-14"
+    url: https://www.aclumontana.org/cases/kalarchik-et-al-v-state-montana-et-al/
+    sources: [aclu-kalarchik, dm-kalarchik-2026, mfp-kalarchik-2024]
+  - case: Berndt v. Montana Department of Justice
+    court: Montana Fourth Judicial District Court (Missoula County)
+    summary:
+      en: A nonbinary applicant was refused a license after writing "N.B." on the application. On December 4, 2025 the court ruled that gender identity discrimination violates the Montana Constitution and state laws against sex discrimination; attorney fees were awarded April 9, 2026.
+      es: A una persona no binaria se le negó la licencia tras escribir "N.B." en la solicitud. El 4 de diciembre de 2025 el tribunal decidió que la discriminación por identidad de género viola la Constitución de Montana.
+    effect_today:
+      en: The ruling protects applicants from being refused a license because of gender identity, but it did not create an X marker.
+      es: El fallo protege contra la negativa de licencia por identidad de género, pero no creó un marcador X.
+    last_update: "2026-04-09"
+    url: https://www.aclumontana.org/cases/berndt-v-montana-department-justice-et-al/
+    sources: [aclu-berndt]
+related_links:
+  - title: A4TE, Montana ID documents
+    url: https://transequality.org/documents/montana-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Última actualización en diciembre de 2025.
+sources:
+  - id: a4te-mt
+    url: https://transequality.org/documents/montana-identity-documents
+    title: Montana ID documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: An amended birth certificate displaying your preferred gender OR a certified copy of a court order for change of gender
+  - id: mvd-fees
+    url: https://mvdmt.gov/licensing-fees/
+    title: Licensing Fees (read via Wayback Machine; live site blocks automated access)
+    publisher: Montana Department of Justice, Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: Replacement (Any Age) $10.30 $36.05
+  - id: mvd-replace
+    url: https://mvdmt.gov/replace-license-id/
+    title: Replacing Your License / ID (read via Wayback Machine)
+    publisher: Montana Department of Justice, Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"
+  - id: mvd-required-docs
+    url: https://mvdmt.gov/required-documents/
+    title: Required Documents for Driver Licenses / IDs (read via Wayback Machine)
+    publisher: Montana Department of Justice, Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: You do not need to show proof of your Social Security Number (SSN) for any transaction; however, you need to know your SSN
+  - id: aclu-kalarchik
+    url: https://www.aclumontana.org/cases/kalarchik-et-al-v-state-montana-et-al/
+    title: Kalarchik et al. v. State of Montana et al.
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"
+    quote: a subsequently-adopted policy and practice of the Motor Vehicle Division to no longer allow changes to the sex designations on driver's licenses
+  - id: dm-kalarchik-2026
+    url: https://dailymontanan.com/2026/04/15/montana-supreme-court-upholds-ability-of-transgender-residents-to-update-documents/
+    title: Montana Supreme Court upholds ability of transgender residents to update documents
+    publisher: Daily Montanan
+    kind: news
+    accessed: "2026-09-24"
+  - id: mfp-kalarchik-2024
+    url: https://montanafreepress.org/2024/12/17/montana-judge-blocks-birth-certificate-drivers-license-rules-for-transgender-residents/
+    title: Montana judge blocks birth certificate, driver's license rules for transgender residents
+    publisher: Montana Free Press
+    kind: news
+    accessed: "2026-09-24"
+  - id: aclu-berndt
+    url: https://www.aclumontana.org/cases/berndt-v-montana-department-justice-et-al/
+    title: Berndt v. Montana Department of Justice, et al.
+    publisher: ACLU of Montana
+    kind: org
+    accessed: "2026-09-24"

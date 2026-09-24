@@ -1,0 +1,470 @@
+guide_type: name_change
+jurisdiction: MT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from MCA Title 27 ch. 31 (2025 code on archive.legmt.gov), the Montana Judicial Branch name
+    change forms page, and the adult/sealed/minor instruction packets (adult packet last updated 12/29/2025). Open
+    items for the human reviewer: (1) the total filing fee. MCA 25-1-201 sets a $90 base fee to start a civil
+    proceeding, but clerks add state surcharges, so the amount charged at the counter is likely higher. I could not
+    find a published total for Missoula County; confirm with the clerk (406-258-4780). (2) Newspaper publication cost
+    (4 weekly insertions) is not published anywhere I could load; no amount given. (3) The sealed-record packet on
+    courts.mt.gov is dated 2008 and says it is for adults whose safety is at risk; whether judges grant sealing to
+    trans petitioners on the basis of risk of harassment/violence varies by judge and is not documented. (4) SB 437
+    (2025, signed 2026-03-24) redefines sex across the MCA; it does not amend 27-31, but confirm it has not changed
+    how courts handle name changes. Cross-checked against A4TE's Montana page (last updated December 2025), which
+    agrees on publication for 4 weeks, a hearing, the sealed-record option, and the fee waiver affidavit. MLSA's
+    website warns of reduced staffing and limited HelpLine hours (Tue-Thu 9-1).
+status: available
+status_summary:
+  en: >-
+    Adults in Montana can change their name by petitioning the district court in the county where they live. You
+    must publish a notice in a local newspaper once a week for 4 weeks and attend a short hearing, unless the judge
+    lets you proceed under a sealed record because making the change public would put your safety at risk.
+  es: >-
+    En Montana, las personas adultas pueden cambiar su nombre presentando una petición en el tribunal de distrito del
+    condado donde viven. Debes publicar un aviso en un periódico local una vez por semana durante 4 semanas y asistir
+    a una audiencia breve, a menos que el juez te permita tramitarlo bajo expediente sellado porque hacer público el
+    cambio pondría en riesgo tu seguridad.
+summary:
+  en: |
+    Montana's name change law (MCA 27-31-101 to 27-31-204) applies to everyone; there is no separate gender-identity process. You file a **Petition for Name Change (Adult)** with the Clerk of District Court in the county where you live. The judge sets a hearing date and names the newspaper where you must publish a notice of the hearing for 4 weeks in a row. At the hearing you bring proof of publication, the judge may ask why you want the change, and then signs the order.
+
+    If publishing your name change would put you in danger, you can instead use the **sealed-record** forms. The judge can let the case proceed without publication and keep the file closed to the public if there is probable cause that your safety is at risk and you are not trying to avoid debt or hide a criminal record.
+
+    The same petition lets you ask Montana Vital Statistics to update your Montana birth certificate with the new name, either as an amended record or a brand-new record with the old one sealed.
+  es: |
+    La ley de cambio de nombre de Montana (MCA 27-31-101 a 27-31-204) se aplica a todos; no hay un proceso aparte por identidad de género. Presentas una **Petición de Cambio de Nombre (Adulto)** ante el Secretario del Tribunal de Distrito del condado donde vives. El juez fija una audiencia e indica el periódico donde debes publicar el aviso durante 4 semanas seguidas. En la audiencia llevas la prueba de publicación, el juez puede preguntarte por qué quieres el cambio y luego firma la orden.
+
+    Si publicar tu cambio de nombre te pondría en peligro, puedes usar los formularios de **expediente sellado**. El juez puede permitir que el caso siga sin publicación y con el expediente cerrado al público si hay causa probable de que tu seguridad está en riesgo.
+
+    La misma petición te permite pedir que Estadísticas Vitales de Montana actualice tu acta de nacimiento de Montana con el nuevo nombre.
+eligibility:
+  residency:
+    en: File in the district court of the Montana county where you live.
+    es: Presenta la petición en el tribunal de distrito del condado de Montana donde vives.
+  age:
+    en: 18 or older for the adult forms. For anyone under 18, a parent (or guardian) signs and files the petition; see Minors.
+    es: 18 años o más para los formularios de adultos. Para menores de 18, un padre, madre o tutor firma y presenta la petición.
+  criminal_history:
+    en: >-
+      You must state that you are not changing your name to avoid debt or hide a criminal record. If you are
+      incarcerated or under Department of Corrections supervision, you cannot use the standard self-help forms: the
+      petition must be served on the Department, which can respond (MCA 27-31-201(4), added in 2025).
+  sources: [mca-27-31-101, mca-27-31-201, courts-adult-packet]
+forms:
+  - id: petition-adult
+    name:
+      en: Petition for Name Change (Adult)
+      es: Petición de cambio de nombre (adulto)
+    url: https://courts.mt.gov/forms/Adult_Name_Change_3_2_20261.pdf
+    required: always
+    condition:
+      en: The PDF is the full adult packet (instructions, petition, order setting hearing, notice, and order). Editable Word versions are on the forms page.
+    how_to_fill:
+      en: |
+        - **Item 7 (Changes to Birth Certificate)**: if you were born in Montana, pick one option. "Create a new birth record" gives you a certificate that shows only your new name and seals the old record; "change the birth record" produces a record stamped ALTERED. If you were born elsewhere, check "Petitioner was not born in Montana."
+        - **Item 8 (Reason)**: a short, truthful reason is enough, for example "to match the name I use and my gender identity." You do not need to give medical details. Check the box that you are not changing your name to avoid debt or hide a criminal record.
+        - **Item 9** is your promise to publish notice for 4 weeks. If publishing would put you in danger, use the sealed-record petition instead.
+        - Sign and date. The clerk fills in the cause number.
+      es: |
+        - **Punto 7 (Acta de nacimiento)**: si naciste en Montana, elige una opción. "Crear un nuevo registro" te da un acta solo con tu nuevo nombre y sella el registro anterior; "cambiar el registro" produce un acta con el sello ALTERADO. Si naciste en otro lugar, marca "no nació en Montana".
+        - **Punto 8 (Motivo)**: basta un motivo breve y verdadero, por ejemplo "para que coincida con el nombre que uso y mi identidad de género". No necesitas dar detalles médicos.
+        - **Punto 9** es tu compromiso de publicar el aviso durante 4 semanas. Si publicar te pondría en peligro, usa la petición de expediente sellado.
+    sources: [courts-adult-packet]
+  - id: order-setting-hearing
+    name:
+      en: Order Setting Hearing and Notice of Hearing on Name Change
+      es: Orden que fija la audiencia y aviso de audiencia de cambio de nombre
+    url: https://courts.mt.gov/forms/namechange
+    required: always
+    condition:
+      en: Fill in the caption only. The judge sets the date and names the newspaper. Included in the adult packet; Word versions on the forms page.
+    sources: [courts-namechange-page, courts-adult-packet]
+  - id: order-name-change
+    name:
+      en: Order for Name Change (Adult)
+      es: Orden de cambio de nombre (adulto)
+    url: https://courts.mt.gov/forms/Adult_Order_for_Name_Change.docx
+    required: always
+    condition:
+      en: Fill in the blanks you can and bring the original and a copy to your hearing. The judge signs it.
+    sources: [courts-adult-packet]
+  - id: petition-sealed
+    name:
+      en: Changing Your Name When Your Safety Is at Risk (sealed-record packet)
+      es: Cambio de nombre cuando tu seguridad está en riesgo (expediente sellado)
+    url: https://courts.mt.gov/external/library/forms/name_chg/name_change_sealed.pdf
+    required: conditional
+    condition:
+      en: Use instead of the standard petition if making your name change public would put your safety at risk. Includes the petition, Order Sealing Record and Setting Hearing, and Order for Name Change under Sealed Record.
+      es: Úsalo en lugar de la petición estándar si hacer público tu cambio de nombre pondría en riesgo tu seguridad.
+    how_to_fill:
+      en: |
+        - The request to proceed under seal must be in the petition itself (MCA 27-31-201(3)).
+        - Describe concretely why publication would put you at risk: past threats, harassment, stalking, or violence, including harassment because you are transgender. Attach or mention any protective order or police report if you have one.
+        - State that you are not trying to avoid debt or hide a criminal record.
+    sources: [courts-sealed-packet, mca-27-31-201]
+  - id: petition-minor
+    name:
+      en: Petition for Name Change (Child) and instructions
+      es: Petición de cambio de nombre (menor) e instrucciones
+    url: https://courts.mt.gov/external/library/forms/name_chg/child_name_change.pdf
+    required: conditional
+    condition:
+      en: Only for a person under 18.
+    sources: [courts-minor-packet]
+  - id: consent-minor
+    name:
+      en: Consent to Name Change of Minor Child
+      es: Consentimiento para el cambio de nombre de un menor
+    url: https://courts.mt.gov/external/library/forms/name_chg/minor_consent_to_name_change.pdf
+    required: conditional
+    condition:
+      en: One per parent or legal guardian, notarized. If every parent and guardian signs one, publication is not required.
+    sources: [courts-minor-packet, mca-27-31-201]
+steps:
+  - id: choose-forms
+    title:
+      en: Choose the standard or sealed-record forms
+      es: Elige los formularios estándar o de expediente sellado
+    body:
+      en: |
+        - **Standard**: the adult packet. You will publish a notice in the newspaper for 4 weeks.
+        - **Sealed record**: use this if publishing your old and new names would put you at risk. The judge decides whether to seal; if the request is denied, the file is no longer withheld.
+
+        Both are free to download from the Montana Judicial Branch forms page. Do not change the wording of the forms.
+      es: |
+        - **Estándar**: el paquete de adultos. Publicarás un aviso en el periódico durante 4 semanas.
+        - **Expediente sellado**: úsalo si publicar tu nombre anterior y el nuevo te pondría en riesgo. El juez decide si sella el caso.
+    forms: [petition-adult, petition-sealed]
+    sources: [courts-namechange-page, courts-adult-packet, courts-sealed-packet]
+  - id: fill-and-copy
+    title:
+      en: Fill out the forms and make a copy
+      es: Llena los formularios y haz una copia
+    body:
+      en: Fill in every blank on the petition, sign and date it, and fill in the district, county, and your current name in the caption of the other forms. Make one copy of everything for yourself.
+      es: Llena todos los espacios de la petición, fírmala y fecha, y completa el distrito, el condado y tu nombre actual en el encabezado de los demás formularios. Haz una copia de todo para ti.
+    forms: [petition-adult, order-setting-hearing, order-name-change]
+    sources: [courts-adult-packet]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: Ask the Clerk of District Court for an **Affidavit of Inability to Pay** (the name can differ by county) and file it with your petition. You must include a financial statement unless a free legal services program represents you. A waiver covers court fees but not the newspaper's charge for publication.
+      es: Pide al Secretario del Tribunal de Distrito una **Declaración Jurada de Incapacidad de Pago** y preséntala con tu petición. Debes incluir una declaración financiera salvo que te represente un programa de servicios legales gratuitos. La exención cubre las tarifas del tribunal, no el costo de la publicación en el periódico.
+    fees: [filing]
+    optional: true
+    sources: [courts-adult-packet, mca-25-10-404]
+  - id: file
+    title:
+      en: File at the Clerk of District Court in your county
+      es: Presenta los documentos ante el Secretario del Tribunal de Distrito de tu condado
+    body:
+      en: File the original petition, Order Setting Hearing, and Notice of Hearing, and pay the filing fee (or file your fee waiver affidavit). Give the clerk a self-addressed stamped envelope and ask them to mail you two conformed copies of the signed Order Setting Hearing. Ask the clerk to stamp your copies "Filed."
+      es: Presenta el original de la petición, la Orden que fija la audiencia y el Aviso de audiencia, y paga la tarifa (o presenta tu solicitud de exención). Entrega al secretario un sobre con tu dirección y estampilla y pide que te envíe dos copias de la Orden firmada.
+    forms: [petition-adult, order-setting-hearing]
+    fees: [filing]
+    sources: [courts-adult-packet, mca-25-1-201]
+  - id: publish
+    title:
+      en: Publish the notice for 4 weeks
+      es: Publica el aviso durante 4 semanas
+    body:
+      en: When the judge sets your hearing, take the Notice of Hearing to the legal-notices desk of the newspaper named in the order. It must run once a week for 4 weeks in a row before your hearing. If your county has no newspaper, post the notice in the three public places the judge lists. Get the newspaper's proof (affidavit) of publication. Skip this step if the judge granted a sealed record.
+      es: Cuando el juez fije la audiencia, lleva el Aviso de audiencia a la sección de avisos legales del periódico indicado en la orden. Debe publicarse una vez por semana durante 4 semanas seguidas antes de la audiencia. Pide la prueba de publicación. Omite este paso si el juez aprobó el expediente sellado.
+    fees: [publication]
+    applies_to: [adult]
+    sources: [mca-27-31-201, courts-adult-packet]
+  - id: hearing
+    title:
+      en: Go to your hearing
+      es: Asiste a tu audiencia
+    body:
+      en: Bring your filed copies, the proof of publication, and the original and a copy of the Order for Name Change. Arrive 15 minutes early. The judge may ask you, under oath, why you want to change your name; anyone who filed an objection may also be heard. If the judge grants the change, they sign the order.
+      es: Lleva tus copias selladas, la prueba de publicación y el original y una copia de la Orden de cambio de nombre. Llega 15 minutos antes. El juez puede preguntarte bajo juramento por qué quieres cambiar tu nombre. Si lo aprueba, firma la orden.
+    forms: [order-name-change]
+    sources: [courts-adult-packet, mca-27-31-203, mca-27-31-202]
+  - id: certified-copies
+    title:
+      en: Get certified copies right away
+      es: Obtén copias certificadas de inmediato
+    body:
+      en: Take the signed order to the Clerk of District Court immediately after the hearing and ask for several certified copies (5 to 7 is a good number). You will need them for Social Security, the MVD, your birth certificate, your passport, and banks.
+      es: Lleva la orden firmada al Secretario del Tribunal justo después de la audiencia y pide varias copias certificadas (entre 5 y 7). Las necesitarás para el Seguro Social, el MVD, tu acta de nacimiento, tu pasaporte y los bancos.
+    fees: [certified-copy]
+    sources: [courts-adult-packet, mca-25-1-201]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (base amount in statute)
+      es: Tarifa de presentación en el tribunal de distrito (monto base en la ley)
+    amount: 90
+    varies_by: county
+    waivable: true
+    note:
+      en: MCA 25-1-201 sets $90 to start a proceeding. Clerks may collect additional state surcharges, so call your clerk for the exact total before you go.
+      es: La ley fija $90 para iniciar un procedimiento. Los secretarios pueden cobrar recargos adicionales; llama para confirmar el total.
+    sources: [mca-25-1-201, mca-25-10-404]
+  - id: publication
+    label:
+      en: Newspaper publication (4 weekly notices)
+      es: Publicación en el periódico (4 avisos semanales)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by the newspaper. Not charged if the judge grants a sealed record, or for a minor when every parent and guardian consents.
+      es: Lo fija el periódico. No se cobra si el juez aprueba el expediente sellado, o para un menor cuando todos los padres y tutores consienten.
+    sources: [mca-27-31-201]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    note:
+      en: $2 per certificate with seal, plus copy charges of $1 per page for the first 10 pages. Most orders are one or two pages.
+      es: $2 por certificado con sello, más $1 por página por las primeras 10 páginas.
+    sources: [mca-25-1-201]
+fee_waiver:
+  available: true
+  eligibility:
+    en: Anyone who swears, with a financial statement, that they cannot pay court costs. People represented by a free legal services program (for example MLSA) do not need the financial statement.
+    es: Cualquier persona que declare bajo juramento, con una declaración financiera, que no puede pagar los costos judiciales.
+  how:
+    en: Ask the Clerk of District Court for the Affidavit of Inability to Pay and file it with your petition. If a judge is not available right away, your petition is filed subject to later approval.
+    es: Pide al Secretario del Tribunal la Declaración Jurada de Incapacidad de Pago y preséntala con tu petición.
+  sources: [mca-25-10-404, courts-adult-packet]
+publication:
+  required: conditional
+  detail:
+    en: Notice of the hearing must be published for 4 successive weeks in a newspaper published in your county (or posted in 3 public places if there is none). Not required for a minor when both parents and all legal guardians consent in writing, or when the judge lets the petition proceed on a sealed record.
+    es: El aviso debe publicarse durante 4 semanas seguidas en un periódico del condado (o colocarse en 3 lugares públicos si no hay periódico). No se requiere para un menor si ambos padres y todos los tutores consienten por escrito, ni si el juez aprueba el expediente sellado.
+  waiver_available: true
+  waiver_how:
+    en: Ask in your petition to proceed on a sealed-record basis (use the sealed-record packet). The judge must find probable cause that your safety is at risk and that you are not avoiding debt or hiding a criminal record. There is no waiver just for gender-identity changes.
+    es: Pide en tu petición tramitar con expediente sellado. El juez debe encontrar causa probable de que tu seguridad está en riesgo. No hay exención solo por cambio de identidad de género.
+  sources: [mca-27-31-201, courts-sealed-packet, a4te-mt]
+hearing:
+  required: "yes"
+  detail:
+    en: The statute says the court "may" set a hearing, but the self-help forms and practice call for one, and publication proof must be shown at it. The judge may question you under oath. Anyone may file an objection before the hearing.
+    es: La ley dice que el tribunal "puede" fijar una audiencia, pero los formularios y la práctica la exigen. El juez puede interrogarte bajo juramento. Cualquier persona puede presentar una objeción antes de la audiencia.
+  sources: [mca-27-31-201, mca-27-31-202, mca-27-31-203, courts-adult-packet]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. People in prison or under Department of Corrections supervision must serve the petition on the Department, which may respond.
+    es: No se requieren huellas ni verificación de antecedentes. Las personas bajo supervisión del Departamento de Correcciones deben notificarle la petición.
+  sources: [mca-27-31-201]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: If the judge allows a sealed-record petition, all papers are kept as a permanent court record withheld from inspection; others can see them only for good cause on a judge's order. Standard name change files are public.
+    es: Si el juez aprueba el expediente sellado, todos los documentos quedan fuera de la vista del público; otros solo pueden verlos por causa justificada y con orden judicial. Los expedientes estándar son públicos.
+  how:
+    en: Put the request in the petition (use the sealed-record packet). If the judge denies it, the record is no longer withheld.
+    es: Incluye la solicitud en la petición (usa el paquete de expediente sellado).
+  sources: [mca-27-31-201, courts-sealed-packet]
+minors:
+  summary:
+    en: |
+      A parent signs and files the petition for anyone under 18 (a guardian, relative, or friend if both parents have died). Each parent and legal guardian can sign a notarized **Consent to Name Change of Minor Child**; if all of them consent, no publication is needed. If a parent does not consent, the notice must be published for 4 weeks, which gives that parent a chance to object. The judge decides based on the child's best interests, and the child usually attends the hearing with the parent. The standard sealed-record forms are for adults only; talk to a lawyer if a child's safety is at risk.
+    es: |
+      Un padre o madre firma y presenta la petición para cualquier menor de 18 años. Cada padre y tutor legal puede firmar un **Consentimiento** notariado; si todos consienten, no se necesita publicación. Si un padre no consiente, el aviso debe publicarse durante 4 semanas. El juez decide según el interés superior del menor. Los formularios de expediente sellado son solo para adultos.
+  forms: [petition-minor, consent-minor]
+  sources: [mca-27-31-101, mca-27-31-201, courts-minor-packet]
+timeline:
+  en: About 6 to 10 weeks from filing to order in most counties, because of the 4-week publication period. Sealed-record cases can be faster or slower depending on the judge's calendar.
+  es: Aproximadamente de 6 a 10 semanas desde la presentación hasta la orden en la mayoría de los condados, por el periodo de publicación de 4 semanas.
+after:
+  en: |
+    1. **Social Security** first: update your name at an SSA office with a certified copy of the order. The MVD checks your name against SSA records.
+    2. **MVD** (driver's license or ID): in person, with the certified order. See the driver's license guide.
+    3. **Birth certificate**: if you were born in Montana, send the certified order, a notarized Affidavit for Correction, a copy of your photo ID, and $41 to Montana Vital Records. If you checked item 7 on the petition, the order already tells Vital Statistics what to do. See the birth certificate guide.
+    4. **Passport**, then banks, employer, school, insurance, and voter registration.
+  es: |
+    1. **Seguro Social** primero, con una copia certificada de la orden. El MVD verifica tu nombre con los registros del Seguro Social.
+    2. **MVD** (licencia o identificación): en persona, con la orden certificada.
+    3. **Acta de nacimiento**: si naciste en Montana, envía la orden certificada, una Declaración Jurada de Corrección notariada, copia de tu identificación y $41 a Registros Vitales de Montana.
+    4. **Pasaporte**, luego bancos, empleador, escuela, seguro y registro de votante.
+tips:
+  - en: TransVisible Montana, a statewide trans collective, offers free name change help (workshops, consultations, and step-by-step support). Email transvisiblemt@gmail.com.
+    es: TransVisible Montana ofrece ayuda gratuita con el cambio de nombre (talleres, consultas y apoyo paso a paso).
+  - en: Ask the newspaper for its legal-notice rate before you publish; small weekly papers are often cheaper, but you must use the one the judge names.
+    es: Pregunta al periódico su tarifa de avisos legales antes de publicar; debes usar el que indica el juez.
+  - en: If you were born in Montana, filling in item 7 on the petition saves you a step later at Vital Records.
+    es: Si naciste en Montana, llenar el punto 7 de la petición te ahorra un paso después en Registros Vitales.
+local_help:
+  - id: mlsa
+    name: Montana Legal Services Association (MLSA)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income Montanans; co-author of the court's self-help name change forms. HelpLine hours are currently limited (Tuesday to Thursday, 9 a.m. to 1 p.m.).
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en Montana; coautora de los formularios de cambio de nombre del tribunal.
+    url: https://www.mtlsa.org/
+    phone: 1-800-666-6899
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [mlsa]
+  - id: montana-law-help
+    name: MontanaLawHelp.org
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: MLSA's free self-help legal information website with plain-language guides and forms.
+      es: Sitio de información legal gratuita de MLSA con guías y formularios en lenguaje sencillo.
+    url: https://www.montanalawhelp.org/
+    cost: free
+    verification: org_website
+    sources: [mlsa]
+  - id: transvisible-montana
+    name: TransVisible Montana
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide collective of transgender, nonbinary, and Two Spirit Montanans offering free name change workshops, consultations, and step-by-step assistance.
+      es: Colectivo estatal de personas trans, no binarias y Two Spirit que ofrece talleres, consultas y ayuda paso a paso gratuitos para el cambio de nombre.
+    url: https://transvisiblemontana.wordpress.com/name-change-assistance/
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [transvisible]
+  - id: state-law-library
+    name: Montana State Law Library
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Reference librarians help you find and use legal forms and resources (not legal advice). 1-800-710-9827.
+      es: Bibliotecarios que te ayudan a encontrar y usar formularios y recursos legales (no dan asesoría legal).
+    url: https://lawlibrary.mt.gov/
+    phone: 1-800-710-9827
+    cost: free
+    verification: official_source
+    sources: [courts-adult-packet]
+statutes:
+  - cite: MCA 27-31-101
+    title:
+      en: Petition for change of name of natural person
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0010/section_0010/0270-0310-0010-0010.html
+  - cite: MCA 27-31-201
+    title:
+      en: Order setting hearing date, notice, safety (sealed record)
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0020/section_0010/0270-0310-0020-0010.html
+  - cite: MCA 27-31-203
+    title:
+      en: Conduct of hearing
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0020/section_0030/0270-0310-0020-0030.html
+  - cite: MCA 25-1-201
+    title:
+      en: Fees of clerk of district court
+    url: https://archive.legmt.gov/bills/mca/title_0250/chapter_0010/part_0020/section_0010/0250-0010-0020-0010.html
+  - cite: MCA 25-10-404
+    title:
+      en: Poor persons not required to prepay fees
+    url: https://archive.legmt.gov/bills/mca/title_0250/chapter_0100/part_0040/section_0040/0250-0100-0040-0040.html
+related_links:
+  - title: A4TE, Montana ID documents
+    url: https://transequality.org/documents/montana-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Última actualización en diciembre de 2025.
+  - title: Montana Judicial Branch, Name Change forms
+    url: https://courts.mt.gov/forms/namechange
+sources:
+  - id: mca-27-31-101
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0010/section_0010/0270-0310-0010-0010.html
+    title: MCA 27-31-101, Petition for change of name of natural person
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: All applications for change of names must be made to the district court of the county where the person whose name is proposed to be changed resides
+  - id: mca-27-31-201
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0020/section_0010/0270-0310-0020-0010.html
+    title: MCA 27-31-201, Order setting hearing date -- notice -- safety
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court may allow a petition to proceed on a sealed-record basis when probable cause is shown that the safety of the petitioner is at risk
+  - id: mca-27-31-202
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0020/section_0020/0270-0310-0020-0020.html
+    title: MCA 27-31-202, Filing of objections to change
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mca-27-31-203
+    url: https://archive.legmt.gov/bills/mca/title_0270/chapter_0310/part_0020/section_0030/0270-0310-0020-0030.html
+    title: MCA 27-31-203, Conduct of hearing
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: On the hearing the court or judge may examine on oath any of the petitioners, remonstrants, or other persons touching the application.
+  - id: mca-25-1-201
+    url: https://archive.legmt.gov/bills/mca/title_0250/chapter_0010/part_0020/section_0010/0250-0010-0020-0010.html
+    title: MCA 25-1-201, Fees of clerk of district court
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: at the commencement of each action or proceeding, except a petition for dissolution of marriage, from the plaintiff or petitioner, $90
+  - id: mca-25-10-404
+    url: https://archive.legmt.gov/bills/mca/title_0250/chapter_0100/part_0040/section_0040/0250-0100-0040-0040.html
+    title: MCA 25-10-404, Poor persons not required to prepay fees
+    publisher: Montana Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: courts-namechange-page
+    url: https://courts.mt.gov/forms/namechange
+    title: Name Change forms
+    publisher: Montana Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: A person may seek a name change for any number of reasons such as divorce, safety reasons, gender change, or simply wanting a new name.
+  - id: courts-adult-packet
+    url: https://courts.mt.gov/forms/Adult_Name_Change_3_2_20261.pdf
+    title: Changing Your Name as an Adult (instructions and forms, last updated 12/29/2025)
+    publisher: Montana Supreme Court Commission on Self-Represented Litigants and MLSA
+    kind: form
+    accessed: "2026-09-24"
+    quote: You must publish notice of your hearing for 4 weeks before your hearing.
+  - id: courts-sealed-packet
+    url: https://courts.mt.gov/external/library/forms/name_chg/name_change_sealed.pdf
+    title: Changing Your Name When Your Safety Is at Risk (sealed record)
+    publisher: Montana Supreme Court Commission on Self-Represented Litigants and MLSA
+    kind: form
+    accessed: "2026-09-24"
+  - id: courts-minor-packet
+    url: https://courts.mt.gov/external/library/forms/name_chg/child_name_change.pdf
+    title: Changing the Name of a Child (instructions and forms)
+    publisher: Montana Supreme Court Commission on Self-Represented Litigants and MLSA
+    kind: form
+    accessed: "2026-09-24"
+  - id: mlsa
+    url: https://www.mtlsa.org/
+    title: Montana Legal Services Association
+    publisher: MLSA
+    kind: org
+    accessed: "2026-09-24"
+    quote: "HelpLine : Tuesday–Thursday, 9:00 AM–1:00 PM · 1 (800) 666-6899"
+  - id: transvisible
+    url: https://transvisiblemontana.wordpress.com/name-change-assistance/
+    title: Name Change Assistance
+    publisher: TransVisible Montana
+    kind: org
+    accessed: "2026-09-24"
+    quote: TransVisible Montana offers FREE name change assistance.
+  - id: a4te-mt
+    url: https://transequality.org/documents/montana-identity-documents
+    title: Montana ID documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
