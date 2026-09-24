@@ -1,0 +1,146 @@
+jurisdiction: PA
+slug: pittsburgh
+name: Pittsburgh
+area:
+  en: Allegheny County
+  es: Condado de Allegheny
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Short list. Allegheny County's name change filing fee could not be confirmed (fee page lists "Petitions -
+    Miscellaneous $174.75" without naming name changes). The Civil Division assigns "Special Name Change" cases to
+    designated judges; confirm this is the track for safety-waiver and sealed petitions. UPMC ending care for patients
+    under 19 (June 30, 2025) is community-reported. Planned Parenthood of Western PA could not be fetched (HTTP 403).
+    Allies for Health + Wellbeing and Persad Center were not listed because their sites did not load.
+intro:
+  en: >-
+    Pittsburgh has a trans-led name change project, an LGBTQ clinic with consent-based hormone care, and community
+    mutual aid. Name change petitions are filed in the Allegheny County Court of Common Pleas.
+  es: >-
+    Pittsburgh tiene un proyecto de cambio de nombre dirigido por personas trans, una clínica LGBTQ con atención
+    hormonal basada en consentimiento y ayuda mutua comunitaria. Las peticiones se presentan en el Tribunal de Causas
+    Comunes del condado de Allegheny.
+court:
+  name: Court of Common Pleas of Allegheny County, Civil Division (Fifth Judicial District)
+  url: https://www.alleghenycourts.us/civil/about/general-motions/
+  notes:
+    en: >-
+      Petitions are filed with the Allegheny County Department of Court Records with your fingerprint card attached.
+      Questions about name change procedures go to Civilnamechanges@alleghenycourts.us. The Civil Division lists
+      designated judges for "Special Name Change" cases.
+    es: >-
+      Las peticiones se presentan en el Department of Court Records del condado de Allegheny con la tarjeta de huellas.
+      Preguntas: Civilnamechanges@alleghenycourts.us.
+  sources: [allegheny-general-motions, allegheny-special-cases]
+resources:
+  - id: sisters-pgh
+    name: SisTers PGH, Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Trans-led help for Allegheny County residents navigating the name change process; join the waiting list online.
+      es: Ayuda dirigida por personas trans para residentes del condado de Allegheny; inscríbete en la lista de espera.
+    url: https://www.sisterspgh.org/the-name-change-project
+    phone: "412-297-0548"
+    address: 213 Smithfield Street, Pittsburgh, PA 15222
+    verification: org_website
+    sources: [sisters-pgh]
+  - id: central-outreach
+    name: Central Outreach Wellness Center, North Shore
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Consent-based hormone therapy, surgery navigation, PrEP, STI testing, and mental health; no referral needed. 412-322-4151.
+      es: Terapia hormonal basada en consentimiento, navegación de cirugía, PrEP, pruebas de ITS y salud mental; sin referencia. 412-322-4151.
+    url: https://www.centraloutreach.com/services/gender-affirming-care
+    phone: "412-322-4151"
+    cost: varies
+    verification: org_website
+    sources: [central-outreach-gac, central-outreach-locations]
+  - id: transyouniting
+    name: TransYOUniting
+    type: fund
+    pillars: [mental_health, hrt]
+    description:
+      en: Mutual aid nonprofit for Pittsburgh's trans, LGBTQIA+, and HIV+ community, with housing, transportation, and a health fund for trans youth.
+      es: Organización de ayuda mutua para la comunidad trans, LGBTQIA+ y VIH+ de Pittsburgh, con vivienda, transporte y un fondo de salud para jóvenes trans.
+    url: https://www.transyounitingpgh.org/
+    verification: org_website
+    sources: [transyouniting]
+  - id: pp-western-pa
+    org: planned-parenthood
+    name: Planned Parenthood of Western Pennsylvania
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual and reproductive health care. Call to confirm gender-affirming hormone therapy and minimum age.
+      es: Salud sexual y reproductiva. Llama para confirmar la terapia hormonal y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-western-pennsylvania
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-wpa]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: allegheny-general-motions
+    url: https://www.alleghenycourts.us/civil/about/general-motions/
+    title: General Motions, Civil Division
+    publisher: Fifth Judicial District of Pennsylvania
+    kind: court
+    accessed: "2026-09-24"
+    quote: Any questions or requests for information regarding the Name Change Procedures in Allegheny County can be directed to Civilnamechanges@alleghenycourts.us
+  - id: allegheny-special-cases
+    url: https://www.alleghenycourts.us/civil/about/special-case-types/
+    title: Judicial Special Assignments
+    publisher: Fifth Judicial District of Pennsylvania
+    kind: court
+    accessed: "2026-09-24"
+  - id: sisters-pgh
+    url: https://www.sisterspgh.org/the-name-change-project
+    title: The Name Change Project
+    publisher: SisTers PGH
+    kind: org
+    accessed: "2026-09-24"
+  - id: central-outreach-gac
+    url: https://www.centraloutreach.com/services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Central Outreach Wellness Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: central-outreach-locations
+    url: https://www.centraloutreach.com/locations
+    title: Locations
+    publisher: Central Outreach Wellness Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: transyouniting
+    url: https://www.transyounitingpgh.org/
+    title: TransYOUniting
+    kind: community
+    accessed: "2026-09-24"
+  - id: pp-wpa
+    url: https://www.plannedparenthood.org/planned-parenthood-western-pennsylvania
+    title: Planned Parenthood of Western Pennsylvania
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

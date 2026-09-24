@@ -1,0 +1,136 @@
+code: PA
+name:
+  en: Pennsylvania
+  es: Pensilvania
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are editorial. MAP (read 2026-09-24) scores PA 1/1 for Medicaid and private insurance, 1/1 for
+    driver's license, 0.75 for birth certificate, 0/1 for name-change publication, and 0/1 for shield law. PA has no
+    statutory shield law; Executive Order 2022-02 (Gov. Wolf) addresses conversion therapy and LGBTQIA+ support but is
+    not a shield law. Mazzoni Center's legal services program has ended and A4TE's Name Change Project stopped taking
+    applications on March 11, 2026, so neither is listed as a key resource.
+overview:
+  en: >-
+    Pennsylvania is a mixed state for ID documents and a generally protective one for care. The driver's license is
+    easy to update: you choose M, F, or X on PennDOT form DL-32 with no doctor's letter. A name change goes through the
+    county Court of Common Pleas and still involves fingerprints, a hearing, judgment searches, and newspaper
+    publication (the court can waive publication and seal the file if publishing would put you in danger). A birth
+    certificate change to M or F needs a physician's letter but no surgery. Gender-affirming care is legal for adults
+    and minors, Medical Assistance (Medicaid) has covered it since 2016, and state insurance guidance bars blanket
+    exclusions. There is no shield law.
+  es: >-
+    Pensilvania es un estado mixto para documentos de identidad y en general protector para la atención médica. La
+    licencia de conducir es fácil de actualizar: eliges M, F o X en el formulario DL-32 de PennDOT sin carta médica.
+    El cambio de nombre se tramita en el Tribunal de Causas Comunes del condado y todavía requiere huellas digitales,
+    audiencia, búsquedas de sentencias y publicación en periódicos (el tribunal puede eximir la publicación y sellar el
+    expediente si publicar te pondría en peligro). El cambio en el acta de nacimiento a M o F requiere una carta de un
+    médico, pero no cirugía. La atención de afirmación de género es legal para adultos y menores, Medical Assistance
+    (Medicaid) la cubre desde 2016 y las pautas estatales de seguros prohíben exclusiones generales. No hay ley escudo.
+climate:
+  id_documents: mixed
+  care: protective
+  shield_law: false
+  sources: [map-profile, penndot-gender, pa-54-701, ma-bulletin-99-16-11]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [philadelphia, pittsburgh]
+key_resources:
+  - id: cls-identity-documents
+    name: Community Legal Services of Philadelphia, Identity Documents
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free help for low-income Philadelphians getting ID: applying for birth certificates, Social Security cards,
+        and PennDOT IDs, advocacy with those agencies, and referrals for legal name changes. Phone intake
+        215-981-3700 (Mondays and Wednesdays 9 am to noon); walk-in at 1410 W. Erie Ave on Tuesdays and Thursdays 9 am
+        to noon.
+      es: >-
+        Ayuda gratuita para residentes de Filadelfia de bajos ingresos que necesitan identificación: actas de
+        nacimiento, tarjetas del Seguro Social e identificaciones de PennDOT, y referencias para cambios de nombre
+        legales. Admisión por teléfono 215-981-3700 (lunes y miércoles de 9 am a mediodía).
+    url: https://clsphila.org/services/identity-documents/
+    phone: "215-981-3700"
+    address: 1410 W. Erie Ave, Philadelphia, PA 19140
+    cost: free
+    verification: org_website
+    sources: [cls-id]
+  - id: sisters-pgh
+    name: SisTers PGH, Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: >-
+        Pittsburgh trans-led organization that guides trans, nonbinary, and gender-nonconforming Allegheny County
+        residents through the name change process. Join the waiting list through their website.
+      es: >-
+        Organización de Pittsburgh dirigida por personas trans que guía a residentes trans, no binarios y de género no
+        conforme del condado de Allegheny en el proceso de cambio de nombre. Inscríbete en la lista de espera en su sitio web.
+    url: https://www.sisterspgh.org/the-name-change-project
+    phone: "412-297-0548"
+    address: 213 Smithfield Street, Pittsburgh, PA 15222
+    verification: org_website
+    sources: [sisters-pgh]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: map-profile
+    url: https://www.mapresearch.org/equality_maps/profile_state/PA
+    title: Pennsylvania state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "\"Shield\" Laws Protecting Access to Transgender Health Care: 0/1"
+  - id: penndot-gender
+    url: https://www.pa.gov/agencies/dmv/driver-services/licenses-and-photo-ids/gender-designation-options
+    title: Gender Designation Options
+    publisher: PennDOT Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Does a doctor or social worker need to sign off on my request? No, they do not.
+  - id: pa-54-701
+    url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=54&div=0&chapter=7
+    title: 54 Pa.C.S. Chapter 7, Judicial Change of Name
+    publisher: Pennsylvania General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ma-bulletin-99-16-11
+    url: https://www.transequality.org/sites/default/files/PA-Medical-Assistance-Bulletin.pdf
+    title: Medical Assistance Bulletin 99-16-11, coverage of services related to gender transition (July 18, 2016)
+    publisher: Pennsylvania Department of Human Services (copy hosted by A4TE)
+    kind: official
+    accessed: "2026-09-24"
+    quote: These categorical payment prohibitions in Pennsylvania's current MA regulations are inconsistent with the Federal Final Rule and will no longer be applied.
+  - id: cls-id
+    url: https://clsphila.org/services/identity-documents/
+    title: Identity Documents
+    publisher: Community Legal Services of Philadelphia
+    kind: org
+    accessed: "2026-09-24"
+  - id: sisters-pgh
+    url: https://www.sisterspgh.org/the-name-change-project
+    title: The Name Change Project
+    publisher: SisTers PGH
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

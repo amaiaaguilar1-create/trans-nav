@@ -1,0 +1,234 @@
+jurisdiction: PA
+slug: philadelphia
+name: Philadelphia
+area:
+  en: City and County of Philadelphia
+  es: Ciudad y Condado de Filadelfia
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the First Judicial District's name change packet (rev. 1/20/26). Two 2026 changes a reviewer
+    should know: Mazzoni Center's legal services program has ended (its page now refers people to CLS, PLA, and the
+    AIDS Law Project), and A4TE's Name Change Project stopped accepting applications on March 11, 2026. Mazzoni's
+    gender-affirming care pages returned "not authorized" to automated access; confirm it still prescribes hormones.
+    Philadelphia FIGHT's site does not list a trans-specific program on its home page; the entry is general. Planned
+    Parenthood Southeastern PA could not be fetched (HTTP 403). Galaei was not listed because its old domain now
+    redirects to an unrelated site.
+intro:
+  en: >-
+    Philadelphia has the state's largest set of trans services: free legal help with IDs, LGBTQ primary care and sexual
+    health clinics, and peer support. Name change petitions are filed at the Civil Filing Center in City Hall.
+  es: >-
+    Filadelfia tiene la mayor cantidad de servicios trans del estado: ayuda legal gratuita con documentos, clínicas LGBTQ
+    de atención primaria y salud sexual, y apoyo entre pares. Las peticiones de cambio de nombre se presentan en el Civil
+    Filing Center del City Hall.
+court:
+  name: Court of Common Pleas of Philadelphia County, Trial Division, Civil (First Judicial District)
+  url: https://www.courts.phila.gov/forms/
+  filing_fee: 349.23
+  notes:
+    en: >-
+      File adult petitions (form 01-101A) at the Civil Filing Center, Room 296, City Hall, with your fingerprint card,
+      copies of your birth certificate and Social Security card, and Pennsylvania photo ID. Minors' petitions go to
+      Family Court, 1501 Arch Street, 11th floor (215-686-3805). Questions about the steps go to the Discovery Court
+      Program, 215-686-7914. A conference hearing is usually set within 90 days, and total costs can exceed $900 unless
+      fees and publication are waived.
+    es: >-
+      Presenta las peticiones de adultos (formulario 01-101A) en el Civil Filing Center, sala 296 del City Hall, con tu
+      tarjeta de huellas, copias de tu acta de nacimiento y tarjeta del Seguro Social, e identificación con foto de
+      Pensilvania. Las de menores van al Tribunal de Familia, 1501 Arch Street, piso 11 (215-686-3805). Preguntas:
+      Discovery Court Program, 215-686-7914.
+  sources: [phila-packet]
+resources:
+  - id: cls-identity-documents
+    name: Community Legal Services, Identity Documents
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help getting birth certificates, Social Security cards, and PennDOT IDs, and referrals for name changes. Phone intake 215-981-3700 (Mon and Wed 9 am to noon); walk-in Tue and Thu 9 am to noon at 1410 W. Erie Ave.
+      es: Ayuda gratuita para obtener actas de nacimiento, tarjetas del Seguro Social e identificaciones de PennDOT, y referencias para cambios de nombre. Teléfono 215-981-3700.
+    url: https://clsphila.org/services/identity-documents/
+    phone: "215-981-3700"
+    address: 1410 W. Erie Ave, Philadelphia, PA 19140
+    cost: free
+    verification: org_website
+    sources: [cls-id]
+  - id: pla
+    name: Philadelphia Legal Assistance
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Name change advice, a self-help guide, and pro bono referral in special cases. Intake 215-981-3800, Mon to Thu 9:30 am to noon.
+      es: Asesoría sobre cambio de nombre, guía de autoayuda y referencia a abogados gratuitos en casos especiales. Línea 215-981-3800.
+    url: https://philalegal.org/services/name-change
+    phone: "215-981-3800"
+    address: 718 Arch Street, Suite 300N, Philadelphia, PA 19106
+    cost: free
+    verification: org_website
+    sources: [pla]
+  - id: alpp
+    name: AIDS Law Project of Pennsylvania, Jaci Adams Identity Initiative
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free name change representation for Philadelphians living with or at high risk of HIV, including people with criminal records. 215-587-9377; bilingual staff.
+      es: Representación gratuita para cambios de nombre de residentes que viven con VIH o con alto riesgo, incluidas personas con antecedentes penales. 215-587-9377; personal bilingüe.
+    url: https://www.aidslawpa.org/alpp-services/jaci-adams-identity-initiative/
+    phone: "215-587-9377"
+    address: 1211 Chestnut Street, Suite 600, Philadelphia, PA 19107
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [alpp]
+  - id: mazzoni
+    name: Mazzoni Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+ primary care (1348 Bainbridge St, 215-563-0652), HIV care, behavioral health, and a sexual health center at Washington West (1201 Locust St, 215-985-9206) with testing, PrEP, and PEP. New patients register through the patient portal or by phone. Ask about hormone therapy when booking.
+      es: Atención primaria LGBTQ+ (1348 Bainbridge St, 215-563-0652), atención de VIH, salud conductual y un centro de salud sexual en Washington West (1201 Locust St, 215-985-9206) con pruebas, PrEP y PEP. Pregunta por terapia hormonal al pedir cita.
+    url: https://www.mazzonicenter.org/medical-care/new-patient-appointment-information
+    phone: "215-563-0652"
+    address: 1348 Bainbridge Street, Philadelphia, PA 19147
+    cost: sliding_scale
+    verification: org_website
+    sources: [mazzoni-new-patient, mazzoni-legal]
+  - id: philadelphia-fight
+    name: Philadelphia FIGHT Community Health Centers
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Community health centers offering primary care, HIV care, behavioral health, and dental care, including the Y-HEP youth health center. Main line 215-985-4448. Ask about gender-affirming care.
+      es: Centros de salud comunitarios con atención primaria, atención de VIH, salud conductual y dental, incluido el centro juvenil Y-HEP. Línea principal 215-985-4448.
+    url: https://fight.org/
+    phone: "215-985-4448"
+    cost: sliding_scale
+    verification: org_website
+    sources: [fight]
+  - id: pp-southeastern-pa
+    org: planned-parenthood
+    name: Planned Parenthood Southeastern Pennsylvania
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual and reproductive health care. Call to confirm gender-affirming hormone therapy and minimum age.
+      es: Salud sexual y reproductiva. Llama para confirmar la terapia hormonal y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-southeastern-pennsylvania
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-sepa]
+  - id: william-way-peer
+    name: William Way LGBT Community Center, Peer Counseling and Trans Programs
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Free, anonymous peer counseling Monday to Friday 6 to 9 pm by phone (267-416-0451) or walk-in Monday to Thursday; trans social and support programs (Ours Truly, 18+). Programs currently meet at St. Luke and the Epiphany, 330 S. 13th St.
+      es: Consejería entre pares gratuita y anónima de lunes a viernes de 6 a 9 pm por teléfono (267-416-0451) o en persona de lunes a jueves; programas de apoyo trans (Ours Truly, 18+).
+    url: https://www.waygay.org/peer
+    phone: "267-416-0451"
+    address: 330 S 13th St, Philadelphia, PA 19107
+    cost: free
+    verification: org_website
+    sources: [waygay-peer, waygay-trans]
+  - id: phila-health-centers
+    name: Philadelphia Department of Public Health, City Health Centers
+    type: primary_care
+    pillars: [sexual_health]
+    description:
+      en: City-run health centers providing primary care regardless of ability to pay.
+      es: Centros de salud de la ciudad que dan atención primaria sin importar la capacidad de pago.
+    url: https://www.phila.gov/departments/department-of-public-health/health-centers/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [phila-chc]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: phila-packet
+    url: https://www.courts.phila.gov/pdf/forms/civil/Name-Change-Petition-01-101A.pdf
+    title: Name Change Process (rev. 1/20/26) and Name Change Petition, Form 01-101A
+    publisher: First Judicial District of Pennsylvania
+    kind: form
+    accessed: "2026-09-24"
+    quote: You can expect to have a conference hearing scheduled within ninety (90) days from filing and to incur costs that could exceed $900.00 to complete the process requirements.
+  - id: cls-id
+    url: https://clsphila.org/services/identity-documents/
+    title: Identity Documents
+    publisher: Community Legal Services of Philadelphia
+    kind: org
+    accessed: "2026-09-24"
+  - id: pla
+    url: https://philalegal.org/services/name-change
+    title: Name Change
+    publisher: Philadelphia Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: alpp
+    url: https://www.aidslawpa.org/alpp-services/jaci-adams-identity-initiative/
+    title: Jaci Adams Identity Initiative
+    publisher: AIDS Law Project of Pennsylvania
+    kind: org
+    accessed: "2026-09-24"
+  - id: mazzoni-new-patient
+    url: https://www.mazzonicenter.org/medical-care/new-patient-appointment-information
+    title: New Patient Appointment Information
+    publisher: Mazzoni Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: mazzoni-legal
+    url: https://www.mazzonicenter.org/supportive-services/legal-services
+    title: Legal Services
+    publisher: Mazzoni Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Mazzoni Center's Legal Services program has ended.
+  - id: fight
+    url: https://fight.org/
+    title: Philadelphia FIGHT
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-sepa
+    url: https://www.plannedparenthood.org/planned-parenthood-southeastern-pennsylvania
+    title: Planned Parenthood Southeastern Pennsylvania
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: waygay-peer
+    url: https://www.waygay.org/peer
+    title: Peer Counseling
+    publisher: William Way LGBT Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: waygay-trans
+    url: https://www.waygay.org/trans
+    title: Trans Programs
+    publisher: William Way LGBT Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: phila-chc
+    url: https://www.phila.gov/departments/department-of-public-health/health-centers/
+    title: City Health Centers
+    publisher: City of Philadelphia, Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

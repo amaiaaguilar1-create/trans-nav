@@ -1,0 +1,300 @@
+jurisdiction: PA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Medical Assistance coverage rests on MA Bulletin 99-16-11 (July 18, 2016), read in full from A4TE's hosted copy;
+    it says the regulatory exclusions in 55 Pa. Code §§ 1121.54(10), 1126.54(a)(7), 1141.59(11), 1163.59(a)(1), and
+    1221.59(7) "will no longer be applied." Those exclusions are still printed in the Pennsylvania Code (confirmed on
+    pacodeandbulletin.gov 2026-09-24), and the bulletin's legal basis was the 2016 federal Section 1557 rule, which has
+    since been changed. Reviewer: confirm with DHS that the bulletin is still in force in 2026 and not rescinded. A4TE's
+    Trans Health Project says "Pennsylvania Medicaid has no explicit policy" (last updated 2021) while MAP scores PA 1/1
+    for Medicaid coverage; the primary source (the bulletin) is used here. Insurance: PID Notice 2016-05 read on
+    pacodeandbulletin.gov. Minor care: no state ban (MAP "No Negative Law"). UPMC ending care for patients under 19 as of
+    June 30, 2025 is community-reported (TransYOUniting's site); news confirmation could not be retrieved because web
+    search was unavailable. Whether other Pennsylvania systems (CHOP, Penn State Health) changed youth services in
+    2025-2026 was not checked. Mazzoni Center's gender-affirming care pages returned "not authorized" to automated
+    access on 2026-09-24 (its new-patient page works); confirm it still prescribes hormones. Planned Parenthood
+    affiliate pages returned HTTP 403, so PP entries are unverified and give no minimum age. No pending bills are
+    listed because none were confirmed to have passed a chamber.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in Pennsylvania for adults and minors. Medical Assistance (Medicaid) has covered
+    medically necessary transition care, including hormones and surgery, since 2016, and state insurance guidance bars
+    blanket exclusions in state-regulated plans. There is no shield law, and some hospital systems have stopped
+    treating patients under 19.
+  es: >-
+    La atención de afirmación de género es legal en Pensilvania para adultos y menores. Medical Assistance (Medicaid)
+    cubre desde 2016 la atención de transición médicamente necesaria, incluidas hormonas y cirugía, y las pautas
+    estatales prohíben exclusiones generales en planes regulados por el estado. No hay ley escudo y algunos sistemas
+    hospitalarios dejaron de atender a pacientes menores de 19 años.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Community clinics such as Central Outreach Wellness Center describe their hormone care as consent-based, meaning no therapist letter is needed. Telehealth prescribing is available statewide.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Medical Assistance** through COMPASS. It covers hormones, labs, and medically necessary surgery.
+      2. Go to a **community health center** (federally qualified health center), which charges on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      3. Try LGBTQ-focused clinics in Philadelphia and Pittsburgh (see the city pages).
+      4. **Point of Pride** runs an HRT access fund and a free chest binder and gaff program.
+    es: |
+      Sin restricciones estatales. Clínicas comunitarias como Central Outreach Wellness Center describen su atención hormonal como basada en consentimiento, sin carta de terapeuta. La telesalud está disponible en todo el estado.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medical Assistance** en COMPASS. Cubre hormonas, laboratorios y cirugía médicamente necesaria.
+      2. Acude a un **centro de salud comunitario**, que cobra en escala móvil. Búscalo en findahealthcenter.hrsa.gov.
+      3. Prueba las clínicas LGBTQ de Filadelfia y Pittsburgh (ver las páginas de ciudades).
+      4. **Point of Pride** tiene un fondo de acceso a TRH y un programa gratuito de binders.
+  sources: [central-outreach-gac, hrsa, compass, ma-bulletin-99-16-11]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Pennsylvania has no law banning gender-affirming care for minors, and parental consent is required. There is **no shield law**, so Pennsylvania does not have statutory protections against out-of-state investigations.
+
+      Access has narrowed in practice: according to TransYOUniting, a Pittsburgh community organization, **UPMC ended gender-affirming care for all patients under 19 as of June 30, 2025**. Families should call providers directly to confirm what they currently offer.
+    es: |
+      Legal. Pensilvania no tiene una ley que prohíba la atención de afirmación de género para menores, y se requiere el consentimiento de los padres. **No hay ley escudo**.
+
+      En la práctica el acceso se ha reducido: según TransYOUniting, una organización comunitaria de Pittsburgh, **UPMC dejó de dar atención de afirmación de género a todos los pacientes menores de 19 años desde el 30 de junio de 2025**. Las familias deben llamar a los proveedores para confirmar qué ofrecen hoy.
+  sources: [map-profile, transyouniting]
+medicaid:
+  program_name: Medical Assistance (HealthChoices)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Since July 18, 2016, the Department of Human Services has not applied the old regulatory exclusions for "sex reassignment." Services related to gender transition that are otherwise covered (doctor visits, hospital care, prescription drugs) are paid when medically necessary, and DHS and managed care plans use the WPATH Standards of Care to decide medical necessity (MA Bulletin 99-16-11). Expect prior authorization for surgery; ask your HealthChoices plan for its gender-affirming care policy.
+
+      **Apply** online at COMPASS (compass.dhs.pa.gov), by phone, or at your county assistance office.
+    es: |
+      Desde el 18 de julio de 2016, el Departamento de Servicios Humanos no aplica las antiguas exclusiones reglamentarias de "reasignación de sexo". Los servicios de transición que de otro modo están cubiertos (consultas, hospital, medicamentos) se pagan cuando son médicamente necesarios, según los Estándares de Atención de WPATH (Boletín MA 99-16-11). La cirugía suele requerir autorización previa.
+
+      **Solicita** en línea en COMPASS (compass.dhs.pa.gov), por teléfono o en la oficina de asistencia de tu condado.
+  how_to_apply_url: https://www.compass.dhs.pa.gov/
+  sources: [ma-bulletin-99-16-11, pacode-1163-59, compass]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: >-
+      Insurance Department Notice 2016-05 tells state-regulated insurers that policies should not exclude services
+      based on gender identity or contain a categorical exclusion of gender transition care, and should provide
+      medically necessary covered services regardless of gender identity. This is agency guidance, not a statute, and
+      it does not reach self-funded employer plans. If your plan denies care, appeal with the plan first, then file a
+      complaint with the Pennsylvania Insurance Department.
+    es: >-
+      El Aviso 2016-05 del Departamento de Seguros indica a las aseguradoras reguladas por el estado que las pólizas no
+      deben excluir servicios por identidad de género ni excluir de forma general la atención de transición. Es una
+      pauta de la agencia, no una ley, y no cubre planes autofinanciados de empleadores. Si tu plan niega la atención,
+      apela primero con el plan y luego presenta una queja ante el Departamento de Seguros.
+  complaint_url: https://www.pa.gov/agencies/insurance/consumer-help-center/complaints-questions-help
+  sources: [pid-notice-2016-05, pid-complaints]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: central-outreach
+    name: Central Outreach Wellness Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        LGBTQIA+ clinic serving 2,000+ gender-affirming care patients in western Pennsylvania, with consent-based hormone
+        therapy, surgery navigation, PrEP, STI testing, and mental health. No referral needed. Locations in Pittsburgh
+        (North Shore, 412-322-4151), Washington, Aliquippa, and Erie, and a Harrisburg site opening fall 2026.
+      es: >-
+        Clínica LGBTQIA+ con más de 2,000 pacientes de atención de afirmación de género en el oeste de Pensilvania:
+        terapia hormonal basada en consentimiento, navegación de cirugía, PrEP, pruebas de ITS y salud mental. Sin
+        referencia. Sedes en Pittsburgh, Washington, Aliquippa y Erie; Harrisburg abre en otoño de 2026.
+    url: https://www.centraloutreach.com/services/gender-affirming-care
+    phone: "412-322-4151"
+    areas_served:
+      en: Western and central Pennsylvania
+      es: Oeste y centro de Pensilvania
+    cost: varies
+    verification: org_website
+    sources: [central-outreach-gac, central-outreach-locations]
+  - id: mazzoni
+    name: Mazzoni Center (Philadelphia)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        Philadelphia's LGBTQ+ primary care center, with HIV care, PrEP, sexual health testing, behavioral health, and an
+        on-site pharmacy. New patients can register through the patient portal or call 215-563-0652. Ask about
+        gender-affirming hormone therapy when you book.
+      es: >-
+        Centro de atención primaria LGBTQ+ de Filadelfia con atención de VIH, PrEP, pruebas de salud sexual, salud
+        conductual y farmacia. Pacientes nuevos se registran en el portal o llaman al 215-563-0652. Pregunta por la terapia
+        hormonal al pedir la cita.
+    url: https://www.mazzonicenter.org/medical-care/new-patient-appointment-information
+    phone: "215-563-0652"
+    address: 1348 Bainbridge Street, Philadelphia, PA 19147
+    cost: sliding_scale
+    verification: org_website
+    sources: [mazzoni-new-patient]
+  - id: pp-southeastern-pa
+    org: planned-parenthood
+    name: Planned Parenthood Southeastern Pennsylvania
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Philadelphia-area Planned Parenthood affiliate. Call to confirm gender-affirming hormone therapy availability and minimum age.
+      es: Afiliada de Planned Parenthood en el área de Filadelfia. Llama para confirmar la terapia hormonal y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-southeastern-pennsylvania
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-sepa]
+  - id: pp-western-pa
+    org: planned-parenthood
+    name: Planned Parenthood of Western Pennsylvania
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Pittsburgh-area Planned Parenthood affiliate. Call to confirm gender-affirming hormone therapy availability and minimum age.
+      es: Afiliada de Planned Parenthood en el área de Pittsburgh. Llama para confirmar la terapia hormonal y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-western-pennsylvania
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-wpa]
+  - id: compass
+    name: COMPASS, Pennsylvania benefits application (Medical Assistance)
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Apply online for Medical Assistance, SNAP, and other benefits.
+      es: Solicita en línea Medical Assistance, SNAP y otros beneficios.
+    url: https://www.compass.dhs.pa.gov/
+    cost: free
+    verification: official_source
+    sources: [compass]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for sliding-scale community health centers. Search your ZIP code, then call and ask about hormone therapy.
+      es: Buscador federal de centros de salud comunitarios con escala móvil. Busca por código postal y pregunta por terapia hormonal.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit with an HRT access fund, surgery funding, and free chest binders and shapewear.
+      es: Organización nacional con fondo de acceso a TRH, apoyo para cirugías y binders gratuitos.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: pid-consumer
+    name: Pennsylvania Insurance Department, consumer complaints
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: File a complaint or ask a question if a state-regulated health plan denies gender-affirming care.
+      es: Presenta una queja si un plan regulado por el estado niega la atención de afirmación de género.
+    url: https://www.pa.gov/agencies/insurance/consumer-help-center/complaints-questions-help
+    cost: free
+    verification: official_source
+    sources: [pid-complaints]
+statutes:
+  - cite: 55 Pa. Code § 1163.59(a)(1)
+    title:
+      en: Former Medical Assistance exclusion for transition surgery; no longer applied since MA Bulletin 99-16-11 (2016)
+    url: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter1163/s1163.59.html
+sources:
+  - id: ma-bulletin-99-16-11
+    url: https://www.transequality.org/sites/default/files/PA-Medical-Assistance-Bulletin.pdf
+    title: Medical Assistance Bulletin 99-16-11, coverage of services related to gender transition (July 18, 2016)
+    publisher: Pennsylvania Department of Human Services (copy hosted by A4TE)
+    kind: official
+    accessed: "2026-09-24"
+    quote: Effective July 18, 2016, the categorical MA regulatory prohibitions on payment for services related to sex reassignment ... are no longer in effect.
+  - id: pacode-1163-59
+    url: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter1163/s1163.59.html
+    title: 55 Pa. Code § 1163.59, Noncompensable services, items and outlier days
+    publisher: Pennsylvania Code and Bulletin
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: compass
+    url: https://www.compass.dhs.pa.gov/
+    title: COMPASS
+    publisher: Pennsylvania Department of Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: pid-notice-2016-05
+    url: https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol46/46-18/762.html
+    title: Notice Regarding Nondiscrimination; Notice 2016-05, 46 Pa.B. 2251 (April 30, 2016)
+    publisher: Pennsylvania Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: it is anticipated that a policy will not exclude services based on gender identity and will not contain a categorical exclusion of coverage for all health services related to gender transition
+  - id: pid-complaints
+    url: https://www.pa.gov/agencies/insurance/consumer-help-center/complaints-questions-help
+    title: Complaints, questions, and help
+    publisher: Pennsylvania Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality_maps/profile_state/PA
+    title: Pennsylvania state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: transyouniting
+    url: https://www.transyounitingpgh.org/
+    title: TransYOUniting
+    kind: community
+    accessed: "2026-09-24"
+    quote: UPMC chose to end gender-affirming care for all trans people under 19 years old starting June 30, 2025.
+  - id: central-outreach-gac
+    url: https://www.centraloutreach.com/services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Central Outreach Wellness Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: we are dedicated to providing consent-based gender-affirming care that aligns with YOUR goals and choices.
+  - id: central-outreach-locations
+    url: https://www.centraloutreach.com/locations
+    title: Locations
+    publisher: Central Outreach Wellness Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: mazzoni-new-patient
+    url: https://www.mazzonicenter.org/medical-care/new-patient-appointment-information
+    title: New Patient Appointment Information
+    publisher: Mazzoni Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-sepa
+    url: https://www.plannedparenthood.org/planned-parenthood-southeastern-pennsylvania
+    title: Planned Parenthood Southeastern Pennsylvania
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-wpa
+    url: https://www.plannedparenthood.org/planned-parenthood-western-pennsylvania
+    title: Planned Parenthood of Western Pennsylvania
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

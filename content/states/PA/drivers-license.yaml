@@ -1,0 +1,210 @@
+guide_type: drivers_license
+jurisdiction: PA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Policy, fees, and form read directly from PennDOT pages and the DL-32 (7-25) PDF on 2026-09-24. The DL-32 PDF's fee
+    box prints $42.50 (Class M $48.50) for a new camera card, while PennDOT's Gender Designation Options FAQ says there
+    is no fee for a gender change on non-commercial, non-REAL ID products unless you want a new card; this guide follows
+    the FAQ and the fee page (duplicate license $42.50, with motorcycle $48.50, ID replacement $42.50). Reviewer: confirm
+    whether a no-fee "update card" is issued for a gender-only change. WESA (Feb 2025) reported a bill introduced to
+    restrict markers to sex at birth; no evidence it passed a chamber, so it is not listed. The name-change document
+    list on PennDOT's page also allows a name supported by a Social Security card plus two documents ("any other
+    name"); reviewer should confirm how PennDOT applies this before we suggest it as a path without a court order.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the gender on your Pennsylvania driver's license or photo ID to M, F, or X by signing PennDOT form
+    DL-32 at a Driver License Center. No doctor's letter or court order is needed. The change itself is free for most
+    cards; a new card costs $42.50.
+  es: >-
+    Puedes cambiar el género en tu licencia de conducir o identificación con foto de Pensilvania a M, F o X firmando el
+    formulario DL-32 de PennDOT en un Driver License Center. No se necesita carta médica ni orden judicial. El cambio es
+    gratis para la mayoría de las tarjetas; una tarjeta nueva cuesta $42.50.
+summary:
+  en: |
+    PennDOT lets you choose **Male (M), Female (F), or Non-Binary/Other (X)** by self-certification. On form DL-32 you certify that the marker "accurately reflects my gender identity and is not for any fraudulent or other unlawful purpose." No provider has to sign. X is accepted on REAL ID cards.
+
+    The change must be done **in person** at a PennDOT Driver License Center. For a standard (non-REAL ID, non-commercial) card, there is no fee for the change itself, but you pay the duplicate fee if you want a new card showing it. For **REAL ID and commercial licenses**, a gender change is a "material change" and you must buy a duplicate.
+
+    To change your **name**, bring a certified copy of your court order plus the change/correction form (DL-80 for a license, DL-54B for an ID). You can do both changes in one visit.
+  es: |
+    PennDOT te permite elegir **Masculino (M), Femenino (F) o No binario/Otro (X)** por declaración propia. En el formulario DL-32 certificas que el marcador "refleja con precisión mi identidad de género y no tiene fines fraudulentos ni ilícitos". Ningún proveedor tiene que firmar. La X se acepta en tarjetas REAL ID.
+
+    El cambio debe hacerse **en persona** en un Driver License Center de PennDOT. Para una tarjeta estándar (no REAL ID, no comercial), el cambio es gratis, pero pagas la tarifa de duplicado si quieres una tarjeta nueva. Para **REAL ID y licencias comerciales**, el cambio de género es un "cambio material" y debes comprar un duplicado.
+
+    Para cambiar tu **nombre**, lleva una copia certificada de la orden judicial y el formulario de cambio (DL-80 para licencia, DL-54B para identificación). Puedes hacer ambos cambios en una sola visita.
+eligibility:
+  other:
+    en: Any age; you must already hold, or be applying for, a Pennsylvania license, permit, or photo ID. First-time applicants attach DL-32 to their initial application.
+    es: Cualquier edad; debes tener o estar solicitando una licencia, permiso o identificación de Pensilvania. Quienes solicitan por primera vez adjuntan el DL-32 a su solicitud inicial.
+  sources: [penndot-gender, dl-32]
+forms:
+  - id: DL-32
+    name:
+      en: Request for Gender Change on Driver's License/Identification Card
+      es: Solicitud de cambio de género en licencia de conducir/tarjeta de identificación
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-form/dl-32.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Section A**: your name, date of birth, and license/ID number exactly as they appear now (use your current name even if you are changing it the same day).
+        - **Section B**: print your name and check Male (M), Female (F), or Non-Binary/Other (X). No medical information is asked.
+        - **Section C**: check which card you have, sign in ink, and fill in payment only if you are buying a new card.
+        - If your card expires within six months, attach the renewal form (DL-143 or DL-54B) instead of paying for a duplicate.
+      es: |
+        - **Sección A**: tu nombre, fecha de nacimiento y número de licencia/identificación tal como aparecen ahora.
+        - **Sección B**: escribe tu nombre y marca Masculino (M), Femenino (F) o No binario/Otro (X). No se pide información médica.
+        - **Sección C**: marca qué tarjeta tienes, firma con tinta y llena el pago solo si compras una tarjeta nueva.
+    sources: [dl-32]
+  - id: DL-80
+    name:
+      en: Non-Commercial Driver's License Application for Change/Correction/Replacement
+      es: Solicitud de cambio/corrección/reemplazo de licencia no comercial
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-form/dl-80.pdf
+    required: conditional
+    condition:
+      en: If you are changing your name (or anything besides gender) on a non-commercial license. Commercial licenses use DL-80CD.
+      es: Si cambias tu nombre (u otro dato además del género) en una licencia no comercial. Las comerciales usan DL-80CD.
+    sources: [penndot-name, dl-32]
+  - id: DL-54B
+    name:
+      en: Photo Identification Card Application for Change/Correction/Replacement or Renewal
+      es: Solicitud de cambio/corrección/reemplazo o renovación de tarjeta de identificación con foto
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-form/dl-54b.pdf
+    required: conditional
+    condition:
+      en: If you have a photo ID card (not a license) and are changing your name or renewing.
+      es: Si tienes una tarjeta de identificación con foto y cambias tu nombre o renuevas.
+    sources: [penndot-name, dl-32]
+steps:
+  - id: fill-dl32
+    title:
+      en: Fill out form DL-32
+      es: Llena el formulario DL-32
+    body:
+      en: Download DL-32, choose M, F, or X, and sign it. No doctor, therapist, or social worker signs.
+      es: Descarga el DL-32, elige M, F o X y fírmalo. Ningún médico, terapeuta ni trabajador social firma.
+    forms: [DL-32]
+    applies_to: [gender_marker]
+    sources: [dl-32, penndot-gender]
+  - id: name-docs
+    title:
+      en: If you are changing your name, bring the court order and DL-80 or DL-54B
+      es: Si cambias tu nombre, lleva la orden judicial y el DL-80 o DL-54B
+    body:
+      en: >-
+        Bring the original certified copy of your name change decree (photocopies are not accepted) and the
+        change/correction form for your card type. Update Social Security first; PennDOT checks your Social Security
+        record.
+      es: >-
+        Lleva la copia certificada original de tu decreto (no se aceptan fotocopias) y el formulario de cambio para tu
+        tipo de tarjeta. Actualiza primero el Seguro Social.
+    forms: [DL-80, DL-54B]
+    applies_to: [name_change]
+    sources: [penndot-name]
+  - id: visit
+    title:
+      en: Go to a PennDOT Driver License Center
+      es: Ve a un Driver License Center de PennDOT
+    body:
+      en: >-
+        Gender changes must be done in person. Driver License Centers take debit or credit cards, checks, or money
+        orders, but not cash. You may be given a camera card to have a new photo taken.
+      es: >-
+        Los cambios de género deben hacerse en persona. Los centros aceptan tarjetas de débito o crédito, cheques o giros,
+        pero no efectivo. Es posible que te den una tarjeta para tomarte una foto nueva.
+    fees: [duplicate-license, id-replacement]
+    applies_to: [in_person]
+    sources: [penndot-gender, penndot-fees]
+fees:
+  - id: gender-change
+    label:
+      en: Gender change on a non-commercial, non-REAL ID card
+      es: Cambio de género en tarjeta no comercial y no REAL ID
+    amount: 0
+    note:
+      en: Free unless you want a new card showing the change.
+      es: Gratis, salvo que quieras una tarjeta nueva con el cambio.
+    sources: [penndot-gender]
+  - id: duplicate-license
+    label:
+      en: Duplicate or replacement driver's license
+      es: Licencia de conducir duplicada o de reemplazo
+    amount: 42.5
+    note:
+      en: $48.50 with a motorcycle (Class M) endorsement. Required for REAL ID and commercial licenses.
+      es: $48.50 con endoso de motocicleta (Clase M). Obligatorio para REAL ID y licencias comerciales.
+    sources: [penndot-fees, dl-32]
+  - id: id-replacement
+    label:
+      en: Photo ID card replacement
+      es: Reemplazo de tarjeta de identificación con foto
+    amount: 42.5
+    sources: [penndot-fees]
+fee_waiver:
+  available: false
+  how:
+    en: PennDOT does not publish a fee waiver for duplicate cards. Choosing the free gender update (standard card only) avoids the fee.
+    es: PennDOT no publica una exención para tarjetas duplicadas. Elegir la actualización gratuita (solo tarjeta estándar) evita la tarifa.
+  sources: [penndot-fees, penndot-gender]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: "In person only: \"A gender designation change must be completed in person at a PennDOT Driver License Center.\""
+    es: Solo en persona en un Driver License Center de PennDOT.
+  sources: [penndot-gender]
+timeline:
+  en: Same day at the counter; your new photo card is printed at the photo center.
+  es: El mismo día; tu nueva tarjeta con foto se imprime en el centro de fotos.
+after:
+  en: If you were born in Pennsylvania, you can also update your birth certificate (see the birth certificate guide). Your U.S. passport sex marker currently cannot be changed; the name can.
+  es: Si naciste en Pensilvania, también puedes actualizar tu acta de nacimiento (ver la guía). El marcador de sexo del pasaporte actualmente no se puede cambiar; el nombre sí.
+tips:
+  - en: If your license expires within six months, renew at the same time using DL-143 (license) or DL-54B (ID) attached to your DL-32.
+    es: Si tu licencia vence en seis meses, renueva al mismo tiempo con el DL-143 (licencia) o DL-54B (identificación) adjunto al DL-32.
+  - en: An X marker on your license does not carry over to your passport; the State Department currently issues passports only with the sex assigned at birth.
+    es: La X en tu licencia no se transfiere al pasaporte.
+related_links:
+  - title: PennDOT, Gender Designation Options
+    url: https://www.pa.gov/agencies/dmv/driver-services/licenses-and-photo-ids/gender-designation-options
+  - title: A4TE, Pennsylvania identity documents
+    url: https://transequality.org/documents/pennsylvania-identity-documents
+sources:
+  - id: penndot-gender
+    url: https://www.pa.gov/agencies/dmv/driver-services/licenses-and-photo-ids/gender-designation-options
+    title: Gender Designation Options
+    publisher: PennDOT Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is no fee to change your gender designation for non-commercial, non-REAL ID products, but if you want to get a duplicate license or photo ID card reflecting the change in gender designation, applicable duplicate fees will apply.
+  - id: dl-32
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-form/dl-32.pdf
+    title: Form DL-32 (7-25), Request for Gender Change on Driver's License/Identification Card
+    publisher: PennDOT
+    kind: form
+    accessed: "2026-09-24"
+    quote: I hereby certify under penalty of law that this request for the selected gender designation to appear on my Driver's License/ ID Card accurately reflects my gender identity and is not for any fraudulent or other unlawful purpose.
+  - id: penndot-fees
+    url: https://www.pa.gov/agencies/dmv/resources/payments-and-fees
+    title: Payments and Fees
+    publisher: PennDOT Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate or Replacement License: $42.50; Identification Card (replacement): $42.50"
+  - id: penndot-name
+    url: https://www.pa.gov/services/dmv/change-a-driver-license-name-or-address
+    title: Change a Driver's License or Photo ID Name or Address
+    publisher: PennDOT
+    kind: official
+    accessed: "2026-09-24"
+    quote: If your name changed by permission of the court, you must present a Certified Copy of the Court Order.

@@ -1,0 +1,548 @@
+guide_type: name_change
+jurisdiction: PA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (54 Pa.C.S. §§ 701-705, last amended 2004) read on the legislature's site 2026-09-24. Philadelphia
+    procedure and fees are from the court's own packet "Name Change Process, rev. 1/20/26" (filing fee $349.23;
+    judgment searches $20 + $58.52; five free certified copies, then $41.58 each). Philadelphia Legal Assistance's page
+    still says $333.23, an older figure; the court packet is used. Open items for the reviewer: (1) Allegheny County's
+    filing fee could not be confirmed; its fee page lists "Petitions - Miscellaneous $174.75" but does not name name-change
+    petitions, so no Allegheny figure is given; (2) how courts in practice handle safety waivers for trans petitioners
+    (Allegheny assigns "Special Name Change" petitions to designated judges; confirm this is the confidential track);
+    (3) Pennsylvania State Police fingerprint processing fee not confirmed; (4) whether a Pennsylvania appellate case
+    (often cited as In re A.S.D., Pa. Super. 2017) specifically holds that trans petitioners' safety risks justify waiver
+    could not be verified because web search was unavailable, so it is not cited. Status set to restricted following
+    the brief's rule (fingerprinting, mandatory hearing, publication unless waived, felony bar); in practice most trans
+    adults can complete it. 2025-2026 changes: A4TE's Name Change Project stopped accepting applications on March 11,
+    2026, and Mazzoni Center's legal services program has ended. SB 521 (2025), which would remove publication, was
+    referred to Senate Judiciary on March 26, 2025 and has not moved, so it is not listed as a pending bill.
+    Cross-check: A4TE's Pennsylvania page (no visible last-updated date) agrees on fingerprints, two-newspaper
+    publication with safety waiver, sealing, five-year judgment searches, and the felony rules.
+status: restricted
+status_summary:
+  en: >-
+    Pennsylvania adults can change their name by petitioning the Court of Common Pleas in their county, but the
+    process is long: fingerprints, a hearing, judgment searches, and notice in two newspapers. If publishing would put
+    you in danger, you can ask the court to waive it, and the court must then seal your file. People with some felony
+    convictions face waiting periods or a bar.
+  es: >-
+    En Pensilvania, las personas adultas pueden cambiar su nombre con una petición ante el Tribunal de Causas Comunes
+    de su condado, pero el proceso es largo: huellas digitales, audiencia, búsquedas de sentencias y aviso en dos
+    periódicos. Si publicar te pondría en peligro, puedes pedir al tribunal que lo exima, y entonces el tribunal debe
+    sellar tu expediente. Las personas con ciertas condenas por delitos graves enfrentan períodos de espera o una prohibición.
+summary:
+  en: |
+    Pennsylvania's name change law (54 Pa.C.S. § 701) applies to everyone; there is no separate gender-identity process. You file a petition in the **Court of Common Pleas of the county where you live**. The petition must state your reason for the change and every address you have had for the past five years. You also get fingerprinted, because the court sends your fingerprints to the Pennsylvania State Police before it can grant the change (§ 702).
+
+    The court sets a hearing one to three months after filing. Before the hearing you normally publish notice in two newspapers and get official "judgment searches" from every county you lived in during the last five years. At the hearing, anyone with a lawful objection can speak, and the judge (in Philadelphia, a hearing officer first) decides.
+
+    **Safety waiver.** If the court finds that publishing would put you (or your child) in danger, it must waive the notice and **seal the file**. Many trans people ask for this. Ask for it in the petition itself.
+
+    Expect it to cost several hundred dollars; Philadelphia's court says total costs can exceed $900. Low-income people can ask to proceed "in forma pauperis" (without paying court fees).
+  es: |
+    La ley de cambio de nombre de Pensilvania (54 Pa.C.S. § 701) se aplica a todas las personas; no existe un proceso separado por identidad de género. Presentas una petición en el **Tribunal de Causas Comunes del condado donde vives**. La petición debe indicar el motivo del cambio y todas tus direcciones de los últimos cinco años. También te tomas las huellas digitales, porque el tribunal las envía a la Policía Estatal de Pensilvania antes de conceder el cambio (§ 702).
+
+    El tribunal fija una audiencia de uno a tres meses después de la presentación. Antes de la audiencia normalmente publicas un aviso en dos periódicos y obtienes "búsquedas de sentencias" oficiales de cada condado donde viviste en los últimos cinco años.
+
+    **Exención por seguridad.** Si el tribunal determina que publicar te pondría en peligro a ti (o a tu hijo), debe eximir el aviso y **sellar el expediente**. Muchas personas trans lo piden. Solicítalo en la misma petición.
+
+    Calcula varios cientos de dólares; el tribunal de Filadelfia dice que el costo total puede superar $900. Las personas de bajos ingresos pueden pedir proceder "in forma pauperis" (sin pagar tarifas judiciales).
+eligibility:
+  residency:
+    en: File in the Court of Common Pleas of the Pennsylvania county where you live (54 Pa.C.S. § 701(a.1)(1)).
+    es: Presenta la petición en el Tribunal de Causas Comunes del condado de Pensilvania donde vives.
+  age:
+    en: 18 or older for the adult process. For minors, a parent or guardian files; in Philadelphia, minors' petitions go to Family Court.
+    es: 18 años o más para el proceso de adultos. Para menores, un padre, madre o tutor presenta la petición; en Filadelfia se presentan en el Tribunal de Familia.
+  criminal_history:
+    en: >-
+      If you were convicted of a felony, the court can grant a name change only if at least two years have passed
+      since you completed your sentence and you are not on probation or parole, or if you were pardoned. The court
+      cannot grant a name change after a conviction for murder, voluntary manslaughter, rape, certain other sexual
+      offenses, certain robbery, aggravated assault, and arson offenses, kidnapping, or carjacking (54 Pa.C.S. § 702(c)).
+      A lawyer may still be able to help; some felony-bar cases have been granted.
+    es: >-
+      Si tienes una condena por delito grave, el tribunal solo puede conceder el cambio si pasaron al menos dos años
+      desde que cumpliste la sentencia y no estás en libertad condicional o vigilada, o si recibiste un indulto. Ciertos
+      delitos graves (asesinato, violación, algunos delitos sexuales, robo agravado, incendio provocado, secuestro, entre
+      otros) impiden el cambio (54 Pa.C.S. § 702(c)).
+  sources: [pa-54-701, a4te-pa]
+forms:
+  - id: 01-101A
+    name:
+      en: Name Change Petition package, Court of Common Pleas of Philadelphia County (instructions, cover sheet, petition, verification, order, notice, decree)
+      es: Paquete de petición de cambio de nombre, Tribunal de Causas Comunes del Condado de Filadelfia
+    url: https://www.courts.phila.gov/pdf/forms/civil/Name-Change-Petition-01-101A.pdf
+    required: conditional
+    condition:
+      en: >-
+        Philadelphia residents. Pennsylvania has no statewide petition form; other counties publish their own or use a
+        lawyer-drafted petition. Ask your county prothonotary or court records office.
+      es: >-
+        Residentes de Filadelfia. Pensilvania no tiene un formulario estatal; otros condados publican los suyos. Pregunta
+        en la oficina del prothonotary o de registros judiciales de tu condado.
+    how_to_fill:
+      en: |
+        - **Reason for the change (item 1)**: a short, honest reason is enough, for example "to reflect my gender identity and the name I use in daily life." You do not need to attach medical records.
+        - **Addresses (item 2)**: list every address for the past five years. The court uses this to decide where you need judgment searches.
+        - **Safety waiver**: the printed form does not have a box for it. If publishing your old and new names would put you at risk, add a paragraph asking the court to proceed under 54 Pa.C.S. § 701(a.1)(3)(iii), waive publication, and seal the record, and explain briefly why (for example, risk of harassment or violence because you are transgender). The statute requires the petition to say whether you are asking for this.
+        - Sign the verification page; it is made under penalty of law for false statements.
+    sources: [phila-packet, pa-54-701]
+  - id: 30-1061A
+    name:
+      en: Petition to Proceed In Forma Pauperis (Philadelphia civil)
+      es: Petición para proceder In Forma Pauperis (civil, Filadelfia)
+    url: https://www.courts.phila.gov/pdf/forms/civil/30-1061A-petition_to_proceed_in_forma_pauperis.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford court fees. Every blank must be filled in with dollar amounts, or the petition can be denied.
+      es: Solo si no puedes pagar las tarifas judiciales. Debes llenar todos los espacios con cantidades en dólares.
+    sources: [phila-ifp]
+steps:
+  - id: fingerprints
+    title:
+      en: Get fingerprinted
+      es: Tómate las huellas digitales
+    body:
+      en: >-
+        Get a set of fingerprints on a fingerprint card before you file. The court sends them to the Pennsylvania State
+        Police, which checks for a criminal record and then destroys them if there is none. The court cannot recommend a
+        vendor; search for fingerprinting services near you. You pay the cost.
+      es: >-
+        Obtén una tarjeta con tus huellas digitales antes de presentar la petición. El tribunal las envía a la Policía
+        Estatal, que verifica antecedentes y luego las destruye si no hay ninguno. Tú pagas el costo.
+    sources: [pa-54-701, phila-packet]
+  - id: prepare-petition
+    title:
+      en: Fill out the petition and decide about the safety waiver
+      es: Llena la petición y decide sobre la exención por seguridad
+    body:
+      en: >-
+        Get your county's petition (Philadelphia uses form 01-101A). State your reason, list five years of addresses,
+        and, if publishing would put you in danger, ask in the petition for the court to waive publication and seal the
+        file under § 701(a.1)(3)(iii).
+      es: >-
+        Consigue la petición de tu condado (Filadelfia usa el formulario 01-101A). Indica tu motivo, tus direcciones de
+        cinco años y, si publicar te pondría en peligro, pide en la petición que el tribunal exima la publicación y selle
+        el expediente según § 701(a.1)(3)(iii).
+    forms: [01-101A]
+    sources: [phila-packet, pa-54-701]
+  - id: fee-waiver
+    title:
+      en: Ask to proceed without fees if you cannot pay
+      es: Pide proceder sin tarifas si no puedes pagar
+    body:
+      en: >-
+        File a Petition to Proceed In Forma Pauperis with your name change petition. If granted, you do not pay court
+        fees. Newspaper publication costs are charged by the newspapers, and Philadelphia Legal Assistance notes they
+        usually cannot be waived by the court; a safety waiver of publication avoids them entirely.
+      es: >-
+        Presenta una Petición para Proceder In Forma Pauperis junto con tu petición. Si se concede, no pagas tarifas
+        judiciales. Los periódicos cobran la publicación y normalmente el tribunal no puede eximirla; una exención de
+        publicación por seguridad evita ese costo.
+    forms: [30-1061A]
+    optional: true
+    sources: [phila-ifp, pla-name-change]
+  - id: file
+    title:
+      en: File at the Court of Common Pleas in your county
+      es: Presenta la petición en el Tribunal de Causas Comunes de tu condado
+    body:
+      en: |
+        Bring the petition, the original fingerprint card, copies of your birth certificate and Social Security card, and a Pennsylvania photo ID to the civil filing office.
+
+        In **Philadelphia**, that is the Civil Filing Center, Room 296, City Hall; the fee is $349.23 (cash, card, or money order; no personal checks). In **Allegheny County** (Pittsburgh), file with the Department of Court Records, Civil/Family Division; questions go to Civilnamechanges@alleghenycourts.us.
+      es: |
+        Lleva la petición, la tarjeta original de huellas, copias de tu acta de nacimiento y tarjeta del Seguro Social, y una identificación con foto de Pensilvania a la oficina civil.
+
+        En **Filadelfia** es el Civil Filing Center, sala 296 del City Hall; la tarifa es $349.23. En el **condado de Allegheny** (Pittsburgh), presenta en el Department of Court Records; las preguntas van a Civilnamechanges@alleghenycourts.us.
+    fees: [filing-philadelphia]
+    sources: [phila-packet, allegheny-general-motions]
+  - id: publish
+    title:
+      en: Publish notice in two newspapers (unless waived)
+      es: Publica el aviso en dos periódicos (salvo exención)
+    body:
+      en: >-
+        After the court schedules your hearing, publish the notice in two newspapers of general circulation in your
+        county or a neighboring county. In Philadelphia, one must be The Legal Intelligencer. Keep the proofs of
+        publication for the hearing. Skip this step if the court granted a safety waiver.
+      es: >-
+        Cuando el tribunal fije la audiencia, publica el aviso en dos periódicos de circulación general de tu condado o
+        un condado vecino. En Filadelfia, uno debe ser The Legal Intelligencer. Guarda las pruebas de publicación. Omite
+        este paso si el tribunal concedió la exención por seguridad.
+    fees: [publication]
+    sources: [pa-54-701, phila-packet]
+  - id: judgment-searches
+    title:
+      en: Get judgment searches within 30 days of the hearing
+      es: Obtén las búsquedas de sentencias dentro de los 30 días previos a la audiencia
+    body:
+      en: >-
+        You need official searches showing no judgments or liens against you in your county and any county you lived
+        in during the past five years. In Philadelphia, get one from Family Court (1501 Arch St., 8th floor, $20) and one
+        from the Office of Judicial Records (Room 268, City Hall, $58.52), no earlier than 30 days before your hearing.
+      es: >-
+        Necesitas búsquedas oficiales que muestren que no hay sentencias contra ti en tu condado y en cualquier condado
+        donde viviste en los últimos cinco años. En Filadelfia, una del Tribunal de Familia ($20) y otra de la Office of
+        Judicial Records ($58.52), no antes de 30 días antes de la audiencia.
+    fees: [judgment-searches]
+    sources: [pa-54-701, phila-packet]
+  - id: hearing
+    title:
+      en: Go to the hearing
+      es: Asiste a la audiencia
+    body:
+      en: >-
+        Bring your proofs of publication (if any), judgment searches, and ID. In Philadelphia, a hearing officer
+        reviews your papers and recommends a decision to a judge; the decree is then mailed to you or a second hearing
+        is set.
+      es: >-
+        Lleva las pruebas de publicación (si aplica), las búsquedas de sentencias y tu identificación. En Filadelfia, un
+        oficial de audiencias revisa tus documentos y recomienda una decisión a un juez; el decreto se te envía por correo
+        o se fija otra audiencia.
+    estimated_time:
+      en: 1 to 3 months after filing
+      es: de 1 a 3 meses después de la presentación
+    sources: [pa-54-701, phila-packet]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the decree
+      es: Obtén copias certificadas del decreto
+    body:
+      en: >-
+        Philadelphia mails five certified copies free. More cost $41.58 each at Room 296, City Hall. Other counties set
+        their own copy fees. You will need certified copies for Social Security, PennDOT, your passport, and your birth
+        certificate.
+      es: >-
+        Filadelfia envía cinco copias certificadas gratis. Las adicionales cuestan $41.58 cada una. Otros condados fijan
+        sus propias tarifas. Necesitarás copias certificadas para el Seguro Social, PennDOT, el pasaporte y tu acta de nacimiento.
+    fees: [certified-copies]
+    sources: [phila-packet]
+fees:
+  - id: filing-philadelphia
+    label:
+      en: Filing fee, Philadelphia Court of Common Pleas
+      es: Tarifa de presentación, Tribunal de Causas Comunes de Filadelfia
+    amount: 349.23
+    varies_by: county
+    waivable: true
+    note:
+      en: From the court's January 2026 instructions. Other counties charge different amounts; call your county's court records office.
+      es: Según las instrucciones del tribunal de enero de 2026. Otros condados cobran distinto.
+    sources: [phila-packet]
+  - id: publication
+    label:
+      en: Newspaper publication (two papers)
+      es: Publicación en periódicos (dos)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: >-
+        Set by each newspaper. Not covered by an in forma pauperis order according to Philadelphia Legal Assistance.
+        Philadelphia's court estimates total costs for the whole process can exceed $900. Avoided entirely if the court
+        grants a safety waiver.
+      es: >-
+        Lo fija cada periódico. No lo cubre una orden in forma pauperis. El tribunal de Filadelfia estima que el costo
+        total puede superar $900. Se evita si el tribunal concede la exención por seguridad.
+    sources: [pla-name-change, phila-packet]
+  - id: judgment-searches
+    label:
+      en: Judgment searches (Philadelphia)
+      es: Búsquedas de sentencias (Filadelfia)
+    amount: 78.52
+    varies_by: county
+    note:
+      en: $20 at Family Court plus $58.52 at the Office of Judicial Records. Searches in other counties you lived in cost extra.
+      es: $20 en el Tribunal de Familia más $58.52 en la Office of Judicial Records.
+    sources: [phila-packet]
+  - id: certified-copies
+    label:
+      en: Additional certified copy of the decree (Philadelphia)
+      es: Copia certificada adicional del decreto (Filadelfia)
+    amount: 41.58
+    varies_by: county
+    note:
+      en: The first five certified copies are free in Philadelphia.
+      es: Las primeras cinco copias certificadas son gratis en Filadelfia.
+    sources: [phila-packet]
+fee_waiver:
+  available: true
+  forms: [30-1061A]
+  eligibility:
+    en: >-
+      Under Pennsylvania's in forma pauperis rule, the court can let you proceed without paying court costs if you are
+      unable to pay. You list your income, expenses, and assets on the petition.
+    es: >-
+      El tribunal puede permitirte proceder sin pagar costos judiciales si no puedes pagarlos. Indicas tus ingresos,
+      gastos y bienes en la petición.
+  how:
+    en: File the in forma pauperis petition with your name change petition. It covers court fees, not newspaper charges.
+    es: Presenta la petición in forma pauperis con tu petición de cambio de nombre. Cubre tarifas judiciales, no los cargos de periódicos.
+  sources: [phila-ifp, pla-name-change]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      The court must order notice in two newspapers of general circulation in your county or a neighboring county (one
+      may be the county's official legal paper), and notice to any non-petitioning parent of a child whose name is
+      affected. Publication is waived if the court finds it would jeopardize your safety or your child's.
+    es: >-
+      El tribunal debe ordenar un aviso en dos periódicos de circulación general de tu condado o un condado vecino, y
+      notificar a cualquier padre que no sea peticionario de un menor afectado. Se exime si el tribunal determina que
+      pondría en peligro tu seguridad o la de tu hijo.
+  waiver_available: true
+  waiver_how:
+    en: >-
+      Say in your petition that you are asking the court to proceed under 54 Pa.C.S. § 701(a.1)(3)(iii) and explain the
+      safety risk. The court may ask you to explain in person. If granted, the file is sealed.
+    es: >-
+      Indica en tu petición que pides al tribunal proceder bajo 54 Pa.C.S. § 701(a.1)(3)(iii) y explica el riesgo. El
+      tribunal puede pedirte que lo expliques en persona. Si se concede, el expediente se sella.
+  sources: [pa-54-701, pla-trans-name-change]
+hearing:
+  required: "yes"
+  detail:
+    en: >-
+      The statute requires a hearing 1 to 3 months after filing, where anyone with a lawful objection can be heard. In
+      Philadelphia, the first hearing is a conference with a hearing officer.
+    es: >-
+      La ley exige una audiencia de 1 a 3 meses después de la presentación. En Filadelfia, la primera audiencia es una
+      conferencia con un oficial de audiencias.
+  sources: [pa-54-701, phila-packet]
+background_check:
+  required: "yes"
+  detail:
+    en: >-
+      Fingerprints go to the Pennsylvania State Police, which notes the change on your criminal record if you have one
+      or destroys the fingerprints if you do not, and certifies to the court within 60 days (54 Pa.C.S. § 702(b)).
+    es: >-
+      Las huellas van a la Policía Estatal de Pensilvania, que anota el cambio en tu historial si lo tienes o destruye
+      las huellas si no, y lo certifica al tribunal en 60 días (54 Pa.C.S. § 702(b)).
+  sources: [pa-54-701]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      If the court waives publication for safety, it must seal the file, and there is no public access to the petition,
+      proceeding, or order. The records can be opened only by court order for good cause or at your request. Without a
+      safety waiver, the file and docket are public.
+    es: >-
+      Si el tribunal exime la publicación por seguridad, debe sellar el expediente y no hay acceso público a la petición,
+      el procedimiento ni la orden. Sin exención, el expediente es público.
+  how:
+    en: Request the safety waiver in your petition; sealing follows automatically if it is granted.
+    es: Solicita la exención por seguridad en tu petición; el sellado es automático si se concede.
+  sources: [pa-54-701]
+minors:
+  summary:
+    en: >-
+      A parent or guardian files for the child and must show the change is in the child's best interest. Any parent who
+      is not a petitioner must receive notice. In Philadelphia, minors' petitions are filed with the Clerk of Family
+      Court, 1501 Arch Street, 11th floor (215-686-3805). The same safety waiver and sealing rules apply.
+    es: >-
+      Un padre, madre o tutor presenta la petición por el menor y debe demostrar que el cambio es en su mejor interés.
+      Cualquier padre que no sea peticionario debe ser notificado. En Filadelfia, las peticiones de menores se presentan
+      ante el Tribunal de Familia, 1501 Arch Street, piso 11 (215-686-3805).
+  sources: [pa-54-701, phila-packet, pla-name-change]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Philadelphia's instructions describe filing in person at the Civil Filing Center; lawyers may e-file. Check your county.
+    es: Las instrucciones de Filadelfia indican presentar en persona; los abogados pueden presentar electrónicamente.
+  sources: [phila-packet]
+timeline:
+  en: Plan on 2 to 4 months from fingerprinting to decree, then a few weeks to update Social Security and PennDOT.
+  es: Calcula de 2 a 4 meses desde las huellas hasta el decreto, y luego unas semanas para actualizar el Seguro Social y PennDOT.
+after:
+  en: |
+    Start with **Social Security** (bring the certified decree and photo ID; the name changes, the sex field currently cannot). Then **PennDOT**: bring a certified copy of the decree and the change/correction form to a Driver License Center; you can change your gender marker to M, F, or X on form DL-32 at the same visit. If you were born in Pennsylvania, send the decree to the **Department of Health** with the adult birth record form. Then your **passport**, bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el decreto certificado e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego **PennDOT**: lleva una copia certificada del decreto y el formulario de cambio a un Driver License Center; puedes cambiar tu marcador a M, F o X con el formulario DL-32 en la misma visita. Si naciste en Pensilvania, envía el decreto al **Departamento de Salud** con el formulario para adultos. Después el **pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: Do not get judgment searches too early; Philadelphia requires them within 30 days before the hearing.
+    es: No obtengas las búsquedas de sentencias demasiado pronto; Filadelfia las exige dentro de los 30 días previos a la audiencia.
+  - en: If you have a felony record, talk to a lawyer before filing. The AIDS Law Project of Pennsylvania has represented people who were previously ineligible.
+    es: Si tienes antecedentes de delito grave, habla con un abogado antes de presentar.
+  - en: A4TE's Name Change Project (Philadelphia and Allegheny) stopped taking applications in March 2026, and Mazzoni Center's legal program has closed; use the organizations below instead.
+    es: El Name Change Project de A4TE dejó de aceptar solicitudes en marzo de 2026 y el programa legal del Mazzoni Center cerró; usa las organizaciones de abajo.
+local_help:
+  - id: cls-identity-documents
+    name: Community Legal Services of Philadelphia, Identity Documents
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free ID document help for low-income Philadelphians and referrals for name changes. Phone intake 215-981-3700.
+      es: Ayuda gratuita con documentos de identidad para residentes de Filadelfia de bajos ingresos y referencias para cambios de nombre.
+    url: https://clsphila.org/services/identity-documents/
+    phone: "215-981-3700"
+    cost: free
+    verification: org_website
+    sources: [cls-id, mazzoni-legal]
+  - id: pla
+    name: Philadelphia Legal Assistance, name change advice
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Advice, a self-help guide, and, in special cases, referral to a pro bono attorney. Intake hotline 215-981-3800, Monday to Thursday 9:30 am to noon, or apply online.
+      es: Asesoría, guía de autoayuda y, en casos especiales, referencia a un abogado gratuito. Línea 215-981-3800.
+    url: https://philalegal.org/services/name-change
+    phone: "215-981-3800"
+    address: 718 Arch Street, Suite 300N, Philadelphia, PA 19106
+    cost: free
+    verification: org_website
+    sources: [pla-name-change, pla-trans-name-change]
+  - id: alpp-jaci-adams
+    name: AIDS Law Project of Pennsylvania, Jaci Adams Identity Initiative
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free legal representation for name changes for Philadelphians living with HIV or at high likelihood of acquiring HIV, including trans women; has represented people with criminal records. Call 215-587-9377 or apply online.
+      es: Representación legal gratuita para cambios de nombre de residentes de Filadelfia que viven con VIH o con alta probabilidad de adquirirlo, incluidas mujeres trans. Llama al 215-587-9377.
+    url: https://www.aidslawpa.org/alpp-services/jaci-adams-identity-initiative/
+    phone: "215-587-9377"
+    address: 1211 Chestnut Street, Suite 600, Philadelphia, PA 19107
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [alpp, mazzoni-legal]
+  - id: sisters-pgh
+    name: SisTers PGH, Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Guidance and hands-on support for trans, nonbinary, and gender-nonconforming Allegheny County residents. Join the waiting list on their site.
+      es: Orientación y apoyo para residentes trans, no binarios y de género no conforme del condado de Allegheny. Inscríbete en la lista de espera.
+    url: https://www.sisterspgh.org/the-name-change-project
+    phone: "412-297-0548"
+    address: 213 Smithfield Street, Pittsburgh, PA 15222
+    verification: org_website
+    sources: [sisters-pgh, a4te-ncp]
+  - id: phila-bar-lris
+    name: Philadelphia Bar Association Lawyer Referral and Information Service
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Referral to a private attorney if you do not qualify for free help. Phone 215-238-6333.
+      es: Referencia a un abogado privado si no calificas para ayuda gratuita. Teléfono 215-238-6333.
+    url: https://philadelphiabar.org/?pg=LawyerReferralHome
+    phone: "215-238-6333"
+    cost: varies
+    verification: official_source
+    sources: [phila-bar, phila-citizens-guide]
+statutes:
+  - cite: 54 Pa.C.S. § 701
+    title:
+      en: Court approval required for change of name; petition, hearing, publication, and safety waiver with sealing
+    url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=54&div=0&chapter=7
+  - cite: 54 Pa.C.S. § 702
+    title:
+      en: Change by order of court; fingerprints to State Police; felony restrictions
+    url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=54&div=0&chapter=7
+related_links:
+  - title: A4TE, Pennsylvania identity documents
+    url: https://transequality.org/documents/pennsylvania-identity-documents
+    note:
+      en: No last-updated date shown when read on 2026-09-24. Still describes the Name Change Project, which closed to new applications in March 2026.
+      es: Sin fecha de actualización visible. Todavía describe el Name Change Project, cerrado a nuevas solicitudes en marzo de 2026.
+  - title: Philadelphia Legal Assistance, Transgender name changes in Pennsylvania
+    url: https://philalegal.org/news/trans-name-change
+sources:
+  - id: pa-54-701
+    url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=54&div=0&chapter=7
+    title: 54 Pa.C.S. Chapter 7, Judicial Change of Name (§§ 701-705)
+    publisher: Pennsylvania General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the court finds that the notice required in subparagraph (ii) would jeopardize the safety of the person seeking the name change or his or her child or ward, the notice required shall be waived by order of the court. Upon granting the request to waive any notice requirement, the court shall seal the file.
+  - id: phila-packet
+    url: https://www.courts.phila.gov/pdf/forms/civil/Name-Change-Petition-01-101A.pdf
+    title: Name Change Process (rev. 1/20/26) and Name Change Petition, Form 01-101A
+    publisher: First Judicial District of Pennsylvania
+    kind: form
+    accessed: "2026-09-24"
+    quote: Filing fee of $349.23 payable by credit card, cash or money order. Personal checks are not accepted.
+  - id: phila-ifp
+    url: https://www.courts.phila.gov/pdf/forms/civil/30-1061A-petition_to_proceed_in_forma_pauperis.pdf
+    title: Petition to Proceed In Forma Pauperis, Trial Division Civil (Rev. 10/2016)
+    publisher: First Judicial District of Pennsylvania
+    kind: form
+    accessed: "2026-09-24"
+  - id: phila-citizens-guide
+    url: https://www.courts.phila.gov/pdf/guides/citizens_guide-name_change.pdf
+    title: Citizens' Guide to Court Procedure, Name Change (2008)
+    publisher: First Judicial District of Pennsylvania
+    kind: official
+    accessed: "2026-09-24"
+    quote: The phone number for the Philadelphia Bar Association Legal Referral and Information Service is 215-238-6333.
+  - id: allegheny-general-motions
+    url: https://www.alleghenycourts.us/civil/about/general-motions/
+    title: General Motions, Civil Division
+    publisher: Fifth Judicial District of Pennsylvania (Allegheny County)
+    kind: court
+    accessed: "2026-09-24"
+    quote: Any questions or requests for information regarding the Name Change Procedures in Allegheny County can be directed to Civilnamechanges@alleghenycourts.us
+  - id: pla-name-change
+    url: https://philalegal.org/services/name-change
+    title: Name Change
+    publisher: Philadelphia Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+    quote: there are usually publication fees that cannot be waived by the Court.
+  - id: pla-trans-name-change
+    url: https://philalegal.org/news/trans-name-change
+    title: Transgender Name Changes in Pennsylvania
+    publisher: Philadelphia Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-pa
+    url: https://transequality.org/documents/pennsylvania-identity-documents
+    title: Pennsylvania Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ncp
+    url: https://transequality.org/name-change-project
+    title: Name Change Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Update March 11, 2026: The Name Change Project is no longer accepting applications."
+  - id: mazzoni-legal
+    url: https://www.mazzonicenter.org/supportive-services/legal-services
+    title: Legal Services
+    publisher: Mazzoni Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Mazzoni Center's Legal Services program has ended.
+  - id: cls-id
+    url: https://clsphila.org/services/identity-documents/
+    title: Identity Documents
+    publisher: Community Legal Services of Philadelphia
+    kind: org
+    accessed: "2026-09-24"
+  - id: alpp
+    url: https://www.aidslawpa.org/alpp-services/jaci-adams-identity-initiative/
+    title: Jaci Adams Identity Initiative
+    publisher: AIDS Law Project of Pennsylvania
+    kind: org
+    accessed: "2026-09-24"
+  - id: sisters-pgh
+    url: https://www.sisterspgh.org/the-name-change-project
+    title: The Name Change Project
+    publisher: SisTers PGH
+    kind: org
+    accessed: "2026-09-24"
+  - id: phila-bar
+    url: https://philadelphiabar.org/?pg=LawyerReferralHome
+    title: Lawyer Referral and Information Service
+    publisher: Philadelphia Bar Association
+    kind: org
+    accessed: "2026-09-24"

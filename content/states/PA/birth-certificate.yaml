@@ -1,0 +1,217 @@
+guide_type: birth_certificate
+jurisdiction: PA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Adult form HD002292 (REV 04/21), the Department's sample physician letter template, fee ($20), mailing address, and
+    processing time (about 20 weeks for adult modifications) read directly on pa.gov 2026-09-24. Items for the
+    reviewer: (1) the Department's web page describing the gender change policy in words (certificates.health.pa.gov,
+    referenced by the form) was not located on the new pa.gov site; requirements here come from the form and template;
+    (2) whether the Department issues a new certificate or an amended one showing the change, and whether the prior
+    record is sealed, is not stated on the form; (3) the teenage (14-17) and preadolescent forms were downloaded but the
+    exact documentation they require for a gender change was not confirmed; A4TE says the preadolescent form needs no
+    medical documentation; (4) the underlying statute (Vital Statistics Law of 1953) was not cited because the palegis.us
+    unconsolidated-statute page could not be read. Status is restricted because a physician's letter is required (a
+    narrow provider list: the template requires a physician's license number) and X is not offered. MAP scores PA 0.75/1
+    on birth certificates, consistent with this.
+status: restricted
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in Pennsylvania, you can change the gender on your birth certificate to male or female with a
+    notarized form and a letter from your physician saying you have had appropriate clinical treatment for gender
+    transition. Surgery is not required. X is not available. Changing the name requires a court order. The fee is $20
+    and processing takes about 20 weeks.
+  es: >-
+    Si naciste en Pensilvania, puedes cambiar el género en tu acta de nacimiento a masculino o femenino con un
+    formulario notariado y una carta de tu médico que diga que recibiste tratamiento clínico apropiado para la
+    transición de género. No se requiere cirugía. La X no está disponible. Cambiar el nombre requiere una orden
+    judicial. La tarifa es de $20 y el trámite tarda unas 20 semanas.
+summary:
+  en: |
+    The Pennsylvania Department of Health, Division of Vital Records, updates birth records of people **born in Pennsylvania**. If you were born in another state, follow that state's rules.
+
+    To change the gender, send the **Request to Modify an Adult's Birth Record** (signed in front of a notary) with a **letter from your physician** on letterhead. The Department's sample letter asks the physician to give their license number and state that you have "had appropriate clinical treatment for gender transition to the new gender of" male or female, under penalty of perjury. "Appropriate clinical treatment" is decided by your physician; it does not mean surgery.
+
+    To change the **name** on the certificate, include a certified court order. You can change name and gender in the same request.
+  es: |
+    El Departamento de Salud de Pensilvania, División de Registros Vitales, actualiza actas de nacimiento de personas **nacidas en Pensilvania**. Si naciste en otro estado, sigue las reglas de ese estado.
+
+    Para cambiar el género, envía la **Solicitud para modificar el registro de nacimiento de un adulto** (firmada ante notario) con una **carta de tu médico** en papel membretado. La carta modelo del Departamento pide que el médico indique su número de licencia y declare que recibiste "tratamiento clínico apropiado para la transición de género" al género masculino o femenino. El médico decide qué es tratamiento apropiado; no significa cirugía.
+
+    Para cambiar el **nombre**, incluye una orden judicial certificada. Puedes cambiar nombre y género en la misma solicitud.
+eligibility:
+  residency:
+    en: Your birth must be registered in Pennsylvania. Where you live now does not matter.
+    es: Tu nacimiento debe estar registrado en Pensilvania. No importa dónde vives ahora.
+  age:
+    en: The adult form is for 18 and older. Separate forms exist for teens (14 to 17) and preadolescent children (7 to 13), filed by a parent or guardian.
+    es: El formulario de adultos es para 18 años o más. Hay formularios separados para adolescentes (14 a 17) y niños (7 a 13), presentados por un padre o tutor.
+  sources: [adult-form, vr-forms]
+forms:
+  - id: HD002292
+    name:
+      en: Request to Modify an Adult's Birth Record (age 18 and above)
+      es: Solicitud para modificar el registro de nacimiento de un adulto (18 años o más)
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Request%20to%20Modify%20an%20Adult%27s%20Birth%20Record.pdf
+    url_es: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Request%20to%20Modify%20an%20Adult%27s%20Birth%20Record-Spanish.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Part 2**: include a photocopy of a valid government photo ID. If mailing, the address on your ID must match the address in Part 1; if you have no photo ID, send two documents showing your name and address.
+        - **Part 5**: fill in only what you are changing. For gender, check the box under **"Gender designation (if different than sex value)"**. Only male and female are offered. For a name change, write the new name exactly as on your court order.
+        - **Part 6**: do not sign until you are in front of a notary. Many banks and public libraries notarize for free or a small fee.
+        - **Part 7**: attach the physician's letter (and the certified court order if you are changing your name).
+      es: |
+        - **Parte 2**: incluye una fotocopia de una identificación oficial con foto vigente.
+        - **Parte 5**: llena solo lo que cambias. Para género, marca la casilla **"Gender designation (if different than sex value)"**. Solo hay masculino y femenino.
+        - **Parte 6**: firma ante un notario.
+        - **Parte 7**: adjunta la carta del médico (y la orden judicial certificada si cambias tu nombre).
+    sources: [adult-form]
+  - id: physician-letter
+    name:
+      en: Gender Reassignment Sample Letter Template (physician's letter)
+      es: Plantilla de carta del médico
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Gender%20Reassignment%20Sample%20Letter%20Template.docx
+    required: always
+    how_to_fill:
+      en: Give this template to your physician. It must be printed on the physician's letterhead, include their license number and issuing state or country, and be signed.
+      es: Entrega esta plantilla a tu médico. Debe imprimirse en papel membretado del médico, incluir su número de licencia y estar firmada.
+    sources: [letter-template]
+steps:
+  - id: letter
+    title:
+      en: Get the physician's letter
+      es: Consigue la carta del médico
+    body:
+      en: >-
+        Ask the physician who treats you for gender transition (for example, whoever prescribes your hormones) to sign
+        the Department's template on their letterhead. It must be a physician with a medical license number.
+      es: >-
+        Pide al médico que te trata para la transición de género (por ejemplo, quien te receta hormonas) que firme la
+        plantilla del Departamento en su papel membretado. Debe ser un médico con número de licencia.
+    forms: [physician-letter]
+    applies_to: [gender_marker]
+    sources: [letter-template, adult-form]
+  - id: form
+    title:
+      en: Complete the adult modification form and have it notarized
+      es: Llena el formulario de modificación para adultos y notarízalo
+    body:
+      en: Fill out HD002292, sign Part 6 in front of a notary, and attach a copy of your photo ID.
+      es: Llena el HD002292, firma la Parte 6 ante notario y adjunta una copia de tu identificación con foto.
+    forms: [HD002292]
+    sources: [adult-form]
+  - id: mail
+    title:
+      en: Mail it with the $20 fee
+      es: Envíalo por correo con la tarifa de $20
+    body:
+      en: |
+        Make a check or money order payable to "VITAL RECORDS" for $20 per certificate and mail everything to:
+
+        Pa. Department of Health, Bureau of Health Statistics and Registries, ATTN: Birth Registry, 555 Walnut St., 6th Floor, Harrisburg, PA 17101-1934.
+      es: |
+        Haz un cheque o giro a nombre de "VITAL RECORDS" por $20 por acta y envía todo a:
+
+        Pa. Department of Health, Bureau of Health Statistics and Registries, ATTN: Birth Registry, 555 Walnut St., 6th Floor, Harrisburg, PA 17101-1934.
+    fees: [certificate]
+    applies_to: [by_mail]
+    sources: [adult-form]
+  - id: wait
+    title:
+      en: Wait about 20 weeks
+      es: Espera unas 20 semanas
+    body:
+      en: The Department lists about 20 weeks for adult modifications with complete information, longer if anything is missing.
+      es: El Departamento indica unas 20 semanas para modificaciones de adultos con información completa; más si falta algo.
+    estimated_time:
+      en: about 20 weeks
+      es: unas 20 semanas
+    sources: [processing-times]
+fees:
+  - id: certificate
+    label:
+      en: Certified birth certificate after the modification (each)
+      es: Acta de nacimiento certificada después de la modificación (cada una)
+    amount: 20
+    note:
+      en: Free for members and veterans of the U.S. armed forces and their spouses (check the box on the form).
+      es: Gratis para miembros y veteranos de las fuerzas armadas y sus cónyuges.
+    sources: [adult-form]
+fee_waiver:
+  available: false
+  eligibility:
+    en: The modification form offers a fee waiver only for armed forces members and veterans (and spouses). Separate fee-waived applications exist for ordinary copies for people experiencing homelessness, youth in foster care or leaving incarceration, and people affected by opioid use disorder; they do not appear to apply to modifications.
+    es: El formulario solo ofrece exención para miembros y veteranos de las fuerzas armadas. Hay solicitudes sin costo para copias ordinarias en otros casos, pero no parecen aplicar a modificaciones.
+  sources: [adult-form, vr-forms]
+minors:
+  summary:
+    en: >-
+      A parent or guardian uses the Request to Modify a Teenage Child's Birth Record (14 to 17) or a Preadolescent
+      Child's Birth Record (7 to 13). Requirements differ from the adult form; A4TE reports the preadolescent form needs
+      no medical documentation. Call Vital Records to confirm before filing.
+    es: >-
+      Un padre o tutor usa la solicitud para adolescentes (14 a 17) o para niños (7 a 13). Los requisitos difieren del
+      formulario de adultos; confirma con Registros Vitales antes de presentar.
+  sources: [vr-forms, a4te-pa]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Modification requests are mailed to the Birth Registry in Harrisburg.
+    es: Las solicitudes se envían por correo al Registro de Nacimientos en Harrisburg.
+  sources: [adult-form]
+timeline:
+  en: About 20 weeks from when the Department receives a complete request.
+  es: Unas 20 semanas desde que el Departamento recibe una solicitud completa.
+after:
+  en: Use the new certificate to update records that ask for it (for example, school or employment files). The U.S. passport sex marker currently cannot be changed regardless of your birth certificate.
+  es: Usa la nueva acta para actualizar registros que la pidan. El marcador de sexo del pasaporte actualmente no se puede cambiar, sin importar tu acta de nacimiento.
+tips:
+  - en: Send the completed physician template exactly as provided; letters missing the license number are a common reason for delay.
+    es: Envía la plantilla del médico completa; las cartas sin número de licencia suelen causar demoras.
+related_links:
+  - title: A4TE, Pennsylvania identity documents
+    url: https://transequality.org/documents/pennsylvania-identity-documents
+sources:
+  - id: adult-form
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Request%20to%20Modify%20an%20Adult%27s%20Birth%20Record.pdf
+    title: Request to Modify an Adult's Birth Record, HD002292 (REV 04/21)
+    publisher: Pennsylvania Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: If you are requesting a gender designation other than the subject's sex to be displayed on the birth certificate, please submit a letter from the attending medical physician who is providing the appropriate clinical treatment for gender transition.
+  - id: letter-template
+    url: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Gender%20Reassignment%20Sample%20Letter%20Template.docx
+    title: Gender Reassignment Sample Letter Template
+    publisher: Pennsylvania Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: has had appropriate clinical treatment for gender transition to the new gender of male / female
+  - id: vr-forms
+    url: https://www.pa.gov/agencies/health/programs/vital-records/forms
+    title: Vital Records forms
+    publisher: Pennsylvania Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: processing-times
+    url: https://www.pa.gov/agencies/health/programs/vital-records/processing-times
+    title: Processing Times
+    publisher: Pennsylvania Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Adult (Age 18 Years Old and Above): Approximately 20 weeks"
+  - id: a4te-pa
+    url: https://transequality.org/documents/pennsylvania-identity-documents
+    title: Pennsylvania Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
