@@ -1,0 +1,624 @@
+guide_type: name_change
+jurisdiction: WI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (786.36, 786.37, 301.47, 814.29) read on docs.legis.wisconsin.gov 2026-09-24 (statutes current through
+    2025 Act 247, published 9-4-26). Filing fee $164.50 confirmed in the Wisconsin circuit court fee table updated
+    September 2, 2026 ($75 filing + $68 court support services + $21.50 justice information). Forms and instructions
+    (CV-450, CV-451, CV-460, CV-461, CV-470, CV-471, CV-490 rev. 01/26, CV-491 rev. 03/25) read on wicourts.gov the same
+    day. Open items: (1) newspaper publication cost is not published anywhere official; no range given. (2) The Court of
+    Appeals case R.I.B. v. Brown County Circuit Court, 2023 WI App 9, is cited only through the statute annotation; the
+    opinion itself could not be loaded. Reviewer: confirm whether the petitioner was transgender and whether the denial
+    of confidentiality was affirmed, and add that detail if so. (3) The certified-copy fee is the statewide clerk rate
+    ($5 per document plus $1.25 per page); confirm Milwaukee and Dane practice. (4) Trans Law Help Wisconsin's legal
+    guide PDF link returned an HTML page, not the PDF. (5) A4TE's Wisconsin page has no visible last-updated date; its
+    name change summary agrees with the statute.
+status: available
+status_summary:
+  en: >-
+    Adults and teens 14 and older can change their name by petitioning the circuit court in their county ($164.50, or
+    free with a fee waiver). You must publish a notice in a local newspaper for three weeks before the hearing, unless
+    you ask for a confidential name change and prove to the judge that publication could endanger you.
+  es: >-
+    Adultos y jóvenes de 14 años o más pueden cambiar su nombre con una petición al tribunal de circuito de su condado
+    ($164.50, o gratis con exención de tarifas). Debes publicar un aviso en un periódico local durante tres semanas antes
+    de la audiencia, a menos que pidas un cambio de nombre confidencial y demuestres al juez que la publicación podría
+    ponerte en peligro.
+summary:
+  en: |
+    Wisconsin name changes are governed by Wis. Stat. §§ 786.36 and 786.37. You file a petition with the clerk of circuit court in the **county where you live**, the clerk sets a hearing date, and a judge grants the change "if no sufficient cause is shown to the contrary." There is no special process for gender identity; trans people use the same petition as everyone else, and you do not need to give a medical reason.
+
+    There are two paths:
+    - **Standard name change** (CV-450): you must publish a notice of the hearing in a local newspaper once a week for three weeks before the hearing. The record is public.
+    - **Confidential name change** (CV-451): no newspaper notice, and the clerk keeps the file confidential from the moment you file. At the hearing you must prove it is more likely than not that publication **could endanger you**, and that you are not changing your name to avoid a debt or hide a criminal record. If the judge says no, you can refile as a standard name change.
+
+    Everyone has a hearing. Plan for one court appearance.
+  es: |
+    Los cambios de nombre en Wisconsin se rigen por los §§ 786.36 y 786.37 de los Estatutos de Wisconsin. Presentas una petición ante el secretario del tribunal de circuito del **condado donde vives**, se fija una audiencia y un juez concede el cambio "si no se demuestra causa suficiente en contra". No hay un proceso especial por identidad de género; las personas trans usan la misma petición que todos y no necesitas dar una razón médica.
+
+    Hay dos vías:
+    - **Cambio de nombre estándar** (CV-450): debes publicar un aviso de la audiencia en un periódico local una vez por semana durante tres semanas antes de la audiencia. El expediente es público.
+    - **Cambio de nombre confidencial** (CV-451): sin aviso en el periódico, y el secretario mantiene el expediente confidencial desde que lo presentas. En la audiencia debes demostrar que es más probable que no que la publicación **podría ponerte en peligro**, y que no cambias tu nombre para evitar una deuda u ocultar antecedentes penales. Si el juez lo niega, puedes volver a presentar como cambio estándar.
+
+    Todas las personas tienen una audiencia. Prepárate para comparecer una vez ante el tribunal.
+eligibility:
+  residency:
+    en: You must be a Wisconsin resident and file in the circuit court of the county where you live.
+    es: Debes residir en Wisconsin y presentar la petición en el tribunal de circuito del condado donde vives.
+  age:
+    en: Adults and minors 14 and older sign their own petition (CV-450 or CV-451). For children under 14, parents or a guardian petition; see Minors.
+    es: Adultos y menores de 14 años o más firman su propia petición (CV-450 o CV-451). Para menores de 14, los padres o un tutor presentan la petición; ver Menores.
+  criminal_history:
+    en: >-
+      People required to register as sex offenders may not change their name (Wis. Stat. § 301.47). Otherwise a
+      criminal record does not bar a name change, but a court may deny a petition from someone in prison or on parole,
+      and you cannot use the confidential process to hide a criminal record.
+    es: >-
+      Las personas obligadas a registrarse como delincuentes sexuales no pueden cambiar su nombre (§ 301.47). Fuera de
+      eso, los antecedentes penales no impiden el cambio, pero un tribunal puede negar la petición de alguien en prisión
+      o en libertad condicional, y no puedes usar el proceso confidencial para ocultar antecedentes.
+  other:
+    en: If you hold a state professional license (other than a public school teaching license), your licensing board can object to the new name; the petition asks you to confirm you have notified the board.
+    es: Si tienes una licencia profesional estatal (que no sea de maestro de escuela pública), tu junta de licencias puede objetar el nuevo nombre; la petición te pide confirmar que notificaste a la junta.
+  sources: [wis-786-36, wis-301-47, cv-490, cv-450-pdf]
+forms:
+  - id: CV-450
+    name:
+      en: Petition for Name Change for Adult or Minor 14 or Older
+      es: Petición de cambio de nombre para adulto o menor de 14 años o más
+    url: https://www.wicourts.gov/formdisplay/CV-450.pdf?formNumber=CV-450&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Use for a standard (published) name change.
+      es: Úsalo para un cambio de nombre estándar (con publicación).
+    how_to_fill:
+      en: |
+        - Items 1 to 5: your address, county, date and state of birth, and the name exactly as it appears on your birth certificate.
+        - Items 6 and 7: your job and whether you hold a state professional license.
+        - Item 8: whether you are a registered sex offender.
+        - Item 9: the new name you want. Double-check spelling; the order copies it exactly.
+        - "For the following reason(s)": a short, honest reason is enough, for example "to match my gender identity and the name I use." You do not need a doctor's letter.
+        - Item 10: check this box if you were born (or married) in Wisconsin and want the birth (or marriage) certificate updated. The clerk then sends the change to Vital Records for a fee.
+      es: |
+        - Puntos 1 a 5: tu dirección, condado, fecha y estado de nacimiento, y el nombre tal como aparece en tu acta de nacimiento.
+        - Puntos 6 y 7: tu trabajo y si tienes una licencia profesional estatal.
+        - Punto 8: si estás registrado como delincuente sexual.
+        - Punto 9: el nuevo nombre. Revisa la ortografía; la orden lo copia exactamente.
+        - "Por las siguientes razones": basta una razón breve y honesta, por ejemplo "para que coincida con mi identidad de género y el nombre que uso". No necesitas carta médica.
+        - Punto 10: marca esta casilla si naciste (o te casaste) en Wisconsin y quieres actualizar el acta. El secretario envía el cambio a Registros Vitales por una tarifa.
+    sources: [cv-450-pdf]
+  - id: CV-451
+    name:
+      en: Petition for Confidential Name Change for Adult or Minor 14 or Older
+      es: Petición de cambio de nombre confidencial para adulto o menor de 14 años o más
+    url: https://www.wicourts.gov/formdisplay/CV-451.pdf?formNumber=CV-451&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Use if newspaper publication could put you in danger. No publication; the file is confidential from filing.
+      es: Úsalo si la publicación en el periódico podría ponerte en peligro. Sin publicación; el expediente es confidencial desde que se presenta.
+    how_to_fill:
+      en: |
+        - Same personal information as CV-450.
+        - Item 9 is the key item: explain **specifically** why publishing your old and new names could endanger you. Concrete facts carry weight: past threats, harassment, stalking, or violence (especially connected to being trans), a protective order, an abusive ex-partner or family member who could find you. The appeals court has said you must show it is more likely than not that you could be physically endangered, so general statements about risks to trans people may not be enough on their own.
+        - Bring any evidence to the hearing: police reports, restraining orders, screenshots of threats, letters from an advocate or counselor.
+        - Check the statement that you are not seeking the change to avoid a debt or conceal a criminal record.
+      es: |
+        - La misma información personal que el CV-450.
+        - El punto 9 es el más importante: explica **de forma concreta** por qué publicar tu nombre anterior y el nuevo podría ponerte en peligro. Los hechos concretos pesan: amenazas, acoso, persecución o violencia previa (sobre todo por ser trans), una orden de protección, una expareja o familiar abusivo que podría encontrarte. El tribunal de apelaciones ha dicho que debes demostrar que es más probable que no que podrías correr peligro físico, así que las declaraciones generales sobre riesgos para personas trans pueden no bastar por sí solas.
+        - Lleva pruebas a la audiencia: informes policiales, órdenes de restricción, capturas de amenazas, cartas de un defensor o consejero.
+    sources: [cv-451-pdf, cv-491, wis-786-37]
+  - id: CV-460
+    name:
+      en: Notice of Name Change Hearing
+      es: Aviso de audiencia de cambio de nombre
+    url: https://www.wicourts.gov/formdisplay/CV-460.pdf?formNumber=CV-460&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Standard path. This is the notice the newspaper publishes. Some clerks fill it in for you; ask.
+      es: Vía estándar. Es el aviso que publica el periódico. Algunos secretarios lo llenan por ti; pregunta.
+    sources: [cv-490]
+  - id: CV-461
+    name:
+      en: Notice of Confidential Name Change Hearing
+      es: Aviso de audiencia de cambio de nombre confidencial
+    url: https://www.wicourts.gov/formdisplay/CV-461.pdf?formNumber=CV-461&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Confidential path, if your county requires it. It is not published.
+      es: Vía confidencial, si tu condado lo exige. No se publica.
+    sources: [cv-491]
+  - id: CV-470
+    name:
+      en: Order for Name Change
+      es: Orden de cambio de nombre
+    url: https://www.wicourts.gov/formdisplay/CV-470.pdf?formNumber=CV-470&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Standard path, if your county asks you to prepare it. The judge signs it at the hearing.
+      es: Vía estándar, si tu condado te pide prepararla. El juez la firma en la audiencia.
+    sources: [cv-490]
+  - id: CV-471
+    name:
+      en: Order for Confidential Name Change
+      es: Orden de cambio de nombre confidencial
+    url: https://www.wicourts.gov/formdisplay/CV-471.pdf?formNumber=CV-471&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Confidential path, if your county asks you to prepare it.
+      es: Vía confidencial, si tu condado te pide prepararla.
+    sources: [cv-491]
+  - id: CV-455
+    name:
+      en: Petition for Name Change for Minor Child under 14
+      es: Petición de cambio de nombre para menor de 14 años
+    url: https://www.wicourts.gov/formdisplay/CV-455.pdf?formNumber=CV-455&formType=Form&formatId=2&language=en
+    required: conditional
+    condition:
+      en: Only for a child under 14, filed by parents or guardian.
+      es: Solo para un menor de 14 años, presentada por los padres o el tutor.
+    sources: [cv-490]
+  - id: CV-410A
+    name:
+      en: Petition for Waiver of Fees and Costs, Declaration of Indigency
+      es: Petición de exención de tarifas y costos, declaración de indigencia
+    url: https://www.wicourts.gov/formdisplay/CV-410A.pdf?formNumber=CV-410A&formType=Form&formatId=2&language=en
+    required: optional
+    condition:
+      en: Only if you cannot afford the $164.50 filing fee. Also available in Spanish and Hmong on the court forms site.
+      es: Solo si no puedes pagar la tarifa de $164.50. También disponible en español y hmong en el sitio de formularios del tribunal.
+    sources: [cv-410a, wis-814-29]
+  - id: CV-410B
+    name:
+      en: Order on Petition for Waiver of Fees and Costs
+      es: Orden sobre la petición de exención de tarifas y costos
+    url: https://www.wicourts.gov/formdisplay/CV-410B.pdf?formNumber=CV-410B&formType=Form&formatId=2&language=en
+    required: optional
+    condition:
+      en: Goes with CV-410A; the judge fills in the decision.
+      es: Va con el CV-410A; el juez anota la decisión.
+    sources: [mjc-gm-forms]
+steps:
+  - id: choose-path
+    title:
+      en: Decide between a standard and a confidential name change
+      es: Decide entre un cambio de nombre estándar y uno confidencial
+    body:
+      en: |
+        If you have real reasons to fear that someone could use a newspaper notice to find or hurt you, file the **confidential** petition (CV-451). Otherwise use the **standard** petition (CV-450). If a confidential petition is denied, the file stays confidential and you can start over with CV-450.
+
+        Free help choosing and filling in forms: Trans Law Help Wisconsin clinics, and the Milwaukee Justice Center in the Milwaukee County Courthouse.
+      es: |
+        Si tienes razones reales para temer que alguien use un aviso en el periódico para encontrarte o hacerte daño, presenta la petición **confidencial** (CV-451). Si no, usa la petición **estándar** (CV-450). Si se niega la petición confidencial, el expediente sigue siendo confidencial y puedes empezar de nuevo con el CV-450.
+    forms: [CV-450, CV-451]
+    sources: [cv-490, cv-491]
+  - id: fill-forms
+    title:
+      en: Fill out the petition, notice, and order, and make two copies
+      es: Llena la petición, el aviso y la orden, y haz dos copias
+    body:
+      en: Complete the petition. Ask your clerk whether you also need to prepare the notice (CV-460 or CV-461) and the order (CV-470 or CV-471); some clerks prepare them. Make at least two copies of each. Also ask whether to bring your original or certified birth certificate to the hearing.
+      es: Completa la petición. Pregunta al secretario si también debes preparar el aviso (CV-460 o CV-461) y la orden (CV-470 o CV-471). Haz al menos dos copias de cada uno. Pregunta también si debes llevar tu acta de nacimiento original o certificada a la audiencia.
+    forms: [CV-450, CV-451, CV-460, CV-461, CV-470, CV-471]
+    sources: [cv-490, cv-491]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you qualify
+      es: Pide una exención de tarifas si calificas
+    body:
+      en: File CV-410A with your petition. The court must waive the fee if you receive Medicaid (BadgerCare), FoodShare, SSI, or other means-tested assistance, or have a legal aid lawyer; otherwise the judge looks at your household size, income, expenses, and debts.
+      es: Presenta el CV-410A con tu petición. El tribunal debe exentar la tarifa si recibes Medicaid (BadgerCare), FoodShare, SSI u otra asistencia basada en ingresos, o tienes un abogado de asistencia legal; si no, el juez considera el tamaño de tu hogar, ingresos, gastos y deudas.
+    forms: [CV-410A, CV-410B]
+    optional: true
+    sources: [wis-814-29, cv-410a]
+  - id: file
+    title:
+      en: File with the clerk of circuit court in your county
+      es: Presenta los documentos ante el secretario del tribunal de circuito de tu condado
+    body:
+      en: File the originals and pay the $164.50 fee (or hand in your fee waiver). The clerk gives you a hearing date and returns stamped copies. Many counties also accept electronic filing.
+      es: Presenta los originales y paga la tarifa de $164.50 (o entrega tu exención). El secretario te da una fecha de audiencia y te devuelve copias selladas.
+    fees: [filing]
+    sources: [cv-490, wi-fee-table]
+  - id: publish
+    title:
+      en: Publish the notice for three weeks (standard path only)
+      es: Publica el aviso durante tres semanas (solo vía estándar)
+    body:
+      en: |
+        Contact a newspaper that prints legal notices where you live and ask it to publish the Notice of Name Change Hearing as a **class 3 notice** (once a week for three consecutive weeks) before your hearing date. The newspaper charges you directly and then sends you a proof of publication. Bring or file that proof before the hearing. Skip this step if you filed a confidential petition.
+      es: |
+        Contacta un periódico que publique avisos legales donde vives y pide que publique el Aviso de Audiencia como **aviso de clase 3** (una vez por semana durante tres semanas seguidas) antes de tu audiencia. El periódico te cobra directamente y luego te envía una prueba de publicación. Llévala o preséntala antes de la audiencia. Omite este paso si presentaste una petición confidencial.
+    fees: [publication]
+    estimated_time:
+      en: 3 weeks before the hearing
+      es: 3 semanas antes de la audiencia
+    sources: [wis-786-37, cv-490, wicourts-namechange]
+  - id: hearing
+    title:
+      en: Go to the hearing
+      es: Asiste a la audiencia
+    body:
+      en: Arrive on time and tell the clerk you are there. You may be placed under oath and asked about your petition. On the confidential path, this is where you present your evidence of danger. If the judge grants the petition, they sign the order; if not, they sign an order denying it.
+      es: Llega a tiempo y avisa al secretario. Te pueden tomar juramento y hacer preguntas sobre la petición. En la vía confidencial, aquí presentas tus pruebas de peligro. Si el juez concede la petición, firma la orden; si no, firma una orden de denegación.
+    sources: [cv-490, cv-491]
+  - id: certified-copies
+    title:
+      en: Buy certified copies and record the order
+      es: Compra copias certificadas y registra la orden
+    body:
+      en: Buy at least two or three certified copies of the signed order from the clerk. The order must also be recorded with the county Register of Deeds ($30); in many counties the clerk collects this fee and handles it. If you were born in Wisconsin, the clerk sends the change to state Vital Records and collects that fee from you.
+      es: Compra al menos dos o tres copias certificadas de la orden firmada. La orden también debe registrarse en el Registro de Escrituras del condado ($30); en muchos condados el secretario cobra la tarifa y se encarga. Si naciste en Wisconsin, el secretario envía el cambio a Registros Vitales y te cobra esa tarifa.
+    fees: [certified-copies, register-of-deeds, vital-records-filing]
+    sources: [wis-786-36, cv-491, wi-fee-table, wis-59-43, dhs-amend]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee, name change petition
+      es: Tarifa de presentación en el tribunal de circuito, petición de cambio de nombre
+    amount: 164.5
+    waivable: true
+    note:
+      en: $75 filing fee plus $68 court support services and $21.50 justice information surcharges. Same for standard and confidential petitions.
+      es: $75 de presentación más recargos de $68 y $21.50. Igual para peticiones estándar y confidenciales.
+    sources: [wi-fee-table, name-change-chart]
+  - id: publication
+    label:
+      en: Newspaper publication (standard path only)
+      es: Publicación en el periódico (solo vía estándar)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by the newspaper and paid to it directly. A court fee waiver does not cover it; Trans Law Help Wisconsin's grant can.
+      es: La fija el periódico y se le paga directamente. La exención de tarifas del tribunal no la cubre; la beca de Trans Law Help Wisconsin sí puede.
+    sources: [wicourts-namechange, tlh-grant]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (clerk of court)
+      es: Copia certificada de la orden (secretario del tribunal)
+    amount: 5
+    varies_by: court
+    note:
+      en: $5 to certify each document plus $1.25 per page copied.
+      es: $5 por certificar cada documento más $1.25 por página copiada.
+    sources: [wi-fee-table]
+  - id: register-of-deeds
+    label:
+      en: Recording the order with the Register of Deeds
+      es: Registro de la orden en el Registro de Escrituras
+    amount: 30
+    sources: [wis-59-43, wis-786-36]
+  - id: vital-records-filing
+    label:
+      en: Vital Records fee to amend a Wisconsin birth record after a name change
+      es: Tarifa de Registros Vitales para enmendar el acta de nacimiento de Wisconsin tras un cambio de nombre
+    amount: 10
+    note:
+      en: Does not include a copy. The first certified copy of the amended birth certificate is $20; each extra copy ordered at the same time is $3.
+      es: No incluye copia. La primera copia certificada del acta enmendada cuesta $20; cada copia adicional pedida al mismo tiempo cuesta $3.
+    sources: [dhs-amend]
+fee_waiver:
+  available: true
+  forms: [CV-410A, CV-410B]
+  eligibility:
+    en: |
+      The court must waive fees if **any one** applies (Wis. Stat. § 814.29(1)(d)):
+      - You receive means-tested public assistance, such as Medicaid/BadgerCare, FoodShare, SSI, Wisconsin Works, or county relief.
+      - A legal services program for low-income people represents you.
+      - You otherwise cannot pay because of poverty (the judge considers household size, income, expenses, assets, debts, and the federal poverty guidelines).
+    es: |
+      El tribunal debe exentar las tarifas si se cumple **cualquiera** de estas condiciones (§ 814.29(1)(d)):
+      - Recibes asistencia pública basada en ingresos, como Medicaid/BadgerCare, FoodShare, SSI, Wisconsin Works o ayuda del condado.
+      - Te representa un programa de servicios legales para personas de bajos ingresos.
+      - De otro modo no puedes pagar por pobreza (el juez considera el tamaño del hogar, ingresos, gastos, bienes, deudas y las guías federales de pobreza).
+  how:
+    en: File CV-410A with your petition. A waiver covers court fees but not the newspaper's publication charge.
+    es: Presenta el CV-410A con tu petición. La exención cubre las tarifas del tribunal, pero no el cobro del periódico por la publicación.
+  sources: [wis-814-29, cv-410a, tlh-grant]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      For a standard petition you must publish a class 3 notice (once a week for three weeks) in a local newspaper before
+      the hearing (Wis. Stat. § 786.37(1)). Publication is not required if you file a confidential petition and prove, by
+      a preponderance of the evidence, that publication could endanger you and that you are not trying to avoid a debt
+      or conceal a criminal record (§ 786.37(4)). There is no automatic exemption for gender identity.
+    es: >-
+      Para una petición estándar debes publicar un aviso de clase 3 (una vez por semana durante tres semanas) en un
+      periódico local antes de la audiencia (§ 786.37(1)). No se requiere publicación si presentas una petición
+      confidencial y demuestras, por preponderancia de la prueba, que la publicación podría ponerte en peligro y que no
+      intentas evitar una deuda ni ocultar antecedentes penales (§ 786.37(4)). No hay exención automática por identidad
+      de género.
+  waiver_available: true
+  waiver_how:
+    en: File CV-451 instead of CV-450, write specific reasons in item 9, and bring evidence to the hearing.
+    es: Presenta el CV-451 en lugar del CV-450, escribe razones concretas en el punto 9 y lleva pruebas a la audiencia.
+  sources: [wis-786-37, name-change-chart, cv-491]
+hearing:
+  required: "yes"
+  detail:
+    en: Every petition is decided at a hearing. On the standard path the hearing is set after the three-week publication period; on the confidential path it is set as soon as practicable.
+    es: Toda petición se decide en una audiencia. En la vía estándar se fija después de las tres semanas de publicación; en la confidencial, lo antes posible.
+  sources: [cv-490, cv-491]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprinting or background check. You state on the petition whether you are a registered sex offender (who cannot change their name).
+    es: No hay huellas ni verificación de antecedentes. Declaras en la petición si estás registrado como delincuente sexual (quienes no pueden cambiar de nombre).
+  sources: [cv-450-pdf, wis-301-47]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      Standard name change records are public, and the order is recorded with the Register of Deeds. If a confidential
+      petition is granted, all records are confidential and exempt from public records requests; the Register of Deeds,
+      Vital Records, and local registrars may disclose them only by court order. The confidential petition is kept
+      confidential from filing even if it is later denied.
+    es: >-
+      Los expedientes de cambios de nombre estándar son públicos y la orden se registra en el Registro de Escrituras. Si
+      se concede una petición confidencial, todos los registros son confidenciales y están exentos de solicitudes de
+      registros públicos; solo se pueden revelar por orden judicial. La petición confidencial se mantiene confidencial
+      desde que se presenta, aunque luego se niegue.
+  how:
+    en: Use CV-451 from the start. After a confidential change, Vital Records needs a court order to release future copies of your birth certificate, so order the copies you need when the change is processed.
+    es: Usa el CV-451 desde el principio. Después de un cambio confidencial, Registros Vitales necesita una orden judicial para emitir futuras copias de tu acta, así que pide las copias que necesites cuando se procese el cambio.
+  sources: [wis-786-36, cv-491, dhs-amend]
+minors:
+  summary:
+    en: |
+      **Ages 14 to 17**: the young person signs and files their own petition (CV-450, or CV-451 for a confidential change); no parent signature is required on the form.
+
+      **Under 14**: use CV-455. The petition is filed by both living parents, the surviving parent, a guardian or legal custodian (if both parents have died or lost parental rights), or the mother of a nonmarital child whose paternity is not established. One parent may file alone, but must have the other parent personally served with the petition and notice by a sheriff or process server at least five business days before the hearing. If the other parent appears and shows they have not abandoned the child or failed to assume parental responsibility, the court requires their consent. Service is not required if the other parent was convicted of one of the serious crimes listed in § 786.36(1m)(c) (use CV-481). Newspaper publication still applies. The court forms note that the law does not say whether confidential name changes are allowed under 14 (CV-456), so a judge may refuse one.
+    es: |
+      **De 14 a 17 años**: el joven firma y presenta su propia petición (CV-450, o CV-451 para un cambio confidencial); el formulario no exige firma de los padres.
+
+      **Menores de 14**: usa el CV-455. La petición la presentan ambos padres con vida, el padre sobreviviente, un tutor o custodio legal, o la madre de un hijo extramatrimonial sin paternidad establecida. Un padre puede presentar solo, pero debe hacer notificar personalmente al otro padre por un sheriff o notificador al menos cinco días hábiles antes de la audiencia. Si el otro padre comparece y demuestra que no abandonó al menor, el tribunal exige su consentimiento. No se requiere notificación si el otro padre fue condenado por uno de los delitos graves del § 786.36(1m)(c). La publicación en el periódico sigue siendo obligatoria. Los formularios señalan que la ley no aclara si se permiten cambios confidenciales para menores de 14 años (CV-456), así que un juez puede negarlo.
+  forms: [CV-450, CV-451, CV-455]
+  sources: [wis-786-36, wis-786-37, cv-490, cv-491, name-change-chart]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the clerk of circuit court's office, or electronically through the Wisconsin courts eFiling system where available. You must attend the hearing (some courts allow video; ask your clerk).
+    es: Presenta en persona en la oficina del secretario del tribunal de circuito, o electrónicamente mediante eFiling donde esté disponible. Debes asistir a la audiencia.
+  sources: [cv-490, wicourts-namechange]
+timeline:
+  en: Standard path, plan on roughly one to two months from filing to the hearing because of the three-week publication period, then a week or two for certified copies. The confidential path can be faster because there is no publication. Hearing dates depend on each county's calendar.
+  es: En la vía estándar, calcula aproximadamente uno a dos meses desde la presentación hasta la audiencia por las tres semanas de publicación, y luego una o dos semanas para las copias certificadas. La vía confidencial puede ser más rápida. Las fechas dependen del calendario de cada condado.
+after:
+  en: |
+    1. **Social Security** first (free; bring a certified copy of the order and photo ID). The name changes; the sex field currently cannot be changed.
+    2. Wait **48 hours**, then go to a **Wisconsin DMV** service center for a new license ($14) or ID card ($16); see the driver's license guide.
+    3. **Birth certificate**: if you were born in Wisconsin, the clerk sends your order to Vital Records ($10); order new copies ($20, then $3 each). Changing the sex on it is a separate court process; see the birth certificate guide.
+    4. **Passport**, banks, employer, insurance, school records, and voter registration.
+  es: |
+    1. **Seguro Social** primero (gratis; lleva una copia certificada de la orden e identificación con foto). El nombre cambia; el campo de sexo actualmente no se puede cambiar.
+    2. Espera **48 horas** y ve a un centro del **DMV de Wisconsin** para una nueva licencia ($14) o tarjeta de identificación ($16); ver la guía de licencia de conducir.
+    3. **Acta de nacimiento**: si naciste en Wisconsin, el secretario envía tu orden a Registros Vitales ($10); pide copias nuevas ($20, luego $3 cada una). Cambiar el sexo es un proceso judicial aparte; ver la guía del acta de nacimiento.
+    4. **Pasaporte**, bancos, empleador, seguro, expedientes escolares y registro de votante.
+tips:
+  - en: If you were born in Wisconsin and also want your sex marker changed on your birth certificate, you can file the gender-change petition (CV-452) in the same county; the form asks for your name change case number.
+    es: Si naciste en Wisconsin y también quieres cambiar el marcador de sexo en tu acta, puedes presentar la petición de cambio de género (CV-452) en el mismo condado; el formulario pide el número de tu caso de cambio de nombre.
+  - en: Trans Law Help Wisconsin's Emma Katherine grant pays court and newspaper publication fees for trans and nonbinary Wisconsinites who cannot afford them; apply for a court fee waiver first.
+    es: La beca Emma Katherine de Trans Law Help Wisconsin paga tarifas judiciales y de publicación a personas trans y no binarias de Wisconsin que no pueden pagarlas; pide primero la exención del tribunal.
+  - en: Wisconsin also recognizes a common-law name change through consistent use, but agencies like Social Security and the DMV require a court order, so most people need the petition.
+    es: Wisconsin también reconoce el cambio de nombre por uso constante, pero agencias como el Seguro Social y el DMV exigen una orden judicial, así que la mayoría necesita la petición.
+local_help:
+  - id: trans-law-help-wi
+    name: Trans Law Help Wisconsin, name and sex marker clinics
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free quarterly Zoom clinics (7 to 8:30 pm Central; next dates October 28, 2026, January 27, 2027, April 28, 2027)
+        and in-person clinics in Milwaukee and Madison where attorney and student volunteers explain the process and help
+        you complete court forms. Legal information, not individual legal advice.
+      es: >-
+        Clínicas gratuitas trimestrales por Zoom (7 a 8:30 pm hora central; próximas fechas 28 de octubre de 2026, 27 de
+        enero de 2027, 28 de abril de 2027) y clínicas presenciales en Milwaukee y Madison donde voluntarios explican el
+        proceso y ayudan a completar formularios.
+    url: https://www.translawhelp.com/legal-clinic
+    cost: free
+    telehealth: true
+    verification: org_website
+    sources: [tlh-clinic]
+  - id: tlh-grant
+    name: Trans Law Help Wisconsin, Emma Katherine Court Cost and Publication Fee Grant
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Grants for Wisconsin residents to pay court filing and newspaper publication fees for name and sex marker changes, awarded quarterly and paid directly to the clerk or newspaper.
+      es: Becas para residentes de Wisconsin que pagan tarifas de presentación y de publicación en periódico para cambios de nombre y marcador de sexo; se otorgan trimestralmente y se pagan directamente al secretario o al periódico.
+    url: https://www.translawhelp.com/grant
+    cost: free
+    verification: org_website
+    sources: [tlh-grant]
+  - id: milwaukee-justice-center
+    name: Milwaukee Justice Center (Milwaukee County Courthouse self-help center)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free walk-in forms help for name changes in Room G-9 of the Milwaukee County Courthouse, 901 N 9th St, run by the Clerk of Courts, Milwaukee Bar Association, and Marquette Law School. Also posts the birth certificate gender-change forms.
+      es: Ayuda gratuita sin cita con formularios de cambio de nombre en la Sala G-9 del Tribunal del Condado de Milwaukee, 901 N 9th St. También publica los formularios de cambio de género en el acta de nacimiento.
+    url: https://www.milwaukeejusticecenter.org/name-change.html
+    address: 901 N 9th St, Room G-9, Milwaukee, WI 53233
+    cost: free
+    verification: org_website
+    sources: [mjc]
+  - id: wi-law-library
+    name: Wisconsin State Law Library, name change guide
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: The state law library's research guide to Wisconsin name changes, with links to statutes, forms, and county procedures.
+      es: Guía de la biblioteca jurídica estatal sobre cambios de nombre en Wisconsin, con enlaces a estatutos, formularios y procedimientos de los condados.
+    url: https://wilawlibrary.gov/topics/namechange.php
+    cost: free
+    verification: official_source
+    sources: [wll]
+statutes:
+  - cite: Wis. Stat. § 786.36
+    title:
+      en: Changing names, court procedure; confidentiality of records
+    url: https://docs.legis.wisconsin.gov/document/statutes/786.36
+  - cite: Wis. Stat. § 786.37
+    title:
+      en: Notice of petition; publication; confidential name change
+    url: https://docs.legis.wisconsin.gov/document/statutes/786.37
+  - cite: Wis. Stat. § 301.47
+    title:
+      en: Registered sex offenders may not change their name
+    url: https://docs.legis.wisconsin.gov/document/statutes/301.47
+  - cite: Wis. Stat. § 814.29
+    title:
+      en: Waiver of fees and costs for people who cannot pay
+    url: https://docs.legis.wisconsin.gov/document/statutes/814.29
+related_links:
+  - title: Wisconsin Court System, Name change self-help
+    url: https://www.wicourts.gov/services/public/selfhelp/namechange.htm
+    note:
+      en: Official forms and step-by-step guides (CV-490 and CV-491).
+      es: Formularios oficiales y guías paso a paso (CV-490 y CV-491).
+  - title: Advocates for Trans Equality, Wisconsin identity documents
+    url: https://transequality.org/documents/wisconsin-identity-documents
+    note:
+      en: No last-updated date shown on the page.
+      es: La página no muestra fecha de actualización.
+sources:
+  - id: wis-786-36
+    url: https://docs.legis.wisconsin.gov/document/statutes/786.36
+    title: Wis. Stat. § 786.36, Changing names, court procedure
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      any resident of this state, whether a minor or adult, upon petition to the circuit court of the county where he or
+      she resides and upon filing a copy of the notice required under s. 786.37 (1), with proof of publication, may, if no
+      sufficient cause is shown to the contrary, have his or her name changed
+  - id: wis-786-37
+    url: https://docs.legis.wisconsin.gov/document/statutes/786.37
+    title: Wis. Stat. § 786.37, Change of name, notice of petition
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The court may require the petitioner to comply with sub. (1) if the petitioner is unable to show, by a
+      preponderance of the evidence, that publication of his or her petition could endanger him or her and that he or
+      she is not seeking a name change in order to avoid a debt or conceal a criminal record.
+  - id: wis-301-47
+    url: https://docs.legis.wisconsin.gov/document/statutes/301.47
+    title: Wis. Stat. § 301.47, Sex offenders; name changes prohibited
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: wis-814-29
+    url: https://docs.legis.wisconsin.gov/document/statutes/814.29
+    title: Wis. Stat. § 814.29, Security for costs; waiver
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: That the person is a recipient of means-tested public assistance, including ... medical assistance, supplemental security income, food stamps
+  - id: wis-59-43
+    url: https://docs.legis.wisconsin.gov/document/statutes/59.43
+    title: Wis. Stat. § 59.43(2)(ag), Register of deeds recording fee
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: for recording any document entitled to be recorded with the register of deeds, $30.
+  - id: wicourts-namechange
+    url: https://www.wicourts.gov/services/public/selfhelp/namechange.htm
+    title: Name change (Self-help law center)
+    publisher: Wisconsin Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: You must contact the newspaper directly to publish a third class notice (i.e., printed once a week for three weeks) prior to the hearing date.
+  - id: cv-490
+    url: https://www.wicourts.gov/formdisplay/CV-490_instructions.pdf?formNumber=CV-490&formType=Instructions&formatId=2&language=en
+    title: CV-490, Basic Steps to Handling a Name Change (rev. 01/26)
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: the non-petitioning parent must be provided with a copy of the Petition for Name Change and the Notice of Name Change Hearing no later than five business days ahead of the hearing.
+  - id: cv-491
+    url: https://www.wicourts.gov/formdisplay/CV-491_instructions.pdf?formNumber=CV-491&formType=Instructions&formatId=2&language=en
+    title: CV-491, Basic Steps to Handling a Confidential Name Change (rev. 03/25)
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: If the court does not make this finding and denies the confidential name change, you will have to file a standard name change ... All documents related to the confidential name change request will remain confidential.
+  - id: cv-450-pdf
+    url: https://www.wicourts.gov/formdisplay/CV-450.pdf?formNumber=CV-450&formType=Form&formatId=2&language=en
+    title: CV-450, Petition for Name Change for Adult or Minor 14 or Older (rev. 09/22)
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+  - id: cv-451-pdf
+    url: https://www.wicourts.gov/formdisplay/CV-451.pdf?formNumber=CV-451&formType=Form&formatId=2&language=en
+    title: CV-451, Petition for Confidential Name Change for Adult or Minor 14 or Older (rev. 09/22)
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: I request that this petition remain confidential because publication could endanger me for the following reason(s)
+  - id: cv-410a
+    url: https://www.wicourts.gov/formdisplay/CV-410A.pdf?formNumber=CV-410A&formType=Form&formatId=2&language=en
+    title: CV-410A, Petition for Waiver of Fees and Costs, Declaration of Indigency
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+  - id: name-change-chart
+    url: https://www.wicourts.gov/services/public/selfhelp/docs/namechangecomparisonchart.pdf
+    title: Frequently asked questions for name changes and confidential name changes (comparison chart, Feb. 2023)
+    publisher: Wisconsin Director of State Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: Third class notice is not required if the petitioner proves to the court by a preponderance of the evidence that publication of the name change could endanger him or her
+  - id: wi-fee-table
+    url: https://www.wicourts.gov/courts/circuit/docs/fees.pdf
+    title: Wisconsin circuit court fee, forfeiture, fine and surcharge tables (updated September 2, 2026)
+    publisher: Wisconsin Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: "file name change, 786.36-37 $164.50 ... $75 filing fee, $68 CSS, $21.50 JINFO"
+  - id: dhs-amend
+    url: https://www.dhs.wisconsin.gov/vitalrecords/amendments.htm
+    title: Vital Records, Amending a vital record
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: The fee to file a legal name change or confidential legal name change court order in our office is $10. ... The first certified copy is $20, and each extra copy is $3.
+  - id: tlh-clinic
+    url: https://www.translawhelp.com/legal-clinic
+    title: Upcoming clinics 2026-2027
+    publisher: Trans Law Help Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+  - id: tlh-grant
+    url: https://www.translawhelp.com/grant
+    title: Emma Katherine Court Cost + Publication Fee Grant
+    publisher: Trans Law Help Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: Because court filing fees may be waived through this process, the Emma Katherine Court Cost & Publication Fee Grant generally does not award funding for court filing fees to applicants who qualify for a court fee waiver.
+  - id: mjc
+    url: https://www.milwaukeejusticecenter.org/name-change.html
+    title: Name change
+    publisher: Milwaukee Justice Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: mjc-gm-forms
+    url: https://www.milwaukeejusticecenter.org/gender-marker-change-forms.html
+    title: Change gender marker on a Wisconsin birth certificate, forms (includes CV-410A and CV-410B)
+    publisher: Milwaukee Justice Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: wll
+    url: https://wilawlibrary.gov/topics/namechange.php
+    title: Name change
+    publisher: Wisconsin State Law Library
+    kind: official
+    accessed: "2026-09-24"

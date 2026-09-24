@@ -1,0 +1,408 @@
+jurisdiction: WI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read 2026-09-24 from primary sources: veto messages and bill histories for 2025 AB 104 and SB 405
+    (vetoed March 31, 2026; override attempts failed May 13, 2026) and 2023 AB 465 (vetoed December 6, 2023); Wis. Admin.
+    Code DHS 107.03 with the Legislature's note on Flack v. Wisconsin DHS (W.D. Wis. 2019, permanent injunction);
+    BadgerCare income limits (effective Feb 1, 2026) and the DHS page on the federal work requirement starting early
+    2027. Open items: (1) ForwardHealth's online handbook (prior authorization criteria for hormones and surgery) is a
+    JavaScript portal and was not read; covers_hrt and covers_surgery rest on the Flack injunction noted in the
+    administrative code. Reviewer: confirm current ForwardHealth prior-authorization policy and whether any appeal or
+    post-Skrmetti motion has disturbed the injunction. (2) Wisconsin has no statute barring gender-identity exclusions in
+    private insurance that could be found; OCI's complaint page was read, but OCI publishes no guidance on gender-affirming
+    coverage. (3) UW Health's gender services and PATH (pediatric) pages render only with JavaScript; their current
+    services and age policies are unverified. Children's Wisconsin's former gender health clinic URL now returns 404 and
+    Greater Milwaukee Center for Health & Wellness (listed on Diverse & Resilient's trans resource list) now shows a parked
+    domain; both were left out. Whether any Wisconsin hospital has paused care for minors since 2025 federal actions is
+    unverified. (4) Froedtert Inclusion Health Clinic's page describes LGBTQ+ primary care but does not say "hormone
+    therapy" explicitly. (5) No statutory shield law was found. (6) Flack's decision date (last_update 2019-09-16) and the Boyden v. Conlin (W.D. Wis. 2018) caption are from memory, not from a page read; the ACLU page confirms only a federal trial court ruling for state employees. (7) A4TE's Trans Health Project and Point of Pride
+    details are from their own sites as used in other state files.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in Wisconsin for adults and minors. The Legislature passed bans on care for minors in
+    2023 and 2026, and the governor vetoed both; the 2026 vetoes were sustained in May 2026. Wisconsin Medicaid
+    (BadgerCare Plus) must cover hormones and surgery under a 2019 federal court injunction. There is no state shield law
+    and no state rule requiring private insurers to cover this care.
+  es: >-
+    La atención de afirmación de género es legal en Wisconsin para adultos y menores. La Legislatura aprobó prohibiciones
+    de atención a menores en 2023 y 2026, y el gobernador vetó ambas; los vetos de 2026 se mantuvieron en mayo de 2026.
+    Medicaid de Wisconsin (BadgerCare Plus) debe cubrir hormonas y cirugía por una orden judicial federal de 2019. No
+    hay ley escudo estatal ni norma estatal que obligue a las aseguradoras privadas a cubrir esta atención.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction on adult care. Planned Parenthood of Wisconsin prescribes hormones on an **informed consent** basis (no therapist letter) to people 18 and older, by telehealth or at health centers statewide. Telehealth services such as Plume and FOLX also serve Wisconsin.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **BadgerCare Plus** (Wisconsin Medicaid). Adults 19 to 64 qualify with income up to 100% of the federal poverty level ($1,330 a month for one person in 2026). It covers hormones and, with prior approval, surgery. Wisconsin did not expand Medicaid, so if you earn more than that, look at HealthCare.gov marketplace plans instead.
+      2. Go to a **community health center** (FQHC) or free clinic. They charge on a sliding scale; ask whether they prescribe gender-affirming hormones. Find one with the HRSA locator or DHS's free and low-cost clinic search.
+      3. **Planned Parenthood of Wisconsin** offers sliding-scale hormone care and telehealth.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who cannot afford it.
+    es: |
+      No hay restricciones estatales para adultos. Planned Parenthood of Wisconsin receta hormonas mediante **consentimiento informado** (sin carta de terapeuta) a personas de 18 años o más, por telesalud o en centros de todo el estado. Servicios de telesalud como Plume y FOLX también atienden Wisconsin.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **BadgerCare Plus** (Medicaid de Wisconsin). Los adultos de 19 a 64 años califican con ingresos hasta el 100% del nivel federal de pobreza ($1,330 al mes para una persona en 2026). Cubre hormonas y, con aprobación previa, cirugía. Wisconsin no amplió Medicaid, así que si ganas más, busca planes del mercado en HealthCare.gov.
+      2. Acude a un **centro de salud comunitario** (FQHC) o clínica gratuita. Cobran en escala móvil; pregunta si recetan hormonas de afirmación de género.
+      3. **Planned Parenthood of Wisconsin** ofrece atención hormonal en escala móvil y por telesalud.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud a quienes no pueden pagarla.
+  sources: [pp-wi, bc-fpl, dhs-107-03, hrsa, dhs-clinics, pop-hrt]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. There is no Wisconsin law banning gender-affirming care for minors. The Legislature passed **2025 Assembly Bill 104** (a ban on puberty blockers, hormones, surgery, and referrals for people under 18) and **Senate Bill 405** (a lawsuit right against providers); Governor Evers vetoed both on March 31, 2026, and override votes failed on May 13, 2026. He vetoed a similar ban (2023 AB 465) in December 2023. Care for minors requires parental consent and is offered mainly through specialty clinics; Planned Parenthood of Wisconsin's hormone therapy is for adults 18 and older. Wisconsin has no shield law protecting patients or providers from other states' laws.
+    es: |
+      Legal. No hay ley en Wisconsin que prohíba la atención de afirmación de género a menores. La Legislatura aprobó el **Proyecto de Ley 104 de la Asamblea de 2025** (prohibición de bloqueadores, hormonas, cirugía y referencias para menores de 18) y el **Proyecto de Ley 405 del Senado** (derecho a demandar a proveedores); el gobernador Evers vetó ambos el 31 de marzo de 2026 y los intentos de anular los vetos fracasaron el 13 de mayo de 2026. Vetó una prohibición similar (AB 465 de 2023) en diciembre de 2023. La atención a menores requiere consentimiento de los padres y se ofrece principalmente en clínicas especializadas; la terapia hormonal de Planned Parenthood of Wisconsin es para mayores de 18. Wisconsin no tiene ley escudo.
+  sources: [veto-ab104, hist-ab104, veto-sb405, hist-sb405, veto-ab465, pp-wi]
+medicaid:
+  program_name: BadgerCare Plus (Wisconsin Medicaid, ForwardHealth)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Wisconsin's Medicaid rules still list "transsexual surgery" and related hormone therapy as excluded (Wis. Admin. Code DHS 107.03(23)-(24)), but in **Flack v. Wisconsin Department of Health Services** (W.D. Wis. 2019) a federal court held those exclusions illegal and **permanently barred DHS from enforcing them**. Medically necessary gender-affirming hormones and surgery are therefore covered, typically with prior authorization for surgery.
+
+      **Who qualifies**: adults 19 to 64 with income up to 100% of the federal poverty level ($1,330 a month for one person, February 2026 to January 2027); children and pregnant people up to 306%. There is no open enrollment. Starting in early 2027 a new federal work requirement will apply to some adults 19 to 64 without dependent children; DHS says it will notify affected members.
+
+      **Apply** online at ACCESS (access.wi.gov, also in Spanish), by phone, or at your county or tribal income maintenance agency.
+    es: |
+      Las reglas de Medicaid de Wisconsin todavía mencionan la exclusión de "cirugía transexual" y la terapia hormonal relacionada (DHS 107.03(23)-(24)), pero en **Flack v. Wisconsin Department of Health Services** (2019) un tribunal federal declaró ilegales esas exclusiones y **prohibió permanentemente a DHS aplicarlas**. Por eso se cubren las hormonas y cirugías de afirmación de género médicamente necesarias, normalmente con autorización previa para la cirugía.
+
+      **Quién califica**: adultos de 19 a 64 años con ingresos hasta el 100% del nivel federal de pobreza ($1,330 al mes para una persona); niños y embarazadas hasta el 306%. No hay periodo de inscripción. A partir de principios de 2027 se aplicará un requisito federal de trabajo a algunos adultos de 19 a 64 años sin hijos dependientes.
+
+      **Solicita** en línea en ACCESS (access.wi.gov, también en español), por teléfono o en tu agencia local.
+  how_to_apply_url: https://access.wi.gov/s/?language=en_US
+  sources: [dhs-107-03, bc-home, bc-fpl, dhs-work]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Wisconsin has no state law that bars private health plans from excluding gender-affirming care, so coverage depends on your plan. Read your plan's exclusions and ask for the medical policy on "gender dysphoria" or "gender-affirming care." If you are denied, file an internal appeal with the plan, then ask for an independent external review; you can also file a complaint with the **Office of the Commissioner of Insurance** (1-800-236-8517) for state-regulated plans. Employer self-funded plans are federally regulated. The Trans Health Project has appeal templates.
+
+      Wisconsin **state employee** health plans must cover this care after a federal court struck down the state's exclusion (Boyden v. Conlin, 2018).
+    es: |
+      Wisconsin no tiene ley estatal que prohíba a los planes privados excluir la atención de afirmación de género, así que la cobertura depende de tu plan. Revisa las exclusiones y pide la política médica sobre "disforia de género" o "atención de afirmación de género". Si te la niegan, apela ante el plan y luego pide una revisión externa independiente; también puedes presentar una queja ante la **Oficina del Comisionado de Seguros** (1-800-236-8517). Los planes autofinanciados de empleadores están regulados a nivel federal.
+
+      Los planes de salud de **empleados estatales** de Wisconsin deben cubrir esta atención desde que un tribunal federal anuló la exclusión (Boyden v. Conlin, 2018).
+  complaint_url: https://oci.wi.gov/Pages/Consumers/Filing-a-Complaint.aspx
+  sources: [oci-complaint, aclu-boyden, thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-wisconsin
+    org: planned-parenthood
+    name: Planned Parenthood of Wisconsin, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for people 18 and older, by telehealth or in person at health centers across Wisconsin; also PrEP, PEP, and STI testing. Costs kept as low as possible; serves patients regardless of immigration status.
+      es: Terapia hormonal por consentimiento informado para personas de 18 años o más, por telesalud o en persona en centros de todo Wisconsin; también PrEP, PEP y pruebas de ITS. Atiende sin importar el estatus migratorio.
+    url: https://www.plannedparenthood.org/planned-parenthood-wisconsin/patients/gender-affirming-care
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-wi]
+  - id: froedtert-inclusion
+    name: Froedtert & MCW Inclusion Health Clinic (Milwaukee)
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: LGBTQ+ primary and specialty care clinic on the Froedtert Hospital campus, 9200 W. Wisconsin Ave. Accepts private insurance, Medicare, and Medicaid; helps uninsured people check eligibility. Call 414-805-2018 and ask about gender-affirming hormone therapy.
+      es: Clínica de atención primaria y especializada LGBTQ+ en el campus del Froedtert Hospital, 9200 W. Wisconsin Ave. Acepta seguro privado, Medicare y Medicaid. Llama al 414-805-2018 y pregunta por terapia hormonal de afirmación de género.
+    url: https://www.froedtert.com/lgbtq
+    phone: "414-805-2018"
+    address: 9200 W. Wisconsin Ave, Milwaukee, WI 53226
+    cost: insurance
+    accepts_medicaid: true
+    accepts_uninsured: false
+    verification: org_website
+    sources: [froedtert]
+  - id: uw-health-gender
+    name: UW Health gender-affirming services (Madison)
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: University of Wisconsin health system program for gender-affirming care in Madison, plus the PATH clinic for children and adolescents. Services and age policies could not be confirmed; call before relying on it.
+      es: Programa de atención de afirmación de género del sistema de salud de la Universidad de Wisconsin en Madison, más la clínica PATH para niños y adolescentes. No se pudieron confirmar los servicios ni las edades; llama antes.
+    url: https://www.uwhealth.org/services/gender-services
+    cost: insurance
+    verification: unverified
+    sources: [uw-health, dhs-trans]
+  - id: vivent-health
+    name: Vivent Health
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP, PEP, HIV testing and care, primary care, behavioral health, and pharmacy at 10 Wisconsin sites, including Milwaukee (1311 N 6th St, 414-273-1991) and Madison (600 Williamson St, 608-252-6540). Works so cost is not a barrier.
+      es: PrEP, PEP, pruebas y atención de VIH, atención primaria, salud conductual y farmacia en 10 sedes de Wisconsin, incluidas Milwaukee (1311 N 6th St, 414-273-1991) y Madison (600 Williamson St, 608-252-6540).
+    url: https://viventhealth.org/locations/
+    cost: varies
+    verification: org_website
+    sources: [vivent-locations, vivent-prep]
+  - id: dhs-free-clinics
+    name: Wisconsin DHS free and low-cost clinic finder
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: State guide to federally qualified health centers, rural health centers, tribal health centers, and free clinics, with a search tool anyone can use (type "FQHC" in the provider type).
+      es: Guía estatal de centros de salud federalmente calificados, rurales, tribales y clínicas gratuitas, con una herramienta de búsqueda para cualquiera.
+    url: https://www.dhs.wisconsin.gov/forwardhealth/clinics.htm
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [dhs-clinics]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for health centers that must see you regardless of insurance and charge on a sliding scale. Call and ask for "gender-affirming care."
+      es: Localizador federal de centros de salud que deben atenderte sin importar tu seguro y cobran en escala móvil. Llama y pregunta por "atención de afirmación de género".
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: dhs-prep
+    name: Wisconsin DHS HIV Program, PrEP information
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: State information on getting PrEP. BadgerCare Plus covers PrEP, and most private plans must cover it without copays.
+      es: Información estatal para obtener PrEP. BadgerCare Plus cubre la PrEP, y la mayoría de los planes privados deben cubrirla sin copagos.
+    url: https://www.dhs.wisconsin.gov/hiv/prep-pay.htm
+    cost: free
+    verification: official_source
+    sources: [dhs-prep-pay]
+  - id: point-of-pride-wi
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy), a surgery fund, and free binders and shapewear.
+      es: Fondos nacionales para quienes no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis), un fondo de cirugía y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-wi
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and transition costs, including name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Wis. Admin. Code DHS 107.03(23)-(24)
+    title:
+      en: Medicaid exclusions for gender-affirming hormones and surgery, permanently enjoined in Flack v. Wisconsin DHS (2019)
+    url: https://docs.legis.wisconsin.gov/document/administrativecode/DHS%20107.03
+litigation:
+  - case: Flack v. Wisconsin Department of Health Services, 395 F. Supp. 3d 1001 (W.D. Wis. 2019)
+    court: U.S. District Court for the Western District of Wisconsin
+    summary:
+      en: Held that Wisconsin Medicaid's exclusion of gender-affirming hormones and surgery violated the Equal Protection Clause, Section 1557 of the Affordable Care Act, and the Medicaid Act, and permanently enjoined DHS from enforcing it.
+      es: Declaró que la exclusión de hormonas y cirugía de afirmación de género en Medicaid de Wisconsin violaba la Cláusula de Igual Protección, la Sección 1557 de la Ley de Cuidado de Salud Asequible y la Ley de Medicaid, y prohibió permanentemente a DHS aplicarla.
+    effect_today:
+      en: BadgerCare Plus covers medically necessary gender-affirming care. The exclusion text remains in the code but cannot be enforced.
+      es: BadgerCare Plus cubre la atención de afirmación de género médicamente necesaria. El texto de la exclusión sigue en el código pero no se puede aplicar.
+    last_update: "2019-09-16"
+    sources: [dhs-107-03]
+pending_bills:
+  - bill: AB 104 (2025)
+    summary:
+      en: Would have banned puberty blockers, hormones, surgery, and referrals for gender transition for people under 18, with licensing-board investigations. Passed both chambers; vetoed March 31, 2026; veto sustained May 13, 2026.
+      es: Habría prohibido bloqueadores, hormonas, cirugía y referencias para transición de género a menores de 18. Aprobado por ambas cámaras; vetado el 31 de marzo de 2026; veto sostenido el 13 de mayo de 2026.
+    status: vetoed
+    last_action: "2026-05-13"
+    url: https://docs.legis.wisconsin.gov/2025/proposals/ab104
+    sources: [hist-ab104, veto-ab104]
+  - bill: SB 405 (2025)
+    summary:
+      en: Would have created a right to sue providers of gender transition procedures to minors. Passed both chambers; vetoed March 31, 2026; veto sustained May 13, 2026.
+      es: Habría creado el derecho a demandar a proveedores de procedimientos de transición de género a menores. Aprobado por ambas cámaras; vetado el 31 de marzo de 2026; veto sostenido el 13 de mayo de 2026.
+    status: vetoed
+    last_action: "2026-05-13"
+    url: https://docs.legis.wisconsin.gov/2025/proposals/sb405
+    sources: [hist-sb405, veto-sb405]
+sources:
+  - id: veto-ab104
+    url: https://docs.legis.wisconsin.gov/document/vetomessages/2025/AB104.pdf
+    title: Governor's veto message, 2025 Assembly Bill 104 (March 31, 2026)
+    publisher: Wisconsin State Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: The bill would prohibit, with limited exceptions, healthcare providers from engaging in, causing the engagement in or making referrals for certain medical intervention practices if done for the purpose of corresponding the minor's body to a sex that is consistent with the minor's gender identity.
+  - id: hist-ab104
+    url: https://docs.legis.wisconsin.gov/2025/proposals/ab104
+    title: 2025 Assembly Bill 104, bill history
+    publisher: Wisconsin State Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: "5/13/2026 Asm. Failed to pass notwithstanding the objections of the Governor ... Status: A - Veto Sustained"
+  - id: veto-sb405
+    url: https://docs.legis.wisconsin.gov/document/vetomessages/2025/SB405.pdf
+    title: Governor's veto message, 2025 Senate Bill 405 (March 31, 2026)
+    publisher: Wisconsin State Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: This bill would create a civil cause of action against a healthcare provider who performs a gender transition procedure, as defined in the bill.
+  - id: hist-sb405
+    url: https://docs.legis.wisconsin.gov/2025/proposals/sb405
+    title: 2025 Senate Bill 405, bill history
+    publisher: Wisconsin State Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: "5/13/2026 Sen. Failed to pass notwithstanding the objections of the Governor ... Status: S - Veto sustained"
+  - id: veto-ab465
+    url: https://docs.legis.wisconsin.gov/document/vetomessages/2023/AB465.pdf
+    title: Governor's veto message, 2023 Assembly Bill 465 (December 6, 2023)
+    publisher: Wisconsin State Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: I am vetoing Assembly Bill 465 in its entirety.
+  - id: dhs-107-03
+    url: https://docs.legis.wisconsin.gov/document/administrativecode/DHS%20107.03
+    title: Wis. Admin. Code DHS 107.03, Services not covered (with note on Flack v. Wisconsin DHS)
+    publisher: Wisconsin State Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: >-
+      In Flack v. Wisconsin Dep't of Health Servs, 395 F. Supp. 3d 1001 (W.D. Wis. 2019), the United States District Court
+      for the Western District of Wisconsin held that ss. DHS 107.03 (23) and (24) and 107.10 (4) (p) violated the Equal
+      Protection Clause ... The court in Flack permanently enjoined the department from enforcing those provisions.
+  - id: bc-home
+    url: https://www.dhs.wisconsin.gov/badgercareplus/index.htm
+    title: BadgerCare Plus, full coverage Medicaid
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: There's no open enrollment period, you can apply at any time!
+  - id: bc-fpl
+    url: https://www.dhs.wisconsin.gov/badgercareplus/fpl.htm
+    title: BadgerCare Plus income guidelines (effective February 1, 2026 to January 31, 2027)
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Adult monthly income limit (100% FPL): 1 person $1,330.00"
+  - id: dhs-work
+    url: https://www.dhs.wisconsin.gov/medicaid/work.htm
+    title: Medicaid, new federal work requirement
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Work requirements are coming in early 2027 for some Medicaid members enrolled in BadgerCare Plus.
+  - id: dhs-clinics
+    url: https://www.dhs.wisconsin.gov/forwardhealth/clinics.htm
+    title: ForwardHealth, Free or low-cost health clinics
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: dhs-prep-pay
+    url: https://www.dhs.wisconsin.gov/hiv/prep-pay.htm
+    title: HIV, How is PrEP paid for?
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: In Wisconsin, BadgerCare Plus also covers PrEP.
+  - id: dhs-trans
+    url: https://www.dhs.wisconsin.gov/lgbthealth/transgender.htm
+    title: LGBTQ+ Health, Transgender and nonbinary health (last revised June 26, 2026)
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: oci-complaint
+    url: https://oci.wi.gov/Pages/Consumers/Filing-a-Complaint.aspx
+    title: File a complaint
+    publisher: Wisconsin Office of the Commissioner of Insurance
+    kind: official
+    accessed: "2026-09-24"
+    quote: OCI Complaints 1-800-236-8517
+  - id: aclu-boyden
+    url: https://www.aclu-wi.org/cases/boyden-v-state-wisconsin-winning-transgender-health-care-access/
+    title: Boyden v. State of Wisconsin, winning transgender health care access
+    publisher: ACLU of Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: a federal trial court recently ruled that the state's exclusion of coverage was unlawful sex discrimination that violated federal law.
+  - id: pp-wi
+    url: https://www.plannedparenthood.org/planned-parenthood-wisconsin/patients/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood of Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender Affirming Hormone Therapy is available throughout Wisconsin for individuals 18 years and older.
+  - id: froedtert
+    url: https://www.froedtert.com/lgbtq
+    title: LGBTQ+ health care, Inclusion Health Clinic
+    publisher: Froedtert & the Medical College of Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: Call 414-805-2018 for an appointment.
+  - id: uw-health
+    url: https://www.uwhealth.org/services/gender-services
+    title: Gender-affirming treatment and services
+    publisher: UW Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: vivent-locations
+    url: https://viventhealth.org/locations/
+    title: Locations
+    publisher: Vivent Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: vivent-prep
+    url: https://viventhealth.org/services/prep/
+    title: PrEP (Pre-Exposure Prophylaxis)
+    publisher: Vivent Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

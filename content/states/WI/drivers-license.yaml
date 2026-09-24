@@ -1,0 +1,217 @@
+guide_type: drivers_license
+jurisdiction: WI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The requirement comes from one line on the DMV's duplicate/replacement page (read 2026-09-24): changing gender
+    requires an in-person visit and "proof by court order or physician's note". WisDOT has no dedicated gender-change page
+    or form that could be found (checked the DMV forms index; no gender form listed), and neither statute (343.14) nor
+    Wis. Admin. Code Trans 102 says what the note must contain. A4TE's page says "an affidavit or statement from a
+    licensed physician certifying the gender change; or a court order", which agrees. Reviewer: (1) confirm what wording
+    DMV counter staff expect in the physician's note, and whether notes from nurse practitioners or physician assistants
+    are accepted (treated here as physician only, hence provider_letter_limited and status restricted); (2) confirm no X
+    option exists (MV3001 rev. 8/2025 has a free-text "Sex" box; no X is mentioned anywhere by DMV). Fees ($14 license
+    duplicate, $16 ID duplicate, free ID for voting) from the DMV fee page the same day. Also unverified: how the free-for-voting ID is requested
+    on MV3004 (the fee page says only "For purposes of voting free"). The DMV page also showed an
+    outage banner for online services on 2026-09-24; this does not affect gender changes, which are in person only.
+status: restricted
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on a Wisconsin driver's license or ID card to M or F by bringing a physician's note or a
+    court order to a DMV service center in person. There is no X option. A replacement license costs $14 and an ID
+    card $16.
+  es: >-
+    Puedes cambiar el sexo en tu licencia de conducir o tarjeta de identificación de Wisconsin a M o F llevando una nota
+    de un médico o una orden judicial a un centro del DMV en persona. No hay opción X. Una licencia de reemplazo cuesta
+    $14 y una tarjeta de identificación $16.
+summary:
+  en: |
+    Wisconsin DMV changes the sex marker when you show **a note from a physician or a court order**, at a DMV customer service center. The DMV does not publish a special form or exact wording for the note; you fill out the regular application (MV3001 for a license, MV3004 for an ID card), write the corrected sex, and present the note. Surgery is not listed as a requirement. Only M and F are available.
+
+    Changing your **name** is a separate change that needs a certified court order (or a passport in the new name), and you must update Social Security first and wait 48 hours. You can do the name and sex change in the same visit and pay one replacement fee.
+  es: |
+    El DMV de Wisconsin cambia el marcador de sexo cuando presentas **una nota de un médico o una orden judicial**, en un centro de servicio del DMV. El DMV no publica un formulario especial ni un texto exacto para la nota; llenas la solicitud normal (MV3001 para licencia, MV3004 para tarjeta de identificación), escribes el sexo corregido y presentas la nota. La cirugía no aparece como requisito. Solo hay M y F.
+
+    Cambiar tu **nombre** es un cambio aparte que requiere una orden judicial certificada (o un pasaporte con el nuevo nombre), y debes actualizar primero el Seguro Social y esperar 48 horas. Puedes hacer ambos cambios en la misma visita y pagar una sola tarifa de reemplazo.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Wisconsin driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia de conducir o tarjeta de identificación de Wisconsin.
+  age:
+    en: Applicants under 18 also complete the "Under age 18" section of MV3001. DMV does not publish a separate rule for minors' sex marker changes.
+    es: Los solicitantes menores de 18 años también completan la sección para menores de 18 del MV3001. El DMV no publica una regla aparte para menores.
+  sources: [dmv-duplicate, mv3001]
+forms:
+  - id: MV3001
+    name:
+      en: Wisconsin Driver License (DL) Application
+      es: Solicitud de licencia de conducir de Wisconsin
+    url: https://wisconsindot.gov/Documents/formdocs/mv3001.pdf
+    required: conditional
+    condition:
+      en: For a driver's license.
+      es: Para una licencia de conducir.
+    how_to_fill:
+      en: |
+        - Top section: your name. If your name is changing too, write the new legal name and put your old name in "Former Name," checking "Other" as the reason.
+        - "Sex": write the corrected sex (M or F). Bring your physician's note or court order; staff will not change it on the form alone.
+        - You can pre-fill the application with the DMV's online interactive driver licensing guide, but you must finish in person.
+      es: |
+        - Sección superior: tu nombre. Si también cambias de nombre, escribe el nuevo nombre legal y el anterior en "Former Name", marcando "Other" como motivo.
+        - "Sex": escribe el sexo corregido (M o F). Lleva la nota médica u orden judicial; no lo cambian solo con el formulario.
+    sources: [mv3001, dmv-name-change, dmv-proof-name]
+  - id: MV3004
+    name:
+      en: Wisconsin Identification Card (ID) Application
+      es: Solicitud de tarjeta de identificación de Wisconsin
+    url: https://wisconsindot.gov/Documents/formdocs/mv3004.pdf
+    required: conditional
+    condition:
+      en: For a state ID card (no driving).
+      es: Para una tarjeta de identificación estatal (sin manejar).
+    sources: [dmv-name-change]
+steps:
+  - id: get-note
+    title:
+      en: Get a physician's note, or a court order
+      es: Consigue una nota de un médico o una orden judicial
+    body:
+      en: |
+        Ask the physician who provides your care for a signed note on letterhead stating your name, date of birth, and the sex that should appear on your license (M or F), and that this reflects your gender. DMV does not publish required wording, so keep it short and clear and include the physician's license number and contact information. A Wisconsin or other court order changing your sex also works.
+      es: |
+        Pide al médico que te atiende una nota firmada en papel membretado que indique tu nombre, fecha de nacimiento y el sexo que debe aparecer en tu licencia (M o F), y que refleja tu género. El DMV no publica un texto obligatorio, así que que sea breve y clara e incluya el número de licencia y contacto del médico. También sirve una orden judicial que cambie tu sexo.
+    applies_to: [gender_marker]
+    sources: [dmv-duplicate, a4te-wi]
+  - id: ssa-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias de nombre, actualiza primero el Seguro Social
+    body:
+      en: Present your certified court order at Social Security, then wait at least 48 hours so DMV can verify the new name electronically.
+      es: Presenta tu orden judicial certificada en el Seguro Social y espera al menos 48 horas para que el DMV pueda verificar el nuevo nombre.
+    applies_to: [name_change]
+    sources: [dmv-name-change]
+  - id: visit
+    title:
+      en: Go to a DMV customer service center in person
+      es: Ve en persona a un centro de servicio del DMV
+    body:
+      en: |
+        Sex (and name) changes cannot be done online. Bring the completed MV3001 or MV3004, your current license or ID (you surrender it), the physician's note or court order, and, if your name is changing, a certified court order or a valid U.S. passport in the new name. If you are also upgrading to REAL ID, bring proof of identity, Social Security number, and Wisconsin residency, plus documents for each past name change unless you have a passport in your current name. You get a new photo and pay the fee.
+      es: |
+        Los cambios de sexo (y de nombre) no se pueden hacer en línea. Lleva el MV3001 o MV3004, tu licencia o identificación actual (la entregas), la nota médica u orden judicial y, si cambias de nombre, una orden judicial certificada o un pasaporte válido con el nuevo nombre. Si además cambias a REAL ID, lleva prueba de identidad, número de Seguro Social y residencia en Wisconsin. Te toman una foto nueva y pagas la tarifa.
+    forms: [MV3001, MV3004]
+    fees: [dl-duplicate, id-duplicate]
+    applies_to: [in_person]
+    sources: [dmv-duplicate, dmv-name-change, dmv-proof-name, dmv-fees]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: You leave with a receipt that works as identification until the card arrives, usually within 7 to 10 business days.
+      es: Sales con un recibo que sirve como identificación hasta que llegue la tarjeta, normalmente en 7 a 10 días hábiles.
+    estimated_time:
+      en: 7 to 10 business days
+      es: 7 a 10 días hábiles
+    sources: [dmv-name-change]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Driver's license, duplicate (replacement with changed information)
+      es: Licencia de conducir, duplicado (reemplazo con información cambiada)
+    amount: 14
+    sources: [dmv-fees]
+  - id: id-duplicate
+    label:
+      en: ID card, duplicate
+      es: Tarjeta de identificación, duplicado
+    amount: 16
+    note:
+      en: ID cards requested for voting purposes are free. If your card expires within the next year, you may be offered a renewal instead of a duplicate (renewal is $42.50 for a license, $28 for an ID card).
+      es: Las tarjetas de identificación para votar son gratis. Si tu tarjeta vence dentro del próximo año, pueden ofrecerte renovarla en lugar de un duplicado (la renovación cuesta $42.50 la licencia y $28 la tarjeta).
+    sources: [dmv-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no waiver for driver's licenses. A Wisconsin ID card is free if you need it for voting; tell the DMV staff (the application asks).
+    es: No hay exención para licencias de conducir. La tarjeta de identificación de Wisconsin es gratis si la necesitas para votar; díselo al personal del DMV.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Must be done in person at a DMV customer service center. The DMV page lists gender changes among the transactions that cannot be done online.
+    es: Debe hacerse en persona en un centro de servicio del DMV. La página del DMV incluye el cambio de género entre los trámites que no se pueden hacer en línea.
+  sources: [dmv-duplicate]
+timeline:
+  en: One office visit, then 7 to 10 business days for the card to arrive by mail.
+  es: Una visita a la oficina y luego 7 a 10 días hábiles para que llegue la tarjeta por correo.
+after:
+  en: |
+    Your license is the ID most places check, so update it soon after Social Security. The US passport and the Social Security record currently cannot show a changed sex marker; your Wisconsin license is still valid for voting, REAL ID, and flying. Keep a copy of the physician's note in case you need to explain a mismatch.
+  es: |
+    Tu licencia es la identificación que más se revisa, así que actualízala poco después del Seguro Social. El pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar un marcador de sexo cambiado; tu licencia de Wisconsin sigue siendo válida para votar, REAL ID y volar. Guarda una copia de la nota médica por si necesitas explicar una diferencia.
+tips:
+  - en: You do not need a court order or surgery for the license, and you do not need to change your name first. Either change can be done alone.
+    es: No necesitas orden judicial ni cirugía para la licencia, y no necesitas cambiar tu nombre primero. Cada cambio se puede hacer por separado.
+  - en: If a counter clerk asks for more than a physician's note, ask for a supervisor and point to the DMV's own page, which lists "court order or physician's note." Trans Law Help Wisconsin can help if you are turned away.
+    es: Si en la ventanilla te piden más que una nota médica, pide hablar con un supervisor y muestra la página del DMV, que dice "orden judicial o nota del médico". Trans Law Help Wisconsin puede ayudarte si te rechazan.
+related_links:
+  - title: Advocates for Trans Equality, Wisconsin identity documents
+    url: https://transequality.org/documents/wisconsin-identity-documents
+    note:
+      en: No last-updated date shown; agrees that a physician's statement or court order is needed.
+      es: Sin fecha de actualización; coincide en que se necesita una declaración médica u orden judicial.
+  - title: Trans Law Help Wisconsin
+    url: https://www.translawhelp.com/
+sources:
+  - id: dmv-duplicate
+    url: https://wisconsindot.gov/Pages/dmv/license-drvs/lst-or-stoln/duplicate-id.aspx
+    title: Replace (get duplicate) ID, driver license or instruction permit
+    publisher: Wisconsin Department of Transportation, DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: "You MUST apply in person if: ... You are changing your personal identifier (e.g., weight or hair color) name (must show proof of name change) gender (must show proof by court order or physician's note)"
+  - id: dmv-name-change
+    url: https://wisconsindot.gov/Pages/dmv/license-drvs/rnew-and-chge/name-change.aspx
+    title: Name change, driver license or identification card
+    publisher: Wisconsin Department of Transportation, DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: Allow 48 hours for SSA to process your name change so DMV can verify your correct name ... You will receive a receipt that is valid identification until your card arrives in the mail within 7-10 business days.
+  - id: dmv-proof-name
+    url: https://wisconsindot.gov/Pages/dmv/license-drvs/rnew-and-chge/proof-name-change.aspx
+    title: Acceptable documents for proof of name change
+    publisher: Wisconsin Department of Transportation, DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Certified marriage certificate; Certified record of divorce; Certified court order; Valid unexpired U.S. Passport issued in your current name"
+  - id: dmv-fees
+    url: https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx
+    title: DMV fees
+    publisher: Wisconsin Department of Transportation, DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Regular driver license: Renewal (8 year) $42.50, Duplicate $14. Identification cards: Renewal (8 year) $28, Duplicate $16, For purposes of voting free"
+  - id: mv3001
+    url: https://wisconsindot.gov/Documents/formdocs/mv3001.pdf
+    title: MV3001, Wisconsin Driver License (DL) Application (rev. 8/2025)
+    publisher: Wisconsin Department of Transportation
+    kind: form
+    accessed: "2026-09-24"
+  - id: a4te-wi
+    url: https://transequality.org/documents/wisconsin-identity-documents
+    title: Wisconsin identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "In order to update the gender marker on a Wisconsin ID, the applicant must submit: An affidavit or statement from a licensed physician certifying the gender change; or A court order for gender change."

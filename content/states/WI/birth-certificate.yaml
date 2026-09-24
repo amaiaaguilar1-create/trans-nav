@@ -1,0 +1,323 @@
+guide_type: birth_certificate
+jurisdiction: WI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute 69.15(4)(b)-(c) read on docs.legis.wisconsin.gov 2026-09-24. DHS Vital Records amendments page (same day)
+    lists the $20 fee to file a sex-change court order, $20 first copy, $3 each additional, and does not itself mention
+    surgery; the surgery requirement comes from the statute and from court forms CV-452 (rev. 05/23) and CV-474 (rev.
+    11/23), which both state it. Status is "restricted" rather than "litigation" because the July 31, 2026 lawsuit has
+    produced no order changing current practice. Open items: (1) the case caption and number of the ACLU lawsuit
+    (Dane County Circuit Court, Judge Stephen Ehlke) were not published on the pages read; reviewer should add them. (2)
+    DHS form F-05035 (Report of Order to Change Name and Sex on Birth Certificate Due to Surgical Procedure) is linked by
+    the Milwaukee Justice Center to a Trans Law Help copy that now 404s, and it is not at the usual DHS forms URL; not
+    listed as a form here. (3) Whether DHS amends the original record (with an "amended" annotation) or issues a new
+    record depends on the court order (69.15(4)(b)); confirm DHS practice. (4) What counts as a "surgical sex-change
+    procedure" is undefined; judges decide. (5) Processing time for amendments is not published; the 2-week figure is
+    for ordinary copy requests (F-05291). (6) The $164.50 court fee is the "vital statistics amendments" line in the
+    court fee table.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Wisconsin, you can change the sex on your birth certificate only with a court order, and state
+    law allows that order only after a "surgical sex-change procedure." There is no X option. A lawsuit filed in July
+    2026 challenges the surgery requirement, but nothing has changed yet. Name changes are added with any name change
+    court order.
+  es: >-
+    Si naciste en Wisconsin, solo puedes cambiar el sexo en tu acta de nacimiento con una orden judicial, y la ley
+    estatal permite esa orden solo después de un "procedimiento quirúrgico de cambio de sexo". No hay opción X. Una
+    demanda presentada en julio de 2026 impugna el requisito de cirugía, pero aún no ha cambiado nada. Los cambios de
+    nombre se agregan con cualquier orden judicial de cambio de nombre.
+summary:
+  en: |
+    Under Wis. Stat. § 69.15(4)(b), a person may petition a court to change the name and sex on a Wisconsin birth record "due to a surgical sex-change procedure," and a court may not order a sex change on a vital record any other way (§ 69.15(4)(c)). The law does not define which surgery counts. The court form (CV-452) asks you to confirm you understand this, and the order (CV-474) records the date of the procedure. Talk with your surgeon or doctor about whether the care you have had qualifies, and bring a letter from them to the hearing.
+
+    Once you have the order, you mail a certified copy to Wisconsin Vital Records with a $20 filing fee. Only M or F can appear.
+
+    **Changing only your name** is simpler: any name change court order (from Wisconsin or any US or Canadian court) updates the name for a $10 filing fee, and a Wisconsin court clerk usually sends it for you. The certificate shows an annotation of the amendment.
+  es: |
+    Según el § 69.15(4)(b) de los Estatutos de Wisconsin, una persona puede pedir a un tribunal que cambie el nombre y el sexo en su registro de nacimiento de Wisconsin "debido a un procedimiento quirúrgico de cambio de sexo", y un tribunal no puede ordenar un cambio de sexo en un registro vital de otra forma (§ 69.15(4)(c)). La ley no define qué cirugía cuenta. El formulario del tribunal (CV-452) te pide confirmar que lo entiendes, y la orden (CV-474) registra la fecha del procedimiento. Habla con tu cirujano o médico sobre si tu atención califica y lleva una carta suya a la audiencia.
+
+    Con la orden, envías por correo una copia certificada a Registros Vitales de Wisconsin con una tarifa de $20. Solo puede aparecer M o F.
+
+    **Cambiar solo el nombre** es más sencillo: cualquier orden judicial de cambio de nombre (de Wisconsin o de cualquier tribunal de EE. UU. o Canadá) actualiza el nombre por $10, y el secretario del tribunal de Wisconsin normalmente la envía por ti. El acta muestra una anotación de la enmienda.
+eligibility:
+  residency:
+    en: You must have been born in Wisconsin. You file the petition in the circuit court of the Wisconsin county where you live. If you were born in another state, that state's rules apply to your birth certificate, not Wisconsin's.
+    es: Debes haber nacido en Wisconsin. Presentas la petición en el tribunal de circuito del condado de Wisconsin donde vives. Si naciste en otro estado, se aplican las reglas de ese estado.
+  age:
+    en: CV-452 is written for adults and minors 14 or older. The statute lets "any person with a direct and tangible interest" in the record petition, which can include a parent.
+    es: El CV-452 está hecho para adultos y menores de 14 años o más. La ley permite pedirlo a "cualquier persona con un interés directo y tangible" en el registro, lo que puede incluir a un padre.
+  other:
+    en: A court order must be based on a surgical procedure. No X or nonbinary marker exists on Wisconsin birth certificates.
+    es: La orden judicial debe basarse en un procedimiento quirúrgico. No existe marcador X o no binario en las actas de Wisconsin.
+  sources: [wis-69-15, cv-452, mjc-gm]
+forms:
+  - id: CV-452
+    name:
+      en: Petition for Gender Change on Wisconsin Birth Certificate (adult or minor 14 or older)
+      es: Petición de cambio de género en el acta de nacimiento de Wisconsin (adulto o menor de 14 años o más)
+    url: https://www.wicourts.gov/formdisplay/CV-452.pdf?formNumber=CV-452&formType=Form&formatId=2&language=en
+    required: always
+    how_to_fill:
+      en: |
+        - Items 1 to 4: your address, county, date of birth, and confirmation that you were born and your certificate was issued in Wisconsin.
+        - Items 5 and 6: the current sex on the certificate and the one you want (male or female only).
+        - Item 7 is a statement that the court can grant the request only if you have had a surgical sex-change procedure. Be ready to show proof (for example, a letter from your surgeon with the procedure and date).
+        - Item 8: if you already filed a name change in the same county, give that case number. If you have not, file CV-450 (or CV-451) too.
+      es: |
+        - Puntos 1 a 4: tu dirección, condado, fecha de nacimiento y confirmación de que naciste y tu acta se emitió en Wisconsin.
+        - Puntos 5 y 6: el sexo actual en el acta y el que quieres (solo masculino o femenino).
+        - El punto 7 declara que el tribunal solo puede conceder la petición si tuviste un procedimiento quirúrgico de cambio de sexo. Prepárate para mostrar prueba (por ejemplo, una carta de tu cirujano con el procedimiento y la fecha).
+        - Punto 8: si ya presentaste un cambio de nombre en el mismo condado, da el número de caso. Si no, presenta también el CV-450 (o CV-451).
+    sources: [cv-452]
+  - id: CV-474
+    name:
+      en: Order on Petition for Gender Change on Wisconsin Birth Certificate
+      es: Orden sobre la petición de cambio de género en el acta de nacimiento de Wisconsin
+    url: https://www.wicourts.gov/formdisplay/CV-474.pdf?formNumber=CV-474&formType=Form&formatId=2&language=en
+    required: always
+    condition:
+      en: Fill in the top; the judge completes the findings (including the date of the procedure) and the decision.
+      es: Llena la parte superior; el juez completa las conclusiones (incluida la fecha del procedimiento) y la decisión.
+    sources: [cv-474]
+  - id: CV-410A
+    name:
+      en: Petition for Waiver of Fees and Costs, Declaration of Indigency
+      es: Petición de exención de tarifas y costos, declaración de indigencia
+    url: https://www.wicourts.gov/formdisplay/CV-410A.pdf?formNumber=CV-410A&formType=Form&formatId=2&language=en
+    required: optional
+    condition:
+      en: Only if you cannot afford the $164.50 court filing fee. It does not waive Vital Records fees.
+      es: Solo si no puedes pagar la tarifa judicial de $164.50. No exenta las tarifas de Registros Vitales.
+    sources: [mjc-gm-forms]
+  - id: F-05291
+    name:
+      en: Wisconsin Birth Certificate Application
+      es: Solicitud de acta de nacimiento de Wisconsin
+    url: https://www.dhs.wisconsin.gov/forms/f0/f05291.pdf
+    required: optional
+    condition:
+      en: Use to order certified copies of the corrected certificate, if you do not order them with the amendment.
+      es: Úsala para pedir copias certificadas del acta corregida, si no las pides con la enmienda.
+    sources: [f05291]
+steps:
+  - id: talk-to-provider
+    title:
+      en: Get documentation of your surgery
+      es: Consigue documentación de tu cirugía
+    body:
+      en: Ask your surgeon or physician for a signed letter naming the procedure and its date. The law does not define which surgery counts, so the judge decides; Trans Law Help Wisconsin can explain your options.
+      es: Pide a tu cirujano o médico una carta firmada que indique el procedimiento y su fecha. La ley no define qué cirugía cuenta, así que decide el juez; Trans Law Help Wisconsin puede explicarte tus opciones.
+    sources: [mjc-gm, wis-69-15]
+  - id: file-petition
+    title:
+      en: File CV-452 in the circuit court where you live
+      es: Presenta el CV-452 en el tribunal de circuito donde vives
+    body:
+      en: File CV-452 (and CV-474 if your clerk wants it prepared) with the clerk of circuit court and pay $164.50, or file CV-410A for a fee waiver. If you are also changing your name, file the name change petition too; the two can proceed in the same county.
+      es: Presenta el CV-452 (y el CV-474 si el secretario lo pide) ante el secretario del tribunal de circuito y paga $164.50, o presenta el CV-410A para pedir exención. Si también cambias de nombre, presenta esa petición; ambas pueden tramitarse en el mismo condado.
+    forms: [CV-452, CV-474, CV-410A]
+    fees: [court-filing]
+    sources: [cv-452, cv-474, wi-fee-table]
+  - id: hearing
+    title:
+      en: Attend the hearing and get certified copies of the order
+      es: Asiste a la audiencia y obtén copias certificadas de la orden
+    body:
+      en: The judge reviews your evidence and signs CV-474 granting or denying the petition. Ask the clerk for certified copies of the signed order.
+      es: El juez revisa tus pruebas y firma el CV-474 concediendo o negando la petición. Pide al secretario copias certificadas de la orden firmada.
+    forms: [CV-474]
+    sources: [cv-474]
+  - id: mail-vital-records
+    title:
+      en: Mail the certified order and fees to Wisconsin Vital Records
+      es: Envía la orden certificada y las tarifas a Registros Vitales de Wisconsin
+    body:
+      en: |
+        Mail a certified copy of the order with the $20 filing fee, plus $20 for the first certified copy of the new certificate and $3 for each extra copy, to: Wisconsin Vital Records, ATTN: PSSU, PO Box 309, Madison, WI 53701. Questions: dhsvitalrecords@wisconsin.gov.
+      es: |
+        Envía una copia certificada de la orden con la tarifa de $20, más $20 por la primera copia certificada del acta nueva y $3 por cada copia adicional, a: Wisconsin Vital Records, ATTN: PSSU, PO Box 309, Madison, WI 53701. Preguntas: dhsvitalrecords@wisconsin.gov.
+    fees: [sex-change-filing, first-copy, extra-copy]
+    applies_to: [by_mail]
+    sources: [dhs-amend]
+fees:
+  - id: court-filing
+    label:
+      en: Circuit court filing fee, petition to amend a vital record
+      es: Tarifa del tribunal de circuito, petición para enmendar un registro vital
+    amount: 164.5
+    waivable: true
+    sources: [wi-fee-table]
+  - id: sex-change-filing
+    label:
+      en: Vital Records fee to file a sex-change court order (no copy included)
+      es: Tarifa de Registros Vitales para registrar una orden judicial de cambio de sexo (sin copia)
+    amount: 20
+    waivable: false
+    sources: [dhs-amend]
+  - id: name-change-filing
+    label:
+      en: Vital Records fee to file a name change court order (no copy included)
+      es: Tarifa de Registros Vitales para registrar una orden de cambio de nombre (sin copia)
+    amount: 10
+    waivable: false
+    sources: [dhs-amend]
+  - id: first-copy
+    label:
+      en: First certified copy of the amended certificate
+      es: Primera copia certificada del acta enmendada
+    amount: 20
+    waivable: false
+    sources: [dhs-amend, f05291]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 3
+    waivable: false
+    sources: [dhs-amend, f05291]
+fee_waiver:
+  available: true
+  forms: [CV-410A]
+  eligibility:
+    en: The court filing fee can be waived for people receiving means-tested benefits (Medicaid/BadgerCare, FoodShare, SSI) or who otherwise cannot pay (Wis. Stat. § 814.29). Vital Records does not waive its fees; Trans Law Help Wisconsin's grant may help with court costs.
+    es: La tarifa judicial se puede exentar a personas que reciben beneficios basados en ingresos (Medicaid/BadgerCare, FoodShare, SSI) o que no pueden pagar (§ 814.29). Registros Vitales no exenta sus tarifas; la beca de Trans Law Help Wisconsin puede ayudar con costos judiciales.
+  sources: [mjc-gm-forms, dhs-amend, tlh-grant]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: The court step is in person (hearing). The Vital Records step is by mail to the state office in Madison.
+    es: El paso judicial es en persona (audiencia). El paso de Registros Vitales es por correo a la oficina estatal en Madison.
+  sources: [dhs-amend, cv-474]
+timeline:
+  en: Depends mostly on the court calendar (one hearing). Vital Records does not publish a processing time for amendments; ordinary copy requests take up to 2 weeks plus mail time.
+  es: Depende sobre todo del calendario del tribunal (una audiencia). Registros Vitales no publica un tiempo para enmiendas; las solicitudes de copias normales tardan hasta 2 semanas más el correo.
+after:
+  en: |
+    Use the new certificate with agencies that accept it. As of September 2026 the Social Security Administration and the State Department will **not** change the sex field based on it. The Wisconsin DMV does not need your birth certificate changed: a physician's note is enough for the license (see the driver's license guide). If you were born in another state, contact that state's vital records office.
+  es: |
+    Usa la nueva acta con las agencias que la aceptan. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** cambiarán el campo de sexo con base en ella. El DMV de Wisconsin no necesita que cambies tu acta: basta una nota médica para la licencia (ver la guía de licencia de conducir). Si naciste en otro estado, contacta la oficina de registros vitales de ese estado.
+tips:
+  - en: Order two or three copies ($3 each) with the amendment; extra copies later cost $20 for the first one again.
+    es: Pide dos o tres copias ($3 cada una) con la enmienda; pedirlas después cuesta otra vez $20 la primera.
+  - en: Follow the ACLU of Wisconsin lawsuit. If the court strikes down the surgery requirement, this guide will change.
+    es: Sigue la demanda de la ACLU de Wisconsin. Si el tribunal anula el requisito de cirugía, esta guía cambiará.
+statutes:
+  - cite: Wis. Stat. § 69.15(4)
+    title:
+      en: Name change; change of name and sex on a birth record by court order due to a surgical sex-change procedure
+    url: https://docs.legis.wisconsin.gov/document/statutes/69.15
+litigation:
+  - case: Trans Law Help Wisconsin, Inc. and Jaida Birch McGuire v. Gov. Tony Evers and DHS Secretary Kirsten Johnson (caption unconfirmed)
+    court: Dane County Circuit Court
+    summary:
+      en: Filed July 31, 2026 by the ACLU of Wisconsin and Willkie Farr & Gallagher. Argues that requiring an undefined "surgical sex-change procedure" (and disclosure of surgery) to change a birth certificate's sex marker violates the Wisconsin Constitution, including as applied to intersex people.
+      es: Presentada el 31 de julio de 2026 por la ACLU de Wisconsin y Willkie Farr & Gallagher. Sostiene que exigir un "procedimiento quirúrgico de cambio de sexo" no definido (y revelar la cirugía) para cambiar el marcador de sexo del acta viola la Constitución de Wisconsin, también para personas intersexuales.
+    effect_today:
+      en: None yet. The surgery requirement still applies while the case is pending.
+      es: Ninguno por ahora. El requisito de cirugía sigue vigente mientras el caso está pendiente.
+    last_update: "2026-08-24"
+    url: https://www.aclu-wi.org/cases/defending-trans-people-right-to-accurate-birth-certificates-versus-state-law/
+    sources: [aclu-case, tlh-news]
+related_links:
+  - title: Milwaukee Justice Center, gender marker change on a Wisconsin birth certificate
+    url: https://www.milwaukeejusticecenter.org/gendermarkerchange.html
+  - title: Advocates for Trans Equality, Wisconsin identity documents
+    url: https://transequality.org/documents/wisconsin-identity-documents
+    note:
+      en: No last-updated date shown.
+      es: Sin fecha de actualización.
+sources:
+  - id: wis-69-15
+    url: https://docs.legis.wisconsin.gov/document/statutes/69.15
+    title: Wis. Stat. § 69.15, Changing vital records
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      (b) Any person with a direct and tangible interest in a birth record registered in this state may petition a court
+      to change the name and sex of the registrant on the record due to a surgical sex-change procedure. ... (c) A court
+      may not order the state registrar to change any vital record due to a surgical sex-change procedure except as
+      provided under this subsection.
+  - id: dhs-amend
+    url: https://www.dhs.wisconsin.gov/vitalrecords/amendments.htm
+    title: Vital Records, Amending a vital record
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      To change the sex on a birth record, after a sex change, please mail the following: A certified copy of a court
+      order from the United States or Canada that orders the sex designation on the birth record to be changed. A $20
+      fee to file the court order. This does not include a certified copy of the new birth certificate. The first
+      certified copy is $20, and each extra copy is $3.
+  - id: cv-452
+    url: https://www.wicourts.gov/formdisplay/CV-452.pdf?formNumber=CV-452&formType=Form&formatId=2&language=en
+    title: CV-452, Petition for Gender Change on Wisconsin Birth Certificate (rev. 05/23)
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: I understand that, according to Wisconsin law, the court can only grant my request if I have undergone a surgical sex-change procedure.
+  - id: cv-474
+    url: https://www.wicourts.gov/formdisplay/CV-474.pdf?formNumber=CV-474&formType=Form&formatId=2&language=en
+    title: CV-474, Order on Petition for Gender Change on Wisconsin Birth Certificate (rev. 11/23)
+    publisher: Wisconsin Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: The petitioner underwent a surgical sex-change procedure on [Date].
+  - id: f05291
+    url: https://www.dhs.wisconsin.gov/forms/f0/f05291.pdf
+    title: F-05291, Wisconsin Birth Certificate Application (rev. 05/2026)
+    publisher: Wisconsin Department of Health Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: Requests for certified and uncertified copies of birth certificates may take up to 2 weeks plus mail time to complete.
+  - id: wi-fee-table
+    url: https://www.wicourts.gov/courts/circuit/docs/fees.pdf
+    title: Wisconsin circuit court fee tables (updated September 2, 2026)
+    publisher: Wisconsin Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Vital statistics amendments after one year ... name, sex change, birth record ... $164.50"
+  - id: mjc-gm
+    url: https://www.milwaukeejusticecenter.org/gendermarkerchange.html
+    title: Change a gender marker on a Wisconsin birth certificate
+    publisher: Milwaukee Justice Center (text from Trans Law Help Wisconsin)
+    kind: org
+    accessed: "2026-09-24"
+    quote: Wisconsin requires either an F or M gender marker on birth certificates. There is no gender neutral or X option.
+  - id: mjc-gm-forms
+    url: https://www.milwaukeejusticecenter.org/gender-marker-change-forms.html
+    title: Gender marker change forms
+    publisher: Milwaukee Justice Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: tlh-grant
+    url: https://www.translawhelp.com/grant
+    title: Emma Katherine Court Cost + Publication Fee Grant
+    publisher: Trans Law Help Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-case
+    url: https://www.aclu-wi.org/cases/defending-trans-people-right-to-accurate-birth-certificates-versus-state-law/
+    title: Accurate Birth Certificates for Trans and Intersex Wisconsinites
+    publisher: ACLU of Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Filed: Jul 31, 2026 ... seeking to overturn a provision in state law that denies transgender people the right to change the sex markers on their birth certificates unless they first undergo a surgical sex procedure."
+  - id: tlh-news
+    url: https://www.translawhelp.com/news/trans-law-help-wi-challenges-wisconsin-birth-certificate-law
+    title: Trans Law Help WI challenges Wisconsin birth certificate law (August 24, 2026)
+    publisher: Trans Law Help Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: The lawsuit is now pending in Dane County Circuit Court in front of Judge Stephen Ehlke.

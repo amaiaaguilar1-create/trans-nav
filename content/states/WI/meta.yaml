@@ -1,0 +1,141 @@
+code: WI
+name:
+  en: Wisconsin
+  es: Wisconsin
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are an editorial judgment drawn from the guide files. id_documents is "mixed" because the driver's
+    license marker can be changed with a physician's note, but the birth certificate requires a court order based on a
+    "surgical sex-change procedure" (Wis. Stat. 69.15(4)(b)), which is being challenged in Dane County Circuit Court (filed
+    July 31, 2026). care is "mixed" because care is legal for all ages and Medicaid must cover it under a federal
+    injunction (Flack, 2019), but Wisconsin has no statutory shield law and no state insurance nondiscrimination law, and
+    the Legislature passed a ban on minors' care (AB 104) that was vetoed on March 31, 2026. Reviewer: confirm there is no
+    shield law or executive order that should set shield_law to true.
+overview:
+  en: >-
+    Wisconsin sits in the middle. Adults and minors can legally get gender-affirming care, and Wisconsin Medicaid
+    (BadgerCare Plus) must cover hormones and surgery under a 2019 federal court order. Bills to ban care for minors
+    passed the Legislature and were vetoed by the governor in 2023 and again in March 2026. Documents are harder: a name
+    change normally requires a newspaper notice unless you convince a judge that publication could endanger you, the
+    driver's license needs a physician's note or a court order, and the birth certificate can be changed only with a
+    court order tied to surgery (a lawsuit filed in July 2026 challenges that rule).
+  es: >-
+    Wisconsin está en un punto intermedio. Adultos y menores pueden recibir legalmente atención de afirmación de género,
+    y Medicaid de Wisconsin (BadgerCare Plus) debe cubrir hormonas y cirugía por una orden judicial federal de 2019. Los
+    proyectos de ley para prohibir la atención a menores fueron aprobados por la Legislatura y vetados por el gobernador
+    en 2023 y de nuevo en marzo de 2026. Los documentos son más difíciles: un cambio de nombre normalmente requiere un
+    aviso en el periódico a menos que convenzas a un juez de que la publicación podría ponerte en peligro, la licencia
+    de conducir requiere una nota de un médico o una orden judicial, y el acta de nacimiento solo se puede cambiar con
+    una orden judicial ligada a una cirugía (una demanda presentada en julio de 2026 impugna esa regla).
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [wis-69-15, dmv-duplicate, dhs-107-03, veto-ab104]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [milwaukee, madison]
+key_resources:
+  - id: trans-law-help-wi
+    name: Trans Law Help Wisconsin
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Statewide nonprofit that explains Wisconsin's name and sex marker change process. Free quarterly Zoom clinics and
+        in-person clinics in Milwaukee and Madison where volunteers help you fill out court forms, a legal guide, and the
+        Emma Katherine grant for court and newspaper publication fees.
+      es: >-
+        Organización sin fines de lucro estatal que explica el proceso de cambio de nombre y marcador de sexo en
+        Wisconsin. Clínicas gratuitas trimestrales por Zoom y clínicas presenciales en Milwaukee y Madison donde
+        voluntarios te ayudan a llenar los formularios del tribunal, una guía legal y la beca Emma Katherine para tarifas
+        judiciales y de publicación en el periódico.
+    url: https://www.translawhelp.com/
+    cost: free
+    verification: org_website
+    sources: [tlh]
+  - id: diverse-resilient
+    name: Diverse & Resilient
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: >-
+        Milwaukee-based statewide LGBTQ health and anti-violence organization. Room to Be Safe serves LGBTQ survivors of
+        violence; free HIV and STI testing at 2439 N Holton St, Milwaukee (414-390-0444 ext. 4).
+      es: >-
+        Organización estatal de salud LGBTQ y contra la violencia con sede en Milwaukee. Room to Be Safe atiende a
+        sobrevivientes LGBTQ de violencia; pruebas gratuitas de VIH e ITS en 2439 N Holton St, Milwaukee (414-390-0444
+        ext. 4).
+    url: https://www.diverseandresilient.org/
+    phone: "414-390-0444"
+    cost: free
+    verification: org_website
+    sources: [dr]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: wis-69-15
+    url: https://docs.legis.wisconsin.gov/document/statutes/69.15
+    title: Wis. Stat. § 69.15, Changing vital records
+    publisher: Wisconsin State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Any person with a direct and tangible interest in a birth record registered in this state may petition a court to
+      change the name and sex of the registrant on the record due to a surgical sex-change procedure.
+  - id: dmv-duplicate
+    url: https://wisconsindot.gov/Pages/dmv/license-drvs/lst-or-stoln/duplicate-id.aspx
+    title: Replace (get duplicate) ID, driver license or instruction permit
+    publisher: Wisconsin Department of Transportation, DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: "gender (must show proof by court order or physician's note)"
+  - id: dhs-107-03
+    url: https://docs.legis.wisconsin.gov/document/administrativecode/DHS%20107.03
+    title: Wis. Admin. Code DHS 107.03, Services not covered (with Flack note)
+    publisher: Wisconsin State Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: >-
+      In Flack v. Wisconsin Dep't of Health Servs, 395 F. Supp. 3d 1001 (W.D. Wis. 2019) ... The court in Flack
+      permanently enjoined the department from enforcing those provisions.
+  - id: veto-ab104
+    url: https://docs.legis.wisconsin.gov/document/vetomessages/2025/AB104.pdf
+    title: Governor's veto message, Assembly Bill 104 (March 31, 2026)
+    publisher: Wisconsin State Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: I am vetoing Assembly Bill 104 in its entirety.
+  - id: tlh
+    url: https://www.translawhelp.com/
+    title: Trans Law Help Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+  - id: dr
+    url: https://www.diverseandresilient.org/work/sexual-health/hiv-ctr/testing-information
+    title: HIV and STI testing information
+    publisher: Diverse & Resilient
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,199 @@
+jurisdiction: WI
+slug: madison
+name: Madison
+area:
+  en: Dane County
+  es: Condado de Dane
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Short starter list from org websites on 2026-09-24. The Dane County Circuit Court site loaded but its name change
+    page and clerk's filing location were not checked; the filing fee is the statewide $164.50. UW Health's pages render
+    only with JavaScript, so its services and age policies are unverified. OutReach announced a move ("The Big Move") on
+    its home page; the address below is the one shown on 2026-09-24 and should be rechecked. Trans Law Help's Madison
+    in-person clinic is listed as "TBD November 2026".
+intro:
+  en: >-
+    Madison has the OutReach LGBTQ+ Community Center with a dedicated transgender advocate, a public health sexual health
+    clinic with sliding-scale fees, Vivent Health for PrEP and HIV care, and the University of Wisconsin health system.
+    Name change petitions are filed with the Dane County Clerk of Circuit Court.
+  es: >-
+    Madison cuenta con el OutReach LGBTQ+ Community Center con un defensor trans dedicado, una clínica de salud sexual de
+    salud pública con tarifas en escala móvil, Vivent Health para PrEP y atención de VIH, y el sistema de salud de la
+    Universidad de Wisconsin. Las peticiones de cambio de nombre se presentan ante el secretario del Tribunal de Circuito
+    del Condado de Dane.
+court:
+  name: Dane County Circuit Court (Clerk of Circuit Court)
+  url: https://courts.countyofdane.com/
+  self_help_url: https://www.wicourts.gov/services/public/selfhelp/namechange.htm
+  filing_fee: 164.5
+  notes:
+    en: Use the statewide forms (CV-450, or CV-451 for a confidential change). Ask the clerk whether you need to prepare the notice and order yourself.
+    es: Usa los formularios estatales (CV-450, o CV-451 para un cambio confidencial). Pregunta al secretario si debes preparar el aviso y la orden.
+  sources: [dane-courts, wicourts-namechange, wi-fee-table]
+resources:
+  - id: outreach
+    name: OutReach LGBTQ+ Community Center
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Madison's LGBTQ+ center, with a Transgender Advocate, resources and referrals, the Madison Area Transgender Association (M.A.T.A.), support groups, and the EverStrong drop-in center. Open Tuesday to Friday, noon to 6 pm.
+      es: Centro LGBTQ+ de Madison, con un defensor trans, recursos y referencias, la Madison Area Transgender Association (M.A.T.A.), grupos de apoyo y el centro EverStrong. Abierto de martes a viernes, de mediodía a 6 pm.
+    url: https://www.outreachmadisonlgbt.org/transgender-services
+    phone: "608-255-8582"
+    address: 2701 International Lane, Suite 101, Madison, WI 53704
+    cost: free
+    verification: org_website
+    sources: [outreach-trans, outreach-home]
+  - id: trans-law-help-madison
+    name: Trans Law Help Wisconsin
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Madison-based nonprofit with free quarterly Zoom clinics on name and sex marker changes, a Madison in-person clinic planned for November 2026, and a grant for court and publication fees.
+      es: Organización con sede en Madison con clínicas gratuitas trimestrales por Zoom sobre cambios de nombre y marcador de sexo, una clínica presencial en Madison prevista para noviembre de 2026 y una beca para tarifas judiciales y de publicación.
+    url: https://www.translawhelp.com/legal-clinic
+    cost: free
+    verification: org_website
+    sources: [tlh-clinic]
+  - id: phmdc-sexual-health
+    name: Public Health Madison & Dane County, Sexual Health Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Testing and treatment for chlamydia, gonorrhea, syphilis, HIV, and more, plus birth control, free or low cost on a sliding scale. Free condoms and emergency contraception without an appointment.
+      es: Pruebas y tratamiento de clamidia, gonorrea, sífilis, VIH y más, además de anticonceptivos, gratis o a bajo costo en escala móvil. Condones y anticoncepción de emergencia gratis sin cita.
+    url: https://www.publichealthmdc.com/health-services/sexual-health
+    address: 2705 E. Washington Ave, 2nd floor, Madison, WI 53704
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [phmdc]
+  - id: vivent-madison
+    name: Vivent Health Madison
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP, PEP, HIV testing and care, primary care, and behavioral health.
+      es: PrEP, PEP, pruebas y atención de VIH, atención primaria y salud conductual.
+    url: https://viventhealth.org/locations/
+    phone: "608-252-6540"
+    address: 600 Williamson St, Suite H, Madison, WI 53703
+    cost: varies
+    verification: org_website
+    sources: [vivent-locations]
+  - id: uw-health-gender
+    name: UW Health gender-affirming services and PATH clinic
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: University of Wisconsin health system gender-affirming care for adults, and the Pediatric and Adolescent Transgender Health (PATH) clinic. Services and age policies could not be confirmed; call first.
+      es: Atención de afirmación de género del sistema de salud de la Universidad de Wisconsin para adultos, y la clínica PATH para niños y adolescentes. No se pudieron confirmar los servicios; llama primero.
+    url: https://www.uwhealth.org/services/gender-services
+    cost: insurance
+    verification: unverified
+    sources: [uw-health, dhs-trans]
+  - id: pp-wi-madison
+    org: planned-parenthood
+    name: Planned Parenthood of Wisconsin, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for adults 18 and older, by telehealth or in person.
+      es: Terapia hormonal por consentimiento informado para mayores de 18 años, por telesalud o en persona.
+    url: https://www.plannedparenthood.org/planned-parenthood-wisconsin/patients/gender-affirming-care
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-wi]
+  - id: trans-lifeline-madison
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: dane-courts
+    url: https://courts.countyofdane.com/
+    title: Dane County Circuit Court
+    publisher: Dane County
+    kind: official
+    accessed: "2026-09-24"
+  - id: wicourts-namechange
+    url: https://www.wicourts.gov/services/public/selfhelp/namechange.htm
+    title: Name change (Self-help law center)
+    publisher: Wisconsin Court System
+    kind: official
+    accessed: "2026-09-24"
+  - id: wi-fee-table
+    url: https://www.wicourts.gov/courts/circuit/docs/fees.pdf
+    title: Wisconsin circuit court fee tables (updated September 2, 2026)
+    publisher: Wisconsin Court System
+    kind: official
+    accessed: "2026-09-24"
+  - id: outreach-trans
+    url: https://www.outreachmadisonlgbt.org/transgender-services
+    title: Transgender services
+    publisher: OutReach LGBTQ+ Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: outreach-home
+    url: https://www.outreachmadisonlgbt.org/
+    title: OutReach LGBTQ+ Community Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: "2701 International Lane Ste 101 Madison WI 53704 ... Phone: 608-255-8582"
+  - id: tlh-clinic
+    url: https://www.translawhelp.com/legal-clinic
+    title: Upcoming clinics 2026-2027
+    publisher: Trans Law Help Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+    quote: Madison In-Person Clinic TBD NOVEMBER 2026
+  - id: phmdc
+    url: https://www.publichealthmdc.com/health-services/sexual-health
+    title: Sexual health
+    publisher: Public Health Madison & Dane County
+    kind: official
+    accessed: "2026-09-24"
+  - id: vivent-locations
+    url: https://viventhealth.org/locations/
+    title: Locations
+    publisher: Vivent Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: uw-health
+    url: https://www.uwhealth.org/services/gender-services
+    title: Gender-affirming treatment and services
+    publisher: UW Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: dhs-trans
+    url: https://www.dhs.wisconsin.gov/lgbthealth/transgender.htm
+    title: LGBTQ+ Health, Transgender and nonbinary health
+    publisher: Wisconsin Department of Health Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-wi
+    url: https://www.plannedparenthood.org/planned-parenthood-wisconsin/patients/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood of Wisconsin
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
