@@ -1,0 +1,270 @@
+guide_type: birth_certificate
+jurisdiction: OK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Prohibition confirmed from primary sources on 2026-09-24: 63 O.S. 1-321(H) on OSCN (as amended by HB 1225, signed
+    May 7, 2026, emergency effective) and the enrolled text of HB 1225. Litigation status of Fowler v. Stitt read from
+    the Tenth Circuit docket (No. 23-5080) via CourtListener: April 16, 2026 order certifying questions to the Oklahoma
+    Supreme Court and abating the appeal (answer due January 11, 2027); July 15, 2026 joint status report (supplemental
+    briefing on HB 1225 due July 17, 2026). The Oklahoma Supreme Court's own docket number for the certified questions
+    was not found. NOT CONFIRMED: (1) whether OSDH has voided or is refusing to reissue certificates amended before
+    November 2021; HB 1225 calls itself a clarification of existing law but contains no voiding language, and A4TE asks
+    people facing revocation to contact it; (2) name-change fee. The OSDH birth certificate request form (May 2025)
+    lists a $40 one-time fee for "amendment" requests including one certified copy, and $15 per additional copy; A4TE
+    also says $40. A4TE also says a name amendment requires "completion of an Administrative Hearing"; OSDH's own
+    amendments page (read 2026-09-24) says administrative or court orders are needed for minor corrections under HB
+    1688 (2025), and that name changes need a District Court order, so this guide follows OSDH. Processing time (7 to
+    10 business days) is from the request form. The November 2021 date of the governor's executive order (EO 2021-24) is from background knowledge and the task brief; the Tenth Circuit order confirms an executive order but was not checked for its date. SB 1100 (2022) bill page read on oklegislature.gov.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Oklahoma law does not allow changing the sex on an Oklahoma birth certificate to reflect gender identity, and
+    nonbinary or X markers are banned. A federal lawsuit (Fowler v. Stitt) is on hold while the Oklahoma Supreme Court
+    answers questions about state law. You can update your **name** by mailing a certified court order and $40.
+  es: >-
+    La ley de Oklahoma no permite cambiar el sexo en un acta de nacimiento de Oklahoma para reflejar la identidad de
+    género, y prohíbe los marcadores no binarios o X. Una demanda federal (Fowler v. Stitt) está en pausa mientras la
+    Corte Suprema de Oklahoma responde preguntas de ley estatal. Puedes actualizar tu **nombre** enviando por correo
+    una orden judicial certificada y $40.
+summary:
+  en: |
+    For about a decade the Oklahoma State Department of Health (OSDH) amended the sex on birth certificates when given a court order. In November 2021, Governor Stitt issued an executive order directing OSDH to stop. In 2022, **SB 1100** banned nonbinary and "X" markers. In May 2026, **HB 1225** rewrote 63 O.S. § 1-321(H): every amended birth certificate must show "an accurate biological sex designation of either male or female, as identified at the time of birth," and the sex "shall not be amended to display gender identity." A court order recognizing your gender will not change this.
+
+    **Litigation.** Three trans Oklahomans sued in **Fowler v. Stitt**. The Tenth Circuit ruled for them in 2024, but the US Supreme Court vacated that ruling in June 2025 after *United States v. Skrmetti*. On April 16, 2026 the Tenth Circuit asked the Oklahoma Supreme Court whether state law itself forbids sex changes on birth certificates, and paused the case. Until that answer and any later ruling, no changes are being made.
+
+    You **can** change the **name**. Under § 1-321(C), OSDH must amend your certificate to show a new name when you send a certified copy of the court order. The certificate is marked "amended."
+
+    This guide applies only to people **born in Oklahoma**. If you were born in another state, that state's rules control your birth certificate, even if you live in Oklahoma.
+  es: |
+    Durante una década el Departamento de Salud del Estado de Oklahoma (OSDH) cambió el sexo en actas de nacimiento con una orden judicial. En noviembre de 2021, el gobernador Stitt ordenó a OSDH que dejara de hacerlo. En 2022, **SB 1100** prohibió los marcadores no binarios y "X". En mayo de 2026, **HB 1225** reescribió 63 O.S. § 1-321(H): toda acta enmendada debe mostrar "una designación precisa de sexo biológico, masculino o femenino, identificado al nacer", y el sexo "no se enmendará para mostrar la identidad de género". Una orden judicial que reconozca tu género no cambia esto.
+
+    **Litigio.** Tres personas trans de Oklahoma demandaron en **Fowler v. Stitt**. El Décimo Circuito falló a su favor en 2024, pero la Corte Suprema de EE. UU. anuló ese fallo en junio de 2025 tras *United States v. Skrmetti*. El 16 de abril de 2026 el Décimo Circuito preguntó a la Corte Suprema de Oklahoma si la ley estatal prohíbe por sí misma los cambios de sexo en actas, y pausó el caso. Mientras tanto, no se hacen cambios.
+
+    Sí **puedes** cambiar el **nombre**. Según el § 1-321(C), OSDH debe enmendar tu acta para mostrar el nuevo nombre cuando envías una copia certificada de la orden judicial. El acta queda marcada como "enmendada".
+
+    Esta guía aplica solo a personas **nacidas en Oklahoma**. Si naciste en otro estado, las reglas de ese estado controlan tu acta, aunque vivas en Oklahoma.
+eligibility:
+  residency:
+    en: You must have been born in Oklahoma. Where you live now does not matter; OSDH accepts name change orders from courts in other states.
+    es: Debes haber nacido en Oklahoma. No importa dónde vivas ahora; OSDH acepta órdenes de cambio de nombre de tribunales de otros estados.
+  other:
+    en: The person named on the certificate, or a parent, guardian, or legal representative, may request the name amendment.
+    es: La persona nombrada en el acta, o su padre, madre, tutor o representante legal, puede pedir la enmienda de nombre.
+  sources: [os-1-321, hb1225, sb1100, fowler-cert, a4te-ok]
+forms:
+  - id: ODH 18008VR
+    name:
+      en: Birth Certificate Request Form
+      es: Formulario de solicitud de acta de nacimiento
+    url: https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/vital-records/forms/18008vr-vr-birth-application-eng-eform.pdf
+    url_es: https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/vital-records/forms/18009vr-vr-birth-application-spa-eform.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Step 1**: enter your name exactly as it appears on the birth certificate now. The sex box offers only Male or Female.
+        - **Step 3**: select the line "Delayed registration, amendment, paternity, adoption, or legitimation requests" ($40, includes one certified copy). Add $15 for each extra copy.
+        - Attach a photocopy of your photo ID and the **certified** court order.
+        - Make checks payable to "OSDH VR". Do not send cash.
+      es: |
+        - **Paso 1**: escribe tu nombre tal como aparece hoy en el acta. La casilla de sexo solo ofrece masculino o femenino.
+        - **Paso 3**: marca la línea de "enmienda" ($40, incluye una copia certificada). Agrega $15 por cada copia adicional.
+        - Adjunta una fotocopia de tu identificación y la orden judicial **certificada**.
+        - Cheques a nombre de "OSDH VR". No envíes efectivo.
+    sources: [osdh-form]
+steps:
+  - id: court-order
+    title:
+      en: Get a court order changing your name
+      es: Obtén una orden judicial de cambio de nombre
+    body:
+      en: See the name change guide. You need a **certified** copy of the order from the court clerk.
+      es: Consulta la guía de cambio de nombre. Necesitas una copia **certificada** de la orden del secretario del tribunal.
+    applies_to: [name_change]
+    sources: [os-1-321, osdh-amend]
+  - id: mail
+    title:
+      en: Mail the form, order, ID copy, and fee to Vital Records
+      es: Envía el formulario, la orden, la copia de tu identificación y la tarifa a Estadísticas Vitales
+    body:
+      en: |
+        Send the completed request form, a certified copy of the court order, a photocopy of your photo ID, and **$40** (plus $15 per extra copy) to:
+
+        Vital Records, Oklahoma State Department of Health, P.O. Box 248964, Oklahoma City, OK 73124-8964.
+
+        Questions: (405) 426-8880.
+      es: |
+        Envía el formulario completo, una copia certificada de la orden judicial, una fotocopia de tu identificación y **$40** (más $15 por copia adicional) a:
+
+        Vital Records, Oklahoma State Department of Health, P.O. Box 248964, Oklahoma City, OK 73124-8964.
+
+        Preguntas: (405) 426-8880.
+    forms: [ODH 18008VR]
+    fees: [amendment, copy]
+    applies_to: [name_change, by_mail]
+    sources: [osdh-form, osdh-amend]
+  - id: wait
+    title:
+      en: Wait about 1 to 2 weeks
+      es: Espera de 1 a 2 semanas
+    body:
+      en: The request form lists processing times of 7 to 10 business days, plus mail time.
+      es: El formulario indica un procesamiento de 7 a 10 días hábiles, más el tiempo de correo.
+    estimated_time:
+      en: 7 to 10 business days plus mailing
+      es: 7 a 10 días hábiles más envío
+    sources: [osdh-form]
+fees:
+  - id: amendment
+    label:
+      en: Amendment (one-time fee, includes one certified copy)
+      es: Enmienda (tarifa única, incluye una copia certificada)
+    amount: 40
+    sources: [osdh-form]
+  - id: copy
+    label:
+      en: Each additional certified copy
+      es: Cada copia certificada adicional
+    amount: 15
+    sources: [osdh-form]
+fee_waiver:
+  available: false
+  eligibility:
+    en: OSDH does not list a fee waiver for amendments.
+    es: OSDH no ofrece exención de tarifas para enmiendas.
+  sources: [osdh-form]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: By law every amended certificate is marked "amended" and shows the date and a summary of the evidence. The original is not sealed for a name change.
+    es: Por ley toda acta enmendada se marca como "enmendada" y muestra la fecha y un resumen de la prueba. El original no se sella por un cambio de nombre.
+  sources: [os-1-321, osdh-amend, a4te-ok]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Amendments are submitted by mail. Online ordering through VitalChek is for copies, not amendments.
+    es: Las enmiendas se envían por correo. El pedido en línea por VitalChek es para copias, no para enmiendas.
+  sources: [osdh-form, osdh-faq]
+timeline:
+  en: About 7 to 10 business days after Vital Records receives a complete request, plus mail time.
+  es: Unos 7 a 10 días hábiles después de que Estadísticas Vitales reciba la solicitud completa, más el correo.
+after:
+  en: |
+    Your Oklahoma birth certificate will show your new name, marked "amended," and the sex recorded at birth. You can still use it together with your court order as proof of name for Social Security, a US passport, and your license. If you were born in Oklahoma and now live in a state that recognizes gender, that state cannot change your Oklahoma certificate, but its own IDs may follow its own rules.
+  es: |
+    Tu acta de Oklahoma mostrará tu nuevo nombre, marcada como "enmendada", y el sexo registrado al nacer. Puedes usarla junto con tu orden judicial como prueba de nombre para el Seguro Social, el pasaporte y tu licencia. Si naciste en Oklahoma y ahora vives en un estado que reconoce el género, ese estado no puede cambiar tu acta de Oklahoma, pero sus propias identificaciones pueden seguir sus propias reglas.
+tips:
+  - en: If your certificate was amended to show a different sex before 2021 and you receive a notice about it, contact A4TE (documents@transequality.org) or ACLU of Oklahoma (intake@acluok.org) before responding.
+    es: Si tu acta fue enmendada para mostrar otro sexo antes de 2021 y recibes un aviso al respecto, comunícate con A4TE o ACLU of Oklahoma antes de responder.
+statutes:
+  - cite: 63 O.S. § 1-321
+    title:
+      en: Amendment of certificate or record (subsections C and H)
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=98034
+  - cite: HB 1225 (2026)
+    title:
+      en: Birth certificates must show biological sex at birth
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB1225%20ENR.PDF
+  - cite: SB 1100 (2022)
+    title:
+      en: Bans nonbinary designation on birth certificates
+    url: https://oklegislature.gov/BillInfo.aspx?Bill=SB1100&Session=2200
+litigation:
+  - case: Fowler v. Stitt, No. 23-5080
+    court: US Court of Appeals for the Tenth Circuit (question certified to the Oklahoma Supreme Court)
+    summary:
+      en: >-
+        Three transgender people born in Oklahoma challenge OSDH's refusal to amend the sex on their birth
+        certificates. The Tenth Circuit held in June 2024 that the policy likely violates equal protection; the US
+        Supreme Court vacated that decision on June 30, 2025 for reconsideration after United States v. Skrmetti. On
+        April 16, 2026 the Tenth Circuit certified questions to the Oklahoma Supreme Court about whether Oklahoma law
+        has always barred such changes, and abated the appeal. The parties briefed the effect of HB 1225 in June and
+        July 2026.
+      es: >-
+        Tres personas trans nacidas en Oklahoma impugnan la negativa de OSDH a enmendar el sexo en sus actas. El
+        Décimo Circuito decidió en junio de 2024 que la política probablemente viola la igualdad ante la ley; la Corte
+        Suprema de EE. UU. anuló esa decisión el 30 de junio de 2025 para reconsiderarla tras United States v.
+        Skrmetti. El 16 de abril de 2026 el Décimo Circuito envió preguntas a la Corte Suprema de Oklahoma y pausó la
+        apelación.
+    effect_today:
+      en: No sex marker changes are available while the case is pending. The Oklahoma Supreme Court's answer was requested by January 11, 2027.
+      es: No hay cambios de marcador de sexo mientras el caso sigue pendiente. Se pidió la respuesta de la Corte Suprema de Oklahoma para el 11 de enero de 2027.
+    last_update: "2026-07-15"
+    url: https://www.courtlistener.com/docket/67661338/fowler-v-stitt/
+    sources: [fowler-cert, fowler-status]
+related_links:
+  - title: Advocates for Trans Equality, Oklahoma identity documents
+    url: https://transequality.org/documents/oklahoma-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Última actualización enero de 2026.
+sources:
+  - id: os-1-321
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=98034
+    title: 63 O.S. 1-321, Amendment of certificate or record
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The biological sex designation shall not be amended to display gender identity, a nonbinary designation, or any symbol representing a nonbinary designation including, but not limited to, the letter X.
+  - id: hb1225
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB1225%20ENR.PDF
+    title: Enrolled House Bill 1225 (2026)
+    publisher: Oklahoma Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Legislature finds and declares that it is enacting the following statutory changes to clarify existing law, as opposed to altering its substance
+  - id: sb1100
+    url: https://oklegislature.gov/BillInfo.aspx?Bill=SB1100&Session=2200
+    title: SB 1100 (2022) bill information
+    publisher: Oklahoma Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: osdh-form
+    url: https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/vital-records/forms/18008vr-vr-birth-application-eng-eform.pdf
+    title: Birth Certificate Request Form (May 2025)
+    publisher: Oklahoma State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: Delayed registration, amendment, paternity, adoption, or legitimation requests only (one-time initial fee and includes one certified copy) $40.00
+  - id: osdh-amend
+    url: https://oklahoma.gov/health/services/birth-and-death-certificates/amendments.html
+    title: Amending an Oklahoma Birth or Death Record
+    publisher: Oklahoma State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: By law, all amended records are marked Amended.
+  - id: osdh-faq
+    url: https://oklahoma.gov/health/services/birth-and-death-certificates/faqs.html
+    title: Vital Records FAQs
+    publisher: Oklahoma State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-ok
+    url: https://transequality.org/documents/oklahoma-identity-documents
+    title: Oklahoma Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Oklahoma Vital Records Office will accept a certified copy of an order for name change signed by a court from your current state of residence.
+  - id: fowler-cert
+    url: https://storage.courtlistener.com/recap/gov.uscourts.ca10.86862/gov.uscourts.ca10.86862.140.1.pdf
+    title: Fowler v. Stitt, Order certifying questions of state law to the Supreme Court of Oklahoma (10th Cir. Apr. 16, 2026)
+    publisher: US Court of Appeals for the Tenth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: Defendants argued that Okla. Stat. tit. 63, § 1-321 has always prohibited and continues to prohibit changes to the designation of sex on an Oklahoma birth certificate.
+  - id: fowler-status
+    url: https://storage.courtlistener.com/recap/gov.uscourts.ca10.86862/gov.uscourts.ca10.86862.143.0.pdf
+    title: Fowler v. Stitt, Joint status report (10th Cir. July 15, 2026)
+    publisher: US Court of Appeals for the Tenth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: On June 26, 2026, Plaintiffs and Defendants each filed opening briefs addressing the impact of H.B. 1225 on the certified questions.

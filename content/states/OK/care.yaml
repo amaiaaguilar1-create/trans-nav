@@ -1,0 +1,347 @@
+jurisdiction: OK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes read on OSCN 2026-09-24: 63 O.S. 2607.1 (SB 613, 2023) and 63 O.S. 1-800 (SB 904, 2026, emergency
+    effective May 12, 2026); SB 904 bill history read on oklegislature.gov. Poe v. Drummond: Tenth Circuit opinion
+    (Aug. 6, 2025) affirmed denial of a preliminary injunction; the district court docket shows plaintiffs voluntarily
+    dismissed the case on Aug. 29, 2025 (CourtListener). No lawsuit challenging SB 904 was found in CourtListener
+    searches of Oklahoma federal courts. The effect of SB 904 on OU Health, OSU Medical Center, and incarcerated people
+    is Freedom Oklahoma's description; hospital pages were not checked. Providers: Planned Parenthood Great Plains
+    (18+, no therapy letter) read on its own page; Diversity Family Health and OKEQ Health Clinic read on their own
+    pages (neither says "informed consent" explicitly; Diversity Family Health says it works with mental health
+    providers in a "team approach", so a letter may be requested). Variety Care is listed for PrEP and sliding-fee
+    primary care only; whether it prescribes hormones was not confirmed. FOLX, QueerMed, and TrueU are named by
+    Freedom Oklahoma as telehealth options, but FOLX's own state list (content/orgs/folx.yaml) does not include
+    Oklahoma and QueerMed's site did not confirm Oklahoma, so only Plume and Planned Parenthood are listed in
+    telehealth_hrt. The Oklahoma Insurance Department site blocks automated requests; its complaint URL came from
+    WebFetch of the home page. No Oklahoma statute requiring private insurers to cover gender-affirming care was found;
+    MAP rates Oklahoma 0 on private insurance nondiscrimination.
+status_summary:
+  en: >-
+    Adults in Oklahoma can still legally get hormone therapy from private clinics, Planned Parenthood, and telehealth.
+    Since May 12, 2026, SoonerCare (Medicaid) may not cover hormones, puberty blockers, or surgery for gender transition
+    at any age, public funds may not pay for it, and state-owned facilities (such as OU Health) may not provide it.
+    Providing this care to anyone under 18 has been a felony since May 1, 2023, and a federal appeals court let that ban
+    stand in 2025. Oklahoma has no shield law.
+  es: >-
+    Los adultos en Oklahoma todavía pueden obtener legalmente terapia hormonal en clínicas privadas, Planned
+    Parenthood y telesalud. Desde el 12 de mayo de 2026, SoonerCare (Medicaid) no puede cubrir hormonas, bloqueadores
+    de pubertad ni cirugía de transición a ninguna edad, los fondos públicos no pueden pagarla y las instalaciones
+    estatales (como OU Health) no pueden proveerla. Dar esta atención a menores de 18 años es un delito grave desde el
+    1 de mayo de 2023, y un tribunal federal de apelaciones dejó vigente esa prohibición en 2025. Oklahoma no tiene
+    ley escudo.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Hormone therapy is **legal for adults 18 and older**, but **SB 904** (63 O.S. § 1-800, effective May 12, 2026) limits who can pay for and provide it, at any age:
+      - **SoonerCare will not pay** for puberty blockers, hormones, or surgery for gender transition.
+      - **No public funds** may be paid to any person or organization to provide or subsidize this care.
+      - **No state property, facility, or building** may be used to provide it. Freedom Oklahoma reports this ended care at state facilities such as OU Health and OSU Medical Center and for people in state prisons.
+      - State officers or employees who intentionally violate the law can be charged with a misdemeanor.
+      - Mental health counseling is not affected.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. **Planned Parenthood Great Plains** prescribes hormones to patients **18 and older** at its Oklahoma health centers (Oklahoma City, Edmond, Tulsa) with **no therapy requirement**, in person or by telehealth. Financial counselors help uninsured patients. Call 1-800-230-7526.
+      2. **Diversity Family Health** (Oklahoma City, Norman, Tulsa) and the **OKEQ Health Clinic** (Tulsa) are private LGBTQ+ clinics that offer hormone therapy and self-pay options.
+      3. **Telehealth**: Plume serves Oklahoma. Point of Pride's HRT Access Fund pays for 18 months of telehealth hormone care through partner providers.
+      4. For the medications themselves, generic estradiol and spironolactone are inexpensive with a pharmacy discount coupon; compare cash prices for testosterone.
+
+      If you were getting care through SoonerCare or a state facility and it stopped, move your prescription to a private provider as soon as possible so you do not run out.
+    es: |
+      La terapia hormonal es **legal para adultos de 18 años o más**, pero **SB 904** (63 O.S. § 1-800, vigente desde el 12 de mayo de 2026) limita quién puede pagarla y proveerla, a cualquier edad:
+      - **SoonerCare no pagará** bloqueadores de pubertad, hormonas ni cirugía de transición.
+      - **Ningún fondo público** puede pagarse a una persona u organización para proveer o subsidiar esta atención.
+      - **Ninguna propiedad, instalación o edificio estatal** puede usarse para proveerla. Freedom Oklahoma informa que esto terminó la atención en instalaciones estatales como OU Health y OSU Medical Center y para personas en prisiones estatales.
+      - Los funcionarios o empleados estatales que violen la ley a propósito pueden ser acusados de un delito menor.
+      - La consejería de salud mental no se ve afectada.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. **Planned Parenthood Great Plains** receta hormonas a pacientes de **18 años o más** en sus centros de Oklahoma (Oklahoma City, Edmond, Tulsa) **sin requisito de terapia**, en persona o por telesalud. Sus asesores financieros ayudan a personas sin seguro. Llama al 1-800-230-7526.
+      2. **Diversity Family Health** (Oklahoma City, Norman, Tulsa) y la **OKEQ Health Clinic** (Tulsa) son clínicas privadas LGBTQ+ que ofrecen terapia hormonal y opciones de pago directo.
+      3. **Telesalud**: Plume atiende Oklahoma. El Fondo de Acceso a TRH de Point of Pride paga 18 meses de atención hormonal por telesalud con proveedores asociados.
+      4. Los medicamentos genéricos como estradiol y espironolactona son económicos con un cupón de descuento de farmacia; compara precios de testosterona.
+
+      Si recibías atención por SoonerCare o en una instalación estatal y se suspendió, pasa tu receta a un proveedor privado lo antes posible para no quedarte sin medicamento.
+  sources: [sb904, sb904-bill, freedom-ok-health, ppgp-gac, pp-ok-centers, dfh-gac, okeq-clinic, pop-hrt]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Banned since May 1, 2023** (SB 613, 63 O.S. § 2607.1). A health care provider may not knowingly give anyone under 18 puberty blockers, cross-sex hormones, or surgery to affirm a gender different from their biological sex. A six-month taper for minors already on treatment ended in November 2023. Exceptions cover mental health care, depression and anxiety medication, precocious or delayed puberty, intersex conditions, and complications.
+
+      **Penalties**: providing this care is a **felony** (prosecution can begin until the patient turns 45) and unprofessional conduct for licensing boards. Parents or the patient can sue the provider until the patient turns 45, and the Attorney General can enforce the law.
+
+      **The ban is in full effect.** In **Poe v. Drummond**, the Tenth Circuit upheld the denial of a preliminary injunction on August 6, 2025, and the families dismissed the case later that month. Since May 12, 2026, SB 904 also bars SoonerCare and public funds from paying for this care. Oklahoma has no shield law. Mental health care and social support remain legal. Families considering care in another state should talk to a lawyer first.
+    es: |
+      **Prohibida desde el 1 de mayo de 2023** (SB 613, 63 O.S. § 2607.1). Un proveedor de salud no puede dar a sabiendas a menores de 18 años bloqueadores de pubertad, hormonas cruzadas ni cirugía para afirmar un género distinto a su sexo biológico. El periodo de retiro gradual de seis meses terminó en noviembre de 2023. Las excepciones cubren salud mental, medicamentos para depresión y ansiedad, pubertad precoz o tardía, condiciones intersexuales y complicaciones.
+
+      **Sanciones**: proveer esta atención es un **delito grave** (se puede procesar hasta que el paciente cumpla 45 años) y conducta no profesional ante las juntas de licencias. Los padres o el paciente pueden demandar al proveedor hasta que el paciente cumpla 45, y el Fiscal General puede hacer cumplir la ley.
+
+      **La prohibición está plenamente vigente.** En **Poe v. Drummond**, el Décimo Circuito confirmó el rechazo de una orden preliminar el 6 de agosto de 2025, y las familias desistieron del caso ese mismo mes. Desde el 12 de mayo de 2026, SB 904 también impide que SoonerCare y los fondos públicos paguen esta atención. Oklahoma no tiene ley escudo. La atención de salud mental sigue siendo legal. Las familias que consideren atención en otro estado deben hablar primero con un abogado.
+  sources: [sb613, poe-10th, poe-dismissal, sb904]
+medicaid:
+  program_name: SoonerCare
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: |
+      Under 63 O.S. § 1-800(C) (SB 904, effective May 12, 2026), "the state Medicaid program shall not reimburse or provide coverage for any gender transition procedures, regardless of whether the procedures are provided to a minor or an adult." That covers puberty blockers, hormones, and surgery for gender transition. SoonerCare still covers mental health care, primary care, PrEP, and STI testing, so it is still worth enrolling if you qualify. Apply online or call the SoonerCare helpline at 1-800-987-7767.
+    es: |
+      Según 63 O.S. § 1-800(C) (SB 904, vigente desde el 12 de mayo de 2026), el programa estatal de Medicaid no reembolsará ni cubrirá ningún procedimiento de transición de género, sea para menores o adultos. Eso incluye bloqueadores de pubertad, hormonas y cirugía. SoonerCare sigue cubriendo salud mental, atención primaria, PrEP y pruebas de ITS, así que vale la pena inscribirse si calificas. Solicita en línea o llama a la línea de SoonerCare al 1-800-987-7767.
+  how_to_apply_url: https://www.apply.okhca.org/Site/UserAccountLogin.aspx
+  sources: [sb904, ohca-apply]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Oklahoma has no law requiring private health plans to cover gender-affirming care or banning trans-specific exclusions. Check your plan documents for an exclusion. If your plan wrongly denies a claim, you can appeal with the insurer, file a complaint with the Oklahoma Insurance Department (800-522-0071), and get free appeal help from A4TE's Trans Health Project. Employer self-funded plans are regulated federally, not by the state.
+    es: |
+      Oklahoma no tiene una ley que obligue a los planes privados a cubrir la atención de afirmación de género ni que prohíba exclusiones específicas. Revisa si tu plan tiene una exclusión. Si tu plan niega un reclamo indebidamente, puedes apelar ante la aseguradora, presentar una queja ante el Departamento de Seguros de Oklahoma (800-522-0071) y obtener ayuda gratuita con apelaciones del Trans Health Project de A4TE. Los planes autofinanciados por empleadores se regulan a nivel federal.
+  complaint_url: https://www.oid.ok.gov/consumers/file-an-online-complaint/
+  sources: [map-ok, oid, a4te-thp]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: ppgp
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains (Oklahoma City, Edmond, Tulsa)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy for patients 18 and older at all health centers, with no therapy or mental health letter required. Also PrEP, PEP, and STI testing. In person or telehealth; financial counselors for uninsured patients.
+      es: Terapia hormonal de afirmación de género para pacientes de 18 años o más en todos sus centros, sin carta de terapia ni de salud mental. También PrEP, PEP y pruebas de ITS. En persona o por telesalud; asesores financieros para personas sin seguro.
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains/patient-resources/gender-affirming-care
+    phone: "800-230-7526"
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ppgp-gac, pp-ok-centers]
+  - id: diversity-family-health
+    name: Diversity Family Health
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+-focused nurse practitioner clinics in Oklahoma City, Norman, and Tulsa offering gender-affirming hormone therapy, primary care, PrEP and STI care (walk-in STI clinic weekday mornings in Tulsa), and mental health care in OKC and by video.
+      es: Clínicas de enfermería práctica enfocadas en personas LGBTQ+ en Oklahoma City, Norman y Tulsa con terapia hormonal de afirmación de género, atención primaria, PrEP y atención de ITS (clínica de ITS sin cita por las mañanas en Tulsa) y salud mental en OKC y por video.
+    url: https://www.diversityfamilyhealth.com/
+    phone: "405-848-0026"
+    address: 1211 N Shartel Ave, Suite 300, Oklahoma City, OK 73103
+    cost: varies
+    verification: org_website
+    sources: [dfh-gac, dfh-okc, dfh-tulsa]
+  - id: okeq-clinic
+    name: OKEQ Health Clinic (Oklahomans for Equality)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Tulsa LGBTQ+ center clinic offering hormone therapy, trans-affirming gynecological care, STI testing, PrEP, and free condoms, emergency contraception, and PEP samples. Self-pay with cost assistance; in network with Blue Cross Blue Shield.
+      es: Clínica del centro LGBTQ+ de Tulsa con terapia hormonal, ginecología afirmativa, pruebas de ITS, PrEP y condones, anticoncepción de emergencia y muestras de PEP gratis. Pago directo con ayuda de costos; en la red de Blue Cross Blue Shield.
+    url: https://okeq.org/clinic/
+    phone: "918-938-6537"
+    address: 621 E 4th St, Tulsa, OK 74120
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [okeq-clinic]
+  - id: variety-care
+    name: Variety Care
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Community health centers in Oklahoma City and nearby with sliding-fee primary care, HIV testing, PrEP and DoxyPEP, and staff "Champions" who help LGBTQ+ patients find affirming providers. Ask whether your site prescribes hormones.
+      es: Centros de salud comunitarios en Oklahoma City y alrededores con atención primaria en escala móvil, pruebas de VIH, PrEP y DoxyPEP, y personal "Champions" que ayuda a pacientes LGBTQ+ a encontrar proveedores afirmativos. Pregunta si tu sitio receta hormonas.
+    url: https://www.varietycare.org/
+    phone: "405-632-6688"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [freedom-ok-variety]
+  - id: pop-hrt
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for 18 months of telehealth hormone care (visits, labs, and letters) through partner providers, for people 18 and older.
+      es: Paga 18 meses de atención hormonal por telesalud (consultas, laboratorios y cartas) con proveedores asociados, para personas de 18 años o más.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: a4te-thp
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help appealing insurance denials for gender-affirming care, with templates and guides.
+      es: Ayuda gratuita para apelar negaciones de seguros de atención de afirmación de género, con plantillas y guías.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [a4te-thp]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale by income, whether or not you have insurance.
+      es: Buscador federal de centros de salud comunitarios que cobran en escala móvil según tus ingresos, tengas o no seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: 63 O.S. § 2607.1
+    title:
+      en: Ban on gender transition procedures for anyone under 18 (SB 613, 2023)
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=493439
+  - cite: 63 O.S. § 1-800
+    title:
+      en: No public funds, Medicaid, or state facilities for gender transition procedures at any age (SB 904, 2026)
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=552593
+litigation:
+  - case: Poe v. Drummond, No. 23-5110
+    court: US Court of Appeals for the Tenth Circuit
+    summary:
+      en: Families of trans minors and a physician challenged SB 613. The district court denied a preliminary injunction in October 2023; the Tenth Circuit affirmed on August 6, 2025, and the plaintiffs voluntarily dismissed the case on August 29, 2025.
+      es: Familias de menores trans y una médica impugnaron SB 613. El tribunal de distrito negó una orden preliminar en octubre de 2023; el Décimo Circuito lo confirmó el 6 de agosto de 2025 y los demandantes desistieron del caso el 29 de agosto de 2025.
+    effect_today:
+      en: The case is over. The ban on care for minors is fully in effect.
+      es: El caso terminó. La prohibición de atención para menores está plenamente vigente.
+    last_update: "2025-08-29"
+    url: https://www.courtlistener.com/docket/67313661/poe-v-drummond/
+    sources: [poe-10th, poe-dismissal]
+sources:
+  - id: sb613
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=493439
+    title: 63 O.S. 2607.1, Prohibition against providing gender transition procedures to any child
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A health care provider who violates subsection B of this section shall, upon conviction, be guilty of a felony.
+  - id: sb904
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=552593
+    title: 63 O.S. 1-800, Gender transition procedures, prohibitions (SB 904, 2026)
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No state property, facility, or building may be used to provide gender transition procedures, regardless of whether the procedures are provided to a minor or an adult.
+  - id: sb904-bill
+    url: https://oklegislature.gov/BillInfo.aspx?Bill=SB904&Session=2600
+    title: SB 904 (2026) bill information
+    publisher: Oklahoma Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Gender transition procedures; prohibiting certain use of public funds and state facilities; providing criminal penalty. Emergency.
+  - id: poe-10th
+    url: https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111278115.pdf
+    title: Poe v. Drummond, No. 23-5110 (10th Cir. Aug. 6, 2025)
+    publisher: US Court of Appeals for the Tenth Circuit
+    kind: court
+    accessed: "2026-09-24"
+  - id: poe-dismissal
+    url: https://www.courtlistener.com/docket/67313661/poe-v-drummond/
+    title: Poe v. Drummond, No. 4:23-cv-00177 (N.D. Okla.), docket
+    publisher: CourtListener
+    kind: court
+    accessed: "2026-09-24"
+    quote: NOTICE of Dismissal, closing case
+  - id: freedom-ok-health
+    url: https://www.freedomoklahoma.org/health
+    title: Health + Wellness, Trans Healthcare Update
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: This is causing immediate harm to folks who receive care at state facilities such as OU Health and OSU Medical Center.
+  - id: freedom-ok-variety
+    url: https://www.freedomoklahoma.org/variety-care
+    title: Variety Care Resource Directory
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: Uninsured and underinsured patients may qualify to pay for services on a sliding fee scale.
+  - id: ppgp-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains/patient-resources/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer gender-affirming hormone care for patients 18 years and older at all of our health centers. You don't need to participate in therapy or provide information from a mental health provider to receive hormone therapy.
+  - id: pp-ok-centers
+    url: https://www.plannedparenthood.org/health-center/oklahoma
+    title: Planned Parenthood health centers in Oklahoma
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+  - id: dfh-gac
+    url: https://www.diversityfamilyhealth.com/primary-care-details
+    title: Primary Care Services, Gender Affirming Care
+    publisher: Diversity Family Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Diversity Family Health can provide Gender Affirming Hormone Therapy (GAHT) and monitor your progress making adjustments as necessary.
+  - id: dfh-okc
+    url: https://www.diversityfamilyhealth.com/oklahoma-city
+    title: Diversity Family Health, Oklahoma City
+    publisher: Diversity Family Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: dfh-tulsa
+    url: https://www.diversityfamilyhealth.com/tulsa
+    title: Diversity Family Health, Tulsa
+    publisher: Diversity Family Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: has a Walk-In STI clinic from 8-12 Monday - Friday
+  - id: okeq-clinic
+    url: https://okeq.org/clinic/
+    title: OKEQ Health Clinic
+    publisher: Oklahomans for Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Hormone Replacement Therapy (HRT) Accessible, affirming care for patients seeking hormone therapy.
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: ohca-apply
+    url: https://oklahoma.gov/ohca/individuals/mysoonercare.html
+    title: MySoonerCare
+    publisher: Oklahoma Health Care Authority
+    kind: official
+    accessed: "2026-09-24"
+    quote: call the SoonerCare helpline at 1-800-987-7767
+  - id: oid
+    url: https://www.oid.ok.gov/consumers/file-an-online-complaint/
+    title: File an online complaint
+    publisher: Oklahoma Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-ok
+    url: https://www.mapresearch.org/equality-maps/profile_state/OK
+    title: Oklahoma's Equality Profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

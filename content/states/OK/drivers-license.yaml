@@ -1,0 +1,213 @@
+guide_type: drivers_license
+jurisdiction: OK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The ban on sex marker changes is not written in the driver license statutes (47 O.S. 6-106 only requires "sex"
+    on the application). It comes from Governor Stitt's Executive Order 2023-20 (August 1, 2023), read together with
+    25 O.S. 16 as amended by HB 1449 (2024, effective November 1, 2024), which defines "sex" as biological sex at birth.
+    The EO text itself could not be read (Secretary of State PDFs are scanned images); its effect on licenses is taken
+    from ACLU of Oklahoma's FAQ (October 2023) and A4TE's Oklahoma page (last updated January 2026). Service Oklahoma's
+    website (renew/replace and required documents pages, read 2026-09-24) says nothing about sex markers. NOT
+    CONFIRMED: what Service Oklahoma does today with a license that already shows a changed marker when it is renewed or
+    replaced; no written policy or case was found. Fees ($25 replacement license, 47 O.S. 6-114; $25 replacement ID,
+    free for 65 and older, 47 O.S. 6-105.3) read on OSCN and match Service Oklahoma's "$25 to request a duplicate". No
+    lawsuit challenging the license policy was found in federal court dockets for Oklahoma.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Oklahoma does not change the sex marker on a driver's license or state ID, and does not offer X. Under a 2023
+    executive order and a 2024 law, the marker must reflect sex at birth. You can still update your **name** in person
+    at a Service Oklahoma office or Licensed Operator with a certified court order, for $25.
+  es: >-
+    Oklahoma no cambia el marcador de sexo en la licencia de conducir ni en la identificación estatal, y no ofrece X.
+    Según una orden ejecutiva de 2023 y una ley de 2024, el marcador debe reflejar el sexo al nacer. Todavía puedes
+    actualizar tu **nombre** en persona en una oficina de Service Oklahoma o un Licensed Operator con una orden
+    judicial certificada, por $25.
+summary:
+  en: |
+    Oklahoma used to allow sex marker changes on licenses. On August 1, 2023, Governor Kevin Stitt signed **Executive Order 2023-20**, which defines "sex" as biological sex at birth for state agencies. Service Oklahoma (which took over licensing from the Department of Public Safety) stopped issuing marker changes. In 2024 the Legislature wrote the same definition into law (HB 1449, the "Women's Bill of Rights", 25 O.S. § 16, effective November 1, 2024). No doctor's letter, court order, or amended birth certificate will change the result, and there is no X option.
+
+    **If your license already shows a changed marker**, the order does not require you to turn it in, and no law penalizes you for carrying it. It is unclear whether Service Oklahoma will keep the changed marker when you renew or replace the card. If you face a problem, contact ACLU of Oklahoma or A4TE (contacts below).
+
+    Your **name** can still be changed on the card. State law requires you to apply for a replacement within 10 days of a legal name change.
+  es: |
+    Oklahoma antes permitía cambiar el marcador de sexo en las licencias. El 1 de agosto de 2023, el gobernador Kevin Stitt firmó la **Orden Ejecutiva 2023-20**, que define "sexo" como el sexo biológico al nacer para las agencias estatales. Service Oklahoma (que asumió las licencias del Departamento de Seguridad Pública) dejó de hacer cambios de marcador. En 2024 la Legislatura puso la misma definición en la ley (HB 1449, "Declaración de Derechos de la Mujer", 25 O.S. § 16, vigente desde el 1 de noviembre de 2024). Ninguna carta médica, orden judicial ni acta enmendada cambia el resultado, y no existe la opción X.
+
+    **Si tu licencia ya muestra un marcador cambiado**, la orden no exige que la entregues y ninguna ley te sanciona por llevarla. No está claro si Service Oklahoma mantendrá el marcador al renovar o reemplazar la tarjeta. Si tienes un problema, comunícate con ACLU of Oklahoma o A4TE.
+
+    Tu **nombre** sí puede cambiarse en la tarjeta. La ley estatal exige pedir un reemplazo dentro de 10 días de un cambio legal de nombre.
+eligibility:
+  residency:
+    en: You must hold or be applying for an Oklahoma driver's license or identification card.
+    es: Debes tener o estar solicitando una licencia o tarjeta de identificación de Oklahoma.
+  other:
+    en: For a name update you need a certified copy of each legal name change document (court order, marriage certificate, or divorce decree) linking the name on your identity document to your current name.
+    es: Para actualizar el nombre necesitas una copia certificada de cada documento de cambio legal de nombre (orden judicial, acta de matrimonio o sentencia de divorcio) que vincule el nombre de tu documento de identidad con tu nombre actual.
+  sources: [so-required-docs, os-6-116, os-6-106, hb1449, aclu-eo, a4te-ok]
+steps:
+  - id: ssa-first
+    title:
+      en: Update your name with Social Security first
+      es: Actualiza primero tu nombre en el Seguro Social
+    body:
+      en: A4TE advises changing your name with the Social Security Administration before going to Service Oklahoma, so the records match.
+      es: A4TE recomienda cambiar tu nombre en la Administración del Seguro Social antes de ir a Service Oklahoma, para que los registros coincidan.
+    applies_to: [name_change]
+    sources: [a4te-ok]
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        Bring your current license or ID, a certified copy of your name change order (originals or certified copies only; notarized copies are not accepted), and, if you are getting a REAL ID, proof of identity, Social Security number, and two proofs of Oklahoma residency. Check Service Oklahoma's documents list before you go.
+      es: |
+        Lleva tu licencia o identificación actual, una copia certificada de tu orden de cambio de nombre (solo originales o copias certificadas; no se aceptan copias notariadas) y, si vas a sacar una REAL ID, prueba de identidad, número de Seguro Social y dos pruebas de residencia en Oklahoma. Revisa la lista de documentos de Service Oklahoma antes de ir.
+    applies_to: [name_change]
+    sources: [so-required-docs, a4te-ok]
+  - id: visit
+    title:
+      en: Visit a Service Oklahoma office or Licensed Operator
+      es: Visita una oficina de Service Oklahoma o un Licensed Operator
+    body:
+      en: Name changes cannot be done online. Make an appointment or walk in at a Service Oklahoma licensing office or a private Licensed Operator (tag agency). Pay the replacement fee and take a new photo. Do this within 10 days of your name change.
+      es: Los cambios de nombre no se pueden hacer en línea. Haz una cita o acude a una oficina de Service Oklahoma o a un Licensed Operator privado. Paga la tarifa de reemplazo y tómate una foto nueva. Hazlo dentro de 10 días de tu cambio de nombre.
+    fees: [dl-replacement, id-replacement]
+    applies_to: [name_change, in_person]
+    sources: [so-renew-replace, os-6-116, os-6-114, os-6-105-3]
+fees:
+  - id: dl-replacement
+    label:
+      en: Replacement driver's license (to update information)
+      es: Licencia de conducir de reemplazo (para actualizar información)
+    amount: 25
+    sources: [os-6-114, so-renew-replace]
+  - id: id-replacement
+    label:
+      en: Replacement state ID card
+      es: Tarjeta de identificación estatal de reemplazo
+    amount: 25
+    note:
+      en: Free for people 65 and older.
+      es: Gratis para personas de 65 años o más.
+    sources: [os-6-105-3]
+fee_waiver:
+  available: false
+  eligibility:
+    en: There is no general low-income waiver. Replacement ID cards are free for people 65 and older, and state law exempts verified homeless youth under 18 from ID card fees.
+    es: No hay exención general por bajos ingresos. Las tarjetas de identificación de reemplazo son gratis para mayores de 65 años, y la ley exime a jóvenes sin hogar verificados menores de 18 años.
+  sources: [os-6-105-3]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Address changes and simple duplicates can be done online, but name changes require an in-person visit.
+    es: Los cambios de dirección y duplicados simples se pueden hacer en línea, pero los cambios de nombre requieren una visita en persona.
+  sources: [so-renew-replace]
+timeline:
+  en: One visit. You leave with a temporary credential; the card arrives by mail.
+  es: Una visita. Sales con una credencial temporal; la tarjeta llega por correo.
+after:
+  en: |
+    Your license will show your new name but the sex marker from your birth record. The US passport also cannot currently show a changed sex marker under federal policy, so for now every Oklahoma-issued and federal ID will likely show the same marker. If a license with a previously changed marker is revoked or not renewed, contact ACLU of Oklahoma (intake@acluok.org) and A4TE.
+  es: |
+    Tu licencia mostrará tu nuevo nombre pero el marcador de sexo de tu registro de nacimiento. El pasaporte de EE. UU. tampoco puede mostrar actualmente un marcador cambiado según la política federal. Si revocan o no renuevan una licencia con un marcador cambiado anteriormente, comunícate con ACLU of Oklahoma (intake@acluok.org) y A4TE.
+tips:
+  - en: Carry your certified name change order the first time you use the new card for anything important, in case records have not caught up.
+    es: Lleva tu orden certificada de cambio de nombre las primeras veces que uses la nueva tarjeta para algo importante, por si los registros no se han actualizado.
+statutes:
+  - cite: 25 O.S. § 16
+    title:
+      en: Definitions of sex, male, and female (HB 1449, 2024)
+    url: https://www.oklegislature.gov/cf_pdf/2023-24%20ENR/hB/HB1449%20ENR.PDF
+  - cite: 47 O.S. § 6-106
+    title:
+      en: Application for license or ID must state sex
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440139
+  - cite: 47 O.S. § 6-114
+    title:
+      en: Replacement license fee
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440140
+  - cite: 47 O.S. § 6-116
+    title:
+      en: Name change must be reported within 10 days
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=82118
+related_links:
+  - title: ACLU of Oklahoma, Governor Stitt's anti-trans executive order FAQs
+    url: https://www.acluok.org/en/news/governor-stitts-anti-trans-executive-order-eo-faqs
+  - title: Advocates for Trans Equality, Oklahoma identity documents
+    url: https://transequality.org/documents/oklahoma-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Última actualización enero de 2026.
+sources:
+  - id: aclu-eo
+    url: https://www.acluok.org/app/uploads/2023/10/governor_stitts_anti-trans_executive_order_eo_faqs_on_august_1_2023_governor_stitt_signed_executive_order_2023-20_eo_discriminating_against_people_who_are_transgender_in_oklahoma._below_ar23.pdf
+    title: Governor Stitt's anti-trans executive order (EO) FAQs
+    publisher: ACLU of Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: Service Oklahoma (driver's licenses) and the Oklahoma Department of Health (birth certificates) will follow the instruction of the EO and define sex as a person's "biological sex, either male or female at birth."
+  - id: a4te-ok
+    url: https://transequality.org/documents/oklahoma-identity-documents
+    title: Oklahoma Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Currently, the Oklahoma Department of Public Safety is no longer issuing gender marker changes to driver's licenses and state IDs under Governor Stitt's Executive Order 2023-20.
+  - id: hb1449
+    url: https://www.oklegislature.gov/cf_pdf/2023-24%20ENR/hB/HB1449%20ENR.PDF
+    title: Enrolled House Bill 1449 (2024), Women's Bill of Rights
+    publisher: Oklahoma Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Sex means a natural person's biological sex at birth
+  - id: so-renew-replace
+    url: https://oklahoma.gov/service/popular-services/renew-replace.html
+    title: Renew and replace license and ID
+    publisher: Service Oklahoma
+    kind: official
+    accessed: "2026-09-24"
+    quote: You cannot make name changes online. For name changes, or any additional changes, you can visit a Licensed Operator or Licensing Office.
+  - id: so-required-docs
+    url: https://oklahoma.gov/service/all-pages/required-documents.html
+    title: Required documents
+    publisher: Service Oklahoma
+    kind: official
+    accessed: "2026-09-24"
+    quote: you must provide additional documents with legal proof of every name change
+  - id: os-6-114
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440140
+    title: 47 O.S. 6-114, Replacement license
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The cost of a replacement license shall be Twenty-five Dollars ($25.00)
+  - id: os-6-105-3
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=443601
+    title: 47 O.S. 6-105.3, Identification cards
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: no person sixty-five (65) years of age or older shall be charged a fee for an identification card replacement
+  - id: os-6-116
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=82118
+    title: 47 O.S. 6-116, Change of name or address
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: such person shall apply for a replacement of the driver license or identification card with Service Oklahoma ... within ten (10) days of the change
+  - id: os-6-106
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440139
+    title: 47 O.S. 6-106, Application for license or identification card
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"

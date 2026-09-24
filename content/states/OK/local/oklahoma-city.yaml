@@ -1,0 +1,213 @@
+jurisdiction: OK
+slug: oklahoma-city
+name: Oklahoma City
+area:
+  en: Oklahoma County and the surrounding metro (Edmond, Norman, Moore)
+  es: Condado de Oklahoma y el área metropolitana (Edmond, Norman, Moore)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court fee and procedure from the Oklahoma County Court Clerk page (read 2026-09-24). Provider details read on each
+    organization's own site except Variety Care, whose LGBTQ+ Champions program and provider list come from Freedom
+    Oklahoma's directory (Variety Care's own site was not checked in detail). Verify hours, walk-in policies, and
+    new-patient availability before marking reviewed. Care at OU Health and other state facilities is barred by SB 904
+    (2026), so they are not listed.
+intro:
+  en: >-
+    Oklahoma City has several private options for adult hormone therapy (Planned Parenthood Great Plains and Diversity
+    Family Health), sliding-fee community health centers for PrEP and primary care, and statewide advocacy through
+    Freedom Oklahoma. Name change petitions for Oklahoma County residents are filed with the Oklahoma County Court
+    Clerk; the filing fee includes the newspaper notice. State facilities such as OU Health can no longer provide
+    gender-affirming care after SB 904 (2026).
+  es: >-
+    Oklahoma City tiene varias opciones privadas de terapia hormonal para adultos (Planned Parenthood Great Plains y
+    Diversity Family Health), centros de salud comunitarios en escala móvil para PrEP y atención primaria, y defensa a
+    nivel estatal con Freedom Oklahoma. Las peticiones de cambio de nombre de residentes del condado de Oklahoma se
+    presentan ante la secretaría del tribunal del condado; la tarifa incluye el aviso en el periódico. Las
+    instalaciones estatales como OU Health ya no pueden proveer atención de afirmación de género tras SB 904 (2026).
+court:
+  name: District Court of Oklahoma County (Court Clerk)
+  url: https://www.oklahomacounty.org/Elected-Offices/Court-Clerk
+  filing_fee: 190.39
+  notes:
+    en: >-
+      The clerk's office is in the Oklahoma County Courthouse, 321 Park Ave, Oklahoma City. Name changes are set by the
+      assigned judge and must be published; the $190.39 fee includes publication. You can ask the judge to waive
+      publication for good cause, and file a pauper's affidavit if you cannot pay. Residents of Canadian, Cleveland, or
+      other counties file in their own county's district court.
+    es: >-
+      La secretaría está en el Palacio de Justicia del condado de Oklahoma, 321 Park Ave, Oklahoma City. El juez asignado
+      fija las audiencias y los cambios de nombre deben publicarse; la tarifa de $190.39 incluye la publicación. Puedes
+      pedir al juez que dispense la publicación por causa justificada y presentar una declaración de pobreza si no puedes
+      pagar. Residentes de Canadian, Cleveland u otros condados presentan en el tribunal de su propio condado.
+  sources: [okc-clerk]
+resources:
+  - id: laso-okc
+    name: Legal Aid Services of Oklahoma
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income Oklahomans, with an office in Oklahoma City. Runs OKLaw.org, which has free name change forms. Apply by phone or online.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, con oficina en Oklahoma City. Administra OKLaw.org, con formularios gratuitos de cambio de nombre. Solicita por teléfono o en línea.
+    url: https://legalaidok.org/
+    phone: "888-534-5243"
+    cost: free
+    verification: org_website
+    sources: [laso]
+  - id: freedom-oklahoma
+    name: Freedom Oklahoma
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Oklahoma City-based 2SLGBTQ+ advocacy organization. Its name change clinic (with financial help) is paused as of September 2026; it keeps an updated list of affirming health care options.
+      es: Organización de defensa 2SLGBTQ+ con sede en Oklahoma City. Su clínica de cambio de nombre (con ayuda económica) está en pausa en septiembre de 2026; mantiene una lista actualizada de opciones de salud afirmativas.
+    url: https://www.freedomoklahoma.org/
+    phone: "405-237-5983"
+    cost: free
+    verification: org_website
+    sources: [freedom-ok-clinic, freedom-ok-health]
+  - id: pp-central-okc
+    org: planned-parenthood
+    name: Planned Parenthood Great Plains, Central Oklahoma City Clinic
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Hormone therapy for adults 18 and older without a therapist letter, plus PrEP, PEP, and STI testing. In person and telehealth; financial assistance for uninsured patients. There is also a health center in Edmond.
+      es: Terapia hormonal para adultos de 18 años o más sin carta de terapeuta, además de PrEP, PEP y pruebas de ITS. En persona y por telesalud; ayuda económica para personas sin seguro. También hay un centro en Edmond.
+    url: https://www.plannedparenthood.org/health-center/oklahoma/oklahoma-city/73103/central-oklahoma-city-clinic-3351-90740/gender-affirming-care
+    phone: "405-528-2157"
+    address: 619 NW 23rd St, Oklahoma City, OK 73103
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-okc, ppgp-gac]
+  - id: dfh-okc
+    name: Diversity Family Health, Oklahoma City
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+-focused primary care clinic offering gender-affirming hormone therapy, PrEP and PEP, STI care, and in-house mental health care (also by video). Open weekdays 9 to 5 by appointment. Also has a Norman location.
+      es: Clínica de atención primaria enfocada en personas LGBTQ+ con terapia hormonal de afirmación de género, PrEP y PEP, atención de ITS y salud mental (también por video). Abierta entre semana de 9 a 5 con cita. También tiene sede en Norman.
+    url: https://www.diversityfamilyhealth.com/oklahoma-city
+    phone: "405-848-0026"
+    address: 1211 N Shartel Ave, Suite 300, Oklahoma City, OK 73103
+    cost: varies
+    verification: org_website
+    sources: [dfh-okc, dfh-gac]
+  - id: variety-care
+    name: Variety Care
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Federally qualified health centers across Oklahoma City (NW 10th, Britton, Reno, Straka Terrace, and more) with sliding-fee primary care, HIV testing, PrEP and DoxyPEP, and behavioral health. Staff "Champions" connect LGBTQ+ patients with affirming providers.
+      es: Centros de salud comunitarios en Oklahoma City (NW 10th, Britton, Reno, Straka Terrace y más) con atención primaria en escala móvil, pruebas de VIH, PrEP y DoxyPEP y salud conductual. Personal "Champions" conecta a pacientes LGBTQ+ con proveedores afirmativos.
+    url: https://www.varietycare.org/
+    phone: "405-632-6688"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [freedom-ok-variety]
+  - id: pop-hrt
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for 18 months of telehealth hormone care through partner providers, for people 18 and older.
+      es: Paga 18 meses de atención hormonal por telesalud con proveedores asociados, para personas de 18 años o más.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares, dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: okc-clerk
+    url: https://www.oklahomacounty.org/Elected-Offices/Court-Clerk
+    title: Court Clerk, Oklahoma County
+    publisher: Oklahoma County
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name changes are set by assigned judges and are to be published. The filing fee is $190.39 including publication.
+  - id: laso
+    url: https://legalaidok.org/
+    title: Legal Aid Services of Oklahoma
+    publisher: Legal Aid Services of Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+  - id: freedom-ok-clinic
+    url: https://www.freedomoklahoma.org/ngmc-clinic
+    title: Name and Gender Marker Correction Clinic
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: The clinics are currently paused
+  - id: freedom-ok-health
+    url: https://www.freedomoklahoma.org/health
+    title: Health + Wellness, Trans Healthcare Update
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+  - id: freedom-ok-variety
+    url: https://www.freedomoklahoma.org/variety-care
+    title: Variety Care Resource Directory
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: Services also include HIV prevention (PrEP + DoxyPEP) and treatment.
+  - id: pp-okc
+    url: https://www.plannedparenthood.org/health-center/oklahoma/oklahoma-city/73103/central-oklahoma-city-clinic-3351-90740/gender-affirming-care
+    title: Gender-Affirming Care in Oklahoma City, OK
+    publisher: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender-affirming care services are available at Central Oklahoma City Clinic.
+  - id: ppgp-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-great-plains/patient-resources/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood Great Plains
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer gender-affirming hormone care for patients 18 years and older at all of our health centers.
+  - id: dfh-okc
+    url: https://www.diversityfamilyhealth.com/oklahoma-city
+    title: Diversity Family Health, Oklahoma City
+    publisher: Diversity Family Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: 1211 N. Shartel, Suite 300, Oklahoma City, OK 73103
+  - id: dfh-gac
+    url: https://www.diversityfamilyhealth.com/primary-care-details
+    title: Primary Care Services, Gender Affirming Care
+    publisher: Diversity Family Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

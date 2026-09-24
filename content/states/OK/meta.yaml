@@ -1,0 +1,170 @@
+code: OK
+name:
+  en: Oklahoma
+  es: Oklahoma
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings follow statutes read on OSCN on 2026-09-24 (63 O.S. 1-321 as amended by HB 1225 (2026); 25 O.S. 16
+    as amended by HB 1449 (2024); 63 O.S. 2607.1 (SB 613, 2023); 63 O.S. 1-800 (SB 904, 2026)) and agree with MAP's
+    Oklahoma profile (negative on both ID documents, youth care ban, Medicaid exclusion, no shield law). The driver's
+    license rating rests on Executive Order 2023-20 as described by ACLU of Oklahoma and A4TE; the Service Oklahoma
+    site says nothing about sex markers. Only Oklahoma City has a local file; Tulsa County court pages could not be
+    found (404s), so Tulsa resources are listed in the statewide guides instead.
+overview:
+  en: >-
+    Oklahoma is one of the most restrictive states for trans people. You can still change your **name** through a
+    district court petition (one newspaper notice, which a judge can waive for good cause), but the state will not
+    change the sex on an Oklahoma birth certificate or driver's license, and state law defines "sex" as biological
+    sex at birth. Hormones, puberty blockers, and surgery for gender transition are a felony to provide to anyone
+    under 18. Since May 12, 2026, SoonerCare (Medicaid), public funds, and state facilities such as OU Health may not
+    be used for this care at any age. Adults can still get hormones from private clinics, Planned Parenthood, and
+    telehealth.
+  es: >-
+    Oklahoma es uno de los estados más restrictivos para las personas trans. Todavía puedes cambiar tu **nombre** con
+    una petición ante el tribunal de distrito (un aviso en el periódico, que un juez puede dispensar por causa
+    justificada), pero el estado no cambia el sexo en el acta de nacimiento ni en la licencia de conducir de
+    Oklahoma, y la ley estatal define "sexo" como el sexo biológico al nacer. Dar hormonas, bloqueadores de pubertad o
+    cirugía de transición a menores de 18 años es un delito grave. Desde el 12 de mayo de 2026, SoonerCare
+    (Medicaid), los fondos públicos y las instalaciones estatales como OU Health no pueden usarse para esta atención a
+    ninguna edad. Los adultos todavía pueden obtener hormonas en clínicas privadas, Planned Parenthood y telesalud.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [hb1225, title25-16, sb613, sb904, map-ok]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [oklahoma-city]
+key_resources:
+  - id: freedom-oklahoma
+    name: Freedom Oklahoma
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: >-
+        Statewide 2SLGBTQ+ advocacy group based in Oklahoma City. Tracks laws affecting trans Oklahomans, keeps a list of
+        affirming health care providers, and runs a name change clinic with financial help (paused as of September 2026;
+        call to ask).
+      es: >-
+        Grupo estatal de defensa 2SLGBTQ+ con sede en Oklahoma City. Sigue las leyes que afectan a las personas trans,
+        mantiene una lista de proveedores de salud afirmativos y organiza una clínica de cambio de nombre con ayuda
+        económica (en pausa en septiembre de 2026; llama para preguntar).
+    url: https://www.freedomoklahoma.org/
+    phone: "405-237-5983"
+    cost: free
+    verification: org_website
+    sources: [freedom-ok-health, freedom-ok-clinic]
+  - id: okeq
+    name: Oklahomans for Equality (Dennis R. Neill Equality Center)
+    type: lgbtq_center
+    pillars: [name_change, hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        Tulsa LGBTQ+ center with a health clinic (hormone therapy, PrEP, STI testing), free drop-in counseling, and a
+        monthly name change clinic.
+      es: >-
+        Centro LGBTQ+ de Tulsa con clínica de salud (terapia hormonal, PrEP, pruebas de ITS), consejería gratuita sin
+        cita y una clínica mensual de cambio de nombre.
+    url: https://okeq.org/
+    phone: "918-743-4297"
+    address: 621 E 4th St, Tulsa, OK 74120
+    cost: varies
+    verification: org_website
+    sources: [okeq-clinic]
+  - id: oelc
+    name: Oklahoma Equality Law Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Tulsa nonprofit that provides low-cost legal help only to 2SLGBTQIA+ Oklahomans; it began as a clinic for correcting identity documents.
+      es: Organización sin fines de lucro de Tulsa que ofrece ayuda legal de bajo costo solo a personas 2SLGBTQIA+ de Oklahoma; empezó como clínica para corregir documentos de identidad.
+    url: https://www.okequalitylaw.com/
+    address: 320 S Boston Ave, Suite 1026, Tulsa, OK
+    cost: low_cost
+    verification: org_website
+    sources: [oelc]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares, dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: hb1225
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB1225%20ENR.PDF
+    title: Enrolled House Bill 1225 (2026), vital records
+    publisher: Oklahoma Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The biological sex designation shall not be amended to display gender identity, a nonbinary designation, or any symbol representing a nonbinary designation
+  - id: title25-16
+    url: https://www.oklegislature.gov/cf_pdf/2023-24%20ENR/hB/HB1449%20ENR.PDF
+    title: Enrolled House Bill 1449 (2024), Women's Bill of Rights (25 O.S. 16)
+    publisher: Oklahoma Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Sex means a natural person's biological sex at birth
+  - id: sb613
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=493439
+    title: 63 O.S. 2607.1, Prohibition against providing gender transition procedures to any child
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A health care provider shall not knowingly provide gender transition procedures to any child.
+  - id: sb904
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=552593
+    title: 63 O.S. 1-800, Gender transition procedures (SB 904, 2026)
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The state Medicaid program shall not reimburse or provide coverage for any gender transition procedures, regardless of whether the procedures are provided to a minor or an adult.
+  - id: map-ok
+    url: https://www.mapresearch.org/equality-maps/profile_state/OK
+    title: Oklahoma's Equality Profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: freedom-ok-health
+    url: https://www.freedomoklahoma.org/health
+    title: Health + Wellness, Trans Healthcare Update
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+  - id: freedom-ok-clinic
+    url: https://www.freedomoklahoma.org/ngmc-clinic
+    title: Name and Gender Marker Correction Clinic
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: The clinics are currently paused
+  - id: okeq-clinic
+    url: https://okeq.org/clinic/
+    title: OKEQ Health Clinic
+    publisher: Oklahomans for Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: oelc
+    url: https://www.okequalitylaw.com/
+    title: Oklahoma Equality Law Center
+    publisher: Oklahoma Equality Law Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: We began as a clinic to help transgender and gender non-conforming Oklahomans correct their identifying documents.
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

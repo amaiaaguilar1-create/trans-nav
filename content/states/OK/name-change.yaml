@@ -1,0 +1,424 @@
+guide_type: name_change
+jurisdiction: OK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (12 O.S. 1631-1637) and the forma pauperis statute (28 O.S. 152) read on OSCN 2026-09-24. Fees: the
+    statewide court-cost schedule (2025 summary, posted by the Oklahoma County Court Clerk) lists a name change at
+    $147.89 to $170.39 depending on whether the county charges the $10 courthouse security fee and the lengthy-trial
+    fee; the Oklahoma County Court Clerk page says $190.39 "including publication". NOT VERIFIED: (1) the OKLaw.org
+    self-help packet (oklaw.org blocked automated access with a Cloudflare challenge); its URL and contents come from
+    A4TE's Oklahoma page (last updated January 2026), so the form list is secondary-sourced; (2) typical newspaper
+    publication cost outside Oklahoma County; (3) whether a pauper's affidavit also covers publication costs; (4)
+    whether notice to a non-consenting parent is required for a minor (A4TE says yes; 12 O.S. 1631 says only that a
+    guardian or next friend may bring the action). The OKEQ monthly clinic schedule (second Wednesday, 5:30 to 7:30
+    pm) is from A4TE, not OKEQ's own site. Freedom Oklahoma's clinic is paused per its own page. Tulsa County court
+    pages returned 404.
+status: available
+status_summary:
+  en: >-
+    Adults and minors can change their name in Oklahoma by filing a petition in the district court of the county where
+    they have lived for more than 30 days. You must publish one newspaper notice at least 10 days before a hearing,
+    though a judge can waive it for good cause. People required to register as sex offenders cannot petition.
+  es: >-
+    Adultos y menores pueden cambiar su nombre en Oklahoma presentando una petición en el tribunal de distrito del
+    condado donde han vivido más de 30 días. Debes publicar un aviso en el periódico al menos 10 días antes de una
+    audiencia, aunque un juez puede dispensarlo por causa justificada. Las personas obligadas a registrarse como
+    delincuentes sexuales no pueden presentar la petición.
+summary:
+  en: |
+    Oklahoma name changes go through the **district court** of the county where you live, under 12 O.S. §§ 1631-1637. You file a sworn (notarized) petition that gives your reasons, publish a notice once in a local newspaper, and attend a short hearing. The judge must grant the petition unless it is for a fraudulent or illegal purpose or something in it is false. "To match my gender identity" is a lawful reason.
+
+    A name change is the one identity update Oklahoma still allows for trans people. The state will **not** change the sex on an Oklahoma driver's license or birth certificate (see those guides), but your new name can go on both, and on your Social Security record and passport.
+  es: |
+    En Oklahoma los cambios de nombre se tramitan en el **tribunal de distrito** del condado donde vives, según 12 O.S. §§ 1631-1637. Presentas una petición jurada (notariada) con tus razones, publicas un aviso una vez en un periódico local y asistes a una audiencia breve. El juez debe conceder la petición a menos que tenga un propósito fraudulento o ilegal o que algo en ella sea falso. "Para que coincida con mi identidad de género" es una razón lícita.
+
+    El cambio de nombre es la única actualización de identidad que Oklahoma todavía permite a las personas trans. El estado **no** cambia el sexo en la licencia de conducir ni en el acta de nacimiento de Oklahoma (ver esas guías), pero tu nuevo nombre sí puede aparecer en ambos, y en tu registro del Seguro Social y tu pasaporte.
+eligibility:
+  residency:
+    en: You must have lived in Oklahoma, and in the county where you file, for more than 30 days before filing. Residents of a military reservation in the state qualify.
+    es: Debes haber vivido en Oklahoma, y en el condado donde presentas, más de 30 días antes de presentar. Quienes viven en una reserva militar del estado califican.
+  age:
+    en: Adults file for themselves. For a minor, a parent, guardian, or "next friend" files on the child's behalf.
+    es: Los adultos presentan por sí mismos. Por un menor, presenta un padre, madre, tutor o "amigo próximo" en su nombre.
+  criminal_history:
+    en: Anyone required to register under the Oklahoma Sex Offenders Registration Act may not petition for a name change. Other criminal history does not bar a petition.
+    es: Nadie obligado a registrarse según la Ley de Registro de Delincuentes Sexuales de Oklahoma puede pedir un cambio de nombre. Otros antecedentes penales no lo impiden.
+  sources: [os-1631]
+forms:
+  - id: OKLaw adult name change packet
+    name:
+      en: Adult name change self-help forms (Petition for Change of Name, Notice of Hearing, Order for Name Change)
+      es: Formularios de autoayuda para cambio de nombre de adultos (Petición, Aviso de audiencia, Orden de cambio de nombre)
+    url: https://oklaw.org/resource/adult-name-change-self-help-forms
+    required: optional
+    condition:
+      en: Oklahoma has no single mandatory statewide form. This free packet from OKLaw.org (run by Legal Aid Services of Oklahoma) is widely used; some counties have their own local forms, so ask your court clerk.
+      es: Oklahoma no tiene un formulario estatal obligatorio. Este paquete gratuito de OKLaw.org (de Legal Aid Services of Oklahoma) es muy usado; algunos condados tienen formularios propios, así que pregunta al secretario del tribunal.
+    how_to_fill:
+      en: |
+        - **Reasons for the change**: the law requires "a clear and concise statement of the reasons." A short, truthful statement such as "I am transgender and have lived as [new name] for [time]; I want my legal name to match the name I use" is enough. You do not have to describe medical care.
+        - **Birth certificate number and place of birth**: the petition must list these if your birth was registered. Get them from your birth certificate.
+        - **Fraud statement**: include the sentence that the change is not sought for any illegal or fraudulent purpose or to delay or hinder creditors.
+        - **Safety concerns**: if publishing your old and new names would put you at risk, ask in writing for the court to **waive publication** for good cause (see Publication). Talk to a legal aid group first if you can.
+        - **Sign only in front of a notary.** The petition must be verified (sworn).
+      es: |
+        - **Razones del cambio**: la ley exige "una declaración clara y concisa de las razones". Basta con algo breve y verdadero como "Soy una persona trans y he vivido como [nuevo nombre] durante [tiempo]; quiero que mi nombre legal coincida con el que uso". No tienes que describir atención médica.
+        - **Número del acta y lugar de nacimiento**: la petición debe incluirlos si tu nacimiento fue registrado.
+        - **Declaración contra fraude**: incluye que el cambio no busca un propósito ilegal o fraudulento ni retrasar o perjudicar a acreedores.
+        - **Seguridad**: si publicar tus nombres te pondría en riesgo, pide por escrito que el tribunal **dispense la publicación** por causa justificada.
+        - **Firma solo frente a un notario.** La petición debe ser jurada.
+    sources: [a4te-ok, os-1632]
+  - id: Pauper's Affidavit
+    name:
+      en: Affidavit in forma pauperis (pauper's affidavit)
+      es: Declaración jurada de pobreza (in forma pauperis)
+    url: https://oklaw.org/resource/paupers-affidavit
+    required: conditional
+    condition:
+      en: File it with your petition if you cannot afford the filing fee.
+      es: Preséntala con tu petición si no puedes pagar la tarifa de presentación.
+    sources: [os-152, a4te-ok]
+steps:
+  - id: prepare
+    title:
+      en: Fill out the petition and have it notarized
+      es: Llena la petición y hazla notariar
+    body:
+      en: |
+        Use the OKLaw.org packet or your county's forms. The petition must state your name and address, how long you have lived in the state and county, your date and place of birth, your birth certificate number, the name you want, your reasons, and that the change is not for a fraudulent purpose. Sign it in front of a notary (banks, libraries, and county clerk offices often have one).
+      es: |
+        Usa el paquete de OKLaw.org o los formularios de tu condado. La petición debe indicar tu nombre y domicilio, cuánto tiempo has vivido en el estado y el condado, fecha y lugar de nacimiento, número de acta de nacimiento, el nombre que quieres, tus razones y que el cambio no tiene propósito fraudulento. Fírmala frente a un notario (bancos, bibliotecas y oficinas del secretario del condado suelen tener uno).
+    forms: [OKLaw adult name change packet]
+    sources: [os-1632, a4te-ok]
+  - id: file
+    title:
+      en: File at the district court clerk and get a hearing date
+      es: Presenta en la secretaría del tribunal de distrito y obtén fecha de audiencia
+    body:
+      en: |
+        File the petition with the court clerk in your county and pay the filing fee, or file a pauper's affidavit asking the judge to waive fees. The clerk or judge sets a hearing date. Ask for a date about 15 to 21 days out so there is time to publish the notice at least 10 days before the hearing.
+      es: |
+        Presenta la petición en la secretaría del tribunal de tu condado y paga la tarifa, o presenta una declaración de pobreza pidiendo al juez que la dispense. Se fija una fecha de audiencia. Pide una fecha a unos 15 a 21 días para que haya tiempo de publicar el aviso al menos 10 días antes.
+    forms: [OKLaw adult name change packet, Pauper's Affidavit]
+    fees: [filing]
+    sources: [okc-clerk, court-costs, os-152, a4te-ok]
+  - id: publish
+    title:
+      en: Publish the notice once in a local newspaper
+      es: Publica el aviso una vez en un periódico local
+    body:
+      en: |
+        Take the Notice of Hearing to a newspaper authorized to print legal notices in your county. It must run **one time, at least 10 days before the hearing**. Ask for the **proof of publication** (affidavit) and bring it to court. If you asked the judge to waive publication for safety, wait for that ruling before publishing.
+      es: |
+        Lleva el Aviso de Audiencia a un periódico autorizado para publicar avisos legales en tu condado. Debe publicarse **una vez, al menos 10 días antes de la audiencia**. Pide la **prueba de publicación** y llévala al tribunal. Si pediste que se dispense la publicación por seguridad, espera esa decisión antes de publicar.
+    fees: [publication]
+    sources: [os-1633, a4te-ok]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: |
+        Bring your ID, the proof of publication, and a copy of the proposed Order for Name Change. You will answer a few questions under oath. Anyone may file a written protest before the hearing, but that is rare. The judge must grant the change unless it is sought for an illegal or fraudulent purpose or a key statement in the petition is false.
+      es: |
+        Lleva tu identificación, la prueba de publicación y una copia de la Orden de Cambio de Nombre propuesta. Responderás algunas preguntas bajo juramento. Cualquiera puede presentar una protesta escrita antes de la audiencia, pero es raro. El juez debe conceder el cambio salvo que tenga un propósito ilegal o fraudulento o que una afirmación importante sea falsa.
+    sources: [os-1633, os-1634]
+  - id: copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Ask the court clerk for several certified copies (5 to 7 is common). Social Security, Service Oklahoma, Vital Records, and the passport agency each want a certified copy.
+      es: Pide a la secretaría varias copias certificadas (lo común es 5 a 7). El Seguro Social, Service Oklahoma, Estadísticas Vitales y la agencia de pasaportes piden cada uno una copia certificada.
+    fees: [copies]
+    sources: [os-1635, court-costs, a4te-ok]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee, name change
+      es: Tarifa de presentación en el tribunal de distrito, cambio de nombre
+    min: 147.89
+    max: 190.39
+    varies_by: county
+    waivable: true
+    note:
+      en: The statewide court-cost schedule lists $147.89 to $170.39 depending on local add-on fees. Oklahoma County charges $190.39, which its clerk says includes publication.
+      es: La tabla estatal de costos lista de $147.89 a $170.39 según cargos locales. El condado de Oklahoma cobra $190.39, que según su secretaría incluye la publicación.
+    sources: [court-costs, okc-clerk]
+  - id: publication
+    label:
+      en: Newspaper publication (one notice)
+      es: Publicación en periódico (un aviso)
+    varies_by: vendor
+    note:
+      en: Set by the newspaper. In Oklahoma County it is included in the $190.39 filing fee; elsewhere, ask the newspaper for a quote before your hearing is set.
+      es: La fija el periódico. En el condado de Oklahoma está incluida en la tarifa de $190.39; en otros condados, pide un precio al periódico.
+    sources: [okc-clerk, os-1633]
+  - id: copies
+    label:
+      en: Certified copies of the order
+      es: Copias certificadas de la orden
+    varies_by: county
+    note:
+      en: The statewide schedule lists $1.00 for the first page, $0.50 for each additional page, and $0.50 to certify each document, so a short order costs a few dollars per certified copy.
+      es: La tabla estatal lista $1.00 por la primera página, $0.50 por cada página adicional y $0.50 por certificar cada documento, así que una orden corta cuesta unos pocos dólares por copia.
+    sources: [court-costs]
+fee_waiver:
+  available: true
+  forms: [Pauper's Affidavit]
+  eligibility:
+    en: Under 28 O.S. § 152, if poverty leaves you unable to pay court fees and costs or to hire a lawyer, you can file a sworn affidavit in forma pauperis; if the court is satisfied you have no means to pay, no fees or costs are required.
+    es: Según 28 O.S. § 152, si por pobreza no puedes pagar las tarifas y costos del tribunal ni contratar un abogado, puedes presentar una declaración jurada in forma pauperis; si el tribunal queda convencido de que no tienes medios, no se cobran tarifas ni costos.
+  how:
+    en: Sign the pauper's affidavit before a notary and file it with your petition. The judge decides. Ask the clerk whether an approved affidavit also covers the newspaper notice in your county; Freedom Oklahoma has offered financial help with name change costs.
+    es: Firma la declaración ante un notario y preséntala con tu petición. El juez decide. Pregunta a la secretaría si una declaración aprobada también cubre el aviso en el periódico; Freedom Oklahoma ha ofrecido ayuda económica para los costos.
+  sources: [os-152, a4te-ok, freedom-ok-clinic]
+publication:
+  required: "yes"
+  detail:
+    en: Notice must be published one time, at least 10 days before the hearing, in a newspaper authorized to print legal notices in the county. It lists the case, the hearing time and place, and that anyone may file a written protest.
+    es: El aviso debe publicarse una vez, al menos 10 días antes de la audiencia, en un periódico autorizado para avisos legales en el condado. Indica el caso, la hora y lugar de la audiencia y que cualquiera puede presentar una protesta escrita.
+  waiver_available: true
+  waiver_how:
+    en: |
+      Under 12 O.S. § 1633(B) the court may waive publication "for good cause," which includes (but is not limited to) domestic violence cases with sealed proceedings. Ask in your petition or in a separate motion, and explain concretely why publishing your former and new names would put you at risk (for example, past harassment or threats). Whether being trans alone counts as good cause is up to the judge; a legal aid organization can help you frame the request.
+    es: |
+      Según 12 O.S. § 1633(B) el tribunal puede dispensar la publicación "por causa justificada", lo que incluye (sin limitarse a) casos de violencia doméstica con procedimientos sellados. Pídelo en tu petición o en una moción aparte y explica concretamente por qué publicar tus nombres te pondría en riesgo. Si ser trans por sí solo cuenta como causa justificada lo decide el juez.
+  sources: [os-1633]
+hearing:
+  required: "yes"
+  detail:
+    en: The petition's allegations must be supported by sworn evidence, which in practice means testifying briefly at a hearing held after publication is complete.
+    es: Las afirmaciones de la petición deben respaldarse con prueba jurada, lo que en la práctica significa declarar brevemente en una audiencia después de la publicación.
+  sources: [os-1633, os-1634]
+background_check:
+  required: "no"
+  detail:
+    en: The statute does not require fingerprints or a background check, but people required to register as sex offenders are barred from petitioning.
+    es: La ley no exige huellas ni verificación de antecedentes, pero las personas obligadas a registrarse como delincuentes sexuales no pueden presentar la petición.
+  sources: [os-1631]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: Name change cases are public court records, and the case appears on OSCN, the state's online docket. The statute mentions sealed proceedings only in the context of domestic violence.
+    es: Los casos de cambio de nombre son registros judiciales públicos y aparecen en OSCN, el expediente en línea del estado. La ley menciona procedimientos sellados solo en el contexto de violencia doméstica.
+  how:
+    en: If you have a safety reason, ask the judge to seal the case and waive publication at the same time. This is discretionary; get legal help if you can.
+    es: Si tienes una razón de seguridad, pide al juez que selle el caso y dispense la publicación al mismo tiempo. Es discrecional; busca ayuda legal si puedes.
+  sources: [os-1633, a4te-ok]
+minors:
+  summary:
+    en: |
+      A parent, guardian, or next friend files for the child in the district court of the child's county. If both legal parents agree, both can sign as petitioners. If a parent does not agree, that parent is normally served with the petition and notice, and the judge decides based on the child's best interests (the child's preference, how long they have used the name, and the parents' motives are common factors). Publication still applies. Talk to a lawyer if you expect a parent to object.
+    es: |
+      Un padre, madre, tutor o amigo próximo presenta la petición por el menor en el tribunal de distrito del condado del menor. Si ambos padres están de acuerdo, ambos pueden firmar como peticionarios. Si uno no está de acuerdo, normalmente se le notifica la petición y el aviso, y el juez decide según el interés superior del menor. La publicación también aplica. Habla con un abogado si esperas que un padre se oponga.
+  sources: [os-1631, a4te-ok]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: You file with the county court clerk (some counties accept e-filing) and must appear at the hearing.
+    es: Presentas en la secretaría del tribunal del condado (algunos condados aceptan presentación electrónica) y debes asistir a la audiencia.
+  sources: [okc-clerk, os-1634]
+timeline:
+  en: Often about 3 to 6 weeks from filing to signed order, depending on the court's calendar and newspaper deadlines.
+  es: A menudo unas 3 a 6 semanas desde la presentación hasta la orden firmada, según el calendario del tribunal y los plazos del periódico.
+after:
+  en: |
+    With certified copies of your order, update your records in this order:
+    1. **Social Security** (in person or by mail): do this first; A4TE advises updating Social Security before your license.
+    2. **Driver's license or state ID** at a Service Oklahoma office or Licensed Operator within 10 days ($25). Only the name can change, not the sex marker.
+    3. **Birth certificate**, if you were born in Oklahoma: mail the order to Vital Records ($40, includes one copy). Only the name can change.
+    4. **US passport**: the name can be updated with the court order.
+    5. Banks, employer, school, insurance, voter registration, and utilities.
+  es: |
+    Con copias certificadas de tu orden, actualiza tus registros en este orden:
+    1. **Seguro Social** (en persona o por correo): hazlo primero; A4TE recomienda actualizar el Seguro Social antes que la licencia.
+    2. **Licencia o identificación estatal** en una oficina de Service Oklahoma o un Licensed Operator dentro de 10 días ($25). Solo puede cambiar el nombre, no el marcador de sexo.
+    3. **Acta de nacimiento**, si naciste en Oklahoma: envía la orden a Estadísticas Vitales ($40, incluye una copia). Solo puede cambiar el nombre.
+    4. **Pasaporte de EE. UU.**: el nombre se puede actualizar con la orden judicial.
+    5. Bancos, empleador, escuela, seguro, registro de votante y servicios.
+tips:
+  - en: Order more certified copies than you think you need at the courthouse; going back later costs a trip.
+    es: Pide más copias certificadas de las que crees necesitar; volver después cuesta otro viaje.
+  - en: Your case will be searchable on OSCN.net by name. If that is a safety risk, ask about sealing and waiving publication before you file.
+    es: Tu caso se podrá buscar por nombre en OSCN.net. Si eso es un riesgo, pregunta por sellar el caso y dispensar la publicación antes de presentar.
+  - en: Oklahoma County's $190.39 fee includes publication, which can be cheaper than arranging your own notice.
+    es: La tarifa de $190.39 del condado de Oklahoma incluye la publicación, lo que puede salir más barato que gestionar tu propio aviso.
+local_help:
+  - id: okeq-name-clinic
+    name: Oklahomans for Equality name change clinic
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Free walk-in name change clinic in Tulsa, reported to meet the second Wednesday of each month, 5:30 to 7:30 pm, at the Dennis R. Neill Equality Center. Call to confirm.
+      es: Clínica gratuita de cambio de nombre sin cita en Tulsa, que según reportes se reúne el segundo miércoles de cada mes, de 5:30 a 7:30 pm, en el Dennis R. Neill Equality Center. Llama para confirmar.
+    url: https://okeq.org/
+    phone: "918-743-4297"
+    address: 621 E 4th St, Tulsa, OK 74120
+    cost: free
+    verification: community_reported
+    sources: [a4te-ok, okeq]
+  - id: oelc
+    name: Oklahoma Equality Law Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Low-cost legal services only for 2SLGBTQIA+ Oklahomans; started as an identity document clinic. Send a message through the website.
+      es: Servicios legales de bajo costo solo para personas 2SLGBTQIA+ de Oklahoma; empezó como clínica de documentos de identidad. Envía un mensaje por su sitio web.
+    url: https://www.okequalitylaw.com/
+    address: 320 S Boston Ave, Suite 1026, Tulsa, OK
+    cost: low_cost
+    verification: org_website
+    sources: [oelc]
+  - id: freedom-ok
+    name: Freedom Oklahoma name and gender marker correction clinic
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Pro se name change clinic with financial assistance, run with OUtlaw. Paused as of September 2026; call or email to ask when it resumes.
+      es: Clínica de cambio de nombre por cuenta propia con ayuda económica, junto con OUtlaw. En pausa en septiembre de 2026; llama o escribe para saber cuándo vuelve.
+    url: https://www.freedomoklahoma.org/ngmc-clinic
+    phone: "405-237-5983"
+    cost: free
+    verification: org_website
+    sources: [freedom-ok-clinic]
+  - id: laso
+    name: Legal Aid Services of Oklahoma
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income Oklahomans in all 77 counties; runs OKLaw.org, which publishes the name change self-help forms. Ask whether they can help with your name change.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en los 77 condados; administra OKLaw.org, que publica los formularios de autoayuda. Pregunta si pueden ayudarte con tu cambio de nombre.
+    url: https://legalaidok.org/
+    phone: "888-534-5243"
+    cost: free
+    verification: org_website
+    sources: [laso]
+statutes:
+  - cite: 12 O.S. § 1631
+    title:
+      en: Right to petition for change of name
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94759
+  - cite: 12 O.S. § 1632
+    title:
+      en: Required contents of petition
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94760
+  - cite: 12 O.S. § 1633
+    title:
+      en: Notice, protest, hearing date, waiver of publication
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94761
+  - cite: 12 O.S. § 1634
+    title:
+      en: Proof by sworn evidence; grounds for denial
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94762
+  - cite: 12 O.S. § 1635
+    title:
+      en: Judgment; certified copy
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94763
+  - cite: 28 O.S. § 152
+    title:
+      en: Court fees; forma pauperis
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440165
+related_links:
+  - title: Advocates for Trans Equality, Oklahoma identity documents
+    url: https://transequality.org/documents/oklahoma-identity-documents
+    note:
+      en: Step-by-step guide with local contacts. Last updated January 2026.
+      es: Guía paso a paso con contactos locales. Última actualización enero de 2026.
+  - title: OSCN court directory (find your district court)
+    url: https://www.oscn.net/applications/oscn/start.asp?viewType=COURTS
+sources:
+  - id: os-1631
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94759
+    title: 12 O.S. 1631, Right to petition for change of name
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: no person who is required to register as a sex offender pursuant to the Oklahoma Sex Offenders Registration Act may petition for a change of name
+  - id: os-1632
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94760
+    title: 12 O.S. 1632, Required contents of petition
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A clear and concise statement of the reasons for the desired change
+  - id: os-1633
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94761
+    title: 12 O.S. 1633, Notice, protest, hearing date, continuance, waiver
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court may waive the publication requirements of this section for good cause which includes, but is not limited to, cases of domestic violence in which the court proceedings are sealed.
+  - id: os-1634
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94762
+    title: 12 O.S. 1634, Proof of petition by sworn evidence
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the prayer of the petition shall be granted unless the court or judge finds that the change is sought for an illegal or fraudulent purpose
+  - id: os-1635
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=94763
+    title: 12 O.S. 1635, Judgment and authenticated copy
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+  - id: os-152
+    url: https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440165
+    title: 28 O.S. 152, Flat fee schedule and forma pauperis
+    publisher: Oklahoma State Courts Network
+    kind: statute
+    accessed: "2026-09-24"
+    quote: upon the filing of an affidavit in forma pauperis ... no fees or costs shall be required
+  - id: okc-clerk
+    url: https://www.oklahomacounty.org/Elected-Offices/Court-Clerk
+    title: Court Clerk, Oklahoma County
+    publisher: Oklahoma County
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name changes are set by assigned judges and are to be published. The filing fee is $190.39 including publication.
+  - id: court-costs
+    url: https://www.oklahomacounty.org/Portals/0/Images/Court%20Clerk/2025_summaryOfCourtCosts.pdf
+    title: 2025 Summary of Court Costs (statewide schedule)
+    publisher: Oklahoma County Court Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name Change $147.89 $157.89 $160.39 $170.39
+  - id: a4te-ok
+    url: https://transequality.org/documents/oklahoma-identity-documents
+    title: Oklahoma Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Oklahomans for Equality hosts a free name change clinic the second Wednesday of every month from 5:30-7:30 pm.
+  - id: okeq
+    url: https://okeq.org/
+    title: Oklahomans for Equality
+    publisher: Oklahomans for Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: oelc
+    url: https://www.okequalitylaw.com/
+    title: Oklahoma Equality Law Center
+    publisher: Oklahoma Equality Law Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: freedom-ok-clinic
+    url: https://www.freedomoklahoma.org/ngmc-clinic
+    title: Name and Gender Marker Correction Clinic
+    publisher: Freedom Oklahoma
+    kind: org
+    accessed: "2026-09-24"
+    quote: The clinics are currently paused
+  - id: laso
+    url: https://legalaidok.org/
+    title: Legal Aid Services of Oklahoma
+    publisher: Legal Aid Services of Oklahoma
+    kind: org
+    accessed: "2026-09-24"
