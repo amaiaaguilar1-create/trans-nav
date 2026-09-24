@@ -1,0 +1,248 @@
+guide_type: birth_certificate
+jurisdiction: MD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (Health-Gen. § 4-211(b), (f), (g)) read on mgaleg.maryland.gov 2026-09-24. health.maryland.gov returns
+    HTTP 403 to automated fetches; the Vital Records "Change Sex Designation" page (snapshot 2026-04-19), fee page
+    (2026-09-03), processing-time page (2026-05-11), and the application packet PDF ("Gender Re-Assignment
+    instructions 09_01_2016") were read through the Wayback Machine. The packet is dated 2016 and still says
+    "Department of Health and Mental Hygiene"; reviewer should confirm it is still the current form and the mailing
+    address (6764-B Reisterstown Road, Baltimore 21215). Fees: the 2016 packet says $10 to prepare the new
+    certificate plus $10 per certified copy; the 2026 fee page lists Corrections $10 and Birth $10, so they agree.
+    X marker: the practitioner statement form offers only "Male to Female" or "Female to Male," and nothing on the
+    Vital Records page mentions X; the statute says the new certificate shows "the sex designation for which
+    satisfactory proof has been submitted." Whether Vital Records will issue an X certificate on a CC-DR-120 court
+    order declaring a nonbinary identity is not confirmed; markers_available lists M and F only. The 2025 and 2026
+    Birth Certificate Modernization Acts (HB 1368/SB 314 in 2025; SB 626/HB 1589 in 2026) would have changed this;
+    SB 626 passed both chambers in different versions but died in conference committee, so the 2015 provider-statement
+    rule still applies. The prompt suggested self-attestation since 2019; that applies to the MVA, not to birth
+    certificates. A4TE's Maryland page agrees with the provider-certification requirement.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in Maryland you can get a new birth certificate with a changed sex designation by sending Vital
+    Records a short application with either a signed statement from a licensed health care practitioner or a court
+    order. It costs $10 plus $10 for each certified copy. The new certificate is not marked "amended." Changing the
+    name on it requires a court order. An X option is not confirmed.
+  es: >-
+    Si naciste en Maryland puedes obtener una nueva acta de nacimiento con la designación de sexo cambiada enviando a
+    Registros Vitales una solicitud breve con una declaración firmada de un profesional de salud con licencia o una
+    orden judicial. Cuesta $10 más $10 por cada copia certificada. La nueva acta no dice "enmendada". Cambiar el
+    nombre requiere una orden judicial. La opción X no está confirmada.
+summary:
+  en: |
+    Under Health-General § 4-211, the Maryland Department of Health must issue a **new** birth certificate when it receives either:
+    - a statement signed under penalty of perjury by a **licensed health care practitioner** who has treated or evaluated you, saying you have undergone "surgical, hormonal, or other treatment appropriate for" you based on generally accepted medical standards (**surgery is not required**), or
+    - a **court order** indicating your sex has changed, such as a Maryland judicial declaration of gender identity (form CC-DR-120).
+
+    The new certificate replaces the old one, is **not marked "amended,"** and does not show that anything changed. The original is sealed. This only applies if you were **born in Maryland**; if you were born elsewhere, follow your birth state's rules.
+  es: |
+    Según el artículo de Salud General § 4-211, el Departamento de Salud de Maryland debe emitir una acta de nacimiento **nueva** cuando recibe:
+    - una declaración firmada bajo pena de perjurio por un **profesional de salud con licencia** que te haya tratado o evaluado, que diga que recibiste "tratamiento quirúrgico, hormonal u otro apropiado" para ti (**no se exige cirugía**), o
+    - una **orden judicial** que indique el cambio de sexo, como una declaración judicial de identidad de género de Maryland (formulario CC-DR-120).
+
+    La nueva acta reemplaza la anterior, **no dice "enmendada"** y no muestra ningún cambio. La original se sella. Solo aplica si **naciste en Maryland**; si naciste en otro lugar, sigue las reglas de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Maryland. Where you live now does not matter.
+    es: Debes haber nacido en Maryland. No importa dónde vivas ahora.
+  age:
+    en: Adults apply for themselves. For a minor, a parent, guardian, or legal representative makes the written request.
+    es: Los adultos lo solicitan por sí mismos. Para un menor, lo pide por escrito un padre, madre, tutor o representante legal.
+  other:
+    en: |
+      The practitioner must be one of: a physician; a psychologist; a nurse practitioner, nurse psychotherapist, or clinical nurse specialist; or a licensed certified social worker-clinical (LCSW-C). Someone licensed in another state who could qualify for the same Maryland license also counts.
+    es: |
+      El profesional debe ser: médico; psicólogo; enfermero practicante, psicoterapeuta de enfermería o especialista clínico en enfermería; o trabajador social clínico certificado con licencia (LCSW-C). También cuenta alguien con licencia de otro estado que podría calificar para la misma licencia en Maryland.
+  sources: [hg-4-211, vsa-packet]
+forms:
+  - id: vsa-sex-designation
+    name:
+      en: Application for Change in Sex Designation on a Certificate of Live Birth (with Statement of Licensed Health Care Practitioner)
+      es: Solicitud de cambio de designación de sexo en un certificado de nacimiento (con declaración del profesional de salud)
+    url: https://health.maryland.gov/vsa/Documents/Corrections/Birth/Gender%20Reassignment/Gender%20Re-Assignment%20instructions%2009_01_2016.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Page 2, application**: your current name, your name at birth, date and city/county of birth, and your parents' names as they appear on the original certificate.
+        - Check that you are sending **either** a practitioner statement **or** a court order, plus a copy of your government photo ID and a $10 check or money order to "State of Maryland."
+        - Check "Amend the name" only if you also send a certified court order for your name change.
+        - Check "Issue a certified copy" and add $10 per copy if you want copies mailed to you (you usually do).
+        - **Page 3, practitioner statement**: your provider fills in their license type, state, and number and signs under penalty of perjury. They do not need to describe specific treatment.
+      es: |
+        - **Página 2, solicitud**: tu nombre actual, tu nombre al nacer, fecha y ciudad/condado de nacimiento, y los nombres de tus padres como aparecen en el acta original.
+        - Marca que envías **o** la declaración del profesional **o** una orden judicial, más una copia de tu identificación con foto y un cheque o giro de $10 a nombre de "State of Maryland".
+        - Marca "Amend the name" solo si también envías una orden judicial certificada de cambio de nombre.
+        - Marca "Issue a certified copy" y agrega $10 por copia si quieres copias.
+        - **Página 3, declaración del profesional**: tu proveedor anota su tipo, estado y número de licencia y firma bajo pena de perjurio.
+    sources: [vsa-packet, vsa-gender]
+steps:
+  - id: choose-proof
+    title:
+      en: Get your proof, a provider statement or a court order
+      es: Consigue tu prueba, una declaración del proveedor o una orden judicial
+    body:
+      en: |
+        **Option A**: ask a licensed practitioner who has treated or evaluated you (your hormone prescriber, primary care doctor, NP, psychologist, or LCSW-C therapist) to fill out and sign page 3 of the packet.
+
+        **Option B**: a certified court order, such as a Maryland judicial declaration of gender identity (CC-DR-120, $165, confidential). Choose this if you have no provider, or if you are also changing your name, since a name change needs a court order anyway and CC-DR-120 can do both.
+      es: |
+        **Opción A**: pide a un profesional con licencia que te haya tratado o evaluado (quien te receta hormonas, tu médico de cabecera, enfermero practicante, psicólogo o terapeuta LCSW-C) que llene y firme la página 3.
+
+        **Opción B**: una orden judicial certificada, como una declaración judicial de identidad de género de Maryland (CC-DR-120, $165, confidencial). Elige esta opción si no tienes proveedor o si también cambias tu nombre.
+    forms: [vsa-sex-designation]
+    sources: [hg-4-211, vsa-packet, mdcourts-genderidentity]
+  - id: complete-application
+    title:
+      en: Fill out the application and include payment
+      es: Llena la solicitud e incluye el pago
+    body:
+      en: Complete page 2, attach a copy of your photo ID, your proof, and (if changing your name) a certified name change order. Include a check or money order payable to "State of Maryland" for $10 plus $10 for each certified copy.
+      es: Completa la página 2 y adjunta una copia de tu identificación con foto, tu prueba y (si cambias el nombre) una orden certificada de cambio de nombre. Incluye un cheque o giro a nombre de "State of Maryland" por $10 más $10 por cada copia certificada.
+    forms: [vsa-sex-designation]
+    fees: [new-certificate, certified-copy]
+    sources: [vsa-packet, vsa-fees]
+  - id: mail
+    title:
+      en: Mail it to the Division of Vital Records
+      es: Envíala por correo a la División de Registros Vitales
+    body:
+      en: |
+        Mail to: Division of Vital Records, 6764-B Reisterstown Road, Baltimore, MD 21215. Questions: 410-764-3036. The lobby is open by appointment only.
+      es: |
+        Envía a: Division of Vital Records, 6764-B Reisterstown Road, Baltimore, MD 21215. Preguntas: 410-764-3036. La oficina atiende solo con cita.
+    applies_to: [by_mail]
+    estimated_time:
+      en: about 10 weeks
+      es: unas 10 semanas
+    sources: [vsa-packet, vsa-proctime, vsa-birth]
+fees:
+  - id: new-certificate
+    label:
+      en: Preparing the new birth certificate
+      es: Preparación de la nueva acta de nacimiento
+    amount: 10
+    sources: [vsa-packet, vsa-fees]
+  - id: certified-copy
+    label:
+      en: Certified copy of the new certificate (each)
+      es: Copia certificada de la nueva acta (cada una)
+    amount: 10
+    sources: [vsa-packet, vsa-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No fee waiver is listed by Vital Records. Trans Maryland's Name Change Program can help cover document costs for trans adults who cannot afford them.
+    es: Registros Vitales no ofrece exención. El Programa de Cambio de Nombre de Trans Maryland puede ayudar a cubrir costos.
+  sources: [vsa-fees, transmd-ncp]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: The packet says to submit by mail. Whether the Vital Records lobby accepts sex-designation changes in person by appointment is not confirmed.
+    es: El paquete indica enviar por correo. No está confirmado si la oficina acepta estos cambios en persona con cita.
+  sources: [vsa-packet]
+timeline:
+  en: Vital Records lists about 10 weeks for corrections, and it has warned of longer times due to demand.
+  es: Registros Vitales indica unas 10 semanas para correcciones y ha advertido de demoras mayores por la demanda.
+after:
+  en: You do not need the new birth certificate to update Social Security, the MVA, or your passport name; a court order connects your documents. Keep the certified copies in a safe place and use them for future applications.
+  es: No necesitas la nueva acta para actualizar el Seguro Social, la MVA o el nombre en tu pasaporte; la orden judicial conecta tus documentos. Guarda las copias certificadas en un lugar seguro.
+tips:
+  - en: Don't wait for the birth certificate before updating Social Security and the MVA. Vital Records processing is slow, and Maryland agencies do not require the documents to match.
+    es: No esperes el acta para actualizar el Seguro Social y la MVA. Registros Vitales tarda, y las agencias de Maryland no exigen que los documentos coincidan.
+  - en: If you want both a new name and a new sex on the certificate, one CC-DR-120 court order covering both is usually simplest.
+    es: Si quieres nuevo nombre y nuevo sexo en el acta, una sola orden CC-DR-120 que cubra ambos suele ser lo más sencillo.
+  - en: If you want an X on your birth certificate, call Vital Records (410-764-3036) first; this guide could not confirm that X is issued.
+    es: Si quieres una X en tu acta, llama primero a Registros Vitales (410-764-3036); esta guía no pudo confirmar que se emita la X.
+statutes:
+  - cite: Md. Code, Health-Gen. § 4-211
+    title:
+      en: New certificate of birth after sex designation change; not marked amended; original sealed
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-211&enactments=false
+pending_bills:
+  - bill: SB 626 / HB 1589 (2026), Birth Certificate Modernization Act
+    summary:
+      en: Would have changed when the Department must issue a new birth certificate for a sex designation change and created "birth information histories." Passed the Senate (March 7, 2026) and the House with amendments (March 22, 2026), then went to a conference committee and did not pass before the session ended.
+      es: Habría cambiado cuándo el Departamento debe emitir una nueva acta por cambio de designación de sexo. Aprobado por el Senado y por la Cámara con enmiendas, fue a un comité de conferencia y no se aprobó antes del fin de la sesión.
+    status: dead
+    last_action: "2026-03-22"
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0626?ys=2026RS
+    sources: [sb626-2026]
+related_links:
+  - title: Maryland Judiciary, Judicial Declarations of Gender Identity
+    url: https://www.mdcourts.gov/genderidentity
+  - title: Advocates for Trans Equality, Maryland identity documents
+    url: https://transequality.org/documents/maryland-identity-documents
+sources:
+  - id: hg-4-211
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-211&enactments=false
+    title: Health-General Article § 4-211
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A new certificate of birth made under subsection (b) of this section may not be marked "amended".
+  - id: vsa-gender
+    url: https://health.maryland.gov/vsa/Pages/gender.aspx
+    title: Change Sex Designation
+    publisher: Maryland Department of Health, Division of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: If a name change is also being requested, a court order must be presented.
+  - id: vsa-packet
+    url: https://health.maryland.gov/vsa/Documents/Corrections/Birth/Gender%20Reassignment/Gender%20Re-Assignment%20instructions%2009_01_2016.pdf
+    title: Fact sheet and application, new certificate of birth following sex change or diagnosis of an intersex condition
+    publisher: Maryland Department of Health, Division of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: Preparation of new Certificate of Live Birth $10; Purchase of new Certificate (if requested) $10 per copy
+  - id: vsa-fees
+    url: https://health.maryland.gov/vsa/Pages/fees.aspx
+    title: Fees
+    publisher: Maryland Department of Health, Division of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: Birth $10.00; Corrections (Birth and Death) $10.00
+  - id: vsa-proctime
+    url: https://health.maryland.gov/vsa/Pages/proctime.aspx
+    title: Processing times
+    publisher: Maryland Department of Health, Division of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: Corrections 10 weeks
+  - id: vsa-birth
+    url: https://health.maryland.gov/vsa/Pages/birth.aspx
+    title: Birth certificates
+    publisher: Maryland Department of Health, Division of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Division of Vital Records' lobby is open to service all customers by appointment only.
+  - id: mdcourts-genderidentity
+    url: https://www.mdcourts.gov/genderidentity
+    title: Judicial Declarations of Gender Identity
+    publisher: Maryland Judiciary
+    kind: official
+    accessed: "2026-09-24"
+    quote: An order is not needed to update or correct your gender marker on records with the Maryland Motor Vehicle Administration or Maryland Division of Vital Records.
+  - id: transmd-ncp
+    url: https://transmaryland.org/name-change-program
+    title: Name and Gender Change Program
+    publisher: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: sb626-2026
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0626?ys=2026RS
+    title: SB 626 (2026), Birth Certificate Modernization Act
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In the Senate - Conference Committee Appointed

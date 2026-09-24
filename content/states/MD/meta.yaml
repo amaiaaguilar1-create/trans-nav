@@ -1,0 +1,125 @@
+code: MD
+name:
+  en: Maryland
+  es: Maryland
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Climate from primary sources: MVA self-attestation with X (Transp. § 12-305); birth certificate by provider
+    statement or court order (Health-Gen. § 4-211), X not confirmed; name change with no publication since 2023
+    (Rules Order of Sept. 30, 2022); Medicaid coverage mandate (Health-Gen. § 15-151); shield law SB 119, Ch. 863 of
+    2024. id_documents is marked protective although the birth certificate still needs a provider statement or
+    court order; reviewer may prefer "mixed" by the site's rubric.
+overview:
+  en: >-
+    Maryland is protective for trans people. You can change the sex on a driver's license or ID to M, F, or X just
+    by checking a box at the MVA; name changes need no newspaper publication; and a birth certificate can be updated
+    with a provider's statement or a court order. Maryland Medicaid must cover gender-affirming care, including
+    hormones and surgery, and a 2024 shield law protects patients and providers from other states' bans. Federal
+    documents (passport, Social Security) are the exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Maryland protege a las personas trans. Puedes cambiar el sexo en tu licencia o identificación a M, F o X
+    marcando una casilla en la MVA; los cambios de nombre no requieren publicación en periódico; y el acta de
+    nacimiento se puede actualizar con una declaración de un proveedor o una orden judicial. Medicaid de Maryland
+    debe cubrir la atención de afirmación de género, incluidas hormonas y cirugía, y una ley escudo de 2024 protege a
+    pacientes y proveedores de las prohibiciones de otros estados. Los documentos federales (pasaporte, Seguro
+    Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [transp-12-305, hg-4-211, hg-15-151, sb119-2024, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [baltimore]
+key_resources:
+  - id: freestate-justice
+    name: FreeState Justice
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Maryland's LGBTQ+ legal aid organization, based in Baltimore. Free legal services for low-income clients, including name changes and judicial declarations of gender identity. Legal intake 443-977-4254.
+      es: Organización de ayuda legal LGBTQ+ de Maryland, con sede en Baltimore. Servicios legales gratuitos para personas de bajos ingresos, incluidos cambios de nombre y declaraciones judiciales de identidad de género. Admisión legal 443-977-4254.
+    url: https://www.freestate-justice.org/legal-services
+    phone: "443-977-4254"
+    address: 2601 N Howard Street, Suite 120, Baltimore, MD 21218
+    cost: free
+    verification: org_website
+    sources: [freestate-legal]
+  - id: trans-maryland
+    name: Trans Maryland
+    type: name_change_clinic
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Trans-led statewide organization. Its Name Change Program has helped over 1,400 trans Marylanders, pre-fills court forms, and covers costs for those who cannot afford them. Also runs document clinics, support groups, and a list of trusted care providers.
+      es: Organización estatal dirigida por personas trans. Su Programa de Cambio de Nombre ha ayudado a más de 1,400 personas trans de Maryland, llena los formularios y cubre los costos para quienes no pueden pagarlos. También organiza clínicas de documentos, grupos de apoyo y una lista de proveedores de confianza.
+    url: https://transmaryland.org/
+    cost: free
+    verification: org_website
+    sources: [transmd]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: unverified
+    sources: [translifeline]
+sources:
+  - id: transp-12-305
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=12-305&enactments=false
+    title: Transportation Article § 12-305
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hg-4-211
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-211&enactments=false
+    title: Health-General Article § 4-211
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hg-15-151
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=15-151&enactments=false
+    title: Health-General Article § 15-151
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sb119-2024
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0119?ys=2024RS
+    title: SB 119 (2024), Legally Protected Health Care - Gender-Affirming Treatment, Chapter 863
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: freestate-legal
+    url: https://www.freestate-justice.org/legal-services
+    title: Legal Services
+    publisher: FreeState Justice
+    kind: org
+    accessed: "2026-09-24"
+  - id: transmd
+    url: https://transmaryland.org/
+    title: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+    quote: already helped over 1400 trans Marylanders to legally change our identity information
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

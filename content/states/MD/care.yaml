@@ -1,0 +1,317 @@
+jurisdiction: MD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read on mgaleg.maryland.gov 2026-09-24: Health-Gen. § 15-151 (Trans Health Equity Act, Ch. 252/253
+    of 2023, Medicaid coverage from January 1, 2024) and SB 119 / HB 691 (Ch. 863 of 2024, effective October 1, 2024),
+    which added gender-affirming treatment to "legally protected health care" (shield law). The task brief called
+    the shield law "HB 691"; HB 691 itself died in committee and its crossfile SB 119 was enacted, so SB 119 is cited.
+    Bills checked in the 2024 to 2026 master lists: HB 722 (2024, minors) and HB 679 (2026, cross-sex hormones for
+    minors) had hearings only and did not advance; HB 1283 (2024, insurance discrimination) and HB 1380 (2026,
+    prescription supply) did not pass. Private insurance: no single statute found that expressly bans trans
+    exclusions; the MIA's Bulletin 14-02 (2014) relies on Ins. § 27-208 to bar discrimination based on gender identity,
+    and MAP's healthcare map (fetched 2026-09-24) says Maryland "bans insurance exclusions of transgender health
+    care." Reviewer: confirm the current MIA position or any later bulletin. health.maryland.gov and
+    insurance.maryland.gov return HTTP 403 to automated fetches, so the Medicaid program page was not read directly
+    and the MIA complaint page was read via a February 2024 Wayback snapshot. Johns Hopkins's Center for Transgender
+    and Gender Expansive Health page returned 403; it is not listed and whether it currently treats minors was not
+    checked. Chase Brexton's current website no longer describes a gender-affirming care program (services pages
+    list primary care, sexual health, mental health); reviewer should call to confirm hormone therapy is still
+    offered before describing it that way. Planned Parenthood of Maryland details (age 16+, informed consent,
+    $200/$160 self-pay, Medicaid accepted) are from its own page.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Maryland. Maryland Medicaid must cover medically
+    necessary gender-affirming treatment, including hormones and surgery, under the Trans Health Equity Act, and a 2024
+    shield law protects patients and providers from other states' investigations. Planned Parenthood of Maryland
+    offers informed-consent hormone therapy at every health center and by telehealth, and accepts Medicaid.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Maryland. Medicaid de Maryland debe
+    cubrir el tratamiento de afirmación de género médicamente necesario, incluidas hormonas y cirugía, según la Ley de
+    Equidad en Salud Trans, y una ley escudo de 2024 protege a pacientes y proveedores de investigaciones de otros
+    estados. Planned Parenthood de Maryland ofrece terapia hormonal por consentimiento informado en todos sus centros
+    y por telesalud, y acepta Medicaid.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Many providers prescribe hormones on an **informed consent** basis, with no therapist letter required. Telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Maryland Medicaid** through Maryland Health Connection. Adults with income up to about 138% of the federal poverty level qualify, and Medicaid must cover hormones, labs, and surgery.
+      2. **Planned Parenthood of Maryland** offers informed-consent hormone therapy at all its health centers and by telehealth: $200 first visit and $160 follow-ups if you pay yourself, and it takes Medicaid.
+      3. **Community health centers** (FQHCs) charge on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care; applications open once a year.
+      5. Generic spironolactone and estradiol tablets are inexpensive with a pharmacy discount coupon; ask for the cash price.
+    es: |
+      Sin restricciones estatales. Muchos proveedores recetan hormonas por **consentimiento informado**, sin carta de terapeuta. La telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid de Maryland** en Maryland Health Connection. Los adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza califican, y Medicaid debe cubrir hormonas, laboratorios y cirugía.
+      2. **Planned Parenthood de Maryland** ofrece terapia hormonal por consentimiento informado en todos sus centros y por telesalud: $200 la primera visita y $160 las siguientes si pagas tú, y acepta Medicaid.
+      3. Los **centros de salud comunitarios** cobran según ingresos. Búscalos en findahealthcenter.hrsa.gov.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud; las solicitudes abren una vez al año.
+      5. La espironolactona y las tabletas de estradiol genéricas son baratas con un cupón de descuento; pregunta el precio en efectivo.
+  sources: [pp-md-gac, hg-15-151, mhc, hrsa]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Maryland has no ban on gender-affirming care for minors; bills to restrict it (HB 722 in 2024, HB 679 in 2026) received hearings but did not advance. Since October 1, 2024, Maryland's shield law (SB 119, Ch. 863) treats gender-affirming treatment as "legally protected health care": it limits cooperation with out-of-state investigations and subpoenas, extradition, and license discipline based on providing that care. Maryland Medicaid's coverage duty covers recipients of all ages, including puberty blockers. Parental consent is required. Planned Parenthood of Maryland treats patients 16 and older with a parent's or guardian's consent. Federal actions in 2025 and 2026 have led some hospital programs nationally to pause care for minors; call ahead.
+    es: |
+      Legal. Maryland no prohíbe la atención de afirmación de género para menores; los proyectos para restringirla (HB 722 en 2024, HB 679 en 2026) no avanzaron. Desde el 1 de octubre de 2024, la ley escudo de Maryland (SB 119, Cap. 863) trata el tratamiento de afirmación de género como "atención médica legalmente protegida": limita la cooperación con investigaciones y citaciones de otros estados, la extradición y las sanciones a licencias. La cobertura de Medicaid aplica a beneficiarios de todas las edades. Se requiere consentimiento de los padres. Planned Parenthood de Maryland atiende desde los 16 años con consentimiento de un padre o tutor. Algunas acciones federales han llevado a programas hospitalarios a pausar la atención a menores; llama antes.
+  sources: [sb119-2024, hg-15-151, pp-md-gac, hb679-2026]
+medicaid:
+  program_name: Maryland Medicaid (Maryland Medical Assistance Program / HealthChoice)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Since January 1, 2024, the **Trans Health Equity Act** (Health-General § 15-151) requires Maryland Medicaid to cover medically necessary gender-affirming treatment in a nondiscriminatory manner, consistent with current clinical standards (WPATH). Covered care listed in the law includes hormone therapy and puberty blockers; hair removal; voice therapy; chest, abdomen, face, neck, genital, and gonadal procedures; fertility preservation; and revisions. Medicaid may not call this care cosmetic, may not have categorical exclusions, and may not deny it unless a provider experienced in gender-affirming care has reviewed the denial. Managed care organizations must list which in-network providers offer gender-affirming care in their directories.
+
+      **Apply** online at Maryland Health Connection, by phone, or through your local department of social services.
+    es: |
+      Desde el 1 de enero de 2024, la **Ley de Equidad en Salud Trans** (Salud General § 15-151) exige que Medicaid de Maryland cubra el tratamiento de afirmación de género médicamente necesario sin discriminación, según los estándares clínicos actuales (WPATH). Incluye terapia hormonal y bloqueadores de pubertad, depilación, terapia de voz, procedimientos de pecho, abdomen, rostro, cuello, genitales y gónadas, preservación de fertilidad y revisiones. Medicaid no puede considerarla cosmética, no puede tener exclusiones categóricas y no puede negarla sin la revisión de un proveedor con experiencia. Las organizaciones de atención administrada deben indicar en sus directorios qué proveedores ofrecen esta atención.
+
+      **Solicita** en línea en Maryland Health Connection, por teléfono o en tu departamento local de servicios sociales.
+  how_to_apply_url: https://www.marylandhealthconnection.gov/
+  sources: [hg-15-151, thea-2023, mhc]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Maryland's insurance law bars unfair discrimination in health insurance benefits (Insurance Article § 27-208(b)), and the Maryland Insurance Administration has said this prohibits carriers from discriminating based on gender identity (Bulletin 14-02). If a state-regulated plan denies gender-affirming care, file a grievance with the plan, then a complaint with the MIA online or at 1-800-492-6116; allow about 90 days for a decision. Self-funded employer plans are federally regulated and may not be covered by state rules; the Trans Health Project has appeal help for those.
+    es: |
+      La ley de seguros de Maryland prohíbe la discriminación injusta en los beneficios de seguros de salud (Artículo de Seguros § 27-208(b)), y la Administración de Seguros de Maryland ha dicho que esto prohíbe discriminar por identidad de género (Boletín 14-02). Si un plan regulado por el estado niega atención, presenta una queja formal al plan y luego una queja ante la MIA en línea o al 1-800-492-6116. Los planes autofinanciados de empleadores se rigen por leyes federales.
+  complaint_url: https://insurance.maryland.gov/Consumer/Pages/FileAComplaint.aspx
+  sources: [ins-27-208, mia-bulletin-1402, mia-complaint, map-health]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-maryland
+    org: planned-parenthood
+    name: Planned Parenthood of Maryland, gender-affirming care
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy (estrogen, testosterone blockers, progestins, testosterone, and low-dose options) at all Maryland health centers (Annapolis, Baltimore, Easton, Frederick, Owings Mills, Towson, Waldorf) and by telehealth. Ages 16 and up; parent or guardian consent required under 18. Self-pay $200 first visit, $160 follow-ups; accepts Maryland Medicaid and most private insurance. Trans care navigator reachable at 410-576-1414.
+      es: Terapia hormonal por consentimiento informado en todos los centros de Maryland y por telesalud. Desde los 16 años; menores de 18 necesitan consentimiento de un padre o tutor. Pago directo $200 la primera visita, $160 las siguientes; acepta Medicaid de Maryland y la mayoría de seguros privados. Navegadora de atención trans al 410-576-1414.
+    url: https://www.plannedparenthood.org/planned-parenthood-maryland/gender-affirming-care
+    phone: "410-576-1414"
+    cost: insurance
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-md-gac, pp-md]
+  - id: whitman-walker
+    name: Whitman-Walker Health (Washington, DC)
+    type: hrt_clinic
+    pillars: [hrt, mental_health, insurance, name_change]
+    description:
+      en: DC community health center near the Maryland suburbs with a transgender care program (hormone therapy, care navigation, behavioral health, gender-affirming assessments) and free legal services for DC, Maryland, and Virginia residents. Trans health line 202-797-4457. Confirm that it accepts your Maryland insurance before booking.
+      es: Centro de salud comunitario de DC cerca de los suburbios de Maryland con programa de atención trans (terapia hormonal, navegación, salud conductual) y servicios legales gratuitos para residentes de DC, Maryland y Virginia. Línea de salud trans 202-797-4457. Confirma que acepte tu seguro de Maryland.
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/
+    phone: "202-797-4457"
+    address: 1525 14th St NW, Washington, DC
+    areas_served:
+      en: DC and the Maryland suburbs (Montgomery and Prince George's counties)
+      es: DC y los suburbios de Maryland (condados de Montgomery y Prince George's)
+    cost: varies
+    verification: org_website
+    sources: [ww-trans]
+  - id: chase-brexton
+    name: Chase Brexton Health Care
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Community health center with a long history in LGBTQ care, with sites in Baltimore (1111 N. Charles St.), Columbia, Easton, Glen Burnie, and Security Square. Sliding fee scale, a walk-in sexual health clinic with PrEP and PEP, and mental health care. Call 410-837-2050 and ask whether gender-affirming hormone therapy is available at your site.
+      es: Centro de salud comunitario con larga trayectoria en atención LGBTQ, con sedes en Baltimore, Columbia, Easton, Glen Burnie y Security Square. Escala de tarifas según ingresos, clínica de salud sexual sin cita con PrEP y PEP, y salud mental. Llama al 410-837-2050 y pregunta si ofrecen terapia hormonal en tu sede.
+    url: https://chasebrexton.org/
+    phone: "410-837-2050"
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [chase-brexton]
+  - id: trans-maryland-gac
+    name: Trans Maryland, gender-affirming care referrals
+    type: advocacy_org
+    pillars: [hrt, mental_health]
+    description:
+      en: Trans-led organization that lists providers it trusts, including the Gender Affirming Letter Access Project (GALAP), which connects people to Maryland mental health providers who write surgery letters in 1 to 2 sessions and offer free letters if you are uninsured. Also runs weekly T4T digital support groups.
+      es: Organización dirigida por personas trans que recomienda proveedores de confianza, incluido el Gender Affirming Letter Access Project (GALAP), que conecta con profesionales de salud mental de Maryland que escriben cartas para cirugía en 1 o 2 sesiones y ofrecen cartas gratis si no tienes seguro. También organiza grupos de apoyo T4T semanales en línea.
+    url: https://transmaryland.org/gac
+    cost: free
+    verification: org_website
+    sources: [transmd-gac]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for a period of telehealth hormone care for trans people who cannot afford it. Applications open once a year.
+      es: Fondo nacional que paga un período de atención hormonal por telesalud para personas trans que no pueden pagarla. Las solicitudes abren una vez al año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: mhc-medicaid
+    name: Maryland Health Connection (Medicaid and marketplace enrollment)
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: The state's official site to apply for Maryland Medicaid or a subsidized private plan. Free local navigators can help you enroll.
+      es: El sitio oficial del estado para solicitar Medicaid de Maryland o un plan privado subsidiado. Hay navegadores locales gratuitos que te ayudan.
+    url: https://www.marylandhealthconnection.gov/
+    cost: free
+    verification: official_source
+    sources: [mhc]
+  - id: mia-complaints
+    name: Maryland Insurance Administration, consumer complaints
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: File a complaint if a state-regulated health plan denies gender-affirming care. Online portal or 1-800-492-6116.
+      es: Presenta una queja si un plan de salud regulado por el estado niega atención de afirmación de género. Portal en línea o 1-800-492-6116.
+    url: https://insurance.maryland.gov/Consumer/Pages/FileAComplaint.aspx
+    phone: "1-800-492-6116"
+    cost: free
+    verification: official_source
+    sources: [mia-complaint]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale by income, whether or not you have insurance.
+      es: Buscador federal de centros de salud comunitarios que cobran según ingresos, tengas o no seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: Md. Code, Health-Gen. § 15-151
+    title:
+      en: Maryland Medicaid must cover medically necessary gender-affirming treatment (Trans Health Equity Act)
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=15-151&enactments=false
+  - cite: Ch. 252 and 253, 2023 Laws of Maryland (SB 460 / HB 283)
+    title:
+      en: Trans Health Equity Act; coverage beginning January 1, 2024
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0283?ys=2023RS
+  - cite: Ch. 863, 2024 Laws of Maryland (SB 119 / HB 691)
+    title:
+      en: Adds gender-affirming treatment to "legally protected health care" (shield law), effective October 1, 2024
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0119?ys=2024RS
+  - cite: Md. Code, Ins. § 27-208
+    title:
+      en: Prohibits unfair discrimination in health insurance benefits and terms
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gin&section=27-208&enactments=false
+sources:
+  - id: hg-15-151
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=15-151&enactments=false
+    title: Health-General Article § 15-151
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Program shall provide coverage for medically necessary gender-affirming treatment in a nondiscriminatory manner.
+  - id: thea-2023
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0283?ys=2023RS
+    title: HB 283 (2023), Trans Health Equity Act, Chapter 253
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Requiring, beginning on January 1, 2024, the Maryland Medical Assistance Program to provide gender-affirming treatment in a nondiscriminatory manner.
+  - id: sb119-2024
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0119?ys=2024RS
+    title: SB 119 (2024), Legally Protected Health Care - Gender-Affirming Treatment, Chapter 863
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Altering the definition of "legally protected health care" to include certain gender-affirming treatment, including medications and supplies.
+  - id: hb679-2026
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0679?ys=2026RS
+    title: HB 679 (2026), Health Occupations - Cross-Sex Hormone Therapy for Minors
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In the House - Hearing 2/18 at 1:30 p.m.
+  - id: ins-27-208
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gin&section=27-208&enactments=false
+    title: Insurance Article § 27-208
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mia-bulletin-1402
+    url: https://insurance.maryland.gov/Insurer/Documents/bulletins/bulletin-1402-transgender.pdf
+    title: Bulletin 14-02, Clarification of Coverage for Transgender Individuals (January 27, 2014)
+    publisher: Maryland Insurance Administration
+    kind: official
+    accessed: "2026-09-24"
+    quote: Read together, these provisions prohibit a carrier from discriminating among insureds under a health benefit plan on the basis of the insured's actual or perceived gender identity.
+  - id: mia-complaint
+    url: https://insurance.maryland.gov/Consumer/Pages/FileAComplaint.aspx
+    title: File a Complaint
+    publisher: Maryland Insurance Administration
+    kind: official
+    accessed: "2026-09-24"
+    quote: You should allow 90 days for a decision on your complaint.
+  - id: map-health
+    url: https://www.mapresearch.org/equality-maps/healthcare-laws-and-policies
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Bans insurance exclusions of transgender health care
+  - id: mhc
+    url: https://www.marylandhealthconnection.gov/
+    title: Maryland Health Connection
+    publisher: State of Maryland
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-md-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-maryland/gender-affirming-care
+    title: Gender Affirming Care
+    publisher: Planned Parenthood of Maryland
+    kind: org
+    accessed: "2026-09-24"
+    quote: We follow the Informed Consent Model so you do not need a mental health referral to receive hormone therapy.
+  - id: pp-md
+    url: https://www.plannedparenthood.org/planned-parenthood-maryland
+    title: Planned Parenthood of Maryland health centers
+    publisher: Planned Parenthood of Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: ww-trans
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/
+    title: Transgender Healthcare Services at Whitman-Walker
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Whitman-Walker Health provides hormone therapy to patients after engagement in healthcare services and with necessary consents to treat.
+  - id: chase-brexton
+    url: https://chasebrexton.org/
+    title: Chase Brexton Health Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: transmd-gac
+    url: https://transmaryland.org/gac
+    title: Gender Affirming Care
+    publisher: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

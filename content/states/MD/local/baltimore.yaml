@@ -1,0 +1,261 @@
+jurisdiction: MD
+slug: baltimore
+name: Baltimore
+area:
+  en: Baltimore City and Baltimore County
+  es: Ciudad de Baltimore y condado de Baltimore
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Starter list from organizations' own websites and the Baltimore City Health Department, read 2026-09-24.
+    The Baltimore City Circuit Court's Self-Represented Litigant Project page says sign-up is in Room 108 of the
+    Cummings Courthouse; the court's home page lists the Family Law Self Help Center in Room 114. Reviewer: confirm
+    the room. Chase Brexton's website no longer describes a gender-affirming care program; confirm by phone before
+    describing it as an HRT provider. Baltimore Safe Haven's services and address are from its home page; confirm
+    current drop-in hours. The Pride Center of Maryland page is script-rendered and was read through a summarizing
+    fetch. Johns Hopkins's trans health center page returned 403 and is not listed.
+intro:
+  en: >-
+    Baltimore has Maryland's largest cluster of trans services: FreeState Justice and Trans Maryland for free name
+    and gender marker help, Planned Parenthood's downtown health center for informed-consent hormones, the city's
+    free or sliding-scale sexual health clinics, and community organizations led by trans people. Name change
+    petitions from city residents are filed at the Circuit Court for Baltimore City; Baltimore County residents file
+    in Towson.
+  es: >-
+    Baltimore tiene la mayor concentración de servicios trans de Maryland: FreeState Justice y Trans Maryland para
+    ayuda gratuita con nombre y marcador de género, el centro de Planned Parenthood del centro para hormonas por
+    consentimiento informado, las clínicas de salud sexual de la ciudad y organizaciones comunitarias dirigidas por
+    personas trans. Los residentes de la ciudad presentan su cambio de nombre en el Tribunal de Circuito de la Ciudad
+    de Baltimore; los del condado de Baltimore, en Towson.
+court:
+  name: Circuit Court for Baltimore City (Family Division, Clarence M. Mitchell Jr. and Cummings Courthouses)
+  url: https://www.baltimorecitycourt.org/
+  self_help_url: https://www.baltimorecitycourt.org/court-divisions/family/self-represented-litigant-project/
+  filing_fee: 165
+  notes:
+    en: |
+      File at the Family Clerk's Office, Cummings Courthouse, 111 N. Calvert Street, Room 109 (phone 410-396-5188, 8:30 a.m. to 4:30 p.m.). The free Self-Represented Litigant Project, staffed by two attorneys, helps with forms for simple family matters, including name changes: morning sign-up is in person starting 8:30 a.m. (arrive early; it fills fast), with limited afternoon appointments. The Harry A. Cole Court Help Center in the Mitchell Courthouse (100 N. Calvert St., Room 618) offers computers and live chat with an attorney. Baltimore County residents file at the Circuit Court for Baltimore County in Towson, which has its own self-help and Access to Justice Resource Center.
+    es: |
+      Presenta en la Secretaría de Familia, Cummings Courthouse, 111 N. Calvert Street, Sala 109 (teléfono 410-396-5188, 8:30 a.m. a 4:30 p.m.). El Self-Represented Litigant Project, gratuito y atendido por dos abogados, ayuda con formularios para asuntos familiares sencillos, incluido el cambio de nombre: inscripción en persona desde las 8:30 a.m. (llega temprano), con citas limitadas por la tarde. El Centro de Ayuda Harry A. Cole en el Mitchell Courthouse (100 N. Calvert St., Sala 618) ofrece computadoras y chat en vivo con un abogado. Los residentes del condado de Baltimore presentan en el Tribunal de Circuito del condado de Baltimore en Towson.
+  sources: [bcc-srlp, bcc-home, circuit-fees]
+resources:
+  - id: freestate-justice
+    name: FreeState Justice
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free legal services for low-income LGBTQ+ Marylanders, including name changes and judicial declarations of gender identity for adults and minors, and help with health care and insurance discrimination. Legal intake 443-977-4254.
+      es: Servicios legales gratuitos para personas LGBTQ+ de bajos ingresos en Maryland, incluidos cambios de nombre y declaraciones judiciales de identidad de género para adultos y menores, y ayuda con discriminación en salud y seguros. Admisión legal 443-977-4254.
+    url: https://www.freestate-justice.org/legal-services
+    phone: "443-977-4254"
+    address: 2601 N Howard Street, Suite 120, Baltimore, MD 21218
+    cost: free
+    verification: org_website
+    sources: [freestate-legal]
+  - id: trans-maryland
+    name: Trans Maryland, Name Change Program, clinics, and support groups
+    type: name_change_clinic
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Trans-led program that pre-fills your court forms, covers costs for adults who cannot afford them, and walks you through court, SSA, and MVA. Holds free document clinics with partners including Baltimore County Circuit Court's Access to Justice Resource Center and Baltimore congregations, and runs weekly T4T online support groups.
+      es: Programa dirigido por personas trans que llena tus formularios, cubre costos para adultos que no pueden pagarlos y te guía por el tribunal, el Seguro Social y la MVA. Organiza clínicas gratuitas de documentos y grupos de apoyo T4T semanales en línea.
+    url: https://transmaryland.org/name-change-program
+    cost: free
+    verification: org_website
+    sources: [transmd-ncp, transmd-clinics]
+  - id: pp-baltimore
+    org: planned-parenthood
+    name: Planned Parenthood of Maryland, Baltimore Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for ages 16 and up (parent or guardian consent under 18), in person or by telehealth, plus STI and HIV testing and birth control. Self-pay $200 first visit and $160 follow-ups; accepts Maryland Medicaid. Also health centers in Towson and Owings Mills.
+      es: Terapia hormonal por consentimiento informado desde los 16 años (consentimiento de un padre o tutor para menores de 18), en persona o por telesalud, además de pruebas de ITS y VIH y anticonceptivos. Pago directo $200 la primera visita y $160 las siguientes; acepta Medicaid de Maryland. También hay centros en Towson y Owings Mills.
+    url: https://www.plannedparenthood.org/planned-parenthood-maryland/gender-affirming-care
+    phone: "410-576-1414"
+    address: 330 N. Howard Street, Baltimore, MD 21201
+    cost: insurance
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-md-gac, pp-md]
+  - id: chase-brexton-baltimore
+    name: Chase Brexton Health Care, Baltimore
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Community health center with a long LGBTQ care history. Sliding fee scale, a walk-in sexual health clinic (STI testing, PrEP, PEP, birth control; call ext. 4300), and mental health care (ext. 8800). Ask whether gender-affirming hormone therapy is available.
+      es: Centro de salud comunitario con larga trayectoria LGBTQ. Escala de tarifas según ingresos, clínica de salud sexual sin cita (pruebas de ITS, PrEP, PEP, anticonceptivos; ext. 4300) y salud mental (ext. 8800). Pregunta si ofrecen terapia hormonal.
+    url: https://chasebrexton.org/locations/baltimore
+    phone: "410-837-2050"
+    address: 1111 North Charles Street, Baltimore, MD 21201
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [cb-baltimore, cb-sexual-health, cb-costs]
+  - id: bchd-druid
+    name: Baltimore City Health Department, Druid Sexual Health and Wellness Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV and STI testing, PrEP and PEP. Walk-ins available Tuesday and Thursday, 9 a.m. to 5 p.m. Bills insurance; Medicaid has no copay; uninsured patients are seen with a sliding-scale discount.
+      es: Pruebas de VIH e ITS, PrEP y PEP. Sin cita martes y jueves, de 9 a.m. a 5 p.m. Factura al seguro; Medicaid sin copago; se atiende a personas sin seguro con descuento según ingresos.
+    url: https://www.baltimorecity.gov/health/our-work/health-clinics-services/sexual-health-clinic
+    phone: "443-984-3953"
+    address: 1501 W. Saratoga St., Baltimore, MD 21223
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [bchd-sexual-health]
+  - id: bchd-eastern
+    name: Baltimore City Health Department, Eastern Sexual Health and Wellness Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV and STI testing, PrEP and PEP. Monday to Friday, 9 a.m. to 5 p.m. (last appointment 4:30). Same billing rules as the Druid clinic.
+      es: Pruebas de VIH e ITS, PrEP y PEP. Lunes a viernes, de 9 a.m. a 5 p.m. Mismas reglas de facturación que la clínica Druid.
+    url: https://www.baltimorecity.gov/health/our-work/health-clinics-services/sexual-health-clinic
+    phone: "410-396-9410"
+    address: 1200 E. Fayette St., Baltimore, MD 21202
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [bchd-sexual-health]
+  - id: pride-center-md
+    name: Pride Center of Maryland
+    type: lgbtq_center
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Baltimore LGBTQ+ community center with free programs for youth, adults, veterans, and seniors, confidential HIV/STI testing, PrEP/PEP referrals, and case management.
+      es: Centro comunitario LGBTQ+ de Baltimore con programas gratuitos para jóvenes, adultos, veteranos y personas mayores, pruebas confidenciales de VIH/ITS, referencias para PrEP/PEP y manejo de casos.
+    url: https://www.pridecentermd.org/
+    phone: "844-774-3363"
+    address: 2418 Saint Paul Street, Baltimore, MD 21218
+    cost: free
+    verification: org_website
+    sources: [pride-center]
+  - id: baltimore-safe-haven
+    name: Baltimore Safe Haven
+    type: lgbtq_center
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Black-led, community-rooted wellness center founded in 2018 from lived experience of housing instability. Emergency and supportive housing, HIV prevention and PrEP linkage, mental health and peer support, drop-in center, and legal navigation. Call 443-869-6867.
+      es: Centro de bienestar comunitario dirigido por personas negras, fundado en 2018. Vivienda de emergencia y de apoyo, prevención del VIH y enlace a PrEP, salud mental y apoyo entre pares, centro de acogida y orientación legal. Llama al 443-869-6867.
+    url: https://www.baltimoresafehaven.org/
+    phone: "443-869-6867"
+    address: 814 N. Collington Ave., Baltimore, MD
+    cost: free
+    verification: org_website
+    sources: [bsh]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: unverified
+    sources: [translifeline]
+sources:
+  - id: bcc-srlp
+    url: https://www.baltimorecitycourt.org/court-divisions/family/self-represented-litigant-project/
+    title: Self-Represented Litigant Project
+    publisher: Circuit Court for Baltimore City
+    kind: court
+    accessed: "2026-09-24"
+    quote: Two licensed, full-time attorneys staff the Project. The Project is designed to assist individuals with SIMPLE family law matters.
+  - id: bcc-home
+    url: https://www.baltimorecitycourt.org/
+    title: Circuit Court for Baltimore City
+    publisher: Circuit Court for Baltimore City
+    kind: court
+    accessed: "2026-09-24"
+  - id: circuit-fees
+    url: https://www.mdcourts.gov/sites/default/files/import/circuit/feesummaryschedule.pdf
+    title: Summary of Charges, Costs, and Fees of the Clerks of the Circuit Court (effective September 2, 2026)
+    publisher: Maryland Judiciary
+    kind: official
+    accessed: "2026-09-24"
+  - id: freestate-legal
+    url: https://www.freestate-justice.org/legal-services
+    title: Legal Services
+    publisher: FreeState Justice
+    kind: org
+    accessed: "2026-09-24"
+  - id: transmd-ncp
+    url: https://transmaryland.org/name-change-program
+    title: Name and Gender Change Program
+    publisher: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: transmd-clinics
+    url: https://transmaryland.org/clinics
+    title: Trans Maryland Document Assistance Clinics
+    publisher: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-md-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-maryland/gender-affirming-care
+    title: Gender Affirming Care
+    publisher: Planned Parenthood of Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-md
+    url: https://www.plannedparenthood.org/planned-parenthood-maryland
+    title: Planned Parenthood of Maryland health centers
+    publisher: Planned Parenthood of Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: cb-baltimore
+    url: https://chasebrexton.org/locations/baltimore
+    title: Baltimore location
+    publisher: Chase Brexton Health Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: cb-sexual-health
+    url: https://chasebrexton.org/services/sexual-health-clinic
+    title: Sexual Health Clinic
+    publisher: Chase Brexton Health Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: cb-costs
+    url: https://chasebrexton.org/help-center/costs-coverage-insurance
+    title: Costs, coverage, and insurance
+    publisher: Chase Brexton Health Care
+    kind: org
+    accessed: "2026-09-24"
+    quote: For insured and uninsured patients who have a limited household income, the sliding fee scale may help.
+  - id: bchd-sexual-health
+    url: https://www.baltimorecity.gov/health/our-work/health-clinics-services/sexual-health-clinic
+    title: Sexual Health and Wellness Clinics
+    publisher: Baltimore City Health Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: Patients without insurance will be able receive services. We will not turn people away due to lack of insurance or ability to pay for services.
+  - id: pride-center
+    url: https://www.pridecentermd.org/
+    title: Pride Center of Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: bsh
+    url: https://www.baltimoresafehaven.org/
+    title: Baltimore Safe Haven
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

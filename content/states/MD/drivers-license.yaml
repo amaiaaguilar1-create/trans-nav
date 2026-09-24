@@ -1,0 +1,170 @@
+guide_type: drivers_license
+jurisdiction: MD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Legal rule confirmed from the statute (Transp. § 12-305, added by Ch. 649 of 2019) on mgaleg.maryland.gov on
+    2026-09-24. mva.maryland.gov returns HTTP 403 to automated fetches, so the MVA gender page and fee page were read
+    through Wayback Machine snapshots (gender page 2026-04-13; fee page 2026-04-13). Fee discrepancy for reviewer:
+    the MVA gender page says "a $20 fee for a duplicate product," but the MVA fee table lists Driver's License
+    Corrected $30 and Photo ID Card Duplicate/Correction $30; the $20 "Corrected License - All Types" line on the
+    fee page is under MVA Records fees. This guide uses $30 from the fee table; confirm with the MVA. Also confirm
+    whether the in-person-only rule for gender changes still applies (the FAQ dates from 2019). The 2026 Birth
+    Certificate Modernization Act (SB 626 / HB 1589), which would also have amended § 12-305, passed both chambers
+    in different forms, went to conference committee, and did not pass before sine die; § 12-305 text is
+    unchanged. No litigation found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on a Maryland driver's license, learner's permit, or ID card to M, F, or X by checking a
+    box and certifying your choice at an MVA branch. No doctor's letter, court order, or birth certificate change is
+    needed. It costs $30 for a corrected card, and you can do it in person only.
+  es: >-
+    Puedes cambiar el sexo en tu licencia de conducir, permiso de aprendizaje o tarjeta de identificación de Maryland
+    a M, F o X marcando una casilla y certificando tu elección en una oficina de la MVA. No necesitas carta médica,
+    orden judicial ni cambiar tu acta de nacimiento. Cuesta $30 por una tarjeta corregida, y solo se hace en persona.
+summary:
+  en: |
+    Since October 1, 2019, Maryland law lets every applicant choose **female, male, or unspecified/other (X)**, and the MVA **may not require proof** of sex or deny an application because your choice does not match another document (Transportation Article § 12-305). There is no separate form: you answer "yes" when the system asks if you want to change your gender, pick M, F, or X, and certify it. You can change it again later; each change is charged as a corrected card.
+
+    Changing your **name** is separate: bring your certified court order (or marriage/divorce record), and update Social Security first, because the MVA checks that your name matches SSA's record.
+  es: |
+    Desde el 1 de octubre de 2019, la ley de Maryland permite elegir **femenino, masculino o no especificado/otro (X)**, y la MVA **no puede exigir pruebas** del sexo ni negar una solicitud porque tu elección no coincida con otro documento (Artículo de Transporte § 12-305). No hay formulario aparte: respondes "sí" cuando el sistema pregunta si quieres cambiar tu género, eliges M, F o X y lo certificas.
+
+    Cambiar tu **nombre** es aparte: lleva tu orden judicial certificada y actualiza primero el Seguro Social, porque la MVA verifica que tu nombre coincida con el registro del Seguro Social.
+eligibility:
+  age:
+    en: Under 18, a parent or guardian must sign the application; if they do not sign, the card is not issued.
+    es: Menores de 18 años necesitan la firma de un padre, madre o tutor en la solicitud; sin ella no se emite la tarjeta.
+  other:
+    en: If you have not yet shown REAL ID documents (identity, Social Security number, two proofs of Maryland address), you may need to bring them to this visit. Use the MVA's REAL ID Look Up Tool to check.
+    es: Si aún no has presentado documentos de REAL ID (identidad, número de Seguro Social, dos comprobantes de domicilio en Maryland), puede que debas llevarlos. Usa la herramienta de consulta REAL ID de la MVA.
+  sources: [mva-gender]
+steps:
+  - id: update-ssa-first
+    title:
+      en: If you are changing your name, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: Take your certified name change order and photo ID to Social Security. Wait until SSA's record shows the new name (usually a few days) before going to the MVA. Skip this step if you are only changing your gender marker.
+      es: Lleva tu orden certificada de cambio de nombre e identificación con foto al Seguro Social. Espera a que su registro muestre el nuevo nombre (normalmente unos días) antes de ir a la MVA. Omite este paso si solo cambias tu marcador de género.
+    applies_to: [name_change]
+    sources: [mva-gender]
+  - id: check-realid
+    title:
+      en: Check which documents to bring
+      es: Revisa qué documentos llevar
+    body:
+      en: Use the MVA's REAL ID Look Up Tool (mymva.maryland.gov) to see whether you still owe REAL ID documents. For a name change, also bring the certified court order. No documents are needed for the gender marker itself.
+      es: Usa la herramienta de consulta REAL ID de la MVA (mymva.maryland.gov) para ver si aún debes documentos. Para un cambio de nombre, lleva también la orden judicial certificada. No se necesitan documentos para el marcador de género.
+    sources: [mva-gender]
+  - id: visit-branch
+    title:
+      en: Go to any MVA branch in person
+      es: Ve en persona a cualquier oficina de la MVA
+    body:
+      en: |
+        Gender changes cannot be done online or at a kiosk. At the counter, answer "yes" when asked if you want to change your gender, choose **M**, **F**, or **X**, and certify your choice. A new photo is taken and the corrected-card fee is charged. Your expiration date does not change if you do this outside your renewal cycle. You can also do it during a regular renewal and pay only the renewal fee.
+      es: |
+        Los cambios de género no se hacen en línea ni en quioscos. En la ventanilla, responde "sí" cuando te pregunten si quieres cambiar tu género, elige **M**, **F** o **X** y certifica tu elección. Se toma una foto nueva y se cobra la tarifa de tarjeta corregida. La fecha de vencimiento no cambia. También puedes hacerlo al renovar y pagar solo la renovación.
+    fees: [corrected-license, corrected-id]
+    applies_to: [in_person, gender_marker]
+    sources: [mva-gender, mva-fees, transp-12-305, ch649-2019]
+fees:
+  - id: corrected-license
+    label:
+      en: Corrected driver's license
+      es: Licencia de conducir corregida
+    amount: 30
+    note:
+      en: MVA fee table. The MVA gender page mentions $20; confirm at the branch.
+      es: Tabla de tarifas de la MVA. La página de género de la MVA menciona $20; confirma en la oficina.
+    sources: [mva-fees, mva-gender]
+  - id: corrected-id
+    label:
+      en: Corrected photo ID card
+      es: Tarjeta de identificación con foto corregida
+    amount: 30
+    note:
+      en: ID cards are free if you are 65 or older or have a disability that limits a major life activity.
+      es: Las tarjetas de identificación son gratis si tienes 65 años o más o una discapacidad que limita una actividad vital importante.
+    sources: [mva-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No general low-income waiver. ID cards are free for people 65 and older and for people with a qualifying disability.
+    es: No hay exención general por bajos ingresos. Las tarjetas de identificación son gratis para personas de 65 años o más y con una discapacidad que califique.
+  sources: [mva-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at any MDOT MVA branch only.
+    es: Solo en persona en cualquier oficina de la MVA.
+  sources: [mva-gender]
+timeline:
+  en: The change is made at a single branch visit.
+  es: El cambio se hace en una sola visita a la oficina.
+after:
+  en: With a corrected license you can update your passport name (sex marker changes on U.S. passports are currently not being processed), your bank, and your employer. If you were born in Maryland, see the birth certificate guide; the MVA does not require your birth certificate to match.
+  es: Con la licencia corregida puedes actualizar el nombre en tu pasaporte (los cambios de marcador de sexo en pasaportes de EE. UU. actualmente no se procesan), tu banco y tu empleador. Si naciste en Maryland, consulta la guía del acta de nacimiento; la MVA no exige que tu acta coincida.
+tips:
+  - en: You do not need to change your birth certificate first. Maryland law forbids the MVA from denying your application because your chosen marker differs from another document.
+    es: No necesitas cambiar primero tu acta de nacimiento. La ley prohíbe a la MVA negar tu solicitud porque tu marcador elegido difiera de otro documento.
+  - en: If you are renewing soon anyway, make the change at renewal so you pay only once.
+    es: Si vas a renovar pronto, haz el cambio al renovar para pagar una sola vez.
+  - en: An X marker may cause problems with some federal systems and in some other states; consider your travel plans.
+    es: Un marcador X puede causar problemas con algunos sistemas federales y en otros estados; considera tus planes de viaje.
+statutes:
+  - cite: Md. Code, Transp. § 12-305
+    title:
+      en: Applicant may indicate female, male, or unspecified/other (X); no proof of sex may be required
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=12-305&enactments=false
+  - cite: Ch. 649, 2019 Laws of Maryland (SB 196)
+    title:
+      en: Created the X option and self-certification, effective October 1, 2019
+    url: https://mgaleg.maryland.gov/2019RS/Chapters_noln/CH_649_sb0196t.pdf
+related_links:
+  - title: Trans Maryland, Just Check the Box
+    url: https://transmaryland.org/just-check-the-box
+    note:
+      en: Community flyer on the 2019 law.
+      es: Folleto comunitario sobre la ley de 2019.
+  - title: Advocates for Trans Equality, Maryland identity documents
+    url: https://transequality.org/documents/maryland-identity-documents
+sources:
+  - id: transp-12-305
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=12-305&enactments=false
+    title: Transportation Article § 12-305
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Administration may not require an applicant for a license, an identification card, or a moped operator's permit to provide proof of the applicant's sex.
+  - id: ch649-2019
+    url: https://mgaleg.maryland.gov/2019RS/Chapters_noln/CH_649_sb0196t.pdf
+    title: Chapter 649 (SB 196), 2019 Laws of Maryland
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mva-gender
+    url: https://mva.maryland.gov/about-mva/Pages/changing-gender.aspx
+    title: Changing Gender Designation
+    publisher: Maryland Department of Transportation Motor Vehicle Administration
+    kind: official
+    accessed: "2026-09-24"
+    quote: No, you will only be able to change your gender in person at a MDOT MVA branch office.
+  - id: mva-fees
+    url: https://mva.maryland.gov/about-mva/Pages/fees.aspx
+    title: MVA Fees
+    publisher: Maryland Department of Transportation Motor Vehicle Administration
+    kind: official
+    accessed: "2026-09-24"
+    quote: Driver's License Corrected $30.00; Photo ID Card - Duplicate/Correction $30.00

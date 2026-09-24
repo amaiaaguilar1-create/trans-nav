@@ -1,0 +1,540 @@
+guide_type: name_change
+jurisdiction: MD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from primary sources. Rule text confirmed from the Court of Appeals Rules Order of
+    September 30, 2022 (adopting the 211th Report), which deleted newspaper publication from Md. Rule 15-901 and
+    created Rule 15-902 (judicial declaration of gender identity), effective for actions filed on or after
+    January 1, 2023. The official Maryland Rules host (govt.westlaw.com/mdc) could not be fetched, so the rule
+    citations link to the Rules Order PDF; reviewer should confirm no later amendment (the 227th Report, comments due
+    January 2026, only proposed a cross-reference change to 15-901). A4TE's Maryland page still says notice must be
+    published in a newspaper; that is outdated (pre-2023) and conflicts with the adopted rule and the Judiciary's
+    current self-help page. Fees ($165 filing; certified copies $5 each plus 50 cents per page) are from the
+    Circuit Court fee summary effective September 2, 2026. The task brief named the minor petition "CC-DR-061";
+    the Judiciary's page and the form itself use CC-DR-062, which is used here. Unconfirmed: typical processing
+    time by county (Trans Maryland reports it varies widely); whether individual circuit courts routinely hold
+    hearings on unopposed adult petitions. No 2025 or 2026 legislation changing the name-change process was found
+    in the General Assembly bill lists. The MVA page (mva-gender) blocks automated fetches (HTTP 403) and was read via a
+    Wayback snapshot dated 2026-04-13.
+status: available
+status_summary:
+  en: >-
+    Maryland adults can change their name by filing a petition in circuit court. There is no newspaper publication,
+    the filing fee is $165 (waivable if you cannot afford it), and most unopposed petitions are decided on the
+    papers, about 30 days or more after filing. A separate petition gets you a court order recognizing your gender,
+    and that type of case is confidential automatically.
+  es: >-
+    En Maryland, las personas adultas pueden cambiar su nombre presentando una petición en el tribunal de circuito.
+    No hay publicación en periódico, la tarifa es de $165 (se puede exonerar si no puedes pagarla) y la mayoría de las
+    peticiones sin oposición se deciden por escrito, unos 30 días o más después de presentarlas. Una petición aparte
+    te da una orden judicial que reconoce tu género, y ese tipo de caso es confidencial automáticamente.
+summary:
+  en: |
+    You file a short petition with the **circuit court** (not the District Court) in the county or Baltimore City where you live, work, or were born. Since January 1, 2023, Maryland does **not** require you to publish your name change in a newspaper. The court cannot sign the order until 30 days after you file, and it may decide without a hearing. It cannot deny your petition without a hearing if you ask for one.
+
+    There are two paths:
+    - **Name only**: Petition for Change of Name of an Adult (**CC-DR-060**). The case is public unless you ask the court to seal it.
+    - **Gender recognition, with or without a name change**: Petition for Judicial Declaration of Gender Identity of an Adult (**CC-DR-120**). These cases are **confidential automatically**. You do **not** need this order to change your gender on a Maryland driver's license or a Maryland birth certificate, but it can help with other states, other countries, and anywhere that asks for a court order.
+  es: |
+    Presentas una petición breve en el **tribunal de circuito** (no en el Tribunal de Distrito) del condado o de la ciudad de Baltimore donde vives, trabajas o naciste. Desde el 1 de enero de 2023, Maryland **no** exige publicar tu cambio de nombre en un periódico. El tribunal no puede firmar la orden hasta 30 días después de la presentación y puede decidir sin audiencia. No puede negar tu petición sin audiencia si la pides.
+
+    Hay dos vías:
+    - **Solo nombre**: Petición de cambio de nombre de un adulto (**CC-DR-060**). El caso es público a menos que pidas al tribunal que lo selle.
+    - **Reconocimiento de género, con o sin cambio de nombre**: Petición de declaración judicial de identidad de género de un adulto (**CC-DR-120**). Estos casos son **confidenciales automáticamente**. **No** necesitas esta orden para cambiar tu género en la licencia de conducir ni en el acta de nacimiento de Maryland, pero puede servir en otros estados, otros países y donde pidan una orden judicial.
+eligibility:
+  residency:
+    en: File in the circuit court for the county (or Baltimore City) where you live, carry on a regular business, work, or habitually engage in a vocation, or where you were born. People born in Maryland can file here even if they now live elsewhere.
+    es: Presenta la petición en el tribunal de circuito del condado (o la ciudad de Baltimore) donde vives, tienes un negocio, trabajas o ejerces habitualmente un oficio, o donde naciste. Las personas nacidas en Maryland pueden presentar aquí aunque ahora vivan en otro lugar.
+  age:
+    en: 18 or older for the adult petition. For a minor, a parent, guardian, or custodian files; see the Minors section.
+    es: 18 años o más para la petición de adultos. Para un menor, presenta la petición un padre, madre, tutor o custodio; ver la sección Menores.
+  criminal_history:
+    en: >-
+      The petition asks whether you have ever registered as a sexual offender and, if so, under what names and in
+      which states. Registration does not automatically bar a name change, but a registrant must notify law
+      enforcement within three days after the order. The name change cannot be for an illegal or fraudulent purpose.
+    es: >-
+      La petición pregunta si alguna vez te registraste como agresor sexual y, en ese caso, con qué nombres y en qué
+      estados. El registro no impide automáticamente el cambio de nombre, pero la persona registrada debe notificar a
+      la policía dentro de tres días después de la orden.
+  sources: [mdcourts-namechange, ccdr060, rules-order-211]
+forms:
+  - id: CC-DR-060
+    name:
+      en: Petition for Change of Name of an Adult
+      es: Petición de cambio de nombre de un adulto
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr060.pdf
+    required: conditional
+    condition:
+      en: Use this if you only want to change your name.
+      es: Usa este formulario si solo quieres cambiar tu nombre.
+    how_to_fill:
+      en: |
+        - **Item 2**: check why you are filing in this county (you live, work, or were born here).
+        - **Item 3 and 4**: your birth name, and any later name changes (marriage, divorce, adoption).
+        - **Item 5 ("because")**: a short, honest reason is enough, for example "to match my gender identity" or "this is the name I use." You do not need to attach any medical letter or explain your transition.
+        - **Item 6**: check whether you have ever registered as a sexual offender.
+        - Attach a copy of your birth certificate, driver's license, passport, or another document showing your current name. Sign with your **current** legal name.
+        - The form warns that the clerk must report your name change to the State Board of Elections. If you are worried about your old and new names being linked, contact the Board to ask about shielding.
+      es: |
+        - **Punto 2**: marca por qué presentas en este condado (vives, trabajas o naciste aquí).
+        - **Puntos 3 y 4**: tu nombre de nacimiento y cualquier cambio posterior (matrimonio, divorcio, adopción).
+        - **Punto 5 ("because")**: basta una razón breve y honesta, por ejemplo "para que coincida con mi identidad de género". No necesitas carta médica.
+        - **Punto 6**: indica si alguna vez te registraste como agresor sexual.
+        - Adjunta una copia de tu acta de nacimiento, licencia, pasaporte u otro documento con tu nombre actual. Firma con tu nombre legal **actual**.
+    sources: [ccdr060, mdcourts-namechange]
+  - id: CC-DR-120
+    name:
+      en: Petition for Judicial Declaration of Gender Identity of an Adult With/Without a Name Change
+      es: Petición de declaración judicial de identidad de género de un adulto con o sin cambio de nombre
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr120.pdf
+    required: conditional
+    condition:
+      en: Use this instead of CC-DR-060 if you want a court order recognizing your gender (it can include your name change in the same case).
+      es: Usa este formulario en lugar de CC-DR-060 si quieres una orden judicial que reconozca tu género (puede incluir el cambio de nombre en el mismo caso).
+    how_to_fill:
+      en: |
+        - At the top, check **with** or **without** a name change, and write the gender designation you are asking for.
+        - **Item 3**: write the gender you are asking the court to declare and a short reason. The rule lets you attach "any documentation in support," but it does not require a doctor's letter.
+        - **Item 4**: fill in only if you are also changing your name (birth name, earlier names, new name, sexual offender registration question), and attach a document showing your current name.
+        - These cases are confidential automatically; you do not need a separate sealing request.
+      es: |
+        - Arriba, marca **con** o **sin** cambio de nombre y escribe la designación de género que pides.
+        - **Punto 3**: escribe el género que pides que el tribunal declare y una razón breve. La regla permite adjuntar documentación de apoyo, pero no exige carta médica.
+        - **Punto 4**: llénalo solo si también cambias tu nombre, y adjunta un documento con tu nombre actual.
+        - Estos casos son confidenciales automáticamente.
+    sources: [ccdr120, mdcourts-genderidentity, rules-order-211]
+  - id: CC-DC-053
+    name:
+      en: Petition to Seal or Otherwise Limit Inspection of a Case Record
+      es: Petición para sellar o limitar la inspección de un expediente
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/courtforms/joint/ccdc053.pdf/ccdc053.pdf
+    required: optional
+    condition:
+      en: Only for a name-only case (CC-DR-060 or CC-DR-062) if you want the record kept from the public. Gender identity cases (CC-DR-120/121) are already confidential.
+      es: Solo para un caso de cambio de nombre (CC-DR-060 o CC-DR-062) si quieres que el expediente no sea público. Los casos de identidad de género ya son confidenciales.
+    how_to_fill:
+      en: Explain the specific reason, for example a risk of harassment or violence if your former name and new name are publicly linked. The court requires a "special and compelling reason."
+      es: Explica la razón concreta, por ejemplo un riesgo de acoso o violencia si tu nombre anterior y el nuevo quedan vinculados públicamente. El tribunal exige una "razón especial e imperiosa".
+    sources: [mdcourts-namechange]
+  - id: CC-DC-089
+    name:
+      en: Request for Waiver of Costs
+      es: Solicitud de exención de costos
+    url: https://www.mdcourts.gov/sites/default/files/import/courtforms/joint/ccdc089.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $165 filing fee. File it with your petition, together with form MDJ-008.
+      es: Solo si no puedes pagar la tarifa de $165. Preséntala con tu petición, junto con el formulario MDJ-008.
+    sources: [mdcourts-feewaiver]
+  - id: MDJ-008
+    name:
+      en: Notice Regarding Restricted Information
+      es: Aviso sobre información restringida
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/mdj008.pdf
+    required: conditional
+    condition:
+      en: Required with a fee waiver request.
+      es: Obligatorio con una solicitud de exención de costos.
+    sources: [mdcourts-feewaiver]
+  - id: CC-DR-062
+    name:
+      en: Petition for Change of Name of a Minor
+      es: Petición de cambio de nombre de un menor
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr062.pdf
+    required: conditional
+    condition:
+      en: For a child's name change only. For a child's gender declaration (with or without a name change), use CC-DR-121.
+      es: Solo para el cambio de nombre de un menor. Para la declaración de género de un menor, usa CC-DR-121.
+    sources: [ccdr062, mdcourts-namechange]
+  - id: CC-DR-121
+    name:
+      en: Petition for Judicial Declaration of Gender Identity of a Minor With/Without a Name Change
+      es: Petición de declaración judicial de identidad de género de un menor con o sin cambio de nombre
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr121.pdf
+    required: conditional
+    condition:
+      en: Filed by a parent, guardian, or custodian for a minor.
+      es: La presenta un padre, madre, tutor o custodio en nombre de un menor.
+    sources: [mdcourts-genderidentity]
+  - id: CC-DR-063
+    name:
+      en: Parent's/Guardian's/Custodian's Consent/Objection to Change of Name of a Minor
+      es: Consentimiento u objeción del padre, madre, tutor o custodio al cambio de nombre de un menor
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr063.pdf
+    required: conditional
+    condition:
+      en: For each parent, guardian, or custodian in a minor's name-change case.
+    sources: [mdcourts-namechange]
+  - id: CC-DR-119
+    name:
+      en: Minor's Consent/Objection to Change of Name
+      es: Consentimiento u objeción del menor al cambio de nombre
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr119.pdf
+    required: conditional
+    condition:
+      en: Required if the minor is 10 or older.
+    sources: [mdcourts-namechange]
+  - id: CC-DR-123
+    name:
+      en: Parent's/Guardian's/Custodian's Consent/Objection to Judicial Declaration of Gender Identity of a Minor
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr123.pdf
+    required: conditional
+    condition:
+      en: For each parent, guardian, or custodian in a minor's gender identity case.
+    sources: [mdcourts-genderidentity]
+  - id: CC-DR-124
+    name:
+      en: Minor's Consent/Objection to Judicial Declaration of Gender Identity
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr124.pdf
+    required: conditional
+    condition:
+      en: Required if the minor is 10 or older.
+    sources: [mdcourts-genderidentity]
+steps:
+  - id: choose-petition
+    title:
+      en: Choose your petition
+      es: Elige tu petición
+    body:
+      en: |
+        - **Name only**: CC-DR-060. Add CC-DC-053 if you want the record sealed.
+        - **Court order recognizing your gender, with or without a new name**: CC-DR-120. Confidential automatically.
+
+        Free help filling out either form: the Maryland Court Help Center (410-260-1392, weekdays 8:30 a.m. to 8 p.m.), the family law help center at your courthouse, or Trans Maryland's Name Change Program, which pre-fills the forms for you.
+      es: |
+        - **Solo nombre**: CC-DR-060. Agrega CC-DC-053 si quieres sellar el expediente.
+        - **Orden judicial que reconoce tu género, con o sin nombre nuevo**: CC-DR-120. Confidencial automáticamente.
+
+        Ayuda gratuita: el Centro de Ayuda de los Tribunales de Maryland (410-260-1392), el centro de ayuda de derecho familiar de tu tribunal, o el Programa de Cambio de Nombre de Trans Maryland, que llena los formularios por ti.
+    forms: [CC-DR-060, CC-DR-120, CC-DC-053]
+    sources: [mdcourts-namechange, mdcourts-genderidentity, transmd-ncp]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de costos si no puedes pagar
+    body:
+      en: File the Request for Waiver of Costs (CC-DC-089) and the Notice Regarding Restricted Information (MDJ-008) with your petition. No fee is due when you file. A judge decides; if it is denied you have 10 days to pay. Trans Maryland also covers costs for trans adults who cannot afford them.
+      es: Presenta la Solicitud de exención de costos (CC-DC-089) y el Aviso sobre información restringida (MDJ-008) con tu petición. No pagas nada al presentar. Un juez decide; si la niega, tienes 10 días para pagar. Trans Maryland también cubre los costos de personas trans adultas que no pueden pagarlos.
+    forms: [CC-DC-089, MDJ-008]
+    optional: true
+    sources: [mdcourts-feewaiver, transmd-ncp]
+  - id: file
+    title:
+      en: File at the circuit court clerk
+      es: Presenta los documentos en la secretaría del tribunal de circuito
+    body:
+      en: |
+        Bring or mail your petition, attachments, and the $165 fee (or fee waiver request) to the clerk of the circuit court in your county or Baltimore City. Do **not** go to the District Court. Keep a stamped copy. Sign with your current legal name.
+      es: |
+        Lleva o envía por correo tu petición, anexos y la tarifa de $165 (o la solicitud de exención) a la secretaría del tribunal de circuito de tu condado o de la ciudad de Baltimore. **No** vayas al Tribunal de Distrito. Guarda una copia sellada.
+    fees: [filing]
+    sources: [mdcourts-namechange, circuit-fees]
+  - id: wait
+    title:
+      en: Wait at least 30 days for the order
+      es: Espera al menos 30 días por la orden
+    body:
+      en: |
+        There is no newspaper notice. For an adult, the court may not sign the order until 30 days after filing; anyone who knows of a fraudulent or illegal purpose can object in that time. The judge may rule without a hearing. If an objection is filed you may answer it within 15 days, and the court cannot deny your petition without a hearing if you ask for one. Timelines vary a lot by county.
+      es: |
+        No hay aviso en periódico. Para un adulto, el tribunal no puede firmar la orden hasta 30 días después de la presentación. El juez puede decidir sin audiencia. Si alguien presenta una objeción puedes responder dentro de 15 días, y el tribunal no puede negar tu petición sin audiencia si la pides. Los plazos varían mucho según el condado.
+    estimated_time:
+      en: 30 days minimum; often longer
+      es: 30 días como mínimo; a menudo más
+    sources: [rules-order-211, mdcourts-namechange, transmd-ncp]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: If the court does not mail you a certified copy, ask the clerk. Get at least 3. Certification costs $5 per copy plus 50 cents per page.
+      es: Si el tribunal no te envía una copia certificada, pídela en la secretaría. Obtén al menos 3. La certificación cuesta $5 por copia más 50 centavos por página.
+    fees: [certified-copies]
+    sources: [mdcourts-namechange, circuit-fees]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). The MVA will not change your name until SSA has it.
+        2. **MVA** driver's license or ID, in person (see the driver's license guide).
+        3. **Birth certificate**, if you were born in Maryland (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, and school records. If you were married in Maryland, form CC-FM-072 gets you a new marriage record.
+      es: |
+        1. **Seguro Social** primero (gratis). La MVA no cambia tu nombre hasta que el Seguro Social lo tenga.
+        2. **MVA**, licencia o identificación, en persona.
+        3. **Acta de nacimiento**, si naciste en Maryland.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante y escuela.
+    sources: [mdcourts-namechange, mva-gender, transmd-ncp]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee (name change or gender declaration petition)
+      es: Tarifa de presentación en el tribunal de circuito
+    amount: 165
+    waivable: true
+    note:
+      en: Statewide civil filing fee. The same $165 applies to a judicial declaration of gender identity.
+      es: Tarifa civil estatal. Los mismos $165 se aplican a la declaración judicial de identidad de género.
+    sources: [circuit-fees, mdcourts-namechange, mdcourts-genderidentity]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    amount: 5
+    note:
+      en: $5 per certification plus 50 cents per page.
+      es: $5 por certificación más 50 centavos por página.
+    sources: [circuit-fees]
+fee_waiver:
+  available: true
+  forms: [CC-DC-089, MDJ-008]
+  eligibility:
+    en: The judge decides based on the Maryland Legal Services Corporation income guidelines and other factors, such as receiving public benefits. There is no automatic qualification written on the Judiciary's page.
+    es: El juez decide según las pautas de ingresos de la Maryland Legal Services Corporation y otros factores. No hay calificación automática.
+  how:
+    en: File CC-DC-089 and MDJ-008 with your petition. If granted, the clerk opens your case without payment. If denied, pay within 10 days or the case is treated as withdrawn.
+    es: Presenta CC-DC-089 y MDJ-008 con tu petición. Si se concede, la secretaría abre tu caso sin pago. Si se niega, paga dentro de 10 días.
+  sources: [mdcourts-feewaiver]
+publication:
+  required: "no"
+  detail:
+    en: The Court of Appeals deleted the newspaper publication requirement from Rule 15-901 for actions filed on or after January 1, 2023. Before that, Courts & Judicial Proceedings § 3-2201 (2022) already required courts to waive publication on request. Some older guides still describe publication; they are out of date.
+    es: El Tribunal de Apelaciones eliminó el requisito de publicación en periódico de la Regla 15-901 para acciones presentadas a partir del 1 de enero de 2023. Algunas guías antiguas todavía mencionan la publicación; están desactualizadas.
+  waiver_available: true
+  sources: [rules-order-211, cj-3-2201, mdcourts-namechange]
+hearing:
+  required: conditional
+  detail:
+    en: For adults, the judge may rule without a hearing but not earlier than 30 days after filing. The court cannot deny a petition without a hearing if you requested one. For minors, a hearing is required if a parent, guardian, or custodian objects.
+    es: Para adultos, el juez puede decidir sin audiencia, pero no antes de 30 días después de la presentación. No puede negar la petición sin audiencia si la pediste. Para menores, hay audiencia si un padre, madre, tutor o custodio se opone.
+  sources: [rules-order-211]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. You must disclose any sexual offender registration on the petition.
+    es: No se toman huellas ni se hace verificación de antecedentes. Debes declarar cualquier registro como agresor sexual en la petición.
+  sources: [ccdr060, rules-order-211]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      **Judicial declaration of gender identity** cases (CC-DR-120/121, with or without a name change) are confidential automatically under Rule 16-914(p). **Name-only** cases are public (they appear in Maryland Judiciary Case Search) unless you file CC-DC-053 and show a special and compelling reason. Either way, the clerk reports the name change to the State Board of Elections.
+    es: |
+      Los casos de **declaración judicial de identidad de género** (CC-DR-120/121, con o sin cambio de nombre) son confidenciales automáticamente según la Regla 16-914(p). Los casos de **solo nombre** son públicos a menos que presentes CC-DC-053 y muestres una razón especial e imperiosa. En ambos casos, la secretaría informa el cambio de nombre a la Junta Estatal de Elecciones.
+  how:
+    en: If privacy matters to you, the simplest route is to file CC-DR-120 and include your name change in it. Otherwise file CC-DC-053 with your CC-DR-060 petition.
+    es: Si te importa la privacidad, lo más sencillo es presentar CC-DR-120 e incluir el cambio de nombre. Si no, presenta CC-DC-053 con tu petición CC-DR-060.
+  sources: [mdcourts-genderidentity, mdcourts-namechange, rules-order-211, ccdr120]
+minors:
+  summary:
+    en: |
+      A parent, guardian, or custodian files in the county where the child or any parent, guardian, or custodian lives. **Name only**: CC-DR-062. **Gender declaration, with or without a name change**: CC-DR-121 (confidential automatically; can also be filed where the child was born). Attach the written consent of each parent, guardian, or custodian (CC-DR-063 or CC-DR-123) and, if the child is 10 or older, the child's own consent (CC-DR-119 or CC-DR-124). If a parent has not consented, the clerk issues a notice that you must have served on them; they have 30 days to object, and silence counts as consent. If everyone consents or no one objects, the judge can rule without a hearing; otherwise the court holds a hearing and decides based on the child's best interest.
+    es: |
+      Un padre, madre, tutor o custodio presenta la petición en el condado donde vive el menor o cualquiera de ellos. **Solo nombre**: CC-DR-062. **Declaración de género, con o sin cambio de nombre**: CC-DR-121 (confidencial automáticamente). Adjunta el consentimiento escrito de cada padre, tutor o custodio (CC-DR-063 o CC-DR-123) y, si el menor tiene 10 años o más, su propio consentimiento (CC-DR-119 o CC-DR-124). Si un padre no ha consentido, debes notificarle; tiene 30 días para objetar y el silencio cuenta como consentimiento. Si nadie se opone, el juez puede decidir sin audiencia; si no, hay audiencia y se decide según el interés superior del menor.
+  forms: [CC-DR-062, CC-DR-121, CC-DR-063, CC-DR-119, CC-DR-123, CC-DR-124]
+  sources: [mdcourts-namechange, mdcourts-genderidentity, ccdr062, rules-order-211]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: File in person or by mail with the circuit court clerk. Self-represented e-filing through MDEC may be available; check with your court.
+    es: Presenta en persona o por correo en la secretaría del tribunal de circuito. Consulta con tu tribunal si acepta presentación electrónica.
+  sources: [mdcourts-namechange]
+timeline:
+  en: At least 30 days from filing to a signed order for adults; in practice often 1 to 3 months depending on the county. Then 1 to 3 weeks to update Social Security and the MVA.
+  es: Al menos 30 días desde la presentación hasta la orden firmada para adultos; en la práctica a menudo de 1 a 3 meses según el condado. Luego de 1 a 3 semanas para actualizar el Seguro Social y la MVA.
+after:
+  en: |
+    Go to **Social Security** first with your certified order and photo ID (the name changes; the sex field currently cannot be changed there). Then the **MVA** in person: your name must match SSA, and you can change your gender marker to M, F, or X at the same visit just by checking a box ($30 for a corrected license or ID). If you were born in Maryland, send the order to the **Division of Vital Records** for a new birth certificate. Then your **passport** (name changes are processed; sex marker changes currently are not), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Ve primero al **Seguro Social** con tu orden certificada e identificación con foto (el nombre cambia; el campo de sexo actualmente no). Luego a la **MVA** en persona: tu nombre debe coincidir con el del Seguro Social, y puedes cambiar tu marcador de género a M, F o X en la misma visita marcando una casilla ($30 por licencia o identificación corregida). Si naciste en Maryland, envía la orden a la **División de Registros Vitales** para una nueva acta de nacimiento. Después, tu **pasaporte**, banco, empleador, seguro, registro de votante y escuela.
+tips:
+  - en: If you want privacy, file CC-DR-120 (gender declaration) with your name change included. It is automatically confidential, costs the same $165, and gives you a court order recognizing your gender that other states and countries accept.
+    es: Si quieres privacidad, presenta CC-DR-120 (declaración de género) con el cambio de nombre incluido. Es confidencial automáticamente, cuesta los mismos $165 y te da una orden judicial que reconoce tu género.
+  - en: Trans Maryland's Name Change Program pre-fills your forms, covers costs for trans adults who cannot afford them, and stays with you through the court, SSA, and MVA steps.
+    es: El Programa de Cambio de Nombre de Trans Maryland llena tus formularios, cubre los costos para personas trans adultas que no pueden pagarlos y te acompaña en el tribunal, el Seguro Social y la MVA.
+  - en: The Maryland Court Help Center (410-260-1392) has lawyers who answer questions for free by phone and chat, weekdays 8:30 a.m. to 8 p.m.
+    es: El Centro de Ayuda de los Tribunales de Maryland (410-260-1392) tiene abogados que responden preguntas gratis por teléfono y chat.
+local_help:
+  - id: trans-maryland-ncp
+    name: Trans Maryland, Name Change Program and Document Assistance Clinics
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: By-and-for trans program for Maryland adults 18+. Pre-fills court forms, schedules a phone intake, and helps through court, SSA, MVA, birth certificate, and passport. All costs covered for people who cannot afford them (costs above $1,000 may need an outside referral). Also runs free in-person document clinics around the state.
+      es: Programa hecho por y para personas trans, para adultos de Maryland de 18 años o más. Llena los formularios, hace una entrevista telefónica y acompaña en el tribunal, Seguro Social, MVA, acta de nacimiento y pasaporte. Cubre todos los costos para quienes no pueden pagarlos (más de $1,000 puede requerir referencia externa). También organiza clínicas gratuitas en persona.
+    url: https://transmaryland.org/name-change-program
+    areas_served:
+      en: Statewide (Maryland residents)
+      es: Todo el estado (residentes de Maryland)
+    cost: free
+    verification: org_website
+    sources: [transmd-ncp, transmd-clinics]
+  - id: freestate-justice
+    name: FreeState Justice
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Maryland's LGBTQ+ legal aid organization. Free legal services for low-income clients, including name changes and judicial declarations of gender identity for adults and minors. Legal intake 443-977-4254.
+      es: Organización de ayuda legal LGBTQ+ de Maryland. Servicios legales gratuitos para personas de bajos ingresos, incluidos cambios de nombre y declaraciones judiciales de identidad de género para adultos y menores. Admisión legal 443-977-4254.
+    url: https://www.freestate-justice.org/legal-services
+    phone: "443-977-4254"
+    address: 2601 N Howard Street, Suite 120, Baltimore, MD 21218
+    cost: free
+    verification: org_website
+    sources: [freestate-legal]
+  - id: whitman-walker-legal
+    name: Whitman-Walker Health, Legal Services
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free legal help with name and gender marker changes for people in DC, Maryland, and Virginia, including help collecting provider letters and seeking help with court fees. Name and gender change clinics with TransLAW. Call 202-939-7630.
+      es: Ayuda legal gratuita con cambios de nombre y marcador de género para personas de DC, Maryland y Virginia, incluida ayuda para obtener cartas de proveedores y con tarifas judiciales. Llama al 202-939-7630.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    phone: "202-939-7630"
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: md-court-help-center
+    name: Maryland Court Help Center
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free legal help by phone and live chat from Judiciary staff attorneys, weekdays 8:30 a.m. to 8 p.m. They explain the process and help with forms but do not represent you.
+      es: Ayuda legal gratuita por teléfono y chat con abogados del Poder Judicial, días laborables de 8:30 a.m. a 8 p.m. Explican el proceso y ayudan con formularios, pero no te representan.
+    url: https://www.mdcourts.gov/helpcenter
+    phone: "410-260-1392"
+    cost: free
+    verification: official_source
+    sources: [mdcourts-namechange]
+statutes:
+  - cite: Md. Rule 15-901
+    title:
+      en: Action for change of name (as amended by Rules Order of Sept. 30, 2022, effective Jan. 1, 2023; publication deleted)
+    url: https://www.mdcourts.gov/sites/default/files/rules/order/ro211.pdf
+  - cite: Md. Rule 15-902
+    title:
+      en: Action for judicial declaration of gender identity (effective Jan. 1, 2023)
+    url: https://www.mdcourts.gov/sites/default/files/rules/order/ro211.pdf
+  - cite: Md. Code, Cts. & Jud. Proc. § 3-2201
+    title:
+      en: Court shall waive publication on motion of the petitioner
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-2201&enactments=false
+related_links:
+  - title: Maryland Judiciary, Name Change
+    url: https://www.mdcourts.gov/legalhelp/family/namechange
+    note:
+      en: Official self-help page with forms and videos. Fact sheet also in Spanish.
+      es: Página oficial de autoayuda con formularios y videos. Hoja informativa también en español.
+  - title: Maryland Judiciary, Judicial Declarations of Gender Identity
+    url: https://www.mdcourts.gov/genderidentity
+  - title: Advocates for Trans Equality, Maryland identity documents
+    url: https://transequality.org/documents/maryland-identity-documents
+    note:
+      en: No last-updated date shown. Its name change section still describes newspaper publication, which Maryland eliminated in 2023, and its birth certificate section predates current fees.
+      es: Sin fecha de actualización. Su sección de cambio de nombre todavía describe la publicación en periódico, eliminada en 2023.
+sources:
+  - id: mdcourts-namechange
+    url: https://www.mdcourts.gov/legalhelp/family/namechange
+    title: Name Change
+    publisher: Maryland Judiciary
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you are an adult changing your own name, go to the circuit court in the county (or Baltimore City) where you live, carry on a regular business, work, habitually engage in a vocation, or where you were born.
+  - id: mdcourts-genderidentity
+    url: https://www.mdcourts.gov/genderidentity
+    title: Judicial Declarations of Gender Identity
+    publisher: Maryland Judiciary
+    kind: official
+    accessed: "2026-09-24"
+    quote: Judicial declarations of gender identity cases are confidential. You do not need to do anything to prevent the public from seeing records in your case.
+  - id: ccdr060
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr060.pdf
+    title: Form CC-DR-060, Petition for Change of Name of an Adult (Rev. 08/2025)
+    publisher: Maryland Judiciary
+    kind: form
+    accessed: "2026-09-24"
+    quote: The Clerk of Court is required by law to notify the State Board of Elections (SBE) of a court-ordered change of name.
+  - id: ccdr120
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr120.pdf
+    title: Form CC-DR-120, Petition for Judicial Declaration of Gender Identity of an Adult With/Without a Name Change (Rev. 08/2025)
+    publisher: Maryland Judiciary
+    kind: form
+    accessed: "2026-09-24"
+    quote: A court order is not necessary to update your gender marker on records with the Social Security Administration, Maryland Motor Vehicle Administration, Maryland Division of Vital Records (for your Maryland birth certificate), or the U.S. Department of State (for your passport).
+  - id: ccdr062
+    url: https://www.mdcourts.gov/sites/default/files/court-forms/ccdr062.pdf
+    title: Form CC-DR-062, Petition for Change of Name of a Minor (Rev. 01/2023)
+    publisher: Maryland Judiciary
+    kind: form
+    accessed: "2026-09-24"
+  - id: rules-order-211
+    url: https://www.mdcourts.gov/sites/default/files/rules/order/ro211.pdf
+    title: Rules Order adopting the 211th Report (Rules 15-901 and 15-902), filed September 30, 2022
+    publisher: Court of Appeals of Maryland
+    kind: court
+    accessed: "2026-09-24"
+    quote: Although there is no publication or other required notice of a requested name change of an adult, if a person learns of a requested name change, the 30-day delay in the entry of an order after the petition is filed affords a period of time within which an objection could be filed.
+  - id: cj-3-2201
+    url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-2201&enactments=false
+    title: Courts and Judicial Proceedings § 3-2201
+    publisher: Maryland General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: On motion by an individual who has filed an action for change of name under Maryland Rule 15-901, the court shall waive the publication requirement under the rule.
+  - id: circuit-fees
+    url: https://www.mdcourts.gov/sites/default/files/import/circuit/feesummaryschedule.pdf
+    title: Summary of Charges, Costs, and Fees of the Clerks of the Circuit Court (effective September 2, 2026)
+    publisher: Maryland Judiciary
+    kind: official
+    accessed: "2026-09-24"
+    quote: CERTIFICATION $5 each + 50¢/ page
+  - id: mdcourts-feewaiver
+    url: https://www.mdcourts.gov/legalhelp/filingfeewaivers
+    title: Filing Fee Waivers
+    publisher: Maryland Judiciary
+    kind: official
+    accessed: "2026-09-24"
+    quote: The court will consider the MLSC Client Income Eligibility Guidelines in evaluating your request, although it is ultimately up to the court to decide whether or not to grant the waiver.
+  - id: mva-gender
+    url: https://mva.maryland.gov/about-mva/Pages/changing-gender.aspx
+    title: Changing Gender Designation
+    publisher: Maryland Motor Vehicle Administration
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name changes on a driver's license or ID card are completed via submission of appropriate documentation of the name change and must also be reflected in the Social Security Card.
+  - id: transmd-ncp
+    url: https://transmaryland.org/name-change-program
+    title: Name and Gender Change Program
+    publisher: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+    quote: All costs covered for those who cannot afford them (costs above $1000 per person may require external referral).
+  - id: transmd-clinics
+    url: https://transmaryland.org/clinics
+    title: Trans Maryland Document Assistance Clinics
+    publisher: Trans Maryland
+    kind: org
+    accessed: "2026-09-24"
+  - id: freestate-legal
+    url: https://www.freestate-justice.org/legal-services
+    title: Legal Services
+    publisher: FreeState Justice
+    kind: org
+    accessed: "2026-09-24"
+    quote: Legal Name Changes for Adults and Minors; Judicial Declarations of Gender Identity for Adults and Minors
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Legal Services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
