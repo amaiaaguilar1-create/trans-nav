@@ -1,0 +1,128 @@
+code: ID
+name:
+  en: Idaho
+  es: Idaho
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings follow Idaho Code 73-114 (sex defined as biological sex, HB 421 of 2024), 39-245A, 18-1506C (HB 71,
+    2023), 18-8901 (HB 668, 2024), and the January 8, 2026 order dissolving the F.V. v. Barron injunction, all read on
+    2026-09-24; they agree with MAP's Idaho profile (all identity-document items rated negative law). Add the Words
+    Idaho (addidaho.org) did not resolve and is not listed. Idaho Legal Aid Services' site returned HTTP 403 to automated
+    requests; its URL and phone come from A4TE's Idaho page and should be checked by a reviewer.
+overview:
+  en: >-
+    Idaho is one of the most restrictive states for trans people. You can change your **name** in court, but you must
+    publish a notice in a newspaper for four weeks and attend a hearing. Since a federal court injunction was dissolved in
+    January 2026, Idaho no longer changes the sex on birth certificates, and because the Transportation Department ties
+    the license sex marker to the birth certificate, most people can no longer change it on a license either. Hormone
+    therapy and surgery for gender transition are banned for everyone under 18 (a felony for providers), and public
+    money, including Medicaid, may not pay for this care at any age. Adults can still get hormones from private clinics,
+    Planned Parenthood, and telehealth.
+  es: >-
+    Idaho es uno de los estados más restrictivos para las personas trans. Puedes cambiar tu **nombre** en la corte,
+    pero debes publicar un aviso en un periódico durante cuatro semanas y asistir a una audiencia. Desde que se disolvió
+    una orden judicial federal en enero de 2026, Idaho ya no cambia el sexo en las actas de nacimiento, y como el
+    Departamento de Transporte vincula el sexo de la licencia al acta de nacimiento, la mayoría de las personas ya no
+    puede cambiarlo en la licencia. La terapia hormonal y la cirugía de transición están prohibidas para menores de 18
+    años (un delito grave para los proveedores), y el dinero público, incluido Medicaid, no puede pagar esta atención a
+    ninguna edad. Los adultos todavía pueden obtener hormonas en clínicas privadas, Planned Parenthood y por telesalud.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [ic-73-114, fv-order, ic-18-1506c, ic-18-8901, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [boise]
+key_resources:
+  - id: idaho-legal-aid
+    name: Idaho Legal Aid Services
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide free civil legal help for people with low incomes, with offices around Idaho. Publishes self-help guides on name changes and ID documents and a list of LGBTQIA+ community resources.
+      es: Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos, con oficinas en Idaho. Publica guías de autoayuda sobre cambios de nombre y documentos de identidad y una lista de recursos LGBTQIA+.
+    url: https://www.idaholegalaid.org/
+    cost: free
+    verification: unverified
+    sources: [a4te-id]
+  - id: aclu-idaho
+    name: ACLU of Idaho
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Tracks and challenges Idaho laws affecting LGBTQIA+ people and publishes plain-language fact sheets on each new law (HB 71, HB 421, HB 668, and the 2025-2026 restroom laws).
+      es: Sigue e impugna las leyes de Idaho que afectan a las personas LGBTQIA+ y publica hojas informativas en lenguaje sencillo sobre cada nueva ley.
+    url: https://www.acluidaho.org/know-your-rights/lgbtqia-rights/
+    cost: free
+    verification: org_website
+    sources: [aclu-id]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ic-73-114
+    url: https://legislature.idaho.gov/statutesrules/idstat/title73/t73ch1/sect73-114/
+    title: Idaho Code § 73-114, statutory terms defined
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "\"Sex\" means an individual's biological sex, either male or female."
+  - id: fv-order
+    url: https://storage.courtlistener.com/recap/gov.uscourts.idd.38981/gov.uscourts.idd.38981.101.0_2.pdf
+    title: F.V. v. Charron (formerly F.V. v. Barron), No. 1:17-cv-00170, Order Amending Judgment and Dissolving Permanent Injunction (D. Idaho Jan. 8, 2026)
+    publisher: US District Court for the District of Idaho (via CourtListener)
+    kind: court
+    accessed: "2026-09-24"
+    quote: The same judgment is AMENDED to reflect that the permanent injunction is DISSOLVED.
+  - id: ic-18-1506c
+    url: https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch15/sect18-1506c/
+    title: Idaho Code § 18-1506C, Vulnerable Child Protection Act
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ic-18-8901
+    url: https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch89/sect18-8901/
+    title: Idaho Code § 18-8901, use of public funds for gender transition procedures prohibited
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/profile_state/ID
+    title: Idaho equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-id
+    url: https://transequality.org/documents/idaho-identity-documents
+    title: Idaho Identity Documents (last updated January 2026)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-id
+    url: https://www.acluidaho.org/know-your-rights/lgbtqia-rights/
+    title: Your Rights as an LGBTQIA+ Person
+    publisher: ACLU of Idaho
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

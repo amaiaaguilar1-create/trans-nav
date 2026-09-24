@@ -1,0 +1,223 @@
+guide_type: birth_certificate
+jurisdiction: ID
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Idaho Code 39-245A (as amended 2024, ch. 322) and the January 8, 2026 order in F.V. v. Charron (formerly F.V. v.
+    Barron), No. 1:17-cv-00170, dissolving the 2018 permanent injunction, read directly 2026-09-24 via CourtListener.
+    The December 5, 2025 joint stipulation (Dkt. 100) records the state's representation that it has "no intention to
+    rescind any birth certificate amendments that have been made pursuant to this Court's injunction"; this is a
+    representation, not a court order. Name-change fees ($20 processing, $16 per copy, $25 optional rush) come from the
+    DHW packet "Instructions to Request the Processing of a Court Ordered Name Change" (revised 01/2026). DHW's Change a
+    Birth Certificate page (updated 1-9-2026) no longer lists any sex-designation procedure. Processing time (3-4 weeks
+    for legal changes; 1-2 weeks with rush) from DHW's Processing Times and Fees page. A4TE (January 2026) agrees.
+status: prohibited
+requirement_type: prohibited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Idaho does not change the sex on birth certificates. A federal court order that had required it since 2018 was
+    dissolved on January 8, 2026. Certificates already amended under that order have not been voided. You can still
+    update the name on an Idaho birth certificate with a certified court order for $20.
+  es: >-
+    Idaho no cambia el sexo en las actas de nacimiento. Una orden judicial federal que lo exigía desde 2018 se disolvió
+    el 8 de enero de 2026. Las actas ya modificadas bajo esa orden no se han anulado. Todavía puedes actualizar el nombre
+    en un acta de Idaho con una orden judicial certificada por $20.
+summary:
+  en: |
+    Idaho Code § 39-245A says an Idaho birth certificate records sex at the time of birth, defined as biological sex. After the first year, it can be changed only through a court challenge for fraud, duress, or a material mistake of fact.
+
+    From 2018 until January 2026, a federal court injunction in *F.V. v. Barron* required the Bureau of Vital Records to accept applications from transgender people to change the sex on their certificates, even after the legislature passed § 39-245A in 2020. In October 2025 the state asked the court to end the injunction, citing the Supreme Court's 2025 rulings, and on **January 8, 2026** the court dissolved it by agreement of the parties. Idaho no longer accepts these requests.
+
+    **If you already changed your certificate**, the state told the court it has no intention of rescinding amendments made under the injunction. Keep your certified copies.
+
+    **Name changes**: Idaho Vital Records will add a court-ordered name change to your birth certificate and issue an amended certificate.
+
+    If you were born in another state, that state's rules apply, not Idaho's.
+  es: |
+    El Código de Idaho § 39-245A dice que el acta de nacimiento de Idaho registra el sexo al momento del nacimiento, definido como sexo biológico. Después del primer año, solo se puede cambiar mediante una impugnación judicial por fraude, coacción o error material de hecho.
+
+    Desde 2018 hasta enero de 2026, una orden judicial federal en *F.V. v. Barron* obligaba a la Oficina de Registros Vitales a aceptar solicitudes de personas transgénero para cambiar el sexo en sus actas. En octubre de 2025 el estado pidió terminar la orden y el **8 de enero de 2026** la corte la disolvió por acuerdo de las partes. Idaho ya no acepta estas solicitudes.
+
+    **Si ya cambiaste tu acta**, el estado dijo a la corte que no tiene intención de anular las modificaciones hechas bajo la orden. Guarda tus copias certificadas.
+
+    **Cambios de nombre**: Registros Vitales de Idaho agrega un cambio de nombre ordenado por la corte a tu acta y emite un acta modificada.
+
+    Si naciste en otro estado, se aplican las reglas de ese estado.
+eligibility:
+  other:
+    en: Only for people born in Idaho. If you were born elsewhere, contact your birth state's vital records office.
+    es: Solo para personas nacidas en Idaho. Si naciste en otro lugar, contacta la oficina de registros vitales de tu estado de nacimiento.
+  sources: [dhw-name-packet, ic-39-245a]
+forms:
+  - id: Court Ordered Name Change packet
+    name:
+      en: Instructions and application to process a court-ordered name change on an Idaho birth certificate
+      es: Instrucciones y solicitud para procesar un cambio de nombre ordenado por la corte en un acta de Idaho
+    url: https://publicdocuments.dhw.idaho.gov/WebLink/ElectronicFile.aspx?docid=1294&dbid=0&repo=PUBLIC-DOCUMENTS
+    required: always
+    how_to_fill:
+      en: >-
+        Include a certified copy of the court order showing the file date, original court seal, clerk's signature, your
+        name as on the birth certificate, your new name, and your date of birth. If the order has no date of birth, add a
+        notarized Affidavit of One and the Same Person. Use the Legal Action Request form in the packet to order new
+        copies. If you want a copy of the original certificate, order it before requesting the change.
+      es: >-
+        Incluye una copia certificada de la orden judicial con fecha de presentación, sello original, firma del
+        secretario, tu nombre como aparece en el acta, tu nuevo nombre y tu fecha de nacimiento. Si la orden no tiene
+        fecha de nacimiento, agrega una Declaración Jurada de Misma Persona notariada.
+    sources: [dhw-name-packet]
+  - id: Affidavit of One and the Same Person
+    name:
+      en: Affidavit of One and the Same Person
+      es: Declaración jurada de misma persona
+    url: https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=5786&dbid=0&repo=PUBLIC-DOCUMENTS
+    required: conditional
+    condition:
+      en: Only if your court order does not list your date of birth.
+      es: Solo si tu orden judicial no indica tu fecha de nacimiento.
+    sources: [dhw-change]
+steps:
+  - id: order-original
+    title:
+      en: Order a copy of the original first, if you want one
+      es: Pide primero una copia del acta original, si la quieres
+    body:
+      en: Once the name change is processed, Idaho issues the amended record. Order any copy of the original certificate before you submit the change.
+      es: Una vez procesado el cambio de nombre, Idaho emite el registro modificado. Pide cualquier copia del original antes de enviar el cambio.
+    optional: true
+    applies_to: [name_change]
+    sources: [dhw-name-packet]
+  - id: mail-name-change
+    title:
+      en: Mail the name change request to Idaho Vital Records
+      es: Envía por correo la solicitud de cambio de nombre a Registros Vitales de Idaho
+    body:
+      en: >-
+        Send the application, a copy of your ID showing signature and expiration date, the certified court order, and
+        the $20 fee (plus $16 per new copy) to Idaho Vital Records, Attn Legal Amendments, PO Box 83720, Boise, ID
+        83720-0036. Write RUSH on the envelope and add $25 for faster processing. Questions go to ivrla@dhw.idaho.gov or
+        208-334-5980, option 4.
+      es: >-
+        Envía la solicitud, una copia de tu identificación con firma y fecha de vencimiento, la orden judicial
+        certificada y la tarifa de $20 (más $16 por cada copia nueva) a Idaho Vital Records, Attn Legal Amendments, PO
+        Box 83720, Boise, ID 83720-0036. Escribe RUSH en el sobre y agrega $25 para un trámite más rápido.
+    forms: [Court Ordered Name Change packet, Affidavit of One and the Same Person]
+    fees: [name-change-processing, certified-copy, rush]
+    applies_to: [name_change, by_mail]
+    estimated_time:
+      en: 3 to 4 weeks (1 to 2 weeks with rush), plus mail time
+      es: 3 a 4 semanas (1 a 2 semanas con trámite urgente), más el tiempo de correo
+    sources: [dhw-name-packet, dhw-fees]
+fees:
+  - id: name-change-processing
+    label:
+      en: Court-ordered name change processing
+      es: Procesamiento de cambio de nombre ordenado por la corte
+    amount: 20
+    sources: [dhw-name-packet]
+  - id: certified-copy
+    label:
+      en: Certified copy of the amended certificate (each)
+      es: Copia certificada del acta modificada (cada una)
+    amount: 16
+    sources: [dhw-name-packet, dhw-fees]
+  - id: rush
+    label:
+      en: Optional legal amendment rush fee
+      es: Tarifa opcional de trámite urgente
+    amount: 25
+    sources: [dhw-name-packet]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  sources: [dhw-name-packet]
+timeline:
+  en: Legal changes take about 3 to 4 weeks after Vital Records receives a complete request, or 1 to 2 weeks with the $25 rush fee.
+  es: Los cambios legales tardan unas 3 a 4 semanas después de recibir una solicitud completa, o 1 a 2 semanas con la tarifa urgente de $25.
+after:
+  en: If you have a certificate that was amended before 2026, keep certified copies somewhere safe and contact A4TE or the ACLU of Idaho if the state asks you to return or replace it.
+  es: Si tienes un acta modificada antes de 2026, guarda copias certificadas en un lugar seguro y contacta a A4TE o a la ACLU de Idaho si el estado te pide devolverla o reemplazarla.
+statutes:
+  - cite: Idaho Code § 39-245A
+    title:
+      en: Birth certificates, material facts, amendments
+      es: Actas de nacimiento, hechos materiales, modificaciones
+    url: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch2/sect39-245a/
+  - cite: Idaho Code § 39-250(4)
+    title:
+      en: Amending a birth certificate for a court-ordered name change
+      es: Modificación del acta por cambio de nombre ordenado por la corte
+    url: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch2/sect39-250/
+litigation:
+  - case: F.V. v. Charron (formerly F.V. v. Barron), No. 1:17-cv-00170
+    court: US District Court for the District of Idaho
+    summary:
+      en: >-
+        A 2018 permanent injunction barred Idaho from automatically rejecting transgender people's applications to change
+        the sex on their birth certificates, and a 2020 order held that it applied despite § 39-245A. The state moved to
+        dissolve it in October 2025; the remaining plaintiff stipulated, relying on the state's statement that it would
+        not rescind past amendments, and the court dissolved the injunction on January 8, 2026.
+      es: >-
+        Una orden permanente de 2018 impedía a Idaho rechazar automáticamente las solicitudes de personas transgénero para
+        cambiar el sexo en sus actas. La corte disolvió la orden el 8 de enero de 2026, por acuerdo de las partes.
+    effect_today:
+      en: New sex-marker changes are not accepted. Certificates already amended remain in place based on the state's representation.
+      es: No se aceptan nuevos cambios del marcador de sexo. Las actas ya modificadas se mantienen según lo declarado por el estado.
+    last_update: "2026-01-08"
+    url: https://www.courtlistener.com/docket/4845783/fv-v-barron/
+    sources: [fv-order, fv-stipulation]
+related_links:
+  - title: A4TE, Idaho Identity Documents
+    url: https://transequality.org/documents/idaho-identity-documents
+    note:
+      en: Updated January 2026; asks people to report if Idaho tries to replace a previously amended certificate.
+      es: Actualizado en enero de 2026; pide reportar si Idaho intenta reemplazar un acta modificada anteriormente.
+sources:
+  - id: ic-39-245a
+    url: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch2/sect39-245a/
+    title: Idaho Code § 39-245A
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: After one (1) year, the quantitative statistics and material facts identified in subsection (2) of this section may be challenged in court only on the basis of fraud, duress, or material mistake of fact
+  - id: fv-order
+    url: https://storage.courtlistener.com/recap/gov.uscourts.idd.38981/gov.uscourts.idd.38981.101.0_2.pdf
+    title: F.V. v. Charron, Order Amending Judgment and Dissolving Permanent Injunction (D. Idaho Jan. 8, 2026)
+    publisher: US District Court for the District of Idaho (via CourtListener)
+    kind: court
+    accessed: "2026-09-24"
+    quote: The same judgment is AMENDED to reflect that the permanent injunction is DISSOLVED.
+  - id: fv-stipulation
+    url: https://storage.courtlistener.com/recap/gov.uscourts.idd.38981/gov.uscourts.idd.38981.100.0_2.pdf
+    title: F.V. v. Charron, Joint Stipulation to Amend Judgment to Dissolve Permanent Injunction (Dec. 5, 2025)
+    publisher: US District Court for the District of Idaho (via CourtListener)
+    kind: court
+    accessed: "2026-09-24"
+    quote: Defendants' representation that they have no intention to rescind any birth certificate amendments that have been made pursuant to this Court's injunction.
+  - id: dhw-change
+    url: https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/change-birth-certificate
+    title: Change a Birth Certificate
+    publisher: Idaho Department of Health and Welfare
+    kind: official
+    accessed: "2026-09-24"
+  - id: dhw-name-packet
+    url: https://publicdocuments.dhw.idaho.gov/WebLink/ElectronicFile.aspx?docid=1294&dbid=0&repo=PUBLIC-DOCUMENTS
+    title: Instructions to Request the Processing of a Court Ordered Name Change on an Idaho Birth Certificate (rev. 01/2026)
+    publisher: Idaho Bureau of Vital Records and Health Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: There is a fee of $20.00 to process a court ordered name change.
+  - id: dhw-fees
+    url: https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/processing-times-and-fees
+    title: Processing Times and Fees
+    publisher: Idaho Department of Health and Welfare
+    kind: official
+    accessed: "2026-09-24"
+    quote: 3-4 weeks for certificate changes ($0 standard processing fee + applicable legal and certificate fees)

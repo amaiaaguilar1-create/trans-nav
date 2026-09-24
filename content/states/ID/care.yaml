@@ -1,0 +1,334 @@
+jurisdiction: ID
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes read on legislature.idaho.gov 2026-09-24: 18-1506C (HB 71, 2023, effective 01/01/2024), 18-8901 (HB 668,
+    2024, effective 07/01/2024; subsection (4) is the Medicaid exclusion, (5) bars government-employed clinicians, (6)
+    bars state facilities). HB 822 (2026, ch. 340, effective 07/01/2026, "Pediatric Secretive Transitions Parental Rights
+    Act") summarized from its Statement of Purpose only; reviewer should read the enrolled text. Poe v. Labrador
+    (1:23-cv-00269) was voluntarily dismissed without prejudice on June 17-18, 2025 after United States v. Skrmetti,
+    so HB 71 is fully in effect (the brief's "upheld" framing is imprecise; there was no merits ruling). Robinson v.
+    Labrador (1:24-cv-00306): the court's ninth preliminary injunction (Sept. 14, 2026) blocks 18-8901's funding ban on
+    hormone therapy for a class of people in Idaho Department of Correction custody for 90 days; it does not cover
+    Medicaid members. We found no case against the Medicaid exclusion. Planned Parenthood's pages would not render for
+    automated requests, so Planned Parenthood Great Northwest's Idaho hormone therapy services and minimum age are
+    unverified. St. Luke's was not listed: we could not find a current St. Luke's page describing adult gender care,
+    and 18-8901(5)-(6) do not apply to it as a private system, but its services are unconfirmed. Full Circle Health's
+    site lists PrEP and HIV care but not gender-affirming care.
+status_summary:
+  en: >-
+    Adults in Idaho can legally get hormone therapy from private providers, Planned Parenthood, and telehealth, but no
+    public money may pay for it: Idaho Medicaid will not cover hormones or surgery for gender transition at any age, and
+    state and local government clinicians may not provide it. Hormones, puberty blockers, and surgery for gender
+    transition are banned for everyone under 18, and a provider who violates the ban commits a felony. Idaho has no
+    shield law.
+  es: >-
+    Los adultos en Idaho pueden obtener legalmente terapia hormonal con proveedores privados, Planned Parenthood y
+    telesalud, pero ningún dinero público puede pagarla: Medicaid de Idaho no cubre hormonas ni cirugía de transición a
+    ninguna edad, y los clínicos empleados por el gobierno estatal o local no pueden proporcionarla. Las hormonas, los
+    bloqueadores de pubertad y la cirugía de transición están prohibidos para menores de 18 años, y un proveedor que
+    viole la prohibición comete un delito grave. Idaho no tiene ley escudo.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Hormone therapy is **legal for adults 18 and older**, but Idaho Code § 18-8901 (HB 668, effective July 1, 2024) cuts off public money at every age:
+      - **Idaho Medicaid will not pay** for hormones, puberty blockers, or surgery for gender transition, except for people with a medically verified difference of sex development or to treat complications of past transition care.
+      - **Doctors and nurses employed by the state, a county, or a city** may not provide this care on the job, and it may not be provided in state buildings.
+      - Amounts paid for this care cannot be deducted on Idaho taxes.
+      - A federal court has blocked the funding ban on hormone therapy only for a class of people in Idaho prisons (*Robinson v. Labrador*); that order does not help Medicaid members.
+
+      **If you have no insurance or only Medicaid**, in rough order of what to try:
+      1. **Telehealth**: QueerDoc and Plume serve Idaho and prescribe by informed consent. Point of Pride's HRT Access Fund can pay for telehealth care through partners.
+      2. **Planned Parenthood Great Northwest** runs health centers in Boise and Meridian; call to ask whether they currently offer hormone therapy and the self-pay price.
+      3. **Community health centers** charge on a sliding scale; find one at findahealthcenter.hrsa.gov and ask whether a provider will prescribe hormones (you pay out of pocket for the prescription if you are on Medicaid).
+      4. Generic estradiol and spironolactone are inexpensive with a pharmacy discount coupon; compare cash prices for testosterone.
+    es: |
+      La terapia hormonal es **legal para adultos de 18 años o más**, pero el Código de Idaho § 18-8901 (HB 668, vigente desde el 1 de julio de 2024) prohíbe usar dinero público a cualquier edad:
+      - **Medicaid de Idaho no paga** hormonas, bloqueadores de pubertad ni cirugía de transición, salvo para personas con una diferencia del desarrollo sexual verificada o para tratar complicaciones de una transición previa.
+      - **Los médicos y enfermeros empleados por el estado, un condado o una ciudad** no pueden proporcionar esta atención en su trabajo, ni puede darse en edificios estatales.
+      - Estos gastos no se pueden deducir de los impuestos de Idaho.
+      - Una corte federal bloqueó la prohibición de fondos para terapia hormonal solo para un grupo de personas en prisiones de Idaho (*Robinson v. Labrador*); esa orden no ayuda a los miembros de Medicaid.
+
+      **Si no tienes seguro o solo tienes Medicaid**, en orden aproximado:
+      1. **Telesalud**: QueerDoc y Plume atienden Idaho por consentimiento informado. El Fondo de Acceso a TRH de Point of Pride puede pagar la atención por telesalud.
+      2. **Planned Parenthood Great Northwest** tiene centros en Boise y Meridian; llama para preguntar si ofrecen terapia hormonal y su precio.
+      3. Los **centros de salud comunitarios** cobran en escala móvil; búscalos en findahealthcenter.hrsa.gov.
+      4. El estradiol y la espironolactona genéricos son baratos con un cupón de descuento de farmacia.
+  sources: [ic-18-8901, hb668, robinson-order]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      Idaho's **Vulnerable Child Protection Act** (Idaho Code § 18-1506C, HB 71, effective January 1, 2024) bans, for anyone under 18, puberty blockers, testosterone or estrogen for gender transition, mastectomy, and genital or sterilizing surgery. A medical professional convicted of violating it faces a **felony with up to 10 years** in prison. Exceptions are for people with a medically verified difference of sex development and for treating complications of past transition care.
+
+      The ban was challenged in *Poe v. Labrador*. After the US Supreme Court upheld Tennessee's similar law in *United States v. Skrmetti* (June 2025), the families dismissed their case, so the ban is **fully in effect**. There is no exception for young people who started treatment before 2024.
+
+      A 2026 law, HB 822 (effective July 1, 2026), bars health care providers, schools, and child care providers from helping a minor with a medical or social transition (including new names or pronouns at school) without telling the parents and getting their consent, and lets parents sue.
+
+      Families often travel to states such as Washington or Oregon for care; talk to a lawyer before doing so.
+    es: |
+      La **Ley de Protección del Niño Vulnerable** de Idaho (Código de Idaho § 18-1506C, HB 71, vigente desde el 1 de enero de 2024) prohíbe, para menores de 18 años, bloqueadores de pubertad, testosterona o estrógeno para la transición, mastectomía y cirugías genitales o esterilizantes. Un profesional médico condenado por violarla enfrenta un **delito grave con hasta 10 años** de prisión.
+
+      La prohibición fue impugnada en *Poe v. Labrador*. Después de que la Corte Suprema confirmó la ley similar de Tennessee en *United States v. Skrmetti* (junio de 2025), las familias retiraron su demanda, así que la prohibición está **plenamente vigente**.
+
+      Una ley de 2026, HB 822 (vigente desde el 1 de julio de 2026), prohíbe a proveedores de salud, escuelas y guarderías ayudar a un menor con una transición médica o social sin informar a los padres y obtener su consentimiento, y permite a los padres demandar.
+  sources: [ic-18-1506c, hb71, poe-dismissal, hb822]
+medicaid:
+  program_name: Idaho Medicaid
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: Idaho Code § 18-8901(4) forbids Idaho Medicaid from covering hormones, puberty blockers, or surgery for gender transition at any age. Medicaid still covers other care, including primary care, labs unrelated to transition, and mental health care.
+    es: El Código de Idaho § 18-8901(4) prohíbe que Medicaid de Idaho cubra hormonas, bloqueadores de pubertad o cirugía de transición a cualquier edad. Medicaid sigue cubriendo otra atención, como atención primaria y salud mental.
+  how_to_apply_url: https://idalink.idaho.gov/
+  sources: [ic-18-8901, dhw-medicaid]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: Idaho has no law barring private health plans from excluding gender-affirming care. Check your plan documents; employer plans regulated federally may have different rules. You can file a complaint with the Idaho Department of Insurance, and A4TE's Trans Health Project helps with insurance appeals.
+    es: Idaho no tiene ninguna ley que prohíba a los seguros privados excluir la atención de afirmación de género. Revisa los documentos de tu plan. Puedes presentar una queja ante el Departamento de Seguros de Idaho.
+  complaint_url: https://doi.idaho.gov/consumers/file-a-complaint/
+  sources: [doi, map-id]
+telehealth_hrt: [queerdoc, plume, planned-parenthood]
+resources:
+  - id: queerdoc
+    org: queerdoc
+    name: QueerDoc
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth informed-consent hormone therapy for Idaho residents, sliding-scale pricing.
+      es: Terapia hormonal por consentimiento informado por telesalud para residentes de Idaho, precios en escala móvil.
+    url: https://queerdoc.com/
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [queerdoc]
+  - id: plume
+    org: plume
+    name: Plume
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Subscription telehealth hormone therapy available in all states.
+      es: Terapia hormonal por telesalud con suscripción disponible en todos los estados.
+    url: https://getplume.co/
+    cost: paid
+    telehealth: true
+    verification: unverified
+    sources: [plume]
+  - id: pp-great-northwest
+    org: planned-parenthood
+    name: Planned Parenthood Great Northwest, Hawai'i, Alaska, Indiana, Kentucky (Idaho health centers)
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Health centers in Boise and Meridian offering birth control, STI testing, and PrEP. Call to confirm whether hormone therapy is offered in Idaho and the minimum age (18 under state law).
+      es: Centros en Boise y Meridian con anticonceptivos, pruebas de ITS y PrEP. Llama para confirmar si ofrecen terapia hormonal en Idaho (mínimo 18 años por ley estatal).
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [pp-gnw]
+  - id: full-circle-health
+    name: Full Circle Health
+    type: primary_care
+    pillars: [sexual_health]
+    description:
+      en: Community health center in the Treasure Valley with a sliding fee program, a PrEP clinic (Boise and Nampa), and the Wellness Center, Idaho's largest HIV clinic. Its site does not list gender-affirming care.
+      es: Centro de salud comunitario en el Valle del Tesoro con programa de tarifa móvil, clínica de PrEP (Boise y Nampa) y el Wellness Center, la mayor clínica de VIH de Idaho.
+    url: https://www.fullcircleidaho.org/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fch-specialty, fch-sliding]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for sliding-scale community health centers near you.
+      es: Buscador federal de centros de salud comunitarios con escala móvil cerca de ti.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Helps pay for hormone therapy through telehealth partners when the fund is open.
+      es: Ayuda a pagar la terapia hormonal por telesalud cuando el fondo está abierto.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: trans-health-project
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Helps trans people appeal insurance denials for gender-affirming care.
+      es: Ayuda a personas trans a apelar negaciones de seguro para atención de afirmación de género.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [thp]
+  - id: tcc
+    name: The Community Center (Boise)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: LGBTQIA+ community center since 1983 with drop-in hours, the Tri-States Transgender support group, a youth group, a food pantry, and a resource list.
+      es: Centro comunitario LGBTQIA+ desde 1983 con horario abierto, el grupo de apoyo Tri-States Transgender, grupo juvenil, despensa de alimentos y lista de recursos.
+    url: https://tccidaho.org/
+    address: 1088 N Orchard St, Boise, ID 83706
+    cost: free
+    verification: org_website
+    sources: [tcc]
+statutes:
+  - cite: Idaho Code § 18-1506C
+    title:
+      en: Vulnerable Child Protection Act (ban on transition care for minors)
+      es: Ley de Protección del Niño Vulnerable
+    url: https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch15/sect18-1506c/
+  - cite: Idaho Code § 18-8901
+    title:
+      en: No public funds for gender transition (includes Medicaid)
+      es: Sin fondos públicos para la transición de género
+    url: https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch89/sect18-8901/
+litigation:
+  - case: Robinson v. Labrador, No. 1:24-cv-00306
+    court: US District Court for the District of Idaho
+    summary:
+      en: People in Idaho Department of Correction custody challenge § 18-8901's ban on public funding of gender-affirming care. The court has issued a series of 90-day preliminary injunctions, most recently on September 14, 2026.
+      es: Personas bajo custodia del Departamento de Corrección de Idaho impugnan la prohibición de fondos públicos. La corte ha emitido varias órdenes preliminares de 90 días, la más reciente el 14 de septiembre de 2026.
+    effect_today:
+      en: Only class members in state prisons can keep receiving hormone therapy paid by the state. Medicaid coverage is still banned.
+      es: Solo los miembros del grupo en prisiones estatales pueden seguir recibiendo terapia hormonal pagada por el estado. La cobertura de Medicaid sigue prohibida.
+    last_update: "2026-09-14"
+    url: https://www.courtlistener.com/docket/68900092/robinson-v-labrador/
+    sources: [robinson-order]
+sources:
+  - id: ic-18-1506c
+    url: https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch15/sect18-1506c/
+    title: Idaho Code § 18-1506C
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any medical professional convicted of a violation of this section shall be guilty of a felony and shall be imprisoned in the state prison for a term of not more than ten (10) years.
+  - id: hb71
+    url: https://legislature.idaho.gov/sessioninfo/2023/legislation/H0071/
+    title: HB 71 (2023), Vulnerable Child Protection Act
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Effective: 01/01/2024"
+  - id: ic-18-8901
+    url: https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch89/sect18-8901/
+    title: Idaho Code § 18-8901
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Idaho medicaid program shall not reimburse or provide coverage for the use of the surgical operations or medical interventions described in section 18-1506C(3)
+  - id: hb668
+    url: https://legislature.idaho.gov/sessioninfo/2024/legislation/H0668/
+    title: HB 668 (2024), No public funds for gender transition
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Effective: 07/01/2024"
+  - id: hb822
+    url: https://legislature.idaho.gov/sessioninfo/2026/legislation/H0822/
+    title: HB 822 (2026), Pediatric Secretive Transitions Parental Rights Act (Session Law ch. 340)
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: poe-dismissal
+    url: https://www.courtlistener.com/docket/67457948/poe-v-labrador/
+    title: Poe v. Labrador, No. 1:23-cv-00269 (D. Idaho), joint stipulation of dismissal (June 17, 2025)
+    publisher: CourtListener
+    kind: court
+    accessed: "2026-09-24"
+  - id: robinson-order
+    url: https://storage.courtlistener.com/recap/gov.uscourts.idd.54996/gov.uscourts.idd.54996.227.0.pdf
+    title: Robinson v. Labrador, Memorandum Decision and Order on Ninth Motion for Preliminary Injunction (Sept. 14, 2026)
+    publisher: US District Court for the District of Idaho (via CourtListener)
+    kind: court
+    accessed: "2026-09-24"
+    quote: The Court enjoins enforcement of Idaho Code § 18-8901's prohibition on the use of state funds for purposes of providing hormone therapy as against the class for 90 days
+  - id: dhw-medicaid
+    url: https://healthandwelfare.idaho.gov/services-programs/medicaid-health/about-medicaid-adults
+    title: Medicaid for Adults
+    publisher: Idaho Department of Health and Welfare
+    kind: official
+    accessed: "2026-09-24"
+  - id: doi
+    url: https://doi.idaho.gov/consumers/file-a-complaint/
+    title: File a Complaint
+    publisher: Idaho Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/profile_state/ID
+    title: Idaho equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: queerdoc
+    url: https://queerdoc.com/
+    title: QueerDoc
+    kind: org
+    accessed: "2026-09-24"
+  - id: plume
+    url: https://getplume.co/
+    title: Plume
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-gnw
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    title: Planned Parenthood Great Northwest, Hawai'i, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+  - id: fch-specialty
+    url: https://www.fullcircleidaho.org/specialty-care-services/
+    title: Specialty Care Services, Full Circle Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: fch-sliding
+    url: https://www.fullcircleidaho.org/sliding-fee/
+    title: Sliding Fee, Full Circle Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: tcc
+    url: https://tccidaho.org/about-us/
+    title: About Us, The Community Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Community Center is a non-profit 501(C)3 organization located at 1088 N Orchard St in Boise, Idaho.

@@ -1,0 +1,480 @@
+guide_type: name_change
+jurisdiction: ID
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (Idaho Code 7-801 to 7-805), forms list, instructions (CAO NC Instruction 1, rev. 07/01/2019), and the $166
+    magistrate-division filing fee (Appendix A, effective July 12, 2024, category A item 7 "Name change") were all read
+    on primary sources 2026-09-24. Publication costs were not found on any official page; the range given is omitted.
+    NOT CONFIRMED: whether any Idaho judge will waive or seal publication for safety; the statute contains no waiver
+    and we found no court rule allowing one, so the guide says publication is required. Reviewer should check Idaho
+    Court Administrative Rule 32 (sealing of court records) for a possible sealing route and confirm the fee waiver form
+    numbers FW 1-9 and FW 1-10 (taken from A4TE's links to courtselfhelp.idaho.gov). Idaho Legal Aid Services' site
+    returned HTTP 403; its details come from A4TE. Add the Words Idaho (addidaho.org) did not resolve.
+status: restricted
+status_summary:
+  en: >-
+    Adults in Idaho can change their name through a petition in the district court of the county where they live. The
+    court must publish a notice of your hearing in a local newspaper for four weeks in a row, there is no waiver in the
+    law, and you must attend a hearing. The filing fee is $166 unless the court waives it.
+  es: >-
+    Los adultos en Idaho pueden cambiar su nombre con una petición en la corte de distrito del condado donde viven. Se
+    debe publicar un aviso de tu audiencia en un periódico local durante cuatro semanas seguidas, la ley no permite
+    exenciones, y debes asistir a una audiencia. La tarifa de presentación es de $166, salvo que la corte la exima.
+summary:
+  en: |
+    Name changes in Idaho are handled by the **district court of the county where you live** (Idaho Code §§ 7-801 and 7-802), in its magistrate division. You file a petition that states your place of birth, your current name, the name you want, and your reason.
+
+    Idaho's process has two parts many states have dropped:
+    - **Newspaper publication.** A notice of your hearing, including your old name, your new name, and your stated reason, must run once a week for **four successive weeks** in the newspaper your county designates (§ 7-803). The law has no exception for safety or for gender identity.
+    - **A hearing.** You must appear. The judge may ask you questions under oath, and anyone may file an objection (§ 7-804).
+
+    Idaho does not require fingerprints. People required to register as sex offenders cannot use a name change to avoid registration (§ 7-805).
+
+    The court's self-help site has free fill-in forms and step-by-step instructions.
+  es: |
+    Los cambios de nombre en Idaho los tramita la **corte de distrito del condado donde vives** (Código de Idaho §§ 7-801 y 7-802), en su división de magistrados. Presentas una petición con tu lugar de nacimiento, tu nombre actual, el nombre que deseas y tu motivo.
+
+    El proceso tiene dos partes que muchos estados ya eliminaron:
+    - **Publicación en periódico.** Un aviso de tu audiencia, con tu nombre anterior, tu nuevo nombre y tu motivo, debe publicarse una vez por semana durante **cuatro semanas seguidas** en el periódico designado por tu condado (§ 7-803). La ley no tiene excepción por seguridad ni por identidad de género.
+    - **Una audiencia.** Debes presentarte. El juez puede hacerte preguntas bajo juramento, y cualquier persona puede presentar una objeción (§ 7-804).
+
+    Idaho no exige huellas digitales. El sitio de autoayuda de la corte tiene formularios gratuitos e instrucciones paso a paso.
+eligibility:
+  residency:
+    en: File in the district court of the Idaho county where you live.
+    es: Presenta la petición en la corte de distrito del condado de Idaho donde vives.
+  age:
+    en: Adults and emancipated minors (married or in active military service) file for themselves. Other minors need a parent or guardian to file.
+    es: Los adultos y menores emancipados (casados o en servicio militar activo) presentan su propia petición. Otros menores necesitan que un padre, madre o tutor la presente.
+  criminal_history:
+    en: A name change will not be granted if it would relieve you of the duty to register as a sex offender; if you are registered, the court notifies the Idaho State Police registry.
+    es: No se concede un cambio de nombre que te libere de la obligación de registrarte como agresor sexual; si estás registrado, la corte notifica al registro de la Policía Estatal de Idaho.
+  sources: [ic-7-802, ic-7-805]
+forms:
+  - id: Civil Cover Sheet
+    name:
+      en: General Civil Case Information Sheet
+      es: Hoja de información de caso civil general
+    url: https://courtselfhelp.idaho.gov/docs/forms/Civil_Cover_Sheet.pdf
+    required: always
+    sources: [cso-forms]
+  - id: NCA 1-1
+    name:
+      en: Unredacted Petition for Name Change (Adult or Emancipated Minor)
+      es: Petición de cambio de nombre sin redactar (adulto o menor emancipado)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCA_1-1.pdf
+    required: always
+    how_to_fill:
+      en: >-
+        The **reason** you write here is printed in the newspaper notice, so keep it short and general. "To use the name
+        I am known by" or "personal preference" is enough; you do not have to mention gender. You must also write in the
+        name of the newspaper your county designates (see the county newspaper list). Sign under penalty of perjury.
+      es: >-
+        El **motivo** que escribas aquí se imprime en el aviso del periódico, así que hazlo breve y general. "Para usar
+        el nombre por el que me conocen" o "preferencia personal" es suficiente; no tienes que mencionar el género.
+        También debes escribir el nombre del periódico designado por tu condado.
+    sources: [cso-forms, cso-instructions, ic-7-803]
+  - id: NCA 1-1R
+    name:
+      en: Redacted Petition for Name Change (Adult or Emancipated Minor)
+      es: Petición de cambio de nombre redactada (adulto o menor emancipado)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCA_1-1R.pdf
+    required: always
+    how_to_fill:
+      en: The public copy of your petition, with personal identifiers left out. File it together with the unredacted version.
+      es: La copia pública de tu petición, sin datos personales identificadores. Preséntala junto con la versión sin redactar.
+    sources: [cso-forms]
+  - id: NCA 1-2
+    name:
+      en: Notice of Hearing on Petition for Name Change (Adult)
+      es: Aviso de audiencia sobre la petición de cambio de nombre (adulto)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCA_1-2.pdf
+    required: always
+    sources: [cso-forms]
+  - id: NC 1-3
+    name:
+      en: Letter Requesting Publication of Notice
+      es: Carta para solicitar la publicación del aviso
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NC_1-3.pdf
+    required: always
+    sources: [cso-forms]
+  - id: NCA 8-1
+    name:
+      en: Judgment for Name Change (Adult)
+      es: Sentencia de cambio de nombre (adulto)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCA_8-1.pdf
+    required: always
+    sources: [cso-forms]
+  - id: NCM 1-1
+    name:
+      en: Unredacted Petition for Name Change (Minor)
+      es: Petición de cambio de nombre sin redactar (menor)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCM_1-1.pdf
+    required: conditional
+    condition:
+      en: Only when a parent or guardian files for a minor. The minor version also has a redacted form, a notice of hearing (NCM 1-2), and a judgment (NCM 8-1).
+      es: Solo cuando un padre, madre o tutor presenta la petición por un menor.
+    sources: [cso-forms]
+  - id: NCM 2-1
+    name:
+      en: Parental Consent to Name Change (Minor)
+      es: Consentimiento de los padres para el cambio de nombre (menor)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCM_2-1.pdf
+    required: conditional
+    condition:
+      en: When the other parent agrees but did not sign the petition.
+      es: Cuando el otro padre o madre está de acuerdo pero no firmó la petición.
+    sources: [cso-forms]
+  - id: NCM 2-2
+    name:
+      en: Affidavit of Service on Petition for Name Change and Notice of Hearing (Minor)
+      es: Declaración jurada de notificación de la petición y del aviso de audiencia (menor)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NCM_2-2.pdf
+    required: conditional
+    condition:
+      en: When the other parent does not consent and must be served at least 30 days before the hearing.
+      es: Cuando el otro padre o madre no da su consentimiento y debe ser notificado al menos 30 días antes de la audiencia.
+    sources: [cso-forms]
+  - id: FW 1-9
+    name:
+      en: Motion and Affidavit for Fee Waiver
+      es: Moción y declaración jurada para exención de tarifas
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_FW_1-9.pdf
+    required: optional
+    condition:
+      en: If you cannot afford the filing fee.
+      es: Si no puedes pagar la tarifa de presentación.
+    sources: [cso-instructions]
+  - id: FW 1-10
+    name:
+      en: Order Re Fee Waiver (proposed)
+      es: Orden sobre exención de tarifas (propuesta)
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_FW_1-10.pdf
+    required: optional
+    condition:
+      en: Filed with FW 1-9.
+      es: Se presenta junto con FW 1-9.
+    sources: [cso-instructions]
+steps:
+  - id: fill-forms
+    title:
+      en: Fill out the petition and notice
+      es: Llena la petición y el aviso
+    body:
+      en: >-
+        Download the adult forms from the court self-help site. Type or print neatly in black ink. Put your judicial
+        district and county in the caption, your current full legal name after "In RE," and the name of your county's
+        designated newspaper in the petition. Look the newspaper up on the court's county newspaper list.
+      es: >-
+        Descarga los formularios para adultos del sitio de autoayuda de la corte. Escribe a máquina o con letra clara en
+        tinta negra. Pon tu distrito judicial y condado en el encabezado, tu nombre legal completo después de "In RE", y
+        el nombre del periódico designado por tu condado en la petición.
+    forms: [Civil Cover Sheet, NCA 1-1, NCA 1-1R, NCA 1-2, NCA 8-1]
+    applies_to: [adult]
+    sources: [cso-forms, cso-instructions]
+  - id: file
+    title:
+      en: File with the clerk in your county
+      es: Presenta los documentos ante el secretario de tu condado
+    body:
+      en: >-
+        Take the originals plus one copy of the petitions and two copies of the notice of hearing to the district court
+        clerk in the county where you live. Pay the $166 filing fee in cash or by money order (not personal check), or
+        file a fee waiver motion instead. Ask the clerk to set your hearing **at least six weeks out**, so there is time
+        for four weeks of publication.
+      es: >-
+        Lleva los originales más una copia de las peticiones y dos copias del aviso de audiencia al secretario de la
+        corte de distrito del condado donde vives. Paga la tarifa de $166 en efectivo o giro postal (no cheque personal),
+        o presenta una moción de exención. Pide que fijen tu audiencia **al menos seis semanas después**.
+    fees: [filing]
+    forms: [FW 1-9, FW 1-10]
+    sources: [cso-instructions, isc-fees]
+  - id: publish
+    title:
+      en: Publish the notice for four weeks
+      es: Publica el aviso durante cuatro semanas
+    body:
+      en: >-
+        Send the signed publication letter and a copy of the clerk-issued notice of hearing to your county's designated
+        newspaper. It must run once a week for four successive weeks. The newspaper charges for this and mails you an
+        **Affidavit of Publication**. File that affidavit with the clerk before your hearing.
+      es: >-
+        Envía la carta de publicación firmada y una copia del aviso de audiencia emitido por el secretario al periódico
+        designado por tu condado. Debe publicarse una vez por semana durante cuatro semanas seguidas. El periódico cobra
+        por esto y te envía una **Declaración jurada de publicación**, que debes presentar al secretario antes de la
+        audiencia.
+    forms: [NC 1-3]
+    fees: [publication]
+    estimated_time:
+      en: 4 weeks
+      es: 4 semanas
+    sources: [cso-instructions, ic-7-803]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: >-
+        You must appear. Bring the original judgment form and copies to be certified. If no one objects, the judge may
+        sign without testimony, or may ask you a few questions under oath (for example, that you are not avoiding
+        creditors or a lawsuit and why you want the change).
+      es: >-
+        Debes presentarte. Lleva el formulario original de la sentencia y copias para certificar. Si nadie se opone, el
+        juez puede firmar sin testimonio, o puede hacerte algunas preguntas bajo juramento.
+    forms: [NCA 8-1]
+    sources: [cso-instructions, ic-7-804]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the judgment
+      es: Obtén copias certificadas de la sentencia
+    body:
+      en: >-
+        Ask the clerk for several certified copies (Social Security, DMV, passport, bank, employer). If you bring your own
+        copies, certification costs $0.50 per page plus $1.00 for the seal.
+      es: >-
+        Pide al secretario varias copias certificadas (Seguro Social, DMV, pasaporte, banco, empleador). Si llevas tus
+        propias copias, la certificación cuesta $0.50 por página más $1.00 por el sello.
+    fees: [certified-copy]
+    sources: [cso-instructions]
+fees:
+  - id: filing
+    label:
+      en: Filing fee (magistrate division, name change)
+      es: Tarifa de presentación (división de magistrados, cambio de nombre)
+    amount: 166
+    waivable: true
+    sources: [isc-fees]
+  - id: publication
+    label:
+      en: Newspaper publication (four weeks)
+      es: Publicación en periódico (cuatro semanas)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by each newspaper; call your county's designated paper for a quote before you file. A court fee waiver does not cover it.
+      es: Lo fija cada periódico; llama al periódico designado de tu condado para pedir un presupuesto. La exención de tarifas de la corte no lo cubre.
+    sources: [cso-instructions]
+  - id: certified-copy
+    label:
+      en: Certified copy of the judgment
+      es: Copia certificada de la sentencia
+    note:
+      en: $0.50 per page plus $1.00 seal if you supply copies; $1.00 per page plus $1.00 seal if the clerk makes them.
+      es: $0.50 por página más $1.00 por el sello si llevas copias; $1.00 por página más $1.00 si el secretario las hace.
+    sources: [cso-instructions]
+fee_waiver:
+  available: true
+  forms: [FW 1-9, FW 1-10]
+  eligibility:
+    en: For people who cannot afford court fees. The judge decides based on the income, assets, and expenses you list in the sworn motion.
+    es: Para personas que no pueden pagar las tarifas judiciales. El juez decide según los ingresos, bienes y gastos que declares.
+  how:
+    en: File the Motion and Affidavit for Fee Waiver and a proposed order with your petition instead of paying. The clerk issues your notice of hearing once a judge approves the waiver.
+    es: Presenta la moción y declaración jurada de exención y una orden propuesta junto con tu petición en lugar de pagar.
+  sources: [cso-instructions]
+publication:
+  required: "yes"
+  detail:
+    en: >-
+      Idaho Code § 7-803 requires the notice of hearing to be published for four successive weeks in the newspaper the
+      court designates, and proof of publication must be filed before the court can consider your petition. The notice
+      includes your current name, proposed name, city, and stated reason.
+    es: >-
+      El Código de Idaho § 7-803 exige publicar el aviso de audiencia durante cuatro semanas seguidas en el periódico
+      designado, y la prueba de publicación debe presentarse antes de que la corte considere tu petición.
+  waiver_available: false
+  waiver_how:
+    en: >-
+      The statute has no waiver. If publication would put you in danger, talk to a lawyer (Idaho Legal Aid Services or
+      the ACLU of Idaho) before filing about asking the judge to seal the file; we could not confirm that any Idaho court
+      has done this.
+    es: >-
+      La ley no permite exención. Si la publicación te pondría en peligro, habla con un abogado antes de presentar la
+      petición sobre pedir al juez que selle el expediente; no pudimos confirmar que alguna corte de Idaho lo haya hecho.
+  sources: [ic-7-803]
+hearing:
+  required: "yes"
+  detail:
+    en: The petition must be heard at a time the court sets; the instructions say you must appear. Anyone may object and show good reason against the change.
+    es: La petición se escucha en la fecha que fije la corte y debes presentarte. Cualquier persona puede oponerse.
+  sources: [ic-7-804, cso-instructions]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check are required, but the judge may ask about debts, lawsuits, bankruptcy, and convictions.
+    es: No se exigen huellas ni verificación de antecedentes, pero el juez puede preguntar sobre deudas, demandas, quiebras y condenas.
+  sources: [cso-instructions]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: The court uses a redacted petition to keep identifiers out of the public file, but the case itself and the newspaper notice are public. No name-change-specific sealing law exists.
+    es: La corte usa una petición redactada para quitar identificadores del expediente público, pero el caso y el aviso del periódico son públicos.
+  sources: [cso-forms, ic-7-803]
+minors:
+  summary:
+    en: >-
+      A parent or guardian files for a minor. If only one parent signs, the petition must list the other parent's name
+      and address; that parent either signs a consent form or must be served with notice at least 30 days before the
+      hearing. A guardian must notify living parents (or grandparents, if both parents are deceased or cannot be found).
+      Publication and a hearing are still required.
+    es: >-
+      Un padre, madre o tutor presenta la petición por un menor. Si solo firma uno de los padres, el otro debe firmar un
+      consentimiento o ser notificado al menos 30 días antes de la audiencia. Se exige publicación y audiencia.
+  forms: [NCM 1-1, NCM 2-1, NCM 2-2]
+  sources: [ic-7-802, ic-7-803, cso-instructions]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File at the district court clerk's office in your county; the hearing is in person unless your court says otherwise.
+    es: Presenta los documentos en la oficina del secretario de la corte de distrito de tu condado.
+  sources: [cso-instructions]
+timeline:
+  en: Usually about 6 to 8 weeks from filing to judgment, because of the four-week publication period.
+  es: Normalmente de 6 a 8 semanas desde la presentación hasta la sentencia, por el período de publicación de cuatro semanas.
+after:
+  en: |
+    With certified copies of your judgment:
+    1. **Social Security** first. Idaho's DMV will not change your name until SSA has it.
+    2. **Idaho driver's license or ID**, in person at a county DMV office.
+    3. **Birth certificate**, if you were born in Idaho: mail the name-change request to Idaho Vital Records ($20). Idaho will not change the sex on it.
+    4. **Passport**, bank, employer, and other records.
+  es: |
+    Con copias certificadas de tu sentencia:
+    1. **Seguro Social** primero. El DMV de Idaho no cambia tu nombre hasta que SSA lo tenga.
+    2. **Licencia o identificación de Idaho**, en persona en una oficina del DMV del condado.
+    3. **Acta de nacimiento**, si naciste en Idaho: envía la solicitud de cambio de nombre a Registros Vitales de Idaho ($20). Idaho no cambia el sexo en el acta.
+    4. **Pasaporte**, banco, empleador y otros registros.
+tips:
+  - en: Call the newspaper for a publication price before you file, so you can budget for it; the court fee waiver does not cover it.
+    es: Llama al periódico para saber el precio de la publicación antes de presentar la petición; la exención de la corte no lo cubre.
+  - en: Keep your stated reason short and neutral, since it will be printed in the paper.
+    es: Mantén tu motivo breve y neutral, porque se imprimirá en el periódico.
+local_help:
+  - id: idaho-legal-aid
+    name: Idaho Legal Aid Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help statewide for people with low incomes; self-help guides on name changes and ID documents.
+      es: Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos; guías sobre cambio de nombre y documentos.
+    url: https://www.idaholegalaid.org/
+    cost: free
+    verification: unverified
+    sources: [a4te-id]
+  - id: court-assistance
+    name: Idaho Court Assistance Offices
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help offices in every county with free forms and instructions; staff can explain procedure but not give legal advice.
+      es: Oficinas de autoayuda de la corte en cada condado con formularios gratuitos; el personal explica el procedimiento pero no da asesoría legal.
+    url: https://courtselfhelp.idaho.gov/Forms/name
+    cost: free
+    verification: official_source
+    sources: [cso-forms]
+  - id: aclu-idaho
+    name: ACLU of Idaho
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Know-your-rights information on Idaho laws affecting trans people.
+      es: Información sobre tus derechos ante las leyes de Idaho que afectan a las personas trans.
+    url: https://www.acluidaho.org/know-your-rights/lgbtqia-rights/
+    cost: free
+    verification: org_website
+    sources: [aclu-id]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [name_change]
+    description:
+      en: National nonprofit that runs funds for trans people, including help with legal document costs when funds are open.
+      es: Organización nacional con fondos para personas trans, incluida ayuda con costos de documentos cuando hay fondos abiertos.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+statutes:
+  - cite: Idaho Code §§ 7-801 to 7-805
+    title:
+      en: Change of names
+      es: Cambio de nombre
+    url: https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch8/
+related_links:
+  - title: A4TE, Idaho Identity Documents
+    url: https://transequality.org/documents/idaho-identity-documents
+    note:
+      en: Last updated January 2026. Its driver's license section still describes a doctor's form that ITD removed in 2024.
+      es: Actualizado en enero de 2026. Su sección de licencias aún describe un formulario médico que ITD retiró en 2024.
+sources:
+  - id: ic-7-802
+    url: https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch8/sect7-802/
+    title: Idaho Code § 7-802, petition for change
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: All applications for change of names must be made to the district court of the county where the person whose name is proposed to be changed resides
+  - id: ic-7-803
+    url: https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch8/sect7-803/
+    title: Idaho Code § 7-803, publication of petition and notice
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: must be published for four (4) successive weeks in a newspaper designated by the court
+  - id: ic-7-804
+    url: https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch8/sect7-804/
+    title: Idaho Code § 7-804, hearing and order
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ic-7-805
+    url: https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch8/sect7-805/
+    title: Idaho Code § 7-805, restrictions for convicted sexual offenders
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: cso-forms
+    url: https://courtselfhelp.idaho.gov/Forms/name
+    title: Name Change forms
+    publisher: Idaho Supreme Court, Court Assistance Office
+    kind: form
+    accessed: "2026-09-24"
+  - id: cso-instructions
+    url: https://courtselfhelp.idaho.gov/docs/forms/CAO_NC_Instr_1.pdf
+    title: Instruction for Name Change (CAO NC Instruction 1)
+    publisher: Idaho Supreme Court, Court Assistance Office
+    kind: form
+    accessed: "2026-09-24"
+    quote: Ask the Court Clerk to set your hearing at least six weeks later.
+  - id: isc-fees
+    url: https://api.isc.idaho.gov/uploads/Rules_PDFs/1775633983169-Appendix-A-Civil-Case-Filing-Fees-071224.pdf
+    title: Appendix A, Filing Fee Schedule, District Court and Magistrate Division (effective July 12, 2024)
+    publisher: Idaho Supreme Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: "All initial case filings in Magistrate Division ... 7. Name change ... 166.00"
+  - id: a4te-id
+    url: https://transequality.org/documents/idaho-identity-documents
+    title: Idaho Identity Documents (last updated January 2026)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-id
+    url: https://www.acluidaho.org/know-your-rights/lgbtqia-rights/
+    title: Your Rights as an LGBTQIA+ Person
+    publisher: ACLU of Idaho
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

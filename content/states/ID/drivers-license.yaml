@@ -1,0 +1,188 @@
+guide_type: drivers_license
+jurisdiction: ID
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    ITD publishes no page on sex-marker changes; the current policy could not be read on a primary source. Evidence
+    used: (1) ITD form 3533, "Sex (Gender) Designation on a Driver's License or Identification Card" (a self/provider
+    certification form), was live at itd.idaho.gov/wp-content/uploads/2017/03/3533Fill.pdf until at least May 25, 2024
+    and returns 404 from July 16, 2024 onward (Wayback CDX), matching HB 421's July 1, 2024 effective date (Idaho Code
+    73-114 defines "sex" as biological sex for all state laws, rules, and policies). (2) MAP's identity-documents map
+    (read 2026-09-24) says Idaho requires an amended birth certificate to update a license and that, after the January
+    2026 ruling, this is a de facto ban for anyone without an already-amended certificate. DISAGREEMENT: A4TE's Idaho
+    page (updated January 2026) still says a physician certification on ITD 3533 or a court order works; the form no
+    longer exists on ITD's site, so we follow MAP. Reviewer must confirm with the ITD Customer Contact Center
+    (208-584-4343) whether an amended birth certificate from ANOTHER state, or an Idaho certificate amended before 2026,
+    is still accepted, and what happens to existing cards at renewal. Status is set to restricted rather than
+    prohibited only because those narrow routes may exist. Fees read on ITD pages 2026-09-24; whether a name change is
+    charged as a duplicate ($20) was not confirmed.
+status: restricted
+requirement_type: amended_birth_certificate
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    For most people, you can no longer change the sex on an Idaho driver's license or ID. The Transportation
+    Department ties the marker to your birth certificate, and Idaho stopped amending the sex on birth certificates in
+    January 2026. You can still change your name on the card in person with a certified court order, after updating
+    Social Security.
+  es: >-
+    Para la mayoría de las personas, ya no es posible cambiar el sexo en una licencia o identificación de Idaho. El
+    Departamento de Transporte vincula el marcador a tu acta de nacimiento, e Idaho dejó de modificar el sexo en las
+    actas en enero de 2026. Todavía puedes cambiar tu nombre en la tarjeta en persona con una orden judicial certificada,
+    después de actualizar el Seguro Social.
+summary:
+  en: |
+    Until mid-2024, the Idaho Transportation Department (ITD) let people change the sex on a license or ID with form ITD 3533. That form was withdrawn around July 1, 2024, when HB 421 took effect. That law (Idaho Code § 73-114) defines "sex" in all Idaho laws, rules, and policies as biological sex.
+
+    Since then, ITD reportedly changes the marker only with an **amended birth certificate**. Idaho itself stopped amending the sex on birth certificates when a federal court dissolved the *F.V. v. Barron* injunction on **January 8, 2026**. So if you were born in Idaho and did not already have an amended certificate, there is now no way to change the marker. Only M and F exist on Idaho cards.
+
+    **If you already have an amended birth certificate** (from Idaho before 2026, or from a state that still amends them), ask your county DMV office whether ITD will accept it. We could not confirm this in writing.
+
+    **Name changes are still available.** Update Social Security first, then go to a county DMV office with a certified copy of your court order.
+  es: |
+    Hasta mediados de 2024, el Departamento de Transporte de Idaho (ITD) permitía cambiar el sexo en una licencia o identificación con el formulario ITD 3533. Ese formulario se retiró alrededor del 1 de julio de 2024, cuando entró en vigor la HB 421, que define "sexo" en todas las leyes, reglas y políticas de Idaho como sexo biológico (Código de Idaho § 73-114).
+
+    Desde entonces, según los informes, ITD cambia el marcador solo con un **acta de nacimiento modificada**. Idaho dejó de modificar el sexo en las actas cuando una corte federal disolvió la orden de *F.V. v. Barron* el **8 de enero de 2026**. Si naciste en Idaho y no tenías ya un acta modificada, no hay forma de cambiar el marcador. Las tarjetas de Idaho solo tienen M y F.
+
+    **Si ya tienes un acta modificada** (de Idaho antes de 2026, o de un estado que todavía las modifica), pregunta en la oficina del DMV de tu condado si ITD la acepta.
+
+    **Los cambios de nombre siguen disponibles.** Actualiza primero el Seguro Social y luego ve a una oficina del DMV del condado con una copia certificada de tu orden judicial.
+steps:
+  - id: update-ssa
+    title:
+      en: Update your name with Social Security first
+      es: Actualiza primero tu nombre en el Seguro Social
+    body:
+      en: ITD verifies your Social Security record electronically and will not change your name until SSA has the new name.
+      es: ITD verifica tu registro del Seguro Social electrónicamente y no cambiará tu nombre hasta que SSA tenga el nuevo nombre.
+    applies_to: [name_change]
+    sources: [itd-docs]
+  - id: visit-dmv
+    title:
+      en: Go to a county DMV office with your court order
+      es: Ve a una oficina del DMV del condado con tu orden judicial
+    body:
+      en: >-
+        Bring a certified copy of your name change order, your current license or ID, proof of identity and lawful
+        presence, and proof of Idaho residency. Driver's license offices are run by county sheriffs. A new photo is taken.
+      es: >-
+        Lleva una copia certificada de tu orden de cambio de nombre, tu licencia o identificación actual, prueba de
+        identidad y presencia legal, y prueba de residencia en Idaho. Las oficinas de licencias las operan los alguaciles
+        del condado.
+    fees: [duplicate-dl, id-card]
+    applies_to: [name_change, in_person]
+    sources: [itd-docs, itd-dl]
+  - id: marker-ask
+    title:
+      en: If you already have an amended birth certificate, ask about the marker
+      es: Si ya tienes un acta modificada, pregunta por el marcador
+    body:
+      en: >-
+        Bring the certified amended birth certificate to the county office, or call the ITD Customer Contact Center at
+        208-584-4343 first to ask whether it will be accepted. There is no published form or written policy.
+      es: >-
+        Lleva el acta de nacimiento modificada y certificada a la oficina del condado, o llama primero al Centro de
+        Atención de ITD al 208-584-4343 para preguntar si la aceptarán. No hay formulario ni política escrita publicada.
+    applies_to: [gender_marker]
+    optional: true
+    sources: [map-dl, itd-dl, itd-3533-archive, fv-order, ic-73-114]
+fees:
+  - id: duplicate-dl
+    label:
+      en: Duplicate driver's license
+      es: Licencia de conducir duplicada
+    amount: 20
+    sources: [itd-dl]
+  - id: id-card
+    label:
+      en: Idaho ID card (duplicate costs the same as the original)
+      es: Tarjeta de identificación de Idaho (el duplicado cuesta lo mismo que la original)
+    min: 10
+    max: 25
+    note:
+      en: $10 under age 21, $15 for 4 years, $25 for 8 years. ID cards are free for people who need one to vote and for people receiving homeless services (form ITD 3530).
+      es: $10 menores de 21, $15 por 4 años, $25 por 8 años. Gratis si la necesitas para votar o si recibes servicios para personas sin hogar (formulario ITD 3530).
+    sources: [itd-id]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes are done in person at a county DMV (sheriff's) office.
+    es: Los cambios de nombre se hacen en persona en una oficina del DMV del condado.
+  sources: [itd-docs]
+after:
+  en: If you have a passport, remember that federal sex-marker rules are separate from Idaho's. Keep a certified copy of your court order with your records.
+  es: Si tienes pasaporte, recuerda que las reglas federales sobre el marcador de sexo son distintas de las de Idaho. Guarda una copia certificada de tu orden judicial.
+statutes:
+  - cite: Idaho Code § 73-114(2)(n)
+    title:
+      en: Definition of sex for all Idaho laws, rules, and policies
+      es: Definición de sexo para todas las leyes, reglas y políticas de Idaho
+    url: https://legislature.idaho.gov/statutesrules/idstat/title73/t73ch1/sect73-114/
+  - cite: Idaho Code § 49-306
+    title:
+      en: Driver's license application must state sex
+      es: La solicitud de licencia debe indicar el sexo
+    url: https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch3/sect49-306/
+  - cite: IDAPA 39.02.75
+    title:
+      en: Rules governing names on driver's licenses and ID cards
+      es: Reglas sobre nombres en licencias y tarjetas de identificación
+    url: https://adminrules.idaho.gov/rules/current/39/390275.pdf
+related_links:
+  - title: MAP, identity document laws and policies
+    url: https://www.mapresearch.org/equality-map/identity-document-laws-and-policies
+sources:
+  - id: ic-73-114
+    url: https://legislature.idaho.gov/statutesrules/idstat/title73/t73ch1/sect73-114/
+    title: Idaho Code § 73-114
+    publisher: Idaho Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "\"Sex\" means an individual's biological sex, either male or female."
+  - id: map-dl
+    url: https://www.mapresearch.org/equality-map/identity-document-laws-and-policies
+    title: Identity Document Laws and Policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: In Idaho, the state requires an amended birth certificate in order to update a driver's license, but following a court ruling in January 2026, the state no longer allows updates to a birth certificate.
+  - id: itd-3533-archive
+    url: http://web.archive.org/web/20170610194951/http://itd.idaho.gov:80/wp-content/uploads/2017/03/3533Fill.pdf
+    title: ITD 3533, Sex (Gender) Designation on a Driver's License or Identification Card (archived; removed from ITD site mid-2024)
+    publisher: Idaho Transportation Department (via Internet Archive)
+    kind: form
+    accessed: "2026-09-24"
+    watch: false
+  - id: itd-dl
+    url: https://itd.idaho.gov/dmv/drivers-licenses-id-cards/
+    title: Drivers Licenses and ID Cards
+    publisher: Idaho Transportation Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: Duplicate License/Instruction Permit $20.00
+  - id: itd-id
+    url: https://itd.idaho.gov/dmv/drivers-licenses-id-cards/identification-cards/
+    title: Identification Cards
+    publisher: Idaho Transportation Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: itd-docs
+    url: https://itd.idaho.gov/service/drivers-license-and-id-required-documents/
+    title: Driver's License and ID Required Documents
+    publisher: Idaho Transportation Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: If an applicant has changed their name, they must first update their name with the Social Security Administration before applying for a credential or making any name changes at the DMV.
+  - id: fv-order
+    url: https://storage.courtlistener.com/recap/gov.uscourts.idd.38981/gov.uscourts.idd.38981.101.0_2.pdf
+    title: F.V. v. Charron, Order Dissolving Permanent Injunction (D. Idaho Jan. 8, 2026)
+    publisher: US District Court for the District of Idaho (via CourtListener)
+    kind: court
+    accessed: "2026-09-24"

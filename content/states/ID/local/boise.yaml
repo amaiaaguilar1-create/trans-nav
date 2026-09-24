@@ -1,0 +1,186 @@
+jurisdiction: ID
+slug: boise
+name: Boise
+area:
+  en: Boise and the Treasure Valley (Ada and Canyon counties, including Meridian, Nampa, and Caldwell)
+  es: Boise y el Valle del Tesoro (condados de Ada y Canyon, incluidos Meridian, Nampa y Caldwell)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Ada County Court Assistance Office address and phones read on courtselfhelp.idaho.gov/Local/Ada 2026-09-24. The $166
+    filing fee is the statewide magistrate-division fee; Ada County charges no different amount as far as we found. The
+    Ada County designated newspaper for name-change notices is on the court's county newspaper list (not read). TCC
+    address and hours read on tccidaho.org. Full Circle Health's site lists PrEP and HIV care and a sliding fee but not
+    hormone therapy. Planned Parenthood's Boise and Meridian health-center pages did not render for automated requests;
+    their services (including whether they prescribe hormones) are unverified. Idaho Legal Aid Services' site returned
+    HTTP 403; its details come from A4TE's Idaho page. Central District Health (cdh.idaho.gov) resolved but its STI/PrEP
+    page was not read. St. Luke's and Add the Words were not listed (see state notes).
+intro:
+  en: >-
+    Boise is Idaho's largest city and has most of the state's LGBTQIA+ services. You file a name change at the Ada
+    County Courthouse (or the Canyon County courthouse if you live there). For hormone therapy, most people in the
+    Treasure Valley use telehealth or private clinics, because Idaho law bars public funds, Medicaid, and
+    government-employed clinicians from providing it.
+  es: >-
+    Boise es la ciudad más grande de Idaho y concentra la mayoría de los servicios LGBTQIA+ del estado. El cambio de
+    nombre se presenta en el Juzgado del Condado de Ada (o en el del Condado de Canyon si vives allí). Para la terapia
+    hormonal, la mayoría de las personas usa telesalud o clínicas privadas, porque la ley de Idaho prohíbe usar fondos
+    públicos, Medicaid y clínicos empleados por el gobierno para proporcionarla.
+court:
+  name: Ada County District Court (Fourth Judicial District), magistrate division
+  url: https://courtselfhelp.idaho.gov/Local/Ada
+  self_help_url: https://courtselfhelp.idaho.gov/Local/Ada
+  filing_fee: 166
+  notes:
+    en: The Court Assistance Office is at the Ada County Courthouse, 200 W. Front Street, Room 1171, Boise, ID 83702, phone 208-287-6963 or 208-287-6944, Monday to Friday 8 to 5. Staff help with forms but cannot give legal advice.
+    es: La Oficina de Asistencia de la Corte está en el Juzgado del Condado de Ada, 200 W. Front Street, sala 1171, Boise, ID 83702, teléfono 208-287-6963 o 208-287-6944, de lunes a viernes de 8 a 5.
+  sources: [ada-cao, isc-fees]
+resources:
+  - id: ada-court-assistance
+    name: Ada County Court Assistance Office
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free self-help office at the courthouse for name change forms and filing questions.
+      es: Oficina de autoayuda gratuita en el juzgado para formularios y preguntas sobre cambio de nombre.
+    url: https://courtselfhelp.idaho.gov/Local/Ada
+    phone: "208-287-6963"
+    address: 200 W. Front Street, Room 1171, Boise, ID 83702
+    cost: free
+    verification: official_source
+    sources: [ada-cao]
+  - id: idaho-legal-aid
+    name: Idaho Legal Aid Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes, with a Boise office; self-help guides on name changes and IDs.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, con oficina en Boise; guías sobre cambio de nombre e identificaciones.
+    url: https://www.idaholegalaid.org/
+    cost: free
+    verification: unverified
+    sources: [a4te-id]
+  - id: tcc
+    name: The Community Center
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Boise's LGBTQIA+ community center since 1983. Drop-in hours Monday 3-7 pm, Thursday 5-8 pm, and Saturday 10 am-5 pm; Tri-States Transgender support group on the 1st and 3rd Saturdays, 7-9 pm; Youth Alliance for Diversity (ages 14-20) on Sundays; food pantry and lending library.
+      es: Centro comunitario LGBTQIA+ de Boise desde 1983. Horario abierto lunes 3-7 pm, jueves 5-8 pm y sábado 10 am-5 pm; grupo de apoyo Tri-States Transgender el 1.er y 3.er sábado, 7-9 pm; grupo juvenil (14-20 años) los domingos; despensa de alimentos.
+    url: https://tccidaho.org/
+    address: 1088 N Orchard St, Boise, ID 83706
+    cost: free
+    verification: org_website
+    sources: [tcc-about, tcc-groups]
+  - id: full-circle-health
+    name: Full Circle Health
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Sliding-fee community health center with a PrEP clinic in Boise and Nampa and the Wellness Center, Idaho's largest HIV clinic (Ryan White program).
+      es: Centro de salud comunitario con tarifa móvil, clínica de PrEP en Boise y Nampa, y el Wellness Center, la mayor clínica de VIH de Idaho.
+    url: https://www.fullcircleidaho.org/specialty-care-services/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fch-specialty, fch-sliding]
+  - id: pp-boise-meridian
+    org: planned-parenthood
+    name: Planned Parenthood (Boise and Meridian health centers)
+    type: sexual_health
+    pillars: [sexual_health, hrt]
+    description:
+      en: STI testing, PrEP, and birth control. Call to confirm whether hormone therapy is currently offered in Idaho (adults 18 and older only under state law).
+      es: Pruebas de ITS, PrEP y anticonceptivos. Llama para confirmar si ofrecen terapia hormonal en Idaho (solo mayores de 18 años por ley estatal).
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    cost: sliding_scale
+    verification: unverified
+    sources: [pp-gnw]
+  - id: queerdoc
+    org: queerdoc
+    name: QueerDoc
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Informed-consent hormone therapy by telehealth for Idaho residents, sliding-scale pricing.
+      es: Terapia hormonal por consentimiento informado por telesalud para residentes de Idaho, precios en escala móvil.
+    url: https://queerdoc.com/
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [queerdoc]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ada-cao
+    url: https://courtselfhelp.idaho.gov/Local/Ada
+    title: Ada County Court Assistance Office
+    publisher: Idaho Supreme Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: 200 W. Front Street, Room 1171 Boise, ID 83702-7300 Phone (208) 287-6963 or (208) 287-6944
+  - id: isc-fees
+    url: https://api.isc.idaho.gov/uploads/Rules_PDFs/1775633983169-Appendix-A-Civil-Case-Filing-Fees-071224.pdf
+    title: Appendix A, Filing Fee Schedule (effective July 12, 2024)
+    publisher: Idaho Supreme Court
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-id
+    url: https://transequality.org/documents/idaho-identity-documents
+    title: Idaho Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: tcc-about
+    url: https://tccidaho.org/about-us/
+    title: About Us, The Community Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: located at 1088 N Orchard St in Boise, Idaho
+  - id: tcc-groups
+    url: https://tccidaho.org/we-offer/
+    title: Groups, The Community Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Tri-States Transgender ... 1st and 3rd Saturday of the month from 7-9pm"
+  - id: fch-specialty
+    url: https://www.fullcircleidaho.org/specialty-care-services/
+    title: Specialty Care Services, Full Circle Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: fch-sliding
+    url: https://www.fullcircleidaho.org/sliding-fee/
+    title: Sliding Fee, Full Circle Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-gnw
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    title: Planned Parenthood Great Northwest, Hawai'i, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+  - id: queerdoc
+    url: https://queerdoc.com/
+    title: QueerDoc
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
