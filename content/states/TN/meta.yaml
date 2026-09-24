@@ -1,0 +1,133 @@
+code: TN
+name:
+  en: Tennessee
+  es: Tennessee
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings follow the statutes and bill records read on 2026-09-24 (Tenn. Code Ann. 1-3-105(c), 68-3-203(d),
+    SB 1 / Pub. Ch. 1 (2023), Pub. Ch. 765 (2026) on TennCare) and agree with MAP's Tennessee profile. Only Nashville
+    has a local file; Memphis was skipped because Shelby County court sites blocked automated access. Memphis
+    resources are listed in care.yaml.
+overview:
+  en: >-
+    Tennessee is one of the most restrictive states for trans people. You can still change your **name** through a
+    court petition with no newspaper publication, but the state does not allow changing the sex on a Tennessee birth
+    certificate or driver's license, and a 2023 law defines "sex" everywhere in state law as sex at birth. Hormone
+    therapy and other gender-affirming care are banned for people under 18 (a ban the US Supreme Court upheld in 2025),
+    and since July 1, 2026 TennCare may not pay for this care at any age. Adults can still get hormones from private
+    clinics, Planned Parenthood, and telehealth.
+  es: >-
+    Tennessee es uno de los estados más restrictivos para las personas trans. Todavía puedes cambiar tu **nombre** con
+    una petición judicial sin publicación en periódico, pero el estado no permite cambiar el sexo en el acta de
+    nacimiento ni en la licencia de conducir, y una ley de 2023 define "sexo" en toda la ley estatal como el sexo al
+    nacer. La terapia hormonal y otra atención de afirmación de género están prohibidas para menores de 18 años (una
+    prohibición que la Corte Suprema de EE. UU. confirmó en 2025), y desde el 1 de julio de 2026 TennCare no puede pagar
+    esta atención a ninguna edad. Los adultos todavía pueden obtener hormonas en clínicas privadas, Planned Parenthood y
+    por telesalud.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [tca-1-3-105, gore-v-lee, sb1, pc765, map-tn]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [nashville]
+key_resources:
+  - id: tep
+    name: Tennessee Equality Project
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Statewide LGBTQ advocacy group. Tracks every bill affecting trans Tennesseans each session and publishes plain-language updates.
+      es: Grupo estatal de defensa LGBTQ. Sigue cada proyecto de ley que afecta a las personas trans de Tennessee y publica actualizaciones en lenguaje sencillo.
+    url: https://www.tnep.org/
+    cost: free
+    verification: org_website
+    sources: [tep]
+  - id: las
+    name: Legal Aid Society of Middle Tennessee and the Cumberlands
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes in Middle Tennessee and the Cumberland region, including free name change clinics held around the region. Call 1-800-238-1443.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en el centro de Tennessee y la región de Cumberland, incluidas clínicas gratuitas de cambio de nombre en la región. Llama al 1-800-238-1443.
+    url: https://las.org/
+    phone: "1-800-238-1443"
+    address: 1321 Murfreesboro Pike, Suite 400, Nashville, TN 37217
+    cost: free
+    verification: org_website
+    sources: [las-contact, las-clinic]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: tca-1-3-105
+    url: https://codes.findlaw.com/tn/title-1-code-and-statutes/tn-code-sect-1-3-105/
+    title: Tenn. Code Ann. § 1-3-105(c), definition of "sex"
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "'sex' means a person's immutable biological sex as determined by anatomy and genetics existing at the time of birth and evidence of a person's biological sex."
+  - id: gore-v-lee
+    url: https://www.opn.ca6.uscourts.gov/opinions.pdf/24a0151p-06.pdf
+    title: Gore v. Lee, No. 23-5669 (6th Cir. July 12, 2024)
+    publisher: US Court of Appeals for the Sixth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: As a result of this statute, Tennessee ended its practice of allowing transgender individuals to update their driver's licenses and voter identification cards to reflect their gender identity.
+  - id: sb1
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0001&GA=113
+    title: SB 1 (2023), Public Chapter 1
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: pc765
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB2118&GA=114
+    title: SB 2118 / HB 2498 (2026), Public Chapter 765, TennCare coverage
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-tn
+    url: https://mapresearch.org/equality-profiles/TN/
+    title: Tennessee equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tep
+    url: https://www.tnep.org/
+    title: Tennessee Equality Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: las-contact
+    url: https://las.org/contact/
+    title: Contact, Legal Aid Society of Middle Tennessee and the Cumberlands
+    kind: org
+    accessed: "2026-09-24"
+    quote: 1321 Murfreesboro Pike, Suite 400, Nashville, TN 37217. Phone 1-800-238-1443
+  - id: las-clinic
+    url: https://las.org/event/free-name-change-clinic-in-cookeville-tennessee-july-9-2026/
+    title: Free Name Change Clinic in Cookeville, Tennessee (July 9, 2026)
+    publisher: Legal Aid Society of Middle Tennessee and the Cumberlands
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

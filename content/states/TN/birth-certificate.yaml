@@ -1,0 +1,274 @@
+guide_type: birth_certificate
+jurisdiction: TN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Prohibition confirmed from three primary sources on 2026-09-24: Tenn. Code Ann. 68-3-203(d) (FindLaw text), Tennessee
+    Vital Records' own FAQ ("Tennessee law does not allow for the amendment of a birth certificate due to gender
+    reassignment surgery"), and Gore v. Lee (6th Cir. July 12, 2024), which upheld the policy. Vital Records' help
+    center (vitalrecords.tn.gov) blocks browsers without JavaScript; articles were read through its public Zendesk
+    API. Fees ($15 amendment if more than 6 months after birth, $15 per certified copy) and processing time (2 weeks
+    for court-ordered name changes, as of June 23, 2026) read there. NOT CONFIRMED: whether a name amendment produces
+    a new certificate or an amended one with a visible notation, and whether PH-1186 must accompany a court-ordered
+    name change (the name-change FAQ lists only the certified order and fees). We found no record of Tennessee ever
+    having allowed sex changes, so there are no previously amended certificates to void. No petition for certiorari in
+    Gore v. Lee was checked. The Gore dissent (footnote 5) mentions Tennessee policies "requiring strikethroughs showing amendments to birth certificates", which suggests a name amendment may be visible on the certificate; reviewer should confirm with Vital Records.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Tennessee law does not allow changing the sex on a Tennessee birth certificate, and a federal appeals court upheld
+    this in 2024. You can update your name on it by mailing a certified copy of your court order and $30 ($15
+    amendment fee plus $15 for a new copy).
+  es: >-
+    La ley de Tennessee no permite cambiar el sexo en un acta de nacimiento de Tennessee, y un tribunal federal de
+    apelaciones lo confirmó en 2024. Puedes actualizar tu nombre enviando por correo una copia certificada de tu orden
+    judicial y $30 ($15 por la enmienda más $15 por una copia nueva).
+summary:
+  en: |
+    Tennessee Code § 68-3-203(d) says: "The sex of an individual shall not be changed on the original certificate of birth as a result of sex change surgery." Tennessee Vital Records applies this to all gender-related requests: it corrects the sex only when the entry was a recording mistake at birth, proven with an affidavit and documentary evidence. In **Gore v. Lee** (2024), four trans women born in Tennessee challenged the policy; the Sixth Circuit held that it does not violate the Constitution. A court order recognizing your gender will not change the result, and 2023's definition of "sex" in state law (§ 1-3-105(c)) points the same way.
+
+    You **can** change the **name**. Under § 68-3-203(c), the state registrar must amend the certificate to show a new name when given a certified copy of a court order changing it.
+
+    This guide applies only to people born in Tennessee. If you were born in another state, that state's rules control your birth certificate, even if you live in Tennessee.
+  es: |
+    El Código de Tennessee § 68-3-203(d) dice que el sexo de una persona no se cambiará en el acta de nacimiento original como resultado de una cirugía de cambio de sexo. Estadísticas Vitales de Tennessee aplica esto a todas las solicitudes relacionadas con el género: corrige el sexo solo cuando hubo un error al registrarlo al nacer, probado con una declaración jurada y pruebas documentales. En **Gore v. Lee** (2024), cuatro mujeres trans nacidas en Tennessee impugnaron la política; el Sexto Circuito decidió que no viola la Constitución. Una orden judicial que reconozca tu género no cambia el resultado.
+
+    Sí **puedes** cambiar el **nombre**. Según el § 68-3-203(c), el registrador estatal debe enmendar el acta para mostrar el nuevo nombre al recibir una copia certificada de la orden judicial.
+
+    Esta guía aplica solo a personas nacidas en Tennessee. Si naciste en otro estado, las reglas de ese estado controlan tu acta, aunque vivas en Tennessee.
+eligibility:
+  residency:
+    en: You must have been born in Tennessee. Where you live now does not matter.
+    es: Debes haber nacido en Tennessee. No importa dónde vivas ahora.
+  other:
+    en: The person named on the certificate (or a parent, guardian, or legal representative) may request the name amendment.
+    es: La persona nombrada en el acta (o su padre, madre, tutor o representante legal) puede pedir la enmienda de nombre.
+  sources: [tca-68-3-203, tca-1-3-105, vr-sex, vr-name-change, vr-other-state]
+forms:
+  - id: PH-1186
+    name:
+      en: Application to Amend a Tennessee Birth Record
+      es: Solicitud para enmendar un registro de nacimiento de Tennessee
+    url: https://www.tn.gov/content/dam/tn/health/pdf/PH-1186-Application-to-Amend-A-Tennessee-Birth-Record.pdf
+    required: optional
+    condition:
+      en: Vital Records' general amendment form. Its name-change instructions ask only for the certified court order and fees, but including this form can help identify your record.
+      es: Formulario general de enmiendas de Estadísticas Vitales. Sus instrucciones para cambio de nombre solo piden la orden certificada y las tarifas, pero incluir este formulario puede ayudar a identificar tu registro.
+    sources: [vr-applications, vr-name-change]
+  - id: PH-1654
+    name:
+      en: Application for a Certified Copy of a Certificate of Birth
+      es: Solicitud de copia certificada de acta de nacimiento
+    url: https://www.tn.gov/content/dam/tn/health/pdf/PH-1654-Application-For-Certificate-of-Birth.pdf
+    url_es: https://www.tn.gov/content/dam/tn/health/documents/vital-records/PH-1654-Application-For-Certificate-of-Birth-Spanish.pdf
+    required: optional
+    condition:
+      en: Use it to order copies of the corrected certificate, or to order copies later.
+      es: Úsalo para pedir copias del acta corregida, o para pedir copias después.
+    sources: [vr-applications]
+steps:
+  - id: court-order
+    title:
+      en: Get a court order changing your name
+      es: Obtén una orden judicial de cambio de nombre
+    body:
+      en: See the name change guide. You need a **certified** copy of the order from the court clerk.
+      es: Consulta la guía de cambio de nombre. Necesitas una copia **certificada** de la orden del secretario del tribunal.
+    applies_to: [name_change]
+    sources: [vr-court-order]
+  - id: mail
+    title:
+      en: Mail the order and fees to Vital Records
+      es: Envía la orden y las tarifas a Estadísticas Vitales
+    body:
+      en: |
+        Send:
+        1. An original, certified copy of the court order that changed your name.
+        2. A check or money order payable to Tennessee Vital Records: **$15** for the amendment (no fee if it is within 6 months of birth) plus **$15** for each certified copy of the corrected certificate you want.
+        3. Optionally, form PH-1186 and a photocopy of your photo ID.
+
+        Mail to: Tennessee Vital Records, 1st Floor, Andrew Johnson Tower, 710 James Robertson Parkway, Nashville, TN 37243.
+      es: |
+        Envía:
+        1. Una copia original certificada de la orden judicial que cambió tu nombre.
+        2. Un cheque o giro postal a nombre de Tennessee Vital Records: **$15** por la enmienda más **$15** por cada copia certificada del acta corregida.
+        3. Opcionalmente, el formulario PH-1186 y una fotocopia de tu identificación.
+
+        Dirección: Tennessee Vital Records, 1st Floor, Andrew Johnson Tower, 710 James Robertson Parkway, Nashville, TN 37243.
+    forms: [PH-1186]
+    fees: [amendment, copy]
+    applies_to: [name_change, by_mail]
+    sources: [vr-name-change, vr-fees, vr-id]
+  - id: wait
+    title:
+      en: Wait about two weeks
+      es: Espera unas dos semanas
+    body:
+      en: Vital Records lists 2 weeks for court-ordered name changes (as of June 23, 2026), if your record is on file. Times change with volume.
+      es: Estadísticas Vitales indica 2 semanas para cambios de nombre por orden judicial (al 23 de junio de 2026), si tu registro está en archivo.
+    estimated_time:
+      en: about 2 weeks
+      es: unas 2 semanas
+    sources: [vr-timing]
+  - id: copies-later
+    title:
+      en: Order more copies later from any county health department
+      es: Pide más copias después en cualquier departamento de salud del condado
+    body:
+      en: Once your record is updated, any Tennessee county health department, the Nashville office (walk-in, same day), or the online vendor can issue certified copies for $15 each.
+      es: Una vez actualizado tu registro, cualquier departamento de salud de condado de Tennessee, la oficina de Nashville (sin cita, el mismo día) o el proveedor en línea pueden emitir copias certificadas por $15 cada una.
+    forms: [PH-1654]
+    fees: [copy]
+    optional: true
+    sources: [vr-get-certificate, vr-fees]
+fees:
+  - id: amendment
+    label:
+      en: Amending a certificate (more than 6 months after birth)
+      es: Enmienda de un acta (más de 6 meses después del nacimiento)
+    amount: 15
+    sources: [vr-fees]
+  - id: copy
+    label:
+      en: Certified copy of a birth certificate (each)
+      es: Copia certificada de acta de nacimiento (cada una)
+    amount: 15
+    sources: [vr-fees]
+fee_waiver:
+  available: false
+  sources: [vr-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Name amendments are mailed to, or dropped off at, the state Vital Records office in Nashville (Monday to Friday, 8:00 am to 4:00 pm). Copies can also be ordered in person, by mail, or online.
+    es: Las enmiendas de nombre se envían por correo o se entregan en la oficina estatal de Estadísticas Vitales en Nashville (lunes a viernes, 8:00 am a 4:00 pm).
+  sources: [vr-name-change, vr-get-certificate]
+timeline:
+  en: About 2 weeks after Vital Records receives a complete name-change request.
+  es: Unas 2 semanas después de que Estadísticas Vitales reciba una solicitud completa de cambio de nombre.
+after:
+  en: |
+    Your Tennessee birth certificate will show your new name and the sex recorded at birth. For federal documents, a US passport currently cannot show a changed sex marker either (as of September 2026). If you were born in Tennessee but live in a state that issues its own records (for example, a driver's license with a self-attested marker), that state's rules apply to its own documents, but your Tennessee birth certificate stays the same.
+  es: |
+    Tu acta de nacimiento de Tennessee mostrará tu nuevo nombre y el sexo registrado al nacer. El pasaporte de EE. UU. tampoco puede mostrar actualmente un marcador cambiado (a septiembre de 2026). Si naciste en Tennessee pero vives en otro estado, las reglas de ese estado aplican a sus propios documentos, pero tu acta de Tennessee no cambia.
+tips:
+  - en: Do not send a gender-recognition order from another state expecting Vital Records to change the sex; Vital Records will not change the sex under § 68-3-203(d).
+    es: No envíes una orden de reconocimiento de género de otro estado esperando que cambien el sexo; Estadísticas Vitales no cambiará el sexo según el § 68-3-203(d).
+  - en: If you live in Tennessee but were born elsewhere, check your birth state's rules; many states allow changes by mail.
+    es: Si vives en Tennessee pero naciste en otro lugar, revisa las reglas de tu estado de nacimiento; muchos permiten cambios por correo.
+statutes:
+  - cite: Tenn. Code Ann. § 68-3-203(c), (d)
+    title:
+      en: Registrar must amend the name on a court order; sex may not be changed on the original certificate
+      es: El registrador debe enmendar el nombre con orden judicial; el sexo no puede cambiarse en el acta original
+    url: https://codes.findlaw.com/tn/title-68-health-safety-and-environmental-protection/tn-code-sect-68-3-203/
+  - cite: Tenn. Code Ann. § 1-3-105(c)
+    title:
+      en: Defines "sex" as immutable biological sex at birth (2023)
+      es: Define "sexo" como el sexo biológico inmutable al nacer (2023)
+    url: https://codes.findlaw.com/tn/title-1-code-and-statutes/tn-code-sect-1-3-105/
+litigation:
+  - case: Gore v. Lee, No. 23-5669
+    court: US Court of Appeals for the Sixth Circuit
+    summary:
+      en: Four trans women born in Tennessee argued that refusing to change the sex on their birth certificates violated equal protection and a due-process right to informational privacy. The court ruled 2 to 1 for the state on July 12, 2024 (107 F.4th 548).
+      es: Cuatro mujeres trans nacidas en Tennessee argumentaron que negarse a cambiar el sexo en sus actas violaba la igualdad ante la ley y el derecho a la privacidad de la información. El tribunal falló 2 a 1 a favor del estado el 12 de julio de 2024.
+    effect_today:
+      en: The ban stays in force. There is no court order requiring Tennessee to change sex markers.
+      es: La prohibición sigue vigente. No hay orden judicial que obligue a Tennessee a cambiar marcadores de sexo.
+    last_update: "2024-07-12"
+    url: https://www.opn.ca6.uscourts.gov/opinions.pdf/24a0151p-06.pdf
+    sources: [gore-v-lee]
+related_links:
+  - title: Advocates for Trans Equality, Tennessee identity documents
+    url: https://transequality.org/documents/tennessee-identity-documents
+    note:
+      en: Undated.
+      es: Sin fecha.
+sources:
+  - id: tca-68-3-203
+    url: https://codes.findlaw.com/tn/title-68-health-safety-and-environmental-protection/tn-code-sect-68-3-203/
+    title: Tenn. Code Ann. § 68-3-203
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The sex of an individual shall not be changed on the original certificate of birth as a result of sex change surgery.
+  - id: tca-1-3-105
+    url: https://codes.findlaw.com/tn/title-1-code-and-statutes/tn-code-sect-1-3-105/
+    title: Tenn. Code Ann. § 1-3-105(c)
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+  - id: gore-v-lee
+    url: https://www.opn.ca6.uscourts.gov/opinions.pdf/24a0151p-06.pdf
+    title: Gore v. Lee, No. 23-5669 (6th Cir. July 12, 2024)
+    publisher: US Court of Appeals for the Sixth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: it treats the sex listed on a birth certificate as a historical fact unchangeable by an individual's transition to a different gender identity.
+  - id: vr-sex
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36331137173779-How-do-I-correct-the-sex-on-my-birth-certificate
+    title: How do I correct the sex on my birth certificate?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: Tennessee law does not allow for the amendment of a birth certificate due to gender reassignment surgery.
+  - id: vr-name-change
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36331075483027-My-name-was-legally-changed-How-do-I-get-it-changed-on-my-birth-certificate
+    title: My name was legally changed. How do I get it changed on my birth certificate?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: In the event of a court-ordered name change, to amend the birth certificate we require ... An original, certified copy of the court order that changed your name.
+  - id: vr-fees
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees
+    title: Fees
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Birth Certificate $15.00 ... Amending a certificate 6 months or more after the date of the event $15.00"
+  - id: vr-timing
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36330016050195-How-long-will-it-take
+    title: How long will it take?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Court Ordered Name Changes and Court Orders of Paternity: 2 weeks"
+  - id: vr-applications
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36330251203731-Applications
+    title: Applications
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: vr-get-certificate
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36323891148435-How-do-I-get-my-certificate-In-Person-Local-County-Health-Department-Mail-or-Online
+    title: How do I get my certificate?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: vr-id
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36331554733587-Identification-Requirements
+    title: Identification Requirements
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: vr-court-order
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36331272991635-How-do-I-get-a-court-order
+    title: How do I get a court order?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: vr-other-state
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/360001942348-I-was-born-in-a-state-other-than-Tennessee-who-do-I-contact
+    title: I was born in a state other than Tennessee, who do I contact?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"

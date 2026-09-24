@@ -1,0 +1,367 @@
+jurisdiction: TN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Laws read on the General Assembly's bill pages 2026-09-24: SB 1 (2023, Pub. Ch. 1), SB 2118/HB 2498 (2026, Pub. Ch.
+    765, TennCare), SB 676/HB 754 (2026, Pub. Ch. 932, gender clinic reporting and detransition coverage), SB 2031/HB
+    1872 (2026, Pub. Ch. 794, civil suits for coercion), SB 1664/HB 1665 (2026, Pub. Ch. 748, gender questions to
+    minors, effective October 1, 2026). Summaries are the legislature's bill summaries, not the enrolled text; reviewer
+    should read the enrolled acts, especially Pub. Ch. 765's effective date (bill page lists 07/01/2026) and whether any
+    lawsuit challenges it (none found). United States v. Skrmetti syllabus read on supremecourt.gov. The TennCare rules
+    (1200-13-13/-14 exclusions) could not be fetched from the Secretary of State site. Vanderbilt: we could not find a
+    current VUMC adult transgender clinic page (old URLs return 404); VUMC is not listed. Street Works and
+    Neighborhood Health (Nashville) websites did not respond; not listed. QueerMed's Tennessee availability was not
+    confirmed. Choice Health Network's site does not mention hormone therapy, so it is listed only for PrEP and HIV
+    care. Planned Parenthood of Tennessee and North Mississippi: informed consent, 18 and older, read on its page.
+status_summary:
+  en: >-
+    Adults in Tennessee can still legally get hormone therapy, including by informed consent at Planned Parenthood and
+    through telehealth. Since July 1, 2026, TennCare (Medicaid) may not pay for hormones, puberty blockers, or surgery
+    for gender transition at any age, and gender clinics must report their prescriptions to the state. Hormones, puberty
+    blockers, and surgery for gender transition are banned for everyone under 18; the US Supreme Court upheld that ban
+    in June 2025. Tennessee has no shield law.
+  es: >-
+    Los adultos en Tennessee todavía pueden obtener legalmente terapia hormonal, incluso por consentimiento informado en
+    Planned Parenthood y por telesalud. Desde el 1 de julio de 2026, TennCare (Medicaid) no puede pagar hormonas,
+    bloqueadores de pubertad ni cirugía para la transición de género a ninguna edad, y las clínicas de género deben
+    reportar sus recetas al estado. Las hormonas, los bloqueadores de pubertad y la cirugía para la transición están
+    prohibidos para menores de 18 años; la Corte Suprema de EE. UU. confirmó esa prohibición en junio de 2025.
+    Tennessee no tiene ley escudo.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Hormone therapy is **legal for adults 18 and older**, but state law now limits how it is paid for and tracked:
+      - **TennCare will not pay** for estrogen, testosterone, puberty blockers, or surgery for gender transition, from July 1, 2026, including care delivered by telehealth to someone in Tennessee (Public Chapter 765). Care already underway can be covered only until March 31, 2027, and only if your treating physician certifies in writing that stopping would harm you.
+      - **Gender clinics must report** each transition-related prescription or surgery to the Department of Health (date, age, sex, drug and dose, state of residence, prescriber, and mental health diagnoses), without names; the state publishes only aggregate numbers (Public Chapter 932, 2026).
+      - A 2026 law (Public Chapter 794) lets adults sue a provider for up to 18 years if they were coerced into transition care.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. **Planned Parenthood of Tennessee and North Mississippi** prescribes hormones by **informed consent** (no therapist letter) to patients 18 and older, in person at its Tennessee health centers (Nashville, Memphis, Knoxville) and by telehealth. It offers prompt-pay discounts. Call 866-711-1717.
+      2. **Telehealth**: Plume and FOLX serve Tennessee. Point of Pride's HRT Access Fund pays for 18 months of telehealth care through partners like these.
+      3. **Community health centers** charge on a sliding scale; find one at findahealthcenter.hrsa.gov and ask whether they prescribe hormones.
+      4. For the medications themselves, generic estradiol tablets and spironolactone are inexpensive with a pharmacy discount coupon; testosterone prices vary more, so compare cash prices.
+    es: |
+      La terapia hormonal es **legal para adultos de 18 años o más**, pero la ley estatal ahora limita cómo se paga y se registra:
+      - **TennCare no pagará** estrógeno, testosterona, bloqueadores de pubertad ni cirugía para la transición de género desde el 1 de julio de 2026, incluso por telesalud a alguien en Tennessee (Capítulo Público 765). La atención ya iniciada puede cubrirse solo hasta el 31 de marzo de 2027, y solo si tu médico certifica por escrito que suspenderla te dañaría.
+      - **Las clínicas de género deben reportar** cada receta o cirugía de transición al Departamento de Salud, sin nombres; el estado publica solo cifras agregadas (Capítulo Público 932, 2026).
+      - Una ley de 2026 (Capítulo Público 794) permite a los adultos demandar a un proveedor hasta por 18 años si fueron coaccionados a recibir atención de transición.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. **Planned Parenthood of Tennessee and North Mississippi** receta hormonas por **consentimiento informado** (sin carta de terapeuta) a pacientes de 18 años o más, en persona en sus centros de Tennessee (Nashville, Memphis, Knoxville) y por telesalud. Ofrece descuentos por pago inmediato. Llama al 866-711-1717.
+      2. **Telesalud**: Plume y FOLX atienden Tennessee. El Fondo de Acceso a TRH de Point of Pride paga 18 meses de atención por telesalud con socios como estos.
+      3. Los **centros de salud comunitarios** cobran en escala móvil; búscalos en findahealthcenter.hrsa.gov y pregunta si recetan hormonas.
+      4. Los medicamentos genéricos como estradiol y espironolactona son económicos con un cupón de descuento de farmacia; compara precios de testosterona.
+  sources: [pc765, pc932, pc794, pptnm-gah, pop-hrt, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Banned since July 1, 2023** (SB 1, Public Chapter 1; Tenn. Code Ann. § 68-33-101 et seq.). Health care providers may not give anyone under 18 puberty blockers, hormones, or surgery for the purpose of living as a gender different from their sex at birth or treating distress about it. Treatment that began before the law had to end by March 31, 2024. Exceptions cover only congenital conditions, precocious puberty, disease (not including gender dysphoria), or injury.
+
+      **Penalties**: the Attorney General can seek a $25,000 civil penalty per violation within 20 years; patients or parents can sue providers up to 30 years after the patient turns 18; licensing boards must act against violators.
+
+      **The ban is in full effect.** The US Supreme Court upheld it in **United States v. Skrmetti** on June 18, 2025. Tennessee has no shield law. Mental health care and social support remain legal, but a 2026 law (Public Chapter 748, effective October 1, 2026) bars providers from asking a minor about gender identity unless a parent is present and consents in writing and the question relates to a condition being evaluated. Planned Parenthood of Tennessee and North Mississippi sees minors for other sexual health care but not hormone therapy. Families considering care in another state should talk to a lawyer first.
+    es: |
+      **Prohibida desde el 1 de julio de 2023** (SB 1, Capítulo Público 1; Código de Tennessee § 68-33-101 y siguientes). Los proveedores de salud no pueden dar a menores de 18 años bloqueadores de pubertad, hormonas ni cirugía con el propósito de vivir como un género distinto a su sexo al nacer o tratar la angustia relacionada. Los tratamientos iniciados antes de la ley tuvieron que terminar el 31 de marzo de 2024. Las excepciones solo cubren condiciones congénitas, pubertad precoz, enfermedad (sin incluir la disforia de género) o lesión.
+
+      **Sanciones**: el Fiscal General puede pedir una multa civil de $25,000 por infracción; pacientes o padres pueden demandar hasta 30 años después de que el paciente cumpla 18; las juntas de licencias deben actuar contra los infractores.
+
+      **La prohibición está plenamente vigente.** La Corte Suprema de EE. UU. la confirmó en **United States v. Skrmetti** el 18 de junio de 2025. Tennessee no tiene ley escudo. La atención de salud mental sigue siendo legal, pero una ley de 2026 (Capítulo Público 748, vigente el 1 de octubre de 2026) prohíbe a los proveedores preguntar a un menor sobre identidad de género salvo que un padre esté presente y consienta por escrito. Las familias que consideren atención en otro estado deben hablar primero con un abogado.
+  sources: [sb1, tca-68-33-103, skrmetti, pc748, pptnm-gah]
+medicaid:
+  program_name: TennCare
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: |
+      Public Chapter 765 (2026) bars TennCare from covering or reimbursing surgery, puberty blockers, androgens, or estrogens for gender transition or to treat gender dysphoria, for people of any age, starting July 1, 2026. The only exceptions are treatment for a congenital defect, precocious puberty, disease, or injury, and a transition period: care that started before the law may be covered until **March 31, 2027** if your treating physician puts a written certification in your record that stopping would be harmful. TennCare still covers other health care, including mental health.
+
+      **Who qualifies for TennCare**: Tennessee has not expanded Medicaid. Coverage is mainly for children under 21, pregnant people, parents or caretakers of a minor child who lives with them, people receiving SSI, and some older or disabled people. Most adults without children do not qualify. Apply at tenncareconnect.tn.gov; the Tennessee Justice Center helps people for free with TennCare problems.
+    es: |
+      El Capítulo Público 765 (2026) prohíbe que TennCare cubra cirugía, bloqueadores de pubertad, andrógenos o estrógenos para la transición de género o para tratar la disforia de género, a cualquier edad, desde el 1 de julio de 2026. Las únicas excepciones son tratamientos por defecto congénito, pubertad precoz, enfermedad o lesión, y un período de transición: la atención iniciada antes de la ley puede cubrirse hasta el **31 de marzo de 2027** si tu médico certifica por escrito que suspenderla sería dañino. TennCare sigue cubriendo otra atención médica, incluida la salud mental.
+
+      **Quién califica**: Tennessee no ha expandido Medicaid. La cobertura es principalmente para menores de 21 años, personas embarazadas, padres o cuidadores de un menor que vive con ellos, personas con SSI y algunas personas mayores o con discapacidad. La mayoría de los adultos sin hijos no califican. Solicita en tenncareconnect.tn.gov; el Tennessee Justice Center ayuda gratis con problemas de TennCare.
+  how_to_apply_url: https://tenncareconnect.tn.gov/
+  sources: [pc765, tenncare-medicaid, tjc]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Tennessee has no law stopping private insurers from excluding gender-affirming care, and many plans do exclude it. Since 2026 (Public Chapter 932), any policy issued, renewed, or amended in Tennessee that covers gender transition procedures must also cover detransition procedures, and insurers must report detransition claims to the state. If your plan denies care, appeal with the plan first; A4TE's Trans Health Project has free appeal help and templates. You can also file a complaint with the Tennessee Department of Commerce and Insurance, although no state law requires coverage.
+    es: |
+      Tennessee no tiene una ley que impida a los seguros privados excluir la atención de afirmación de género, y muchos planes la excluyen. Desde 2026 (Capítulo Público 932), toda póliza que cubra procedimientos de transición también debe cubrir procedimientos de destransición. Si tu plan niega atención, apela primero con el plan; el Trans Health Project de A4TE ofrece ayuda gratuita con apelaciones. También puedes presentar una queja ante el Departamento de Comercio y Seguros de Tennessee, aunque ninguna ley estatal exige la cobertura.
+  complaint_url: https://www.tn.gov/commerce/insurance/consumer-resources/file-a-complaint.html
+  sources: [map-tn, pc932, tdci-complaint, a4te-thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pptnm
+    org: planned-parenthood
+    name: Planned Parenthood of Tennessee and North Mississippi
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone care by informed consent for patients 18 and older, in person at Tennessee health centers and by telehealth. Accepts many insurance plans; prompt-pay discounts for uninsured patients. Call 866-711-1717.
+      es: Atención hormonal de afirmación de género por consentimiento informado para pacientes de 18 años o más, en persona en sus centros de Tennessee y por telesalud. Acepta muchos seguros; descuentos por pago inmediato. Llama al 866-711-1717.
+    url: https://www.plannedparenthood.org/planned-parenthood-tennessee-and-north-mississippi/patients/gah-care
+    phone: "866-711-1717"
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pptnm-gah, pp-tn-centers]
+  - id: cares360
+    name: CARES 360 (Nashville CARES clinic)
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: HIV care, PrEP, PEP, doxyPEP, STI testing, primary care, and LGBTQ+ informed care in Nashville and Memphis. No insurance required for STI testing and PrEP.
+      es: Atención de VIH, PrEP, PEP, doxyPEP, pruebas de ITS, atención primaria y atención informada LGBTQ+ en Nashville y Memphis. No se requiere seguro para pruebas de ITS y PrEP.
+    url: https://cares360.org/
+    phone: "615-499-7406"
+    address: 633 Thompson Lane, Nashville, TN 37204
+    areas_served:
+      en: Nashville; Memphis clinic at 806 Cooper St (901-896-0739)
+      es: Nashville; clínica en Memphis en 806 Cooper St (901-896-0739)
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [cares360]
+  - id: choice-health-network
+    name: Choice Health Network
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: HIV prevention (PrEP and PEP), testing, HIV care, mental health, and case management at sites in Knoxville, Chattanooga, Memphis, the Upper Cumberland, and West Tennessee.
+      es: Prevención del VIH (PrEP y PEP), pruebas, atención del VIH, salud mental y manejo de casos en Knoxville, Chattanooga, Memphis, Upper Cumberland y el oeste de Tennessee.
+    url: https://choicehealthnetwork.org/
+    phone: "865-525-1540"
+    address: 1925 Ailor Avenue, Knoxville, TN 37921
+    cost: varies
+    verification: org_website
+    sources: [choice]
+  - id: outmemphis
+    name: OUTMemphis
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health]
+    description:
+      en: Memphis LGBTQ community center with free HIV, hepatitis C, and syphilis testing during walk-in hours, case management, and a Youth Empowerment Center for young people.
+      es: Centro comunitario LGBTQ de Memphis con pruebas gratuitas de VIH, hepatitis C y sífilis en horario sin cita, manejo de casos y un Centro de Empoderamiento Juvenil.
+    url: https://www.outmemphis.org/
+    phone: "901-278-6422"
+    address: 892 S. Cooper Street, Memphis, TN 38104
+    cost: free
+    verification: org_website
+    sources: [outmemphis]
+  - id: tjc
+    name: Tennessee Justice Center
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help for Tennesseans with TennCare applications, denials, and appeals.
+      es: Ayuda gratuita para habitantes de Tennessee con solicitudes, negaciones y apelaciones de TennCare.
+    url: https://www.tnjustice.org/
+    phone: "615-255-0331"
+    address: 155 Lafayette St., Nashville, TN 37210
+    cost: free
+    verification: org_website
+    sources: [tjc]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for 18 months of telehealth hormone care (visits, labs, and letters) through partners including Plume and FOLX, for people 18 and older.
+      es: Paga 18 meses de atención hormonal por telesalud (consultas, laboratorios y cartas) a través de socios como Plume y FOLX, para personas de 18 años o más.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: a4te-thp
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help appealing insurance denials for gender-affirming care, with templates and guides.
+      es: Ayuda gratuita para apelar negaciones de seguros de atención de afirmación de género, con plantillas y guías.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [a4te-thp]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers, which charge on a sliding scale based on income.
+      es: Buscador federal de centros de salud comunitarios, que cobran según tus ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: Tenn. Code Ann. § 68-33-103 (SB 1, 2023 Pub. Ch. 1)
+    title:
+      en: Bans puberty blockers, hormones, and surgery for gender transition for minors
+      es: Prohíbe bloqueadores de pubertad, hormonas y cirugía para la transición de género en menores
+    url: https://codes.findlaw.com/tn/title-68-health-safety-and-environmental-protection/tn-code-sect-68-33-103/
+  - cite: 2026 Pub. Ch. 765 (SB 2118 / HB 2498)
+    title:
+      en: TennCare may not cover gender transition care at any age, effective July 1, 2026
+      es: TennCare no puede cubrir atención de transición de género a ninguna edad, desde el 1 de julio de 2026
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB2118&GA=114
+  - cite: 2026 Pub. Ch. 932 (SB 676 / HB 754)
+    title:
+      en: Gender clinic reporting; detransition coverage required when transition care is covered
+      es: Reportes de clínicas de género; cobertura obligatoria de destransición cuando se cubre la transición
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0676&GA=114
+  - cite: 2026 Pub. Ch. 794 (SB 2031 / HB 1872)
+    title:
+      en: Civil lawsuits against providers for coerced transition care
+      es: Demandas civiles contra proveedores por atención de transición coaccionada
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB2031&GA=114
+  - cite: 2026 Pub. Ch. 748 (SB 1664 / HB 1665)
+    title:
+      en: Limits on asking minors gender identity questions in health care, effective October 1, 2026
+      es: Límites a preguntas sobre identidad de género a menores en la atención médica, desde el 1 de octubre de 2026
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB1664&GA=114
+litigation:
+  - case: United States v. Skrmetti, No. 23-477
+    court: Supreme Court of the United States
+    summary:
+      en: Challenge to SB 1's ban on puberty blockers and hormones for minors. On June 18, 2025, the Court held that the ban does not violate the Equal Protection Clause.
+      es: Impugnación de la prohibición de SB 1 de bloqueadores de pubertad y hormonas para menores. El 18 de junio de 2025 la Corte decidió que la prohibición no viola la Cláusula de Igual Protección.
+    effect_today:
+      en: The minors' ban is fully in force in Tennessee. No court order limits it.
+      es: La prohibición para menores está plenamente vigente en Tennessee. Ninguna orden judicial la limita.
+    last_update: "2025-06-18"
+    url: https://www.supremecourt.gov/opinions/24pdf/23-477_2cp3.pdf
+    sources: [skrmetti]
+sources:
+  - id: sb1
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0001&GA=113
+    title: SB 1 (2023), Public Chapter 1
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: authorizes the attorney general and reporter to bring an action against a healthcare provider ... to recover a civil penalty of $25,000 per violation.
+  - id: tca-68-33-103
+    url: https://codes.findlaw.com/tn/title-68-health-safety-and-environmental-protection/tn-code-sect-68-33-103/
+    title: Tenn. Code Ann. § 68-33-103
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A healthcare provider shall not knowingly perform or offer to perform on a minor, or administer or offer to administer to a minor, a medical procedure if the performance or administration of the procedure is for the purpose of ...
+  - id: skrmetti
+    url: https://www.supremecourt.gov/opinions/24pdf/23-477_2cp3.pdf
+    title: United States v. Skrmetti, No. 23-477 (June 18, 2025)
+    publisher: Supreme Court of the United States
+    kind: court
+    accessed: "2026-09-24"
+    quote: SB1 prohibits healthcare providers from prescribing, administering, or dispensing puberty blockers or hormones to any minor for the purpose of (1) enabling the minor to identify with, or live as, a purported identity inconsistent with the minor's biological sex
+  - id: pc765
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB2118&GA=114
+    title: SB 2118 / HB 2498 (2026), Public Chapter 765
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: This bill prohibits the division of TennCare from providing coverage or reimbursement for a medical procedure if the performance or administration of the procedure is for the purpose of (i) enabling an individual to identify with, or live as, a purported identity inconsistent with the individual's sex
+  - id: pc932
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0676&GA=114
+    title: SB 676 / HB 754 (2026), Public Chapter 932
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If an insurance policy issued, renewed, or amended in this state on or after the effective date of this bill, includes coverage for gender transition procedures, then this bill requires the policy to also include coverage for detransition procedures.
+  - id: pc794
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB2031&GA=114
+    title: SB 2031 / HB 1872 (2026), Public Chapter 794
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: pc748
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB1664&GA=114
+    title: SB 1664 / HB 1665 (2026), Public Chapter 748
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: tenncare-medicaid
+    url: https://www.tn.gov/tenncare/members-applicants/eligibility/tenncare-medicaid.html
+    title: TennCare Medicaid eligibility
+    publisher: Division of TennCare
+    kind: official
+    accessed: "2026-09-24"
+    quote: It provides healthcare to mostly low-income pregnant women, parents or caretakers of a minor child, children, and individuals who are elderly or have a disability.
+  - id: tdci-complaint
+    url: https://www.tn.gov/commerce/insurance/consumer-resources/file-a-complaint.html
+    title: File a complaint (Insurance)
+    publisher: Tennessee Department of Commerce and Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-tn
+    url: https://mapresearch.org/equality-profiles/TN/
+    title: Tennessee equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: pptnm-gah
+    url: https://www.plannedparenthood.org/planned-parenthood-tennessee-and-north-mississippi/patients/gah-care
+    title: Gender Affirming Hormone Care
+    publisher: Planned Parenthood of Tennessee and North Mississippi
+    kind: org
+    accessed: "2026-09-24"
+    quote: GAH treatment is only available to patients 18 and older. ... No visit with a mental health professional is required.
+  - id: pp-tn-centers
+    url: https://www.plannedparenthood.org/health-center/tennessee
+    title: Find Health Centers in Tennessee
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+  - id: cares360
+    url: https://cares360.org/services
+    title: CARES 360 services
+    publisher: Nashville CARES
+    kind: org
+    accessed: "2026-09-24"
+    quote: No insurance required, even for STI testing and PrEP.
+  - id: choice
+    url: https://choicehealthnetwork.org/
+    title: Choice Health Network
+    kind: org
+    accessed: "2026-09-24"
+  - id: outmemphis
+    url: https://www.outmemphis.org/
+    title: OUTMemphis
+    kind: org
+    accessed: "2026-09-24"
+    quote: FREE HIV, HepC, & Syphilis testing during walk-in hours at both locations
+  - id: tjc
+    url: https://www.tnjustice.org/
+    title: Tennessee Justice Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+    quote: We have proudly partnered with Plume, Folx, QueerMed, QueerDoc, TrueU, Spectrum ... to provide recipients with 18 months of HRT-related care
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

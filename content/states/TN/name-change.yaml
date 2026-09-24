@@ -1,0 +1,486 @@
+guide_type: name_change
+jurisdiction: TN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (Tenn. Code Ann. 29-8-101 to -105) read on FindLaw via WebFetch; Justia and the official Lexis site
+    blocked automated access. The Tennessee Courts self-help site (tncourts.gov) serves a JavaScript browser challenge
+    and could NOT be loaded, so we could not confirm whether the Administrative Office of the Courts publishes statewide
+    name change forms or the current Supreme Court Rule 29 indigency form link; reviewer should check
+    tncourts.gov/programs/self-help-center. Davidson County petition, hearing notice, filing fee ($159.50) and
+    certified-copy fee read directly on circuitclerk.nashville.gov. Fees in other counties were not checked and vary.
+    No statute requires publication (agrees with A4TE's Tennessee page, which is undated, and MAP). Minors section
+    relies on A4TE/NCTE's "Name Changes for Minors in Tennessee" guide (undated); the best-interest standard comes from
+    case law we did not read directly. We found no 2025-2026 law changing the name change process; 2026 Pub. Ch. 938
+    (sex definitions in government policy) does not address names. Reviewer: confirm whether any Tennessee judge has
+    been reported denying gender-related name changes (none found).
+status: available
+status_summary:
+  en: >-
+    Adults in Tennessee can change their name by filing a sworn petition in the circuit, probate, or county court where
+    they live. There is no newspaper publication. In Nashville (Davidson County) the fee is $159.50 and you must attend
+    a short hearing in person. People convicted of murder or a registrable sex offense cannot change their name.
+  es: >-
+    En Tennessee, las personas adultas pueden cambiar su nombre presentando una petición jurada en el tribunal de
+    circuito, de sucesiones (probate) o del condado donde viven. No hay publicación en periódico. En Nashville (condado
+    de Davidson) la tarifa es de $159.50 y debes asistir en persona a una audiencia breve. Las personas condenadas por
+    asesinato o por un delito sexual que requiere registro no pueden cambiar su nombre.
+summary:
+  en: |
+    Tennessee's name change law is short (Tenn. Code Ann. §§ 29-8-101 to 29-8-105). You file a written petition, signed and sworn before a notary or the clerk, in the **circuit, probate, or county court of the county where you live**. The petition states that you live in the county and gives your reason. The judge may then order the change. The law does not require publishing a notice in a newspaper.
+
+    Changing your name is the one part of legal transition Tennessee still allows. The state **does not** let you change the sex on your Tennessee birth certificate or driver's license (see those guides), and courts are not asked to rule on gender in a name change. You do not need to say you are trans: "to use the name I am known by" or "personal preference" is a common, truthful reason.
+
+    Each county has its own forms and fees. In **Davidson County (Nashville)** name changes go to the Seventh Circuit (Probate) Court, which has a fill-in petition, charges $159.50, and schedules an in-person hearing on a Tuesday morning.
+  es: |
+    La ley de cambio de nombre de Tennessee es breve (Código de Tennessee §§ 29-8-101 a 29-8-105). Presentas una petición escrita, firmada y jurada ante un notario o el secretario, en el **tribunal de circuito, de sucesiones o del condado del lugar donde vives**. La petición indica que vives en el condado y da tu razón. El juez puede entonces ordenar el cambio. La ley no exige publicar un aviso en el periódico.
+
+    Cambiar tu nombre es la única parte de la transición legal que Tennessee todavía permite. El estado **no** permite cambiar el sexo en el acta de nacimiento ni en la licencia de conducir de Tennessee (ver esas guías). No necesitas decir que eres trans: "usar el nombre por el que me conocen" o "preferencia personal" es una razón común y verdadera.
+
+    Cada condado tiene sus propios formularios y tarifas. En el **condado de Davidson (Nashville)** los cambios de nombre van al Séptimo Tribunal de Circuito (Sucesiones), que tiene una petición para llenar, cobra $159.50 y programa una audiencia en persona un martes por la mañana.
+eligibility:
+  residency:
+    en: File in the county where you live. The petition must state that you are a resident of that county.
+    es: Presenta la petición en el condado donde vives. La petición debe indicar que resides en ese condado.
+  age:
+    en: 18 or older for the adult petition. For a child, a parent or guardian files; see Minors.
+    es: 18 años o más para la petición de adultos. Para un menor, lo presenta un padre, madre o tutor; ver Menores.
+  criminal_history:
+    en: >-
+      You cannot change your name if you were convicted of first- or second-degree murder or of any offense that
+      requires registration as a sex offender. If you have any other felony conviction, the law presumes bad faith and
+      you must show by clear and convincing evidence that the change is for a legitimate reason. These limits do not
+      apply to name changes from marriage, divorce, or adoption.
+    es: >-
+      No puedes cambiar tu nombre si fuiste condenado por asesinato en primer o segundo grado o por un delito que
+      requiere registro como agresor sexual. Si tienes otra condena por delito grave, la ley presume mala fe y debes
+      demostrar con pruebas claras y convincentes que el cambio tiene un motivo legítimo.
+  sources: [tca-29-8-101, tca-29-8-102]
+forms:
+  - id: Davidson Petition for Adult Legal Name Change
+    name:
+      en: Petition for Adult Legal Name Change (Seventh Circuit / Probate Court, Davidson County)
+      es: Petición de cambio de nombre legal de adulto (Tribunal de Sucesiones, condado de Davidson)
+    url: https://circuitclerk.nashville.gov/wp-content/uploads/PC-Petition-for-Name-Change-1.pdf
+    required: conditional
+    condition:
+      en: For Davidson County residents. Other counties use their own form or a petition you draft; ask the circuit or probate court clerk in your county.
+      es: Para residentes del condado de Davidson. Otros condados usan su propio formulario o una petición redactada por ti; pregunta al secretario del tribunal de tu condado.
+    how_to_fill:
+      en: |
+        - Item 1: your current legal name exactly as on your ID.
+        - Item 6: the new full name you want. Check spelling carefully; the order will copy it.
+        - Item 7 (reason): a short, truthful reason is enough, such as "I have used this name for years and want my legal name to match." You are not required to mention gender identity or give medical details.
+        - Item 8: initial to confirm you have no murder or sex-offender-registry conviction. Item 9: list any felonies or write "NONE".
+        - Items 13 to 15 ask the clerk to file copies of your birth certificate, photo ID, and Social Security card **under seal**, so bring those copies.
+        - Do not sign until you are in front of a notary or the Probate Court Clerk (item 16).
+      es: |
+        - Punto 1: tu nombre legal actual tal como aparece en tu identificación.
+        - Punto 6: el nuevo nombre completo que quieres. Revisa la ortografía; la orden lo copiará.
+        - Punto 7 (razón): basta una razón breve y verdadera, como "he usado este nombre por años y quiero que mi nombre legal coincida". No tienes que mencionar tu identidad de género.
+        - Punto 8: pon tus iniciales para confirmar que no tienes condena por asesinato ni por delito de registro sexual. Punto 9: lista cualquier delito grave o escribe "NONE".
+        - Los puntos 13 a 15 piden que se archiven **bajo sello** copias de tu acta de nacimiento, identificación con foto y tarjeta de Seguro Social; lleva esas copias.
+        - No firmes hasta estar frente a un notario o el secretario del tribunal (punto 16).
+    sources: [davidson-petition]
+  - id: Uniform Civil Affidavit of Indigency
+    name:
+      en: Uniform Civil Affidavit of Indigency (pauper's oath), Davidson County Probate Court version
+      es: Declaración jurada uniforme de indigencia (juramento de pobreza), versión del Tribunal de Sucesiones de Davidson
+    url: https://circuitclerk.nashville.gov/wp-content/uploads/formpro_paupersoathorder.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. Every Tennessee court uses the same uniform affidavit; ask your clerk for their copy.
+      es: Solo si no puedes pagar la tarifa. Todos los tribunales de Tennessee usan la misma declaración uniforme; pide la copia al secretario.
+    how_to_fill:
+      en: |
+        - List your income after taxes, any benefits (SSI, disability, unemployment), your monthly expenses, and what you own.
+        - Sign in front of a notary or the clerk. A judge or special master decides whether you can file without paying.
+      es: |
+        - Anota tus ingresos después de impuestos, beneficios (SSI, discapacidad, desempleo), tus gastos mensuales y lo que posees.
+        - Firma frente a un notario o el secretario. Un juez o magistrado especial decide si puedes presentar sin pagar.
+    sources: [davidson-pauper]
+steps:
+  - id: find-court
+    title:
+      en: Find your county's court and form
+      es: Encuentra el tribunal y el formulario de tu condado
+    body:
+      en: |
+        Call or visit the **circuit court clerk** or **probate court clerk** in the county where you live and ask how they handle adult name changes and what the fee is. In Davidson County, use the Probate Court's fill-in petition. The Vital Records office links to a statewide list of court clerks.
+      es: |
+        Llama o visita al **secretario del tribunal de circuito** o del **tribunal de sucesiones** del condado donde vives y pregunta cómo manejan los cambios de nombre de adultos y cuál es la tarifa. En el condado de Davidson usa la petición del Tribunal de Sucesiones.
+    forms: [Davidson Petition for Adult Legal Name Change]
+    sources: [tca-29-8-101, vr-court-order, davidson-petition]
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: Bring a copy of your birth certificate, a government photo ID (driver's license or passport), and your Social Security card. Davidson County asks for all three and files them under seal. Other counties may ask for similar documents.
+      es: Lleva una copia de tu acta de nacimiento, una identificación oficial con foto (licencia o pasaporte) y tu tarjeta de Seguro Social. El condado de Davidson pide las tres y las archiva bajo sello.
+    sources: [davidson-petition]
+  - id: fee-waiver
+    title:
+      en: Ask to file without paying if you cannot afford the fee
+      es: Pide presentar sin pagar si no puedes pagar la tarifa
+    body:
+      en: Fill out the Uniform Civil Affidavit of Indigency and file it with your petition. A judge or special master decides whether to waive the fee.
+      es: Llena la Declaración jurada uniforme de indigencia y preséntala con tu petición. Un juez o magistrado especial decide si exime la tarifa.
+    forms: [Uniform Civil Affidavit of Indigency]
+    optional: true
+    sources: [davidson-pauper, davidson-indigency-order]
+  - id: sign-file
+    title:
+      en: Sign before a notary or the clerk, then file
+      es: Firma ante un notario o el secretario y presenta la petición
+    body:
+      en: |
+        The petition must be sworn. Sign it in front of a notary public or the court clerk, then file it with the clerk and pay the fee (or file your indigency affidavit). In Davidson County the Probate Court Clerk is at the Historic Metro Courthouse, 1 Public Square, Suite 302, and the fee is $159.50 (no personal checks or money orders).
+      es: |
+        La petición debe ser jurada. Fírmala frente a un notario o el secretario, luego preséntala y paga la tarifa (o presenta tu declaración de indigencia). En el condado de Davidson el secretario del Tribunal de Sucesiones está en 1 Public Square, Suite 302, y la tarifa es de $159.50 (no se aceptan cheques personales ni giros postales).
+    fees: [filing]
+    sources: [tca-29-8-102, davidson-fees, davidson-petition]
+  - id: hearing
+    title:
+      en: Go to the hearing if your court sets one
+      es: Asiste a la audiencia si tu tribunal la programa
+    body:
+      en: In Davidson County the clerk writes a hearing date on the petition. Hearings are Tuesdays at 9:00 am before a special master in Courtroom 608 of the Historic Metro Courthouse, and **you must attend in person**. Bring your ID and a copy of your petition. Other counties may decide on the papers or set a hearing.
+      es: En el condado de Davidson el secretario anota una fecha de audiencia en la petición. Las audiencias son los martes a las 9:00 am ante un magistrado especial en la Sala 608 del Historic Metro Courthouse, y **debes asistir en persona**. Lleva tu identificación y una copia de tu petición.
+    applies_to: [in_person]
+    sources: [davidson-petition]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: After the judge signs the order, buy several **certified** copies from the clerk (in Davidson County Probate Court, $5 plus 50 cents per page each). The Department of Safety requires an original or certified copy with the judge's original signature or the court's seal; photocopies are refused.
+      es: Después de que el juez firme la orden, compra varias copias **certificadas** al secretario (en el Tribunal de Sucesiones de Davidson, $5 más 50 centavos por página cada una). El Departamento de Seguridad exige una copia original o certificada con firma original del juez o sello del tribunal.
+    fees: [certified-copies]
+    sources: [davidson-fees, dos-name-change]
+  - id: update-documents
+    title:
+      en: Update your other records, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). The Department of Safety advises updating SSA before visiting a Driver Services Center.
+        2. **Tennessee driver's license or ID**, in person, $8 for a first duplicate (see the driver's license guide). Only the name changes; the sex marker cannot.
+        3. **Birth certificate**, if you were born in Tennessee: mail a certified copy of the order to Vital Records ($15 amendment fee plus $15 per copy). Only the name changes.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis). El Departamento de Seguridad recomienda actualizar el SSA antes de ir a un Centro de Servicios al Conductor.
+        2. **Licencia o identificación de Tennessee**, en persona, $8 por el primer duplicado. Solo cambia el nombre; el marcador de sexo no.
+        3. **Acta de nacimiento**, si naciste en Tennessee: envía una copia certificada de la orden a Estadísticas Vitales ($15 por la enmienda más $15 por copia). Solo cambia el nombre.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [dos-name-change, vr-name-change, vr-fees]
+fees:
+  - id: filing
+    label:
+      en: Court filing fee, adult name change petition (Davidson County)
+      es: Tarifa de presentación, petición de cambio de nombre de adulto (condado de Davidson)
+    amount: 159.5
+    varies_by: county
+    waivable: true
+    note:
+      en: Davidson County Probate and Circuit Courts both list $159.50 as of January 1, 2026. Other counties set their own amounts; call your clerk.
+      es: Los tribunales de Sucesiones y de Circuito de Davidson indican $159.50 desde el 1 de enero de 2026. Otros condados fijan sus propias tarifas; llama al secretario.
+    sources: [davidson-fees, davidson-circuit-fees, tca-29-8-103]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (Davidson County Probate Court)
+      es: Copia certificada de la orden (Tribunal de Sucesiones de Davidson)
+    amount: 5
+    varies_by: county
+    note:
+      en: $5 per certified copy plus 50 cents per page.
+      es: $5 por copia certificada más 50 centavos por página.
+    sources: [davidson-fees]
+fee_waiver:
+  available: true
+  forms: [Uniform Civil Affidavit of Indigency]
+  eligibility:
+    en: There is no fixed income cutoff. You swear that, because of poverty, you cannot pay the costs of the case, and list your income, benefits, expenses, and property. The judge or a special master decides.
+    es: No hay un límite de ingresos fijo. Declaras bajo juramento que, por tu pobreza, no puedes pagar los costos del caso, y anotas tus ingresos, beneficios, gastos y bienes. El juez o un magistrado especial decide.
+  how:
+    en: File the affidavit together with your petition. In Davidson County, special masters are authorized to rule on indigency.
+    es: Presenta la declaración junto con tu petición. En el condado de Davidson, los magistrados especiales pueden decidir sobre la indigencia.
+  sources: [davidson-pauper, davidson-indigency-order]
+publication:
+  required: "no"
+  detail:
+    en: Tennessee's name change statutes do not require publishing a notice in a newspaper, and the Davidson County petition has no publication step.
+    es: Las leyes de cambio de nombre de Tennessee no exigen publicar un aviso en el periódico, y la petición del condado de Davidson no tiene paso de publicación.
+  sources: [tca-29-8-102, tca-29-8-104, davidson-petition]
+hearing:
+  required: conditional
+  detail:
+    en: The statute leaves it to the court. Davidson County schedules every adult petition for an in-person hearing before a special master (Tuesdays, 9:00 am). Other counties vary.
+    es: La ley lo deja a criterio del tribunal. El condado de Davidson programa cada petición de adulto para una audiencia en persona ante un magistrado especial (martes, 9:00 am). Otros condados varían.
+  sources: [tca-29-8-104, davidson-petition]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprinting is required by statute. You must swear whether you have any felony convictions; murder and sex-offender-registry convictions bar a name change, and other felonies create a presumption of bad faith that you must overcome.
+    es: La ley no exige huellas digitales. Debes declarar bajo juramento si tienes condenas por delito grave; las condenas por asesinato o de registro sexual impiden el cambio, y otros delitos graves crean una presunción de mala fe que debes superar.
+  sources: [tca-29-8-101, davidson-petition]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Tennessee has no law sealing name change cases. The petition and order are court records. Davidson County does file your copies of your birth certificate, photo ID, and Social Security card under seal.
+    es: Tennessee no tiene una ley que selle los casos de cambio de nombre. La petición y la orden son registros judiciales. El condado de Davidson sí archiva bajo sello tus copias del acta de nacimiento, identificación y tarjeta de Seguro Social.
+  how:
+    en: If you have a safety concern (for example, domestic violence), ask a legal aid lawyer whether to request that the judge seal the file; there is no standard form.
+    es: Si tienes un problema de seguridad (por ejemplo, violencia doméstica), pregunta a un abogado de ayuda legal si conviene pedir al juez que selle el expediente; no hay un formulario estándar.
+  sources: [davidson-petition]
+minors:
+  summary:
+    en: |
+      A parent or guardian files the petition in the circuit, probate, or county court of the county where the child lives, using the same statute. The court usually requires that a parent who does not sign be notified of the petition and the hearing, and the judge decides based on the **child's best interest**, looking at things like the child's own preference, how long they have used the name, and any harassment they face. If the other parent objects, the case becomes contested. Judges have wide discretion. A court order changing only the name does not affect the sex on any record.
+    es: |
+      Un padre, madre o tutor presenta la petición en el tribunal de circuito, de sucesiones o del condado donde vive el menor, con la misma ley. El tribunal normalmente exige notificar al padre o madre que no firma, y el juez decide según el **interés superior del menor**, considerando su preferencia, cuánto tiempo ha usado el nombre y cualquier acoso que sufra. Si el otro padre objeta, el caso se vuelve contencioso. Los jueces tienen amplia discreción.
+  sources: [a4te-minors, tca-29-8-101]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File at the clerk's office. Davidson County also runs an e-filing portal (efile.nashville.gov). The sworn petition and the hearing still require you in person.
+    es: Presenta en la oficina del secretario. El condado de Davidson también tiene un portal de presentación electrónica (efile.nashville.gov). La petición jurada y la audiencia requieren tu presencia.
+  sources: [davidson-petition, davidson-circuit-fees]
+timeline:
+  en: Often a few weeks from filing to the hearing in Davidson County, then about 2 weeks for Vital Records to amend a Tennessee birth certificate. Timing varies by county.
+  es: A menudo unas semanas desde la presentación hasta la audiencia en Davidson, y luego unas 2 semanas para que Estadísticas Vitales enmiende un acta de Tennessee. Varía por condado.
+after:
+  en: |
+    Start with **Social Security** (bring the certified order and photo ID). Then the **Department of Safety** (in person, $8 for a first duplicate license, $12 after that; add $4 at a county clerk partner office). If you were born in Tennessee, mail a certified copy of the order to **Tennessee Vital Records** with the $15 amendment fee and $15 for each new copy. Then your **passport**, bank, employer, insurance, voter registration, and school records. Tennessee will change only the name on these state records, not the sex.
+  es: |
+    Empieza con el **Seguro Social** (lleva la orden certificada e identificación con foto). Luego el **Departamento de Seguridad** (en persona, $8 por el primer duplicado de licencia, $12 después; $4 adicionales en una oficina de secretario del condado). Si naciste en Tennessee, envía una copia certificada de la orden a **Estadísticas Vitales de Tennessee** con $15 por la enmienda y $15 por cada copia nueva. Después el **pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares. Tennessee solo cambiará el nombre en estos registros estatales, no el sexo.
+tips:
+  - en: Buy at least three certified copies of the order. Agencies often keep one.
+    es: Compra al menos tres copias certificadas de la orden. Las agencias a menudo se quedan con una.
+  - en: Keep your stated reason short and factual. The law tells judges to deny a petition that seems meant to defraud or mislead, is not in good faith, would injure someone, or would compromise public safety; a truthful reason about the name you use does none of these.
+    es: Mantén tu razón breve y basada en hechos. La ley indica negar una petición que parezca buscar fraude o engaño, no sea de buena fe, dañe a alguien o comprometa la seguridad pública; una razón verdadera sobre el nombre que usas no cae en ninguno de esos casos.
+  - en: Legal Aid Society of Middle Tennessee holds free name change clinics; call 1-800-238-1443 or check las.org for dates.
+    es: La Legal Aid Society of Middle Tennessee organiza clínicas gratuitas de cambio de nombre; llama al 1-800-238-1443 o revisa las.org.
+local_help:
+  - id: las
+    name: Legal Aid Society of Middle Tennessee and the Cumberlands
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes, including free name change clinics (registration required). Nashville office at 1321 Murfreesboro Pike.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, incluidas clínicas gratuitas de cambio de nombre (con registro). Oficina en Nashville en 1321 Murfreesboro Pike.
+    url: https://las.org/
+    phone: "1-800-238-1443"
+    address: 1321 Murfreesboro Pike, Suite 400, Nashville, TN 37217
+    cost: free
+    languages: [English, Español, العربية]
+    verification: org_website
+    sources: [las-contact, las-clinic]
+  - id: davidson-resource-center
+    name: Davidson County Circuit Court Clerk Resource Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: In-person help for people filing without a lawyer, next to the Probate Court Clerk. Forms, fee payment, and case lookup. Open 8:00 am to 4:30 pm.
+      es: Ayuda en persona para quienes presentan sin abogado, junto al secretario del Tribunal de Sucesiones. Formularios, pago de tarifas y búsqueda de casos. Abierto de 8:00 am a 4:30 pm.
+    url: https://circuitclerk.nashville.gov/resource-center/
+    phone: "615-862-5207"
+    address: 1 Public Square, Suite 303, Nashville, TN 37201
+    cost: free
+    verification: official_source
+    sources: [davidson-resource-center]
+  - id: tep
+    name: Tennessee Equality Project
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ advocacy group that tracks laws affecting trans Tennesseans and can point you to local help.
+      es: Grupo estatal de defensa LGBTQ que sigue las leyes que afectan a las personas trans de Tennessee y puede orientarte a ayuda local.
+    url: https://www.tnep.org/
+    cost: free
+    verification: org_website
+    sources: [tep]
+  - id: outmemphis
+    name: OUTMemphis
+    type: lgbtq_center
+    pillars: [name_change, mental_health, sexual_health]
+    description:
+      en: Memphis LGBTQ community center with case management and walk-in hours Tuesday to Saturday, 12 to 8 pm. Ask about help with name change paperwork and ID costs.
+      es: Centro comunitario LGBTQ de Memphis con manejo de casos y horario sin cita de martes a sábado, de 12 a 8 pm. Pregunta por ayuda con trámites de cambio de nombre y costos de identificación.
+    url: https://www.outmemphis.org/
+    phone: "901-278-6422"
+    address: 892 S. Cooper Street, Memphis, TN 38104
+    cost: free
+    verification: org_website
+    sources: [outmemphis]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline microgrants
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Trans Lifeline has offered microgrants toward name change and ID document costs when funding allows. Hotline 877-565-8860.
+      es: Trans Lifeline ha ofrecido microsubvenciones para costos de cambio de nombre y documentos cuando hay fondos. Línea 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [translifeline]
+statutes:
+  - cite: Tenn. Code Ann. § 29-8-101
+    title:
+      en: Which courts handle name changes; bars for murder and sex-offender convictions; presumption for other felonies
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-101/
+  - cite: Tenn. Code Ann. § 29-8-102
+    title:
+      en: Sworn written petition stating residence and reasons
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-102/
+  - cite: Tenn. Code Ann. § 29-8-104
+    title:
+      en: Court may order the change by entry of record
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-104/
+related_links:
+  - title: Advocates for Trans Equality, Tennessee identity documents
+    url: https://transequality.org/documents/tennessee-identity-documents
+    note:
+      en: Undated; its driver's license section describes the pre-2023 policy and is out of date.
+      es: Sin fecha; su sección de licencias describe la política anterior a 2023 y está desactualizada.
+  - title: A4TE/NCTE, Name Changes for Minors in Tennessee (PDF)
+    url: https://transequality.org/sites/default/files/docs/id/NameChangesforMinors/NCTE%20Minor%20Name%20Change%20Tennessee.pdf
+sources:
+  - id: tca-29-8-101
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-101/
+    title: Tenn. Code Ann. § 29-8-101
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The circuit, probate and county courts have concurrent jurisdiction to change names and to correct errors in birth certificates on the application of a resident of the county in which the application is made.
+  - id: tca-29-8-102
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-102/
+    title: Tenn. Code Ann. § 29-8-102
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The application to change the name ... shall be by petition, in writing, signed by the applicant and verified by affidavit, stating that the applicant is a resident of the county, and giving the applicant's reasons for desiring the change or correction.
+  - id: tca-29-8-103
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-103/
+    title: Tenn. Code Ann. § 29-8-103
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The clerk's fee for services in proceedings under this chapter shall be the same as for like services in other cases, to be paid by the party petitioning.
+  - id: tca-29-8-104
+    url: https://codes.findlaw.com/tn/title-29-remedies-and-special-proceedings/tn-code-sect-29-8-104/
+    title: Tenn. Code Ann. § 29-8-104
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court may order the name to be changed or the birth certificate to be corrected by entry of record reciting the petition and its reasons therefor.
+  - id: davidson-petition
+    url: https://circuitclerk.nashville.gov/wp-content/uploads/PC-Petition-for-Name-Change-1.pdf
+    title: Petition for Adult Legal Name Change, Seventh Circuit (Probate) Court for Davidson County
+    publisher: Davidson County Circuit Court Clerk
+    kind: form
+    accessed: "2026-09-24"
+    quote: THIS PETITION SHALL BE HEARD BY SPECIAL MASTER ... ON TUESDAY ... AT 9:00 AM IN COURTROOM 608 OF THE HISTORIC METRO COURTHOUSE ... THE PETITIONER MUST ATTEND THE HEARING IN PERSON.
+  - id: davidson-fees
+    url: https://circuitclerk.nashville.gov/probate-court-filing-fees-effective-january-1-2026/
+    title: Probate Court Filing Fees (Effective January 1, 2026)
+    publisher: Davidson County Circuit Court Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Petition for Name Change 159.50 ... Certified copy of any document or pleading (+ .50/page) 5.00 ... No Personal Checks or Money Orders"
+  - id: davidson-circuit-fees
+    url: https://circuitclerk.nashville.gov/circuit-court-filing-fees-effective-january-1-2026/
+    title: Circuit Court Filing Fees (Effective January 1, 2026)
+    publisher: Davidson County Circuit Court Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Category Three Cases: Petition for Certificate of Employability, legitimations, name changes, and minor settlements. 159.50"
+  - id: davidson-pauper
+    url: https://circuitclerk.nashville.gov/wp-content/uploads/formpro_paupersoathorder.pdf
+    title: Uniform Civil Affidavit of Indigency (Probate Court of Davidson County)
+    publisher: Davidson County Circuit Court Clerk
+    kind: form
+    accessed: "2026-09-24"
+    quote: because of my poverty, I am unable to bear the expenses of this case
+  - id: davidson-indigency-order
+    url: https://circuitclerk.nashville.gov/wp-content/uploads/SpMasterIndig.pdf
+    title: Order re Circuit Court Special Masters Authorized to Determine Indigency
+    publisher: Davidson County Circuit Court Clerk
+    kind: court
+    accessed: "2026-09-24"
+  - id: davidson-resource-center
+    url: https://circuitclerk.nashville.gov/resource-center/
+    title: Resource Center
+    publisher: Davidson County Circuit Court Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: 1 Public Square Ste 303. Hours 8:00 to 4:30. Phone (615) 862-5207.
+  - id: dos-name-change
+    url: https://www.tn.gov/safety/driver-services/helpful-information/dlnamechange.html
+    title: Name Change (Driver Services)
+    publisher: Tennessee Department of Safety and Homeland Security
+    kind: official
+    accessed: "2026-09-24"
+    quote: It is advised to visit your local social security office and update your name with them first before visiting the driver service center.
+  - id: vr-name-change
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36331075483027-My-name-was-legally-changed-How-do-I-get-it-changed-on-my-birth-certificate
+    title: My name was legally changed. How do I get it changed on my birth certificate?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: vr-fees
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees
+    title: Fees
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+  - id: vr-court-order
+    url: https://vitalrecords.tn.gov/hc/en-us/articles/36331272991635-How-do-I-get-a-court-order
+    title: How do I get a court order?
+    publisher: Tennessee Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: For instructions on obtaining a court order contact the court clerk's office in your county of residence.
+  - id: a4te-minors
+    url: https://transequality.org/sites/default/files/docs/id/NameChangesforMinors/NCTE%20Minor%20Name%20Change%20Tennessee.pdf
+    title: Name Changes for Minors in Tennessee
+    publisher: National Center for Transgender Equality (now A4TE)
+    kind: org
+    accessed: "2026-09-24"
+    quote: the court will usually require that any parent that does not sign the petition be notified of the filing of the petition and the hearing date.
+  - id: las-contact
+    url: https://las.org/contact/
+    title: Contact, Legal Aid Society of Middle Tennessee and the Cumberlands
+    kind: org
+    accessed: "2026-09-24"
+  - id: las-clinic
+    url: https://las.org/event/free-name-change-clinic-in-cookeville-tennessee-july-9-2026/
+    title: Free Name Change Clinic in Cookeville, Tennessee (July 9, 2026)
+    publisher: Legal Aid Society of Middle Tennessee and the Cumberlands
+    kind: org
+    accessed: "2026-09-24"
+    quote: Legal Aid Society of Middle Tennessee and the Cumberlands is hosting a free name change clinic
+  - id: tep
+    url: https://www.tnep.org/
+    title: Tennessee Equality Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: outmemphis
+    url: https://www.outmemphis.org/
+    title: OUTMemphis
+    kind: org
+    accessed: "2026-09-24"
+    quote: OUTMEMPHIS COMMUNITY CENTER 892 S. Cooper Street Memphis TN 38104 (901) 278-6422 ... WALK-IN HOURS TUE-SAT 12-8PM
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

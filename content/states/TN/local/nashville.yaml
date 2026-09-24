@@ -1,0 +1,254 @@
+jurisdiction: TN
+slug: nashville
+name: Nashville
+area:
+  en: Nashville-Davidson County (Metro Nashville)
+  es: Nashville-condado de Davidson (Metro Nashville)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details (Seventh Circuit / Probate Court handles adult name changes, $159.50 fee, Tuesday 9 am in-person
+    hearings, Courtroom 608) read on circuitclerk.nashville.gov and its petition PDF 2026-09-24. Davidson County
+    Chancery Court's site did not respond, so we could not confirm whether it also accepts name changes (the statute
+    names circuit, probate, and county courts). Resources are from each organization's own site. Not listed because
+    unconfirmed: Vanderbilt adult transgender clinic (old pages return 404), Street Works and Neighborhood Health
+    (sites did not respond). Oasis Center counseling says it is no longer accepting clients. Verify hours and
+    new-patient availability before marking reviewed.
+intro:
+  en: >-
+    Nashville has the largest cluster of trans-friendly services in Tennessee. Adult name changes are filed with the
+    Davidson County Probate Court, which has a fill-in petition and in-person hearings on Tuesdays. Planned Parenthood's
+    Nashville health center and telehealth offer informed-consent hormones for adults, and several clinics offer free
+    or low-cost PrEP and STI testing. State law bans hormone therapy for anyone under 18 and TennCare no longer covers
+    it, so plan for self-pay or private insurance.
+  es: >-
+    Nashville tiene la mayor concentración de servicios amigables para personas trans en Tennessee. Los cambios de
+    nombre de adultos se presentan en el Tribunal de Sucesiones del condado de Davidson, que tiene una petición para
+    llenar y audiencias en persona los martes. El centro de Planned Parenthood en Nashville y la telesalud ofrecen
+    hormonas por consentimiento informado para adultos, y varias clínicas ofrecen PrEP y pruebas de ITS gratis o de
+    bajo costo. La ley estatal prohíbe la terapia hormonal para menores de 18 años y TennCare ya no la cubre.
+court:
+  name: Seventh Circuit (Probate) Court for Davidson County
+  url: https://circuitclerk.nashville.gov/probate/
+  self_help_url: https://circuitclerk.nashville.gov/resource-center/
+  filing_fee: 159.5
+  notes:
+    en: File with the Probate Court Clerk, Historic Metro Courthouse, 1 Public Square, Suite 302. Sign the petition before a notary or the clerk. The clerk sets a hearing on a Tuesday at 9:00 am before a special master in Courtroom 608, and you must attend in person. No personal checks or money orders. The Resource Center (Suite 303, 615-862-5207) helps people filing without a lawyer. A Uniform Civil Affidavit of Indigency asks to file without paying.
+    es: Presenta ante el secretario del Tribunal de Sucesiones, Historic Metro Courthouse, 1 Public Square, Suite 302. Firma la petición ante un notario o el secretario. El secretario fija una audiencia un martes a las 9:00 am ante un magistrado especial en la Sala 608, y debes asistir en persona. No se aceptan cheques personales ni giros postales. El Centro de Recursos (Suite 303, 615-862-5207) ayuda a quienes presentan sin abogado.
+  sources: [davidson-petition, davidson-fees, davidson-resource-center]
+resources:
+  - id: las
+    name: Legal Aid Society of Middle Tennessee and the Cumberlands
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes, including free name change clinics held around Middle Tennessee (registration required).
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, incluidas clínicas gratuitas de cambio de nombre en el centro de Tennessee (con registro).
+    url: https://las.org/
+    phone: "1-800-238-1443"
+    address: 1321 Murfreesboro Pike, Suite 400, Nashville, TN 37217
+    cost: free
+    verification: org_website
+    sources: [las-contact, las-clinic]
+  - id: davidson-resource-center
+    name: Circuit Court Clerk Resource Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: In-person help with forms, fees, and case lookup for people without a lawyer, next to the Probate Court Clerk. Open 8:00 am to 4:30 pm.
+      es: Ayuda en persona con formularios, tarifas y búsqueda de casos para personas sin abogado, junto al secretario del Tribunal de Sucesiones. Abierto de 8:00 am a 4:30 pm.
+    url: https://circuitclerk.nashville.gov/resource-center/
+    phone: "615-862-5207"
+    address: 1 Public Square, Suite 303, Nashville, TN 37201
+    cost: free
+    verification: official_source
+    sources: [davidson-resource-center]
+  - id: pp-nashville
+    org: planned-parenthood
+    name: Planned Parenthood, Nashville Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone care by informed consent (no therapist letter) for patients 18 and older, in person or by telehealth, plus STI testing and birth control. Book online or call 866-711-1717.
+      es: Atención hormonal de afirmación de género por consentimiento informado (sin carta de terapeuta) para pacientes de 18 años o más, en persona o por telesalud, además de pruebas de ITS y anticonceptivos. Reserva en línea o llama al 866-711-1717.
+    url: https://www.plannedparenthood.org/planned-parenthood-tennessee-and-north-mississippi/patients/gah-care
+    phone: "866-711-1717"
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pptnm-gah, pp-tn-centers]
+  - id: cares360
+    name: CARES 360 (Nashville CARES)
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP, PEP, doxyPEP, rapid HIV testing, STI testing, HIV care, primary care, therapy, and psychiatry with LGBTQ+ informed care. No insurance required for STI testing and PrEP.
+      es: PrEP, PEP, doxyPEP, pruebas rápidas de VIH, pruebas de ITS, atención de VIH, atención primaria, terapia y psiquiatría con atención informada LGBTQ+. No se requiere seguro para pruebas de ITS y PrEP.
+    url: https://cares360.org/
+    phone: "615-499-7406"
+    address: 633 Thompson Lane, Nashville, TN 37204
+    cost: varies
+    accepts_uninsured: true
+    verification: org_website
+    sources: [cares360, nashville-cares]
+  - id: metro-prep
+    name: Metro Public Health Department Sexual Health Center and PrEP Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: STD/HIV testing and a PrEP clinic at the Lentz Public Health Center. PrEP visits cost $10 (covers labs and STI screening); staff help enroll you in medication assistance. Accepts TennCare. Call 615-340-5647 for PrEP appointments.
+      es: Pruebas de ETS/VIH y una clínica de PrEP en el Lentz Public Health Center. Las visitas de PrEP cuestan $10 (incluye laboratorios y pruebas de ITS); el personal ayuda a inscribirte en asistencia para medicamentos. Acepta TennCare. Llama al 615-340-5647.
+    url: https://www.nashville.gov/departments/health/clinical-health-services/sexual-health-center/prep-clinic
+    phone: "615-340-5647"
+    address: 2500 Charlotte Avenue, Suite 110, Nashville, TN 37209
+    cost: low_cost
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [metro-shc, metro-prep]
+  - id: oasis-just-us
+    name: Oasis Center, Just Us (LGBTQ+ teens) and 24/7 crisis line
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Just Us is a free, supportive space for LGBTQ+ teens in Middle Tennessee. Oasis also runs a 24/7 crisis line (615-327-4455) and emergency shelter for youth 13 to 17.
+      es: Just Us es un espacio gratuito y de apoyo para adolescentes LGBTQ+ en el centro de Tennessee. Oasis también tiene una línea de crisis 24/7 (615-327-4455) y refugio de emergencia para jóvenes de 13 a 17 años.
+    url: https://oasiscenter.org/for-youth
+    phone: "615-327-4455"
+    address: 1704 Charlotte Avenue, Suite 200, Nashville, TN 37203
+    cost: free
+    verification: org_website
+    sources: [oasis]
+  - id: tjc
+    name: Tennessee Justice Center
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help with TennCare applications, denials, and appeals, based in Nashville.
+      es: Ayuda gratuita con solicitudes, negaciones y apelaciones de TennCare, con sede en Nashville.
+    url: https://www.tnjustice.org/
+    phone: "615-255-0331"
+    address: 155 Lafayette St., Nashville, TN 37210
+    cost: free
+    verification: org_website
+    sources: [tjc]
+  - id: tep
+    name: Tennessee Equality Project
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Statewide LGBTQ advocacy group based in Nashville; tracks legislation and community events.
+      es: Grupo estatal de defensa LGBTQ con sede en Nashville; sigue la legislación y eventos comunitarios.
+    url: https://www.tnep.org/
+    cost: free
+    verification: org_website
+    sources: [tep]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: davidson-petition
+    url: https://circuitclerk.nashville.gov/wp-content/uploads/PC-Petition-for-Name-Change-1.pdf
+    title: Petition for Adult Legal Name Change, Seventh Circuit (Probate) Court for Davidson County
+    publisher: Davidson County Circuit Court Clerk
+    kind: form
+    accessed: "2026-09-24"
+    quote: THE PETITIONER MUST ATTEND THE HEARING IN PERSON.
+  - id: davidson-fees
+    url: https://circuitclerk.nashville.gov/probate-court-filing-fees-effective-january-1-2026/
+    title: Probate Court Filing Fees (Effective January 1, 2026)
+    publisher: Davidson County Circuit Court Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: Petition for Name Change 159.50
+  - id: davidson-resource-center
+    url: https://circuitclerk.nashville.gov/resource-center/
+    title: Resource Center
+    publisher: Davidson County Circuit Court Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: 1 Public Square Ste 303. Hours 8:00 to 4:30. Phone (615) 862-5207.
+  - id: las-contact
+    url: https://las.org/contact/
+    title: Contact, Legal Aid Society of Middle Tennessee and the Cumberlands
+    kind: org
+    accessed: "2026-09-24"
+  - id: las-clinic
+    url: https://las.org/event/free-name-change-clinic-in-cookeville-tennessee-july-9-2026/
+    title: Free Name Change Clinic in Cookeville, Tennessee (July 9, 2026)
+    publisher: Legal Aid Society of Middle Tennessee and the Cumberlands
+    kind: org
+    accessed: "2026-09-24"
+  - id: pptnm-gah
+    url: https://www.plannedparenthood.org/planned-parenthood-tennessee-and-north-mississippi/patients/gah-care
+    title: Gender Affirming Hormone Care
+    publisher: Planned Parenthood of Tennessee and North Mississippi
+    kind: org
+    accessed: "2026-09-24"
+    quote: GAH treatment is only available to patients 18 and older.
+  - id: pp-tn-centers
+    url: https://www.plannedparenthood.org/health-center/tennessee
+    title: Find Health Centers in Tennessee
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+  - id: cares360
+    url: https://cares360.org/services
+    title: CARES 360 services
+    publisher: Nashville CARES
+    kind: org
+    accessed: "2026-09-24"
+    quote: No insurance required, even for STI testing and PrEP.
+  - id: nashville-cares
+    url: https://nashvillecares.org/
+    title: Nashville CARES
+    kind: org
+    accessed: "2026-09-24"
+  - id: metro-shc
+    url: https://www.nashville.gov/departments/health/clinical-health-services/sexual-health-center
+    title: Sexual Health Center
+    publisher: Metro Public Health Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: metro-prep
+    url: https://www.nashville.gov/departments/health/clinical-health-services/sexual-health-center/prep-clinic
+    title: PrEP Clinic
+    publisher: Metro Public Health Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is a $10 fee for each appointment to the clinic. This covers lab tests and sexually transmitted infection screening.
+  - id: oasis
+    url: https://oasiscenter.org/for-youth
+    title: Oasis Center, For Youth
+    kind: org
+    accessed: "2026-09-24"
+    quote: Just Us. Join a safe, supportive, and liberating space for LGBTQ+ teens
+  - id: tjc
+    url: https://www.tnjustice.org/
+    title: Tennessee Justice Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: tep
+    url: https://www.tnep.org/
+    title: Tennessee Equality Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

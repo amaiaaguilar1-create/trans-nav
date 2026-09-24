@@ -1,0 +1,216 @@
+guide_type: drivers_license
+jurisdiction: TN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The Department of Safety publishes no page on sex-marker changes. The prohibition is documented by the Sixth
+    Circuit in Gore v. Lee (July 12, 2024), which states that because of Tenn. Code Ann. 1-3-105(c) (2023 Pub. Ch. 486,
+    effective July 1, 2023) "Tennessee ended its practice of allowing transgender individuals to update their driver's
+    licenses and voter identification cards," and by MAP's Tennessee profile (negative law). The old rule, Tenn. Comp.
+    R. & Regs. 1340-01-13-.12, which allowed a change with a physician statement or court order, could not be fetched
+    (the Secretary of State rules site blocked automated access); reviewer should check whether that rule was amended
+    or repealed. A4TE's Tennessee page (undated) still describes the old physician-statement rule and is out of date.
+    NOT CONFIRMED: what happens to cards changed before July 2023 at renewal or duplicate; we found no source. 2026
+    Pub. Ch. 938 requires every state and local entity to rewrite policies to define sex at birth by January 1, 2027.
+    Fees and name-change documents read directly on DOS pages 2026-09-24. No active litigation found against the DL
+    policy.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    You cannot change the sex on a Tennessee driver's license or ID. Since a 2023 law defined "sex" in state law as sex
+    at birth, the Department of Safety no longer accepts doctor's letters, court orders, or other states' documents for
+    this. You can still change your name on the card in person with a certified court order, for $8 to $12.
+  es: >-
+    No puedes cambiar el sexo en una licencia de conducir o identificación de Tennessee. Desde que una ley de 2023
+    definió el "sexo" en la ley estatal como el sexo al nacer, el Departamento de Seguridad ya no acepta cartas médicas,
+    órdenes judiciales ni documentos de otros estados para esto. Todavía puedes cambiar tu nombre en la tarjeta en
+    persona con una orden judicial certificada, por $8 a $12.
+summary:
+  en: |
+    Before July 2023, Tennessee changed the sex on a license or ID if you brought a physician's statement or a court order. On **July 1, 2023**, Public Chapter 486 took effect. It defines "sex" throughout the Tennessee Code as "a person's immutable biological sex as determined by anatomy and genetics existing at the time of birth," and says evidence of sex includes an ID that matches the original birth certificate (Tenn. Code Ann. § 1-3-105(c)). The federal appeals court for Tennessee noted in 2024 that, as a result, "Tennessee ended its practice of allowing transgender individuals to update their driver's licenses and voter identification cards."
+
+    What this means today:
+    - **No new sex-marker changes**, with any document.
+    - **Moving to Tennessee**: expect the Department to issue your card with the sex on your birth certificate or other primary identity document, even if your out-of-state license shows something else.
+    - **Cards changed before July 2023**: we could not confirm whether the Department reverts them at renewal. Keep your current card and a copy of any past approval; if an examiner changes your marker, contact ACLU of Tennessee or Lambda Legal.
+    - **Name changes still work** (see below). Tennessee cards show only M or F; there is no X.
+  es: |
+    Antes de julio de 2023, Tennessee cambiaba el sexo en una licencia o identificación con una declaración médica o una orden judicial. El **1 de julio de 2023** entró en vigor el Capítulo Público 486, que define "sexo" en todo el Código de Tennessee como "el sexo biológico inmutable de una persona, determinado por la anatomía y la genética existentes al nacer" (Código de Tennessee § 1-3-105(c)). El tribunal federal de apelaciones señaló en 2024 que, como resultado, Tennessee dejó de permitir que las personas trans actualizaran sus licencias de conducir e identificaciones para votar.
+
+    Qué significa hoy:
+    - **No hay nuevos cambios de marcador de sexo**, con ningún documento.
+    - **Si te mudas a Tennessee**: espera que te den la tarjeta con el sexo de tu acta de nacimiento u otro documento principal, aunque tu licencia de otro estado diga otra cosa.
+    - **Tarjetas cambiadas antes de julio de 2023**: no pudimos confirmar si el Departamento las revierte al renovar. Guarda tu tarjeta actual y copia de cualquier aprobación anterior; si cambian tu marcador, contacta a ACLU de Tennessee o Lambda Legal.
+    - **El cambio de nombre sigue funcionando**. Las tarjetas de Tennessee solo muestran M o F; no hay X.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Tennessee driver's license or ID.
+    es: Debes tener o estar solicitando una licencia de conducir o identificación de Tennessee.
+  other:
+    en: Name changes must be done in person at a Driver Services Center with an original or certified document. The sex field is not changed for gender identity.
+    es: Los cambios de nombre se hacen en persona en un Centro de Servicios al Conductor con un documento original o certificado. El campo de sexo no se cambia por identidad de género.
+  sources: [dos-name-change, tca-1-3-105, sb1440, gore-v-lee, pc938, map-tn]
+steps:
+  - id: ssa-first
+    title:
+      en: Update Social Security first
+      es: Actualiza primero el Seguro Social
+    body:
+      en: The Department of Safety advises updating your name with Social Security before visiting a Driver Services Center, because it checks your record against SSA.
+      es: El Departamento de Seguridad recomienda actualizar tu nombre en el Seguro Social antes de ir a un Centro de Servicios al Conductor, porque compara tu registro con el SSA.
+    applies_to: [name_change]
+    sources: [dos-name-change]
+  - id: documents
+    title:
+      en: Bring your current card and a certified court order
+      es: Lleva tu tarjeta actual y una orden judicial certificada
+    body:
+      en: |
+        Bring your current license or ID and the **court decree with the judge's original signature or the court's official seal**. A photocopy of a court document with a copied seal or signature is refused; a copy with an original signature or seal affixed is accepted. Marriage and divorce name changes use a certified marriage certificate or divorce decree instead. Documents may be verified with the issuing court, which can delay your card.
+      es: |
+        Lleva tu licencia o identificación actual y el **decreto judicial con la firma original del juez o el sello oficial del tribunal**. Una fotocopia con sello o firma copiados se rechaza. Los documentos pueden verificarse con el tribunal, lo que puede retrasar tu tarjeta.
+    applies_to: [name_change]
+    sources: [dos-name-change]
+  - id: visit
+    title:
+      en: Visit a Driver Services Center
+      es: Visita un Centro de Servicios al Conductor
+    body:
+      en: Name changes must be done in person. Make an appointment online to shorten the wait. You pay the duplicate fee ($8 for your first duplicate, $12 after that) and get a new photo. County clerk partner offices add a $4 fee.
+      es: Los cambios de nombre se hacen en persona. Haz una cita en línea para esperar menos. Pagas la tarifa de duplicado ($8 el primero, $12 después) y te toman una foto nueva. Las oficinas de secretarios del condado agregan $4.
+    fees: [duplicate-first, duplicate-subsequent]
+    applies_to: [in_person, name_change]
+    sources: [dos-name-change, dos-duplicate, dos-fees]
+fees:
+  - id: duplicate-first
+    label:
+      en: First duplicate license or ID (name change)
+      es: Primer duplicado de licencia o identificación (cambio de nombre)
+    amount: 8
+    note:
+      en: $6 duplicate fee plus $2 application fee. County clerk partners add $4.
+      es: $6 de duplicado más $2 de solicitud. Los secretarios del condado agregan $4.
+    sources: [dos-fees, dos-duplicate]
+  - id: duplicate-subsequent
+    label:
+      en: Second or later duplicate
+      es: Segundo duplicado o posterior
+    amount: 12
+    note:
+      en: Commercial licenses cost $12 for the first duplicate and $16 after that. If your card expires within 12 months you may renew instead ($28 for an 8-year Class D license, $12 for an 8-year ID for adults).
+      es: Las licencias comerciales cuestan $12 el primer duplicado y $16 después. Si tu tarjeta vence dentro de 12 meses puedes renovarla ($28 licencia Clase D de 8 años, $12 identificación de adulto de 8 años).
+    sources: [dos-fees, dos-duplicate]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no fee waiver for a name change on a license. A registered voter who has no government-issued photo ID can get a **free photo ID for voting** at most Driver Services Centers, by signing an affidavit and showing proof of citizenship and two proofs of Tennessee residency.
+    es: No hay exención de tarifa para un cambio de nombre en la licencia. Un votante registrado sin identificación oficial con foto puede obtener una **identificación gratuita para votar** en la mayoría de los Centros de Servicios al Conductor, firmando una declaración y mostrando prueba de ciudadanía y dos pruebas de residencia.
+  sources: [dos-voter-id]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require a visit to a Driver Services Center. Online duplicates are only for replacing a lost card with no changes.
+    es: Los cambios de nombre requieren visitar un Centro de Servicios al Conductor. Los duplicados en línea son solo para reemplazar una tarjeta perdida sin cambios.
+  sources: [dos-name-change, dos-duplicate]
+timeline:
+  en: One in-person visit. The Department's pages do not say how long the new card takes; document verification with the court can add time.
+  es: Una visita en persona. Las páginas del Departamento no indican cuánto tarda la tarjeta nueva; la verificación de documentos con el tribunal puede agregar tiempo.
+after:
+  en: |
+    Your Tennessee license will show your new name but the sex assigned at birth. A US passport currently cannot show a changed sex marker either, as of September 2026. There is no Tennessee option for an ID that matches your gender. The license remains valid for voting, REAL ID, and air travel.
+  es: |
+    Tu licencia de Tennessee mostrará tu nuevo nombre pero el sexo asignado al nacer. El pasaporte de EE. UU. tampoco puede mostrar actualmente un marcador cambiado, a septiembre de 2026. No hay opción en Tennessee para una identificación que coincida con tu género. La licencia sigue siendo válida para votar, REAL ID y viajar en avión.
+tips:
+  - en: You can change your name without changing anything else. Bring the certified order and your current card.
+    es: Puedes cambiar tu nombre sin cambiar nada más. Lleva la orden certificada y tu tarjeta actual.
+  - en: If an examiner mistreats you, you can file a complaint with the Department of Safety and contact ACLU of Tennessee.
+    es: Si un examinador te maltrata, puedes presentar una queja ante el Departamento de Seguridad y contactar a ACLU de Tennessee.
+statutes:
+  - cite: Tenn. Code Ann. § 1-3-105(c) (2023 Pub. Ch. 486)
+    title:
+      en: Defines "sex" throughout the Tennessee Code as immutable biological sex at birth; effective July 1, 2023
+      es: Define "sexo" en todo el Código de Tennessee como el sexo biológico inmutable al nacer; vigente desde el 1 de julio de 2023
+    url: https://codes.findlaw.com/tn/title-1-code-and-statutes/tn-code-sect-1-3-105/
+  - cite: 2026 Pub. Ch. 938 (SB 936 / HB 1271)
+    title:
+      en: Requires state and local government policies to define sex as determined at birth by January 1, 2027
+      es: Exige que las políticas del gobierno estatal y local definan el sexo como el determinado al nacer antes del 1 de enero de 2027
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0936&GA=114
+related_links:
+  - title: Advocates for Trans Equality, Tennessee identity documents
+    url: https://transequality.org/documents/tennessee-identity-documents
+    note:
+      en: Undated. Its driver's license section still describes the pre-2023 physician-statement rule, which no longer applies.
+      es: Sin fecha. Su sección de licencias todavía describe la regla anterior a 2023, que ya no se aplica.
+  - title: ACLU of Tennessee
+    url: https://www.aclu-tn.org/
+sources:
+  - id: tca-1-3-105
+    url: https://codes.findlaw.com/tn/title-1-code-and-statutes/tn-code-sect-1-3-105/
+    title: Tenn. Code Ann. § 1-3-105(c), definition of "sex"
+    publisher: FindLaw (Tennessee Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "'sex' means a person's immutable biological sex as determined by anatomy and genetics existing at the time of birth and evidence of a person's biological sex."
+  - id: sb1440
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB1440&GA=113
+    title: SB 1440 / HB 239 (2023), Public Chapter 486
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "\"evidence of a person's biological sex\" includes, but is not limited to, a government-issued identification document that accurately reflects a person's sex listed on the person's original birth certificate."
+  - id: gore-v-lee
+    url: https://www.opn.ca6.uscourts.gov/opinions.pdf/24a0151p-06.pdf
+    title: Gore v. Lee, No. 23-5669 (6th Cir. July 12, 2024)
+    publisher: US Court of Appeals for the Sixth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: As a result of this statute, Tennessee ended its practice of allowing transgender individuals to update their driver's licenses and voter identification cards to reflect their gender identity.
+  - id: pc938
+    url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0936&GA=114
+    title: SB 936 / HB 1271 (2026), Public Chapter 938
+    publisher: Tennessee General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dos-name-change
+    url: https://www.tn.gov/safety/driver-services/helpful-information/dlnamechange.html
+    title: Name Change (Driver Services)
+    publisher: Tennessee Department of Safety and Homeland Security
+    kind: official
+    accessed: "2026-09-24"
+    quote: A copy of a court document with a copied seal or signature is not acceptable. A copy of a court document with an original signature or seal that is affixed to copy is acceptable.
+  - id: dos-duplicate
+    url: https://www.tn.gov/safety/driver-services/helpful-information/dlduplicate.html
+    title: Replacing a Lost License
+    publisher: Tennessee Department of Safety and Homeland Security
+    kind: official
+    accessed: "2026-09-24"
+    quote: "First Regular License Duplicate: $8. Subsequent Regular License Duplicates: $12"
+  - id: dos-fees
+    url: https://www.tn.gov/safety/driver-services/helpful-information/fees.html
+    title: Driver License Fees
+    publisher: Tennessee Department of Safety and Homeland Security
+    kind: official
+    accessed: "2026-09-24"
+    quote: County Clerk Partners will charge an additional $4.00 administrative fee to cover operational costs for services they offer.
+  - id: dos-voter-id
+    url: https://www.tn.gov/safety/driver-services/helpful-information/photoids.html
+    title: Voter Photo ID
+    publisher: Tennessee Department of Safety and Homeland Security
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you are a registered voter and do not have a government-issued photo ID, the Department of Safety and Homeland Security will provide you with a photo ID at no charge.
+  - id: map-tn
+    url: https://mapresearch.org/equality-profiles/TN/
+    title: Tennessee equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
