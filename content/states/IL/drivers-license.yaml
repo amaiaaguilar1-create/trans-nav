@@ -1,0 +1,243 @@
+guide_type: drivers_license
+jurisdiction: IL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    ilsos.gov returned HTTP 403 to automated requests on 2026-09-24, so the Secretary of State pages and the Gender
+    Designation Change Form (DSD A 329.3, printed March 2026) were read from Internet Archive captures dated
+    2026-09-20 of the live URLs cited here. Fees ($5 corrected license, $10 corrected ID, no extra fee at renewal)
+    come from both the SOS DL/ID page and the form itself. Reviewer (1) confirm the live form URL and that no newer
+    revision exists; (2) P.A. 104-536 (HB 5095) writes the self-attestation form into 625 ILCS 5/6-106 and 15 ILCS
+    335/5 (marker "X" instead of "X non-binary"; SOS may not require any other documentation; SOS may not disclose
+    the form without a court order). The enrolled text on ftp.ilga.gov has no effective-date clause, which under
+    Illinois law usually means January 1 of the following year; confirm the effective date. Current SOS practice
+    already matches it. (3) A4TE's Illinois page agrees (M, F, X; self-attestation, no medical documentation).
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Illinois lets you choose M, F, or X on your driver's license or state ID by signing the one-page Gender Designation
+    Change Form at a Secretary of State DMV facility. No doctor's letter, court order, or birth certificate change is
+    needed. It costs $5 for a license or $10 for an ID card, and nothing extra if you do it at renewal.
+  es: >-
+    Illinois te permite elegir M, F o X en tu licencia de conducir o identificación estatal firmando el Formulario de
+    Cambio de Designación de Género de una página en una oficina del DMV de la Secretaría de Estado. No se necesita
+    carta médica, orden judicial ni cambio en el acta de nacimiento. Cuesta $5 la licencia o $10 la identificación, y
+    nada adicional si lo haces al renovar.
+summary:
+  en: |
+    The Secretary of State's **Gender Designation Change Form (DSD A 329)** has one statement: you choose Male, Female, or X and swear, under penalty of perjury, that the request is to make your license or ID reflect your gender identity and is not for a fraudulent purpose. That is the whole requirement. Illinois law bars the Secretary from asking for any other documentation to confirm your sex or gender identity, and the form is confidential.
+
+    Your license and state ID are issued by the same office and must show the same marker. They do **not** have to match your birth certificate or passport.
+
+    Changing your **name** on the card is a separate correction that needs a document linking your old and new names, usually a certified copy of your court Order for Name Change. You can do both at the same visit.
+  es: |
+    El **Formulario de Cambio de Designación de Género (DSD A 329)** de la Secretaría de Estado tiene una sola declaración: eliges Masculino, Femenino o X y juras, bajo pena de perjurio, que la solicitud es para que tu licencia o identificación refleje tu identidad de género y no tiene fines fraudulentos. Ese es todo el requisito. La ley de Illinois prohíbe a la Secretaría pedir otra documentación, y el formulario es confidencial.
+
+    Tu licencia y tu identificación estatal las emite la misma oficina y deben mostrar el mismo marcador. **No** tienen que coincidir con tu acta de nacimiento ni tu pasaporte.
+
+    Cambiar tu **nombre** en la tarjeta es una corrección aparte que requiere un documento que vincule tu nombre anterior con el nuevo, normalmente una copia certificada de tu Orden de Cambio de Nombre. Puedes hacer ambas cosas en la misma visita.
+eligibility:
+  residency:
+    en: You must hold, or be applying for, an Illinois driver's license, instruction permit, or state ID card.
+    es: Debes tener o estar solicitando una licencia de conducir, permiso o identificación estatal de Illinois.
+  age:
+    en: No minimum age is stated on the form; the applicant signs the attestation. Minors applying for a license also need the usual parental consent for the license itself.
+    es: El formulario no indica edad mínima; la persona solicitante firma la declaración.
+  sources: [sos-dsd-a329, sos-dl-id, pa-104-536, ilao-markers]
+forms:
+  - id: DSD A 329
+    name:
+      en: Gender Designation Change Form
+      es: Formulario de Cambio de Designación de Género
+    url: https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a329.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Section A**: your name, license or ID number, and residential address exactly as on your current card.
+        - **Section B**: print your name again and check **Male**, **Female**, or **X**.
+        - **Attestation**: sign and date in ink. The SOS only accepts the original with an ink signature; photocopies and faxes are refused.
+        - Leave the "SOS personnel only" box blank.
+      es: |
+        - **Sección A**: tu nombre, número de licencia o identificación y domicilio tal como aparecen en tu tarjeta actual.
+        - **Sección B**: escribe tu nombre otra vez y marca **Masculino**, **Femenino** o **X**.
+        - **Declaración**: firma y fecha con tinta. Solo se acepta el original con firma en tinta; no copias ni faxes.
+    sources: [sos-dsd-a329]
+  - id: DSD X 173
+    name:
+      en: Acceptable identification documents list (bring for any corrected card)
+      es: Lista de documentos de identificación aceptables
+    url: https://www.ilsos.gov/content/dam/publications/pdf_publications/Acceptable%20Identification/dsd_x173.pdf
+    required: conditional
+    condition:
+      en: Use it to check which ID and name-change documents to bring, especially if you are also changing your name.
+      es: Úsala para ver qué identificación y documentos de cambio de nombre llevar.
+    sources: [sos-dl-id]
+steps:
+  - id: get-form
+    title:
+      en: Print and sign the Gender Designation Change Form
+      es: Imprime y firma el Formulario de Cambio de Designación de Género
+    body:
+      en: Download DSD A 329, check M, F, or X, and sign in ink. You can also ask for the form at the facility.
+      es: Descarga el DSD A 329, marca M, F o X y firma con tinta. También puedes pedirlo en la oficina.
+    forms: [DSD A 329]
+    applies_to: [gender_marker]
+    sources: [sos-dsd-a329]
+  - id: gather-name-docs
+    title:
+      en: If your name is changing, bring proof of the new name
+      es: Si cambias tu nombre, lleva prueba del nuevo nombre
+    body:
+      en: >-
+        Bring a certified copy of your court Order for Name Change (or a marriage certificate or divorce judgment),
+        along with your current card and acceptable ID from the SOS list. The SOS requires a document that links your
+        previous name to your new one. By law you should report a name change to the SOS within 10 days.
+      es: >-
+        Lleva una copia certificada de tu Orden de Cambio de Nombre (o acta de matrimonio o sentencia de divorcio), tu
+        tarjeta actual e identificación aceptable. La Secretaría exige un documento que vincule tu nombre anterior con
+        el nuevo.
+    forms: [DSD X 173]
+    applies_to: [name_change]
+    optional: true
+    sources: [sos-dl-id]
+  - id: visit
+    title:
+      en: Visit a Secretary of State DMV facility
+      es: Visita una oficina del DMV de la Secretaría de Estado
+    body:
+      en: |
+        Bring the signed form, your current license or ID (you turn it in), and name-change documents if applicable. Pay $5 for a corrected license or $10 for a corrected ID card; there is **no extra fee** if you change the marker when you renew. You get a new photo and leave with a temporary secure paper license valid for 90 days.
+      es: |
+        Lleva el formulario firmado, tu licencia o identificación actual (la entregas) y los documentos de cambio de nombre si aplica. Paga $5 por la licencia corregida o $10 por la identificación corregida; **no hay costo adicional** si cambias el marcador al renovar. Sales con una licencia temporal en papel válida por 90 días.
+    fees: [dl-corrected, id-corrected]
+    applies_to: [in_person]
+    sources: [sos-dl-id, sos-dsd-a329]
+  - id: receive
+    title:
+      en: Receive the permanent card by mail
+      es: Recibe la tarjeta permanente por correo
+    body:
+      en: The permanent card is mailed to your address on file, usually within 15 business days.
+      es: La tarjeta permanente llega por correo a tu dirección registrada, normalmente en 15 días hábiles.
+    estimated_time:
+      en: about 15 business days
+      es: unos 15 días hábiles
+    sources: [sos-dl-id]
+fees:
+  - id: dl-corrected
+    label:
+      en: Corrected driver's license (gender or name change)
+      es: Licencia de conducir corregida (cambio de género o nombre)
+    amount: 5
+    note:
+      en: No additional fee if the gender designation is changed at renewal (you pay the normal renewal fee).
+      es: Sin costo adicional si el cambio se hace al renovar (pagas la tarifa normal de renovación).
+    sources: [sos-dl-id, sos-dsd-a329]
+  - id: id-corrected
+    label:
+      en: Corrected state ID card
+      es: Identificación estatal corregida
+    amount: 10
+    sources: [sos-dl-id, sos-dsd-a329]
+fee_waiver:
+  available: false
+  how:
+    en: >-
+      The SOS lists no fee waiver for a corrected card. Illinois does offer free state IDs to some groups (for example
+      people experiencing homelessness and people recently released from IDOC or IDJJ); ask at the facility whether one
+      applies to you.
+    es: >-
+      La Secretaría no ofrece exención para una tarjeta corregida. Illinois ofrece identificaciones gratuitas a algunos
+      grupos (por ejemplo, personas sin hogar o recién liberadas de IDOC o IDJJ); pregunta en la oficina.
+  sources: [sos-dl-id]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: >-
+      In person at a Secretary of State DMV facility. The form says to present it and surrender your existing card at a
+      DMV. People temporarily out of state can call 217-782-2720 about a duplicate license by mail.
+    es: >-
+      En persona en una oficina del DMV de la Secretaría de Estado. Quienes están fuera del estado pueden llamar al
+      217-782-2720 sobre una licencia duplicada por correo.
+  sources: [sos-dsd-a329, sos-dl-id]
+timeline:
+  en: One facility visit, then about 15 business days for the permanent card to arrive by mail.
+  es: Una visita a la oficina y luego unos 15 días hábiles para que llegue la tarjeta permanente.
+after:
+  en: |
+    Your Illinois license or ID is valid for REAL ID purposes (if it is a REAL ID card), for voting, and for TSA screening even with an X marker. Be aware that as of September 2026 the US passport and Social Security record are issued only with the sex assigned at birth, so your federal documents may not match your Illinois card. Talk to the IL Pride Connect Legal Hotline (855-805-9200) before applying for federal documents with a different marker.
+  es: |
+    Tu licencia o identificación de Illinois es válida para REAL ID (si es tarjeta REAL ID), para votar y para el control de TSA, incluso con marcador X. A septiembre de 2026, el pasaporte y el registro del Seguro Social solo se emiten con el sexo asignado al nacer, así que tus documentos federales pueden no coincidir. Consulta a la Línea Legal de IL Pride Connect (855-805-9200) antes de solicitar documentos federales con otro marcador.
+tips:
+  - en: You do not need a name change, a new birth certificate, or any medical care to change the marker. Each can be done separately and in any order.
+    es: No necesitas cambio de nombre, nueva acta de nacimiento ni atención médica para cambiar el marcador. Cada trámite es independiente.
+  - en: Changing the marker at your regular renewal avoids the $5 or $10 correction fee.
+    es: Cambiar el marcador al renovar evita la tarifa de corrección de $5 o $10.
+  - en: If a DMV employee asks for medical proof or a court order, ask for a supervisor; the law bars any documentation beyond the form.
+    es: Si un empleado pide prueba médica u orden judicial, pide hablar con un supervisor; la ley prohíbe exigir algo más que el formulario.
+statutes:
+  - cite: 625 ILCS 5/6-106 (Illinois Vehicle Code, driver's license applications)
+    title:
+      en: Male, female, or X designation; gender designation form
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K6-106
+  - cite: 15 ILCS 335/5 (Illinois Identification Card Act)
+    title:
+      en: Male, female, or X designation on state ID cards; gender designation form
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=001503350K5
+  - cite: Public Act 104-536 (HB 5095)
+    title:
+      en: Codifies self-attestation; SOS may not require other documentation or disclose the form without a court order
+    url: https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=104-0536
+related_links:
+  - title: Illinois Legal Aid Online, Updating sex and gender markers on identification
+    url: https://www.illinoislegalaid.org/legal-information/updating-sex-and-gender-markers-identification
+  - title: Advocates for Trans Equality, Illinois identity documents
+    url: https://transequality.org/documents/illinois-identity-documents
+    note:
+      en: No last-updated date shown. Its driver's license section matches the SOS form.
+      es: Sin fecha de actualización. Su sección sobre licencias coincide con el formulario de la Secretaría.
+sources:
+  - id: sos-dsd-a329
+    url: https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a329.pdf
+    title: Gender Designation Change Form, DSD A 329.3 (March 2026)
+    publisher: Illinois Secretary of State, Driver Services Department
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      want the gender designation on my driver's license/ID card to read Male, Female, X ... To change your gender
+      marker, present this form and submit your existing driver's license or ID card at a DMV. The fee for a new
+      driver's license is $5 and a new state ID card is $10.
+  - id: sos-dl-id
+    url: https://www.ilsos.gov/departments/drivers/drivers-license/drlicid.html
+    title: Driver's license and state ID card (Name Change, Gender Change, Duplicate or Corrected)
+    publisher: Illinois Secretary of State
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      If you change the gender designation when renewing your license or ID, there is no additional fee. At any time
+      other than renewal, there is a $5 fee for a corrected driver's license and a $10 fee for a corrected ID card.
+  - id: pa-104-536
+    url: https://ftp.ilga.gov/Public%20Acts/104/104-0536.htm
+    title: Public Act 104-536 (HB 5095), gender designation on driver's licenses and ID cards
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The Secretary of State shall not require any additional question, documentation, support, certification, or
+      verification to change a gender marker.
+  - id: ilao-markers
+    url: https://www.illinoislegalaid.org/legal-information/updating-sex-and-gender-markers-identification
+    title: Updating sex and gender markers on identification FAQ
+    publisher: Illinois Legal Aid Online
+    kind: org
+    accessed: "2026-09-24"
+    quote: An Illinois driver's license and state identification card are issued by the same office and must have the same marker.

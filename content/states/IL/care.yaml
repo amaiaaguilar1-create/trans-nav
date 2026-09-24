@@ -1,0 +1,369 @@
+jurisdiction: IL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Shield law text (Lawful Health Care Activity Act, P.A. 102-1117 Article 28) read on ftp.ilga.gov. I could NOT load
+    an HFS page or rule stating Medicaid coverage of gender-affirming care: hfs.illinois.gov notice pages load only via
+    JavaScript, and 89 Ill. Adm. Code Part 140 (repository snapshot) has no gender-specific section. Medicaid coverage
+    (hormones and surgery, including for youth) is taken from IL Pride Connect, a statewide legal-hotline coalition
+    page, and is widely reported but should be confirmed against HFS policy (provider notices / handbook) before
+    marking reviewed. The August 2026 CMS final rule (federal Medicaid/CHIP funds barred for youth gender-affirming
+    care, effective October 13, 2026) and the Illinois AG-led challenge are also from IL Pride Connect; the Federal
+    Register and AG press release were not opened. Planned Parenthood of Illinois pages return HTTP 403 to automated
+    fetches, so its hormone program and age minimum are unverified. Private-insurance protection rests on the IDOI
+    Company Bulletin 2014-10 (PDF is image-only; text not machine-verified), the Illinois Human Rights Act, and MAP
+    (which lists Illinois as banning transgender exclusions). No Illinois bill restricting care passed a chamber in
+    2025-2026 that I found in the 104th GA public acts.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Illinois, and a 2023 shield law protects patients and
+    providers from other states' bans. Illinois Medicaid covers hormone therapy and surgery, and state-regulated private
+    insurance may not exclude transition-related care. A new federal Medicaid rule targeting care for patients under 18
+    is set to start October 13, 2026 and is being challenged in court.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Illinois, y una ley escudo de 2023 protege a
+    pacientes y proveedores de las prohibiciones de otros estados. Medicaid de Illinois cubre terapia hormonal y
+    cirugía, y los seguros privados regulados por el estado no pueden excluir la atención de transición. Una nueva regla
+    federal de Medicaid dirigida a menores de 18 años comenzaría el 13 de octubre de 2026 y está impugnada en tribunales.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Several Chicago community health centers, including Howard Brown Health, provide hormone therapy and gender-affirming surgery navigation, and telehealth prescribing is legal statewide.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **Illinois Medicaid** through ABE (free for adults with income up to about 138% of the federal poverty level). It covers hormones and surgery.
+      2. Go to a **community health center** (federally qualified health center). They must see you regardless of ability to pay and charge on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood of Illinois** health centers offer gender-affirming hormone care on a sliding scale (call to confirm your nearest center and age minimum).
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who cannot afford it.
+      5. For the medications themselves, generic spironolactone and estradiol are inexpensive with a GoodRx-type coupon; ask the pharmacy for the cash price.
+    es: |
+      Sin restricciones estatales. Varios centros de salud comunitarios de Chicago, incluido Howard Brown Health, ofrecen terapia hormonal y orientación para cirugía de afirmación de género, y la telesalud es legal en todo el estado.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid de Illinois** en ABE (gratis para adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza). Cubre hormonas y cirugía.
+      2. Acude a un **centro de salud comunitario**. Deben atenderte sin importar tu capacidad de pago y cobran en escala móvil. Búscalo en findahealthcenter.hrsa.gov.
+      3. Los centros de **Planned Parenthood of Illinois** ofrecen atención hormonal en escala móvil (llama para confirmar el centro y la edad mínima).
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud para quienes no pueden pagarla.
+  sources: [howard-brown-tgd, hrsa, pop-hrt, pride-connect-health]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Illinois has no ban on gender-affirming care for minors, and the **Lawful Health Care Activity Act** (2023) defines treatment of gender dysphoria and affirmation of gender identity as "lawful health care" and protects patients, families, and providers from other states' attempts to punish it. Care for minors requires parental consent and follows clinical guidelines.
+
+      Two cautions as of September 2026:
+      - **Some hospitals have stopped providing this care to patients under 19** out of fear of lawsuits or loss of federal funding, even though it remains legal in Illinois. Community health centers such as Howard Brown (all-in-one care for ages 12 to 24) continue to see youth; call to confirm.
+      - A **federal CMS rule** issued in August 2026 bars federal Medicaid and CHIP funds from paying for puberty blockers, hormones, or surgery for enrollees under 18 (CHIP under 19), effective **October 13, 2026**, with up to six months of continued hormone coverage for people already on treatment. Illinois says Medicaid covers youth care, and the Illinois Attorney General co-leads a lawsuit against the rule. Call the IL Pride Connect Legal Hotline (855-805-9200) if coverage is affected.
+    es: |
+      Legal. Illinois no prohíbe la atención de afirmación de género para menores, y la **Ley de Actividad de Atención Médica Lícita** (2023) define el tratamiento de la disforia de género y la afirmación de la identidad de género como "atención médica lícita" y protege a pacientes, familias y proveedores de los intentos de otros estados de castigarla. Requiere consentimiento de los padres.
+
+      Dos advertencias a septiembre de 2026:
+      - **Algunos hospitales dejaron de ofrecer esta atención a menores de 19 años** por temor a demandas o pérdida de fondos federales, aunque sigue siendo legal. Centros comunitarios como Howard Brown (atención para edades de 12 a 24) siguen atendiendo a jóvenes; llama para confirmar.
+      - Una **regla federal de CMS** de agosto de 2026 prohíbe usar fondos federales de Medicaid y CHIP para bloqueadores, hormonas o cirugía para menores de 18 (CHIP menores de 19), a partir del **13 de octubre de 2026**, con hasta seis meses de cobertura hormonal para quienes ya están en tratamiento. El Fiscal General de Illinois codirige una demanda contra la regla. Llama a la Línea Legal de IL Pride Connect (855-805-9200) si tu cobertura se ve afectada.
+  sources: [pa-102-1117, pride-connect-health, howard-brown-home]
+medicaid:
+  program_name: Illinois Medicaid (HealthChoice Illinois managed care; All Kids for children)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Illinois Medicaid covers gender-affirming care, including hormone therapy and surgery, for adults and youth. Most enrollees are in a HealthChoice Illinois managed care plan, which may require prior authorization for surgery. If a plan denies care, you can appeal; the IL Pride Connect Legal Hotline (855-805-9200) and Illinois Legal Aid Online explain how.
+
+      **Who qualifies**: adults with income up to about 138% of the federal poverty level, with higher limits for children (All Kids) and pregnant people. **Apply** online through ABE (Application for Benefits Eligibility), by phone, or at a Department of Human Services Family Community Resource Center.
+
+      **Federal change for youth**: a CMS rule effective October 13, 2026 bars federal Medicaid/CHIP funding for gender-affirming care for enrollees under 18 (CHIP under 19). States may still pay with state funds; Illinois's response is not yet final and the rule is being challenged in court.
+    es: |
+      Medicaid de Illinois cubre la atención de afirmación de género, incluidas la terapia hormonal y la cirugía, para adultos y jóvenes. La mayoría está en un plan de HealthChoice Illinois, que puede requerir autorización previa para cirugía. Si el plan niega la atención, puedes apelar.
+
+      **Quién califica**: adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza, con límites más altos para niños (All Kids) y embarazadas. **Solicita** en línea en ABE, por teléfono o en una oficina del Departamento de Servicios Humanos.
+
+      **Cambio federal para jóvenes**: una regla de CMS vigente desde el 13 de octubre de 2026 prohíbe fondos federales de Medicaid/CHIP para esta atención a menores de 18 (CHIP menores de 19). Los estados pueden pagar con fondos propios; la regla está impugnada.
+  how_to_apply_url: https://abe.illinois.gov/
+  sources: [pride-connect-health, abe]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      The Illinois Human Rights Act prohibits discrimination based on gender-related identity, and the Illinois Department of Insurance (Company Bulletin 2014-10) told state-regulated insurers they may not exclude coverage for gender-transition-related care or deny medically necessary services because of gender identity. Insurers may not refuse to enroll you, cancel you, charge more, or deny a service because the gender on your plan does not match the service. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates for those.
+
+      If a state-regulated plan denies care, file an appeal with the plan and then a complaint with the **Illinois Department of Insurance** (online), and call the IL Pride Connect Legal Hotline for help.
+    es: |
+      La Ley de Derechos Humanos de Illinois prohíbe la discriminación por identidad relacionada con el género, y el Departamento de Seguros de Illinois (Boletín 2014-10) indicó a las aseguradoras reguladas por el estado que no pueden excluir la atención relacionada con la transición ni negar servicios médicamente necesarios por identidad de género. Los planes autofinanciados por empleadores están regulados a nivel federal y pueden no estar cubiertos.
+
+      Si un plan niega la atención, apela ante el plan y luego presenta una queja ante el **Departamento de Seguros de Illinois**.
+  complaint_url: https://idoi.illinois.gov/consumers/file-a-complaint.html
+  sources: [idoi-cb-2014-10, idoi-complaint, pride-connect-health, map-health]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: howard-brown
+    name: Howard Brown Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        Federally qualified LGBTQ health center with seven Chicago locations (North, West, and South Sides) offering
+        trans and gender diverse health services including hormone therapy and gender-affirming surgery navigation,
+        plus primary care, PrEP, a sexual health walk-in clinic, behavioral health, and all-in-one care for ages 12 to
+        24. Appointments 773-388-1600.
+      es: >-
+        Centro de salud LGBTQ federalmente calificado con siete sedes en Chicago que ofrece servicios de salud trans,
+        incluida terapia hormonal y orientación para cirugía, además de atención primaria, PrEP, clínica de salud sexual
+        sin cita, salud mental y atención para edades de 12 a 24. Citas al 773-388-1600.
+    url: https://howardbrown.org/service/tgd-health/
+    phone: "773-388-1600"
+    address: 4025 N. Sheridan Rd, Chicago, IL 60613
+    areas_served:
+      en: Chicago and surrounding area
+      es: Chicago y alrededores
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [howard-brown-tgd, howard-brown-locations]
+  - id: chicago-house-tlc
+    name: Chicago House TransLife Care
+    type: lgbtq_center
+    pillars: [hrt, sexual_health, name_change, insurance]
+    description:
+      en: >-
+        Free health and social services for trans, nonbinary, and gender-expansive people at TranSafe drop-in centers
+        across Chicago: on-site health providers, sexual health screening, legal clinic, case management, housing
+        navigation, and employment services.
+      es: >-
+        Servicios gratuitos de salud y sociales para personas trans, no binarias y de género expansivo en centros sin
+        cita en Chicago: proveedores de salud, pruebas de salud sexual, clínica legal, manejo de casos, vivienda y empleo.
+    url: https://www.chicagohouse.org/translife-care
+    phone: "773-248-5200"
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [chicago-house-tlc]
+  - id: pp-illinois
+    org: planned-parenthood
+    name: Planned Parenthood of Illinois, gender-affirming care
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: >-
+        Gender-affirming hormone therapy and sexual health services at health centers in Chicago and across Illinois;
+        Medicaid and sliding scale. Call your nearest center to confirm availability, telehealth options, and minimum age.
+      es: >-
+        Terapia hormonal de afirmación de género y salud sexual en centros de Chicago y todo Illinois; Medicaid y escala
+        móvil. Llama para confirmar disponibilidad, telesalud y edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-illinois/patient-resources/gender-affirming-care
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: unverified
+    sources: [pp-illinois]
+  - id: il-pride-connect
+    name: IL Pride Connect Legal Hotline
+    type: insurance_help
+    pillars: [insurance, hrt]
+    description:
+      en: >-
+        Free, confidential legal information for LGBTQIA+ Illinoisans on insurance and Medicaid denials, access to
+        gender-affirming care, and discrimination. Monday to Thursday, 9 am to 4 pm; English and Spanish.
+      es: >-
+        Información legal gratuita y confidencial sobre negaciones de seguro y Medicaid, acceso a atención de afirmación
+        de género y discriminación. Lunes a jueves, 9 am a 4 pm; inglés y español.
+    url: https://www.ilprideconnect.org/legal-hotline
+    phone: "855-805-9200"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [pride-connect-hotline]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        Official locator for federally qualified health centers, which must see you regardless of insurance or ability
+        to pay and charge on a sliding scale. Outside Chicago, call and ask whether they offer hormone therapy or
+        "gender-affirming care".
+      es: >-
+        Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu seguro o
+        capacidad de pago. Fuera de Chicago, llama y pregunta si ofrecen terapia hormonal.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-il
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy), a surgery fund, and free binders and shapewear.
+      es: Fondos nacionales para personas que no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis), un fondo de cirugía y binders gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-il
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and transition costs including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y costos de transición, incluidas hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including employer self-funded plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: 735 ILCS 40/ (Lawful Health Care Activity Act), P.A. 102-1117 Article 28
+    title:
+      en: Shield law; gender-affirming care defined as lawful health care
+    url: https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=102-1117
+  - cite: 775 ILCS 5/ (Illinois Human Rights Act)
+    title:
+      en: Prohibits discrimination based on gender-related identity
+    url: https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=2266&ChapterID=64
+litigation:
+  - case: Multistate challenge to the CMS rule on Medicaid/CHIP funding for youth gender-affirming care (co-led by Illinois)
+    summary:
+      en: >-
+        Illinois Attorney General Kwame Raoul co-leads a coalition of states suing to stop an August 2026 CMS final rule
+        that bars federal Medicaid and CHIP funds for gender-affirming care for enrollees under 18 (CHIP under 19).
+      es: >-
+        El Fiscal General de Illinois codirige una coalición de estados que demanda para detener una regla final de CMS
+        de agosto de 2026 que prohíbe fondos federales de Medicaid y CHIP para esta atención a menores de 18 (CHIP 19).
+    effect_today:
+      en: >-
+        The rule is scheduled to take effect October 13, 2026. Until then nothing changes. Adults are not affected.
+        People already on hormones may keep federally funded coverage for up to six months after that date.
+      es: >-
+        La regla entraría en vigor el 13 de octubre de 2026. Hasta entonces nada cambia. Los adultos no se ven
+        afectados.
+    last_update: "2026-09-24"
+    url: https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-leads-coalition-challenging-trump-administrations-latest-attack-on-healthcare-for-transgender-youth
+    sources: [pride-connect-health]
+sources:
+  - id: pa-102-1117
+    url: https://ftp.ilga.gov/Public%20Acts/102/102-1117.htm
+    title: Public Act 102-1117 (HB 4664), including Article 28, Lawful Health Care Activity Act
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      "Lawful health care" means ... the treatment of gender dysphoria or the affirmation of an individual's gender
+      identity or gender expression ... that is not unlawful under the laws of this State
+  - id: pride-connect-health
+    url: https://www.ilprideconnect.org/healthcare
+    title: Healthcare (know your rights, Medicaid, CMS rule, shield law)
+    publisher: Illinois Pride Connect
+    kind: org
+    accessed: "2026-09-24"
+    quote: >-
+      In Illinois, Medicaid covers gender-affirming care, including youth gender-affirming care. ... Some hospitals have
+      chosen to stop providing this care to youth under 19, even though there is no legal ban on providing this care in
+      Illinois. ... The rule is set to take effect on October 13, 2026.
+  - id: pride-connect-hotline
+    url: https://www.ilprideconnect.org/legal-hotline
+    title: IL Pride Connect Legal Hotline
+    publisher: Illinois Pride Connect
+    kind: org
+    accessed: "2026-09-24"
+  - id: abe
+    url: https://abe.illinois.gov/
+    title: Application for Benefits Eligibility (ABE)
+    publisher: State of Illinois
+    kind: official
+    accessed: "2026-09-24"
+  - id: idoi-cb-2014-10
+    url: https://idoi.illinois.gov/content/dam/soi/en/web/insurance/companies/companybulletins/cb2014-10.pdf
+    title: Company Bulletin 2014-10, gender identity nondiscrimination in health insurance
+    publisher: Illinois Department of Insurance
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: idoi-complaint
+    url: https://idoi.illinois.gov/consumers/file-a-complaint.html
+    title: File a complaint
+    publisher: Illinois Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-health
+    url: https://www.mapresearch.org/equality-map/healthcare-laws-and-policies
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Illinois bans insurance exclusions of transgender health care.
+  - id: howard-brown-tgd
+    url: https://howardbrown.org/service/tgd-health/
+    title: Trans and gender diverse health
+    publisher: Howard Brown Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Trans and gender diverse health services, including hormone therapy and gender-affirming surgery navigation
+  - id: howard-brown-locations
+    url: https://howardbrown.org/locations/
+    title: Locations
+    publisher: Howard Brown Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: howard-brown-home
+    url: https://howardbrown.org/
+    title: Howard Brown Health (services including All-in-One Care for Ages 12 to 24)
+    publisher: Howard Brown Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: chicago-house-tlc
+    url: https://www.chicagohouse.org/translife-care
+    title: TransLife Care
+    publisher: Chicago House and Social Service Agency
+    kind: org
+    accessed: "2026-09-24"
+    quote: TransLife Care (TLC) provides free healthcare and social services to trans, non-binary, or gender expansive individuals.
+  - id: pp-illinois
+    url: https://www.plannedparenthood.org/planned-parenthood-illinois/patient-resources/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood of Illinois
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,687 @@
+guide_type: name_change
+jurisdiction: IL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the enrolled text of Public Act 103-1063 (HB 5164, eff. March 1, 2025) and the First 2026
+    General Revisory Act (P.A. 104-852), both read on ftp.ilga.gov, plus the Illinois Supreme Court's approved adult
+    and minor name change forms (ATJ 302.9 / 303.10 / 308.1, approved 03/2025; NC-M series approved 10/2025) and the
+    Cook County Clerk's County Division page. ilga.gov itself blocks automated access, so statute links point to
+    ilga.gov for readers but the text was read from the official ftp.ilga.gov public file repository. IMPORTANT for the
+    reviewer. (1) The task brief said the residency requirement is 6 months; P.A. 103-1063 struck the 6-month
+    language and now requires 3 months of Illinois residence by the time of the hearing or order. The compiled ILCS
+    page on the repository (Nov 2025 snapshot) still displays the older 6-month text, but P.A. 104-852 re-enacts the
+    3-month version, the statewide instructions say 3 months, and the Cook County Clerk says residency was lowered
+    from 6 to 3 months. A4TE's Illinois page still says 6 months and still describes publication; it is out of date.
+    (2) Publication (former 735 ILCS 5/21-103) was repealed outright on March 1, 2025, for every adult petition, not
+    only gender-identity petitions. (3) Filing fees are set by each county board within caps in 705 ILCS 105/27.1b;
+    I could not load a current Cook County fee schedule and did not find which Supreme Court schedule name changes
+    fall under, so no dollar amount is given for Cook. Confirm by calling the Cook County Clerk (312-603-5710) and
+    add the figure. (4) Certified-copy fee is capped at $10 per copy after the first by 27.1b(m); confirm local
+    practice. (5) Ortiz v. Foxx (N.D. Ill.), a challenge to the criminal-history bars, is described by TJLP as pending;
+    status not independently checked.
+status: available
+status_summary:
+  en: >-
+    Illinois adults can change their name by filing the statewide Request for Name Change form in the circuit court of
+    the county where they live and attending a short hearing. Since March 1, 2025 there is no newspaper publication,
+    you need only 3 months of Illinois residence by the hearing date, and you can ask the judge to seal (impound) the
+    file because you are transgender.
+  es: >-
+    En Illinois, las personas adultas pueden cambiar su nombre presentando el formulario estatal de Solicitud de Cambio
+    de Nombre en el tribunal de circuito del condado donde viven y asistiendo a una audiencia breve. Desde el 1 de
+    marzo de 2025 no hay publicación en periódico, solo necesitas 3 meses de residencia en Illinois para la fecha de la
+    audiencia y puedes pedir al juez que selle (impound) el expediente por ser una persona trans.
+summary:
+  en: |
+    Illinois uses one court process for every adult name change, whatever the reason. You fill out the Illinois Supreme Court's standardized **Request for Name Change (Adult)**, file it (usually by e-filing) with the Circuit Clerk in the county where you live, and go to a hearing where the judge asks you a few questions under oath. If the judge grants it, you get an **Order for Name Change** to take to Social Security, the Secretary of State, and everyone else.
+
+    Public Act 103-1063 (effective March 1, 2025) made three big changes:
+    - **No newspaper publication** for adult name changes. The old three-week publication rule was repealed.
+    - **Shorter residency**: you must have lived in Illinois for 3 months by the time of the hearing or order (it used to be 6 months before filing).
+    - **Sealing**: you can file a **Motion to Impound** to keep the case private. Being transgender is listed in the law as a qualifying reason, and your own sworn statement is enough.
+
+    You do **not** need a court order to change the sex marker on an Illinois driver's license, state ID, or Illinois birth certificate. See those guides.
+  es: |
+    Illinois usa un solo proceso judicial para todos los cambios de nombre de adultos, sin importar el motivo. Llenas la **Solicitud de Cambio de Nombre (Adulto)** estandarizada de la Corte Suprema de Illinois, la presentas (normalmente por vía electrónica) ante el Secretario del Tribunal de Circuito del condado donde vives y asistes a una audiencia en la que el juez te hace algunas preguntas bajo juramento. Si el juez la concede, recibes una **Orden de Cambio de Nombre** para llevar al Seguro Social, a la Secretaría de Estado y a todos los demás.
+
+    La Ley Pública 103-1063 (vigente desde el 1 de marzo de 2025) hizo tres cambios importantes:
+    - **Sin publicación en periódico** para cambios de nombre de adultos.
+    - **Residencia más corta**: debes haber vivido en Illinois 3 meses para la fecha de la audiencia o de la orden.
+    - **Sellado**: puedes presentar una **Moción para Sellar (Impound)** para mantener el caso privado. Ser una persona trans es una razón reconocida por la ley, y tu propia declaración jurada es suficiente.
+
+    **No** necesitas orden judicial para cambiar el marcador de sexo en la licencia de conducir, la identificación estatal o el acta de nacimiento de Illinois.
+eligibility:
+  residency:
+    en: >-
+      You must live in Illinois and file in the circuit court of the county where you live. You must have lived in
+      Illinois for at least 3 months by the time of your hearing or the order (you may file a little earlier).
+    es: >-
+      Debes vivir en Illinois y presentar la petición en el tribunal de circuito del condado donde vives. Debes haber
+      vivido en Illinois al menos 3 meses para la fecha de la audiencia o de la orden.
+  age:
+    en: 18 or older for the adult forms. A parent or guardian files for anyone under 18 (see Minors).
+    es: 18 años o más para los formularios de adultos. Un padre, madre o tutor presenta la petición para menores de 18.
+  criminal_history:
+    en: >-
+      You cannot file while serving a felony sentence (including parole) unless pardoned, and you cannot get a name
+      change while incarcerated in prison. People required to register as a sex offender, violent offender against
+      youth, or arsonist may petition only if the change is due to marriage, religion, trafficking survivor status, or
+      **gender-related identity**; the judge decides. If you have any conviction or pending charge, the State's
+      Attorney is notified and may object, and the judge may ask you to update your State Police record first.
+    es: >-
+      No puedes presentar la petición mientras cumples una condena por delito grave (incluida la libertad condicional)
+      salvo que tengas un indulto. Las personas obligadas a registrarse como agresores sexuales, delincuentes violentos
+      contra menores o incendiarios solo pueden pedirlo por matrimonio, religión, ser sobreviviente de trata o
+      **identidad relacionada con el género**; el juez decide.
+  sources: [pa-103-1063, pa-104-852, ilcs-21-101, ilcs-21-102, ilcs-21-102-5, nca-instructions]
+forms:
+  - id: ATJ 303.10
+    name:
+      en: Request for Name Change (Adult)
+      es: Solicitud de Cambio de Nombre (Adulto)
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/74f342af-7d93-4f93-b5b7-fbb92635d45a/NC-A%20Request%20for%20Name%20Change.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Section 1a**: your current legal name exactly as it appears on your birth certificate (or your most recent legal name).
+        - **Section 1b**: the new name. Check spelling carefully; the order copies it exactly.
+        - **Section 1c**: the date you started living in Illinois continuously. You need 3 months by the hearing date.
+        - The form does **not** ask why you are changing your name. You will be asked briefly at the hearing; "to match my gender identity" is a complete answer.
+        - **Section 2 (criminal history)**: answer every question truthfully. If you are on a registry, check "Gender-related identity" as your reason if it applies.
+        - **Signature page**: if putting your home address in the court file would put you or your household at risk, check the box for an **alternative address** and give a safe mailing address.
+      es: |
+        - **Sección 1a**: tu nombre legal actual exactamente como aparece en tu acta de nacimiento (o tu nombre legal más reciente).
+        - **Sección 1b**: el nuevo nombre. Revisa bien la ortografía.
+        - **Sección 1c**: la fecha desde la que vives en Illinois de forma continua. Necesitas 3 meses para la fecha de la audiencia.
+        - El formulario **no** pregunta por qué cambias tu nombre. En la audiencia te lo preguntarán brevemente; "para que coincida con mi identidad de género" es una respuesta completa.
+        - **Sección 2 (antecedentes penales)**: responde todo con la verdad.
+        - **Página de firma**: si poner tu domicilio en el expediente te pondría en riesgo, marca la casilla de **dirección alternativa**.
+    sources: [nca-request, nca-instructions]
+  - id: ATJ 308.1
+    name:
+      en: Motion to Impound (Make Court Records Private), Name Change
+      es: Moción para Sellar (hacer privados los registros del tribunal), Cambio de Nombre
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/c739a9d8-27a9-47e3-af18-a7ec5cfeef00/NC%20Motion%20to%20Impound.pdf
+    required: optional
+    condition:
+      en: File it together with your Request if you want the case kept private.
+      es: Preséntala junto con tu Solicitud si quieres que el caso sea privado.
+    how_to_fill:
+      en: |
+        - Item 3: check the first box ("Petitioner is one or more of the following categories: transgender, ..."). No other proof is required; your signed statement is enough.
+        - You may attach documents (for example an order of protection), but you do not have to.
+        - Until the judge grants the motion, this motion itself is public. File it at the same time as the Request so the judge rules on both together.
+      es: |
+        - Punto 3: marca la primera casilla ("El peticionario pertenece a una o más de las siguientes categorías: transgénero, ..."). No se requiere otra prueba.
+        - Hasta que el juez la conceda, esta moción es pública. Preséntala junto con la Solicitud.
+    sources: [nc-impound, ilcs-21-103-8]
+  - id: NC Order to Impound
+    name:
+      en: Order to Impound (Name Change)
+      es: Orden para Sellar (Cambio de Nombre)
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/2ac2cc49-b57e-45a5-93f4-79cf1dc025e1/NC%20Order%20to%20Impound.pdf
+    required: optional
+    condition:
+      en: Goes with the Motion to Impound; fill in the caption and the judge completes the rest.
+    sources: [il-courts-nc-forms]
+  - id: NC-A Order
+    name:
+      en: Order for Name Change (Adult)
+      es: Orden de Cambio de Nombre (Adulto)
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/4297bafa-f259-4d32-9a27-585d9bd348f4/NC-A%20Order%20for%20Name%20Change.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Fill in the county, your current name, and the new name exactly as on your Request; the judge signs.
+        - If you were born outside Illinois, check what your birth state needs in a court order to amend your birth certificate (some want date and place of birth or a certificate number) and add it in the "Additional Information" section.
+      es: |
+        - Llena el condado, tu nombre actual y el nuevo nombre exactamente como en tu Solicitud; el juez firma.
+        - Si naciste fuera de Illinois, revisa qué exige tu estado de nacimiento en una orden judicial y agrégalo en "Información adicional".
+    sources: [il-courts-nc-forms, nca-instructions]
+  - id: FW-CIV
+    name:
+      en: Application for Waiver of Court Fees (civil)
+      es: Solicitud de exención de tarifas judiciales (civil)
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/52beec8c-25fc-4d0f-bc56-82a93b68d395/FW-CIV%20Application.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. See the fee waiver section.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    how_to_fill:
+      en: |
+        - If you receive SNAP, SSI, TANF, AABD, General Assistance, Transitional Assistance, or State Children and Family Assistance, check that box; you qualify for a full waiver.
+        - Otherwise fill in household income and expenses. Income at or below 125% of the federal poverty level qualifies for a full waiver; up to 200% can get a partial (25% to 75%) waiver.
+        - File it with your Request. The clerk must accept your filing while the waiver is pending.
+    sources: [fee-waiver-forms, ilcs-5-105]
+  - id: FW-CIV Order
+    name:
+      en: Order on Application for Waiver of Court Fees
+      es: Orden sobre la solicitud de exención de tarifas judiciales
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/aeb7187c-60d8-4245-b05c-7610a6745e56/FW-CIV%20Order.pdf
+    required: optional
+    condition:
+      en: Goes with FW-CIV; the judge fills in the decision.
+    sources: [fee-waiver-forms]
+steps:
+  - id: fill-forms
+    title:
+      en: Fill out the statewide forms
+      es: Llena los formularios estatales
+    body:
+      en: |
+        Download the Request for Name Change (Adult) and the Order for Name Change from the Illinois Courts website, or use Illinois Legal Aid Online's free **Easy Form**, which asks you questions and fills in the forms for you. Every Illinois circuit court must accept these forms.
+
+        If you want privacy, also fill out the **Motion to Impound** and **Order to Impound**. If you cannot afford the fee, fill out the **Application for Waiver of Court Fees**.
+      es: |
+        Descarga la Solicitud de Cambio de Nombre (Adulto) y la Orden de Cambio de Nombre del sitio de los Tribunales de Illinois, o usa el **Easy Form** gratuito de Illinois Legal Aid Online, que llena los formularios por ti. Todos los tribunales de circuito de Illinois deben aceptarlos.
+
+        Si quieres privacidad, llena también la **Moción para Sellar** y la **Orden para Sellar**. Si no puedes pagar, llena la **Solicitud de Exención de Tarifas**.
+    forms: [ATJ 303.10, NC-A Order, ATJ 308.1, NC Order to Impound, FW-CIV]
+    sources: [il-courts-nc-forms, nca-instructions]
+  - id: cook-exhibits
+    title:
+      en: "Cook County only: prepare your birth certificate and ID exhibits"
+      es: "Solo condado de Cook: prepara tu acta de nacimiento e identificación como anexos"
+    body:
+      en: >-
+        The Circuit Court of Cook County requires every petitioner to e-file, as an exhibit, a photo or scan of your
+        birth certificate and a photo ID. If your ID does not show a Cook County address, add proof of address such as a
+        lease or bill. You may black out sensitive numbers. Save them as portrait-orientation PDFs.
+      es: >-
+        El Tribunal de Circuito del condado de Cook exige que cada peticionario presente electrónicamente, como anexo,
+        una foto o escaneo de su acta de nacimiento y una identificación con foto. Si tu identificación no muestra una
+        dirección del condado de Cook, agrega un comprobante de domicilio. Puedes tachar números sensibles.
+    optional: true
+    sources: [nca-instructions]
+  - id: file
+    title:
+      en: File with the Circuit Clerk in your county
+      es: Presenta los documentos ante el Secretario del Tribunal de Circuito de tu condado
+    body:
+      en: |
+        Most people must **e-file** through eFileIL (Odyssey). If you have no computer, public libraries and the Circuit Clerk's office have computers and staff who can help. You can ask for an exemption from e-filing (for example, no internet at home, a disability, or trouble with English) and file on paper in person or by mail.
+
+        Pay the county filing fee or attach your fee waiver application. Ask the clerk whether a court date is set automatically or whether you must schedule it.
+      es: |
+        La mayoría debe presentar por **vía electrónica** a través de eFileIL. Si no tienes computadora, las bibliotecas públicas y la oficina del Secretario tienen computadoras y personal que puede ayudarte. Puedes pedir una exención de la presentación electrónica y presentar en papel.
+
+        Paga la tarifa del condado o adjunta tu solicitud de exención. Pregunta si la fecha de audiencia se fija automáticamente o si debes programarla.
+    fees: [filing]
+    sources: [nca-instructions, clerks-fee-act]
+  - id: hearing
+    title:
+      en: Go to your hearing
+      es: Asiste a tu audiencia
+    body:
+      en: |
+        Arrive 30 minutes early (or join by phone or video if your court allows remote appearance). Bring photo ID, stamped copies of your Request and proposed Order, and, if you have a felony conviction, proof you finished your sentence or were pardoned. The judge places you under oath and asks why you want the change. If granted, the judge signs the Order that day or sets another date if more information is needed.
+      es: |
+        Llega 30 minutos antes (o conéctate por teléfono o video si tu tribunal lo permite). Lleva identificación con foto, copias selladas de tu Solicitud y Orden propuesta y, si tienes una condena por delito grave, prueba de que cumpliste tu condena o fuiste indultado. El juez te toma juramento y te pregunta por qué quieres el cambio.
+    sources: [nca-instructions]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the Order
+      es: Obtén copias certificadas de la Orden
+    body:
+      en: >-
+        Ask the Circuit Clerk for several certified copies of the signed Order. Social Security, the Secretary of State,
+        IDPH, the passport agency, and banks each need to see one. Illinois law caps each certified copy after the
+        first at $10.
+      es: >-
+        Pide al Secretario varias copias certificadas de la Orden firmada. El Seguro Social, la Secretaría de Estado,
+        IDPH, la agencia de pasaportes y los bancos necesitan verla. La ley limita cada copia certificada adicional a $10.
+    fees: [certified-copy]
+    sources: [nca-instructions, clerks-fee-act]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free).
+        2. **Illinois Secretary of State** driver's license or state ID (see the driver's license guide; you can change the sex marker at the same visit).
+        3. **Illinois birth certificate** through IDPH, if you were born in Illinois (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis).
+        2. Licencia o identificación de la **Secretaría de Estado de Illinois**.
+        3. **Acta de nacimiento de Illinois** a través de IDPH, si naciste en Illinois.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [nca-instructions]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee (set by each county)
+      es: Tarifa de presentación del tribunal de circuito (la fija cada condado)
+    varies_by: county
+    max: 366
+    waivable: true
+    note:
+      en: >-
+        Each county board sets the fee within caps in the Clerks of Courts Act. The highest civil schedule is capped at
+        $366 in Cook County and $316 in other counties; check your Circuit Clerk's website for the exact amount. There
+        is no publication cost anymore.
+      es: >-
+        Cada condado fija la tarifa dentro de los límites de la Ley de Secretarios de Tribunales. El máximo es $366 en el
+        condado de Cook y $316 en otros condados; consulta el sitio de tu Secretario. Ya no hay costo de publicación.
+    sources: [clerks-fee-act, ilao-faq]
+  - id: certified-copy
+    label:
+      en: Certified copy of the Order (each, after the first)
+      es: Copia certificada de la Orden (cada una, después de la primera)
+    max: 10
+    varies_by: county
+    waivable: true
+    sources: [clerks-fee-act]
+fee_waiver:
+  available: true
+  forms: [FW-CIV, FW-CIV Order]
+  eligibility:
+    en: |
+      **Full waiver** if any one is true (735 ILCS 5/5-105):
+      - You receive SSI, AABD, TANF, SNAP, General Assistance, Transitional Assistance, or State Children and Family Assistance.
+      - Your income is at or below 125% of the federal poverty level.
+      - Paying would cause substantial hardship to you or your family (judge's discretion).
+
+      **Partial waiver**: 75% off if income is 125% to 150% of poverty, 50% off at 150% to 175%, 25% off at 175% to 200%.
+    es: |
+      **Exención total** si se cumple cualquiera (735 ILCS 5/5-105):
+      - Recibes SSI, AABD, TANF, SNAP, Asistencia General, Asistencia Transicional o Asistencia Estatal para Niños y Familias.
+      - Tus ingresos son iguales o menores al 125% del nivel federal de pobreza.
+      - Pagar causaría una dificultad sustancial (a criterio del juez).
+
+      **Exención parcial**: 75% de descuento entre 125% y 150% del nivel de pobreza, 50% entre 150% y 175%, 25% entre 175% y 200%.
+  how:
+    en: >-
+      File the Application for Waiver of Court Fees with your Request. The clerk may not refuse your filing while it is
+      pending. A waiver lasts one year.
+    es: >-
+      Presenta la Solicitud de Exención con tu petición. El Secretario no puede rechazar tu presentación mientras está
+      pendiente. La exención dura un año.
+  sources: [ilcs-5-105, fee-waiver-forms]
+publication:
+  required: "no"
+  detail:
+    en: >-
+      Newspaper publication for adult name changes was repealed effective March 1, 2025 (P.A. 103-1063 repealed 735
+      ILCS 5/21-103). This applies to every adult petition, not only gender-identity changes. Older guides that
+      mention publication or a publication waiver are out of date.
+    es: >-
+      La publicación en periódico para cambios de nombre de adultos se derogó a partir del 1 de marzo de 2025 (la Ley
+      Pública 103-1063 derogó 735 ILCS 5/21-103). Aplica a toda petición de adultos. Las guías que mencionan
+      publicación están desactualizadas.
+  waiver_available: false
+  sources: [pa-103-1063, ilcs-21-103-repealed, nca-instructions, cook-county-division]
+hearing:
+  required: "yes"
+  detail:
+    en: >-
+      The statewide instructions say you will go to court, be placed under oath, and answer questions about why you
+      want to change your name. Many courts allow remote appearance by phone or video; check with your Circuit Clerk.
+      If you have a qualifying conviction or pending charge, the State's Attorney has 30 days to object.
+    es: >-
+      Las instrucciones estatales indican que irás al tribunal, prestarás juramento y responderás preguntas sobre por
+      qué quieres cambiar tu nombre. Muchos tribunales permiten comparecer por teléfono o video.
+  sources: [nca-instructions, ilcs-21-102-5]
+background_check:
+  required: conditional
+  detail:
+    en: >-
+      No fingerprinting for everyone. You must disclose convictions, arrests without charges, and pending charges on
+      the Request. If you have any, the clerk sends the petition to the State's Attorney and the Illinois State
+      Police, and the judge may require you to update your criminal history record through the State Police Access and
+      Review process before the hearing. If granted, the name change is reported to the State Police.
+    es: >-
+      No se toman huellas a todos. Debes declarar condenas, arrestos sin cargos y cargos pendientes. Si los tienes, se
+      notifica al Fiscal Estatal y a la Policía Estatal, y el juez puede pedirte actualizar tu historial penal.
+  sources: [ilcs-21-102, ilcs-21-102-5]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      Under 735 ILCS 5/21-103.8 (added March 1, 2025), you can ask the judge to impound (seal) your name change file if
+      public disclosure would be a hardship and harm your health or safety. The law lists being **transgender** as an
+      example and says **self-attestation is enough**. You can also leave your home address off every court document
+      and give an alternative address if disclosure would put you or your household at risk. Even if the file is
+      impounded, a name change for someone with a criminal record is still reported to the State Police.
+    es: >-
+      Según 735 ILCS 5/21-103.8 (desde el 1 de marzo de 2025), puedes pedir al juez que selle tu expediente si hacerlo
+      público sería una dificultad y afectaría tu salud o seguridad. La ley menciona a las personas **transgénero** y
+      dice que **tu propia declaración es suficiente**. También puedes omitir tu domicilio y dar una dirección
+      alternativa.
+  how:
+    en: >-
+      File the Motion to Impound and Order to Impound together with your Request. The motion is public until the judge
+      grants it.
+    es: >-
+      Presenta la Moción y la Orden para Sellar junto con tu Solicitud. La moción es pública hasta que el juez la
+      conceda.
+  sources: [ilcs-21-103-8, nc-impound, nca-instructions]
+minors:
+  summary:
+    en: |
+      A parent or guardian files the separate **minor name change forms** (NC-M series: Request for Name Change, Child Information, Additional Children / Additional Parent if needed, Notice of Court Date, Letter to Sheriff, Statement on Trying to Provide Notice, Order). Every legal parent whose rights have not been terminated, and anyone with allocated parental responsibilities, must get actual notice and a chance to be heard; out-of-state parents can be served by mail with a return receipt at least 10 days before the hearing. The judge grants the change only if it finds, by clear and convincing evidence, that it serves the child's best interest, considering the parents' wishes, the child's wishes and reasons, the child's relationships, and adjustment to home and school. The judge may talk with the child in chambers. The Motion to Impound is available for minors too. The Transformative Justice Law Project provides free representation for minors' name changes.
+    es: |
+      Un padre, madre o tutor presenta los **formularios de cambio de nombre para menores** (serie NC-M). Cada padre legal cuyos derechos no hayan terminado debe recibir notificación real y la oportunidad de ser escuchado; a los padres fuera del estado se les puede notificar por correo con acuse de recibo al menos 10 días antes de la audiencia. El juez concede el cambio solo si encuentra, con prueba clara y convincente, que es en el mejor interés del menor, considerando los deseos de los padres y del menor. También se puede pedir sellar el expediente. El Transformative Justice Law Project representa gratis a menores.
+  sources: [ilcs-21-101, ilcs-21-103-5, ilcs-21-104, il-courts-nc-forms, tjlp-legal]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: >-
+      E-filing through eFileIL is the default. People with an approved e-filing exemption can file on paper in person
+      or by mail (include a stamped self-addressed envelope). Hearings may be in person, by phone, or by video.
+    es: >-
+      La presentación electrónica por eFileIL es la regla general. Con una exención aprobada se puede presentar en
+      papel en persona o por correo.
+  sources: [nca-instructions]
+timeline:
+  en: >-
+    Usually a few weeks to a few months from filing to hearing, depending on the county's calendar. You can get the
+    signed Order the day of the hearing.
+  es: >-
+    Normalmente de unas semanas a unos meses desde la presentación hasta la audiencia, según el calendario del
+    condado. Puedes recibir la Orden firmada el día de la audiencia.
+after:
+  en: |
+    Start with **Social Security** (bring a certified copy of the Order and photo ID; the name changes, the sex field currently cannot). Then the **Secretary of State** for your driver's license or ID ($5 corrected license, $10 corrected ID; you can change the sex marker at the same visit with the Gender Designation Change Form). If you were born in Illinois, send **IDPH** the Affidavit and Certificate of Correction Request with a certified copy of the Order to get a new birth certificate with your new name (and new sex marker if you want). Then your **passport**, bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva copia certificada de la Orden e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego la **Secretaría de Estado** para tu licencia o identificación ($5 licencia corregida, $10 identificación corregida; puedes cambiar el marcador de sexo en la misma visita). Si naciste en Illinois, envía a **IDPH** la Declaración Jurada y Solicitud de Corrección con copia certificada de la Orden. Después el **pasaporte**, banco, empleador, seguro, registro de votante y escuela.
+tips:
+  - en: Illinois Legal Aid Online's free Easy Form fills in the court forms for you and lets you download or email them for e-filing.
+    es: El Easy Form gratuito de Illinois Legal Aid Online llena los formularios por ti y te permite descargarlos o enviarlos por correo para presentarlos.
+  - en: If you were born in a state that requires a court order about gender to amend your birth certificate, Illinois lets you file a separate petition for a judicial finding of fact (735 ILCS 5/21-106) at the same time as your name change. That petition always gets a hearing.
+    es: Si naciste en un estado que exige una orden judicial sobre el género para enmendar tu acta, Illinois permite presentar una petición separada de determinación de hechos (735 ILCS 5/21-106) al mismo tiempo que tu cambio de nombre.
+  - en: For help by phone, call Illinois Court Help at 833-411-1121 (court process questions) or the IL Pride Connect Legal Hotline at 855-805-9200 (LGBTQIA+ legal information, English and Spanish).
+    es: Para ayuda por teléfono, llama a Illinois Court Help al 833-411-1121 o a la Línea Legal de IL Pride Connect al 855-805-9200 (inglés y español).
+local_help:
+  - id: tjlp
+    name: Transformative Justice Law Project of Illinois (TJLP)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free name change help for trans and gender nonconforming people: virtual one-on-one appointments after an online
+        intake (allow about 40 business days) or faster help at in-person Name Change Mobilization clinics. Free legal
+        representation at hearings for minors and people with criminal convictions. Also helps with birth certificate,
+        passport, and ID updates.
+      es: >-
+        Ayuda gratuita con cambios de nombre para personas trans y de género no conforme: citas virtuales tras un
+        formulario en línea (unos 40 días hábiles) o clínicas presenciales. Representación legal gratuita para menores y
+        personas con condenas penales.
+    url: https://www.tjlp.org/name-change-mobilization-1
+    phone: "312-558-1472"
+    address: 203 N LaSalle St, Suite 2100, Chicago, IL 60601
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [tjlp-mobilization, tjlp-legal]
+  - id: a4te-ncp
+    org: a4te
+    name: A4TE Name Change Project (Cook County)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: >-
+        Matches eligible trans, nonbinary, and gender nonconforming Cook County residents with volunteer attorneys from
+        law firms who handle the name change for free. Apply through the online intake form; not everyone can be
+        accepted, and there may be a waitlist.
+      es: >-
+        Conecta a residentes elegibles del condado de Cook con abogados voluntarios que llevan el cambio de nombre gratis.
+        Solicita con el formulario en línea; puede haber lista de espera.
+    url: https://transequality.org/name-change-project
+    areas_served:
+      en: Cook County
+      es: Condado de Cook
+    cost: free
+    verification: org_website
+    sources: [a4te-ncp]
+  - id: il-pride-connect
+    name: IL Pride Connect Legal Hotline
+    type: hotline
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: >-
+        Free, confidential statewide legal information line for LGBTQIA+ Illinoisans on ID documents, access to
+        gender-affirming care, Medicaid, and discrimination. Monday to Thursday, 9 am to 4 pm; leave a voicemail other
+        times. English and Spanish.
+      es: >-
+        Línea gratuita y confidencial de información legal para personas LGBTQIA+ en Illinois sobre documentos,
+        atención de afirmación de género, Medicaid y discriminación. Lunes a jueves, 9 am a 4 pm. Inglés y español.
+    url: https://www.ilprideconnect.org/legal-hotline
+    phone: "855-805-9200"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [pride-connect-hotline]
+  - id: chicago-house-legal
+    name: Chicago House TransLife Care, legal clinic drop-in
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free legal clinic for trans, nonbinary, and gender-expansive people at TransLife Care drop-ins (in person or
+        virtual): name changes, record sealing and expungement, discrimination, and benefits appeals. Call 773-673-9340.
+      es: >-
+        Clínica legal gratuita para personas trans, no binarias y de género expansivo en los centros TransLife Care:
+        cambios de nombre, sellado de antecedentes, discriminación y apelaciones de beneficios. Llama al 773-673-9340.
+    url: https://www.chicagohouse.org/translife-care
+    phone: "773-673-9340"
+    areas_served:
+      en: Chicago
+      es: Chicago
+    cost: free
+    verification: org_website
+    sources: [chicago-house-tlc]
+  - id: ilao
+    name: Illinois Legal Aid Online, name change Easy Form and legal aid finder
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free guided interview that completes the statewide name change forms, plus plain-language guides and a "Get Legal Help" tool to find free legal aid near you.
+      es: Entrevista guiada gratuita que completa los formularios estatales de cambio de nombre, además de guías y una herramienta para encontrar ayuda legal gratuita.
+    url: https://www.illinoislegalaid.org/legal-information/name-change-adult
+    cost: free
+    verification: org_website
+    sources: [ilao-faq]
+statutes:
+  - cite: 735 ILCS 5/21-101 et seq.
+    title:
+      en: Change of Name (Code of Civil Procedure, Article XXI)
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=073500050K21-101
+  - cite: Public Act 103-1063 (HB 5164), effective March 1, 2025
+    title:
+      en: Repealed publication, cut residency to 3 months at hearing, added impoundment (21-103.8)
+    url: https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=103-1063
+  - cite: 735 ILCS 5/21-103.8
+    title:
+      en: Impounding court file; transgender status and self-attestation
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=073500050K21-103.8
+  - cite: 735 ILCS 5/5-105
+    title:
+      en: Waiver of court fees, costs, and charges
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=073500050K5-105
+related_links:
+  - title: Illinois Courts, approved statewide name change forms
+    url: https://www.illinoiscourts.gov/documents-and-forms/approved-forms/name-change
+    note:
+      en: Official adult and minor forms, instructions, and the Motion to Impound.
+      es: Formularios oficiales para adultos y menores, instrucciones y la Moción para Sellar.
+  - title: Illinois Legal Aid Online, adult name change Easy Form
+    url: https://www.illinoislegalaid.org/legal-information/name-change-adult
+  - title: Advocates for Trans Equality, Illinois identity documents
+    url: https://transequality.org/documents/illinois-identity-documents
+    note:
+      en: No last-updated date shown; as of September 2026 it still describes publication and 6-month residency, which changed on March 1, 2025.
+      es: Sin fecha de actualización; a septiembre de 2026 todavía describe la publicación y la residencia de 6 meses, que cambiaron el 1 de marzo de 2025.
+sources:
+  - id: pa-103-1063
+    url: https://ftp.ilga.gov/Public%20Acts/103/103-1063.htm
+    title: Public Act 103-1063 (HB 5164), enrolled text
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The petitioner shall have resided in this State for 3 months at the time of the name change hearing or entry of an
+      order granting the name change. ... Section 10. The Code of Civil Procedure is amended by repealing Section 21-103.
+      ... This Act takes effect March 1, 2025.
+  - id: pa-104-852
+    url: https://ftp.ilga.gov/Public%20Acts/104/104-0852.htm
+    title: Public Act 104-852, First 2026 General Revisory Act (re-enacting 735 ILCS 5/21-101)
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If any person who is a resident of this State desires to assume another name ... The petitioner shall have resided in this State for 3 months
+  - id: ilcs-21-101
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-101.html
+    title: 735 ILCS 5/21-101, Proceedings; parties
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: An order shall be entered as to a minor only if the court finds by clear and convincing evidence that the change is necessary to serve the best interest of the child.
+  - id: ilcs-21-102
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-102.html
+    title: 735 ILCS 5/21-102, Petition; update criminal history transcript
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The petition shall be a statewide standardized form approved by the Illinois Supreme Court
+  - id: ilcs-21-102-5
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-102.5.html
+    title: 735 ILCS 5/21-102.5, Notice; objection
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Objections to a petition must be filed within 30 days of the date of service of the petition upon the State's Attorney
+  - id: ilcs-21-103-repealed
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-103.html
+    title: 735 ILCS 5/21-103 (Repealed)
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Sec. 21-103. (Repealed). (Source P.A. 103-605, eff. 7-1-24. Repealed by P.A. 103-1063, eff. 3-1-25.)
+  - id: ilcs-21-103-5
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-103.5.html
+    title: 735 ILCS 5/21-103.5, Change of name involving a minor
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: actual notice and an opportunity to be heard shall be given to any parent whose parental rights have not been previously terminated
+  - id: ilcs-21-103-8
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-103.8.html
+    title: 735 ILCS 5/21-103.8, Impounding court file
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: to include, but not be limited to, that the person is transgender ... although self attestation shall suffice as acceptable documentation.
+  - id: ilcs-21-104
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-104.html
+    title: 735 ILCS 5/21-104, Process and notice to persons outside this State
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Notice under this Section shall be served, mailed, or delivered at least 10 days before any hearing in this State.
+  - id: ilcs-5-105
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K5-105.html
+    title: 735 ILCS 5/5-105, Waiver of court fees, costs, and charges
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: His or her available personal income is 125% or less of the current poverty level
+  - id: clerks-fee-act
+    url: https://ftp.ilga.gov/ILCS/Ch%200705/Act%200105/070501050K27.1b.html
+    title: 705 ILCS 105/27.1b, Circuit court clerk fees
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      SCHEDULE 1 not to exceed a total of $366 in a county with a population of 3,000,000 or more and not to exceed
+      $316 in any other county ... The fee for each certified copy of a judgment, after the first copy, shall not exceed $10.
+  - id: il-courts-nc-forms
+    url: https://www.illinoiscourts.gov/documents-and-forms/approved-forms/name-change
+    title: Approved Statewide Forms, Name Change
+    publisher: Illinois Supreme Court, Commission on Access to Justice
+    kind: court
+    accessed: "2026-09-24"
+    quote: The Supreme Court Commission on Access to Justice has approved the following forms. All Illinois Courts must accept these forms.
+  - id: nca-instructions
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/b7a5b9eb-93a1-4889-b81d-641afa444a13/NC-A%20Instructions.pdf
+    title: How to Change your Name (Adult), ATJ 302.9 (03/25)
+    publisher: Illinois Supreme Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: Note, Publication for adult name changes has been repealed from the law as of March 1, 2025.
+  - id: nca-request
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/74f342af-7d93-4f93-b5b7-fbb92635d45a/NC-A%20Request%20for%20Name%20Change.pdf
+    title: Request for Name Change (Adult), ATJ 303.10 (03/25)
+    publisher: Illinois Supreme Court
+    kind: form
+    accessed: "2026-09-24"
+  - id: nc-impound
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/c739a9d8-27a9-47e3-af18-a7ec5cfeef00/NC%20Motion%20to%20Impound.pdf
+    title: Motion to Impound (Make Court Records Private), Name Change, ATJ 308.1 (03/25)
+    publisher: Illinois Supreme Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: You may attach supporting documents ... but official documentation is not required, this motion alone is enough.
+  - id: fee-waiver-forms
+    url: https://www.illinoiscourts.gov/forms/approved-forms/forms-approved-forms-circuit-court/fee-waiver-civil/
+    title: Approved Statewide Forms, Fee Waiver (Civil)
+    publisher: Illinois Supreme Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: cook-county-division
+    url: https://www.cookcountyclerkofcourt.org/divisions/county-division
+    title: County Division (name changes)
+    publisher: Clerk of the Circuit Court of Cook County
+    kind: court
+    accessed: "2026-09-24"
+    quote: >-
+      As of 3/1/25, per Public Act 103-1063 ... Publication will no longer be required. The residency requirement will
+      be lowered from 6 to 3 months. Petitioners can request to impound a case based on health or safety reasons.
+  - id: ilao-faq
+    url: https://www.illinoislegalaid.org/legal-information/adult-name-change-0
+    title: Adult name change FAQ
+    publisher: Illinois Legal Aid Online
+    kind: org
+    accessed: "2026-09-24"
+    quote: Each county has its own fees that you can read about on their website.
+  - id: tjlp-mobilization
+    url: https://www.tjlp.org/name-change-mobilization-1
+    title: Name Change Mobilization
+    publisher: Transformative Justice Law Project of Illinois
+    kind: org
+    accessed: "2026-09-24"
+    quote: Please allow 40 business days for us to schedule an appointment.
+  - id: tjlp-legal
+    url: https://www.tjlp.org/legal-services
+    title: Legal Services
+    publisher: Transformative Justice Law Project of Illinois
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our legal team currently provides free legal representation in name change proceedings for minors and people with criminal convictions.
+  - id: a4te-ncp
+    url: https://transequality.org/name-change-project
+    title: Name Change Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: We accept applications from residents of Chicago, IL (Cook County) ...
+  - id: pride-connect-hotline
+    url: https://www.ilprideconnect.org/legal-hotline
+    title: IL Pride Connect Legal Hotline
+    publisher: Illinois Pride Connect
+    kind: org
+    accessed: "2026-09-24"
+  - id: chicago-house-tlc
+    url: https://www.chicagohouse.org/translife-care
+    title: TransLife Care
+    publisher: Chicago House and Social Service Agency
+    kind: org
+    accessed: "2026-09-24"

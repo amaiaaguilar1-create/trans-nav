@@ -1,0 +1,294 @@
+jurisdiction: IL
+slug: chicago
+name: Chicago
+area:
+  en: Chicago and Cook County
+  es: Chicago y el condado de Cook
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the Cook County Clerk's County Division page (2026-09-24). No Cook County filing fee is given
+    because I could not load a current fee schedule; add it after calling 312-603-5710. Center on Halsted's site
+    renders only with JavaScript, so its entry relies on its address as listed by Chicago House (TransLife drop-in at
+    3656 N Halsted) and is marked community_reported. Planned Parenthood of Illinois blocks automated fetches
+    (unverified). Brave Space Alliance, Howard Brown, Chicago House, TJLP, and A4TE were read on their own sites.
+intro:
+  en: >-
+    Chicago has the largest concentration of trans services in the Midwest: free name change clinics, an LGBTQ
+    community health center with informed-consent hormone care across the North, West, and South Sides, trans-specific
+    drop-in centers, and Black- and trans-led community spaces. Name change petitions for Chicago and the rest of Cook
+    County are heard in the County Division of the Circuit Court of Cook County at the Daley Center.
+  es: >-
+    Chicago tiene la mayor concentración de servicios trans del Medio Oeste: clínicas gratuitas de cambio de nombre, un
+    centro de salud LGBTQ con atención hormonal en el norte, oeste y sur de la ciudad, centros de atención sin cita para
+    personas trans y espacios comunitarios dirigidos por personas negras y trans. Las peticiones de cambio de nombre en
+    el condado de Cook se ven en la División del Condado del Tribunal de Circuito, en el Daley Center.
+court:
+  name: Circuit Court of Cook County, County Division (Richard J. Daley Center, Room 1202)
+  url: https://www.cookcountyclerkofcourt.org/divisions/county-division
+  self_help_url: https://www.cookcountyclerkofcourt.org/pro-se-slr
+  notes:
+    en: >-
+      50 W. Washington St., Room 1202, Chicago, IL 60602; 312-603-5710; open weekdays 8:30 am to 4:30 pm. Use the
+      statewide name change forms and e-file them. Cook County also requires you to e-file a photo or scan of your birth
+      certificate and a photo ID (plus proof of a Cook County address if your ID shows another address). For questions
+      about the 2025 changes (no publication, 3-month residency, impoundment) the Clerk lists 312-603-5030. A live chat
+      is available on the Clerk's website during office hours.
+    es: >-
+      50 W. Washington St., Sala 1202, Chicago, IL 60602; 312-603-5710; lunes a viernes de 8:30 am a 4:30 pm. Usa los
+      formularios estatales y preséntalos electrónicamente. El condado de Cook exige además una foto o escaneo de tu
+      acta de nacimiento y una identificación con foto.
+  sources: [cook-county-division, nca-instructions]
+resources:
+  - id: tjlp
+    name: Transformative Justice Law Project of Illinois (TJLP)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Free name change and gender marker help: in-person Name Change Mobilization clinics and virtual one-on-one
+        appointments after an online intake (English and Spanish forms). Free representation for minors and people with
+        criminal convictions. Email namechange@tjlp.org.
+      es: >-
+        Ayuda gratuita con cambio de nombre y marcador de género: clínicas presenciales y citas virtuales tras un
+        formulario en línea (inglés y español). Representación gratuita para menores y personas con condenas.
+    url: https://www.tjlp.org/name-change-mobilization-1
+    phone: "312-558-1472"
+    address: 203 N LaSalle St, Suite 2100, Chicago, IL 60601
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [tjlp-mobilization, tjlp-legal]
+  - id: a4te-ncp
+    org: a4te
+    name: A4TE Name Change Project (Cook County)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Refers eligible Cook County residents to volunteer law-firm attorneys who handle the name change for free; apply by online intake. Waitlists are common.
+      es: Refiere a residentes elegibles del condado de Cook a abogados voluntarios que llevan el cambio de nombre gratis; solicita en línea.
+    url: https://transequality.org/name-change-project
+    cost: free
+    verification: org_website
+    sources: [a4te-ncp]
+  - id: chicago-house-tlc
+    name: Chicago House TransLife Care (TranSafe drop-ins and legal clinic)
+    type: lgbtq_center
+    pillars: [name_change, hrt, sexual_health, mental_health, insurance]
+    description:
+      en: >-
+        Free drop-in centers for trans, nonbinary, and gender-expansive people with on-site health providers, sexual
+        health screening, a legal clinic (name changes, record sealing, discrimination, benefits appeals), case
+        management, housing navigation, and employment help. Drop-ins Mondays 2 to 5 pm at 3656 N Halsted (Center on
+        Halsted, 2nd floor), Wednesdays 3 to 7 pm at 9 N Cicero Ave, and Thursdays 2 to 5 pm at 1650 W 63rd St. Legal
+        clinic questions 773-673-9340.
+      es: >-
+        Centros gratuitos sin cita para personas trans, no binarias y de género expansivo con proveedores de salud,
+        pruebas de salud sexual, clínica legal, manejo de casos, vivienda y empleo. Lunes 2 a 5 pm en 3656 N Halsted,
+        miércoles 3 a 7 pm en 9 N Cicero Ave y jueves 2 a 5 pm en 1650 W 63rd St. Clínica legal 773-673-9340.
+    url: https://www.chicagohouse.org/translife-care
+    phone: "773-673-9340"
+    address: 2229 S. Michigan Ave, Chicago, IL 60616
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [chicago-house-tlc, chicago-house-home]
+  - id: howard-brown
+    name: Howard Brown Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        LGBTQ federally qualified health center: hormone therapy and gender-affirming surgery navigation, primary care,
+        PrEP and PEP, DoxyPEP, a sexual health walk-in clinic, behavioral health, and youth care (ages 12 to 24 at the
+        Broadway Youth Center). Sites at 4025 N Sheridan Rd, 3501 N Halsted St, 6500 N Clark St, 1023 W Irving Park Rd,
+        3533 W North Ave (at La Casa Norte), 1525 E 55th St, and 641 W 63rd St. Call 773-388-1600.
+      es: >-
+        Centro de salud LGBTQ federalmente calificado: terapia hormonal y orientación para cirugía, atención primaria,
+        PrEP y PEP, clínica de salud sexual sin cita, salud mental y atención juvenil (12 a 24). Siete sedes en Chicago.
+        Llama al 773-388-1600.
+    url: https://howardbrown.org/service/tgd-health/
+    phone: "773-388-1600"
+    address: 4025 N. Sheridan Rd, Chicago, IL 60613
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [howard-brown-tgd, howard-brown-locations]
+  - id: howard-brown-walkin
+    name: Howard Brown Health, sexual health walk-in clinic and PrEP
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Walk-in STI and HIV testing and treatment, PrEP, PEP, and DoxyPEP. Check the website for current walk-in hours and location.
+      es: Pruebas y tratamiento de ITS y VIH sin cita, PrEP, PEP y DoxyPEP. Consulta el sitio para horarios.
+    url: https://howardbrown.org/service/sexual-health-walk-in-clinic/
+    phone: "773-388-1600"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [howard-brown-home]
+  - id: brave-space-alliance
+    name: Brave Space Alliance
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: >-
+        Black-led, trans-led LGBTQ+ community center on the South Side with support groups, a community food pantry,
+        housing initiative, identity-document support, and health programs.
+      es: >-
+        Centro comunitario LGBTQ+ dirigido por personas negras y trans en el South Side, con grupos de apoyo, despensa
+        comunitaria, vivienda, apoyo con documentos de identidad y programas de salud.
+    url: https://www.bravespacealliance.org/
+    phone: "872-333-5199"
+    address: 1515 E 52nd Pl, Chicago, IL 60615
+    cost: free
+    verification: org_website
+    sources: [bsa]
+  - id: center-on-halsted
+    name: Center on Halsted
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Chicago's largest LGBTQ community center on the North Side, with behavioral health services and community programs; hosts a weekly TransLife Care drop-in.
+      es: El centro comunitario LGBTQ más grande de Chicago, en el North Side, con salud mental y programas comunitarios; alberga un centro TransLife Care semanal.
+    url: https://www.centeronhalsted.org/
+    address: 3656 N Halsted St, Chicago, IL 60613
+    verification: community_reported
+    sources: [center-on-halsted, chicago-house-tlc]
+  - id: pp-illinois
+    org: planned-parenthood
+    name: Planned Parenthood of Illinois
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy and sexual health care at Chicago-area health centers; Medicaid and sliding scale. Confirm age minimum and telehealth options by phone.
+      es: Terapia hormonal de afirmación de género y salud sexual en centros del área de Chicago; Medicaid y escala móvil.
+    url: https://www.plannedparenthood.org/planned-parenthood-illinois/patient-resources/gender-affirming-care
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: unverified
+    sources: [pp-illinois]
+  - id: il-pride-connect
+    name: IL Pride Connect Legal Hotline
+    type: hotline
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential LGBTQIA+ legal information line, Monday to Thursday 9 am to 4 pm, English and Spanish.
+      es: Línea gratuita y confidencial de información legal LGBTQIA+, lunes a jueves de 9 am a 4 pm, inglés y español.
+    url: https://www.ilprideconnect.org/legal-hotline
+    phone: "855-805-9200"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [pride-connect-hotline]
+  - id: trans-lifeline-chi
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people. 877-565-8860, English and Spanish.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860, inglés y español.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: cook-county-division
+    url: https://www.cookcountyclerkofcourt.org/divisions/county-division
+    title: County Division
+    publisher: Clerk of the Circuit Court of Cook County
+    kind: court
+    accessed: "2026-09-24"
+    quote: The County Division hears actions concerning a variety of matters, including ... name changes
+  - id: nca-instructions
+    url: https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/b7a5b9eb-93a1-4889-b81d-641afa444a13/NC-A%20Instructions.pdf
+    title: How to Change your Name (Adult), ATJ 302.9 (03/25)
+    publisher: Illinois Supreme Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: In Cook County (1st District) only, The Court requires all petitioners to e-file, as an exhibit, a photo or scanned copy of your birth certificate and a photo I.D.
+  - id: tjlp-mobilization
+    url: https://www.tjlp.org/name-change-mobilization-1
+    title: Name Change Mobilization
+    publisher: Transformative Justice Law Project of Illinois
+    kind: org
+    accessed: "2026-09-24"
+  - id: tjlp-legal
+    url: https://www.tjlp.org/legal-services
+    title: Legal Services
+    publisher: Transformative Justice Law Project of Illinois
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ncp
+    url: https://transequality.org/name-change-project
+    title: Name Change Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: chicago-house-tlc
+    url: https://www.chicagohouse.org/translife-care
+    title: TransLife Care
+    publisher: Chicago House and Social Service Agency
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Every Monday 2pm to 5pm @ 3656 N Halsted, 2nd Floor (Center on Halsted)"
+  - id: chicago-house-home
+    url: https://www.chicagohouse.org/
+    title: Chicago House
+    kind: org
+    accessed: "2026-09-24"
+  - id: howard-brown-tgd
+    url: https://howardbrown.org/service/tgd-health/
+    title: Trans and gender diverse health
+    publisher: Howard Brown Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: howard-brown-locations
+    url: https://howardbrown.org/locations/
+    title: Locations
+    publisher: Howard Brown Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: howard-brown-home
+    url: https://howardbrown.org/
+    title: Howard Brown Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: bsa
+    url: https://www.bravespacealliance.org/
+    title: Brave Space Alliance
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-on-halsted
+    url: https://www.centeronhalsted.org/
+    title: Center on Halsted
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-illinois
+    url: https://www.plannedparenthood.org/planned-parenthood-illinois/patient-resources/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood of Illinois
+    kind: org
+    accessed: "2026-09-24"
+  - id: pride-connect-hotline
+    url: https://www.ilprideconnect.org/legal-hotline
+    title: IL Pride Connect Legal Hotline
+    publisher: Illinois Pride Connect
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

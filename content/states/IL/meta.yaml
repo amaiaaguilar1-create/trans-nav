@@ -1,0 +1,110 @@
+code: IL
+name:
+  en: Illinois
+  es: Illinois
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on 735 ILCS 5/21 as amended by P.A. 103-1063 (no publication, impoundment for transgender
+    petitioners), self-attestation for driver's licenses and birth certificates with an X option, and the 2023 shield
+    law (P.A. 102-1117). Cross-checked against MAP on 2026-09-24.
+overview:
+  en: >-
+    Illinois is one of the most protective states for trans people. Since March 2025 adult name changes need no
+    newspaper publication and can be sealed on request, driver's licenses, state IDs, and Illinois birth certificates
+    offer M, F, or X by self-attestation, Medicaid and state-regulated insurance cover gender-affirming care, and a
+    shield law protects patients and providers from other states' bans. Federal documents (passport, Social Security)
+    are the exception: their sex fields currently follow sex assigned at birth.
+  es: >-
+    Illinois es uno de los estados que más protege a las personas trans. Desde marzo de 2025 los cambios de nombre de
+    adultos no requieren publicación en periódico y pueden sellarse a pedido, las licencias, identificaciones y actas de
+    nacimiento de Illinois ofrecen M, F o X por declaración propia, Medicaid y los seguros regulados por el estado
+    cubren la atención de afirmación de género, y una ley escudo protege a pacientes y proveedores. Los documentos
+    federales (pasaporte, Seguro Social) son la excepción: su campo de sexo sigue el sexo asignado al nacer.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [pa-102-1117, pa-103-1063, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [chicago]
+key_resources:
+  - id: il-pride-connect
+    name: IL Pride Connect Legal Hotline
+    type: hotline
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential statewide legal information line for LGBTQIA+ Illinoisans (ID documents, access to care, Medicaid, discrimination). Monday to Thursday, 9 am to 4 pm; English and Spanish.
+      es: Línea estatal gratuita y confidencial de información legal para personas LGBTQIA+ (documentos, acceso a atención, Medicaid, discriminación). Lunes a jueves, 9 am a 4 pm; inglés y español.
+    url: https://www.ilprideconnect.org/legal-hotline
+    phone: "855-805-9200"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [pride-connect-hotline]
+  - id: tjlp
+    name: Transformative Justice Law Project of Illinois (TJLP)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Chicago-based legal organization offering free name change and gender marker help statewide by virtual appointment, in-person clinics, and representation for minors and people with convictions.
+      es: Organización legal de Chicago que ofrece ayuda gratuita con cambios de nombre y marcador de género por citas virtuales, clínicas presenciales y representación de menores y personas con condenas.
+    url: https://www.tjlp.org/
+    phone: "312-558-1472"
+    cost: free
+    verification: org_website
+    sources: [tjlp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: pa-102-1117
+    url: https://ftp.ilga.gov/Public%20Acts/102/102-1117.htm
+    title: Public Act 102-1117, Lawful Health Care Activity Act (shield law)
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: pa-103-1063
+    url: https://ftp.ilga.gov/Public%20Acts/103/103-1063.htm
+    title: Public Act 103-1063, name change reforms (effective March 1, 2025)
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: pride-connect-hotline
+    url: https://www.ilprideconnect.org/legal-hotline
+    title: IL Pride Connect Legal Hotline
+    publisher: Illinois Pride Connect
+    kind: org
+    accessed: "2026-09-24"
+  - id: tjlp
+    url: https://www.tjlp.org/
+    title: Transformative Justice Law Project of Illinois
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

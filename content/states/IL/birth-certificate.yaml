@@ -1,0 +1,233 @@
+guide_type: birth_certificate
+jurisdiction: IL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Statute (410 ILCS 535/17(1)(e), as amended by P.A. 102-1141, eff. July 1, 2023) read on ftp.ilga.gov; IDPH Gender
+    Reassignment page and the Affidavit and Certificate of Correction Request (VR 400, Rev. 08/26) read directly on
+    2026-09-24. The task brief mentioned a "declaration by provider"; that requirement was removed in 2023. The law
+    now requires only the person's own signed statement, and IDPH's form must be notarized. Fees ($15 including one
+    certified copy; $2 per additional copy ordered at the same time) confirmed on both the statute and the IDPH page.
+    Reviewer (1) IDPH does not publish a processing time for these requests; none is given here. (2) The IDPH page
+    still titles this "Gender Reassignment" though the process is self-attestation. (3) A4TE's page agrees on $15 / $2
+    and M, F, X.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Illinois you can get a new birth certificate showing M, F, or X by mailing IDPH a notarized
+    affidavit, a copy of your photo ID, and $15. No doctor's letter or court order is needed for the sex marker. To
+    change the name at the same time, add a certified copy of your court name change order.
+  es: >-
+    Si naciste en Illinois puedes obtener una nueva acta de nacimiento con M, F o X enviando por correo a IDPH una
+    declaración jurada notarizada, copia de tu identificación con foto y $15. No se necesita carta médica ni orden
+    judicial para el marcador de sexo. Para cambiar también el nombre, agrega una copia certificada de tu orden
+    judicial de cambio de nombre.
+summary:
+  en: |
+    Since July 1, 2023, Illinois law (410 ILCS 535/17) requires the State Registrar to issue a **new birth certificate** when you submit a signed statement that you are making the request to affirm your gender identity (or intersex condition) and that the sex designation should be changed to male, female, or X. No medical provider, surgery, or court order is involved.
+
+    IDPH creates a new record. The original certificate and everything you send are placed in a **sealed, impounded file** that can be opened only by court order, at your own request, or as allowed by regulation.
+
+    This applies only if you were **born in Illinois**. If you were born in another state or country, that place's rules control your birth certificate. Illinois courts can issue a finding of fact (735 ILCS 5/21-106) if your birth state requires a court order.
+  es: |
+    Desde el 1 de julio de 2023, la ley de Illinois (410 ILCS 535/17) obliga al Registro Estatal a emitir una **nueva acta de nacimiento** cuando presentas una declaración firmada de que haces la solicitud para afirmar tu identidad de género (o condición intersexual) y que la designación de sexo debe cambiarse a masculino, femenino o X. No interviene ningún proveedor médico, cirugía ni orden judicial.
+
+    IDPH crea un nuevo registro. El acta original y todo lo que envíes se guardan en un **archivo sellado** que solo se abre por orden judicial, a tu solicitud o según el reglamento.
+
+    Esto aplica solo si **naciste en Illinois**. Si naciste en otro estado o país, rigen las reglas de ese lugar. Los tribunales de Illinois pueden emitir una determinación de hechos (735 ILCS 5/21-106) si tu estado de nacimiento exige una orden judicial.
+eligibility:
+  residency:
+    en: You must have been born in Illinois and have an existing Illinois birth certificate. Where you live now does not matter.
+    es: Debes haber nacido en Illinois y tener un acta de nacimiento de Illinois. No importa dónde vivas ahora.
+  age:
+    en: Adults 18 and older complete the affidavit themselves. For someone under 18, a parent, co-parent, or legal guardian completes it.
+    es: Las personas de 18 años o más llenan la declaración ellas mismas. Para menores de 18, la llena un padre, madre o tutor legal.
+  sources: [ilcs-535-17, idph-gender, idph-vr400, ilcs-21-106]
+forms:
+  - id: VR 400
+    name:
+      en: Affidavit and Certificate of Correction Request
+      es: Declaración Jurada y Solicitud de Certificado de Corrección
+    url: https://dph.illinois.gov/content/dam/soi/en/web/idph/resources/topics-services/birth-death-other-records/english/Affidavit_Certificate_Correction%20-%20Updated%202026.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Use black ink or type. **Any white-out, cross-outs, or alterations void the form**; start over on a new copy if you make a mistake.
+        - Check **Birth**. Relationship: write **self** (or parent/guardian for a minor).
+        - "FIRST" section: the particulars exactly as they appear on your current certificate (name, place and date of birth, parents' names).
+        - "SECOND" section: in "What you want corrected" write **sex** and put the new designation (M, F, or X) under "How it should read". If you are also changing your name, add a line for the name and attach a certified copy of your court order.
+        - Sign **in front of a notary**; the notarization date must be the same day you sign. Notaries are available at most banks and currency exchanges for a small fee.
+      es: |
+        - Usa tinta negra o escribe a máquina. **Cualquier corrector, tachadura o alteración anula el formulario**.
+        - Marca **Birth** (nacimiento). Relación: escribe **self** (o padre/madre/tutor si es menor).
+        - Sección "FIRST": los datos exactamente como aparecen en tu acta actual.
+        - Sección "SECOND": en lo que quieres corregir escribe **sexo** y la nueva designación (M, F o X). Si también cambias tu nombre, agrega una línea para el nombre y adjunta copia certificada de tu orden judicial.
+        - Firma **ante notario**; la fecha de notarización debe ser la misma de tu firma.
+    sources: [idph-vr400, idph-gender]
+steps:
+  - id: fill
+    title:
+      en: Fill out the affidavit and sign it before a notary
+      es: Llena la declaración jurada y fírmala ante notario
+    body:
+      en: >-
+        Complete form VR 400 in full, listing the sex designation you want (M, F, or X). Sign it in front of a notary on
+        the same day.
+      es: >-
+        Llena por completo el formulario VR 400 indicando la designación de sexo que quieres (M, F o X). Fírmalo ante
+        notario el mismo día.
+    forms: [VR 400]
+    sources: [idph-vr400, idph-gender]
+  - id: gather
+    title:
+      en: Gather your ID copy, payment, and any name change order
+      es: Reúne copia de tu identificación, el pago y la orden de cambio de nombre si aplica
+    body:
+      en: |
+        - A copy of a non-expired government-issued photo ID.
+        - A $15 check or money order payable to **IDPH**, plus $2 for each extra certified copy you want now.
+        - If changing your name too, a **certified** copy of the court Order for Name Change.
+      es: |
+        - Copia de una identificación oficial con foto vigente.
+        - Cheque o giro postal de $15 a nombre de **IDPH**, más $2 por cada copia certificada adicional.
+        - Si también cambias tu nombre, copia **certificada** de la Orden de Cambio de Nombre.
+    fees: [new-certificate, extra-copy]
+    sources: [idph-vr400, idph-gender]
+  - id: mail
+    title:
+      en: Mail everything to IDPH Vital Records in Springfield
+      es: Envía todo por correo a IDPH Vital Records en Springfield
+    body:
+      en: >-
+        Mail the original notarized affidavit and attachments to Illinois Department of Public Health, Division of Vital
+        Records, 110 West Lawrence Ave., Springfield, IL 62704-2610. Questions go to dph.vitals@illinois.gov or
+        217-782-6554. Keep copies of everything.
+      es: >-
+        Envía la declaración original notarizada y los anexos a Illinois Department of Public Health, Division of Vital
+        Records, 110 West Lawrence Ave., Springfield, IL 62704-2610. Preguntas a dph.vitals@illinois.gov o
+        217-782-6554.
+    applies_to: [by_mail]
+    sources: [idph-vr400]
+  - id: receive
+    title:
+      en: Receive your new birth certificate
+      es: Recibe tu nueva acta de nacimiento
+    body:
+      en: >-
+        IDPH reviews the request and, if everything is complete, creates a new birth record and sends the certified
+        copy (or copies) you paid for. IDPH does not publish a standard processing time; if you have not heard back
+        after several weeks, email or call Vital Records.
+      es: >-
+        IDPH revisa la solicitud y, si todo está completo, crea un nuevo registro y envía las copias certificadas que
+        pagaste. IDPH no publica un tiempo de procesamiento estándar.
+    sources: [idph-gender]
+fees:
+  - id: new-certificate
+    label:
+      en: New birth certificate (includes one certified copy)
+      es: Nueva acta de nacimiento (incluye una copia certificada)
+    amount: 15
+    waivable: false
+    note:
+      en: The statute waives this fee once for people released from IDOC or IDJJ who present the department's verification form.
+      es: La ley exime esta tarifa una vez a personas liberadas de IDOC o IDJJ que presenten el formulario de verificación.
+    sources: [ilcs-535-17, idph-gender]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy ordered at the same time
+      es: Cada copia certificada adicional pedida al mismo tiempo
+    amount: 2
+    waivable: false
+    sources: [ilcs-535-17, idph-gender]
+fee_waiver:
+  available: false
+  eligibility:
+    en: >-
+      No general fee waiver. The only statutory waiver is a one-time waiver for people released on parole, mandatory
+      supervised release, final discharge, or pardon from the Department of Corrections or Juvenile Justice who present
+      that department's verification form.
+    es: >-
+      No hay exención general. La única exención legal es una sola vez para personas liberadas del Departamento de
+      Correcciones o de Justicia Juvenil que presenten el formulario de verificación.
+  sources: [ilcs-535-17]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail to IDPH Division of Vital Records in Springfield. County clerks issue copies but do not process these changes.
+    es: Por correo a la División de Registros Vitales de IDPH en Springfield. Los secretarios de condado no procesan estos cambios.
+  sources: [idph-vr400, idph-gender]
+timeline:
+  en: Not published by IDPH. Allow several weeks for mail and processing.
+  es: IDPH no lo publica. Calcula varias semanas entre correo y procesamiento.
+after:
+  en: |
+    Your new certificate lists your affirmed sex designation (and new name, if you included a court order). Order a few extra copies now at $2 each; later copies cost more and need a separate request. As of September 2026 the Social Security Administration and the State Department issue records only with the sex assigned at birth and will not update the sex field based on an amended birth certificate. Your Illinois driver's license can be changed separately and does not have to match.
+  es: |
+    Tu nueva acta muestra tu designación de sexo afirmada (y nuevo nombre, si incluiste una orden judicial). Pide algunas copias adicionales ahora a $2 cada una. A septiembre de 2026, el Seguro Social y el Departamento de Estado solo emiten registros con el sexo asignado al nacer y no actualizarán el campo de sexo con base en un acta enmendada. Tu licencia de Illinois se cambia por separado y no tiene que coincidir.
+tips:
+  - en: A single mistake or correction on the affidavit voids it, so print two blank copies before you go to the notary.
+    es: Un solo error o corrección anula la declaración; imprime dos copias en blanco antes de ir al notario.
+  - en: If you were born outside Illinois but live here, an Illinois court can issue findings of fact to support a birth certificate change in your birth state (735 ILCS 5/21-106). TJLP and the IL Pride Connect Legal Hotline can help you figure out what your birth state needs.
+    es: Si naciste fuera de Illinois pero vives aquí, un tribunal de Illinois puede emitir una determinación de hechos para apoyar el cambio en tu estado de nacimiento (735 ILCS 5/21-106).
+statutes:
+  - cite: 410 ILCS 535/17(1)(e) (Vital Records Act)
+    title:
+      en: New birth certificate on the person's signed statement affirming gender identity or intersex condition; M, F, or X
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=041005350K17
+  - cite: 735 ILCS 5/21-106
+    title:
+      en: Judicial findings of fact for Illinois residents born in another state or country
+    url: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=073500050K21-106
+related_links:
+  - title: IDPH, Gender change on an Illinois birth certificate
+    url: https://dph.illinois.gov/topics-services/birth-death-other-records/birth-records/gender-reassignment.html
+  - title: Advocates for Trans Equality, Illinois identity documents
+    url: https://transequality.org/documents/illinois-identity-documents
+    note:
+      en: No last-updated date shown; its birth certificate fees and markers match IDPH.
+      es: Sin fecha de actualización; sus tarifas y marcadores coinciden con IDPH.
+sources:
+  - id: ilcs-535-17
+    url: https://ftp.ilga.gov/ILCS/Ch%200410/Act%200535/041005350K17.html
+    title: 410 ILCS 535/17, New certificates of birth
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      A statement signed by the person in which the person attests to making the request for the purpose of affirming
+      the person's gender identity or intersex condition and that the sex designation on the person's certificate of
+      birth should therefore be changed to a male, female, or X designation. Each request for a new certificate of
+      birth shall be accompanied by a fee of $15
+  - id: idph-gender
+    url: https://dph.illinois.gov/topics-services/birth-death-other-records/birth-records/gender-reassignment.html
+    title: Gender Reassignment (gender change on a birth certificate)
+    publisher: Illinois Department of Public Health, Division of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      The original birth certificate and all documents submitted are placed in a sealed and impounded file ... The fee
+      is $15 and includes one certified copy of the new birth certificate. Additional copies are $2 each if ordered at
+      the same time.
+  - id: idph-vr400
+    url: https://dph.illinois.gov/content/dam/soi/en/web/idph/resources/topics-services/birth-death-other-records/english/Affidavit_Certificate_Correction%20-%20Updated%202026.pdf
+    title: Affidavit and Certificate of Correction Request, VR 400 (Rev. 08/26)
+    publisher: Illinois Department of Public Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: This form must be signed in the presence of a notary public.
+  - id: ilcs-21-106
+    url: https://ftp.ilga.gov/ILCS/Ch%200735/Act%200005/073500050K21-106.html
+    title: 735 ILCS 5/21-106, Judicial order; findings of fact
+    publisher: Illinois General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: An Illinois resident may file a petition in the resident's county of residence asking for a court to issue a finding of fact or facts to correct or update a birth certificate issued by another state or country.
