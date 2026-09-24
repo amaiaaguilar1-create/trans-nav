@@ -1,0 +1,244 @@
+guide_type: birth_certificate
+jurisdiction: NC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirements read directly from the Birth Certificate Modification Application (Form DHHS 1578, 07/2022), page 6
+    ("Modifying Sex Designation"), linked from vitalrecords.nc.gov/change.htm (page last modified July 13, 2026). Fees
+    from vitalrecords.nc.gov/fees.htm (last modified July 13, 2026) and the application ($39 amendment including one
+    copy; $15 additional copies). DISAGREEMENT: A4TE's NC page (undated) and the statute G.S. 130A-118(b)(4) describe
+    only the surgery route with a physician's notarized statement; the agency's own current application also offers
+    a non-surgical "correct sex designation" route (NC license or US passport showing the sex, or a provider
+    certification of gender identity). The agency form is used here as the primary source. Reviewer must confirm
+    with NC Vital Records that the non-surgical route is still being processed after HB 805's sex definitions took
+    effect January 1, 2026, and how the multi-page record rule (G.S. 130A-118(f), effective December 1, 2025) appears
+    on certified copies. The 30-day processing target is from the change page.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in North Carolina, NC Vital Records' current application lets you change the sex on your birth
+    certificate to M or F with a provider's certification of your gender identity, or with an NC license or US
+    passport already showing that sex. No surgery or court order is needed on that route. Since December 1, 2025 the
+    original certificate is kept attached to the new one as a multi-page record.
+  es: >-
+    Si naciste en Carolina del Norte, la solicitud actual de Registros Vitales te permite cambiar el sexo en tu acta a
+    M o F con la certificación de tu identidad de género por un proveedor, o con una licencia de NC o pasaporte de
+    EE. UU. que ya muestre ese sexo. En esa vía no se necesita cirugía ni orden judicial. Desde el 1 de diciembre de
+    2025 el acta original se guarda unida a la nueva como un documento de varias páginas.
+summary:
+  en: |
+    North Carolina's statute (G.S. 130A-118(b)(4)) describes a **surgery route**: a new certificate is issued when a physician certifies in a notarized statement that you had sex reassignment surgery. But the State Registrar's current **Birth Certificate Modification Application** (form DHHS 1578) also lists a route to **"correct sex designation"** with any one of these:
+    1. A valid **NC driver's license or state ID**, or a valid **US passport**, showing the sex you are requesting.
+    2. A **certification of gender identity** signed by a physician, psychiatrist, physician's assistant, licensed therapist, counselor, psychologist, case worker, or social worker.
+    3. A statement from your birth attendant.
+
+    **What changed in 2025 and 2026:**
+    - Since **December 1, 2025** (HB 805), when the sex is changed the State Registrar attaches the new certificate to the original and keeps both "as a multi-page document". ACLU of NC reads this to mean a certified copy will show both pages.
+    - Since **January 1, 2026**, state law defines male and female by sex at conception. The law does not stop amendments, and the agency still publishes the form, but advocates say agencies could reinterpret it.
+    - Certificates changed before these dates are not affected retroactively.
+
+    Only NC Vital Records can change an NC birth certificate. If you were born in another state, follow that state's rules.
+  es: |
+    La ley de Carolina del Norte (G.S. 130A-118(b)(4)) describe una **vía quirúrgica**: se emite un acta nueva cuando un médico certifica en una declaración notarizada que tuviste cirugía de reasignación de sexo. Pero la **Solicitud de Modificación de Acta de Nacimiento** actual (formulario DHHS 1578) también incluye una vía para **"corregir la designación de sexo"** con cualquiera de estos:
+    1. Una **licencia o identificación de NC** vigente, o un **pasaporte de EE. UU.** vigente, que muestre el sexo que solicitas.
+    2. Una **certificación de identidad de género** firmada por un médico, psiquiatra, asistente médico, terapeuta, consejero, psicólogo, trabajador de casos o trabajador social.
+    3. Una declaración de quien atendió tu nacimiento.
+
+    **Cambios en 2025 y 2026:**
+    - Desde el **1 de diciembre de 2025** (HB 805), cuando se cambia el sexo el Registro une el acta nueva a la original y guarda ambas "como un documento de varias páginas". ACLU de NC interpreta que una copia certificada mostrará ambas páginas.
+    - Desde el **1 de enero de 2026**, la ley estatal define hombre y mujer por el sexo en la concepción. La ley no impide las enmiendas y la agencia sigue publicando el formulario, pero los defensores advierten que podría reinterpretarse.
+    - Las actas cambiadas antes de estas fechas no se ven afectadas retroactivamente.
+
+    Solo Registros Vitales de NC puede cambiar un acta de NC. Si naciste en otro estado, sigue las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in North Carolina. Where you live now does not matter.
+    es: Debes haber nacido en Carolina del Norte. No importa dónde vivas ahora.
+  age:
+    en: Adults 18 and older apply for themselves. For a minor, both parents listed on the certificate (or a legal guardian) must sign a request to change name or sex.
+    es: Los adultos de 18 años o más solicitan por sí mismos. Para un menor, ambos padres que figuran en el acta (o un tutor legal) deben firmar.
+  other:
+    en: If the sex field was already modified once without a court order, Vital Records will require a court order to change it again.
+    es: Si el campo de sexo ya se modificó una vez sin orden judicial, Registros Vitales exigirá una orden judicial para cambiarlo de nuevo.
+  sources: [nc-bc-mod-app, vr-change, gs-130a-118, hb805, aclu-faq]
+forms:
+  - id: DHHS 1578
+    name:
+      en: Birth Certificate Modification Application
+      es: Solicitud de modificación de acta de nacimiento
+    url: https://vitalrecords.nc.gov/documents/NCOVR-BirthModificationsApplicationFinal-07072022v6.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Part I:** your name at birth, date and county of birth, and parents' names exactly as on the current certificate.
+        - **Part II:** under "incorrect information" write the current sex (and name, if changing); under "corrected information" write the new sex (and new name). For **Reason for modification** write "correct sex designation" (and "legal name change" if applicable). Under **Documentary evidence** list what you attach (for example "provider certification of gender identity" or "NC driver's license").
+        - Sign **in front of a notary**; do not sign beforehand.
+        - Attach a legible copy of an acceptable photo ID (pages 2 to 3 list them). The ID used for identity does not have to show the new sex.
+        - For a name change, attach a **certified** copy of the court order.
+        - Pay $39 by certified check or money order to "N.C. Vital Records". No personal checks or cash.
+      es: |
+        - **Parte I:** tu nombre al nacer, fecha y condado de nacimiento y nombres de tus padres tal como en el acta actual.
+        - **Parte II:** en "información incorrecta" escribe el sexo actual (y nombre, si cambia); en "información corregida" el nuevo. En **Motivo** escribe "corrección de designación de sexo" (y "cambio legal de nombre" si aplica). En **Evidencia** indica lo que adjuntas.
+        - Firma **ante notario**.
+        - Adjunta copia legible de una identificación con foto aceptable. No tiene que mostrar el nuevo sexo.
+        - Para cambio de nombre, adjunta una copia **certificada** de la orden judicial.
+        - Paga $39 con cheque certificado o giro postal a nombre de "N.C. Vital Records".
+    sources: [nc-bc-mod-app]
+steps:
+  - id: gather-proof
+    title:
+      en: Gather your proof of sex designation
+      es: Reúne tu prueba de designación de sexo
+    body:
+      en: |
+        Pick one: (1) a valid NC driver's license or state ID, or a valid US passport, already showing the sex you want (updating your NC license first with DL-300 is often the easiest path); or (2) a certification signed by a physician, psychiatrist, PA, licensed therapist, counselor, psychologist, case worker, or social worker stating your gender identity in their professional opinion. For the statutory surgery route instead, you need a notarized statement from a physician certifying surgery plus your written request.
+      es: |
+        Elige una: (1) una licencia o identificación de NC, o un pasaporte de EE. UU., vigente y que ya muestre el sexo deseado (actualizar primero tu licencia con el DL-300 suele ser lo más fácil); o (2) una certificación firmada por un médico, psiquiatra, asistente médico, terapeuta, consejero, psicólogo, trabajador de casos o trabajador social que indique tu identidad de género. Para la vía quirúrgica de la ley, necesitas una declaración notarizada de un médico y tu solicitud por escrito.
+    applies_to: [gender_marker]
+    sources: [nc-bc-mod-app, gs-130a-118]
+  - id: complete-application
+    title:
+      en: Complete and notarize the application
+      es: Completa y notariza la solicitud
+    body:
+      en: Fill in form DHHS 1578 and sign it before a notary. If you are also changing your name, include a certified copy of your court order in the same request.
+      es: Llena el formulario DHHS 1578 y fírmalo ante notario. Si también cambias tu nombre, incluye una copia certificada de la orden judicial en la misma solicitud.
+    forms: [DHHS 1578]
+    sources: [nc-bc-mod-app, vr-change]
+  - id: submit
+    title:
+      en: Submit online or by mail
+      es: Envía en línea o por correo
+    body:
+      en: |
+        - **Online:** the NCOVR self-service portal (create an account, choose "Birth Certificate Modification Application"). Requests based on a **court order** must be mailed so the certified copy can be inspected.
+        - **By mail:** NC Vital Records, Attn: Amendments Unit, 1903 Mail Service Center, Raleigh, NC 27699-1900, with a $39 certified check or money order.
+        - Some county registers of deeds also accept modification requests; call yours first.
+      es: |
+        - **En línea:** el portal NCOVR (crea una cuenta y elige "Birth Certificate Modification Application"). Las solicitudes basadas en **orden judicial** deben enviarse por correo.
+        - **Por correo:** NC Vital Records, Attn: Amendments Unit, 1903 Mail Service Center, Raleigh, NC 27699-1900, con cheque certificado o giro postal de $39.
+        - Algunos registros de escrituras del condado también aceptan solicitudes; llama antes.
+    fees: [amendment]
+    applies_to: [online, by_mail]
+    sources: [vr-change, nc-bc-mod-app]
+  - id: receive
+    title:
+      en: Receive your amended certificate
+      es: Recibe tu acta modificada
+    body:
+      en: Amendments are to be processed within 30 calendar days after a complete, notarized application with payment is received. The $39 includes one copy; order more afterwards for $15 each (plus $24 search if ordered separately).
+      es: Las enmiendas deben procesarse dentro de 30 días calendario tras recibir una solicitud completa y notarizada con el pago. Los $39 incluyen una copia; las adicionales cuestan $15 cada una.
+    fees: [extra-copy]
+    estimated_time:
+      en: about 30 days
+      es: unos 30 días
+    sources: [vr-change, vr-fees]
+fees:
+  - id: amendment
+    label:
+      en: Amendment (search, processing, and one copy)
+      es: Enmienda (búsqueda, trámite y una copia)
+    amount: 39
+    note:
+      en: Nonrefundable even if the request is denied. Online portal payments may add a processing fee.
+      es: No reembolsable aunque se niegue la solicitud.
+    sources: [nc-bc-mod-app, vr-change]
+  - id: extra-copy
+    label:
+      en: Additional certified copy of the same certificate
+      es: Copia certificada adicional
+    amount: 15
+    sources: [vr-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: NC Vital Records lists no fee waiver for amendments.
+    es: Registros Vitales de NC no ofrece exención de tarifas para enmiendas.
+  sources: [vr-fees]
+delivery:
+  online: true
+  by_mail: true
+  in_person: false
+  detail:
+    en: Online through the NCOVR portal or by mail to the Amendments Unit. Court-order requests go by mail. Some registers of deeds accept requests in person.
+    es: En línea por el portal NCOVR o por correo. Las solicitudes con orden judicial van por correo.
+  sources: [vr-change]
+timeline:
+  en: About 30 days after a complete application is received.
+  es: Unos 30 días después de recibir la solicitud completa.
+after:
+  en: |
+    Check the certified copy you receive. Because of the multi-page rule in effect since December 1, 2025, it may include your original certificate; keep that in mind when deciding which document to show. If you update the birth certificate before your driver's license, you can use it at NCDMV instead of DL-300. The US passport and Social Security sex fields currently cannot be changed.
+  es: |
+    Revisa la copia certificada que recibas. Por la regla de varias páginas vigente desde el 1 de diciembre de 2025, puede incluir tu acta original; tenlo en cuenta al decidir qué documento mostrar. Si actualizas el acta antes que tu licencia, puedes usarla en NCDMV en lugar del DL-300. Los campos de sexo del pasaporte y del Seguro Social actualmente no se pueden cambiar.
+tips:
+  - en: Unsure whether your sex field was already changed once? You can send a "Request to Amend a Record" form with a $24 search fee first, but it adds processing time.
+    es: Si no sabes si tu campo de sexo ya se cambió antes, puedes enviar primero el formulario "Request to Amend a Record" con $24, pero añade tiempo.
+  - en: Questions go to the Vital Records Amendments Unit at 919-792-5986, or the general line 984-236-7203.
+    es: Preguntas a la Unidad de Enmiendas de Registros Vitales, 919-792-5986, o a la línea general 984-236-7203.
+statutes:
+  - cite: N.C.G.S. § 130A-118
+    title:
+      en: Amendment of birth certificates; (b)(4) sex change after surgery; (f) multi-page record when sex is changed (effective December 1, 2025)
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-118.html
+  - cite: HB 805 (2025), S.L. 2025-84
+    title:
+      en: Sex definitions (G.S. 12-3.3, effective January 1, 2026) and multi-page birth record rule
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+related_links:
+  - title: ACLU of North Carolina, HB 805 FAQ (birth certificates)
+    url: https://www.acluofnorthcarolina.org/hb805-anti-trans-bill-faq/
+  - title: Advocates for Trans Equality, North Carolina identity documents
+    url: https://transequality.org/documents/north-carolina-identity-documents
+    note:
+      en: Undated; lists only the surgery-letter route and older $15 plus $24 fees.
+      es: Sin fecha; solo menciona la vía de carta quirúrgica.
+sources:
+  - id: nc-bc-mod-app
+    url: https://vitalrecords.nc.gov/documents/NCOVR-BirthModificationsApplicationFinal-07072022v6.pdf
+    title: Birth Certificate Modification Application (Form DHHS 1578, 07/2022)
+    publisher: NC DHHS, Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: "OPTION 2: Certification of Gender Identity: A certification signed by a physician, psychiatrist, physician's assistant, licensed therapist, counselor, psychologist, case worker, or social worker stating, based on their professional opinion, the gender identity of the registrant."
+  - id: vr-change
+    url: https://vitalrecords.nc.gov/change.htm
+    title: Change a Record
+    publisher: NC Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: Birth and death amendment requests submitted to NC Vital Records or a Register of Deeds office are to be processed within 30 calendar days after the office receives the completed application
+  - id: vr-fees
+    url: https://vitalrecords.nc.gov/fees.htm
+    title: Fees and Payment
+    publisher: NC Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Additional copies of same certificate $15 each. Amending birth or death certificates or fetal death reports $15."
+  - id: gs-130a-118
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-118.html
+    title: G.S. 130A-118, Amendment of birth and death certificates
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the State Registrar shall attach the new certificate to the certificate of birth then on file and shall preserve both certificates as a multi-page document.
+  - id: hb805
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+    title: HB 805 (2025), ratified, S.L. 2025-84
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: aclu-faq
+    url: https://www.acluofnorthcarolina.org/hb805-anti-trans-bill-faq/
+    title: HB805 Anti-Trans Bill FAQ
+    publisher: ACLU of North Carolina
+    kind: org
+    accessed: "2026-09-24"
+    quote: this law does not retroactively change anything for already updated birth certificates.

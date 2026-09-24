@@ -1,0 +1,237 @@
+guide_type: drivers_license
+jurisdiction: NC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    DL-300 (Updated 01/2019) read directly from ncdot.gov 2026-09-24 and still published. Fees from G.S. 20-14
+    ($16.75 duplicate) and G.S. 20-37.7 / NCDMV State IDs page ($0 for age 17 and up). Open items: (1) HB 805's sex
+    definitions (G.S. 12-3.3) took effect January 1, 2026; ACLU of NC said it was unsure how agencies would apply
+    them, and no NCDMV statement changing the DL-300 process was found. A reviewer should confirm with NCDMV or
+    advocates that offices are still accepting DL-300 in 2026. (2) The NCDMV fee table is rendered by JavaScript and
+    could not be read; the $16.75 figure is from the statute. (3) Confirm DL-101 is still the name change affidavit.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on a North Carolina driver's license or ID to M or F by bringing form DL-300 signed by you
+    and by a doctor, PA, therapist, counselor, psychologist, case worker, or social worker. No surgery is required. X is
+    not available. A 2025 law defining sex took effect in 2026; the form is still in use, but check before you go.
+  es: >-
+    Puedes cambiar el sexo en tu licencia o identificación de Carolina del Norte a M o F con el formulario DL-300
+    firmado por ti y por un médico, asistente médico, terapeuta, consejero, psicólogo, trabajador de casos o
+    trabajador social. No se requiere cirugía. La X no está disponible. Una ley de 2025 que define el sexo entró en
+    vigor en 2026; el formulario sigue en uso, pero confirma antes de ir.
+summary:
+  en: |
+    Since January 2019 NCDMV has used the **Sex Designation Form (DL-300)**. You certify that the change is to match your gender identity, and a provider certifies your gender identity in their professional opinion. Instead of the form, you can show a valid US passport or a birth certificate with the requested sex, or a US court order granting a change of sex or gender.
+
+    **2026 caution:** HB 805 (S.L. 2025-84) defines "male" and "female" by sex at conception for all state rules and policies starting January 1, 2026. The law does not mention driver's licenses, and NCDMV still publishes DL-300, but advocates have said they are unsure how agencies will apply it. If an office refuses your DL-300, ask for a supervisor and contact Equality NC or the ACLU of North Carolina.
+
+    Changing your **name** is a separate transaction that requires a certified court order and an updated Social Security record.
+  es: |
+    Desde enero de 2019 NCDMV usa el **Formulario de Designación de Sexo (DL-300)**. Certificas que el cambio es para coincidir con tu identidad de género, y un proveedor certifica tu identidad de género según su opinión profesional. En lugar del formulario puedes mostrar un pasaporte de EE. UU. vigente o un acta de nacimiento con el sexo solicitado, o una orden judicial de EE. UU. que conceda el cambio de sexo o género.
+
+    **Precaución 2026:** HB 805 (S.L. 2025-84) define "hombre" y "mujer" por el sexo en la concepción para todas las normas estatales desde el 1 de enero de 2026. La ley no menciona licencias de conducir y NCDMV sigue publicando el DL-300, pero los defensores no saben cómo la aplicarán las agencias.
+
+    Cambiar tu **nombre** es un trámite separado que requiere una orden judicial certificada y el registro del Seguro Social actualizado.
+eligibility:
+  residency:
+    en: You must hold or be applying for a North Carolina driver's license or state ID.
+    es: Debes tener o estar solicitando una licencia o identificación de Carolina del Norte.
+  other:
+    en: HB 805's sex definitions (effective January 1, 2026) have not, as far as could be confirmed, changed the DL-300 process, but advocates say agency interpretation is uncertain.
+    es: Las definiciones de sexo de HB 805 (vigentes desde el 1 de enero de 2026) no han cambiado el proceso DL-300 hasta donde se pudo confirmar, pero la interpretación de las agencias es incierta.
+  sources: [dl300, hb805, aclu-faq]
+forms:
+  - id: DL-300
+    name:
+      en: Sex Designation Form
+      es: Formulario de designación de sexo
+    url: https://www.ncdot.gov/dmv/downloads/Documents/DL-300.pdf
+    required: conditional
+    condition:
+      en: Needed unless you bring a passport or birth certificate already showing the requested sex, or a court order.
+      es: Necesario salvo que lleves un pasaporte o acta de nacimiento con el sexo solicitado, o una orden judicial.
+    how_to_fill:
+      en: |
+        - **Part One (you):** print your name, license or ID number, and address; check Male or Female; sign and date. You certify under penalty of law that the request reflects your gender identity and is not for a fraudulent purpose.
+        - **Part Two (provider):** a physician, psychiatrist, or physician's assistant; a licensed therapist, counselor, or psychologist; or a case worker or social worker fills in their name, organization, license number, address, and phone, checks your gender identity, and signs. No surgery or hormone therapy is required, and no notary is required.
+      es: |
+        - **Parte uno (tú):** escribe tu nombre, número de licencia o identificación y dirección; marca Masculino o Femenino; firma y fecha.
+        - **Parte dos (proveedor):** un médico, psiquiatra o asistente médico; un terapeuta, consejero o psicólogo con licencia; o un trabajador de casos o trabajador social completa sus datos, marca tu identidad de género y firma. No se requiere cirugía, tratamiento hormonal ni notario.
+    sources: [dl300]
+  - id: DL-101
+    name:
+      en: Name change affidavit (notarized; obtained at a DMV office)
+      es: Declaración jurada de cambio de nombre (notarizada; se obtiene en una oficina del DMV)
+    url: https://www.ncdot.gov/dmv/help/moving/Pages/name-changes.aspx
+    required: conditional
+    condition:
+      en: Only when changing your name.
+      es: Solo si cambias tu nombre.
+    sources: [ncdmv-name]
+steps:
+  - id: get-form-signed
+    title:
+      en: Get DL-300 signed by a provider
+      es: Haz que un proveedor firme el DL-300
+    body:
+      en: Fill in Part One and ask your doctor, therapist, counselor, case worker, or social worker to complete Part Two. Skip this if your passport or birth certificate already shows the sex you want.
+      es: Llena la Parte uno y pide a tu médico, terapeuta, consejero, trabajador de casos o trabajador social que complete la Parte dos. Omite esto si tu pasaporte o acta ya muestra el sexo que deseas.
+    forms: [DL-300]
+    applies_to: [gender_marker]
+    sources: [dl300]
+  - id: ssa-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: NCDMV checks your name against Social Security online, so update SSA at least 24 to 36 hours before your DMV visit. You have 60 days after a legal name change to get a duplicate license.
+      es: NCDMV verifica tu nombre con el Seguro Social, así que actualiza SSA al menos 24 a 36 horas antes. Tienes 60 días tras un cambio legal de nombre para obtener un duplicado.
+    applies_to: [name_change]
+    sources: [ncdmv-name]
+  - id: visit
+    title:
+      en: Visit a driver license office
+      es: Visita una oficina de licencias
+    body:
+      en: |
+        Bring your current card (you must surrender it), the signed DL-300 or other proof, and for a name change a certified copy of the court order plus the notarized DL-101. You will have a new photo taken and pay the duplicate fee. Offices take walk-ins, and you can book an appointment online.
+      es: |
+        Lleva tu tarjeta actual (debes entregarla), el DL-300 firmado u otra prueba y, si cambias tu nombre, una copia certificada de la orden judicial y el DL-101 notarizado. Te tomarán una foto nueva y pagarás la tarifa de duplicado.
+    forms: [DL-300, DL-101]
+    fees: [duplicate-license, state-id]
+    applies_to: [in_person]
+    sources: [dl300, ncdmv-name, ncdmv-replacement]
+  - id: receive
+    title:
+      en: Receive your new card by mail
+      es: Recibe tu nueva tarjeta por correo
+    body:
+      en: The new card is mailed; NCDMV says ID cards arrive within 20 business days.
+      es: La nueva tarjeta se envía por correo; NCDMV indica que llega en hasta 20 días hábiles.
+    estimated_time:
+      en: up to 20 business days
+      es: hasta 20 días hábiles
+    sources: [ncdmv-id]
+fees:
+  - id: duplicate-license
+    label:
+      en: Duplicate driver's license (name or sex change)
+      es: Duplicado de licencia de conducir (cambio de nombre o sexo)
+    amount: 16.75
+    note:
+      en: Set by G.S. 20-14. Online orders through PayIt add a $3 fee plus 1.85%, but sex changes and name changes need an in-person visit.
+      es: Fijada por G.S. 20-14.
+    sources: [gs-20-14, ncdmv-replacement]
+  - id: state-id
+    label:
+      en: State ID card, age 17 and up
+      es: Tarjeta de identificación estatal, 17 años o más
+    amount: 0
+    note:
+      en: Free for anyone 17 or older, and free for younger people who are legally blind, homeless, or have a developmental disability. $16.75 otherwise.
+      es: Gratis para personas de 17 años o más, y para menores con ceguera legal, sin hogar o con discapacidad del desarrollo. $16.75 en otros casos.
+    sources: [gs-20-37-7, ncdmv-id]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Sex and name changes require an office visit with a new photo. Address-only duplicates can be ordered online or at a kiosk.
+    es: Los cambios de sexo y nombre requieren visita a la oficina con foto nueva.
+  sources: [dl300, ncdmv-replacement]
+timeline:
+  en: One office visit, then up to about 20 business days for the card to arrive.
+  es: Una visita a la oficina y luego hasta unos 20 días hábiles para recibir la tarjeta.
+after:
+  en: |
+    A North Carolina license or ID showing your sex is also one way to update an NC birth certificate: NC Vital Records currently accepts a valid NC license or state ID showing the requested sex as proof. The US passport and Social Security record currently cannot show a changed sex marker; your NC card is still valid for REAL ID, TSA, and voting.
+  es: |
+    Una licencia o identificación de Carolina del Norte con tu sexo también sirve para actualizar un acta de nacimiento de NC: Registros Vitales actualmente acepta una licencia o identificación de NC vigente con el sexo solicitado como prueba. El pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar un marcador cambiado.
+tips:
+  - en: A state ID is free if you are 17 or older, which makes it a no-cost way to get an ID with your correct sex marker if you do not drive.
+    es: La identificación estatal es gratis desde los 17 años, una forma sin costo de tener una identificación con tu marcador correcto si no manejas.
+  - en: Consider doing this soon. Because of the uncertainty created by HB 805, advocates have urged people to update their license while the DL-300 process is still being used.
+    es: Considera hacerlo pronto; por la incertidumbre de HB 805, los defensores recomiendan actualizar la licencia mientras el DL-300 siga en uso.
+statutes:
+  - cite: N.C.G.S. § 12-3.3 (HB 805, S.L. 2025-84, s. 1)
+    title:
+      en: Definitions of sex, male, and female for state rules and policies; effective January 1, 2026
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+  - cite: N.C.G.S. § 20-14
+    title:
+      en: Duplicate licenses; $16.75 fee
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-14.html
+  - cite: N.C.G.S. § 20-37.7
+    title:
+      en: Special identification card; fee and exemptions
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-37.7.html
+related_links:
+  - title: Advocates for Trans Equality, North Carolina identity documents
+    url: https://transequality.org/documents/north-carolina-identity-documents
+    note:
+      en: No last-updated date shown; describes DL-300 consistently with the form.
+      es: No muestra fecha de actualización.
+  - title: ACLU of North Carolina, HB 805 FAQ
+    url: https://www.acluofnorthcarolina.org/hb805-anti-trans-bill-faq/
+sources:
+  - id: dl300
+    url: https://www.ncdot.gov/dmv/downloads/Documents/DL-300.pdf
+    title: Form DL-300, Sex Designation Form (Updated 01/2019)
+    publisher: NCDMV
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Submit one of the following documents: Completed Sex Designation form. Valid U.S. passport displaying the requested sex. Birth certificate displaying the requested sex. Court order issued by a United States court granting change of sex or gender."
+  - id: ncdmv-name
+    url: https://www.ncdot.gov/dmv/help/moving/Pages/name-changes.aspx
+    title: Name changes
+    publisher: NCDMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: an individual changing their name must visit their local Social Security Administration Office at least 24-36 hours before changing their name with NCDMV
+  - id: ncdmv-replacement
+    url: https://www.ncdot.gov/dmv/license-id/renewal-replacement/Pages/replacement-duplicate-license.aspx
+    title: Replacement and duplicate license
+    publisher: NCDMV
+    kind: official
+    accessed: "2026-09-24"
+  - id: ncdmv-id
+    url: https://www.ncdot.gov/dmv/license-id/identification/Pages/default.aspx
+    title: State IDs
+    publisher: NCDMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: State ID Card (age 17 & up) $0
+  - id: gs-20-14
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-14.html
+    title: G.S. 20-14, Duplicate licenses
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person may obtain a duplicate of a license issued by the Division by paying a fee of sixteen dollars and seventy-five cents ($16.75)
+  - id: gs-20-37-7
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-37.7.html
+    title: G.S. 20-37.7, Special identification card
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hb805
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+    title: HB 805 (2025), ratified, S.L. 2025-84
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: aclu-faq
+    url: https://www.acluofnorthcarolina.org/hb805-anti-trans-bill-faq/
+    title: HB805 Anti-Trans Bill FAQ
+    publisher: ACLU of North Carolina
+    kind: org
+    accessed: "2026-09-24"
+    quote: we encourage people who have updated their birth certificates to also update their driver's licenses prior to January 1st, 2026 that have not done so yet, as we are unsure how this law will impact the possibility to do so.

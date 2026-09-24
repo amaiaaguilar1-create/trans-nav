@@ -1,0 +1,332 @@
+jurisdiction: NC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes read on ncleg.gov 2026-09-24 (G.S. 90-21.150 to 90-21.152, 143C-6-5.6, HB 805). Kadel v. Folwell
+    status from the MDNC docket on CourtListener (stay order Feb 25, 2026; stipulation of dismissal with prejudice
+    June 22, 2026) and the Fourth Circuit's March 10, 2026 Anderson v. Crouch opinion (footnote 4 says Kadel was
+    remanded to the district court in September 2025). G.S. 143C-6-5.6 as codified says the State Health Plan carve-out
+    in subsection (c) expired November 14, 2025. Voe v. Mansfield (MDNC 1:23-cv-00864, challenge to the minors' ban)
+    shows as terminated June 23, 2026; the outcome was not read. OPEN ITEMS: (1) NC Medicaid's current written policy
+    on hormone therapy for adults could not be found (the NC Medicaid site search is JavaScript-only), so covers_hrt is
+    "unclear"; MAP scores NC Medicaid as an explicit exclusion. (2) Whether the State Health Plan actually stopped
+    covering gender-affirming care, and from what date, was not confirmed on shpnc.org. (3) Planned Parenthood South
+    Atlantic pages return HTTP 403 to automated fetches, so its hormone program and age minimum are unverified.
+    (4) Carolinas CARE Partnership services were not read (site renders by JavaScript). (5) Penalties section of the
+    minors' ban (G.S. 90-21.153 to 90-21.154) not read directly. (6) The August 16, 2023 effective date of HB 808
+    and the December 2023 Medicaid expansion date are from background knowledge, not a source read today.
+status_summary:
+  en: >-
+    Adults can legally get hormone therapy and surgery in North Carolina, but state money cannot pay for transition
+    surgery at any age, the State Health Plan exclusion is back in force, and a 2025 law extends malpractice claims to
+    10 years. Puberty blockers, hormones, and surgery for anyone under 18 have been banned since August 2023, except
+    for minors already in treatment on August 1, 2023. There is no shield law and no state insurance protection.
+  es: >-
+    Los adultos pueden recibir legalmente terapia hormonal y cirugía en Carolina del Norte, pero el dinero estatal no
+    puede pagar cirugías de transición a ninguna edad, el plan de salud estatal volvió a excluirlas y una ley de 2025
+    amplía a 10 años el plazo para demandas por negligencia. Los bloqueadores, hormonas y cirugías para menores de 18
+    años están prohibidos desde agosto de 2023, salvo para quienes ya estaban en tratamiento el 1 de agosto de 2023.
+    No hay ley escudo ni protección estatal en seguros.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      No law bans care for adults. Hormone therapy is available from Planned Parenthood, community health centers, private practices, and telehealth services, many on an informed-consent basis. Restrictions that affect adults:
+      - **No state funds for surgery.** G.S. 143C-6-5.6 bars State funds, directly or indirectly, from paying for surgical gender transition procedures. This affects Medicaid and other state-funded programs.
+      - **State Health Plan** (teachers and state employees): the court order in *Kadel v. Folwell* that required coverage no longer applies (the case was dismissed with prejudice on June 22, 2026), and the statute's carve-out for the Plan expired November 14, 2025.
+      - **People in state prison** or DAC custody cannot receive state-funded hormones or surgery (G.S. 143C-6-5.6(b1)).
+      - **Malpractice:** HB 805 lets adults sue over transition care up to 10 years after discovering an injury and voids liability waivers (G.S. 90-21.175). Some providers may become more cautious.
+
+      **If you have no insurance and little money:**
+      1. Go to a **community health center** (findahealthcenter.hrsa.gov); they charge on a sliding scale and many prescribe hormones.
+      2. Check **Charlotte Trans Health**'s provider list and Access to Care assistance, and the **Trans in the South** directory.
+      3. **Point of Pride's HRT Access Fund** pays for telehealth hormone care (applications each May).
+      4. Generic estradiol and spironolactone cost a few dollars to about $35 a month with discount coupons.
+    es: |
+      Ninguna ley prohíbe la atención para adultos. La terapia hormonal está disponible en Planned Parenthood, centros de salud comunitarios, consultorios privados y telesalud, muchos por consentimiento informado. Restricciones que afectan a adultos:
+      - **Sin fondos estatales para cirugía.** G.S. 143C-6-5.6 prohíbe usar fondos estatales para cirugías de transición. Afecta a Medicaid y otros programas estatales.
+      - **Plan de Salud Estatal** (maestros y empleados estatales): la orden judicial de *Kadel v. Folwell* ya no aplica (el caso se desestimó el 22 de junio de 2026) y la excepción del Plan expiró el 14 de noviembre de 2025.
+      - **Personas en prisiones estatales** no pueden recibir hormonas ni cirugías pagadas por el estado.
+      - **Negligencia:** HB 805 permite demandar hasta 10 años después de descubrir un daño y anula las renuncias de responsabilidad.
+
+      **Si no tienes seguro ni mucho dinero:**
+      1. Acude a un **centro de salud comunitario** (findahealthcenter.hrsa.gov); cobran en escala móvil.
+      2. Consulta la lista de proveedores y la ayuda de **Charlotte Trans Health** y el directorio **Trans in the South**.
+      3. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes cada mayo).
+      4. El estradiol y la espironolactona genéricos cuestan desde unos pocos dólares hasta unos $35 al mes con cupones.
+  sources: [gs-143c-6-5-6, hb805, kadel-dismissal, anderson-2026, aclu-faq, hrsa, cth-access, cse-tits, pop]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      Since **August 16, 2023** (HB 808, S.L. 2023-111; G.S. 90-21.151), medical professionals may not perform surgical gender transition procedures on anyone under 18 or prescribe, provide, or dispense puberty blockers or cross-sex hormones to them. **Exception:** a minor whose course of treatment began before August 1, 2023 and was still active that day may continue if the provider finds it in the minor's best interest and the parents consent (G.S. 90-21.152(b)). Mental health care is not banned. Providers who violate the law face professional discipline and civil lawsuits. The federal challenge (*Voe v. Mansfield*) closed in June 2026, and the law remains in force.
+
+      Families can get navigation and travel grants to reach care in other states through the Campaign for Southern Equality's **Trans Youth Emergency Project**.
+    es: |
+      Desde el **16 de agosto de 2023** (HB 808, S.L. 2023-111; G.S. 90-21.151), los profesionales médicos no pueden realizar cirugías de transición a menores de 18 años ni recetarles bloqueadores de pubertad u hormonas cruzadas. **Excepción:** un menor que comenzó el tratamiento antes del 1 de agosto de 2023 y seguía activo ese día puede continuar si el proveedor lo considera en su interés y los padres consienten. La atención de salud mental no está prohibida. El caso federal (*Voe v. Mansfield*) se cerró en junio de 2026 y la ley sigue vigente.
+
+      Las familias pueden obtener navegación y becas de viaje para recibir atención en otros estados con el **Trans Youth Emergency Project** de Campaign for Southern Equality.
+  sources: [gs-90-21-151, gs-90-21-152, cse-tyep]
+medicaid:
+  program_name: NC Medicaid
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: |
+      G.S. 143C-6-5.6 bars State funds from paying for surgical gender transition procedures at any age and for puberty blockers or hormones for minors, so NC Medicaid does not cover transition surgery. The same statute does not bar hormone therapy for adults, but NC Medicaid's current written coverage policy for adult hormone therapy could not be confirmed; ask your Medicaid health plan or pharmacy before relying on coverage.
+
+      NC expanded Medicaid in December 2023, so many adults with low incomes qualify. Apply through ePASS or your county Department of Social Services.
+    es: |
+      G.S. 143C-6-5.6 prohíbe usar fondos estatales para cirugías de transición a cualquier edad y para bloqueadores u hormonas en menores, por lo que NC Medicaid no cubre cirugías. La ley no prohíbe la terapia hormonal para adultos, pero no se pudo confirmar la política escrita actual de NC Medicaid; pregunta a tu plan de Medicaid o farmacia.
+
+      Solicita en ePASS o en el Departamento de Servicios Sociales de tu condado.
+  how_to_apply_url: https://epass.nc.gov/
+  sources: [gs-143c-6-5-6, map-profile, nc-medicaid]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      North Carolina has no state law barring private insurers from excluding gender-affirming care. Whether your plan covers it depends on the plan. If a plan denies care, appeal with the plan first; for state-regulated plans you can then ask the NC Department of Insurance's Health Insurance Smart NC program for help with appeals and external review. Self-funded employer plans are federally regulated; the Trans Health Project has appeal templates.
+    es: |
+      Carolina del Norte no tiene ley que prohíba a las aseguradoras privadas excluir la atención de afirmación de género. Si tu plan la niega, apela primero con el plan; para planes regulados por el estado puedes pedir ayuda al programa Health Insurance Smart NC del Departamento de Seguros.
+  complaint_url: https://www.ncdoi.gov/consumers/health-insurance
+  sources: [map-profile, ncdoi, thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-south-atlantic
+    org: planned-parenthood
+    name: Planned Parenthood South Atlantic, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Affiliate with health centers across North Carolina. Reported to offer informed-consent hormone therapy for adults 18 and older, in person and by telehealth. Confirm services and age with the affiliate.
+      es: Afiliada con centros en todo Carolina del Norte. Se informa que ofrece terapia hormonal por consentimiento informado para adultos de 18 años o más. Confirma servicios y edad con la afiliada.
+    url: https://www.plannedparenthood.org/planned-parenthood-south-atlantic
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: community_reported
+    sources: [pp-south-atlantic]
+  - id: charlotte-trans-health
+    name: Charlotte Trans Health
+    type: insurance_help
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Charlotte nonprofit with a Find a Provider directory, an Access to Care program that funds mental health care, case management, medical care, prescription refills, and surgery for trans people facing barriers, and the county-funded PATH program. Email info@charlottetranshealth.org.
+      es: Organización de Charlotte con un directorio de proveedores, un programa Access to Care que financia salud mental, manejo de casos, atención médica, recetas y cirugía para personas trans con barreras, y el programa PATH financiado por el condado.
+    url: https://charlottetranshealth.org/access/
+    cost: free
+    verification: org_website
+    sources: [cth-access]
+  - id: trans-in-the-south
+    name: Trans in the South directory (Campaign for Southern Equality)
+    type: other
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Searchable directory of trans-affirming health and service providers across the South, including North Carolina.
+      es: Directorio de proveedores de salud y servicios que afirman a personas trans en el Sur, incluida Carolina del Norte.
+    url: https://southernequality.org/resources/transinthesouth/
+    cost: free
+    verification: org_website
+    sources: [cse-tits]
+  - id: tyep
+    name: Trans Youth Emergency Project (Campaign for Southern Equality)
+    type: fund
+    pillars: [hrt]
+    description:
+      en: For parents of trans youth under 18 whose care was cut off by a state ban. Patient navigation to out-of-state providers and $500 travel grants, renewable up to four times a year.
+      es: Para padres de jóvenes trans menores de 18 cuya atención se interrumpió por una prohibición estatal. Navegación hacia proveedores de otros estados y becas de viaje de $500, renovables hasta cuatro veces al año.
+    url: https://southernequality.org/tyep/
+    cost: free
+    verification: org_website
+    sources: [cse-tyep]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of ability to pay and charge on a sliding scale. Call and ask whether they prescribe gender-affirming hormones.
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu capacidad de pago y cobran en escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-nc
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: HRT Access Fund (free telehealth hormone therapy; applications each May), Annual Trans Surgery Fund, electrolysis fund, and free binders and shapewear.
+      es: Fondo de Acceso a TRH (terapia hormonal por telesalud gratis; solicitudes cada mayo), Fondo Anual de Cirugía Trans, fondo de electrólisis y binders gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: genderbands-nc
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Small grants for surgery and other transition costs for people 18 and older.
+      es: Pequeñas becas para cirugía y otros costos de transición para mayores de 18 años.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free guides and templates for appealing insurance denials of gender-affirming care.
+      es: Guías y plantillas gratuitas para apelar negaciones de seguro.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: N.C.G.S. §§ 90-21.150 to 90-21.156 (HB 808, S.L. 2023-111)
+    title:
+      en: Gender transition procedures on minors (ban, exceptions, grandfather clause)
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.151.html
+  - cite: N.C.G.S. § 143C-6-5.6
+    title:
+      en: No State funds for surgical gender transition procedures, or for blockers or hormones for minors or people in state prison
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_143C/GS_143C-6-5.6.html
+  - cite: N.C.G.S. § 90-21.175 (HB 805, S.L. 2025-84)
+    title:
+      en: Civil remedies for gender transition procedures on non-minors; 10-year discovery period
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+litigation:
+  - case: Kadel v. Folwell, No. 1:19-cv-00272 (M.D.N.C.)
+    court: US District Court, Middle District of North Carolina
+    summary:
+      en: Challenge to the State Health Plan's exclusion of gender-affirming care. The Fourth Circuit (en banc, 2024) upheld an injunction requiring coverage, but the Supreme Court vacated that decision in June 2025 after Skrmetti. On remand the case was stayed, and the parties dismissed it with prejudice on June 22, 2026.
+      es: Impugnación de la exclusión del Plan de Salud Estatal. La Corte Suprema anuló en junio de 2025 la decisión que exigía cobertura; las partes desestimaron el caso con perjuicio el 22 de junio de 2026.
+    effect_today:
+      en: No court order requires the State Health Plan to cover gender-affirming care. Under G.S. 143C-6-5.6, the Plan's carve-out expired November 14, 2025.
+      es: Ninguna orden judicial obliga al Plan de Salud Estatal a cubrir esta atención. Según G.S. 143C-6-5.6, la excepción del Plan expiró el 14 de noviembre de 2025.
+    last_update: "2026-06-22"
+    url: https://www.courtlistener.com/docket/14666925/kadel-v-folwell/
+    sources: [kadel-dismissal, anderson-2026, gs-143c-6-5-6]
+sources:
+  - id: gs-90-21-151
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.151.html
+    title: G.S. 90-21.151, Limitations on gender transition procedures
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: It shall be unlawful for a medical professional to perform a surgical gender transition procedure on a minor or to prescribe, provide, or dispense puberty-blocking drugs or cross-sex hormones to a minor.
+  - id: gs-90-21-152
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.152.html
+    title: G.S. 90-21.152, When certain procedures are permitted
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The course of treatment commenced prior to August 1, 2023, and was still active as of that date.
+  - id: gs-143c-6-5-6
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_143C/GS_143C-6-5.6.html
+    title: G.S. 143C-6-5.6, Limitation on use of State funds for gender transition procedures
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No State funds may be used, directly or indirectly, for the performance of or in furtherance of surgical gender transition procedures
+  - id: hb805
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+    title: HB 805 (2025), ratified, S.L. 2025-84
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Subsection (c) of G.S. 143C-6-5.6 expires 30 days after the Memorandum and Order, dated June 10, 2022, or the permanent injunction ordered therein in Kadel v. Folwell, 1:19CV272 is vacated, overturned, or is no longer in force.
+  - id: kadel-dismissal
+    url: https://storage.courtlistener.com/recap/gov.uscourts.ncmd.81532/gov.uscourts.ncmd.81532.306.0.pdf
+    title: Kadel v. Folwell, Stipulation for Voluntary Dismissal (Doc. 306, June 22, 2026)
+    publisher: US District Court, M.D.N.C. (via CourtListener)
+    kind: court
+    accessed: "2026-09-24"
+    quote: all parties hereby stipulate that this action be voluntarily dismissed with prejudice
+  - id: anderson-2026
+    url: https://www.courtlistener.com/opinion/10807487/shauntae-anderson-v-william-crouch/
+    title: Anderson v. Crouch, No. 22-1927 (4th Cir. Mar. 10, 2026)
+    publisher: US Court of Appeals for the Fourth Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: On remand from the Supreme Court, Kadel v. Folwell was remanded to the district court for further consideration in light of Skrmetti.
+  - id: aclu-faq
+    url: https://www.acluofnorthcarolina.org/hb805-anti-trans-bill-faq/
+    title: HB805 Anti-Trans Bill FAQ
+    publisher: ACLU of North Carolina
+    kind: org
+    accessed: "2026-09-24"
+    quote: there is no provision of the law that explicitly bans gender affirming care or requires health professionals to stop providing it.
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/NC
+    title: North Carolina equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: nc-medicaid
+    url: https://medicaid.ncdhhs.gov/
+    title: NC Medicaid
+    publisher: NC Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: ncdoi
+    url: https://www.ncdoi.gov/consumers/health-insurance
+    title: Health insurance consumer help
+    publisher: NC Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-south-atlantic
+    url: https://www.plannedparenthood.org/planned-parenthood-south-atlantic
+    title: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+  - id: cth-access
+    url: https://charlottetranshealth.org/access/
+    title: Access To Care
+    publisher: Charlotte Trans Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tits
+    url: https://southernequality.org/resources/transinthesouth/
+    title: Trans in the South Guide
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

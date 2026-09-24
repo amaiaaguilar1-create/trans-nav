@@ -1,0 +1,144 @@
+code: WA
+name:
+  en: Washington
+  es: Washington
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Climate drawn from primary sources read 2026-09-23/24 (RCW 4.24.130, DOL gender designation page and form
+    DLE-520-043, WAC 246-490-075 and DOH forms, chapter 7.115 RCW, HCA Transhealth page). MAP equality map was not
+    re-fetched this session (web search budget exhausted); cross-check the climate ratings against it.
+overview:
+  en: >-
+    Washington is one of the most protective states for trans people. There is no newspaper publication for name
+    changes, and a name change related to gender identity can be filed in Superior Court and sealed automatically.
+    Driver's licenses and birth certificates offer M, F, or X on your own signed statement, with no doctor's letter or
+    court order. Apple Health (Medicaid) and state-regulated insurance must cover medically necessary gender-affirming
+    care, and a shield law (chapter 7.115 RCW, HB 1469) protects patients and providers from other states' actions.
+    Federal documents (passport, Social Security) are the exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Washington es uno de los estados que más protege a las personas trans. Los cambios de nombre no se publican en el
+    periódico, y un cambio de nombre relacionado con la identidad de género puede presentarse en el Tribunal Superior y
+    sellarse automáticamente. Las licencias de conducir y las actas de nacimiento ofrecen M, F o X con tu propia
+    declaración firmada, sin carta médica ni orden judicial. Apple Health (Medicaid) y los seguros regulados por el
+    estado deben cubrir la atención de afirmación de género médicamente necesaria, y una ley escudo (capítulo 7.115
+    RCW, HB 1469) protege a pacientes y proveedores de acciones de otros estados. Los documentos federales (pasaporte,
+    Seguro Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [rcw-4-24-130, dol-gender, wac-246-490-075, rcw-7-115, hb1469]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [seattle]
+key_resources:
+  - id: qlaw-clinic
+    name: QLaw Foundation, 2SLGBTQIA+ Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free 30-minute phone consultations with volunteer attorneys on civil legal issues, including name and gender marker changes. Appointments on the 1st Friday and 3rd Monday of each month; request help through the online form or call 206-483-2725 ext. 102.
+      es: Consultas telefónicas gratuitas de 30 minutos con abogados voluntarios sobre asuntos civiles, incluidos cambios de nombre y de marcador de género. Citas el primer viernes y el tercer lunes de cada mes; pide ayuda con el formulario en línea o llama al 206-483-2725 ext. 102.
+    url: https://www.qlawfoundation.org/2slgbtqialegalclinic/
+    phone: "206-483-2725"
+    cost: free
+    verification: org_website
+    sources: [qlaw-clinic]
+  - id: gjl
+    name: Gender Justice League
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Seattle-based trans advocacy group running free ID document clinics with volunteer caseworkers, financial help with document fees, and downloadable Washington name and gender marker guides for adults and youth. 206-659-5519.
+      es: Grupo de defensa trans con sede en Seattle que organiza clínicas gratuitas de documentos de identidad con voluntarios, ayuda económica para tarifas de documentos y guías descargables sobre cambios de nombre y marcador de género en Washington. 206-659-5519.
+    url: https://genderjusticeleague.org/legal-clinics/
+    phone: "206-659-5519"
+    cost: free
+    verification: org_website
+    sources: [gjl-clinics]
+  - id: ingersoll
+    name: Ingersoll Gender Center
+    type: lgbtq_center
+    pillars: [mental_health, hrt]
+    description:
+      en: Organization by and for trans and gender-nonconforming people; free peer support groups, resource navigation, and a trans-friendly health care provider directory. 911 E Pike St, Suite 221, Seattle; 206-849-7859.
+      es: Organización por y para personas trans y de género no conforme; grupos de apoyo entre pares gratuitos, navegación de recursos y un directorio de proveedores de salud. 911 E Pike St, Suite 221, Seattle; 206-849-7859.
+    url: https://ingersollgendercenter.org/
+    phone: "206-849-7859"
+    address: 911 E Pike St, Suite 221, Seattle, WA 98122
+    cost: free
+    verification: org_website
+    sources: [ingersoll]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: rcw-4-24-130
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=4.24.130
+    title: RCW 4.24.130, Action for change of name, fees
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon granting the name change, the superior court shall seal the file to protect the person's privacy.
+  - id: dol-gender
+    url: https://dol.wa.gov/driver-licenses-and-permits/update-driver-license-information/change-your-gender-designation
+    title: Change your gender designation
+    publisher: Washington State Department of Licensing
+    kind: official
+    accessed: "2026-09-24"
+  - id: wac-246-490-075
+    url: https://app.leg.wa.gov/WAC/default.aspx?cite=246-490-075
+    title: WAC 246-490-075, Changing sex designation on a birth certificate
+    publisher: Washington State Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: rcw-7-115
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=7.115
+    title: Chapter 7.115 RCW, Protected health care services
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hb1469
+    url: https://app.leg.wa.gov/billsummary?BillNumber=1469&Year=2023
+    title: HB 1469 (2023), access to reproductive health care services and gender-affirming treatment (ch. 193, Laws of 2023)
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: qlaw-clinic
+    url: https://www.qlawfoundation.org/2slgbtqialegalclinic/
+    title: 2SLGBTQIA+ Legal Clinic
+    publisher: QLaw Foundation
+    kind: org
+    accessed: "2026-09-24"
+    quote: free 30-minute phone consultations with volunteer attorneys
+  - id: gjl-clinics
+    url: https://genderjusticeleague.org/legal-clinics/
+    title: Legal clinics
+    publisher: Gender Justice League
+    kind: org
+    accessed: "2026-09-24"
+  - id: ingersoll
+    url: https://ingersollgendercenter.org/
+    title: Ingersoll Gender Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

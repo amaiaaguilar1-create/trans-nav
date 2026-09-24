@@ -1,0 +1,424 @@
+guide_type: name_change
+jurisdiction: NC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (G.S. 101-2 to 101-6) and S.L. 2025-54 s. 4 read on ncleg.gov 2026-09-24; the S.L. confirms the
+    10-day courthouse posting notice was repealed for applications filed on or after December 1, 2025. nccourts.gov
+    blocks automated access (HTTP 403), so the AOC-SP-604 form, the $120 filing fee, and the Mecklenburg page were not
+    read directly; the fee and fingerprint/background check costs ($10 per fingerprint set, $14 SBI, $18 FBI) come
+    from the NC Bar Foundation's Adult Name Change Petition Information sheet (dated October 2024, which still
+    describes the now-repealed posting step). Reviewer: (1) confirm $120 filing fee and current AOC-SP-604 revision;
+    (2) confirm whether clerks accept a petition to proceed as an indigent for Chapter 101 name changes (no fee waiver
+    section is included because it could not be confirmed); (3) confirm certified-copy fee; (4) A4TE's NC page (no
+    date shown) and MAP (profile updated 2026-09-24) both still describe the posting requirement, which is out of date.
+status: restricted
+status_summary:
+  en: >-
+    Adults can change their name before the clerk of superior court in their county, but North Carolina requires
+    fingerprint-based state and FBI background checks, two good-character affidavits, and allows only one adult name
+    change in a lifetime. The courthouse posting notice was repealed for petitions filed on or after December 1, 2025.
+  es: >-
+    Las personas adultas pueden cambiar su nombre ante el secretario del tribunal superior de su condado, pero Carolina
+    del Norte exige verificaciones de antecedentes estatales y del FBI con huellas dactilares, dos declaraciones de
+    buena conducta, y permite solo un cambio de nombre en la vida adulta. El aviso público en el tribunal se eliminó
+    para peticiones presentadas desde el 1 de diciembre de 2025.
+summary:
+  en: |
+    A name change in North Carolina is a "special proceeding" handled by the **clerk of superior court** in the county where you live (G.S. 101-2). You do not need to explain your gender identity; the application asks for a reason, and the clerk grants the change if there is "good and sufficient reason" (G.S. 101-5).
+
+    The process has more paperwork than most states:
+    - **Background checks first.** You need a state (SBI) and national (FBI) criminal history check based on your fingerprints, completed within 90 days before you file.
+    - **Two affidavits of good character** from two adult residents of your county who know you.
+    - **One change only.** An adult may change their name under Chapter 101 only once (G.S. 101-6). Choose your name carefully.
+
+    Good news: since **December 1, 2025** you no longer have to post a public notice at the courthouse for 10 days before filing (S.L. 2025-54).
+  es: |
+    En Carolina del Norte el cambio de nombre es un "procedimiento especial" ante el **secretario del tribunal superior** del condado donde vives (G.S. 101-2). No necesitas explicar tu identidad de género; la solicitud pide un motivo y el secretario concede el cambio si hay "motivo bueno y suficiente" (G.S. 101-5).
+
+    El trámite tiene más requisitos que en la mayoría de los estados:
+    - **Primero, verificación de antecedentes.** Necesitas una verificación estatal (SBI) y nacional (FBI) con huellas dactilares, hecha dentro de los 90 días antes de presentar.
+    - **Dos declaraciones juradas de buena conducta** de dos residentes adultos de tu condado que te conozcan.
+    - **Un solo cambio.** Un adulto puede cambiar su nombre bajo el Capítulo 101 solo una vez (G.S. 101-6). Elige tu nombre con cuidado.
+
+    Buena noticia: desde el **1 de diciembre de 2025** ya no tienes que publicar un aviso en el tribunal durante 10 días antes de presentar (S.L. 2025-54).
+eligibility:
+  residency:
+    en: File with the clerk of superior court in the North Carolina county where you are a bona fide resident and domiciled. You swear to this in the application.
+    es: Presenta ante el secretario del tribunal superior del condado de Carolina del Norte donde resides y tienes tu domicilio.
+  age:
+    en: 18 or older for the adult process. For minors, see the Minors section.
+    es: 18 años o más para el proceso de adultos. Para menores, ver la sección Menores.
+  criminal_history:
+    en: >-
+      A criminal record does not automatically bar a name change, but the clerk reviews your background check. People
+      required to register as sex offenders are prohibited from changing their name (G.S. 101-6). You must also state
+      under oath whether you owe back taxes or child support.
+    es: >-
+      Un historial penal no impide automáticamente el cambio, pero el secretario revisa tus antecedentes. Las personas
+      registradas como delincuentes sexuales no pueden cambiar su nombre (G.S. 101-6). También debes declarar si debes
+      impuestos o manutención infantil.
+  other:
+    en: An adult may change their name under Chapter 101 only once. Resuming a prior name after divorce or widowhood uses a separate, simpler process.
+    es: Un adulto puede cambiar su nombre bajo el Capítulo 101 solo una vez. Retomar un nombre anterior tras divorcio o viudez usa otro proceso más sencillo.
+  sources: [gs-101-5, gs-chapter-101]
+forms:
+  - id: AOC-SP-604
+    name:
+      en: Application for Adult Name Change
+      es: Solicitud de cambio de nombre de adulto
+    url: https://www.nccourts.gov/assets/documents/forms/sp604.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Give your current legal name, county and date of birth, and both parents' full names **exactly as they appear on your birth certificate**.
+        - Reason for the change: a short, truthful statement is enough, for example "to reflect my gender identity" or "the name I have used for years". You do not need medical proof.
+        - Answer whether you have changed your name before. Remember that an adult gets only one Chapter 101 change.
+        - The verification and the tax/child support affidavit must be signed in front of a notary.
+        - The free NC Courts **Guide & File** interview can build the application, verification, character affidavits, and tax/child support affidavit for you.
+      es: |
+        - Escribe tu nombre legal actual, condado y fecha de nacimiento y los nombres completos de tus padres **tal como aparecen en tu acta de nacimiento**.
+        - Motivo del cambio: basta una frase breve y veraz, por ejemplo "para reflejar mi identidad de género". No necesitas prueba médica.
+        - Indica si ya cambiaste tu nombre antes.
+        - La verificación y la declaración sobre impuestos y manutención deben firmarse ante notario.
+        - La entrevista gratuita **Guide & File** de los tribunales puede preparar estos documentos.
+    sources: [ncbf-info, gs-101-5]
+  - id: Guide-and-File
+    name:
+      en: NC Courts Guide & File (online interview that prepares the name change packet)
+      es: NC Courts Guide & File (entrevista en línea que prepara los documentos)
+    url: https://northcarolina.tylertech.cloud/SRL/SRL
+    required: optional
+    condition:
+      en: Recommended. Produces the petition, verification, two character affidavits, and the tax/child support affidavit. Save your username and password.
+      es: Recomendado. Produce la petición, la verificación, las dos declaraciones de buena conducta y la declaración sobre impuestos y manutención.
+    sources: [ncbf-info]
+steps:
+  - id: fingerprints
+    title:
+      en: Get two sets of fingerprints
+      es: Obtén dos juegos de huellas dactilares
+    body:
+      en: Go to your county sheriff's office (many require an appointment; in Mecklenburg you apply online first). Fingerprinting usually costs about $10 per set.
+      es: Acude a la oficina del sheriff de tu condado (muchas requieren cita; en Mecklenburg se solicita en línea). Suele costar unos $10 por juego.
+    fees: [fingerprints]
+    sources: [ncbf-info, gs-101-5]
+  - id: background-checks
+    title:
+      en: Request your FBI and SBI background checks
+      es: Solicita tus verificaciones de antecedentes del FBI y del SBI
+    body:
+      en: |
+        Send one fingerprint card to the **FBI** (Identity History Summary; $18; online is fastest, choose "Other" as the reason) and one to the **NC State Bureau of Investigation** (Right to Review request; $14). Both results must be **dated within 90 days** of the day you file. The FBI can take a month longer than the SBI, so many people request the FBI check first and the SBI check once the FBI result arrives.
+      es: |
+        Envía una tarjeta de huellas al **FBI** (Identity History Summary; $18; en línea es más rápido) y otra al **SBI de Carolina del Norte** (solicitud Right to Review; $14). Ambos resultados deben tener **fecha dentro de los 90 días** anteriores a la presentación. El FBI puede tardar un mes más, así que conviene pedir primero el del FBI.
+    fees: [fbi-check, sbi-check]
+    estimated_time:
+      en: 2 to 8 weeks
+      es: 2 a 8 semanas
+    sources: [ncbf-info, gs-101-5]
+  - id: prepare-forms
+    title:
+      en: Prepare your application and affidavits
+      es: Prepara tu solicitud y declaraciones juradas
+    body:
+      en: |
+        Use Guide & File or form AOC-SP-604. Ask two adult residents of your county who know you (the Bar Foundation sheet says they should not be relatives) to sign **affidavits of good character**. Get the verification and the tax/child support affidavit notarized. Also gather a certified copy of your birth certificate plus a photocopy, photo ID, and proof of your address (a bill or bank statement from the last 30 days).
+      es: |
+        Usa Guide & File o el formulario AOC-SP-604. Pide a dos residentes adultos de tu condado que te conozcan (no familiares) que firmen **declaraciones de buena conducta**. Notariza la verificación y la declaración sobre impuestos y manutención. Reúne también una copia certificada de tu acta de nacimiento y una fotocopia, identificación con foto y comprobante de domicilio reciente.
+    forms: [AOC-SP-604, Guide-and-File]
+    sources: [ncbf-info, gs-101-4]
+  - id: file
+    title:
+      en: File with the clerk of superior court (Special Proceedings)
+      es: Presenta ante el secretario del tribunal superior (Procedimientos Especiales)
+    body:
+      en: Bring everything to the Special Proceedings division of the clerk's office in your county and pay the $120 filing fee (cash, money order, or certified check). Bring a self-addressed stamped envelope. No courthouse posting is required for applications filed on or after December 1, 2025.
+      es: Lleva todo a la división de Procedimientos Especiales del secretario de tu condado y paga la tarifa de $120 (efectivo, giro postal o cheque certificado). Lleva un sobre con tu dirección y estampilla. Desde el 1 de diciembre de 2025 no se requiere aviso en el tribunal.
+    fees: [filing]
+    sources: [ncbf-info, sl-2025-54]
+  - id: order
+    title:
+      en: Get the clerk's order and certified copies
+      es: Obtén la orden del secretario y copias certificadas
+    body:
+      en: |
+        The clerk reviews the file and issues an order and a certificate of name change. Buy about **5 certified copies**. The clerk sends the order to NC Vital Records (which notes the change on an NC birth certificate or forwards it to your birth state) and to the Department of Public Safety. If the clerk denies the application, you have 30 days to ask the resident superior court judge to reconsider.
+      es: |
+        El secretario revisa el expediente y emite una orden y un certificado de cambio de nombre. Compra unas **5 copias certificadas**. El secretario envía la orden a Registros Vitales (que anota el cambio en un acta de Carolina del Norte o la reenvía a tu estado de nacimiento) y al Departamento de Seguridad Pública. Si el secretario la niega, tienes 30 días para pedir reconsideración al juez superior residente.
+    fees: [certified-copies]
+    sources: [gs-101-5, ncbf-info]
+  - id: update-documents
+    title:
+      en: Update your other documents, in order
+      es: Actualiza tus demás documentos, en orden
+    body:
+      en: |
+        1. **Social Security** first. NCDMV checks your name against SSA, so wait 24 to 36 hours after the SSA update.
+        2. **NCDMV** license or ID within 60 days (see the driver's license guide).
+        3. **Birth certificate** (born in NC: Vital Records modification application, $39).
+        4. **Passport**, bank, employer, insurance, voter registration.
+      es: |
+        1. **Seguro Social** primero. NCDMV verifica tu nombre con SSA, así que espera 24 a 36 horas.
+        2. Licencia o identificación de **NCDMV** dentro de 60 días.
+        3. **Acta de nacimiento** (si naciste en NC: solicitud de modificación, $39).
+        4. **Pasaporte**, banco, empleador, seguro, registro electoral.
+    sources: [ncbf-info, ncdmv-name]
+fees:
+  - id: filing
+    label:
+      en: Filing fee (Chapter 101 name change)
+      es: Tarifa de presentación (cambio de nombre, Capítulo 101)
+    amount: 120
+    sources: [ncbf-info, recordinglaw]
+  - id: fingerprints
+    label:
+      en: Fingerprinting at the sheriff's office (per set; two sets needed)
+      es: Huellas en la oficina del sheriff (por juego; se necesitan dos)
+    amount: 10
+    varies_by: county
+    note:
+      en: Typical amount; online appointment systems may add a small convenience fee.
+      es: Cantidad típica; los sistemas de citas en línea pueden cobrar un cargo adicional.
+    sources: [ncbf-info]
+  - id: fbi-check
+    label:
+      en: FBI Identity History Summary
+      es: Historial de identidad del FBI
+    amount: 18
+    sources: [ncbf-info]
+  - id: sbi-check
+    label:
+      en: NC SBI criminal record check (Right to Review)
+      es: Verificación de antecedentes del SBI de Carolina del Norte
+    amount: 14
+    sources: [ncbf-info, sbi-forms]
+  - id: certified-copies
+    label:
+      en: Certified copies of the order
+      es: Copias certificadas de la orden
+    varies_by: county
+    note:
+      en: Cost varies by county; ask the clerk.
+      es: El costo varía según el condado; pregunta al secretario.
+    sources: [ncbf-info]
+publication:
+  required: "no"
+  detail:
+    en: The 10-day notice posted at the courthouse before filing was repealed by S.L. 2025-54 for applications filed on or after December 1, 2025. North Carolina never required newspaper publication for name changes.
+    es: El aviso de 10 días en el tribunal antes de presentar fue derogado por S.L. 2025-54 para solicitudes presentadas desde el 1 de diciembre de 2025.
+  waiver_available: false
+  sources: [sl-2025-54, gs-101-2]
+hearing:
+  required: conditional
+  detail:
+    en: The statute does not require a hearing. The clerk decides on the papers and may ask for more information. A denial can be taken to the resident superior court judge within 30 days.
+    es: La ley no exige audiencia. El secretario decide con los documentos y puede pedir más información. Una negativa puede llevarse al juez superior residente dentro de 30 días.
+  sources: [gs-101-5]
+background_check:
+  required: "yes"
+  detail:
+    en: Adults and minors 16 and older must submit state and national criminal history checks based on fingerprints, run by the SBI, the FBI, or an FBI-approved channeler, dated within 90 days of the application (G.S. 101-5(a)(2)).
+    es: Adultos y menores de 16 años o más deben presentar verificaciones de antecedentes estatales y nacionales con huellas, con fecha dentro de los 90 días anteriores a la solicitud (G.S. 101-5(a)(2)).
+  sources: [gs-101-5]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      Name change files are public records, with one exception. The file is kept confidential if you participate in the
+      NC Address Confidentiality Program or show evidence that you are a victim of domestic violence, sexual offense,
+      or stalking (law enforcement or court records, or documentation from a domestic violence program). In that case
+      Vital Records is also told not to notify your county or state of birth. There is no general sealing option for
+      trans petitioners.
+    es: >-
+      Los expedientes de cambio de nombre son públicos, con una excepción: se mantienen confidenciales si participas en
+      el Programa de Confidencialidad de Domicilio o demuestras ser víctima de violencia doméstica, delito sexual o
+      acecho. No hay opción general de sellado para personas trans.
+  how:
+    en: Tell the clerk when you file and bring the supporting documents.
+    es: Infórmalo al secretario al presentar y lleva los documentos de respaldo.
+  sources: [sl-2025-54, gs-101-2, gs-101-5]
+minors:
+  summary:
+    en: |
+      Both parents must consent. Exceptions: a minor 16 or older may apply with the custodial parent's consent if the other parent abandoned them, and one parent may apply alone if the other abandoned the child or was convicted of certain crimes (child abuse, sexual offenses, incest, violent crimes). Abandonment requires 10 days' written notice by registered or certified mail to the other parent, who can contest it in court. Children **under 16** do not need character affidavits or a background check. A minor may have their name changed up to two times.
+    es: |
+      Ambos padres deben dar su consentimiento. Excepciones: un menor de 16 años o más puede solicitar con el consentimiento del padre con custodia si el otro lo abandonó, y un padre puede solicitar solo si el otro abandonó al menor o fue condenado por ciertos delitos. El abandono requiere aviso escrito de 10 días por correo certificado al otro padre. Los menores de **16 años** no necesitan declaraciones de buena conducta ni verificación de antecedentes. Un menor puede cambiar su nombre hasta dos veces.
+  sources: [gs-101-2, gs-chapter-101]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the clerk's Special Proceedings counter. Guide & File prepares the forms online; ask your county whether it accepts e-filing for name changes.
+    es: Presenta en persona en el mostrador de Procedimientos Especiales del secretario. Guide & File prepara los formularios en línea.
+  sources: [ncbf-info]
+timeline:
+  en: Plan on 1 to 3 months. The FBI background check is usually the slowest part, and everything must be filed within 90 days of the checks.
+  es: Calcula de 1 a 3 meses. La verificación del FBI suele ser lo más lento, y todo debe presentarse dentro de los 90 días de las verificaciones.
+after:
+  en: |
+    Go to **Social Security** first (bring a certified copy of the order and ID; the name can change, the sex field currently cannot). Wait 24 to 36 hours, then visit an **NCDMV** driver license office within 60 days with a certified copy and a notarized DL-101. If you were born in North Carolina, send NC Vital Records the Birth Certificate Modification Application with a certified copy of the order and $39. Then your **passport**, bank, employer, insurance, and voter registration.
+  es: |
+    Ve primero al **Seguro Social** (lleva una copia certificada de la orden e identificación; el nombre puede cambiar, el campo de sexo actualmente no). Espera 24 a 36 horas y visita una oficina de **NCDMV** dentro de 60 días con una copia certificada y el formulario DL-101 notarizado. Si naciste en Carolina del Norte, envía a Registros Vitales la solicitud de modificación con una copia certificada de la orden y $39. Después, **pasaporte**, banco, empleador, seguro y registro electoral.
+tips:
+  - en: Because an adult gets only one Chapter 101 name change, settle on the exact spelling of your full name before filing.
+    es: Como un adulto solo tiene un cambio de nombre bajo el Capítulo 101, decide la ortografía exacta de tu nombre completo antes de presentar.
+  - en: Time your background checks. Request the FBI check first, then the SBI check, so neither is older than 90 days when you file.
+    es: Coordina tus verificaciones. Pide primero la del FBI y luego la del SBI, para que ninguna tenga más de 90 días al presentar.
+  - en: If you cannot afford the fees, ask the clerk whether you can file a petition to proceed as an indigent, and ask Legal Aid of North Carolina or a name change clinic for help. Genderbands and Trans Lifeline have offered small grants for name change costs.
+    es: Si no puedes pagar las tarifas, pregunta al secretario si puedes presentar una petición para litigar como indigente, y busca ayuda de Legal Aid of North Carolina o de una clínica.
+local_help:
+  - id: ncba-lgbtq-clinic
+    name: NC Bar Association LGBTQ+ Legal Clinics
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Pro bono clinics where volunteer attorneys and law students help trans North Carolinians draft name change filings. Contact the NC Bar Foundation for upcoming dates.
+      es: Clínicas gratuitas donde abogados voluntarios y estudiantes de derecho ayudan a personas trans a preparar su cambio de nombre. Contacta a la NC Bar Foundation para las próximas fechas.
+    url: https://www.ncbarfoundation.org/our-programs/ncba-pro-bono-initiatives/
+    cost: free
+    verification: org_website
+    sources: [ncbf-probono]
+  - id: legal-aid-nc
+    name: Legal Aid of North Carolina
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide free civil legal aid for people with low incomes. Apply through the Get Help page; ask whether name change help is available in your area.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Solicita en la página Get Help.
+    url: https://legalaidnc.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [legalaidnc]
+  - id: tranzmission
+    name: Tranzmission (Asheville)
+    type: advocacy_org
+    pillars: [name_change, mental_health]
+    description:
+      en: Trans-led Asheville nonprofit with a name change program, support groups, a food pantry, and a clothing closet.
+      es: Organización de Asheville dirigida por personas trans con programa de cambio de nombre, grupos de apoyo, despensa de alimentos y ropero.
+    url: https://tranzmission.org/
+    cost: free
+    verification: org_website
+    sources: [tranzmission]
+  - id: genderbands-nc
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small grants for transition costs, including legal name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas las tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: N.C.G.S. §§ 101-1 to 101-8
+    title:
+      en: Names of persons (name change procedure, character proof, background checks, one-change limit)
+    url: https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_101.html
+  - cite: N.C.G.S. § 101-5
+    title:
+      en: Application requirements, criminal history check, clerk's order, notice to Vital Records
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_101/GS_101-5.html
+  - cite: S.L. 2025-54 (HB 620), s. 4
+    title:
+      en: Repealed the 10-day courthouse notice for applications filed on or after December 1, 2025
+    url: https://ncleg.gov/EnactedLegislation/SessionLaws/PDF/2025-2026/SL2025-54.pdf
+related_links:
+  - title: Advocates for Trans Equality, North Carolina identity documents
+    url: https://transequality.org/documents/north-carolina-identity-documents
+    note:
+      en: No last-updated date shown; still describes the courthouse posting notice that was repealed December 1, 2025.
+      es: No muestra fecha de actualización; todavía describe el aviso en el tribunal derogado el 1 de diciembre de 2025.
+  - title: UNC Libraries, Guide to changing your legal name and/or gender in North Carolina
+    url: https://guides.lib.unc.edu/legalnamegenderchange/genderchange
+sources:
+  - id: gs-chapter-101
+    url: https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_101.html
+    title: N.C.G.S. Chapter 101, Names of Persons
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No person shall be allowed to change his name under this Chapter but once.
+  - id: gs-101-2
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_101/GS_101-2.html
+    title: G.S. 101-2, Procedure for changing name; petition; notice
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: gs-101-4
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_101/GS_101-4.html
+    title: G.S. 101-4, Proof of good character to accompany application
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: proof must be made by at least two citizens of the county who know his standing
+  - id: gs-101-5
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_101/GS_101-5.html
+    title: G.S. 101-5, Name change application requirements; grounds for clerk to order or deny name change
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The results of a state and national criminal history record check conducted within 90 days of the date of application
+  - id: sl-2025-54
+    url: https://ncleg.gov/EnactedLegislation/SessionLaws/PDF/2025-2026/SL2025-54.pdf
+    title: Session Law 2025-54 (HB 620), Section 4, Repeal requirements of public notice of name change at courthouse
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: This section becomes effective December 1, 2025, and applies to all applications for a name change pursuant to Chapter 101 of the General Statutes filed on or after that date.
+  - id: ncbf-info
+    url: https://www.ncbarfoundation.org/wp-content/uploads/2024/10/Name-Change-Petition-Information.pdf
+    title: Adult Name Change Petition Information and Resources
+    publisher: North Carolina Bar Foundation
+    kind: org
+    accessed: "2026-09-24"
+    quote: The filing fee for the Petition is $120.00 (cash, money order, or certified check).
+  - id: recordinglaw
+    url: https://www.recordinglaw.com/us-laws/name-change/north-carolina-name-change-laws/
+    title: North Carolina Name Change Laws
+    publisher: Recording Law
+    kind: community
+    accessed: "2026-09-24"
+  - id: sbi-forms
+    url: https://www.ncsbi.gov/Services/SBI-Forms.aspx
+    title: SBI forms (Right to Review criminal record check)
+    publisher: North Carolina State Bureau of Investigation
+    kind: official
+    accessed: "2026-09-24"
+  - id: ncdmv-name
+    url: https://www.ncdot.gov/dmv/help/moving/Pages/name-changes.aspx
+    title: Name changes
+    publisher: NCDMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: An individual whose name changes from the name stated on a driver license or ID must notify the N.C. Division of Motor Vehicles within 60 days after the change occurs
+  - id: ncbf-probono
+    url: https://www.ncbarfoundation.org/our-programs/ncba-pro-bono-initiatives/
+    title: NCBA Pro Bono Initiatives (LGBTQ+ Legal Clinics)
+    publisher: North Carolina Bar Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: legalaidnc
+    url: https://legalaidnc.org/get-help/
+    title: Get Help
+    publisher: Legal Aid of North Carolina
+    kind: org
+    accessed: "2026-09-24"
+  - id: tranzmission
+    url: https://tranzmission.org/
+    title: Tranzmission
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

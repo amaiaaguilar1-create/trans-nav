@@ -1,0 +1,178 @@
+guide_type: drivers_license
+jurisdiction: WA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Read 2026-09-24: DOL gender designation page, form DLE-520-043 (R/11/19) PDF, DOL name/address change page, DOL
+    licensing fees page. Reviewer: (1) confirm the $20 fee for a revised ID card (the fee page lists $20 for replacing a
+    lost/stolen ID and $20 for a revised license; the revised-ID fee was not stated separately); (2) confirm the
+    gender-only card remains free when done in person; (3) the DOL page does not say whether a minor needs a parent's
+    signature on DLE-520-043.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Washington lets you choose M, F, or X on your driver's license, permit, ID card, or enhanced license or ID on your
+    own statement. No doctor's letter or court order. If you only change the gender designation, the new card is free.
+  es: >-
+    Washington te permite elegir M, F o X en tu licencia, permiso, tarjeta de identificación o licencia o identificación
+    mejorada con tu propia declaración. Sin carta médica ni orden judicial. Si solo cambias la designación de género, la
+    nueva tarjeta es gratis.
+summary:
+  en: |
+    The Department of Licensing (DOL) changes the gender designation on request. In person you simply confirm the designation you want (bring the form only for an enhanced license or ID). By mail you send the one-page **Change of Gender Designation** form (DLE-520-043), which you sign under penalty of perjury; no other document is required. X means "not exclusively male or female".
+
+    Changing your **name** is a separate update that needs proof of your legal name (a certified court order, for example) and an office visit for a new photo. Update Social Security first.
+  es: |
+    El Departamento de Licencias (DOL) cambia la designación de género a solicitud. En persona solo confirmas la designación que quieres (lleva el formulario solo para una licencia o identificación mejorada). Por correo envías el formulario de una página **Change of Gender Designation** (DLE-520-043), firmado bajo pena de perjurio; no se requiere otro documento. X significa "no exclusivamente masculino o femenino".
+
+    Cambiar tu **nombre** es un trámite aparte que requiere prueba de tu nombre legal (por ejemplo, una orden judicial certificada) y una visita a la oficina para una foto nueva. Actualiza primero el Seguro Social.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Washington driver's license, permit, or ID card.
+    es: Debes tener o estar solicitando una licencia, permiso o tarjeta de identificación de Washington.
+  sources: [dol-gender, dle-520-043]
+forms:
+  - id: DLE-520-043
+    name:
+      en: Change of Gender Designation
+      es: Cambio de designación de género
+    url: https://dol.wa.gov/forms/view/520043
+    url_es: https://dol.wa.gov/forms/view/520043-es
+    required: conditional
+    condition:
+      en: Needed for a mail request, or in person for an enhanced driver's license or enhanced ID. For a standard card in person you only confirm your choice verbally.
+      es: Se necesita para una solicitud por correo, o en persona para una licencia o identificación mejorada. Para una tarjeta estándar en persona solo confirmas tu elección verbalmente.
+    how_to_fill:
+      en: |
+        - Print your name exactly as on your current card and your license or ID number.
+        - Choose how DOL should notify you (email or U.S. mail).
+        - Check M, F, or X.
+        - Sign and date. No notary, no medical letter.
+        - Mail to: Programs and Services, Record Response, Department of Licensing, PO Box 9030, Olympia WA 98507-9030.
+      es: |
+        - Escribe tu nombre como aparece en tu tarjeta actual y tu número de licencia o identificación.
+        - Elige cómo te notificará el DOL (correo electrónico o postal).
+        - Marca M, F o X.
+        - Firma y fecha. Sin notario ni carta médica.
+        - Envía a: Programs and Services, Record Response, Department of Licensing, PO Box 9030, Olympia WA 98507-9030.
+    sources: [dle-520-043]
+steps:
+  - id: choose-method
+    title:
+      en: Choose in person or by mail
+      es: Elige en persona o por correo
+    body:
+      en: |
+        - **In person**: make an appointment at a driver licensing office, bring your current card, and tell staff the designation you want. For an enhanced license or ID, bring the completed DLE-520-043.
+        - **By mail**: mail DLE-520-043. DOL processes it and mails you an authorization letter; you then finish online through License Express or at an office.
+      es: |
+        - **En persona**: haz una cita en una oficina de licencias, lleva tu tarjeta actual y di la designación que quieres. Para una licencia o identificación mejorada, lleva el DLE-520-043 lleno.
+        - **Por correo**: envía el DLE-520-043. El DOL lo procesa y te envía una carta de autorización; luego terminas en línea en License Express o en una oficina.
+    forms: [DLE-520-043]
+    sources: [dol-gender]
+  - id: name-change
+    title:
+      en: If your name is changing, update Social Security first and go in person
+      es: Si cambias tu nombre, actualiza primero el Seguro Social y ve en persona
+    body:
+      en: Update your name with Social Security, then visit a licensing office with a certified copy of your court order (or other accepted proof) for a new photo. If you have a **sealed** Superior Court order, email the DOL Identity Management Team at dol-psdidentitymanagement@dol.wa.gov before you go and do not email the order itself; DOL uses a special process that includes an interview and takes longer.
+      es: Actualiza tu nombre en el Seguro Social y luego visita una oficina con una copia certificada de tu orden judicial para una foto nueva. Si tienes una orden **sellada** del Tribunal Superior, escribe primero al equipo de Gestión de Identidad del DOL (dol-psdidentitymanagement@dol.wa.gov) y no envíes la orden por correo electrónico; el DOL usa un proceso especial con entrevista que tarda más.
+    fees: [revised-license]
+    applies_to: [name_change, in_person]
+    sources: [dol-name, njp-guide]
+  - id: receive
+    title:
+      en: Receive your new card
+      es: Recibe tu nueva tarjeta
+    body:
+      en: The card is mailed to you. A gender-only change is free; if you also change your name or other information, or renew, the usual fee applies.
+      es: La tarjeta llega por correo. Un cambio solo de género es gratis; si también cambias tu nombre u otra información, o renuevas, se cobra la tarifa normal.
+    fees: [gender-only]
+    sources: [dol-gender, dol-fees]
+fees:
+  - id: gender-only
+    label:
+      en: New card with only the gender designation changed
+      es: Nueva tarjeta con solo la designación de género cambiada
+    amount: 0
+    sources: [dol-gender]
+  - id: revised-license
+    label:
+      en: Revised driver's license (name or other change before renewal)
+      es: Licencia revisada (cambio de nombre u otro antes de renovar)
+    amount: 20
+    note:
+      en: A replacement ID card is also $20. A standard ID card costs $5 if you receive DSHS benefits or WIC, or if you are under 25 without a permanent address.
+      es: Un reemplazo de tarjeta de identificación también cuesta $20. Una tarjeta estándar cuesta $5 si recibes beneficios de DSHS o WIC, o si tienes menos de 25 años y no tienes domicilio permanente.
+    sources: [dol-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: No waiver for licenses, but a gender-only change is free. A reduced-fee ($5) standard ID card is available with proof of DSHS benefits or WIC, and without documents for people under 25 who have no permanent address.
+    es: No hay exención para licencias, pero el cambio solo de género es gratis. Hay una tarjeta estándar de tarifa reducida ($5) con prueba de beneficios de DSHS o WIC, y sin documentos para menores de 25 años sin domicilio permanente.
+  sources: [dol-fees, dol-gender]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Gender designation can be requested in person or by mail (not online at first; after the mail request you can finish online). Name changes need an office visit.
+    es: La designación de género se solicita en persona o por correo (no en línea al principio). Los cambios de nombre requieren visitar una oficina.
+  sources: [dol-gender, dol-name]
+timeline:
+  en: One office visit, or a mailed request plus an authorization letter; then the card arrives by mail. Sealed name changes take longer.
+  es: Una visita a la oficina, o una solicitud por correo más una carta de autorización; luego la tarjeta llega por correo. Los cambios de nombre sellados tardan más.
+after:
+  en: |
+    Your license is the ID most places check first. If you chose X or a changed marker, be aware that the U.S. passport and Social Security record currently cannot show X or a changed sex marker; your Washington card remains valid for state purposes, REAL ID purposes (enhanced cards), and voting.
+  es: |
+    Tu licencia es la identificación que más se revisa. Si elegiste X o cambiaste el marcador, ten en cuenta que el pasaporte y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; tu tarjeta de Washington sigue siendo válida para fines estatales y para votar.
+tips:
+  - en: You do not need a court order, amended birth certificate, or doctor's letter. If staff ask for one, ask for a supervisor and refer to the DOL gender designation page.
+    es: No necesitas orden judicial, acta enmendada ni carta médica. Si te la piden, pide hablar con un supervisor.
+  - en: Change the gender designation and name in the same visit to pay only one fee.
+    es: Cambia la designación de género y el nombre en la misma visita para pagar una sola tarifa.
+related_links:
+  - title: Advocates for Trans Equality, Washington identity documents
+    url: https://transequality.org/documents/washington-identity-documents
+sources:
+  - id: dol-gender
+    url: https://dol.wa.gov/driver-licenses-and-permits/update-driver-license-information/change-your-gender-designation
+    title: Change your gender designation
+    publisher: Washington State Department of Licensing
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you're only updating your gender designation, your new card is free.
+  - id: dle-520-043
+    url: https://dol.wa.gov/forms/view/520043
+    title: Form DLE-520-043, Change of Gender Designation (R/11/19)
+    publisher: Washington State Department of Licensing
+    kind: form
+    accessed: "2026-09-24"
+    quote: What gender designation would you like on your driver license or ID card? M F X
+  - id: dol-name
+    url: https://dol.wa.gov/driver-licenses-and-permits/update-driver-license-information/change-your-name-or-address-your-driver-license
+    title: Change your name or address on your driver license
+    publisher: Washington State Department of Licensing
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you have a sealed name change order from a Washington Superior Court, please contact our Identity Management Team.
+  - id: dol-fees
+    url: https://dol.wa.gov/driver-licenses-and-permits/driver-licensing-fees
+    title: Driver licensing fees
+    publisher: Washington State Department of Licensing
+    kind: official
+    accessed: "2026-09-24"
+  - id: njp-guide
+    url: https://www.washingtonlawhelp.org/en/name-change-guide
+    title: Name change guide (sealed name changes and the DOL)
+    publisher: Northwest Justice Project, WashingtonLawHelp.org
+    kind: org
+    accessed: "2026-09-24"

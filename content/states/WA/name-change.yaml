@@ -1,0 +1,469 @@
+guide_type: name_change
+jurisdiction: WA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from RCW 4.24.130 (legislature site), the King County District Court name-change page, the King
+    County Superior Court clerk FAQ, Northwest Justice Project's Name Change Guide (last reviewed May 8, 2025) and its
+    NJP License 410/411/412 sealed name change forms (rev. 03/2025). Open items for the human reviewer: (1) King County
+    Superior Court $290 filing fee comes from the clerk's FAQ page; confirm it is current and that it applies to sealed
+    name change petitions (NJP says sealed filings usually cost "around $260" statewide). (2) District Court recording fee
+    ($203.50) is King County's; other counties differ. (3) Statewide GR 34 fee waiver pattern form number and URL were not
+    confirmed (web search budget exhausted); only the King County District Court page naming the "Motion and Declaration
+    for Waiver of Civil Fees and Surcharges" was read. (4) The King County Law Library sealed name change PDF and packet
+    page could not be loaded (bot challenge / empty). (5) A4TE's Washington page resolves but its last-updated date was not
+    read. (6) Confirm whether King County Superior Court hears sealed name changes in Ex Parte without oral argument or
+    requires appearance; NJP says all name changes need a hearing.
+status: available
+status_summary:
+  en: >-
+    Washington adults can change their name by court order with no newspaper publication. If your name change is
+    related to your gender identity, you can file in Superior Court and the court seals the record automatically; you
+    just check a box, no proof needed. Either way, you attend a short hearing (sometimes by video).
+  es: >-
+    En Washington, las personas adultas pueden cambiar su nombre por orden judicial sin publicación en el periódico. Si
+    el cambio está relacionado con tu identidad de género, puedes presentarlo en el Tribunal Superior y el tribunal
+    sella el expediente automáticamente; solo marcas una casilla, sin pruebas. En ambos casos asistes a una audiencia
+    breve (a veces por video).
+summary:
+  en: |
+    Washington has two kinds of court-ordered name change under RCW 4.24.130:
+
+    - **Public (non-sealed) name change in District Court.** Anyone can use it. It is usually the cheapest option, but the order is a public record and is normally recorded with the county auditor/recorder.
+    - **Sealed name change in Superior Court.** Available if your request is related to gender expression or identity (or to domestic violence, stalking, harassment, or coercive control; asylum or refugee status; or emancipation). Saying the change is related to your gender identity is enough; you do not have to prove anything. When the name change is granted, the court seals the file, and there is no public access to the filing, hearing, or order even if the petition is denied.
+
+    Since 2023 you may file in any Washington court, not only in the county where you live. Neither kind requires publication in a newspaper. Both require a short hearing. A sealed order is more private, but it adds steps later: you prove your identity each time you buy more certified copies, and the Department of Licensing uses a special, slower process to update your license.
+  es: |
+    Washington tiene dos tipos de cambio de nombre por orden judicial según RCW 4.24.130:
+
+    - **Cambio de nombre público (no sellado) en el Tribunal de Distrito.** Cualquiera puede usarlo. Suele ser la opción más barata, pero la orden es un registro público y normalmente se registra con el auditor o registrador del condado.
+    - **Cambio de nombre sellado en el Tribunal Superior.** Disponible si tu solicitud está relacionada con tu expresión o identidad de género (o con violencia doméstica, acecho, acoso o control coercitivo; asilo o refugio; o emancipación). Basta con decir que el cambio está relacionado con tu identidad de género; no tienes que probar nada. Al conceder el cambio, el tribunal sella el expediente y no hay acceso público a la petición, la audiencia ni la orden, incluso si se niega.
+
+    Desde 2023 puedes presentar en cualquier tribunal de Washington, no solo en el condado donde vives. Ninguno de los dos requiere publicación en el periódico. Ambos requieren una audiencia breve. Una orden sellada es más privada, pero agrega pasos después: debes probar tu identidad cada vez que compres copias certificadas, y el Departamento de Licencias usa un proceso especial y más lento para actualizar tu licencia.
+eligibility:
+  residency:
+    en: You may file in any Washington District Court (public) or Superior Court (sealed); you do not have to live in that county. The petition asks whether you are a Washington resident; non-residents must explain why they are filing in Washington.
+    es: Puedes presentar en cualquier Tribunal de Distrito (público) o Tribunal Superior (sellado) de Washington; no tienes que vivir en ese condado. La petición pregunta si resides en Washington; quienes no residen deben explicar por qué presentan en Washington.
+  age:
+    en: 18 or older, or an emancipated minor. A parent or guardian files for a minor; see Minors.
+    es: 18 años o más, o menor emancipado. Un padre, madre o tutor presenta por un menor; ver Menores.
+  criminal_history:
+    en: >-
+      If you must register as a sex offender or are under Department of Corrections supervision (incarcerated, on
+      probation, parole, or community custody), you cannot use the sealed process. You file a public petition in District
+      Court and must give DOC (and, for registrants, the State Patrol) advance notice and a copy of the order. Failing to
+      do so is a misdemeanor.
+    es: >-
+      Si debes registrarte como agresor sexual o estás bajo supervisión del Departamento de Correcciones, no puedes usar
+      el proceso sellado. Presentas una petición pública en el Tribunal de Distrito y debes notificar al DOC (y, en su
+      caso, a la Patrulla Estatal) antes y después de la orden.
+  sources: [rcw-4-24-130, njp-guide, njp-410]
+forms:
+  - id: NJP License 410
+    name:
+      en: Petition for Sealed Name Change (Superior Court)
+      es: Petición de cambio de nombre sellado (Tribunal Superior)
+    url: https://assets.washingtonlawhelp.org/sites/default/files/forms/pdf/2025-05/njp-license-410-petition-for-sealed-name-change-2025_03.pdf
+    required: conditional
+    condition:
+      en: For a sealed name change in Superior Court, if the county does not have its own local form. Ask the clerk first.
+      es: Para un cambio de nombre sellado en el Tribunal Superior, si el condado no tiene su propio formulario local. Pregunta primero al secretario.
+    how_to_fill:
+      en: |
+        - Item 1: check "Me" and "age 18 or older", or the minor-child option.
+        - Items 2: your current full legal name exactly as on your ID, then the new full name. The order copies it exactly.
+        - Item 3: check whether you are a Washington resident. If not, explain why you are filing here.
+        - Item 4 (reasons to seal): check **"Yes, this is related to gender expression or identity as defined in RCW 49.60.040."** You do not need to explain or attach any proof or medical letter.
+        - Items 5 and 6: if you must register as a sex offender or are under DOC jurisdiction, stop; you must use District Court.
+        - Items 7 to 10: previous name changes, creditors, fraud. Answer honestly; "No" on 8 and 9 is what the judge asks about at the hearing.
+        - Sign under penalty of perjury. A minor 13 or older signs too.
+      es: |
+        - Punto 1: marca "Yo" y "18 años o más", o la opción de menor.
+        - Punto 2: tu nombre legal actual tal como aparece en tu identificación y el nuevo nombre completo.
+        - Punto 3: indica si resides en Washington; si no, explica por qué presentas aquí.
+        - Punto 4 (motivos para sellar): marca **"Sí, está relacionado con la expresión o identidad de género"**. No necesitas explicar ni adjuntar pruebas.
+        - Puntos 5 y 6: si debes registrarte como agresor sexual o estás bajo el DOC, debes usar el Tribunal de Distrito.
+        - Firma bajo pena de perjurio. Un menor de 13 años o más también firma.
+    sources: [njp-410]
+  - id: NJP License 411
+    name:
+      en: Findings for Sealed Name Change (proposed)
+      es: Conclusiones para cambio de nombre sellado (propuesta)
+    url: https://assets.washingtonlawhelp.org/sites/default/files/forms/pdf/2025-05/njp-license-411-findings-for-sealed-name-change-2025_03.pdf
+    required: conditional
+    condition:
+      en: Goes with NJP License 410. Fill in the caption and names; bring it to the hearing for the judge to sign.
+      es: Acompaña al NJP License 410. Llena el encabezado y los nombres; llévalo a la audiencia para que el juez lo firme.
+    sources: [njp-410, njp-guide]
+  - id: NJP License 412
+    name:
+      en: Order for Sealed Name Change (proposed)
+      es: Orden de cambio de nombre sellado (propuesta)
+    url: https://assets.washingtonlawhelp.org/sites/default/files/forms/pdf/2025-05/njp-license-412-order-for-sealed-name-change-2025_03.pdf
+    required: conditional
+    condition:
+      en: Goes with NJP License 410. This is the order you will use everywhere afterwards, so buy several certified copies once it is signed.
+      es: Acompaña al NJP License 410. Es la orden que usarás en todas partes, así que compra varias copias certificadas cuando esté firmada.
+    sources: [njp-410, njp-guide]
+  - id: KCDC name change petition
+    name:
+      en: King County District Court, Petition for Name Change (Individual) and Petition for Minor Child Name Change
+      es: Tribunal de Distrito del Condado de King, Petición de cambio de nombre (individual) y para menor
+    url: https://kingcounty.gov/en/court/district-court/courts-jails-legal-system/name-changes
+    required: conditional
+    condition:
+      en: For a public (non-sealed) name change. Each District Court has its own forms; this is King County's. Get other counties' forms from that District Court's website or clerk.
+      es: Para un cambio de nombre público (no sellado). Cada Tribunal de Distrito tiene sus propios formularios; estos son los del Condado de King.
+    sources: [kcdc-name-change, njp-guide]
+  - id: fee-waiver-motion
+    name:
+      en: Motion and Declaration for Waiver of Civil Fees and Surcharges
+      es: Moción y declaración para exención de tarifas y recargos civiles
+    url: https://kingcounty.gov/en/court/district-court/courts-jails-legal-system/name-changes
+    required: optional
+    condition:
+      en: Only if you cannot afford the fees. File it with your petition. The link is King County District Court's page; each court's clerk can give you its version.
+      es: Solo si no puedes pagar las tarifas. Preséntala con tu petición. El enlace es la página del Tribunal de Distrito del Condado de King; el secretario de cada tribunal te puede dar su versión.
+    sources: [kcdc-name-change, rcw-4-24-130]
+steps:
+  - id: choose-court
+    title:
+      en: Choose sealed (Superior Court) or public (District Court)
+      es: Elige sellado (Tribunal Superior) o público (Tribunal de Distrito)
+    body:
+      en: |
+        - **Sealed**, if your name change is related to your gender identity or expression and you want the record private. File in any Superior Court. Costs more (King County: $290) but can be waived.
+        - **Public**, if privacy is not a concern, or if you must register as a sex offender or are under DOC supervision. File in any District Court. King County: $98 plus a $203.50 recording fee.
+
+        Think about the trade-off: with a sealed order, the DOL uses a special identity-management process (an interview, and a longer wait for your card), and getting more certified copies later means proving your identity to the clerk.
+      es: |
+        - **Sellado**, si el cambio está relacionado con tu identidad o expresión de género y quieres privacidad. Presenta en cualquier Tribunal Superior. Cuesta más (Condado de King: $290) pero se puede exentar.
+        - **Público**, si la privacidad no te preocupa, o si debes registrarte como agresor sexual o estás bajo el DOC. Presenta en cualquier Tribunal de Distrito. Condado de King: $98 más $203.50 de registro.
+
+        Con una orden sellada, el DOL usa un proceso especial (entrevista y más espera para tu tarjeta), y conseguir más copias certificadas después requiere probar tu identidad.
+    sources: [njp-guide, rcw-4-24-130, kcdc-name-change, kc-clerk-faq]
+  - id: fill-forms
+    title:
+      en: Fill out your petition
+      es: Llena tu petición
+    body:
+      en: |
+        **Sealed**: ask the Superior Court clerk whether the county has local forms or needs extras (cover sheet, confidential information sheet, notice of hearing). If not, use NJP License 410 (petition), 411 (findings), and 412 (order).
+
+        **Public**: use the District Court's own forms. Do not use the NJP sealed forms in District Court.
+      es: |
+        **Sellado**: pregunta al secretario del Tribunal Superior si el condado tiene formularios locales o requiere otros (portada, hoja de información confidencial, aviso de audiencia). Si no, usa NJP License 410, 411 y 412.
+
+        **Público**: usa los formularios del propio Tribunal de Distrito.
+    forms: [NJP License 410, NJP License 411, NJP License 412, KCDC name change petition]
+    sources: [njp-410, njp-guide, kcdc-name-change]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: By statute, if you (or a qualified legal aid provider) file an affidavit that you cannot pay because of financial hardship, the court must waive all fees, and must also order the county auditor to waive the recording fee. If the clerk says you do not qualify, say you would like a judge to decide; only a judge can deny a waiver.
+      es: Por ley, si tú (o un proveedor de asistencia legal calificado) presentas una declaración jurada de que no puedes pagar por dificultades económicas, el tribunal debe exentar todas las tarifas, incluida la de registro del auditor. Si el secretario dice que no calificas, pide que un juez lo decida.
+    forms: [fee-waiver-motion]
+    optional: true
+    sources: [rcw-4-24-130, njp-guide]
+  - id: file
+    title:
+      en: File with the clerk and get a hearing date
+      es: Presenta con el secretario y obtén fecha de audiencia
+    body:
+      en: |
+        Bring photo ID. Pay the filing fee or hand in your fee waiver. Paying in cash usually gets the earliest hearing; in King County District Court, card or check payments mean a hearing 30 to 90 days out. Some clerks schedule the hearing for you; others tell you how to schedule it. King County District Court also accepts filing online through its e-filing portal or by mail.
+      es: |
+        Lleva identificación con foto. Paga la tarifa o entrega tu exención. Pagar en efectivo suele dar la audiencia más pronta; en el Tribunal de Distrito del Condado de King, con tarjeta o cheque la audiencia es de 30 a 90 días después. El Tribunal de Distrito del Condado de King también acepta presentación en línea o por correo.
+    fees: [kcdc-filing, kcdc-recording, kcsc-filing]
+    sources: [njp-guide, kcdc-name-change, kc-clerk-faq]
+  - id: hearing
+    title:
+      en: Attend the short hearing
+      es: Asiste a la audiencia breve
+    body:
+      en: The judge asks whether your petition is true and whether you are changing your name to commit fraud or avoid debts. Some courts allow video attendance; ask the clerk. Sealed hearings should be private; public hearings are usually held with other name-change petitioners in the room. Bring your ID and the proposed order.
+      es: El juez pregunta si tu petición es verdadera y si cambias de nombre para cometer fraude o evitar deudas. Algunos tribunales permiten asistir por video. Las audiencias selladas deben ser privadas; las públicas suelen hacerse con otros solicitantes presentes. Lleva tu identificación y la orden propuesta.
+    sources: [njp-guide, kcdc-name-change]
+  - id: certified-copies
+    title:
+      en: Buy certified copies before you leave
+      es: Compra copias certificadas antes de irte
+    body:
+      en: Buy 7 to 10 certified copies of the signed order at the clerk's office right after the hearing (usually about $5 each). For a sealed order it is harder to get more later, because you must prove your identity each time.
+      es: Compra de 7 a 10 copias certificadas de la orden firmada en la oficina del secretario justo después de la audiencia (normalmente unos $5 cada una). Con una orden sellada es más difícil conseguir más después.
+    fees: [certified-copies]
+    sources: [njp-guide, kcdc-name-change]
+  - id: update-documents
+    title:
+      en: Update your other documents, Social Security first
+      es: Actualiza tus demás documentos, primero el Seguro Social
+    body:
+      en: |
+        1. **Social Security** first (free). The name changes; the sex field currently cannot.
+        2. **Department of Licensing** driver's license or ID (see the driver's license guide). With a sealed order, email the DOL Identity Management Team first; do not email the order itself.
+        3. **Birth certificate** (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records, titles and deeds.
+      es: |
+        1. **Seguro Social** primero (gratis). El nombre cambia; el campo de sexo actualmente no.
+        2. **Departamento de Licencias** (ver la guía de licencia). Con una orden sellada, escribe primero al equipo de Gestión de Identidad del DOL; no envíes la orden por correo electrónico.
+        3. **Acta de nacimiento** (ver la guía de acta de nacimiento).
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares, títulos y escrituras.
+    sources: [njp-guide, dol-name]
+fees:
+  - id: kcdc-filing
+    label:
+      en: District Court filing fee, public name change (King County)
+      es: Tarifa de presentación en el Tribunal de Distrito, cambio público (Condado de King)
+    amount: 98
+    varies_by: court
+    waivable: true
+    note:
+      en: Includes one certified copy. The county recording fee is separate ($203.50 in King County, paid to the Recorder's Office by check, money order, or cashier's check). A granted fee waiver covers both.
+      es: Incluye una copia certificada. La tarifa de registro del condado es aparte ($203.50 en el Condado de King). Una exención aprobada cubre ambas.
+    sources: [kcdc-name-change, rcw-4-24-130]
+  - id: kcdc-recording
+    label:
+      en: County recording fee for a public name change order (King County)
+      es: Tarifa de registro del condado para una orden de cambio público (Condado de King)
+    amount: 203.5
+    varies_by: county
+    waivable: true
+    sources: [kcdc-name-change]
+  - id: kcsc-filing
+    label:
+      en: Superior Court filing fee, sealed name change (King County)
+      es: Tarifa de presentación en el Tribunal Superior, cambio sellado (Condado de King)
+    amount: 290
+    varies_by: county
+    waivable: true
+    note:
+      en: Other counties' Superior Court civil filing fees differ; Northwest Justice Project says they are usually around $260. Call the clerk to confirm.
+      es: Las tarifas de otros condados varían; Northwest Justice Project indica que suelen rondar los $260. Llama al secretario para confirmar.
+    sources: [kc-clerk-faq, njp-guide]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    amount: 5
+    varies_by: court
+    waivable: true
+    sources: [kcdc-name-change, njp-guide]
+fee_waiver:
+  available: true
+  forms: [fee-waiver-motion]
+  eligibility:
+    en: If you (or a qualified legal service provider) state in an affidavit that you cannot pay because of financial hardship, RCW 4.24.130 says the court **shall waive all fees**, including the recording fee. People receiving public benefits or with low income generally qualify; the judge decides.
+    es: Si tú (o un proveedor de servicios legales calificado) declaras en una declaración jurada que no puedes pagar por dificultades económicas, RCW 4.24.130 dice que el tribunal **debe exentar todas las tarifas**, incluida la de registro.
+  how:
+    en: File the fee waiver motion and declaration with your petition. If the clerk says you do not qualify, ask for a judge to decide.
+    es: Presenta la moción y declaración de exención con tu petición. Si el secretario dice que no calificas, pide que lo decida un juez.
+  sources: [rcw-4-24-130, njp-guide, kcdc-name-change]
+publication:
+  required: "no"
+  detail:
+    en: Washington does not require newspaper publication for any adult name change. (Publication can come up only for a minor's name change when the other parent cannot be found.)
+    es: Washington no exige publicación en el periódico para ningún cambio de nombre de adultos. (Solo puede surgir en el cambio de nombre de un menor cuando no se encuentra al otro padre.)
+  sources: [njp-guide]
+hearing:
+  required: "yes"
+  detail:
+    en: All name change petitions require a short hearing you must attend, in person or by video depending on the court. In King County District Court, hearings are held at seven courthouse locations, mostly at 1:00 pm, and petitions filed by 11:00 am can sometimes be heard the same day.
+    es: Todas las peticiones requieren una audiencia breve a la que debes asistir, en persona o por video según el tribunal.
+  sources: [njp-guide, kcdc-name-change]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. People under Department of Corrections jurisdiction or required to register as sex offenders have extra notice duties and must use District Court.
+    es: No se toman huellas ni se revisan antecedentes. Las personas bajo el DOC o registradas como agresores sexuales tienen obligaciones de notificación adicionales.
+  sources: [rcw-4-24-130, njp-guide]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      A petition filed in Superior Court for a reason related to gender expression or identity (RCW 49.60.040) is sealed when the name change is granted, and there is no public access to any record of the filing, hearing, or order, whether or not it is granted. The order is not sent to the county recorder. District Court (public) orders are not sealed automatically; you can ask the judge at the hearing, but it is not guaranteed.
+    es: |
+      Una petición presentada en el Tribunal Superior por un motivo relacionado con la expresión o identidad de género se sella al conceder el cambio, y no hay acceso público a ningún registro de la petición, audiencia u orden, se conceda o no. Las órdenes del Tribunal de Distrito no se sellan automáticamente; puedes pedirlo al juez, pero no está garantizado.
+  how:
+    en: Check the gender identity box in item 4 of the sealed petition (NJP License 410) and file in Superior Court.
+    es: Marca la casilla de identidad de género en el punto 4 de la petición sellada (NJP License 410) y presenta en el Tribunal Superior.
+  sources: [rcw-4-24-130, njp-410, kcdc-name-change, kc-clerk-faq]
+minors:
+  summary:
+    en: |
+      A parent or guardian files. If both parents sign, or you are the only legal parent, the court will likely grant it. Otherwise the other parent generally must be served with the petition and notice of hearing; you can ask the court to skip notice for safety reasons, and a judge decides disputes based on the child's best interests. A child 13 or older signs the sealed petition, and some counties require consent from minors 13 and up. In King County District Court, children 14 to 17 must attend the hearing. Sealed petitions for a minor's gender-related name change go to Superior Court like adults'. For a child **born in Washington**, parents may instead change the first and middle name once on the birth certificate with the Department of Health's Affidavit for Correction, if all parents on the certificate sign.
+    es: |
+      Un padre, madre o tutor presenta la petición. Si ambos padres firman, o eres el único padre legal, es probable que se conceda. Si no, generalmente hay que notificar al otro padre; puedes pedir omitir la notificación por seguridad, y el juez decide según el interés superior del menor. Un menor de 13 años o más firma la petición sellada. En el Tribunal de Distrito del Condado de King, los menores de 14 a 17 deben asistir a la audiencia. Para un menor **nacido en Washington**, los padres pueden cambiar el nombre y segundo nombre una vez en el acta de nacimiento con la Declaración Jurada de Corrección del Departamento de Salud, si todos los padres firman.
+  forms: [NJP License 410, KCDC name change petition]
+  sources: [njp-guide, njp-410, kcdc-name-change]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: King County District Court accepts petitions in person, by mail, or through its e-filing portal. Superior Court filing options vary by county; ask the clerk. The hearing is in person or by video.
+    es: El Tribunal de Distrito del Condado de King acepta peticiones en persona, por correo o por su portal electrónico. En el Tribunal Superior varía por condado.
+  sources: [kcdc-name-change]
+timeline:
+  en: Usually a few weeks to three months from filing to hearing (King County District Court sets hearings within 90 days). You leave the hearing with a signed order. Recording a public order with the county takes another 6 to 8 weeks, but you can use your certified copies right away.
+  es: Normalmente de unas semanas a tres meses desde la presentación hasta la audiencia. Sales de la audiencia con la orden firmada. El registro de una orden pública tarda 6 a 8 semanas más, pero puedes usar tus copias certificadas de inmediato.
+after:
+  en: |
+    Start with **Social Security** (bring a certified copy and photo ID; the name changes, the sex field currently cannot). Then the **Department of Licensing** in person ($20 for a revised license; if you have a sealed order, contact dol-psdidentitymanagement@dol.wa.gov first). If you were born in Washington, send the **Department of Health** a certified copy with form DOH 422-126 ($25 for the new certificate). Then your **passport** (name changes are still processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, school records, and any titles or deeds.
+  es: |
+    Empieza con el **Seguro Social** (lleva una copia certificada e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego el **Departamento de Licencias** en persona ($20 por una licencia revisada; si tienes una orden sellada, escribe primero a dol-psdidentitymanagement@dol.wa.gov). Si naciste en Washington, envía al **Departamento de Salud** una copia certificada con el formulario DOH 422-126 ($25 por el nuevo certificado). Después el **pasaporte** (los cambios de nombre se siguen procesando; los de marcador de sexo no, a septiembre de 2026), banco, empleador, seguro, registro de votante, expedientes escolares y títulos o escrituras.
+tips:
+  - en: You do not need a name change to change the gender marker on your Washington license or birth certificate; each can be done alone.
+    es: No necesitas cambiar tu nombre para cambiar el marcador de género en tu licencia o acta de nacimiento de Washington.
+  - en: Northwest Justice Project's free Name Change Guide on WashingtonLawHelp.org explains both processes step by step and includes the sealed forms.
+    es: La Guía de Cambio de Nombre gratuita de Northwest Justice Project en WashingtonLawHelp.org explica ambos procesos paso a paso.
+  - en: A Washington court can also issue an order confirming a sex or gender change, but you do not need one for Washington documents. It can help if you were born in a state that requires a court order.
+    es: Un tribunal de Washington también puede emitir una orden que confirme un cambio de sexo o género, pero no la necesitas para documentos de Washington.
+local_help:
+  - id: qlaw-clinic
+    name: QLaw Foundation, 2SLGBTQIA+ Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free 30-minute phone consultations with volunteer attorneys, including name and gender marker changes (1st Friday and 3rd Monday monthly). Volunteers advise but do not represent you in court. 206-483-2725 ext. 102.
+      es: Consultas telefónicas gratuitas de 30 minutos con abogados voluntarios, incluidos cambios de nombre y marcador de género (primer viernes y tercer lunes de cada mes). 206-483-2725 ext. 102.
+    url: https://www.qlawfoundation.org/2slgbtqialegalclinic/
+    phone: "206-483-2725"
+    cost: free
+    verification: org_website
+    sources: [qlaw-clinic]
+  - id: gjl-clinics
+    name: Gender Justice League, ID document legal clinics
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free in-person clinics where volunteer caseworkers, attorneys, and social workers help with name changes and license, passport, birth certificate, and Social Security paperwork. Financial assistance for document fees is available by application. Next clinic dates are announced on the site and newsletter.
+      es: Clínicas presenciales gratuitas donde voluntarios, abogados y trabajadores sociales ayudan con cambios de nombre y trámites de licencia, pasaporte, acta de nacimiento y Seguro Social. Hay ayuda económica para tarifas mediante solicitud.
+    url: https://genderjusticeleague.org/legal-clinics/
+    phone: "206-659-5519"
+    cost: free
+    verification: org_website
+    sources: [gjl-clinics]
+  - id: washingtonlawhelp
+    name: WashingtonLawHelp.org (Northwest Justice Project), Name Change Guide
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free statewide self-help guides and forms for sealed name changes and gender change court orders, written by Northwest Justice Project.
+      es: Guías de autoayuda y formularios gratuitos para cambios de nombre sellados y órdenes de cambio de género, de Northwest Justice Project.
+    url: https://www.washingtonlawhelp.org/en/name-change-guide
+    cost: free
+    verification: org_website
+    sources: [njp-guide]
+  - id: lavender-rights
+    name: Lavender Rights Project
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Seattle-based Black trans-led organization working on housing, policy, and movement lawyering. Its legal services page currently refers people to other providers, including a sliding-scale attorney who handles gender marker change orders. 206-639-7955.
+      es: Organización de Seattle dirigida por personas trans negras que trabaja en vivienda, políticas y abogacía comunitaria. Su página de servicios legales actualmente remite a otros proveedores. 206-639-7955.
+    url: https://www.lavenderrightsproject.org/services/legal-services
+    phone: "206-639-7955"
+    cost: free
+    verification: org_website
+    sources: [lrp-legal]
+  - id: genderbands-wa
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small grants for transition costs including name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+statutes:
+  - cite: RCW 4.24.130
+    title:
+      en: Change of name; any court may hear it; sealed Superior Court petitions for gender identity and safety reasons; mandatory fee waiver on hardship affidavit
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=4.24.130
+related_links:
+  - title: WashingtonLawHelp.org, Name change guide (Northwest Justice Project, reviewed May 2025)
+    url: https://www.washingtonlawhelp.org/en/name-change-guide
+  - title: WashingtonLawHelp.org, Get a court order that confirms your gender change
+    url: https://www.washingtonlawhelp.org/en/get-court-order-confirms-your-gender-change
+    note:
+      en: Optional. Not needed for Washington documents.
+      es: Opcional. No se necesita para documentos de Washington.
+  - title: Advocates for Trans Equality, Washington identity documents
+    url: https://transequality.org/documents/washington-identity-documents
+    note:
+      en: Check the page's last-updated date; federal rules changed in 2025.
+      es: Revisa la fecha de actualización; las reglas federales cambiaron en 2025.
+sources:
+  - id: rcw-4-24-130
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=4.24.130
+    title: RCW 4.24.130, Action for change of name, fees (as amended 2023 c 34)
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon affidavit by the person seeking the name change or a qualified legal service provider that the person is unable to pay the fees due to financial hardship, the court shall waive all fees.
+  - id: njp-guide
+    url: https://www.washingtonlawhelp.org/en/name-change-guide
+    title: Name change guide (last review May 8, 2025)
+    publisher: Northwest Justice Project, WashingtonLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: Name changes don't have to be published in the newspaper in Washington.
+  - id: njp-410
+    url: https://assets.washingtonlawhelp.org/sites/default/files/forms/pdf/2025-05/njp-license-410-petition-for-sealed-name-change-2025_03.pdf
+    title: NJP License 410, Petition for Sealed Name Change (rev. 03/2025)
+    publisher: Northwest Justice Project
+    kind: form
+    accessed: "2026-09-24"
+    quote: Yes, this is related to gender expression or identity as defined in RCW 49.60.040.
+  - id: kcdc-name-change
+    url: https://kingcounty.gov/en/court/district-court/courts-jails-legal-system/name-changes
+    title: Name changes, King County District Court
+    publisher: King County
+    kind: court
+    accessed: "2026-09-24"
+    quote: $98 per application (only collected once for a family name change)
+  - id: kc-clerk-faq
+    url: https://kingcounty.gov/en/dept/dja/courts-jails-legal-system/court-services-resources/dja-faqs
+    title: Superior Court Clerk frequently asked questions
+    publisher: King County Department of Judicial Administration
+    kind: court
+    accessed: "2026-09-24"
+    quote: To change your name, you must file a Petition for Change of Name and pay the $290.00 filing fee.
+  - id: dol-name
+    url: https://dol.wa.gov/driver-licenses-and-permits/update-driver-license-information/change-your-name-or-address-your-driver-license
+    title: Change your name or address on your driver license
+    publisher: Washington State Department of Licensing
+    kind: official
+    accessed: "2026-09-24"
+  - id: qlaw-clinic
+    url: https://www.qlawfoundation.org/2slgbtqialegalclinic/
+    title: 2SLGBTQIA+ Legal Clinic
+    publisher: QLaw Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: gjl-clinics
+    url: https://genderjusticeleague.org/legal-clinics/
+    title: Legal clinics
+    publisher: Gender Justice League
+    kind: org
+    accessed: "2026-09-24"
+  - id: lrp-legal
+    url: https://www.lavenderrightsproject.org/services/legal-services
+    title: Legal services and referrals
+    publisher: Lavender Rights Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

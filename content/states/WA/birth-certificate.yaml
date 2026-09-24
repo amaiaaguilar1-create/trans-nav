@@ -1,0 +1,235 @@
+guide_type: birth_certificate
+jurisdiction: WA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Read 2026-09-24: DOH sex designation change page, forms DOH 422-143 (July 2022; text extracted), 422-144 (URL
+    confirmed, text not read), 422-126, DOH court-ordered name change page, WAC 246-490-075. Reviewer: (1) confirm the
+    three-business-day processing time quoted on the DOH page (the general corrections page says four months and the name
+    change page two months); (2) whether DOH seals the prior record; the form says only that nothing on the new record
+    indicates a change; (3) the WAC statutory authority is listed as RCW 43.70.150 and 43.70.160; the vital records
+    statute is now chapter 70.58A RCW.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Washington, you can change the sex on your birth certificate to M, F, or X with a notarized
+    one-page form. No court order, doctor's letter, or surgery. The change itself is free; each new certified copy is $25.
+  es: >-
+    Si naciste en Washington, puedes cambiar el sexo en tu acta de nacimiento a M, F o X con un formulario de una página
+    notariado. Sin orden judicial, carta médica ni cirugía. El cambio es gratis; cada copia certificada nueva cuesta $25.
+summary:
+  en: |
+    The Department of Health (DOH), Center for Health Statistics, changes sex designations under WAC 246-490-075. Adults (and emancipated minors) sign the request in front of a notary; DOH does not accept, or need, a court order or physician letter. For minors, a parent or guardian applies and a licensed health care or mental health provider signs. The new record does not show that a change was made.
+
+    You can change your name on the certificate in the same request if you include a certified copy of your court-ordered name change. This guide only covers people **born in Washington**. If you were born in another state or country, follow that place's rules.
+  es: |
+    El Departamento de Salud (DOH), Centro de Estadísticas de Salud, cambia la designación de sexo según WAC 246-490-075. Los adultos (y menores emancipados) firman la solicitud ante notario; el DOH no acepta ni necesita orden judicial ni carta médica. Para menores, un padre o tutor presenta la solicitud y la firma un proveedor de salud o salud mental con licencia. El nuevo registro no muestra que hubo un cambio.
+
+    Puedes cambiar tu nombre en el acta en la misma solicitud si incluyes una copia certificada de tu orden judicial de cambio de nombre. Esta guía es solo para personas **nacidas en Washington**. Si naciste en otro estado o país, sigue las reglas de ese lugar.
+eligibility:
+  residency:
+    en: You must have been born in Washington. Where you live now does not matter.
+    es: Debes haber nacido en Washington. No importa dónde vivas ahora.
+  age:
+    en: Adults 18 and older and emancipated minors use DOH 422-143. Minors use DOH 422-144, filed by a parent or guardian.
+    es: Adultos de 18 años o más y menores emancipados usan el DOH 422-143. Los menores usan el DOH 422-144, presentado por un padre o tutor.
+  sources: [doh-sex-designation, doh-422-143, wac-246-490-075]
+forms:
+  - id: DOH 422-143
+    name:
+      en: Request to Change Sex Designation on a Birth Certificate for an Adult
+      es: Solicitud de cambio de designación de sexo en un acta de nacimiento para adultos
+    url: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-143-SexDesignationChangeAdult.pdf
+    required: conditional
+    condition:
+      en: Adults 18+ and emancipated minors (include proof of emancipation). A guardian of an adult includes proof of guardianship.
+      es: Adultos de 18+ y menores emancipados (incluye prueba de emancipación).
+    how_to_fill:
+      en: |
+        - Your name as it appears on the birth certificate, then your full current legal name if different.
+        - If your current legal name is different, you **must** attach a certified court order. Check "Amend name on birth certificate? Yes" if you want the new name on the certificate.
+        - Check the current sex designation and the one you want (Male, Female, or X).
+        - Sign **in front of a notary**. Many banks and UPS stores notarize for a small fee or free.
+      es: |
+        - Tu nombre como aparece en el acta, y tu nombre legal actual si es diferente.
+        - Si tu nombre legal actual es diferente, **debes** adjuntar una orden judicial certificada. Marca "Sí" si quieres el nuevo nombre en el acta.
+        - Marca el sexo actual y el que deseas (Masculino, Femenino o X).
+        - Firma **ante notario**.
+    sources: [doh-422-143]
+  - id: DOH 422-144
+    name:
+      en: Request to Change Sex Designation on a Birth Certificate for a Minor
+      es: Solicitud de cambio de designación de sexo en un acta de nacimiento para menores
+    url: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-144-SexDesignationChangeMinor.pdf
+    required: conditional
+    condition:
+      en: Minors under 18. Completed and signed by a parent or legal guardian, signed by a licensed health care or mental health care provider, with a copy of the parent's photo ID.
+      es: Menores de 18 años. Lo llena y firma un padre o tutor, lo firma un proveedor de salud o salud mental con licencia, con copia de la identificación del padre.
+    sources: [doh-sex-designation, wac-246-490-075]
+  - id: DOH 422-182
+    name:
+      en: Birth Certificate Order Form
+      es: Formulario de pedido de acta de nacimiento
+    url: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-182-BirthCertificateOrderForm.pdf
+    url_es: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-182-BirthCertificateOrderFormSpanish.pdf
+    required: optional
+    condition:
+      en: The change does not automatically send you a new certificate. Include this form and $25 per copy to receive one.
+      es: El cambio no te envía automáticamente un acta nueva. Incluye este formulario y $25 por copia para recibirla.
+    sources: [doh-sex-designation, doh-422-143]
+  - id: DOH 422-126
+    name:
+      en: Court Order Legal Name Change Request
+      es: Solicitud de cambio de nombre legal por orden judicial
+    url: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-126-LegalNameChangeRequest.pdf
+    url_es: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-126-LegalNameChangeRequestSpanish.pdf
+    required: optional
+    condition:
+      en: Only to update your name without a sex designation change. Send with a certified copy of the court order (it will not be returned).
+      es: Solo para actualizar tu nombre sin cambiar la designación de sexo. Envíalo con una copia certificada de la orden judicial (no se devuelve).
+    sources: [doh-name-change]
+steps:
+  - id: fill
+    title:
+      en: Fill out the request form
+      es: Llena el formulario de solicitud
+    body:
+      en: Adults use DOH 422-143; parents of minors use DOH 422-144 and have the child's licensed health care or mental health provider sign it. Add DOH 422-182 if you want a new certificate mailed to you.
+      es: Los adultos usan el DOH 422-143; los padres de menores usan el DOH 422-144 con la firma del proveedor de salud del menor. Agrega el DOH 422-182 si quieres que te envíen un acta nueva.
+    forms: [DOH 422-143, DOH 422-144, DOH 422-182]
+    sources: [doh-sex-designation, doh-422-143]
+  - id: notarize
+    title:
+      en: Sign in front of a notary (adults)
+      es: Firma ante notario (adultos)
+    body:
+      en: Do not sign until you are with the notary. The signature is under penalty of perjury.
+      es: No firmes hasta estar con el notario. La firma es bajo pena de perjurio.
+    applies_to: [adult]
+    sources: [doh-422-143, wac-246-490-075]
+  - id: name
+    title:
+      en: Attach your name change order if your name changed
+      es: Adjunta tu orden de cambio de nombre si cambiaste de nombre
+    body:
+      en: If your current legal name differs from the certificate, include a certified copy of the court order (photocopies are not accepted and it is not returned). You can have the new name put on the certificate in the same request.
+      es: Si tu nombre legal actual es distinto al del acta, incluye una copia certificada de la orden judicial (no se aceptan fotocopias y no se devuelve). Puedes poner el nuevo nombre en el acta en la misma solicitud.
+    applies_to: [name_change]
+    sources: [doh-422-143, doh-name-change]
+  - id: submit
+    title:
+      en: Mail it or bring it to an appointment
+      es: Envíalo por correo o llévalo a una cita
+    body:
+      en: |
+        Mail to Center for Health Statistics, Department of Health, PO Box 47814, Olympia, WA 98504-7814, with a check or money order for $25 per certificate ordered. Or book an in-person appointment (no walk-ins). Questions: SexDesignationChange@doh.wa.gov or 360-236-4300.
+      es: |
+        Envía a Center for Health Statistics, Department of Health, PO Box 47814, Olympia, WA 98504-7814, con cheque o giro de $25 por cada acta que pidas. O haz una cita en persona (no se atiende sin cita). Preguntas: SexDesignationChange@doh.wa.gov o 360-236-4300.
+    fees: [amendment, certified-copy]
+    sources: [doh-sex-designation]
+  - id: receive
+    title:
+      en: Receive your new certificate
+      es: Recibe tu nueva acta
+    body:
+      en: DOH says it processes sex designation changes in about three business days; allow up to two weeks for mail.
+      es: El DOH dice que procesa los cambios en unos tres días hábiles; espera hasta dos semanas por el correo.
+    estimated_time:
+      en: about 2 weeks
+      es: unas 2 semanas
+    sources: [doh-sex-designation]
+fees:
+  - id: amendment
+    label:
+      en: Change the sex designation on the record
+      es: Cambio de designación de sexo en el registro
+    amount: 0
+    sources: [doh-sex-designation, doh-422-143]
+  - id: certified-copy
+    label:
+      en: Certified copy of the new birth certificate (each)
+      es: Copia certificada del acta nueva (cada una)
+    amount: 25
+    note:
+      en: If you send in a certified copy issued less than one year ago, DOH exchanges it at no charge.
+      es: Si envías una copia certificada emitida hace menos de un año, el DOH la cambia sin costo.
+    sources: [doh-sex-designation, doh-422-143]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No fee waiver is listed, but the change itself is free; only certificate copies cost money.
+    es: No hay exención publicada, pero el cambio es gratis; solo las copias tienen costo.
+  sources: [doh-422-143]
+minors:
+  summary:
+    en: A parent or legal guardian applies with DOH 422-144 and a copy of their photo ID. The child's licensed health care or mental health care provider must sign, attesting that the change is consistent with the child's identity. Separately, parents can change a Washington-born child's first and middle name once without a court order using the Affidavit for Correction if all listed parents sign.
+    es: Un padre o tutor presenta el DOH 422-144 con copia de su identificación. Un proveedor de salud o salud mental con licencia del menor debe firmar que el cambio es coherente con su identidad. Aparte, los padres pueden cambiar una vez el nombre y segundo nombre de un menor nacido en Washington sin orden judicial con la Declaración Jurada de Corrección si todos los padres firman.
+  forms: [DOH 422-144]
+  sources: [doh-sex-designation, wac-246-490-075, njp-guide]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail, or in person by appointment only.
+    es: Por correo, o en persona solo con cita.
+  sources: [doh-sex-designation]
+timeline:
+  en: About three business days to process, plus up to two weeks for mail.
+  es: Unos tres días hábiles de proceso, más hasta dos semanas por correo.
+after:
+  en: |
+    Use the new certificate for state records. DOH itself warns that it is unsure whether federal agencies such as the passport office will accept amended certificates; as of September 2026 the passport and Social Security sex fields cannot be changed regardless. Keep your court order with the certificate so you can link your old and new names.
+  es: |
+    Usa la nueva acta para registros estatales. El propio DOH advierte que no sabe si agencias federales como la oficina de pasaportes aceptarán actas enmendadas; a septiembre de 2026 los campos de sexo del pasaporte y del Seguro Social no se pueden cambiar de todos modos. Guarda tu orden judicial con el acta para vincular tu nombre anterior y el nuevo.
+tips:
+  - en: Nothing on the new record shows that a change was made, which can make it harder to connect to documents in your old name. Keep certified copies of your name change order.
+    es: Nada en el nuevo registro muestra que hubo un cambio, lo que puede dificultar vincularlo con documentos en tu nombre anterior. Guarda copias certificadas de tu orden de cambio de nombre.
+statutes:
+  - cite: WAC 246-490-075
+    title:
+      en: Changing sex designation (M, F, or X) on a birth certificate; adults by notarized self-attestation, minors with provider statement
+    url: https://app.leg.wa.gov/WAC/default.aspx?cite=246-490-075
+related_links:
+  - title: Advocates for Trans Equality, Washington identity documents
+    url: https://transequality.org/documents/washington-identity-documents
+sources:
+  - id: doh-sex-designation
+    url: https://doh.wa.gov/licenses-permits-and-certificates/vital-records/sex-designation-change-birth-certificate
+    title: Sex designation change on a birth certificate
+    publisher: Washington State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: A Washington State birth certificate has three options for sex designation, M, F, and X.
+  - id: doh-422-143
+    url: https://doh.wa.gov/sites/default/files/legacy/Documents/Pubs/422-143-SexDesignationChangeAdult.pdf
+    title: DOH 422-143, Request to Change Sex Designation on a Birth Certificate for an Adult (July 2022)
+    publisher: Washington State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: There is no fee to amend the record.
+  - id: doh-name-change
+    url: https://doh.wa.gov/licenses-permits-and-certificates/vital-records/court-ordered-name-change
+    title: Court-ordered name change
+    publisher: Washington State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: wac-246-490-075
+    url: https://app.leg.wa.gov/WAC/default.aspx?cite=246-490-075
+    title: WAC 246-490-075
+    publisher: Washington State Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: njp-guide
+    url: https://www.washingtonlawhelp.org/en/name-change-guide
+    title: Name change guide (minor name changes through the birth certificate)
+    publisher: Northwest Justice Project, WashingtonLawHelp.org
+    kind: org
+    accessed: "2026-09-24"

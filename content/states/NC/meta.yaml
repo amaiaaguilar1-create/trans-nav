@@ -1,0 +1,164 @@
+code: NC
+name:
+  en: North Carolina
+  es: Carolina del Norte
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on statutes read 2026-09-24 (G.S. 12-3.3 from HB 805, G.S. 90-21.151 from HB 808,
+    G.S. 143C-6-5.6, G.S. 130A-118) and on the current NCDMV DL-300 form and the NC Vital Records modification
+    application. It is unconfirmed whether NCDMV or Vital Records have changed practice since the HB 805 sex
+    definitions took effect on January 1, 2026; both agencies still publish the provider-certification routes.
+overview:
+  en: >-
+    North Carolina is mixed for ID documents and restrictive for care. Name changes go through the county clerk of
+    superior court and need fingerprint background checks and two character affidavits, although the courthouse
+    posting notice ended on December 1, 2025. Driver's licenses and birth certificates can still be changed to M or F
+    with a form signed by a provider, but a 2025 law (HB 805) defines sex as fixed at conception, and changed birth
+    certificates are now kept, and copied, as a multi-page record with the original attached. Care for minors is
+    banned, state money cannot pay for transition surgery at any age, and the State Health Plan exclusion is back in
+    force. North Carolina has no shield law.
+  es: >-
+    Carolina del Norte es mixto para documentos de identidad y restrictivo para la atención médica. Los cambios de
+    nombre se tramitan ante el secretario del tribunal superior del condado y requieren huellas dactilares,
+    verificación de antecedentes y dos declaraciones de buena conducta, aunque el aviso público en el tribunal se
+    eliminó el 1 de diciembre de 2025. Las licencias y actas de nacimiento todavía pueden cambiarse a M o F con un
+    formulario firmado por un proveedor, pero una ley de 2025 (HB 805) define el sexo como fijo desde la concepción, y
+    las actas cambiadas ahora se guardan y copian como un documento de varias páginas junto con el original. La
+    atención para menores está prohibida, los fondos estatales no pueden pagar cirugías de transición a ninguna edad y
+    el plan de salud estatal volvió a excluirlas. Carolina del Norte no tiene ley escudo.
+climate:
+  id_documents: mixed
+  care: restrictive
+  shield_law: false
+  sources: [hb805, gs-90-21-151, gs-143c-6-5-6, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [charlotte]
+key_resources:
+  - id: cse
+    name: Campaign for Southern Equality
+    type: advocacy_org
+    pillars: [hrt, insurance, mental_health]
+    description:
+      en: >-
+        Asheville-based regional organization. Runs the Trans in the South directory of trans-affirming health and
+        service providers and the Trans Youth Emergency Project, which gives families patient navigation and travel
+        grants (up to $500, renewable) when a state ban cuts off a young person's care.
+      es: >-
+        Organización regional con sede en Asheville. Mantiene el directorio Trans in the South de proveedores de salud
+        y servicios que afirman a personas trans, y el Trans Youth Emergency Project, que ofrece a las familias
+        navegación y becas de viaje (hasta $500, renovables) cuando una prohibición estatal corta la atención de un joven.
+    url: https://southernequality.org/
+    cost: free
+    verification: org_website
+    sources: [cse, cse-tyep, cse-tits]
+  - id: equality-nc
+    name: Equality North Carolina
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide LGBTQ advocacy organization with a resource hub and policy updates on North Carolina laws. Phone 919-829-0343.
+      es: Organización estatal de defensa LGBTQ con un centro de recursos y actualizaciones sobre las leyes de Carolina del Norte. Teléfono 919-829-0343.
+    url: https://equalitync.org/
+    phone: "919-829-0343"
+    cost: free
+    verification: org_website
+    sources: [equality-nc]
+  - id: ncba-lgbtq-clinic
+    name: NC Bar Association LGBTQ+ Legal Clinics (name change)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: >-
+        Pro bono clinics run by the NC Bar Association's Sexual Orientation and Gender Identity Committee and the NC
+        Bar Foundation, where volunteer attorneys, paralegals, and law students help trans North Carolinians prepare
+        name change filings. Clinic dates are announced by the Foundation; contact it for the next one.
+      es: >-
+        Clínicas gratuitas del Comité de Orientación Sexual e Identidad de Género de la Asociación de Abogados de
+        Carolina del Norte y la NC Bar Foundation, donde abogados voluntarios, asistentes legales y estudiantes de
+        derecho ayudan a personas trans a preparar su cambio de nombre. Contacta a la Fundación para la próxima fecha.
+    url: https://www.ncbarfoundation.org/our-programs/ncba-pro-bono-initiatives/
+    cost: free
+    verification: org_website
+    sources: [ncbf-probono]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: hb805
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H805v5.HTML
+    title: HB 805 (2025), ratified, S.L. 2025-84 (sex definitions, birth certificates, State funds)
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Female. – A person belonging, at conception, to the sex characterized by a reproductive system with the biological function of producing ova."
+  - id: gs-90-21-151
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.151.html
+    title: G.S. 90-21.151, Limitations on gender transition procedures
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: It shall be unlawful for a medical professional to perform a surgical gender transition procedure on a minor or to prescribe, provide, or dispense puberty-blocking drugs or cross-sex hormones to a minor.
+  - id: gs-143c-6-5-6
+    url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_143C/GS_143C-6-5.6.html
+    title: G.S. 143C-6-5.6, Limitation on use of State funds for gender transition procedures
+    publisher: North Carolina General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/profile_state/NC
+    title: North Carolina equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse
+    url: https://southernequality.org/
+    title: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Travel grants of $500 to help pay for travel expenses, renewable up to four times a year.
+  - id: cse-tits
+    url: https://southernequality.org/resources/transinthesouth/
+    title: Trans in the South Guide, a directory of trans-affirming health and service providers
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: equality-nc
+    url: https://equalitync.org/
+    title: Equality North Carolina
+    kind: org
+    accessed: "2026-09-24"
+  - id: ncbf-probono
+    url: https://www.ncbarfoundation.org/our-programs/ncba-pro-bono-initiatives/
+    title: NCBA Pro Bono Initiatives (LGBTQ+ Legal Clinics)
+    publisher: North Carolina Bar Foundation
+    kind: org
+    accessed: "2026-09-24"
+    quote: The LGBTQ+ Legal Clinic seeks to support transgender North Carolinians in drafting the required documents and filings for seeking a legal name change to affirm their gender.
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

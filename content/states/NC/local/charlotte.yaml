@@ -1,0 +1,223 @@
+jurisdiction: NC
+slug: charlotte
+name: Charlotte
+area:
+  en: Mecklenburg County and the Charlotte metro area
+  es: Condado de Mecklenburg y el área metropolitana de Charlotte
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    nccourts.gov blocks automated access, so the Mecklenburg clerk page was not read; the $120 fee is the statewide
+    figure from the NC Bar Foundation sheet. Mecklenburg Sheriff fingerprint portal (mcso.permitium.com) resolves; the
+    $10 fee plus an online convenience fee is from search-result text, not read on the page. Time Out Youth address and
+    phones read from its homepage. Carolinas CARE Partnership and Planned Parenthood pages could not be read (JavaScript
+    rendering / HTTP 403); their services are community_reported. Reviewer: verify hours, new-patient status, and
+    whether the NCBA LGBTQ+ clinic has upcoming Charlotte dates.
+intro:
+  en: >-
+    Charlotte has North Carolina's largest concentration of trans community services, including Charlotte Trans Health
+    (provider directory and financial help for care) and Time Out Youth for LGBTQ+ people 13 to 24. Name change
+    applications are filed with the Mecklenburg County Clerk of Superior Court, Special Proceedings. Fingerprints for
+    the required background checks are taken by the Mecklenburg County Sheriff's Office after you apply online.
+  es: >-
+    Charlotte concentra la mayor cantidad de servicios comunitarios trans de Carolina del Norte, incluidos Charlotte
+    Trans Health (directorio de proveedores y ayuda financiera para atención) y Time Out Youth para personas LGBTQ+ de
+    13 a 24 años. Las solicitudes de cambio de nombre se presentan ante el Secretario del Tribunal Superior del condado
+    de Mecklenburg, Procedimientos Especiales. Las huellas para la verificación de antecedentes las toma la Oficina
+    del Sheriff del condado de Mecklenburg tras solicitar en línea.
+court:
+  name: Mecklenburg County Clerk of Superior Court (Special Proceedings)
+  url: https://www.nccourts.gov/locations/mecklenburg-county
+  self_help_url: https://northcarolina.tylertech.cloud/SRL/SRL
+  filing_fee: 120
+  notes:
+    en: The clerk's office is open 9 a.m. to 5 p.m., Monday through Friday. Get fingerprints through the Mecklenburg County Sheriff's online fingerprint application (about $10 plus a convenience fee), then request your FBI and SBI checks before filing.
+    es: La oficina abre de 9 a.m. a 5 p.m., de lunes a viernes. Solicita huellas en línea con el Sheriff del condado de Mecklenburg (unos $10 más un cargo), luego pide tus verificaciones del FBI y del SBI antes de presentar.
+  sources: [nccourts-meck, mcso-fingerprint, ncbf-info]
+resources:
+  - id: charlotte-trans-health
+    name: Charlotte Trans Health
+    type: insurance_help
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Trans-led nonprofit with a Find a Provider directory of gender-affirming clinicians, the Access to Care program (funds mental health care, case management, medical care, prescription refills, and surgery), and the county-funded PATH program. Email info@charlottetranshealth.org.
+      es: Organización dirigida por personas trans con un directorio de proveedores, el programa Access to Care (financia salud mental, manejo de casos, atención médica, recetas y cirugía) y el programa PATH financiado por el condado.
+    url: https://charlottetranshealth.org/
+    cost: free
+    verification: org_website
+    sources: [cth, cth-access]
+  - id: time-out-youth
+    name: Time Out Youth
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: LGBTQ+ youth center for ages 13 to 24 with a drop-in space, free counseling, and youth programs. 704-344-8335.
+      es: Centro para jóvenes LGBTQ+ de 13 a 24 años con espacio abierto, consejería gratuita y programas. 704-344-8335.
+    url: https://timeoutyouth.org/
+    phone: "704-344-8335"
+    address: 3800 Monroe Rd, Charlotte, NC 28205
+    cost: free
+    verification: org_website
+    sources: [toy]
+  - id: ncba-lgbtq-clinic
+    name: NC Bar Association LGBTQ+ Legal Clinics
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Pro bono clinics where volunteer attorneys and law students help trans North Carolinians draft name change filings. Contact the NC Bar Foundation for dates.
+      es: Clínicas gratuitas donde abogados voluntarios y estudiantes de derecho ayudan a personas trans a preparar el cambio de nombre.
+    url: https://www.ncbarfoundation.org/our-programs/ncba-pro-bono-initiatives/
+    cost: free
+    verification: org_website
+    sources: [ncbf-probono]
+  - id: legal-aid-nc
+    name: Legal Aid of North Carolina
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for people with low incomes statewide, including the Charlotte area. Apply through Get Help.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en todo el estado, incluida Charlotte.
+    url: https://legalaidnc.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [legalaidnc]
+  - id: pp-charlotte
+    org: planned-parenthood
+    name: Planned Parenthood South Atlantic, Charlotte
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Reported to offer informed-consent hormone therapy for adults 18 and older, plus STI testing and PrEP. Confirm current services by phone.
+      es: Se informa que ofrece terapia hormonal por consentimiento informado para adultos de 18 años o más, además de pruebas de ITS y PrEP.
+    url: https://www.plannedparenthood.org/planned-parenthood-south-atlantic
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [pp-south-atlantic]
+  - id: carolinas-care
+    name: Carolinas CARE Partnership
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Charlotte-based HIV services organization. Reported to offer HIV testing and PrEP navigation; confirm services directly.
+      es: Organización de servicios de VIH en Charlotte. Se informa que ofrece pruebas de VIH y navegación de PrEP.
+    url: https://www.carolinascare.org/
+    cost: free
+    verification: community_reported
+    sources: [carolinas-care]
+  - id: trans-in-the-south
+    name: Trans in the South directory
+    type: other
+    pillars: [hrt, mental_health]
+    description:
+      en: Campaign for Southern Equality's directory of trans-affirming health and service providers, searchable by city.
+      es: Directorio de Campaign for Southern Equality de proveedores que afirman a personas trans, por ciudad.
+    url: https://southernequality.org/resources/transinthesouth/
+    cost: free
+    verification: org_website
+    sources: [cse-tits]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for sliding-scale federally qualified health centers in Mecklenburg County. Ask whether they prescribe gender-affirming hormones.
+      es: Localizador oficial de centros de salud con escala móvil en el condado de Mecklenburg.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: nccourts-meck
+    url: https://www.nccourts.gov/locations/mecklenburg-county
+    title: Mecklenburg County
+    publisher: North Carolina Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+  - id: mcso-fingerprint
+    url: https://mcso.permitium.com/fingerprint/start
+    title: Mecklenburg County Fingerprint Application
+    publisher: Mecklenburg County Sheriff's Office
+    kind: official
+    accessed: "2026-09-24"
+  - id: ncbf-info
+    url: https://www.ncbarfoundation.org/wp-content/uploads/2024/10/Name-Change-Petition-Information.pdf
+    title: Adult Name Change Petition Information and Resources
+    publisher: North Carolina Bar Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: cth
+    url: https://charlottetranshealth.org/
+    title: Charlotte Trans Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: cth-access
+    url: https://charlottetranshealth.org/access/
+    title: Access To Care
+    publisher: Charlotte Trans Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: toy
+    url: https://timeoutyouth.org/
+    title: Time Out Youth
+    kind: org
+    accessed: "2026-09-24"
+    quote: Time Out Youth is a place where LGBTQ+ youth ages 13-24 can experience a sense of belonging and community.
+  - id: ncbf-probono
+    url: https://www.ncbarfoundation.org/our-programs/ncba-pro-bono-initiatives/
+    title: NCBA Pro Bono Initiatives (LGBTQ+ Legal Clinics)
+    publisher: North Carolina Bar Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: legalaidnc
+    url: https://legalaidnc.org/get-help/
+    title: Get Help
+    publisher: Legal Aid of North Carolina
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-south-atlantic
+    url: https://www.plannedparenthood.org/planned-parenthood-south-atlantic
+    title: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+  - id: carolinas-care
+    url: https://www.carolinascare.org/
+    title: Carolinas CARE Partnership
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tits
+    url: https://southernequality.org/resources/transinthesouth/
+    title: Trans in the South Guide
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

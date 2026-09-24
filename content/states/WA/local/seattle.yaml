@@ -1,0 +1,272 @@
+jurisdiction: WA
+slug: seattle
+name: Seattle
+area:
+  en: Seattle and King County
+  es: Seattle y el Condado de King
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the King County District Court name-change page and the Superior Court clerk FAQ (2026-09-24).
+    Org details read on their own sites for QLaw Foundation, Gender Justice League, Ingersoll Gender Center, Lavender
+    Rights Project, Seattle Children's, and Neighborcare. Neighborcare's site does not list gender-affirming hormone
+    therapy; it is included as a sliding-scale FQHC only. Could NOT load (marked unverified): Country Doctor Community
+    Health Centers (connection refused on countrydoctor.org), UW Medicine (403), Gay City (403). Seattle Counseling
+    Service and Lambert House homepages resolved (HTTP 200) but their service details were not read. The Public Health
+    Seattle & King County Sexual Health Clinic page URL tried returned 404, so it is not listed; reviewer should add it.
+intro:
+  en: >-
+    Seattle has many trans-led organizations and free legal clinics. File a public name change at any King County
+    District Court location, or a sealed (private) gender-related name change at King County Superior Court. Free help
+    with the paperwork is available from QLaw Foundation and Gender Justice League.
+  es: >-
+    Seattle tiene muchas organizaciones dirigidas por personas trans y clínicas legales gratuitas. Presenta un cambio de
+    nombre público en cualquier sede del Tribunal de Distrito del Condado de King, o un cambio sellado (privado)
+    relacionado con el género en el Tribunal Superior del Condado de King. QLaw Foundation y Gender Justice League
+    ayudan gratis con los trámites.
+court:
+  name: King County District Court (public name changes) and King County Superior Court (sealed name changes)
+  url: https://kingcounty.gov/en/court/district-court/courts-jails-legal-system/name-changes
+  filing_fee: 98
+  notes:
+    en: |
+      **District Court (public)**: $98 filing fee plus a $203.50 recording fee paid to the King County Recorder's Office; certified copies $5. File in person at any location, by mail, or through the e-filing portal. Hearings at seven courthouses, mostly at 1:00 pm; paying in cash can get a hearing sooner. Bring valid photo ID.
+
+      **Superior Court (sealed, for gender identity)**: $290 filing fee per the clerk's FAQ; the file is sealed and not sent to the recorder. Schedule the hearing through the Ex Parte and Probate Department. Clerk's office: 206-296-9300.
+
+      Both fees can be waived with a Motion and Declaration for Waiver of Civil Fees and Surcharges.
+    es: |
+      **Tribunal de Distrito (público)**: $98 de presentación más $203.50 de registro pagados a la Oficina del Registrador; copias certificadas $5. Presenta en persona, por correo o en el portal electrónico. Lleva identificación con foto.
+
+      **Tribunal Superior (sellado, por identidad de género)**: $290 según las preguntas frecuentes del secretario; el expediente se sella. La audiencia se programa con el Departamento Ex Parte y Sucesiones. Oficina del secretario: 206-296-9300.
+
+      Ambas tarifas se pueden exentar.
+  sources: [kcdc-name-change, kc-clerk-faq]
+resources:
+  - id: qlaw-clinic
+    name: QLaw Foundation, 2SLGBTQIA+ Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free 30-minute phone consultations with volunteer attorneys, including name and gender marker changes, on the 1st Friday and 3rd Monday of each month. Request help online or call 206-483-2725 ext. 102.
+      es: Consultas telefónicas gratuitas de 30 minutos con abogados voluntarios, incluidos cambios de nombre y marcador de género, el primer viernes y tercer lunes de cada mes. 206-483-2725 ext. 102.
+    url: https://www.qlawfoundation.org/2slgbtqialegalclinic/
+    phone: "206-483-2725"
+    cost: free
+    verification: org_website
+    sources: [qlaw-clinic]
+  - id: gjl-clinics
+    name: Gender Justice League, ID document clinics and financial help
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free in-person clinics with volunteer caseworkers for name changes and license, passport, birth certificate, and Social Security updates, plus financial assistance for fees. Clinic dates are announced on the website and newsletter. 206-659-5519.
+      es: Clínicas presenciales gratuitas con voluntarios para cambios de nombre y actualización de documentos, más ayuda económica para tarifas. 206-659-5519.
+    url: https://genderjusticeleague.org/legal-clinics/
+    phone: "206-659-5519"
+    cost: free
+    verification: org_website
+    sources: [gjl-clinics]
+  - id: lavender-rights
+    name: Lavender Rights Project
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Black trans-led Seattle organization focused on housing justice, policy, and movement lawyering. Its legal page currently lists referrals, including a sliding-scale attorney for gender marker change orders and free youth legal aid (TeamChild). 206-639-7955.
+      es: Organización de Seattle dirigida por personas trans negras enfocada en vivienda, políticas y abogacía comunitaria. Su página legal remite a otros proveedores. 206-639-7955.
+    url: https://www.lavenderrightsproject.org/services/legal-services
+    phone: "206-639-7955"
+    cost: free
+    verification: org_website
+    sources: [lrp-legal]
+  - id: ingersoll
+    name: Ingersoll Gender Center
+    type: lgbtq_center
+    pillars: [mental_health, hrt]
+    description:
+      en: By-and-for trans organization with free peer support groups, resource navigation, a job board, and a trans-friendly health care provider directory.
+      es: Organización por y para personas trans con grupos de apoyo gratuitos, navegación de recursos, bolsa de trabajo y directorio de proveedores de salud.
+    url: https://ingersollgendercenter.org/
+    phone: "206-849-7859"
+    address: 911 E Pike St, Suite 221, Seattle, WA 98122
+    cost: free
+    verification: org_website
+    sources: [ingersoll]
+  - id: seattle-childrens-gender-clinic
+    name: Seattle Children's Gender Clinic
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Gender-affirming care for children and adolescents; medical care after puberty starts, with parent or guardian consent. 206-987-2028.
+      es: Atención de afirmación de género para niños y adolescentes; atención médica después del inicio de la pubertad, con consentimiento de los padres. 206-987-2028.
+    url: https://www.seattlechildrens.org/clinics/gender-clinic/
+    phone: "206-987-2028"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [seattle-childrens]
+  - id: country-doctor
+    name: Country Doctor Community Health Centers
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Capitol Hill and Central District community health center reported to offer gender-affirming hormone therapy on a sliding scale. Its website could not be loaded when this was written; call to confirm services and new-patient availability.
+      es: Centro de salud comunitario en Capitol Hill y el Central District que, según reportes, ofrece terapia hormonal en escala móvil. No se pudo cargar su sitio; llama para confirmar.
+    url: https://www.countrydoctor.org/
+    cost: sliding_scale
+    verification: unverified
+    sources: [country-doctor]
+  - id: neighborcare
+    name: Neighborcare Health
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Large Seattle community health center network with a sliding fee discount, same-day and walk-in appointments, STI/HIV care, mental health, and insurance enrollment help. Its website does not list gender-affirming hormone therapy; ask your clinic.
+      es: Red de centros de salud comunitarios de Seattle con descuento por escala móvil, citas el mismo día, atención de ITS/VIH, salud mental y ayuda para inscribirse en seguros. Su sitio no menciona terapia hormonal; pregunta en tu clínica.
+    url: https://neighborcare.org/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [neighborcare]
+  - id: uw-medicine
+    name: UW Medicine, gender-affirming care
+    type: hrt_clinic
+    pillars: [hrt]
+    description:
+      en: University of Washington health system offering gender-affirming primary care, hormones, and surgery at several Seattle sites. The website blocked automated access; confirm clinic locations and referral rules by phone.
+      es: Sistema de salud de la Universidad de Washington con atención primaria, hormonas y cirugía de afirmación de género en varias sedes de Seattle. Confirma sedes y requisitos por teléfono.
+    url: https://www.uwmedicine.org/
+    cost: insurance
+    accepts_medicaid: true
+    verification: unverified
+    sources: [uw-medicine]
+  - id: gay-city
+    name: Gay City, Seattle LGBTQ Center
+    type: lgbtq_center
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Capitol Hill LGBTQ center offering free HIV/STI testing and community programs. Website blocked automated access; confirm current testing hours.
+      es: Centro LGBTQ en Capitol Hill con pruebas gratuitas de VIH/ITS y programas comunitarios. Confirma el horario actual.
+    url: https://www.gaycity.org/
+    cost: free
+    verification: unverified
+    sources: [gay-city]
+  - id: seattle-counseling
+    name: Seattle Counseling Service
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Long-running LGBTQ-focused community mental health and substance use agency in Seattle. Services and intake were not reviewed; call to confirm.
+      es: Agencia comunitaria de salud mental y uso de sustancias enfocada en personas LGBTQ en Seattle. Llama para confirmar servicios.
+    url: https://seattlecounseling.org/
+    cost: unknown
+    verification: unverified
+    sources: [seattle-counseling]
+  - id: lambert-house
+    name: Lambert House
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Drop-in center for LGBTQ+ youth in Seattle. Hours and programs were not reviewed.
+      es: Centro de acogida para jóvenes LGBTQ+ en Seattle. No se revisaron horarios ni programas.
+    url: https://lamberthouse.org/
+    cost: free
+    verification: unverified
+    sources: [lambert-house]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: kcdc-name-change
+    url: https://kingcounty.gov/en/court/district-court/courts-jails-legal-system/name-changes
+    title: Name changes, King County District Court
+    publisher: King County
+    kind: court
+    accessed: "2026-09-24"
+    quote: $98 per application (only collected once for a family name change)
+  - id: kc-clerk-faq
+    url: https://kingcounty.gov/en/dept/dja/courts-jails-legal-system/court-services-resources/dja-faqs
+    title: Superior Court Clerk frequently asked questions
+    publisher: King County Department of Judicial Administration
+    kind: court
+    accessed: "2026-09-24"
+    quote: To change your name, you must file a Petition for Change of Name and pay the $290.00 filing fee.
+  - id: qlaw-clinic
+    url: https://www.qlawfoundation.org/2slgbtqialegalclinic/
+    title: 2SLGBTQIA+ Legal Clinic
+    publisher: QLaw Foundation
+    kind: org
+    accessed: "2026-09-24"
+  - id: gjl-clinics
+    url: https://genderjusticeleague.org/legal-clinics/
+    title: Legal clinics
+    publisher: Gender Justice League
+    kind: org
+    accessed: "2026-09-24"
+  - id: lrp-legal
+    url: https://www.lavenderrightsproject.org/services/legal-services
+    title: Legal services and referrals
+    publisher: Lavender Rights Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ingersoll
+    url: https://ingersollgendercenter.org/
+    title: Ingersoll Gender Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: seattle-childrens
+    url: https://www.seattlechildrens.org/clinics/gender-clinic/
+    title: Gender Clinic
+    publisher: Seattle Children's
+    kind: org
+    accessed: "2026-09-24"
+  - id: country-doctor
+    url: https://www.countrydoctor.org/
+    title: Country Doctor Community Health Centers
+    kind: org
+    accessed: "2026-09-24"
+  - id: neighborcare
+    url: https://neighborcare.org/
+    title: Neighborcare Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: uw-medicine
+    url: https://www.uwmedicine.org/
+    title: UW Medicine
+    kind: org
+    accessed: "2026-09-24"
+  - id: gay-city
+    url: https://www.gaycity.org/
+    title: Gay City
+    kind: org
+    accessed: "2026-09-24"
+  - id: seattle-counseling
+    url: https://seattlecounseling.org/
+    title: Seattle Counseling Service
+    kind: org
+    accessed: "2026-09-24"
+  - id: lambert-house
+    url: https://lamberthouse.org/
+    title: Lambert House
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

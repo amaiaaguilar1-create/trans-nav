@@ -1,0 +1,308 @@
+jurisdiction: WA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read 2026-09-24 from the HCA Transhealth program page (including its notice on the CMS rule
+    effective October 13, 2026), HCA's April 2025 FAQ on Apple Health coverage and state law protections, RCW 48.43.0128,
+    chapter 7.115 RCW, and the HB 1469 bill summary. Seattle Children's Gender Clinic page read the same day (operating,
+    parental consent required). Could not load (403 or connection refused): Planned Parenthood Greater Northwest's
+    gender-affirming care page, UW Medicine, Country Doctor. The PP entry is therefore unverified (minimum age and which
+    WA health centers offer hormones not confirmed). Web search budget was exhausted, so no check was made for 2025-2026
+    reports of WA hospitals pausing care for minors under federal pressure, or for litigation over the CMS rule;
+    reviewer should check both, plus MAP's healthcare map. OIC's gender-affirming coverage page URL guessed at
+    /gender-affirming-care returned 404; the general complaint page is used instead.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected for adults and minors in Washington. Apple Health (Medicaid) covers
+    hormones, puberty blockers, surgery, and related care; state-regulated insurance may not exclude it; and a shield law
+    protects patients, families, and providers from other states' actions. A new federal rule stops federal Medicaid money
+    for some care for minors from October 13, 2026; the state says it will use state funds to keep covering it.
+  es: >-
+    La atención de afirmación de género es legal y está protegida para adultos y menores en Washington. Apple Health
+    (Medicaid) cubre hormonas, bloqueadores de pubertad, cirugía y atención relacionada; los seguros regulados por el
+    estado no pueden excluirla; y una ley escudo protege a pacientes, familias y proveedores de acciones de otros estados.
+    Una nueva regla federal elimina el dinero federal de Medicaid para parte de la atención a menores desde el 13 de
+    octubre de 2026; el estado dice que usará fondos estatales para seguir cubriéndola.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Many community clinics and Planned Parenthood health centers prescribe hormones on an **informed consent** basis (no therapist letter). Telehealth prescribing is legal statewide. RCW 18.130.450 says providing medically necessary gender-affirming care within a provider's scope of practice is not unprofessional conduct.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Apple Health** at wahealthplanfinder.org. It covers hormones, labs, and surgery.
+      2. Go to a **community health center** (FQHC). They charge on a sliding scale and must see you regardless of ability to pay. Find one at findahealthcenter.hrsa.gov and ask whether they offer gender-affirming hormone therapy.
+      3. **Planned Parenthood** health centers offer sliding-scale hormone care in several Washington cities.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care (applications open once a year).
+      5. Ingersoll Gender Center keeps a directory of trans-friendly providers.
+    es: |
+      Sin restricciones estatales. Muchas clínicas comunitarias y centros de Planned Parenthood recetan hormonas por **consentimiento informado** (sin carta de terapeuta). La telesalud es legal en todo el estado. RCW 18.130.450 dice que brindar atención de afirmación de género médicamente necesaria no es conducta no profesional.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Apple Health** en wahealthplanfinder.org. Cubre hormonas, laboratorios y cirugía.
+      2. Acude a un **centro de salud comunitario**. Cobran en escala móvil y deben atenderte sin importar tu capacidad de pago. Búscalo en findahealthcenter.hrsa.gov.
+      3. Los centros de **Planned Parenthood** ofrecen atención hormonal en escala móvil en varias ciudades.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud.
+      5. Ingersoll Gender Center tiene un directorio de proveedores.
+  sources: [hca-faq, rcw-18-130-450, hrsa, pop-hrt, ingersoll]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Care for minors follows clinical guidelines and requires a parent's or guardian's consent; Seattle Children's Gender Clinic offers medical care to adolescents who have started puberty, with parental consent (206-987-2028). Washington's shield law (chapter 7.115 RCW, HB 1469, 2023) bars state agencies and courts from cooperating with other states' investigations, subpoenas, or lawsuits over care that is lawful in Washington, lets people sue over such interference, and protects parents and providers who help a young person get care.
+
+      **Federal change:** a Centers for Medicare & Medicaid Services rule prohibits using federal Medicaid and CHIP money for certain gender-affirming care for minors starting **October 13, 2026**. The Health Care Authority says that if federal funds are unavailable it will use state funds to keep covering medically necessary care for eligible Apple Health clients, and will issue detailed guidance. HCA also notes that state law may not override federal enforcement in every case; families with legal concerns should talk to a lawyer.
+    es: |
+      Legal. La atención a menores sigue guías clínicas y requiere consentimiento de un padre o tutor; la Gender Clinic de Seattle Children's atiende a adolescentes que ya iniciaron la pubertad, con consentimiento de los padres (206-987-2028). La ley escudo de Washington (capítulo 7.115 RCW, HB 1469, 2023) impide que agencias y tribunales estatales cooperen con investigaciones, citaciones o demandas de otros estados sobre atención legal en Washington, y protege a padres y proveedores.
+
+      **Cambio federal:** una regla de los Centros de Servicios de Medicare y Medicaid prohíbe usar dinero federal de Medicaid y CHIP para cierta atención de afirmación de género a menores desde el **13 de octubre de 2026**. La Autoridad de Atención Médica dice que, si no hay fondos federales, usará fondos estatales para seguir cubriendo la atención médicamente necesaria para clientes elegibles de Apple Health. HCA también advierte que la ley estatal quizá no anule toda acción federal; las familias con dudas legales deben consultar a un abogado.
+  sources: [seattle-childrens, rcw-7-115, hb1469, hca-transhealth, hca-faq]
+medicaid:
+  program_name: Apple Health (Washington Medicaid)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Apple Health's Transhealth program covers hormone therapy, puberty suppression, speech and voice therapy, behavioral health, labs, surgical consults, gender-affirming surgery and related hospital care, and medically necessary hair removal. Hormones and routine care go through your managed care plan; surgery and hair removal need prior authorization through HCA. For most surgeries HCA generally expects 12 months of hormone therapy and 12 months living in your gender (with exceptions, including for chest surgery), and letters from your providers. By law (RCW 74.09.675) HCA and its plans cannot apply blanket exclusions, and a provider experienced in gender-affirming care must review any denial.
+
+      **Apply** at Washington Healthplanfinder (wahealthplanfinder.org). Questions about gender-affirming coverage can go to applehealth.transhealth@hca.wa.gov.
+    es: |
+      El programa Transhealth de Apple Health cubre terapia hormonal, supresión de la pubertad, terapia de voz, salud conductual, laboratorios, consultas quirúrgicas, cirugía de afirmación de género y hospitalización relacionada, y depilación médicamente necesaria. Las hormonas y la atención de rutina van por tu plan administrado; la cirugía y la depilación requieren autorización previa de HCA. Por ley (RCW 74.09.675) HCA y sus planes no pueden aplicar exclusiones generales, y un proveedor con experiencia debe revisar cualquier negación.
+
+      **Solicita** en Washington Healthplanfinder (wahealthplanfinder.org).
+  how_to_apply_url: https://www.wahealthplanfinder.org/
+  sources: [hca-transhealth, hca-faq, rcw-74-09-675, wac-182-531-1675]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      RCW 48.43.0128 bars state-regulated health plans from denying or limiting medically necessary gender-affirming treatment, and from calling procedures like facial feminization, tracheal shave, electrolysis, or chest surgery "cosmetic" as a blanket exclusion. A denial must be reviewed by a provider experienced in gender-affirming care. State employee and school employee plans (PEBB/SEBB) have the same protection (RCW 41.05.017). If your plan denies care, appeal to the plan, then contact the Office of the Insurance Commissioner's consumer advocates (800-562-6900). Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates.
+    es: |
+      RCW 48.43.0128 prohíbe a los planes regulados por el estado negar o limitar el tratamiento de afirmación de género médicamente necesario, o excluir como "cosmético" procedimientos como feminización facial, reducción de tráquea, electrólisis o cirugía de pecho. Una negación debe revisarla un proveedor con experiencia. Si tu plan niega la atención, apela ante el plan y luego contacta a la Oficina del Comisionado de Seguros (800-562-6900).
+  complaint_url: https://www.insurance.wa.gov/file-complaint-or-check-your-complaint-status
+  sources: [rcw-48-43-0128, hca-faq, oic-complaint, thp]
+telehealth_hrt: [plume, folx, queerdoc, planned-parenthood]
+resources:
+  - id: apple-health-transhealth
+    name: Apple Health Transhealth program (Health Care Authority)
+    type: government_office
+    pillars: [hrt, insurance]
+    description:
+      en: State Medicaid program office for gender-affirming coverage questions and prior authorization. Email applehealth.transhealth@hca.wa.gov.
+      es: Oficina del programa estatal de Medicaid para preguntas sobre cobertura de afirmación de género y autorización previa. Correo applehealth.transhealth@hca.wa.gov.
+    url: https://www.hca.wa.gov/billers-providers-partners/program-information-providers/transhealth-program
+    cost: free
+    accepts_medicaid: true
+    verification: official_source
+    sources: [hca-transhealth]
+  - id: seattle-childrens-gender-clinic
+    name: Seattle Children's Gender Clinic
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Gender-affirming care for children and adolescents; medical care for patients who have started puberty, with parent or guardian consent. 206-987-2028.
+      es: Atención de afirmación de género para niños y adolescentes; atención médica para pacientes que ya iniciaron la pubertad, con consentimiento de padre o tutor. 206-987-2028.
+    url: https://www.seattlechildrens.org/clinics/gender-clinic/
+    phone: "206-987-2028"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [seattle-childrens]
+  - id: pp-washington
+    org: planned-parenthood
+    name: Planned Parenthood health centers in Washington
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Planned Parenthood affiliates in Washington offer gender-affirming hormone therapy at some health centers, with Apple Health accepted and sliding-scale fees. Minimum age and participating centers were not confirmed; use the health center finder and call ahead.
+      es: Las afiliadas de Planned Parenthood en Washington ofrecen terapia hormonal en algunos centros, aceptan Apple Health y cobran en escala móvil. No se confirmaron la edad mínima ni los centros participantes; usa el buscador y llama antes.
+    url: https://www.plannedparenthood.org/health-center
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: unverified
+    sources: [pp-finder]
+  - id: ingersoll
+    name: Ingersoll Gender Center, healthcare provider database
+    type: lgbtq_center
+    pillars: [hrt, mental_health]
+    description:
+      en: Trans-led Seattle organization with free peer support groups and a searchable directory of trans-friendly health care providers in Washington.
+      es: Organización trans de Seattle con grupos de apoyo gratuitos y un directorio de proveedores de salud en Washington.
+    url: https://ingersollgendercenter.org/
+    phone: "206-849-7859"
+    address: 911 E Pike St, Suite 221, Seattle, WA 98122
+    cost: free
+    verification: org_website
+    sources: [ingersoll]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of insurance or ability to pay and charge on a sliding scale. Call and ask for "gender-affirming care".
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu seguro o capacidad de pago y cobran en escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-wa
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy), an annual surgery fund, and free binders and shapewear.
+      es: Fondos nacionales para quienes no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis), un fondo anual de cirugía y binders gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop-hrt]
+  - id: genderbands-wa
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Small grants for surgery and other transition costs; 18 and older.
+      es: Pequeñas becas para cirugía y otros costos de transición; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including self-funded employer plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: unverified
+    sources: [thp]
+statutes:
+  - cite: Chapter 7.115 RCW (HB 1469, ch. 193, Laws of 2023)
+    title:
+      en: Shield law for reproductive and gender-affirming care
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=7.115
+  - cite: RCW 48.43.0128
+    title:
+      en: Private insurance may not deny, limit, or categorically exclude gender-affirming treatment
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=48.43.0128
+  - cite: RCW 74.09.675
+    title:
+      en: No blanket exclusions of gender-affirming treatment in Apple Health
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=74.09.675
+  - cite: RCW 18.130.450
+    title:
+      en: Gender-affirming care within scope of practice is not unprofessional conduct
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=18.130.450
+  - cite: WAC 182-531-1675
+    title:
+      en: Apple Health coverage of gender dysphoria treatment
+    url: https://app.leg.wa.gov/WAC/default.aspx?cite=182-531-1675
+sources:
+  - id: hca-transhealth
+    url: https://www.hca.wa.gov/billers-providers-partners/program-information-providers/transhealth-program
+    title: Transhealth program
+    publisher: Washington State Health Care Authority
+    kind: official
+    accessed: "2026-09-24"
+    quote: If federal funds are not available, then state funds will be used to maintain coverage of medically necessary gender-affirming care for eligible Apple Health clients.
+  - id: hca-faq
+    url: https://www.hca.wa.gov/assets/billers-and-providers/faq-ah-coverage-and-state-law-protections.pdf
+    title: FAQ, Apple Health coverage and state law protections for gender-affirming care (April 24, 2025)
+    publisher: Washington State Health Care Authority
+    kind: official
+    accessed: "2026-09-24"
+  - id: rcw-74-09-675
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=74.09.675
+    title: RCW 74.09.675
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: wac-182-531-1675
+    url: https://app.leg.wa.gov/WAC/default.aspx?cite=182-531-1675
+    title: WAC 182-531-1675
+    publisher: Washington State Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: rcw-48-43-0128
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=48.43.0128
+    title: RCW 48.43.0128, Gender-affirming treatment coverage
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A health carrier may not apply categorical cosmetic or blanket exclusions to gender-affirming treatment.
+  - id: rcw-18-130-450
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=18.130.450
+    title: RCW 18.130.450
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: rcw-7-115
+    url: https://app.leg.wa.gov/RCW/default.aspx?cite=7.115
+    title: Chapter 7.115 RCW, Protected health care services
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hb1469
+    url: https://app.leg.wa.gov/billsummary?BillNumber=1469&Year=2023
+    title: HB 1469 (2023), ch. 193, Laws of 2023
+    publisher: Washington State Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: oic-complaint
+    url: https://www.insurance.wa.gov/file-complaint-or-check-your-complaint-status
+    title: File a complaint or check your complaint status
+    publisher: Washington State Office of the Insurance Commissioner
+    kind: official
+    accessed: "2026-09-24"
+  - id: seattle-childrens
+    url: https://www.seattlechildrens.org/clinics/gender-clinic/
+    title: Gender Clinic
+    publisher: Seattle Children's
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender-affirming medical care is only available for patients who have started puberty and requires consent from parents or guardians.
+  - id: pp-finder
+    url: https://www.plannedparenthood.org/health-center
+    title: Find a health center
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: ingersoll
+    url: https://ingersollgendercenter.org/
+    title: Ingersoll Gender Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
