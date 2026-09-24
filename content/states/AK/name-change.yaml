@@ -1,0 +1,495 @@
+guide_type: name_change
+jurisdiction: AK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from AS 09.55.010 (akleg.gov), the court self-help name change page, and the court's own PDFs
+    (CIV-699 rev. 7/25, CIV-700 rev. 7/25, CIV-708 rev. 4/26, CIV-693, TF-920 rev. 9/25), plus the court fee page
+    ($200 filing fee, effective 5/1/2023; certification $10 first, $3 each additional). Alaska no longer uses
+    newspaper publication by default: the court posts notice on its legal notice website for four weeks before the
+    hearing and one week after judgment, unless waived with CIV-708. Open items for the reviewer: (1) Civil Rule 84
+    text itself was not read (the rule is summarized in CIV-699); confirm the posting periods against the rule;
+    (2) CIV-701 and CIV-705 PDFs returned 404 at the form URL pattern, so they are described from CIV-699 only;
+    (3) the old name-change clinic landscape: Identity Inc (Anchorage LGBTQ center) closed its clinic May 15, 2026 and
+    its website domain (identityalaska.org) is now a parked page, so it is not listed; confirm whether any Identity
+    legal/document help continues. Cross-check 2026-09-24 against A4TE's Alaska page (last updated July 2025): agrees
+    on $200 fee, CIV-700/VS-405, website posting and CIV-708 waiver, and hearing.
+status: available
+status_summary:
+  en: >-
+    Adults in Alaska can change their name by filing a petition (CIV-700) in Superior Court and attending a short
+    hearing. The court posts notice on its website instead of a newspaper, and you can ask the judge to skip the
+    posting and keep the case confidential if you have safety concerns. The filing fee is $200, or you can ask for a
+    fee exemption.
+  es: >-
+    En Alaska, las personas adultas pueden cambiar su nombre presentando una petición (CIV-700) en el Tribunal
+    Superior y asistiendo a una audiencia breve. El tribunal publica el aviso en su sitio web en lugar de un periódico,
+    y puedes pedir al juez que no lo publique y que mantenga el caso confidencial si tienes preocupaciones de
+    seguridad. La tarifa es de $200, o puedes pedir una exención.
+summary:
+  en: |
+    Under AS 09.55.010 the Superior Court may change your name if it finds sufficient reasons and that the change is consistent with the public interest. Wanting a name that matches your gender identity is a sufficient reason; you do not need a doctor's letter.
+
+    The process runs under Civil Rule 84. You file the petition, the court sets a hearing at least 40 days out and posts notice on the Alaska Court System legal notice website for four weeks, you attend a short hearing, the judge signs a judgment, notice of the judgment is posted for one more week, and then the clerk mails you a **Certificate of Name Change** (CIV-705). Your new name takes effect on the date on that certificate, at least 30 days after the judgment.
+
+    If posting your old and new names publicly would put you at risk, file **CIV-708** with your petition. While the judge decides, nothing is posted and the case is not public.
+  es: |
+    Según AS 09.55.010, el Tribunal Superior puede cambiar tu nombre si encuentra razones suficientes y que el cambio es compatible con el interés público. Querer un nombre que coincida con tu identidad de género es una razón suficiente; no necesitas carta médica.
+
+    El proceso sigue la Regla Civil 84. Presentas la petición, el tribunal fija una audiencia al menos 40 días después y publica un aviso en el sitio web de avisos legales del sistema judicial durante cuatro semanas, asistes a una audiencia breve, el juez firma una sentencia, se publica aviso de la sentencia una semana más y luego el secretario te envía un **Certificado de Cambio de Nombre** (CIV-705). Tu nuevo nombre entra en vigor en la fecha del certificado, al menos 30 días después de la sentencia.
+
+    Si publicar tu nombre anterior y el nuevo te pone en riesgo, presenta el **CIV-708** con tu petición. Mientras el juez decide, no se publica nada y el caso no es público.
+eligibility:
+  residency:
+    en: File in the Superior Court. Use the court location nearest you; the court directory lists all locations.
+    es: Presenta la petición en el Tribunal Superior. Usa la sede más cercana; el directorio judicial las enumera todas.
+  age:
+    en: 18 or older (or legally emancipated) for the adult process. For anyone younger, a parent files for the child; see the Minors section.
+    es: 18 años o más (o emancipado legalmente) para el proceso de adultos. Para menores, un padre o madre presenta la petición; ver la sección Menores.
+  criminal_history:
+    en: >-
+      If you are charged with a crime, incarcerated, on parole or supervised felony probation, or required to register
+      as a sex offender, you must say so on the petition and give extra notice (to your probation or parole officer, or
+      the Department of Public Safety). It does not automatically bar a name change, but the judge must also find the
+      change is not fraudulent, not meant to obstruct law enforcement, and does not interfere with others' rights.
+    es: >-
+      Si tienes cargos penales, estás encarcelado, en libertad condicional o bajo probatoria por delito grave, o debes
+      registrarte como agresor sexual, debes indicarlo en la petición y dar aviso adicional. No impide
+      automáticamente el cambio de nombre.
+  sources: [as-09-55-010, civ-699, civ-700]
+forms:
+  - id: CIV-698
+    name:
+      en: Cover Sheet (adult change of name)
+      es: Portada (cambio de nombre de adulto)
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-698.pdf
+    required: always
+    sources: [shc-name-change]
+  - id: CIV-699
+    name:
+      en: Instructions for Adult Change of Name
+      es: Instrucciones para el cambio de nombre de adulto
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-699.pdf
+    required: optional
+    condition:
+      en: Read this first. It explains every step, posting, and which records to update afterwards.
+      es: Léelo primero. Explica cada paso, la publicación y qué registros actualizar después.
+    sources: [civ-699]
+  - id: CIV-700
+    name:
+      en: Petition for Change of Name
+      es: Petición de cambio de nombre
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-700.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Section 1: your current legal name exactly as on your birth certificate or the last document that changed your name, including hyphens and periods. Leave the middle name blank if you have none (do not write "N/A").
+        - Section 2: your new name. Double-check spelling; the judgment copies it exactly.
+        - Section 3: check this box if you were born in Alaska and may want your birth certificate updated. If you skip it, you would have to reopen the case later by motion. If you were born in another state, ask that state's vital records office what the judgment must say.
+        - Section 4 (reasons): a short, truthful statement is enough, for example "to reflect my gender identity" or "this is the name I use in daily life." You do not need to attach medical records.
+        - Section 11 (other requests): you can note here that you are also filing CIV-708 to waive posting.
+        - Do not sign until you are in front of a notary. Court clerks notarize for free; bring photo ID. If no notary is available, attach TF-835 (Self Certification).
+      es: |
+        - Sección 1: tu nombre legal actual exactamente como aparece en tu acta de nacimiento o el último documento que lo cambió, incluidos guiones y puntos.
+        - Sección 2: tu nuevo nombre. Revisa la ortografía; la sentencia lo copia exactamente.
+        - Sección 3: marca esta casilla si naciste en Alaska y quizás quieras actualizar tu acta de nacimiento. Si no la marcas, tendrías que reabrir el caso después.
+        - Sección 4 (razones): basta una frase breve y verdadera, por ejemplo "para reflejar mi identidad de género". No necesitas adjuntar registros médicos.
+        - No firmes hasta estar frente a un notario. Los secretarios del tribunal notarizan gratis; lleva identificación con foto.
+    sources: [civ-700, civ-699]
+  - id: CIV-708
+    name:
+      en: Request to Waive Posting in Adult Change of Name Case
+      es: Solicitud para no publicar el aviso en un caso de cambio de nombre de adulto
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-708.pdf
+    required: optional
+    condition:
+      en: Use if public posting of your name change would put your safety at risk. Also lets you ask for a confidential or sealed case and "Not Published" on CourtView.
+      es: Úsalo si la publicación de tu cambio de nombre pondría en riesgo tu seguridad. También permite pedir un caso confidencial o sellado y "Not Published" en CourtView.
+    how_to_fill:
+      en: |
+        - Fill out page 1 only; page 2 is for the judge.
+        - Item 2: check (a) to ask for a confidential or sealed case, (b) to show your name as "Not Published" on CourtView because the case involves sensitive, highly personal matters, and/or (c) for five years of "Not Published" if disclosure is likely to lead to physical harm.
+        - Item 3: explain your specific reasons. The judge must find a reason beyond the general privacy anyone in a name change case has, so be concrete: for example, that being outed as transgender has led or could lead to harassment, threats, or violence, or that you have an abusive ex-partner or family member.
+        - Sign in front of a notary or court clerk (it can be notarized with your petition). File it **with** the petition so the case stays non-public while the judge decides.
+      es: |
+        - Llena solo la página 1; la página 2 es para el juez.
+        - Punto 2: marca (a) para pedir un caso confidencial o sellado, (b) para que tu nombre aparezca como "Not Published" en CourtView, y/o (c) para cinco años de "Not Published" si la divulgación probablemente causaría daño físico.
+        - Punto 3: explica tus razones concretas, por ejemplo, que ser identificada o identificado públicamente como persona trans ha causado o podría causar acoso, amenazas o violencia.
+        - Firma ante notario o secretario del tribunal y preséntalo **junto con** la petición.
+    sources: [civ-708, civ-699]
+  - id: VS-405
+    name:
+      en: Application or Report of Change of Name (Alaska Vital Records)
+      es: Solicitud o informe de cambio de nombre (Registros Vitales de Alaska)
+    url: https://public.courts.alaska.gov/web/forms/docs/vs-405.pdf
+    required: always
+    condition:
+      en: Listed in the court's adult name change packet; file it with the petition.
+      es: Forma parte del paquete de cambio de nombre de adulto; preséntalo con la petición.
+    sources: [shc-name-change]
+  - id: TF-920
+    name:
+      en: Request and Order for Exemption from Payment of Fees
+      es: Solicitud y orden de exención del pago de tarifas
+    url: https://public.courts.alaska.gov/web/forms/docs/tf-920.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $200 filing fee. It can also ask to waive certified-copy fees.
+      es: Solo si no puedes pagar la tarifa de $200. También puede pedir exención de las copias certificadas.
+    how_to_fill:
+      en: |
+        - Check the box for the filing fee for a new action, and also the box for copy fees (certified copies) so you can get extra certified copies of your certificate for free.
+        - Fill in the financial statement completely (income, benefits, expenses, assets). The judge decides based on whether you can pay.
+        - File it with your petition. Nothing happens in the case until the fee is paid or the exemption is granted; these requests are usually decided within a few days.
+      es: |
+        - Marca la casilla de la tarifa de presentación y también la de copias certificadas.
+        - Llena completa la declaración financiera. El juez decide según tu capacidad de pago.
+        - Preséntalo con tu petición. El caso no avanza hasta que pagues o se apruebe la exención.
+    sources: [tf-920, court-fees]
+  - id: CIV-694
+    name:
+      en: Petition to Change Child's Name
+      es: Petición para cambiar el nombre de un menor
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-694.pdf
+    required: conditional
+    condition:
+      en: Only for a child under 18; filed by a parent.
+      es: Solo para menores de 18 años; la presenta un padre o madre.
+    sources: [shc-name-change, civ-693]
+  - id: CIV-695
+    name:
+      en: Parental Consent from Non-Petitioning Parent
+      es: Consentimiento del padre o madre que no presenta la petición
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-695.pdf
+    required: conditional
+    condition:
+      en: Child's name change only, when the other parent consents.
+      es: Solo para cambio de nombre de un menor, cuando el otro padre consiente.
+    sources: [shc-name-change, civ-693]
+steps:
+  - id: read-and-fill
+    title:
+      en: Read CIV-699 and fill out the petition
+      es: Lee el CIV-699 y llena la petición
+    body:
+      en: Fill out CIV-698 (cover sheet), CIV-700 (petition), and VS-405. Check Section 3 on CIV-700 if you may want to update an Alaska birth certificate. If public posting is a safety concern, also fill out CIV-708.
+      es: Llena el CIV-698 (portada), el CIV-700 (petición) y el VS-405. Marca la Sección 3 del CIV-700 si quizás quieras actualizar un acta de nacimiento de Alaska. Si la publicación es un riesgo para tu seguridad, llena también el CIV-708.
+    forms: [CIV-699, CIV-698, CIV-700, VS-405, CIV-708]
+    sources: [civ-699, shc-name-change]
+  - id: notarize
+    title:
+      en: Sign in front of a notary or court clerk
+      es: Firma ante un notario o secretario del tribunal
+    body:
+      en: Court clerks notarize for free when you bring the petition in. Bring photo ID. If you file online and have no notary, attach TF-835 (Self Certification).
+      es: Los secretarios del tribunal notarizan gratis cuando llevas la petición. Lleva identificación con foto. Si presentas en línea y no tienes notario, adjunta el TF-835.
+    forms: [CIV-700]
+    sources: [civ-700]
+  - id: file
+    title:
+      en: File the petition and pay the fee (or request an exemption)
+      es: Presenta la petición y paga la tarifa (o pide la exención)
+    body:
+      en: |
+        File through **TrueFiling** (akfile.truefiling.com) if it is available for your court, or in person or by mail if you are exempt (no safe internet access, disability, language barrier, and other reasons; you do not need to prove it). Pay the $200 fee by card online, most payment types in person, or check or money order payable to "State of Alaska" by mail. If you cannot pay, include TF-920 in the same bundle.
+      es: |
+        Presenta por **TrueFiling** (akfile.truefiling.com) si está disponible para tu tribunal, o en persona o por correo si estás exento (sin acceso seguro a internet, discapacidad, barrera de idioma, entre otros; no necesitas probarlo). Paga $200 con tarjeta en línea, en persona con la mayoría de formas de pago, o por correo con cheque o giro postal a nombre de "State of Alaska". Si no puedes pagar, incluye el TF-920.
+    forms: [TF-920]
+    fees: [filing]
+    sources: [civ-699, court-fees]
+  - id: order-posting
+    title:
+      en: Receive the hearing order; the court posts notice
+      es: Recibe la orden de audiencia; el tribunal publica el aviso
+    body:
+      en: The clerk sends you an Order for Hearing, Posting, and Additional Service (CIV-701) with a hearing date at least 40 days away. Unless posting was waived, the court posts the notice on its legal notice website for four consecutive weeks; you do not have to do anything for that. Read the order carefully in case the judge also requires newspaper publication or notice to a specific person; if so, you must complete it and file proof (CIV-702) before the hearing.
+      es: El secretario te envía una Orden de Audiencia, Publicación y Notificación Adicional (CIV-701) con fecha de audiencia al menos 40 días después. Salvo que se haya eximido, el tribunal publica el aviso en su sitio web durante cuatro semanas; tú no tienes que hacer nada. Lee la orden por si el juez exige además publicación en periódico o aviso a alguien; en ese caso debes cumplirlo y presentar prueba (CIV-702) antes de la audiencia.
+    estimated_time:
+      en: At least 40 days to the hearing
+      es: Al menos 40 días hasta la audiencia
+    sources: [civ-699]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: The hearing is short and informal. Tell the judge why you want the new name and state under oath that you are not changing it to avoid debts, defraud anyone, obstruct law enforcement, or interfere with anyone's rights. You do not have to discuss medical details.
+      es: La audiencia es breve e informal. Dile al juez por qué quieres el nuevo nombre y declara bajo juramento que no lo cambias para evitar deudas, defraudar, obstruir a la policía ni afectar derechos de otros. No tienes que hablar de detalles médicos.
+    sources: [civ-699]
+  - id: certificate
+    title:
+      en: Wait for the Certificate of Name Change
+      es: Espera el Certificado de Cambio de Nombre
+    body:
+      en: After the judge signs the judgment, notice is posted for one week (unless waived), and then the clerk mails you the Certificate of Name Change (CIV-705) with one free certified copy. You can start using the new name on the date on the certificate, at least 30 days after the judgment. Order extra certified copies now; you will need them for Social Security, the DMV, your passport, and banks.
+      es: Después de que el juez firma la sentencia, se publica aviso durante una semana (salvo exención) y luego el secretario te envía el Certificado de Cambio de Nombre (CIV-705) con una copia certificada gratis. Puedes usar el nuevo nombre desde la fecha del certificado, al menos 30 días después de la sentencia. Pide copias certificadas adicionales.
+    fees: [certified-copy]
+    estimated_time:
+      en: About 30 days after the hearing
+      es: Unos 30 días después de la audiencia
+    sources: [civ-699, court-fees]
+fees:
+  - id: filing
+    label:
+      en: Filing fee, change of name (adult or child)
+      es: Tarifa de presentación, cambio de nombre (adulto o menor)
+    amount: 200
+    waivable: true
+    sources: [court-fees]
+  - id: certified-copy
+    label:
+      en: Certification of documents (after the one free certified copy of the certificate)
+      es: Certificación de documentos (después de la copia certificada gratuita)
+    amount: 10
+    waivable: true
+    note:
+      en: $10 for the first certified document, $3 for each additional. Copy fees are $5 for the first document and $3 for each additional.
+      es: $10 por el primer documento certificado y $3 por cada adicional. Las copias cuestan $5 la primera y $3 cada adicional.
+    sources: [court-fees]
+  - id: publication
+    label:
+      en: Newspaper publication (only if the judge orders it)
+      es: Publicación en periódico (solo si el juez lo ordena)
+    varies_by: vendor
+    note:
+      en: Standard posting on the court website is free. A judge can still order newspaper publication once a week for four weeks, which you pay the newspaper for; this is uncommon.
+      es: La publicación estándar en el sitio web del tribunal es gratuita. Un juez puede ordenar publicación en periódico, que pagas tú; es poco común.
+    sources: [civ-699]
+fee_waiver:
+  available: true
+  forms: [TF-920]
+  eligibility:
+    en: Anyone who cannot afford the fee. The judge reviews the financial statement on TF-920; there is no fixed income cutoff printed on the court's fee page.
+    es: Cualquier persona que no pueda pagar la tarifa. El juez revisa la declaración financiera del TF-920.
+  how:
+    en: File TF-920 together with your petition (in TrueFiling, upload it in the same bundle). If you have not heard back within a week, call the court.
+    es: Presenta el TF-920 junto con la petición. Si no tienes respuesta en una semana, llama al tribunal.
+  sources: [court-fees, tf-920]
+publication:
+  required: "yes"
+  detail:
+    en: The court itself posts notice of the petition on the Alaska Court System legal notice website for four consecutive weeks before the hearing, and notice of the judgment for one week after. There is no charge. A judge may order additional notice (newspaper, public places, or a specific person) in the hearing order.
+    es: El propio tribunal publica el aviso de la petición en su sitio web de avisos legales durante cuatro semanas antes de la audiencia, y el aviso de la sentencia durante una semana después. No tiene costo. El juez puede ordenar aviso adicional.
+  waiver_available: true
+  waiver_how:
+    en: File CIV-708 (Request to Waive Posting) with your petition, explaining your safety concerns. The case stays non-public until the judge rules. If the request is denied, the clerk waits at least 10 days before making the case public so you can withdraw the petition if you choose.
+    es: Presenta el CIV-708 con tu petición explicando tus preocupaciones de seguridad. El caso no es público hasta que el juez decida. Si se niega, el secretario espera al menos 10 días antes de hacerlo público para que puedas retirar la petición si quieres.
+  sources: [civ-699, civ-708]
+hearing:
+  required: "yes"
+  detail:
+    en: A short hearing is held for every adult petition, at least 40 days after the hearing order. A separate short hearing may be held on a CIV-708 request, but it decides only the posting and confidentiality questions.
+    es: Se celebra una audiencia breve en cada petición de adulto, al menos 40 días después de la orden. Puede haber otra audiencia breve sobre el CIV-708, solo para decidir la publicación y confidencialidad.
+  sources: [civ-699]
+background_check:
+  required: conditional
+  detail:
+    en: No fingerprints or background check for most people. If you are charged with a crime, incarcerated, on parole or supervised felony probation, or on the sex offender registry, you must disclose it and give notice to your officer or the Department of Public Safety.
+    es: No hay huellas ni verificación de antecedentes para la mayoría. Si tienes cargos, estás encarcelado, en libertad condicional o probatoria, o en el registro de agresores sexuales, debes declararlo y dar aviso.
+  sources: [as-09-55-010, civ-699]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: Name change cases are normally public and appear on CourtView. With CIV-708 you can ask the judge to make the case confidential or sealed (Administrative Rule 37.6) and to show your name as "Not Published" on CourtView (Administrative Rule 40). The judge must find your reason outweighs the public interest in access.
+    es: Los casos de cambio de nombre normalmente son públicos y aparecen en CourtView. Con el CIV-708 puedes pedir que el caso sea confidencial o sellado y que tu nombre aparezca como "Not Published".
+  how:
+    en: Check items 2(a), 2(b), and/or 2(c) on CIV-708 and explain your specific reasons in item 3. You can file CIV-708 later in an open case, but the case stays public until the judge rules, so filing it with the petition is better.
+    es: Marca los puntos 2(a), 2(b) y/o 2(c) del CIV-708 y explica tus razones en el punto 3. Es mejor presentarlo con la petición.
+  sources: [civ-708, civ-699]
+minors:
+  summary:
+    en: |
+      A parent (or sometimes a legal guardian) files CIV-694 for a child under 18. Both parents must consent; the non-petitioning parent signs **CIV-695**. The judge can waive consent for good cause (for example, the other parent is deceased, had rights terminated, or cannot be found after a diligent search) or if that parent had notice and chose not to participate. If a parent objects (CIV-696), the judge must also find the change is in the child's best interests. The judge considers the wishes of a child old enough to express an opinion. The same website posting and CIV-708-style safety options apply. Filing fee: $200.
+    es: |
+      Un padre o madre (o a veces un tutor legal) presenta el CIV-694 para un menor de 18 años. Ambos padres deben consentir; el otro padre firma el **CIV-695**. El juez puede eximir el consentimiento por causa justificada o si el otro padre fue notificado y no participó. Si un padre se opone (CIV-696), el juez debe determinar que el cambio es en el mejor interés del menor. El juez considera la opinión del menor. Tarifa: $200.
+  forms: [CIV-694, CIV-695]
+  sources: [civ-693, shc-name-change]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: TrueFiling (online) is required where available unless you are exempt; exempt filers may file in person or by mail. The hearing is attended in person or as the court directs.
+    es: TrueFiling (en línea) es obligatorio donde está disponible salvo exención; quienes están exentos pueden presentar en persona o por correo.
+  sources: [civ-699]
+timeline:
+  en: Usually about 3 months from filing to a usable Certificate of Name Change (at least 40 days to the hearing, then at least 30 days until the name takes effect), longer if a fee exemption or CIV-708 request adds steps.
+  es: Normalmente unos 3 meses desde la presentación hasta tener el Certificado de Cambio de Nombre (al menos 40 días hasta la audiencia y luego al menos 30 días hasta que el nombre entra en vigor).
+after:
+  en: |
+    With certified copies of your Certificate of Name Change (CIV-705):
+    1. **Social Security** first (1-800-772-1213 or an SSA office). The DMV checks your name against SSA records.
+    2. **DMV** within 30 days: Alaska law (AS 28.05.071) requires you to report a name change. Bring a certified copy in person. See the driver's license guide.
+    3. **Passport**: the name can be updated; as of September 2026 the State Department only issues the sex assigned at birth.
+    4. **Birth certificate**: if you were born in Alaska, contact Alaska Vital Records (see the birth certificate guide). If born elsewhere, contact that state.
+    5. Banks, employer, insurance, voter registration, and the **PFD Division**.
+  es: |
+    Con copias certificadas de tu Certificado de Cambio de Nombre (CIV-705):
+    1. **Seguro Social** primero. El DMV compara tu nombre con los registros del SSA.
+    2. **DMV** dentro de 30 días: la ley de Alaska (AS 28.05.071) exige reportar el cambio de nombre. Lleva una copia certificada en persona.
+    3. **Pasaporte**: el nombre se puede actualizar; a septiembre de 2026 el Departamento de Estado solo emite el sexo asignado al nacer.
+    4. **Acta de nacimiento**: si naciste en Alaska, contacta a Registros Vitales de Alaska. Si naciste en otro estado, contacta a ese estado.
+    5. Bancos, empleador, seguros, registro de votantes y la **División del PFD**.
+tips:
+  - en: Call the court's Family Law Self-Help Center helpline, (907) 264-0851, Monday to Friday 7:30 a.m. to 5 p.m., for free help with the forms. Facilitators cannot give legal advice but can explain the process.
+    es: Llama a la línea del Centro de Autoayuda de Derecho Familiar, (907) 264-0851, lunes a viernes de 7:30 a.m. a 5 p.m., para ayuda gratuita con los formularios.
+  - en: Check Section 3 (birth certificate) on CIV-700 even if you are not sure yet. Adding it later means filing a motion to reopen the case.
+    es: Marca la Sección 3 (acta de nacimiento) del CIV-700 aunque no estés seguro. Agregarla después requiere reabrir el caso.
+  - en: A name change does not change your sex marker anywhere. Alaska's DMV and Vital Records handle that separately; see those guides.
+    es: El cambio de nombre no cambia tu marcador de sexo. El DMV y Registros Vitales lo manejan por separado.
+local_help:
+  - id: alsc
+    name: Alaska Legal Services Corporation
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide free civil legal aid for low-income Alaskans, including family law, health care, and public benefits. Apply online or by phone; cannot accept every case.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Solicita en línea o por teléfono; no puede aceptar todos los casos.
+    url: https://www.alsc-law.org/apply-for-services/
+    phone: "1-888-478-2572"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [alsc-apply]
+  - id: court-self-help
+    name: Alaska Court System Family Law Self-Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free statewide helpline staffed by court facilitators who explain name change forms and procedures.
+      es: Línea de ayuda gratuita del sistema judicial que explica los formularios y procedimientos de cambio de nombre.
+    url: https://courts.alaska.gov/shc/family/about.htm
+    phone: "(907) 264-0851"
+    cost: free
+    verification: official_source
+    sources: [shc-about]
+  - id: aclu-ak
+    name: ACLU of Alaska
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization with an LGBTQIA2S+ rights program; accepts requests for help about discrimination and government action.
+      es: Organización de libertades civiles con un programa de derechos LGBTQIA2S+; acepta solicitudes de ayuda sobre discriminación.
+    url: https://www.acluak.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-ak]
+  - id: a4te
+    org: a4te
+    name: Advocates for Trans Equality, Alaska identity documents
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Step-by-step Alaska guide for name and gender marker changes (last updated July 2025).
+      es: Guía paso a paso de Alaska para cambios de nombre y marcador de género (actualizada en julio de 2025).
+    url: https://transequality.org/documents/alaska-identity-documents
+    cost: free
+    verification: org_website
+    sources: [a4te-ak]
+statutes:
+  - cite: Alaska Stat. § 09.55.010
+    title:
+      en: Change of name in the superior court; extra notice for people on probation, parole, charged, or on the sex offender registry
+    url: https://www.akleg.gov/basis/statutes.asp#09.55.010
+  - cite: Alaska Rules of Civil Procedure, Rule 84
+    title:
+      en: Procedure for change of name (posting, hearing, judgment)
+    url: https://courts.alaska.gov/rules/index.htm
+related_links:
+  - title: Alaska Court System, Change of Name forms
+    url: https://courts.alaska.gov/shc/family/change-name.htm
+  - title: Advocates for Trans Equality, Alaska identity documents
+    url: https://transequality.org/documents/alaska-identity-documents
+    note:
+      en: Last updated July 2025.
+      es: Actualizado en julio de 2025.
+sources:
+  - id: as-09-55-010
+    url: https://www.akleg.gov/basis/statutes.asp#09.55.010
+    title: AS 09.55.010, Jurisdiction in action for change of name; notice
+    publisher: Alaska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person may bring an action for change of name in the superior court. A change of name of a person may not be made unless the court finds sufficient reasons for the change and also finds it consistent with the public interest.
+  - id: shc-name-change
+    url: https://courts.alaska.gov/shc/family/change-name.htm
+    title: Change of Name (self-help forms)
+    publisher: Alaska Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Adult Change of Name Forms: CIV-698 Cover Sheet; CIV-699 Instructions for Adult Change of Name; CIV-700 Petition for Change of Name; VS-405 Application or Report of Change of Name"
+  - id: civ-699
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-699.pdf
+    title: CIV-699 (7/25), Instructions for Adult Change of Name
+    publisher: Alaska Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: The court will automatically post notice on the Alaska Court System's legal notice website for four consecutive weeks, unless the court waived this requirement in a written order.
+  - id: civ-700
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-700.pdf
+    title: CIV-700 (7/25), Petition for Change of Name
+    publisher: Alaska Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: I request a court order to change my birth certificate to the new name in section 2.
+  - id: civ-708
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-708.pdf
+    title: CIV-708 (4/26), Request to Waive Posting in Adult Change of Name Case
+    publisher: Alaska Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: I ask the Court to not post my proposed name change and hearing date on the Alaska Court System's legal notice website, as is normally required by Civil Rule 84(b), because I have concerns about my personal safety.
+  - id: civ-693
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-693.pdf
+    title: CIV-693 (7/25), Instructions for Child's Change of Name
+    publisher: Alaska Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: With a child, there is an extra requirement that both parents consent to the name change. The judge can waive (not require) this with good cause.
+  - id: tf-920
+    url: https://public.courts.alaska.gov/web/forms/docs/tf-920.pdf
+    title: TF-920 (9/25), Request and Order for Exemption from Payment of Fees
+    publisher: Alaska Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: I request exemption from payment of the following fees because I am unable to pay
+  - id: court-fees
+    url: https://courts.alaska.gov/shc/courtfees.htm
+    title: Court Fees and Fee Waiver
+    publisher: Alaska Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Change of Name (child or adult) $200 ... Certification of documents $10/first, $3 each additional"
+  - id: shc-about
+    url: https://courts.alaska.gov/shc/family/about.htm
+    title: About the Family Law Self-Help Center
+    publisher: Alaska Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Telephone Helpline Hours: Monday - Friday: 7:30 a.m. - 5:00 p.m. Statewide Telephone Helpline Number: (907) 264-0851"
+  - id: alsc-apply
+    url: https://www.alsc-law.org/apply-for-services/
+    title: Apply for Help
+    publisher: Alaska Legal Services Corporation
+    kind: org
+    accessed: "2026-09-24"
+    quote: Apply for legal aid services online or by calling our toll-free statewide intake number ... 1-888-478-2572
+  - id: aclu-ak
+    url: https://www.acluak.org/get-help/
+    title: Get Help
+    publisher: ACLU of Alaska
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ak
+    url: https://transequality.org/documents/alaska-identity-documents
+    title: Alaska Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Alaska has a publication requirement, which requires notice of your name change to be posted on the Court's website for four weeks leading up to the hearing.

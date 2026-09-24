@@ -1,0 +1,340 @@
+jurisdiction: AK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    No Alaska statute restricts gender-affirming care for adults or minors (34th Legislature bill list checked
+    2026-09-24: HB 342, on physician liability for procedures on minors, is still in House HSS; no bill passed a
+    chamber). Open items for the reviewer: (1) In August 2025 the State Medical Board approved a DRAFT regulation
+    declaring gender-transition care for under-18s "unprofessional conduct" (Alaska Beacon, 2025-08-22). The current
+    12 AAC 40.967 text on akleg.gov (read 2026-09-24) does not contain it, and the board later had quorum problems, so
+    it appears not to be in effect; confirm with the Division of Corporations, Business and Professional Licensing
+    before publishing. (2) Medicaid: 7 AAC 105.110(12) was "repealed 7/25/2021" (read on akleg.gov); this followed the
+    stipulated settlement in Being v. Crum (D. Alaska 3:19-cv-00060, settlement approved 2021-01-25, per CourtListener
+    docket). The prompt referred to "Robinson v. Alaska DHSS (2022)"; no such case was found, and the text of the
+    repealed paragraph and settlement terms were not read. The April 2025 House budget amendment on gender dysphoria
+    care passed the House 21-19 but whether it survived into the enacted budget, and its effect, is unconfirmed.
+    (3) Identity Inc's Identity Health Clinic (Anchorage's informed-consent LGBTQ clinic) closed May 15, 2026 per its
+    archived website (June 2026 Wayback snapshot); its domain is now a parked page. It is intentionally not listed.
+    (4) Division of Insurance pages return 403 to automated access; complaint URL taken from a Wayback snapshot
+    (2026-08-22). No Alaska law or bulletin barring trans exclusions in private plans was found. (5) Alaska joined the
+    FTC's June 2026 lawsuit against WPATH (Alaska Beacon, 2026-06-17); noted as context only. (6) Anchorage
+    Neighborhood Health Center does not list gender-affirming hormone therapy on its services page; listed for primary
+    care, PrEP and sliding-fee care only. MAP's healthcare map was not fetched for cross-checking.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in Alaska for adults and minors; no state law bans it. Alaska Medicaid removed its
+    exclusion of transition-related care in 2021 after a federal lawsuit. There is no state shield law and no state
+    ban on exclusions in private insurance. Planned Parenthood offers informed-consent hormones to adults in Anchorage,
+    Fairbanks, and statewide by telehealth. Anchorage's LGBTQ health clinic (Identity) closed in May 2026, and the
+    state medical board has proposed, but not adopted, a rule against care for minors.
+  es: >-
+    La atención de afirmación de género es legal en Alaska para adultos y menores; ninguna ley estatal la prohíbe.
+    Medicaid de Alaska eliminó su exclusión de la atención de transición en 2021 tras una demanda federal. No hay ley
+    escudo ni prohibición estatal de exclusiones en seguros privados. Planned Parenthood ofrece hormonas por
+    consentimiento informado a adultos en Anchorage, Fairbanks y por telesalud en todo el estado. La clínica LGBTQ de
+    Anchorage (Identity) cerró en mayo de 2026, y la junta médica estatal propuso, pero no adoptó, una regla contra la
+    atención a menores.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Alaska law limits gender-affirming care for adults. Any licensed provider can prescribe hormones, and Planned Parenthood Great Northwest, Hawaiʻi, Alaska, Indiana, Kentucky uses an **informed consent** model for patients 18 and older: no therapist letter is needed. Its Anchorage and Fairbanks health centers and its Alaska Virtual Health Center (telehealth) all offer hormone care.
+
+      Because Alaska is large and rural, telehealth is often the most practical option outside Anchorage and Fairbanks: QueerDoc, Plume, and Planned Parenthood serve Alaska.
+
+      The state has no shield law protecting patients or providers from out-of-state legal action, and in June 2026 the state joined a federal lawsuit against WPATH, the professional body behind the main standards of care. Neither changes what care is legal for adults in Alaska today.
+    es: |
+      Ninguna ley de Alaska limita la atención de afirmación de género para adultos. Planned Parenthood usa un modelo de **consentimiento informado** para pacientes de 18 años o más: no se necesita carta de un terapeuta. Sus centros de Anchorage y Fairbanks y su Centro Virtual de Alaska ofrecen atención hormonal.
+
+      Fuera de Anchorage y Fairbanks, la telesalud suele ser la opción más práctica: QueerDoc, Plume y Planned Parenthood atienden Alaska.
+
+      El estado no tiene ley escudo y en junio de 2026 se unió a una demanda federal contra WPATH. Nada de esto cambia qué atención es legal para adultos hoy.
+  sources: [pp-hrt, pp-ak-centers, beacon-wpath]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Alaska has **no law banning** gender-affirming care for people under 18. With parental consent, a licensed provider may prescribe puberty blockers or hormones.
+
+      However, access is thin and under pressure:
+      - In **August 2025** the State Medical Board approved a **draft regulation** that would make providing puberty blockers, hormones, or surgery for gender transition to anyone under 18 "unprofessional conduct" subject to discipline. As of September 2026 it does not appear in the published regulation (12 AAC 40.967); check for updates.
+      - **Identity Health Clinic** in Anchorage, which served minors, **closed on May 15, 2026**.
+      - Planned Parenthood's hormone care starts at 18.
+
+      Families should ask pediatric and adolescent providers directly, and can contact the ACLU of Alaska if a provider or school refuses care or information.
+    es: |
+      Alaska **no tiene ley que prohíba** la atención de afirmación de género para menores de 18 años. Con consentimiento de los padres, un proveedor con licencia puede recetar bloqueadores o hormonas.
+
+      Sin embargo, el acceso es limitado:
+      - En **agosto de 2025** la Junta Médica Estatal aprobó un **borrador de regulación** que consideraría "conducta no profesional" dar bloqueadores, hormonas o cirugía de transición a menores de 18. A septiembre de 2026 no aparece en la regulación publicada (12 AAC 40.967).
+      - **Identity Health Clinic** en Anchorage, que atendía a menores, **cerró el 15 de mayo de 2026**.
+      - La atención hormonal de Planned Parenthood empieza a los 18 años.
+  sources: [beacon-medboard, aac-40-967, identity-closure, pp-hrt]
+medicaid:
+  program_name: Alaska Medicaid (Denali KidCare for children and pregnant people)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Alaska Medicaid's regulation listing non-covered services (7 AAC 105.110) previously included an exclusion that was **repealed on July 25, 2021**, after the state settled **Being v. Crum**, a federal lawsuit challenging the denial of gender-affirming surgery. Hormone therapy and surgery are now reviewed like other care: they must be medically necessary and some services need prior authorization. Cosmetic-surgery limits in the same regulation still apply to procedures judged cosmetic.
+
+      In April 2025 the state House added budget language against gender dysphoria care; its final status and effect are unclear, and it does not change the regulation.
+
+      **Who qualifies**: low-income adults 19 to 64 (Alaska expanded Medicaid), children, pregnant people, seniors, and people with disabilities. Apply at HealthCare.gov or Alaska Connect.
+    es: |
+      La regulación de servicios no cubiertos de Medicaid de Alaska (7 AAC 105.110) incluía una exclusión que fue **derogada el 25 de julio de 2021**, después de que el estado resolviera **Being v. Crum**, una demanda federal. La terapia hormonal y la cirugía ahora se evalúan como otra atención: deben ser médicamente necesarias y algunas requieren autorización previa.
+
+      **Quién califica**: adultos de bajos ingresos de 19 a 64 años, niños, personas embarazadas, mayores y personas con discapacidad. Solicita en HealthCare.gov o Alaska Connect.
+  how_to_apply_url: https://health.alaska.gov/en/services/division-of-public-assistance-dpa-services/apply-for-medicaid/
+  sources: [aac-105-110, being-v-crum, beacon-budget, medicaid-apply]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Alaska has no state law or insurance bulletin that forbids private health plans from excluding gender-affirming care. Whether your plan covers it depends on the plan documents; many employer plans are self-funded and regulated federally, not by the state.
+
+      If a claim is denied, appeal with the plan first, then ask for an **external review**. For state-regulated plans, the Alaska Division of Insurance takes complaints (907-269-7900, or 1-800-INSURAK in state). The Trans Health Project (A4TE) has free appeal templates.
+    es: |
+      Alaska no tiene ley ni boletín de seguros que prohíba a los planes privados excluir la atención de afirmación de género. Si te niegan una reclamación, apela ante el plan, luego pide una **revisión externa**. Para planes regulados por el estado, la División de Seguros de Alaska recibe quejas (907-269-7900).
+  complaint_url: https://www.commerce.alaska.gov/web/ins/Consumers/FileaComplaint.aspx
+  sources: [doi-complaint]
+telehealth_hrt: [plume, queerdoc, planned-parenthood]
+resources:
+  - id: pp-anchorage
+    org: planned-parenthood
+    name: Planned Parenthood, Anchorage Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent gender-affirming hormone care for patients 18 and older, plus STI testing, HIV services, and birth control. In person and by telehealth.
+      es: Atención hormonal por consentimiento informado para pacientes de 18 años o más, además de pruebas de ITS, servicios de VIH y anticonceptivos. En persona y por telesalud.
+    url: https://www.plannedparenthood.org/health-center/alaska/anchorage/99508/anchorage-health-center-3254-91810
+    phone: "800-769-0045"
+    address: 4001 Lake Otis Parkway #101, Anchorage, AK 99508
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pp-hrt, pp-anchorage]
+  - id: pp-fairbanks
+    org: planned-parenthood
+    name: Planned Parenthood, Fairbanks Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: The affiliate offers gender-affirming hormone care (18+) at all of its health centers, including Fairbanks.
+      es: La afiliada ofrece atención hormonal (18+) en todos sus centros, incluido Fairbanks.
+    url: https://www.plannedparenthood.org/health-center/alaska/fairbanks/99701/fairbanks-health-center-2603-91810
+    areas_served:
+      en: Fairbanks and the Interior
+      es: Fairbanks y el Interior
+    cost: varies
+    verification: org_website
+    sources: [pp-hrt, pp-ak-centers]
+  - id: pp-virtual
+    org: planned-parenthood
+    name: Planned Parenthood, Alaska Virtual Health Center
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth hormone care for adults anywhere in Alaska, useful for rural and off-road communities.
+      es: Atención hormonal por telesalud para adultos en cualquier parte de Alaska.
+    url: https://www.plannedparenthood.org/health-center/alaska/anchorage/99508/alaska-virtual-health-center-vc-21940-91810
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    telehealth: true
+    cost: varies
+    verification: org_website
+    sources: [pp-hrt, pp-ak-centers]
+  - id: anhc
+    name: Anchorage Neighborhood Health Center
+    type: primary_care
+    pillars: [sexual_health, mental_health, insurance]
+    description:
+      en: Federally qualified health center with primary care, PrEP and STI testing, behavioral health, pharmacy, and a sliding fee discount program. Helps with Medicaid and marketplace enrollment. Does not list gender-affirming hormone care; ask.
+      es: Centro de salud comunitario con atención primaria, PrEP y pruebas de ITS, salud conductual, farmacia y descuento por escala móvil. Ayuda con inscripción en Medicaid.
+    url: https://www.anhc.org/
+    phone: "907-743-7200"
+    address: 4951 Business Park Blvd, Anchorage, AK 99503
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [anhc-medical, anhc-sliding]
+  - id: anthc-eis
+    name: ANTHC Early Intervention Services (Alaska Native Medical Center)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV care, case management, counseling, and testing for Alaska Native and American Indian people through ANMC Internal Medicine.
+      es: Atención de VIH, manejo de casos, consejería y pruebas para personas nativas de Alaska e indígenas americanas.
+    url: https://www.anthc.org/what-we-do/clinical-and-research-services/hivaids-services/
+    phone: "907-729-2907"
+    cost: free
+    verification: org_website
+    sources: [anthc-hiv]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that helps pay for hormone therapy; QueerDoc is a partner.
+      es: Fondo nacional que ayuda a pagar la terapia hormonal.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: trans-health-project
+    org: a4te
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free guides and templates for appealing insurance denials of gender-affirming care.
+      es: Guías y plantillas gratuitas para apelar negativas de seguros.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: 7 AAC 105.110
+    title:
+      en: Alaska Medicaid non-covered services (former transition-care exclusion at paragraph 12 repealed 7/25/2021)
+    url: https://www.akleg.gov/basis/aac.asp#7.105.110
+  - cite: 12 AAC 40.967
+    title:
+      en: State Medical Board definition of unprofessional conduct (subject of the 2025 draft regulation on minors)
+    url: https://www.akleg.gov/basis/aac.asp#12.40.967
+litigation:
+  - case: Being v. Crum, No. 3:19-cv-00060 (D. Alaska)
+    court: US District Court for the District of Alaska
+    summary:
+      en: Challenge to Alaska Medicaid's refusal to cover gender-affirming surgery. The parties reached a stipulated settlement (December 2020) approved by the court on January 25, 2021; the court retained jurisdiction. The exclusion was repealed from 7 AAC 105.110 effective July 25, 2021.
+      es: Demanda contra la negativa de Medicaid de Alaska a cubrir cirugía de afirmación de género. Se resolvió con un acuerdo aprobado el 25 de enero de 2021; la exclusión se derogó el 25 de julio de 2021.
+    effect_today:
+      en: Alaska Medicaid may not categorically exclude gender-affirming care; requests are reviewed for medical necessity.
+      es: Medicaid de Alaska no puede excluir categóricamente la atención de afirmación de género.
+    last_update: "2021-02-03"
+    url: https://www.courtlistener.com/docket/14599433/being-v-crum/
+    sources: [being-v-crum, aac-105-110]
+sources:
+  - id: pp-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck/patients/health-care-services/hrt-hormone-therapy-for-trans-and-non-binary-patients
+    title: "HRT: Hormone Therapy for Trans and Non-Binary Patients"
+    publisher: Planned Parenthood Great Northwest, Hawaiʻi, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer gender-affirming hormone care for patients 18 years and older at all of our health centers and by telehealth.
+  - id: pp-ak-centers
+    url: https://www.plannedparenthood.org/health-center/alaska
+    title: Health Centers in Alaska
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+    quote: Anchorage Health Center, Anchorage, AK; Alaska Virtual Health Center, Anchorage, AK; Fairbanks Health Center, Fairbanks, AK
+  - id: pp-anchorage
+    url: https://www.plannedparenthood.org/health-center/alaska/anchorage/99508/anchorage-health-center-3254-91810
+    title: Anchorage Health Center
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+    quote: 4001 Lake Otis Parkway #101 Anchorage, AK 99508 ... Gender-Affirming Care
+  - id: beacon-medboard
+    url: https://alaskabeacon.com/2025/08/22/alaska-medical-board-seeks-to-restrict-abortion-transgender-medical-care/
+    title: Alaska medical board seeks to restrict abortion, transgender medical care
+    publisher: Alaska Beacon
+    kind: news
+    accessed: "2026-09-24"
+    quote: the board approved a draft regulation that, if made final, would declare that providing gender transition care for someone younger than 18 amounts to "unprofessional conduct"
+  - id: aac-40-967
+    url: https://www.akleg.gov/basis/aac.asp#12.40.967
+    title: 12 AAC 40.967, Unprofessional conduct
+    publisher: Alaska Legislature (Alaska Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: identity-closure
+    url: https://web.archive.org/web/20260622024533/https://www.identityalaska.org/
+    title: Identity Closing Health Clinic and Transitioning Patient Care (archived)
+    publisher: Identity, Inc.
+    kind: org
+    accessed: "2026-09-24"
+    quote: The clinic has closed as of May 15, 2026, but our board can be reached via email to address the transition in the community.
+  - id: beacon-wpath
+    url: https://alaskabeacon.com/2026/06/17/repub/alaska-joins-federal-trade-commission-to-sue-trans-healthcare-nonprofit-over-gender-affirming-treatment/
+    title: Alaska joins Federal Trade Commission to sue trans healthcare nonprofit over gender-affirming treatment
+    publisher: Alaska Beacon
+    kind: news
+    accessed: "2026-09-24"
+    quote: The FTC was joined by Alaska, Iowa, Nebraska and Texas in the lawsuit, which was filed in federal court in Texas.
+  - id: aac-105-110
+    url: https://www.akleg.gov/basis/aac.asp#7.105.110
+    title: 7 AAC 105.110, Noncovered services
+    publisher: Alaska Legislature (Alaska Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: (12) repealed 7/25/2021
+  - id: being-v-crum
+    url: https://www.courtlistener.com/docket/14599433/being-v-crum/
+    title: Being v. Crum, 3:19-cv-00060 (D. Alaska), docket
+    publisher: CourtListener
+    kind: court
+    accessed: "2026-09-24"
+    quote: This case is now closed, the court to retain jurisdiction pursuant to the parties' stipulated settlement agreement of December 22, 2020
+  - id: beacon-budget
+    url: https://alaskabeacon.com/2025/04/16/alaska-house-votes-down-symbolic-antiabortion-budget-language-passes-amendment-against-trans-care/
+    title: Alaska House votes down symbolic antiabortion budget language, passes amendment against trans care
+    publisher: Alaska Beacon
+    kind: news
+    accessed: "2026-09-24"
+    quote: Although a 2021 lawsuit resulted in a federal ruling that requires Alaska's Medicaid program to cover gender-affirming care, the Alaska Supreme Court has not considered the issue
+  - id: medicaid-apply
+    url: https://health.alaska.gov/en/services/division-of-public-assistance-dpa-services/apply-for-medicaid/
+    title: Apply for Medicaid
+    publisher: Alaska Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Eligible groups include low-income children, pregnant women, families, adults without dependent children between the ages of 19 and 64, the elderly, blind, and the permanently disabled.
+  - id: doi-complaint
+    url: https://www.commerce.alaska.gov/web/ins/Consumers/FileaComplaint.aspx
+    title: Complaints (Alaska Division of Insurance), via Wayback Machine snapshot of 2026-08-22
+    publisher: Alaska Division of Insurance
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Insurance questions? Email: Consumer Services Call: 907-269-7900 or 1-800-INSURAK (in-state, outside Anchorage)"
+  - id: anhc-medical
+    url: https://www.anhc.org/services-medical
+    title: Medical services
+    publisher: Anchorage Neighborhood Health Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: HIV prevention, testing, and treatment (including PrEP)
+  - id: anhc-sliding
+    url: https://www.anhc.org/sliding-fee-discount-program
+    title: Sliding Fee Discount Program
+    publisher: Anchorage Neighborhood Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: anthc-hiv
+    url: https://www.anthc.org/what-we-do/clinical-and-research-services/hivaids-services/
+    title: HIV/AIDS Services (read via Wayback snapshot of 2025-05-12; live site blocks automated access)
+    publisher: Alaska Native Tribal Health Consortium
+    kind: org
+    accessed: "2026-09-24"
+    quote: ANTHC's Early Intervention Services program, through ANMC Internal Medicine, provides HIV/AIDS patient services, case management and counseling for Alaska Native and American Indian people.
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

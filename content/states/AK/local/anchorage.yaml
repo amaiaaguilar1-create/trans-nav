@@ -1,0 +1,241 @@
+jurisdiction: AK
+slug: anchorage
+name: Anchorage
+area:
+  en: Municipality of Anchorage, including Eagle River; the Mat-Su Valley is served by the Palmer court
+  es: Municipio de Anchorage, incluido Eagle River; el valle de Mat-Su corresponde al tribunal de Palmer
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Resources checked on their own websites 2026-09-24 unless noted. Identity Inc (the Anchorage LGBTQ center and
+    Identity Health Clinic) closed its clinic May 15, 2026 and its site identityalaska.org is now a parked domain, so it
+    is not listed; reviewer should check whether any successor LGBTQ center or peer-support group has formed in
+    Anchorage. Four A's contact page (alaskanaids.org/contact) currently shows injected spam content; the HIV testing
+    page is intact and is the one cited. ANTHC's live site blocks automated access; its HIV page was read from a May
+    2025 Wayback snapshot. The courthouse street address was not verified and is omitted.
+intro:
+  en: >-
+    Anchorage has the state's main Superior Court for name changes, a Planned Parenthood health center with
+    informed-consent hormone care for adults, a sliding-fee community health center, a city sexual health clinic, and
+    free HIV testing and PrEP help. The city's dedicated LGBTQ health clinic (Identity) closed in May 2026, so
+    telehealth fills more of the gap for hormone care.
+  es: >-
+    Anchorage tiene el principal Tribunal Superior del estado para cambios de nombre, un centro de Planned Parenthood
+    con atención hormonal por consentimiento informado para adultos, un centro de salud comunitario con escala móvil,
+    una clínica municipal de salud sexual y pruebas de VIH y ayuda con PrEP gratuitas. La clínica LGBTQ de la ciudad
+    (Identity) cerró en mayo de 2026, así que la telesalud cubre más de la atención hormonal.
+court:
+  name: Alaska Superior Court, Third Judicial District at Anchorage
+  url: https://courts.alaska.gov/courtdir/index.htm
+  self_help_url: https://courts.alaska.gov/shc/family/change-name.htm
+  filing_fee: 200
+  notes:
+    en: File through TrueFiling where available, or in person at the Anchorage courthouse if you are exempt. Court clerks notarize the petition for free. The statewide Family Law Self-Help Center helpline, (907) 264-0851, answers questions about the forms.
+    es: Presenta por TrueFiling donde esté disponible, o en persona en el tribunal de Anchorage si estás exento. Los secretarios notarizan la petición gratis. La línea del Centro de Autoayuda, (907) 264-0851, responde preguntas sobre los formularios.
+  sources: [court-fees, shc-name-change, shc-about]
+resources:
+  - id: alsc
+    name: Alaska Legal Services Corporation (Anchorage office, statewide intake)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal aid for low-income Alaskans, including family law, health care, and public benefits. Apply online or by phone.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos, incluidos derecho familiar, salud y beneficios públicos.
+    url: https://www.alsc-law.org/apply-for-services/
+    phone: "1-888-478-2572"
+    cost: free
+    verification: org_website
+    sources: [alsc-apply]
+  - id: aclu-ak
+    name: ACLU of Alaska
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Civil liberties group based in Anchorage with an LGBTQIA2S+ rights program; request help if you face discrimination by a government agency or school.
+      es: Organización de libertades civiles con sede en Anchorage y un programa de derechos LGBTQIA2S+.
+    url: https://www.acluak.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-ak]
+  - id: alaskans-together
+    name: Alaskans Together for Equality
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ+ education and advocacy organization; community events, Anchorage PrideFest information, and a suicide prevention resource list.
+      es: Organización estatal de educación y defensa LGBTQ+; eventos comunitarios y lista de recursos de prevención del suicidio.
+    url: https://www.alaskanstogether.org/
+    cost: free
+    verification: org_website
+    sources: [ate]
+  - id: pp-anchorage
+    org: planned-parenthood
+    name: Planned Parenthood, Anchorage Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for adults 18 and older (no therapist letter), STI testing, HIV services, and birth control. In person or telehealth.
+      es: Terapia hormonal por consentimiento informado para adultos de 18 años o más, pruebas de ITS, servicios de VIH y anticonceptivos.
+    url: https://www.plannedparenthood.org/health-center/alaska/anchorage/99508/anchorage-health-center-3254-91810
+    phone: "800-769-0045"
+    address: 4001 Lake Otis Parkway #101, Anchorage, AK 99508
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pp-anchorage, pp-hrt]
+  - id: anhc
+    name: Anchorage Neighborhood Health Center
+    type: primary_care
+    pillars: [sexual_health, mental_health, insurance]
+    description:
+      en: Community health center with primary care, PrEP, STI testing, behavioral health, and a sliding fee discount for uninsured patients. Enrollment help for Medicaid and marketplace plans. Ask whether a provider can manage hormone therapy.
+      es: Centro de salud comunitario con atención primaria, PrEP, pruebas de ITS, salud conductual y descuento por escala móvil. Ayuda con inscripción en Medicaid.
+    url: https://www.anhc.org/
+    phone: "907-743-7200"
+    address: 4951 Business Park Blvd, Anchorage, AK 99503
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [anhc-medical]
+  - id: anchorage-sexual-health
+    name: Anchorage Health Department, Public Health Clinic (Sexual Health)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: City clinic offering STI testing and treatment, same-day HIV and hepatitis C results, PrEP prescriptions, and free condoms. Confidential for ages 13 and up without parental permission. Sliding-scale billing.
+      es: Clínica municipal con pruebas y tratamiento de ITS, resultados de VIH y hepatitis C el mismo día, recetas de PrEP y condones gratis. Confidencial desde los 13 años. Escala móvil.
+    url: https://www.muni.org/departments/health/clinicalservices/pages/sexual-health.aspx
+    phone: "(907) 343-4799"
+    address: 825 L Street, Anchorage, AK
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [muni-sexual-health]
+  - id: four-as
+    name: Alaskan AIDS Assistance Association (Four A's)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free, confidential rapid HIV testing (walk-in Monday to Friday, 9 a.m. to 4 p.m.), take-home test kits, PrEP navigation, syringe services, and support for people living with HIV.
+      es: Pruebas rápidas de VIH gratuitas y confidenciales, kits para el hogar, orientación sobre PrEP, servicios de jeringas y apoyo a personas con VIH.
+    url: https://www.alaskanaids.org/prevention/hiv-testing
+    phone: "907-263-2050"
+    address: 1057 W. Fireweed Lane, Suite 102, Anchorage, AK 99503
+    cost: free
+    verification: org_website
+    sources: [four-as-testing]
+  - id: anthc-eis
+    name: ANTHC Early Intervention Services (Alaska Native Medical Center)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV care, case management, counseling, and testing for Alaska Native and American Indian people.
+      es: Atención de VIH, manejo de casos, consejería y pruebas para personas nativas de Alaska e indígenas americanas.
+    url: https://www.anthc.org/what-we-do/clinical-and-research-services/hivaids-services/
+    phone: "907-729-2907"
+    cost: free
+    verification: org_website
+    sources: [anthc-hiv]
+  - id: careline
+    name: Careline Alaska Crisis and Suicide Prevention Line
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Free, confidential 24/7 statewide crisis line. You can also call or text 988.
+      es: Línea de crisis gratuita y confidencial las 24 horas en todo el estado. También puedes llamar o enviar texto al 988.
+    url: https://carelinealaska.com/
+    phone: "877-266-4357"
+    cost: free
+    verification: org_website
+    sources: [careline]
+sources:
+  - id: court-fees
+    url: https://courts.alaska.gov/shc/courtfees.htm
+    title: Court Fees and Fee Waiver
+    publisher: Alaska Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: Change of Name (child or adult) $200
+  - id: shc-name-change
+    url: https://courts.alaska.gov/shc/family/change-name.htm
+    title: Change of Name
+    publisher: Alaska Court System
+    kind: official
+    accessed: "2026-09-24"
+  - id: shc-about
+    url: https://courts.alaska.gov/shc/family/about.htm
+    title: About the Family Law Self-Help Center
+    publisher: Alaska Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Statewide Telephone Helpline Number: (907) 264-0851"
+  - id: alsc-apply
+    url: https://www.alsc-law.org/apply-for-services/
+    title: Apply for Help
+    publisher: Alaska Legal Services Corporation
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ak
+    url: https://www.acluak.org/get-help/
+    title: Get Help
+    publisher: ACLU of Alaska
+    kind: org
+    accessed: "2026-09-24"
+  - id: ate
+    url: https://www.alaskanstogether.org/
+    title: Alaskans Together for Equality
+    publisher: Alaskans Together
+    kind: org
+    accessed: "2026-09-24"
+    quote: a statewide organization that is dedicated to the education and advocacy for the lesbian, gay, bisexual, and transgender community in Alaska
+  - id: pp-anchorage
+    url: https://www.plannedparenthood.org/health-center/alaska/anchorage/99508/anchorage-health-center-3254-91810
+    title: Anchorage Health Center
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck/patients/health-care-services/hrt-hormone-therapy-for-trans-and-non-binary-patients
+    title: "HRT: Hormone Therapy for Trans and Non-Binary Patients"
+    publisher: Planned Parenthood Great Northwest, Hawaiʻi, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+    quote: We see patients 18 years of age and older for gender-affirming hormone care.
+  - id: anhc-medical
+    url: https://www.anhc.org/services-medical
+    title: Medical services
+    publisher: Anchorage Neighborhood Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: muni-sexual-health
+    url: https://www.muni.org/departments/health/clinicalservices/pages/sexual-health.aspx
+    title: Sexual Health
+    publisher: Anchorage Health Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: Our clinic can offer confidential sexual health services for individuals ages 13 and up. ... Our billing is sliding scale
+  - id: four-as-testing
+    url: https://www.alaskanaids.org/prevention/hiv-testing
+    title: HIV Testing
+    publisher: Alaskan AIDS Assistance Association
+    kind: org
+    accessed: "2026-09-24"
+    quote: Rapid HIV testing is free and completely confidential.
+  - id: anthc-hiv
+    url: https://www.anthc.org/what-we-do/clinical-and-research-services/hivaids-services/
+    title: HIV/AIDS Services (Wayback snapshot of 2025-05-12)
+    publisher: Alaska Native Tribal Health Consortium
+    kind: org
+    accessed: "2026-09-24"
+  - id: careline
+    url: https://carelinealaska.com/
+    title: Careline Alaska
+    publisher: Careline Alaska
+    kind: org
+    accessed: "2026-09-24"
+    quote: 877-266-4357 Call us 24/7

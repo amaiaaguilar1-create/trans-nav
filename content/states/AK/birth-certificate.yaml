@@ -1,0 +1,217 @@
+guide_type: birth_certificate
+jurisdiction: AK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Name changes: AS 18.50.290(c) (read on akleg.gov) and CIV-699 confirm a court order is required and the
+    certificate is marked "amended". Fees ($30 amendment/legal-name-change processing fee, $30 first certified copy, $25
+    each additional) and the 3-month standard processing time for amendments come from the Alaska Birth Certificate
+    Request Form (rev. 04/2026) read directly 2026-09-24. **Sex-marker change requirements are NOT published on any
+    Alaska Department of Health page found**; the official site only says to email the Special Services Unit
+    (BVSSpecialServices@alaska.gov) for forms and instructions. The provider-letter requirement, letter contents,
+    and "no X" statement come from A4TE's Alaska page (last updated July 2025). No statute or regulation on sex-marker
+    amendment was located (the task prompt mentioned a possible 2022 policy change; not confirmed). No 2025-2026
+    Alaska executive action on birth certificates was found in Alaska Beacon coverage or the 34th Legislature bill
+    list, but the reviewer must call Special Services at (907) 465-1200 to confirm the current policy before publishing.
+    Whether the original is sealed and a new certificate issued, versus an amended certificate, is not confirmed for
+    sex changes (AS 18.50.290(b) says amended certificates are marked "amended").
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Alaska, you can ask Alaska Vital Records to change the sex on your birth certificate to M or F,
+    reportedly with a signed letter from your medical provider (or a court order). X is not available. Changing the
+    name requires a court order. Email the Special Services Unit first to get the current forms; the state does not
+    publish its sex-change instructions online.
+  es: >-
+    Si naciste en Alaska, puedes pedir a Registros Vitales de Alaska que cambie el sexo en tu acta de nacimiento a M o
+    F, según se informa con una carta firmada por tu proveedor médico (o una orden judicial). No hay X. Cambiar el
+    nombre requiere orden judicial. Escribe primero a la Unidad de Servicios Especiales para obtener los formularios
+    actuales; el estado no publica sus instrucciones en línea.
+summary:
+  en: |
+    Alaska Vital Records (Health Analytics and Vital Records, Department of Health) handles all changes to Alaska birth certificates through its **Special Services Unit**.
+
+    **Name**: under AS 18.50.290(c), Vital Records amends the birth certificate when you send a certified copy of the court order changing your name. When you file your name change petition (CIV-700), check Section 3 so the judge includes a birth-certificate order.
+
+    **Sex marker**: the state does not publish written instructions. According to Advocates for Trans Equality (July 2025), you send the birth certificate request form, a copy of your ID, the fee, and **either** a signed letter from a licensed medical provider stating that you have had appropriate clinical treatment for transition (surgery is not required) **or** a certified court order for a gender marker change. Only M and F are available.
+
+    Amended records are marked "amended" with the date (AS 18.50.290(b)).
+  es: |
+    Registros Vitales de Alaska (Departamento de Salud) maneja todos los cambios a actas de nacimiento de Alaska por medio de su **Unidad de Servicios Especiales**.
+
+    **Nombre**: según AS 18.50.290(c), Registros Vitales enmienda el acta cuando envías una copia certificada de la orden judicial de cambio de nombre. Al presentar tu petición (CIV-700), marca la Sección 3.
+
+    **Marcador de sexo**: el estado no publica instrucciones escritas. Según Advocates for Trans Equality (julio de 2025), envías el formulario de solicitud, copia de tu identificación, la tarifa y **una** carta firmada de un proveedor médico con licencia que indique que has recibido tratamiento clínico apropiado para la transición (no se requiere cirugía) **u** una orden judicial certificada. Solo M y F.
+
+    Los registros enmendados se marcan como "enmendados" con la fecha (AS 18.50.290(b)).
+eligibility:
+  residency:
+    en: You must have been born in Alaska. Where you live now does not matter. If you were born in another state, that state's rules apply; contact its vital records office.
+    es: Debes haber nacido en Alaska. No importa dónde vivas ahora. Si naciste en otro estado, se aplican las reglas de ese estado.
+  age:
+    en: Adults request their own change. A parent or guardian can request a change for a minor.
+    es: Los adultos solicitan su propio cambio. Un padre o tutor puede solicitarlo para un menor.
+  sources: [as-18-50-290, a4te-ak, vr-orders]
+forms:
+  - id: Birth Certificate Request Form
+    name:
+      en: Alaska Birth Certificate Request Form (rev. 04/2026)
+      es: Formulario de solicitud de acta de nacimiento de Alaska (rev. 04/2026)
+    url: https://health.alaska.gov/media/1oqhawsj/birth_form_v042026.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Applicant: yourself ("Self"), with a copy of your government photo ID (expired less than one year is accepted).
+        - Record information: your name, date and city of birth, and parents' names **exactly as on the current certificate**.
+        - Order section: enter the $30 "paternity, correction, adoption, legal name change" processing fee plus the number of certified copies you want ($30 first, $25 each additional).
+        - Attach your provider letter (original wet signature) or certified court order, and a certified copy of your Certificate of Name Change if the name is changing.
+        - Mail or hand-deliver the originals; amendments cannot be done by fax or through VitalChek.
+      es: |
+        - Solicitante: tú mismo ("Self"), con copia de tu identificación con foto.
+        - Información del registro: nombre, fecha y ciudad de nacimiento y nombres de los padres **exactamente como en el acta actual**.
+        - Pedido: anota la tarifa de procesamiento de $30 más las copias certificadas ($30 la primera, $25 cada adicional).
+        - Adjunta la carta del proveedor (firma original) u orden judicial certificada, y copia certificada del Certificado de Cambio de Nombre si cambias el nombre.
+        - Envía por correo o entrega en persona los originales; no se aceptan por fax ni por VitalChek.
+    sources: [bc-form, a4te-ak]
+steps:
+  - id: contact
+    title:
+      en: Email the Special Services Unit for current instructions
+      es: Escribe a la Unidad de Servicios Especiales para obtener instrucciones
+    body:
+      en: Email BVSSpecialServices@alaska.gov (or call (907) 465-1200) with your mailing address and say you want to amend the sex (and, if applicable, the name) on your Alaska birth certificate. They send the current forms and instructions. Ask whether they have a provider-letter template.
+      es: Escribe a BVSSpecialServices@alaska.gov (o llama al (907) 465-1200) con tu dirección y di que quieres enmendar el sexo (y el nombre, si aplica) en tu acta de Alaska. Te enviarán los formularios e instrucciones actuales.
+    sources: [vr-orders, bc-form]
+  - id: letter
+    title:
+      en: Get a signed letter from your provider (or a court order)
+      es: Obtén una carta firmada de tu proveedor (o una orden judicial)
+    body:
+      en: |
+        Per A4TE, the letter should be on office letterhead with an original ("wet") signature and include the provider's full name, medical license number, and issuing state; state that the provider treated you or reviewed your medical history and that you have had appropriate clinical treatment for transition or are in the process of transitioning; and end with: "I declare under penalty of perjury under the laws of the United States that the foregoing is true and correct." A certified court order for a gender marker change can be used instead.
+      es: |
+        Según A4TE, la carta debe estar en papel membretado con firma original e incluir el nombre completo del proveedor, su número de licencia y estado emisor; indicar que te trató o revisó tu historial y que has recibido tratamiento clínico apropiado para la transición o estás en proceso; y terminar con la declaración bajo pena de perjurio indicada. Se puede usar en su lugar una orden judicial certificada.
+    applies_to: [gender_marker]
+    sources: [a4te-ak]
+  - id: submit
+    title:
+      en: Mail or hand-deliver the packet with payment
+      es: Envía o entrega el paquete con el pago
+    body:
+      en: |
+        Send the request form, ID copy, letter or court order, certified name change certificate (if the name is changing), and payment (check or money order to "Alaska Vital Records Office", or card) to Health Analytics and Vital Records, P.O. Box 110675, Juneau, AK 99811-0675. Or bring it to the Anchorage office (3901 Old Seward Hwy, Ste. 101) or Juneau office (5441 Commercial Blvd.), Monday to Friday 8:30 a.m. to 4:30 p.m.
+      es: |
+        Envía el formulario, copia de identificación, carta u orden judicial, certificado de cambio de nombre (si aplica) y el pago a Health Analytics and Vital Records, P.O. Box 110675, Juneau, AK 99811-0675. O llévalo a la oficina de Anchorage (3901 Old Seward Hwy, Ste. 101) o Juneau (5441 Commercial Blvd.), lunes a viernes de 8:30 a.m. a 4:30 p.m.
+    forms: [Birth Certificate Request Form]
+    fees: [processing, first-copy, extra-copy]
+    applies_to: [by_mail, in_person]
+    sources: [bc-form]
+  - id: wait
+    title:
+      en: Wait for the amended certificate
+      es: Espera el acta enmendada
+    body:
+      en: Standard processing for amendments and legal name changes is 3 months, and expedited service is not available. If Vital Records asks for more documents, respond within 180 days or the application is closed.
+      es: El procesamiento estándar de enmiendas y cambios de nombre es de 3 meses y no hay servicio acelerado. Si piden más documentos, responde dentro de 180 días o se cierra la solicitud.
+    estimated_time:
+      en: About 3 months
+      es: Unos 3 meses
+    sources: [bc-form, vr-orders]
+fees:
+  - id: processing
+    label:
+      en: Correction / legal name change processing fee
+      es: Tarifa de procesamiento de corrección o cambio de nombre legal
+    amount: 30
+    waivable: false
+    sources: [bc-form]
+  - id: first-copy
+    label:
+      en: First certified copy of the birth certificate
+      es: Primera copia certificada del acta
+    amount: 30
+    waivable: false
+    sources: [bc-form]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy ordered at the same time
+      es: Cada copia certificada adicional pedida al mismo tiempo
+    amount: 25
+    waivable: false
+    sources: [bc-form]
+fee_waiver:
+  available: false
+  how:
+    en: The request form lists no fee waiver. A $30 fee applies to returned checks.
+    es: El formulario no indica exención de tarifas. Se cobra $30 por cheques devueltos.
+  sources: [bc-form]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Amendments must be mailed or hand-delivered because original or certified documents are required. Not available by fax or VitalChek.
+    es: Las enmiendas deben enviarse por correo o entregarse en persona porque se requieren documentos originales o certificados.
+  sources: [bc-form]
+timeline:
+  en: About 3 months after Vital Records receives a complete packet, plus time to get the provider letter or court order.
+  es: Unos 3 meses después de que Registros Vitales reciba el paquete completo.
+after:
+  en: |
+    An amended birth certificate lets you skip the provider sections of the DMV's Form 427. As of September 2026, the Social Security Administration and the State Department do **not** update the sex field based on an amended birth certificate. If you were born outside Alaska, your birth state's rules apply, not Alaska's.
+  es: |
+    Un acta enmendada te permite omitir las secciones del proveedor del Formulario 427 del DMV. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** actualizan el campo de sexo con base en un acta enmendada. Si naciste fuera de Alaska, se aplican las reglas de tu estado de nacimiento.
+tips:
+  - en: If you are also changing your name, get the court order first and include a certified copy so both changes are made in one request and one fee.
+    es: Si también cambias de nombre, obtén primero la orden judicial e incluye una copia certificada para hacer ambos cambios en una sola solicitud.
+  - en: Order extra copies ($25 each) in the same request; ordering later costs $30 for the first copy again.
+    es: Pide copias adicionales ($25 cada una) en la misma solicitud.
+statutes:
+  - cite: Alaska Stat. § 18.50.290
+    title:
+      en: Corrections and amendments to vital records; name change by court order
+    url: https://www.akleg.gov/basis/statutes.asp#18.50.290
+related_links:
+  - title: Alaska Department of Health, Vital Records Orders
+    url: https://health.alaska.gov/en/services/vital-records-orders/
+  - title: Advocates for Trans Equality, Alaska identity documents
+    url: https://transequality.org/documents/alaska-identity-documents
+    note:
+      en: Last updated July 2025. Includes a provider letter template link.
+      es: Actualizado en julio de 2025.
+sources:
+  - id: as-18-50-290
+    url: https://www.akleg.gov/basis/statutes.asp#18.50.290
+    title: AS 18.50.290, Corrections and amendments
+    publisher: Alaska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of a court order changing the name of a person born in the state ... the state registrar shall amend the certificate of birth to reflect the new name.
+  - id: vr-orders
+    url: https://health.alaska.gov/en/services/vital-records-orders/
+    title: Vital Records Orders
+    publisher: Alaska Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Changes and corrections are processed by our Special Services Unit. Please email them at BVSSpecialServices@alaska.gov and they will provide you with the necessary forms and instructions.
+  - id: bc-form
+    url: https://health.alaska.gov/media/1oqhawsj/birth_form_v042026.pdf
+    title: Alaska Birth Certificate Request Form (Revision 04/2026)
+    publisher: Alaska Department of Health, Health Analytics and Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: All Paternity, Adoptions, or Corrections (including Legal Name Change) to a birth certificate must be mailed or hand delivered ... The standard processing time for these services is 3 months and expedited services are not available.
+  - id: a4te-ak
+    url: https://transequality.org/documents/alaska-identity-documents
+    title: Alaska Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Birth Certificate (Gender Marker): Yes. Requires certification from medical provider. Alaska does not allow non-binary gender markers on birth certificates."

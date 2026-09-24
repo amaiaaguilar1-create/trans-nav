@@ -1,0 +1,211 @@
+guide_type: drivers_license
+jurisdiction: AK
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Form 427 (Rev. 11/2024) and the DMV "Changing Identification Details" and "License Fees" pages were read directly
+    2026-09-24 (the DMV home page and some old doa.alaska.gov/dmv URLs return 403 to automated access, but these pages
+    loaded). Only Male and Female are on Form 427; no X option found on any DMV page. No 2025-2026 law or executive
+    action changing the sex-designator policy was found on DMV pages, akleg.gov bill lists for the 34th Legislature,
+    or Alaska Beacon coverage; reviewer should still confirm with DMV (907-269-5551). Open items: (1) the DMV page
+    says to "pay the current license fee" for a replacement credential; the duplicate fees used here ($15 standard /
+    $35 REAL ID) are an inference from the fee table; (2) Form 427 still refers to "Form 478" as the application, while
+    the DMV page names Form D1; D1 is used here; (3) the underlying legal basis is the 2012 superior court decision
+    K.L. v. State (3AN-11-05431-CI) as cited by A4TE, not a statute or regulation (2 AAC 90.480 does not mention sex).
+    Cross-check: A4TE (July 2025) agrees on Form 427, the provider list, and no X marker.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on an Alaska driver's license or ID to M or F by bringing Form 427, signed by you and by a
+    licensed doctor, PA, nurse practitioner, psychologist, counselor, or social worker, to a DMV office. No surgery or
+    court order is needed. Alaska does not offer an X marker.
+  es: >-
+    Puedes cambiar el sexo en tu licencia o identificación de Alaska a M o F llevando el Formulario 427, firmado por ti
+    y por un médico, asistente médico, enfermero practicante, psicólogo, consejero o trabajador social con licencia, a
+    una oficina del DMV. No se necesita cirugía ni orden judicial. Alaska no ofrece el marcador X.
+summary:
+  en: |
+    Since a 2012 court decision (K.L. v. State), the Alaska DMV lets you change the sex designator on your license or state ID with a certification from a licensed provider. Form 427 has three parts: your request (M or F), your signed release, and the provider's certification that you have had "appropriate clinical treatment" and that the change is expected to be permanent. The provider decides what treatment is appropriate; surgery is not required.
+
+    You can skip the provider sections if you bring an **amended birth certificate**, a **valid US passport** showing the new sex, or a **US court order** granting a change of sex or gender.
+
+    Only **M** and **F** are available; nonbinary people cannot get an X.
+
+    Changing your **name** requires a certified Certificate of Name Change (or other proof listed below), and you must report a name change to the DMV within 30 days.
+  es: |
+    Desde una decisión judicial de 2012 (K.L. v. State), el DMV de Alaska permite cambiar el sexo en tu licencia o identificación con una certificación de un proveedor con licencia. El Formulario 427 tiene tres partes: tu solicitud (M o F), tu autorización firmada y la certificación del proveedor de que has recibido "tratamiento clínico apropiado" y que el cambio se espera sea permanente. El proveedor decide qué tratamiento es apropiado; no se requiere cirugía.
+
+    Puedes omitir las secciones del proveedor si presentas un **acta de nacimiento enmendada**, un **pasaporte estadounidense vigente** con el nuevo sexo o una **orden judicial de EE. UU.** que otorgue el cambio.
+
+    Solo hay **M** y **F**; las personas no binarias no pueden obtener X.
+
+    Cambiar tu **nombre** requiere un Certificado de Cambio de Nombre certificado, y debes reportarlo al DMV dentro de 30 días.
+eligibility:
+  residency:
+    en: You must hold or be applying for an Alaska driver's license, permit, or state ID card.
+    es: Debes tener o estar solicitando una licencia, permiso o identificación de Alaska.
+  age:
+    en: Form 427 has no age limit printed on it. For applicants under 18, a parent or guardian signs the license application as usual.
+    es: El Formulario 427 no indica límite de edad. Para menores de 18 años, un padre o tutor firma la solicitud como de costumbre.
+  sources: [form-427, dmv-change]
+forms:
+  - id: "427"
+    name:
+      en: Certification for Change of Sex Designator on Driver License or Identification Card
+      es: Certificación para cambio del designador de sexo en licencia o tarjeta de identificación
+    url: https://dmv.alaska.gov/media/2cmi043e/427.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Use black or blue ink and complete every field; incomplete forms are rejected.
+        - Section A: your full legal name, Alaska DL/ID number, date of birth, and check Male or Female. Sign.
+        - Section B: sign the release. You certify under penalty of unsworn falsification that the new designation reflects your gender identity and is not for a fraudulent purpose.
+        - Section C: your provider fills in their name, address, phone, license number and issuing jurisdiction, checks their profession (physician in medicine or osteopathy, social worker, psychologist, professional counselor, physician assistant, or advanced nurse practitioner), checks Male or Female, and signs. **The provider's signature must be original ink**; stamped or electronic signatures are not accepted.
+        - Skip B and C only if you bring an amended birth certificate, a valid US passport, or a US court order showing the new sex.
+      es: |
+        - Usa tinta negra o azul y completa todos los campos.
+        - Sección A: tu nombre legal, número de licencia o identificación, fecha de nacimiento, y marca Masculino o Femenino. Firma.
+        - Sección B: firma la autorización. Certificas que la nueva designación refleja tu identidad de género y no tiene fines fraudulentos.
+        - Sección C: tu proveedor anota su nombre, dirección, teléfono, número y jurisdicción de licencia, marca su profesión, marca Masculino o Femenino y firma. **La firma debe ser original en tinta**; no se aceptan sellos ni firmas electrónicas.
+        - Omite B y C solo si llevas acta de nacimiento enmendada, pasaporte vigente u orden judicial con el nuevo sexo.
+    sources: [form-427]
+  - id: D1
+    name:
+      en: Application for Driver License, Permit or State Identification Card
+      es: Solicitud de licencia de conducir, permiso o tarjeta de identificación estatal
+    url: https://dmv.alaska.gov/media/tskk4urs/d1.pdf
+    required: always
+    sources: [dmv-change]
+steps:
+  - id: provider
+    title:
+      en: Have a licensed provider complete Form 427
+      es: Pide a un proveedor con licencia que complete el Formulario 427
+    body:
+      en: Ask your doctor, PA, nurse practitioner, psychologist, professional counselor, or social worker to fill in and sign Section C in ink. A provider licensed in another state is acceptable; the form asks for the license-issuing jurisdiction. Skip this if you already have an amended birth certificate, passport, or court order with the new sex.
+      es: Pide a tu médico, asistente médico, enfermero practicante, psicólogo, consejero o trabajador social que llene y firme la Sección C en tinta. Se acepta un proveedor con licencia de otro estado. Omite este paso si ya tienes acta enmendada, pasaporte u orden judicial con el nuevo sexo.
+    forms: ["427"]
+    applies_to: [gender_marker]
+    sources: [form-427]
+  - id: application
+    title:
+      en: Fill out the D1 application
+      es: Llena la solicitud D1
+    body:
+      en: Complete Form D1 with the information you want on the new card. A vision test may be required.
+      es: Completa el Formulario D1 con la información que quieres en la nueva tarjeta. Puede requerirse un examen de la vista.
+    forms: [D1]
+    sources: [dmv-change]
+  - id: visit
+    title:
+      en: Visit a DMV office in person
+      es: Visita una oficina del DMV en persona
+    body:
+      en: |
+        Bring Form 427 (for a sex change), Form D1, your current card, and, if your name is changing, an **original certified** Certificate of Name Change or court order (photocopies and faxes are not accepted). Update Social Security first; the DMV verifies your name against SSA records. You will pay the replacement fee and may have a new photo taken.
+      es: |
+        Lleva el Formulario 427 (para el cambio de sexo), el Formulario D1, tu tarjeta actual y, si cambias de nombre, un Certificado de Cambio de Nombre u orden judicial **original certificado** (no se aceptan fotocopias ni faxes). Actualiza primero el Seguro Social. Pagarás la tarifa de reemplazo y es posible que te tomen una foto nueva.
+    fees: [dl-duplicate, id-card]
+    applies_to: [in_person]
+    sources: [dmv-change, dmv-fees, as-28-05-071]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Duplicate driver's license (standard / REAL ID)
+      es: Licencia de conducir duplicada (estándar / REAL ID)
+    min: 15
+    max: 35
+    note:
+      en: $15 for a standard card, $35 for a REAL ID. The DMV says to pay "the current license fee" for a replacement; confirm at the counter whether your transaction is charged as a duplicate or a new license ($20 / $40).
+      es: $15 estándar, $35 REAL ID. Confirma en la oficina si se cobra como duplicado o como licencia nueva ($20 / $40).
+    sources: [dmv-fees, dmv-change]
+  - id: id-card
+    label:
+      en: State identification card (standard / REAL ID)
+      es: Tarjeta de identificación estatal (estándar / REAL ID)
+    min: 15
+    max: 35
+    note:
+      en: A standard ID is free for people 60 and older (REAL ID $20).
+      es: La identificación estándar es gratis para mayores de 60 años (REAL ID $20).
+    sources: [dmv-fees]
+fee_waiver:
+  available: false
+  how:
+    en: The DMV fee table shows no low-income waiver; the only reduced fee is a free standard ID for people 60 and older.
+    es: La tabla de tarifas del DMV no muestra exención por bajos ingresos; solo la identificación estándar es gratis para mayores de 60 años.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Sex and name changes must be done at a DMV office. Only height, weight, hair and eye color changes can be emailed in.
+    es: Los cambios de sexo y nombre deben hacerse en una oficina del DMV.
+  sources: [dmv-change]
+timeline:
+  en: One office visit once you have the signed Form 427.
+  es: Una visita a la oficina una vez que tengas el Formulario 427 firmado.
+after:
+  en: |
+    Alaska's license is accepted for REAL ID, TSA, and voting. Note that as of September 2026 the US passport and Social Security record will not show a changed sex marker, so your license and federal records may not match; that is legal. If you were born in Alaska, you can use Form 427's provider letter model for your birth certificate too (see that guide).
+  es: |
+    La licencia de Alaska se acepta para REAL ID, TSA y votar. A septiembre de 2026 el pasaporte y el registro del Seguro Social no muestran un marcador cambiado, así que tu licencia y tus registros federales pueden no coincidir; eso es legal. Si naciste en Alaska, consulta la guía del acta de nacimiento.
+tips:
+  - en: Bring an extra blank Form 427 to your provider appointment; many providers have not seen it before. The provider must sign in ink.
+    es: Lleva un Formulario 427 en blanco a tu cita; muchos proveedores no lo conocen. La firma debe ser en tinta.
+  - en: Questions about Form 427 go to Anchorage Driver Licensing at (907) 269-5551.
+    es: Preguntas sobre el Formulario 427 al (907) 269-5551.
+  - en: You do not need a name change to change the sex marker, or the reverse.
+    es: No necesitas cambiar el nombre para cambiar el marcador, ni al revés.
+statutes:
+  - cite: Alaska Stat. § 28.05.071
+    title:
+      en: Duty to report a change of name to the DMV within 30 days
+    url: https://www.akleg.gov/basis/statutes.asp#28.05.071
+  - cite: 2 AAC 90.480
+    title:
+      en: DMV regulation on changing information on a license or ID (name, address, date of birth, physical description)
+    url: https://www.akleg.gov/basis/aac.asp#2.90.480
+related_links:
+  - title: Advocates for Trans Equality, Alaska identity documents
+    url: https://transequality.org/documents/alaska-identity-documents
+    note:
+      en: Last updated July 2025. Cites K.L. v. State (Alaska Super. Ct. 2012) as the source of the DMV policy.
+      es: Actualizado en julio de 2025.
+sources:
+  - id: form-427
+    url: https://dmv.alaska.gov/media/2cmi043e/427.pdf
+    title: Form 427 (Rev. 11/2024), Certification for Change of Sex Designator on Driver License or Identification Card
+    publisher: Alaska Division of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: This section must be completed in full by a licensed physician in medicine or osteopathy, social worker, psychologist, professional counselor, physician assistant or advanced nurse practitioner.
+  - id: dmv-change
+    url: https://dmv.alaska.gov/credential-services/changing-identification-details/
+    title: Changing Identification Details
+    publisher: Alaska Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: To change your sex on your driver's license or ID card, please also submit Certification for Change of Sex (Form 427) with a D1 application at a local DMV office.
+  - id: dmv-fees
+    url: https://dmv.alaska.gov/credential-services/license-fees/
+    title: License Fees
+    publisher: Alaska Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "State Identification Card $15 $35; State Identification Card Age 60 or older Free $20; Duplicate CDL, Driver, or Motorcycle License $15 $35"
+  - id: as-28-05-071
+    url: https://www.akleg.gov/basis/statutes.asp#28.05.071
+    title: AS 28.05.071, Change of name or address
+    publisher: Alaska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: shall notify the appropriate department of the change in name or address within 30 days

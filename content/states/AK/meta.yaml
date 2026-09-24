@@ -1,0 +1,138 @@
+code: AK
+name:
+  en: Alaska
+  es: Alaska
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are an editorial judgment from the guides: ID documents "mixed" (provider letter for DL and birth
+    certificate, M/F only, court-website posting for name changes with a safety waiver); care "mixed" (no statutory
+    restrictions and Medicaid coverage since 2021, but no shield law, no private-insurance protection, a proposed
+    medical board rule on minors, the state joining the June 2026 FTC suit against WPATH, and the May 2026 closure of
+    Anchorage's LGBTQ clinic). MAP's equality map was not fetched for cross-checking. Identity Inc, previously the main
+    statewide LGBTQ center, is omitted from key_resources because its clinic closed and its domain is parked.
+overview:
+  en: >-
+    Alaska has no laws targeting trans people's documents or health care, but also few explicit protections. You can
+    change your name in Superior Court (the court posts notice online, and you can ask to skip it for safety), and
+    change the sex on your driver's license and Alaska birth certificate to M or F with a provider's letter; X is not
+    offered. Gender-affirming care is legal for all ages, Alaska Medicaid covers it, and Planned Parenthood offers
+    informed-consent hormones statewide by telehealth. There is no shield law, and a medical board proposal to restrict
+    care for minors is pending.
+  es: >-
+    Alaska no tiene leyes dirigidas contra los documentos o la atención médica de las personas trans, pero tampoco
+    muchas protecciones explícitas. Puedes cambiar tu nombre en el Tribunal Superior (el tribunal publica el aviso en
+    línea y puedes pedir que no se publique por seguridad) y cambiar el sexo en tu licencia y acta de nacimiento de
+    Alaska a M o F con una carta de un proveedor; no se ofrece X. La atención de afirmación de género es legal a
+    cualquier edad, Medicaid de Alaska la cubre y Planned Parenthood ofrece hormonas por consentimiento informado en
+    todo el estado por telesalud. No hay ley escudo, y hay una propuesta de la junta médica para restringir la
+    atención a menores.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [form-427, civ-699, aac-105-110, beacon-medboard]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [anchorage]
+key_resources:
+  - id: alsc
+    name: Alaska Legal Services Corporation
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free statewide civil legal aid for low-income Alaskans, including family law, health care, and public benefits.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos.
+    url: https://www.alsc-law.org/apply-for-services/
+    phone: "1-888-478-2572"
+    cost: free
+    verification: org_website
+    sources: [alsc-apply]
+  - id: alaskans-together
+    name: Alaskans Together for Equality
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ+ education and advocacy organization with community events and suicide prevention resources.
+      es: Organización estatal de educación y defensa LGBTQ+ con eventos comunitarios y recursos de prevención del suicidio.
+    url: https://www.alaskanstogether.org/
+    cost: free
+    verification: org_website
+    sources: [ate]
+  - id: aclu-ak
+    name: ACLU of Alaska
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Civil liberties organization with an LGBTQIA2S+ rights program; accepts requests for help.
+      es: Organización de libertades civiles con un programa de derechos LGBTQIA2S+; acepta solicitudes de ayuda.
+    url: https://www.acluak.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-ak]
+  - id: careline
+    name: Careline Alaska
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Free 24/7 statewide crisis and suicide prevention line, 877-266-4357 (or call or text 988).
+      es: Línea estatal de crisis y prevención del suicidio, gratuita, 24/7, 877-266-4357 (o llama o envía texto al 988).
+    url: https://carelinealaska.com/
+    phone: "877-266-4357"
+    cost: free
+    verification: org_website
+    sources: [careline]
+sources:
+  - id: form-427
+    url: https://dmv.alaska.gov/media/2cmi043e/427.pdf
+    title: Form 427, Certification for Change of Sex Designator on Driver License or Identification Card
+    publisher: Alaska Division of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+  - id: civ-699
+    url: https://public.courts.alaska.gov/web/forms/docs/civ-699.pdf
+    title: CIV-699, Instructions for Adult Change of Name
+    publisher: Alaska Court System
+    kind: form
+    accessed: "2026-09-24"
+  - id: aac-105-110
+    url: https://www.akleg.gov/basis/aac.asp#7.105.110
+    title: 7 AAC 105.110, Noncovered services (Medicaid)
+    publisher: Alaska Legislature (Alaska Administrative Code)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: (12) repealed 7/25/2021
+  - id: beacon-medboard
+    url: https://alaskabeacon.com/2025/08/22/alaska-medical-board-seeks-to-restrict-abortion-transgender-medical-care/
+    title: Alaska medical board seeks to restrict abortion, transgender medical care
+    publisher: Alaska Beacon
+    kind: news
+    accessed: "2026-09-24"
+  - id: alsc-apply
+    url: https://www.alsc-law.org/apply-for-services/
+    title: Apply for Help
+    publisher: Alaska Legal Services Corporation
+    kind: org
+    accessed: "2026-09-24"
+  - id: ate
+    url: https://www.alaskanstogether.org/
+    title: Alaskans Together for Equality
+    publisher: Alaskans Together
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ak
+    url: https://www.acluak.org/get-help/
+    title: Get Help
+    publisher: ACLU of Alaska
+    kind: org
+    accessed: "2026-09-24"
+  - id: careline
+    url: https://carelinealaska.com/
+    title: Careline Alaska
+    publisher: Careline Alaska
+    kind: org
+    accessed: "2026-09-24"
