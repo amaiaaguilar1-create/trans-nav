@@ -1,0 +1,257 @@
+jurisdiction: MI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Medicaid coverage confirmed 2026-09-24 in the Michigan Medicaid Provider Manual (version July 1, 2026), Practitioner
+    chapter, section 3.13 Gender Affirmation Services. No state law restricts care for adults or minors. 2025 bills to ban
+    care for minors (SB 289, SB 290, HB 4190, HB 4466, HB 4467) and to add insurance mandates tied to detransition
+    (SB 291, HB 4468) were introduced; per the legislature's bill list read 2026-09-24 none has passed a chamber, so
+    they are not listed as pending bills. Private insurance: MAP scores Michigan 1/1 for banning insurance exclusions,
+    but the underlying DIFS bulletin or statute was NOT located (DIFS bulletin index pages did not expose it); the
+    Elliott-Larsen Act covers public accommodations and services. Reviewer must confirm the legal basis before marking
+    nondiscrimination_protection reviewed. Shield law: none found. Clinic details from org websites 2026-09-24; Corktown
+    Health says it primarily sees patients 18+ but may see patients as young as 16. Planned Parenthood of Michigan GAHT is
+    18+. National funds (Point of Pride, Genderbands, Trans Health Project) were not re-read for this state.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Michigan. Michigan Medicaid and the Healthy Michigan Plan
+    cover medically necessary hormone therapy and surgery. Informed-consent hormone care is available at Planned
+    Parenthood of Michigan (18+), Corktown Health in Detroit, and other clinics. Michigan has no shield law protecting
+    patients and providers from other states' actions.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Míchigan. Medicaid de Míchigan y el Healthy
+    Michigan Plan cubren la terapia hormonal y la cirugía médicamente necesarias. Hay atención hormonal por
+    consentimiento informado en Planned Parenthood of Michigan (18+), Corktown Health en Detroit y otras clínicas.
+    Míchigan no tiene una ley escudo que proteja a pacientes y proveedores de acciones de otros estados.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Planned Parenthood of Michigan and several community clinics prescribe hormones on an **informed consent** basis, with no therapist letter, and telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Medicaid / Healthy Michigan Plan** at MI Bridges. It covers hormones, labs, and surgery when medically necessary.
+      2. Go to a **community health center** (FQHC) or LGBTQ+ clinic such as Corktown Health, which take Medicaid and offer financial assistance. Find others at findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood of Michigan** offers hormone therapy at health centers statewide and by telehealth for ages 18 and up.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who qualify.
+    es: |
+      Sin restricciones estatales. Planned Parenthood of Michigan y varias clínicas comunitarias recetan hormonas por **consentimiento informado**, sin carta de terapeuta, y la telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid / Healthy Michigan Plan** en MI Bridges. Cubre hormonas, laboratorios y cirugía médicamente necesarios.
+      2. Acude a un **centro de salud comunitario** o clínica LGBTQ+ como Corktown Health, que aceptan Medicaid y ofrecen asistencia financiera. Busca otros en findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood of Michigan** ofrece terapia hormonal en centros de todo el estado y por telesalud desde los 18 años.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud a quienes califican.
+  sources: [pp-mi, corktown-medical, mpm, hrsa, pop-hrt]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Michigan has no law restricting gender-affirming care for minors; care follows clinical guidelines and requires parental consent. Bills to ban it were introduced in 2025 but none has passed either chamber. Michigan has **no shield law**, so it offers no special state protection against other states' subpoenas or prosecutions. Ruth Ellis Center's Health & Wellness Centers (with Henry Ford Health) provide hormone therapy for young people ages 13 to 30 at no out-of-pocket cost.
+    es: |
+      Legal. Míchigan no tiene ley que restrinja la atención de afirmación de género para menores; sigue guías clínicas y requiere consentimiento de los padres. Se presentaron proyectos para prohibirla en 2025, pero ninguno ha sido aprobado por una cámara. Míchigan **no tiene ley escudo**. Los Health & Wellness Centers del Ruth Ellis Center (con Henry Ford Health) ofrecen terapia hormonal a jóvenes de 13 a 30 años sin costo de bolsillo.
+  sources: [leg-bills-2025, map-profile, rec-hw]
+medicaid:
+  program_name: Michigan Medicaid (including the Healthy Michigan Plan)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      The Medicaid Provider Manual (Practitioner chapter, section 3.13) says Medicaid "covers medically necessary gender affirmation/confirming medical, surgical, and pharmacologic treatments and procedures" for people diagnosed with gender dysphoria, and that these are not elective or cosmetic when medically necessary. Providers must follow current WPATH and Endocrine Society guidelines.
+
+      **Who qualifies**: the Healthy Michigan Plan covers Michigan residents 19 to 64 with income at or below 133% of the federal poverty level who do not qualify for Medicare or other Medicaid; other Medicaid programs cover children, pregnant people, and people with disabilities. **Work requirements begin January 1, 2027** under federal law, so watch for notices from MDHHS. **Apply** online at MI Bridges or at your local MDHHS office.
+    es: |
+      El Manual de Proveedores de Medicaid (capítulo de Profesionales, sección 3.13) dice que Medicaid "cubre tratamientos y procedimientos médicos, quirúrgicos y farmacológicos de afirmación de género médicamente necesarios" para personas con diagnóstico de disforia de género, y que no son electivos ni cosméticos cuando son médicamente necesarios. Los proveedores deben seguir las guías actuales de WPATH y la Endocrine Society.
+
+      **Quién califica**: el Healthy Michigan Plan cubre residentes de 19 a 64 años con ingresos iguales o menores al 133% del nivel federal de pobreza que no califican para Medicare ni otro Medicaid. **Los requisitos de trabajo comienzan el 1 de enero de 2027**; presta atención a los avisos de MDHHS. **Solicita** en línea en MI Bridges o en tu oficina local de MDHHS.
+  how_to_apply_url: https://newmibridges.michigan.gov/
+  sources: [mpm, healthy-mi]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      The Movement Advancement Project reports that Michigan bars health insurers from excluding transgender-related care, and the Elliott-Larsen Civil Rights Act (amended in 2023) prohibits discrimination based on gender identity or expression in public accommodations and services. If a plan denies care, appeal with the plan first, then file a complaint with the Department of Insurance and Financial Services (DIFS). Self-funded employer plans are federally regulated; the Trans Health Project has appeal templates.
+    es: |
+      El Movement Advancement Project informa que Míchigan prohíbe a las aseguradoras excluir la atención relacionada con personas trans, y la Ley de Derechos Civiles Elliott-Larsen (enmendada en 2023) prohíbe la discriminación por identidad o expresión de género en servicios públicos. Si un plan niega la atención, apela primero con el plan y luego presenta una queja ante el Departamento de Seguros y Servicios Financieros (DIFS).
+  complaint_url: https://www.michigan.gov/difs/consumers/complaint
+  sources: [map-profile, elcra, difs-complaint]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-michigan
+    org: planned-parenthood
+    name: Planned Parenthood of Michigan, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy (estrogen, testosterone, blockers, microdosing) for ages 18 and older at health centers across Michigan and by telehealth; no mental health referral needed. Injection supply kits are $10 for six months.
+      es: Terapia hormonal por consentimiento informado (estrógeno, testosterona, bloqueadores, microdosis) desde los 18 años en centros de todo Míchigan y por telesalud; sin referencia de salud mental. Kits de inyección a $10 por seis meses.
+    url: https://www.plannedparenthood.org/planned-parenthood-michigan/healthcare/gender-affirming-care
+    cost: varies
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-mi]
+  - id: corktown-health
+    name: Corktown Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: LGBTQ+ health center in Detroit (and Hazel Park) with primary care, gender-affirming hormone therapy, HIV and STI testing, PrEP and PEP, behavioral health, and insurance navigation. Accepts Medicaid and most plans; primarily 18+, may see patients from 16. 313-832-3300.
+      es: Centro de salud LGBTQ+ en Detroit (y Hazel Park) con atención primaria, terapia hormonal, pruebas de VIH e ITS, PrEP y PEP, salud conductual y navegación de seguros. Acepta Medicaid; principalmente 18+, puede atender desde los 16. 313-832-3300.
+    url: https://corktownhealth.org/services/medical-care/
+    phone: "313-832-3300"
+    address: 1726 Howard St, Detroit, MI 48216
+    cost: insurance
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [corktown-medical]
+  - id: ruth-ellis-hw
+    name: Ruth Ellis Health & Wellness Centers (with Henry Ford Health)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Integrated primary care and behavioral health for LGBTQ+ young people ages 13 to 30, including hormone therapy and surgical referrals, STI and HIV care, and therapy. No out-of-pocket costs for visits, labs, or medications. 313-252-1950.
+      es: Atención primaria y salud conductual integradas para jóvenes LGBTQ+ de 13 a 30 años, incluida terapia hormonal y referencias quirúrgicas, atención de ITS y VIH, y terapia. Sin costo de bolsillo por visitas, laboratorios o medicamentos. 313-252-1950.
+    url: https://ruthelliscenter.org/what-we-do/health-and-wellness-centers/
+    phone: "313-252-1950"
+    address: 95 Victor St, Highland Park, MI 48203
+    cost: free
+    verification: org_website
+    sources: [rec-hw]
+  - id: healthy-michigan
+    name: Healthy Michigan Plan (MDHHS)
+    type: government_office
+    pillars: [hrt, insurance]
+    description:
+      en: Michigan's Medicaid expansion for adults 19 to 64 with income at or below 133% of the federal poverty level; work requirements start January 1, 2027. Covers gender-affirming hormones and medically necessary surgery. Apply online through MI Bridges.
+      es: La expansión de Medicaid de Míchigan para adultos de bajos ingresos de 19 a 64 años. Cubre hormonas y cirugía médicamente necesaria. Solicita en línea por MI Bridges.
+    url: https://www.michigan.gov/healthymiplan
+    cost: low_cost
+    verification: official_source
+    sources: [healthy-mi, mpm]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which see you regardless of insurance and charge on a sliding scale. Call and ask for gender-affirming care.
+      es: Localizador oficial de centros de salud federalmente calificados, que atienden sin importar tu seguro y cobran en escala móvil. Llama y pregunta por atención de afirmación de género.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-mi
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund for telehealth hormone therapy and an annual surgery fund.
+      es: Fondos nacionales para quienes no pueden pagar la atención, incluido el Fondo de Acceso a TRH por telesalud y un fondo anual de cirugía.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop-hrt]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: unverified
+    sources: [thp]
+statutes:
+  - cite: MCL 37.2102 (Elliott-Larsen Civil Rights Act, as amended by 2023 PA 6)
+    title:
+      en: Civil right to be free from discrimination based on gender identity or expression
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-37-2102
+sources:
+  - id: mpm
+    url: https://www.mdch.state.mi.us/dch-medicaid/manuals/MedicaidProviderManual.pdf
+    title: Michigan Medicaid Provider Manual (version July 1, 2026), Practitioner chapter, section 3.13 Gender Affirmation Services
+    publisher: Michigan Department of Health and Human Services
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: The Medicaid program covers medically necessary gender affirmation/ confirming medical, surgical, and pharmacologic treatments and procedures for beneficiaries clinically diagnosed with gender dysphoria.
+  - id: healthy-mi
+    url: https://www.michigan.gov/healthymiplan
+    title: Healthy Michigan Plan
+    publisher: Michigan Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Are age 19-64 years. Have income at or below 133% of the federal poverty level. ... Demonstrate work requirements (beginning on January 1, 2027)."
+  - id: difs-complaint
+    url: https://www.michigan.gov/difs/consumers/complaint
+    title: File a complaint
+    publisher: Michigan Department of Insurance and Financial Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: elcra
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-37-2102
+    title: MCL 37.2102, Elliott-Larsen Civil Rights Act
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.lgbtmap.org/equality_maps/profile_state/MI
+    title: Michigan equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Health Insurance Providers Banned from Excluding Coverage for Transgender People 1/1 ... Laws Banning Best Practice Medical Care For Transgender Youth No Negative Law
+  - id: leg-bills-2025
+    url: https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4467
+    title: HB 4467 of 2025 (gender reassignment procedures or treatment for minors; prohibit)
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Last Action: REFERRED TO COMMITTEE ON GOVERNMENT OPERATIONS"
+  - id: pp-mi
+    url: https://www.plannedparenthood.org/planned-parenthood-michigan/healthcare/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood of Michigan
+    kind: org
+    accessed: "2026-09-24"
+    quote: PPMI offers hormone therapy for transmasculine, transfeminine, nonbinary, and gender expansive people ages 18 years and older.
+  - id: corktown-medical
+    url: https://corktownhealth.org/services/medical-care/
+    title: Medical care
+    publisher: Corktown Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender Affirming Care (Hormone Therapy) ... Primarily 18 years of age. However, we may also see patients as young as 16 years old.
+  - id: rec-hw
+    url: https://ruthelliscenter.org/what-we-do/health-and-wellness-centers/
+    title: Ruth Ellis Health & Wellness Centers
+    publisher: Ruth Ellis Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Gender-affirming transition care: Hormone therapy, surgical referrals ... clients ages 13 to 30. There are no out-of-pocket costs for doctor visits, lab work, or medications."
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

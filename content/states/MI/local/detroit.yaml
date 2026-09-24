@@ -1,0 +1,202 @@
+jurisdiction: MI
+slug: detroit
+name: Detroit
+area:
+  en: Wayne, Oakland, and Macomb counties (Metro Detroit)
+  es: Condados de Wayne, Oakland y Macomb (área metropolitana de Detroit)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  notes: >-
+    Org details from each org's website 2026-09-24. The Third Circuit Court site (3rdcc.org) is a JavaScript app and
+    did not render for automated fetching, so the Wayne County filing location and address are NOT confirmed; the $175
+    fee is Michigan Legal Help's Wayne County figure. People living in Oakland or Macomb County file in their own county's
+    circuit court (Sixth Circuit, Oakland; Sixteenth Circuit, Macomb); those courts were not checked. Planned Parenthood
+    of Michigan Detroit-area health center locations were not individually verified.
+  es_status: machine_draft
+intro:
+  en: >-
+    Metro Detroit has Michigan's largest cluster of trans services: Corktown Health's LGBTQ+ clinic in Detroit, Ruth
+    Ellis Center's free health and wellness centers for young people in Highland Park, and the Affirmations LGBTQ+
+    center in Ferndale. Wayne County residents file name change petitions with the Third Judicial Circuit Court.
+  es: >-
+    El área metropolitana de Detroit concentra la mayor cantidad de servicios trans de Míchigan: la clínica LGBTQ+ de
+    Corktown Health en Detroit, los centros de salud gratuitos del Ruth Ellis Center para jóvenes en Highland Park y el
+    centro LGBTQ+ Affirmations en Ferndale. Los residentes del condado de Wayne presentan las peticiones de cambio de
+    nombre ante el Tribunal del Tercer Circuito Judicial.
+court:
+  name: Third Judicial Circuit Court of Michigan (Wayne County), Family Division
+  url: https://www.3rdcc.org/
+  self_help_url: https://michiganlegalhelp.org/step/4768
+  filing_fee: 175
+  notes:
+    en: You must have lived in Wayne County for at least one year. Contact the court to ask which filing methods it accepts (in person, email, mail, or MiFILE). Oakland County residents file in the Sixth Circuit Court and Macomb County residents in the Sixteenth Circuit Court.
+    es: Debes haber vivido al menos un año en el condado de Wayne. Pregunta al tribunal qué métodos de presentación acepta. Los residentes de Oakland presentan en el Sexto Circuito y los de Macomb en el Decimosexto Circuito.
+  sources: [mlh-adult-wayne]
+resources:
+  - id: corktown-health
+    name: Corktown Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: LGBTQ+ health center with gender-affirming hormone therapy, primary and HIV care, STI testing, PrEP and PEP, at-home HIV testing, behavioral health, dental, and insurance navigation. Accepts Medicaid and most plans; telehealth available. Main campus in Corktown, second site at 24310 John R Rd, Hazel Park. 313-832-3300.
+      es: Centro de salud LGBTQ+ con terapia hormonal, atención primaria y de VIH, pruebas de ITS, PrEP y PEP, salud conductual, dental y navegación de seguros. Acepta Medicaid; telesalud disponible. Sede principal en Corktown y otra en Hazel Park. 313-832-3300.
+    url: https://corktownhealth.org/
+    phone: "313-832-3300"
+    address: 1726 Howard St, Detroit, MI 48216
+    cost: insurance
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [corktown, corktown-medical]
+  - id: ruth-ellis-center
+    name: Ruth Ellis Center and Health & Wellness Centers
+    type: lgbtq_center
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Services for LGBTQ+ young people ages 13 to 30, including a drop-in center, housing, HIV prevention, and Health & Wellness Centers run with Henry Ford Health offering primary care, hormone therapy, STI and HIV care, psychiatry, and therapy at no out-of-pocket cost. 313-252-1950.
+      es: Servicios para jóvenes LGBTQ+ de 13 a 30 años, incluido un centro de acogida, vivienda, prevención del VIH y Health & Wellness Centers con Henry Ford Health que ofrecen atención primaria, terapia hormonal, atención de ITS y VIH, psiquiatría y terapia sin costo de bolsillo. 313-252-1950.
+    url: https://ruthelliscenter.org/what-we-do/health-and-wellness-centers/
+    phone: "313-252-1950"
+    address: 95 Victor St, Highland Park, MI 48203
+    cost: free
+    verification: org_website
+    sources: [rec-hw]
+  - id: affirmations
+    name: Affirmations LGBTQ+ Community Center
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Michigan's largest LGBTQ+ community center. Affordable individual therapy, support groups, basic needs help, and a legal resource guide. Open Monday to Saturday. 248-398-7105.
+      es: El centro comunitario LGBTQ+ más grande de Míchigan. Terapia individual accesible, grupos de apoyo, ayuda con necesidades básicas y guía de recursos legales. Abierto de lunes a sábado. 248-398-7105.
+    url: https://goaffirmations.org/
+    phone: "248-398-7105"
+    address: 290 W. 9 Mile Rd, Ferndale, MI 48220
+    cost: varies
+    verification: org_website
+    sources: [affirmations]
+  - id: pp-michigan
+    org: planned-parenthood
+    name: Planned Parenthood of Michigan
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for ages 18 and up at Michigan health centers and by telehealth, plus STI testing and sexual health care.
+      es: Terapia hormonal por consentimiento informado desde los 18 años en centros de Míchigan y por telesalud, además de pruebas de ITS y salud sexual.
+    url: https://www.plannedparenthood.org/planned-parenthood-michigan/healthcare/gender-affirming-care
+    cost: varies
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-mi]
+  - id: michigan-legal-help
+    name: Michigan Legal Help, Do-It-Yourself Name Change
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free guided interview that fills in your name change petition and nonpublication request, with Wayne County-specific instructions.
+      es: Entrevista guiada gratuita que llena tu petición de cambio de nombre y la solicitud de no publicación, con instrucciones para el condado de Wayne.
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/do-it-yourself-name-change
+    cost: free
+    verification: org_website
+    sources: [mlh-diy]
+  - id: lakeshore-legal-aid
+    name: Lakeshore Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services for low-income people, older adults, and survivors of domestic violence and sexual assault. Apply at 888-783-8190 or online; ask at intake about name change help.
+      es: Servicios legales civiles gratuitos para personas de bajos ingresos, adultos mayores y sobrevivientes de violencia doméstica y agresión sexual. Solicita al 888-783-8190 o en línea; pregunta por ayuda con cambio de nombre.
+    url: https://lakeshorelegalaid.org/
+    phone: "888-783-8190"
+    cost: free
+    verification: org_website
+    sources: [lakeshore]
+  - id: transgender-michigan
+    name: Transgender Michigan (Southeast chapter and help line)
+    type: hotline
+    pillars: [mental_health, name_change, gender_marker]
+    description:
+      en: Statewide trans organization with a Southeast Michigan chapter, a help line at 855-345-8464 (855-345-TGMI), a yearly Transgender Health Fair, and the TransPages provider directory.
+      es: Organización trans estatal con capítulo en el sureste de Míchigan, línea de ayuda al 855-345-8464 (855-345-TGMI), feria anual de salud trans y el directorio TransPages.
+    url: https://www.transgendermichigan.org/
+    phone: "855-345-8464"
+    cost: free
+    verification: org_website
+    sources: [tgmi]
+  - id: trans-lifeline-detroit
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people. 877-565-8860, English and Spanish.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860, inglés y español.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: mlh-adult-wayne
+    url: https://michiganlegalhelp.org/step/4768
+    title: How to ask for a name change for yourself as an adult (Wayne County selected)
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+    quote: You will have to pay the filing fee of $175.00 when you file the petition.
+  - id: mlh-diy
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/do-it-yourself-name-change
+    title: Do-It-Yourself Name Change
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+  - id: corktown
+    url: https://corktownhealth.org/
+    title: Corktown Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our Locations 1726 Howard Street Detroit, MI 48216. 24310 John R Road Hazel Park, MI 48030
+  - id: corktown-medical
+    url: https://corktownhealth.org/services/medical-care/
+    title: Medical care
+    publisher: Corktown Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender Affirming Care (Hormone Therapy)
+  - id: rec-hw
+    url: https://ruthelliscenter.org/what-we-do/health-and-wellness-centers/
+    title: Ruth Ellis Health & Wellness Centers
+    publisher: Ruth Ellis Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: affirmations
+    url: https://goaffirmations.org/contact-us/
+    title: Contact us
+    publisher: Affirmations LGBTQ+ Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-mi
+    url: https://www.plannedparenthood.org/planned-parenthood-michigan/healthcare/gender-affirming-care
+    title: Gender-affirming care
+    publisher: Planned Parenthood of Michigan
+    kind: org
+    accessed: "2026-09-24"
+  - id: lakeshore
+    url: https://lakeshorelegalaid.org/
+    title: Lakeshore Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: tgmi
+    url: https://www.transgendermichigan.org/
+    title: Transgender Michigan
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

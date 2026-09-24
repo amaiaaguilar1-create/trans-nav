@@ -1,0 +1,235 @@
+guide_type: birth_certificate
+jurisdiction: MI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Confirmed 2026-09-24: MCL 333.2831(c) as amended by 2024 PA 230 (effective April 2, 2025) requires a new
+    certificate on a signed form alone; MDHHS Sex Designation Form (M, F, X) and application DCH-0847-CHGBX (Rev
+    04/30/2025) list $50 including one copy, $16 per extra copy, $25 rush. The task brief asked whether Michigan's rule
+    is a 2024 self-attestation rule or a surgery affidavit: the surgery requirement was dropped administratively in 2021
+    after an Attorney General opinion and has been statutory self-attestation since April 2025. Processing-time
+    conflict: the MDHHS changes web page says 8-10 weeks regular and 6-8 expedited; the application form (Rev 04/2025)
+    and FAQ (Rev 03/2026) say 5-6 weeks and 2-3 weeks rush. The web page figure is used. The Sex Designation Form says
+    any subsequent sex change requires a court order (R 325.3259); the rule text was not read directly. Reviewer:
+    confirm whether the original certificate is sealed under MCL 333.2832 for sex-designation changes.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in Michigan you can get a new birth certificate showing male, female, or X by mailing MDHHS
+    Vital Records a signed Sex Designation Form with the application and $50. No medical documentation or court order
+    is required. Changing the name on it requires a court order.
+  es: >-
+    Si naciste en Míchigan puedes obtener una nueva acta de nacimiento con masculino, femenino o X enviando por correo a
+    MDHHS Vital Records un Formulario de Designación de Sexo firmado junto con la solicitud y $50. No se requiere
+    documentación médica ni orden judicial. Cambiar el nombre requiere una orden judicial.
+summary:
+  en: |
+    Under MCL 333.2831(c), the State Registrar must create a **new** birth certificate showing a sex designation other than the one assigned at birth when you send the state's Sex Designation Form. The registrar **may not require any other document** except, if you are also changing your name, the court order. You choose male, female, or X (which covers all designations other than male and female, including intersex).
+
+    If you send your name change order at the same time, the new certificate also shows your new name, and it does not need the special wording otherwise required to leave your birth name off.
+  es: |
+    Según MCL 333.2831(c), el Registro Estatal debe crear una **nueva** acta de nacimiento con una designación de sexo distinta a la asignada al nacer cuando envías el Formulario de Designación de Sexo del estado. El registro **no puede exigir ningún otro documento** salvo, si también cambias tu nombre, la orden judicial. Eliges masculino, femenino o X (que incluye todas las designaciones distintas de masculino y femenino, incluida intersexual).
+
+    Si envías tu orden de cambio de nombre al mismo tiempo, la nueva acta también muestra tu nuevo nombre.
+eligibility:
+  residency:
+    en: You must have been born in Michigan. Where you live now does not matter. If you were born in another state, that state's rules apply.
+    es: Debes haber nacido en Míchigan. No importa dónde vivas ahora. Si naciste en otro estado, se aplican las reglas de ese estado.
+  age:
+    en: Adults 18 and older sign for themselves. For a minor, a parent or legal guardian signs; if the child is over 15, both the parent or guardian and the child sign.
+    es: Los adultos de 18 años o más firman por sí mismos. Para un menor firma un padre o tutor legal; si tiene más de 15 años, firman el padre o tutor y el menor.
+  sources: [mcl-333-2831, mdhhs-sex-form]
+forms:
+  - id: Sex Designation Form
+    name:
+      en: State of Michigan Sex Designation Form (birth certificate)
+      es: Formulario de Designación de Sexo del Estado de Míchigan (acta de nacimiento)
+    url: https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder3/Folder17/Folder217/Sex-Designation-Form-New.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Your name as it appears on the record and your date of birth.
+        - Check the current sex under "From" and the new one (Male, Female, or X) under "To."
+        - Sign with an original signature (no faxes or photocopies). A parent or guardian signs for anyone under 18; a child over 15 signs too.
+      es: |
+        - Tu nombre como aparece en el registro y tu fecha de nacimiento.
+        - Marca el sexo actual en "From" y el nuevo (Masculino, Femenino o X) en "To".
+        - Firma con firma original. Un padre o tutor firma por menores de 18; un menor de más de 15 también firma.
+    sources: [mdhhs-sex-form]
+  - id: DCH-0847-CHGBX
+    name:
+      en: Application to Correct or Change a Michigan Birth Record
+      es: Solicitud para corregir o cambiar un registro de nacimiento de Míchigan
+    url: https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder1/Folder3/DCH-0847-CHGBX.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Part 2: check "Self" (or parent or guardian).
+        - Part 3: check "Correct/Change birth record for adult" (or minor). Also check "Court ordered legal name change" if you include a name change order.
+        - Part 4: the name and details exactly as on the current certificate; under Gender check the new designation. If changing your name, fill in New Name.
+        - Part 6: list the sex (and name, if changing) as it appears now and as you want it.
+        - Part 7: sign. Page 2: enter the fee total; make the check or money order payable to "State of Michigan."
+      es: |
+        - Parte 2: marca "Self" (o padre o tutor).
+        - Parte 3: marca "Correct/Change birth record for adult" (o menor), y también "Court ordered legal name change" si incluyes una orden.
+        - Parte 4: el nombre y datos como en el acta actual; en Gender marca la nueva designación.
+        - Parte 6: indica el sexo (y el nombre, si cambia) como está y como lo quieres.
+        - Parte 7: firma. Página 2: anota el total; cheque o giro postal a nombre de "State of Michigan".
+    sources: [dch-0847]
+steps:
+  - id: gather
+    title:
+      en: Gather the forms, a copy of your ID, and payment
+      es: Reúne los formularios, copia de tu identificación y el pago
+    body:
+      en: Complete the Sex Designation Form and the Application to Correct or Change a Michigan Birth Record. Include a photocopy of an unexpired government photo ID (driver's license, state ID, passport, passport card, or military ID). If you are also changing your name, include a certified copy of the court order.
+      es: Completa el Formulario de Designación de Sexo y la Solicitud para corregir o cambiar un registro de nacimiento. Incluye fotocopia de una identificación oficial con foto vigente. Si también cambias tu nombre, incluye copia certificada de la orden judicial.
+    forms: [Sex Designation Form, DCH-0847-CHGBX]
+    sources: [dch-0847, mdhhs-faq, mcl-333-2872]
+  - id: mail
+    title:
+      en: Mail the packet to Vital Records Changes
+      es: Envía el paquete por correo a Vital Records Changes
+    body:
+      en: |
+        Mail to **Vital Records Changes, P.O. Box 30721, Lansing, MI 48909** (for rush service, address it to "Vital Records Changes RUSH" at the same box and include the $25 rush fee). Pay by check or money order to "State of Michigan." Originals are not returned, and prepaid return envelopes are not used.
+      es: |
+        Envía a **Vital Records Changes, P.O. Box 30721, Lansing, MI 48909** (para servicio urgente, dirígelo a "Vital Records Changes RUSH" en la misma casilla e incluye $25). Paga con cheque o giro postal a "State of Michigan". No se devuelven originales.
+    fees: [application, extra-copy, rush]
+    applies_to: [by_mail]
+    sources: [dch-0847]
+  - id: wait
+    title:
+      en: Wait for the new certificate
+      es: Espera la nueva acta
+    body:
+      en: MDHHS's changes page currently lists 8 to 10 weeks for regular processing and 6 to 8 weeks expedited, not guaranteed. The clock starts when they have every required document. One certified copy comes with the $50 fee. Check status at 517-335-8666 or MDHHS-VR-Changes@michigan.gov.
+      es: La página de MDHHS indica actualmente de 8 a 10 semanas para el trámite regular y de 6 a 8 semanas urgente, sin garantía. Una copia certificada viene incluida. Consulta el estado al 517-335-8666 o MDHHS-VR-Changes@michigan.gov.
+    estimated_time:
+      en: 8 to 10 weeks (6 to 8 rush)
+      es: 8 a 10 semanas (6 a 8 urgente)
+    sources: [mdhhs-changes, mdhhs-faq]
+fees:
+  - id: application
+    label:
+      en: Application fee (includes one certified copy); non-refundable
+      es: Tarifa de solicitud (incluye una copia certificada); no reembolsable
+    amount: 50
+    waivable: false
+    sources: [dch-0847]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy
+      es: Cada copia certificada adicional
+    amount: 16
+    waivable: false
+    sources: [dch-0847]
+  - id: rush
+    label:
+      en: Rush processing (optional)
+      es: Trámite urgente (opcional)
+    amount: 25
+    waivable: false
+    sources: [dch-0847]
+fee_waiver:
+  available: false
+  how:
+    en: MDHHS does not publish a fee waiver for amendments. Funds such as Genderbands and Trans Lifeline microgrants sometimes help with document fees.
+    es: MDHHS no publica una exención de tarifas para enmiendas. Fondos como Genderbands y las microsubvenciones de Trans Lifeline a veces ayudan con estas tarifas.
+  sources: [dch-0847]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail to MDHHS Vital Records Changes in Lansing.
+    es: Por correo a MDHHS Vital Records Changes en Lansing.
+  sources: [dch-0847]
+minors:
+  summary:
+    en: A parent or legal guardian can request the change for a child under 18 using the same form; if the child is over 15, the child must sign too. Guardians must include court guardianship papers.
+    es: Un padre o tutor legal puede pedir el cambio para un menor de 18 con el mismo formulario; si el menor tiene más de 15 años, también debe firmar. Los tutores deben incluir los documentos judiciales de tutela.
+  sources: [mdhhs-sex-form, dch-0847]
+timeline:
+  en: About 2 to 3 months from mailing, depending on MDHHS's current backlog.
+  es: Unos 2 a 3 meses desde el envío, según el retraso actual de MDHHS.
+after:
+  en: |
+    Use the new certificate to update other records that accept it. As of September 2026 the Social Security Administration and the State Department will **not** change the sex field on a federal record based on it. Order extra copies now; ordering later is a separate request.
+  es: |
+    Usa la nueva acta para actualizar otros registros que la acepten. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** cambian el campo de sexo en registros federales con base en ella. Pide copias adicionales ahora.
+tips:
+  - en: Choose carefully. According to the form, any later request to change the sex on your Michigan birth certificate again requires a court order.
+    es: Elige con cuidado. Según el formulario, cualquier cambio posterior del sexo en tu acta de Míchigan requiere una orden judicial.
+  - en: Doing your name change first? Check item 12 on the court petition, or send the order together with the Sex Designation Form, so your birth name does not appear on the new certificate.
+    es: ¿Cambias primero tu nombre? Marca el punto 12 en la petición judicial, o envía la orden junto con el Formulario de Designación de Sexo, para que tu nombre de nacimiento no aparezca en la nueva acta.
+statutes:
+  - cite: MCL 333.2831(c)
+    title:
+      en: New certificate of birth showing a sex designation other than at birth, on a signed state form alone
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-2831
+  - cite: MCL 333.2872
+    title:
+      en: Name change on a birth record; addendum or new certificate
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-2872
+  - cite: 2024 PA 230 (HB 5303 of 2023)
+    title:
+      en: Codified self-attestation for birth certificate sex designation; effective April 2, 2025
+    url: https://www.legislature.mi.gov/Bills/Bill?ObjectName=2023-HB-5303
+related_links:
+  - title: MDHHS, Correct/amend a vital record or legal name change
+    url: https://www.michigan.gov/mdhhs/doing-business/vitalrecords/correct-change-a-vital-record-and-legal-name-change
+  - title: Advocates for Trans Equality, Michigan identity documents
+    url: https://transequality.org/documents/michigan-identity-documents
+    note:
+      en: Updated November 2025.
+      es: Actualizado en noviembre de 2025.
+sources:
+  - id: mcl-333-2831
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-2831
+    title: MCL 333.2831, New certificate of birth
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A request that a new certificate be established to show a sex designation other than that designated at birth. The request must be accompanied by a form approved by the director and signed by the individual indicating a sex designation.
+  - id: mcl-333-2872
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-2872
+    title: MCL 333.2872, Name change addendum or new certificate
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mdhhs-sex-form
+    url: https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder3/Folder17/Folder217/Sex-Designation-Form-New.pdf
+    title: State of Michigan Sex Designation Form (birth certificate)
+    publisher: Michigan Department of Health and Human Services, Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: Any subsequent requests to change the sex on the birth certificate requires a court order. (R.325.3259)
+  - id: dch-0847
+    url: https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder1/Folder3/DCH-0847-CHGBX.pdf
+    title: Application to Correct or Change a Michigan Birth Record (DCH-0847-CHGBX, Rev 04/30/2025)
+    publisher: Michigan Department of Health and Human Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Application Fee: $50.00 (Includes one copy). Additional Certified Copies: $16.00 each. RUSH Processing Fee: $25.00"
+  - id: mdhhs-changes
+    url: https://www.michigan.gov/mdhhs/doing-business/vitalrecords/correct-change-a-vital-record-and-legal-name-change
+    title: Correct/amend a vital record or legal name change
+    publisher: Michigan Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Processing times are currently 8-10 weeks (regular) & 6-8 (expedited) [not guaranteed].
+  - id: mdhhs-faq
+    url: https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Doing-Business-with-MDHHS/Birth-Death-Marriage-and-Divorce-Records/Correct_a_Birth_Record_FAQs.pdf
+    title: Frequently asked questions on how to correct or change a Michigan birth certificate (Rev. 03/23/2026)
+    publisher: Michigan Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: A signed Michigan Vital Record's Sex Designation Form or a court order determining sex designation.

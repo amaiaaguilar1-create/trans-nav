@@ -1,0 +1,143 @@
+code: MI
+name:
+  en: Michigan
+  es: Míchigan
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate is based on primary sources read 2026-09-24 (MCL 711.1 and 711.3 as amended by 2024 PA 229; MCL 333.2831
+    as amended by 2024 PA 230; SOS sex designation page; Medicaid Provider Manual Practitioner chapter section 3.13;
+    Elliott-Larsen Civil Rights Act as amended by 2023 PA 6). Michigan has no shield law statute (MAP profile scores it
+    0/1); reviewer should confirm no executive directive has since been issued. Several 2025 bills to ban care for minors
+    (SB 289-290, HB 4190, HB 4466-4467) and to remove gender identity from Elliott-Larsen (HB 4751, HB 4777) were
+    introduced but, per the legislature's bill list read 2026-09-24, none has passed a chamber.
+overview:
+  en: >-
+    Michigan is one of the more protective states for trans people. Since April 2025 a name change for gender identity
+    is automatically kept out of the newspaper and made confidential, with no fingerprinting. Driver's licenses and birth
+    certificates offer M, F, or X on your own signed statement, with no doctor's letter or court order. Medicaid covers
+    gender-affirming care, and the Elliott-Larsen Civil Rights Act bans discrimination based on gender identity or
+    expression. Michigan does not have a shield law for gender-affirming care.
+  es: >-
+    Míchigan es uno de los estados que más protege a las personas trans. Desde abril de 2025, un cambio de nombre por
+    identidad de género queda fuera del periódico y es confidencial automáticamente, sin huellas digitales. Las licencias
+    de conducir y las actas de nacimiento ofrecen M, F o X con tu propia declaración firmada, sin carta médica ni orden
+    judicial. Medicaid cubre la atención de afirmación de género, y la Ley de Derechos Civiles Elliott-Larsen prohíbe la
+    discriminación por identidad o expresión de género. Míchigan no tiene una ley escudo para la atención de afirmación de
+    género.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: false
+  sources: [mcl-711-3, mcl-333-2831, elcra, map-profile]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [detroit]
+key_resources:
+  - id: transgender-michigan
+    name: Transgender Michigan
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Statewide trans advocacy and support organization with regional chapters, a help line (855-345-TGMI, which is 855-345-8464), and the TransPages directory of trans-friendly providers.
+      es: Organización estatal de apoyo y defensa trans con capítulos regionales, una línea de ayuda (855-345-TGMI, es decir 855-345-8464) y el directorio TransPages de proveedores amigables.
+    url: https://www.transgendermichigan.org/
+    phone: "855-345-8464"
+    cost: free
+    verification: org_website
+    sources: [tgmi]
+  - id: michigan-legal-help
+    name: Michigan Legal Help
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free official self-help site with a Do-It-Yourself Name Change tool that fills in the court forms for you (including the nonpublication request), county-specific filing instructions, and a guide to changing your gender marker.
+      es: Sitio oficial gratuito de autoayuda con una herramienta para hacer tu propio cambio de nombre que llena los formularios del tribunal (incluida la solicitud de no publicación), instrucciones por condado y una guía para cambiar tu marcador de género.
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/do-it-yourself-name-change
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [mlh-diy]
+  - id: affirmations
+    name: Affirmations LGBTQ+ Community Center
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Michigan's largest LGBTQ+ community center, in Ferndale; affordable therapy, support groups, basic needs, and a legal resource guide. 290 W. 9 Mile Rd; 248-398-7105.
+      es: El centro comunitario LGBTQ+ más grande de Míchigan, en Ferndale; terapia accesible, grupos de apoyo, necesidades básicas y guía de recursos legales. 290 W. 9 Mile Rd; 248-398-7105.
+    url: https://goaffirmations.org/
+    phone: "248-398-7105"
+    address: 290 W. 9 Mile Rd, Ferndale, MI 48220
+    cost: varies
+    verification: org_website
+    sources: [affirmations]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: mcl-711-3
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-711-3
+    title: MCL 711.3, nonpublication and confidential record for good cause
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the court must presume that a petition shows good cause if ... The petitioner or the endangered individual seeks to affirm their gender identity.
+  - id: mcl-333-2831
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-2831
+    title: MCL 333.2831, new certificate of birth
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The state registrar may not require any additional document or certification other than the form, or, if applicable, the court order, required under this subdivision.
+  - id: elcra
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-37-2102
+    title: MCL 37.2102, Elliott-Larsen Civil Rights Act (as amended by 2023 PA 6, effective February 13, 2024)
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: without discrimination because of religion, race, color, national origin, age, sex, sexual orientation, gender identity or expression ...
+  - id: map-profile
+    url: https://www.lgbtmap.org/equality_maps/profile_state/MI
+    title: Michigan equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: '"Shield" Laws Protecting Access to Transgender Health Care 0/1'
+  - id: tgmi
+    url: https://www.transgendermichigan.org/
+    title: Transgender Michigan
+    kind: org
+    accessed: "2026-09-24"
+  - id: mlh-diy
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/do-it-yourself-name-change
+    title: Do-It-Yourself Name Change
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+  - id: affirmations
+    url: https://goaffirmations.org/contact-us/
+    title: Contact us
+    publisher: Affirmations LGBTQ+ Community Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: 290 West 9 Mile Road Ferndale, Michigan 48220. Phone (248) 398-7105
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

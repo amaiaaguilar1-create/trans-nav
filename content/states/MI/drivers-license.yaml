@@ -1,0 +1,183 @@
+guide_type: drivers_license
+jurisdiction: MI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Confirmed 2026-09-24 on the Secretary of State service page "License or ID sex designation correction" (M, F, or X;
+    office visit only; $9 license, $10 ID) and the Sex Designation Form (Rev. 05/2026), which is a sworn self-attestation
+    with no medical or court documentation. The policy is administrative (no statute found); the 2025-2026 session has no
+    bill that passed a chamber to restrict it. Reviewer: confirm whether the no-fee ID program covers a sex designation
+    correction (the no-fee ID page did not render usable text), and cross-check the current form revision.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Michigan lets you choose M, F, or X on your driver's license or state ID by signing the Secretary of State's Sex
+    Designation Form. No doctor's letter, surgery, or court order is needed. You must go to a Secretary of State office;
+    the fee is $9 for a license or $10 for an ID.
+  es: >-
+    Míchigan te permite elegir M, F o X en tu licencia de conducir o identificación estatal firmando el Formulario de
+    Designación de Sexo del Secretario de Estado. No se necesita carta médica, cirugía ni orden judicial. Debes ir a una
+    oficina del Secretario de Estado; la tarifa es de $9 para licencia o $10 para identificación.
+summary:
+  en: |
+    The Michigan Department of State (Secretary of State, SOS) changes the sex designation on a license or state ID when you sign its **Sex Designation Form**, swearing under penalty of perjury that the change is so your ID accurately reflects your identity. You choose female (F), male (M), or nonbinary (X). The SOS says the information on the form is not shared.
+
+    Changing your **name** is a separate correction. It needs proof of the legal name change (such as a certified court order), and Social Security must have your new name first. You can do both at the same visit.
+  es: |
+    El Departamento de Estado de Míchigan (Secretario de Estado, SOS) cambia la designación de sexo en una licencia o identificación cuando firmas su **Formulario de Designación de Sexo**, jurando bajo pena de perjurio que el cambio es para que tu identificación refleje con precisión tu identidad. Eliges femenino (F), masculino (M) o no binario (X). El SOS dice que la información del formulario no se comparte.
+
+    Cambiar tu **nombre** es una corrección aparte. Requiere prueba del cambio legal de nombre (por ejemplo, una orden judicial certificada), y el Seguro Social debe tener tu nuevo nombre primero. Puedes hacer ambas en la misma visita.
+eligibility:
+  residency:
+    en: For holders of (or applicants for) a Michigan driver's license or state ID.
+    es: Para titulares (o solicitantes) de una licencia de conducir o identificación estatal de Míchigan.
+  other:
+    en: No medical treatment, surgery, or court order is required.
+    es: No se requiere tratamiento médico, cirugía ni orden judicial.
+  sources: [sos-sex-form, sos-sex-page]
+forms:
+  - id: Sex Designation Form
+    name:
+      en: Michigan Secretary of State Sex Designation Form
+      es: Formulario de Designación de Sexo del Secretario de Estado de Míchigan
+    url: https://www.michigan.gov/-/media/Project/Websites/sos/License-and-ID/Forms/MDOS_Sex_designation_form.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Section A: your name, address, license or ID number, and date of birth exactly as they appear on your current card.
+        - Section B: write your name as shown on the card and check Female (F), Male (M), or Non-binary (X).
+        - Section C: optional voter registration questions.
+        - Section D: sign and date. Only original signatures are accepted; faxes and photocopies are rejected. You can also ask for a blank form at the office.
+      es: |
+        - Sección A: tu nombre, dirección, número de licencia o identificación y fecha de nacimiento tal como aparecen en tu tarjeta actual.
+        - Sección B: escribe tu nombre como aparece en la tarjeta y marca Femenino (F), Masculino (M) o No binario (X).
+        - Sección C: preguntas opcionales de registro de votante.
+        - Sección D: firma y fecha. Solo se aceptan firmas originales. También puedes pedir el formulario en la oficina.
+    sources: [sos-sex-form]
+steps:
+  - id: form
+    title:
+      en: Fill out and sign the Sex Designation Form
+      es: Llena y firma el Formulario de Designación de Sexo
+    body:
+      en: Print it at home or complete it at the office. Check F, M, or X and sign with an original signature.
+      es: Imprímelo en casa o llénalo en la oficina. Marca F, M o X y firma con firma original.
+    forms: [Sex Designation Form]
+    sources: [sos-sex-form, sos-sex-page]
+  - id: ssa-first
+    title:
+      en: If you are also changing your name, update Social Security first
+      es: Si también cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: The SOS verifies names against Social Security records and will deny a name change if SSA has not updated your name. Bring a certified copy of your court order to the SOS office.
+      es: El SOS verifica los nombres con el Seguro Social y negará el cambio de nombre si el SSA no lo ha actualizado. Lleva una copia certificada de tu orden judicial a la oficina.
+    optional: true
+    applies_to: [name_change]
+    sources: [sos-name]
+  - id: visit
+    title:
+      en: Visit a Secretary of State office
+      es: Visita una oficina del Secretario de Estado
+    body:
+      en: |
+        Schedule an office visit (average 20 minutes). Bring your current Michigan license or ID and the signed form, plus proof of your new legal name if the name is changing, and proof of legal presence if you also want to convert to REAL ID. A new photo is taken, and you pay the correction fee by card, cash, check, or money order.
+      es: |
+        Programa una visita (promedio de 20 minutos). Lleva tu licencia o identificación actual de Míchigan y el formulario firmado, más prueba de tu nuevo nombre legal si cambia, y prueba de presencia legal si también quieres convertirla en REAL ID. Te toman una foto nueva y pagas la tarifa con tarjeta, efectivo, cheque o giro postal.
+    fees: [dl-correction, id-correction]
+    applies_to: [in_person]
+    sources: [sos-sex-page, sos-name]
+  - id: receive
+    title:
+      en: Get your new card by mail
+      es: Recibe tu nueva tarjeta por correo
+    body:
+      en: You leave with a temporary paper credential. The card is printed off-site and mailed, usually within two or three weeks; contact the SOS if it has not arrived after 30 days.
+      es: Sales con una credencial temporal de papel. La tarjeta se imprime fuera y se envía por correo, generalmente en dos o tres semanas; contacta al SOS si no llega en 30 días.
+    estimated_time:
+      en: 2 to 3 weeks (up to 30 days)
+      es: 2 a 3 semanas (hasta 30 días)
+    sources: [sos-sex-page, mlh-gender]
+fees:
+  - id: dl-correction
+    label:
+      en: Driver's license correction (sex designation or name)
+      es: Corrección de licencia de conducir (sexo o nombre)
+    amount: 9
+    sources: [sos-sex-page]
+  - id: id-correction
+    label:
+      en: State ID correction (sex designation or name)
+      es: Corrección de identificación estatal (sexo o nombre)
+    amount: 10
+    sources: [sos-sex-page]
+fee_waiver:
+  available: false
+  how:
+    en: No fee waiver is listed for corrections. Michigan offers no-fee state IDs to certain groups; ask at the office whether you qualify.
+    es: No hay exención publicada para correcciones. Míchigan ofrece identificaciones sin costo a ciertos grupos; pregunta en la oficina si calificas.
+  sources: [sos-sex-page]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Office visit only. Online, mail, and self-service stations are unavailable for this transaction.
+    es: Solo en persona. No se puede hacer en línea, por correo ni en estaciones de autoservicio.
+  sources: [sos-sex-page]
+timeline:
+  en: One office visit, then about 2 to 3 weeks for the card to arrive.
+  es: Una visita a la oficina y luego unas 2 a 3 semanas para que llegue la tarjeta.
+after:
+  en: |
+    If you are registered to vote, your registration does not change because sex is not recorded on it, and poll workers are not told to check the sex on your ID. Be aware that, as of September 2026, the US passport and Social Security record cannot show X or a changed sex marker; your Michigan card is still valid as ID, including REAL ID if you converted it.
+  es: |
+    Si estás registrado para votar, tu registro no cambia porque el sexo no se registra en él, y a los trabajadores electorales no se les indica verificar el sexo en tu identificación. A septiembre de 2026, el pasaporte de EE. UU. y el registro del Seguro Social no pueden mostrar X ni un marcador cambiado; tu tarjeta de Míchigan sigue siendo válida como identificación, incluida REAL ID si la convertiste.
+tips:
+  - en: You can change your sex designation without changing your name, and the other way around.
+    es: Puedes cambiar tu designación de sexo sin cambiar tu nombre, y al revés.
+  - en: Convert to REAL ID at the same visit by bringing proof of legal presence (for example a passport or certified birth certificate).
+    es: Convierte a REAL ID en la misma visita llevando prueba de presencia legal (por ejemplo, pasaporte o acta de nacimiento certificada).
+related_links:
+  - title: Michigan Secretary of State, License or ID sex designation correction
+    url: https://www.michigan.gov/sos/all-services/license-or-id-sex-designation-correction
+  - title: Advocates for Trans Equality, Michigan identity documents
+    url: https://transequality.org/documents/michigan-identity-documents
+    note:
+      en: Updated November 2025.
+      es: Actualizado en noviembre de 2025.
+sources:
+  - id: sos-sex-page
+    url: https://www.michigan.gov/sos/all-services/license-or-id-sex-designation-correction
+    title: License or ID sex designation correction
+    publisher: Michigan Department of State
+    kind: official
+    accessed: "2026-09-24"
+    quote: "You can denote your sex on your license or ID as nonbinary (X), female (F), or male (M). ... Driver's license - $9 ID - $10"
+  - id: sos-sex-form
+    url: https://www.michigan.gov/-/media/Project/Websites/sos/License-and-ID/Forms/MDOS_Sex_designation_form.pdf
+    title: Sex Designation Form (Rev. 05/2026)
+    publisher: Michigan Department of State
+    kind: form
+    accessed: "2026-09-24"
+    quote: I hereby swear, under penalty of perjury, that this request to change the sex designation ... is to ensure that my driver's license or state ID accurately reflects my identity and is not for fraudulent or other illegal purposes.
+  - id: sos-name
+    url: https://www.michigan.gov/sos/all-services/license-or-id-name-correction
+    title: License or ID name correction
+    publisher: Michigan Department of State
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you don't inform the Social Security Administration of your name change, the Secretary of State's office can't process your name change.
+  - id: mlh-gender
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/i-want-change-gender-marker-my-id-or-birth-certificate
+    title: I want to change the gender marker on my ID or birth certificate
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+    quote: The SOS should send you your new ID or license within two or three weeks, but it could take up to 30 days.

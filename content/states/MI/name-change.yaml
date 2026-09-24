@@ -1,0 +1,555 @@
+guide_type: name_change
+jurisdiction: MI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from MCL 711.1 and 711.3 (legislature.mi.gov, as amended by 2024 PA 229, effective April 2, 2025),
+    the SCAO memo of March 28, 2025 on PA 229, forms PC 51 and PC 51c (Rev. 5/25) read directly, and Michigan Legal
+    Help's adult name change instructions with Wayne County selected. IMPORTANT: the task brief mentioned fingerprinting
+    for adults 22 and older; that requirement was REPEALED by PA 229 effective April 2, 2025 (courts may run a free
+    name-based LEIN/ICHAT check instead). Open items: (1) the $175 filing fee is Michigan Legal Help's figure for Wayne
+    County; it matches the statutory $150 filing fee (MCL 600.880 as referenced on court schedules; reviewer should confirm
+    which fee section applies to family-division name changes) plus the $25 e-filing system fee (MCL 600.1986). Some
+    counties report $185 including the $10 order-entry fee. (2) Certified copy fee: Michigan Legal Help says $11 per
+    certified copy and $10 to enter the order; A4TE (updated November 2025) says $10 per copy. Confirm with the Wayne
+    County Clerk. (3) Confirm PC 161 is still the order form for the ex parte nonpublication request. (4) The courts'
+    SCAO name change forms index page did not render for automated fetching; individual form PDFs did. (5) Typical
+    timeline was not found in a primary source and is omitted.
+status: available
+status_summary:
+  en: >-
+    Michigan adults who have lived in their county for at least a year can change their name in circuit court. If you
+    say on the petition that the change is to affirm your gender identity, the judge must skip newspaper publication
+    and keep the record confidential. Fingerprinting was eliminated in April 2025, and the judge may grant the change
+    without a hearing.
+  es: >-
+    En Míchigan, las personas adultas que han vivido al menos un año en su condado pueden cambiar su nombre en el
+    tribunal de circuito. Si indicas en la petición que el cambio es para afirmar tu identidad de género, el juez debe
+    omitir la publicación en el periódico y mantener el expediente confidencial. Las huellas digitales se eliminaron en
+    abril de 2025, y el juez puede conceder el cambio sin audiencia.
+summary:
+  en: |
+    You file a petition with the **family division of the circuit court** in the county where you have lived for at least one year (MCL 711.1). Since April 2, 2025 (2024 PA 229):
+
+    - **No fingerprints.** You only state on the petition whether you have a criminal record or pending charges. The court may run a free name-based check itself.
+    - **Hearing is up to the judge** for adults. Many courts now sign the order without one.
+    - **Publication can be skipped.** Use form **PC 51c** instead of PC 51 and check "seek(s) to affirm gender identity" in the Statement of Good Cause. The law says the court must presume good cause for that reason, must order no publication, and must make the record confidential. You do not have to prove anything else.
+
+    The free **Michigan Legal Help Do-It-Yourself Name Change** tool fills in all of these forms for you.
+  es: |
+    Presentas una petición ante la **división de familia del tribunal de circuito** del condado donde has vivido al menos un año (MCL 711.1). Desde el 2 de abril de 2025 (Ley Pública 229 de 2024):
+
+    - **Sin huellas digitales.** Solo indicas en la petición si tienes antecedentes penales o cargos pendientes. El tribunal puede hacer una verificación gratuita por nombre.
+    - **La audiencia queda a criterio del juez** para adultos. Muchos tribunales firman la orden sin audiencia.
+    - **Se puede omitir la publicación.** Usa el formulario **PC 51c** en lugar del PC 51 y marca "busca afirmar su identidad de género" en la Declaración de Causa Justificada. La ley dice que el tribunal debe presumir causa justificada por esa razón, ordenar que no se publique y hacer confidencial el expediente.
+
+    La herramienta gratuita **Do-It-Yourself Name Change de Michigan Legal Help** llena todos estos formularios por ti.
+eligibility:
+  residency:
+    en: You (and each person whose name is being changed) must have lived in the county where you file for at least one year.
+    es: Tú (y cada persona cuyo nombre cambia) debes haber vivido al menos un año en el condado donde presentas la petición.
+  age:
+    en: 18 or older for your own petition. For minors, parents or a guardian sign; see the Minors section.
+    es: 18 años o más para tu propia petición. Para menores firman los padres o un tutor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      A criminal record does not bar a name change and is no longer presumed to show fraud. You must list any record or
+      pending charge on the petition, or state that you have none. Lying on the petition is perjury.
+    es: >-
+      Tener antecedentes penales no impide el cambio de nombre y ya no se presume fraude. Debes indicar cualquier
+      antecedente o cargo pendiente en la petición, o declarar que no tienes. Mentir en la petición es perjurio.
+  sources: [mcl-711-1, scao-memo]
+forms:
+  - id: PC 51c
+    name:
+      en: Petition for Name Change and Ex Parte Request for Nonpublication and Confidential Record
+      es: Petición de cambio de nombre y solicitud ex parte de no publicación y expediente confidencial
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc51c.pdf
+    required: conditional
+    condition:
+      en: Use this instead of PC 51 if you want no newspaper notice and a confidential record. Recommended for trans people.
+      es: Usa este en lugar del PC 51 si no quieres aviso en el periódico y quieres un expediente confidencial. Recomendado para personas trans.
+    how_to_fill:
+      en: |
+        - Item 2 confirms each person has lived in the county at least one year.
+        - Item 6 (reason): a short statement is enough, for example "to affirm my gender identity."
+        - Item 8: check "has" or "does not have" a criminal record, including pending charges, and list any record.
+        - Item 12 (optional): check it if you want the State Registrar to create a **new** birth certificate that does not show your birth name and to seal the original. If you skip it, a Michigan birth certificate only gets an addendum showing both names.
+        - Page 3, Statement of Good Cause: check item 1 (b) "at risk of unlawful discrimination or retaliation" and/or (a) physical danger, then item 2 (b) "seek(s) to affirm gender identity." Add a sentence or two of detail in item 3. The court may not require proof of an arrest or prosecution.
+        - Put dates of birth on MC 97a, not on the petition.
+      es: |
+        - El punto 2 confirma que cada persona ha vivido al menos un año en el condado.
+        - Punto 6 (razón): basta una frase corta, por ejemplo "para afirmar mi identidad de género".
+        - Punto 8: marca si tienes o no antecedentes penales, incluidos cargos pendientes, y descríbelos.
+        - Punto 12 (opcional): márcalo si quieres que el Registro Estatal cree una acta de nacimiento **nueva** que no muestre tu nombre de nacimiento y selle la original.
+        - Página 3, Declaración de Causa Justificada: marca el punto 1 (b) riesgo de discriminación o represalia ilegal y/o (a) peligro físico, luego el punto 2 (b) "busca afirmar su identidad de género". Agrega uno o dos detalles en el punto 3.
+        - Pon las fechas de nacimiento en el MC 97a, no en la petición.
+    sources: [pc51c-pdf, mcl-711-3]
+  - id: PC 51
+    name:
+      en: Petition for Name Change (with publication)
+      es: Petición de cambio de nombre (con publicación)
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc51.pdf
+    required: conditional
+    condition:
+      en: Only if you do not want to ask for nonpublication. You will then have to publish a notice in a newspaper (form PC 50).
+      es: Solo si no quieres pedir la no publicación. Entonces tendrás que publicar un aviso en un periódico (formulario PC 50).
+    sources: [pc51-pdf]
+  - id: MC 97a
+    name:
+      en: Addendum to Protected Personal Identifying Information
+      es: Anexo de información de identificación personal protegida
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/mc97a.pdf
+    required: always
+    condition:
+      en: Filed with the petition; holds the dates of birth so they stay out of the public file.
+      es: Se presenta con la petición; contiene las fechas de nacimiento para que no queden en el expediente público.
+    sources: [pc51-pdf, mlh-adult-wayne]
+  - id: MC 21
+    name:
+      en: Confidential Case Inventory
+      es: Inventario confidencial de casos
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/mc21.pdf
+    required: conditional
+    condition:
+      en: Only if you have other family-division cases to list; Michigan Legal Help says "if applicable."
+      es: Solo si tienes otros casos en la división de familia; Michigan Legal Help dice "si aplica".
+    sources: [mlh-adult-wayne]
+  - id: PC 161
+    name:
+      en: Order Regarding Ex Parte Request for Nonpublication and Confidential Record
+      es: Orden sobre la solicitud ex parte de no publicación y expediente confidencial
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc161.pdf
+    required: conditional
+    condition:
+      en: File with PC 51c. The judge fills in whether the request is granted.
+      es: Se presenta con el PC 51c. El juez indica si concede la solicitud.
+    sources: [mlh-adult-wayne, a4te-mi]
+  - id: PC 52
+    name:
+      en: Order Following Hearing Regarding Petition for Name Change
+      es: Orden después de la audiencia sobre la petición de cambio de nombre
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc52.pdf
+    required: always
+    condition:
+      en: The order the judge signs. Ask the clerk which order form your court wants if there is no hearing.
+      es: La orden que firma el juez. Pregunta al secretario qué formulario de orden usa tu tribunal si no hay audiencia.
+    sources: [a4te-mi, mlh-adult-wayne]
+  - id: PC 162
+    name:
+      en: Request for Hearing or Dismissal Regarding Name Change Proceeding
+      es: Solicitud de audiencia o desistimiento en el proceso de cambio de nombre
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc162.pdf
+    required: optional
+    condition:
+      en: Only if the judge denies nonpublication. You have 14 days to ask for a hearing or to dismiss.
+      es: Solo si el juez niega la no publicación. Tienes 14 días para pedir audiencia o desistir.
+    sources: [mlh-adult-wayne]
+  - id: PC 50
+    name:
+      en: Publication of Notice of Hearing Regarding Petition for Name Change
+      es: Publicación del aviso de audiencia sobre la petición de cambio de nombre
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc50.pdf
+    required: conditional
+    condition:
+      en: Only if you are publishing (you used PC 51, or nonpublication was denied and you chose to continue).
+      es: Solo si vas a publicar (usaste PC 51, o te negaron la no publicación y decidiste continuar).
+    sources: [pc51-pdf, mlh-adult-wayne]
+  - id: MC 20
+    name:
+      en: Fee Waiver Request
+      es: Solicitud de exención de tarifas
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/mc20.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    sources: [mlh-fee-waiver]
+steps:
+  - id: diy-tool
+    title:
+      en: Fill out your forms with the free Michigan Legal Help tool
+      es: Llena tus formularios con la herramienta gratuita de Michigan Legal Help
+    body:
+      en: The Do-It-Yourself Name Change tool asks you questions and produces the petition (PC 51c if you ask not to publish), MC 97a, and the orders. Filling out forms there does not file anything with the court.
+      es: La herramienta Do-It-Yourself Name Change te hace preguntas y produce la petición (PC 51c si pides no publicar), el MC 97a y las órdenes. Llenar los formularios ahí no presenta nada ante el tribunal.
+    forms: [PC 51c, MC 97a, PC 161]
+    sources: [mlh-diy, mlh-adult-wayne]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: File MC 20 with your petition. If the waiver is granted, the court must also pay any publication costs, and the $10 order-entry fee is waived. Certified copies may not be covered.
+      es: Presenta el MC 20 con tu petición. Si se concede la exención, el tribunal también debe pagar los costos de publicación y se exime la tarifa de $10 por registrar la orden. Las copias certificadas pueden no estar cubiertas.
+    forms: [MC 20]
+    optional: true
+    sources: [mlh-adult-wayne, mlh-fee-waiver]
+  - id: file
+    title:
+      en: File at the circuit court in your county and pay the fee
+      es: Presenta en el tribunal de circuito de tu condado y paga la tarifa
+    body:
+      en: |
+        File PC 51c (or PC 51), MC 97a, MC 21 if applicable, and PC 161 if you are asking not to publish. Depending on the court you can file in person, by email, by mail or drop-off, or through MiFILE e-filing (case-type code **NC**). Contact the clerk to ask which methods it accepts. Michigan Legal Help lists the filing fee as $175.
+      es: |
+        Presenta el PC 51c (o PC 51), MC 97a, MC 21 si aplica, y PC 161 si pides no publicar. Según el tribunal puedes presentar en persona, por correo electrónico, por correo o entregándolo, o por MiFILE (código de tipo de caso **NC**). Michigan Legal Help indica una tarifa de $175.
+    forms: [PC 51c, PC 51, MC 97a, MC 21, PC 161]
+    fees: [filing]
+    sources: [mlh-adult-wayne]
+  - id: nonpublication-decision
+    title:
+      en: Get the judge's decision on nonpublication
+      es: Recibe la decisión del juez sobre la no publicación
+    body:
+      en: |
+        The judge signs PC 161. If granted, skip publication. If denied (unlikely when you checked "affirm gender identity," because the law presumes good cause), you have **14 days** to (a) accept and publish using PC 50, (b) dismiss with PC 162, or (c) ask for a hearing with PC 162 to explain why publication would harm you.
+      es: |
+        El juez firma el PC 161. Si se concede, no publicas. Si se niega (poco probable si marcaste "afirmar identidad de género", porque la ley presume causa justificada), tienes **14 días** para (a) aceptar y publicar con el PC 50, (b) desistir con el PC 162, o (c) pedir audiencia con el PC 162.
+    forms: [PC 161, PC 162, PC 50]
+    sources: [mlh-adult-wayne, mcl-711-3]
+  - id: hearing
+    title:
+      en: Attend a hearing only if the court schedules one
+      es: Asiste a una audiencia solo si el tribunal la programa
+    body:
+      en: For adults the judge decides whether to hold a hearing. If there is one, the court mails you a notice; bring two copies of the order form and your documents. If the judge approves, the judge signs the order.
+      es: Para adultos el juez decide si habrá audiencia. Si la hay, el tribunal te envía un aviso; lleva dos copias del formulario de orden y tus documentos. Si el juez aprueba, firma la orden.
+    forms: [PC 52]
+    optional: true
+    sources: [mcl-711-1, mlh-adult-wayne]
+  - id: certified-copies
+    title:
+      en: Pay the order fee and get certified copies
+      es: Paga la tarifa de la orden y obtén copias certificadas
+    body:
+      en: There is a $10 fee for the court to enter the order (waived with a fee waiver). Get at least two or three certified copies; Social Security, the Secretary of State, vital records, and the passport agency each need to see one.
+      es: Hay una tarifa de $10 para que el tribunal registre la orden (se exime con exención de tarifas). Obtén al menos dos o tres copias certificadas; el Seguro Social, el Secretario de Estado, registros vitales y la oficina de pasaportes necesitan ver una.
+    fees: [order-entry, certified-copy]
+    sources: [mlh-adult-wayne]
+  - id: update-documents
+    title:
+      en: Update your other records, Social Security first
+      es: Actualiza tus demás registros, primero el Seguro Social
+    body:
+      en: |
+        1. **Social Security** first. The Secretary of State cannot change your name until SSA has it.
+        2. **Secretary of State** driver's license or ID (in person, $9 or $10).
+        3. **Birth certificate** if born in Michigan ($50 through MDHHS Vital Records).
+        4. Passport, bank, employer, insurance, schools. Your voter registration updates when your license does.
+      es: |
+        1. **Seguro Social** primero. El Secretario de Estado no puede cambiar tu nombre hasta que el SSA lo tenga.
+        2. Licencia o identificación del **Secretario de Estado** (en persona, $9 o $10).
+        3. **Acta de nacimiento** si naciste en Míchigan ($50 con MDHHS Vital Records).
+        4. Pasaporte, banco, empleador, seguro, escuelas. Tu registro de votante se actualiza cuando cambias la licencia.
+    sources: [mlh-after]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee (petition for name change)
+      es: Tarifa de presentación del tribunal de circuito (petición de cambio de nombre)
+    amount: 175
+    varies_by: county
+    waivable: true
+    note:
+      en: Michigan Legal Help's figure for Wayne County; it combines a $150 filing fee and the $25 electronic filing system fee charged on every new civil case. Check with your county clerk.
+      es: Cifra de Michigan Legal Help para el condado de Wayne; combina una tarifa de $150 y la tarifa de $25 del sistema de presentación electrónica. Confirma con el secretario de tu condado.
+    sources: [mlh-adult-wayne, mcl-600-1986]
+  - id: order-entry
+    label:
+      en: Fee to enter the signed order
+      es: Tarifa para registrar la orden firmada
+    amount: 10
+    waivable: true
+    sources: [mlh-adult-wayne]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    amount: 11
+    varies_by: county
+    waivable: false
+    note:
+      en: Michigan Legal Help says $11 and that it may not be covered by a fee waiver; A4TE lists $10. Ask your clerk.
+      es: Michigan Legal Help indica $11 y que puede no estar cubierta por la exención; A4TE indica $10. Pregunta al secretario.
+    sources: [mlh-adult-wayne, a4te-mi]
+  - id: publication
+    label:
+      en: Newspaper publication (only if you publish)
+      es: Publicación en periódico (solo si publicas)
+    varies_by: vendor
+    waivable: true
+    note:
+      en: Price depends on the county and newspaper; some also charge for the affidavit of publication. Not needed if nonpublication is granted.
+      es: El precio depende del condado y del periódico. No se necesita si se concede la no publicación.
+    sources: [mlh-adult-wayne]
+fee_waiver:
+  available: true
+  forms: [MC 20]
+  eligibility:
+    en: You may qualify if you receive public assistance or your income is low enough that paying the fee would be a hardship; the MC 20 form lists the criteria. If the court waives fees for commencing the case, it must also waive the $25 e-filing fee.
+    es: Puedes calificar si recibes asistencia pública o si tus ingresos son tan bajos que pagar sería una dificultad; el formulario MC 20 enumera los criterios. Si el tribunal exime la tarifa inicial, también debe eximir la tarifa de $25 de presentación electrónica.
+  how:
+    en: File MC 20 with your petition, or use Michigan Legal Help's Do-It-Yourself Fee Waiver tool.
+    es: Presenta el MC 20 con tu petición, o usa la herramienta Do-It-Yourself Fee Waiver de Michigan Legal Help.
+  sources: [mlh-fee-waiver, mcl-600-1986]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      Publication in a newspaper is the default, but if your petition shows good cause the court **must** order no
+      publication and a confidential record. The court must presume good cause if you state that you seek to affirm
+      your gender identity, or that you are a victim of an assaultive crime, domestic violence, harassment, human
+      trafficking, or stalking. No proof of an arrest or prosecution may be required.
+    es: >-
+      La publicación en periódico es la regla general, pero si tu petición muestra causa justificada el tribunal
+      **debe** ordenar que no se publique y que el expediente sea confidencial. El tribunal debe presumir causa
+      justificada si declaras que buscas afirmar tu identidad de género, o que eres víctima de un delito violento,
+      violencia doméstica, acoso, trata de personas o acecho.
+  waiver_available: true
+  waiver_how:
+    en: File PC 51c (not PC 51) and complete its Statement of Good Cause, checking "seek(s) to affirm gender identity."
+    es: Presenta el PC 51c (no el PC 51) y completa la Declaración de Causa Justificada, marcando "busca afirmar su identidad de género".
+  sources: [mcl-711-3, pc51c-pdf, scao-memo]
+hearing:
+  required: conditional
+  detail:
+    en: For adults, the court may grant the name change with or without a hearing, at its discretion (since April 2, 2025). A hearing is required when a minor's name is changed with only the custodial parent's consent under MCL 711.1(7).
+    es: Para adultos, el tribunal puede conceder el cambio con o sin audiencia, a su criterio (desde el 2 de abril de 2025). Se requiere audiencia cuando el nombre de un menor se cambia por la vía de MCL 711.1(7) sin el consentimiento del padre no custodio.
+  sources: [mcl-711-1, scao-memo]
+background_check:
+  required: "no"
+  detail:
+    en: >-
+      Fingerprinting (formerly required for anyone 22 or older) was eliminated by 2024 PA 229 as of April 2, 2025. You
+      disclose any criminal record or pending charge on the petition. The court may run its own name-based check through
+      LEIN or ICHAT at no cost to you. If the order changes the name of someone with a criminal record, the court forwards
+      it to the State Police.
+    es: >-
+      Las huellas digitales (antes obligatorias para mayores de 22 años) se eliminaron con la Ley Pública 229 de 2024
+      desde el 2 de abril de 2025. Declaras tus antecedentes en la petición. El tribunal puede hacer una verificación por
+      nombre en LEIN o ICHAT sin costo para ti.
+  sources: [mcl-711-1, scao-memo]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: When nonpublication is granted, the whole record of the proceeding is confidential. Court staff who disclose it beyond their duties commit a misdemeanor, and the record is exempt from Freedom of Information Act requests.
+    es: Cuando se concede la no publicación, todo el expediente es confidencial. El personal del tribunal que lo divulgue fuera de sus funciones comete un delito menor, y el expediente está exento de solicitudes de acceso a la información (FOIA).
+  how:
+    en: Request it on PC 51c at filing. There is no separate sealing motion.
+    es: Pídelo en el PC 51c al presentar. No hay una moción separada.
+  sources: [mcl-711-3]
+minors:
+  summary:
+    en: |
+      The petition is signed by both parents jointly, the surviving parent, the guardian, or the one parent with legal custody if only one is available. A child **14 or older** must also sign written consent (on the petition or form PC 51b), and no longer has to sign in front of the judge. For younger children the judge considers the child's wishes if old enough to express a preference. A custodial parent can proceed without the other parent only in the situations in MCL 711.1(7) (two or more years of nonsupport and no contact, or certain convictions), with notice to the other parent and a hearing. The same nonpublication and confidentiality protections apply. A4TE notes the minor's name change may require service on the non-petitioning parent.
+    es: |
+      Firman la petición ambos padres juntos, el padre sobreviviente, el tutor, o el único padre con custodia legal disponible. Un menor de **14 años o más** también debe firmar su consentimiento por escrito (en la petición o en el formulario PC 51b), y ya no tiene que firmarlo ante el juez. Un padre con custodia solo puede proceder sin el otro en los casos de MCL 711.1(7) (dos años o más sin manutención ni contacto, o ciertas condenas), con notificación al otro padre y audiencia. Aplican las mismas protecciones de no publicación y confidencialidad.
+  sources: [mcl-711-1, scao-memo, a4te-mi]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: Each court decides. Options may include in person, email, mail or drop-off, and MiFILE e-filing (not available in every court).
+    es: Cada tribunal decide. Puede ser en persona, por correo electrónico, por correo o entrega, y por MiFILE (no disponible en todos los tribunales).
+  sources: [mlh-adult-wayne]
+after:
+  en: |
+    Start with **Social Security** (the Secretary of State checks your name against SSA and will deny the change if SSA has not updated it). Then the **Secretary of State** in person ($9 license, $10 ID), then your **Michigan birth certificate** ($50 to MDHHS Vital Records with a certified copy of the order), then passport, bank, employer, insurance, and schools. Updating your license also updates your voter registration.
+  es: |
+    Empieza por el **Seguro Social** (el Secretario de Estado compara tu nombre con el del SSA y negará el cambio si el SSA no lo ha actualizado). Luego el **Secretario de Estado** en persona ($9 licencia, $10 identificación), después tu **acta de nacimiento de Míchigan** ($50 a MDHHS Vital Records con copia certificada de la orden), y luego pasaporte, banco, empleador, seguro y escuelas. Al actualizar tu licencia también se actualiza tu registro de votante.
+tips:
+  - en: If you were born in Michigan, check item 12 on the petition to get a brand-new birth certificate without your birth name. Without it, Vital Records only adds an addendum listing both names.
+    es: Si naciste en Míchigan, marca el punto 12 de la petición para obtener una acta de nacimiento nueva sin tu nombre de nacimiento. Sin eso, Registros Vitales solo agrega un anexo con ambos nombres.
+  - en: Moved counties in the last year? You must wait until you have lived in your current county for a full year before filing there.
+    es: ¿Te mudaste de condado en el último año? Debes esperar a cumplir un año completo en tu condado actual para presentar allí.
+  - en: Michigan Legal Help's county picker gives your court's exact fees, filing methods, and contact information.
+    es: El selector de condado de Michigan Legal Help te da las tarifas, métodos de presentación y contacto exactos de tu tribunal.
+local_help:
+  - id: michigan-legal-help
+    name: Michigan Legal Help, Do-It-Yourself Name Change
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free guided interview that produces your completed petition, nonpublication request, and orders, plus county-specific step-by-step instructions and a self-help center map.
+      es: Entrevista guiada gratuita que produce tu petición, la solicitud de no publicación y las órdenes, con instrucciones paso a paso por condado.
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/do-it-yourself-name-change
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [mlh-diy]
+  - id: transgender-michigan
+    name: Transgender Michigan
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide trans organization with a help line (855-345-8464) and TransPages directory that can point you to trans-friendly attorneys and local chapters.
+      es: Organización trans estatal con línea de ayuda (855-345-8464) y el directorio TransPages para encontrar abogados amigables y capítulos locales.
+    url: https://www.transgendermichigan.org/
+    phone: "855-345-8464"
+    cost: free
+    verification: org_website
+    sources: [tgmi]
+  - id: lakeshore-legal-aid
+    name: Lakeshore Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services for people with low incomes, older adults, and survivors of domestic violence and sexual assault in southeast Michigan. Apply by phone at 888-783-8190 or online. Name changes are not listed as a core practice area; ask at intake.
+      es: Servicios legales civiles gratuitos para personas de bajos ingresos, adultos mayores y sobrevivientes de violencia doméstica y agresión sexual en el sureste de Míchigan. Solicita al 888-783-8190 o en línea. Pregunta si ayudan con cambios de nombre.
+    url: https://lakeshorelegalaid.org/
+    phone: "888-783-8190"
+    cost: free
+    verification: org_website
+    sources: [lakeshore]
+  - id: affirmations
+    name: Affirmations LGBTQ+ Community Center
+    type: lgbtq_center
+    pillars: [name_change, mental_health]
+    description:
+      en: Ferndale LGBTQ+ center whose staff help with basic needs and legal resource referrals. 248-398-7105.
+      es: Centro LGBTQ+ en Ferndale cuyo personal ayuda con necesidades básicas y referencias legales. 248-398-7105.
+    url: https://goaffirmations.org/
+    phone: "248-398-7105"
+    address: 290 W. 9 Mile Rd, Ferndale, MI 48220
+    cost: free
+    verification: org_website
+    sources: [affirmations]
+  - id: genderbands-mi
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small grants for transition costs including name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+statutes:
+  - cite: MCL 711.1
+    title:
+      en: Order changing name; one-year county residency; criminal record disclosure; hearing discretionary for adults; minors
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-711-1
+  - cite: MCL 711.3
+    title:
+      en: Nonpublication and confidential record for good cause; presumed for gender identity
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-711-3
+  - cite: 2024 PA 229 (HB 5300 of 2023)
+    title:
+      en: Removed fingerprinting and the fraud presumption, made hearings discretionary, and required nonpublication for good cause; effective April 2, 2025
+    url: https://www.legislature.mi.gov/Bills/Bill?ObjectName=2023-HB-5300
+related_links:
+  - title: Michigan Legal Help, How to ask for a name change for yourself as an adult
+    url: https://michiganlegalhelp.org/step/4768
+    note:
+      en: Pick your county for exact fees and filing methods.
+      es: Elige tu condado para ver tarifas y métodos exactos.
+  - title: Advocates for Trans Equality, Michigan identity documents
+    url: https://transequality.org/documents/michigan-identity-documents
+    note:
+      en: Updated November 2025.
+      es: Actualizado en noviembre de 2025.
+sources:
+  - id: mcl-711-1
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-711-1
+    title: MCL 711.1, Order changing name of adult, minor, or spouse and minor children
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court shall bear any cost associated with the court's use of L.E.I.N. or ICHAT, not the petitioner. ... the court may, in its discretion, enter an order under this section with or without a hearing.
+  - id: mcl-711-3
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-711-3
+    title: MCL 711.3, Nonpublication and confidential record
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the court receives a petition that shows good cause, the court must order that no publication of the proceeding take place and that the record of the proceeding be confidential.
+  - id: mcl-600-1986
+    url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-1986
+    title: MCL 600.1986, Electronic filing system fee
+    publisher: Michigan Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: For civil actions filed in the supreme court, court of appeals, circuit court, probate court, and court of claims, $25.00.
+  - id: scao-memo
+    url: https://www.courts.michigan.gov/496379/siteassets/court-administration/scao-communications/2025/2025-03-28-memo-re-public-act-229-of-2024-statutory-amendments-for-name-change-proceeding.pdf
+    title: Memorandum, Public Act 229 of 2024, statutory amendments for name change proceeding (March 28, 2025)
+    publisher: Michigan State Court Administrative Office
+    kind: court
+    accessed: "2026-09-24"
+    quote: This Act eliminates the fingerprint requirement for individuals seeking a name change who are 22 years of age or older.
+  - id: pc51-pdf
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc51.pdf
+    title: Form PC 51, Petition for Name Change (Rev. 5/25)
+    publisher: Michigan State Court Administrative Office
+    kind: form
+    accessed: "2026-09-24"
+    quote: Unless you have received permission not to publish, the law requires that notice of hearing about the petition be published in a newspaper.
+  - id: pc51c-pdf
+    url: https://www.courts.michigan.gov/siteassets/forms/scao-approved/pc51c.pdf
+    title: Form PC 51c, Petition for Name Change and Ex Parte Request for Nonpublication and Confidential Record (Rev. 5/25)
+    publisher: Michigan State Court Administrative Office
+    kind: form
+    accessed: "2026-09-24"
+    quote: The basis of the fear or belief is that I ... seek(s) to affirm gender identity.
+  - id: mlh-adult-wayne
+    url: https://michiganlegalhelp.org/step/4768
+    title: How to ask for a name change for yourself as an adult (Wayne County selected)
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+    quote: You will have to pay the filing fee of $175.00 when you file the petition. ... There is a $10.00 fee to have the court enter the order. ... If you want a certified copy of the order, it costs another $11.00.
+  - id: mlh-diy
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/do-it-yourself-name-change
+    title: Do-It-Yourself Name Change
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+  - id: mlh-fee-waiver
+    url: https://michiganlegalhelp.org/resources/fee-waivers-court-cases
+    title: Fee waivers in court cases
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+  - id: mlh-after
+    url: https://michiganlegalhelp.org/resources/ids-and-name-change/after-your-name-change
+    title: After your name change
+    publisher: Michigan Legal Help
+    kind: official
+    accessed: "2026-09-24"
+    quote: You must update the SSA before you can update a Michigan driver's license or state ID.
+  - id: a4te-mi
+    url: https://transequality.org/documents/michigan-identity-documents
+    title: Michigan identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: tgmi
+    url: https://www.transgendermichigan.org/
+    title: Transgender Michigan
+    kind: org
+    accessed: "2026-09-24"
+  - id: lakeshore
+    url: https://lakeshorelegalaid.org/
+    title: Lakeshore Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+    quote: Apply by phone at (888) 783-8190 or online.
+  - id: affirmations
+    url: https://goaffirmations.org/contact-us/
+    title: Contact us
+    publisher: Affirmations LGBTQ+ Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
