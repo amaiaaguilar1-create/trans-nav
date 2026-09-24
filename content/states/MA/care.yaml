@@ -1,0 +1,353 @@
+jurisdiction: MA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    MassHealth pages (covered services, eligibility, guidance), the DOI bulletin page, the DOI complaint page, the DPH
+    shield-law memo, and the AG's May 20, 2026 legal advisory were read through a text-reader proxy (r.jina.ai) because
+    mass.gov blocks automated fetching. The CMS final rule ending federal Medicaid/CHIP payment for gender-affirming
+    care for people under 18 (Medicaid) / 19 (CHIP), effective October 13, 2026, and MassHealth's plan to pay with
+    state-only money from the $8.5 million Affirming Health Care Trust, come from WGBH (2026-08-13) only; confirm on a
+    MassHealth or CMS page. The AG advisory (May 2026) predates that final rule. The case name for the multistate
+    Kennedy Declaration suit (D. Or., filed 2025-12-23, decided 2026-04-18) was not confirmed; reviewer should add it.
+    Fenway Health stopped hormones and puberty blockers for patients under 19 in October 2025 (MassEquality statement,
+    New Bedford Guide 2026-02-21); Baystate Health stopped most minor care in February 2026 (WBUR, Gazette). Planned
+    Parenthood League of Massachusetts gender-affirming hormone page could not be loaded (404); its hormone therapy
+    offering and minimum age are unverified. Private-insurance nondiscrimination rests on DOI Bulletin 2021-11 and
+    G.L. c. 175 et al. as interpreted there; statute citation for the insurance rule not separately confirmed.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected in Massachusetts for adults and minors. MassHealth covers hormones
+    and, with prior authorization, surgery; state-regulated private insurers may not exclude it; and the state's
+    shield laws (2022, strengthened in 2025) protect patients and providers from other states' bans. Some clinics
+    and hospitals have stopped hormone care for people under 19 because of federal pressure, so young people may need
+    to look further for a provider.
+  es: >-
+    La atención de afirmación de género es legal y está protegida en Massachusetts para adultos y menores. MassHealth
+    cubre hormonas y, con autorización previa, cirugía; las aseguradoras privadas reguladas por el estado no pueden
+    excluirla; y las leyes escudo del estado (2022, reforzadas en 2025) protegen a pacientes y proveedores de las
+    prohibiciones de otros estados. Algunas clínicas y hospitales dejaron de dar hormonas a menores de 19 por presión
+    federal, así que los jóvenes pueden necesitar buscar más.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Community health centers such as **Fenway Health** prescribe hormones on an **informed consent** basis (no therapist letter), and telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **MassHealth** (Medicaid). It covers hormone therapy and, with prior authorization, surgery.
+      2. If you do not qualify, ask a community health center or hospital about the **Health Safety Net**, which can pay for gender-affirming treatment at participating health centers and acute hospitals.
+      3. Use a sliding-scale **community health center**; find one at findahealthcenter.hrsa.gov.
+      4. **Point of Pride** runs an HRT access fund and other care funds.
+      5. Generic estradiol, spironolactone, and testosterone are cheap with a pharmacy discount card; ask for the cash price.
+    es: |
+      Sin restricciones estatales. Centros de salud comunitarios como **Fenway Health** recetan hormonas mediante **consentimiento informado** (sin carta de terapeuta), y la telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **MassHealth**. Cubre terapia hormonal y, con autorización previa, cirugía.
+      2. Si no calificas, pregunta en un centro de salud comunitario u hospital por la **Health Safety Net**, que puede pagar tratamientos de afirmación de género.
+      3. Usa un **centro de salud comunitario** con escala móvil; búscalo en findahealthcenter.hrsa.gov.
+      4. **Point of Pride** tiene un fondo de acceso a TRH y otros fondos.
+      5. El estradiol, la espironolactona y la testosterona genéricos son baratos con una tarjeta de descuento; pregunta el precio en efectivo.
+  sources: [fenway-trans, masshealth-covered, masshealth-eligibility, hrsa, pop]
+minor_care:
+  status: available
+  detail:
+    en: |
+      **Legal.** No Massachusetts law restricts gender-affirming care for minors, and the Attorney General's May 2026 advisory states that federal law does not prohibit it and that a hospital ending such care "may amount to discrimination" under the state public accommodations law. The shield laws (St. 2022, c. 127 and St. 2025, c. 16) protect families and providers from out-of-state subpoenas, extradition, and professional discipline.
+
+      **Access has narrowed.** Under federal pressure, Fenway Health stopped hormones and puberty blockers for patients under 19 in October 2025, and Baystate Health (western Massachusetts) stopped most medical care for minors in February 2026. Boston Children's Hospital, Boston Medical Center, and Mass General Brigham were reported (March 2026) to still offer gender-affirming medications to minors; call to confirm.
+
+      **Federal Medicaid funding**: a federal CMS rule ends federal Medicaid and CHIP payment for this care for people under 18 (Medicaid) or 19 (CHIP) starting October 13, 2026. MassHealth has said it will keep paying with state-only funds (see the Medicaid section).
+    es: |
+      **Legal.** Ninguna ley de Massachusetts restringe la atención de afirmación de género para menores, y el aviso de la Fiscal General de mayo de 2026 afirma que la ley federal no la prohíbe y que un hospital que la suspenda podría incurrir en discriminación según la ley estatal de establecimientos públicos. Las leyes escudo (2022 y 2025) protegen a familias y proveedores de citaciones, extradiciones y sanciones de otros estados.
+
+      **El acceso se ha reducido.** Por presión federal, Fenway Health dejó de dar hormonas y bloqueadores a menores de 19 en octubre de 2025, y Baystate Health dejó la mayor parte de la atención médica a menores en febrero de 2026. Boston Children's Hospital, Boston Medical Center y Mass General Brigham seguían ofreciéndola (marzo de 2026); llama para confirmar.
+
+      **Fondos federales de Medicaid**: una regla de CMS elimina el pago federal de Medicaid y CHIP para esta atención a menores de 18 (Medicaid) o 19 (CHIP) desde el 13 de octubre de 2026. MassHealth dijo que seguirá pagando con fondos estatales.
+  sources: [ag-advisory, shield-2022, shield-2025, masseq-fenway, wbur-baystate, wgbh-minors, wgbh-trust]
+medicaid:
+  program_name: MassHealth
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      MassHealth Standard, CommonHealth, CarePlus, and Family Assistance cover medically necessary **puberty blockers and hormone therapy**, behavioral health care, **gender-affirming surgery** (chest, genital, and some facial procedures), facial and neck **hair removal**, and **speech therapy** (35 visits a year without prior authorization). Managed care plans may set their own criteria but cannot be stricter than MassHealth's.
+
+      Surgery and hair removal need **prior authorization** and a gender dysphoria diagnosis from a licensed behavioral health provider made at least six months before the request. Genital surgery also requires two assessments, age 18 or older, 12 months of hormone therapy (unless contraindicated), and 12 months living in your affirmed gender (exceptions case by case). Some procedures are excluded (for example face-lift, lip procedures, vocal cord surgery, most revisions).
+
+      **Minors**: after a federal rule takes effect on October 13, 2026, MassHealth plans to keep covering hormones and puberty blockers for members under 18 using state-only money from the $8.5 million Affirming Health Care Trust.
+
+      If you have problems with a MassHealth plan, the free **My Ombudsman** program can help (855-781-9898). Change your name with Social Security before reporting it to MassHealth (800-841-2900).
+    es: |
+      MassHealth Standard, CommonHealth, CarePlus y Family Assistance cubren **bloqueadores de pubertad y terapia hormonal** médicamente necesarios, salud mental, **cirugía de afirmación de género** (pecho, genitales y algunas faciales), **depilación** de cara y cuello y **terapia del habla** (35 visitas al año sin autorización previa).
+
+      La cirugía y la depilación requieren **autorización previa** y un diagnóstico de disforia de género hecho por un profesional de salud mental al menos seis meses antes. La cirugía genital además requiere dos evaluaciones, 18 años o más, 12 meses de hormonas (salvo contraindicación) y 12 meses viviendo en tu género (con excepciones).
+
+      **Menores**: cuando entre en vigor una regla federal el 13 de octubre de 2026, MassHealth planea seguir cubriendo hormonas y bloqueadores para menores de 18 con fondos estatales del Affirming Health Care Trust.
+
+      Si tienes problemas con un plan de MassHealth, el programa gratuito **My Ombudsman** puede ayudar (855-781-9898).
+  how_to_apply_url: https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan
+  sources: [masshealth-covered, masshealth-eligibility, masshealth-guidance, masshealth-apply, wgbh-trust]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Division of Insurance **Bulletin 2021-11** tells state-regulated insurers that discrimination on the basis of gender identity or gender dysphoria, including denying medically necessary gender-affirming care, is prohibited. If your plan denies care, appeal with the plan first, then file a complaint with the Division of Insurance's Consumer Services Unit (online or by printed form). Plans for state and many municipal employees (Group Insurance Commission) also cover this care. **Self-funded employer plans** are federally regulated and are not covered by the bulletin.
+    es: |
+      El **Boletín 2021-11** de la División de Seguros indica a las aseguradoras reguladas por el estado que la discriminación por identidad de género o disforia de género, incluida la negación de atención de afirmación de género médicamente necesaria, está prohibida. Si tu plan la niega, apela primero ante el plan y luego presenta una queja ante la Unidad de Servicios al Consumidor de la División de Seguros. Los **planes autofinanciados** de empleadores se rigen por la ley federal y no están cubiertos por el boletín.
+  complaint_url: https://www.mass.gov/how-to/filing-an-insurance-complaint
+  sources: [doi-bulletin, doi-complaint, mtpc-health]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: fenway-health
+    name: Fenway Health, Trans Health Program
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: Boston's LGBTQ community health center. Informed-consent hormone therapy for adults 19 and older, primary care, PrEP and STI care, behavioral health, surgery referrals, and a free patient advocate phone line. Health insurance enrollment help on site. Main line 617-267-0900.
+      es: Centro de salud comunitario LGBTQ de Boston. Terapia hormonal por consentimiento informado para adultos de 19 años o más, atención primaria, PrEP e ITS, salud mental, referencias quirúrgicas y línea gratuita de apoyo al paciente. Ayuda para inscribirse en seguros. Teléfono 617-267-0900.
+    url: https://fenwayhealth.org/care/medical/transgender-health/
+    phone: "617-267-0900"
+    address: 1340 Boylston St, Boston, MA 02215
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [fenway-trans, masseq-fenway]
+  - id: bmc-gendercare
+    name: Boston Medical Center, GenderCare Center
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Safety-net hospital program offering hormone care, surgery, behavioral health, and community resources. 617-638-1833.
+      es: Programa del hospital de red de seguridad con atención hormonal, cirugía, salud mental y recursos comunitarios. 617-638-1833.
+    url: https://www.bmc.org/departments/gendercare-center
+    phone: "617-638-1833"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [bmc]
+  - id: boston-childrens-gender
+    name: Boston Children's Hospital, Center for Gender Health
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Mental health and medical care, including puberty blockers and hormones, for transgender and gender-diverse young people who qualify through its intake process. Parental consent required for minors.
+      es: Salud mental y atención médica, incluidos bloqueadores y hormonas, para jóvenes trans y de género diverso que califiquen. Se requiere consentimiento de los padres para menores.
+    url: https://www.childrenshospital.org/services/center-gender-health
+    cost: insurance
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [bch, wgbh-minors]
+  - id: planned-parenthood-ma
+    org: planned-parenthood
+    name: Planned Parenthood League of Massachusetts
+    type: sexual_health
+    pillars: [sexual_health, hrt]
+    description:
+      en: Sexual and reproductive health care at health centers across Massachusetts, including Boston. Says it continues to offer gender-affirming care; confirm hormone therapy availability and minimum age with the affiliate.
+      es: Salud sexual y reproductiva en centros de todo Massachusetts, incluido Boston. Indica que sigue ofreciendo atención de afirmación de género; confirma la disponibilidad de hormonas y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-massachusetts
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [pplm]
+  - id: health-safety-net
+    name: Health Safety Net
+    type: government_office
+    pillars: [hrt, insurance]
+    description:
+      en: State program that pays for care at community health centers and acute hospitals for low-income residents who are uninsured or underinsured. It can pay for gender-affirming treatments at participating providers. Apply through the same application as MassHealth.
+      es: Programa estatal que paga atención en centros de salud comunitarios y hospitales para residentes de bajos ingresos sin seguro o con seguro insuficiente. Puede pagar tratamientos de afirmación de género. Se solicita con la misma solicitud de MassHealth.
+    url: https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan
+    cost: free
+    accepts_uninsured: true
+    verification: official_source
+    sources: [masshealth-eligibility, masshealth-apply]
+  - id: my-ombudsman
+    name: My Ombudsman (MassHealth plans)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free, independent help for MassHealth members having trouble with their health plan, including gender-affirming care coverage. HelpLine 855-781-9898.
+      es: Ayuda gratuita e independiente para miembros de MassHealth con problemas con su plan. Línea 855-781-9898.
+    url: https://www.myombudsman.org/
+    phone: "855-781-9898"
+    cost: free
+    verification: official_source
+    sources: [masshealth-guidance]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone therapy access, surgery, and other gender-affirming care.
+      es: Fondos nacionales para acceso a hormonas, cirugía y otra atención de afirmación de género.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios con tarifas en escala móvil sin importar tu seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: St. 2022, c. 127
+    title:
+      en: An Act Expanding Protections for Reproductive and Gender-Affirming Care (shield law)
+    url: https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter127
+  - cite: St. 2025, c. 16
+    title:
+      en: An Act Strengthening Health Care Protections in the Commonwealth (Shield Law 2.0), signed August 7, 2025
+    url: https://malegislature.gov/Laws/SessionLaws/Acts/2025/Chapter16
+litigation:
+  - case: Multistate challenge to the HHS "Kennedy Declaration" (22 states including Massachusetts)
+    court: U.S. District Court for the District of Oregon
+    summary:
+      en: On December 18, 2025 HHS declared that gender-affirming care for minors fails professional standards and threatened to exclude providers from Medicare and Medicaid. On April 18, 2026 the court held the declaration unlawful, vacated it, and barred HHS from using it against providers in the plaintiff states. An appeal is possible.
+      es: El 18 de diciembre de 2025, HHS declaró que la atención de afirmación de género para menores no cumple los estándares profesionales y amenazó con excluir a proveedores de Medicare y Medicaid. El 18 de abril de 2026 el tribunal declaró ilegal esa declaración, la anuló y prohibió a HHS usarla contra proveedores en los estados demandantes.
+    effect_today:
+      en: HHS may not exclude Massachusetts doctors or hospitals from Medicare or Medicaid for providing gender-affirming care consistent with professional standards. This case does not affect the separate CMS payment rule that takes effect October 13, 2026.
+      es: HHS no puede excluir a médicos u hospitales de Massachusetts de Medicare o Medicaid por dar atención de afirmación de género conforme a los estándares profesionales. Este caso no afecta la regla de pago de CMS que entra en vigor el 13 de octubre de 2026.
+    last_update: "2026-05-20"
+    sources: [ag-advisory]
+sources:
+  - id: masshealth-covered
+    url: https://www.mass.gov/info-details/gender-affirming-care-covered-by-masshealth
+    title: Gender-affirming care covered by MassHealth
+    publisher: MassHealth
+    kind: official
+    accessed: "2026-09-24"
+    quote: MassHealth covers medically necessary puberty blockers and gender-affirming hormone therapy (GAHT).
+  - id: masshealth-eligibility
+    url: https://www.mass.gov/info-details/eligibility-for-gender-affirming-care
+    title: Eligibility for gender-affirming care
+    publisher: MassHealth
+    kind: official
+    accessed: "2026-09-24"
+    quote: Gender-affirming treatments may also be paid for by the Health Safety Net (HSN) when they are provided by an HSN provider.
+  - id: masshealth-guidance
+    url: https://www.mass.gov/info-details/additional-gender-affirming-guidance-and-assistance
+    title: Additional gender-affirming guidance and assistance
+    publisher: MassHealth
+    kind: official
+    accessed: "2026-09-24"
+  - id: masshealth-apply
+    url: https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan
+    title: Apply for MassHealth, the Health Safety Net, or the Children's Medical Security Plan
+    publisher: MassHealth
+    kind: official
+    accessed: "2026-09-24"
+  - id: doi-bulletin
+    url: https://www.mass.gov/news/bulletin-2021-11-prohibited-discrimination-on-the-basis-of-gender-identity-or-gender-dysphoria-including-medically-necessary-gender-affirming-care-and-related-services-issued-september-9-2021
+    title: Bulletin 2021-11, Prohibited Discrimination on the Basis of Gender Identity or Gender Dysphoria Including Medically Necessary Gender Affirming Care and Related Services
+    publisher: Massachusetts Division of Insurance
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: doi-complaint
+    url: https://www.mass.gov/how-to/filing-an-insurance-complaint
+    title: Filing an insurance complaint
+    publisher: Massachusetts Division of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: mtpc-health
+    url: https://www.masstpc.org/health-care/
+    title: Health Care
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Massachusetts Division of Insurance (DOI) and MassHealth require insurance coverage of medically necessary gender-affirming services.
+  - id: shield-2022
+    url: https://www.mass.gov/news/enhanced-protections-for-health-care-providers-of-gender-affirming-and-reproductive-health-care
+    title: Enhanced protections for health care providers of gender-affirming and reproductive health care
+    publisher: Massachusetts Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: On July 29, 2022, former Governor Baker signed into law Chapter 127 of the Acts of 2022, An Act Expanding Protections for Reproductive and Gender Affirming Care.
+  - id: shield-2025
+    url: https://malegislature.gov/PressRoom/Detail?pressReleaseId=240
+    title: Legislature passes healthcare Shield Act 2.0 (July 31, 2025)
+    publisher: Massachusetts Legislature
+    kind: official
+    accessed: "2026-09-24"
+  - id: ag-advisory
+    url: https://www.mass.gov/doc/gac-legal-advisory-5202026-1/download
+    title: Legal Advisory, State of the Law Concerning the Provision of Transgender Healthcare for Youth (May 20, 2026)
+    publisher: Massachusetts Attorney General
+    kind: official
+    accessed: "2026-09-24"
+    quote: Federal law does not prohibit medical professionals from providing transgender healthcare, including hormones and puberty blockers, to patients under the age of 19.
+  - id: wgbh-trust
+    url: https://www.wgbh.org/news/health/2026-08-13/mass-will-help-fund-gender-affirming-care-for-youth-after-federal-government-backs-out
+    title: Mass. will help fund gender-affirming care for youth after federal government backs out
+    publisher: GBH News
+    kind: news
+    accessed: "2026-09-24"
+  - id: wgbh-minors
+    url: https://www.wgbh.org/news/local/2026-03-26/trans-kids-in-limbo-as-trump-takes-unprecedented-actions-to-limit-health-care
+    title: Trans kids in limbo as Trump takes 'unprecedented' actions to limit health care
+    publisher: GBH News
+    kind: news
+    accessed: "2026-09-24"
+    quote: Providers with several hospital systems, including Boston Medical Center, Boston Children's Hospital and Mass General Brigham, currently offer gender-affirming medications to minors.
+  - id: wbur-baystate
+    url: https://www.wbur.org/news/2026/08/05/baystate-gender-affirming-care-youth-teens-transgender-massachusetts
+    title: Families angry that Baystate Health still not providing gender care
+    publisher: WBUR
+    kind: news
+    accessed: "2026-09-24"
+  - id: masseq-fenway
+    url: https://www.newbedfordguide.com/massachusetts-health-organizations-halt-gender-affirming-care-trans-youth-federal-funding-pressures/2026/02/21
+    title: Massachusetts health organizations halt gender-affirming care for trans youth
+    publisher: New Bedford Guide
+    kind: news
+    accessed: "2026-09-24"
+    quote: Fenway Health announced in October 2025 that it would no longer offer hormones or puberty blockers to patients under 19.
+  - id: fenway-trans
+    url: https://fenwayhealth.org/care/medical/transgender-health/
+    title: Transgender Health
+    publisher: Fenway Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our aim is to offer low-barrier access to gender affirming care through informed consent.
+  - id: bmc
+    url: https://www.bmc.org/departments/gendercare-center
+    title: GenderCare Center
+    publisher: Boston Medical Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: bch
+    url: https://www.childrenshospital.org/services/center-gender-health
+    title: Center for Gender Health
+    publisher: Boston Children's Hospital
+    kind: org
+    accessed: "2026-09-24"
+  - id: pplm
+    url: https://www.plannedparenthood.org/planned-parenthood-massachusetts
+    title: Planned Parenthood League of Massachusetts
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our doors are open at Planned Parenthood League of Massachusetts with no changes in services.
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

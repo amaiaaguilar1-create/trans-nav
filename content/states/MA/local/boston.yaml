@@ -1,0 +1,242 @@
+jurisdiction: MA
+slug: boston
+name: Boston
+area:
+  en: City of Boston and Suffolk County, plus nearby Greater Boston communities
+  es: Ciudad de Boston y el condado de Suffolk, más comunidades cercanas del Gran Boston
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court address and phone from the mass.gov Suffolk Probate and Family Court location page (read via r.jina.ai,
+    since mass.gov blocks automated fetching). Only Suffolk County residents file in Boston; residents of Cambridge,
+    Somerville, Newton, etc. file in Middlesex, Norfolk, or their own county. Org details from each org's website on
+    2026-09-24. Fenway Health's hormone program is for 19 and older since October 2025. Planned Parenthood League of
+    Massachusetts hormone therapy and minimum age not verified (affiliate gender-care page returned 404). Verify hours
+    and new-patient availability before marking reviewed.
+intro:
+  en: >-
+    Boston has the densest set of trans services in New England: an LGBTQ community health center with informed-consent
+    hormone care, hospital gender programs for adults and youth, a free youth center, and statewide legal help for
+    name and gender marker changes. If you live in Suffolk County (Boston, Chelsea, Revere, Winthrop), you file your
+    name change at the Suffolk Probate and Family Court downtown.
+  es: >-
+    Boston tiene la mayor concentración de servicios trans de Nueva Inglaterra: un centro de salud comunitario LGBTQ
+    con hormonas por consentimiento informado, programas de género en hospitales para adultos y jóvenes, un centro
+    juvenil gratuito y ayuda legal estatal para cambios de nombre y marcador. Si vives en el condado de Suffolk
+    (Boston, Chelsea, Revere, Winthrop), presentas tu cambio de nombre en el Tribunal de Sucesiones y Familia de Suffolk.
+court:
+  name: Suffolk Probate and Family Court
+  url: https://www.mass.gov/locations/suffolk-probate-and-family-court
+  self_help_url: https://www.mass.gov/info-details/court-service-centers
+  filing_fee: 165
+  notes:
+    en: 24 New Chardon St., Boston, MA 02114. Register's Office 617-788-8301. Walk-in filing, mail, or eFile. The statewide fee applies ($150 + $15 surcharge). Court Service Centers give free help with forms in person, by phone, or by Zoom.
+    es: 24 New Chardon St., Boston, MA 02114. Oficina del Registro 617-788-8301. Presentación sin cita, por correo o en línea. Aplica la tarifa estatal ($150 + $15 de recargo). Los Centros de Servicios del tribunal ayudan gratis con formularios.
+  sources: [suffolk-court, massgov-adult-howto]
+resources:
+  - id: namesake
+    org: namesake
+    name: Namesake
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free online tool with full Massachusetts support that fills out your court petition, fee waiver, and birth certificate affidavit and guides you through the RMV.
+      es: Herramienta gratuita en línea con soporte completo para Massachusetts que llena tu petición, exención de tarifas y declaración para el acta, y te guía en el RMV.
+    url: https://namesake.fyi/guides/ma
+    cost: free
+    verification: org_website
+    sources: [namesake]
+  - id: mtpc-ida
+    name: Massachusetts Transgender Political Coalition, Identity Document Assistance Network
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Name change clinics (in person and virtual), one-on-one help, notary services, legal referrals, and financial assistance for ID fees. 617-778-0519.
+      es: Clínicas de cambio de nombre (presenciales y virtuales), ayuda individual, notarización, referencias legales y ayuda económica para tarifas. 617-778-0519.
+    url: https://www.masstpc.org/our-programs/ida-network/
+    phone: "617-778-0519"
+    cost: free
+    verification: org_website
+    sources: [mtpc-ida]
+  - id: glad-law-answers
+    name: GLAD Law, GLAD Law Answers and Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential legal information and referrals for LGBTQ+ people, including help with name and gender marker changes and insurance denials. Online intake, answers@gladlaw.org, or 800-455-GLAD.
+      es: Información legal y referencias gratuitas y confidenciales para personas LGBTQ+, incluidos cambios de nombre y marcador y negaciones de seguro. Formulario en línea, answers@gladlaw.org o 800-455-4523.
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    phone: "800-455-4523"
+    address: 18 Tremont St, Suite 950, Boston, MA 02108
+    cost: free
+    verification: org_website
+    sources: [glad-answers, glad-contact]
+  - id: fenway-health
+    name: Fenway Health, Trans Health Program
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: Informed-consent hormone therapy for adults 19 and older, primary care, PrEP and STI testing, behavioral health, surgery referrals, insurance enrollment help, and a free patient advocate call for questions about gender-affirming care.
+      es: Terapia hormonal por consentimiento informado para adultos de 19 años o más, atención primaria, PrEP y pruebas de ITS, salud mental, referencias quirúrgicas, ayuda con seguros y llamada gratuita con un defensor del paciente.
+    url: https://fenwayhealth.org/care/medical/transgender-health/
+    phone: "617-267-0900"
+    address: 1340 Boylston St, Boston, MA 02215
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [fenway-trans]
+  - id: bmc-gendercare
+    name: Boston Medical Center, GenderCare Center
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: New England's largest safety-net hospital; gender-affirming medical care, surgery, behavioral health, and community resources. 617-638-1833.
+      es: El mayor hospital de red de seguridad de Nueva Inglaterra; atención médica de afirmación de género, cirugía, salud mental y recursos comunitarios. 617-638-1833.
+    url: https://www.bmc.org/departments/gendercare-center
+    phone: "617-638-1833"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [bmc]
+  - id: boston-childrens-gender
+    name: Boston Children's Hospital, Center for Gender Health
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Youth gender program with mental health and medical services for patients who qualify through intake; reported in March 2026 to still offer puberty blockers and hormones to minors.
+      es: Programa de género juvenil con servicios de salud mental y médicos para pacientes que califiquen; en marzo de 2026 seguía ofreciendo bloqueadores y hormonas a menores.
+    url: https://www.childrenshospital.org/services/center-gender-health
+    cost: insurance
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [bch, wgbh-minors]
+  - id: bagly
+    name: BAGLY (Boston Alliance of LGBTQ+ Youth)
+    type: lgbtq_center
+    pillars: [mental_health, sexual_health, insurance]
+    description:
+      en: Youth-led LGBTQ+ community center for ages 29 and under. Free drop-in therapy with a licensed social worker (Wednesdays 3 to 7 pm, in person or online), free HIV/STI testing, PrEP navigation, MassHealth enrollment help, and peer support. No insurance or ID needed for therapy.
+      es: Centro comunitario LGBTQ+ dirigido por jóvenes para personas de 29 años o menos. Terapia gratuita sin cita con trabajadora social (miércoles de 3 a 7 pm, presencial o en línea), pruebas gratuitas de VIH/ITS, navegación de PrEP, inscripción en MassHealth y apoyo entre pares. No se necesita seguro ni identificación.
+    url: https://www.bagly.org/health-wellness
+    phone: "617-227-4313"
+    address: 28 Court Square, Boston, MA 02108
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [bagly, bagly-contact]
+  - id: planned-parenthood-boston
+    org: planned-parenthood
+    name: Planned Parenthood League of Massachusetts, Boston health center
+    type: sexual_health
+    pillars: [sexual_health, hrt]
+    description:
+      en: STI testing and treatment, PrEP, birth control, and other sexual health care. The affiliate says it continues to offer gender-affirming care; call to confirm hormone therapy and minimum age.
+      es: Pruebas y tratamiento de ITS, PrEP, anticonceptivos y otra atención de salud sexual. La afiliada indica que sigue ofreciendo atención de afirmación de género; llama para confirmar hormonas y edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-massachusetts
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [pplm]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: suffolk-court
+    url: https://www.mass.gov/locations/suffolk-probate-and-family-court
+    title: Suffolk Probate and Family Court
+    publisher: Massachusetts Probate and Family Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: 24 New Chardon St., Boston, MA 02114. Register's Office (617) 788-8301.
+  - id: massgov-adult-howto
+    url: https://www.mass.gov/info-details/how-do-i-file-a-change-of-name-for-an-adult
+    title: How do I file a change of name for an adult?
+    publisher: Massachusetts Probate and Family Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: $150 Filing Fee + $15 Surcharge Fee = $165 Total Filing Fee.
+  - id: namesake
+    url: https://namesake.fyi/guides/ma
+    title: Namesake, Massachusetts guides
+    kind: org
+    accessed: "2026-09-24"
+  - id: mtpc-ida
+    url: https://www.masstpc.org/our-programs/ida-network/
+    title: Identity Document Assistance (IDA) Network
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-contact
+    url: https://www.gladlaw.org/contact-us/
+    title: Contact us
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: GLBTQ Legal Advocates & Defenders, 18 Tremont, Suite 950, Boston, MA 02108.
+  - id: fenway-trans
+    url: https://fenwayhealth.org/care/medical/transgender-health/
+    title: Transgender Health
+    publisher: Fenway Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: bmc
+    url: https://www.bmc.org/departments/gendercare-center
+    title: GenderCare Center
+    publisher: Boston Medical Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: bch
+    url: https://www.childrenshospital.org/services/center-gender-health
+    title: Center for Gender Health
+    publisher: Boston Children's Hospital
+    kind: org
+    accessed: "2026-09-24"
+  - id: wgbh-minors
+    url: https://www.wgbh.org/news/local/2026-03-26/trans-kids-in-limbo-as-trump-takes-unprecedented-actions-to-limit-health-care
+    title: Trans kids in limbo as Trump takes 'unprecedented' actions to limit health care
+    publisher: GBH News
+    kind: news
+    accessed: "2026-09-24"
+  - id: bagly
+    url: https://www.bagly.org/health-wellness
+    title: Health and Wellness
+    publisher: BAGLY
+    kind: org
+    accessed: "2026-09-24"
+    quote: Services available for LGBTQ+ youth and young adults ages 29 and under.
+  - id: bagly-contact
+    url: https://www.bagly.org/contact
+    title: Contact
+    publisher: BAGLY
+    kind: org
+    accessed: "2026-09-24"
+  - id: pplm
+    url: https://www.plannedparenthood.org/planned-parenthood-massachusetts
+    title: Planned Parenthood League of Massachusetts
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

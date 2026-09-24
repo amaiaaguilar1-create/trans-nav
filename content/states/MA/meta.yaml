@@ -1,0 +1,134 @@
+code: MA
+name:
+  en: Massachusetts
+  es: Massachusetts
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on G.L. c. 210, s. 13 (publication only for good cause and automatic impoundment since
+    November 25, 2025), G.L. c. 46, s. 13(e) (self-attested M/F/X birth certificates), RMV self-selected M/F/X, MassHealth
+    coverage, and the shield laws (St. 2022, c. 127; St. 2025, c. 16). MAP's equality map was not fetched this session;
+    cross-check before review. mass.gov pages were read via a text-reader proxy or Wayback because mass.gov blocks
+    automated fetching.
+overview:
+  en: >-
+    Massachusetts is among the most protective states for trans people. Adults change their name with a sealed court
+    petition that no longer requires newspaper publication, the RMV and birth certificates offer M, F, or X by
+    self-attestation, MassHealth and state-regulated insurers cover gender-affirming care, and shield laws (2022,
+    strengthened in 2025) protect patients and providers. Federal documents (passport, Social Security) are the
+    exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Massachusetts es uno de los estados que más protege a las personas trans. Los adultos cambian su nombre con una
+    petición judicial sellada que ya no requiere publicación en periódico, el RMV y las actas de nacimiento ofrecen M,
+    F o X por declaración propia, MassHealth y las aseguradoras reguladas cubren la atención de afirmación de género, y
+    las leyes escudo (2022, reforzadas en 2025) protegen a pacientes y proveedores. Los documentos federales
+    (pasaporte, Seguro Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [c210-s13, c46-s13, shield-2022, shield-2025]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [boston]
+key_resources:
+  - id: mtpc
+    name: Massachusetts Transgender Political Coalition (MTPC)
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide trans advocacy group. Its Identity Document Assistance network runs name change clinics, notary help, legal referrals, and financial assistance for ID fees. 617-778-0519.
+      es: Organización estatal de defensa trans. Su red de Asistencia con Documentos de Identidad ofrece clínicas de cambio de nombre, notarización, referencias legales y ayuda económica. 617-778-0519.
+    url: https://www.masstpc.org/our-programs/ida-network/
+    phone: "617-778-0519"
+    cost: free
+    verification: org_website
+    sources: [mtpc-ida]
+  - id: glad-law-answers
+    name: GLAD Law Answers
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential legal information line for LGBTQ+ people in New England, with a Transgender ID Project for name and gender marker changes. 800-455-GLAD.
+      es: Línea gratuita y confidencial de información legal para personas LGBTQ+ en Nueva Inglaterra, con un Proyecto de Identificación Trans. 800-455-4523.
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-answers]
+  - id: namesake
+    org: namesake
+    name: Namesake
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free, open-source tool with full Massachusetts support for the court petition, RMV, and birth certificate.
+      es: Herramienta gratuita y de código abierto con soporte completo para Massachusetts.
+    url: https://namesake.fyi/guides/ma
+    cost: free
+    verification: org_website
+    sources: [namesake]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: c210-s13
+    url: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter210/Section13
+    title: G.L. c. 210, § 13 (text effective November 25, 2025)
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: c46-s13
+    url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter46/Section13
+    title: G.L. c. 46, § 13, Correction of records
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: shield-2022
+    url: https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter127
+    title: St. 2022, c. 127, An Act Expanding Protections for Reproductive and Gender-Affirming Care
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: shield-2025
+    url: https://malegislature.gov/Laws/SessionLaws/Acts/2025/Chapter16
+    title: St. 2025, c. 16, An Act Strengthening Health Care Protections in the Commonwealth
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mtpc-ida
+    url: https://www.masstpc.org/our-programs/ida-network/
+    title: Identity Document Assistance (IDA) Network
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: namesake
+    url: https://namesake.fyi/guides/ma
+    title: Namesake, Massachusetts guides
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

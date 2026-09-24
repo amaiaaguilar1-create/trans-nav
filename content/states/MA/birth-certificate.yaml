@@ -1,0 +1,244 @@
+guide_type: birth_certificate
+jurisdiction: MA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Statute read on malegislature.gov (G.L. c. 46, s. 13(e); text as amended by St. 2025, c. 9, s. 31, effective July 1,
+    2025, keeps the same self-attestation rule and adds "the state registrar or any other official"). The self-attestation
+    and X option came from the FY2025 budget in July 2024 (GLAD; Daily Hampshire Gazette 2024-08-21); the session-law
+    chapter number was not confirmed. RVRS "Amend a birth certificate for sex of the subject" page and fact sheet were
+    read via Wayback Machine captures (May and July 2026) because mass.gov blocks automated access. Fees: $50 one-time
+    amendment fee, $32 per certified copy by mail, $20 in person. The fact sheet says "A new birth certificate will be
+    issued"; whether the original is sealed or just marked amended is not stated for sex amendments (c. 46, s. 13(h)
+    says original records are identified as amended). Processing time not published; omitted. Disagreement: A4TE's
+    MA page still describes the old notarized physician statement (form R-115); that rule was repealed in 2024.
+    Namesake shows the fees as "optional" with total "Free", which conflicts with RVRS; the RVRS figures are used.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Massachusetts you can change the sex on your birth certificate to female, male, or X by
+    signing an affidavit. No medical documentation or court order is needed. The fee is $50 plus $32 per certified
+    copy by mail ($20 in person). You can add a court-ordered name change at the same time.
+  es: >-
+    Si naciste en Massachusetts puedes cambiar el sexo en tu acta de nacimiento a femenino, masculino o X firmando
+    una declaración jurada. No se necesita documentación médica ni orden judicial. La tarifa es de $50 más $32 por
+    copia certificada por correo ($20 en persona). Puedes agregar un cambio de nombre por orden judicial al mismo tiempo.
+summary:
+  en: |
+    Under G.L. c. 46, § 13(e), an adult, an emancipated minor, or a parent or guardian of a minor can request a sex designation of **female, male, or X** ("X" may indicate another gender or an undesignated gender). The only requirement is an affidavit, signed under penalty of perjury, that the request is to conform the record to your gender identity and is not for a fraudulent purpose. "No medical or healthcare related documentation, court order or proof of change of name shall be required."
+
+    The Registry of Vital Records and Statistics (RVRS) says it issues a **new birth certificate**. You can also change your **name** on it in the same request by including a certified copy of your court decree. If you change the sex now and the name later, you have 3 years to add the name (or 3 years from your 18th birthday if the change was made while you were a minor); RVRS may waive that limit for good cause.
+
+    Massachusetts does **not** let you change only the name on a birth certificate; the name change goes with a sex designation change. This guide applies only if you were born in Massachusetts; if you were born elsewhere, follow your birth state's rules.
+  es: |
+    Según G.L. c. 46, § 13(e), una persona adulta, un menor emancipado o el padre, madre o tutor de un menor puede pedir la designación de sexo **femenino, masculino o X** ("X" puede indicar otro género o un género no designado). El único requisito es una declaración jurada, bajo pena de perjurio, de que la solicitud es para que el registro coincida con tu identidad de género y no tiene fines fraudulentos. No se exige documentación médica, orden judicial ni prueba de cambio de nombre.
+
+    El Registro de Estadísticas Vitales (RVRS) emite un **acta nueva**. Puedes cambiar también tu **nombre** en la misma solicitud incluyendo copia certificada del decreto judicial. Si cambias el sexo ahora y el nombre después, tienes 3 años para agregarlo (o 3 años desde que cumples 18 si el cambio se hizo siendo menor).
+
+    Solo aplica si naciste en Massachusetts; si naciste en otro lugar, sigue las reglas de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Massachusetts. Where you live now does not matter.
+    es: Debes haber nacido en Massachusetts. No importa dónde vivas ahora.
+  age:
+    en: 18 or older, or an emancipated minor. For anyone under 18, a parent or guardian with legal custody signs the affidavit.
+    es: 18 años o más, o menor emancipado. Para menores de 18, firma un padre, madre o tutor con custodia legal.
+  sources: [c46-s13, rvrs-factsheet]
+forms:
+  - id: R-116
+    name:
+      en: Applicant Affidavit in Support of Amendment of a Birth Certificate for Sex
+      es: Declaración jurada del solicitante para enmendar el sexo en un acta de nacimiento
+    url: https://www.mass.gov/doc/applicant-affidavit-for-amending-sex-on-a-birth-certificate-2/download
+    required: always
+    how_to_fill:
+      en: |
+        - Write your full name, date and place of birth, and your parents' names **exactly as they appear on your current certificate**.
+        - Choose the new sex designation: female, male, or X.
+        - If you are also changing your name, write the new name and attach a court-certified copy of your name change decree.
+        - Give your current name, address, and a phone number or email so RVRS can reach you.
+        - Sign in ink (digital signatures are not accepted). **If you mail it, sign in front of a notary.** If you apply in person, bring photo ID instead.
+        - You may write your own affidavit if it contains the same information and ends with the attestation printed on the RVRS fact sheet.
+      es: |
+        - Escribe tu nombre completo, fecha y lugar de nacimiento y los nombres de tus padres **exactamente como aparecen en tu acta actual**.
+        - Elige la nueva designación: femenino, masculino o X.
+        - Si también cambias tu nombre, escribe el nuevo nombre y adjunta copia certificada del decreto.
+        - Incluye tu nombre y dirección actuales y un teléfono o correo.
+        - Firma con tinta. **Si lo envías por correo, fírmalo ante notario.** En persona, lleva identificación con foto.
+    sources: [rvrs-factsheet, rvrs-page, glad-id]
+steps:
+  - id: name-first
+    title:
+      en: If you want the new name on it, get your court decree first
+      es: Si quieres el nuevo nombre, obtén primero tu decreto judicial
+    body:
+      en: A name can only be changed on a Massachusetts birth certificate with a court-certified copy of a legal name change (see the name change guide). If you are not changing your name, skip this step.
+      es: El nombre solo se cambia en el acta con copia certificada de un cambio de nombre legal. Si no cambias tu nombre, omite este paso.
+    applies_to: [name_change]
+    optional: true
+    sources: [rvrs-page, c46-s13]
+  - id: affidavit
+    title:
+      en: Complete the affidavit (or use Namesake)
+      es: Completa la declaración jurada (o usa Namesake)
+    body:
+      en: Fill out the RVRS applicant affidavit. Namesake's free form filler produces a completed Massachusetts birth certificate affidavit.
+      es: Llena la declaración jurada de RVRS. El llenado gratuito de Namesake genera la declaración completa.
+    forms: [R-116]
+    sources: [rvrs-page, namesake-ma-bc]
+  - id: submit-mail
+    title:
+      en: Submit by mail with a notarized affidavit
+      es: Envía por correo con la declaración notariada
+    body:
+      en: |
+        Mail the notarized affidavit, any certified name change decree, and a check or money order payable to **Commonwealth of Massachusetts** ($50 plus $32 per certified copy you want) to:
+
+        Registry of Vital Records and Statistics, Attn: Amendments
+        150 Mt. Vernon St., 1st Floor
+        Dorchester, MA 02125
+      es: |
+        Envía la declaración notariada, el decreto certificado si aplica, y un cheque o giro postal a nombre de **Commonwealth of Massachusetts** ($50 más $32 por cada copia certificada) a: Registry of Vital Records and Statistics, Attn: Amendments, 150 Mt. Vernon St., 1st Floor, Dorchester, MA 02125.
+    fees: [amendment, copy-mail]
+    applies_to: [by_mail]
+    sources: [rvrs-factsheet, rvrs-page]
+  - id: submit-in-person
+    title:
+      en: Or apply in person by appointment
+      es: O solicita en persona con cita
+    body:
+      en: Email vip-amend@state.ma.us or RVRSAmendments@mass.gov, or call 617-740-2600, to book an RVRS appointment in Dorchester. Bring photo ID; notarization is not required in person, and copies cost $20 each. You can also ask the clerk of the city or town where you were born (in Boston, the City Registrar); local fees may differ.
+      es: Escribe a vip-amend@state.ma.us o RVRSAmendments@mass.gov, o llama al 617-740-2600, para una cita en Dorchester. Lleva identificación con foto; en persona no se requiere notario y las copias cuestan $20. También puedes acudir al secretario municipal de la ciudad donde naciste (en Boston, el City Registrar).
+    fees: [amendment, copy-in-person]
+    applies_to: [in_person]
+    sources: [rvrs-factsheet, rvrs-page]
+fees:
+  - id: amendment
+    label:
+      en: One-time amendment fee
+      es: Tarifa única de enmienda
+    amount: 50
+    sources: [rvrs-page, rvrs-factsheet]
+  - id: copy-mail
+    label:
+      en: Certified copy of the amended record, by mail (each)
+      es: Copia certificada del registro enmendado, por correo (cada una)
+    amount: 32
+    sources: [rvrs-page, rvrs-factsheet]
+  - id: copy-in-person
+    label:
+      en: Certified copy of the amended record, in person (each)
+      es: Copia certificada del registro enmendado, en persona (cada una)
+    amount: 20
+    sources: [rvrs-page, rvrs-factsheet]
+fee_waiver:
+  available: false
+  eligibility:
+    en: RVRS publishes no fee waiver for amendments. MTPC's Identity Document Assistance network offers financial help with ID document costs.
+    es: RVRS no publica exención de tarifas para enmiendas. La red IDA de MTPC ofrece ayuda económica con los costos de documentos.
+  sources: [rvrs-page, mtpc-ida]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail (notarized affidavit) or in person by appointment at RVRS in Dorchester, or through the clerk of your city or town of birth.
+    es: Por correo (declaración notariada) o en persona con cita en RVRS en Dorchester, o con el secretario de tu ciudad de nacimiento.
+  sources: [rvrs-page]
+after:
+  en: |
+    Keep at least one certified copy. You usually do not need an updated birth certificate for other documents: the RMV lets you self-select M, F, or X without it, and the US passport currently cannot show a changed sex marker regardless of your birth certificate. It can still help for jobs, schools, and some benefits.
+  es: |
+    Guarda al menos una copia certificada. Por lo general no necesitas el acta actualizada para otros documentos: el RMV te deja elegir M, F o X sin ella, y el pasaporte de EE. UU. actualmente no puede mostrar un marcador cambiado sin importar tu acta. Aun así puede servir para empleo, escuela y algunos beneficios.
+tips:
+  - en: If you mail your application, the affidavit must be notarized and signed in ink; RVRS does not accept digital signatures.
+    es: Si envías por correo, la declaración debe estar notariada y firmada con tinta; RVRS no acepta firmas digitales.
+  - en: A parent or guardian can make this change for a child of any age with the same affidavit; no doctor's letter is needed.
+    es: Un padre, madre o tutor puede hacer este cambio para un menor de cualquier edad con la misma declaración; no se necesita carta médica.
+local_help:
+  - id: namesake
+    org: namesake
+    name: Namesake, Massachusetts birth certificate guide
+    type: other
+    pillars: [gender_marker, name_change]
+    description:
+      en: Free guide and form filler for the RVRS birth certificate affidavit.
+      es: Guía y llenado gratuito de la declaración jurada de RVRS.
+    url: https://namesake.fyi/guides/ma/birth-certificate
+    cost: free
+    verification: org_website
+    sources: [namesake-ma-bc]
+  - id: mtpc-ida
+    name: MTPC Identity Document Assistance Network
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Help with forms, notary services, and financial assistance for fees, 617-778-0519.
+      es: Ayuda con formularios, notarización y apoyo económico para tarifas, 617-778-0519.
+    url: https://www.masstpc.org/our-programs/ida-network/
+    phone: "617-778-0519"
+    cost: free
+    verification: org_website
+    sources: [mtpc-ida]
+statutes:
+  - cite: G.L. c. 46, § 13(e)
+    title:
+      en: Change of sex designation (female, male, or X) on a birth record by affidavit; optional name change; 3-year window
+    url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter46/Section13
+related_links:
+  - title: Mass.gov, Amend a birth certificate for sex of the subject
+    url: https://www.mass.gov/how-to/amend-a-birth-certificate-for-sex-of-the-subject
+  - title: Namesake, Massachusetts birth certificate
+    url: https://namesake.fyi/guides/ma/birth-certificate
+  - title: GLAD Law, ID Documents in Massachusetts
+    url: https://www.gladlaw.org/issues/id-documents-massachusetts/
+    note:
+      en: Includes an annotated sample of the R116 affidavit.
+      es: Incluye un ejemplo anotado de la declaración R116.
+sources:
+  - id: c46-s13
+    url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter46/Section13
+    title: G.L. c. 46, § 13, Correction of records
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No medical or healthcare related documentation, court order or proof of change of name shall be required by a local clerk, the state registrar or any other official in connection with a request under this paragraph.
+  - id: rvrs-page
+    url: https://www.mass.gov/how-to/amend-a-birth-certificate-for-sex-of-the-subject
+    title: Amend a birth certificate for sex of the subject
+    publisher: Registry of Vital Records and Statistics, Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Amendment fee $50 one-time. Certified copy of amended record (by mail) $32 per copy. Certified copy of amended record (in person) $20 per copy.
+  - id: rvrs-factsheet
+    url: https://www.mass.gov/doc/fact-sheet-for-amending-sex-on-a-birth-record-2/download
+    title: Fact Sheet, Amending the Sex Designation on a Birth Certificate
+    publisher: Registry of Vital Records and Statistics, Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: A new birth certificate will be issued upon receipt of the evidence outlined below.
+  - id: glad-id
+    url: https://www.gladlaw.org/issues/id-documents-massachusetts/
+    title: ID Documents, Massachusetts
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: namesake-ma-bc
+    url: https://namesake.fyi/guides/ma/birth-certificate
+    title: Massachusetts Birth Certificate guide
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+  - id: mtpc-ida
+    url: https://www.masstpc.org/our-programs/ida-network/
+    title: Identity Document Assistance (IDA) Network
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,509 @@
+guide_type: name_change
+jurisdiction: MA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. mass.gov blocks automated fetching (HTTP 403); mass.gov pages were read through a
+    Wayback Machine copy (Uniform Practice XXXV, captured 2026) and a text-reader proxy (r.jina.ai) of the live
+    pages (adult how-to page, CJP 27 dated 12/11/25, Affidavit of Indigency, eFiling page). Statute text read
+    directly on malegislature.gov. KEY CHANGE: St. 2025, c. 73, s. 53 (effective November 25, 2025) rewrote
+    G.L. c. 210, s. 13. Publication is no longer the default (only "for good cause shown") and every petition filed on
+    or after that date is impounded automatically. Older guides are out of date: A4TE's Massachusetts page
+    (no visible last-updated date) still says publication is required unless waived, and MTPC's quick reference
+    guide (February 10, 2025) and GLAD's ID page still describe the CJD 400 motion to waive publication. The live
+    mass.gov how-to page still mentions CJD 400 only in the context of a minor's publication when a citation issues.
+    Reviewer: (1) confirm fees ($150 + $15 surcharge = $165; $15 citation fee only if an Order of Notice issues);
+    (2) confirm the certified-copy / Certificate of Name Change fee, which is not stated here because no primary
+    source was found; (3) Namesake's MA guide says you must have lived in MA for 6 months before filing; no statute or
+    court page found saying this (c. 210, s. 12 and Practice XXXV only require residence in the county), so it is
+    omitted; (4) typical processing time (Namesake says 2 to 6 weeks, GLAD says 3 weeks to 3 months).
+status: available
+status_summary:
+  en: >-
+    Massachusetts adults can change their name by filing a petition at the Probate and Family Court in their
+    county. Since November 25, 2025 there is no newspaper publication unless a judge finds good cause, the whole
+    file is sealed (impounded) automatically, and most petitions are decided on the papers without a hearing. The
+    filing fee is $165, and you can ask to have it waived.
+  es: >-
+    En Massachusetts, las personas adultas pueden cambiar su nombre presentando una petición en el Tribunal de
+    Sucesiones y Familia (Probate and Family Court) de su condado. Desde el 25 de noviembre de 2025 no hay
+    publicación en periódico salvo que un juez encuentre causa justificada, todo el expediente queda sellado
+    automáticamente y la mayoría de las peticiones se deciden sin audiencia. La tarifa es de $165 y puedes pedir
+    una exención.
+summary:
+  en: |
+    Under G.L. c. 210, § 12, a name change "shall be granted unless such change is inconsistent with public interests." You file a short, notarized petition (form **CJP 27**) with a certified copy of your birth certificate and a background-check release (form **CJP 34**) at the Probate and Family Court in the county where you live. You do not have to give a reason related to gender, and you never need a doctor's letter.
+
+    A 2025 law (St. 2025, c. 73, § 53, effective **November 25, 2025**) made the process much more private: the court no longer orders newspaper publication by default, and every petition filed since that date is impounded, meaning the public cannot see it. The court reviews your papers and, in most cases, mails you a certified decree without a hearing.
+
+    **Namesake** (namesake.fyi) is a free, open-source tool built with the Massachusetts Transgender Political Coalition that fills out the Massachusetts court forms for you.
+  es: |
+    Según la ley G.L. c. 210, § 12, el cambio de nombre "se concederá a menos que sea contrario al interés público". Presentas una petición breve y notariada (formulario **CJP 27**) con una copia certificada de tu acta de nacimiento y una autorización de verificación de antecedentes (formulario **CJP 34**) en el Tribunal de Sucesiones y Familia del condado donde vives. No tienes que dar una razón relacionada con el género ni presentar carta médica.
+
+    Una ley de 2025 (St. 2025, c. 73, § 53, vigente desde el **25 de noviembre de 2025**) hizo el proceso mucho más privado: el tribunal ya no ordena publicar en el periódico por defecto y toda petición presentada desde esa fecha queda sellada. El tribunal revisa tus documentos y, en la mayoría de los casos, te envía por correo un decreto certificado sin audiencia.
+
+    **Namesake** (namesake.fyi) es una herramienta gratuita y de código abierto, creada con la Massachusetts Transgender Political Coalition, que llena por ti los formularios del tribunal de Massachusetts.
+eligibility:
+  residency:
+    en: File at the Probate and Family Court in the county where you currently live (G.L. c. 210, § 12).
+    es: Presenta la petición en el Tribunal de Sucesiones y Familia del condado donde vives actualmente.
+  age:
+    en: 18 or older for CJP 27. For anyone under 18, a parent or guardian files CJP 25 (see Minors).
+    es: 18 años o más para el CJP 27. Para menores de 18, un padre, madre o tutor presenta el CJP 25 (ver Menores).
+  criminal_history:
+    en: >-
+      The court runs a court-record (CARI) and warrant (WMS) check on everyone 12 and older. Being incarcerated, on
+      probation or parole, or on the sex offender registry does not bar a name change, but it is listed as "good
+      cause" for the court to order notice to agencies such as the Department of Correction or the Parole Board.
+    es: >-
+      El tribunal verifica los antecedentes judiciales (CARI) y órdenes de arresto (WMS) de toda persona de 12 años o
+      más. Estar encarcelado, en libertad condicional o en el registro de delincuentes sexuales no impide el cambio,
+      pero puede llevar al tribunal a ordenar notificación a agencias como el Departamento de Corrección.
+  sources: [c210-s12, practice-xxxv]
+forms:
+  - id: CJP 27
+    name:
+      en: Petition to Change Name of Adult
+      es: Petición de cambio de nombre de adulto
+    url: https://www.mass.gov/doc/petition-to-change-name-of-adult-cjp-27/download
+    required: always
+    how_to_fill:
+      en: |
+        - Item 1: your current address. You must live in the county where you file.
+        - Item 3: list any earlier legal name change and attach a certified copy of it (marriage certificate, divorce decree, or court order).
+        - Item 6 (reason): a short, truthful sentence is enough, for example "to reflect my gender identity" or "this is the name I use." You do not need to explain further or attach medical records.
+        - Item 7: authorizes the background check; attach CJP 34.
+        - Item 9 (optional): you can list the pronouns you want court staff to use.
+        - **Do not sign until you are in front of a notary.** If your photo ID shows a different name than your legal name and a notary will not accept it, the court's how-to page says you can file a motion (CJD 400) asking the court to waive notarization.
+        - There is no box to request publication waiver or sealing any more: since November 25, 2025 the file is impounded automatically.
+      es: |
+        - Punto 1: tu dirección actual. Debes vivir en el condado donde presentas.
+        - Punto 3: indica cualquier cambio de nombre legal anterior y adjunta copia certificada.
+        - Punto 6 (razón): basta una frase breve y veraz, por ejemplo "para reflejar mi identidad de género" o "es el nombre que uso". No necesitas registros médicos.
+        - Punto 7: autoriza la verificación de antecedentes; adjunta el CJP 34.
+        - Punto 9 (opcional): puedes indicar los pronombres que quieres que use el personal del tribunal.
+        - **No firmes hasta estar frente a un notario.**
+        - Ya no hay que pedir exención de publicación ni sellado: desde el 25 de noviembre de 2025 el expediente se sella automáticamente.
+    sources: [cjp27, massgov-adult-howto, c210-s13]
+  - id: CJP 34
+    name:
+      en: Court Activity Record Information (CARI) and Warrant Management System (WMS) Release Request
+      es: Solicitud de autorización de CARI y WMS (verificación de antecedentes judiciales)
+    url: https://www.mass.gov/doc/court-activity-record-information-and-warrant-management-system-release-request-form-cjp-34/download
+    required: always
+    sources: [practice-xxxv]
+  - id: Affidavit of Indigency
+    name:
+      en: Affidavit of Indigency and Request for Waiver, Substitution or State Payment of Fees and Costs
+      es: Declaración jurada de indigencia y solicitud de exención de tarifas
+    url: https://www.mass.gov/doc/affidavit-of-indigency/download
+    required: optional
+    condition:
+      en: Only if you cannot afford the $165 filing fee. File it with your petition.
+      es: Solo si no puedes pagar la tarifa de $165. Preséntala con tu petición.
+    sources: [affidavit-indigency, massgov-adult-howto]
+  - id: CJP 25
+    name:
+      en: Petition to Change Name of Minor
+      es: Petición de cambio de nombre de menor
+    url: https://www.mass.gov/doc/petition-to-change-name-of-minor-cjp-25/download
+    required: conditional
+    condition:
+      en: Only for a person under 18. The child is listed as the petitioner and a parent or guardian presents the petition.
+      es: Solo para menores de 18 años. El menor figura como peticionario y un padre, madre o tutor presenta la petición.
+    sources: [practice-xxxv, glad-id]
+  - id: TC0050
+    name:
+      en: Child Care or Custody Disclosure Affidavit
+      es: Declaración jurada sobre el cuidado o la custodia del menor
+    url: https://www.mass.gov/doc/child-care-or-custody-disclosure-affidavit/download
+    required: conditional
+    condition:
+      en: Required with every minor's petition (CJP 25).
+      es: Obligatoria con toda petición de menor (CJP 25).
+    sources: [practice-xxxv, glad-id]
+steps:
+  - id: gather
+    title:
+      en: Get a certified copy of your birth certificate
+      es: Consigue una copia certificada de tu acta de nacimiento
+    body:
+      en: |
+        The court needs a **certified** copy of your birth certificate (and of any earlier legal name change). If you were born in Massachusetts, order it from the Registry of Vital Records or your city or town clerk. If it is not in English, attach a professional translation with the translator's notarized statement. You can check a box on CJP 27 to get your certified documents back after review.
+      es: |
+        El tribunal necesita una copia **certificada** de tu acta de nacimiento (y de cualquier cambio de nombre legal anterior). Si no está en inglés, adjunta una traducción profesional con declaración notariada del traductor. Puedes marcar una casilla en el CJP 27 para que te devuelvan los documentos certificados.
+    sources: [practice-xxxv, cjp27]
+  - id: fill-forms
+    title:
+      en: Fill out CJP 27 and CJP 34 (or let Namesake do it)
+      es: Llena el CJP 27 y el CJP 34 (o deja que Namesake lo haga)
+    body:
+      en: |
+        Download the forms from mass.gov, or use **Namesake** (namesake.fyi), a free tool that asks you questions and produces completed Massachusetts court forms as a PDF. Then sign CJP 27 **in front of a notary**. Banks, public libraries, and many LGBTQ organizations offer free notarization; MTPC's Identity Document Assistance network also offers notary help.
+      es: |
+        Descarga los formularios de mass.gov o usa **Namesake** (namesake.fyi), una herramienta gratuita que te hace preguntas y genera los formularios completos en PDF. Luego firma el CJP 27 **frente a un notario**. Bancos, bibliotecas y organizaciones LGBTQ ofrecen notarización gratuita; la red de Asistencia con Documentos de Identidad de MTPC también.
+    forms: [CJP 27, CJP 34]
+    sources: [cjp27, namesake-ma-court, mtpc-ida]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: File the Affidavit of Indigency with your petition. If you receive MassHealth, SSI, TAFDC, EAEDC, or Massachusetts veterans' benefits, or your income is at or below the court's poverty level (125% of the federal poverty level), you qualify. MTPC's Identity Document Assistance network can also help pay costs.
+      es: Presenta la Declaración Jurada de Indigencia con tu petición. Calificas si recibes MassHealth, SSI, TAFDC, EAEDC o beneficios de veteranos de Massachusetts, o si tus ingresos son iguales o menores al 125% del nivel federal de pobreza. La red IDA de MTPC también puede ayudar con los costos.
+    forms: [Affidavit of Indigency]
+    optional: true
+    sources: [affidavit-indigency, mtpc-ida]
+  - id: file
+    title:
+      en: File at the Probate and Family Court in your county
+      es: Presenta los documentos en el Tribunal de Sucesiones y Familia de tu condado
+    body:
+      en: |
+        Bring or mail the notarized CJP 27, CJP 34, your certified birth certificate, any earlier name-change documents, and the fee (bank check, money order, or credit card in person; bank check or money order by mail) to the Probate and Family Court for the county where you live. No appointment is needed. You can also e-file for an extra $22 flat eFiling fee.
+      es: |
+        Lleva o envía por correo el CJP 27 notariado, el CJP 34, tu acta de nacimiento certificada, documentos de cambios anteriores y el pago (cheque bancario, giro postal o tarjeta de crédito en persona; cheque bancario o giro postal por correo) al Tribunal de Sucesiones y Familia de tu condado. No se necesita cita. También puedes presentar en línea con un cargo adicional de $22.
+    fees: [filing, efiling]
+    sources: [massgov-adult-howto, efiling]
+  - id: review
+    title:
+      en: Wait for the court's review (usually no hearing)
+      es: Espera la revisión del tribunal (normalmente sin audiencia)
+    body:
+      en: |
+        After the background check, the court either signs a decree without a hearing or, only for good cause, issues an **Order of Notice** (CJP 130) and a **Citation** (CJP 28). Good cause examples in the court's rules are being incarcerated, on probation or parole, or in DYS custody. If you get a citation, follow it exactly: it may require notice by certified mail to agencies or, rarely, newspaper publication at least 7 days before the return date, and there is a $15 citation fee.
+      es: |
+        Después de la verificación de antecedentes, el tribunal firma el decreto sin audiencia o, solo con causa justificada, emite una **Orden de Notificación** (CJP 130) y una **Citación** (CJP 28). Ejemplos de causa justificada: estar encarcelado, en libertad condicional o bajo custodia de DYS. Si recibes una citación, síguela al pie de la letra; hay una tarifa de $15.
+    fees: [citation]
+    estimated_time:
+      en: about 2 weeks to 3 months
+      es: entre 2 semanas y 3 meses
+    sources: [practice-xxxv, massgov-adult-howto, namesake-ma-court, glad-id]
+  - id: decree
+    title:
+      en: Receive your certified decree by mail
+      es: Recibe tu decreto certificado por correo
+    body:
+      en: |
+        If the petition is allowed, the court mails you a **Certified Decree of Change of Name**. That is your legal proof. Ask the Register of Probate how to get extra certified copies; Social Security, the RMV, the passport agency, and banks each want to see one.
+      es: |
+        Si se aprueba la petición, el tribunal te envía por correo un **Decreto Certificado de Cambio de Nombre**. Esa es tu prueba legal. Pregunta en la oficina del Registro cómo obtener copias certificadas adicionales.
+    sources: [massgov-adult-howto, practice-xxxv]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). The name changes; the sex field currently cannot.
+        2. **RMV** license or Mass ID (in person, $25; see the driver's license guide). You can change your gender marker at the same visit.
+        3. **Birth certificate** if you were born in Massachusetts (see the birth certificate guide).
+        4. **Passport**, MassHealth, bank, employer, insurance, school records.
+      es: |
+        1. **Seguro Social** primero (gratis). El nombre cambia; el campo de sexo actualmente no.
+        2. **RMV** licencia o Mass ID (en persona, $25). Puedes cambiar el marcador de género en la misma visita.
+        3. **Acta de nacimiento** si naciste en Massachusetts.
+        4. **Pasaporte**, MassHealth, banco, empleador, seguro, escuela.
+    sources: [mtpc-quickref, rmv-change]
+fees:
+  - id: filing
+    label:
+      en: Filing fee ($150) plus surcharge ($15)
+      es: Tarifa de presentación ($150) más recargo ($15)
+    amount: 165
+    waivable: true
+    sources: [massgov-adult-howto, namesake-ma-court]
+  - id: citation
+    label:
+      en: Citation fee, only if the court issues an Order of Notice
+      es: Tarifa de citación, solo si el tribunal emite una Orden de Notificación
+    amount: 15
+    waivable: true
+    note:
+      en: If publication is ordered, the newspaper also charges for the notice; the price varies by paper.
+      es: Si se ordena publicar, el periódico también cobra por el aviso; el precio varía.
+    sources: [massgov-adult-howto]
+  - id: efiling
+    label:
+      en: eFiling fee (optional; only if you file online)
+      es: Cargo por presentación electrónica (opcional)
+    amount: 22
+    note:
+      en: Flat fee charged by the eFiling system, plus a card processing fee. Filing in person or by mail avoids it.
+      es: Cargo fijo del sistema electrónico, más comisión de tarjeta. Presentar en persona o por correo lo evita.
+    sources: [massgov-adult-howto, efiling]
+fee_waiver:
+  available: true
+  forms: [Affidavit of Indigency]
+  eligibility:
+    en: |
+      Under G.L. c. 261, §§ 27A-27G, you are "indigent" if **any one** is true (the Affidavit of Indigency lists these):
+      - You receive TAFDC, EAEDC, Massachusetts veterans' benefits, MassHealth (Medicaid), or SSI.
+      - Your income after taxes is at or below the court system's poverty level (posted in the courthouse and online; 125% of the federal poverty level).
+      - You cannot pay the fees without depriving yourself or your dependents of the necessities of life (food, shelter, clothing); you then also fill out the Supplement.
+    es: |
+      Según G.L. c. 261, § 27A, calificas si se cumple **cualquiera** de estas condiciones:
+      - Recibes TAFDC, EAEDC, beneficios de veteranos de Massachusetts, MassHealth o SSI.
+      - Tu ingreso después de impuestos es igual o menor al nivel de pobreza del sistema judicial (125% del nivel federal).
+      - No puedes pagar sin privarte a ti o a tu familia de lo necesario para vivir.
+  how:
+    en: File the Affidavit of Indigency with your petition and check the filing fee and surcharge in Section 2 (and the citation fee if one is ordered later). MTPC's IDA network also offers financial assistance for costs that are not waived.
+    es: Presenta la Declaración Jurada de Indigencia con tu petición. La red IDA de MTPC también ofrece ayuda económica para costos no exentos.
+  sources: [affidavit-indigency, mtpc-ida]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      Since November 25, 2025, G.L. c. 210, § 13(a) says the court "may, for good cause shown, require public notice."
+      Publication is no longer the default. The court's rules list examples of good cause for adults (incarceration,
+      probation, parole, DYS custody, commitment as a sexually dangerous person), and notice in those cases is often by
+      certified mail to agencies rather than by newspaper. Before that date, publication was required unless waived by
+      motion (CJD 400).
+    es: >-
+      Desde el 25 de noviembre de 2025, la ley dice que el tribunal "puede, por causa justificada, exigir aviso
+      público". La publicación ya no es la norma. Las reglas del tribunal dan ejemplos de causa justificada
+      (encarcelamiento, libertad condicional, custodia de DYS), y en esos casos el aviso suele ser por correo
+      certificado a agencias.
+  waiver_available: true
+  waiver_how:
+    en: Nothing to request for most people. If a citation orders publication and publishing would put you at risk, you can file a Motion (CJD 400) asking the judge to waive it.
+    es: La mayoría no necesita pedir nada. Si una citación ordena publicar y eso te pondría en riesgo, puedes presentar una Moción (CJD 400) pidiendo al juez que lo exima.
+  sources: [c210-s13, practice-xxxv, massgov-adult-howto]
+hearing:
+  required: conditional
+  detail:
+    en: The court may "determine that no citation is needed and issue a decree on the petition without a hearing." If notice is ordered and no one objects before the return date, the court may still act without a hearing.
+    es: El tribunal puede decidir que no se necesita citación y emitir el decreto sin audiencia. Si se ordena notificación y nadie objeta antes de la fecha indicada, el tribunal también puede actuar sin audiencia.
+  sources: [practice-xxxv]
+background_check:
+  required: "yes"
+  detail:
+    en: >-
+      The court must request a report from the Commissioner of Probation before any name change (G.L. c. 210, § 13(a)).
+      In practice this is a CARI and WMS check that you authorize with form CJP 34. It is a court-record check, not
+      fingerprinting.
+    es: >-
+      El tribunal debe pedir un informe del Comisionado de Libertad Condicional antes de cualquier cambio de nombre.
+      En la práctica es una verificación CARI y WMS que autorizas con el formulario CJP 34. No se toman huellas.
+  sources: [c210-s13, practice-xxxv]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      For petitions filed on or after November 25, 2025, the petition, all papers, and docket entries "shall not be
+      available for inspection unless the court, for good cause shown, otherwise orders or unless requested by the
+      petitioner" (G.L. c. 210, § 13(b)). The case caption and docket number are not impounded.
+    es: >-
+      Para peticiones presentadas desde el 25 de noviembre de 2025, la petición, todos los documentos y las entradas
+      del expediente no están disponibles al público salvo orden judicial por causa justificada o a pedido del
+      peticionario. El título del caso y el número de expediente no se sellan.
+  how:
+    en: Automatic; nothing to file. If your case was filed before November 25, 2025, ask GLAD Law Answers or the court's Court Service Center whether you can ask to impound the older file.
+    es: Automático; no hay que presentar nada. Si tu caso se presentó antes del 25 de noviembre de 2025, consulta con GLAD Law Answers o el Centro de Servicios del tribunal.
+  sources: [c210-s13, practice-xxxv]
+minors:
+  summary:
+    en: |
+      The child is the petitioner on **CJP 25**, and a parent or guardian presents the petition. Include the child's certified birth certificate, the Child Care or Custody Disclosure Affidavit (**TC0050**), and an Assent (**CJP 30**) from each parent who agrees. A child **12 or older** must also sign a notarized assent and a CJP 34 background-check release. If any legal parent or guardian has **not** filed a written assent, that is automatic "good cause" for the court to order notice to them, and they can object. The fee is the same, and siblings with the same parents pay one fee. Minors' petitions are impounded like adults'.
+    es: |
+      El menor es el peticionario en el **CJP 25** y un padre, madre o tutor presenta la petición. Incluye el acta de nacimiento certificada, la Declaración de Cuidado o Custodia (**TC0050**) y un Consentimiento (**CJP 30**) de cada padre que esté de acuerdo. Un menor de **12 años o más** también firma un consentimiento notariado y el CJP 34. Si algún padre o tutor legal **no** dio su consentimiento por escrito, el tribunal ordenará notificarle y podrá objetar. Los hermanos con los mismos padres pagan una sola tarifa.
+  forms: [CJP 25, TC0050]
+  sources: [practice-xxxv]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: In person (no appointment), by mail, or by eFile (extra $22). Namesake and MTPC suggest filing in person when you can.
+    es: En persona (sin cita), por correo o en línea (cargo extra de $22). Namesake y MTPC sugieren presentar en persona cuando sea posible.
+  sources: [massgov-adult-howto, namesake-ma-court, mtpc-quickref]
+timeline:
+  en: Often 2 to 6 weeks from filing to a mailed decree when no notice is ordered; longer if the court issues a citation.
+  es: A menudo de 2 a 6 semanas desde la presentación hasta recibir el decreto por correo si no se ordena notificación; más si hay citación.
+after:
+  en: |
+    Start with **Social Security** (bring the certified decree and photo ID). Then the **RMV** (in person, $25; change the gender marker at the same visit if you want). If you were born in Massachusetts, you can add the new name to your **birth certificate** when you change the sex designation, or within 3 years after. Then your **passport** (name changes are processed; sex marker changes currently are not), MassHealth or other insurance, bank, employer, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el decreto certificado e identificación con foto). Luego el **RMV** (en persona, $25; puedes cambiar el marcador de género en la misma visita). Si naciste en Massachusetts, puedes agregar el nuevo nombre a tu **acta de nacimiento** al cambiar la designación de sexo o dentro de los 3 años siguientes. Luego el **pasaporte**, MassHealth u otro seguro, banco, empleador, registro de votante y escuela.
+tips:
+  - en: Namesake (namesake.fyi) fills out the Massachusetts petition, fee waiver, and birth certificate affidavit for free and tracks your progress.
+    es: Namesake (namesake.fyi) llena gratis la petición de Massachusetts, la exención de tarifas y la declaración para el acta de nacimiento, y registra tu progreso.
+  - en: If you have not heard back in a few weeks, contact the court's Court Service Center by phone, Zoom, or in person to check your case status.
+    es: Si no tienes noticias en unas semanas, contacta al Centro de Servicios del tribunal por teléfono, Zoom o en persona.
+  - en: Guides written before November 2025 tell you to file a motion (CJD 400) to waive publication. For new petitions that is no longer needed.
+    es: Las guías escritas antes de noviembre de 2025 dicen que presentes una moción (CJD 400) para eximir la publicación. Para peticiones nuevas ya no es necesario.
+local_help:
+  - id: namesake
+    org: namesake
+    name: Namesake
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free, open-source web tool with full Massachusetts support. It walks you through the court petition, fee waiver, RMV, and birth certificate steps and generates completed forms.
+      es: Herramienta web gratuita y de código abierto con soporte completo para Massachusetts. Te guía en la petición, la exención de tarifas, el RMV y el acta de nacimiento, y genera los formularios completos.
+    url: https://namesake.fyi/guides/ma
+    cost: free
+    verification: org_website
+    sources: [namesake, namesake-ma-court]
+  - id: mtpc-ida
+    name: Massachusetts Transgender Political Coalition, Identity Document Assistance (IDA) Network
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Name change clinics across Massachusetts and online, one-on-one help, notary services, legal referrals, and financial assistance for ID fees for trans, nonbinary, and gender-expansive New Englanders. Email or call 617-778-0519.
+      es: Clínicas de cambio de nombre en Massachusetts y en línea, ayuda individual, notarización, referencias legales y ayuda económica para tarifas de documentos. Llama al 617-778-0519.
+    url: https://www.masstpc.org/our-programs/ida-network/
+    phone: "617-778-0519"
+    cost: free
+    verification: org_website
+    sources: [mtpc-ida]
+  - id: glad-law-answers
+    name: GLAD Law (GLBTQ Legal Advocates & Defenders), GLAD Law Answers and Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential legal information line for LGBTQ+ people in New England. The Transgender ID Project (with Ropes & Gray and Goodwin) helps with name and gender marker changes and publishes annotated sample MA forms. Online intake, answers@gladlaw.org, or 800-455-GLAD; replies in about 3 business days.
+      es: Línea gratuita y confidencial de información legal para personas LGBTQ+ en Nueva Inglaterra. El Proyecto de Identificación Trans ayuda con cambios de nombre y marcador de género y publica ejemplos de formularios de MA. Formulario en línea, answers@gladlaw.org o 800-455-4523.
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-answers, glad-id]
+  - id: court-service-centers
+    name: Massachusetts Trial Court, Court Service Centers
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free help from court staff with forms and case status, in person at several courthouses (including Boston) and by phone or Zoom. They cannot give legal advice.
+      es: Ayuda gratuita del personal del tribunal con formularios y estado del caso, en persona en varios juzgados (incluido Boston) y por teléfono o Zoom. No dan asesoría legal.
+    url: https://www.mass.gov/info-details/court-service-centers
+    cost: free
+    verification: community_reported
+    sources: [namesake-ma-court, mtpc-ida]
+statutes:
+  - cite: G.L. c. 210, § 12
+    title:
+      en: Petition in the probate court of the county of residence; granted unless inconsistent with public interests
+    url: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter210/Section12
+  - cite: G.L. c. 210, § 13 (as amended by St. 2025, c. 73, § 53, effective November 25, 2025)
+    title:
+      en: Probation report; public notice only for good cause; petitions and dockets impounded
+    url: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter210/Section13
+  - cite: G.L. c. 261, §§ 27A-27G
+    title:
+      en: Indigency and waiver of court fees
+    url: https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleVI/Chapter261/Section27A
+related_links:
+  - title: Namesake, Massachusetts guides
+    url: https://namesake.fyi/guides/ma
+    note:
+      en: Free step-by-step guides and form filler for the court order, state ID, and birth certificate. Last modified July 2026.
+      es: Guías paso a paso y llenado de formularios gratis para la orden judicial, la identificación estatal y el acta de nacimiento.
+  - title: Mass.gov, How do I file a change of name for an adult?
+    url: https://www.mass.gov/info-details/how-do-i-file-a-change-of-name-for-an-adult
+  - title: GLAD Law, ID Documents in Massachusetts
+    url: https://www.gladlaw.org/issues/id-documents-massachusetts/
+    note:
+      en: Includes annotated sample forms (April 2026). Its publication section predates the November 2025 change.
+      es: Incluye ejemplos anotados de formularios (abril de 2026). Su sección de publicación es anterior al cambio de noviembre de 2025.
+  - title: Advocates for Trans Equality, Massachusetts identity documents
+    url: https://transequality.org/documents/massachusetts-identity-documents
+    note:
+      en: No last-updated date shown; it still says publication is required and a physician statement is needed for the birth certificate, both out of date.
+      es: Sin fecha de actualización visible; todavía dice que se requiere publicación y declaración médica para el acta, ambos desactualizados.
+sources:
+  - id: c210-s12
+    url: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter210/Section12
+    title: G.L. c. 210, § 12, Petitions for change of name
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The change of name of a person shall be granted unless such change is inconsistent with public interests.
+  - id: c210-s13
+    url: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter210/Section13
+    title: G.L. c. 210, § 13 (text effective November 25, 2025)
+    publisher: Massachusetts Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court may, for good cause shown, require public notice of the petition to be given and any person to be heard thereon.
+  - id: practice-xxxv
+    url: https://www.mass.gov/probate-and-family-court-uniform-practices/uniform-probate-and-family-court-practice-xxxv-change-of-name-actions
+    title: Uniform Probate and Family Court Practice XXXV, Change of name actions (amended effective January 6, 2026)
+    publisher: Massachusetts Probate and Family Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: The amendments, inter alia, eliminated the default requirement for notice by publication and required that all petitions filed on or after November 25, 2025 be impounded.
+  - id: massgov-adult-howto
+    url: https://www.mass.gov/info-details/how-do-i-file-a-change-of-name-for-an-adult
+    title: How do I file a change of name for an adult?
+    publisher: Massachusetts Probate and Family Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: $150 Filing Fee + $15 Surcharge Fee = $165 Total Filing Fee. If an Order of Notice is issued by the court, there is an additional + $15 Citation Fee.
+  - id: cjp27
+    url: https://www.mass.gov/doc/petition-to-change-name-of-adult-cjp-27/download
+    title: CJP 27, Petition to Change Name of Adult (12/11/25)
+    publisher: Massachusetts Probate and Family Court
+    kind: form
+    accessed: "2026-09-24"
+  - id: affidavit-indigency
+    url: https://www.mass.gov/doc/affidavit-of-indigency/download
+    title: Affidavit of Indigency
+    publisher: Massachusetts Trial Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: I receive public assistance under TAFDC, EAEDC, Massachusetts Veterans Benefits Programs, Medicaid (MassHealth), Supplemental Security Income (SSI).
+  - id: efiling
+    url: https://www.mass.gov/info-details/probate-and-family-court-efiling-change-of-name
+    title: Probate and Family Court eFiling, Change of Name
+    publisher: Massachusetts Probate and Family Court
+    kind: official
+    accessed: "2026-09-24"
+  - id: rmv-change
+    url: https://www.mass.gov/how-to/change-information-on-your-drivers-license-or-id-card
+    title: Change information on your driver's license or ID card
+    publisher: Massachusetts Registry of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: namesake
+    url: https://namesake.fyi/
+    title: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Fully supported, Massachusetts and Rhode Island.
+  - id: namesake-ma-court
+    url: https://namesake.fyi/guides/ma/court-order
+    title: Massachusetts Court Order guide
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: In most cases, you will not need to appear before a judge. Typically, decisions take 2-6 weeks to arrive by mail.
+  - id: mtpc-ida
+    url: https://www.masstpc.org/our-programs/ida-network/
+    title: Identity Document Assistance (IDA) Network
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+  - id: mtpc-quickref
+    url: https://www.masstpc.org/wp-content/uploads/MTPC-Adult-Name-Change-Quick-Reference-Guide-Updated-2.10.25.pdf
+    title: Quick Reference Guide to Legal Name and Gender Marker Changes for Adults in Massachusetts (February 10, 2025)
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-id
+    url: https://www.gladlaw.org/issues/id-documents-massachusetts/
+    title: ID Documents, Massachusetts
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: GLAD Law Answers is a free and confidential legal information line serving LGBTQ+ people and people with HIV in New England.

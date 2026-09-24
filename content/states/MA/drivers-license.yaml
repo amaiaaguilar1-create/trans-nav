@@ -1,0 +1,240 @@
+guide_type: drivers_license
+jurisdiction: MA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    mass.gov returns HTTP 403 to automated fetches; the RMV "Change information on your driver's license or ID card"
+    page was read through a text-reader proxy (r.jina.ai) on 2026-09-24. It lists a single "Driver's License/ID
+    Amendment Fee" of $25 and says gender changes need the application plus an appointment; no documentation is
+    mentioned. The application form (LIC100, rev. 08/24) offers M, F, X in field D1 (read via GLAD's annotated sample,
+    April 2026). X has been available since November 2019 (GLAD). No statute governs the RMV marker; it is RMV
+    policy. Reviewer: (1) confirm no RMV fee differs for REAL ID amendments; (2) confirm the 10 to 14 day mailing time
+    (Namesake only); (3) standard-card name change without documentation is quoted from the RMV page but seems
+    unusual; verify.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    You can choose M, F, or X on a Massachusetts driver's license or Mass ID by marking it on the RMV application.
+    No doctor's letter, court order, or other proof is needed. You must make an appointment and go to an RMV
+    Service Center; the amendment fee is $25.
+  es: >-
+    Puedes elegir M, F o X en tu licencia de conducir o Mass ID de Massachusetts marcándolo en la solicitud del RMV.
+    No se necesita carta médica, orden judicial ni otra prueba. Debes hacer una cita e ir a un Centro de Servicio del
+    RMV; la tarifa de modificación es de $25.
+summary:
+  en: |
+    The Registry of Motor Vehicles (RMV) lets you self-select your gender designation. Fill out the **Driver's License, Learner's Permit or ID Card Application**, check "Change of Information" and "Gender," pick **M, F, or X** in the gender box, and bring it to an in-person appointment. The RMV has offered X since November 2019, and GLAD and MTPC confirm that no medical or other documentation is required.
+
+    You can change your **name** at the same visit. For a REAL ID, bring your certified court decree (or marriage or divorce document). Update your name with Social Security first so the records match.
+  es: |
+    El Registro de Vehículos Motorizados (RMV) te permite elegir tu designación de género. Llena la **Solicitud de Licencia de Conducir, Permiso de Aprendiz o Tarjeta de Identificación**, marca "Cambio de información" y "Género", elige **M, F o X** y llévala a una cita en persona. El RMV ofrece X desde noviembre de 2019, y GLAD y MTPC confirman que no se requiere documentación médica ni de otro tipo.
+
+    Puedes cambiar tu **nombre** en la misma visita. Para REAL ID, lleva tu decreto judicial certificado. Actualiza primero tu nombre en el Seguro Social para que los registros coincidan.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Massachusetts driver's license, learner's permit, or Mass ID.
+    es: Debes tener o estar solicitando una licencia, permiso o Mass ID de Massachusetts.
+  age:
+    en: Any age that can hold the credential (Mass ID from 14, permit and license from 16). Applicants under 18 need a parent or guardian to sign section H of the application.
+    es: Cualquier edad que pueda tener la credencial (Mass ID desde 14, permiso y licencia desde 16). Menores de 18 necesitan la firma de un padre, madre o tutor en la sección H.
+  sources: [lic100-sample, rmv-change]
+forms:
+  - id: LIC100
+    name:
+      en: Driver's License, Learner's Permit or ID Card Application
+      es: Solicitud de licencia de conducir, permiso de aprendiz o tarjeta de identificación
+    url: https://www.mass.gov/doc/learners-permit-drivers-license-and-id-card-application/download
+    required: always
+    how_to_fill:
+      en: |
+        - A1: choose REAL ID or Standard. A2: license, permit, or Mass ID.
+        - A4: check **Change of Information**, then check **Gender** (and **Name** if it is changing).
+        - B1 to B3: your name. For REAL ID, write your full legal name exactly as on your court decree.
+        - D1 Gender: check **M, F, or X**. That is the whole gender request; no letter or form is attached.
+        - Section I: sign and date. If you are under 18, a parent or guardian also completes section H.
+        - GLAD's Transgender ID Project publishes an annotated sample of this form.
+      es: |
+        - A1: elige REAL ID o Estándar. A2: licencia, permiso o Mass ID.
+        - A4: marca **Cambio de información** y luego **Género** (y **Nombre** si cambia).
+        - B1 a B3: tu nombre. Para REAL ID, tu nombre legal completo tal como aparece en el decreto.
+        - D1 Género: marca **M, F o X**. No se adjunta carta ni otro formulario.
+        - Sección I: firma y fecha. Si eres menor de 18, un padre o tutor completa la sección H.
+    sources: [lic100-sample, rmv-change]
+steps:
+  - id: social-security
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias de nombre, actualiza primero el Seguro Social
+    body:
+      en: Bring your certified name change decree to Social Security. The RMV checks your name against Social Security records. (The Social Security sex field currently cannot be changed; this does not stop the RMV from changing your marker.)
+      es: Lleva tu decreto certificado al Seguro Social. El RMV compara tu nombre con los registros del Seguro Social. (El campo de sexo del Seguro Social actualmente no se puede cambiar; esto no impide que el RMV cambie tu marcador.)
+    applies_to: [name_change]
+    sources: [mtpc-quickref, namesake-ma-id]
+  - id: fill-application
+    title:
+      en: Fill out the application and choose M, F, or X
+      es: Llena la solicitud y elige M, F o X
+    body:
+      en: Check "Change of Information" and "Gender" in A4 and your marker in D1. Namesake's Massachusetts state ID guide can walk you through it.
+      es: Marca "Cambio de información" y "Género" en A4 y tu marcador en D1. La guía de Namesake para la identificación de Massachusetts te puede ayudar.
+    forms: [LIC100]
+    sources: [lic100-sample, namesake-ma-id]
+  - id: appointment
+    title:
+      en: Book an RMV Service Center appointment
+      es: Reserva una cita en un Centro de Servicio del RMV
+    body:
+      en: Gender and name changes must be done in person. Book online through myRMV or call 857-368-8000 (from 339, 617, 781, 857 area codes or out of state) or 800-858-3926 (other Massachusetts area codes).
+      es: Los cambios de género y nombre deben hacerse en persona. Reserva en línea en myRMV o llama al 857-368-8000 o al 800-858-3926.
+    applies_to: [in_person]
+    sources: [rmv-change]
+  - id: visit
+    title:
+      en: Go to your appointment and pay $25
+      es: Ve a tu cita y paga $25
+    body:
+      en: |
+        Bring the completed application, your current license or ID, and, if your name is changing, your certified court decree and Social Security card in the new name. You may also be asked for proof of address (a recent bill or lease). The RMV takes a new photo and signature and gives you a temporary paper credential.
+      es: |
+        Lleva la solicitud completa, tu licencia o identificación actual y, si cambias de nombre, tu decreto judicial certificado y tu tarjeta del Seguro Social con el nuevo nombre. Pueden pedirte comprobante de domicilio. El RMV toma una nueva foto y firma y te da una credencial temporal en papel.
+    fees: [amendment]
+    applies_to: [in_person]
+    sources: [rmv-change, mtpc-quickref, namesake-ma-id]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: The card is mailed to you. If it has not arrived after 30 days, contact the RMV.
+      es: La tarjeta llega por correo. Si no llega en 30 días, contacta al RMV.
+    estimated_time:
+      en: about 2 weeks
+      es: unas 2 semanas
+    sources: [namesake-ma-id]
+fees:
+  - id: amendment
+    label:
+      en: Driver's license or ID amendment fee
+      es: Tarifa de modificación de licencia o identificación
+    amount: 25
+    sources: [rmv-change]
+fee_waiver:
+  available: false
+  eligibility:
+    en: The RMV's change-of-information page lists no fee waiver for amendments. MTPC's Identity Document Assistance network can help pay ID fees.
+    es: La página del RMV no indica exención de la tarifa de modificación. La red IDA de MTPC puede ayudar a pagar tarifas de documentos.
+  sources: [rmv-change, mtpc-ida]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at an RMV Service Center, by appointment. Only address and organ-donor changes can be done online.
+    es: En persona en un Centro de Servicio del RMV, con cita. Solo los cambios de dirección y de donante se hacen en línea.
+  sources: [rmv-change]
+timeline:
+  en: One appointment, then about 2 weeks for the card to arrive by mail.
+  es: Una cita y luego unas 2 semanas para que llegue la tarjeta por correo.
+after:
+  en: |
+    Your Massachusetts license or Mass ID is the ID most places check, and an X-marker REAL ID is valid for domestic flights. Note that the US passport and the Social Security record currently cannot be changed to X or to a different sex marker, so your documents may not match; that is legal and expected right now.
+  es: |
+    Tu licencia o Mass ID es la identificación que más se revisa, y una REAL ID con X es válida para vuelos nacionales. El pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden cambiarse a X ni a otro marcador, así que tus documentos pueden no coincidir; eso es legal y esperado por ahora.
+tips:
+  - en: You can change your gender marker without changing your name, and without a court order.
+    es: Puedes cambiar tu marcador de género sin cambiar tu nombre y sin orden judicial.
+  - en: If you are only renewing or replacing your card anyway, make the change then to avoid paying twice.
+    es: Si vas a renovar o reemplazar tu tarjeta de todos modos, haz el cambio entonces para no pagar dos veces.
+local_help:
+  - id: namesake
+    org: namesake
+    name: Namesake, Massachusetts state ID guide
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free step-by-step guide for updating a Massachusetts license or Mass ID.
+      es: Guía gratuita paso a paso para actualizar tu licencia o Mass ID de Massachusetts.
+    url: https://namesake.fyi/guides/ma/state-id
+    cost: free
+    verification: org_website
+    sources: [namesake-ma-id]
+  - id: mtpc-ida
+    name: MTPC Identity Document Assistance Network
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: One-on-one help and financial assistance for ID document fees, 617-778-0519.
+      es: Ayuda individual y apoyo económico para tarifas de documentos, 617-778-0519.
+    url: https://www.masstpc.org/our-programs/ida-network/
+    phone: "617-778-0519"
+    cost: free
+    verification: org_website
+    sources: [mtpc-ida]
+  - id: glad-law-answers
+    name: GLAD Law Answers
+    type: legal_aid
+    pillars: [gender_marker]
+    description:
+      en: Free legal information line; the Transgender ID Project publishes an annotated sample of the RMV application.
+      es: Línea gratuita de información legal; el Proyecto de Identificación Trans publica un ejemplo anotado de la solicitud del RMV.
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+related_links:
+  - title: Mass.gov, Change information on your driver's license or ID card
+    url: https://www.mass.gov/how-to/change-information-on-your-drivers-license-or-id-card
+  - title: Namesake, Massachusetts state ID
+    url: https://namesake.fyi/guides/ma/state-id
+  - title: GLAD Law, Gender X Marker in Massachusetts
+    url: https://www.gladlaw.org/issues/gender-x-marker-massachusetts/
+sources:
+  - id: rmv-change
+    url: https://www.mass.gov/how-to/change-information-on-your-drivers-license-or-id-card
+    title: Change information on your driver's license or ID card
+    publisher: Massachusetts Registry of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Your gender will appear in the 'Sex' field of your credential as either M, F, or X. Driver's License/ID Amendment Fee, $25.
+  - id: lic100-sample
+    url: https://glad-org-wpom.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2026/04/20260429_MA-IDP-Guide_-License-and-ID-Card-Application.pdf
+    title: Annotated sample, Driver's License, Learner's Permit or ID Card Application (LIC100_0824)
+    publisher: GLAD Law Transgender ID Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: D1. Gender M F X
+  - id: glad-id
+    url: https://www.gladlaw.org/issues/gender-x-marker-massachusetts/
+    title: Gender X Marker, Massachusetts
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: Driver's license/state ID with X available since November 2019; no medical documentation required.
+  - id: mtpc-quickref
+    url: https://www.masstpc.org/wp-content/uploads/MTPC-Adult-Name-Change-Quick-Reference-Guide-Updated-2.10.25.pdf
+    title: Quick Reference Guide to Legal Name and Gender Marker Changes for Adults in Massachusetts (February 10, 2025)
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+    quote: You do not need to submit any documents or proof of medical transition to change your gender marker with the RMV.
+  - id: namesake-ma-id
+    url: https://namesake.fyi/guides/ma/state-id
+    title: Massachusetts State ID guide
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: The RMV will mail your replacement driver's license to you with 10-14 days.
+  - id: mtpc-ida
+    url: https://www.masstpc.org/our-programs/ida-network/
+    title: Identity Document Assistance (IDA) Network
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
