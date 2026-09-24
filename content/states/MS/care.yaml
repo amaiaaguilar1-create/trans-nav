@@ -1,0 +1,269 @@
+jurisdiction: MS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    REAP Act (HB 1125, 2023) read as sent to the Governor; bill-status index shows "02/28 Approved by Governor"; it
+    takes effect on passage. Codification of the main sections (reported as Miss. Code § 41-141-1 et seq.) was NOT
+    confirmed because Justia returned 403; § 43-13-117.7 (Medicaid) is stated in the bill text. No lawsuit against HB
+    1125 was found (web search was unavailable). Medicaid: the entire Mississippi Medicaid Administrative Code (eff.
+    8/1/2026, 1,474 pages) was searched for "gender," "transgender," "sex change," "sex reassign," "transsex," and
+    "cross-sex" with no exclusion found, so adult coverage is marked unclear; pharmacy PDL and managed care plan
+    policies were not checked. MAP rates Mississippi Medicaid and state employee benefits as excluding trans care; the
+    source of MAP's rating was not identified. No 2024-2026 bill restricting adult care passed (SB 2029 of 2024, a
+    Medicaid ban for adults, died in committee). Open Arms Healthcare Center's website lists primary care, PrEP, STI
+    testing, and behavioral health but does not mention hormone therapy; the coordinator's brief describes it as an
+    informed-consent HRT clinic, so it is marked community_reported. Planned Parenthood Southeast pages and the
+    Mississippi Insurance Department complaint page returned 403. QueerMed lists Mississippi on queermed.com/locations.
+    Spectrum Center (Hattiesburg), Grace House, and Mississippi Center for Justice pages did not load and are omitted.
+status_summary:
+  en: >-
+    Adults can legally get hormone therapy and surgery in Mississippi, though few in-state clinics advertise it and
+    telehealth (Plume, QueerMed) fills much of the gap. Puberty blockers, hormones, and surgery for gender transition are
+    banned for anyone under 18 under the 2023 REAP Act, and public funds and Medicaid cannot pay for that care for
+    minors. There is no shield law and no insurance protection.
+  es: >-
+    Los adultos pueden recibir legalmente terapia hormonal y cirugía en Misisipi, aunque pocas clínicas del estado lo
+    anuncian y la telesalud (Plume, QueerMed) cubre gran parte de la necesidad. Los bloqueadores de pubertad, las
+    hormonas y la cirugía para transición de género están prohibidos para menores de 18 años por la Ley REAP de 2023, y
+    los fondos públicos y Medicaid no pueden pagar esa atención para menores. No hay ley escudo ni protección de seguros.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Mississippi law restricts gender-affirming care for adults 18 and older. Options:
+      - **Telehealth**: Plume and QueerMed serve Mississippi. Planned Parenthood Southeast may offer hormone therapy; call to confirm.
+      - **Open Arms Healthcare Center** (Jackson and Hattiesburg) offers LGBTQ-affirming primary care on a sliding scale; ask about hormone therapy.
+      - **Community health centers** (findahealthcenter.hrsa.gov) charge on a sliding scale; ask whether they prescribe hormones.
+      - The **Campaign for Southern Equality's Trans in the South** directory lists affirming providers in Mississippi.
+
+      If money is tight: generic estradiol, spironolactone, and testosterone are often inexpensive with discount cards, and Point of Pride's HRT Access Fund can help.
+    es: |
+      Ninguna ley de Misisipi restringe la atención de afirmación de género para adultos de 18 años o más. Opciones:
+      - **Telesalud**: Plume y QueerMed atienden en Misisipi. Planned Parenthood Southeast puede ofrecer terapia hormonal; llama para confirmar.
+      - **Open Arms Healthcare Center** (Jackson y Hattiesburg) ofrece atención primaria que afirma a personas LGBTQ con escala móvil; pregunta por terapia hormonal.
+      - **Centros de salud comunitarios** (findahealthcenter.hrsa.gov) con escala móvil; pregunta si recetan hormonas.
+      - El directorio **Trans in the South** de Campaign for Southern Equality incluye proveedores en Misisipi.
+
+      Si tienes poco dinero: el estradiol, la espironolactona y la testosterona genéricos suelen ser baratos con tarjetas de descuento, y el Fondo de Acceso a TRH de Point of Pride puede ayudar.
+  sources: [hb1125, queermed-locations, oahcc, oahcc-srh, hrsa, cse-tits, pop-hrt]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      The **Regulate Experimental Adolescent Procedures (REAP) Act** (HB 1125, signed February 28, 2023, effective on passage) bans anyone from knowingly providing puberty blockers, cross-sex hormones, or gender reassignment surgery to a person **under 18**, and from aiding or abetting it. Exceptions cover people with a medically verifiable disorder (difference) of sex development and treatment of complications. There is no exception for young people already on treatment.
+
+      Penalties: doctors and other licensed providers **lose their license**; patients can sue for damages for up to 30 years after turning 18; the Attorney General must enforce the law. Public funds, state and local government facilities and employees, and Medicaid (Miss. Code § 43-13-117.7) may not provide or pay for this care for minors, and the costs are not deductible from state income tax. Mental health counseling is not banned. The ban is in effect; no court has blocked it.
+
+      Families can get navigation help and $500 travel grants from the Campaign for Southern Equality's Trans Youth Emergency Project.
+    es: |
+      La **Ley REAP** (HB 1125, firmada el 28 de febrero de 2023, vigente desde su aprobación) prohíbe proporcionar bloqueadores de pubertad, hormonas cruzadas o cirugía de reasignación de género a menores de **18 años**, o ayudar a hacerlo. Las excepciones cubren diferencias del desarrollo sexual verificables médicamente y el tratamiento de complicaciones. No hay excepción para jóvenes que ya estaban en tratamiento.
+
+      Sanciones: los médicos y otros proveedores **pierden su licencia**; los pacientes pueden demandar hasta 30 años después de cumplir 18; el Fiscal General debe hacer cumplir la ley. Los fondos públicos, las instalaciones y empleados del gobierno y Medicaid (§ 43-13-117.7) no pueden proporcionar ni pagar esta atención para menores. La consejería de salud mental no está prohibida. La prohibición está vigente.
+
+      Las familias pueden recibir ayuda y becas de viaje de $500 del Trans Youth Emergency Project de Campaign for Southern Equality.
+  sources: [hb1125, hb1125-status, cse-tyep]
+medicaid:
+  program_name: Mississippi Medicaid
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: By law, Medicaid cannot cover gender transition procedures for anyone under 18. For adults, the Medicaid Administrative Code has no written exclusion, but also no coverage policy, and MAP reports that Mississippi Medicaid restricts trans-related care. Mississippi has not expanded Medicaid, so most adults without children or a disability do not qualify. If you are denied, ask for the denial in writing and appeal; A4TE's Trans Health Project can help.
+    es: Por ley, Medicaid no puede cubrir procedimientos de transición para menores de 18 años. Para adultos, el Código Administrativo de Medicaid no tiene una exclusión escrita, pero tampoco una política de cobertura, y MAP informa que Medicaid de Misisipi restringe esta atención. Misisipi no ha ampliado Medicaid, así que la mayoría de los adultos sin hijos ni discapacidad no califican. Si te niegan, pide la negativa por escrito y apela; el Trans Health Project de A4TE puede ayudar.
+  how_to_apply_url: https://medicaid.ms.gov/medicaid-coverage/how-to-apply/
+  sources: [hb1125, medicaid-admin-code, medicaid-apply, map-ms, a4te-thp]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: No Mississippi law bars insurers from excluding gender-affirming care, and MAP reports the state employee health plan excludes it. Read your plan's exclusions. If a claim is denied, appeal with the insurer, then complain to the Mississippi Insurance Department. Self-funded employer plans are regulated federally.
+    es: Ninguna ley de Misisipi prohíbe a las aseguradoras excluir la atención de afirmación de género, y MAP informa que el plan de salud de empleados estatales la excluye. Revisa las exclusiones de tu plan. Si te niegan un reclamo, apela con la aseguradora y luego presenta una queja ante el Departamento de Seguros de Misisipi.
+  complaint_url: https://www.mid.ms.gov/
+  sources: [map-ms, mid]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: queermed
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming hormone therapy that lists Mississippi as a service state (adults only here because of the youth ban).
+      es: Terapia hormonal de afirmación de género por telesalud que incluye Misisipi (solo adultos aquí por la prohibición para jóvenes).
+    url: https://queermed.com/
+    telehealth: true
+    cost: paid
+    verification: org_website
+    sources: [queermed-locations]
+  - id: open-arms
+    name: Open Arms Healthcare Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ-affirming primary care, behavioral health, PrEP, and STI and HIV testing in Jackson and Hattiesburg. Accepts most insurance; sliding scale for the uninsured. Call to ask about hormone therapy.
+      es: Atención primaria que afirma a personas LGBTQ, salud conductual, PrEP y pruebas de ITS y VIH en Jackson y Hattiesburg. Acepta la mayoría de los seguros; escala móvil para personas sin seguro. Llama para preguntar por terapia hormonal.
+    url: https://www.oahcc.org/
+    phone: "601-500-7660"
+    address: 805 E. River Pl., Jackson, MS 39202
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [oahcc, oahcc-srh]
+  - id: cse-tits
+    name: Campaign for Southern Equality, Trans in the South Access Project
+    type: advocacy_org
+    pillars: [hrt, mental_health]
+    description:
+      en: Directory of trans-affirming providers across the South, including Mississippi, plus navigation help.
+      es: Directorio de proveedores que afirman a personas trans en el Sur, incluido Misisipi, y ayuda de navegación.
+    url: https://southernequality.org/trans-in-the-south-access-project/
+    cost: free
+    verification: org_website
+    sources: [cse-tits]
+  - id: cse-tyep
+    name: Campaign for Southern Equality, Trans Youth Emergency Project
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Helps families of trans youth in states with bans, including Mississippi, find care elsewhere; $500 travel grants, renewable four times a year.
+      es: Ayuda a familias de jóvenes trans en estados con prohibiciones, incluido Misisipi, a encontrar atención en otros lugares; becas de viaje de $500, renovables cuatro veces al año.
+    url: https://southernequality.org/tyep/
+    cost: free
+    verification: org_website
+    sources: [cse-tyep]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Helps cover hormone therapy costs for trans people who cannot afford them.
+      es: Ayuda a cubrir costos de terapia hormonal para personas trans que no pueden pagarlos.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: a4te-thp
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help understanding insurance and Medicaid coverage and appealing denials of gender-affirming care.
+      es: Ayuda gratuita para entender la cobertura de seguros y Medicaid y apelar negativas de atención de afirmación de género.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [a4te-thp]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale based on income.
+      es: Buscador federal de centros de salud comunitarios que cobran según tus ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: HB 1125 (2023), Regulate Experimental Adolescent Procedures (REAP) Act
+    title:
+      en: Bans gender transition procedures for people under 18; license revocation; private right of action; public funds ban
+      es: Prohíbe procedimientos de transición de género para menores de 18 años
+    url: https://billstatus.ls.state.ms.us/documents/2023/pdf/HB/1100-1199/HB1125SG.pdf
+  - cite: Miss. Code Ann. § 43-13-117.7
+    title:
+      en: Medicaid may not cover gender transition procedures for persons under 18
+    url: https://billstatus.ls.state.ms.us/documents/2023/pdf/HB/1100-1199/HB1125SG.pdf
+sources:
+  - id: hb1125
+    url: https://billstatus.ls.state.ms.us/documents/2023/pdf/HB/1100-1199/HB1125SG.pdf
+    title: HB 1125 (2023), REAP Act, as sent to Governor
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person shall not knowingly provide gender transition procedures to any person under eighteen (18) years of age.
+  - id: hb1125-status
+    url: https://billstatus.ls.state.ms.us/2023/pdf/history/HB/HB1125.xml
+    title: HB 1125 (2023) bill history
+    publisher: Mississippi Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: 02/28 Approved by Governor
+  - id: medicaid-admin-code
+    url: https://medicaid.ms.gov/wp-content/uploads/2026/07/Entire-AdminstrativeCode-eff.-8.1.26-1.pdf
+    title: Mississippi Medicaid Administrative Code, Title 23 (effective August 1, 2026)
+    publisher: Mississippi Division of Medicaid
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: medicaid-apply
+    url: https://medicaid.ms.gov/medicaid-coverage/how-to-apply/
+    title: How to Apply
+    publisher: Mississippi Division of Medicaid
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-ms
+    url: https://www.mapresearch.org/equality-maps/profile_state/MS
+    title: Mississippi's equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: mid
+    url: https://www.mid.ms.gov/
+    title: Mississippi Insurance Department
+    publisher: Mississippi Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: queermed-locations
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: oahcc
+    url: https://www.oahcc.org/
+    title: Open Arms Healthcare Center
+    publisher: Open Arms Healthcare Center (My Brother's Keeper)
+    kind: org
+    accessed: "2026-09-24"
+    quote: sliding scale fees for those with no insurance
+  - id: oahcc-srh
+    url: https://www.oahcc.org/sexual-reproductive-healthcare
+    title: Sexual and Reproductive Healthcare
+    publisher: Open Arms Healthcare Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tits
+    url: https://southernequality.org/trans-in-the-south-access-project/
+    title: Trans in the South Access Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: These travel grants are renewable four times per year.
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

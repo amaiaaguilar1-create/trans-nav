@@ -1,0 +1,357 @@
+guide_type: name_change
+jurisdiction: MS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Miss. Code § 93-17-1 text read in SB 2126 (2026) as sent to the Governor (approved 3/25/2026, effective 7/1/2026);
+    Justia returned 403, so the codified text was not read directly. The $148 fee comes from Madison County Chancery
+    Court's civil fee schedule (effective 1/1/2020, "Name Change" $148); Hinds County's chancery clerk page publishes no
+    fee, so confirm by phone. No statewide official petition form exists; the ACLU of Mississippi tool and county clerks
+    supply petitions. Publication "none" and hearing practice are from the ACLU of Mississippi guide (Oct. 2023) and
+    A4TE's Mississippi page (last updated December 2025); no statute requiring publication was found. A4TE dates
+    In re S.M.-B. to November 2025, but the opinion (No. 2023-CA-01379-SCT) shows the decision date 04/17/2025; a
+    rehearing may explain the later date. NOT CONFIRMED: whether any chancery court seals name-change files, and whether
+    chancellors reliably grant in forma pauperis affidavits in chancery. Mississippi Legal Services' site did not load.
+status: available
+status_summary:
+  en: >-
+    Adults 21 and older can change their name by petition in the chancery court of the county where they live. There
+    is no newspaper publication, but you normally attend a short hearing and the judge decides. The fee is about $148.
+    People required to register as sex offenders cannot change their name (since July 1, 2026).
+  es: >-
+    Los adultos de 21 años o más pueden cambiar su nombre con una petición ante el tribunal de equidad (chancery court)
+    del condado donde viven. No hay publicación en periódico, pero normalmente asistes a una audiencia breve y el juez
+    decide. La tarifa es de unos $148. Las personas que deben registrarse como delincuentes sexuales no pueden cambiar
+    su nombre (desde el 1 de julio de 2026).
+summary:
+  en: |
+    Name changes in Mississippi are handled by the **chancery court** of the county where you live (Miss. Code § 93-17-1). You file a notarized petition with a certified copy of your birth certificate, pay the filing fee (or ask to file without paying), and then go to a hearing where the chancellor (judge) signs, or refuses to sign, your order. The judge has discretion, so bring the reason for your change in simple terms.
+
+    In Mississippi you are a legal adult at **21**. People under 21 need a parent or guardian to file for them, and courts apply a "best interest of the child" test.
+
+    The free **ACLU of Mississippi** online tool drafts the petition and order for you. A name change does not change your gender marker; see the driver's license and birth certificate guides.
+  es: |
+    En Misisipi, los cambios de nombre los tramita el **tribunal de equidad (chancery court)** del condado donde vives (Código de Misisipi § 93-17-1). Presentas una petición notariada con una copia certificada de tu acta de nacimiento, pagas la tarifa (o pides presentar sin pagar) y luego vas a una audiencia donde el juez firma, o se niega a firmar, tu orden. El juez tiene discreción.
+
+    En Misisipi eres adulto a los **21** años. Las personas menores de 21 necesitan que un padre, madre o tutor presente la petición, y el tribunal aplica el criterio del "interés superior del menor".
+
+    La herramienta gratuita en línea de la **ACLU de Misisipi** prepara la petición y la orden por ti. Un cambio de nombre no cambia tu marcador de género.
+eligibility:
+  residency:
+    en: File in the chancery court of the county where you live.
+    es: Presenta la petición en el tribunal de equidad del condado donde vives.
+  age:
+    en: 21 or older to file for yourself. Under 21, a parent or guardian files for you.
+    es: 21 años o más para presentar por ti mismo. Si tienes menos de 21, un padre, madre o tutor presenta por ti.
+  criminal_history:
+    en: >-
+      Since July 1, 2026, a person required to register as a sex offender may not change their name except through
+      marriage or divorce (SB 2126, Miss. Code § 45-33-30). A4TE also reports that incarcerated people can petition only
+      through a district attorney, sheriff, or corrections official.
+    es: >-
+      Desde el 1 de julio de 2026, una persona que debe registrarse como delincuente sexual no puede cambiar su nombre
+      salvo por matrimonio o divorcio (SB 2126). A4TE también indica que las personas encarceladas solo pueden
+      presentar la petición a través de un fiscal, sheriff o funcionario de correcciones.
+  sources: [sb2126, a4te-ms]
+forms:
+  - id: civil-cover-sheet
+    name:
+      en: Cover Sheet for Civil Case Filing
+      es: Portada para presentación de caso civil
+    url: https://courts.ms.gov/aoc/forms/civil_case_filing_form.pdf
+    required: always
+    sources: [aoc-cover-sheet, aclu-ms-guide]
+  - id: aclu-petition-tool
+    name:
+      en: Petition to Change Name and Order to Change Name (ACLU of Mississippi automated forms)
+      es: Petición de cambio de nombre y orden de cambio de nombre (formularios automatizados de la ACLU de Misisipi)
+    url: https://www.aclu-ms.org/identity-document-resources/
+    required: always
+    condition:
+      en: Mississippi has no statewide official petition form. Use the ACLU tool or ask your chancery clerk for the local form.
+      es: Misisipi no tiene un formulario oficial estatal. Usa la herramienta de la ACLU o pide el formulario local al secretario del tribunal.
+    how_to_fill:
+      en: |
+        - Choose "Adult First and Middle Name Change" or "Adult Surname Change" (or the name-and-gender-marker option if you also want a court order about your gender).
+        - For the reason, a short honest statement works (for example, that you are known by this name and it matches your gender identity). The judge can ask questions at the hearing.
+        - Do **not** sign the petition until you are in front of a notary. Most chancery clerk offices have one.
+        - Attach a copy of your certified birth certificate marked "Exhibit A."
+    sources: [aclu-ms-id, aclu-ms-guide]
+  - id: ifp-affidavit
+    name:
+      en: Affidavit for Commencement of Suit without Prepayment of Fees
+      es: Declaración jurada para iniciar una demanda sin pago previo de tarifas
+    url: https://www.aclu-ms.org/identity-document-resources/
+    required: optional
+    condition:
+      en: Only if you are low-income and cannot pay the filing fee. Sign it in front of a notary.
+      es: Solo si tienes bajos ingresos y no puedes pagar la tarifa. Fírmala ante un notario.
+    sources: [aclu-ms-guide]
+steps:
+  - id: draft
+    title:
+      en: Draft your petition and order
+      es: Prepara tu petición y tu orden
+    body:
+      en: Use the ACLU of Mississippi's free online tool, or ask your county's chancery clerk for a local petition form. You also need the civil cover sheet and a certified copy of your birth certificate ($17 from the Mississippi State Department of Health if you were born in Mississippi).
+      es: Usa la herramienta gratuita en línea de la ACLU de Misisipi, o pide al secretario del tribunal de equidad de tu condado un formulario local. También necesitas la portada civil y una copia certificada de tu acta de nacimiento ($17 del Departamento de Salud si naciste en Misisipi).
+    forms: [aclu-petition-tool, civil-cover-sheet]
+    sources: [aclu-ms-id, aclu-ms-guide]
+  - id: notarize
+    title:
+      en: Sign in front of a notary
+      es: Firma ante un notario
+    body:
+      en: Sign the petition (and the fee affidavit, if you use it) only in front of a notary, with your photo ID.
+      es: Firma la petición (y la declaración de tarifas, si la usas) solo ante un notario, con tu identificación con foto.
+    forms: [ifp-affidavit]
+    sources: [aclu-ms-guide]
+  - id: file
+    title:
+      en: File at the chancery clerk's office
+      es: Presenta los documentos en la oficina del secretario del tribunal de equidad
+    body:
+      en: Bring the cover sheet, petition, birth certificate (Exhibit A), photo ID, and the filing fee (or the fee affidavit) to the chancery clerk in your county. Call ahead for the exact fee and accepted payment methods. Ask for two file-stamped copies so you have your case number.
+      es: Lleva la portada, la petición, el acta de nacimiento (Anexo A), tu identificación con foto y la tarifa (o la declaración jurada) al secretario del tribunal de equidad de tu condado. Llama antes para confirmar la tarifa y las formas de pago. Pide dos copias selladas para tener tu número de caso.
+    fees: [filing]
+    sources: [aclu-ms-guide, madison-fees]
+  - id: hearing
+    title:
+      en: Schedule and attend the hearing
+      es: Programa y asiste a la audiencia
+    body:
+      en: Ask the clerk how to schedule your hearing. Chancellors travel between counties, so your hearing may be in a different courthouse. Bring the unsigned order and your copy of the petition. If the judge will not sign, ask why and call the ACLU of Mississippi at 601-354-3408.
+      es: Pregunta al secretario cómo programar tu audiencia. Los jueces viajan entre condados, así que tu audiencia puede ser en otro juzgado. Lleva la orden sin firmar y tu copia de la petición. Si el juez no firma, pregunta por qué y llama a la ACLU de Misisipi al 601-354-3408.
+    sources: [aclu-ms-guide]
+  - id: certified-copies
+    title:
+      en: File the signed order and get certified copies
+      es: Registra la orden firmada y obtén copias certificadas
+    body:
+      en: Take the signed order back to the chancery clerk in the county where you filed and ask for at least four certified copies. Some counties charge per copy.
+      es: Lleva la orden firmada al secretario del condado donde presentaste y pide al menos cuatro copias certificadas. Algunos condados cobran por copia.
+    sources: [aclu-ms-guide]
+fees:
+  - id: filing
+    label:
+      en: Chancery court filing fee (name change)
+      es: Tarifa de presentación en el tribunal de equidad (cambio de nombre)
+    amount: 148
+    varies_by: county
+    waivable: true
+    note:
+      en: $85 base fee plus $57.50 in state-mandated fees and $5.50 in county fees in Madison County. Other counties may differ slightly; call your clerk.
+      es: Tarifa base de $85 más $57.50 en tarifas estatales y $5.50 en tarifas del condado en Madison. Otros condados pueden variar un poco; llama al secretario.
+    sources: [madison-fees, aclu-ms-guide]
+fee_waiver:
+  available: true
+  forms: [ifp-affidavit]
+  eligibility:
+    en: For people who cannot afford court costs. The judge decides whether to accept the affidavit.
+    es: Para personas que no pueden pagar los costos judiciales. El juez decide si acepta la declaración.
+  how:
+    en: Sign the Affidavit for Commencement of Suit without Prepayment of Fees before a notary and file it with your petition.
+    es: Firma la declaración jurada ante un notario y preséntala con tu petición.
+  sources: [aclu-ms-guide]
+publication:
+  required: "no"
+  detail:
+    en: Mississippi does not require you to publish a notice of your name change in a newspaper.
+    es: Misisipi no exige publicar un aviso del cambio de nombre en un periódico.
+  sources: [a4te-ms, map-ms]
+hearing:
+  required: "yes"
+  detail:
+    en: You normally attend a hearing, and the chancellor has discretion to grant or deny the petition.
+    es: Normalmente asistes a una audiencia, y el juez tiene discreción para conceder o negar la petición.
+  sources: [aclu-ms-guide, a4te-ms]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprinting is required. People on the sex offender registry are barred from changing their name (SB 2126, effective July 1, 2026).
+    es: No se exigen huellas digitales. Las personas en el registro de delincuentes sexuales no pueden cambiar su nombre (SB 2126, vigente desde el 1 de julio de 2026).
+  sources: [sb2126]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: We found no Mississippi law that seals name change files. If you have safety concerns, ask a lawyer about requesting that the judge seal the record.
+    es: No encontramos ninguna ley de Misisipi que selle los expedientes de cambio de nombre. Si tienes preocupaciones de seguridad, consulta a un abogado sobre pedir al juez que selle el expediente.
+  sources: [a4te-ms]
+minors:
+  summary:
+    en: |
+      Anyone under 21 needs a parent or guardian to file. Both legal parents must be notified; a parent who does not consent must be formally served. If the last name changes, the State Board of Health must be named as a respondent and served (Miss. Code § 41-57-23(1)(b)).
+
+      A chancellor may grant a minor's name change only when it is "clearly in the best interest of the child." In **In re S.M.-B.** (Miss. 2025), the Mississippi Supreme Court upheld a Hinds County chancellor who dismissed a 16-year-old trans boy's petition for lack of maturity, even though both parents agreed. Minor petitions are still possible, but bring strong supporting evidence (letters from teachers, counselors, or doctors).
+    es: |
+      Cualquier persona menor de 21 años necesita que un padre, madre o tutor presente la petición. Ambos padres deben ser notificados; un padre que no consienta debe recibir notificación formal. Si cambia el apellido, se debe nombrar y notificar a la Junta Estatal de Salud (§ 41-57-23(1)(b)).
+
+      El juez solo puede conceder el cambio de nombre de un menor cuando sea "claramente en el interés superior del menor". En **In re S.M.-B.** (Miss. 2025), la Corte Suprema de Misisipi confirmó la decisión de un juez del condado de Hinds que desestimó la petición de un joven trans de 16 años por falta de madurez, aunque ambos padres estaban de acuerdo. Todavía es posible, pero presenta pruebas sólidas.
+  sources: [sm-b-opinion, a4te-ms]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the chancery clerk's office; A4TE recommends in-person filing. Some counties use electronic filing (MEC), mainly for attorneys.
+    es: Presenta en persona en la oficina del secretario del tribunal de equidad; A4TE recomienda presentar en persona.
+  sources: [a4te-ms, aclu-ms-guide]
+timeline:
+  en: Usually a few weeks to a couple of months from filing to hearing, depending on the chancellor's calendar.
+  es: Normalmente de unas semanas a un par de meses entre la presentación y la audiencia, según la agenda del juez.
+after:
+  en: |
+    1. **Social Security** first (free; bring a certified copy of the order and photo ID).
+    2. **Driver's license or ID** at a Driver Service Bureau station ($11 duplicate); bring the certified court order. The sex marker cannot be changed (see the driver's license guide).
+    3. **Birth certificate** if born in Mississippi: MSDH Form 1126 plus the certified order ($28).
+    4. **Passport**, bank, employer, insurance, voter registration (circuit clerk), and school records.
+  es: |
+    1. **Seguro Social** primero (gratis; lleva una copia certificada de la orden e identificación con foto).
+    2. **Licencia o identificación** en una estación del Driver Service Bureau ($11 duplicado); lleva la orden certificada. El marcador de sexo no se puede cambiar.
+    3. **Acta de nacimiento** si naciste en Misisipi: Formulario 1126 de MSDH más la orden certificada ($28).
+    4. **Pasaporte**, banco, empleador, seguro, registro de votante (secretario del circuito) y expedientes escolares.
+tips:
+  - en: Judges ride circuits between counties. Ask the clerk which chancellor will hear your case and when; the ACLU of Mississippi may know how that judge handles trans petitions.
+    es: Los jueces viajan entre condados. Pregunta al secretario qué juez verá tu caso y cuándo; la ACLU de Misisipi puede saber cómo ese juez maneja las peticiones de personas trans.
+  - en: A U.S. passport name change is often the most useful ID update if your state ID cannot reflect your gender.
+    es: Cambiar el nombre en el pasaporte suele ser la actualización más útil si tu identificación estatal no puede reflejar tu género.
+local_help:
+  - id: aclu-ms-lgbtq
+    name: ACLU of Mississippi, LGBTQ Justice Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free automated petition forms, quarterly legal clinics, and help when a petition is denied. 601-354-3408 ext. 114, LGBTQ@aclu-ms.org.
+      es: Formularios automatizados gratuitos, clínicas legales trimestrales y ayuda cuando se niega una petición. 601-354-3408 ext. 114, LGBTQ@aclu-ms.org.
+    url: https://www.aclu-ms.org/identity-document-resources/
+    phone: "601-354-3408"
+    cost: free
+    verification: org_website
+    sources: [aclu-ms-id, aclu-ms-guide]
+  - id: ms-legal-services
+    name: Mississippi Legal Services (NMRLS and MCLSC)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for income-eligible people. North Mississippi 1-800-898-8731; central and south Mississippi 1-800-519-2915.
+      es: Asistencia legal civil gratuita para personas con ingresos elegibles. Norte de Misisipi 1-800-898-8731; centro y sur 1-800-519-2915.
+    url: https://www.mslegalservices.org/
+    cost: free
+    verification: unverified
+    sources: [mslegalservices]
+  - id: a4te-name-change-project
+    org: a4te
+    name: Advocates for Trans Equality, Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: National program that connects trans people with pro bono attorneys for name changes.
+      es: Programa nacional que conecta a personas trans con abogados pro bono para cambios de nombre.
+    url: https://transequality.org/name-change-project
+    cost: free
+    verification: org_website
+    sources: [a4te-ncp]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [name_change]
+    description:
+      en: National nonprofit with funds that can help with some transition-related costs; check current programs.
+      es: Organización nacional con fondos que pueden ayudar con algunos costos de transición; revisa los programas actuales.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+statutes:
+  - cite: Miss. Code Ann. § 93-17-1 (as amended by SB 2126, 2026)
+    title:
+      en: Chancery court of the county of residence may change a person's name
+      es: El tribunal de equidad del condado de residencia puede cambiar el nombre de una persona
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2100-2199/SB2126SG.pdf
+  - cite: Miss. Code Ann. § 45-33-30 (SB 2126, 2026)
+    title:
+      en: Registered sex offenders may not change their name except by marriage or divorce; effective July 1, 2026
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2100-2199/SB2126SG.pdf
+related_links:
+  - title: Advocates for Trans Equality, Mississippi identity documents
+    url: https://transequality.org/documents/mississippi-identity-documents
+    note:
+      en: Last updated December 2025; predates the July 2026 driver's license law.
+      es: Actualizado en diciembre de 2025; es anterior a la ley de licencias de julio de 2026.
+  - title: Mississippi chancery courts directory
+    url: https://courts.ms.gov/trialcourts/chancerycourt/chancerycourt.php
+sources:
+  - id: sb2126
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2100-2199/SB2126SG.pdf
+    title: SB 2126 (2026), name change prohibited for registered sex offenders; amends § 93-17-1
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: It shall be unlawful for a person required to register under this chapter to change his or her name except when his or her name changed as a result of marriage or divorce.
+  - id: a4te-ms
+    url: https://transequality.org/documents/mississippi-identity-documents
+    title: Mississippi Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Name Change (Adult – 21 or older): Yes. ... You will typically have to attend a hearing. There is no publication requirement."
+  - id: aclu-ms-id
+    url: https://www.aclu-ms.org/identity-document-resources/
+    title: Identity Document Resources
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ms-guide
+    url: https://www.aclu-ms.org/app/uploads/2025/11/231006_Mississippi-Name-Change-Guidelines_October-2023.pdf
+    title: Mississippi Name Change Guidelines (October 2023)
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
+    quote: If you are low-income, you may want to fill out an Affidavit for Commencement of Suit without Prepayment of Fees to proceed "in forma pauperis"
+  - id: aoc-cover-sheet
+    url: https://courts.ms.gov/aoc/forms/civil_case_filing_form.pdf
+    title: Cover Sheet for Civil Case Filing
+    publisher: Mississippi Administrative Office of Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: madison-fees
+    url: https://www.madison-co.com/sites/default/files/chancery_court_fees.effective_1-1-2020.pdf
+    title: Madison County Chancery Court Civil Case Filing Fees (effective January 1, 2020)
+    publisher: Madison County Chancery Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name Change, base fee 85.00, statutorily mandated fees 57.50, optional board approved fees 5.50, total 148.00
+  - id: sm-b-opinion
+    url: https://courts.ms.gov/images/Opinions/CO182514.pdf
+    title: In re Petition of S.M.-B. v. Mississippi State Board of Health, No. 2023-CA-01379-SCT
+    publisher: Supreme Court of Mississippi
+    kind: court
+    accessed: "2026-09-24"
+    quote: a chancellor may only grant a minor's name change "where to do so is clearly in the best interest of the child."
+  - id: map-ms
+    url: https://www.mapresearch.org/equality-maps/profile_state/MS
+    title: Mississippi's equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: mslegalservices
+    url: https://www.mslegalservices.org/
+    title: Mississippi Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ncp
+    url: https://transequality.org/name-change-project
+    title: Name Change Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

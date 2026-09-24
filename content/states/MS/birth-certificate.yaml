@@ -1,0 +1,251 @@
+guide_type: birth_certificate
+jurisdiction: MS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The current text of Miss. Code § 41-57-21 was read as quoted in MSDH Form 1126 (rev. 12/13/18) and in the
+    "current law" portions of HB 1154 and HB 1375 (2026), both of which would have banned sex changes and both of which
+    died in committee on 2/3/2026 (as did SB 2813 of 2024 and SB 2700 of 2025). Justia returned 403. MSDH publishes no
+    written policy on gender-marker amendments; its site says to call 601-206-8200 or email VRInfo@msdh.ms.gov for
+    changes. The requirement (certified court order for the gender change plus a physician's letter; marginal
+    notation, not a new certificate; M or F only) comes only from A4TE's page (last updated December 2025). NOT
+    CONFIRMED: whether MSDH still grants gender-marker amendments after SB 2753 (2024) defined sex as "objective and
+    fixed" and after SB 2322 (2026) tied driver's licenses to sex at birth; MAP scores Mississippi's birth certificate
+    policy as "no law." Status set to unclear. Fees ($28 amendment incl. one copy, $6 extra copies, $17 certified copy)
+    read on Form 1126 and MSDH's birth certificate page. Chancery fee for a "Birth Certificate Correction" ($148) is from
+    Madison County's fee schedule.
+status: unclear
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Mississippi has no written rule for changing the sex on a birth certificate. Advocates report that the health
+    department has amended it with a certified court order and a doctor's letter, as a note in the margin, but a 2024
+    law defines sex as fixed at birth and current practice is not confirmed. Name changes are available with a court
+    order and Form 1126 ($28).
+  es: >-
+    Misisipi no tiene una regla escrita para cambiar el sexo en el acta de nacimiento. Organizaciones informan que el
+    Departamento de Salud lo ha enmendado con una orden judicial certificada y una carta médica, como una nota al
+    margen, pero una ley de 2024 define el sexo como fijo al nacer y la práctica actual no está confirmada. Los cambios
+    de nombre están disponibles con una orden judicial y el Formulario 1126 ($28).
+summary:
+  en: |
+    Birth certificates for people **born in Mississippi** are kept by the Mississippi State Department of Health (MSDH), Office of Vital Records, in Ridgeland. If you were born in another state, follow that state's rules.
+
+    Miss. Code § 41-57-21 lets the State Registrar correct an "incorrect first name, middle name, or sex" on the affidavit of two people with personal knowledge, at the registrar's discretion; all other changes require a court order under § 41-57-23. According to Advocates for Trans Equality (December 2025), MSDH has processed gender-marker changes with a **certified chancery court order** changing your gender marker plus a **physician's letter**. MSDH does not issue a new certificate: the new name and sex are noted in the margin of the original, and only M or F is available.
+
+    Since 2024, state law defines sex as "the biological indication of male and female as observed or clinically verified at birth" (SAFER Act). Bills to explicitly ban birth certificate sex changes failed in 2024, 2025, and 2026, but call MSDH before you pay for a court case.
+  es: |
+    Las actas de nacimiento de las personas **nacidas en Misisipi** están a cargo del Departamento de Salud del Estado de Misisipi (MSDH), Oficina de Registros Vitales, en Ridgeland. Si naciste en otro estado, sigue las reglas de ese estado.
+
+    El § 41-57-21 permite al Registrador corregir un "primer nombre, segundo nombre o sexo incorrecto" con la declaración jurada de dos personas, a su discreción; los demás cambios requieren una orden judicial (§ 41-57-23). Según Advocates for Trans Equality (diciembre de 2025), MSDH ha procesado cambios de marcador de género con una **orden certificada del tribunal de equidad** y una **carta médica**. MSDH no emite un acta nueva: el nuevo nombre y sexo se anotan al margen del original, y solo hay M o F.
+
+    Desde 2024, la ley estatal define el sexo como la indicación biológica "observada o verificada clínicamente al nacer" (SAFER Act). Los proyectos para prohibir expresamente estos cambios fracasaron en 2024, 2025 y 2026, pero llama a MSDH antes de pagar un caso judicial.
+eligibility:
+  residency:
+    en: You must have been born in Mississippi. You do not need to live in Mississippi now.
+    es: Debes haber nacido en Misisipi. No necesitas vivir en Misisipi ahora.
+  other:
+    en: No written MSDH policy; the SAFER Act (2024) defines sex as fixed at birth, and bills to ban changes outright have failed so far.
+    es: No hay política escrita de MSDH; la ley SAFER (2024) define el sexo como fijo al nacer, y los proyectos para prohibir los cambios han fracasado hasta ahora.
+  sources: [msdh-birth, sb2753, hb1154]
+forms:
+  - id: "1126"
+    name:
+      en: Affidavit to Amend Mississippi Certificate of Live Birth (Form 1126)
+      es: Declaración jurada para enmendar el certificado de nacimiento de Misisipi (Formulario 1126)
+    url: https://msdh.ms.gov/page/resources/7983.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - "Full name at birth" and date and county of birth exactly as on the current certificate.
+        - In the table, list each item to change (first name, middle name, last name, sex), the current entry, and the new entry.
+        - Sign in front of a notary; original signatures only. Attach the certified court order (and physician's letter for a sex change).
+      es: |
+        - "Nombre completo al nacer", fecha y condado de nacimiento tal como aparecen en el acta actual.
+        - En la tabla, anota cada dato a cambiar, el dato actual y el nuevo.
+        - Firma ante un notario; solo firmas originales. Adjunta la orden judicial certificada (y la carta médica para un cambio de sexo).
+    sources: [form-1126]
+  - id: "522"
+    name:
+      en: Application for Certified Mississippi Birth Certificate (Form 522)
+      es: Solicitud de acta de nacimiento certificada de Misisipi (Formulario 522)
+    url: https://msdh.ms.gov/page/resources/21413.pdf
+    url_es: https://msdh.ms.gov/page/resources/21416.pdf
+    required: optional
+    condition:
+      en: To order extra certified copies of your birth certificate (for example, for your court petition).
+      es: Para pedir copias certificadas adicionales de tu acta (por ejemplo, para tu petición judicial).
+    sources: [form-522]
+steps:
+  - id: call-msdh
+    title:
+      en: Call Vital Records first
+      es: Llama primero a Registros Vitales
+    body:
+      en: Call the MSDH Amendments Unit at 601-206-8200 or email VRInfo@msdh.ms.gov and ask exactly what it currently requires to change the sex on a birth certificate, and whether it is accepting these requests. Write down the date and the name of the person you spoke with.
+      es: Llama a la Unidad de Enmiendas de MSDH al 601-206-8200 o escribe a VRInfo@msdh.ms.gov y pregunta exactamente qué exige hoy para cambiar el sexo en un acta y si está aceptando estas solicitudes. Anota la fecha y el nombre de la persona.
+    applies_to: [gender_marker]
+    sources: [msdh-birth, msdh-faq]
+  - id: court-order
+    title:
+      en: Get a certified chancery court order
+      es: Obtén una orden certificada del tribunal de equidad
+    body:
+      en: For a name change, use your name change order. For a sex change, you need an order that directs the change of your gender marker; the ACLU of Mississippi's forms include an "Adult Gender Marker Change" petition. The chancellor decides whether to grant it.
+      es: Para un cambio de nombre, usa tu orden de cambio de nombre. Para un cambio de sexo, necesitas una orden que ordene el cambio de tu marcador de género; los formularios de la ACLU de Misisipi incluyen una petición de "cambio de marcador de género de adulto". El juez decide.
+    fees: [chancery]
+    sources: [a4te-ms, aclu-ms-id, madison-fees]
+  - id: physician-letter
+    title:
+      en: Get a physician's letter (sex change only)
+      es: Obtén una carta médica (solo para cambio de sexo)
+    body:
+      en: A4TE reports MSDH also wants a letter from a physician. Ask MSDH what the letter must say.
+      es: A4TE indica que MSDH también pide una carta de un médico. Pregunta a MSDH qué debe decir la carta.
+    applies_to: [gender_marker]
+    sources: [a4te-ms]
+  - id: submit
+    title:
+      en: Send Form 1126, the order, and the fee
+      es: Envía el Formulario 1126, la orden y la tarifa
+    body:
+      en: Mail or bring the notarized Form 1126, the certified court order, any physician's letter, a copy of your photo ID, and $28 (money order or cashier's check to Mississippi Vital Records) to MSDH Vital Records, P.O. Box 1700, Jackson, MS 39215-1700, or in person at 222 Marketridge Drive, Ridgeland (8 a.m. to 4 p.m., Monday to Friday).
+      es: Envía o lleva el Formulario 1126 notariado, la orden certificada, la carta médica si aplica, copia de tu identificación con foto y $28 (giro postal o cheque de caja a Mississippi Vital Records) a MSDH Vital Records, P.O. Box 1700, Jackson, MS 39215-1700, o en persona en 222 Marketridge Drive, Ridgeland (8 a.m. a 4 p.m., lunes a viernes).
+    forms: ["1126"]
+    fees: [amendment, extra-copy]
+    applies_to: [by_mail, in_person]
+    sources: [form-1126, form-522, msdh-vr]
+fees:
+  - id: amendment
+    label:
+      en: Amendment (includes one certified copy of the amended record)
+      es: Enmienda (incluye una copia certificada del registro enmendado)
+    amount: 28
+    sources: [form-1126]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 6
+    sources: [form-1126, msdh-birth]
+  - id: certified-copy
+    label:
+      en: Certified birth certificate (first copy, ordered separately)
+      es: Acta de nacimiento certificada (primera copia, pedida por separado)
+    amount: 17
+    sources: [msdh-birth, form-522]
+  - id: chancery
+    label:
+      en: Chancery court filing fee for a birth certificate correction or name change petition
+      es: Tarifa del tribunal de equidad para una corrección de acta o petición de cambio de nombre
+    amount: 148
+    varies_by: county
+    waivable: true
+    sources: [madison-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail or in person at the Ridgeland office. Standard processing of certified copies is 7 to 10 business days; amendment processing time is not published.
+    es: Por correo o en persona en la oficina de Ridgeland. Las copias certificadas tardan de 7 a 10 días hábiles; el tiempo de las enmiendas no se publica.
+  sources: [msdh-faq, form-522]
+timeline:
+  en: Amendment timing is not published; allow several weeks after MSDH receives a complete request.
+  es: El tiempo de las enmiendas no se publica; calcula varias semanas después de que MSDH reciba una solicitud completa.
+after:
+  en: An amended Mississippi birth certificate will show the change as a margin note. Because of SB 2322 (2026), an amended birth certificate no longer changes the sex on a Mississippi driver's license. It can still support a name update elsewhere.
+  es: Un acta de Misisipi enmendada mostrará el cambio como nota al margen. Por SB 2322 (2026), un acta enmendada ya no cambia el sexo en una licencia de conducir de Misisipi. Todavía sirve para actualizar el nombre en otros lugares.
+tips:
+  - en: If you were born in Mississippi but live in another state, you still file with Mississippi MSDH, but a court order from your current state may be accepted; ask MSDH.
+    es: Si naciste en Misisipi pero vives en otro estado, igual presentas ante MSDH, pero puede aceptarse una orden judicial de tu estado actual; pregunta a MSDH.
+statutes:
+  - cite: Miss. Code Ann. § 41-57-21
+    title:
+      en: Registrar may correct incorrect first name, middle name, or sex on affidavit; other alterations under § 41-57-23
+    url: https://msdh.ms.gov/page/resources/7983.pdf
+  - cite: Miss. Code Ann. § 1-3-83 (SB 2753, 2024)
+    title:
+      en: Statutory definition of sex as observed or clinically verified at birth
+    url: https://billstatus.ls.state.ms.us/documents/2024/pdf/SB/2700-2799/SB2753SG.pdf
+related_links:
+  - title: Advocates for Trans Equality, Mississippi identity documents
+    url: https://transequality.org/documents/mississippi-identity-documents
+    note:
+      en: Last updated December 2025; source for the court order plus physician letter requirement.
+      es: Actualizado en diciembre de 2025; fuente del requisito de orden judicial y carta médica.
+sources:
+  - id: form-1126
+    url: https://msdh.ms.gov/page/resources/7983.pdf
+    title: Form 1126, Affidavit to Amend Mississippi Certificate of Live Birth (rev. 12/13/18)
+    publisher: Mississippi State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: Fee is $28.00, includes one certified copy of the amended record. Additional copies of the amended record are $6.00 each when ordered at the same time for the same person.
+  - id: form-522
+    url: https://msdh.ms.gov/page/resources/21413.pdf
+    title: Form 522, Application for Certified Mississippi Birth Certificate (rev. 02/2026)
+    publisher: Mississippi State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: Processing time is generally 7-10 business days after receipt of request.
+  - id: msdh-birth
+    url: https://msdh.ms.gov/page/31,0,109,808.html
+    title: Birth Certificates
+    publisher: Mississippi State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Changes or Corrections: Call our Vital Records office at 601-206-8200 or send e-mail to VRInfo@msdh.ms.gov."
+  - id: msdh-faq
+    url: https://msdh.ms.gov/page/31,0,109,76.html
+    title: Vital Records Questions and Answers
+    publisher: Mississippi State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: contact the Amendments Unit for detailed instructions at 601-206-8200
+  - id: msdh-vr
+    url: https://msdh.ms.gov/page/31,0,109.html
+    title: Vital Records
+    publisher: Mississippi State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-ms
+    url: https://transequality.org/documents/mississippi-identity-documents
+    title: Mississippi Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: A certified copy of a court order for a change of gender marker and physician's letter are required to make this amendment.
+  - id: aclu-ms-id
+    url: https://www.aclu-ms.org/identity-document-resources/
+    title: Identity Document Resources
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
+  - id: madison-fees
+    url: https://www.madison-co.com/sites/default/files/chancery_court_fees.effective_1-1-2020.pdf
+    title: Madison County Chancery Court Civil Case Filing Fees (effective January 1, 2020)
+    publisher: Madison County Chancery Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: Birth Certificate Correction, total 148.00
+  - id: sb2753
+    url: https://billstatus.ls.state.ms.us/documents/2024/pdf/SB/2700-2799/SB2753SG.pdf
+    title: SB 2753 (2024), SAFER Act
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: '"Sex," when used to classify a natural person, means the biological indication of male and female as observed or clinically verified at birth'
+  - id: hb1154
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/1100-1199/HB1154IN.pdf
+    title: HB 1154 (2026), birth certificate sex designation bill (died in committee Feb. 3, 2026)
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: such certificate contains an incorrect first name, middle name, or sex, then the State Registrar of Vital Records may, in his discretion, correct such certificate upon affidavit of at least two (2) reputable persons

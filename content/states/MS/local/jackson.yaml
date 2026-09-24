@@ -1,0 +1,185 @@
+jurisdiction: MS
+slug: jackson
+name: Jackson
+area:
+  en: Hinds County and the Jackson metro (Madison and Rankin counties)
+  es: Condado de Hinds y el área metropolitana de Jackson (condados de Madison y Rankin)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Hinds County Chancery Clerk details (Eddie Jean Carr, 316 S. President St., 601-968-6508) come from the county
+    website, which may be out of date; no fee is published there. Madison County's chancery fee schedule lists $148 for
+    a name change. Hinds County has two judicial districts (Jackson and Raymond); confirm where to file. Open Arms
+    hormone therapy not stated on its site (community_reported). Capital City Pride's domain (capitalcitypride.org)
+    now belongs to a Des Moines, Iowa group, so it is omitted. Mississippi Equality, Grace House, and the TRANS
+    Program sites did not load and are omitted. Planned Parenthood Southeast returned 403.
+intro:
+  en: >-
+    Jackson is Mississippi's largest metro. Name changes are filed with the chancery clerk of the county where you live
+    (Hinds, Madison, or Rankin). The ACLU of Mississippi, based in Jackson, runs the state's main trans legal help
+    project, and Open Arms Healthcare Center offers affirming primary care, PrEP, and testing. Care for anyone under 18
+    is banned statewide.
+  es: >-
+    Jackson es el área metropolitana más grande de Misisipi. Los cambios de nombre se presentan ante el secretario del
+    tribunal de equidad del condado donde vives (Hinds, Madison o Rankin). La ACLU de Misisipi, con sede en Jackson,
+    tiene el principal proyecto de ayuda legal para personas trans, y Open Arms Healthcare Center ofrece atención
+    primaria, PrEP y pruebas. La atención para menores de 18 años está prohibida en todo el estado.
+court:
+  name: Hinds County Chancery Court (Chancery Clerk, First Judicial District, Jackson)
+  url: https://www.hindscountyms.com/elected-offices/chancery-clerk
+  notes:
+    en: Chancery Clerk's office at 316 S. President St., Jackson, MS 39201, 601-968-6508, 8 a.m. to 5 p.m. weekdays. Call to confirm the fee (about $148 in the metro) and how to schedule a hearing. Madison and Rankin residents file in their own county.
+    es: Oficina del secretario en 316 S. President St., Jackson, MS 39201, 601-968-6508, de 8 a.m. a 5 p.m. entre semana. Llama para confirmar la tarifa (unos $148 en el área) y cómo programar la audiencia. Los residentes de Madison y Rankin presentan en su propio condado.
+  sources: [hinds-chancery, madison-fees]
+resources:
+  - id: aclu-ms-lgbtq
+    name: ACLU of Mississippi, LGBTQ Justice Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free automated name and gender marker petitions, quarterly clinics, and help if a judge denies your petition. 601-354-3408 ext. 114.
+      es: Peticiones automatizadas gratuitas de nombre y marcador de género, clínicas trimestrales y ayuda si un juez niega tu petición. 601-354-3408 ext. 114.
+    url: https://www.aclu-ms.org/identity-document-resources/
+    phone: "601-354-3408"
+    cost: free
+    verification: org_website
+    sources: [aclu-ms-id]
+  - id: ms-legal-services
+    name: Mississippi Center for Legal Services
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal aid for low-income residents of central and south Mississippi. Intake 1-800-519-2915.
+      es: Asistencia legal civil gratuita para residentes de bajos ingresos del centro y sur de Misisipi. Admisión 1-800-519-2915.
+    url: https://www.mslegalservices.org/
+    phone: "1-800-519-2915"
+    cost: free
+    verification: unverified
+    sources: [mslegalservices]
+  - id: open-arms
+    name: Open Arms Healthcare Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Affirming primary care, behavioral health, PrEP, doxy-PEP, and STI and HIV testing. Accepts most insurance; sliding scale if uninsured. Ask about hormone therapy.
+      es: Atención primaria, salud conductual, PrEP, doxy-PEP y pruebas de ITS y VIH. Acepta la mayoría de los seguros; escala móvil sin seguro. Pregunta por terapia hormonal.
+    url: https://www.oahcc.org/
+    phone: "601-500-7660"
+    address: 805 E. River Pl., Jackson, MS 39202
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: community_reported
+    sources: [oahcc, oahcc-srh]
+  - id: mbk
+    name: My Brother's Keeper, Inc.
+    type: other
+    pillars: [sexual_health]
+    description:
+      en: Ridgeland nonprofit that runs Open Arms Healthcare Center and community HIV prevention and PrEP programs. 769-216-2455.
+      es: Organización de Ridgeland que opera Open Arms Healthcare Center y programas comunitarios de prevención del VIH y PrEP. 769-216-2455.
+    url: https://www.mbkinc.org/services
+    phone: "769-216-2455"
+    address: 407 Orchard Park, Ridgeland, MS 39157
+    cost: free
+    verification: org_website
+    sources: [mbk]
+  - id: queermed
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth hormone therapy for adults in Mississippi.
+      es: Terapia hormonal por telesalud para adultos en Misisipi.
+    url: https://queermed.com/
+    telehealth: true
+    cost: paid
+    verification: org_website
+    sources: [queermed-locations]
+  - id: cse-tits
+    name: Campaign for Southern Equality, Trans in the South Access Project
+    type: advocacy_org
+    pillars: [hrt, mental_health]
+    description:
+      en: Directory of trans-affirming providers, including in the Jackson area.
+      es: Directorio de proveedores que afirman a personas trans, incluido el área de Jackson.
+    url: https://southernequality.org/trans-in-the-south-access-project/
+    cost: free
+    verification: org_website
+    sources: [cse-tits]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: hinds-chancery
+    url: https://www.hindscountyms.com/elected-offices/chancery-clerk
+    title: Chancery Clerk
+    publisher: Hinds County, Mississippi
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Chancery Clerk Eddie Jean Carr, Phone: 601.968.6508, Address: 316 S. President St., Jackson, MS 39201"
+  - id: madison-fees
+    url: https://www.madison-co.com/sites/default/files/chancery_court_fees.effective_1-1-2020.pdf
+    title: Madison County Chancery Court Civil Case Filing Fees (effective January 1, 2020)
+    publisher: Madison County Chancery Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name Change, total 148.00
+  - id: aclu-ms-id
+    url: https://www.aclu-ms.org/identity-document-resources/
+    title: Identity Document Resources
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
+  - id: mslegalservices
+    url: https://www.mslegalservices.org/
+    title: Mississippi Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: oahcc
+    url: https://www.oahcc.org/
+    title: Open Arms Healthcare Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: oahcc-srh
+    url: https://www.oahcc.org/sexual-reproductive-healthcare
+    title: Sexual and Reproductive Healthcare
+    publisher: Open Arms Healthcare Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: mbk
+    url: https://www.mbkinc.org/services
+    title: Services
+    publisher: My Brother's Keeper, Inc.
+    kind: org
+    accessed: "2026-09-24"
+  - id: queermed-locations
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tits
+    url: https://southernequality.org/trans-in-the-south-access-project/
+    title: Trans in the South Access Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

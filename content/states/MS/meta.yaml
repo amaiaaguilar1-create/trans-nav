@@ -1,0 +1,147 @@
+code: MS
+name:
+  en: Mississippi
+  es: Misisipi
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate drawn from enacted bills read on the Mississippi Legislature's bill-status site (SB 2322 of 2026, SB 2753 of
+    2024, HB 1125 of 2023) and cross-checked with MAP's Mississippi profile. See each guide's notes for open items.
+overview:
+  en: >-
+    Mississippi is one of the most restrictive states for trans people. Adults (21 and older) can still change their
+    name in chancery court, with no newspaper publication, but a judge must approve it at a hearing. Since July 1, 2026,
+    driver's licenses must show the sex recorded at birth, and a 2024 law defines sex as "objective and fixed." Gender-affirming
+    medical care is banned for anyone under 18. Adults can get hormone therapy, mostly through telehealth or a few
+    clinics. Mississippi has no shield law.
+  es: >-
+    Misisipi es uno de los estados más restrictivos para las personas trans. Los adultos (21 años o más) todavía pueden
+    cambiar su nombre en el tribunal de equidad (chancery court), sin publicación en periódico, pero un juez debe
+    aprobarlo en una audiencia. Desde el 1 de julio de 2026, las licencias de conducir deben mostrar el sexo registrado
+    al nacer, y una ley de 2024 define el sexo como "objetivo y fijo". La atención médica de afirmación de género está
+    prohibida para menores de 18 años. Los adultos pueden recibir terapia hormonal, sobre todo por telesalud o en
+    algunas clínicas. Misisipi no tiene ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [sb2322, sb2753, hb1125, map-ms]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [jackson]
+key_resources:
+  - id: aclu-ms-lgbtq
+    name: ACLU of Mississippi, LGBTQ Justice Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free online tool that drafts Mississippi name change and gender marker petitions, printable guides, quarterly legal clinics, and help if a judge will not sign your order. Call 601-354-3408 ext. 114 or email LGBTQ@aclu-ms.org.
+      es: Herramienta gratuita en línea que prepara peticiones de cambio de nombre y de marcador de género en Misisipi, guías imprimibles, clínicas legales trimestrales y ayuda si un juez no firma tu orden. Llama al 601-354-3408 ext. 114 o escribe a LGBTQ@aclu-ms.org.
+    url: https://www.aclu-ms.org/identity-document-resources/
+    phone: "601-354-3408"
+    cost: free
+    verification: org_website
+    sources: [aclu-ms-id, aclu-ms-guide]
+  - id: ms-legal-services
+    name: Mississippi Legal Services (NMRLS and MCLSC)
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal aid for low-income Mississippians. North Mississippi Rural Legal Services 1-800-898-8731; Mississippi Center for Legal Services 1-800-519-2915.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos en Misisipi. North Mississippi Rural Legal Services 1-800-898-8731; Mississippi Center for Legal Services 1-800-519-2915.
+    url: https://www.mslegalservices.org/
+    cost: free
+    verification: org_website
+    sources: [mslegalservices]
+  - id: cse-tits
+    name: Campaign for Southern Equality, Trans in the South Access Project
+    type: advocacy_org
+    pillars: [hrt, mental_health, name_change]
+    description:
+      en: Southern directory of trans-affirming providers and navigation help; its Trans Youth Emergency Project helps Mississippi families find care out of state, with $500 travel grants.
+      es: Directorio del Sur de proveedores que afirman a personas trans y ayuda de navegación; su Trans Youth Emergency Project ayuda a familias de Misisipi a encontrar atención fuera del estado, con becas de viaje de $500.
+    url: https://southernequality.org/trans-in-the-south-access-project/
+    cost: free
+    verification: org_website
+    sources: [cse-tits, cse-tyep]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [trans-lifeline]
+sources:
+  - id: sb2322
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2300-2399/SB2322SG.pdf
+    title: SB 2322 (2026), amending Miss. Code § 63-1-35 (driver's license sex designation), as sent to Governor
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: shall bear a designation of the sex of the individual which shall be consistent with the sex of the individual determined at birth
+  - id: sb2753
+    url: https://billstatus.ls.state.ms.us/documents/2024/pdf/SB/2700-2799/SB2753SG.pdf
+    title: SB 2753 (2024), SAFER Act, creating Miss. Code § 1-3-83 (definitions of female, male, sex)
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: '"Sex" is objective and fixed.'
+  - id: hb1125
+    url: https://billstatus.ls.state.ms.us/documents/2023/pdf/HB/1100-1199/HB1125SG.pdf
+    title: HB 1125 (2023), Regulate Experimental Adolescent Procedures (REAP) Act
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person shall not knowingly provide gender transition procedures to any person under eighteen (18) years of age.
+  - id: map-ms
+    url: https://www.mapresearch.org/equality-maps/profile_state/MS
+    title: Mississippi's equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ms-id
+    url: https://www.aclu-ms.org/identity-document-resources/
+    title: Identity Document Resources
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ms-guide
+    url: https://www.aclu-ms.org/app/uploads/2025/11/231006_Mississippi-Name-Change-Guidelines_October-2023.pdf
+    title: Mississippi Name Change Guidelines (October 2023)
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Questions? Contact us! LGBTQ Justice Project, ACLU of Mississippi, Phone: (601) 354-3408 Ext. 114"
+  - id: mslegalservices
+    url: https://www.mslegalservices.org/
+    title: Mississippi Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tits
+    url: https://southernequality.org/trans-in-the-south-access-project/
+    title: Trans in the South Access Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Families of trans youth can receive travel grants of $500 to help pay for travel expenses.
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

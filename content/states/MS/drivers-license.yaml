@@ -1,0 +1,176 @@
+guide_type: drivers_license
+jurisdiction: MS
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    SB 2322 (2026) read as sent to the Governor; bill history shows "Approved by Governor" 04/08/2026, effective July 1,
+    2026. It amends § 63-1-35 (driver's licenses, temporary permits, CDLs). NOT CONFIRMED: (1) whether DPS applies the
+    same rule to state ID cards, which are issued under a different chapter (§ 45-35-3); (2) whether DPS is actively
+    reverting previously changed markers at renewal or duplicate (the statute allows "correction" of a license that was
+    "voluntarily altered"); (3) whether DPS has adopted implementing rules. DPS Driver Service Bureau pages publish no
+    gender-marker information. A4TE's page (Dec. 2025) predates SB 2322 and still says a change "may be possible";
+    MAP classifies Mississippi as banning DL marker changes. Fees ($11 duplicate license or ID) read on DPS's fee page.
+    No litigation against SB 2322 was found (web search was unavailable, so this is not exhaustive).
+status: prohibited
+requirement_type: prohibited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Since July 1, 2026, Mississippi law requires every new, renewed, or duplicate driver's license to show the sex
+    recorded at birth, and it cannot be changed to match your gender identity. You can still update your name with a
+    certified court order ($11 duplicate).
+  es: >-
+    Desde el 1 de julio de 2026, la ley de Misisipi exige que toda licencia de conducir nueva, renovada o duplicada
+    muestre el sexo registrado al nacer, y no se puede cambiar para que coincida con tu identidad de género. Todavía
+    puedes actualizar tu nombre con una orden judicial certificada ($11 por duplicado).
+summary:
+  en: |
+    **SB 2322 (2026)** amended Miss. Code § 63-1-35. Any new, renewal, or duplicate driver's license, temporary permit, or commercial driver's license must "bear a designation of the sex of the individual which shall be consistent with the sex of the individual determined at birth." Changes are allowed only to fix a clerical error, a documented difference of sex development, or to **reverse** a license that was earlier "voluntarily altered" to a different sex.
+
+    This means that if your license was updated before July 2026, the Department of Public Safety (DPS) can change it back when you renew or replace it. Before 2026, DPS had no written policy; some people updated their marker with an amended birth certificate and court order.
+
+    Only M and F are printed. Name changes still work normally.
+  es: |
+    **SB 2322 (2026)** modificó el § 63-1-35 del Código de Misisipi. Toda licencia de conducir nueva, renovada o duplicada, permiso temporal o licencia comercial debe mostrar el sexo "determinado al nacer". Solo se permiten cambios para corregir un error administrativo, una diferencia del desarrollo sexual documentada, o para **revertir** una licencia que antes fue "alterada voluntariamente" a otro sexo.
+
+    Esto significa que si tu licencia se actualizó antes de julio de 2026, el Departamento de Seguridad Pública (DPS) puede cambiarla de nuevo al renovarla o reemplazarla. Antes de 2026, DPS no tenía una política escrita.
+
+    Solo se imprimen M y F. Los cambios de nombre siguen funcionando normalmente.
+eligibility:
+  other:
+    en: Applies to driver's licenses, learner and temporary permits, and CDLs issued by Mississippi DPS. Whether it also applies to state ID cards is not confirmed.
+    es: Se aplica a licencias de conducir, permisos y licencias comerciales emitidas por DPS de Misisipi. No está confirmado si también se aplica a las tarjetas de identificación estatales.
+  sources: [sb2322, sb2322-history, sb2753]
+steps:
+  - id: name-court-order
+    title:
+      en: Get your certified name change order
+      es: Obtén tu orden certificada de cambio de nombre
+    body:
+      en: DPS accepts only a marriage license, divorce decree, adoption order, or court order to change the name on a license or ID. See the name change guide.
+      es: DPS solo acepta una licencia de matrimonio, sentencia de divorcio, orden de adopción u orden judicial para cambiar el nombre en una licencia o identificación.
+    applies_to: [name_change]
+    sources: [dps-docs]
+  - id: ssa-first
+    title:
+      en: Update Social Security first
+      es: Actualiza primero el Seguro Social
+    body:
+      en: DPS checks your name against Social Security records, so update SSA first and wait a day or two.
+      es: DPS verifica tu nombre con los registros del Seguro Social, así que actualiza primero SSA y espera uno o dos días.
+    applies_to: [name_change]
+    sources: [aclu-ms-guide]
+  - id: visit-station
+    title:
+      en: Visit a Driver Service Bureau station
+      es: Visita una estación del Driver Service Bureau
+    body:
+      en: Bring the certified court order, your current license, your birth certificate, proof of your Social Security number, and two proofs of Mississippi address. You will take a new photo. DPS recommends making an appointment. The duplicate fee is $11.
+      es: Lleva la orden judicial certificada, tu licencia actual, tu acta de nacimiento, prueba de tu número de Seguro Social y dos comprobantes de domicilio en Misisipi. Te tomarán una foto nueva. DPS recomienda hacer cita. El duplicado cuesta $11.
+    fees: [duplicate-license, duplicate-id]
+    applies_to: [name_change, in_person]
+    sources: [dps-docs, dps-duplicate, dps-fees]
+fees:
+  - id: duplicate-license
+    label:
+      en: Duplicate driver's license
+      es: Licencia de conducir duplicada
+    amount: 11
+    sources: [dps-fees]
+  - id: duplicate-id
+    label:
+      en: Duplicate identification card
+      es: Tarjeta de identificación duplicada
+    amount: 11
+    sources: [dps-fees]
+  - id: renewal-4yr
+    label:
+      en: 4-year Class R license (original or renewal)
+      es: Licencia Clase R de 4 años (original o renovación)
+    amount: 24
+    note:
+      en: 8-year Class R is $47; 4-year ID card $17; 8-year ID card $33.
+      es: Clase R de 8 años $47; identificación de 4 años $17; de 8 años $33.
+    sources: [dps-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require an in-person visit because a new photo is taken. Online duplicates are only for replacing a card with no changes.
+    es: Los cambios de nombre requieren una visita en persona porque se toma una foto nueva.
+  sources: [dps-duplicate]
+after:
+  en: |
+    If your license cannot match your gender, a **U.S. passport** or passport card is the main alternative ID, but federal policy on passport sex markers has also changed; check the current rules before applying. Keep a copy of your court order with you when your ID and presentation differ.
+  es: |
+    Si tu licencia no puede coincidir con tu género, el **pasaporte estadounidense** o la tarjeta de pasaporte es la principal alternativa, pero la política federal sobre marcadores de sexo en pasaportes también cambió; revisa las reglas actuales antes de solicitar. Lleva una copia de tu orden judicial cuando tu identificación y tu apariencia no coincidan.
+tips:
+  - en: If your license already shows your correct gender, renewing or replacing it may trigger a change back to your sex at birth under SB 2322. Talk to the ACLU of Mississippi before renewing if this worries you.
+    es: Si tu licencia ya muestra tu género correcto, renovarla o reemplazarla puede provocar que vuelva al sexo al nacer según SB 2322. Habla con la ACLU de Misisipi antes de renovar si esto te preocupa.
+statutes:
+  - cite: Miss. Code Ann. § 63-1-35(7) (SB 2322, 2026)
+    title:
+      en: Driver's license sex designation must match sex determined at birth; effective July 1, 2026
+      es: El sexo en la licencia debe coincidir con el sexo determinado al nacer; vigente desde el 1 de julio de 2026
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2300-2399/SB2322SG.pdf
+  - cite: Miss. Code Ann. § 1-3-83 (SB 2753, 2024)
+    title:
+      en: Statutory definitions of female, male, and sex
+    url: https://billstatus.ls.state.ms.us/documents/2024/pdf/SB/2700-2799/SB2753SG.pdf
+related_links:
+  - title: ACLU of Mississippi, Identity Document Resources
+    url: https://www.aclu-ms.org/identity-document-resources/
+sources:
+  - id: sb2322
+    url: https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2300-2399/SB2322SG.pdf
+    title: SB 2322 (2026), amending Miss. Code § 63-1-35, as sent to Governor
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No change may be made to this designation, except for a correction of a scrivener's error, ... or a correction of a license that has previously been voluntarily altered to record a sex other than the sex of the person as previously recorded at birth.
+  - id: sb2322-history
+    url: https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB2322.xml
+    title: SB 2322 (2026) bill history
+    publisher: Mississippi Legislature
+    kind: official
+    accessed: "2026-09-24"
+    quote: 04/08 Approved by Governor
+  - id: sb2753
+    url: https://billstatus.ls.state.ms.us/documents/2024/pdf/SB/2700-2799/SB2753SG.pdf
+    title: SB 2753 (2024), SAFER Act
+    publisher: Mississippi Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dps-fees
+    url: https://www.driverservicebureau.dps.ms.gov/Drivers/Driver_Service_Fees
+    title: Driver Service Fees
+    publisher: Mississippi Department of Public Safety, Driver Service Bureau
+    kind: official
+    accessed: "2026-09-24"
+    quote: Duplicate Driver License $11.00; Duplicate Identification Card $11.00
+  - id: dps-duplicate
+    url: https://www.driverservicebureau.dps.ms.gov/Drivers/Duplicate_License
+    title: Duplicate License
+    publisher: Mississippi Department of Public Safety, Driver Service Bureau
+    kind: official
+    accessed: "2026-09-24"
+    quote: are required to take a new photograph and complete the duplicate application
+  - id: dps-docs
+    url: https://www.driverservicebureau.dps.ms.gov/node/303
+    title: Required Documents
+    publisher: Mississippi Department of Public Safety, Driver Service Bureau
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Driver Service Bureau will only accept the below listed legal documents in order to change an applicant's name: Marriage License, Divorce Decree, Adoption Order, Court Order"
+  - id: aclu-ms-guide
+    url: https://www.aclu-ms.org/app/uploads/2025/11/231006_Mississippi-Name-Change-Guidelines_October-2023.pdf
+    title: Mississippi Name Change Guidelines (October 2023)
+    publisher: ACLU of Mississippi
+    kind: org
+    accessed: "2026-09-24"
