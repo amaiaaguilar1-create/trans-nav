@@ -1,0 +1,560 @@
+guide_type: name_change
+jurisdiction: WV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from W. Va. Code 48-25-101 to 48-25-107, 59-1-11 and 59-3-2 (read on code.wvlegislature.gov),
+    the Supreme Court of Appeals forms page (SCA-C-100 and SCA-C&M201 PDFs resolve), Legal Aid of WV's name change
+    pages and fill-in petition, and the Fairness WV / Legal Aid Name & Gender Change Guide (PDF dated November 2, 2023).
+    Open items: (1) the $200 filing fee is the statutory circuit clerk fee in 59-1-11(a)(1); some counties add small
+    charges (the 2023 guide lists Cabell at $200.50 and Brooke at $300); confirm current county add-ons. (2) Publication
+    cost range ($30 to $100) comes only from the 2023 Fairness WV guide; the 2023 guide also reports most counties
+    publish for 2 weeks, while 59-3-2 says a Class I legal ad runs once; clerks may ask for more. (3) The recording fee
+    at the county clerk is "the same fee as for a deed" (48-25-104); amount not confirmed. (4) The petition must affirm
+    the petitioner "is not a convicted felon in any jurisdiction" (48-25-101(a)(8)), which reads broader than the
+    incarceration-only bar in 48-25-103(b); how judges treat people with past felonies is not confirmed. (5) There is
+    no statewide court form; the Legal Aid of WV petition is the de facto standard. (6) courtswv.gov no longer has a
+    fee-waiver landing page (old URL 404s); we link the SCA-C&M201 PDF directly. Status set to restricted because
+    newspaper publication is mandatory with no waiver (only the new name can be withheld for safety); MAP scores WV's
+    publication requirement as a negative law. A4TE's WV page (undated) agrees on publication and the criminal bars.
+status: restricted
+status_summary:
+  en: >-
+    You can change your name in West Virginia by petitioning the circuit or family court in the county where you have
+    lived for at least a year. The law requires a newspaper notice and a hearing, and there is no way to skip
+    publication, but you can ask the court to keep your new name out of the notice and close the hearing for safety.
+  es: >-
+    Puedes cambiar tu nombre en Virginia Occidental presentando una petición ante el tribunal de circuito o de familia
+    del condado donde has vivido al menos un año. La ley exige un aviso en el periódico y una audiencia, y no se
+    puede evitar la publicación, pero puedes pedir que tu nuevo nombre no aparezca en el aviso y que la audiencia sea
+    cerrada por seguridad.
+summary:
+  en: |
+    West Virginia has no special process for trans people: you use the same name change petition as anyone else. You file a sworn (notarized) petition with the **circuit clerk** in your county, pay a **$200** filing fee (or ask for a fee waiver), publish a short notice in a local newspaper at least 10 days before your hearing, and go to a short hearing where the judge signs an order.
+
+    The petition must state your reason for the change. "To match my gender identity" or "I am transgender and have lived under this name" is a lawful reason. You do not need a doctor's letter.
+
+    If you are worried about your safety, check the box on the petition asking the court to protect your identity. The law then lets your newspaper notice leave out your new name, and the judge may close the hearing to the public. Publication itself is still required.
+
+    After the judge signs the order, you must file a certified copy with the **county clerk** (a different office from the circuit clerk) so it is recorded. Your new name is legally in effect once that is done.
+  es: |
+    Virginia Occidental no tiene un proceso especial para personas trans: usas la misma petición de cambio de nombre que cualquier persona. Presentas una petición jurada (notariada) ante el **secretario del tribunal de circuito** de tu condado, pagas una tarifa de **$200** (o pides una exención), publicas un aviso breve en un periódico local al menos 10 días antes de tu audiencia y asistes a una audiencia corta donde el juez firma una orden.
+
+    La petición debe indicar el motivo. "Para que coincida con mi identidad de género" es un motivo legal. No necesitas carta médica.
+
+    Si te preocupa tu seguridad, marca la casilla de la petición que pide proteger tu identidad. La ley permite que el aviso no incluya tu nuevo nombre y el juez puede cerrar la audiencia al público. La publicación sigue siendo obligatoria.
+
+    Después de que el juez firme la orden, debes registrar una copia certificada con el **secretario del condado** (una oficina distinta). Tu nuevo nombre entra en vigor cuando se registra.
+eligibility:
+  residency:
+    en: >-
+      You must have lived in the county for at least one year before filing. If you do not live there now, you can
+      file only if you were born in that county, married in that county, and lived there for at least 15 years.
+    es: >-
+      Debes haber vivido en el condado al menos un año antes de presentar la petición. Si no vives allí ahora, solo
+      puedes presentarla si naciste en ese condado, te casaste allí y viviste allí al menos 15 años.
+  age:
+    en: 18 or older to file for yourself. A parent or guardian files for a minor; see Minors.
+    es: 18 años o más para presentarla por ti. Un padre, madre o tutor la presenta para un menor; ver Menores.
+  criminal_history:
+    en: >-
+      The court cannot grant a name change while you are incarcerated for a felony, while you must register with the
+      State Police as a sex offender, or for 10 years after release for first-degree murder or certain kidnapping
+      convictions. The petition also asks you to swear you are not a convicted felon in any jurisdiction. If you have
+      a felony record, talk to Legal Aid of West Virginia before filing.
+    es: >-
+      El tribunal no puede conceder el cambio mientras estés encarcelado por un delito grave, mientras debas
+      registrarte como agresor sexual, o durante 10 años tras la liberación por asesinato en primer grado o ciertos
+      secuestros. La petición también te pide jurar que no tienes condenas por delitos graves. Si tienes antecedentes,
+      consulta a Legal Aid of West Virginia antes de presentarla.
+  sources: [wvc-48-25-101, wvc-48-25-103, lawv-name-change]
+forms:
+  - id: LAWV-NC-PETITION
+    name:
+      en: Petition for Name Change (Legal Aid of West Virginia fill-in form)
+      es: Petición de cambio de nombre (formulario de Legal Aid of West Virginia)
+    url: https://legalaidwv.org/wp-content/uploads/2023/11/Name-Change-Petition.pdf
+    required: always
+    condition:
+      en: >-
+        West Virginia has no official statewide petition form. Some circuit clerks hand out their own packet; courts
+        should accept this Legal Aid form or any petition with the information the statute requires.
+    how_to_fill:
+      en: |
+        - **Residency**: check the box for one year in the county (or the born-in / married-in / 15-year option).
+        - **Reason**: a plain sentence is enough, such as "I am transgender and this name matches my gender identity and the name I use every day."
+        - **Safety box**: if you fear harassment or violence, check "does desire to protect their identity for personal safety reasons" and list your reasons. Then check prayer **C**, which asks that your new name be left out of the newspaper notice and the hearing be closed.
+        - **Do not sign the verification page** until you are in front of a notary. Staff at the circuit clerk's office can usually notarize it when you file.
+    sources: [lawv-petition, wvc-48-25-101]
+  - id: SCA-C-100
+    name:
+      en: Civil Case Information Statement (Civil Cases Other than Domestic Relations)
+      es: Declaración de información de caso civil
+    url: https://www.courtswv.gov/sites/default/pubfilesmnt/2026-04/SCA-C-100.pdf
+    required: always
+    condition:
+      en: File with the petition in circuit court. You can leave the defendant name blank. If you file in family court, the clerk may ask for SCA-FC-103 instead.
+    sources: [courtswv-forms, lawv-name-change]
+  - id: SCA-C&M201
+    name:
+      en: "Financial Affidavit and Application: Eligibility for Waiver of Fees, Costs, or Security in a Civil or Domestic Case"
+      es: Declaración financiera y solicitud de exención de tarifas y costos
+    url: https://www.courtswv.gov/sites/default/pubfilesmnt/2026-09/SCA-CM201.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. Attach a recent pay stub, W-2, or benefits letter with Social Security numbers blacked out.
+    sources: [courtswv-forms, cm201-pdf]
+  - id: LAWV-PUB-COSTS
+    name:
+      en: Motion and Order for Payment of Publication Costs (Legal Aid of West Virginia)
+      es: Moción y orden para el pago de costos de publicación
+    url: https://legalaidwv.org/wp-content/uploads/2021/05/Name-Change-Motion-for-Payment-of-Publication-Costs-Form-Order.pdf
+    required: optional
+    condition:
+      en: Ask the court to cover the newspaper cost if your fee waiver is approved.
+    sources: [lawv-name-change]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee
+      es: Tarifa de presentación en el tribunal de circuito
+    amount: 200
+    waivable: true
+    note:
+      en: Set by W. Va. Code 59-1-11. A few counties add small clerk charges; ask your circuit clerk.
+      es: Fijada por el Código de Virginia Occidental 59-1-11. Algunos condados cobran pequeños cargos adicionales.
+    sources: [wvc-59-1-11, fwv-guide]
+  - id: publication
+    label:
+      en: Newspaper publication
+      es: Publicación en el periódico
+    min: 30
+    max: 100
+    varies_by: county
+    waivable: true
+    note:
+      en: Estimate from the 2023 Fairness WV guide; cost depends on the newspaper and length of the notice.
+      es: Estimación de la guía de Fairness WV de 2023; depende del periódico y la extensión del aviso.
+    sources: [fwv-guide]
+  - id: recording
+    label:
+      en: Recording the order with the county clerk
+      es: Registro de la orden con el secretario del condado
+    varies_by: county
+    note:
+      en: The statute says the county clerk charges the same fee as for recording a deed. Ask the county clerk for the current amount.
+      es: La ley dice que el secretario del condado cobra lo mismo que por registrar una escritura.
+    sources: [wvc-48-25-104]
+  - id: certified-copies
+    label:
+      en: Certified copies of the order
+      es: Copias certificadas de la orden
+    varies_by: county
+    note:
+      en: Get at least three. Price varies by county.
+      es: Obtén al menos tres. El precio varía por condado.
+    sources: [fwv-guide]
+fee_waiver:
+  available: true
+  forms: [SCA-C&M201, LAWV-PUB-COSTS]
+  eligibility:
+    en: >-
+      The court waives fees if your income is within the official financial guidelines. Proof of income (pay stub,
+      W-2, SNAP or other benefits letter) must be attached or the application is not considered.
+    es: >-
+      El tribunal exime las tarifas si tus ingresos están dentro de las pautas financieras oficiales. Debes adjuntar
+      prueba de ingresos.
+  how:
+    en: >-
+      Fill out SCA-C&M201 but sign it only in front of a notary or clerk. File it with your petition. If approved, file
+      Legal Aid's motion asking the court to also cover publication costs. A denial can be reviewed with form SCA-C&M202.
+    es: >-
+      Llena el SCA-C&M201 pero fírmalo solo frente a un notario o el secretario. Preséntalo con tu petición. Si se
+      aprueba, presenta la moción de Legal Aid para cubrir también la publicación.
+  sources: [cm201-pdf, lawv-name-change, courtswv-forms]
+publication:
+  required: "yes"
+  detail:
+    en: >-
+      After filing and at least 10 days before the hearing, you must publish a notice of the hearing time and place as
+      a Class I legal advertisement (one run) in a newspaper in your county. The notice must say the hearing may be
+      rescheduled without further notice. Many clerks give you a notice form and tell you which paper to use; in some
+      counties the court arranges publication. Afterward, file the newspaper's proof of publication with the court.
+    es: >-
+      Después de presentar la petición y al menos 10 días antes de la audiencia, debes publicar un aviso con la fecha y
+      lugar de la audiencia como anuncio legal Clase I (una sola vez) en un periódico del condado. Luego presenta la
+      prueba de publicación al tribunal.
+  waiver_available: false
+  waiver_how:
+    en: >-
+      Publication cannot be skipped. If you state in the petition that you want to protect your identity for personal
+      safety reasons, the notice does not have to include your new name, and the court may hold a closed hearing for
+      good cause.
+    es: >-
+      La publicación no se puede omitir. Si indicas en la petición que quieres proteger tu identidad por seguridad, el
+      aviso no tiene que incluir tu nuevo nombre y el tribunal puede cerrar la audiencia.
+  sources: [wvc-48-25-101, wvc-59-3-2, lawv-name-change]
+hearing:
+  required: "yes"
+  detail:
+    en: >-
+      The judge reviews your petition, has you swear it is true, and usually asks you to confirm you are not changing
+      your name for a prohibited reason. Anyone who would be harmed by the change may appear and object. Hearings are
+      open unless the court closes them for good cause (such as safety).
+    es: >-
+      El juez revisa tu petición, te pide jurar que es verdadera y suele preguntar si no cambias el nombre por un motivo
+      prohibido. Cualquier persona perjudicada puede objetar. Las audiencias son públicas salvo que el tribunal las cierre.
+  sources: [wvc-48-25-102, wvc-48-25-103, lawv-name-change]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check are required by statute, but you swear to your criminal history in the petition.
+    es: La ley no exige huellas ni verificación de antecedentes, pero juras tu historial penal en la petición.
+  sources: [wvc-48-25-101]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      West Virginia has no statute for sealing name change records. The order is recorded and indexed under both names
+      at the county clerk. The only built-in protections are leaving your new name out of the newspaper notice and a
+      closed hearing when you show a safety reason.
+    es: >-
+      Virginia Occidental no tiene una ley para sellar expedientes de cambio de nombre. La orden se registra bajo ambos
+      nombres. Las únicas protecciones son omitir el nuevo nombre del aviso y una audiencia cerrada por seguridad.
+  sources: [wvc-48-25-101, wvc-48-25-104]
+minors:
+  summary:
+    en: >-
+      A parent or guardian files the petition for the child in the county where the child has lived for a year (or
+      was born). Legal Aid's child petition asks for both parents' names and addresses; some counties require the
+      other parent to be named and notified by mail, and that parent may object at the hearing. The same publication
+      rules apply.
+    es: >-
+      Un padre, madre o tutor presenta la petición por el menor en el condado donde el menor ha vivido un año (o
+      nació). La petición pide los nombres y direcciones de ambos padres; algunos condados exigen notificar al otro
+      padre, quien puede objetar.
+  sources: [lawv-child-name-change, fwv-guide, wvc-48-25-101]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Most counties require you to file in person at the circuit clerk's office, where you can also get the petition notarized.
+    es: La mayoría de los condados exigen presentar en persona en la oficina del secretario del tribunal de circuito.
+  sources: [fwv-guide, lawv-name-change]
+steps:
+  - id: prepare
+    title:
+      en: Fill out the petition and case information sheet
+      es: Llena la petición y la hoja de información del caso
+    body:
+      en: >-
+        Download Legal Aid of West Virginia's petition (or ask your circuit clerk for the county packet) and the Civil
+        Case Information Statement. If money is tight, also fill out the fee waiver affidavit. Do not sign anything
+        that needs a notary yet.
+      es: >-
+        Descarga la petición de Legal Aid of West Virginia (o pide el paquete del condado) y la declaración de
+        información del caso civil. Si no puedes pagar, llena también la solicitud de exención. No firmes lo que
+        requiera notario todavía.
+    forms: [LAWV-NC-PETITION, SCA-C-100, SCA-C&M201]
+    sources: [lawv-name-change, courtswv-forms]
+  - id: file
+    title:
+      en: File with the circuit clerk and get a hearing date
+      es: Presenta los documentos al secretario del tribunal y obtén una fecha de audiencia
+    body:
+      en: >-
+        Take your forms and a photo ID to the circuit clerk in your county. Sign the verification in front of the
+        notary there, pay the $200 fee or submit the waiver, and ask how to get a hearing date. You will get a civil
+        action number.
+      es: >-
+        Lleva tus formularios y una identificación con foto al secretario del tribunal de circuito. Firma frente al
+        notario, paga los $200 o presenta la exención, y pregunta cómo obtener la fecha de audiencia.
+    forms: [LAWV-NC-PETITION, SCA-C-100, SCA-C&M201]
+    fees: [filing]
+    applies_to: [in_person]
+    sources: [lawv-name-change, wvc-59-1-11]
+  - id: publish
+    title:
+      en: Publish the notice at least 10 days before the hearing
+      es: Publica el aviso al menos 10 días antes de la audiencia
+    body:
+      en: >-
+        Send the notice to the newspaper the clerk names, pay the newspaper (or file the publication-costs motion if
+        your fee waiver was approved), and file the proof of publication with the court. If the court granted your
+        safety request, leave your new name out of the notice.
+      es: >-
+        Envía el aviso al periódico indicado, paga la publicación (o presenta la moción si tienes exención) y presenta
+        la prueba de publicación. Si el tribunal aprobó tu solicitud de seguridad, no incluyas el nuevo nombre.
+    forms: [LAWV-PUB-COSTS]
+    fees: [publication]
+    sources: [wvc-48-25-101, lawv-name-change]
+  - id: hearing
+    title:
+      en: Go to the hearing
+      es: Asiste a la audiencia
+    body:
+      en: >-
+        Bring your ID and proof of publication. The judge will ask you to confirm the petition under oath. If granted,
+        the judge signs the order. Ask for at least three certified copies.
+      es: >-
+        Lleva tu identificación y la prueba de publicación. El juez te pedirá confirmar la petición bajo juramento. Si
+        la aprueba, firma la orden. Pide al menos tres copias certificadas.
+    fees: [certified-copies]
+    applies_to: [in_person]
+    sources: [lawv-name-change, wvc-48-25-103]
+  - id: record
+    title:
+      en: Record the order with the county clerk
+      es: Registra la orden con el secretario del condado
+    body:
+      en: >-
+        Take a certified copy to the **county clerk** (county commission) office, which records it under both names.
+        The law says you use your new name once the order is recorded.
+      es: >-
+        Lleva una copia certificada a la oficina del **secretario del condado**, que la registra bajo ambos nombres.
+        Usas tu nuevo nombre una vez registrada la orden.
+    fees: [recording]
+    sources: [wvc-48-25-104, wvc-48-25-105]
+timeline:
+  en: >-
+    Usually one to three months from filing to signed order, depending on how quickly your county schedules hearings.
+    This is an estimate; ask your circuit clerk.
+  es: >-
+    Por lo general, de uno a tres meses desde la presentación hasta la orden firmada, según el condado. Es una estimación.
+after:
+  en: |
+    Update your documents in this order:
+    1. **Social Security** first. The WV DMV checks your name against Social Security, so wait for the new card (about 1 to 2 weeks).
+    2. **WV DMV** driver's license or ID (see the driver's license guide; you can change the sex marker at the same visit).
+    3. **Passport** (see the passport guide).
+    4. **Birth certificate** if you were born in West Virginia (see the birth certificate guide).
+    5. Banks, employer, school, insurance, voter registration, and professional licenses.
+  es: |
+    Actualiza tus documentos en este orden:
+    1. **Seguro Social** primero. El DMV compara tu nombre con el Seguro Social; espera la tarjeta nueva (1 a 2 semanas).
+    2. **DMV de Virginia Occidental** (licencia o identificación; puedes cambiar el marcador de sexo en la misma visita).
+    3. **Pasaporte**.
+    4. **Acta de nacimiento** si naciste en Virginia Occidental.
+    5. Bancos, empleador, escuela, seguros, registro de votante y licencias profesionales.
+tips:
+  - en: Buy extra certified copies at the hearing; every agency wants its own, and going back costs time.
+    es: Compra copias certificadas extra en la audiencia; cada agencia quiere la suya.
+  - en: If you were born in West Virginia, you do not need a court order to change the sex on your birth certificate; the state uses a physician form instead.
+    es: Si naciste en Virginia Occidental, no necesitas orden judicial para cambiar el sexo en tu acta de nacimiento; se usa un formulario médico.
+  - en: Legal Aid of West Virginia's online Name Change Petition tool can fill out the petition for you.
+    es: La herramienta en línea de Legal Aid of West Virginia puede llenar la petición por ti.
+local_help:
+  - id: legal-aid-wv
+    name: Legal Aid of West Virginia
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for low-income West Virginians statewide, including name change petitions. Helpline 866-255-4370 or apply online.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en todo el estado, incluidas peticiones de cambio de nombre.
+    url: https://legalaidwv.org/get-help/apply-for-help/
+    phone: "866-255-4370"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [lawv-name-change, fwv-resources]
+  - id: fairness-wv
+    name: Fairness West Virginia
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ+ advocacy group in Charleston; publishes the West Virginia Name & Gender Change Guide (English and Spanish) with Legal Aid of WV.
+      es: Organización LGBTQ+ estatal en Charleston; publica la guía de cambio de nombre y sexo (inglés y español) con Legal Aid of WV.
+    url: https://www.fairnesswv.org/name-gender-change-guide
+    phone: "681-265-9062"
+    address: 405 Capitol Street, Charleston, WV 25301
+    cost: free
+    verification: org_website
+    sources: [fwv-guide-page]
+  - id: aclu-wv
+    name: ACLU of West Virginia
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil rights organization; takes impact cases (it won the 2022 settlement that ended the court-order rule for WV birth certificates). Online intake form; does not give advice by phone.
+      es: Organización de derechos civiles; toma casos de impacto. Formulario de solicitud en línea.
+    url: https://www.acluwv.org/
+    phone: "304-345-9246"
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+  - id: wv-bar-lgbtq
+    name: West Virginia State Bar LGBTQ+ Committee
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Can refer you to attorneys in your area who handle name changes.
+      es: Puede referirte a abogados de tu zona que tramitan cambios de nombre.
+    url: https://wvbar.org/
+    cost: varies
+    verification: unverified
+    sources: [fwv-guide]
+  - id: lambda-helpdesk
+    name: Lambda Legal Help Desk
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free national legal information and referrals for LGBTQ+ people, including ID documents.
+      es: Información legal y referencias nacionales gratuitas para personas LGBTQ+.
+    url: https://lambdalegal.org/helpdesk/
+    cost: free
+    verification: community_reported
+    sources: [fwv-resources]
+  - id: genderbands-wv
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small national grants that can cover name change fees for people 18 and older.
+      es: Pequeñas becas nacionales que pueden cubrir tarifas de cambio de nombre para mayores de 18.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: W. Va. Code 48-25-101
+    title:
+      en: Petition for change of name; notice of application
+    url: https://code.wvlegislature.gov/48-25-101/
+  - cite: W. Va. Code 48-25-103
+    title:
+      en: When court may or may not order change of name
+    url: https://code.wvlegislature.gov/48-25-103/
+  - cite: W. Va. Code 48-25-104
+    title:
+      en: Recordation of order changing name
+    url: https://code.wvlegislature.gov/48-25-104/
+  - cite: W. Va. Code 59-1-11
+    title:
+      en: Fees charged by circuit clerks
+    url: https://code.wvlegislature.gov/59-1-11/
+related_links:
+  - title: Fairness West Virginia, Name & Gender Change Guide
+    url: https://www.fairnesswv.org/name-gender-change-guide
+    note:
+      en: Detailed guide with county contacts; the PDF is dated November 2, 2023, so check fees with your clerk.
+      es: Guía detallada con contactos por condado; el PDF es de noviembre de 2023.
+  - title: A4TE, West Virginia Identity Documents
+    url: https://transequality.org/documents/west-virginia-identity-documents
+    note:
+      en: Undated summary; its birth certificate section still describes the old court-order rule.
+      es: Resumen sin fecha; su sección sobre actas de nacimiento describe la regla antigua.
+  - title: Legal Aid of West Virginia, Changing Your Name
+    url: https://legalaidwv.org/legal-information/changing-your-name/
+sources:
+  - id: wvc-48-25-101
+    url: https://code.wvlegislature.gov/48-25-101/
+    title: W. Va. Code 48-25-101, Petition for change of name
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "at least ten days before the hearing ... published as a Class I legal advertisement ... unless ... the petitioner desires to protect his or her identity for personal safety reasons: Provided, That upon good cause shown, there may be a closed hearing."
+  - id: wvc-48-25-102
+    url: https://code.wvlegislature.gov/48-25-102/
+    title: W. Va. Code 48-25-102, Objections to change of name
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: wvc-48-25-103
+    url: https://code.wvlegislature.gov/48-25-103/
+    title: W. Va. Code 48-25-103, When court may or may not order change of name
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "The court may not grant any change of name for any person convicted of any felony during the time that the person is incarcerated."
+  - id: wvc-48-25-104
+    url: https://code.wvlegislature.gov/48-25-104/
+    title: W. Va. Code 48-25-104, Recordation of order changing name
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "index the same under both the old and the new names. For such recording and indexing the clerk shall be allowed the same fee as for a deed."
+  - id: wvc-48-25-105
+    url: https://code.wvlegislature.gov/48-25-105/
+    title: W. Va. Code 48-25-105, When new name to be used
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: wvc-59-1-11
+    url: https://code.wvlegislature.gov/59-1-11/
+    title: W. Va. Code 59-1-11, Fees to be charged by clerk of circuit court
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "for instituting any civil action ... or any other action, cause, suit or proceeding, $200"
+  - id: wvc-59-3-2
+    url: https://code.wvlegislature.gov/59-3-2/
+    title: W. Va. Code 59-3-2, Classification of legal advertisements
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A Class I legal advertisement shall be published one time"
+  - id: courtswv-forms
+    url: https://www.courtswv.gov/public-resources/court-forms
+    title: Court Forms
+    publisher: Supreme Court of Appeals of West Virginia
+    kind: court
+    accessed: "2026-09-24"
+  - id: cm201-pdf
+    url: https://www.courtswv.gov/sites/default/pubfilesmnt/2026-09/SCA-CM201.pdf
+    title: "SCA-C&M201, Financial Affidavit and Application: Eligibility for Waiver of Fees, Costs, or Security"
+    publisher: Supreme Court of Appeals of West Virginia
+    kind: form
+    accessed: "2026-09-24"
+    quote: "You will be allowed to file and carry on your civil proceeding without giving security or paying fees or costs ... if the court finds that you meet the official financial guidelines."
+  - id: lawv-name-change
+    url: https://legalaidwv.org/legal-information/changing-your-name/
+    title: Changing Your Name
+    publisher: Legal Aid of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+    quote: "If you asked that your identity be protected for personal safety reasons and your request is granted, the court will not require you to put your new name in the notice and the court may order that your hearing be closed to the public."
+  - id: lawv-child-name-change
+    url: https://legalaidwv.org/legal-information/changing-your-childs-name/
+    title: Changing Your Child's Name
+    publisher: Legal Aid of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: lawv-petition
+    url: https://legalaidwv.org/wp-content/uploads/2023/11/Name-Change-Petition.pdf
+    title: Petition for Name Change (fill-in form)
+    publisher: Legal Aid of West Virginia
+    kind: form
+    accessed: "2026-09-24"
+  - id: fwv-guide
+    url: https://www.fairnesswv.org/name-gender-change-guide
+    title: Name & Gender Change Guide for West Virginia Residents (PDF updated November 2, 2023)
+    publisher: Fairness West Virginia and Legal Aid of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+    quote: "you should generally expect to pay anywhere between $30 to $100"
+  - id: fwv-guide-page
+    url: https://www.fairnesswv.org/name-gender-change-guide
+    title: Name & Gender Change Guide (web page)
+    publisher: Fairness West Virginia
+    kind: org
+    accessed: "2026-09-24"
+    watch: false
+  - id: fwv-resources
+    url: https://www.fairnesswv.org/resources
+    title: Resources
+    publisher: Fairness West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

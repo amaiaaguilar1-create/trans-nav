@@ -1,0 +1,199 @@
+jurisdiction: WV
+slug: charleston-wv
+name: Charleston
+area:
+  en: Kanawha County and the Charleston metro area
+  es: Condado de Kanawha y el área metropolitana de Charleston
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Charleston chosen over Morgantown and Huntington: it has the only confirmed informed-consent hormone clinic (Women's
+    Health Center of WV), plus Fairness WV, Legal Aid of WV's main office, and ACLU-WV. WVU Medicine (Morgantown)
+    returned 403 and Marshall Health (Huntington) had no findable trans-care page, so their services are unverified.
+    Kanawha Circuit Clerk address and phone read on kanawha.us; filing fee is the statutory $200 (59-1-11). The Kanawha
+    newspaper named in the 2023 Fairness WV guide is the Gazette-Mail. The CAMC Ryan White program is mentioned by WHC
+    WV but not verified on CAMC's site. Covenant House services beyond its address not confirmed. The kchd.org domain
+    now redirects to an unrelated hospital; Kanawha-Charleston Health Department omitted.
+intro:
+  en: >-
+    Charleston is West Virginia's capital and the hub for statewide LGBTQ+ advocacy and legal aid. Name change
+    petitions are filed with the Kanawha County Circuit Clerk. The Women's Health Center of West Virginia offers
+    informed-consent hormone therapy for adults, and free clinics offer PrEP and STI testing.
+  es: >-
+    Charleston es la capital de Virginia Occidental y el centro de la defensa LGBTQ+ y la ayuda legal estatal. Las
+    peticiones de cambio de nombre se presentan ante el Secretario del Tribunal de Circuito del Condado de Kanawha. El
+    Women's Health Center of West Virginia ofrece terapia hormonal por consentimiento informado para adultos.
+court:
+  name: Kanawha County Circuit Clerk (Circuit Court of Kanawha County)
+  url: https://kanawha.us/circuit-clerk/
+  filing_fee: 200
+  notes:
+    en: >-
+      111 Court Street, Charleston, WV 25301; (304) 357-0440; Monday to Friday 8 am to 5 pm. The clerk offers
+      procedural help to people filing without a lawyer. After the hearing, record your order with the Kanawha County
+      Clerk (a separate office).
+    es: >-
+      111 Court Street, Charleston, WV 25301; (304) 357-0440; lunes a viernes de 8 a 5. Después de la audiencia,
+      registra la orden con el Secretario del Condado de Kanawha.
+  sources: [kanawha-circuit, wvc-59-1-11]
+resources:
+  - id: whc-wv
+    name: Women's Health Center of West Virginia
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, name_change, gender_marker]
+    description:
+      en: Informed-consent hormone therapy for adults (no therapist letter), PrEP, HIV and STI testing, insurance prior-authorization help, and name and gender marker change support.
+      es: Terapia hormonal por consentimiento informado para adultos, PrEP, pruebas de VIH e ITS, ayuda con seguros y con cambios de nombre.
+    url: https://www.womenshealthwv.org/lgbtqia-health-1
+    phone: "304-344-9834"
+    address: 510 W. Washington St., Charleston, WV 25302
+    cost: varies
+    verification: org_website
+    sources: [whc-lgbtqia, whc-gaht]
+  - id: legal-aid-wv
+    name: Legal Aid of West Virginia
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free legal help for eligible low-income people, including name change petitions. Administrative office in Charleston; helpline 866-255-4370.
+      es: Ayuda legal gratuita para personas elegibles, incluidas peticiones de cambio de nombre. Línea 866-255-4370.
+    url: https://legalaidwv.org/get-help/apply-for-help/
+    phone: "866-255-4370"
+    address: 922 Quarrier Street, 4th Floor, Charleston, WV 25301
+    cost: free
+    verification: org_website
+    sources: [lawv-petition, lawv-apply]
+  - id: fairness-wv
+    name: Fairness West Virginia
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ+ advocacy organization; Name & Gender Change Guide and resource directory.
+      es: Organización estatal LGBTQ+; guía de cambio de nombre y sexo y directorio de recursos.
+    url: https://www.fairnesswv.org/
+    phone: "681-265-9062"
+    address: 405 Capitol Street, Charleston, WV 25301
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+  - id: aclu-wv
+    name: ACLU of West Virginia
+    type: legal_aid
+    pillars: [gender_marker, insurance]
+    description:
+      en: Civil rights organization that takes impact cases; submit an online legal assistance request.
+      es: Organización de derechos civiles; solicita ayuda en línea.
+    url: https://www.acluwv.org/
+    phone: "304-345-9246"
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+  - id: wv-health-right
+    name: West Virginia Health Right
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Free clinic for uninsured and underinsured people; PrEP, STI testing, free family planning, behavioral health, and pharmacy.
+      es: Clínica gratuita; PrEP, pruebas de ITS, planificación familiar, salud mental y farmacia.
+    url: https://wvhealthright.org/
+    phone: "304-414-5930"
+    address: 1520 Washington St E, Charleston, WV 25311
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [wvhr-prep, wvhr-fp]
+  - id: rainbow-pride-wv
+    name: Rainbow Pride of West Virginia
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Charleston-based Pride organization hosting community events and the annual Pride festival.
+      es: Organización del Orgullo en Charleston con eventos comunitarios y festival anual.
+    url: https://www.rainbowpridewv.org/
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+  - id: wv-trans-coalition
+    name: West Virginia Transgender Coalition
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Statewide grassroots trans group with monthly Zoom meetings and a Discord for peer support. Email wvtranscoalition@gmail.com.
+      es: Grupo trans estatal con reuniones mensuales por Zoom y un Discord de apoyo. Correo wvtranscoalition@gmail.com.
+    url: https://www.facebook.com/wvtranscoalition
+    cost: free
+    verification: community_reported
+    sources: [fwv-resources]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+sources:
+  - id: kanawha-circuit
+    url: https://kanawha.us/circuit-clerk/
+    title: Circuit Clerk
+    publisher: Kanawha County Commission
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Kanawha County Circuit Clerk's Office 111 Court Street Charleston, WV 25301"
+  - id: wvc-59-1-11
+    url: https://code.wvlegislature.gov/59-1-11/
+    title: W. Va. Code 59-1-11
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: whc-lgbtqia
+    url: https://www.womenshealthwv.org/lgbtqia-health-1
+    title: LGBTQIA+ Health
+    publisher: Women's Health Center of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: whc-gaht
+    url: https://www.womenshealthwv.org/gender-affirming-hormone-therapy
+    title: Gender Affirming Therapy
+    publisher: Women's Health Center of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: lawv-petition
+    url: https://legalaidwv.org/wp-content/uploads/2023/11/Name-Change-Petition.pdf
+    title: Petition for Name Change (lists LAWV administrative office)
+    publisher: Legal Aid of West Virginia
+    kind: form
+    accessed: "2026-09-24"
+  - id: lawv-apply
+    url: https://legalaidwv.org/get-help/apply-for-help/
+    title: Apply for Help
+    publisher: Legal Aid of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: fwv-resources
+    url: https://www.fairnesswv.org/resources
+    title: Resources
+    publisher: Fairness West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: wvhr-prep
+    url: https://wvhealthright.org/hiv-prevention/
+    title: HIV Prevention
+    publisher: West Virginia Health Right
+    kind: org
+    accessed: "2026-09-24"
+  - id: wvhr-fp
+    url: https://wvhealthright.org/family-planning/
+    title: Family Planning
+    publisher: West Virginia Health Right
+    kind: org
+    accessed: "2026-09-24"

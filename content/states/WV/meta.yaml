@@ -1,0 +1,124 @@
+code: WV
+name:
+  en: West Virginia
+  es: Virginia Occidental
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate: id_documents mixed (DL and birth certificate changes still available with a physician form, but name
+    changes need publication and SB 456 (2025) defines sex as sex at birth, creating risk); care restrictive (minor ban
+    with no exceptions since Aug. 2025; Medicaid surgery exclusion upheld March 2026). No shield law. Fairness WV
+    reports no anti-LGBTQ+ bill passed in the 2026 session.
+overview:
+  en: >-
+    West Virginia still lets you change the sex on your driver's license and birth certificate (M or F) with a form
+    signed by a physician, but a 2025 law (SB 456) defines sex as sex observed at birth, so confirm with each agency
+    before applying. Name changes require a court hearing and a newspaper notice. Adults can get hormone therapy,
+    while all transition-related medical care for minors is banned, and a 2026 federal ruling lets Medicaid refuse to
+    cover surgery. There is no shield law.
+  es: >-
+    Virginia Occidental aún permite cambiar el sexo en la licencia y el acta de nacimiento (M o F) con un formulario
+    firmado por un médico, pero una ley de 2025 (SB 456) define el sexo como el observado al nacer, así que confirma
+    con cada agencia antes de solicitar. Los cambios de nombre requieren audiencia y aviso en el periódico. Los
+    adultos pueden recibir terapia hormonal; toda la atención médica de transición para menores está prohibida, y un
+    fallo federal de 2026 permite a Medicaid no cubrir la cirugía. No hay ley escudo.
+climate:
+  id_documents: mixed
+  care: restrictive
+  shield_law: false
+  sources: [sb456, dmv-99-ro, hsc-amend, wvc-30-3-20, lambda-anderson, map-wv]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [charleston-wv]
+key_resources:
+  - id: fairness-wv
+    name: Fairness West Virginia
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ+ civil rights group in Charleston; publishes the Name & Gender Change Guide and a statewide resource directory.
+      es: Organización estatal de derechos LGBTQ+ en Charleston; publica la guía de cambio de nombre y sexo y un directorio de recursos.
+    url: https://www.fairnesswv.org/resources
+    phone: "681-265-9062"
+    address: 405 Capitol Street, Charleston, WV 25301
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+  - id: legal-aid-wv
+    name: Legal Aid of West Virginia
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal help statewide for eligible low-income people, including name change petitions. Helpline 866-255-4370.
+      es: Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos. Línea 866-255-4370.
+    url: https://legalaidwv.org/
+    phone: "866-255-4370"
+    cost: free
+    verification: org_website
+    sources: [lawv]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [fwv-resources]
+sources:
+  - id: sb456
+    url: https://code.wvlegislature.gov/5-32-3/
+    title: W. Va. Code 5-32-3 (SB 456, 2025), Definitions
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "\"Sex\" ... means the state of being either male or female as observed or clinically verified at birth."
+  - id: dmv-99-ro
+    url: https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Transportation/DMV/DMVFormSearch/DMV-99-RO-GenderDesignationForm.pdf
+    title: DMV-99-RO Gender Designation Form
+    publisher: West Virginia Division of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+  - id: hsc-amend
+    url: https://dhhr.wv.gov/HSC/VR/Pages/Correct-or-Amend-a-Certificate.aspx
+    title: Correct or Amend a Certificate
+    publisher: West Virginia Health Statistics Center
+    kind: official
+    accessed: "2026-09-24"
+  - id: wvc-30-3-20
+    url: https://code.wvlegislature.gov/30-3-20/
+    title: W. Va. Code 30-3-20, Prohibited practice
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: lambda-anderson
+    url: https://lambdalegal.org/case/fain-v-crouch/
+    title: Anderson v. Crouch
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-wv
+    url: https://mapresearch.org/equality-profiles/WV/
+    title: West Virginia Equality Profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: fwv-resources
+    url: https://www.fairnesswv.org/resources
+    title: Resources
+    publisher: Fairness West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: lawv
+    url: https://legalaidwv.org/
+    title: Legal Aid of West Virginia
+    kind: org
+    accessed: "2026-09-24"

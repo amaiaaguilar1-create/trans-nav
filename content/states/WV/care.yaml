@@ -1,0 +1,334 @@
+jurisdiction: WV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minor ban read directly in W. Va. Code 30-3-20 and 30-14-17 (HB 2007, 2023, effective Jan. 1, 2024; SB 299, 2025,
+    effective Aug. 1, 2025, removed the earlier exception and extended the ban to PAs (30-3E-20) and APRNs (30-7-15f),
+    and added a telehealth-rule prohibition for under-18s in 30-1-26). No active challenge to the minor ban found.
+    Medicaid: Lambda Legal's Anderson v. Crouch page (read 2026-09-24) says the Fourth Circuit on remand reversed on
+    March 10, 2026 and allowed the surgery exclusion to stand; rehearing en banc denied May 29, 2026. BMS Policy 519.24
+    Gender Affirmation Surgery (effective 8/1/2023, adopted under the district court order) is STILL POSTED on
+    bms.wv.gov; we could not confirm whether BMS has rescinded it or resumed denials, so covers_surgery is unclear.
+    HRT coverage marked yes: the challenged exclusion covered surgery only, Policy 519.24 presumes Medicaid-covered
+    hormone therapy, and MAP scores WV Medicaid policy 1/1; not confirmed on the pharmacy PDL. Private insurance: no
+    WV law bars exclusions (MAP 0/1). Women's Health Center of WV GAHT and PrEP pages read directly; minimum age not
+    stated (18 by law). WVU Medicine pages returned 403; Marshall Health had no findable trans-care page; Planned
+    Parenthood pages returned 403, so PP South Atlantic's WV availability is unverified. The kchd.org domain now
+    redirects to an unrelated hospital, so the Kanawha-Charleston Health Department is omitted. QueerMed lists West
+    Virginia as served on queermed.com/locations. FOLX and QueerDoc do not list WV.
+status_summary:
+  en: >-
+    Adults can get hormone therapy in West Virginia, including by informed consent in Charleston and by telehealth.
+    Hormones, puberty blockers, and surgery for gender transition are banned for anyone under 18, with no exception for
+    gender dysphoria. West Virginia Medicaid covers hormones, but a 2026 federal appeals ruling lets the state refuse
+    to pay for surgery.
+  es: >-
+    Los adultos pueden recibir terapia hormonal en Virginia Occidental, incluso por consentimiento informado en
+    Charleston y por telesalud. Las hormonas, los bloqueadores de pubertad y la cirugía para la transición están
+    prohibidos para menores de 18, sin excepción por disforia de género. Medicaid cubre las hormonas, pero un fallo
+    federal de 2026 permite al estado negarse a pagar la cirugía.
+adult_care:
+  status: available
+  detail:
+    en: >-
+      No West Virginia law limits gender-affirming care for adults 18 and older. Informed-consent hormone therapy (no
+      therapist letter) is offered at the Women's Health Center of West Virginia in Charleston, and telehealth
+      providers such as Plume and QueerMed serve the state. Out-of-state telehealth prescribers registered in West
+      Virginia may not prescribe gender-transition hormones to anyone under 18, but adults are not affected.
+    es: >-
+      Ninguna ley de Virginia Occidental limita la atención para adultos de 18 años o más. El Women's Health Center of
+      West Virginia en Charleston ofrece hormonas por consentimiento informado, y proveedores de telesalud como Plume y
+      QueerMed atienden el estado.
+  sources: [wvc-30-3-20, wvc-30-1-26, whc-gaht, queermed]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      Physicians (MDs and DOs), physician assistants, and advanced practice registered nurses may not provide puberty blockers, cross-sex hormones, or gender-transition surgery to anyone under 18. The ban took effect January 1, 2024 (HB 2007, 2023). The 2023 law allowed medication for severe gender dysphoria with parental consent and two doctors' approval; **SB 299 (2025) removed that exception effective August 1, 2025.**
+
+      - **Exceptions:** only for intersex conditions (disorders of sex development), treating complications of earlier transition care, and physical conditions that put the minor in imminent danger of death.
+      - **Penalties:** the licensing board must immediately revoke the provider's license; the Attorney General can sue; the patient can sue until age 38 (20 years after turning 18).
+      - **Not enjoined.** We found no active lawsuit against the ban.
+      - The law covers medical care only. Talk therapy, social transition, and name or document changes are not banned.
+    es: |
+      Médicos, asistentes médicos y enfermeras de práctica avanzada no pueden dar bloqueadores de pubertad, hormonas ni cirugía de transición a menores de 18. La prohibición rige desde el 1 de enero de 2024 (HB 2007, 2023). **La SB 299 (2025) eliminó la excepción por disforia grave a partir del 1 de agosto de 2025.**
+
+      - **Excepciones:** solo condiciones intersexuales, tratamiento de complicaciones y peligro inminente de muerte.
+      - **Sanciones:** revocación inmediata de la licencia, demandas del Fiscal General y del paciente.
+      - **No está suspendida** por ningún tribunal.
+      - La terapia, la transición social y los cambios de documentos no están prohibidos.
+  sources: [wvc-30-3-20, wvc-30-14-17, sb299, hb2007]
+medicaid:
+  program_name: West Virginia Medicaid
+  covers_hrt: "yes"
+  covers_surgery: unclear
+  detail:
+    en: |
+      West Virginia Medicaid's exclusion applied to surgery, not hormones. After a 2022 federal court order in **Anderson v. Crouch**, Medicaid adopted Policy 519.24, which covers listed gender-affirmation surgeries for members 21 and older with prior authorization, letters from two unaffiliated mental health professionals, 8 psychotherapy visits in 12 months, and 12 months of hormone therapy.
+
+      In June 2025 the U.S. Supreme Court vacated the Fourth Circuit's ruling for the plaintiffs, and on **March 10, 2026** the Fourth Circuit reversed, allowing the state to exclude surgery; rehearing was denied May 29, 2026. Policy 519.24 is still posted, but coverage for new surgery requests may be denied. Ask your plan in writing and contact Lambda Legal if you are denied.
+    es: |
+      La exclusión de Medicaid se aplicaba a la cirugía, no a las hormonas. Tras una orden federal de 2022 (Anderson v. Crouch), Medicaid adoptó la Política 519.24, que cubre ciertas cirugías para mayores de 21 con autorización previa y requisitos estrictos.
+
+      En junio de 2025 la Corte Suprema anuló el fallo favorable, y el **10 de marzo de 2026** el Cuarto Circuito permitió al estado excluir la cirugía. La política sigue publicada, pero las nuevas solicitudes podrían negarse.
+  how_to_apply_url: https://www.wvpath.wv.gov/
+  sources: [bms-519-24, lambda-anderson, map-wv]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: >-
+      West Virginia has no law barring insurers from excluding transition-related care. Check your plan documents. If
+      a state-regulated plan denies a claim, you can appeal and file a complaint with the Offices of the Insurance
+      Commissioner; employer self-funded plans are regulated federally.
+    es: >-
+      Virginia Occidental no tiene ley que prohíba a las aseguradoras excluir la atención de transición. Puedes apelar
+      y presentar una queja ante la Oficina del Comisionado de Seguros.
+  complaint_url: https://www.wvinsurance.gov/consumerservices
+  sources: [map-wv, wvoic]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: whc-wv
+    name: Women's Health Center of West Virginia
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, insurance]
+    description:
+      en: >-
+        Charleston nonprofit clinic offering informed-consent gender-affirming hormone therapy (no referral or
+        therapist letter), PrEP, HIV and STI testing, help with prior authorizations, and name and gender marker change
+        support. Adults only under state law.
+      es: >-
+        Clínica sin fines de lucro en Charleston con terapia hormonal por consentimiento informado (sin carta de
+        terapeuta), PrEP, pruebas de VIH e ITS y apoyo con cambios de nombre. Solo adultos por ley estatal.
+    url: https://www.womenshealthwv.org/gender-affirming-hormone-therapy
+    phone: "304-344-9834"
+    address: 510 W. Washington St., Charleston, WV 25302
+    cost: varies
+    verification: org_website
+    sources: [whc-gaht, whc-lgbtqia]
+  - id: queermed-wv
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming care practice that lists West Virginia among the states it serves. $25 booking fee applied to the visit.
+      es: Práctica de telesalud que atiende Virginia Occidental. Cargo de reserva de $25 aplicado a la consulta.
+    url: https://queermed.com/locations/
+    phone: "404-445-0350"
+    telehealth: true
+    cost: varies
+    verification: org_website
+    sources: [queermed]
+  - id: wv-health-right
+    name: West Virginia Health Right
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Free clinic in Charleston for uninsured and underinsured adults; PrEP, STI testing, behavioral health, and a pharmacy. We did not find a stated gender-affirming care program.
+      es: Clínica gratuita en Charleston; PrEP, pruebas de ITS, salud mental y farmacia.
+    url: https://wvhealthright.org/
+    phone: "304-414-5930"
+    address: 1520 Washington St E, Charleston, WV 25311
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [wvhr]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally funded health centers, which charge on a sliding scale regardless of insurance. Call and ask whether they prescribe gender-affirming hormones for adults.
+      es: Localizador oficial de centros de salud federales con escala móvil. Llama y pregunta si recetan hormonas a adultos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-wv
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds including the HRT Access Fund (free telehealth hormone therapy) and a surgery fund.
+      es: Fondos nacionales, incluido el Fondo de Acceso a TRH y un fondo de cirugía.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: genderbands-wv
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small national grants for surgery and other transition costs, 18 and older.
+      es: Pequeñas becas nacionales para cirugía y otros costos, 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+  - id: lambda-helpdesk
+    name: Lambda Legal Help Desk
+    type: legal_aid
+    pillars: [insurance, hrt]
+    description:
+      en: Free legal information for LGBTQ+ people, including Medicaid and insurance denials. Lambda Legal litigated Anderson v. Crouch.
+      es: Información legal gratuita, incluidas negaciones de Medicaid y seguros.
+    url: https://lambdalegal.org/helpdesk/
+    cost: free
+    verification: community_reported
+    sources: [lambda-anderson]
+statutes:
+  - cite: W. Va. Code 30-3-20
+    title:
+      en: Prohibited practice (allopathic physicians)
+    url: https://code.wvlegislature.gov/30-3-20/
+  - cite: W. Va. Code 30-14-17
+    title:
+      en: Prohibited practice (osteopathic physicians)
+    url: https://code.wvlegislature.gov/30-14-17/
+  - cite: W. Va. Code 30-1-26
+    title:
+      en: Telehealth practice; prohibition on gender-altering medication for minors
+    url: https://code.wvlegislature.gov/30-1-26/
+litigation:
+  - case: Anderson v. Crouch (consolidated with Kadel v. Folwell)
+    court: U.S. Court of Appeals for the Fourth Circuit
+    summary:
+      en: >-
+        Class action by transgender West Virginia Medicaid members challenging the exclusion of gender-affirming
+        surgery. Won in district court (2022) and at the en banc Fourth Circuit (2024); the Supreme Court vacated that
+        ruling in June 2025 after Skrmetti. On March 10, 2026 the Fourth Circuit reversed, and rehearing was denied May
+        29, 2026.
+      es: >-
+        Demanda colectiva contra la exclusión de cirugía en Medicaid. Tras la anulación de la Corte Suprema en 2025, el
+        Cuarto Circuito falló a favor del estado el 10 de marzo de 2026.
+    effect_today:
+      en: West Virginia Medicaid is no longer under a court order to cover surgery. Hormone coverage is not affected.
+      es: Medicaid ya no está obligado por un tribunal a cubrir la cirugía. La cobertura de hormonas no cambia.
+    last_update: "2026-05-29"
+    url: https://lambdalegal.org/case/fain-v-crouch/
+    sources: [lambda-anderson]
+sources:
+  - id: wvc-30-3-20
+    url: https://code.wvlegislature.gov/30-3-20/
+    title: W. Va. Code 30-3-20, Prohibited practice
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A physician may not provide gender reassignment surgery or gender altering medication to a person who is under 18 years of age."
+  - id: wvc-30-14-17
+    url: https://code.wvlegislature.gov/30-14-17/
+    title: W. Va. Code 30-14-17, Prohibited practice
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: wvc-30-1-26
+    url: https://code.wvlegislature.gov/30-1-26/
+    title: W. Va. Code 30-1-26, Telehealth practice
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "A prohibition of prescribing or dispensing gender altering medication to a person who is under 18 years of age."
+  - id: sb299
+    url: https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=299&year=2025&sessiontype=RS&btype=bill
+    title: SB 299 (2025), prohibiting certain medical practices
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "removing an exemption to prohibited practices ... applying the prohibited practices to allopathic physicians, osteopathic, physician assistants, and advanced practice registered nurses"
+  - id: hb2007
+    url: https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=2007&year=2023&sessiontype=RS&btype=bill
+    title: HB 2007 (2023)
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: bms-519-24
+    url: https://bms.wv.gov/index%2Ephp/providers/policy-manuals/chapter-519-practitioner-services/policy-51924-gender-affirmation-surgery
+    title: Policy 519.24 Gender Affirmation Surgery (effective 8/1/23)
+    publisher: West Virginia Bureau for Medical Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "West Virginia Medicaid covers surgical procedures for Gender Affirmation for Gender Dysphoria when certain criteria are met, and prior authorization is obtained."
+  - id: lambda-anderson
+    url: https://lambdalegal.org/case/fain-v-crouch/
+    title: Anderson v. Crouch
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+    quote: "March 10, 2026: The Fourth Circuit reverses its previous decision, allowing West Virginia's Medicaid exclusion to stand. ... May 29, 2026: Request for full Fourth Circuit to hear the case again is denied."
+  - id: map-wv
+    url: https://mapresearch.org/equality-profiles/WV/
+    title: West Virginia Equality Profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: wvoic
+    url: https://www.wvinsurance.gov/consumerservices
+    title: Consumer Services
+    publisher: West Virginia Offices of the Insurance Commissioner
+    kind: official
+    accessed: "2026-09-24"
+  - id: whc-gaht
+    url: https://www.womenshealthwv.org/gender-affirming-hormone-therapy
+    title: Gender Affirming Therapy
+    publisher: Women's Health Center of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+    quote: "No letter from a mental health provider is required."
+  - id: whc-lgbtqia
+    url: https://www.womenshealthwv.org/lgbtqia-health-1
+    title: LGBTQIA+ Health
+    publisher: Women's Health Center of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: queermed
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: wvhr
+    url: https://wvhealthright.org/hiv-prevention/
+    title: HIV Prevention
+    publisher: West Virginia Health Right
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    kind: org
+    accessed: "2026-09-24"

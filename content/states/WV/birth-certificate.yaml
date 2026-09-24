@@ -1,0 +1,323 @@
+guide_type: birth_certificate
+jurisdiction: WV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Read on 2026-09-24: the Health Statistics Center "Correct or Amend a Certificate" and "Corrections and Amendment
+    Forms" pages (still hosted on dhhr.wv.gov), the HSC Sex Designation Form PDF (PDF metadata shows it was created
+    March 12, 2025), the Affidavit to Correct WV Birth Certificate (revised 2002), W. Va. Code 16-5-25 and 16-5-29, and
+    the ACLU-WV Hersom v. WVDHHR settlement page and press release (Oct. 26, 2022). The settlement ended the court-order
+    requirement (after the WV Supreme Court held in 2020 that circuit courts lack authority to order sex-marker
+    amendments) and ended visible strike-throughs. KEY RISK: SB 456 (2025, W. Va. Code 5-32-3, in effect June 9, 2025)
+    defines sex as "observed or clinically verified at birth" and 5-32-8 requires state agencies that collect vital
+    statistics related to sex to classify people by that definition. Neither the statute nor the HSC pages say
+    amendments stopped, and the Sex Designation Form is still linked, but the reviewer should call Vital Registration
+    (304-558-2931, Corrections Unit) to confirm sex designation amendments are still processed and that amended
+    certificates are not being reissued with the birth sex. The Fairness WV guide (2023) says writing "PLEASE REMOVE
+    STRIKETHROUGHS" on both affidavits yields a certificate showing only the new data with an "Amended" stamp; not on
+    the agency page. The HSC page also says amendments need two pieces of documentary evidence at least five years old;
+    it is unclear whether that applies to sex-designation or court-ordered name amendments (16-5-25(d) says the
+    registrar "shall amend" on a certified name change order). A4TE's WV page still describes the pre-2022 court-order
+    rule; MAP scores WV 0.75/1 on birth certificates. Processing time not published. Fees: $10 amendment and $12 per
+    certified copy (HSC page citing 64CSR51 Appendix D, effective 7/1/2023). Status available with
+    provider_letter_limited (physician only), M and F only.
+status: available
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in West Virginia, you can change the sex on your birth certificate to M or F by sending the Vital
+    Registration Office a Sex Designation Form signed by your physician plus an affidavit. No court order or surgery is
+    required. A 2025 law defining sex as sex at birth has not been applied to this process as far as we can confirm,
+    but call ahead.
+  es: >-
+    Si naciste en Virginia Occidental, puedes cambiar el sexo en tu acta de nacimiento a M o F enviando a la Oficina
+    de Registro Vital un Formulario de Designación de Sexo firmado por tu médico y una declaración jurada. No se
+    requiere orden judicial ni cirugía. Hasta donde pudimos confirmar, una ley de 2025 que define el sexo como el
+    sexo al nacer no se ha aplicado a este proceso, pero llama antes.
+summary:
+  en: |
+    This guide is only for people **born in West Virginia**. If you were born in another state, that state's rules apply; see its birth certificate guide.
+
+    Since a 2022 lawsuit settlement (Hersom v. West Virginia DHHR), you no longer need a court order. You send the Vital Registration Office:
+    - the **Sex Designation Form**, signed by you and completed by your **physician**;
+    - the notarized **Affidavit to Correct West Virginia Birth Certificate** (adults) or **Affidavit of Minor** (under 18);
+    - for a name change, a **certified copy of your court order**;
+    - a certificate request application and the fees ($10 amendment plus $12 per certified copy).
+
+    The state amends your existing certificate rather than issuing a brand-new one. It is marked as amended. Since the settlement, the old name and sex should no longer be visible on the face of the certificate; Fairness WV's guide recommends writing **"PLEASE REMOVE STRIKETHROUGHS"** on both affidavits to make sure.
+
+    **What to watch:** SB 456 (2025) defines "sex" throughout state law as sex "observed or clinically verified at birth" and tells agencies that collect vital statistics to use that definition. The Health Statistics Center still posts the Sex Designation Form as of September 2026, but call 304-558-2931 before you mail anything.
+  es: |
+    Esta guía es solo para personas **nacidas en Virginia Occidental**. Si naciste en otro estado, se aplican las reglas de ese estado.
+
+    Desde un acuerdo judicial de 2022 (Hersom v. West Virginia DHHR), ya no necesitas orden judicial. Envías a la Oficina de Registro Vital:
+    - el **Formulario de Designación de Sexo**, firmado por ti y completado por tu **médico**;
+    - la **Declaración jurada para corregir el acta de nacimiento** notariada (adultos) o la **Declaración de menor** (menores de 18);
+    - para cambio de nombre, una **copia certificada de la orden judicial**;
+    - una solicitud de copia certificada y las tarifas ($10 por la enmienda y $12 por copia).
+
+    El estado enmienda tu acta existente en lugar de emitir una nueva, y queda marcada como enmendada. Desde el acuerdo, el nombre y sexo anteriores no deberían verse; la guía de Fairness WV recomienda escribir **"PLEASE REMOVE STRIKETHROUGHS"** en ambas declaraciones.
+
+    **Atención:** la ley SB 456 (2025) define "sexo" como el "observado o verificado clínicamente al nacer" y pide a las agencias que recopilan estadísticas vitales usar esa definición. El Centro de Estadísticas de Salud aún publica el formulario en septiembre de 2026, pero llama al 304-558-2931 antes de enviar nada.
+eligibility:
+  residency:
+    en: You must have been born in West Virginia. Where you live now does not matter.
+    es: Debes haber nacido en Virginia Occidental. No importa dónde vivas ahora.
+  age:
+    en: Adults use the adult affidavit. For someone under 18, a parent signs the Affidavit of Minor; the physician form still applies.
+    es: Los adultos usan la declaración de adultos. Para menores de 18, un padre firma la Declaración de menor.
+  sources: [hsc-amend, hsc-sex-form, sb456-data]
+forms:
+  - id: HSC-SEX-DESIGNATION
+    name:
+      en: Sex Designation Form (Procedure for Changing the Sex Listed on Your Birth Certificate)
+      es: Formulario de designación de sexo
+    url: https://dhhr.wv.gov/HSC/forms/Documents/HSC%20Sex%20Designation%20Form.pdf
+    required: conditional
+    condition:
+      en: Required to change the sex marker.
+      es: Obligatorio para cambiar el marcador de sexo.
+    how_to_fill:
+      en: |
+        - **Your part:** name (last, first, middle), date of birth, county of birth, address; check male or female; sign and date.
+        - **Physician's part:** your physician states that in their professional opinion your sex designation should be male or female, and signs under penalty of perjury.
+        - The form says you do not have to change other IDs first, and staff may not ask for more gender-related or medical information.
+    sources: [hsc-sex-form]
+  - id: HSC-AFF-ADULT
+    name:
+      en: Affidavit to Correct West Virginia Birth Certificate
+      es: Declaración jurada para corregir el acta de nacimiento
+    url: https://dhhr.wv.gov/HSC/forms/Documents/Affidavit_to_correct_birth.pdf
+    required: conditional
+    condition:
+      en: For people 18 and older. Must be signed in front of a notary.
+      es: Para mayores de 18. Debe firmarse ante notario.
+    how_to_fill:
+      en: >-
+        List the items to change on the "Should Read" lines (for example "Sex: should read Female" and "Name: should
+        read ..."). Consider writing "PLEASE REMOVE STRIKETHROUGHS" at the top.
+    sources: [hsc-amend, fwv-guide]
+  - id: HSC-AFF-MINOR
+    name:
+      en: Affidavit of Minor (to correct a child's birth certificate)
+      es: Declaración de menor
+    url: https://dhhr.wv.gov/HSC/forms/Documents/Affidavit_of_minor.pdf
+    required: conditional
+    condition:
+      en: For people under 18, signed by a parent.
+      es: Para menores de 18, firmada por un padre o madre.
+    sources: [hsc-amend]
+  - id: HSC-CERT-REQUEST
+    name:
+      en: Application for a certified copy of a birth certificate
+      es: Solicitud de copia certificada del acta de nacimiento
+    url: https://dhhr.wv.gov/HSC/forms/Pages/Certificate-Request-Forms.aspx
+    required: always
+    condition:
+      en: Include it so you receive a certified copy of the amended certificate.
+      es: Inclúyela para recibir una copia certificada del acta enmendada.
+    sources: [hsc-sex-form, hsc-copies]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee
+      es: Tarifa de enmienda
+    amount: 10
+    note:
+      en: Check or money order payable to Vital Registration.
+      es: Cheque o giro a nombre de Vital Registration.
+    sources: [hsc-amend]
+  - id: certified-copy
+    label:
+      en: Certified copy (each)
+      es: Copia certificada (cada una)
+    amount: 12
+    note:
+      en: Includes a non-refundable search fee. Online vendors add their own charges.
+      es: Incluye una tarifa de búsqueda no reembolsable. Los vendedores en línea cobran cargos extra.
+    sources: [hsc-copies, wvc-16-5-29]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: >-
+      Mail the amendment package to the Corrections Unit, Vital Registration Office, PO Box 11012, Charleston, WV
+      25339-1012 (the address printed on the affidavit), or bring it to the office at 350 Capitol Street, Room 165,
+      Charleston. Call 304-558-2931 and choose the Corrections Unit with questions.
+    es: >-
+      Envía el paquete a Corrections Unit, Vital Registration Office, PO Box 11012, Charleston, WV 25339-1012, o llévalo
+      a 350 Capitol Street, Room 165, Charleston. Llama al 304-558-2931 (Corrections Unit).
+  sources: [hsc-amend, hsc-affidavit-pdf, hsc-copies]
+steps:
+  - id: physician
+    title:
+      en: Have your physician complete the Sex Designation Form
+      es: Pide a tu médico que llene el Formulario de Designación de Sexo
+    body:
+      en: Fill out your section and sign, then have your physician complete and sign theirs.
+      es: Llena tu sección y firma; luego tu médico llena y firma la suya.
+    forms: [HSC-SEX-DESIGNATION]
+    applies_to: [gender_marker]
+    sources: [hsc-sex-form]
+  - id: affidavit
+    title:
+      en: Complete and notarize the affidavit
+      es: Llena y notariza la declaración jurada
+    body:
+      en: >-
+        Use the adult affidavit (or the minor affidavit for someone under 18). List every change on the "Should Read"
+        lines and sign in front of a notary.
+      es: >-
+        Usa la declaración de adultos (o de menores). Anota cada cambio en las líneas "Should Read" y firma ante notario.
+    forms: [HSC-AFF-ADULT, HSC-AFF-MINOR]
+    sources: [hsc-amend, hsc-affidavit-pdf]
+  - id: name-order
+    title:
+      en: Add a certified court order for a name change
+      es: Agrega una orden judicial certificada si cambias de nombre
+    body:
+      en: >-
+        If you are also changing your name, include a certified copy of the court order. State law requires the
+        registrar to amend the name when it receives one.
+      es: >-
+        Si también cambias de nombre, incluye una copia certificada de la orden judicial. La ley obliga al registrador
+        a enmendar el nombre al recibirla.
+    applies_to: [name_change]
+    sources: [wvc-16-5-25, fwv-guide]
+  - id: send
+    title:
+      en: Send the package with the fees
+      es: Envía el paquete con las tarifas
+    body:
+      en: >-
+        Include the certificate request application, a copy of your ID, a check or money order for $10 plus $12 for each
+        copy, and mail it or bring it in person.
+      es: >-
+        Incluye la solicitud de copia, copia de tu identificación y un cheque o giro por $10 más $12 por copia. Envíalo
+        por correo o llévalo en persona.
+    forms: [HSC-CERT-REQUEST]
+    fees: [amendment, certified-copy]
+    sources: [hsc-amend, hsc-copies]
+after:
+  en: >-
+    Use your amended birth certificate to update your passport and, if needed, your WV license. Keep one certified copy
+    in a safe place.
+  es: >-
+    Usa tu acta enmendada para actualizar tu pasaporte y, si hace falta, tu licencia de WV. Guarda una copia
+    certificada en un lugar seguro.
+tips:
+  - en: If a staff member says you need a court order for a sex change, mention the 2022 Hersom settlement and contact the ACLU of West Virginia.
+    es: Si te dicen que necesitas orden judicial para cambiar el sexo, menciona el acuerdo Hersom de 2022 y contacta a la ACLU de Virginia Occidental.
+statutes:
+  - cite: W. Va. Code 16-5-25
+    title:
+      en: Correction and amendment of vital records
+    url: https://code.wvlegislature.gov/16-5-25/
+  - cite: W. Va. Code 16-5-29
+    title:
+      en: Fees for copies and searches
+    url: https://code.wvlegislature.gov/16-5-29/
+  - cite: W. Va. Code 5-32-3 and 5-32-8 (SB 456, 2025)
+    title:
+      en: Sex definitions; sex-based data collection
+    url: https://code.wvlegislature.gov/5-32-8/
+litigation:
+  - case: Hersom v. West Virginia Department of Health and Human Resources, No. 2:21-cv-450
+    court: U.S. District Court for the Southern District of West Virginia
+    summary:
+      en: >-
+        ACLU challenge to the requirement of a court order (impossible to get after a 2020 WV Supreme Court ruling) and
+        to strike-through amendments. Settled October 2022; the state adopted the physician form and stopped showing
+        old information on amended certificates.
+      es: >-
+        Demanda de la ACLU contra el requisito de orden judicial y las enmiendas tachadas. Se resolvió en octubre de
+        2022; el estado adoptó el formulario médico.
+    effect_today:
+      en: The case is closed. The settlement is why you can use a physician form today.
+      es: El caso está cerrado. Gracias al acuerdo puedes usar un formulario médico.
+    last_update: "2022-10-26"
+    url: https://www.acluwv.org/cases/hersom-et-al-v-west-virginia-division-health-and-human-resources-et-al/
+    sources: [aclu-hersom, aclu-hersom-pr]
+related_links:
+  - title: Fairness West Virginia, Name & Gender Change Guide
+    url: https://www.fairnesswv.org/name-gender-change-guide
+  - title: A4TE, West Virginia Identity Documents
+    url: https://transequality.org/documents/west-virginia-identity-documents
+    note:
+      en: Its birth certificate section still describes the court-order rule that ended in 2022.
+      es: Su sección sobre actas describe la regla de orden judicial que terminó en 2022.
+sources:
+  - id: hsc-amend
+    url: https://dhhr.wv.gov/HSC/VR/Pages/Correct-or-Amend-a-Certificate.aspx
+    title: Correct or Amend a Certificate
+    publisher: West Virginia Health Statistics Center, Vital Registration
+    kind: official
+    accessed: "2026-09-24"
+    quote: "To change the sex designation on your birth certificate, please have your physician fill out the Sex Designation Form and also provide the appropriate affidavit found above. ... Amendments require a fee of $10.00."
+  - id: hsc-sex-form
+    url: https://dhhr.wv.gov/HSC/forms/Documents/HSC%20Sex%20Designation%20Form.pdf
+    title: Sex Designation Form
+    publisher: West Virginia Health Statistics Center
+    kind: form
+    accessed: "2026-09-24"
+    quote: "The applicant is not required to have changed their sex or gender designation on other forms of identification."
+  - id: hsc-affidavit-pdf
+    url: https://dhhr.wv.gov/HSC/forms/Documents/Affidavit_to_correct_birth.pdf
+    title: Affidavit to Correct West Virginia Birth Certificate
+    publisher: West Virginia Vital Registration Office
+    kind: form
+    accessed: "2026-09-24"
+  - id: hsc-copies
+    url: https://dhhr.wv.gov/HSC/VR/CR/Pages/default.aspx
+    title: Certificate Requests
+    publisher: West Virginia Health Statistics Center, Vital Registration
+    kind: official
+    accessed: "2026-09-24"
+    quote: "The cost of a certificate is $12 per copy. The fee includes a non-refundable search fee."
+  - id: wvc-16-5-25
+    url: https://code.wvlegislature.gov/16-5-25/
+    title: W. Va. Code 16-5-25, Correction and amendment of vital records
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Upon receipt of a certified copy of a court order ... changing the name of a person born in this state ... the state Registrar shall amend the certificate of birth to reflect the new name."
+  - id: wvc-16-5-29
+    url: https://code.wvlegislature.gov/16-5-29/
+    title: W. Va. Code 16-5-29, Fees for copies and searches
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sb456-data
+    url: https://code.wvlegislature.gov/5-32-8/
+    title: W. Va. Code 5-32-8 (SB 456, 2025), Promoting accuracy in sex-based data collection
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Any ... state agency ... that directly collects vital statistics related to sex ... shall identify each natural person who is part of the collected data set as either male or female as defined in this article."
+  - id: aclu-hersom
+    url: https://www.acluwv.org/cases/hersom-et-al-v-west-virginia-division-health-and-human-resources-et-al/
+    title: Hersom et al. v. West Virginia Division of Health and Human Resources et al.
+    publisher: ACLU of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+    quote: "We reached a settlement agreement in October 2022 ... and allowed West Virginians to amend their gender markers on their birth certificates without a court order."
+  - id: aclu-hersom-pr
+    url: https://www.acluwv.org/press-releases/aclu-settles-lawsuit-after-west-virginia-officials-reveal-new-process-amending-names/
+    title: ACLU Settles Lawsuit After West Virginia Officials Reveal New Process for Amending Names and Gender Markers on Birth Certificates
+    publisher: ACLU of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+  - id: fwv-guide
+    url: https://www.fairnesswv.org/name-gender-change-guide
+    title: Name & Gender Change Guide for West Virginia Residents (PDF updated November 2, 2023)
+    publisher: Fairness West Virginia and Legal Aid of West Virginia
+    kind: org
+    accessed: "2026-09-24"
+    quote: "if you wish to completely remove your old information from your birth certificate, you should write \"PLEASE REMOVE STRIKETHROUGHS\" on both affidavits"

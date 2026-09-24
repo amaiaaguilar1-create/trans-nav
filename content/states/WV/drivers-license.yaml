@@ -1,0 +1,266 @@
+guide_type: drivers_license
+jurisdiction: WV
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The DMV forms page (dmv.wv.gov/forms) still lists the Gender Designation Form DMV-99-RO (REV 07/21) on 2026-09-24,
+    describing it as "used by an applicant to change the gender on their driver's license or identification card to
+    something other than what is listed on the birth certificate or other document." The PDF resolves and was read.
+    KEY RISK: SB 456 (2025), W. Va. Code 5-32-1 et seq., in effect June 9, 2025, defines "sex" for all state law and
+    policy as "male or female as observed or clinically verified at birth" and applies "wherever the state ... classifies
+    people on the basis of sex." It does not mention driver's licenses, and we found no DMV notice, rule, or news of the
+    DMV stopping marker changes, but the reviewer should call DMV (1-800-642-9066) to confirm DMV-99-RO is still
+    honored. 5-32-1(c) also bars enforcement inconsistent with Grimm v. Gloucester (4th Cir. 2020). Fairness WV's 2026
+    session recap says no anti-LGBTQ+ bill passed in 2026. MAP scores WV DL marker change 0.5/1 (not a negative law).
+    requirement_type set to provider_letter_limited because only a licensed physician may sign (not NPs, PAs, or
+    therapists per the form's "licensed physician" wording); status kept available because any licensed physician
+    qualifies and no surgery or court order is needed. Only M and F are offered. Fees: $7.50 duplicate from W. Va. Code
+    17B-2-11 (DMV may CPI-adjust every five years; current posted amount not found on a DMV fee page), plus $10 for a
+    REAL ID card per DMV's licenses page. ID card duplicate fee not confirmed. Whether marker changes can be done
+    through the online Self Service duplicate tool is not confirmed; the form requires a new photo, so we say in person.
+status: available
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    West Virginia's DMV still posts a Gender Designation Form (DMV-99-RO) that lets you change the sex on your license
+    or ID to M or F with a licensed physician's signature; no surgery, court order, or birth certificate change is
+    needed. A 2025 law defines sex as sex observed at birth, so call the DMV before your visit to confirm the form is
+    still accepted.
+  es: >-
+    El DMV de Virginia Occidental todavía publica un Formulario de Designación de Género (DMV-99-RO) que permite
+    cambiar el sexo en tu licencia o identificación a M o F con la firma de un médico licenciado; no se requiere
+    cirugía, orden judicial ni cambio del acta de nacimiento. Una ley de 2025 define el sexo como el observado al
+    nacer, así que llama al DMV antes de ir para confirmar que el formulario aún se acepta.
+summary:
+  en: |
+    To change the sex on a West Virginia driver's license or state ID, you bring the **Gender Designation Form (DMV-99-RO)** to a DMV regional office. You fill out Part 1; a **licensed physician** fills out Part 2 and certifies your gender identity as male or female. The form says you do not have to change your birth certificate or other IDs first, and DMV staff "shall not request additional gender-related information" or ask about your medical history.
+
+    You also submit a new license or ID application (DMV-DS-23P), surrender your current card, have a new photo taken, and pay the duplicate fee. Cards are printed centrally and mailed to you; you leave with a temporary paper card valid for 60 days.
+
+    **What to watch:** SB 456, in effect since June 9, 2025, defines "sex" in West Virginia law and state policies as male or female "as observed or clinically verified at birth." The law does not mention driver's licenses, and as of September 2026 the DMV still lists the form, but this could change. Call the DMV at 1-800-642-9066 before you go.
+
+    **X markers** are not available. **Name changes** work the usual way: update Social Security first, then bring your certified court order to the DMV.
+  es: |
+    Para cambiar el sexo en una licencia de conducir o identificación de Virginia Occidental, llevas el **Formulario de Designación de Género (DMV-99-RO)** a una oficina regional del DMV. Tú llenas la Parte 1; un **médico licenciado** llena la Parte 2 y certifica tu identidad de género como masculina o femenina. El formulario dice que no necesitas cambiar primero tu acta de nacimiento y que el personal no debe pedir más información médica.
+
+    También presentas una nueva solicitud (DMV-DS-23P), entregas tu tarjeta actual, te toman una foto nueva y pagas la tarifa de duplicado. La tarjeta se imprime centralmente y se envía por correo; recibes una tarjeta temporal válida por 60 días.
+
+    **Atención:** la ley SB 456, vigente desde el 9 de junio de 2025, define "sexo" en la ley estatal como masculino o femenino "según se observó o verificó clínicamente al nacer". La ley no menciona las licencias y en septiembre de 2026 el DMV aún publica el formulario, pero esto podría cambiar. Llama al DMV al 1-800-642-9066 antes de ir.
+
+    No hay marcador **X**. Los **cambios de nombre** funcionan como siempre: actualiza primero el Seguro Social y luego lleva tu orden judicial certificada al DMV.
+eligibility:
+  residency:
+    en: You must be a West Virginia resident with, or applying for, a WV license or ID.
+    es: Debes residir en Virginia Occidental y tener o solicitar una licencia o identificación de WV.
+  other:
+    en: The physician must hold a medical license (the form asks for the license number) and sign under penalty of perjury.
+    es: El médico debe tener licencia médica (el formulario pide el número) y firmar bajo pena de perjurio.
+  sources: [dmv-99-ro, dmv-forms]
+forms:
+  - id: DMV-99-RO
+    name:
+      en: Gender Designation Form
+      es: Formulario de designación de género
+    url: https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Transportation/DMV/DMVFormSearch/DMV-99-RO-GenderDesignationForm.pdf
+    required: conditional
+    condition:
+      en: Required to change the sex marker. Not needed for a name-only change.
+      es: Obligatorio para cambiar el marcador de sexo. No se necesita para cambiar solo el nombre.
+    how_to_fill:
+      en: |
+        - **Part 1 (you):** your name as it will appear (last, first, middle), address, license or ID number, and Social Security number. Check male or female and sign.
+        - **Part 2 (physician):** name, address, phone, medical license number, and title, then checks male or female for your gender identity and signs under penalty of perjury. Any licensed physician (for example your primary care doctor) can sign; the form does not ask about surgery or treatment.
+        - The form must be "fully and accurately completed" or it can be refused, so check every box before you go.
+      es: |
+        - **Parte 1 (tú):** tu nombre, dirección, número de licencia o identificación y número de Seguro Social. Marca masculino o femenino y firma.
+        - **Parte 2 (médico):** nombre, dirección, teléfono, número de licencia médica y título; marca masculino o femenino y firma bajo pena de perjurio. Cualquier médico licenciado puede firmar.
+    sources: [dmv-99-ro]
+  - id: DMV-DS-23P
+    name:
+      en: Application for a Driver's License or Photo ID Card
+      es: Solicitud de licencia de conducir o tarjeta de identificación con foto
+    url: https://webapps.transportation.wv.gov/TWS/DMV/DMV-DS-23P_Application-for-a-Drivers-License-or-Photo-ID-Card-WF.pdf
+    required: always
+    condition:
+      en: Complete both sides. Commercial license holders use DMV-CDL-1 instead.
+      es: Completa ambos lados. Los titulares de licencia comercial usan DMV-CDL-1.
+    sources: [dmv-99-ro, dmv-forms]
+fees:
+  - id: duplicate
+    label:
+      en: Duplicate (corrected) license
+      es: Licencia duplicada (corregida)
+    amount: 7.5
+    note:
+      en: Statutory fee for a duplicate when information on the license changes; the DMV may adjust it for inflation every five years.
+      es: Tarifa legal por duplicado cuando cambia la información; el DMV puede ajustarla por inflación cada cinco años.
+    sources: [wvc-17b-2-11]
+  - id: real-id
+    label:
+      en: Extra charge for a REAL ID (gold star) card
+      es: Cargo adicional por tarjeta REAL ID
+    amount: 10
+    note:
+      en: Added on top of the regular fee if you choose a REAL ID card.
+      es: Se suma a la tarifa normal si eliges REAL ID.
+    sources: [dmv-licenses]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: >-
+      Apply in person at a DMV regional office; you must surrender your old card and have a new photo taken. The
+      permanent card is mailed to you.
+    es: >-
+      Solicita en persona en una oficina regional del DMV; debes entregar tu tarjeta anterior y tomarte una foto nueva.
+      La tarjeta permanente se envía por correo.
+  sources: [dmv-99-ro, dmv-licenses]
+steps:
+  - id: ssa-first
+    title:
+      en: If your name changed, update Social Security first
+      es: Si cambiaste de nombre, actualiza primero el Seguro Social
+    body:
+      en: >-
+        The DMV checks every Social Security number with SSA, and your name must match SSA's record. Wait until SSA has
+        processed your name change (about 1 to 2 weeks) before going to the DMV.
+      es: >-
+        El DMV verifica cada número de Seguro Social con el SSA y tu nombre debe coincidir. Espera a que el SSA procese
+        tu cambio de nombre (1 a 2 semanas).
+    applies_to: [name_change]
+    sources: [dmv-proof, dmv-99-ro]
+  - id: physician-form
+    title:
+      en: Have a licensed physician complete the Gender Designation Form
+      es: Pide a un médico licenciado que llene el Formulario de Designación de Género
+    body:
+      en: Fill out Part 1 yourself, then ask your doctor to complete and sign Part 2. Bring the original.
+      es: Llena la Parte 1 y pide a tu médico que llene y firme la Parte 2. Lleva el original.
+    forms: [DMV-99-RO]
+    applies_to: [gender_marker]
+    sources: [dmv-99-ro]
+  - id: call-ahead
+    title:
+      en: Call the DMV to confirm the form is still accepted
+      es: Llama al DMV para confirmar que el formulario aún se acepta
+    body:
+      en: >-
+        Because SB 456 (2025) redefined "sex" in state law, confirm with DMV customer service (1-800-642-9066) that
+        gender designation changes are still processed, and schedule an appointment if your office requires one.
+      es: >-
+        Como la ley SB 456 (2025) redefinió "sexo", confirma con el DMV (1-800-642-9066) que los cambios siguen
+        procesándose y programa una cita si tu oficina la requiere.
+    applies_to: [gender_marker]
+    optional: true
+    sources: [sb456, dmv-99-ro]
+  - id: visit
+    title:
+      en: Visit a DMV regional office with your documents
+      es: Ve a una oficina regional del DMV con tus documentos
+    body:
+      en: |
+        Bring:
+        - Your current WV license or ID (you will surrender it)
+        - A completed DMV-DS-23P application
+        - The Gender Designation Form, if changing your sex marker
+        - For a name change, a **certified** court order (or amended birth certificate or marriage certificate)
+        - Proof of identity, Social Security number, and two proofs of WV residency if you are upgrading to REAL ID or the DMV asks to re-scan documents
+
+        Have your new photo taken and pay the fee.
+      es: |
+        Lleva:
+        - Tu licencia o identificación actual (la entregarás)
+        - La solicitud DMV-DS-23P completa
+        - El Formulario de Designación de Género, si cambias el marcador
+        - Para cambio de nombre, una orden judicial **certificada** (o acta de nacimiento enmendada o certificado de matrimonio)
+        - Prueba de identidad, número de Seguro Social y dos pruebas de residencia si pasas a REAL ID
+
+        Tómate la foto nueva y paga la tarifa.
+    forms: [DMV-DS-23P, DMV-99-RO]
+    fees: [duplicate, real-id]
+    applies_to: [in_person]
+    sources: [dmv-99-ro, dmv-proof, dmv-licenses]
+  - id: mail
+    title:
+      en: Watch for your new card in the mail
+      es: Espera tu nueva tarjeta por correo
+    body:
+      en: You get a temporary card valid for 60 days; the permanent card is mailed from the central print facility.
+      es: Recibes una tarjeta temporal válida por 60 días; la permanente llega por correo.
+    sources: [dmv-licenses]
+after:
+  en: >-
+    Use your updated license to change your records with banks, your employer, and insurers. If you were born in West
+    Virginia, see the birth certificate guide; the Vital Registration Office uses a similar physician form.
+  es: >-
+    Usa tu licencia actualizada para cambiar tus registros en bancos, empleo y seguros. Si naciste en Virginia
+    Occidental, consulta la guía del acta de nacimiento; la oficina de Registro Vital usa un formulario médico similar.
+tips:
+  - en: The form says DMV staff may not ask for more gender-related information or about your medical history. If they do, stay calm, point to that sentence on the form, and ask for a supervisor.
+    es: El formulario dice que el personal no puede pedir más información de género ni sobre tu historial médico. Si lo hacen, señala esa frase y pide un supervisor.
+  - en: Change your name and sex marker in the same visit to pay only one duplicate fee.
+    es: Cambia nombre y marcador en la misma visita para pagar un solo duplicado.
+statutes:
+  - cite: W. Va. Code 17B-2-11
+    title:
+      en: Duplicate permits and licenses (fee)
+    url: https://code.wvlegislature.gov/17B-2-11/
+  - cite: W. Va. Code 5-32-1 to 5-32-9 (SB 456, 2025)
+    title:
+      en: Sex definitions and preservation of single-sex spaces
+    url: https://code.wvlegislature.gov/5-32-3/
+related_links:
+  - title: Fairness West Virginia, Name & Gender Change Guide
+    url: https://www.fairnesswv.org/name-gender-change-guide
+  - title: A4TE, West Virginia Identity Documents
+    url: https://transequality.org/documents/west-virginia-identity-documents
+sources:
+  - id: dmv-99-ro
+    url: https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Transportation/DMV/DMVFormSearch/DMV-99-RO-GenderDesignationForm.pdf
+    title: DMV-99-RO Gender Designation Form (REV 07/21)
+    publisher: West Virginia Division of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: "The applicant is not required to have changed their gender designation on their birth certificate or other forms of identification. DMV employees shall not request additional gender-related information beyond that required on the applicable form"
+  - id: dmv-forms
+    url: https://dmv.wv.gov/forms
+    title: DMV Forms
+    publisher: West Virginia Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "This form is used by an applicant to change the gender on their driver's license or identification card to something other than what is listed on the birth certificate or other document."
+  - id: dmv-licenses
+    url: https://dmv.wv.gov/driver-services/drivers/drivers-licenses-and-id-cards
+    title: Driver's Licenses and ID Cards
+    publisher: West Virginia Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "an additional $10.00 fee is required to obtain a REAL ID / For Federal Use card"
+  - id: dmv-proof
+    url: https://dmv.wv.gov/acceptable-proof-documents
+    title: Acceptable Proof Documents
+    publisher: West Virginia Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "your full legal name must match your name on file with the Social Security Administration"
+  - id: wvc-17b-2-11
+    url: https://code.wvlegislature.gov/17B-2-11/
+    title: W. Va. Code 17B-2-11, Duplicate permits and licenses
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "if the information contained on the license has changed ... upon payment of a fee of $7.50 obtain a duplicate"
+  - id: sb456
+    url: https://code.wvlegislature.gov/5-32-3/
+    title: W. Va. Code 5-32-3 (SB 456, 2025), Definitions of terms used in the code
+    publisher: West Virginia Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "\"Sex\", when this term is used to classify or describe a natural person, means the state of being either male or female as observed or clinically verified at birth."
