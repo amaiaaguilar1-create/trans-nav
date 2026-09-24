@@ -1,0 +1,147 @@
+code: RI
+name:
+  en: Rhode Island
+  es: Rhode Island
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on statutes read on webserver.rilegislature.gov (R.I. Gen. Laws § 33-22-28 as amended in
+    2024; chapter 23-101 Healthcare Provider Shield and chapter 5-37.8, both P.L. 2024 ch. 260/261, effective June 25,
+    2024) and the RIDOH amendment requirements PDF, cross-checked against MAP and A4TE. The drafting request described
+    the shield law as a 2023 law; the statute history on the legislature's site shows 2024 enactment. Reviewer: confirm
+    whether a separate 2023 measure (for example an executive order) also exists. Most state agency sites (dmv.ri.gov,
+    health.ri.gov, eohhs.ri.gov, dbr.ri.gov, ohic.ri.gov) block automated access, so DMV and Medicaid details rest on
+    A4TE, Namesake, and MAP.
+overview:
+  en: >-
+    Rhode Island is protective for trans people. Courts must grant adult name changes unless they are for fraud, may not
+    require newspaper publication, and must seal the record when an open record would put your safety at risk, and
+    being transgender counts toward that risk. Driver's licenses and birth certificates offer M, F, or X by
+    self-attestation, Medicaid and state-regulated insurance cover gender-affirming care, and a 2024 shield law protects
+    patients and providers from other states' lawsuits. Federal documents (passport, Social Security) are the
+    exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Rhode Island protege a las personas trans. Los tribunales deben conceder el cambio de nombre de un adulto salvo que
+    sea por fraude, no pueden exigir publicación en periódico y deben sellar el expediente cuando un expediente abierto
+    ponga en riesgo tu seguridad, y ser transgénero cuenta para ese riesgo. Las licencias de conducir y las actas de
+    nacimiento ofrecen M, F o X por declaración propia, Medicaid y los seguros regulados por el estado cubren la
+    atención de afirmación de género, y una ley escudo de 2024 protege a pacientes y proveedores de demandas de otros
+    estados. Los documentos federales (pasaporte, Seguro Social) son la excepción: sus campos de sexo están congelados
+    a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [rigl-33-22-28, rigl-23-101, ridoh-amend, map-ri]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [providence]
+key_resources:
+  - id: namesake
+    org: namesake
+    name: Namesake
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free, open-source tool with step-by-step Rhode Island guides and fillable forms for the probate court name change, DMV license or ID, and birth certificate.
+      es: Herramienta gratuita y de código abierto con guías paso a paso y formularios para Rhode Island, para el cambio de nombre en el tribunal de sucesiones, la licencia o ID del DMV y el acta de nacimiento.
+    url: https://namesake.fyi/guides/ri
+    cost: free
+    verification: org_website
+    sources: [namesake-ri]
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help and quick-reference guides for trans people in New England, including Rhode Island, updating their name and gender on state and federal documents. GLAD Law Answers legal information line 800-455-GLAD.
+      es: Ayuda legal gratuita y guías rápidas para personas trans en Nueva Inglaterra, incluido Rhode Island, que actualizan su nombre y género en documentos estatales y federales. Línea de información legal GLAD Law Answers 800-455-GLAD.
+    url: https://www.gladlaw.org/ID/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-id, glad-answers]
+  - id: tgi-network
+    name: TGI Network of Rhode Island
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Rhode Island's nonprofit focused solely on transgender, gender diverse, and intersex people. Peer support groups, a documentation-change self-help guide, and the annual RI Trans Health Conference.
+      es: La organización sin fines de lucro de Rhode Island dedicada exclusivamente a personas transgénero, de género diverso e intersexuales. Grupos de apoyo entre pares, guía de cambios de documentos y la conferencia anual de salud trans.
+    url: https://www.tginetwork.org/
+    cost: free
+    verification: org_website
+    sources: [tgi]
+  - id: youth-pride-ri
+    name: Youth Pride, Inc.
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Drop-in center, support groups, and advocacy for LGBTQIA2S+ youth and young adults in Providence.
+      es: Centro de acogida, grupos de apoyo y defensa para jóvenes y adultos jóvenes LGBTQIA2S+ en Providence.
+    url: https://www.youthprideri.org/
+    phone: "401-421-5626"
+    address: 743 Westminster St, Providence, RI 02903
+    cost: free
+    verification: org_website
+    sources: [ypi]
+sources:
+  - id: rigl-33-22-28
+    url: https://webserver.rilegislature.gov/Statutes/TITLE33/33-22/33-22-28.htm
+    title: R.I. Gen. Laws § 33-22-28, Name change
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court shall not require public notice or publication before approving the name change.
+  - id: rigl-23-101
+    url: https://webserver.rilegislature.gov/Statutes/TITLE23/23-101/INDEX.htm
+    title: R.I. Gen. Laws chapter 23-101, Healthcare Provider Shield
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: This chapter shall be known and may be cited as the "Healthcare Provider Shield." (P.L. 2024, ch. 260, effective June 25, 2024)
+  - id: ridoh-amend
+    url: https://health.ri.gov/sites/g/files/xkgbur1006/files/2025-01/RI-Vital-Records-Correction-and-Amendment-Requirements.pdf
+    title: Requirements and Fees for Changes to Birth, Marriage, or Death Records
+    publisher: Rhode Island Department of Health, Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: People born in Rhode Island who identify as non-binary or neither male nor female can change the sex field to X.
+  - id: map-ri
+    url: https://www.mapresearch.org/equality-maps/profile_state/RI
+    title: Rhode Island equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: namesake-ri
+    url: https://namesake.fyi/guides/ri
+    title: Rhode Island guides
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-id
+    url: https://www.gladlaw.org/ID/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: tgi
+    url: https://www.tginetwork.org/
+    title: TGI Network of RI
+    kind: org
+    accessed: "2026-09-24"
+  - id: ypi
+    url: https://www.youthprideri.org/contact/
+    title: Youth Pride, Inc. contact
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,301 @@
+jurisdiction: RI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Shield law read directly (R.I. Gen. Laws chapter 23-101 and chapter 5-37.8, P.L. 2024 ch. 260/261, effective June
+    25, 2024). The drafting request called it a 2023 law; the legislature's history notes say 2024. Medicaid and
+    private-insurance coverage could not be read at the source: eohhs.ri.gov, ohic.ri.gov, and dbr.ri.gov all block
+    automated access. Coverage is stated per MAP (Medicaid policy "explicitly includes coverage"; private insurers
+    "banned from excluding coverage"). From memory and unverified: the private-insurance protection is OHIC Health
+    Insurance Bulletin 2015-3, and RI Medicaid coverage dates from about 2015. Reviewer: confirm both, the Medicaid
+    policy citation, and any prior-authorization rules. No law restricting care for minors was found, and MAP shows no
+    youth ban. Thundermist Health Center no longer has a trans health page on its site (checked the page sitemap); it
+    is listed as community_reported from Namesake's directory. The Brown University Health (formerly Lifespan) Gender
+    and Sexuality Program page was not found at the old or new URLs, so it is omitted; reviewer should locate it.
+    Planned Parenthood of Southern New England states its gender-affirming services are for adults.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Rhode Island. RI Medicaid and state-regulated private
+    insurance cover it, and the 2024 Healthcare Provider Shield law protects patients and providers from other states'
+    lawsuits and subpoenas. Open Door Health in Providence and Planned Parenthood offer hormone therapy with sliding-scale
+    fees.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Rhode Island. Medicaid de RI y los seguros
+    privados regulados por el estado la cubren, y la ley de Escudo para Proveedores de Salud de 2024 protege a
+    pacientes y proveedores de demandas y citaciones de otros estados. Open Door Health en Providence y Planned
+    Parenthood ofrecen terapia hormonal con tarifas en escala móvil.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. If you have no insurance and little money, in rough order:
+      1. Apply for **RI Medicaid** through HealthyRhode or HealthSource RI; it covers gender-affirming care.
+      2. Go to **Open Door Health** (Providence), Rhode Island's LGBTQ+ community health clinic, or a **community health center** with a sliding fee.
+      3. **Planned Parenthood of Southern New England** offers hormone therapy and labs for adults, with a sliding fee scale and help enrolling in Medicaid.
+      4. **Telehealth** (Plume, FOLX, Planned Parenthood) is available statewide.
+      5. **Point of Pride** runs an HRT access fund.
+    es: |
+      Sin restricciones estatales. Si no tienes seguro ni mucho dinero, en orden aproximado:
+      1. Solicita **Medicaid de RI** a través de HealthyRhode o HealthSource RI; cubre la atención de afirmación de género.
+      2. Acude a **Open Door Health** (Providence), la clínica comunitaria LGBTQ+ de Rhode Island, o a un **centro de salud comunitario** con tarifa móvil.
+      3. **Planned Parenthood of Southern New England** ofrece terapia hormonal y análisis para adultos, con escala móvil y ayuda para inscribirte en Medicaid.
+      4. **Telesalud** (Plume, FOLX, Planned Parenthood) está disponible en todo el estado.
+      5. **Point of Pride** tiene un fondo de acceso a TRH.
+  sources: [odh-gac, ppsne-gac, map-ri, pop-hrt]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal; Rhode Island has no ban on gender-affirming care for minors. The Healthcare Provider Shield (chapter 23-101, 2024) lets people sued elsewhere over legally protected gender-affirming or reproductive care sue back in Rhode Island, limits state cooperation with out-of-state subpoenas and judgments, and chapter 5-37.8 protects providers' licenses, malpractice insurance, and jobs. Care for minors normally requires a parent's or guardian's consent. Planned Parenthood of Southern New England's program is for adults; ask a pediatric provider for a referral.
+    es: |
+      Legal; Rhode Island no prohíbe la atención de afirmación de género para menores. El Escudo para Proveedores de Salud (capítulo 23-101, 2024) permite a quienes sean demandados en otro estado por atención de afirmación de género o reproductiva legalmente protegida demandar a su vez en Rhode Island, limita la cooperación estatal con citaciones y sentencias de otros estados, y el capítulo 5-37.8 protege las licencias, el seguro de responsabilidad y los empleos de los proveedores. La atención para menores normalmente requiere el consentimiento de un padre, madre o tutor. El programa de Planned Parenthood of Southern New England es para adultos; pide una referencia a un proveedor pediátrico.
+  sources: [rigl-23-101, rigl-23-101-2, rigl-5-37-8, map-ri, ppsne-gac]
+medicaid:
+  program_name: Rhode Island Medicaid (including RIte Care)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Rhode Island's Medicaid policy explicitly includes coverage of transgender-related care, according to the Movement Advancement Project. Expect prior authorization for surgery. Apply online at HealthyRhode or through HealthSource RI; RIPIN's call center (401-270-0101) helps with enrollment and denials.
+    es: |
+      La política de Medicaid de Rhode Island incluye explícitamente la cobertura de atención relacionada con la transición, según el Movement Advancement Project. Espera autorización previa para cirugías. Solicita en línea en HealthyRhode o a través de HealthSource RI; el centro de llamadas de RIPIN (401-270-0101) ayuda con la inscripción y las denegaciones.
+  how_to_apply_url: https://healthyrhode.ri.gov/
+  sources: [map-medicaid, healthyrhode, ripin]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Rhode Island bans state-regulated health insurers from excluding coverage for transgender people (per MAP). Self-funded employer plans are regulated federally and may differ. If a claim is denied, appeal, and get free help from RIPIN's health insurance advocates or A4TE's Trans Health Project. Complaints about insurers go to the Office of the Health Insurance Commissioner (OHIC).
+    es: |
+      Rhode Island prohíbe a las aseguradoras de salud reguladas por el estado excluir la cobertura para personas transgénero (según MAP). Los planes autofinanciados de empleadores están regulados a nivel federal y pueden ser distintos. Si te niegan un reclamo, apela y busca ayuda gratuita con los defensores de seguros de RIPIN o el Trans Health Project de A4TE. Las quejas sobre aseguradoras van a la Oficina del Comisionado de Seguros de Salud (OHIC).
+  complaint_url: https://ohic.ri.gov/
+  sources: [map-ri, ripin, a4te-thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: open-door-health
+    name: Open Door Health
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Rhode Island's first LGBTQ+ community health clinic. Gender-affirming hormone therapy for adults, surgical referrals, help with letters for name and gender changes, PrEP/PEP, STI testing, HIV and hepatitis care, and Open Mind behavioral health.
+      es: La primera clínica comunitaria LGBTQ+ de Rhode Island. Terapia hormonal de afirmación de género para adultos, referencias quirúrgicas, ayuda con cartas para cambios de nombre y género, PrEP/PEP, pruebas de ITS, atención de VIH y hepatitis, y salud mental Open Mind.
+    url: https://odhpvd.org/services/gender-affirming-care/
+    phone: "401-648-4700"
+    address: 7 Central St, Providence, RI 02907
+    cost: varies
+    verification: org_website
+    sources: [odh-gac]
+  - id: ppsne
+    org: planned-parenthood
+    name: Planned Parenthood of Southern New England
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy, hormone lab work, and letters of support for adults, in person or by telehealth. Care regardless of insurance status, sliding fee scale, and a Medicaid enrollment navigator. Adults only (18+).
+      es: Terapia hormonal de afirmación de género, análisis hormonales y cartas de apoyo para adultos, en persona o por telesalud. Atención sin importar tu seguro, escala móvil y navegador de inscripción en Medicaid. Solo adultos (18+).
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    phone: "800-230-7526"
+    cost: sliding_scale
+    accepts_uninsured: true
+    telehealth: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [ppsne-gac]
+  - id: thundermist
+    name: Thundermist Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Community health center serving Woonsocket, West Warwick, and South County, historically known for a trans health program. Its current website does not describe gender-affirming services; call to ask.
+      es: Centro de salud comunitario que atiende Woonsocket, West Warwick y South County, conocido por un programa de salud trans. Su sitio actual no describe servicios de afirmación de género; llama para preguntar.
+    url: https://www.thundermisthealth.org/
+    phone: "401-767-4100"
+    cost: sliding_scale
+    verification: community_reported
+    sources: [thundermist, namesake-ri]
+  - id: ripin
+    name: RIPIN Health Care Consumer Call Center
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help with Medicaid, HealthSource RI, employer plans, and Medicare, including getting coverage and appealing denials.
+      es: Ayuda gratuita con Medicaid, HealthSource RI, planes de empleador y Medicare, incluida la obtención de cobertura y la apelación de denegaciones.
+    url: https://ripin.org/health-care/
+    phone: "401-270-0101"
+    cost: free
+    verification: org_website
+    sources: [ripin]
+  - id: healthsource-ri
+    name: HealthSource RI
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: Rhode Island's health insurance marketplace, with income-based subsidies and a route into Medicaid.
+      es: El mercado de seguros de salud de Rhode Island, con subsidios según ingresos y acceso a Medicaid.
+    url: https://healthsourceri.com/
+    cost: varies
+    verification: official_source
+    sources: [healthsourceri]
+  - id: a4te-thp
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Help appealing insurance denials for gender-affirming care.
+      es: Ayuda para apelar denegaciones de seguro de atención de afirmación de género.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [a4te-thp]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that helps pay for hormone therapy.
+      es: Fondo nacional que ayuda a pagar la terapia hormonal.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: tgi-network
+    name: TGI Network of Rhode Island
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Peer support groups (including nonbinary and trans masculine groups), a health and social services resource list, and the annual RI Trans Health Conference.
+      es: Grupos de apoyo entre pares (incluidos grupos no binarios y trans masculinos), lista de recursos de salud y servicios sociales, y la conferencia anual de salud trans de RI.
+    url: https://www.tginetwork.org/
+    cost: free
+    verification: org_website
+    sources: [tgi]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for sliding-fee community health centers near you.
+      es: Buscador federal de centros de salud comunitarios con tarifa móvil cerca de ti.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: R.I. Gen. Laws ch. 23-101 (Healthcare Provider Shield)
+    title:
+      en: Shield law for gender-affirming and reproductive care (2024)
+      es: Ley escudo para atención de afirmación de género y reproductiva (2024)
+    url: https://webserver.rilegislature.gov/Statutes/TITLE23/23-101/INDEX.htm
+  - cite: R.I. Gen. Laws ch. 5-37.8 (Protections for Healthcare Providers Act)
+    title:
+      en: License, insurance, and employment protections for providers (2024)
+      es: Protecciones de licencia, seguro y empleo para proveedores (2024)
+    url: https://webserver.rilegislature.gov/Statutes/TITLE5/5-37.8/INDEX.htm
+sources:
+  - id: rigl-23-101
+    url: https://webserver.rilegislature.gov/Statutes/TITLE23/23-101/23-101-3.htm
+    title: R.I. Gen. Laws § 23-101-3, Tortious interference with legally protected healthcare activity
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If a person, whether or not acting under color of law, engages or attempts to engage in hostile litigation, any aggrieved person may initiate a civil action against that person
+  - id: rigl-23-101-2
+    url: https://webserver.rilegislature.gov/Statutes/TITLE23/23-101/23-101-2.htm
+    title: R.I. Gen. Laws § 23-101-2, Definitions
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "\"Gender-affirming healthcare services\" means all supplies, care, and services of a medical, behavioral health, mental health, surgical ... nature, including medication, relating to the treatment of gender dysphoria"
+  - id: rigl-5-37-8
+    url: https://webserver.rilegislature.gov/Statutes/TITLE5/5-37.8/INDEX.htm
+    title: R.I. Gen. Laws chapter 5-37.8, Protections for Healthcare Providers Act
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: License protections for providers of legally protected healthcare activity.
+  - id: map-ri
+    url: https://www.mapresearch.org/equality-maps/profile_state/RI
+    title: Rhode Island equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Health Insurance Providers Banned from Excluding Coverage for Transgender People 1/1
+  - id: map-medicaid
+    url: https://www.mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care/
+    title: Medicaid Coverage of Transgender-Related Health Care
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Rhode Island Medicaid policy explicitly includes coverage
+  - id: healthyrhode
+    url: https://healthyrhode.ri.gov/
+    title: HealthyRhode
+    publisher: State of Rhode Island
+    kind: official
+    accessed: "2026-09-24"
+  - id: healthsourceri
+    url: https://healthsourceri.com/
+    title: HealthSource RI
+    kind: official
+    accessed: "2026-09-24"
+  - id: ripin
+    url: https://ripin.org/health-care/
+    title: RIPIN Health Care
+    publisher: Rhode Island Parent Information Network
+    kind: org
+    accessed: "2026-09-24"
+  - id: odh-gac
+    url: https://odhpvd.org/services/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Open Door Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: At Open Door Health, we provide adult patients with gender-affirming care that's tailored to their unique needs.
+  - id: ppsne-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our health centers offer services for adults across the gender spectrum.
+  - id: thundermist
+    url: https://www.thundermisthealth.org/
+    title: Thundermist Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: namesake-ri
+    url: https://namesake.fyi/guides/ri
+    title: Rhode Island guides and directory
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Thundermist Health Center is a community health center that has been serving Woonsocket, West Warwick, and South County for more than 55 years.
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: tgi
+    url: https://www.tginetwork.org/
+    title: TGI Network of RI
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"

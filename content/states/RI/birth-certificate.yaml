@@ -1,0 +1,220 @@
+guide_type: birth_certificate
+jurisdiction: RI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Sex-field rule read in 216-RICR-10-10-1 § 1.37(E)(5) and (F) on rules.sos.ri.gov; fees and the in-person
+    self-attestation requirement from RIDOH's "Requirements and Fees for Changes" PDF (health.ri.gov file, fetched
+    2026-09-24; RIDOH's HTML pages block automated access). Open items: (1) RIDOH's PDF says you must come to the
+    office to self-attest, while Namesake describes a mail option in which the office emails an affidavit you get
+    notarized; A4TE says in-person appointment. Confirm whether mail is currently allowed. (2) The $18 fee for each
+    additional copy is from Namesake, not RIDOH. (3) Processing time of 3 to 4 weeks is from A4TE. (4) The RIDOH PDF
+    says the sex-field option dates from October 1, 2019; the regulation's current version is effective 01/04/2022.
+    (5) Confirm whether a court-ordered name change still issues a certificate marked "amended" (per § 23-3-21(b) and
+    Namesake) and whether the original is retained.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Rhode Island, you can change the sex on your birth certificate to M, F, or X by signing an
+    affidavit at the state Office of Vital Records. No medical documentation or court order is needed, and the change
+    is not marked as amended. Changing the name requires a certified court order. Fees are $10 plus $22 to $25 for the
+    new copy.
+  es: >-
+    Si naciste en Rhode Island, puedes cambiar el sexo en tu acta de nacimiento a M, F o X firmando una declaración
+    jurada en la Oficina Estatal de Registros Vitales. No se necesita documentación médica ni orden judicial, y el
+    cambio no se marca como enmienda. Cambiar el nombre requiere una orden judicial certificada. Las tarifas son $10
+    más $22 a $25 por la nueva copia.
+summary:
+  en: |
+    Rhode Island's vital records regulation (216-RICR-10-10-1 § 1.37) tells the State Registrar to change the sex on a birth certificate, **without indicating the change**, when you sign an affidavit. RIDOH offers **M, F, or X**. No doctor's letter, surgery, or court order is required.
+
+    RIDOH says you come to the **Office of Vital Records** (Simpson Hall, 6 Harrington Rd, Cranston) so staff can prepare the affidavit for you to sign. Bring a government photo ID. Call 401-222-5339 to book an appointment.
+
+    To change the **name**, you need a certified court order changing your name (R.I. Gen. Laws § 23-3-21(c)). A name change **is** marked as amended on the certificate; a sex change is not.
+
+    **Important:** once an item has been amended, it cannot be amended again without a court order. Be sure of the marker you choose.
+
+    This process only applies if you were **born in Rhode Island**. If you were born elsewhere, follow your birth state's rules.
+  es: |
+    La norma de registros vitales de Rhode Island (216-RICR-10-10-1 § 1.37) indica al Registrador Estatal que cambie el sexo en un acta de nacimiento, **sin indicar el cambio**, cuando firmas una declaración jurada. RIDOH ofrece **M, F o X**. No se requiere carta médica, cirugía ni orden judicial.
+
+    RIDOH indica que acudas a la **Oficina de Registros Vitales** (Simpson Hall, 6 Harrington Rd, Cranston) para que el personal prepare la declaración jurada que firmarás. Lleva una identificación oficial con foto. Llama al 401-222-5339 para pedir cita.
+
+    Para cambiar el **nombre**, necesitas una orden judicial certificada de cambio de nombre (R.I. Gen. Laws § 23-3-21(c)). El cambio de nombre **sí** se marca como enmienda en el acta; el cambio de sexo no.
+
+    **Importante:** una vez que un dato se ha enmendado, no se puede volver a enmendar sin una orden judicial. Asegúrate del marcador que eliges.
+
+    Este proceso solo aplica si **naciste en Rhode Island**. Si naciste en otro lugar, sigue las reglas de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Rhode Island. You do not have to live in Rhode Island now; RIDOH accepts name-change orders from courts in your current state.
+    es: Debes haber nacido en Rhode Island. No necesitas vivir en Rhode Island ahora; RIDOH acepta órdenes de cambio de nombre de tribunales de tu estado actual.
+  age:
+    en: Any age. For someone under 18, a parent, legal guardian, or legal representative signs the affidavit.
+    es: Cualquier edad. Para menores de 18, firma la declaración jurada un padre, madre, tutor legal o representante legal.
+  sources: [ridoh-amend, ricr-vital, a4te-ri]
+steps:
+  - id: court-order
+    title:
+      en: If changing your name, get a certified court order first
+      es: Si cambias tu nombre, obtén primero una orden judicial certificada
+    body:
+      en: Rhode Island residents use a probate court decree from their city or town (see the name change guide). For children, a Family Court order is also accepted.
+    applies_to: [name_change]
+    sources: [ridoh-amend, rigl-23-3-21]
+  - id: appointment
+    title:
+      en: Book an appointment at the Office of Vital Records
+      es: Pide cita en la Oficina de Registros Vitales
+    body:
+      en: |
+        Call 401-222-5339. Tell staff you are changing the sex on your birth certificate and, if applicable, your name. The office is at Simpson Hall, 6 Harrington Rd, Cranston, RI 02920, open weekdays 7:30 am to 3:30 pm.
+
+        If you cannot come in person, ask whether they can send you the affidavit to sign before a notary and mail back; Namesake reports this is possible.
+    sources: [ridoh-amend, namesake-bc, a4te-ri]
+  - id: sign
+    title:
+      en: Sign the affidavit and pay
+      es: Firma la declaración jurada y paga
+    body:
+      en: |
+        Bring a government photo ID (driver's license, passport, military ID, naturalization certificate, or green card), the certified court order if changing your name, and a check or money order payable to "General Treasurer, State of Rhode Island". Staff prepare the affidavit; you sign it choosing M, F, or X.
+    fees: [amendment, copy-in-person, copy-mail, extra-copy]
+    sources: [ridoh-amend, namesake-bc]
+  - id: receive
+    title:
+      en: Receive the new certificate by mail
+      es: Recibe la nueva acta por correo
+    body:
+      en: The certificate is mailed to you, usually in about 3 to 4 weeks. The sex field is not marked as amended; a changed name is.
+    estimated_time:
+      en: 3 to 4 weeks
+      es: 3 a 4 semanas
+    sources: [a4te-ri, ricr-vital, namesake-bc]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee
+      es: Tarifa de enmienda
+    amount: 10
+    sources: [ridoh-amend]
+  - id: copy-in-person
+    label:
+      en: Certified copy of the new record, in person
+      es: Copia certificada del nuevo registro, en persona
+    amount: 22
+    sources: [ridoh-amend]
+  - id: copy-mail
+    label:
+      en: Certified copy of the new record, by mail
+      es: Copia certificada del nuevo registro, por correo
+    amount: 25
+    sources: [ridoh-amend]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 18
+    note:
+      en: Reported by Namesake; not on RIDOH's fee sheet.
+      es: Indicado por Namesake; no aparece en la hoja de tarifas de RIDOH.
+    sources: [namesake-bc]
+minors:
+  summary:
+    en: People of any age can change the sex field. For a minor, a parent, legal guardian, or legal representative signs the affidavit.
+    es: Personas de cualquier edad pueden cambiar el campo de sexo. Para un menor, firma la declaración jurada un padre, madre, tutor legal o representante legal.
+  sources: [ridoh-amend, ricr-vital]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: RIDOH's guidance says to come in person to self-attest. Name-only changes can be mailed with a certified court order. Namesake reports that the office will email or mail a sex-change affidavit on request for notarizing and mailing back.
+    es: La guía de RIDOH dice que acudas en persona para declarar. Los cambios solo de nombre pueden enviarse por correo con una orden judicial certificada. Namesake indica que la oficina envía por correo electrónico o postal la declaración de cambio de sexo si la pides, para notarizarla y devolverla.
+  sources: [ridoh-amend, namesake-bc]
+timeline:
+  en: About 3 to 4 weeks after your application.
+  es: Unas 3 a 4 semanas después de tu solicitud.
+after:
+  en: Use your updated birth certificate as proof of identity for your passport and other records. Most agencies do not require it, so this step is optional for many people.
+  es: Usa tu acta de nacimiento actualizada como prueba de identidad para tu pasaporte y otros registros. La mayoría de las agencias no la exigen, así que este paso es opcional para muchas personas.
+tips:
+  - en: Choose your marker carefully. After one amendment, a further change needs a court order.
+    es: Elige tu marcador con cuidado. Después de una enmienda, otro cambio requiere una orden judicial.
+  - en: If you were born in Rhode Island, list your birth-certificate name on your probate petition so the decree covers the birth record.
+    es: Si naciste en Rhode Island, indica en tu petición el nombre para el acta de nacimiento para que el decreto cubra ese registro.
+local_help:
+  - id: namesake
+    org: namesake
+    name: Namesake, Rhode Island Birth Certificate guide
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free step-by-step guide to amending a Rhode Island birth certificate, in person or by mail.
+      es: Guía gratuita paso a paso para enmendar un acta de nacimiento de Rhode Island, en persona o por correo.
+    url: https://namesake.fyi/guides/ri/birth-certificate
+    cost: free
+    verification: org_website
+    sources: [namesake-bc]
+statutes:
+  - cite: R.I. Gen. Laws § 23-3-21
+    title:
+      en: Correction and amendment of vital records
+      es: Corrección y enmienda de registros vitales
+    url: https://webserver.rilegislature.gov/Statutes/TITLE23/23-3/23-3-21.htm
+  - cite: 216-RICR-10-10-1 § 1.37
+    title:
+      en: Vital records regulation, corrections to sex on the birth certificate
+      es: Norma de registros vitales, correcciones del sexo en el acta de nacimiento
+    url: https://rules.sos.ri.gov/regulations/part/216-10-10-1
+related_links:
+  - title: Namesake, Rhode Island Birth Certificate
+    url: https://namesake.fyi/guides/ri/birth-certificate
+  - title: A4TE, Rhode Island Identity Documents
+    url: https://transequality.org/documents/rhode-island-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizado por última vez en enero de 2026.
+sources:
+  - id: ridoh-amend
+    url: https://health.ri.gov/sites/g/files/xkgbur1006/files/2025-01/RI-Vital-Records-Correction-and-Amendment-Requirements.pdf
+    title: Requirements and Fees for Changes to Birth, Marriage, or Death Records
+    publisher: Rhode Island Department of Health, Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: The person who wants to change their birth certificate must come to the Office of Vital Records to self-attest, so staff can create an affidavit
+  - id: ricr-vital
+    url: https://rules.sos.ri.gov/regulations/part/216-10-10-1
+    title: 216-RICR-10-10-1, Vital Records
+    publisher: Rhode Island Department of Health
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: the State Registrar shall change the certificate of birth to reflect the new sex designation, without indicating such change, upon receipt of an affidavit
+  - id: rigl-23-3-21
+    url: https://webserver.rilegislature.gov/Statutes/TITLE23/23-3/23-3-21.htm
+    title: R.I. Gen. Laws § 23-3-21, Correction and amendment of vital records
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of a court order changing the name of a person born in this state ... the state registrar of vital records shall amend the certificate of birth to reflect the new name.
+  - id: namesake-bc
+    url: https://namesake.fyi/guides/ri/birth-certificate
+    title: Rhode Island Birth Certificate
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender markers will not be specifically marked as amended when changed.
+  - id: a4te-ri
+    url: https://transequality.org/documents/rhode-island-identity-documents
+    title: Rhode Island Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: It will take 3-4 weeks to process your amendment request.

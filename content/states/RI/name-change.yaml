@@ -1,0 +1,431 @@
+guide_type: name_change
+jurisdiction: RI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (R.I. Gen. Laws § 33-22-28, amended by P.L. 2024 ch. 163/165) and the Providence Probate Court's own
+    instructions and fee ($39 including one certified copy, $5 per extra copy) were read directly on 2026-09-24. Open
+    items for the reviewer: (1) filing fees for the other 38 city/town probate courts are not published centrally;
+    the $40 to $50 range comes from Namesake; (2) the $5 BCI background-check fee and mail-in process come from
+    Namesake because riag.ri.gov blocks automated access; (3) the fee-waiver ("affidavit of indigency") form is not
+    posted online, so no form URL is given; (4) the 6-month residency requirement is stated by Namesake and implied by
+    Providence's proof-of-address instructions but is not in § 33-22-28, confirm with a court; (5) minors: A4TE says all
+    legal parents must be notified and RIDOH says Family Court orders are accepted for children, but no statute on
+    minors' name changes was located; (6) Namesake says people with a criminal record may need to file in Superior
+    Court instead; not confirmed with a court. A4TE's Rhode Island page (last updated January 2026) agrees on no
+    publication, a background check, a hearing, and sealing for trans petitioners.
+status: available
+status_summary:
+  en: >-
+    Rhode Island adults can change their name for any reason except fraud by petitioning the probate court of the city
+    or town where they live. There is no newspaper publication, and the court must seal the record if an open record
+    would put you at risk, including because you are transgender. Most courts want a background check and hold a
+    short hearing.
+  es: >-
+    En Rhode Island, las personas adultas pueden cambiar su nombre por cualquier motivo que no sea fraude presentando
+    una petición ante el tribunal de sucesiones (probate court) de la ciudad o pueblo donde viven. No hay publicación
+    en periódico, y el tribunal debe sellar el expediente si un expediente abierto te pondría en riesgo, incluso por
+    ser transgénero. La mayoría de los tribunales piden una verificación de antecedentes y hacen una audiencia breve.
+summary:
+  en: |
+    In Rhode Island, name changes are handled by the **probate court of your city or town** (every city and town has its own; Providence's is on the fifth floor of City Hall). Under R.I. Gen. Laws § 33-22-28, the court **must grant** the change unless it is sought for fraud, **may not require publication or public notice**, and may require a criminal background check.
+
+    You fill out one form, the statewide **PC-8.1 Change of Name** petition, sign it in front of a notary, and file it with a certified copy of your birth certificate, proof of address, and a background check (BCI) report. The court then schedules a short hearing, usually within a couple of weeks. Fees are low: Providence charges **$39**, which includes one certified copy.
+
+    Since 2024 the law also says the court **shall seal** the record, on your request, if an open record would jeopardize your safety, and it must consider the risk of violence or discrimination you face as a transgender person. You do not need to show past threats.
+
+    The easiest way to prepare the paperwork is **Namesake** (namesake.fyi), a free tool that fills out the Rhode Island forms and walks you through each step.
+  es: |
+    En Rhode Island, los cambios de nombre los tramita el **tribunal de sucesiones (probate court) de tu ciudad o pueblo** (cada ciudad y pueblo tiene el suyo; el de Providence está en el quinto piso del Ayuntamiento). Según la ley R.I. Gen. Laws § 33-22-28, el tribunal **debe conceder** el cambio salvo que sea por fraude, **no puede exigir publicación ni aviso público** y puede exigir una verificación de antecedentes penales.
+
+    Llenas un solo formulario, la petición estatal **PC-8.1 Change of Name**, la firmas ante un notario y la presentas con una copia certificada de tu acta de nacimiento, prueba de domicilio y un informe de antecedentes (BCI). Luego el tribunal programa una audiencia breve, normalmente en un par de semanas. Las tarifas son bajas: Providence cobra **$39**, que incluye una copia certificada.
+
+    Desde 2024 la ley también dice que el tribunal **debe sellar** el expediente, si lo pides, cuando un expediente abierto pondría en peligro tu seguridad, y debe considerar el riesgo de violencia o discriminación que enfrentas como persona transgénero. No necesitas demostrar amenazas previas.
+
+    La forma más fácil de preparar los documentos es **Namesake** (namesake.fyi), una herramienta gratuita que llena los formularios de Rhode Island y te guía paso a paso.
+eligibility:
+  residency:
+    en: File in the probate court of the city or town where you live. Courts ask for proof of address; Namesake and the Providence court's instructions indicate about 6 months of residence. A shelter address can be used.
+    es: Presenta la petición en el tribunal de sucesiones de la ciudad o pueblo donde vives. Los tribunales piden prueba de domicilio; Namesake y las instrucciones del tribunal de Providence indican unos 6 meses de residencia. Se puede usar la dirección de un refugio.
+  age:
+    en: 18 or older for the adult process. A parent or guardian petitions for a minor; see the Minors section.
+    es: 18 años o más para el proceso de adultos. Un padre, madre o tutor presenta la petición para un menor; ver la sección Menores.
+  criminal_history:
+    en: A criminal record does not bar a name change. The court may require a background check, and Namesake reports that people with a record may be directed to Superior Court instead of probate court.
+    es: Tener antecedentes penales no impide el cambio de nombre. El tribunal puede exigir una verificación de antecedentes, y Namesake indica que a las personas con antecedentes se les puede remitir al Tribunal Superior en lugar del tribunal de sucesiones.
+  sources: [rigl-33-22-28, rigl-8-9-9, pvd-instructions, namesake-court-order]
+forms:
+  - id: PC-8.1
+    name:
+      en: Change of Name petition and decree (Probate Court form PC-8.1)
+      es: Petición y decreto de cambio de nombre (formulario PC-8.1 del tribunal de sucesiones)
+    url: https://www.providenceri.gov/wp-content/uploads/2019/04/PC8.1-change-of-name.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Reason for Name Change**: the form says "be specific", but the law requires the court to grant any change not sought for fraud. "To match my gender identity" is fine; Namesake notes that "preferred name" or "more aligned with who I am" also works if you would rather not mention being trans.
+        - **If applicable, the name on the birth record should be changed to**: fill this in if you were born in Rhode Island and want your birth certificate updated too.
+        - List every address you have lived at as the form asks, and attach any earlier name-change order.
+        - **Do not sign** until you are in front of a notary. Providence requires a wet-ink signature; electronic notarization is not accepted.
+        - The second page is the decree the judge signs. Leave it blank.
+        - To ask for sealing, tell the clerk when you file; Namesake reports that courts use a separate miscellaneous petition for this (see Confidentiality).
+    sources: [pc-8-1, pvd-instructions, namesake-court-order]
+steps:
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - A **certified copy of your birth certificate** (from the state where you were born).
+        - **Proof of address** in your city or town: a Rhode Island ID showing the address, or a utility bill or lease going back about 6 months.
+        - Any earlier name-change order.
+        - A valid photo ID for the notary.
+    sources: [pvd-instructions, namesake-court-order]
+  - id: background-check
+    title:
+      en: Get a BCI background check from the Attorney General
+      es: Obtén una verificación de antecedentes (BCI) de la Fiscalía General
+    body:
+      en: |
+        Most probate courts want an original background check (BCI report) from the Rhode Island Attorney General's Bureau of Criminal Identification, 4 Howard Ave, Cranston. Providence requires one **no older than 60 days**.
+
+        You can go in person (weekdays 8:30 am to 4:30 pm) or mail a notarized authorization, a copy of your photo ID, a **$5** check or money order payable to "BCI", and a stamped return envelope. Results by mail take about 1 to 3 weeks. Ask your court whether it runs the check itself.
+    fees: [bci]
+    estimated_time:
+      en: same day in person; 1 to 3 weeks by mail
+      es: el mismo día en persona; 1 a 3 semanas por correo
+    sources: [pvd-instructions, namesake-court-order, rigl-33-22-28]
+  - id: fill-and-notarize
+    title:
+      en: Fill out PC-8.1 and sign it before a notary
+      es: Llena el PC-8.1 y fírmalo ante un notario
+    body:
+      en: Namesake can fill the form for you. Banks, some libraries, and UPS stores offer notary service, often free or about $10.
+    forms: [PC-8.1]
+    sources: [namesake-court-order, pc-8-1]
+  - id: file
+    title:
+      en: File at your city or town probate court
+      es: Presenta la petición en el tribunal de sucesiones de tu ciudad o pueblo
+    body:
+      en: |
+        Bring or mail the petition, birth certificate, proof of address, and BCI report to the probate court where you live, with the filing fee (check or money order in Providence). If you cannot afford the fee, ask the clerk for an affidavit of indigency; the law lets the court waive or reduce costs.
+
+        If you want the record sealed, ask when you file.
+    fees: [filing]
+    sources: [rigl-33-22-28, rigl-8-9-9, pvd-instructions, namesake-court-order]
+  - id: hearing
+    title:
+      en: Go to your hearing
+      es: Asiste a tu audiencia
+    body:
+      en: |
+        The court gives you a date, usually within about two weeks. Providence hears name changes on Tuesdays and Thursdays at 10 am and usually takes them first. The judge may ask a question or two; the law says the change must be granted unless it is for fraud. If you asked for sealing, the court may call you last for privacy.
+    estimated_time:
+      en: about 2 weeks after filing
+      es: unas 2 semanas después de presentar
+    sources: [pvd-instructions, namesake-court-order, rigl-33-22-28]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the decree
+      es: Obtén copias certificadas del decreto
+    body:
+      en: Get several certified copies; Social Security, the DMV, the passport agency, and banks each want one. Providence includes one and charges $5 for each extra copy.
+    fees: [certified-copies]
+    sources: [pvd-instructions]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). Wait at least 24 hours before going to the DMV.
+        2. **DMV** license or ID (see the driver's license guide).
+        3. **Birth certificate** if you were born in Rhode Island (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+    sources: [namesake-state-id]
+fees:
+  - id: filing
+    label:
+      en: Probate court filing fee (includes one certified copy in Providence)
+      es: Tarifa de presentación en el tribunal de sucesiones (en Providence incluye una copia certificada)
+    min: 39
+    max: 50
+    varies_by: court
+    waivable: true
+    note:
+      en: Providence charges $39. Namesake reports about $40 to $50 at other probate courts and about $130 in Superior Court.
+      es: Providence cobra $39. Namesake indica entre $40 y $50 en otros tribunales de sucesiones y unos $130 en el Tribunal Superior.
+    sources: [pvd-instructions, namesake-court-order, rigl-33-22-28]
+  - id: bci
+    label:
+      en: BCI background check (Attorney General)
+      es: Verificación de antecedentes BCI (Fiscalía General)
+    amount: 5
+    note:
+      en: Fee reported by Namesake for mail requests; confirm with the Attorney General's office.
+      es: Tarifa indicada por Namesake para solicitudes por correo; confírmala con la Fiscalía General.
+    sources: [namesake-court-order]
+  - id: certified-copies
+    label:
+      en: Extra certified copy of the decree (Providence, each)
+      es: Copia certificada adicional del decreto (Providence, cada una)
+    amount: 5
+    varies_by: court
+    sources: [pvd-instructions]
+fee_waiver:
+  available: true
+  eligibility:
+    en: The law says court costs may be waived or reduced if you are indigent or show a limited ability to pay.
+    es: La ley dice que los costos judiciales pueden eximirse o reducirse si eres indigente o demuestras una capacidad limitada de pago.
+  how:
+    en: Ask the probate court clerk for an affidavit of indigency and file it with your petition. MTPC's Identity Document Assistance network may also help pay or reimburse fees for New England residents.
+    es: Pide al secretario del tribunal de sucesiones una declaración jurada de indigencia (affidavit of indigency) y preséntala con tu petición. La red de asistencia de MTPC también puede ayudar a pagar o reembolsar tarifas a residentes de Nueva Inglaterra.
+  sources: [rigl-33-22-28, namesake-court-order, mtpc-ida]
+publication:
+  required: "no"
+  detail:
+    en: Since June 17, 2024, the law forbids courts from requiring public notice or publication before approving an adult's name change.
+    es: Desde el 17 de junio de 2024, la ley prohíbe a los tribunales exigir aviso público o publicación antes de aprobar el cambio de nombre de un adulto.
+  sources: [rigl-33-22-28]
+hearing:
+  required: "yes"
+  detail:
+    en: Probate courts generally hold a short hearing. The PC-8.1 decree is entered "upon hearing". Providence holds name-change hearings Tuesdays and Thursdays at 10 am.
+    es: Los tribunales de sucesiones generalmente hacen una audiencia breve. El decreto del PC-8.1 se dicta "tras audiencia". Providence hace audiencias de cambio de nombre los martes y jueves a las 10 am.
+  sources: [pc-8-1, pvd-instructions]
+background_check:
+  required: conditional
+  detail:
+    en: The law lets the court require a criminal history check, and most probate courts do, including Providence. It is a name-based state BCI report from the Attorney General, not a fingerprint submission to the court.
+    es: La ley permite al tribunal exigir una verificación de antecedentes penales, y la mayoría de los tribunales de sucesiones lo hacen, incluido Providence. Es un informe estatal BCI de la Fiscalía General, no un envío de huellas al tribunal.
+  sources: [rigl-33-22-28, pvd-instructions]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      Name-change records are public by default. Under § 33-22-28(g), the court **shall** seal the record, including docket entries, at your request or on its own, if an open record would jeopardize your safety based on the totality of the circumstances. The court must consider the risk of violence or discrimination, **including your status as transgender**, and may not deny sealing only because you have no history of specific threats.
+    es: |
+      Los expedientes de cambio de nombre son públicos por defecto. Según § 33-22-28(g), el tribunal **debe** sellar el expediente, incluidas las entradas del registro, si lo pides o por iniciativa propia, cuando un expediente abierto pondría en peligro tu seguridad según la totalidad de las circunstancias. El tribunal debe considerar el riesgo de violencia o discriminación, **incluida tu condición de persona transgénero**, y no puede negar el sellado solo porque no tengas antecedentes de amenazas concretas.
+  how:
+    en: Ask the clerk when you file. Namesake reports courts use a miscellaneous petition stating "I request the court seal the record on this case due to" your safety concern; cite R.I. Gen. Laws § 33-22-28(g).
+    es: Pídelo al secretario al presentar. Namesake indica que los tribunales usan una petición miscelánea que diga "solicito que el tribunal selle el expediente de este caso debido a" tu preocupación de seguridad; cita R.I. Gen. Laws § 33-22-28(g).
+  sources: [rigl-33-22-28, namesake-court-order]
+minors:
+  summary:
+    en: |
+      A parent or guardian files the PC-8.1 petition for a child. A4TE reports that all known legal parents must be notified: both can sign as petitioners, the other parent can file a consent, or a parent who does not consent must be formally served. The judge decides based on the child's best interests. RIDOH also accepts a Family Court name-change order for children under 18. Call your probate court or Family Court (401-458-3100) for local forms.
+    es: |
+      Un padre, madre o tutor presenta la petición PC-8.1 por el menor. A4TE indica que se debe notificar a todos los padres legales conocidos: ambos pueden firmar como peticionarios, el otro puede presentar su consentimiento, o se debe notificar formalmente al padre o madre que no consienta. El juez decide según el interés superior del menor. RIDOH también acepta una orden de cambio de nombre del Tribunal de Familia para menores de 18. Llama a tu tribunal de sucesiones o al Tribunal de Familia (401-458-3100) para los formularios locales.
+  forms: [PC-8.1]
+  sources: [a4te-ri, ridoh-amend]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Providence accepts filings in person or by mail (25 Dorrance St, Room 501, Providence, RI 02903, Attn. name change). You must attend the hearing in person.
+    es: Providence acepta la presentación en persona o por correo (25 Dorrance St, Room 501, Providence, RI 02903, Attn. name change). Debes asistir a la audiencia en persona.
+  sources: [pvd-instructions]
+timeline:
+  en: About 2 to 5 weeks from start to finish, including the background check (same day in person, 1 to 3 weeks by mail) and a hearing about two weeks after filing.
+  es: Entre 2 y 5 semanas en total, incluida la verificación de antecedentes (el mismo día en persona, 1 a 3 semanas por correo) y una audiencia unas dos semanas después de presentar.
+after:
+  en: |
+    With your certified decree: update **Social Security** first, wait 24 hours, then the **DMV**, then your **Rhode Island birth certificate** (if born here), then your **passport**, bank, employer, and insurance. Namesake has Rhode Island guides for each state step.
+  es: |
+    Con tu decreto certificado: actualiza primero el **Seguro Social**, espera 24 horas, luego el **DMV**, después tu **acta de nacimiento de Rhode Island** (si naciste aquí), y luego tu **pasaporte**, banco, empleador y seguro. Namesake tiene guías de Rhode Island para cada paso estatal.
+tips:
+  - en: You do not have to say you are trans on the petition. The court must grant any change that is not for fraud.
+    es: No tienes que decir que eres trans en la petición. El tribunal debe conceder cualquier cambio que no sea por fraude.
+  - en: Order extra certified copies when the decree is signed; it is cheaper and faster than coming back.
+    es: Pide copias certificadas adicionales cuando se firme el decreto; es más barato y rápido que regresar.
+  - en: If you were born in Rhode Island, fill in the "name on the birth record should be changed to" line so the same decree covers your birth certificate.
+    es: Si naciste en Rhode Island, llena la línea "el nombre en el registro de nacimiento debe cambiarse a" para que el mismo decreto sirva para tu acta de nacimiento.
+local_help:
+  - id: namesake
+    org: namesake
+    name: Namesake
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free tool that fills out the Rhode Island court petition and walks you through the BCI check, filing, hearing, DMV, and birth certificate. Community chat on Discord.
+      es: Herramienta gratuita que llena la petición judicial de Rhode Island y te guía por la verificación BCI, la presentación, la audiencia, el DMV y el acta de nacimiento. Chat comunitario en Discord.
+    url: https://namesake.fyi/guides/ri/court-order
+    cost: free
+    verification: org_website
+    sources: [namesake-court-order]
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal assistance with name and gender marker changes for people living in New England, with pro bono law firm partners. Online intake form; GLAD Law Answers at 800-455-GLAD.
+      es: Asistencia legal gratuita con cambios de nombre y marcador de género para personas que viven en Nueva Inglaterra, con bufetes asociados pro bono. Formulario de admisión en línea; GLAD Law Answers al 800-455-GLAD.
+    url: https://www.gladlaw.org/ID/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+  - id: project-weber-renew
+    name: Project Weber/RENEW
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Peer-led harm reduction organization in Providence that helps organize name change clinics in Rhode Island and supports people seeking sealed records because of safety concerns.
+      es: Organización de reducción de daños dirigida por pares en Providence que ayuda a organizar clínicas de cambio de nombre en Rhode Island y apoya a quienes buscan sellar expedientes por motivos de seguridad.
+    url: https://weberrenew.org/
+    cost: free
+    verification: community_reported
+    sources: [namesake-blog, namesake-court-order]
+  - id: tgi-network-docs
+    name: TGI Network of Rhode Island, Documentation Changes guide
+    type: lgbtq_center
+    pillars: [name_change, gender_marker]
+    description:
+      en: Self-help guide to name and document changes in Rhode Island, plus peer support groups.
+      es: Guía de autoayuda para cambios de nombre y documentos en Rhode Island, además de grupos de apoyo entre pares.
+    url: https://www.tginetwork.org/resources/documentation-changes
+    cost: free
+    verification: org_website
+    sources: [tgi-docs]
+  - id: mtpc-ida
+    name: MTPC Identity Document Assistance Network
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Guidance and financial assistance for trans, nonbinary, and gender-expansive people in New England updating their name or gender on documents. Not legal representation.
+      es: Orientación y ayuda económica para personas trans, no binarias y de género expansivo en Nueva Inglaterra que actualizan su nombre o género en documentos. No es representación legal.
+    url: https://www.masstpc.org/our-programs/ida-network/
+    cost: free
+    verification: org_website
+    sources: [mtpc-ida]
+  - id: rils
+    name: Rhode Island Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide civil legal aid for low-income Rhode Islanders, with offices in Providence and Newport. Whether it currently takes name-change cases was not confirmed; call to ask.
+      es: Asistencia legal civil en todo el estado para personas de bajos ingresos, con oficinas en Providence y Newport. No se confirmó si actualmente acepta casos de cambio de nombre; llama para preguntar.
+    url: https://www.rils.org/
+    phone: "401-274-2652"
+    address: 56 Pine St, 4th Floor, Providence, RI 02903
+    cost: free
+    verification: org_website
+    sources: [rils]
+statutes:
+  - cite: R.I. Gen. Laws § 33-22-28
+    title:
+      en: Name change (grant unless fraud; no publication; sealing; fee waiver)
+      es: Cambio de nombre (se concede salvo fraude; sin publicación; sellado; exención de tarifas)
+    url: https://webserver.rilegislature.gov/Statutes/TITLE33/33-22/33-22-28.htm
+  - cite: R.I. Gen. Laws § 8-9-9
+    title:
+      en: Probate court jurisdiction over change of names
+      es: Competencia del tribunal de sucesiones sobre cambios de nombre
+    url: https://webserver.rilegislature.gov/Statutes/TITLE8/8-9/8-9-9.htm
+related_links:
+  - title: Namesake, Rhode Island court order guide
+    url: https://namesake.fyi/guides/ri/court-order
+    note:
+      en: Free step-by-step guide and form filler, last modified July 2026.
+      es: Guía gratuita paso a paso y llenado de formularios, modificada por última vez en julio de 2026.
+  - title: A4TE, Rhode Island Identity Documents
+    url: https://transequality.org/documents/rhode-island-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizado por última vez en enero de 2026.
+  - title: TransVoteRI, How to Change Your ID Documents in Rhode Island
+    url: https://www.transvoteri.com/id-documents
+sources:
+  - id: rigl-33-22-28
+    url: https://webserver.rilegislature.gov/Statutes/TITLE33/33-22/33-22-28.htm
+    title: R.I. Gen. Laws § 33-22-28, Name change
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The change of name of a person shall be granted unless such change is sought for fraudulent purposes.
+  - id: rigl-8-9-9
+    url: https://webserver.rilegislature.gov/Statutes/TITLE8/8-9/8-9-9.htm
+    title: R.I. Gen. Laws § 8-9-9, General probate jurisdiction
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Every probate court shall have jurisdiction in the town or city in which it is established ... of change of names of persons
+  - id: pc-8-1
+    url: https://www.providenceri.gov/wp-content/uploads/2019/04/PC8.1-change-of-name.pdf
+    title: PC-8.1 Change of Name (Rev. 07/17)
+    publisher: Rhode Island Probate Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: Attach certified copy of the original birth certificate and BCI report.
+  - id: pvd-instructions
+    url: https://www.providenceri.gov/wp-content/uploads/2025/08/name-change-instructions.pdf
+    title: Instructions for Name Changes
+    publisher: Providence Probate Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Fee: $39.00 check or money order. This includes 1 certified copy of the name change. Additional copies are $5.00 each"
+  - id: namesake-court-order
+    url: https://namesake.fyi/guides/ri/court-order
+    title: Rhode Island Court Order
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Filing costs vary from court to court, but are around $40-50 for Probate Court, and $130 for Superior Court.
+  - id: namesake-state-id
+    url: https://namesake.fyi/guides/ri/state-id
+    title: Rhode Island State ID
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Wait at least 24 hours for changes at Social Security to become effective.
+  - id: namesake-blog
+    url: https://namesake.fyi/blog/supporting-rhode-island
+    title: Rhode Island support, easier contribution, and a Pride fundraiser
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Jinwoo Pang at Project WEBER/Renew, who helps organize name change clinics in Rhode Island
+  - id: a4te-ri
+    url: https://transequality.org/documents/rhode-island-identity-documents
+    title: Rhode Island Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Notification of all known and legal parents is required to grant a minor name change.
+  - id: ridoh-amend
+    url: https://health.ri.gov/sites/g/files/xkgbur1006/files/2025-01/RI-Vital-Records-Correction-and-Amendment-Requirements.pdf
+    title: Requirements and Fees for Changes to Birth, Marriage, or Death Records
+    publisher: Rhode Island Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: A Family Court order is acceptable for children younger than 18.
+  - id: glad-id
+    url: https://www.gladlaw.org/ID/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: tgi-docs
+    url: https://www.tginetwork.org/resources/documentation-changes
+    title: Documentation Changes
+    publisher: TGI Network of RI
+    kind: org
+    accessed: "2026-09-24"
+  - id: mtpc-ida
+    url: https://www.masstpc.org/our-programs/ida-network/
+    title: Identity Document Assistance (IDA) Network
+    publisher: Massachusetts Transgender Political Coalition
+    kind: org
+    accessed: "2026-09-24"
+  - id: rils
+    url: https://www.rils.org/
+    title: Rhode Island Legal Services
+    kind: org
+    accessed: "2026-09-24"

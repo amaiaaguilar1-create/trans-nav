@@ -1,0 +1,196 @@
+guide_type: drivers_license
+jurisdiction: RI
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    dmv.ri.gov blocks automated access (Cloudflare 403 on every page and form PDF), so the gender designation policy,
+    form links, and in-person requirement come from A4TE (updated January 2026) and Namesake (2026), which agree:
+    self-attestation, M, F, or X, no medical documentation, in person. The $25 fee for a name change or duplicate is
+    from R.I. Gen. Laws § 31-10-31(6); Namesake reports $28.50 at the counter, probably including surcharges, which
+    was not confirmed. Reviewer: open the Gender Designation form (dmv.ri.gov/media/41) to confirm its exact title and
+    whether it has a form number, confirm the ID-card update fee (may differ from the license fee), and confirm the
+    governing DMV regulation citation (not located on rules.sos.ri.gov). No 2025-2026 law changes were found.
+status: available
+name_change_status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+status_summary:
+  en: >-
+    You can change the gender on a Rhode Island driver's license or ID to M, F, or X by filling out the DMV's Gender
+    Designation form. No medical documentation is required. It must be done in person, and the update fee is about
+    $25 to $28.50.
+  es: >-
+    Puedes cambiar el género en tu licencia de conducir o ID de Rhode Island a M, F o X llenando el formulario de
+    Designación de Género del DMV. No se requiere documentación médica. Debe hacerse en persona y la tarifa de
+    actualización es de unos $25 a $28.50.
+summary:
+  en: |
+    The Rhode Island Division of Motor Vehicles updates the gender marker on a license or state ID based on **your own statement** of your gender. You fill out the **Gender Designation for License / Identification Card** form, choose M, F, or X, and bring it to a DMV office with the License/ID/Permit application (LI-1). No doctor's letter, court order, or amended birth certificate is needed.
+
+    To change your **name** on the card, first get your court decree and update Social Security, wait at least 24 hours, then go to the DMV with a certified copy of the decree. You can change your name and gender in the same visit.
+  es: |
+    La División de Vehículos Motorizados de Rhode Island actualiza el marcador de género en una licencia o ID estatal según **tu propia declaración** de género. Llenas el formulario **Gender Designation for License / Identification Card**, eliges M, F o X y lo llevas a una oficina del DMV con la solicitud de licencia/ID/permiso (LI-1). No se necesita carta médica, orden judicial ni acta de nacimiento enmendada.
+
+    Para cambiar tu **nombre** en la tarjeta, primero obtén tu decreto judicial y actualiza el Seguro Social, espera al menos 24 horas, y luego ve al DMV con una copia certificada del decreto. Puedes cambiar nombre y género en la misma visita.
+forms:
+  - id: gender-designation
+    name:
+      en: Gender Designation for License / Identification Card
+      es: Designación de género para licencia / tarjeta de identificación
+    url: https://dmv.ri.gov/media/41/download?language=en
+    required: conditional
+    condition:
+      en: Only if you are changing the gender marker.
+      es: Solo si cambias el marcador de género.
+    how_to_fill:
+      en: Check M, F, or X and sign. You are attesting to your own gender; no provider signature is needed.
+      es: Marca M, F o X y firma. Declaras tu propio género; no se necesita firma de un proveedor.
+    sources: [a4te-ri, namesake-state-id]
+  - id: LI-1
+    name:
+      en: License/ID/Permit Application
+      es: Solicitud de licencia/ID/permiso
+    url: https://dmv.ri.gov/media/391/download?language=en
+    required: always
+    how_to_fill:
+      en: The last page lists accepted proof-of-identity and proof-of-residency documents. Use your new legal name if you are changing it.
+      es: La última página enumera los documentos aceptados de identidad y residencia. Usa tu nuevo nombre legal si lo estás cambiando.
+    sources: [a4te-ri, namesake-state-id]
+steps:
+  - id: ssa-first
+    title:
+      en: If changing your name, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: The DMV checks your name against Social Security's records. Update your name with SSA using your certified court decree, then wait at least 24 hours. You do not need the new card in hand.
+    applies_to: [name_change]
+    sources: [namesake-state-id, a4te-ri]
+  - id: forms
+    title:
+      en: Fill out the forms
+      es: Llena los formularios
+    body:
+      en: Complete the LI-1 application and, to change your gender marker, the Gender Designation form.
+    forms: [LI-1, gender-designation]
+    sources: [a4te-ri, namesake-state-id]
+  - id: visit
+    title:
+      en: Visit a DMV office in person
+      es: Visita una oficina del DMV en persona
+    body:
+      en: |
+        Book an appointment and bring:
+        - Your completed forms.
+        - Your current license or ID.
+        - One proof of identity (for example a U.S. passport or certified birth certificate).
+        - Two proofs of Rhode Island residency (utility bill, bank statement, or lease dated within 60 days; a shelter letter on letterhead dated within 30 days also works).
+        - A certified copy of your name-change decree, if changing your name.
+        - Payment (cash, card, check, or money order).
+
+        A new photo is taken. DMV phone: 401-462-4368.
+    fees: [update]
+    applies_to: [in_person]
+    sources: [a4te-ri, namesake-state-id, rigl-31-10-31]
+fees:
+  - id: update
+    label:
+      en: Name change, information update, or duplicate license
+      es: Cambio de nombre, actualización de datos o duplicado de licencia
+    min: 25
+    max: 28.5
+    note:
+      en: The statutory fee is $25. Namesake reports a total of $28.50 at the counter. ID card and other license types may differ.
+      es: La tarifa legal es de $25. Namesake indica un total de $28.50 en la ventanilla. La tarjeta de ID y otros tipos de licencia pueden variar.
+    sources: [rigl-31-10-31, namesake-state-id]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and gender changes require an in-person DMV visit, preferably by appointment.
+    es: Los cambios de nombre y género requieren una visita en persona al DMV, preferiblemente con cita.
+  sources: [a4te-ri]
+timeline:
+  en: Done in one visit. Rhode Island mails the permanent card; ask at the counter how long it takes.
+  es: Se hace en una visita. Rhode Island envía la tarjeta permanente por correo; pregunta en la ventanilla cuánto tarda.
+after:
+  en: |
+    Update your **birth certificate** if you were born in Rhode Island, then your **passport**, bank, employer, and insurance. The federal passport sex field is currently frozen at the sex on your earlier records, but the name can be changed.
+  es: |
+    Actualiza tu **acta de nacimiento** si naciste en Rhode Island, y luego tu **pasaporte**, banco, empleador y seguro. El campo de sexo del pasaporte federal está congelado actualmente en el sexo de tus registros anteriores, pero el nombre sí se puede cambiar.
+tips:
+  - en: You can change both name and gender marker in a single DMV visit.
+    es: Puedes cambiar nombre y marcador de género en una sola visita al DMV.
+  - en: An X marker on your state card is valid in Rhode Island, but some federal agencies and other states may not recognize it.
+    es: Un marcador X en tu tarjeta estatal es válido en Rhode Island, pero algunas agencias federales y otros estados podrían no reconocerlo.
+local_help:
+  - id: namesake
+    org: namesake
+    name: Namesake, Rhode Island State ID guide
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free step-by-step guide to updating your Rhode Island license or ID, with a checklist of what to bring.
+      es: Guía gratuita paso a paso para actualizar tu licencia o ID de Rhode Island, con lista de lo que debes llevar.
+    url: https://namesake.fyi/guides/ri/state-id
+    cost: free
+    verification: org_website
+    sources: [namesake-state-id]
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: legal_aid
+    pillars: [gender_marker]
+    description:
+      en: Free help for New England residents updating name and gender on state and federal documents.
+      es: Ayuda gratuita para residentes de Nueva Inglaterra que actualizan nombre y género en documentos estatales y federales.
+    url: https://www.gladlaw.org/ID/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+statutes:
+  - cite: R.I. Gen. Laws § 31-10-31
+    title:
+      en: Driver's license fees
+      es: Tarifas de licencias de conducir
+    url: https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-31.htm
+related_links:
+  - title: Namesake, Rhode Island State ID
+    url: https://namesake.fyi/guides/ri/state-id
+  - title: A4TE, Rhode Island Identity Documents
+    url: https://transequality.org/documents/rhode-island-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizado por última vez en enero de 2026.
+sources:
+  - id: a4te-ri
+    url: https://transequality.org/documents/rhode-island-identity-documents
+    title: Rhode Island Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Rhode Island will update the gender marker on a DL/ID to M, F, or X upon self-attestation by the applicant of their gender. No medical documentation is required.
+  - id: namesake-state-id
+    url: https://namesake.fyi/guides/ri/state-id
+    title: Rhode Island State ID
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: The gender marker on your ID can be changed to M, F, or X. No medical documentation is required.
+  - id: rigl-31-10-31
+    url: https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-31.htm
+    title: R.I. Gen. Laws § 31-10-31, Fees
+    publisher: Rhode Island General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: For every duplicate operator's or chauffeur's license and every routine information update, i.e., name change or address change, twenty-five dollars ($25.00)
+  - id: glad-id
+    url: https://www.gladlaw.org/ID/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"

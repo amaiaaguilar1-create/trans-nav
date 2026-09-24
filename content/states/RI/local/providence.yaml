@@ -1,0 +1,247 @@
+jurisdiction: RI
+slug: providence
+name: Providence
+area:
+  en: City of Providence and the surrounding Providence County metro. Name changes are filed in the probate court of the city or town where you live, so residents of Cranston, Pawtucket, and other towns file in their own town's probate court.
+  es: Ciudad de Providence y el área metropolitana del condado de Providence. Los cambios de nombre se presentan en el tribunal de sucesiones de la ciudad o pueblo donde vives, así que los residentes de Cranston, Pawtucket y otros pueblos presentan en el tribunal de su propio pueblo.
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Providence Probate Court details (fee $39 including one certified copy, hearings Tuesdays and Thursdays at 10 am,
+    BCI report no older than 60 days, mail filing to Room 501) come from the court's own instructions PDF dated August
+    2025, read 2026-09-24. Clinic and org details come from each org's site the same day. Project Weber/RENEW's role in
+    name-change clinics comes from Namesake's blog, not Weber/RENEW's own site. Planned Parenthood's Providence health
+    center address was not confirmed and is omitted. Brown University Health's Gender and Sexuality Program page could
+    not be found and is omitted; reviewer should add it if still operating.
+intro:
+  en: >-
+    Providence is Rhode Island's hub for trans services. Name changes go through the Providence Probate Court at City
+    Hall for city residents. Open Door Health is the state's LGBTQ+ community health clinic, Youth Pride serves young
+    people, and TGI Network runs peer support groups. Free legal help is available from GLAD Law's Transgender ID
+    Project, and Namesake fills out the court forms for you.
+  es: >-
+    Providence es el centro de los servicios trans en Rhode Island. Los residentes de la ciudad tramitan su cambio de
+    nombre en el Tribunal de Sucesiones de Providence, en el Ayuntamiento. Open Door Health es la clínica comunitaria
+    LGBTQ+ del estado, Youth Pride atiende a jóvenes y TGI Network organiza grupos de apoyo entre pares. Hay ayuda
+    legal gratuita del Transgender ID Project de GLAD Law, y Namesake llena los formularios judiciales por ti.
+court:
+  name: Providence Probate Court
+  url: https://www.providenceri.gov/probate-court/
+  filing_fee: 39
+  notes:
+    en: |
+      Providence City Hall, 25 Dorrance St, 5th floor (Room 501), Providence, RI 02903. Phone 401-680-5000; email ProvidenceProbateCourt@providenceri.gov. File in person or by mail (Attn. name change) with: a copy of your birth certificate, a Rhode Island ID showing a Providence address (or a utility bill or lease going back 6 months), an original BCI report no older than 60 days, and the PC-8.1 petition notarized with a wet-ink signature (no electronic notary). The $39 fee (check or money order) includes one certified copy; extra copies are $5. Name-change hearings are Tuesdays and Thursdays at 10 am.
+    es: |
+      Ayuntamiento de Providence, 25 Dorrance St, 5.º piso (Sala 501), Providence, RI 02903. Teléfono 401-680-5000; correo ProvidenceProbateCourt@providenceri.gov. Presenta en persona o por correo (Attn. name change) con: copia de tu acta de nacimiento, una ID de Rhode Island con dirección en Providence (o una factura de servicios o contrato de alquiler de hace 6 meses), un informe BCI original de no más de 60 días y la petición PC-8.1 notarizada con firma en tinta (no se acepta notario electrónico). La tarifa de $39 (cheque o giro postal) incluye una copia certificada; las copias adicionales cuestan $5. Las audiencias de cambio de nombre son los martes y jueves a las 10 am.
+  sources: [pvd-probate, pvd-instructions]
+resources:
+  - id: namesake
+    org: namesake
+    name: Namesake
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free tool that fills out the Rhode Island name change petition and guides you through the Providence Probate Court, DMV, and birth certificate steps.
+      es: Herramienta gratuita que llena la petición de cambio de nombre de Rhode Island y te guía por los pasos del Tribunal de Sucesiones de Providence, el DMV y el acta de nacimiento.
+    url: https://namesake.fyi/guides/ri
+    cost: free
+    verification: org_website
+    sources: [namesake-court-order]
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help with name and gender marker changes for New England residents; online intake. GLAD Law Answers line 800-455-GLAD.
+      es: Ayuda legal gratuita con cambios de nombre y marcador de género para residentes de Nueva Inglaterra; admisión en línea. Línea GLAD Law Answers 800-455-GLAD.
+    url: https://www.gladlaw.org/ID/
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+  - id: rils
+    name: Rhode Island Legal Services, Providence office
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for low-income residents. Ask whether they can help with a name change or sealing request.
+      es: Asistencia legal civil gratuita para residentes de bajos ingresos. Pregunta si pueden ayudarte con un cambio de nombre o una solicitud de sellado.
+    url: https://www.rils.org/
+    phone: "401-274-2652"
+    address: 56 Pine St, 4th Floor, Providence, RI 02903
+    cost: free
+    verification: org_website
+    sources: [rils]
+  - id: project-weber-renew
+    name: Project Weber/RENEW
+    type: name_change_clinic
+    pillars: [name_change, sexual_health]
+    description:
+      en: Peer-led harm reduction and recovery support in Providence that also helps organize name change clinics and supports people seeking sealed name-change records for safety.
+      es: Reducción de daños y apoyo a la recuperación dirigidos por pares en Providence; también ayuda a organizar clínicas de cambio de nombre y apoya a quienes buscan sellar su expediente por seguridad.
+    url: https://weberrenew.org/
+    cost: free
+    verification: community_reported
+    sources: [namesake-blog]
+  - id: open-door-health
+    name: Open Door Health
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ+ community health clinic. Gender-affirming hormone therapy for adults, surgical referrals, letters for document changes, PrEP/PEP, DoxyPEP, STI testing, HIV and hepatitis care, contraception, and Open Mind behavioral health.
+      es: Clínica comunitaria LGBTQ+. Terapia hormonal de afirmación de género para adultos, referencias quirúrgicas, cartas para cambios de documentos, PrEP/PEP, DoxyPEP, pruebas de ITS, atención de VIH y hepatitis, anticoncepción y salud mental Open Mind.
+    url: https://odhpvd.org/
+    phone: "401-648-4700"
+    address: 7 Central St, Providence, RI 02907
+    cost: varies
+    verification: org_website
+    sources: [odh, odh-gac]
+  - id: ppsne
+    org: planned-parenthood
+    name: Planned Parenthood of Southern New England
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Hormone therapy, labs, and letters of support for adults (18+), plus PrEP, STI testing, and birth control. Sliding fee scale; telehealth available. Book at 1-800-230-PLAN.
+      es: Terapia hormonal, análisis y cartas de apoyo para adultos (18+), además de PrEP, pruebas de ITS y anticonceptivos. Escala móvil; telesalud disponible. Reserva al 1-800-230-PLAN.
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    phone: "800-230-7526"
+    cost: sliding_scale
+    accepts_uninsured: true
+    telehealth: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [ppsne-gac]
+  - id: youth-pride
+    name: Youth Pride, Inc.
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Drop-in space, support groups, and advocacy for LGBTQIA2S+ youth and young adults.
+      es: Espacio de acogida, grupos de apoyo y defensa para jóvenes y adultos jóvenes LGBTQIA2S+.
+    url: https://www.youthprideri.org/
+    phone: "401-421-5626"
+    address: 743 Westminster St, Providence, RI 02903
+    cost: free
+    verification: org_website
+    sources: [ypi]
+  - id: tgi-network
+    name: TGI Network of Rhode Island
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Peer support groups for trans, nonbinary, trans masculine, and intersex people, a documentation-change guide, and community events.
+      es: Grupos de apoyo entre pares para personas trans, no binarias, trans masculinas e intersexuales, una guía de cambios de documentos y eventos comunitarios.
+    url: https://www.tginetwork.org/
+    cost: free
+    verification: org_website
+    sources: [tgi]
+  - id: ripin
+    name: RIPIN Health Care Consumer Call Center
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help getting Medicaid or marketplace coverage and appealing insurance denials.
+      es: Ayuda gratuita para obtener Medicaid o cobertura del mercado y apelar denegaciones de seguro.
+    url: https://ripin.org/health-care/
+    phone: "401-270-0101"
+    address: 300 Jefferson Blvd, Suite 300, Warwick, RI 02888
+    cost: free
+    verification: org_website
+    sources: [ripin]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: pvd-probate
+    url: https://www.providenceri.gov/probate-court/
+    title: City of Providence Probate Court
+    publisher: City of Providence
+    kind: court
+    accessed: "2026-09-24"
+    quote: Providence Probate Court is located on the fifth floor of City Hall.
+  - id: pvd-instructions
+    url: https://www.providenceri.gov/wp-content/uploads/2025/08/name-change-instructions.pdf
+    title: Instructions for Name Changes
+    publisher: Providence Probate Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Court is on Tuesdays and Thursdays at 10AM"
+  - id: namesake-court-order
+    url: https://namesake.fyi/guides/ri/court-order
+    title: Rhode Island Court Order
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+  - id: namesake-blog
+    url: https://namesake.fyi/blog/supporting-rhode-island
+    title: Rhode Island support, easier contribution, and a Pride fundraiser
+    publisher: Namesake
+    kind: org
+    accessed: "2026-09-24"
+    quote: Jinwoo Pang at Project WEBER/Renew, who helps organize name change clinics in Rhode Island
+  - id: glad-id
+    url: https://www.gladlaw.org/ID/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: rils
+    url: https://www.rils.org/
+    title: Rhode Island Legal Services
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our Providence Office 56 Pine Street 4th Floor Providence 02903 401-274-2652
+  - id: odh
+    url: https://odhpvd.org/
+    title: Open Door Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Where To Find Us 7 Central Street Providence, RI 02907
+  - id: odh-gac
+    url: https://odhpvd.org/services/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Open Door Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppsne-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+  - id: ypi
+    url: https://www.youthprideri.org/contact/
+    title: Youth Pride, Inc. contact
+    kind: org
+    accessed: "2026-09-24"
+    quote: 743 Westminster Street Providence, RI 02903
+  - id: tgi
+    url: https://www.tginetwork.org/
+    title: TGI Network of RI
+    kind: org
+    accessed: "2026-09-24"
+  - id: ripin
+    url: https://ripin.org/health-care/
+    title: RIPIN Health Care
+    publisher: Rhode Island Parent Information Network
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
