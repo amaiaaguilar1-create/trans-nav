@@ -1,0 +1,307 @@
+jurisdiction: KY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes read directly 2026-09-24: KRS 311.372 (SB 150, 2023 Ky. Acts ch. 132, eff. June 29, 2023) and KRS 205.5365
+    (HB 495, 2025 Ky. Acts ch. 107, veto overridden March 27, 2025, as amended by HB 501, ch. 161; eff. June 27, 2025).
+    SB 2 (2025 Ky. Acts ch. 99) bars hormone treatment and elective gender reassignment surgery for prisoners; codified
+    section number in KRS Chapter 197 not confirmed. Marcum v. Crews (E.D. Ky. 25-CV-00238): preliminary injunction denied
+    Sept. 12, 2025; ACLU-KY lists it as dismissed. Reviewer: (1) confirm current status of Doe v. Thornbury (the SB 150
+    challenge; the Sixth Circuit allowed the ban to take effect in 2023 and the U.S. Supreme Court upheld Tennessee's
+    similar law in U.S. v. Skrmetti, June 2025) and add a litigation entry if anything is active; (2) confirm how DMS and
+    the MCOs are applying KRS 205.5365 (the "unless required under federal law" clause) and whether anyone was grandfathered;
+    (3) the Planned Parenthood Louisville health center page returned 403, so its address, services, and minimum age are
+    unverified (the affiliate home page says gender-affirming hormone care is offered at all health centers and via
+    telehealth); (4) QueerMed's site did not list states, so it is not included; (5) no Kentucky law bars private-insurance
+    exclusions, per our reading; confirm with the Department of Insurance. No 2026 session bill on care advanced past
+    committee (HB 553, "gender transition services", was reassigned to State Government and did not move).
+status_summary:
+  en: >-
+    Adults can legally get gender-affirming care in Kentucky, but since June 2025 Kentucky Medicaid may not pay for
+    hormones or surgery for gender dysphoria, and state prisons may not provide them. Care for anyone under 18 (puberty
+    blockers, hormones, surgery) has been banned since June 2023. There is no shield law.
+  es: >-
+    Los adultos pueden recibir legalmente atención de afirmación de género en Kentucky, pero desde junio de 2025
+    Medicaid de Kentucky no puede pagar hormonas ni cirugía para la disforia de género, y las prisiones estatales no
+    pueden proporcionarlas. La atención para menores de 18 (bloqueadores, hormonas, cirugía) está prohibida desde junio
+    de 2023. No hay ley escudo.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      There is no ban on care for adults 18 and older, and private clinics, Planned Parenthood, and telehealth providers prescribe hormones in Kentucky, many on an informed-consent basis (no therapist letter). But two 2025 laws limit who can get it paid for or provided:
+
+      - **Medicaid**: KRS 205.5365 (HB 495) bars Kentucky Medicaid and its managed care plans from spending Medicaid funds on cross-sex hormones prescribed primarily or solely for gender dysphoria, and on gender reassignment surgery, unless federal law requires it.
+      - **Prisons**: SB 2 (2025) prohibits hormone treatment or elective gender reassignment surgery for people in state prison. A class-action challenge (Marcum v. Crews) lost its bid for a preliminary injunction in September 2025.
+
+      **If you are on Medicaid or uninsured**, realistic options are: paying cash at a sliding-scale clinic or Planned Parenthood; telehealth services (Plume and FOLX are subscription-based; generic estradiol and spironolactone are inexpensive with discount cards); and grants from the Kentucky Health Justice Network or Point of Pride. Medicaid still covers primary care, labs, and mental health care in general.
+    es: |
+      No hay prohibición para adultos de 18 años o más, y clínicas privadas, Planned Parenthood y servicios de telesalud recetan hormonas en Kentucky, muchos por consentimiento informado. Pero dos leyes de 2025 limitan quién puede recibirla pagada o proporcionada:
+
+      - **Medicaid**: KRS 205.5365 (HB 495) prohíbe a Medicaid de Kentucky y sus planes gastar fondos en hormonas cruzadas recetadas principal o únicamente para la disforia de género, y en cirugía de reasignación, salvo que la ley federal lo exija.
+      - **Prisiones**: SB 2 (2025) prohíbe el tratamiento hormonal o la cirugía electiva de reasignación para personas en prisiones estatales.
+
+      **Si tienes Medicaid o no tienes seguro**, las opciones realistas son pagar en efectivo en clínicas con escala móvil o Planned Parenthood, servicios de telesalud (Plume y FOLX), y becas de Kentucky Health Justice Network o Point of Pride.
+  sources: [krs-205-5365, hb495, sb2-2025, marcum, pp-affiliate, khjn-trans]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      KRS 311.372 (from SB 150, effective June 29, 2023) bars health care providers from giving anyone under 18, for the purpose of affirming a gender different from their sex at birth: puberty blockers; testosterone, estrogen, or progesterone above normal levels; sterilizing surgeries; genital surgeries; or removal of healthy body parts.
+
+      - **Exceptions**: minors with a medically verifiable disorder of sex development, and treatment of complications caused by prohibited care.
+      - **Tapering**: a provider who had already started a minor on blockers or hormones may wind them down gradually if stopping abruptly would cause harm, and must document this.
+      - **Penalties**: the provider's licensing board must revoke their license. A patient can sue until age 30, or within 3 years of discovering the injury, whichever is later.
+
+      Mental health care and social support are not banned. Families often travel to states where care is legal (Illinois is the nearest). Kentucky has no shield law protecting patients or providers.
+    es: |
+      KRS 311.372 (de SB 150, vigente desde el 29 de junio de 2023) prohíbe a los proveedores dar a menores de 18, para afirmar un género distinto a su sexo al nacer: bloqueadores de pubertad; testosterona, estrógeno o progesterona por encima de niveles normales; cirugías esterilizantes o genitales; o extirpación de partes sanas.
+
+      - **Excepciones**: menores con un trastorno verificable del desarrollo sexual y tratamiento de complicaciones.
+      - **Reducción gradual**: un proveedor que ya había iniciado el tratamiento puede reducirlo gradualmente si detenerlo de golpe causaría daño.
+      - **Sanciones**: revocación obligatoria de la licencia del proveedor; el paciente puede demandar hasta los 30 años.
+
+      La atención de salud mental y el apoyo social no están prohibidos. Kentucky no tiene ley escudo.
+  sources: [krs-311-372, sb150]
+medicaid:
+  program_name: Kentucky Medicaid
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: |
+      Since June 27, 2025, KRS 205.5365 prohibits the Department for Medicaid Services and its managed care organizations from spending Medicaid funds on (1) cross-sex hormones "when prescribed or administered primarily or solely for the treatment of gender dysphoria" and (2) gender reassignment surgery. Governor Beshear vetoed HB 495; the legislature overrode the veto. The same law also voided Executive Order 2024-632 (the governor's order restricting conversion therapy).
+
+      Medicaid still covers other care: primary care, lab work, mental health, PrEP, and hormones prescribed for other conditions. Adults with income up to about 138% of the federal poverty level qualify. Apply at kynect.ky.gov or through the Department for Medicaid Services.
+    es: |
+      Desde el 27 de junio de 2025, KRS 205.5365 prohíbe al Departamento de Servicios de Medicaid y sus organizaciones de atención administrada gastar fondos de Medicaid en (1) hormonas cruzadas "recetadas o administradas principal o únicamente para el tratamiento de la disforia de género" y (2) cirugía de reasignación de género. El gobernador Beshear vetó HB 495; la legislatura anuló el veto.
+
+      Medicaid sigue cubriendo otra atención: atención primaria, laboratorios, salud mental, PrEP y hormonas recetadas por otras razones. Solicita en kynect.ky.gov.
+  how_to_apply_url: https://kynect.ky.gov/
+  sources: [krs-205-5365, hb495, hb501, dms-apply]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Kentucky has no state law requiring private health plans to cover gender-affirming care or barring exclusions. Coverage depends on your plan: many large employer plans cover it, while some individual and small-group plans exclude it. If a claim is denied, appeal with the plan first; for fully insured plans you can file a complaint with the Kentucky Department of Insurance (800-595-6053). Self-funded employer plans are federally regulated. KHJN's Trans Health Program helps with insurance navigation.
+    es: |
+      Kentucky no tiene una ley que obligue a los planes privados a cubrir la atención de afirmación de género ni que prohíba exclusiones. Depende de tu plan. Si te niegan un reclamo, apela primero con el plan; para planes asegurados puedes presentar una queja ante el Departamento de Seguros de Kentucky (800-595-6053).
+  complaint_url: https://insurance.ky.gov/ppc/forms/complaints_home.aspx
+  sources: [doi-complaints, khjn-trans]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: khjn-trans-health
+    name: Kentucky Health Justice Network, Trans Health Program
+    type: fund
+    pillars: [hrt, insurance, mental_health]
+    description:
+      en: Statewide grants for gender-affirming care and surgery, help buying binders, packers, and breast forms, insurance navigation, and trusted provider reviews. Request help through forms on the site.
+      es: Becas estatales para atención y cirugía de afirmación de género, ayuda para comprar artículos de afirmación, orientación sobre seguros y reseñas de proveedores.
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    cost: free
+    verification: org_website
+    sources: [khjn-trans]
+  - id: pp-ky
+    org: planned-parenthood
+    name: Planned Parenthood Great Northwest, Hawaii, Alaska, Indiana, Kentucky
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: The affiliate says it offers gender-affirming hormone care at all of its health centers (including Louisville) and by telehealth across its six states. Call 1-800-769-0045 to confirm minimum age (18 in Kentucky under state law) and cost.
+      es: La afiliada dice que ofrece atención hormonal de afirmación de género en todos sus centros (incluido Louisville) y por telesalud. Llama al 1-800-769-0045 para confirmar la edad mínima (18 en Kentucky por ley) y el costo.
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    phone: "1-800-769-0045"
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [pp-affiliate]
+  - id: pop-hrt
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National funds for hormone therapy access, surgery, and gender-affirming items.
+      es: Fondos nacionales para acceso a terapia hormonal, cirugía y artículos de afirmación.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale, including in Louisville, Lexington, and rural Kentucky. Ask each center whether it prescribes hormones.
+      es: Buscador federal de centros de salud comunitarios con escala móvil. Pregunta si recetan hormonas.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: voa-health
+    name: Volunteers of America Mid-States, Health Outreach and Prevention
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Education and confidential HIV testing, based in Louisville.
+      es: Educación y pruebas confidenciales de VIH, con sede en Louisville.
+    url: https://www.voamid.org/services/health-outreach-prevention/
+    phone: "502-636-0771"
+    address: 570 South Fourth Street, Suite 100, Louisville, KY 40202
+    cost: free
+    verification: org_website
+    sources: [voa]
+  - id: kynect
+    name: kynect (Kentucky benefits and health coverage)
+    type: government_office
+    pillars: [insurance]
+    description:
+      en: State portal to apply for Medicaid, KCHIP, and marketplace health plans. Medicaid will not pay for gender-affirming hormones or surgery, but it covers other primary and mental health care.
+      es: Portal estatal para solicitar Medicaid, KCHIP y planes del mercado. Medicaid no paga hormonas ni cirugía de afirmación, pero cubre otra atención.
+    url: https://kynect.ky.gov/
+    cost: free
+    verification: official_source
+    sources: [kynect]
+  - id: trans-lifeline-ky
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people. 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: KRS 311.372
+    title:
+      en: Ban on puberty blockers, hormones, and surgery for minors (SB 150, 2023)
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54017
+  - cite: KRS 205.5365
+    title:
+      en: No Medicaid funds for cross-sex hormones for gender dysphoria or gender reassignment surgery (HB 495, 2025)
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56368
+  - cite: SB 2 (2025), 2025 Ky. Acts ch. 99
+    title:
+      en: Prohibits hormone treatment or elective gender reassignment surgery for prisoners
+    url: https://apps.legislature.ky.gov/record/25rs/sb2.html
+litigation:
+  - case: Marcum v. Crews
+    court: U.S. District Court, Eastern District of Kentucky (No. 25-CV-00238)
+    summary:
+      en: Class action by people in Kentucky Department of Corrections custody challenging SB 2's ban on gender-affirming hormone therapy in prisons.
+      es: Demanda colectiva de personas bajo custodia del Departamento de Correccionales contra la prohibición de terapia hormonal en prisiones de SB 2.
+    effect_today:
+      en: The court denied a preliminary injunction on September 12, 2025, and ACLU of Kentucky lists the case as dismissed. The prison ban is in effect.
+      es: El tribunal negó una medida cautelar el 12 de septiembre de 2025 y ACLU de Kentucky indica que el caso fue desestimado. La prohibición está vigente.
+    last_update: "2025-09-12"
+    url: https://www.aclu-ky.org/cases/marcum-v-crews/
+    sources: [marcum]
+sources:
+  - id: krs-311-372
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54017
+    title: KRS 311.372, Prohibition on treatments to a minor for purpose of attempting to alter the appearance or perception of the minor's sex
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If a licensing or certifying agency for health care providers finds ... that a health care provider ... has violated subsection (2) of this section, the agency shall revoke the health care provider's licensure or certification.
+  - id: sb150
+    url: https://apps.legislature.ky.gov/record/23rs/sb150.html
+    title: SB 150 (2023 Regular Session)
+    publisher: Kentucky General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: krs-205-5365
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56368
+    title: KRS 205.5365, Prohibition on expenditure of Medicaid funds for cross-sex hormones or gender reassignment surgery
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the Department for Medicaid Services and any managed care organization ... are hereby prohibited from expending any Medicaid funds on ... Cross-sex hormones when prescribed or administered primarily or solely for the treatment of gender dysphoria; and ... Gender reassignment surgery
+  - id: hb495
+    url: https://apps.legislature.ky.gov/record/25rs/hb495.html
+    title: HB 495 (2025 Regular Session), AN ACT relating to healthcare services
+    publisher: Kentucky General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Vetoed March 24, 2025; veto overridden by House and Senate March 27, 2025; Acts Chapter 107.
+  - id: hb501
+    url: https://apps.legislature.ky.gov/record/25rs/hb501.html
+    title: HB 501 (2025 Regular Session), AN ACT relating to pharmaceutical drugs
+    publisher: Kentucky General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sb2-2025
+    url: https://apps.legislature.ky.gov/record/25rs/sb2.html
+    title: SB 2 (2025 Regular Session), AN ACT relating to correctional facilities
+    publisher: Kentucky General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: prohibits hormone treatment or elective surgery for gender reassignment for prisoners
+  - id: marcum
+    url: https://www.aclu-ky.org/cases/marcum-v-crews/
+    title: Marcum v. Crews
+    publisher: ACLU of Kentucky
+    kind: org
+    accessed: "2026-09-24"
+  - id: dms-apply
+    url: https://www.chfs.ky.gov/agencies/dms/member/Pages/Apply.aspx
+    title: Apply for Medicaid
+    publisher: Kentucky Department for Medicaid Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: kynect
+    url: https://kynect.ky.gov/
+    title: kynect
+    publisher: Commonwealth of Kentucky
+    kind: official
+    accessed: "2026-09-24"
+  - id: doi-complaints
+    url: https://insurance.ky.gov/ppc/forms/complaints_home.aspx
+    title: File a complaint
+    publisher: Kentucky Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-affiliate
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    title: Planned Parenthood Great Northwest, Hawaii, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+    quote: gender-affirming hormone care at all our health centers and via telehealth
+  - id: khjn-trans
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    title: Trans Health Program
+    publisher: Kentucky Health Justice Network
+    kind: org
+    accessed: "2026-09-24"
+    quote: This initiative provides financial support for trans folks who face barriers accessing gender-affirming care.
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: voa
+    url: https://www.voamid.org/services/health-outreach-prevention/
+    title: Health Outreach and Prevention
+    publisher: Volunteers of America Mid-States
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

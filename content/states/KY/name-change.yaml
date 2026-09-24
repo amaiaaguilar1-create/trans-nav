@@ -1,0 +1,504 @@
+guide_type: name_change
+jurisdiction: KY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes (KRS 401.010 to 401.040, KRS 64.012), AOC forms (AOC-295 rev. 8-23, AOC-296 rev. 7-26, AOC-295.1,
+    AOC-026) and the Circuit Court Clerks' Manual were read directly on 2026-09-24. Open items: (1) the court filing
+    fee is set by Supreme Court rule and the clerk's Accounting Manual, which we could not load; Kentucky Justice Online
+    says it varies by county. TransKentucky's (undated, likely old) page lists $43 filing plus an $8 county clerk fee in
+    Jefferson County; the current statute sets the county clerk recording fee at $33 for up to 5 pages. The coordinator's
+    note of about $50 could not be confirmed. Confirm Jefferson and Fayette fees by phone. (2) Hearing practice: the
+    Clerks' Manual tells clerks to schedule a hearing for every petition and AOC-296 recites that a hearing was held, but
+    Kentucky Justice Online says adults with photo ID do not have to go to court, and TransKentucky says Jefferson County
+    does not require an appearance. Marked conditional. (3) No statute provides for sealing; KRS 401.040 only refers to
+    a court ordering the record sealed. (4) TransKentucky says adult name changes are handled by the Circuit Court;
+    KRS 401.010 says District Court (the petition is filed with the Circuit Court Clerk, who serves both courts). A4TE's
+    Kentucky page agrees there is no publication. A4TE page shows no last-updated date.
+status: available
+status_summary:
+  en: >-
+    Adults in Kentucky can change their name by filing a one-page petition (AOC-295) with the Circuit Court Clerk in the
+    county where they live. There is no newspaper publication and no fingerprinting. The fee varies by county and can be
+    waived if you cannot afford it.
+  es: >-
+    En Kentucky, las personas adultas pueden cambiar su nombre presentando una petición de una página (AOC-295) ante
+    la Secretaría del Tribunal de Circuito del condado donde viven. No hay publicación en periódico ni huellas
+    dactilares. La tarifa varía según el condado y puede exonerarse si no puedes pagarla.
+summary:
+  en: |
+    Under KRS 401.010, anyone 18 or older can have their name changed by the **District Court of the county where they live**. The process is short: you fill out the statewide petition form AOC-295, sign it in front of a notary, and file it with the Circuit Court Clerk's office (the clerk handles District Court filings too). The judge signs a Name Change Order (AOC-296).
+
+    Kentucky law does not ask why you want the change beyond a line on the form, and it does not require publication, a background check, or proof of gender transition. You do not have to say you are transgender; "to match my gender identity" or "personal preference" are both common answers.
+
+    A court name change does **not** change your sex marker. Kentucky's rules for the driver's license and birth certificate are separate and much stricter; see those guides.
+  es: |
+    Según KRS 401.010, cualquier persona de 18 años o más puede cambiar su nombre ante el **Tribunal de Distrito del condado donde vive**. El proceso es corto: llenas el formulario estatal AOC-295, lo firmas ante un notario y lo presentas en la Secretaría del Tribunal de Circuito (que también maneja los casos del Tribunal de Distrito). El juez firma una Orden de Cambio de Nombre (AOC-296).
+
+    La ley de Kentucky no exige publicación, verificación de antecedentes ni prueba de transición de género. No tienes que decir que eres trans; "para que coincida con mi identidad de género" o "preferencia personal" son respuestas comunes.
+
+    Un cambio de nombre judicial **no** cambia tu marcador de sexo. Las reglas de Kentucky para la licencia de conducir y el acta de nacimiento son distintas y mucho más estrictas; consulta esas guías.
+eligibility:
+  residency:
+    en: File in the county where you live. If you live on a U.S. Army post, military reservation, or fort, you can file in an adjacent county.
+    es: Presenta la petición en el condado donde vives. Si vives en una base militar, puedes presentarla en un condado vecino.
+  age:
+    en: 18 or older for the adult process. For people under 18, parents or a guardian file; see Minors.
+    es: 18 años o más para el proceso de adultos. Para menores de 18, los padres o el tutor presentan la petición; ver Menores.
+  criminal_history:
+    en: >-
+      There is no bar for a criminal record. The petition asks you to affirm that you are not changing your name to avoid
+      a legal obligation or evade prosecution, and warns that identity theft is a felony (KRS 514.160).
+    es: >-
+      No hay prohibición por antecedentes penales. La petición te pide afirmar que no cambias tu nombre para evadir una
+      obligación legal o un proceso penal.
+  sources: [krs-401-010, aoc-295]
+forms:
+  - id: AOC-295
+    name:
+      en: Petition for Name Change
+      es: Petición de cambio de nombre
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/295.pdf
+    url_es: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/295_ES.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Check the box for "above-captioned adult".
+        - Items 1 and 2: your current legal name exactly as on your ID, and the new name. Check spelling; the order copies it.
+        - Item 4: city, county, and state where you were born. Item 5: your current address in the county where you file.
+        - Item 6, purpose: a short, truthful reason is enough ("to reflect my gender identity" or "personal preference"). You do not need a doctor's letter.
+        - Leave the "Hearing" box blank; the judge or clerk fills it in.
+        - **Sign in front of a notary.** Many banks, libraries, and some LGBTQ organizations offer free notary service.
+        - Type the form if you can; some clerks refuse handwritten forms.
+      es: |
+        - Marca la casilla de "above-captioned adult" (adulto).
+        - Puntos 1 y 2: tu nombre legal actual tal como aparece en tu identificación y el nuevo nombre.
+        - Punto 6, propósito: basta una razón breve y veraz ("para reflejar mi identidad de género" o "preferencia personal").
+        - Deja en blanco la casilla de audiencia.
+        - **Firma ante un notario.**
+    sources: [aoc-295, kycourts-forms]
+  - id: AOC-296
+    name:
+      en: Name Change Order
+      es: Orden de cambio de nombre
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/296.pdf
+    url_es: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/296_ES.pdf
+    required: conditional
+    condition:
+      en: Some clerks ask you to bring a filled-in proposed order with your petition. Fill in the names, birth date, birthplace, and address; the judge signs it.
+      es: Algunas secretarías piden que lleves la orden propuesta ya llenada. El juez la firma.
+    sources: [aoc-296]
+  - id: AOC-026
+    name:
+      en: Motion for Waiver of Costs and Fees and to Proceed In Forma Pauperis; Affidavit; Financial Statement; and Order
+      es: Moción para exonerar costas y tarifas (in forma pauperis)
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/026.pdf
+    url_es: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/026_ES.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. File it with your petition.
+      es: Solo si no puedes pagar la tarifa. Preséntala junto con tu petición.
+    how_to_fill:
+      en: |
+        - List your monthly income, including any public benefits (SNAP, K-TAP, SSI, KCHIP and others are listed on the form), and your monthly expenses.
+        - Sign the affidavit (it is sworn). The judge decides whether to waive the fees.
+    sources: [aoc-026, clerks-manual]
+steps:
+  - id: fill-petition
+    title:
+      en: Fill out the petition (AOC-295)
+      es: Llena la petición (AOC-295)
+    body:
+      en: Download AOC-295 from the Kentucky Court of Justice forms page, or use the free guided interview linked from the court's Legal Help page, which builds the form for you. Type it if possible.
+      es: Descarga el AOC-295 de la página de formularios del Poder Judicial de Kentucky, o usa la entrevista guiada gratuita, que llena el formulario por ti.
+    forms: [AOC-295]
+    sources: [aoc-295, kycourts-legal-help]
+  - id: notarize
+    title:
+      en: Sign it in front of a notary
+      es: Fírmala ante un notario
+    body:
+      en: The petition is a sworn statement and has a notary block. Bring photo ID to the notary.
+      es: La petición es una declaración jurada y tiene espacio para notario. Lleva identificación con foto.
+    sources: [aoc-295]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you need one
+      es: Pide la exoneración de tarifas si la necesitas
+    body:
+      en: Fill out AOC-026 and file it with the petition. The clerk will not process the petition until the fee is paid or the waiver is granted.
+      es: Llena el AOC-026 y preséntalo con la petición. La secretaría no tramita la petición hasta que se pague la tarifa o se apruebe la exoneración.
+    forms: [AOC-026]
+    optional: true
+    sources: [aoc-026, clerks-manual]
+  - id: file
+    title:
+      en: File with the Circuit Court Clerk in your county
+      es: Presenta la petición en la Secretaría del Tribunal de Circuito de tu condado
+    body:
+      en: |
+        Take the notarized petition (and AOC-296 if your clerk wants it) to the Circuit Court Clerk's office in the county where you live and pay the filing fee. Name changes are opened as District Court probate cases. Call ahead to ask the current fee and whether they want copies.
+      es: |
+        Lleva la petición notariada (y el AOC-296 si la secretaría lo pide) a la Secretaría del Tribunal de Circuito del condado donde vives y paga la tarifa. Llama antes para preguntar la tarifa actual.
+    forms: [AOC-295, AOC-296]
+    fees: [filing]
+    sources: [clerks-manual, kyjustice-name-change]
+  - id: hearing
+    title:
+      en: Go to the hearing if one is scheduled
+      es: Asiste a la audiencia si te la programan
+    body:
+      en: The clerk may give you a hearing date. At the hearing the judge usually just confirms the information on the petition. In some counties, including Jefferson (Louisville) according to community reports, adults are not required to appear. Ask the clerk when you file.
+      es: La secretaría puede darte una fecha de audiencia. En ella el juez suele solo confirmar la información. En algunos condados, como Jefferson (Louisville) según reportes comunitarios, los adultos no tienen que presentarse. Pregunta al presentar.
+    sources: [clerks-manual, kyjustice-name-change, transky-id]
+  - id: order-recording
+    title:
+      en: Get the signed order and certified copies; pay the recording fee
+      es: Obtén la orden firmada y copias certificadas; paga la tarifa de registro
+    body:
+      en: |
+        After the judge signs the Name Change Order, the Circuit Court Clerk sends a certified copy to the county clerk to be recorded, and you pay the county clerk's recording fee. Buy several certified copies from the Circuit Court Clerk for Social Security, the driver's license office, your bank, and others.
+      es: |
+        Después de que el juez firme la orden, la Secretaría envía una copia certificada al secretario del condado para su registro y tú pagas la tarifa de registro. Compra varias copias certificadas.
+    fees: [recording, certified-copies]
+    sources: [krs-401-040, krs-64-012, aoc-296]
+  - id: update-documents
+    title:
+      en: Update your documents, starting with Social Security
+      es: Actualiza tus documentos, empezando por el Seguro Social
+    body:
+      en: |
+        1. **Social Security** (free).
+        2. **Driver's license or ID** at a Driver Licensing Regional Office. The order itself warns you have 10 days after it is entered to apply for a corrected license (KRS 186.540). The fee is $15.
+        3. **Birth certificate**, if you were born in Kentucky: mail a certified copy of the order to the Office of Vital Statistics (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** (gratis).
+        2. **Licencia de conducir o identificación** en una Oficina Regional de Licencias. La orden advierte que tienes 10 días para pedir una licencia corregida (KRS 186.540). Cuesta $15.
+        3. **Acta de nacimiento**, si naciste en Kentucky (ver la guía de acta de nacimiento).
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, escuela.
+    sources: [aoc-296, kytc-update]
+fees:
+  - id: filing
+    label:
+      en: District Court filing fee for a name change petition
+      es: Tarifa de presentación de la petición de cambio de nombre
+    varies_by: county
+    waivable: true
+    note:
+      en: The fee is set by Supreme Court rule and collected by the Circuit Court Clerk. Kentucky Justice Online says it differs by county; call your clerk. No filing fee applies when a child's petition is filed inside an existing Family or Circuit Court case.
+      es: La tarifa la fija una regla de la Corte Suprema y la cobra la Secretaría. Varía por condado; llama a tu secretaría.
+    sources: [kyjustice-name-change, krs-24a-170, clerks-manual]
+  - id: recording
+    label:
+      en: County clerk recording fee for the name change order (up to 5 pages)
+      es: Tarifa del secretario del condado por registrar la orden (hasta 5 páginas)
+    amount: 33
+    note:
+      en: Paid to the county clerk, not the court. Starting January 1, 2028, the Circuit Court Clerk will collect it and forward it. Not charged if the judge orders the record sealed.
+      es: Se paga al secretario del condado. Desde el 1 de enero de 2028 la cobrará la Secretaría del tribunal.
+    sources: [krs-64-012, krs-401-040]
+  - id: certified-copies
+    label:
+      en: Certified copies of the order
+      es: Copias certificadas de la orden
+    varies_by: county
+    note:
+      en: Ask the clerk for the current per-copy charge.
+      es: Pregunta a la secretaría el costo actual por copia.
+    sources: [clerks-manual]
+fee_waiver:
+  available: true
+  forms: [AOC-026]
+  eligibility:
+    en: A judge may let you proceed "in forma pauperis" (without paying court costs) if you cannot pay the costs of the action. The form asks about income, benefits such as SNAP, K-TAP, SSI, KCHIP, and your expenses.
+    es: Un juez puede permitirte proceder sin pagar costas si no puedes pagarlas. El formulario pregunta ingresos, beneficios y gastos.
+  how:
+    en: File AOC-026 with your petition. If granted, you do not pay the filing fee. The county clerk's recording fee may still be charged; ask.
+    es: Presenta el AOC-026 con tu petición. Si se aprueba, no pagas la tarifa de presentación.
+  sources: [aoc-026, clerks-manual]
+publication:
+  required: "no"
+  detail:
+    en: Kentucky's name change statutes (KRS 401.010 to 401.040) contain no publication requirement.
+    es: Las leyes de cambio de nombre de Kentucky no exigen publicación.
+  sources: [krs-401-010, krs-401-040, a4te-ky]
+hearing:
+  required: conditional
+  detail:
+    en: The statute does not require a hearing for adults, but the Clerks' Manual tells clerks to schedule one and many judges hold a brief hearing. Some counties grant adult petitions without an appearance. For a child whose other parent does not sign, a hearing within 60 days of service is required by law.
+    es: La ley no exige audiencia para adultos, pero el manual de secretarías indica programarla y muchos jueces la celebran. Para un menor cuyo otro padre no firma, la ley exige audiencia.
+  sources: [clerks-manual, kyjustice-name-change, krs-401-020]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. You swear on the petition that you are not changing your name to avoid a legal obligation or prosecution.
+    es: No se requieren huellas ni verificación de antecedentes.
+  sources: [aoc-295, kyjustice-name-change]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: Name change orders are normally public and recorded with the county clerk. KRS 401.040 lets the judge order the record sealed or restricted, in which case it is not sent for public recording. There is no specific standard in the statute; you must ask.
+    es: Las órdenes son normalmente públicas. KRS 401.040 permite que el juez ordene sellar el expediente, pero debes pedirlo.
+  how:
+    en: File a written motion asking the court to seal the record, explaining any safety concern (for example, risk of harassment or violence). A legal aid organization can help draft it.
+    es: Presenta una moción por escrito pidiendo sellar el expediente y explica cualquier riesgo para tu seguridad.
+  sources: [krs-401-040]
+minors:
+  summary:
+    en: |
+      Both living parents (or the surviving parent, or a guardian) file AOC-295 for a child under 18 in District Court, or in Family Court (Circuit Court in counties without one) if a case involving the family is already open. If one parent refuses or is unavailable to sign, that parent must be served with notice (AOC-295.1) and the court must hold a hearing within 60 days and decide based on the child's best interests, considering the parents' and child's wishes and other factors (KRS 401.020).
+    es: |
+      Ambos padres (o el padre sobreviviente, o el tutor) presentan el AOC-295 por un menor de 18 años. Si uno de los padres se niega o no está disponible, debe ser notificado (AOC-295.1) y el tribunal celebra una audiencia dentro de 60 días para decidir según el interés superior del menor (KRS 401.020).
+  forms: [AOC-295]
+  sources: [krs-401-020, aoc-295-1]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: Most people file in person at the Circuit Court Clerk's office. Attorneys can e-file through the court's eFiling system; self-represented filers should ask the clerk.
+    es: La mayoría presenta en persona en la Secretaría del Tribunal de Circuito.
+  sources: [clerks-manual]
+timeline:
+  en: Usually a few weeks from filing to a signed order, depending on the county's hearing schedule.
+  es: Por lo general unas semanas desde la presentación hasta la orden firmada, según el calendario del condado.
+after:
+  en: |
+    Update **Social Security** first, then your **Kentucky driver's license or ID** within 10 days (in person, $15). If you were born in Kentucky, mail a certified copy of the order to the **Office of Vital Statistics** to amend the name on your birth certificate. Then your **passport**, bank, employer, insurance, and voter registration. Changing your sex marker is a separate process with stricter rules.
+  es: |
+    Actualiza primero el **Seguro Social**, luego tu **licencia o identificación de Kentucky** dentro de 10 días (en persona, $15). Si naciste en Kentucky, envía una copia certificada de la orden a la **Oficina de Estadísticas Vitales** para cambiar el nombre en tu acta. Después el **pasaporte**, banco, empleador, seguro y registro de votante. Cambiar el marcador de sexo es un proceso separado con reglas más estrictas.
+tips:
+  - en: Kentucky's birth certificate sex-marker law requires a court order changing your name. If you ever plan to use that route, keep extra certified copies of your name change order.
+    es: La ley de Kentucky para cambiar el sexo en el acta exige una orden judicial de cambio de nombre. Guarda copias certificadas adicionales.
+  - en: The Fayette County Legal Help Center in Lexington (Thursdays 11 am to 2 pm, Robert F. Stephens Courthouse) helps people find and fill in court forms for free.
+    es: El Centro de Ayuda Legal del condado de Fayette en Lexington ayuda gratis a llenar formularios judiciales.
+local_help:
+  - id: kyjustice
+    name: Kentucky Justice Online (statewide legal aid portal)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Run by Kentucky's legal aid programs. Plain-language name change information and a "Help Near You" tool that routes you to your region's free legal aid office.
+      es: Portal de los programas de asistencia legal de Kentucky, con información sobre cambio de nombre y un buscador de ayuda legal gratuita en tu región.
+    url: https://www.kyjustice.org/help-near-you
+    cost: free
+    verification: org_website
+    sources: [kyjustice-name-change]
+  - id: fayette-legal-help
+    name: Fayette County Legal Help Center
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Volunteers help you locate and fill in court forms, including the name change petition. Thursdays 11 am to 2 pm.
+      es: Voluntarios ayudan a encontrar y llenar formularios judiciales, incluida la petición de cambio de nombre. Jueves de 11 am a 2 pm.
+    url: https://www.kycourts.gov/Courts/County-Information/Fayette/Pages/Legal-Help-Center.aspx
+    address: Robert F. Stephens Circuit Courthouse, Law Library Room CB02A, 120 N. Limestone, Lexington, KY 40507
+    cost: free
+    verification: official_source
+    sources: [fayette-lhc]
+  - id: khjn
+    name: Kentucky Health Justice Network, Trans Health Program
+    type: advocacy_org
+    pillars: [name_change, hrt, insurance]
+    description:
+      en: Statewide group offering grants for gender-affirming care, insurance navigation, support persons, and patient guides including how to change your legal name in Kentucky. Request help through the forms on its site.
+      es: Grupo estatal que ofrece becas para atención de afirmación de género, orientación sobre seguros, acompañamiento y guías, incluida una sobre el cambio de nombre en Kentucky.
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    cost: free
+    verification: org_website
+    sources: [khjn-trans]
+  - id: transkentucky
+    name: TransKentucky
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Lexington-based trans support and social group with a Kentucky identity documents guide. Monthly meetings; 859-448-LGBT.
+      es: Grupo de apoyo trans con sede en Lexington y una guía sobre documentos de identidad en Kentucky.
+    url: https://www.transkentucky.com/other-resources/identity-documents/
+    phone: "859-448-5428"
+    cost: free
+    verification: org_website
+    sources: [transky-id]
+  - id: aclu-ky
+    name: ACLU of Kentucky
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Takes civil rights cases, including discrimination against trans people. Submit a legal assistance request online; it does not handle routine name changes.
+      es: Acepta casos de derechos civiles, incluida la discriminación contra personas trans. No tramita cambios de nombre rutinarios.
+    url: https://www.aclu-ky.org/legalassistance/
+    cost: free
+    verification: org_website
+    sources: [aclu-ky]
+  - id: pop-ky
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: National trans-led nonprofit with programs that help pay for gender-affirming care and related costs.
+      es: Organización nacional que ayuda a pagar atención de afirmación de género y costos relacionados.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+statutes:
+  - cite: KRS 401.010
+    title:
+      en: Adult may have name changed by District Court of county of residence
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=41791
+  - cite: KRS 401.020
+    title:
+      en: Name change for a child; notice and hearing if a parent does not sign
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55610
+  - cite: KRS 401.040
+    title:
+      en: Certification of order to county clerk unless sealed; recording fee
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57721
+related_links:
+  - title: Kentucky Justice Online, Name changes
+    url: https://www.kyjustice.org/topics/individual-rights/name-changes
+  - title: Kentucky Court of Justice guided interview, Petition for Name Change
+    url: https://a2j.org/guide/consent/bb8a72c4-ea99-460d-83be-90779d30a84a
+  - title: Advocates for Trans Equality, Kentucky identity documents
+    url: https://transequality.org/documents/kentucky-identity-documents
+    note:
+      en: No last-updated date shown on the page as of September 2026.
+      es: La página no muestra fecha de actualización a septiembre de 2026.
+sources:
+  - id: krs-401-010
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=41791
+    title: KRS 401.010, Adult may have name changed by District Court
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any person at least eighteen (18) years of age may have his or her name changed by the District Court of the county in which he or she resides.
+  - id: krs-401-020
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55610
+    title: KRS 401.020, Parents or guardian may have child's name changed
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The court shall conduct a hearing on the petition no later than sixty (60) days from the date of service and make findings of fact and conclusions of law based on the best interests of the child.
+  - id: krs-401-040
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57721
+    title: KRS 401.040, Certification of order for name change, fee, index kept by county clerk
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: a copy of the order shall be certified by the clerk of that court to the county clerk, for record, unless the court has ordered the record sealed or otherwise restricted from public inspection.
+  - id: krs-64-012
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57720
+    title: KRS 64.012, Fees of county clerks
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Court ordered name change pursuant to KRS Chapter 401 ... if the entire thereof does not exceed five (5) pages ... $33.00"
+  - id: krs-24a-170
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=20695
+    title: KRS 24A.170, Fees and costs for civil cases
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Supreme Court shall by rule set the filing fees and miscellaneous costs for civil cases filed in the District Court.
+  - id: aoc-295
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/295.pdf
+    title: AOC-295, Petition for Name Change (Rev. 8-23)
+    publisher: Kentucky Court of Justice
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Note: File this Petition in the Circuit Clerk's Office in the county in which you reside."
+  - id: aoc-295-1
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/295.1.pdf
+    title: AOC-295.1, Notice of Hearing for Name Change (child under 18)
+    publisher: Kentucky Court of Justice
+    kind: form
+    accessed: "2026-09-24"
+  - id: aoc-296
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/296.pdf
+    title: AOC-296, Name Change Order (Rev. 7-26)
+    publisher: Kentucky Court of Justice
+    kind: form
+    accessed: "2026-09-24"
+    quote: Pursuant to KRS 186.540, if you have applied for or are in receipt of a Kentucky driver's license, you have 10 days after entry of this Order to apply to the Transportation Cabinet for the issuance of a corrected license.
+  - id: aoc-026
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/026.pdf
+    title: AOC-026, Motion for Waiver of Costs and Fees and to Proceed In Forma Pauperis
+    publisher: Kentucky Court of Justice
+    kind: form
+    accessed: "2026-09-24"
+    quote: Affiant is unable to pay the costs and fees of this action and hereby requests that the Court waive them and allow Affiant to proceed in forma pauperis.
+  - id: kycourts-forms
+    url: https://www.kycourts.gov/Legal-Forms/Pages/default.aspx
+    title: Legal Forms
+    publisher: Kentucky Court of Justice
+    kind: official
+    accessed: "2026-09-24"
+  - id: kycourts-legal-help
+    url: https://www.kycourts.gov/Legal-Help/Pages/default.aspx
+    title: Legal Help
+    publisher: Kentucky Court of Justice
+    kind: official
+    accessed: "2026-09-24"
+  - id: clerks-manual
+    url: https://www.kycourts.gov/Courts/County-Information/Documents/ClerksManual.pdf
+    title: Circuit Court Clerks' Manual, section 76.7 Name Change
+    publisher: Kentucky Administrative Office of the Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Collect filing fees as set forth in the Accounting Manual ... Schedule a hearing by completing a scheduled events screen and notify the petitioner of the hearing date."
+  - id: kyjustice-name-change
+    url: https://www.kyjustice.org/topics/individual-rights/name-changes
+    title: Name changes
+    publisher: Kentucky Justice Online
+    kind: org
+    accessed: "2026-09-24"
+    quote: The filing fee for a name change is different from county to county.
+  - id: transky-id
+    url: https://www.transkentucky.com/other-resources/identity-documents/
+    title: Identity documents
+    publisher: TransKentucky
+    kind: community
+    accessed: "2026-09-24"
+  - id: a4te-ky
+    url: https://transequality.org/documents/kentucky-identity-documents
+    title: Kentucky identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: No publication is required.
+  - id: kytc-update
+    url: https://drive.ky.gov/Drivers/Pages/Update-Replace.aspx
+    title: Update or replace your credential
+    publisher: Kentucky Transportation Cabinet
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name changes must be completed in person at a Driver Licensing Regional Office. A $15.00 fee applies.
+  - id: fayette-lhc
+    url: https://www.kycourts.gov/Courts/County-Information/Fayette/Pages/Legal-Help-Center.aspx
+    title: Fayette County Legal Help Center
+    publisher: Kentucky Court of Justice
+    kind: official
+    accessed: "2026-09-24"
+  - id: khjn-trans
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    title: Trans Health Program
+    publisher: Kentucky Health Justice Network
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ky
+    url: https://www.aclu-ky.org/legalassistance/
+    title: Request legal assistance
+    publisher: ACLU of Kentucky
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

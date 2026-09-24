@@ -1,0 +1,212 @@
+guide_type: drivers_license
+jurisdiction: KY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirement read on 2026-09-24 from KYTC's "Valid Proof Documents" flyer (drive.ky.gov/Drivers/Documents/ValidProofDocuments.pdf),
+    which lists under "Gender Change, One (1) required": court order changing gender marker; letter from surgeon verifying
+    completion of gender reassignment; amended birth certificate. No statute or regulation on sex-marker changes was found
+    (601 KAR Chapter 12 has none), so this is agency policy and could change without notice. A4TE's Kentucky page lists the
+    same three documents. Reviewer: (1) confirm whether any Kentucky court currently issues orders "changing gender marker"
+    (there is no statute authorizing them; practice likely varies by judge); (2) TransKentucky's older page says some
+    offices accepted a 10-year passport showing the new marker; that route is not on the current KYTC list and U.S.
+    passports have not been issued with a changed sex marker since the 2025 federal policy, so it is omitted; (3) confirm
+    X is not offered (the application forms show no X option). Fees ($15 replacement/name change; renewal prices) from
+    TC 94-192 rev. 3/2026 and the ID Cards page. No 2025-2026 Kentucky bill on license sex markers advanced (HB 334,
+    SB 179 "sex-based classifications" and HB 475 stayed in committee in the 2026 session).
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Kentucky changes the sex on a driver's license or ID only if you bring an amended birth certificate, a court order
+    changing your gender marker, or a letter from a surgeon confirming gender-affirming surgery. Only M and F are
+    available. Changing your name is simple: bring your court order and updated Social Security card; the fee is $15.
+  es: >-
+    Kentucky cambia el sexo en la licencia o identificación solo si presentas un acta de nacimiento enmendada, una
+    orden judicial que cambie tu marcador de género o una carta de un cirujano que confirme la cirugía de afirmación de
+    género. Solo hay M y F. Cambiar el nombre es sencillo: lleva tu orden judicial y tu tarjeta de Seguro Social
+    actualizada; cuesta $15.
+summary:
+  en: |
+    Driver's licenses and ID cards are issued by the Kentucky Transportation Cabinet (KYTC) at Driver Licensing Regional Offices. KYTC's list of accepted documents requires **one** of these to change the gender marker:
+
+    - an **amended birth certificate** showing the new sex (for people born in Kentucky, this itself requires surgery and a court-ordered name change; see the birth certificate guide),
+    - a **court order changing your gender marker**, or
+    - a **letter from your surgeon** verifying completion of gender reassignment surgery.
+
+    There is no self-attestation or general provider-letter option, and no X marker. If you were born in a state that amends birth certificates without surgery, an amended certificate from that state is one of the listed documents.
+
+    Changing your **name** only needs your court order (or marriage certificate or divorce decree) and a Social Security card in the new name.
+  es: |
+    Las licencias e identificaciones las emite el Gabinete de Transporte de Kentucky (KYTC) en las Oficinas Regionales de Licencias. La lista de documentos de KYTC exige **uno** de estos para cambiar el marcador de género:
+
+    - un **acta de nacimiento enmendada** con el nuevo sexo (para quienes nacieron en Kentucky, esto requiere cirugía y una orden de cambio de nombre),
+    - una **orden judicial que cambie tu marcador de género**, o
+    - una **carta de tu cirujano** que confirme la cirugía de afirmación de género.
+
+    No hay opción de declaración propia ni carta médica general, y no hay marcador X. Si naciste en un estado que enmienda actas sin cirugía, un acta enmendada de ese estado es uno de los documentos aceptados.
+
+    Para cambiar tu **nombre** solo necesitas la orden judicial (o acta de matrimonio o sentencia de divorcio) y una tarjeta de Seguro Social con el nuevo nombre.
+eligibility:
+  residency:
+    en: You must be a Kentucky resident holding or applying for a Kentucky license, permit, or ID card.
+    es: Debes residir en Kentucky y tener o solicitar una licencia, permiso o identificación de Kentucky.
+  other:
+    en: One gender-change document is required (amended birth certificate, court order changing gender marker, or surgeon's letter).
+    es: Se requiere un documento de cambio de género (acta enmendada, orden judicial o carta del cirujano).
+  sources: [kytc-proof-docs]
+forms:
+  - id: TC 94-192
+    name:
+      en: Driver License/ID Card Renewal or Replacement (mail-in)
+      es: Renovación o reemplazo de licencia/identificación (por correo)
+    url: https://transportation.ky.gov/Organizational-Resources/Forms/TC%2094-192.pdf
+    required: optional
+    condition:
+      en: For replacing a card or changing your address by mail. Name changes and gender-marker changes must be done in person, so most people will not use this form for either.
+      es: Para reemplazar la tarjeta o cambiar la dirección por correo. Los cambios de nombre y de género deben hacerse en persona.
+    sources: [tc-94-192, kytc-update]
+steps:
+  - id: ssa-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias de nombre, actualiza primero el Seguro Social
+    body:
+      en: KYTC requires an updated Social Security card showing your new name before it will change the name on your license.
+      es: KYTC exige una tarjeta de Seguro Social actualizada con tu nuevo nombre antes de cambiar el nombre en tu licencia.
+    applies_to: [name_change]
+    sources: [kytc-update]
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - Your current license or ID.
+        - **Name change**: certified court order (or marriage certificate/divorce decree) and updated Social Security card.
+        - **Gender marker**: one of: amended birth certificate, certified court order changing your gender marker, or a letter from your surgeon verifying completion of gender reassignment surgery.
+        - If you are upgrading to REAL ID at the same time, bring proof of identity, Social Security number, and two proofs of Kentucky residency.
+      es: |
+        - Tu licencia o identificación actual.
+        - **Cambio de nombre**: orden judicial certificada y tarjeta de Seguro Social actualizada.
+        - **Marcador de género**: uno de estos: acta de nacimiento enmendada, orden judicial certificada o carta del cirujano.
+        - Si también haces REAL ID, lleva prueba de identidad, número de Seguro Social y dos comprobantes de residencia.
+    sources: [kytc-proof-docs, kytc-update]
+  - id: visit
+    title:
+      en: Visit a Driver Licensing Regional Office
+      es: Visita una Oficina Regional de Licencias
+    body:
+      en: Name changes must be done in person. You can start a pre-application in the myDrive portal to save time. Pay $15 for the corrected card.
+      es: Los cambios de nombre deben hacerse en persona. Puedes empezar una preaplicación en el portal myDrive. Paga $15 por la tarjeta corregida.
+    fees: [replacement]
+    applies_to: [in_person]
+    sources: [kytc-update, kytc-find-office, krs-186-540]
+  - id: receive
+    title:
+      en: Receive your card by mail
+      es: Recibe tu tarjeta por correo
+    body:
+      en: You get a temporary credential at the office; the permanent card typically arrives by mail in 10 to 15 business days.
+      es: Recibes una credencial temporal; la tarjeta permanente suele llegar por correo en 10 a 15 días hábiles.
+    estimated_time:
+      en: 10 to 15 business days
+      es: 10 a 15 días hábiles
+    sources: [kytc-update]
+fees:
+  - id: replacement
+    label:
+      en: Duplicate or corrected license or ID (name change, replacement)
+      es: Licencia o identificación duplicada o corregida (cambio de nombre, reemplazo)
+    amount: 15
+    note:
+      en: If your card is due for renewal, you may instead pay the renewal price (8-year standard license $43, standard ID $23; REAL ID license $48, REAL ID card $28).
+      es: Si te toca renovar, pagas el precio de renovación (licencia estándar de 8 años $43, identificación estándar $23; REAL ID $48 y $28).
+    sources: [kytc-update, tc-94-192]
+fee_waiver:
+  available: true
+  eligibility:
+    en: KYTC issues ID cards at no cost to eligible people experiencing homelessness and free voter ID cards to eligible voters. There is no waiver for driver's licenses.
+    es: KYTC emite identificaciones gratis a personas sin hogar que califican y tarjetas de identificación para votar sin costo. No hay exención para licencias.
+  sources: [kytc-id-cards]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and gender-marker changes are in person only. Plain replacements and address changes can be done online through myDrive or by mail with TC 94-192.
+    es: Los cambios de nombre y de género son solo en persona.
+  sources: [kytc-update]
+timeline:
+  en: One office visit, then 10 to 15 business days for the card.
+  es: Una visita a la oficina y luego 10 a 15 días hábiles para la tarjeta.
+after:
+  en: |
+    Kentucky law gives you 10 days after a name change order to apply for a corrected license (KRS 186.540). If you cannot meet the gender-marker requirements, you can still update your name now and keep the existing marker. Federal documents (passport, Social Security) currently cannot show a changed sex marker regardless of state rules.
+  es: |
+    La ley de Kentucky te da 10 días después de la orden de cambio de nombre para pedir una licencia corregida (KRS 186.540). Si no cumples los requisitos para cambiar el marcador, puedes actualizar tu nombre y mantener el marcador actual. Los documentos federales (pasaporte, Seguro Social) actualmente no pueden mostrar un cambio de sexo.
+tips:
+  - en: If you were born in a state that amends birth certificates by affidavit or provider letter (for example Illinois or California), getting that state's amended certificate first may be your easiest path to a Kentucky license marker change.
+    es: Si naciste en un estado que enmienda actas por declaración o carta médica, obtener primero esa acta enmendada puede ser el camino más fácil.
+  - en: Bring certified copies, not photocopies. Offices keep a scan but may reject uncertified court orders.
+    es: Lleva copias certificadas, no fotocopias.
+statutes:
+  - cite: KRS 186.540
+    title:
+      en: Application for corrected license or ID card upon change of name or address
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49868
+related_links:
+  - title: KYTC, Valid Proof Documents (flyer)
+    url: https://drive.ky.gov/Drivers/Documents/ValidProofDocuments.pdf
+  - title: Advocates for Trans Equality, Kentucky identity documents
+    url: https://transequality.org/documents/kentucky-identity-documents
+    note:
+      en: No last-updated date shown on the page as of September 2026.
+      es: La página no muestra fecha de actualización a septiembre de 2026.
+sources:
+  - id: kytc-proof-docs
+    url: https://drive.ky.gov/Drivers/Documents/ValidProofDocuments.pdf
+    title: Valid Proof Documents for Kentucky driver's licenses, permits, and identification cards
+    publisher: Kentucky Transportation Cabinet
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Gender Change: One (1) required. Court Order changing gender marker. Letter from surgeon verifying completion of gender reassignment. Amended Birth Certificate."
+  - id: kytc-update
+    url: https://drive.ky.gov/Drivers/Pages/Update-Replace.aspx
+    title: Update or replace your credential
+    publisher: Kentucky Transportation Cabinet
+    kind: official
+    accessed: "2026-09-24"
+    quote: Name changes must be completed in person at a Driver Licensing Regional Office. A $15.00 fee applies.
+  - id: kytc-id-cards
+    url: https://drive.ky.gov/Drivers/Pages/ID-Cards.aspx
+    title: Identification cards
+    publisher: Kentucky Transportation Cabinet
+    kind: official
+    accessed: "2026-09-24"
+    quote: Homeless ID cards and voter ID cards may be issued at no cost for customers who meet eligibility requirements.
+  - id: kytc-find-office
+    url: https://drive.ky.gov/Pages/Find-an-Office.aspx
+    title: Find an office
+    publisher: Kentucky Transportation Cabinet
+    kind: official
+    accessed: "2026-09-24"
+  - id: tc-94-192
+    url: https://transportation.ky.gov/Organizational-Resources/Forms/TC%2094-192.pdf
+    title: TC 94-192, Driver License/ID Card Renewal or Replacement (Rev. 3/2026)
+    publisher: Kentucky Transportation Cabinet
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Duplicate or Replacement: Driver License or ID Card ($15.00)"
+  - id: krs-186-540
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49868
+    title: KRS 186.540, Application for corrected license or identification card upon change of address or name
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"

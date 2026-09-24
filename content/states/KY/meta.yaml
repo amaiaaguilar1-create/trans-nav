@@ -1,0 +1,131 @@
+code: KY
+name:
+  en: Kentucky
+  es: Kentucky
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on primary sources read 2026-09-24: KRS 213.121(5) (birth certificate requires surgery plus
+    court-ordered name change), KYTC's document list (license marker requires amended birth certificate, court order, or
+    surgeon's letter), KRS 311.372 (minors' care ban, 2023), KRS 205.5365 (Medicaid ban, 2025). No shield law found.
+    Only Louisville was drafted; Lexington was skipped for time.
+overview:
+  en: >-
+    Kentucky makes legal name changes fairly easy (a one-page petition in District Court, no publication), but changing
+    the sex marker on a driver's license or birth certificate generally requires proof of surgery. Adults can get
+    gender-affirming care, but since 2025 Kentucky Medicaid will not pay for hormones or surgery for gender dysphoria
+    and state prisons may not provide them; all such care for people under 18 has been banned since 2023. There is no
+    shield law.
+  es: >-
+    Kentucky facilita bastante el cambio legal de nombre (una petición de una página en el Tribunal de Distrito, sin
+    publicación), pero cambiar el marcador de sexo en la licencia o el acta de nacimiento en general requiere prueba de
+    cirugía. Los adultos pueden recibir atención de afirmación de género, pero desde 2025 Medicaid de Kentucky no paga
+    hormonas ni cirugía para la disforia de género y las prisiones estatales no pueden proporcionarlas; toda esa
+    atención para menores de 18 está prohibida desde 2023. No hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [krs-213-121, kytc-proof-docs, krs-311-372, krs-205-5365]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [louisville]
+key_resources:
+  - id: fairness-campaign
+    name: Fairness Campaign
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Louisville-based statewide LGBTQ advocacy organization; referrals to trans-friendly services across Kentucky.
+      es: Organización estatal de defensa LGBTQ con sede en Louisville; referencias a servicios en todo Kentucky.
+    url: https://www.fairness.org/
+    phone: "502-893-0788"
+    cost: free
+    verification: org_website
+    sources: [fairness]
+  - id: khjn
+    name: Kentucky Health Justice Network, Trans Health Program
+    type: fund
+    pillars: [hrt, insurance, name_change]
+    description:
+      en: Statewide grants for gender-affirming care, insurance navigation, provider reviews, and guides including legal name changes.
+      es: Becas estatales para atención de afirmación de género, orientación sobre seguros, reseñas de proveedores y guías, incluido el cambio de nombre.
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    cost: free
+    verification: org_website
+    sources: [khjn]
+  - id: kyjustice
+    name: Kentucky Justice Online (legal aid)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Portal of Kentucky's civil legal aid programs, with name change information and a tool to find free legal help near you.
+      es: Portal de los programas de asistencia legal civil de Kentucky, con información sobre cambio de nombre y un buscador de ayuda gratuita.
+    url: https://www.kyjustice.org/help-near-you
+    cost: free
+    verification: org_website
+    sources: [kyjustice]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people. 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: krs-213-121
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=8741
+    title: KRS 213.121, Amendment of certificate or report
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: kytc-proof-docs
+    url: https://drive.ky.gov/Drivers/Documents/ValidProofDocuments.pdf
+    title: Valid Proof Documents
+    publisher: Kentucky Transportation Cabinet
+    kind: official
+    accessed: "2026-09-24"
+  - id: krs-311-372
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54017
+    title: KRS 311.372
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: krs-205-5365
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56368
+    title: KRS 205.5365
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: fairness
+    url: https://www.fairness.org/
+    title: Fairness Campaign
+    kind: org
+    accessed: "2026-09-24"
+  - id: khjn
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    title: Trans Health Program
+    publisher: Kentucky Health Justice Network
+    kind: org
+    accessed: "2026-09-24"
+  - id: kyjustice
+    url: https://www.kyjustice.org/help-near-you
+    title: Help Near You
+    publisher: Kentucky Justice Online
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

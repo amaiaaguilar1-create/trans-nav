@@ -1,0 +1,217 @@
+jurisdiction: KY
+slug: louisville
+name: Louisville
+area:
+  en: Louisville/Jefferson County Metro
+  es: Área metropolitana de Louisville/condado de Jefferson
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Org details from each org's own site 2026-09-24. Not confirmed: the Jefferson County name change filing fee
+    (TransKentucky's older page says $43 plus an $8 county clerk fee; the statutory recording fee is now $33), and the
+    claim that Jefferson County does not require adults to appear (community-reported). The Planned Parenthood Louisville
+    health center page and louisvilleky.gov (Department of Public Health and Wellness STD clinic) returned 403, so they
+    are listed without addresses or left out. UofL Health's 550 Clinic page returned 404 and is not listed; Norton
+    Healthcare was not checked. Louisville Youth Group's site did not show ages or address. Legal Aid Society (laslou.org)
+    did not respond; Kentucky Justice Online's "Help Near You" is listed instead.
+intro:
+  en: >-
+    Louisville has Kentucky's largest cluster of LGBTQ organizations: the Fairness Campaign, youth programs, housing for
+    LGBTQ young adults, HIV services, and a Planned Parenthood health center that offers hormone therapy for adults. Name
+    change petitions are filed with the Jefferson Circuit Court Clerk for Jefferson District Court.
+  es: >-
+    Louisville concentra la mayor cantidad de organizaciones LGBTQ de Kentucky: la Fairness Campaign, programas para
+    jóvenes, vivienda para adultos jóvenes LGBTQ, servicios de VIH y un centro de Planned Parenthood que ofrece terapia
+    hormonal para adultos. Las peticiones de cambio de nombre se presentan ante la Secretaría del Tribunal de Circuito de
+    Jefferson para el Tribunal de Distrito de Jefferson.
+court:
+  name: Jefferson District Court (petitions filed with the Jefferson Circuit Court Clerk)
+  self_help_url: https://www.kycourts.gov/Legal-Help/Pages/default.aspx
+  notes:
+    en: Use statewide form AOC-295, signed before a notary. Name changes are District Court probate cases. Call the clerk to confirm the current fee and whether a hearing will be set; community reports say adults in Jefferson County usually do not have to appear.
+    es: Usa el formulario estatal AOC-295, firmado ante notario. Llama a la secretaría para confirmar la tarifa y si habrá audiencia.
+  sources: [krs-401-010, aoc-295, transky-id]
+resources:
+  - id: fairness-campaign
+    name: Fairness Campaign
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Louisville-based statewide LGBTQ advocacy organization; a good first call for referrals to trans-friendly lawyers, providers, and community groups.
+      es: Organización de defensa LGBTQ con sede en Louisville; buen primer contacto para referencias a abogados, proveedores y grupos comunitarios.
+    url: https://www.fairness.org/
+    phone: "502-893-0788"
+    address: 2263 Frankfort Avenue, Louisville, KY 40206
+    cost: free
+    verification: org_website
+    sources: [fairness]
+  - id: kyjustice-lou
+    name: Kentucky Justice Online, Help Near You
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide legal aid portal that routes Jefferson County residents to free civil legal aid and explains the name change process.
+      es: Portal estatal de asistencia legal que dirige a residentes del condado de Jefferson a ayuda legal gratuita.
+    url: https://www.kyjustice.org/help-near-you
+    cost: free
+    verification: org_website
+    sources: [kyjustice]
+  - id: khjn-lou
+    name: Kentucky Health Justice Network, Trans Health Program
+    type: fund
+    pillars: [hrt, insurance, name_change]
+    description:
+      en: Louisville-based statewide network offering grants for gender-affirming care, insurance navigation, and provider reviews.
+      es: Red estatal con sede en Louisville que ofrece becas para atención de afirmación de género, orientación sobre seguros y reseñas de proveedores.
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    cost: free
+    verification: org_website
+    sources: [khjn]
+  - id: pp-louisville
+    org: planned-parenthood
+    name: Planned Parenthood, Louisville health center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: The regional affiliate says all its health centers, including Louisville, offer gender-affirming hormone care, plus telehealth. Adults 18 and older in Kentucky. Call 1-800-769-0045 for the address and appointments.
+      es: La afiliada regional dice que todos sus centros, incluido Louisville, ofrecen atención hormonal de afirmación de género, además de telesalud. Adultos de 18 años o más. Llama al 1-800-769-0045.
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    phone: "1-800-769-0045"
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [pp-affiliate]
+  - id: voa-mid-states
+    name: Volunteers of America Mid-States, Health Outreach and Prevention
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Education and confidential HIV testing.
+      es: Educación y pruebas confidenciales de VIH.
+    url: https://www.voamid.org/services/health-outreach-prevention/
+    phone: "502-636-0771"
+    address: 570 South Fourth Street, Suite 100, Louisville, KY 40202
+    cost: free
+    verification: org_website
+    sources: [voa]
+  - id: house-of-ruth
+    name: House of Ruth
+    type: other
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Housing, emergency shelter, mental health counseling, client advocacy, food pantry, and help with rent and utilities for people living with HIV and their families.
+      es: Vivienda, refugio de emergencia, consejería de salud mental, defensa, despensa y ayuda con renta y servicios para personas con VIH y sus familias.
+    url: https://www.houseofruth.net/
+    phone: "502-587-5080"
+    address: 607 East St. Catherine Street, Louisville, KY 40203
+    cost: free
+    verification: org_website
+    sources: [house-of-ruth]
+  - id: sweet-evening-breeze
+    name: Sweet Evening Breeze
+    type: other
+    pillars: [mental_health, name_change]
+    description:
+      en: Housing, drop-in center, counseling, case management, peer support, and free notary services for LGBTQ+ young adults 18 to 24 experiencing homelessness. The free notary helps with name change petitions.
+      es: Vivienda, centro de acogida, consejería, manejo de casos, apoyo entre pares y notario gratuito para jóvenes LGBTQ+ de 18 a 24 años sin hogar.
+    url: https://sweeteveningbreeze.org/
+    address: 801 Barrett Avenue, Suite 211, Louisville, KY 40204
+    cost: free
+    verification: org_website
+    sources: [seb]
+  - id: louisville-youth-group
+    name: Louisville Youth Group
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Support and community programs for LGBTQ youth in Louisville. Call for meeting times and ages served.
+      es: Programas de apoyo y comunidad para jóvenes LGBTQ en Louisville. Llama para horarios y edades.
+    url: https://louisvilleyouthgroup.org/
+    phone: "502-430-2016"
+    cost: free
+    verification: org_website
+    sources: [lyg]
+  - id: trans-lifeline-lou
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people. 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: krs-401-010
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=41791
+    title: KRS 401.010
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: aoc-295
+    url: https://www.kycourts.gov/Legal-Forms/Legal%20Forms/295.pdf
+    title: AOC-295, Petition for Name Change
+    publisher: Kentucky Court of Justice
+    kind: form
+    accessed: "2026-09-24"
+  - id: transky-id
+    url: https://www.transkentucky.com/other-resources/identity-documents/
+    title: Identity documents
+    publisher: TransKentucky
+    kind: community
+    accessed: "2026-09-24"
+  - id: fairness
+    url: https://www.fairness.org/
+    title: Fairness Campaign
+    kind: org
+    accessed: "2026-09-24"
+  - id: kyjustice
+    url: https://www.kyjustice.org/help-near-you
+    title: Help Near You
+    publisher: Kentucky Justice Online
+    kind: org
+    accessed: "2026-09-24"
+  - id: khjn
+    url: https://www.kentuckyhealthjusticenetwork.org/transhealth.html
+    title: Trans Health Program
+    publisher: Kentucky Health Justice Network
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-affiliate
+    url: https://www.plannedparenthood.org/planned-parenthood-great-northwest-hawaii-alaska-indiana-kentuck
+    title: Planned Parenthood Great Northwest, Hawaii, Alaska, Indiana, Kentucky
+    kind: org
+    accessed: "2026-09-24"
+  - id: voa
+    url: https://www.voamid.org/services/health-outreach-prevention/
+    title: Health Outreach and Prevention
+    publisher: Volunteers of America Mid-States
+    kind: org
+    accessed: "2026-09-24"
+  - id: house-of-ruth
+    url: https://www.houseofruth.net/
+    title: House of Ruth
+    kind: org
+    accessed: "2026-09-24"
+  - id: seb
+    url: https://sweeteveningbreeze.org/
+    title: Sweet Evening Breeze
+    kind: org
+    accessed: "2026-09-24"
+  - id: lyg
+    url: https://louisvilleyouthgroup.org/
+    title: Louisville Youth Group
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

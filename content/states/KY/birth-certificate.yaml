@@ -1,0 +1,262 @@
+guide_type: birth_certificate
+jurisdiction: KY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    KRS 213.121(5) (unchanged since 1990), 901 KAR 5:070, 901 KAR 5:050 (fees, recertified 10-13-2025), form VS-2J
+    (rev. 11.24.2025) and VS-37 read directly on 2026-09-24. The Office of Vital Statistics website has no page or form
+    specific to sex-marker amendments. Reviewer: (1) confirm the submission packet: TransKentucky mentions a notarized
+    physician's statement on a "VS-15 GR" form, which is not listed on the CHFS forms page; we could not confirm it exists;
+    (2) confirm whether OVS charges anything beyond the $10 certified-copy fee for a sex-marker amendment (VS-2J mentions
+    only copy fees); (3) confirm whether the amended certificate shows "amended" and the prior sex (KRS 213.121(2) says
+    amended certificates are marked "amended"); (4) confirm processing time (VS-37 says mail orders for copies take up
+    to 30 working days; no published time for amendments). No 2026 bill on birth certificate sex markers advanced
+    (HB 334/SB 179 died in committee).
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Kentucky, the sex on your birth certificate can be changed only with a sworn statement from a
+    licensed physician that your sex has been changed by surgery **plus** a certified court order changing your name.
+    The certificate is amended, not replaced. Changing only your name needs just the court order.
+  es: >-
+    Si naciste en Kentucky, el sexo en tu acta de nacimiento solo puede cambiarse con una declaración jurada de un
+    médico con licencia de que tu sexo fue cambiado mediante cirugía **más** una orden judicial certificada de cambio de
+    nombre. El acta se enmienda, no se reemplaza. Cambiar solo el nombre requiere únicamente la orden judicial.
+summary:
+  en: |
+    Kentucky's statute, KRS 213.121(5), says the birth certificate "shall be amended" when the Office of Vital Statistics receives both:
+
+    1. a **sworn statement by a licensed physician** that your gender "has been changed by surgical procedure", and
+    2. a **certified copy of a court order changing your name**.
+
+    Both are required. There is no route by affidavit alone, by a therapist or hormone-prescriber letter, or without a name change order. The statute does not say which surgery counts; in practice the Office of Vital Statistics decides whether the physician's statement is sufficient. Only male and female are recorded.
+
+    Amended certificates are marked "amended" (KRS 213.121(2)).
+
+    **Name only**: send a certified copy of your name change order and the office will amend the name (KRS 213.121(4)); no surgery or medical statement is needed.
+
+    This applies only to people **born in Kentucky**. If you were born elsewhere, your birth state's rules apply, even if you live in Kentucky.
+  es: |
+    La ley de Kentucky, KRS 213.121(5), dice que el acta "se enmendará" cuando la Oficina de Estadísticas Vitales reciba ambos:
+
+    1. una **declaración jurada de un médico con licencia** de que tu género "ha sido cambiado mediante procedimiento quirúrgico", y
+    2. una **copia certificada de una orden judicial de cambio de nombre**.
+
+    Se requieren ambos. No hay vía por declaración propia, carta de terapeuta o de quien receta hormonas, ni sin orden de cambio de nombre. Solo se registra masculino o femenino. Las actas enmendadas se marcan como "enmendadas".
+
+    **Solo nombre**: envía una copia certificada de tu orden de cambio de nombre (KRS 213.121(4)); no se necesita cirugía.
+
+    Esto aplica solo a personas **nacidas en Kentucky**. Si naciste en otro lugar, rigen las reglas de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Kentucky. Where you live now does not matter.
+    es: Debes haber nacido en Kentucky. No importa dónde vivas ahora.
+  age:
+    en: Adults apply themselves. For someone under 18, a parent or legal guardian applies (901 KAR 5:070 Section 8). Kentucky's ban on gender-affirming surgery for minors (KRS 311.372) means minors generally cannot meet the surgical requirement.
+    es: Los adultos presentan la solicitud. Para menores de 18, la presenta un padre o tutor. La prohibición de cirugía de afirmación de género para menores (KRS 311.372) significa que en general no pueden cumplir el requisito quirúrgico.
+  other:
+    en: You need a court order changing your name, even if you do not want a new name, because the statute requires it.
+    es: Necesitas una orden judicial de cambio de nombre, incluso si no quieres un nombre nuevo, porque la ley lo exige.
+  sources: [krs-213-121, kar-5-070, krs-311-372]
+forms:
+  - id: VS-2J
+    name:
+      en: Affidavit for Amendment to Certificate
+      es: Declaración jurada para enmendar el certificado
+    url: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Forms/VS2J.pdf
+    required: conditional
+    condition:
+      en: The state's general birth-amendment affidavit. Use it to list the fields to change (sex, and name if not already amended). Confirm with the Office of Vital Statistics (502-564-4212) whether they want it for a sex change, since there is no dedicated form online.
+      es: La declaración general de enmienda. Confirma con la Oficina de Estadísticas Vitales (502-564-4212) si la quieren para un cambio de sexo.
+    how_to_fill:
+      en: |
+        - Items 1 to 7: exactly as on your current certificate.
+        - Items 15 to 19: write the field (Sex; Name), what it shows now, and the correction requested.
+        - Item 20, evidence: list the physician's sworn statement and the certified court order.
+        - Sign as Registrant in front of a notary. Any alteration voids the affidavit, so use a clean copy if you make a mistake.
+      es: |
+        - Puntos 1 a 7: exactamente como en tu acta actual.
+        - Puntos 15 a 19: el campo (Sexo; Nombre), lo que dice ahora y la corrección.
+        - Punto 20: indica la declaración del médico y la orden judicial certificada.
+        - Firma como registrado ante notario. Cualquier alteración invalida la declaración.
+    sources: [vs-2j]
+  - id: VS-37
+    name:
+      en: Application for a Certified Copy of Birth Certificate
+      es: Solicitud de copia certificada de acta de nacimiento
+    url: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Forms/VS37BirthApp.pdf
+    url_es: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Forms/VS37BirthAppSpanish.pdf
+    required: optional
+    condition:
+      en: To order extra certified copies of the amended certificate.
+      es: Para pedir copias certificadas adicionales del acta enmendada.
+    sources: [vs-37]
+steps:
+  - id: name-order
+    title:
+      en: Get a court order changing your name
+      es: Obtén una orden judicial de cambio de nombre
+    body:
+      en: See the name change guide. Get at least one extra certified copy for Vital Statistics.
+      es: Consulta la guía de cambio de nombre. Obtén al menos una copia certificada extra para Estadísticas Vitales.
+    sources: [krs-213-121]
+  - id: physician
+    title:
+      en: Get a sworn statement from your surgeon or physician
+      es: Obtén una declaración jurada de tu cirujano o médico
+    body:
+      en: The statement must be signed under oath (notarized) by a licensed physician and say that your sex has been changed by surgical procedure. Ask for your full legal name, date of birth, the physician's license number, and the date of the procedure to be included.
+      es: La declaración debe estar firmada bajo juramento (notariada) por un médico con licencia y decir que tu sexo fue cambiado mediante procedimiento quirúrgico. Pide que incluya tu nombre legal, fecha de nacimiento, número de licencia del médico y fecha del procedimiento.
+    applies_to: [gender_marker]
+    sources: [krs-213-121]
+  - id: affidavit
+    title:
+      en: Complete and notarize the amendment affidavit
+      es: Llena y notariza la declaración de enmienda
+    body:
+      en: Fill out VS-2J listing the fields to change and sign it in front of a notary.
+      es: Llena el VS-2J con los campos a cambiar y fírmalo ante notario.
+    forms: [VS-2J]
+    sources: [vs-2j]
+  - id: mail
+    title:
+      en: Mail the packet to the Office of Vital Statistics
+      es: Envía el paquete a la Oficina de Estadísticas Vitales
+    body:
+      en: |
+        Send the affidavit, the physician's sworn statement, the certified name change order, a copy of your photo ID, and a check or money order payable to "Kentucky State Treasurer" for each certified copy you want ($10 each) to: Office of Vital Statistics, 275 East Main Street 1E-A, Frankfort, KY 40621. You can also deliver it in person, weekdays 8 am to 4:30 pm.
+      es: |
+        Envía la declaración, la declaración del médico, la orden certificada, copia de tu identificación y un cheque o giro a nombre de "Kentucky State Treasurer" por cada copia certificada ($10 cada una) a: Office of Vital Statistics, 275 East Main Street 1E-A, Frankfort, KY 40621. También puedes entregarlo en persona.
+    forms: [VS-37]
+    fees: [copy]
+    applies_to: [by_mail, in_person]
+    sources: [vs-2j, vs-37, kar-5-050]
+  - id: wait
+    title:
+      en: Wait for the amended certificate
+      es: Espera el acta enmendada
+    body:
+      en: No processing time is published for amendments. Mail orders for copies take up to 30 working days. If you have not heard back in two months, call 502-564-4212.
+      es: No hay un tiempo publicado para enmiendas. Los pedidos de copias por correo tardan hasta 30 días hábiles. Si no recibes respuesta en dos meses, llama al 502-564-4212.
+    sources: [vs-37]
+fees:
+  - id: copy
+    label:
+      en: Certified copy of the amended birth certificate (each)
+      es: Copia certificada del acta enmendada (cada una)
+    amount: 10
+    waivable: true
+    note:
+      en: No separate amendment fee is published. Copies are free for people verified as homeless (form VS-41), some veterans' claims, and children in state custody.
+      es: No se publica una tarifa aparte por la enmienda. Las copias son gratis para personas sin hogar verificadas (formulario VS-41) y otros casos.
+    sources: [kar-5-050, krs-213-141, vs-41]
+fee_waiver:
+  available: true
+  eligibility:
+    en: Certified copies are free for people experiencing homelessness (including youth under 25) who are verified by a homeless services agency, school liaison, or college financial aid office, using form VS-41.
+    es: Las copias certificadas son gratis para personas sin hogar (incluidos jóvenes menores de 25) verificadas por una agencia, un enlace escolar o una oficina de ayuda financiera universitaria, con el formulario VS-41.
+  sources: [krs-213-141, vs-41]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail or in person at the Office of Vital Statistics in Frankfort. Online vendors only sell copies; they do not process amendments.
+    es: Por correo o en persona en Frankfort. Los vendedores en línea solo venden copias.
+  sources: [vs-37]
+timeline:
+  en: Plan on one to three months after you have both the name change order and the physician's statement.
+  es: Calcula de uno a tres meses después de tener la orden y la declaración médica.
+after:
+  en: |
+    An amended Kentucky birth certificate is one of the documents the Kentucky Transportation Cabinet accepts to change the sex on your license. As of September 2026, Social Security and the U.S. passport will not change the sex field based on it. If you were not born in Kentucky, contact your birth state's vital records office instead.
+  es: |
+    Un acta de Kentucky enmendada es uno de los documentos que acepta el Gabinete de Transporte para cambiar el sexo en tu licencia. A septiembre de 2026, el Seguro Social y el pasaporte no cambian el campo de sexo con base en ella. Si no naciste en Kentucky, contacta la oficina de registros vitales de tu estado de nacimiento.
+tips:
+  - en: If you only need your name updated, send just the certified name change order with VS-2J; no medical statement is needed.
+    es: Si solo necesitas actualizar el nombre, envía la orden certificada con el VS-2J; no se necesita declaración médica.
+  - en: Under 901 KAR 5:070, once an item has been amended it can be amended again only with a court order. Double-check spelling before you send.
+    es: Una vez enmendado un dato, solo puede volver a cambiarse con orden judicial. Revisa la ortografía.
+statutes:
+  - cite: KRS 213.121
+    title:
+      en: Amendment of certificate; subsection (5) sex change with physician's statement of surgery and court-ordered name change
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=8741
+  - cite: 901 KAR 5:070
+    title:
+      en: Certificate of birth amended
+    url: https://apps.legislature.ky.gov/law/kar/titles/901/005/070/
+  - cite: 901 KAR 5:050
+    title:
+      en: Fees for certified copies ($10 birth)
+    url: https://apps.legislature.ky.gov/law/kar/titles/901/005/050/
+related_links:
+  - title: Kentucky Office of Vital Statistics, forms
+    url: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Pages/Forms.aspx
+  - title: Advocates for Trans Equality, Kentucky identity documents
+    url: https://transequality.org/documents/kentucky-identity-documents
+    note:
+      en: No last-updated date shown on the page as of September 2026.
+      es: La página no muestra fecha de actualización a septiembre de 2026.
+sources:
+  - id: krs-213-121
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=8741
+    title: KRS 213.121, Amendment of certificate or report
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a sworn statement by a licensed physician indicating that the gender of an individual born in the Commonwealth has been changed by surgical procedure and a certified copy of an order of a court of competent jurisdiction changing that individual's name, the certificate of birth of the individual shall be amended as prescribed by regulation to reflect the change.
+  - id: kar-5-070
+    url: https://apps.legislature.ky.gov/law/kar/titles/901/005/070/
+    title: 901 KAR 5:070, Certificate of birth amended
+    publisher: Kentucky Legislative Research Commission
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Once an amendment of an item is recorded on the birth certificate, that item shall not be amended again except upon receipt of a court order from a court of competent jurisdiction.
+  - id: kar-5-050
+    url: https://apps.legislature.ky.gov/law/kar/titles/901/005/050/
+    title: 901 KAR 5:050, Fees for searches, certified copies of certificates and records
+    publisher: Kentucky Legislative Research Commission
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: "Birth: $10"
+  - id: krs-213-141
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54967
+    title: KRS 213.141, Fee for certified copies; exemptions
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No fee or compensation shall be allowed or paid for furnishing a certificate of birth to a homeless individual ... or a homeless youth ... who is under twenty-five (25) years of age
+  - id: krs-311-372
+    url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54017
+    title: KRS 311.372, Prohibition on treatments to a minor
+    publisher: Kentucky Legislative Research Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: vs-2j
+    url: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Forms/VS2J.pdf
+    title: VS-2J, Affidavit for Amendment to Certificate (Rev. 11.24.2025)
+    publisher: Kentucky Office of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: ANY ALTERATIONS SHALL INVALIDATE THIS AFFIDAVIT
+  - id: vs-37
+    url: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Forms/VS37BirthApp.pdf
+    title: VS-37, Application for a Certified Copy of Birth Certificate (Rev. 12.20.2023)
+    publisher: Kentucky Office of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: It can take up to 30 working days to process your request from the date payment is posted.
+  - id: vs-41
+    url: https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Forms/VS41AffidavitFeeExemptHomeless.pdf
+    title: VS-41, Affidavit Fee Exempt Homeless
+    publisher: Kentucky Office of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
