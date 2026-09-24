@@ -1,0 +1,452 @@
+guide_type: name_change
+jurisdiction: DE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from 10 Del. C. ch. 59 (delcode.delaware.gov), the Court of Common Pleas name change packet
+    (courts.delaware.gov form id 16858, New Castle County version), the CCP fee page, the Family Court Schedule of
+    Assessed Costs (effective 7/20/26) and the Family Court minor name change forms. Open items for the reviewer:
+    (1) The packet says a hearing date is assigned after filing, but 10 Del. C. § 5904 does not require one; confirm
+    whether any county CCP now grants uncontested adult petitions on the papers. (2) The petition says the petitioner
+    has lived in the county "for more than six months"; that residency period is on the court form, not in § 5901.
+    Confirm the court enforces it. (3) Typical time from filing to hearing was not published; the timeline is an
+    estimate. (4) No statute or rule specific to sealing name-change records was found; the confidentiality section
+    only says you may ask. (5) Kent (id 74958) and Sussex (id 16878) packet links were listed on the court page but only
+    the New Castle packet was read. (6) The Family Court minor filing total ($90 civil filing plus $10 court security
+    assessment) comes from the fee schedule; confirm at the clerk. (7) Delaware repealed its newspaper publication
+    requirement (§ 5903) effective April 28, 2022; A4TE (last updated December 2025) agrees.
+status: available
+status_summary:
+  en: >-
+    Delaware adults can change their name by filing a short petition in the Court of Common Pleas in the county
+    where they live. No newspaper publication is required. The fee is $85 (fee waiver available), and you should
+    expect a brief court hearing.
+  es: >-
+    En Delaware, las personas adultas pueden cambiar su nombre presentando una petición breve en el Tribunal de
+    Causas Comunes (Court of Common Pleas) del condado donde viven. No se requiere publicación en periódico. La tarifa
+    es de $85 (hay exención de tarifas) y debes esperar una audiencia breve.
+summary:
+  en: |
+    Adult name changes in Delaware go to the **Court of Common Pleas** in your county (New Castle, Kent, or Sussex). You fill out a one-page petition, sign a short affidavit in front of a notary, and file it with a copy of your birth certificate and photo ID. The court then schedules a short hearing. If the judge grants it, you get the signed order plus **eight certified copies** included in the $85 fee.
+
+    Delaware **repealed its newspaper publication requirement in 2022**, so you do not need to publish anything. You do not need a doctor's letter or any reason beyond your own; "to match my gender identity" is a sufficient reason.
+
+    Name changes for **anyone under 18** go to **Family Court** instead, with a parent or guardian as petitioner.
+  es: |
+    Los cambios de nombre de adultos en Delaware se presentan en el **Tribunal de Causas Comunes** de tu condado (New Castle, Kent o Sussex). Llenas una petición de una página, firmas una declaración jurada breve ante un notario y la presentas con una copia de tu acta de nacimiento e identificación con foto. El tribunal programa una audiencia corta. Si el juez la aprueba, recibes la orden firmada y **ocho copias certificadas** incluidas en la tarifa de $85.
+
+    Delaware **eliminó el requisito de publicación en periódico en 2022**, así que no tienes que publicar nada. No necesitas carta médica ni otra razón que la tuya; "para que coincida con mi identidad de género" es suficiente.
+
+    Los cambios de nombre de **menores de 18 años** se presentan en el **Tribunal de Familia**, con un padre, madre o tutor como peticionario.
+eligibility:
+  residency:
+    en: File in the Court of Common Pleas of the Delaware county where you live. The court's petition form asks you to state that you have lived in that county for more than six months.
+    es: Presenta la petición en el Tribunal de Causas Comunes del condado de Delaware donde vives. El formulario pide declarar que has vivido en ese condado por más de seis meses.
+  age:
+    en: 18 or older in the Court of Common Pleas. Under 18 goes to Family Court (see Minors).
+    es: 18 años o más en el Tribunal de Causas Comunes. Los menores de 18 van al Tribunal de Familia (ver Menores).
+  criminal_history:
+    en: >-
+      The petition asks whether you have pending criminal charges or are under Department of Correction supervision
+      (including probation or parole). If you are under DOC supervision, the court may grant the change only if it
+      finds it is motivated by a sincerely held religious belief or by gender identity, and DOC gets notice and a chance
+      to object.
+    es: >-
+      La petición pregunta si tienes cargos penales pendientes o estás bajo supervisión del Departamento de
+      Correcciones (incluida libertad condicional). Si estás bajo supervisión, el tribunal puede aprobar el cambio solo
+      si está motivado por una creencia religiosa sincera o por identidad de género, y el Departamento recibe aviso y
+      puede oponerse.
+  sources: [delcode-5901, ccp-packet]
+forms:
+  - id: CCP Change of Name Packet
+    name:
+      en: Court of Common Pleas Change of Name Petitions packet (instructions, Petition for Name Change, Affidavit of Petitioner)
+      es: Paquete de peticiones de cambio de nombre del Tribunal de Causas Comunes (instrucciones, petición y declaración jurada)
+    url: https://courts.delaware.gov/forms/download.aspx?id=16858
+    required: always
+    how_to_fill:
+      en: |
+        - Check the box for your county (New Castle, Kent, or Sussex) at the top of the petition.
+        - Item 1: your address and county. The form states you have lived there more than six months.
+        - Item 3: date and place of birth. If your current name differs from your birth name, attach proof of earlier changes (marriage certificate, prior order).
+        - Item 4: current name and the new name you want. Spell it exactly; the order copies it.
+        - Item 5, reason: a short, truthful reason is enough, for example "to reflect my gender identity" or "to match the name I use in daily life." You do not need medical proof.
+        - Item 7: check whether you have pending criminal charges and whether you are under Department of Correction supervision; fill items 8 and 9 only if either applies.
+        - Sign the **Affidavit of Petitioner** only in front of a notary (banks, libraries, and many UPS stores offer notary service).
+    sources: [ccp-packet]
+  - id: CIS
+    name:
+      en: Civil Case Information Statement (Court of Common Pleas)
+      es: Hoja de información del caso civil (Tribunal de Causas Comunes)
+    url: https://courts.delaware.gov/forms/download.aspx?id=14838
+    required: conditional
+    condition:
+      en: Listed with the name change forms on the court's forms page. Use case type "MNAM - Change of Name Petition". Ask the clerk whether it is required in your county.
+      es: Aparece con los formularios de cambio de nombre. Usa el tipo de caso "MNAM - Change of Name Petition". Pregunta al secretario si es obligatorio en tu condado.
+    sources: [ccp-cis, forms-changename]
+  - id: CCP IFP Affidavit
+    name:
+      en: Affidavit in Support of Application to Proceed In Forma Pauperis (fee waiver)
+      es: Declaración jurada para solicitar proceder sin pago de costas (exención de tarifas)
+    url: https://courts.delaware.gov/forms/download.aspx?id=15748
+    required: optional
+    condition:
+      en: Only if you cannot afford the $85 filing fee.
+      es: Solo si no puedes pagar la tarifa de $85.
+    sources: [ccp-ifp]
+  - id: Form 492
+    name:
+      en: Petition for Minor Name Change (Family Court)
+      es: Petición de cambio de nombre de menor (Tribunal de Familia)
+    url: https://courts.delaware.gov/forms/download.aspx?id=115928
+    required: conditional
+    condition:
+      en: Only for a child under 18. One petition per child. Includes an affidavit the child signs if 14 or older.
+      es: Solo para menores de 18 años. Una petición por menor. Incluye una declaración que firma el menor si tiene 14 años o más.
+    sources: [fc-minor-petition, forms-changename]
+  - id: Form 493
+    name:
+      en: Affidavit of Parental Consent to Petition for Minor Name Change
+      es: Declaración jurada de consentimiento parental para el cambio de nombre de un menor
+    url: https://courts.delaware.gov/forms/download.aspx?id=115938
+    required: conditional
+    condition:
+      en: Filed by the other parent if they agree to the child's name change. It avoids formal service on that parent.
+      es: La presenta el otro padre o madre si está de acuerdo con el cambio. Evita la notificación formal a ese padre.
+    sources: [fc-minor-petition, forms-changename]
+steps:
+  - id: fill-petition
+    title:
+      en: Fill out the petition and affidavit
+      es: Llena la petición y la declaración jurada
+    body:
+      en: Download the Court of Common Pleas name change packet. Complete the Petition for Name Change. Sign the Affidavit of Petitioner in front of a notary.
+      es: Descarga el paquete de cambio de nombre del Tribunal de Causas Comunes. Llena la petición. Firma la declaración jurada ante un notario.
+    forms: [CCP Change of Name Packet, CIS]
+    applies_to: [adult]
+    sources: [ccp-packet, forms-changename, ccp-changename]
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        The packet lists what must be filed with the petition. Incomplete petitions are not accepted:
+        - The notarized petition and affidavit
+        - Your birth certificate
+        - Photo ID
+        - Documents for any earlier name change
+        - A final divorce order or other court order, if that is part of the reason for the change
+      es: |
+        El paquete indica lo que debe presentarse con la petición. No se aceptan peticiones incompletas:
+        - La petición y la declaración notarizadas
+        - Tu acta de nacimiento
+        - Identificación con foto
+        - Documentos de cualquier cambio de nombre anterior
+        - Una orden de divorcio u otra orden judicial, si es parte del motivo del cambio
+    applies_to: [adult]
+    sources: [ccp-packet]
+  - id: file
+    title:
+      en: File at the Court of Common Pleas and pay the fee
+      es: Presenta en el Tribunal de Causas Comunes y paga la tarifa
+    body:
+      en: |
+        File in the county where you live: **New Castle** (500 N. King Street, Wilmington; 302-255-0900), **Kent** (414 Federal Street, Dover; 302-735-3900), or **Sussex** (1 The Circle, Georgetown; 302-858-5730). Pay $85, or file the in forma pauperis affidavit to ask the court to waive the fee.
+      es: |
+        Presenta en el condado donde vives: **New Castle** (500 N. King Street, Wilmington; 302-255-0900), **Kent** (414 Federal Street, Dover; 302-735-3900) o **Sussex** (1 The Circle, Georgetown; 302-858-5730). Paga $85 o presenta la declaración in forma pauperis para pedir la exención.
+    fees: [filing]
+    forms: [CCP IFP Affidavit]
+    applies_to: [adult]
+    sources: [ccp-packet, ccp-fees]
+  - id: hearing
+    title:
+      en: Go to your hearing
+      es: Asiste a tu audiencia
+    body:
+      en: The clerk assigns a hearing date. Arrive 30 minutes early to check in with the bailiff. The judge may ask a few questions about the request. If granted, you receive the signed order and eight certified copies.
+      es: El secretario asigna una fecha de audiencia. Llega 30 minutos antes para registrarte con el alguacil. El juez puede hacer algunas preguntas. Si se aprueba, recibes la orden firmada y ocho copias certificadas.
+    applies_to: [adult]
+    sources: [ccp-packet]
+  - id: update-records
+    title:
+      en: Update your records
+      es: Actualiza tus registros
+    body:
+      en: Use the certified copies to update Social Security, the DMV, your birth certificate, passport, and other accounts. Extra certified copies cost $10 each from the court.
+      es: Usa las copias certificadas para actualizar el Seguro Social, el DMV, tu acta de nacimiento, pasaporte y otras cuentas. Las copias certificadas adicionales cuestan $10 cada una.
+    fees: [extra-copies]
+    sources: [ccp-packet]
+fees:
+  - id: filing
+    label:
+      en: Court of Common Pleas petition for name change
+      es: Petición de cambio de nombre en el Tribunal de Causas Comunes
+    amount: 85
+    waivable: true
+    note:
+      en: Includes the signed original order and eight certified copies.
+      es: Incluye la orden original firmada y ocho copias certificadas.
+    sources: [ccp-fees, ccp-packet]
+  - id: extra-copies
+    label:
+      en: Additional certified copy of the order (each)
+      es: Copia certificada adicional de la orden (cada una)
+    amount: 10
+    sources: [ccp-packet]
+  - id: minor-filing
+    label:
+      en: Family Court petition for minor name change (civil filing plus court security assessment)
+      es: Petición de cambio de nombre de menor en el Tribunal de Familia (presentación civil más cargo de seguridad)
+    amount: 100
+    waivable: true
+    note:
+      en: $90 civil filing fee plus the $10 civil court security assessment the schedule applies to minor name change petitions.
+      es: $90 de presentación civil más el cargo de seguridad de $10 que el tarifario aplica a peticiones de cambio de nombre de menores.
+    sources: [fc-fees]
+fee_waiver:
+  available: true
+  forms: [CCP IFP Affidavit]
+  eligibility:
+    en: Delaware courts can let you proceed without paying costs (in forma pauperis) if you cannot afford them. The affidavit asks about your income, assets, and expenses; the judge decides.
+    es: Los tribunales de Delaware pueden permitirte proceder sin pagar costas (in forma pauperis) si no puedes pagarlas. La declaración pregunta por tus ingresos, bienes y gastos; el juez decide.
+  how:
+    en: Complete and sign the in forma pauperis affidavit and file it with your petition instead of paying the fee.
+    es: Completa y firma la declaración in forma pauperis y preséntala con tu petición en lugar de pagar.
+  sources: [ccp-ifp, delcode-ch88]
+publication:
+  required: "no"
+  detail:
+    en: The old requirement to publish the petition in a newspaper before filing (10 Del. C. § 5903) was repealed effective April 28, 2022.
+    es: El antiguo requisito de publicar la petición en un periódico (10 Del. C. § 5903) fue derogado a partir del 28 de abril de 2022.
+  sources: [delcode-5901]
+hearing:
+  required: "yes"
+  detail:
+    en: The court's instructions say a hearing date is assigned after filing and you must appear. The statute lets the court grant the petition when the requirements are met and there is no reason to deny it.
+    es: Las instrucciones del tribunal dicen que se asigna una audiencia después de presentar y debes comparecer. La ley permite al tribunal aprobar la petición si se cumplen los requisitos y no hay razón para negarla.
+  sources: [ccp-packet, delcode-5901]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints. You must disclose pending criminal charges and any Department of Correction supervision on the petition; people under DOC supervision face the extra rules described under eligibility.
+    es: No se toman huellas. Debes declarar cargos pendientes y cualquier supervisión del Departamento de Correcciones en la petición.
+  sources: [ccp-packet, delcode-5901]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Delaware's name change law has no automatic sealing and no gender-identity-specific confidentiality rule. Name change case records are generally public.
+    es: La ley de cambio de nombre de Delaware no prevé sellado automático ni confidencialidad específica por identidad de género. Los expedientes suelen ser públicos.
+  how:
+    en: If publicity would put you at risk, you can ask the judge at filing or at the hearing to limit public access. A legal aid lawyer can help you prepare that request.
+    es: Si la publicidad te pone en riesgo, puedes pedir al juez al presentar o en la audiencia que limite el acceso público. Un abogado de ayuda legal puede ayudarte.
+  sources: [delcode-5901]
+minors:
+  summary:
+    en: |
+      Minors file in **Family Court**, not Common Pleas. At least one parent (or a guardian if both parents have died) signs the petition, and a child **14 or older must also sign** (10 Del. C. § 5902). Use Form 492, one per child, signed before a notary. Every other legal parent must get notice: they can sign Form 493 (consent), or they must be formally served and get 20 days to answer. If a parent cannot be found, the court may require an affidavit and publication of notice where that parent last lived. The court decides based on the child's best interests, usually after a hearing that children 6 and older attend. Fee: $100 total, waivable.
+    es: |
+      Los menores presentan en el **Tribunal de Familia**, no en Causas Comunes. Al menos un padre o madre (o un tutor si ambos murieron) firma la petición, y un menor **de 14 años o más también debe firmar** (10 Del. C. § 5902). Usa el Formulario 492, uno por menor, firmado ante notario. Cualquier otro padre legal debe recibir aviso: puede firmar el Formulario 493 (consentimiento) o debe ser notificado formalmente y tiene 20 días para responder. Si no se puede localizar a un padre, el tribunal puede exigir una declaración y la publicación de un aviso. El tribunal decide según el interés superior del menor, normalmente tras una audiencia. Tarifa: $100 en total, con exención posible.
+  forms: [Form 492, Form 493]
+  sources: [delcode-5901, fc-minor-petition, fc-fees, a4te-de]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File at the Court of Common Pleas clerk's office in your county. The packet lists a civil filings email for each county; ask the clerk whether they accept self-represented filings by email or mail.
+    es: Presenta en la oficina del secretario del Tribunal de Causas Comunes de tu condado. El paquete indica un correo de presentaciones civiles por condado; pregunta si aceptan presentaciones por correo.
+  sources: [ccp-packet]
+timeline:
+  en: Usually a few weeks to a couple of months from filing to hearing, depending on the county's calendar. You get the order and copies at or soon after the hearing.
+  es: Normalmente de unas semanas a un par de meses desde la presentación hasta la audiencia, según el calendario del condado. Recibes la orden y las copias en la audiencia o poco después.
+after:
+  en: |
+    1. **Social Security** first (free). Bring a certified copy of the order and photo ID. The name changes; the sex field currently cannot be changed.
+    2. **Delaware DMV** driver's license or ID, in person, within 30 days of the order (see the driver's license guide).
+    3. **Birth certificate**, if you were born in Delaware, through the Office of Vital Statistics (see the birth certificate guide).
+    4. **Passport**, bank, employer, insurance, voter registration, school records.
+  es: |
+    1. **Seguro Social** primero (gratis). Lleva una copia certificada de la orden e identificación con foto. El nombre cambia; el campo de sexo actualmente no se puede cambiar.
+    2. **DMV de Delaware**, licencia o identificación, en persona, dentro de 30 días de la orden (ver la guía de licencia).
+    3. **Acta de nacimiento**, si naciste en Delaware, en la Oficina de Estadísticas Vitales (ver la guía de acta de nacimiento).
+    4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+tips:
+  - en: Eight certified copies come with the $85 fee. That is usually enough for SSA, DMV, vital records, passport, and a few banks; keep one original copy at home.
+    es: Con la tarifa de $85 vienen ocho copias certificadas. Suele bastar para SSA, DMV, registro civil, pasaporte y algunos bancos; guarda una en casa.
+  - en: Wear clean, neat clothes to the hearing; the court's instructions say proper dress is required to enter the courtroom.
+    es: Usa ropa limpia y ordenada en la audiencia; las instrucciones dicen que se requiere vestimenta adecuada para entrar a la sala.
+  - en: If you have no Delaware birth certificate on hand, order a copy from the state where you were born before filing, because the court requires one.
+    es: Si no tienes tu acta de nacimiento, pide una copia al estado donde naciste antes de presentar, porque el tribunal la exige.
+local_help:
+  - id: clasi
+    name: Community Legal Aid Society, Inc. (CLASI)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide civil legal aid for people with low incomes, older adults, and people with disabilities, with offices in Wilmington, Dover, and Georgetown. Call to ask whether they can help with a name change or refer you.
+      es: Ayuda legal civil en todo el estado para personas de bajos ingresos, personas mayores y personas con discapacidad, con oficinas en Wilmington, Dover y Georgetown. Llama para preguntar si pueden ayudar con un cambio de nombre o referirte.
+    url: https://www.declasi.org/
+    phone: "302-575-0660"
+    address: 100 W. 10th St., Suite 801, Wilmington, DE 19801
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [clasi-contact]
+  - id: legal-help-link
+    name: Delaware Legal Help Link
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free statewide website that matches people with civil legal problems to the right legal aid program and has self-help guides.
+      es: Sitio web gratuito que conecta a las personas con el programa de ayuda legal adecuado y ofrece guías de autoayuda.
+    url: https://delegalhelplink.org/
+    cost: free
+    verification: org_website
+    sources: [legal-help-link, clasi-contact]
+  - id: camp-rehoboth
+    name: CAMP Rehoboth Community Center
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: LGBTQ+ community center in Sussex County. A4TE lists it as a place to get help and resource referrals for name and gender marker changes in Delaware.
+      es: Centro comunitario LGBTQ+ en el condado de Sussex. A4TE lo recomienda para ayuda y referencias sobre cambios de nombre y marcador de género.
+    url: https://www.camprehoboth.org/
+    phone: "302-227-5620"
+    address: 37 Baltimore Avenue, Rehoboth Beach, DE 19971
+    cost: free
+    verification: org_website
+    sources: [camp-rehoboth, a4te-de]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: fund
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Peer support hotline (877-565-8860) run by and for trans people; offers microgrants for ID and name change costs when funding allows.
+      es: Línea de apoyo entre pares (877-565-8860) dirigida por y para personas trans; ofrece microsubvenciones para costos de identificación y cambio de nombre cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: 10 Del. C. §§ 5901-5905
+    title:
+      en: Change of Name (petition, minors, repealed publication requirement, determination, costs)
+      es: Cambio de nombre
+    url: https://delcode.delaware.gov/title10/c059/index.html
+  - cite: 10 Del. C. ch. 88
+    title:
+      en: Proceedings in forma pauperis
+      es: Procedimientos sin pago de costas
+    url: https://delcode.delaware.gov/title10/c088/index.html
+related_links:
+  - title: Advocates for Trans Equality, Delaware identity documents
+    url: https://transequality.org/documents/delaware-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+  - title: Delaware Courts, Change of Name Petitions in the Court of Common Pleas
+    url: https://courts.delaware.gov/help/changename/
+sources:
+  - id: delcode-5901
+    url: https://delcode.delaware.gov/title10/c059/index.html
+    title: 10 Del. C. Chapter 59, Change of Name
+    publisher: Delaware Code Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "§ 5903. Publication of petition prior to filing. [Repealed] ... repealed by 83 Del. Laws, c. 295, § 1, effective Apr. 28, 2022."
+  - id: delcode-ch88
+    url: https://delcode.delaware.gov/title10/c088/index.html
+    title: 10 Del. C. Chapter 88, Proceedings in Forma Pauperis
+    publisher: Delaware Code Online
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ccp-changename
+    url: https://courts.delaware.gov/help/changename/
+    title: Change of Name Petitions in the Court of Common Pleas
+    publisher: Delaware Courts
+    kind: official
+    accessed: "2026-09-24"
+  - id: ccp-packet
+    url: https://courts.delaware.gov/forms/download.aspx?id=16858
+    title: Court of Common Pleas, Change of Name Petitions packet (New Castle County)
+    publisher: Delaware Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Filing Fee: when you file your Petition for Change of Name, you will be required to pay a fee of $85.00. You will receive the original Order signed by the Judicial Officer, plus eight certified copies of the signed Order. Additional copies may be obtained at a cost of $10.00 per copy."
+  - id: ccp-fees
+    url: https://courts.delaware.gov/help/fees/ccpfees.aspx
+    title: Court of Common Pleas Fees
+    publisher: Delaware Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Petition for Name Change $ 85.00"
+  - id: ccp-cis
+    url: https://courts.delaware.gov/forms/download.aspx?id=14838
+    title: Court of Common Pleas Civil Case Information Statement
+    publisher: Delaware Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: "MNAM CHANGE OF NAME PETITION"
+  - id: ccp-ifp
+    url: https://courts.delaware.gov/forms/download.aspx?id=15748
+    title: Affidavit in Support of Application to Proceed In Forma Pauperis (Court of Common Pleas)
+    publisher: Delaware Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: forms-changename
+    url: https://courts.delaware.gov/forms/list.aspx?sec=Forms&sub=Change%20Your%20Name
+    title: Forms, Change Your Name
+    publisher: Delaware Courts
+    kind: official
+    accessed: "2026-09-24"
+  - id: fc-minor-petition
+    url: https://courts.delaware.gov/forms/download.aspx?id=115928
+    title: Family Court Petition for Minor Name Change (Form 492)
+    publisher: Delaware Family Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: If Respondent 1 / Parent agrees to the name change, Form 493 – Affidavit of Parental Consent to Petition for Minor Name Change should be filed along with this petition.
+  - id: fc-fees
+    url: https://courts.delaware.gov/forms/download.aspx?id=116568
+    title: Family Court Schedule of Assessed Costs (effective 7/20/26)
+    publisher: Delaware Family Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Civil Filing* (may be subject to $10 Court Security Fee) 90.00 ... PETITION FOR MINOR NAME CHANGE"
+  - id: a4te-de
+    url: https://transequality.org/documents/delaware-identity-documents
+    title: Delaware Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Name Change (Adult): Yes. Requires a brief court hearing. Does not require publication in a newspaper."
+  - id: clasi-contact
+    url: https://www.declasi.org/contact-us/
+    title: Contact Us
+    publisher: Community Legal Aid Society, Inc.
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-help-link
+    url: https://delegalhelplink.org/
+    title: Delaware Legal Help Link
+    kind: org
+    accessed: "2026-09-24"
+  - id: camp-rehoboth
+    url: https://www.camprehoboth.org/
+    title: CAMP Rehoboth Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

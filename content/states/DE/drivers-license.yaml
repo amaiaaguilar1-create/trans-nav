@@ -1,0 +1,218 @@
+guide_type: drivers_license
+jurisdiction: DE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the DMV "Gender Designation Changes" procedure PDF, form MV2020 (rev. 08/11), the DMV
+    forms page, and the DMV fee table (values read from the site's DMVFees.js; the page loads fees by script). Open
+    items: (1) CONFLICT ON X: the DMV forms page also lists "Request for Gender X on Driver License/Identification
+    Card" (a 2021 "Gender Designation Change Consent Form" letting the holder request a change "from M/F/X to
+    M/F/X" by signature alone, with a Selective Service notice). The DMV procedure PDF and MV2020 still require a
+    provider signature and offer only M or F. A4TE (last updated Dec 2025) and MAP both say X is NOT available, and
+    the synopsis of HB 375 (153rd GA, 2026) says current rules "require certification from a medical or social
+    service provider" and would newly establish X. Call the DMV (302-434-3200) to find out what the consent form is
+    used for before publishing. (2) Fee for a gender-marker-only change is not listed; we assume the $20 duplicate
+    license / $10 duplicate ID fee. A4TE lists a "$1.15" fee that we could not match to anything on the DMV site.
+    (3) The 30-day deadline to update your name comes from A4TE, not a DMV page we read. (4) HB 375 (2026) would
+    have allowed M/F/X by self-attestation on licenses and birth certificates; it was introduced 4/15/26 and was in
+    House Appropriations as of 5/7/26 when the 153rd General Assembly's session ended, so it is not listed as a
+    pending bill.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on a Delaware driver's license or ID to M or F with form MV2020, signed by a licensed
+    physician, therapist or counselor, or social worker. Surgery is not required. You must go to a DMV office in
+    person. An X marker is not currently offered on the standard form.
+  es: >-
+    Puedes cambiar el sexo en tu licencia o identificación de Delaware a M o F con el formulario MV2020, firmado por
+    un médico, terapeuta o consejero, o trabajador social con licencia. No se requiere cirugía. Debes ir en persona a
+    una oficina del DMV. El marcador X no se ofrece actualmente en el formulario estándar.
+summary:
+  en: |
+    Delaware's DMV changes the gender designation on a license or ID when you bring **form MV2020, Request for Gender Change on Driver License/Identification Card**. Section C must be completed by a medical or social service provider licensed anywhere in the United States (physician, therapist/counselor, or social worker) who states that your gender identity is male or female. **You do not need to have had surgery**, and no court order is required.
+
+    The DMV forms page also lists a separate "Request for Gender X" consent form. Official DMV procedures, national guides, and a 2026 bill all say X is not yet available, so call the DMV before relying on that form.
+
+    To change your **name** on the card, bring a certified copy of your court order. Update Social Security first.
+  es: |
+    El DMV de Delaware cambia la designación de género en una licencia o identificación cuando presentas el **formulario MV2020, Solicitud de cambio de género en licencia de conducir o tarjeta de identificación**. La Sección C la completa un proveedor médico o de servicios sociales con licencia en cualquier parte de EE. UU. (médico, terapeuta/consejero o trabajador social) que declara que tu identidad de género es masculina o femenina. **No necesitas cirugía** ni orden judicial.
+
+    La página de formularios del DMV también muestra un formulario de consentimiento "Request for Gender X". Los procedimientos oficiales, las guías nacionales y un proyecto de ley de 2026 indican que X aún no está disponible; llama al DMV antes de depender de ese formulario.
+
+    Para cambiar tu **nombre** en la tarjeta, lleva una copia certificada de tu orden judicial. Actualiza primero el Seguro Social.
+eligibility:
+  residency:
+    en: You must be a Delaware resident; you certify this on MV2020.
+    es: Debes ser residente de Delaware; lo certificas en el MV2020.
+  age:
+    en: The DMV procedure sets no age limit. For an applicant under 18, ask the DMV whether a parent must also sign.
+    es: El procedimiento no fija edad mínima. Si eres menor de 18, pregunta al DMV si un padre también debe firmar.
+  sources: [dmv-procedure, mv2020]
+forms:
+  - id: MV2020
+    name:
+      en: Request for Gender Change on Driver License/Identification Card
+      es: Solicitud de cambio de género en licencia de conducir o tarjeta de identificación
+    url: https://dmv.de.gov/forms/driver_serv_forms/pdfs/gender_change_request_form.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Section A**: your license or ID number, name, date of birth, phone, and which card(s) you have.
+        - **Section B**: check Male or Female.
+        - **Section C** (your provider fills this in): a physician, therapist/counselor, or social worker licensed in any US state enters their name, organization, license number, and address, checks your gender, and signs under penalty of perjury. They do not have to describe any treatment, and surgery is not required.
+        - **Section D**: you sign, certifying the request reflects your gender identity and that you are a Delaware resident.
+        - Leave Section E blank; a DMV supervisor signs it.
+      es: |
+        - **Sección A**: número de licencia o identificación, nombre, fecha de nacimiento, teléfono y qué tarjeta tienes.
+        - **Sección B**: marca Masculino o Femenino.
+        - **Sección C** (la llena tu proveedor): un médico, terapeuta/consejero o trabajador social con licencia en cualquier estado anota sus datos y número de licencia, marca tu género y firma. No tiene que describir tratamientos y no se requiere cirugía.
+        - **Sección D**: firmas certificando que la solicitud refleja tu identidad de género y que eres residente de Delaware.
+        - Deja en blanco la Sección E; la firma un supervisor del DMV.
+    sources: [mv2020, dmv-procedure]
+  - id: Gender X consent form
+    name:
+      en: Request for Gender X on Driver License/Identification Card (Gender Designation Change Consent Form)
+      es: Solicitud de género X en licencia o identificación (formulario de consentimiento)
+    url: https://dmv.de.gov/forms/driver_serv_forms/pdfs/Gender-Designation-Change-Consent-Form_2021.pdf
+    required: optional
+    condition:
+      en: Listed on the DMV forms page, but other official sources say X is not available. Call the DMV before using it.
+      es: Aparece en la página de formularios del DMV, pero otras fuentes oficiales indican que X no está disponible. Llama al DMV antes de usarlo.
+    sources: [gx-form, dmv-forms]
+steps:
+  - id: provider
+    title:
+      en: Have a licensed provider sign MV2020
+      es: Pide a un proveedor con licencia que firme el MV2020
+    body:
+      en: Download MV2020, fill in Sections A and B, and ask a licensed physician, therapist or counselor, or social worker to complete Section C. Any US state license works.
+      es: Descarga el MV2020, llena las Secciones A y B y pide a tu médico, terapeuta, consejero o trabajador social que complete la Sección C. Sirve una licencia de cualquier estado.
+    forms: [MV2020]
+    applies_to: [gender_marker]
+    sources: [mv2020, dmv-procedure]
+  - id: visit
+    title:
+      en: Go to a DMV office
+      es: Ve a una oficina del DMV
+    body:
+      en: |
+        MV2020 is **not processed by mail or online**. Bring the completed form, your current license or ID, and, if your name is also changing, a certified copy of the court order (update Social Security first). A DMV representative verifies the form and processes the change; you get a new photo card.
+      es: |
+        El MV2020 **no se procesa por correo ni en línea**. Lleva el formulario completo, tu licencia o identificación actual y, si también cambia tu nombre, una copia certificada de la orden judicial (actualiza primero el Seguro Social). Un representante del DMV verifica el formulario y procesa el cambio; recibes una tarjeta nueva.
+    fees: [dl-duplicate, id-duplicate, name-change]
+    applies_to: [in_person]
+    sources: [dmv-procedure, dmv-fees]
+  - id: name-only
+    title:
+      en: Name change only
+      es: Solo cambio de nombre
+    body:
+      en: If you are changing only your name, update Social Security first, then bring the certified court order and your current card to a DMV office. A4TE advises doing this within 30 days of the order.
+      es: Si solo cambias el nombre, actualiza primero el Seguro Social y luego lleva la orden certificada y tu tarjeta actual a una oficina del DMV. A4TE recomienda hacerlo dentro de 30 días de la orden.
+    fees: [name-change]
+    applies_to: [name_change, in_person]
+    sources: [a4te-de, dmv-fees]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Duplicate driver's license
+      es: Licencia de conducir duplicada
+    amount: 20
+    note:
+      en: The DMV does not list a separate gender-change fee; expect the duplicate card fee. Confirm at the counter.
+      es: El DMV no publica una tarifa específica para cambio de género; espera la tarifa de duplicado. Confírmalo en la oficina.
+    sources: [dmv-fees]
+  - id: id-duplicate
+    label:
+      en: Duplicate photo ID card
+      es: Tarjeta de identificación con foto duplicada
+    amount: 10
+    sources: [dmv-fees]
+  - id: name-change
+    label:
+      en: Change of name on a driver's license
+      es: Cambio de nombre en licencia de conducir
+    amount: 10
+    sources: [dmv-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: The DMV fee page lists no fee waiver for duplicate licenses or ID cards.
+    es: La página de tarifas del DMV no ofrece exención para licencias o identificaciones duplicadas.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at any DMV location. The procedure says MV2020 is not processed by mail or online.
+    es: En persona en cualquier oficina del DMV. El MV2020 no se procesa por correo ni en línea.
+  sources: [dmv-procedure]
+timeline:
+  en: One DMV visit once you have the signed MV2020.
+  es: Una visita al DMV cuando tengas el MV2020 firmado.
+after:
+  en: |
+    Your license is the ID most places check, so update it soon after Social Security. The US passport and Social Security record currently cannot show a changed sex marker; your Delaware card is still valid for REAL ID purposes, flying, and voting.
+  es: |
+    Tu licencia es la identificación que más se revisa, así que actualízala poco después del Seguro Social. El pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar un marcador de sexo cambiado; tu tarjeta de Delaware sigue siendo válida para REAL ID, volar y votar.
+tips:
+  - en: You can change your gender marker without changing your name, and the reverse.
+    es: Puedes cambiar tu marcador de género sin cambiar tu nombre, y al revés.
+  - en: If staff ask for surgery proof or a court order, point to the DMV's own procedure, which says surgery is not required and that MV2020 Section C is enough.
+    es: Si el personal pide prueba de cirugía u orden judicial, muestra el procedimiento del propio DMV, que dice que no se requiere cirugía y que basta la Sección C del MV2020.
+related_links:
+  - title: Advocates for Trans Equality, Delaware identity documents
+    url: https://transequality.org/documents/delaware-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+sources:
+  - id: dmv-procedure
+    url: https://dmv.de.gov/DriverServices/drivers_license/pdfs/gender_designation_change_procedure.pdf
+    title: Gender Designation Changes on Driver Licenses and Identification Cards
+    publisher: Delaware Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "The customer is not required to have completed gender reassignment surgery. Instead, Section C must be completed by a medical or social service provider licensed in the United States certifying the customer's gender is either male or female. ... Form MV2020 will not be processed via mail or on line."
+  - id: mv2020
+    url: https://dmv.de.gov/forms/driver_serv_forms/pdfs/gender_change_request_form.pdf
+    title: Form MV2020, Request for Gender Change on Driver License/Identification Card
+    publisher: Delaware Division of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: "I am a licensed: Physician, Therapist/Counselor, Social Worker"
+  - id: gx-form
+    url: https://dmv.de.gov/forms/driver_serv_forms/pdfs/Gender-Designation-Change-Consent-Form_2021.pdf
+    title: Gender Designation Change Consent Form (listed as Request for Gender X)
+    publisher: Delaware Division of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: request to have my gender designation changed from M/F/X to M/F/X on my driver license or identification card
+  - id: dmv-forms
+    url: https://dmv.de.gov/forms/index.shtml
+    title: Forms and Manuals
+    publisher: Delaware Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: dmv-fees
+    url: https://dmv.de.gov/Common/DMVFees/index.shtml
+    title: DMV Fees
+    publisher: Delaware Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate License $20.00; Change of Name $10.00; Photo Identification Card $40.00; Duplicate Photo ID Card $10.00"
+  - id: a4te-de
+    url: https://transequality.org/documents/delaware-identity-documents
+    title: Delaware Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Delaware driver's licenses and ID cards can display a gender of either F or M. There is currently no option for an X gender marker in Delaware."

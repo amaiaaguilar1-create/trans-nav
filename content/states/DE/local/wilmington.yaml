@@ -1,0 +1,221 @@
+jurisdiction: DE
+slug: wilmington
+name: Wilmington
+area:
+  en: New Castle County (Wilmington, Newark, and surrounding areas)
+  es: Condado de New Castle (Wilmington, Newark y alrededores)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the Court of Common Pleas name change packet. Resources from each organization's own website on
+    2026-09-24. Westside does not advertise gender-affirming care; the Holloway program is HIV/PrEP-focused. Delaware
+    Pride's site mentions mental health support but no specific program details were confirmed. Verify hours and
+    new-patient availability before marking reviewed.
+intro:
+  en: >-
+    Wilmington is Delaware's largest city. Adult name change petitions for New Castle County are filed at the Court of
+    Common Pleas in the Leonard L. Williams Justice Center downtown. Planned Parenthood's Wilmington center offers
+    hormone therapy for adults, and community health centers, HIV/PrEP programs, and statewide legal aid all have
+    offices in the city.
+  es: >-
+    Wilmington es la ciudad más grande de Delaware. Las peticiones de cambio de nombre de adultos en el condado de
+    New Castle se presentan en el Tribunal de Causas Comunes, en el centro de la ciudad. El centro de Planned
+    Parenthood en Wilmington ofrece terapia hormonal para adultos, y hay centros de salud comunitarios, programas de
+    VIH/PrEP y ayuda legal estatal con oficinas en la ciudad.
+court:
+  name: Court of Common Pleas, New Castle County
+  url: https://courts.delaware.gov/commonpleas/
+  self_help_url: https://courts.delaware.gov/help/changename/
+  filing_fee: 85
+  notes:
+    en: 500 N. King Street, Wilmington, DE 19801; 302-255-0900; CCP_NCCCivilFilings@delaware.gov. Minors' name changes go to New Castle County Family Court instead.
+    es: 500 N. King Street, Wilmington, DE 19801; 302-255-0900; CCP_NCCCivilFilings@delaware.gov. Los cambios de nombre de menores van al Tribunal de Familia del condado de New Castle.
+  sources: [ccp-packet, ccp-changename]
+resources:
+  - id: clasi-wilmington
+    name: Community Legal Aid Society, Inc. (CLASI), New Castle County office
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal aid for people with low incomes, older adults, and people with disabilities. Call to ask about help with name changes or benefits and insurance problems.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, personas mayores y personas con discapacidad. Llama para preguntar por ayuda con cambios de nombre o problemas de beneficios y seguros.
+    url: https://www.declasi.org/
+    phone: "302-575-0660"
+    address: Community Service Building, 100 W. 10th St., Suite 801, Wilmington, DE 19801
+    cost: free
+    verification: org_website
+    sources: [clasi]
+  - id: legal-help-link
+    name: Delaware Legal Help Link
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free online tool that points you to the right legal aid program for your situation, with self-help guides.
+      es: Herramienta gratuita en línea que te dirige al programa de ayuda legal adecuado, con guías de autoayuda.
+    url: https://delegalhelplink.org/
+    cost: free
+    verification: org_website
+    sources: [legal-help-link]
+  - id: pp-wilmington
+    org: planned-parenthood
+    name: Planned Parenthood, Wilmington Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy for adults 18 and older, STI testing, and birth control. In-person and telehealth.
+      es: Terapia hormonal de afirmación de género para adultos de 18 años o más, pruebas de ITS y anticonceptivos. En persona y por telesalud.
+    url: https://www.plannedparenthood.org/health-center/delaware/wilmington/19801/wilmington-center-3272-90240
+    phone: "1-800-230-7526"
+    address: 625 N Shipley Street, Wilmington, DE 19801
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [pp-wilmington, pp-de-ght]
+  - id: westside-wilmington
+    name: Westside Family Healthcare, Wilmington
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Community health center offering primary care and behavioral health regardless of insurance or ability to pay. It does not advertise gender-affirming care; ask whether a provider can prescribe or continue hormones.
+      es: Centro de salud comunitario con atención primaria y salud conductual, con o sin seguro. No anuncia atención de afirmación de género; pregunta si algún proveedor puede recetar o continuar hormonas.
+    url: https://www.westsidehealth.org/locations-and-hours/new-castle-county
+    phone: "302-655-5822"
+    address: 1802 W. Fourth St., Wilmington, DE 19805
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [westside-ncc]
+  - id: holloway-wilmington
+    name: ChristianaCare Holloway Community Program, Wilmington
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: HIV care, PrEP including long-acting injectable PrEP, PEP, STI treatment, and mental health. Accepting new patients at its Wilmington office.
+      es: Atención del VIH, PrEP incluida la inyectable, PEP, tratamiento de ITS y salud mental. Acepta pacientes nuevos en Wilmington.
+    url: https://christianacare.org/us/en/care/specialty-care/hiv-aids-care
+    phone: "302-320-1300"
+    cost: insurance
+    verification: org_website
+    sources: [holloway]
+  - id: delaware-hiv
+    name: Delaware HIV Consortium
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free HIV testing including at-home kits, PrEP navigation, safer sex supplies, and HIV case management and housing help.
+      es: Pruebas de VIH gratis incluidos kits caseros, orientación para PrEP, suministros de sexo seguro y manejo de casos y vivienda para personas con VIH.
+    url: https://www.delawarehiv.org/
+    cost: free
+    verification: org_website
+    sources: [delaware-hiv]
+  - id: delaware-pride
+    name: Delaware Pride
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ+ nonprofit that runs community events and says it offers mental health support and advocacy.
+      es: Organización LGBTQ+ estatal que organiza eventos comunitarios y dice ofrecer apoyo de salud mental y abogacía.
+    url: https://www.delawarepride.org/
+    cost: free
+    verification: org_website
+    sources: [delaware-pride]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for telehealth hormone therapy for people who cannot afford it; applications open each May.
+      es: Fondo nacional que paga terapia hormonal por telesalud para quienes no pueden pagarla; solicitudes cada mayo.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+sources:
+  - id: ccp-packet
+    url: https://courts.delaware.gov/forms/download.aspx?id=16858
+    title: Court of Common Pleas, Change of Name Petitions packet
+    publisher: Delaware Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: "NEW CASTLE COUNTY 500 N. King Street Wilmington, DE 19801 (302) 255-0900 CCP_NCCCivilFilings@delaware.gov"
+  - id: ccp-changename
+    url: https://courts.delaware.gov/help/changename/
+    title: Change of Name Petitions in the Court of Common Pleas
+    publisher: Delaware Courts
+    kind: official
+    accessed: "2026-09-24"
+  - id: clasi
+    url: https://www.declasi.org/contact-us/
+    title: Community Legal Aid Society, Contact Us
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-help-link
+    url: https://delegalhelplink.org/
+    title: Delaware Legal Help Link
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-wilmington
+    url: https://www.plannedparenthood.org/health-center/delaware/wilmington/19801/wilmington-center-3272-90240
+    title: Wilmington Center
+    publisher: Planned Parenthood of Delaware
+    kind: org
+    accessed: "2026-09-24"
+    quote: "In-person and telehealth available 625 N Shipley Street Wilmington, DE 19801"
+  - id: pp-de-ght
+    url: https://www.plannedparenthood.org/planned-parenthood-delaware/our-services/gender-affirming-care-hormone-therapy
+    title: Gender-Affirming Care and Hormone Therapy
+    publisher: Planned Parenthood of Delaware
+    kind: org
+    accessed: "2026-09-24"
+  - id: westside-ncc
+    url: https://www.westsidehealth.org/locations-and-hours/new-castle-county
+    title: New Castle County locations and hours
+    publisher: Westside Family Healthcare
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Wilmington 1802 W. Fourth St., Wilmington, DE 19805 302-655-5822"
+  - id: holloway
+    url: https://christianacare.org/us/en/care/specialty-care/hiv-aids-care
+    title: HIV/AIDS Care, Holloway Community Program
+    publisher: ChristianaCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: delaware-hiv
+    url: https://www.delawarehiv.org/
+    title: Delaware HIV Consortium
+    kind: org
+    accessed: "2026-09-24"
+  - id: delaware-pride
+    url: https://www.delawarepride.org/
+    title: Delaware Pride Inc.
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"

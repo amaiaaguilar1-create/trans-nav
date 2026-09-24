@@ -1,0 +1,301 @@
+jurisdiction: DE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. Legal framework from Executive Order 11 (June 20, 2025), Insurance Bulletin No. 86 (2016,
+    revised 2020), the DHSS notice on the CMS rule for minors (effective October 13, 2026), and the legislature's bill
+    records. Open items: (1) SHIELD LAW: Delaware's protections are an executive order, not a statute. HB 346 (2024),
+    which would have written shield protections into Titles 10 and 24, stopped at "Out of Committee" on 3/27/24 and died
+    with the 152nd General Assembly. The task prompt's "2024 shield law (HB 346)" is therefore not law. MAP lists
+    Delaware as having a "shield law or executive order" (2025), consistent with EO 11. (2) MEDICAID: no DMMA page
+    stating adult coverage of hormones or surgery could be fetched (the provider manual portal redirects to a cookie
+    check). "Yes" for HRT and surgery rests on MAP's Delaware profile scoring Medicaid policy as explicitly inclusive,
+    plus the fact that DHSS is now acting on a federal rule limiting care for minors. Confirm with the DMMA policy
+    manual or a Diamond State Health Plan MCO (Highmark Health Options, AmeriHealth Caritas Delaware, Delaware First
+    Health). (3) Exactly which services for minors Delaware Medicaid will stop covering on October 13, 2026 is not
+    spelled out on the DHSS page; affected people are to receive notices. (4) Westside Family Healthcare's site does
+    not mention gender-affirming care; it is listed as a sliding-scale primary care FQHC only. (5) ChristianaCare's
+    site search returned no gender-affirming care program page; only the Holloway Community Program (HIV/PrEP) is
+    listed. (6) Planned Parenthood of Delaware: 18+ for hormone therapy per its own page.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in Delaware for adults and minors. State-regulated insurance may not exclude it, and
+    a 2025 executive order bars state agencies from helping other states punish patients or providers. Starting
+    October 13, 2026, a federal rule stops Medicaid and CHIP from paying for certain gender-affirming care for minors.
+  es: >-
+    La atención de afirmación de género es legal en Delaware para adultos y menores. Los seguros regulados por el
+    estado no pueden excluirla, y una orden ejecutiva de 2025 impide que las agencias estatales ayuden a otros estados
+    a castigar a pacientes o proveedores. Desde el 13 de octubre de 2026, una regla federal impide que Medicaid y CHIP
+    paguen ciertos servicios de afirmación de género para menores.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction on adult care. Planned Parenthood of Delaware prescribes feminizing and masculinizing hormones to patients 18 and older at its centers in Wilmington, Newark, Dover, and Seaford, and telehealth providers (Plume, FOLX) serve Delaware.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Delaware Medicaid** through ASSIST. It is free for adults with low incomes.
+      2. Go to a **community health center** (FQHC) such as Westside Family Healthcare; they charge on a sliding scale. Ask whether the clinic prescribes hormones or can refer you. Find one at findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood of Delaware** (1-800-230-7526) for hormone therapy, ages 18+.
+      4. **Point of Pride's HRT Access Fund** pays for up to 18 months of telehealth hormone care (applications each May).
+    es: |
+      No hay restricciones estatales para adultos. Planned Parenthood de Delaware receta hormonas feminizantes y masculinizantes a pacientes de 18 años o más en Wilmington, Newark, Dover y Seaford, y proveedores de telesalud (Plume, FOLX) atienden en Delaware.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid de Delaware** en ASSIST. Es gratis para adultos de bajos ingresos.
+      2. Acude a un **centro de salud comunitario** (FQHC) como Westside Family Healthcare; cobran en escala móvil. Pregunta si recetan hormonas o pueden referirte. Búscalo en findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood de Delaware** (1-800-230-7526) para terapia hormonal, desde los 18 años.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga hasta 18 meses de atención hormonal por telesalud (solicitudes cada mayo).
+  sources: [pp-de-ght, pp-de-centers, hrsa, pop, dmma-eligibility]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Delaware has no law banning gender-affirming care for minors, and Executive Order 11 (June 20, 2025) directs state agencies not to share records or help with out-of-state investigations, refuses extradition for care lawful in Delaware, and bars state licensing boards from disciplining providers for it. Care for minors requires parental consent. Planned Parenthood of Delaware sees hormone patients from age 18 only.
+
+      **Medicaid change on October 13, 2026**: DHSS says a new federal CMS rule prohibits federal Medicaid and CHIP funding for certain gender-affirming care for minors, and Delaware must comply. People and providers affected will receive a notice. Private insurance is not affected by that rule.
+    es: |
+      Legal. Delaware no tiene ninguna ley que prohíba la atención de afirmación de género para menores, y la Orden Ejecutiva 11 (20 de junio de 2025) indica a las agencias estatales no compartir expedientes ni ayudar en investigaciones de otros estados, niega la extradición por atención legal en Delaware e impide que las juntas de licencias sancionen a proveedores. La atención a menores requiere consentimiento de los padres. Planned Parenthood de Delaware atiende pacientes de hormonas solo desde los 18 años.
+
+      **Cambio en Medicaid el 13 de octubre de 2026**: DHSS informa que una nueva regla federal de CMS prohíbe usar fondos federales de Medicaid y CHIP para ciertos servicios de afirmación de género para menores, y Delaware debe cumplirla. Las personas y proveedores afectados recibirán un aviso. Esa regla no afecta a los seguros privados.
+  sources: [eo11, dhss-cms-minors, pp-de-ght]
+medicaid:
+  program_name: Delaware Medicaid (Diamond State Health Plan)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Delaware Medicaid is scored by the Movement Advancement Project as having a policy that explicitly covers transgender-related care; we could not load a state Medicaid page confirming exactly which services are covered, so ask your managed care plan for its gender-affirming care policy and prior-authorization rules before scheduling surgery.
+
+      **Minors**: from October 13, 2026, a federal rule prohibits federal Medicaid and CHIP funding for certain gender-affirming care for people under 18. DHSS says it will comply and send notices to affected members and providers.
+
+      **Apply** online through ASSIST or at a State Service Center.
+    es: |
+      El Movement Advancement Project califica a Medicaid de Delaware como con una política que cubre explícitamente la atención trans; no pudimos cargar una página estatal que confirme exactamente qué servicios cubre, así que pregunta a tu plan su política de atención de afirmación de género y los requisitos de autorización previa antes de programar una cirugía.
+
+      **Menores**: desde el 13 de octubre de 2026, una regla federal prohíbe usar fondos federales de Medicaid y CHIP para ciertos servicios de afirmación de género para menores de 18 años. DHSS dice que cumplirá y enviará avisos.
+
+      **Solicita** en línea en ASSIST o en un State Service Center.
+  how_to_apply_url: https://assist.dhss.delaware.gov/
+  sources: [map-de, dhss-cms-minors, dmma-eligibility]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Delaware's Gender Identity Nondiscrimination Act of 2013 made it an unfair insurance practice to discriminate based on gender identity (18 Del. C. § 2304(22)). The Department of Insurance's **Bulletin No. 86** (2016, reissued 2020) says state-regulated insurers may not deny, limit, or exclude coverage because of gender identity, transgender status, or gender transition. If your plan denies care, appeal with the plan first, then file a complaint or appeal with the Department of Insurance. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates for those.
+    es: |
+      La Ley de No Discriminación por Identidad de Género de 2013 hizo ilegal que las aseguradoras discriminen por identidad de género (18 Del. C. § 2304(22)). El **Boletín No. 86** del Departamento de Seguros (2016, reemitido en 2020) dice que las aseguradoras reguladas por el estado no pueden negar, limitar ni excluir cobertura por identidad de género, condición trans o transición. Si tu plan niega la atención, apela primero con el plan y luego presenta una queja o apelación ante el Departamento de Seguros. Los planes autofinanciados por empleadores están regulados federalmente; el Trans Health Project tiene plantillas de apelación.
+  complaint_url: https://insurance.delaware.gov/services/filecomplaint/
+  sources: [bulletin-86, doi-complaint, thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-delaware
+    org: planned-parenthood
+    name: Planned Parenthood of Delaware
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Feminizing and masculinizing hormone therapy for adults 18 and older, plus self-injection training. Centers in Wilmington, Newark, Dover, and Seaford; in-person and telehealth. Also publishes a Delaware legal transition guide (updated 2025).
+      es: Terapia hormonal feminizante y masculinizante para adultos de 18 años o más, con capacitación para autoinyección. Centros en Wilmington, Newark, Dover y Seaford; en persona y por telesalud. También publica una guía de transición legal para Delaware (actualizada en 2025).
+    url: https://www.plannedparenthood.org/planned-parenthood-delaware/our-services/gender-affirming-care-hormone-therapy
+    phone: "1-800-230-7526"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [pp-de-ght, pp-de-centers]
+  - id: westside
+    name: Westside Family Healthcare
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federally qualified community health center with medical, behavioral health, and women's health care for adults, children, and families regardless of insurance or ability to pay. Several locations in New Castle and Kent counties plus telehealth. Its website does not mention gender-affirming care; ask when you call.
+      es: Centro de salud comunitario con atención médica, salud conductual y salud de la mujer, con o sin seguro y sin importar la capacidad de pago. Varias sedes en los condados de New Castle y Kent y telesalud. Su sitio no menciona atención de afirmación de género; pregunta al llamar.
+    url: https://www.westsidehealth.org/
+    phone: "302-224-6800"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [westside]
+  - id: holloway
+    name: ChristianaCare Holloway Community Program
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: HIV care, PrEP (including long-acting injectable PrEP), PEP, STI treatment, internal medicine, and mental health, with offices in Wilmington, Smyrna, and Milford.
+      es: Atención del VIH, PrEP (incluida la PrEP inyectable de acción prolongada), PEP, tratamiento de ITS, medicina interna y salud mental, con oficinas en Wilmington, Smyrna y Milford.
+    url: https://christianacare.org/us/en/care/specialty-care/hiv-aids-care
+    phone: "302-320-1300"
+    cost: insurance
+    verification: org_website
+    sources: [holloway]
+  - id: delaware-hiv
+    name: Delaware HIV Consortium
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free HIV testing (including at-home test kits), PrEP navigation, safer sex supplies, and case management for people living with HIV.
+      es: Pruebas de VIH gratis (incluidos kits caseros), orientación para PrEP, suministros de sexo seguro y manejo de casos para personas con VIH.
+    url: https://www.delawarehiv.org/
+    cost: free
+    verification: org_website
+    sources: [delaware-hiv]
+  - id: camp-rehoboth
+    name: CAMP Rehoboth Community Center
+    type: lgbtq_center
+    pillars: [sexual_health, mental_health]
+    description:
+      en: LGBTQ+ community center in Rehoboth Beach with a Beebe Health suite, HIV testing and PrEP/PEP resources (CAMPsafe), and a youth program.
+      es: Centro comunitario LGBTQ+ en Rehoboth Beach con una sala de salud de Beebe, pruebas de VIH y recursos de PrEP/PEP (CAMPsafe) y un programa juvenil.
+    url: https://www.camprehoboth.org/
+    phone: "302-227-5620"
+    address: 37 Baltimore Avenue, Rehoboth Beach, DE 19971
+    cost: free
+    verification: org_website
+    sources: [camp-rehoboth]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale by income, regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios que cobran en escala móvil según ingresos, con o sin seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-de
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (telehealth hormone therapy; applications each May) and the Annual Trans Surgery Fund.
+      es: Fondos nacionales para quienes no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud; solicitudes cada mayo) y el Fondo Anual de Cirugía Trans.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including employer self-funded plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Executive Order 11 (2025), Protecting Gender-Affirming Care in Delaware
+    title:
+      en: Bars state agencies from assisting out-of-state actions over lawful gender-affirming care; denies extradition; protects providers' licenses
+      es: Impide que las agencias estatales ayuden en acciones de otros estados por atención legal; niega extradiciones; protege licencias
+    url: https://governor.delaware.gov/wp-content/uploads/sites/219/2025/06/EO-11-signed.pdf
+  - cite: 18 Del. C. § 2304(22)
+    title:
+      en: Unfair insurance practices, discrimination based on gender identity
+      es: Prácticas desleales de seguros, discriminación por identidad de género
+    url: https://delcode.delaware.gov/title18/c023/index.html
+sources:
+  - id: eo11
+    url: https://governor.delaware.gov/wp-content/uploads/sites/219/2025/06/EO-11-signed.pdf
+    title: Executive Order Number Eleven, Protecting Gender-Affirming Care in Delaware
+    publisher: Office of the Governor of Delaware
+    kind: official
+    accessed: "2026-09-24"
+    quote: No state professional regulations board may bar or discipline a healthcare professional solely on the basis of the healthcare professional providing ... gender-affirming care that is or would otherwise be lawful in Delaware.
+  - id: dhss-cms-minors
+    url: https://dhss.delaware.gov/program-spotlight/federal-funding-changes-for-gender-affirming-care/
+    title: Federal Funding Changes for Gender-Affirming Care
+    publisher: Delaware Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: a new rule that prohibits the use of federal Medicaid and Children's Health Insurance Program (CHIP) funding for certain gender-affirming care services for minors. The rule takes effect October 13, 2026.
+  - id: bulletin-86
+    url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2020/09/domestic-foreign-insurers-bulletin-no86.pdf
+    title: Domestic/Foreign Insurers Bulletin No. 86 (revised and reissued), The Gender Identity Nondiscrimination Act of 2013
+    publisher: Delaware Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+    quote: they unequivocally prohibit the denial, cancellation, termination, limitation, refusal to issue or renew, or restriction, of insurance coverage or benefits thereunder on the basis of a person's gender identity or transgender status, or because the person is undergoing gender transition
+  - id: doi-complaint
+    url: https://insurance.delaware.gov/services/filecomplaint/
+    title: File a Complaint/Appeal
+    publisher: Delaware Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-de
+    url: https://www.mapresearch.org/equality-maps/profile_state/DE
+    title: Delaware equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "State Medicaid Policy Related to Coverage for Transgender People 1/1"
+  - id: dmma-eligibility
+    url: https://dhss.delaware.gov/dmma/home/medicaid/delaware-medicaid-eligibility/
+    title: Delaware Medicaid Eligibility
+    publisher: Division of Medicaid and Medical Assistance
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-de-ght
+    url: https://www.plannedparenthood.org/planned-parenthood-delaware/our-services/gender-affirming-care-hormone-therapy
+    title: Gender-Affirming Care and Hormone Therapy
+    publisher: Planned Parenthood of Delaware
+    kind: org
+    accessed: "2026-09-24"
+    quote: In order to receive gender-affirming hormone therapy services with Planned Parenthood of Delaware you need to be over 18 and capable of providing consent for services.
+  - id: pp-de-centers
+    url: https://www.plannedparenthood.org/health-center/de
+    title: Planned Parenthood health centers in Delaware
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: westside
+    url: https://www.westsidehealth.org/
+    title: Westside Family Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: holloway
+    url: https://christianacare.org/us/en/care/specialty-care/hiv-aids-care
+    title: HIV/AIDS Care, Holloway Community Program
+    publisher: ChristianaCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: delaware-hiv
+    url: https://www.delawarehiv.org/
+    title: Delaware HIV Consortium
+    kind: org
+    accessed: "2026-09-24"
+  - id: camp-rehoboth
+    url: https://www.camprehoboth.org/
+    title: CAMP Rehoboth Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

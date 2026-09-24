@@ -1,0 +1,256 @@
+guide_type: birth_certificate
+jurisdiction: DE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the Office of Vital Statistics "Gender Reassignment" checklist (effective 03/17/2022), the
+    Requester's Affidavit (rev. 3/3/2022), the Healthcare Provider's Affidavit (effective 2/11/2017), the birth
+    certificate application (rev. Mar 2022), and 16 Del. C. §§ 3131-3132. The governing rule, 16 DE Admin. Code 4205
+    § 10.7, could not be read: regulations.delaware.gov returns a script-only page to automated requests. Open items:
+    (1) Whether the new certificate is marked "amended" and whether the original is sealed: 16 Del. C. § 3131(c)
+    says amended certificates are marked "amended", but A4TE (Dec 2025) says the change is not labeled on the new
+    certificate; the checklist says a "new birth certificate" is released. Confirm with § 10.7 or OVS (302-744-4549).
+    (2) Name-only amendment: A4TE says court order plus $25; not confirmed on an OVS page. (3) Whether OVS charges for
+    the new certificate when you surrender the original (the checklist charges $25 only when there is no existing
+    certificate) and the price of extra copies ($25 each per the application). (4) HB 375 (2026), which would have
+    allowed M, F, or X by self-attestation, did not leave House Appropriations before the session ended.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Delaware, you can get a new birth certificate showing M or F with your own notarized
+    affidavit plus a notarized affidavit from a licensed healthcare provider. No court order or surgery is required.
+    X is not available.
+  es: >-
+    Si naciste en Delaware, puedes obtener un acta de nacimiento nueva con M o F presentando tu declaración jurada
+    notarizada y otra de un proveedor de salud con licencia. No se requiere orden judicial ni cirugía. X no está
+    disponible.
+summary:
+  en: |
+    Delaware's Office of Vital Statistics changes the sex on a Delaware birth certificate when you send two notarized affidavits: yours, and one from a US-licensed healthcare provider. The provider can be a physician (MD or DO), doctoral-level psychologist, social worker (LMSW or LCSW), physician assistant, nurse practitioner, mental health counselor, or midwife. The provider confirms the change reflects your gender identity based on **surgical, hormonal, psychological, or other treatment** appropriate for you (or an intersex condition). "Psychological or other treatment" means surgery and hormones are not required.
+
+    Only **M or F** is available. You surrender your old certificate and get a new one, usually within two weeks. To change your **name** too, add a certified copy of your court order.
+
+    This only works if you were **born in Delaware**. If you were born elsewhere, follow the rules of your birth state.
+  es: |
+    La Oficina de Estadísticas Vitales de Delaware cambia el sexo en un acta de nacimiento de Delaware cuando envías dos declaraciones juradas notarizadas: la tuya y una de un proveedor de salud con licencia en EE. UU. Puede ser médico (MD o DO), psicólogo con doctorado, trabajador social (LMSW o LCSW), asistente médico, enfermero practicante, consejero de salud mental o partera. El proveedor confirma que el cambio refleja tu identidad de género por un **tratamiento quirúrgico, hormonal, psicológico u otro** adecuado para ti (o por una condición intersexual). No se exige cirugía ni hormonas.
+
+    Solo están disponibles **M o F**. Entregas tu acta anterior y recibes una nueva, normalmente en dos semanas. Para cambiar también tu **nombre**, agrega una copia certificada de tu orden judicial.
+
+    Esto solo aplica si **naciste en Delaware**. Si naciste en otro lugar, sigue las reglas de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Delaware. You do not have to live in Delaware now; out-of-state residents can apply by mail, and a name change order from another state's court is accepted.
+    es: Debes haber nacido en Delaware. No necesitas vivir en Delaware ahora; se puede solicitar por correo y se acepta una orden de cambio de nombre de otro estado.
+  age:
+    en: Adults 18 and older apply for themselves. For a minor, a parent, legal guardian, or legal representative applies.
+    es: Los adultos de 18 años o más lo solicitan por sí mismos. Para un menor, lo solicita un padre, madre, tutor legal o representante legal.
+  sources: [ovs-checklist, a4te-de]
+forms:
+  - id: Requester's Affidavit
+    name:
+      en: Requester's Affidavit for Sex Change on Birth Certificate
+      es: Declaración jurada del solicitante para cambio de sexo en el acta de nacimiento
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/RequesterAffidavitSexChange.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Print your full name **as it appears at birth**, and your current name if a court changed it.
+        - Adults: complete the "18 or older" paragraph and check male or female. Parents or guardians use the "For minors" paragraph (guardians attach the guardianship order).
+        - Enter your healthcare provider's full name.
+        - Initial **one** line: treatment for gender transition ("surgical, hormonal, psychological or other") or intersex condition.
+        - Sign only in front of a notary.
+      es: |
+        - Escribe tu nombre completo **como aparece al nacer** y tu nombre actual si un tribunal lo cambió.
+        - Adultos: completa el párrafo "18 años o más" y marca masculino o femenino. Padres o tutores usan el párrafo para menores.
+        - Escribe el nombre completo de tu proveedor de salud.
+        - Pon tus iniciales en **una** línea: tratamiento para la transición ("quirúrgico, hormonal, psicológico u otro") o condición intersexual.
+        - Firma solo ante un notario.
+    sources: [requester-affidavit]
+  - id: Healthcare Provider's Affidavit
+    name:
+      en: Healthcare Provider's Affidavit for Sex Change on Birth Certificate
+      es: Declaración jurada del proveedor de salud para cambio de sexo en el acta de nacimiento
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/HealthcareAffidavitSexChange.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Your provider fills this in on letterhead or adds their address, phone, and email at the top.
+        - They check their license type (MD/DO, doctoral psychologist, LMSW/LCSW, PA, NP, mental health counselor, or midwife) and give their license number and state.
+        - They initial one basis: treatment for gender transition, or intersex condition.
+        - It must be **notarized**. Ask the provider's office in advance whether they have a notary.
+      es: |
+        - Tu proveedor lo llena en papel membretado o agrega su dirección, teléfono y correo arriba.
+        - Marca su tipo de licencia y da su número y estado.
+        - Pone iniciales en una base: tratamiento para la transición o condición intersexual.
+        - Debe estar **notarizado**. Pregunta antes si la oficina del proveedor tiene notario.
+    sources: [provider-affidavit]
+  - id: Birth Certificate Application
+    name:
+      en: Application for a Certified Copy of a Delaware Birth Certificate
+      es: Solicitud de copia certificada de acta de nacimiento de Delaware
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/birth24.pdf
+    required: conditional
+    condition:
+      en: Use it to order extra certified copies of the new certificate. A4TE also lists it as part of the amendment packet.
+      es: Úsala para pedir copias certificadas adicionales del acta nueva. A4TE también la incluye en el paquete.
+    sources: [birth-app, a4te-de]
+steps:
+  - id: affidavits
+    title:
+      en: Get both affidavits notarized
+      es: Notariza ambas declaraciones juradas
+    body:
+      en: Fill out the Requester's Affidavit and sign it before a notary. Ask your provider to complete and notarize the Healthcare Provider's Affidavit.
+      es: Llena la declaración del solicitante y fírmala ante notario. Pide a tu proveedor que complete y notarice la suya.
+    forms: [Requester's Affidavit, Healthcare Provider's Affidavit]
+    applies_to: [gender_marker]
+    sources: [ovs-checklist, requester-affidavit, provider-affidavit]
+  - id: gather
+    title:
+      en: Gather the rest of the packet
+      es: Reúne el resto del paquete
+    body:
+      en: |
+        - A copy of your valid photo ID (for a minor, the parent's or guardian's ID)
+        - Your **original certified birth certificate**, which must be surrendered before the new one is released. If you do not have one, include a $25 check or money order payable to the State of Delaware.
+        - A certified copy of your court order if your name is changing
+        - The application for extra copies, if you want them
+      es: |
+        - Copia de tu identificación con foto vigente (para un menor, la del padre o tutor)
+        - Tu **acta de nacimiento certificada original**, que debe entregarse antes de recibir la nueva. Si no la tienes, incluye un cheque o giro de $25 a nombre del State of Delaware.
+        - Copia certificada de tu orden judicial si cambias de nombre
+        - La solicitud de copias adicionales, si las quieres
+    forms: [Birth Certificate Application]
+    fees: [no-original, copies]
+    sources: [ovs-checklist, birth-app]
+  - id: submit
+    title:
+      en: Mail or bring it to the Office of Vital Statistics
+      es: Envíalo o llévalo a la Oficina de Estadísticas Vitales
+    body:
+      en: Mail to Office of Vital Statistics, Jesse Cooper Building, 417 Federal Street, Dover, DE 19901, or bring it in person to Dover, Newark (Chopin Building, 258 Chapman Rd.), or Georgetown (Adams State Service Center, 546 S. Bedford St.). Questions go to 302-744-4549.
+      es: Envíalo a Office of Vital Statistics, Jesse Cooper Building, 417 Federal Street, Dover, DE 19901, o llévalo en persona a Dover, Newark (Chopin Building, 258 Chapman Rd.) o Georgetown (Adams State Service Center, 546 S. Bedford St.). Preguntas al 302-744-4549.
+    applies_to: [by_mail, in_person]
+    estimated_time:
+      en: Within 2 weeks
+      es: Dentro de 2 semanas
+    sources: [ovs-checklist, birth-app, a4te-de]
+fees:
+  - id: no-original
+    label:
+      en: New certificate if you cannot surrender your original
+      es: Acta nueva si no puedes entregar la original
+    amount: 25
+    sources: [ovs-checklist]
+  - id: copies
+    label:
+      en: Certified copy of a Delaware birth certificate (each)
+      es: Copia certificada de acta de nacimiento de Delaware (cada una)
+    amount: 25
+    sources: [birth-app, statute-3132]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No fee waiver for birth certificate amendments or copies was found on the Office of Vital Statistics pages.
+    es: No se encontró exención de tarifas para enmiendas o copias en las páginas de la Oficina de Estadísticas Vitales.
+  sources: [ovs-page]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail to Dover or in person at any of the three Vital Statistics offices.
+    es: Por correo a Dover o en persona en cualquiera de las tres oficinas.
+  sources: [ovs-checklist, birth-app]
+minors:
+  summary:
+    en: A parent, legal guardian, or legal representative signs the Requester's Affidavit for a child under 18 and provides their own photo ID; guardians attach the court guardianship papers. The child's provider completes the Healthcare Provider's Affidavit.
+    es: Un padre, madre, tutor legal o representante legal firma la declaración del solicitante por un menor de 18 años y presenta su propia identificación; los tutores adjuntan los papeles de tutela. El proveedor del menor completa la declaración del proveedor.
+  forms: [Requester's Affidavit, Healthcare Provider's Affidavit]
+  sources: [ovs-checklist, requester-affidavit]
+timeline:
+  en: The Office of Vital Statistics says processing is within two weeks, plus mailing time.
+  es: La Oficina de Estadísticas Vitales indica que el trámite toma hasta dos semanas, más el tiempo de envío.
+after:
+  en: |
+    Order a few extra certified copies. A new birth certificate helps with Social Security and school records, and some other states' DMVs accept it. The US passport sex field cannot currently be changed, but the name can.
+  es: |
+    Pide algunas copias certificadas adicionales. Una acta nueva ayuda con el Seguro Social y los expedientes escolares, y algunos DMV de otros estados la aceptan. El campo de sexo del pasaporte de EE. UU. actualmente no se puede cambiar, pero el nombre sí.
+tips:
+  - en: Many clinicians will sign if you ask; the form lists seven license types, including nurse practitioners, counselors, and social workers, so you do not need a surgeon or psychiatrist.
+    es: Muchos profesionales firmarán si lo pides; el formulario acepta siete tipos de licencia, incluidos enfermeros practicantes, consejeros y trabajadores sociales.
+  - en: Send certified copies of court orders, not photocopies, and keep your own copy of everything you mail.
+    es: Envía copias certificadas de las órdenes, no fotocopias, y guarda copia de todo lo que envíes.
+statutes:
+  - cite: 16 Del. C. § 3131
+    title:
+      en: Delayed or amended certificates
+      es: Actas tardías o enmendadas
+    url: https://delcode.delaware.gov/title16/c031/sc02/index.html
+  - cite: 16 DE Admin. Code 4205 § 10.7
+    title:
+      en: Vital Statistics regulation, amendment of sex (cited on the state's affidavit forms)
+      es: Reglamento de Estadísticas Vitales, enmienda de sexo
+    url: https://regulations.delaware.gov/AdminCode/title16/4000/4200/4205.shtml
+related_links:
+  - title: Advocates for Trans Equality, Delaware identity documents
+    url: https://transequality.org/documents/delaware-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+sources:
+  - id: ovs-page
+    url: https://dhss.delaware.gov/dph/homepage/about/sections/ehdishome/vitalstats/
+    title: Office of Vital Statistics
+    publisher: Delaware Health and Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: ovs-checklist
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/GenderReassignment.pdf
+    title: Gender Reassignment, required documents (effective 03/17/2022)
+    publisher: Delaware Office of Vital Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: "The original certified birth certificate must be surrendered to the Office of Vital Statistics before a new birth certificate will be released. If the registrant does not have an existing birth certificate, a $25 payment in check or money order is required. ... Processing time will be within two weeks."
+  - id: requester-affidavit
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/RequesterAffidavitSexChange.pdf
+    title: Requester's Affidavit for Sex Change on Birth Certificate
+    publisher: Delaware Office of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: I officially request the sex on my birth certificate be changed to male or female in accordance with 16 DE Admin. Code 4205 Vital Statistics, subsection 10.7.1.1
+  - id: provider-affidavit
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/HealthcareAffidavitSexChange.pdf
+    title: Healthcare Provider's Affidavit for Sex Change on Birth Certificate
+    publisher: Delaware Office of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: The registrant has undergone surgical, hormonal, psychological or other treatment appropriate for the individual for the purpose of gender transition, based on contemporary medical standards.
+  - id: birth-app
+    url: https://dhss.delaware.gov/wp-content/uploads/sites/12/dph/pdf/birth24.pdf
+    title: Application for a Certified Copy of a Delaware Birth Certificate
+    publisher: Delaware Office of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Cost: $25.00 per copy"
+  - id: statute-3132
+    url: https://delcode.delaware.gov/title16/c031/sc02/index.html
+    title: 16 Del. C. §§ 3131-3132
+    publisher: Delaware Code Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The State Registrar shall receive a fee not to exceed $25 for each certified or noncertified copy of a certificate or record
+  - id: a4te-de
+    url: https://transequality.org/documents/delaware-identity-documents
+    title: Delaware Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Delaware Vital Records Office will accept a certified copy of an order for name change signed by a court from your current state of residence.

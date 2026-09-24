@@ -1,0 +1,120 @@
+code: DE
+name:
+  en: Delaware
+  es: Delaware
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate: ID documents rated "mixed" because license and birth certificate changes need a provider's signature and
+    offer only M or F (HB 375 of 2026, which would have allowed X by self-attestation, did not pass), while name changes
+    need no publication. Care rated "protective": no bans, insurance nondiscrimination (Bulletin 86), and a shield
+    executive order. shield_law is true on the strength of Executive Order 11 (2025); it is not a statute (HB 346 of
+    2024 died in committee). Reviewer: decide whether the site treats an executive order as a shield law.
+overview:
+  en: >-
+    Delaware lets adults change their name in the Court of Common Pleas with no newspaper publication, and lets people
+    change the sex on their driver's license and Delaware birth certificate to M or F with a signed statement from a
+    licensed provider (no surgery or court order). An X marker is not yet available. Gender-affirming care is legal
+    for all ages, state-regulated insurance may not exclude it, and a 2025 executive order protects patients and
+    providers from other states' investigations. A federal rule stops Medicaid from paying for certain care for
+    minors starting October 13, 2026.
+  es: >-
+    Delaware permite a los adultos cambiar su nombre en el Tribunal de Causas Comunes sin publicación en periódico, y
+    cambiar el sexo en la licencia de conducir y en el acta de nacimiento de Delaware a M o F con una declaración
+    firmada por un proveedor con licencia (sin cirugía ni orden judicial). El marcador X aún no está disponible. La
+    atención de afirmación de género es legal para todas las edades, los seguros regulados por el estado no pueden
+    excluirla y una orden ejecutiva de 2025 protege a pacientes y proveedores de investigaciones de otros estados. Una
+    regla federal impide que Medicaid pague ciertos servicios para menores desde el 13 de octubre de 2026.
+climate:
+  id_documents: mixed
+  care: protective
+  shield_law: true
+  sources: [eo11, dmv-procedure, bulletin-86, hb375]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [wilmington]
+key_resources:
+  - id: clasi
+    name: Community Legal Aid Society, Inc. (CLASI)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide free civil legal aid with offices in Wilmington (302-575-0660), Dover (302-674-8500), and Georgetown (302-856-0038).
+      es: Ayuda legal civil gratuita en todo el estado, con oficinas en Wilmington (302-575-0660), Dover (302-674-8500) y Georgetown (302-856-0038).
+    url: https://www.declasi.org/
+    phone: "302-575-0660"
+    cost: free
+    verification: org_website
+    sources: [clasi]
+  - id: camp-rehoboth
+    name: CAMP Rehoboth Community Center
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, sexual_health, mental_health]
+    description:
+      en: LGBTQ+ community center in Rehoboth Beach offering community resources, HIV testing and PrEP help, and youth programs.
+      es: Centro comunitario LGBTQ+ en Rehoboth Beach con recursos comunitarios, pruebas de VIH, ayuda con PrEP y programas juveniles.
+    url: https://www.camprehoboth.org/
+    phone: "302-227-5620"
+    address: 37 Baltimore Avenue, Rehoboth Beach, DE 19971
+    cost: free
+    verification: org_website
+    sources: [camp-rehoboth]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: eo11
+    url: https://governor.delaware.gov/wp-content/uploads/sites/219/2025/06/EO-11-signed.pdf
+    title: Executive Order Number Eleven, Protecting Gender-Affirming Care in Delaware
+    publisher: Office of the Governor of Delaware
+    kind: official
+    accessed: "2026-09-24"
+    quote: I shall deny any request for the extradition of any individual who provides, receives, inquires about, responds to, or assists with gender-affirming care that is or would otherwise be lawful in Delaware
+  - id: dmv-procedure
+    url: https://dmv.de.gov/DriverServices/drivers_license/pdfs/gender_designation_change_procedure.pdf
+    title: Gender Designation Changes on Driver Licenses and Identification Cards
+    publisher: Delaware Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: bulletin-86
+    url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2020/09/domestic-foreign-insurers-bulletin-no86.pdf
+    title: Domestic/Foreign Insurers Bulletin No. 86
+    publisher: Delaware Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: hb375
+    url: https://legis.delaware.gov/BillDetail?legislationId=143087
+    title: HB 375 (153rd General Assembly), government records and gender designations
+    publisher: Delaware General Assembly
+    kind: official
+    accessed: "2026-09-24"
+    quote: These existing regulations require certification from a medical or social service provider certifying the individual's true gender identity
+  - id: clasi
+    url: https://www.declasi.org/contact-us/
+    title: Community Legal Aid Society, Contact Us
+    kind: org
+    accessed: "2026-09-24"
+  - id: camp-rehoboth
+    url: https://www.camprehoboth.org/
+    title: CAMP Rehoboth Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
