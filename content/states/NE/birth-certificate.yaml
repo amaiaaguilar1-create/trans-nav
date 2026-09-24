@@ -1,0 +1,203 @@
+guide_type: birth_certificate
+jurisdiction: NE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirement taken from Neb. Rev. Stat. 71-604.01 (unchanged since 2007): notarized affidavit from the physician
+    who performed sex reassignment surgery PLUS a certified court order changing the name. DHHS Vital Records pages
+    (fetched 2026-09-24) say nothing about sex changes; the only posted form is the general Application for Amendment
+    HHS-81 ($16 amendment, $17 per certified copy). A4TE describes the same process and says out-of-state name-change
+    orders are accepted (not confirmed on a DHHS page). The task prompt's reference to a surgery affidavit matches the
+    statute. Reviewer: (1) call Vital Records (402-471-2871) to confirm DHHS is still processing 71-604.01 requests
+    under EO 23-16 (no public notice of a pause was found, but news sites were blocked); (2) confirm whether a person
+    who already has a court-ordered name change from years ago can use it, and whether a name change is strictly
+    required when the name is not changing; (3) confirm processing time (not published); (4) implementing regulations
+    in 174 NAC were not checked because the rules site did not render. MAP's map was reported (via summarizing fetch)
+    as rating Nebraska's birth certificate policy negative, consistent with a surgery requirement.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Nebraska, you can get a new birth certificate with a changed sex only with a notarized
+    affidavit from the surgeon who performed your gender-affirming surgery and a certified court order changing your
+    name. Only M or F. Changing just the name is simpler: send the court order with an amendment application.
+  es: >-
+    Si naciste en Nebraska, puedes obtener un acta nueva con el sexo cambiado solo con una declaración notariada del
+    cirujano que realizó tu cirugía de afirmación de género y una orden judicial certificada de cambio de nombre.
+    Solo M o F. Cambiar solo el nombre es más sencillo: envía la orden judicial con una solicitud de enmienda.
+summary:
+  en: |
+    Nebraska law (Neb. Rev. Stat. 71-604.01) lets the Department of Health and Human Services (DHHS) issue a **new** birth certificate in your new name and sex when it receives **both**:
+
+    1. a **notarized affidavit from the physician who performed your sex reassignment surgery**, and
+    2. a **certified copy of a court order changing your name**.
+
+    The new certificate looks like any other birth certificate. The original and the documents you sent are sealed and can be seen only with a court order. Only male or female can be listed.
+
+    If you have not had surgery, you cannot change the sex on a Nebraska birth certificate, but you can still update your **name** with a court order. This guide applies only if you were **born in Nebraska**. If you were born elsewhere, follow your birth state's rules, even if you live in Nebraska.
+  es: |
+    La ley de Nebraska (Neb. Rev. Stat. 71-604.01) permite al Departamento de Salud y Servicios Humanos (DHHS) emitir una **nueva** acta de nacimiento con tu nuevo nombre y sexo cuando recibe **ambos**:
+
+    1. una **declaración jurada notariada del médico que realizó tu cirugía de reasignación de sexo**, y
+    2. una **copia certificada de una orden judicial de cambio de nombre**.
+
+    La nueva acta se ve como cualquier otra. La original y tus documentos quedan sellados y solo se pueden ver con orden judicial. Solo se puede indicar masculino o femenino.
+
+    Si no has tenido cirugía, no puedes cambiar el sexo en un acta de Nebraska, pero sí puedes actualizar tu **nombre** con una orden judicial. Esta guía aplica solo si **naciste en Nebraska**. Si naciste en otro estado, sigue las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Nebraska. You do not need to live in Nebraska now.
+    es: Debes haber nacido en Nebraska. No necesitas vivir ahora en Nebraska.
+  age:
+    en: The amendment application must be signed by the registrant if of legal age (19), otherwise by a parent. Surgery for anyone under 19 is prohibited in Nebraska (Let Them Grow Act), so in practice the sex change route is for adults.
+    es: La solicitud la firma la persona registrada si es mayor de edad (19), o un padre si no. La cirugía para menores de 19 está prohibida en Nebraska, así que en la práctica este trámite es para adultos.
+  sources: [neb-71-604-01, hhs-81, neb-71-7304]
+forms:
+  - id: HHS-81
+    name:
+      en: Application for Amendment (birth certificate), with instructions
+      es: Solicitud de enmienda (acta de nacimiento), con instrucciones
+    url: https://public-dhhs.ne.gov/Forms/DisplayPDF.aspx?item=2647
+    required: always
+    how_to_fill:
+      en: |
+        - Section 1: list your name and details exactly as they appear now on the birth certificate.
+        - Section 2 ("items to be corrected"): list the name and, if applicable, the sex, with the new information.
+        - Section 4: sign **in front of a notary**. The application must be notarized.
+        - Enclose a photocopy of your current photo ID, the certified court order, the surgeon's notarized affidavit (for a sex change), and a check or money order to "Vital Records."
+        - The form's general instructions about "documentary evidence established five years prior" are for correcting errors; for these changes the court order and affidavit are the evidence.
+      es: |
+        - Sección 1: escribe tu nombre y datos tal como aparecen ahora en el acta.
+        - Sección 2: indica el nombre y, si corresponde, el sexo, con la información nueva.
+        - Sección 4: firma **ante notario**.
+        - Incluye copia de tu identificación con foto, la orden judicial certificada, la declaración notariada del cirujano (para cambio de sexo) y un cheque o giro a nombre de "Vital Records".
+    sources: [hhs-81, a4te-ne]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified court order changing your name
+      es: Obtén una orden judicial certificada de cambio de nombre
+    body:
+      en: The statute requires a certified copy of a court order changing your name for a new certificate with a changed sex. See the name change guide. A4TE reports that Vital Records accepts name-change orders from other states.
+      es: La ley exige una copia certificada de una orden judicial de cambio de nombre para una nueva acta con el sexo cambiado. Consulta la guía de cambio de nombre. Según A4TE, se aceptan órdenes de otros estados.
+    sources: [neb-71-604-01, a4te-ne]
+  - id: surgeon-affidavit
+    title:
+      en: Get a notarized affidavit from your surgeon
+      es: Obtén una declaración notariada de tu cirujano
+    body:
+      en: The physician who performed your surgery signs a notarized affidavit stating that they performed sex reassignment surgery and the date. There is no DHHS form for this; a letter-style affidavit signed before a notary is used.
+      es: El médico que realizó tu cirugía firma una declaración notariada que indica que la realizó y la fecha. No hay formulario del DHHS; se usa una declaración tipo carta firmada ante notario.
+    applies_to: [gender_marker]
+    sources: [neb-71-604-01, a4te-ne]
+  - id: apply
+    title:
+      en: Mail the application, documents, and fees to Vital Records
+      es: Envía la solicitud, documentos y tarifas a Vital Records
+    body:
+      en: |
+        Send the notarized Application for Amendment (HHS-81), copy of your photo ID, certified court order, surgeon's affidavit (for a sex change), and a check or money order to:
+
+        Nebraska Vital Records, P.O. Box 95065, Lincoln, NE 68509-5065
+
+        Include a self-addressed business envelope. Questions: 402-471-2871 or DHHS.VitalRecords@nebraska.gov. The office is at 301 Centennial Mall South, First Floor, Lincoln.
+      es: |
+        Envía la Solicitud de Enmienda notariada (HHS-81), copia de tu identificación, la orden judicial certificada, la declaración del cirujano (para cambio de sexo) y un cheque o giro a:
+
+        Nebraska Vital Records, P.O. Box 95065, Lincoln, NE 68509-5065
+
+        Incluye un sobre con tu dirección. Preguntas: 402-471-2871 o DHHS.VitalRecords@nebraska.gov.
+    forms: [HHS-81]
+    fees: [amendment, copy]
+    applies_to: [by_mail]
+    sources: [hhs-81, dhhs-vr, dhhs-vr-changes]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee
+      es: Tarifa de enmienda
+    amount: 16
+    sources: [hhs-81]
+  - id: copy
+    label:
+      en: Certified copy of the new or amended certificate (each)
+      es: Copia certificada del acta nueva o enmendada (cada una)
+    amount: 17
+    sources: [hhs-81, dhhs-vr]
+fee_waiver:
+  available: false
+  sources: [dhhs-vr]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Amendments are sent by mail. Call Vital Records to ask whether you can drop off an amendment in person at the Lincoln office.
+    es: Las enmiendas se envían por correo. Llama a Vital Records para preguntar si puedes entregarla en persona en Lincoln.
+  sources: [hhs-81, dhhs-vr]
+timeline:
+  en: DHHS does not publish a processing time for amendments. Call Vital Records for the current wait.
+  es: El DHHS no publica un plazo para enmiendas. Llama a Vital Records para saber la espera actual.
+after:
+  en: Use the new certificate to update other records if needed. The DMV does not require an amended birth certificate to change your license marker; it uses its own provider form.
+  es: Usa la nueva acta para actualizar otros registros si hace falta. El DMV no exige un acta enmendada para cambiar el marcador de la licencia; usa su propio formulario médico.
+tips:
+  - en: The free birth-certificate copy "for voting purposes" does not apply to amendments.
+    es: La copia gratuita del acta "para votar" no aplica a las enmiendas.
+  - en: If you were born in another state, that state's rules apply, even if you live in Nebraska. Some states allow changes without surgery.
+    es: Si naciste en otro estado, se aplican las reglas de ese estado, aunque vivas en Nebraska. Algunos estados permiten cambios sin cirugía.
+statutes:
+  - cite: Neb. Rev. Stat. § 71-604.01
+    title:
+      en: Birth certificate; sex reassignment; new certificate; procedure
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-604.01
+related_links:
+  - title: A4TE, Nebraska Identity Documents
+    url: https://transequality.org/documents/nebraska-identity-documents
+sources:
+  - id: neb-71-604-01
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-604.01
+    title: Neb. Rev. Stat. 71-604.01, Birth certificate; sex reassignment; new certificate; procedure
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a notarized affidavit from the physician that performed sex reassignment surgery on an individual born in this state and a certified copy of an order of a court of competent jurisdiction changing the name of such person, the department shall prepare a new certificate of birth
+  - id: neb-71-7304
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7304
+    title: Neb. Rev. Stat. 71-7304, Gender-altering procedures; prohibited, when
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hhs-81
+    url: https://public-dhhs.ne.gov/Forms/DisplayPDF.aspx?item=2647
+    title: Application for Amendment, HHS-81
+    publisher: Nebraska DHHS
+    kind: form
+    accessed: "2026-09-24"
+    quote: $16.00 to correct the record ... x $17.00 each ... This application MUST be signed in the presence of a notary public.
+  - id: dhhs-vr
+    url: https://dhhs.ne.gov/Pages/Vital-Records.aspx
+    title: Vital Records
+    publisher: Nebraska DHHS
+    kind: official
+    accessed: "2026-09-24"
+    quote: To get a birth certificate by mail, send a $17.00 check or money order made out to "Vital Records"
+  - id: dhhs-vr-changes
+    url: https://dhhs.ne.gov/Pages/Vital-Records-Changes.aspx
+    title: Changing a Record
+    publisher: Nebraska DHHS
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-ne
+    url: https://transequality.org/documents/nebraska-identity-documents
+    title: Nebraska Identity Documents
+    publisher: A4TE
+    kind: org
+    accessed: "2026-09-24"
+    quote: A Physician's Affidavit, stating they performed gender reassignment surgery and the date the surgery took place, with the physician's notarized signature

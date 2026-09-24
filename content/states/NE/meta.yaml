@@ -1,0 +1,142 @@
+code: NE
+name:
+  en: Nebraska
+  es: Nebraska
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate: id_documents "mixed" because license markers can change with a provider form (M/F only) but birth
+    certificates require surgery plus a court-ordered name change; care "restrictive" because of the Let Them Grow Act
+    (under-19 surgery ban, tight rules on hormones and blockers, state-funds ban) and no insurance protections or shield
+    law, though adult care is unrestricted. Governor's EO 23-16 (2023) defines sex as sex at birth for agencies "to the
+    fullest extent permitted by law"; MAP counts Nebraska as having a sex-definition policy. LB 89 (2025) is a
+    sports-only law. No 2026 law affecting ID documents or care was found; the only 2026 change found is LB 596, which
+    shortened name change publication to two weeks. OutNebraska's website is behind a captcha and could not be read.
+overview:
+  en: >-
+    Nebraska allows adult name changes through district court (one year of county residence, a hearing, and two weeks
+    of newspaper publication unless waived for safety). The sex on a driver's license or ID can be changed to M or F
+    with a form signed by a medical provider, but a birth certificate change requires proof of surgery and a court-
+    ordered name change. Adults (19+) can get gender-affirming care without state restrictions; for people under 19,
+    surgery is banned and hormones are tightly limited by the Let Them Grow Act. There is no shield law.
+  es: >-
+    Nebraska permite cambios de nombre de adultos en el tribunal de distrito (un año de residencia en el condado,
+    audiencia y dos semanas de publicación en periódico salvo exención por seguridad). El sexo en la licencia o
+    identificación puede cambiarse a M o F con un formulario firmado por un proveedor médico, pero el cambio en el acta
+    de nacimiento exige prueba de cirugía y una orden judicial de cambio de nombre. Los adultos (19+) pueden recibir
+    atención de afirmación de género sin restricciones estatales; para menores de 19, la cirugía está prohibida y las
+    hormonas están muy limitadas por la Ley Let Them Grow. No hay ley escudo.
+climate:
+  id_documents: mixed
+  care: restrictive
+  shield_law: false
+  sources: [neb-71-604-01, dmv-sex, neb-71-7304, map-id, eo-23-16]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [omaha]
+key_resources:
+  - id: legal-aid-nebraska
+    name: Legal Aid of Nebraska
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free statewide civil legal aid for low-income Nebraskans, with a step-by-step name change guide. Apply online or by phone.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos, con una guía de cambio de nombre.
+    url: https://legalaidofnebraska.org/online-resources/name-change-resources.html
+    phone: "402-348-1069"
+    cost: free
+    verification: org_website
+    sources: [legal-aid]
+  - id: aclu-nebraska
+    name: ACLU of Nebraska
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Civil liberties organization; request legal help or report discrimination through its online form.
+      es: Organización de libertades civiles; pide ayuda legal o reporta discriminación en su formulario en línea.
+    url: https://www.aclunebraska.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-ne]
+  - id: outnebraska
+    name: OutNebraska
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Statewide LGBTQ advocacy organization based in Lincoln, with a resource list.
+      es: Organización estatal de defensa LGBTQ con sede en Lincoln, con lista de recursos.
+    url: https://outnebraska.org/
+    cost: free
+    verification: community_reported
+    sources: [a4te-ne]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [translifeline]
+sources:
+  - id: neb-71-604-01
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-604.01
+    title: Neb. Rev. Stat. 71-604.01
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dmv-sex
+    url: https://dmv.nebraska.gov/dl/certification-sex-reassignment
+    title: Certification of Sex Reassignment
+    publisher: Nebraska Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: neb-71-7304
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7304
+    title: Neb. Rev. Stat. 71-7304 (Let Them Grow Act)
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-maps/identity-document-laws-and-policies
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: eo-23-16
+    url: http://govdocs.nebraska.gov/docs/pilot/pubs/eofiles/23-16.pdf
+    title: Executive Order No. 23-16, Establishing a Women's Bill of Rights
+    publisher: Office of the Governor of Nebraska
+    kind: official
+    accessed: "2026-09-24"
+  - id: legal-aid
+    url: https://legalaidofnebraska.org/online-resources/name-change-resources.html
+    title: Name Change Resources
+    publisher: Legal Aid of Nebraska
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ne
+    url: https://www.aclunebraska.org/get-help/
+    title: Get Help
+    publisher: ACLU of Nebraska
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ne
+    url: https://transequality.org/documents/nebraska-identity-documents
+    title: Nebraska Identity Documents
+    publisher: A4TE
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

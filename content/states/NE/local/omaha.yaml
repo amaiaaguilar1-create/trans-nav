@@ -1,0 +1,219 @@
+jurisdiction: NE
+slug: omaha
+name: Omaha
+area:
+  en: Douglas and Sarpy counties and the Omaha-Council Bluffs metro
+  es: Condados de Douglas y Sarpy y el área metropolitana de Omaha-Council Bluffs
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the Nebraska Judicial Branch's Douglas District Court page (fetched 2026-09-24). Douglas County's
+    own website returned 403 to automated fetches. Heartland Pride's website did not respond, Trans Collaborations'
+    site shows "under construction," and OutNebraska's site is behind a captcha, so none of them could be verified; only
+    OutNebraska is listed (as community_reported). Douglas County Health Department's STI clinic site returned 403 and
+    is not listed. Reviewer: add a local trans peer-support group and confirm whether Douglas County district court
+    has a self-help desk.
+intro:
+  en: >-
+    Omaha is Nebraska's largest metro and has the state's main academic gender clinic (Nebraska Medicine / UNMC),
+    a Planned Parenthood health center, sliding-scale community health centers, and the headquarters of the state's
+    HIV service organization. Name change petitions for Douglas County residents are filed with the Douglas County
+    District Court at the Hall of Justice downtown.
+  es: >-
+    Omaha es el área metropolitana más grande de Nebraska y cuenta con la principal clínica de género académica del
+    estado (Nebraska Medicine / UNMC), un centro de Planned Parenthood, centros de salud comunitarios con escala
+    móvil y la sede de la organización estatal de VIH. Las peticiones de cambio de nombre de residentes del condado de
+    Douglas se presentan en el Tribunal de Distrito del condado de Douglas, en el Hall of Justice del centro.
+court:
+  name: Douglas County District Court (Fourth Judicial District), Hall of Justice
+  url: https://nebraskajudicial.gov/courts/douglas-district-court
+  self_help_url: https://nebraskajudicial.gov/self-help/name-change/adult-name-change
+  filing_fee: 144
+  notes:
+    en: 1701 Farnam Street, Omaha, NE 68183. Clerk of the District Court phone 402-444-7018. Sarpy County residents file at the Sarpy County District Court in Papillion. The $144 figure is the statewide civil filing fee; confirm with the clerk. Newspaper publication in Douglas County is extra unless the judge waives it.
+    es: 1701 Farnam Street, Omaha, NE 68183. Teléfono de la secretaría 402-444-7018. Los residentes del condado de Sarpy presentan en Papillion. Los $144 son la tarifa civil estatal; confírmala con la secretaría.
+  sources: [douglas-dc, court-fees]
+resources:
+  - id: legal-aid-nebraska
+    name: Legal Aid of Nebraska
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income people, including name change guidance. Apply online or by phone (no walk-ins).
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, incluida orientación sobre cambio de nombre. Solicita en línea o por teléfono.
+    url: https://legalaidofnebraska.org/
+    phone: "402-348-1069"
+    address: 209 S. 19th Street, Suite 200, Omaha, NE 68102
+    cost: free
+    verification: org_website
+    sources: [legal-aid]
+  - id: aclu-nebraska
+    name: ACLU of Nebraska
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Report discrimination or request legal help through the online intake form.
+      es: Reporta discriminación o pide ayuda legal mediante el formulario en línea.
+    url: https://www.aclunebraska.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-ne]
+  - id: nebraska-medicine-gender-care
+    name: Nebraska Medicine Gender Care Clinic (UNMC)
+    type: hrt_clinic
+    pillars: [hrt, mental_health, gender_marker]
+    description:
+      en: Gender care for adults 19+ (behavioral health, surgery, voice care, primary care referrals, and paperwork for gender marker changes). Minors are seen for behavioral health only.
+      es: Atención de género para adultos de 19+ (salud conductual, cirugía, voz, referencias y documentos para cambio de marcador). Menores solo en salud conductual.
+    url: https://www.nebraskamed.com/transgender-care
+    phone: "402-559-4343"
+    address: 4350 Emile St., Omaha, NE 68105
+    cost: insurance
+    verification: org_website
+    sources: [nebmed-gender]
+  - id: pp-omaha
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, Omaha Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care, HIV services, STI testing, and birth control. Call to confirm hormone therapy and minimum age.
+      es: Ofrece atención de afirmación de género, VIH, pruebas de ITS y anticonceptivos. Llama para confirmar.
+    url: https://www.plannedparenthood.org/health-center/nebraska/omaha/68134/centro-de-salud-omaha-2447-90720
+    phone: "877-859-0589"
+    address: 3105 N. 93rd St., Omaha, NE 68134
+    cost: sliding_scale
+    languages: [English, Español]
+    verification: org_website
+    sources: [pp-omaha]
+  - id: oneworld
+    name: OneWorld Community Health Centers
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: South Omaha community health center with a sliding fee scale, STI/HIV testing, behavioral health, and pharmacy. Ask whether a provider prescribes hormones.
+      es: Centro de salud comunitario del sur de Omaha con escala móvil, pruebas de ITS/VIH, salud conductual y farmacia. Pregunta si recetan hormonas.
+    url: https://www.oneworldomaha.org/
+    phone: "402-734-4110"
+    address: 4920 S. 30th Street, Omaha, NE 68107
+    cost: sliding_scale
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [oneworld]
+  - id: charles-drew
+    name: Charles Drew Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: North Omaha community health center offering primary care on a sliding scale. Its website does not mention gender-affirming care; ask.
+      es: Centro de salud comunitario del norte de Omaha con atención primaria en escala móvil. Pregunta por atención de afirmación de género.
+    url: https://charlesdrew.com/
+    phone: "402-451-3553"
+    address: 2915 Grant Street, Omaha, NE
+    cost: sliding_scale
+    verification: org_website
+    sources: [charles-drew]
+  - id: nap
+    name: Nebraska AIDS Project
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV/STI testing, PrEP navigation, and HIV case management for Omaha and southwest Iowa.
+      es: Pruebas de VIH/ITS, navegación de PrEP y manejo de casos de VIH para Omaha y el suroeste de Iowa.
+    url: https://www.nap.org/
+    phone: "402-552-9260"
+    cost: free
+    verification: org_website
+    sources: [nap]
+  - id: outnebraska
+    name: OutNebraska
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Statewide LGBTQ advocacy organization (based in Lincoln) with a resource list and community programs.
+      es: Organización estatal de defensa LGBTQ (con sede en Lincoln) con lista de recursos y programas comunitarios.
+    url: https://outnebraska.org/
+    cost: free
+    verification: community_reported
+    sources: [a4te-ne]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [translifeline]
+sources:
+  - id: douglas-dc
+    url: https://nebraskajudicial.gov/courts/douglas-district-court
+    title: Douglas District Court
+    publisher: Nebraska Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: 1701 Farnam Street Hall of Justice Omaha NE 68183 Phone 402-444-7018
+  - id: court-fees
+    url: https://nebraskajudicial.gov/rules/administrative-policies-schedules/filing-fees-and-court-costs
+    title: Filing Fees and Court Costs
+    publisher: Nebraska Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: legal-aid
+    url: https://legalaidofnebraska.org/
+    title: Legal Aid of Nebraska
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ne
+    url: https://www.aclunebraska.org/get-help/
+    title: Get Help
+    publisher: ACLU of Nebraska
+    kind: org
+    accessed: "2026-09-24"
+  - id: nebmed-gender
+    url: https://www.nebraskamed.com/transgender-care
+    title: Gender Care Clinic
+    publisher: Nebraska Medicine
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-omaha
+    url: https://www.plannedparenthood.org/health-center/nebraska/omaha/68134/centro-de-salud-omaha-2447-90720
+    title: Planned Parenthood Omaha Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: oneworld
+    url: https://www.oneworldomaha.org/
+    title: OneWorld Community Health Centers
+    kind: org
+    accessed: "2026-09-24"
+  - id: charles-drew
+    url: https://charlesdrew.com/
+    title: Charles Drew Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: nap
+    url: https://www.nap.org/
+    title: Nebraska AIDS Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ne
+    url: https://transequality.org/documents/nebraska-identity-documents
+    title: Nebraska Identity Documents
+    publisher: A4TE
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,225 @@
+guide_type: drivers_license
+jurisdiction: NE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    DMV "Certification of Sex Reassignment" page and form PDF fetched live 2026-09-24; both still offered. The form is
+    not numbered "DMV 06-58" as the task prompt guessed: it is an unnumbered one-page form with footer code "S1" and
+    "TSIS1 06/18" (image-only PDF; read visually). Signers listed on the form: MD, DO, PA, APRN, or chiropractor
+    (mental health providers are not listed). The form's wording ("has undergone the necessary sex reassignment
+    procedures required for social gender recognition") does not require surgery; A4TE says proof of surgery is not
+    required. Reviewer: confirm with DMV that no surgery documentation is being demanded in practice. Governor's
+    Executive Order 23-16 (Aug. 30, 2023) directs agencies to define sex as sex at birth "to the fullest extent
+    permitted by law"; it has not stopped the DMV from offering this form as of today, and it expires when a state law
+    on athletics and single-sex spaces takes effect (LB 89, 2025, covers athletics only; whether it ended the EO is
+    unclear). MAP's identity-document map (read through a summarizing fetch, updated 2026-09-23) was reported as
+    showing Nebraska's license policy as negative, while MAP's state profile showed partial (0.5). The primary DMV
+    source shows changes are available; reviewer should re-check MAP directly. Fees from DMV Class O and State ID fee
+    tables: $16 replacement license; State ID $0 for U.S. citizens. No X marker. No 2025-2026 law found banning marker
+    changes on licenses.
+status: available
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on a Nebraska driver's license or state ID to M or F with a one-page DMV form signed by a
+    doctor, physician assistant, advanced practice nurse, or chiropractor. Surgery is not required by the form. X is
+    not available. The change must be made in person.
+  es: >-
+    Puedes cambiar el sexo en tu licencia o identificación estatal de Nebraska a M o F con un formulario de una página
+    del DMV firmado por un médico, asistente médico, enfermera de práctica avanzada o quiropráctico. El formulario no
+    exige cirugía. No hay opción X. El cambio se hace en persona.
+summary:
+  en: |
+    The Nebraska DMV changes the sex on a license, permit, or state ID when you bring its **Certification of Sex Reassignment** form, signed by a doctor of medicine or osteopathy, a physician assistant, an advanced practice nurse, or a doctor of chiropractic. The provider certifies that you have "undergone the necessary sex reassignment procedures required for social gender recognition" and checks male or female. The form does not ask what treatment you had, and surgery is not required. Only **M** and **F** are available.
+
+    Changing your **name** on the card is a separate requirement: bring a certified copy of the court order, and update Social Security first. Nebraska law requires you to update your card within 60 days of a legal name change. Both changes can be done at the same visit.
+  es: |
+    El DMV de Nebraska cambia el sexo en una licencia, permiso o identificación estatal cuando presentas su formulario **Certificación de Reasignación de Sexo**, firmado por un médico (MD o DO), asistente médico, enfermera de práctica avanzada o quiropráctico. El proveedor certifica que te has sometido a los "procedimientos necesarios... para el reconocimiento social del género" y marca masculino o femenino. El formulario no pregunta qué tratamiento recibiste y no exige cirugía. Solo hay **M** y **F**.
+
+    Cambiar tu **nombre** en la tarjeta es un requisito aparte: lleva una copia certificada de la orden judicial y actualiza antes el Seguro Social. Debes actualizar la tarjeta dentro de 60 días del cambio legal de nombre. Puedes hacer ambos cambios en la misma visita.
+eligibility:
+  residency:
+    en: For Nebraska residents holding or applying for a Nebraska license, permit, or state ID.
+    es: Para residentes de Nebraska con licencia, permiso o identificación estatal de Nebraska.
+  age:
+    en: No minimum age is stated on the form.
+    es: El formulario no indica edad mínima.
+  other:
+    en: >-
+      A 2023 executive order (EO 23-16) tells state agencies to define sex as sex at birth "to the fullest extent
+      permitted by law." As of September 2026 the DMV still publishes and accepts the certification form.
+    es: >-
+      Una orden ejecutiva de 2023 (EO 23-16) indica a las agencias estatales definir el sexo como el sexo al nacer "en
+      la medida permitida por la ley". A septiembre de 2026, el DMV sigue publicando y aceptando el formulario.
+  sources: [dmv-sex, dmv-form, eo-23-16]
+forms:
+  - id: Certification of Sex Reassignment
+    name:
+      en: Certification of Sex Reassignment (DMV form, signed by a medical provider)
+      es: Certificación de Reasignación de Sexo (formulario del DMV firmado por un proveedor médico)
+    url: https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dls/forms/Certificationofsexreassignment.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - You fill in your name, license number, and date of birth.
+        - Your provider checks **male** or **female**, prints their name, address, and phone, signs, and dates it.
+        - Eligible signers: doctor of medicine (MD), doctor of osteopathy (DO), physician assistant, advanced practice nurse (APRN, including nurse practitioners), or doctor of chiropractic. A therapist or counselor cannot sign.
+        - Your hormone prescriber or primary care provider can usually sign. The form does not ask for surgery details.
+      es: |
+        - Llenas tu nombre, número de licencia y fecha de nacimiento.
+        - Tu proveedor marca **masculino** o **femenino**, escribe su nombre, dirección y teléfono, firma y fecha.
+        - Pueden firmar: médico (MD o DO), asistente médico, enfermera de práctica avanzada o quiropráctico. Un terapeuta o consejero no puede firmar.
+        - Quien te receta hormonas o tu médico de cabecera normalmente puede firmarlo.
+    sources: [dmv-form, dmv-sex]
+  - id: Operators License-ID Data Form
+    name:
+      en: Operator's License / ID data form (completed at the office)
+      es: Formulario de datos de licencia / identificación (se llena en la oficina)
+    url: https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dls/forms/classoidform.pdf
+    required: always
+    sources: [dmv-sex]
+steps:
+  - id: get-form-signed
+    title:
+      en: Have a medical provider sign the DMV form
+      es: Pide a un proveedor médico que firme el formulario del DMV
+    body:
+      en: Print the Certification of Sex Reassignment and ask your MD, DO, PA, APRN, or chiropractor to complete and sign it. Nebraska Medicine's Gender Care Clinic lists help with documents for legal gender marker changes among its services.
+      es: Imprime la Certificación de Reasignación de Sexo y pide a tu médico, asistente médico, enfermera de práctica avanzada o quiropráctico que la llene y firme.
+    forms: [Certification of Sex Reassignment]
+    applies_to: [gender_marker]
+    sources: [dmv-form]
+  - id: name-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias de nombre, actualiza primero el Seguro Social
+    body:
+      en: Bring a certified copy of your name-change decree to Social Security before going to the DMV, so your records match.
+      es: Lleva una copia certificada de tu decreto al Seguro Social antes de ir al DMV, para que tus registros coincidan.
+    applies_to: [name_change]
+    sources: [a4te-ne]
+  - id: visit
+    title:
+      en: Visit a Driver Licensing Office
+      es: Visita una oficina de licencias
+    body:
+      en: |
+        This cannot be done online. Bring: the signed certification (for a sex change), a certified court order or other document linking your old and new names (for a name change), one proof of identity with your name and date of birth, your current card, and two proofs of address if your address has not been verified or you moved. Fill out the data form at the office, take a new photo, and pay the fee. In Douglas and Sarpy counties you go to a Driver License Service Center; elsewhere the county treasurer's office handles licensing.
+      es: |
+        No se puede hacer en línea. Lleva: la certificación firmada (para el cambio de sexo), la orden judicial certificada u otro documento que vincule tus nombres (para el cambio de nombre), una prueba de identidad con nombre y fecha de nacimiento, tu tarjeta actual y dos pruebas de domicilio si no se ha verificado o te mudaste. Llena el formulario de datos en la oficina, tómate una foto nueva y paga la tarifa.
+    forms: [Operators License-ID Data Form]
+    fees: [dl-replacement, id-replacement]
+    applies_to: [in_person]
+    sources: [dmv-sex, dmv-name, dmv-dl-fees]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: You get a 30-day receipt at the counter. The card is mailed within 14 business days. If it has not arrived in 20 days, call Driver Licensing Services at 402-471-3861. Your old card becomes invalid.
+      es: Recibes un comprobante de 30 días en la ventanilla. La tarjeta se envía por correo dentro de 14 días hábiles. Si no llega en 20 días, llama al 402-471-3861. Tu tarjeta anterior deja de ser válida.
+    estimated_time:
+      en: Up to 14 business days
+      es: Hasta 14 días hábiles
+    sources: [dmv-sex, dmv-name]
+fees:
+  - id: dl-replacement
+    label:
+      en: Replacement driver's license (Class O), including $5 security fee
+      es: Reemplazo de licencia de conducir (Clase O), incluido el cargo de seguridad de $5
+    amount: 16
+    sources: [dmv-dl-fees]
+  - id: id-replacement
+    label:
+      en: State ID card, U.S. citizens
+      es: Tarjeta de identificación estatal, ciudadanos estadounidenses
+    amount: 0
+    note:
+      en: The DMV fee table lists $0 for U.S. citizens "regardless of time the document is valid." Non-citizen replacement is $16.
+      es: La tabla del DMV indica $0 para ciudadanos. El reemplazo para no ciudadanos cuesta $16.
+    sources: [dmv-id-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: The DMV says certification of sex reassignment and name changes "can't be updated online." Apply at any Driver Licensing Office.
+    es: El DMV indica que estos cambios no se pueden hacer en línea. Acude a cualquier oficina de licencias.
+  sources: [dmv-sex, dmv-name]
+timeline:
+  en: Same-day visit, then up to 14 business days for the card to arrive by mail.
+  es: Una visita el mismo día y hasta 14 días hábiles para recibir la tarjeta por correo.
+after:
+  en: A Nebraska license with an updated sex marker does not change your birth certificate, Social Security record, or passport. Federal agencies currently do not accept sex marker changes; see the federal guides.
+  es: Una licencia de Nebraska con el marcador actualizado no cambia tu acta de nacimiento, tu registro del Seguro Social ni tu pasaporte. Las agencias federales actualmente no aceptan cambios de marcador de sexo.
+tips:
+  - en: Bring an extra copy of the signed certification in case the office keeps the original.
+    es: Lleva una copia adicional de la certificación firmada por si la oficina se queda con el original.
+  - en: If an office refuses the form or asks for surgery records, ask for a supervisor, note the date and names, and contact the ACLU of Nebraska.
+    es: Si una oficina rechaza el formulario o pide registros de cirugía, pide hablar con un supervisor, anota la fecha y los nombres y contacta a la ACLU de Nebraska.
+statutes:
+  - cite: Governor's Executive Order 23-16 (Aug. 30, 2023), Women's Bill of Rights
+    title:
+      en: Directs state agencies to define sex as sex at birth "to the fullest extent permitted by law"; has not been applied to stop license marker changes as of September 2026.
+    url: http://govdocs.nebraska.gov/docs/pilot/pubs/eofiles/23-16.pdf
+related_links:
+  - title: A4TE, Nebraska Identity Documents
+    url: https://transequality.org/documents/nebraska-identity-documents
+    note:
+      en: Undated. States that the form does not require proof of surgery.
+sources:
+  - id: dmv-sex
+    url: https://dmv.nebraska.gov/dl/certification-sex-reassignment
+    title: Certification of Sex Reassignment
+    publisher: Nebraska Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Certification of Sex Reassignment Form completed by a Doctor of Medicine, Doctor of Osteopathy, Physician Assistant, Advanced Practice Nurse, or Doctor of Chiropractic
+  - id: dmv-form
+    url: https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dls/forms/Certificationofsexreassignment.pdf
+    title: Certification of Sex Reassignment (form S1, TSIS1 06/18)
+    publisher: Nebraska Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: I certify that the above named applicant has undergone the necessary sex reassignment procedures required for social gender recognition
+  - id: dmv-name
+    url: https://dmv.nebraska.gov/dl/name-change
+    title: Name Change, Driver's License, Motorcycle and State ID
+    publisher: Nebraska Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: State Statute requires name changes to completed on your license, permit or ID within 60 days of your name change.
+  - id: dmv-dl-fees
+    url: https://dmv.nebraska.gov/dl/operators-license-class-o
+    title: Operator's License (Class O) Fees
+    publisher: Nebraska Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Replacement $11.00 $5.00 $16.00
+  - id: dmv-id-fees
+    url: https://dmv.nebraska.gov/dl/state-identification-card
+    title: State Identification Card Fees
+    publisher: Nebraska Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: State ID for U.S. Citizens regardless of time the document is valid $0.00
+  - id: a4te-ne
+    url: https://transequality.org/documents/nebraska-identity-documents
+    title: Nebraska Identity Documents
+    publisher: A4TE
+    kind: org
+    accessed: "2026-09-24"
+    quote: The form is vague as to what treatment was performed and proof of surgery is not required.
+  - id: eo-23-16
+    url: http://govdocs.nebraska.gov/docs/pilot/pubs/eofiles/23-16.pdf
+    title: Executive Order No. 23-16, Establishing a Women's Bill of Rights
+    publisher: Office of the Governor of Nebraska
+    kind: official
+    accessed: "2026-09-24"
+    quote: a person's "sex" is defined as his or her biological sex (either male or female) at birth

@@ -1,0 +1,302 @@
+jurisdiction: NE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Let Them Grow Act text (Neb. Rev. Stat. 71-7301 to 71-7307, enacted in LB 574, 2023) read on the legislature site
+    2026-09-24; no amendments since 2023 are shown in the source notes. The chief medical officer's implementing
+    regulations were NOT read (rules.nebraska.gov is a JavaScript app that did not render). Commonly reported terms
+    (at least 40 hours of gender-identity-focused therapy before hormones or blockers, a 7-day waiting period after
+    consent) are left out of the rendered text; reviewer should confirm and add them with a citation. The Nebraska
+    Supreme Court rejected a single-subject challenge to LB 574 in 2024 (Planned Parenthood of the Heartland v.
+    Hilgers); not verified from the opinion today, so not listed under litigation. LB 89 (2025, Stand With Women Act,
+    signed June 4, 2025) is sports-only and does not touch health care. Medicaid: no DHHS page or regulation on
+    gender-affirming coverage was found; MAP's state profile (summarized fetch) shows Nebraska Medicaid as having a
+    restrictive/exclusion policy, so covers_hrt and covers_surgery are "unclear"; reviewer should find the 471 NAC
+    provision. Nebraska Medicine's Gender Care Clinic page confirms it sees everyone 19+ and treats minors only for
+    behavioral health. Planned Parenthood Omaha and Lincoln health-center pages list "Gender-Affirming Care" among
+    services, but the minimum age and whether hormones are prescribed on informed consent were not confirmed.
+    OneWorld and Charles Drew are FQHCs; neither website mentions gender-affirming care. QueerMed coverage of NE was
+    not confirmed, so it is not listed.
+status_summary:
+  en: >-
+    Adults (19 and older) can get hormone therapy and surgery in Nebraska without state restrictions. For anyone
+    under 19, surgery is banned and puberty blockers and hormones are allowed only under strict state regulations,
+    which most providers do not offer. There is no state shield law and no state protection against insurance
+    exclusions.
+  es: >-
+    Las personas adultas (19 años o más) pueden recibir terapia hormonal y cirugía en Nebraska sin restricciones
+    estatales. Para menores de 19 años, la cirugía está prohibida y los bloqueadores y hormonas solo se permiten bajo
+    reglas estatales estrictas que la mayoría de los proveedores no ofrece. No hay ley escudo ni protección estatal
+    contra exclusiones de seguros.
+adult_care:
+  status: available
+  detail:
+    en: |
+      Nebraska law does not restrict gender-affirming care for adults. Note that in Nebraska the age of majority is **19**, so the minors' law covers 18-year-olds too.
+
+      **If you have little money**, in rough order of what to try:
+      1. Apply for **Nebraska Medicaid** (Heritage Health). Adults 19 to 64 with low income can qualify. Coverage of gender-affirming care is not clearly published, so ask your health plan before starting.
+      2. Go to a **community health center** (FQHC) such as OneWorld or Charles Drew in Omaha. They charge on a sliding scale; ask whether a provider there prescribes hormones.
+      3. **Planned Parenthood North Central States** lists gender-affirming care at its Omaha and Lincoln health centers and runs a Nebraska telehealth center.
+      4. **Nebraska Medicine's Gender Care Clinic** in Omaha (UNMC) sees adults 19+ for primary and specialty gender care and surgery and can help with documents for gender marker changes.
+      5. **Telehealth**: Plume serves Nebraska. Point of Pride's HRT Access Fund pays for telehealth hormone care for some applicants each year.
+    es: |
+      La ley de Nebraska no restringe la atención de afirmación de género para adultos. En Nebraska la mayoría de edad es a los **19**, así que la ley de menores también cubre a quienes tienen 18.
+
+      **Si tienes poco dinero**, en orden aproximado:
+      1. Solicita **Medicaid de Nebraska** (Heritage Health). Adultos de 19 a 64 con bajos ingresos pueden calificar. La cobertura no está claramente publicada; pregunta a tu plan.
+      2. Acude a un **centro de salud comunitario** como OneWorld o Charles Drew en Omaha. Cobran en escala móvil; pregunta si recetan hormonas.
+      3. **Planned Parenthood North Central States** ofrece atención de afirmación de género en Omaha y Lincoln y tiene un centro de telesalud para Nebraska.
+      4. La **Clínica de Atención de Género de Nebraska Medicine** en Omaha atiende a adultos de 19+.
+      5. **Telesalud**: Plume atiende en Nebraska. El Fondo de Acceso a TRH de Point of Pride paga atención hormonal por telesalud a algunas personas cada año.
+  sources: [nebmed-gender, pp-omaha, pp-lincoln, medicaid-elig, hrsa]
+minor_care:
+  status: restricted
+  detail:
+    en: |
+      The **Let Them Grow Act** (Neb. Rev. Stat. 71-7301 to 71-7307, from LB 574, in effect since October 1, 2023) covers everyone **under 19**:
+
+      - **Surgery is banned.** Health care practitioners may not perform gender-altering surgery on anyone under 19.
+      - **Puberty blockers and hormones** are allowed only if given in compliance with regulations from the state's chief medical officer, which set minimum therapy hours, informed-consent and record-keeping rules, and a waiting period. Treatment that began before October 1, 2023 may continue.
+      - **Penalties**: a violation is "unprofessional conduct" that can lead to discipline of the provider's license. A patient or parent can sue within two years of discovering harm.
+      - **No state funds** may pay for procedures that violate the act.
+      - Exceptions exist for intersex conditions and for treating complications.
+
+      In practice, few Nebraska providers offer hormones to minors. Nebraska Medicine says it treats minors for behavioral health only. Nebraska has **no shield law**. Families often seek care in neighboring states; check that state's laws first.
+    es: |
+      La **Ley Let Them Grow** (Neb. Rev. Stat. 71-7301 a 71-7307, de LB 574, vigente desde el 1 de octubre de 2023) cubre a todas las personas **menores de 19**:
+
+      - **La cirugía está prohibida.**
+      - **Bloqueadores de pubertad y hormonas** solo se permiten cumpliendo las reglas del director médico del estado, que fijan horas mínimas de terapia, consentimiento informado, registros y un periodo de espera. Los tratamientos iniciados antes del 1 de octubre de 2023 pueden continuar.
+      - **Sanciones**: una violación es "conducta no profesional" que puede llevar a sanciones de licencia. El paciente o sus padres pueden demandar dentro de dos años.
+      - **No se pueden usar fondos estatales** para procedimientos que violen la ley.
+
+      En la práctica, pocos proveedores de Nebraska ofrecen hormonas a menores. Nebraska Medicine dice que solo atiende a menores en salud conductual. Nebraska **no tiene ley escudo**.
+  sources: [neb-71-7304, neb-71-7305, neb-71-7306, neb-71-7307, lb574, nebmed-gender]
+medicaid:
+  program_name: Nebraska Medicaid (Heritage Health)
+  covers_hrt: unclear
+  covers_surgery: unclear
+  detail:
+    en: No DHHS page states whether Medicaid covers gender-affirming hormones or surgery for adults. State funds may not pay for care to people under 19 that violates the Let Them Grow Act. Ask your Heritage Health plan for its written policy and request prior authorization in writing; if denied, appeal and contact the Trans Health Project for help.
+    es: Ninguna página del DHHS indica si Medicaid cubre hormonas o cirugía de afirmación de género para adultos. No se pueden usar fondos estatales para atención a menores de 19 que viole la ley. Pide a tu plan su política por escrito; si te niegan, apela y contacta al Trans Health Project.
+  how_to_apply_url: https://iserve.nebraska.gov/
+  sources: [medicaid-elig, neb-71-7306]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: Nebraska has no law barring private health plans from excluding gender-affirming care. Read your plan's exclusions. You can file a complaint with the Nebraska Department of Insurance about a denial of a covered benefit; self-funded employer plans are regulated federally.
+    es: Nebraska no tiene ley que prohíba a los planes privados excluir la atención de afirmación de género. Puedes presentar una queja ante el Departamento de Seguros de Nebraska por la negación de un beneficio cubierto.
+  complaint_url: https://doi.nebraska.gov/consumer/file-complaint
+  sources: [doi-complaint]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: nebraska-medicine-gender-care
+    name: Nebraska Medicine Gender Care Clinic (UNMC)
+    type: hrt_clinic
+    pillars: [hrt, mental_health, gender_marker]
+    description:
+      en: Academic medical center clinic following WPATH guidelines. Sees everyone 19 and older for gender care, including behavioral health, surgery, voice care, and documents for legal gender marker changes; minors for behavioral health only.
+      es: Clínica del centro médico académico que sigue las guías de WPATH. Atiende a personas de 19 años o más; a menores solo en salud conductual.
+    url: https://www.nebraskamed.com/transgender-care
+    phone: "402-559-4343"
+    address: 4350 Emile St., Omaha, NE 68105 (Diabetes and Endocrinology Center)
+    cost: insurance
+    telehealth: true
+    verification: org_website
+    sources: [nebmed-gender]
+  - id: pp-omaha
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, Omaha Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care, HIV services, and STI testing. Call to confirm hormone therapy availability and minimum age; under Nebraska law, patients under 19 face strict limits.
+      es: Ofrece atención de afirmación de género, servicios de VIH y pruebas de ITS. Llama para confirmar terapia hormonal y edad mínima.
+    url: https://www.plannedparenthood.org/health-center/nebraska/omaha/68134/centro-de-salud-omaha-2447-90720
+    phone: "877-859-0589"
+    address: 3105 N. 93rd St., Omaha, NE 68134
+    cost: sliding_scale
+    verification: org_website
+    sources: [pp-omaha]
+  - id: pp-lincoln
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, Lincoln Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care and STI testing. Call to confirm hormone therapy availability and minimum age.
+      es: Ofrece atención de afirmación de género y pruebas de ITS. Llama para confirmar.
+    url: https://www.plannedparenthood.org/health-center/nebraska/lincoln/68516/lincoln-health-center-4062-90720
+    phone: "877-859-0587"
+    address: 5631 S. 48th Street, Suite 100, Lincoln, NE 68516
+    cost: sliding_scale
+    verification: org_website
+    sources: [pp-lincoln]
+  - id: oneworld
+    name: OneWorld Community Health Centers
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Omaha federally qualified health center with a sliding fee scale, family medicine, STI and HIV testing, behavioral health, and pharmacy. Its website does not mention gender-affirming care; ask whether a provider prescribes hormones.
+      es: Centro de salud comunitario de Omaha con escala móvil, medicina familiar, pruebas de ITS y VIH, salud conductual y farmacia. Pregunta si recetan hormonas.
+    url: https://www.oneworldomaha.org/
+    phone: "402-734-4110"
+    address: 4920 S. 30th Street, Omaha, NE 68107
+    cost: sliding_scale
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [oneworld]
+  - id: nap
+    name: Nebraska AIDS Project
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Statewide HIV service organization offering HIV/STI testing, PrEP navigation, and case management, with offices in Omaha, Lincoln, Norfolk, and Kearney.
+      es: Organización estatal de VIH que ofrece pruebas de VIH/ITS, navegación de PrEP y manejo de casos.
+    url: https://www.nap.org/
+    phone: "402-552-9260"
+    cost: free
+    verification: org_website
+    sources: [nap]
+  - id: point-of-pride-hrt
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for a period of telehealth hormone care for selected applicants; application windows open once a year.
+      es: Fondo nacional que paga atención hormonal por telesalud a personas seleccionadas; abre solicitudes una vez al año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: trans-health-project
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Helps trans people appeal insurance and Medicaid denials for gender-affirming care.
+      es: Ayuda a apelar negaciones de seguros y Medicaid para atención de afirmación de género.
+    url: https://transequality.org/
+    cost: free
+    verification: unverified
+    sources: [a4te]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for sliding-scale community health centers across Nebraska.
+      es: Buscador federal de centros de salud comunitarios con escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: Neb. Rev. Stat. §§ 71-7301 to 71-7307 (Let Them Grow Act)
+    title:
+      en: Restrictions on gender-altering procedures for people under 19
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7304
+  - cite: LB 574 (2023)
+    title:
+      en: Enacted the Let Them Grow Act
+    url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB574.pdf
+sources:
+  - id: neb-71-7304
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7304
+    title: Neb. Rev. Stat. 71-7304, Gender-altering procedures; prohibited, when
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: a health care practitioner shall not perform gender-altering procedures in this state for an individual younger than nineteen years of age
+  - id: neb-71-7305
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7305
+    title: Neb. Rev. Stat. 71-7305, Nonsurgical gender-altering procedures; rules and regulations
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The minimum number of gender-identity-focused therapeutic hours required prior to an individual receiving puberty-blocking drugs, cross-sex hormones, or both
+  - id: neb-71-7306
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7306
+    title: Neb. Rev. Stat. 71-7306, State funds; use prohibited
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: neb-71-7307
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=71-7307
+    title: Neb. Rev. Stat. 71-7307, Civil action
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: lb574
+    url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB574.pdf
+    title: LB 574 (2023), slip law
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: nebmed-gender
+    url: https://www.nebraskamed.com/transgender-care
+    title: Gender Care Clinic
+    publisher: Nebraska Medicine
+    kind: org
+    accessed: "2026-09-24"
+    quote: Any minors will be treated for behavioral health issues. Everyone age 19 and older can be seen for any of the gender care services we offer.
+  - id: pp-omaha
+    url: https://www.plannedparenthood.org/health-center/nebraska/omaha/68134/centro-de-salud-omaha-2447-90720
+    title: Planned Parenthood Omaha Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-lincoln
+    url: https://www.plannedparenthood.org/health-center/nebraska/lincoln/68516/lincoln-health-center-4062-90720
+    title: Planned Parenthood Lincoln Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: oneworld
+    url: https://www.oneworldomaha.org/patient-services/family-internal-medicine/
+    title: Family and Internal Medicine
+    publisher: OneWorld Community Health Centers
+    kind: org
+    accessed: "2026-09-24"
+  - id: nap
+    url: https://www.nap.org/
+    title: Nebraska AIDS Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: medicaid-elig
+    url: https://dhhs.ne.gov/Pages/Medicaid-Eligibility.aspx
+    title: Medicaid Eligibility
+    publisher: Nebraska DHHS
+    kind: official
+    accessed: "2026-09-24"
+    quote: An adult aged 19 to 64
+  - id: doi-complaint
+    url: https://doi.nebraska.gov/consumer/file-complaint
+    title: File a Complaint
+    publisher: Nebraska Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te
+    url: https://transequality.org/
+    title: A4TE
+    kind: org
+    accessed: "2026-09-24"

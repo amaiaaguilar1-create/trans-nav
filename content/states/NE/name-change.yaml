@@ -1,0 +1,481 @@
+guide_type: name_change
+jurisdiction: NE
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from Neb. Rev. Stat. 25-21,270 to 25-21,273 (legislature site) and the Nebraska Judicial Branch
+    adult and child name change self-help pages (supremecourt.nebraska.gov now redirects to nebraskajudicial.gov; URLs
+    below use the new domain). KEY CHANGE: LB 596 (2026), effective July 18, 2026, amended 25-21,271 so publication is
+    now once a week for TWO consecutive weeks for everyone; the court self-help page already says two weeks. A4TE's
+    Nebraska page (fetched today, undated) still says four weeks for adults, which is out of date. The task brief's
+    "4 weeks" and "2 months residency" are wrong: the statute requires 1 year of residence in the county. Reviewer:
+    (1) confirm the $144 civil filing fee applies to name change petitions (taken from the court's filing-fee schedule,
+    civil category 1; A4TE says the fee varies by county); (2) certified-copy fee for the decree was not found, so no
+    amount is given; (3) typical newspaper publication cost in Douglas and Lancaster counties was not found; (4) there is
+    no statute or court rule for sealing a name change file, so sealing_available is false (the date of birth goes on a
+    confidential form only). No documented judicial hostility to trans petitioners was found, but judges have discretion
+    ("proper and reasonable cause"); ask local legal aid about current practice.
+status: available
+status_summary:
+  en: >-
+    Adults (19 and older) can change their name by petitioning the district court in the county where they have
+    lived for at least one year. A hearing is required, and notice must be published in a newspaper for two weeks
+    unless the judge waives it because publishing would put you in danger.
+  es: >-
+    Las personas adultas (19 años o más) pueden cambiar su nombre con una petición ante el tribunal de distrito del
+    condado donde han vivido al menos un año. Se requiere una audiencia, y el aviso debe publicarse en un periódico
+    durante dos semanas, a menos que el juez lo exima porque publicarlo te pondría en peligro.
+summary:
+  en: |
+    Nebraska name changes go through the **district court** in the county where you live. The Nebraska Judicial Branch publishes a free statewide packet of forms (the DC 6:9 series for adults). You file the petition, publish a legal notice in a local newspaper once a week for two weeks (or ask the judge to waive it for your safety), mail the notice to anyone with a legal interest, and then attend a short hearing where you testify about why you want the change. If the judge grants it, you get a signed **Decree of Name Change**.
+
+    In Nebraska you are an adult for this purpose at **19**. Younger people need a parent or guardian to file for them.
+
+    The court decides whether there is "proper and reasonable cause" for the change. Wanting a name that matches your gender identity is a legitimate reason; state it plainly on the petition.
+  es: |
+    En Nebraska, los cambios de nombre se tramitan en el **tribunal de distrito** del condado donde vives. El Poder Judicial de Nebraska publica un paquete gratuito de formularios (serie DC 6:9 para adultos). Presentas la petición, publicas un aviso legal en un periódico local una vez por semana durante dos semanas (o pides al juez que lo exima por tu seguridad), envías el aviso por correo a quien tenga interés legal y luego asistes a una audiencia breve donde explicas bajo juramento por qué quieres el cambio. Si el juez lo aprueba, recibes un **Decreto de Cambio de Nombre** firmado.
+
+    En Nebraska eres adulto para este trámite a los **19** años. Las personas menores necesitan que un padre, madre o tutor presente la petición.
+eligibility:
+  residency:
+    en: You must have been a bona fide resident of the county where you file for at least one year before filing.
+    es: Debes haber residido de buena fe en el condado donde presentas la petición durante al menos un año.
+  age:
+    en: 19 or older, or an emancipated or married minor. Otherwise a parent or guardian files for you (see Minors).
+    es: 19 años o más, o menor emancipado o casado. De lo contrario, un padre, madre o tutor presenta por ti.
+  criminal_history:
+    en: >-
+      A criminal record or incarceration does not by itself bar a name change (Nebraska courts have said being an
+      inmate is not a substantial reason to deny one). The clerk sends every name-change order to the State Patrol's
+      sex offender registration division and to DHHS.
+    es: >-
+      Tener antecedentes penales o estar en prisión no impide por sí solo un cambio de nombre. El secretario envía cada
+      orden de cambio de nombre a la división de registro de delincuentes sexuales de la Patrulla Estatal y al DHHS.
+  sources: [neb-25-21-271, court-adult-nc]
+forms:
+  - id: DC 6:9.1
+    name:
+      en: Petition for Name Change (Adult)
+      es: Petición de cambio de nombre (adulto)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-1.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Item 2: confirm you have lived in the county for more than one year.
+        - Item 6 ("reasons"): a short, honest reason is enough, for example "I am transgender and this is the name I use in every part of my life. I want my legal name to match." You do not need to describe medical treatment.
+        - The form requires an email address because self-represented people get court notices by email; check the box if you have none.
+        - Your date of birth goes on the separate confidential form (DC 6:9.4), not on the petition.
+      es: |
+        - Punto 2: confirma que has vivido en el condado más de un año.
+        - Punto 6 ("razones"): basta una razón breve y honesta, por ejemplo "Soy una persona trans y este es el nombre que uso en todos los aspectos de mi vida." No necesitas describir tratamientos médicos.
+        - El formulario pide un correo electrónico para recibir avisos del tribunal; marca la casilla si no tienes.
+        - Tu fecha de nacimiento va en el formulario confidencial (DC 6:9.4), no en la petición.
+    sources: [dc-6-9-1, court-adult-nc]
+  - id: DC 6:9.4
+    name:
+      en: Confidential Party Information, Adult Name Change
+      es: Información confidencial de la parte, cambio de nombre de adulto
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-4.pdf
+    required: always
+    sources: [court-adult-nc]
+  - id: DC 6:9.5
+    name:
+      en: Petitioner's Showing and Request for Waiver of Publication
+      es: Solicitud de exención de publicación
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-5.pdf
+    required: optional
+    condition:
+      en: File with your petition if publishing your old and new names in the newspaper would put you in danger.
+      es: Preséntalo con tu petición si publicar tus nombres en el periódico te pondría en peligro.
+    how_to_fill:
+      en: |
+        - Explain concretely why publication would endanger you: past harassment, threats, stalking, domestic violence, or the risk of being targeted as a trans person if your old and new names are printed together.
+        - The form asks you to list supporting documents (police reports, protection orders, screenshots of threats, letters from a counselor or advocate). You must give the court paper copies. You can check "I have no supporting documentation," but a request with documents is more likely to be granted.
+        - File it together with the petition. Bring the proposed order (DC 6:9.6) too.
+      es: |
+        - Explica concretamente por qué la publicación te pondría en peligro: acoso, amenazas, violencia doméstica o el riesgo de ser atacado como persona trans si se publican juntos tu nombre anterior y el nuevo.
+        - Enumera documentos de respaldo (denuncias, órdenes de protección, capturas de amenazas, cartas de un consejero). Debes entregar copias en papel.
+        - Preséntalo junto con la petición, con la orden propuesta (DC 6:9.6).
+    sources: [dc-6-9-5, court-adult-nc]
+  - id: DC 6:9.6
+    name:
+      en: Order Waiving Publication of Petition to File for Name Change (proposed order for the judge)
+      es: Orden que exime la publicación (orden propuesta para el juez)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-6.pdf
+    required: conditional
+    condition:
+      en: Only if you ask for a publication waiver.
+      es: Solo si pides la exención de publicación.
+    sources: [dc-6-9-6]
+  - id: DC 6:9.2
+    name:
+      en: Legal Notice for Publication (Adult Name Change)
+      es: Aviso legal para publicación (cambio de nombre de adulto)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-2-fillable.pdf
+    required: conditional
+    condition:
+      en: Required unless the judge waives publication.
+      es: Obligatorio salvo que el juez exima la publicación.
+    sources: [court-adult-nc]
+  - id: DC 6:6.8
+    name:
+      en: Affidavit of Mailing Published Notice (must be notarized)
+      es: Declaración jurada de envío por correo del aviso publicado (notariada)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-6-8.pdf
+    required: conditional
+    condition:
+      en: Required when you publish notice.
+      es: Obligatorio cuando publicas el aviso.
+    sources: [court-adult-nc]
+  - id: DC 6:9.3
+    name:
+      en: Decree of Name Change (bring two copies to the hearing)
+      es: Decreto de cambio de nombre (lleva dos copias a la audiencia)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-3-fillable.pdf
+    required: always
+    sources: [court-adult-nc]
+  - id: DC 6:7.1
+    name:
+      en: Affidavit and Application to Proceed In Forma Pauperis (fee waiver request)
+      es: Declaración y solicitud para proceder sin pago de costas (exención de tarifas)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-7-1.pdf
+    required: optional
+    condition:
+      en: If you cannot afford the filing fee and costs.
+      es: Si no puedes pagar la tarifa y las costas.
+    sources: [dc-6-7-1, neb-25-21-273]
+  - id: DC 6:7.2
+    name:
+      en: Order to Proceed In Forma Pauperis (proposed order)
+      es: Orden para proceder sin pago de costas (orden propuesta)
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-7-2.pdf
+    required: optional
+    condition:
+      en: File with DC 6:7.1.
+      es: Se presenta con DC 6:7.1.
+    sources: [dc-6-7-1]
+steps:
+  - id: prepare
+    title:
+      en: Fill out the petition and confidential information form
+      es: Llena la petición y el formulario de información confidencial
+    body:
+      en: Download the adult packet from the Nebraska Judicial Branch self-help page. Complete the Petition (DC 6:9.1) and the Confidential Party Information form (DC 6:9.4). If you need a fee waiver or a publication waiver, prepare those forms now too. The clerk cannot give legal advice, so use the instruction sheets or ask Legal Aid of Nebraska for help.
+      es: Descarga el paquete para adultos de la página de autoayuda del Poder Judicial de Nebraska. Llena la Petición (DC 6:9.1) y el formulario de Información Confidencial (DC 6:9.4). Si necesitas exención de tarifas o de publicación, prepara esos formularios también. El secretario no puede dar asesoría legal; usa las instrucciones o pide ayuda a Legal Aid of Nebraska.
+    forms: [DC 6:9.1, DC 6:9.4, DC 6:9.5, DC 6:9.6, DC 6:7.1, DC 6:7.2]
+    sources: [court-adult-nc]
+  - id: file
+    title:
+      en: File with the clerk of the district court
+      es: Presenta en la secretaría del tribunal de distrito
+    body:
+      en: Take the forms and the filing fee (about $144) to the clerk of the district court in your county, or file the fee waiver application instead of paying. You get a case number that goes on every later form.
+      es: Lleva los formularios y la tarifa (unos $144) a la secretaría del tribunal de distrito de tu condado, o presenta la solicitud de exención en lugar de pagar. Recibirás un número de caso que va en todos los formularios posteriores.
+    fees: [filing]
+    applies_to: [in_person]
+    sources: [court-adult-nc, court-fees]
+  - id: hearing-date
+    title:
+      en: Set a hearing date
+      es: Fija la fecha de audiencia
+    body:
+      en: Ask the clerk for the name and phone number of the judge's bailiff and call to schedule the hearing. If you are publishing, schedule it about six weeks after filing so there is time for two weeks of publication and the newspaper's proof.
+      es: Pide al secretario el nombre y teléfono del alguacil del juez y llama para programar la audiencia. Si vas a publicar, prográmala unas seis semanas después de presentar, para que haya tiempo de dos semanas de publicación y la constancia del periódico.
+    sources: [court-adult-nc]
+  - id: publish
+    title:
+      en: Publish the legal notice and mail copies (unless waived)
+      es: Publica el aviso legal y envía copias por correo (salvo exención)
+    body:
+      en: |
+        Fill out the Legal Notice (DC 6:9.2) with your hearing date and send it to a newspaper in your county. It must run once a week for two consecutive weeks; the newspaper files proof of publication with the court. Call first to ask the price.
+
+        Then mail a copy of the published notice to everyone who appears to have a legal interest (for example a spouse or creditors) and file the notarized Affidavit of Mailing (DC 6:6.8) before the hearing, within the deadline stated in the instructions.
+      es: |
+        Llena el Aviso Legal (DC 6:9.2) con tu fecha de audiencia y envíalo a un periódico de tu condado. Debe publicarse una vez por semana durante dos semanas consecutivas; el periódico presenta la constancia al tribunal. Llama antes para preguntar el precio.
+
+        Después envía por correo una copia del aviso publicado a quien parezca tener interés legal (por ejemplo, cónyuge o acreedores) y presenta la Declaración de Envío notariada (DC 6:6.8) antes de la audiencia.
+    forms: [DC 6:9.2, DC 6:6.8]
+    fees: [publication]
+    sources: [court-adult-nc, neb-25-21-271]
+  - id: attend
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: Bring two copies of the Decree of Name Change (DC 6:9.3) and photo ID. You will testify under oath that the facts in your petition are true and why you want the change. The instruction sheet "Your Adult Name Change Hearing" (DC 6:9a) lists the questions. If the judge grants the change, they sign the decree.
+      es: Lleva dos copias del Decreto (DC 6:9.3) e identificación con foto. Declararás bajo juramento que los datos de tu petición son ciertos y por qué quieres el cambio. La hoja de instrucciones DC 6:9a enumera las preguntas. Si el juez lo aprueba, firma el decreto.
+    forms: [DC 6:9.3]
+    sources: [court-adult-nc]
+  - id: copies
+    title:
+      en: Get certified copies of the decree
+      es: Obtén copias certificadas del decreto
+    body:
+      en: Ask the clerk for several certified copies (5 or more is common). You need a certified copy for Social Security, the DMV, your birth certificate, and your passport.
+      es: Pide al secretario varias copias certificadas (es común pedir 5 o más). Necesitas una para el Seguro Social, el DMV, tu acta de nacimiento y tu pasaporte.
+    fees: [certified-copies]
+    sources: [court-adult-nc, a4te-ne]
+fees:
+  - id: filing
+    label:
+      en: District court civil filing fee
+      es: Tarifa de presentación civil en el tribunal de distrito
+    amount: 144
+    waivable: true
+    note:
+      en: Total of statutory docket and add-on fees in the Judicial Branch's civil filing-fee schedule. Confirm with your clerk before filing.
+      es: Total de la tarifa y cargos adicionales en la tabla oficial de tarifas civiles. Confírmalo con la secretaría.
+    sources: [court-fees]
+  - id: publication
+    label:
+      en: Newspaper publication (two weeks)
+      es: Publicación en periódico (dos semanas)
+    varies_by: vendor
+    note:
+      en: Set by each newspaper. Call before filing and have the money ready. Not charged if the judge waives publication.
+      es: Lo fija cada periódico. Llama antes de presentar. No se cobra si el juez exime la publicación.
+    sources: [court-adult-nc]
+  - id: certified-copies
+    label:
+      en: Certified copies of the decree
+      es: Copias certificadas del decreto
+    varies_by: court
+    note:
+      en: Ask the clerk for the per-copy price.
+      es: Pregunta a la secretaría el precio por copia.
+    sources: [a4te-ne]
+fee_waiver:
+  available: true
+  forms: [DC 6:7.1, DC 6:7.2]
+  eligibility:
+    en: You must show the court, in a sworn affidavit, that you cannot afford the costs and have no other reasonable way to pay them. The affidavit asks about income, public benefits, and the number of people you support.
+    es: Debes demostrar al tribunal, en una declaración jurada, que no puedes pagar las costas y no tienes otra forma razonable de pagarlas.
+  how:
+    en: Bring the notarized Affidavit and Application (DC 6:7.1) and the proposed Order (DC 6:7.2) when you file and tell the clerk you are asking to waive fees. A judge decides. The statute allows name changes to proceed in forma pauperis (25-21,273). Ask whether an approved waiver also covers publication costs in your county.
+    es: Lleva la Declaración y Solicitud notariada (DC 6:7.1) y la Orden propuesta (DC 6:7.2) al presentar y di al secretario que pides exención. Decide un juez.
+  sources: [dc-6-7-1, neb-25-21-273]
+publication:
+  required: conditional
+  detail:
+    en: Notice of the petition must be published in a newspaper in your county once a week for two consecutive weeks (Neb. Rev. Stat. 25-21,271(2), as amended by LB 596, effective July 18, 2026; it was previously longer). There is no automatic exemption for gender-identity name changes.
+    es: El aviso debe publicarse en un periódico del condado una vez por semana durante dos semanas consecutivas (Neb. Rev. Stat. 25-21,271(2), modificado por LB 596, vigente desde el 18 de julio de 2026). No hay exención automática para cambios por identidad de género.
+  waiver_available: true
+  waiver_how:
+    en: File the Petitioner's Showing and Request for Waiver of Publication (DC 6:9.5) and proposed order (DC 6:9.6) with your petition. The judge may waive notice "upon a showing by the petitioner that such notice would endanger the petitioner." Attach paper copies of any evidence. The clerk will tell you the decision in writing or by email; if denied, you publish.
+    es: Presenta DC 6:9.5 y la orden propuesta DC 6:9.6 con tu petición. El juez puede eximir el aviso si demuestras que te pondría en peligro. Adjunta copias en papel de cualquier prueba. Si se niega, debes publicar.
+  sources: [neb-25-21-271, court-adult-nc, dc-6-9-5]
+hearing:
+  required: "yes"
+  detail:
+    en: The statute requires "proof in open court." You must attend and testify briefly under oath.
+    es: La ley exige prueba "en audiencia pública". Debes asistir y declarar brevemente bajo juramento.
+  sources: [neb-25-21-271, court-adult-nc]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. The clerk sends a copy of the name-change order to DHHS and to the Nebraska State Patrol's sex offender registration division.
+    es: No se requieren huellas ni verificación de antecedentes. El secretario envía copia de la orden al DHHS y a la división de registro de delincuentes sexuales de la Patrulla Estatal.
+  sources: [neb-25-21-271]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Nebraska has no statute for sealing a name change file. Your date of birth goes on a confidential form that is not part of the public file, and a publication waiver keeps the change out of the newspaper, but the court case itself is a public record.
+    es: Nebraska no tiene una ley para sellar un expediente de cambio de nombre. Tu fecha de nacimiento va en un formulario confidencial y la exención de publicación evita el periódico, pero el caso sigue siendo público.
+  sources: [court-adult-nc, neb-25-21-271]
+minors:
+  summary:
+    en: |
+      Anyone under 19 (unless emancipated or married) needs a parent or guardian to file in the district court of the county where the parent and child have lived for at least one year. The Judicial Branch's child packet (DC 6:11 series) can be used only when the other parent consents, will not contest, or cannot be found. The other parent signs a consent form; a noncustodial parent must be sent notice by certified mail within five days after publication. Publication (two weeks) and the danger-based waiver apply as for adults. The judge decides based on the child's best interests and may consider the child's own reasonable preference. If the other parent will object, talk to a lawyer first.
+    es: |
+      Menores de 19 años (salvo emancipados o casados) necesitan que un padre, madre o tutor presente en el tribunal de distrito del condado donde ambos han vivido al menos un año. El paquete para menores (serie DC 6:11) solo sirve si el otro padre consiente, no se opondrá o no puede ser localizado. Al padre sin custodia se le debe enviar aviso por correo certificado dentro de cinco días después de la publicación. El juez decide según el interés superior del menor. Si el otro padre se opondrá, consulta primero con un abogado.
+  sources: [court-child-nc, neb-25-21-271, neb-25-21-270]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File at the clerk of the district court in your county. Ask the clerk whether mail filing is accepted; you must attend the hearing in person unless the judge allows otherwise.
+    es: Presenta en la secretaría del tribunal de distrito de tu condado. Debes asistir a la audiencia en persona salvo que el juez permita otra cosa.
+  sources: [court-adult-nc]
+timeline:
+  en: About 6 weeks from filing to hearing if you publish; possibly sooner with a publication waiver. Then a few days to get certified copies.
+  es: Unas 6 semanas desde la presentación hasta la audiencia si publicas; posiblemente menos con exención. Luego unos días para obtener copias certificadas.
+after:
+  en: |
+    Update **Social Security** first (the DMV expects your SSA record to match). Then the **DMV** within 60 days of the decree, in person, with a certified copy ($16 for a replacement license; state ID cards are free for U.S. citizens). If you were born in Nebraska, send the decree to **DHHS Vital Records** with the Application for Amendment to change the name on your birth certificate. Then your **passport**, bank, employer, and voter registration.
+  es: |
+    Actualiza primero el **Seguro Social** (el DMV espera que tu registro de la SSA coincida). Luego el **DMV** dentro de 60 días del decreto, en persona, con una copia certificada ($16 por reemplazo de licencia; la identificación estatal es gratis para ciudadanos). Si naciste en Nebraska, envía el decreto a **Vital Records del DHHS** con la Solicitud de Enmienda para cambiar el nombre en tu acta. Después tu **pasaporte**, banco, empleador y registro de votante.
+tips:
+  - en: If you also want to change the sex on your Nebraska birth certificate, the law requires a court-ordered name change as well as a surgeon's affidavit, so keep a certified copy of your decree for that.
+    es: Si también quieres cambiar el sexo en tu acta de nacimiento de Nebraska, la ley exige una orden judicial de cambio de nombre además de una declaración del cirujano; guarda una copia certificada del decreto.
+  - en: Local rules differ by district court. Call the clerk before filing to ask about local forms, hearing scheduling, and mail filing.
+    es: Las reglas locales varían. Llama a la secretaría antes de presentar.
+  - en: Some attorneys offer limited scope representation (help with part of the case only), which costs less than full representation.
+    es: Algunos abogados ofrecen representación limitada (solo parte del caso), que cuesta menos.
+local_help:
+  - id: legal-aid-nebraska
+    name: Legal Aid of Nebraska
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide civil legal aid for low-income Nebraskans. Publishes a step-by-step name change guide and form links; apply online or through its AccessLine phone intake (no walk-ins).
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Publica una guía paso a paso de cambio de nombre; solicita en línea o por su línea telefónica AccessLine.
+    url: https://legalaidofnebraska.org/online-resources/name-change-resources.html
+    phone: "402-348-1069"
+    areas_served:
+      en: All 93 Nebraska counties
+      es: Los 93 condados de Nebraska
+    cost: free
+    verification: org_website
+    sources: [legal-aid-nc]
+  - id: aclu-nebraska
+    name: ACLU of Nebraska
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization that tracks LGBTQ rights in Nebraska. Use its online form to report discrimination or request legal help; it takes cases selectively.
+      es: Organización de libertades civiles que sigue los derechos LGBTQ en Nebraska. Usa su formulario en línea para reportar discriminación o pedir ayuda legal.
+    url: https://www.aclunebraska.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-ne]
+  - id: outnebraska
+    name: OutNebraska
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Statewide LGBTQ advocacy organization based in Lincoln. A4TE refers Nebraskans to OutNebraska's resource list for local help.
+      es: Organización estatal de defensa LGBTQ con sede en Lincoln. A4TE remite a su lista de recursos.
+    url: https://outnebraska.org/resources/
+    cost: free
+    verification: community_reported
+    sources: [a4te-ne]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [name_change, mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860. Has offered microgrants for name change and ID document costs when funding allows.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. Ha ofrecido microsubvenciones para costos de cambio de nombre y documentos cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [translifeline]
+statutes:
+  - cite: Neb. Rev. Stat. § 25-21,270
+    title:
+      en: District court authority to change names
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=25-21,270
+  - cite: Neb. Rev. Stat. § 25-21,271
+    title:
+      en: Petition, residency, publication, waiver, hearing
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=25-21,271
+  - cite: Neb. Rev. Stat. § 25-21,273
+    title:
+      en: Costs; in forma pauperis
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=25-21,273
+related_links:
+  - title: A4TE, Nebraska Identity Documents
+    url: https://transequality.org/documents/nebraska-identity-documents
+    note:
+      en: Useful overview, undated. Its adult publication period (four weeks) predates LB 596 (2026); the current requirement is two weeks.
+  - title: Legal Aid of Nebraska, Name Change Resources
+    url: https://legalaidofnebraska.org/online-resources/name-change-resources.html
+sources:
+  - id: neb-25-21-270
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=25-21,270
+    title: Neb. Rev. Stat. 25-21,270, Change of name; authority of district court
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The district court shall have authority to change the names of persons
+  - id: neb-25-21-271
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=25-21,271
+    title: Neb. Rev. Stat. 25-21,271, Change of name; persons; procedure
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The notice shall be published once a week for two consecutive weeks. ... The court may waive the notice requirement ... upon a showing by the petitioner that such notice would endanger the petitioner. (Laws 2026, LB596, effective July 18, 2026)
+  - id: neb-25-21-273
+    url: https://nebraskalegislature.gov/laws/statutes.php?statute=25-21,273
+    title: Neb. Rev. Stat. 25-21,273, Change of name; costs
+    publisher: Nebraska Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Unless the petitioner is allowed to proceed in forma pauperis ... all proceedings ... shall be at the cost of the petitioner
+  - id: court-adult-nc
+    url: https://nebraskajudicial.gov/self-help/name-change/adult-name-change
+    title: Adult Name Change (self-help)
+    publisher: Nebraska Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: Statute requires a Legal Notice of your Petition for Name Change must be published once a week for two (2) consecutive weeks in the newspaper
+  - id: court-child-nc
+    url: https://nebraskajudicial.gov/self-help/name-change/child-name-change
+    title: Child Name Change (self-help)
+    publisher: Nebraska Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: In Nebraska, a "minor" is a child who has not yet turned age 19.
+  - id: court-fees
+    url: https://nebraskajudicial.gov/rules/administrative-policies-schedules/filing-fees-and-court-costs
+    title: Filing Fees and Court Costs
+    publisher: Nebraska Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: District courts, civil, category 1, total 144.00
+  - id: dc-6-9-1
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-1.pdf
+    title: DC 6:9.1 Petition for Name Change (Adult), Rev. 08/2023
+    publisher: Nebraska Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: dc-6-9-5
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-5.pdf
+    title: DC 6:9.5 Petitioner's Showing and Request for Waiver of Publication
+    publisher: Nebraska Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: I believe publishing the notice of Name Change would endanger myself or the party(ies) for whom I have filed the petition because
+  - id: dc-6-9-6
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-9-6.pdf
+    title: DC 6:9.6 Order Waiving Publication of Petition to File for Name Change
+    publisher: Nebraska Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: dc-6-7-1
+    url: https://nebraskajudicial.gov/sites/default/files/DC-6-7-1.pdf
+    title: DC 6:7.1 Affidavit and Application to Proceed In Forma Pauperis, Rev. 03/2025
+    publisher: Nebraska Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: a4te-ne
+    url: https://transequality.org/documents/nebraska-identity-documents
+    title: Nebraska Identity Documents
+    publisher: A4TE
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-aid-nc
+    url: https://legalaidofnebraska.org/online-resources/name-change-resources.html
+    title: Name Change Resources
+    publisher: Legal Aid of Nebraska
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-ne
+    url: https://www.aclunebraska.org/get-help/
+    title: Get Help
+    publisher: ACLU of Nebraska
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
