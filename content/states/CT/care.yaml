@@ -1,0 +1,407 @@
+jurisdiction: CT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read 2026-09-24 on cga.ct.gov (§§ 52-571m, 52-571n, 54-155b; P.A. 23-204 § 309; P.A. 25-154 bill
+    status page), CID Bulletin IC-37/IC-34, the HUSKY Health Gender Affirmation Surgery policy (updated Aug 2025,
+    DSS-approved Sept 23, 2025), and the Federal Register abstract of CMS final rule 2026-16508. Items to verify:
+    (1) HUSKY hormone coverage for adults is inferred (pharmacy benefit; surgery policy requires hormone use, and
+    P.A. 23-204 § 309 directs DSS gender-affirming coverage policy); no standalone DSS hormone policy was found.
+    (2) Whether Connecticut will use state-only funds to keep paying for youth care after the CMS rule takes effect
+    October 13, 2026, and whether any lawsuit has stayed the rule; none found. (3) Yale New Haven Health (July 2025)
+    and Connecticut Children's (July 2025; DOJ settlement August 2026) stopped youth medication treatment, per CT
+    Mirror; confirm current status of other youth prescribers. (4) HB 7135 (2025 telehealth shield expansion) was
+    tabled in the House and did not become law as a standalone bill. HUSKY/huskyhealthct.org and DSS pages beyond
+    the surgery policy were not found; Hartford and New Haven health department pages returned 403.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected for adults and minors in Connecticut, and a 2022 shield law protects
+    patients and providers from other states' bans. HUSKY Health (Medicaid) covers hormones and surgery for adults,
+    and state insurance rules bar exclusions. Care for people under 18 is harder to find since the two largest
+    pediatric programs stopped prescribing in 2025, and a federal rule bars HUSKY from paying for youth care starting
+    October 13, 2026.
+  es: >-
+    La atención de afirmación de género es legal y está protegida para adultos y menores en Connecticut, y una ley
+    escudo de 2022 protege a pacientes y proveedores de las prohibiciones de otros estados. HUSKY Health (Medicaid)
+    cubre hormonas y cirugía para adultos, y las normas estatales de seguros prohíben exclusiones. La atención para
+    menores de 18 es más difícil de encontrar desde que los dos principales programas pediátricos dejaron de recetar
+    en 2025, y una regla federal prohíbe que HUSKY pague la atención de jóvenes a partir del 13 de octubre de 2026.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restrictions. Planned Parenthood of Southern New England and Anchor Health prescribe hormones on an **informed consent** basis, with no therapist letter required, in person or by telehealth. Connecticut also bars health care providers from discriminating based on gender identity or expression (Public Act 25-154, 2025).
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **HUSKY Health** (free for low-income adults; see below). It covers hormones, labs, and surgery.
+      2. **Planned Parenthood of Southern New England** has a sliding fee scale and an insurance enrollment navigator; hormone care starts in person or by telehealth (18 and older).
+      3. A **community health center** charges on a sliding scale; find one at findahealthcenter.hrsa.gov.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care (applications each May).
+    es: |
+      Sin restricciones estatales. Planned Parenthood of Southern New England y Anchor Health recetan hormonas mediante **consentimiento informado**, sin carta de terapeuta, en persona o por telesalud. Connecticut también prohíbe que los proveedores de salud discriminen por identidad o expresión de género (Ley 25-154, 2025).
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **HUSKY Health** (gratis para adultos de bajos ingresos). Cubre hormonas, laboratorios y cirugía.
+      2. **Planned Parenthood of Southern New England** tiene escala móvil y una navegadora de inscripción; la atención hormonal empieza en persona o por telesalud (18 años o más).
+      3. Un **centro de salud comunitario** cobra en escala móvil; búscalo en findahealthcenter.hrsa.gov.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes cada mayo).
+  sources: [ppsne-gac, anchor-gam, pa-25-154, hrsa, pop-hrt]
+minor_care:
+  status: available
+  detail:
+    en: |
+      **Legal in Connecticut, but access is limited.** No state law restricts care for minors, and the shield law protects families and providers from out-of-state investigations and judgments. However:
+      - **Yale New Haven Health** stopped medication treatment (puberty blockers and hormones) for patients under 19 in July 2025; its Gender Program still offers evaluation and mental health care.
+      - **Connecticut Children's** closed its gender program in July 2025 and in August 2026 signed an agreement with the U.S. Department of Justice committing not to provide gender-affirming medications to minors.
+      - **Planned Parenthood of Southern New England** prescribes only to patients 18 and older, but its care navigator helps under-18 patients find pediatric providers.
+      - Starting **October 13, 2026**, a federal CMS rule bars HUSKY A (Medicaid, under 18) and HUSKY B (CHIP, under 19) from paying for puberty blockers, hormones, or surgery for young people. Youth already on hormones can keep HUSKY coverage for those medications for up to 6 months. Private insurance is not affected by this rule.
+
+      Some independent and community providers still treat minors with parental consent; ask Anchor Health, your pediatrician, or GLAD Law Answers for current referrals.
+    es: |
+      **Legal en Connecticut, pero con acceso limitado.** Ninguna ley estatal restringe la atención a menores, y la ley escudo protege a familias y proveedores de investigaciones y sentencias de otros estados. Sin embargo:
+      - **Yale New Haven Health** dejó de dar tratamiento con medicamentos (bloqueadores y hormonas) a menores de 19 años en julio de 2025; su Programa de Género sigue ofreciendo evaluación y salud mental.
+      - **Connecticut Children's** cerró su programa en julio de 2025 y en agosto de 2026 firmó un acuerdo con el Departamento de Justicia federal comprometiéndose a no dar medicamentos de afirmación de género a menores.
+      - **Planned Parenthood of Southern New England** receta solo a mayores de 18, pero su navegadora ayuda a menores a encontrar proveedores pediátricos.
+      - Desde el **13 de octubre de 2026**, una regla federal de CMS prohíbe que HUSKY A (menores de 18) y HUSKY B (menores de 19) paguen bloqueadores, hormonas o cirugía para jóvenes. Quienes ya toman hormonas pueden mantener la cobertura de esos medicamentos hasta 6 meses. El seguro privado no se ve afectado.
+
+      Algunos proveedores independientes y comunitarios todavía atienden a menores con consentimiento de los padres; pide referencias actuales a Anchor Health, a tu pediatra o a GLAD Law Answers.
+  sources: [cgs-52-571n, cgs-54-155b, ctmirror-yale, ctmirror-ccmc-2026, yale-gender, ppsne-gac, fr-cms-rule]
+medicaid:
+  program_name: HUSKY Health
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      HUSKY Health covers gender-affirming care for adults. Its Gender Affirmation Surgery policy (updated August 2025) covers chest, genital, pelvic, facial, thyroid cartilage, and voice surgery and hair removal when criteria are met, with **one referral letter** from a treating provider (a mental health professional, primary care provider, or endocrinologist), prior authorization, and hormone therapy unless not wanted or not advised. Hormones and labs are covered through the regular medical and pharmacy benefits. State law (P.A. 23-204 § 309) requires DSS to consult with gender-affirming care experts when updating HUSKY coverage.
+
+      **Youth (under 18 on HUSKY A, under 19 on HUSKY B)**: from October 13, 2026, a federal rule bars HUSKY from paying for gender-affirming medications and surgery; current hormone users get up to six months of continued coverage.
+
+      **Apply** through Access Health CT (accesshealthct.com) or DSS. If you earn too much for HUSKY, the Covered Connecticut Program may offer free coverage.
+    es: |
+      HUSKY Health cubre la atención de afirmación de género para adultos. Su política de cirugía (actualizada en agosto de 2025) cubre cirugía de pecho, genital, pélvica, facial, de cartílago tiroideo y de voz, y depilación cuando se cumplen los criterios, con **una carta de referencia** de un proveedor tratante, autorización previa y terapia hormonal salvo que no se desee o no se recomiende. Las hormonas y análisis se cubren con los beneficios médicos y de farmacia habituales.
+
+      **Jóvenes (menores de 18 en HUSKY A, menores de 19 en HUSKY B)**: desde el 13 de octubre de 2026, una regla federal prohíbe que HUSKY pague medicamentos y cirugía de afirmación de género; quienes ya toman hormonas tienen hasta seis meses de cobertura continua.
+
+      **Solicita** en Access Health CT (accesshealthct.com) o en DSS. Si ganas demasiado para HUSKY, el Covered Connecticut Program podría ofrecer cobertura gratuita.
+  how_to_apply_url: https://www.accesshealthct.com/
+  sources: [husky-surgery-policy, pa-23-204, fr-cms-rule, husky-portal]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      The Connecticut Insurance Department's bulletin on gender identity nondiscrimination (IC-37, renumbered IC-34) says state-regulated health plans may not treat medically necessary care for gender dysphoria differently from other care, and that refusing to pay for it is an unfair claim settlement practice. If your plan denies care, appeal with the plan first, then file a complaint with the Insurance Department. The **Office of the Healthcare Advocate** helps with appeals for free. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates.
+    es: |
+      El boletín del Departamento de Seguros de Connecticut sobre no discriminación por identidad de género (IC-37, renumerado IC-34) indica que los planes regulados por el estado no pueden tratar la atención médicamente necesaria para la disforia de género de forma distinta a otra atención, y que negarse a pagarla es una práctica desleal. Si tu plan niega la atención, apela primero ante el plan y luego presenta una queja ante el Departamento de Seguros. La **Oficina del Defensor de la Salud** (Office of the Healthcare Advocate) ayuda gratis con apelaciones.
+  complaint_url: https://portal.ct.gov/cid/file-a-complaint
+  sources: [cid-ic37, cid-complaint, oha]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: anchor-health
+    name: Anchor Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: LGBTQ health center with gender-affirming hormone care ("no gatekeeping", including nonbinary and microdosing regimens), PrEP, HIV care, and surgical navigation. Hamden (2200 Whitney Ave) and Stamford (30 Myano Ln, with pharmacy), plus video visits. 203-903-8308.
+      es: Centro de salud LGBTQ con atención hormonal de afirmación de género ("sin barreras", incluidos regímenes no binarios y microdosis), PrEP, atención de VIH y navegación quirúrgica. Hamden (2200 Whitney Ave) y Stamford (30 Myano Ln, con farmacia), además de video. 203-903-8308.
+    url: https://anchorhealthct.org/gam/
+    phone: "203-903-8308"
+    address: 2200 Whitney Ave, Ste 290, Hamden, CT 06518
+    telehealth: true
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [anchor-gam, anchor-locations]
+  - id: ppsne
+    org: planned-parenthood
+    name: Planned Parenthood of Southern New England
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, gender_marker]
+    description:
+      en: Informed-consent hormone therapy for adults 18 and older at Connecticut health centers or by telehealth, with lab monitoring, support letters for birth certificate changes and surgery, and a patient navigator. Sliding fee scale; insurance enrollment help. 1-800-230-7526.
+      es: Terapia hormonal por consentimiento informado para adultos de 18 años o más en centros de Connecticut o por telesalud, con análisis, cartas de apoyo para actas de nacimiento y cirugía, y una navegadora. Escala móvil; ayuda para inscribirse en seguros. 1-800-230-7526.
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    phone: "800-230-7526"
+    telehealth: true
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [ppsne-gac, ppsne-home]
+  - id: hhc-center-gender-health
+    name: Hartford HealthCare Center for Gender Health
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Adult program in Hartford (near Hartford Hospital and the Institute of Living) and Avon with endocrinology, gynecology, plastic surgery, primary care, and behavioral health; gender-affirming gynecology clinic in West Hartford.
+      es: Programa para adultos en Hartford (cerca de Hartford Hospital y el Institute of Living) y Avon con endocrinología, ginecología, cirugía plástica, atención primaria y salud conductual.
+    url: https://www.hartfordhealthcare.org/services/gender-health
+    cost: insurance
+    verification: org_website
+    sources: [hhc-gender]
+  - id: yale-gender-program
+    name: Yale Medicine Gender Program (children, adolescents, young adults)
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Multidisciplinary evaluation and mental health support for young people exploring gender and their families, 1 Long Wharf Drive, New Haven; 203-785-4081. Stopped prescribing blockers and hormones to patients under 19 in July 2025.
+      es: Evaluación multidisciplinaria y apoyo de salud mental para jóvenes que exploran su género y sus familias, 1 Long Wharf Drive, New Haven; 203-785-4081. Dejó de recetar bloqueadores y hormonas a menores de 19 años en julio de 2025.
+    url: https://www.yalemedicine.org/departments/gender-program
+    phone: "203-785-4081"
+    address: 1 Long Wharf Drive, Fl 2, New Haven, CT 06511
+    cost: insurance
+    verification: org_website
+    sources: [yale-gender, ctmirror-yale]
+  - id: triangle-community-center
+    name: Triangle Community Center
+    type: lgbtq_center
+    pillars: [mental_health, insurance]
+    description:
+      en: LGBTQIA+ community center in Norwalk with care coordination, brief counseling, groups, and programs. Care coordination and counseling currently have a waiting list.
+      es: Centro comunitario LGBTQIA+ en Norwalk con coordinación de cuidados, consejería breve, grupos y programas. La coordinación y la consejería tienen lista de espera.
+    url: https://ctpridecenter.org/
+    address: 650 West Ave, Ste 2, Norwalk, CT 06850
+    cost: free
+    verification: org_website
+    sources: [tcc, qplus]
+  - id: oha
+    name: Connecticut Office of the Healthcare Advocate
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: State agency that helps consumers with health insurance denials and appeals for free, including gender-affirming care.
+      es: Agencia estatal que ayuda gratis a consumidores con negaciones y apelaciones de seguros de salud, incluida la atención de afirmación de género.
+    url: https://portal.ct.gov/oha
+    cost: free
+    verification: official_source
+    sources: [oha]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios que cobran en escala móvil sin importar el seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-ct
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds including the HRT Access Fund (free telehealth hormone therapy; applications each May) and an annual surgery fund.
+      es: Fondos nacionales, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis; solicitudes cada mayo) y un fondo anual de cirugía.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-ct
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and other transition costs, including hormones and name change costs; 18 and older.
+      es: Pequeñas becas para cirugía y otros costos de transición, incluidos hormonas y costos de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including employer self-funded plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Conn. Gen. Stat. § 52-571n
+    title:
+      en: Shield law; counter-suit for out-of-state judgments over gender-affirming care (P.A. 22-118)
+    url: https://www.cga.ct.gov/current/pub/chap_925.htm#sec_52-571n
+  - cite: Conn. Gen. Stat. § 54-155b
+    title:
+      en: No state resources for interstate investigations of legal gender-affirming care
+    url: https://www.cga.ct.gov/current/pub/chap_962.htm#sec_54-155b
+  - cite: P.A. 25-154 (2025)
+    title:
+      en: Prohibits discrimination by health care providers, including based on gender identity or expression
+    url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Public+Act&which_year=2025&bill_num=154
+  - cite: P.A. 23-204 § 309 (2023)
+    title:
+      en: DSS must consult gender-affirming care experts on HUSKY coverage policy
+    url: https://www.cga.ct.gov/2023/ACT/PA/PDF/2023PA-00204-R00HB-06941-PA.PDF
+  - cite: 42 CFR (CMS final rule 2026-16508)
+    title:
+      en: Federal ban on Medicaid and CHIP payment for gender-affirming care for minors, effective October 13, 2026
+    url: https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for
+sources:
+  - id: cgs-52-571n
+    url: https://www.cga.ct.gov/current/pub/chap_925.htm#sec_52-571n
+    title: Conn. Gen. Stat. § 52-571n
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: cgs-54-155b
+    url: https://www.cga.ct.gov/current/pub/chap_962.htm#sec_54-155b
+    title: Conn. Gen. Stat. § 54-155b
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No public agency ... may provide any information or expend or use time, money, facilities ... in furtherance of any interstate investigation or proceeding seeking to impose civil or criminal liability upon a person or entity for the provision, seeking or receipt of ... gender-affirming health care services
+  - id: pa-25-154
+    url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Public+Act&which_year=2025&bill_num=154
+    title: SB 1380 (2025), Public Act 25-154, An Act Prohibiting Discrimination by Health Care Providers
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: 7/8/2025 Signed by the Governor
+  - id: pa-23-204
+    url: https://www.cga.ct.gov/2023/ACT/PA/PDF/2023PA-00204-R00HB-06941-PA.PDF
+    title: Public Act 23-204, § 309
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The Department of Social Services or its agent shall consult with health care providers with expertise regarding gender-affirming care in developing and updating coverage policy for gender-affirming care in the HUSKY Health program.
+  - id: husky-surgery-policy
+    url: https://www.huskyhealthct.org/providers/provider_postings/policies_procedures/Gender_Affirmation_Surgery.pdf
+    title: Gender Affirmation Surgery, HUSKY Health provider policy (updated August 2025)
+    publisher: HUSKY Health / Connecticut Department of Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Gender affirming pelvic/gonadal, genital, and chest surgery (mastectomy/augmentation) is considered medically necessary when all of the following criteria are met
+  - id: husky-portal
+    url: https://portal.ct.gov/husky
+    title: HUSKY Health
+    publisher: Connecticut Department of Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: fr-cms-rule
+    url: https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for
+    title: Medicaid Program; Prohibition on Federal Medicaid and CHIP Funding for Sex-Rejecting Procedures Furnished to Children (final rule)
+    publisher: Centers for Medicare and Medicaid Services, Federal Register
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: For Medicaid and CHIP beneficiaries who are actively receiving cross-sex hormone therapy, State Medicaid and CHIP agencies may continue to claim Federal Financial Participation for those hormone therapy medications for a period of up to 6 months from the effective date of this final rule.
+  - id: cid-ic37
+    url: https://portal.ct.gov/cid/-/media/cid/bulletinic37genderidentitynondiscriminationrequirementspdf.pdf
+    title: Bulletin IC-37 (renumbered IC-34), Gender Identity Nondiscrimination Requirements
+    publisher: Connecticut Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: the Department finds a refusal by an insurer to pay for medically necessary treatment of gender dysphoria to be an unfair claim settlement practice
+  - id: cid-complaint
+    url: https://portal.ct.gov/cid/file-a-complaint
+    title: File a Complaint
+    publisher: Connecticut Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: oha
+    url: https://portal.ct.gov/oha
+    title: Office of the Healthcare Advocate
+    publisher: State of Connecticut
+    kind: official
+    accessed: "2026-09-24"
+  - id: ppsne-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: PPSNE isn't currently able to offer GAHT for patients under 18. However, our Care Navigator is happy to work with you to identify pediatric providers.
+  - id: ppsne-home
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england
+    title: Planned Parenthood of Southern New England
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+  - id: anchor-gam
+    url: https://anchorhealthct.org/gam/
+    title: Gender-affirming medicine
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Hormone administration and monitoring for binary and nonbinary affirmations
+  - id: anchor-locations
+    url: https://anchorhealthct.org/locations-hours/
+    title: Locations and hours
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-gender
+    url: https://www.hartfordhealthcare.org/services/gender-health
+    title: Center for Gender Health
+    publisher: Hartford HealthCare
+    kind: org
+    accessed: "2026-09-24"
+    quote: Comprehensive, compassionate healthcare services for gender-diverse adults.
+  - id: yale-gender
+    url: https://www.yalemedicine.org/departments/gender-program
+    title: Gender Program
+    publisher: Yale Medicine
+    kind: org
+    accessed: "2026-09-24"
+  - id: ctmirror-yale
+    url: https://ctmirror.org/2025/07/24/yale-new-haven-health-youth-gender-affirming-care/
+    title: Yale New Haven Health to cut youth gender-affirming care services
+    publisher: CT Mirror
+    kind: news
+    accessed: "2026-09-24"
+    quote: Yale New Haven Health will no longer provide medication treatment as part of its gender-affirming care services for patients under 19
+  - id: ctmirror-ccmc-2026
+    url: https://ctmirror.org/2026/09/02/lawmakers-subpoena-connecticut-childrens-gender-affirming-care-trump/
+    title: Lawmakers could subpoena CT Children's over gender care deal with Trump
+    publisher: CT Mirror
+    kind: news
+    accessed: "2026-09-24"
+    quote: The deal included a "commitment" to stop providing gender-affirming care to minors, including hormones and puberty blockers
+  - id: tcc
+    url: https://ctpridecenter.org/
+    title: Triangle Community Center
+    publisher: Triangle Community Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Triangle Community Center's Care Coordination and Brief Solutions-Focused Counseling programs are operating with a waiting list for new clients.
+  - id: qplus
+    url: https://www.qplusct.org/
+    title: Q Plus
+    publisher: Q Plus
+    kind: org
+    accessed: "2026-09-24"
+    quote: Triangle Community Center, 650 West Ave Ste 2, Norwalk, CT 06850
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,348 @@
+jurisdiction: CT
+slug: hartford
+name: Hartford and New Haven
+area:
+  en: Greater Hartford (Hartford County) and Greater New Haven (New Haven County)
+  es: Gran Hartford (condado de Hartford) y Gran New Haven (condado de New Haven)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from ctprobate.gov court pages 2026-09-24. Resources from org websites the same day. Not listed
+    because they could not be verified: Hartford Gay & Lesbian Health Collective (hglhc.org returns "site not found"),
+    Connecticut TransAdvocacy Coalition (domain does not resolve), Charter Oak Health Center (site did not load),
+    Hartford and New Haven health department STI clinics (pages returned 403). Greater Hartford Legal Aid's site
+    blocks automated access; its existence and mission were confirmed via a fetch tool but not its intake details.
+    New Haven Pride Center closed in February 2026 and reopened in April 2026 with limited staff; confirm current
+    programs. Planned Parenthood street addresses were not extracted; phone numbers are from the health center pages.
+intro:
+  en: >-
+    Connecticut's two largest metros are about 40 miles apart and share many services. Name changes are filed in the
+    Probate Court for the town where you live, with no filing fee: Hartford residents go to the Hartford Probate Court
+    and New Haven residents to the New Haven Probate Court. Informed-consent hormone care is available from Planned
+    Parenthood health centers in both cities and from Anchor Health in Hamden, just north of New Haven.
+  es: >-
+    Las dos áreas metropolitanas más grandes de Connecticut están a unas 40 millas y comparten muchos servicios. Los
+    cambios de nombre se presentan en el Tribunal de Sucesiones del pueblo donde vives, sin tarifa: los residentes de
+    Hartford van al Hartford Probate Court y los de New Haven al New Haven Probate Court. Hay atención hormonal por
+    consentimiento informado en los centros de Planned Parenthood de ambas ciudades y en Anchor Health en Hamden, al
+    norte de New Haven.
+court:
+  name: Hartford Probate Court (District PD-01)
+  url: https://www.ctprobate.gov/courts/hartford-probate-court
+  self_help_url: https://www.ctprobate.gov/other-matters/name-changes
+  filing_fee: 0
+  notes:
+    en: |
+      **Hartford Probate Court**: 250 Constitution Plaza, 3rd Floor, Hartford, CT 06103; (860) 757-9150; Mon to Fri 8:30 to 4:30. Serves the city of Hartford only.
+
+      **New Haven Probate Court** (PD-38): 200 Orange Street, 1st Floor, New Haven, CT 06510; (203) 946-4880; Mon to Fri 9:00 to 5:00. Serves the city of New Haven only.
+
+      Suburbs (West Hartford, East Hartford, Hamden, and others) have their own probate districts; use the court locator at ctprobate.gov.
+    es: |
+      **Hartford Probate Court**: 250 Constitution Plaza, 3er piso, Hartford, CT 06103; (860) 757-9150; lunes a viernes 8:30 a 4:30. Atiende solo a la ciudad de Hartford.
+
+      **New Haven Probate Court** (PD-38): 200 Orange Street, 1er piso, New Haven, CT 06510; (203) 946-4880; lunes a viernes 9:00 a 5:00. Atiende solo a la ciudad de New Haven.
+
+      Los suburbios (West Hartford, East Hartford, Hamden y otros) tienen sus propios distritos; usa el localizador en ctprobate.gov.
+  sources: [hartford-probate, new-haven-probate, probate-name-changes]
+resources:
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project and GLAD Law Answers
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help with name and gender marker changes on Connecticut and federal documents; free legal information line 800-455-GLAD.
+      es: Ayuda gratuita con cambios de nombre y marcador de género en documentos de Connecticut y federales; línea gratuita 800-455-GLAD.
+    url: https://www.gladlaw.org/ct-id
+    phone: "800-455-4523"
+    areas_served:
+      en: Statewide (New England)
+      es: Todo el estado (Nueva Inglaterra)
+    cost: free
+    verification: org_website
+    sources: [glad-ct-id]
+  - id: ghla
+    name: Greater Hartford Legal Aid
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal help for low-income people in the Hartford area, including benefits and health coverage problems. Apply through CTLawHelp or the Statewide Legal Services hotline (800-453-3320).
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en el área de Hartford, incluidos problemas de beneficios y cobertura de salud. Solicita a través de CTLawHelp o la línea de Statewide Legal Services (800-453-3320).
+    url: https://www.ghla.org/
+    cost: free
+    verification: unverified
+    sources: [ghla, slsct]
+  - id: nhlaa
+    name: New Haven Legal Assistance Association
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal services for low-income residents of New Haven County and the Lower Naugatuck Valley.
+      es: Servicios legales civiles gratuitos para residentes de bajos ingresos del condado de New Haven y el Lower Naugatuck Valley.
+    url: https://nhlegal.org/
+    phone: "203-946-4811"
+    address: 205 Orange Street, New Haven, CT 06510
+    cost: free
+    verification: org_website
+    sources: [nhlaa]
+  - id: ppsne-hartford
+    org: planned-parenthood
+    name: Planned Parenthood, Hartford North Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy (18 and older), STI testing, and PrEP. Sliding fee scale. (860) 728-0203; appointments 1-800-230-7526.
+      es: Terapia hormonal por consentimiento informado (18 años o más), pruebas de ITS y PrEP. Escala móvil. (860) 728-0203; citas 1-800-230-7526.
+    url: https://www.plannedparenthood.org/health-center/connecticut/hartford/06112/hartford-north-center-2220-90220
+    phone: "860-728-0203"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [pp-hartford, ppsne-gac]
+  - id: ppsne-new-haven
+    org: planned-parenthood
+    name: Planned Parenthood, New Haven Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy (18 and older), STI testing, and PrEP. Sliding fee scale. (203) 503-0450; appointments 1-800-230-7526.
+      es: Terapia hormonal por consentimiento informado (18 años o más), pruebas de ITS y PrEP. Escala móvil. (203) 503-0450; citas 1-800-230-7526.
+    url: https://www.plannedparenthood.org/health-center/connecticut/new-haven/06511/new-haven-center-3271-90220
+    phone: "203-503-0450"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [pp-new-haven, ppsne-gac]
+  - id: anchor-health-hamden
+    name: Anchor Health, Hamden Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, name_change, gender_marker]
+    description:
+      en: LGBTQ health center with gender-affirming hormone care, PrEP (most patients pay $0), sexual health, HIV care, and case managers for name and ID changes. On the New Haven bus line; HUSKY members can get free rides. Mon to Fri 8 am to 6 pm.
+      es: Centro de salud LGBTQ con atención hormonal de afirmación de género, PrEP (la mayoría paga $0), salud sexual, atención de VIH y gestores de casos para cambios de nombre y documentos. En la ruta de autobús de New Haven; miembros de HUSKY pueden tener transporte gratis.
+    url: https://anchorhealthct.org/
+    phone: "203-903-8308"
+    address: 2200 Whitney Ave, Ste 290, Hamden, CT 06518
+    telehealth: true
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [anchor-home, anchor-locations]
+  - id: hhc-center-gender-health
+    name: Hartford HealthCare Center for Gender Health
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Adult gender health program near Hartford Hospital and the Institute of Living (and in Avon) with endocrinology, gynecology, surgery, primary care, and behavioral health.
+      es: Programa de salud de género para adultos cerca de Hartford Hospital y el Institute of Living (y en Avon) con endocrinología, ginecología, cirugía, atención primaria y salud conductual.
+    url: https://www.hartfordhealthcare.org/services/gender-health
+    cost: insurance
+    verification: org_website
+    sources: [hhc-gender]
+  - id: fair-haven-chc
+    name: Fair Haven Community Health Care
+    type: primary_care
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Federally qualified community health center in New Haven with multilingual staff, primary care, and HIV services. Ask whether a clinician at your site provides hormone therapy. 203-777-7411.
+      es: Centro de salud comunitario federal en New Haven con personal multilingüe, atención primaria y servicios de VIH. Pregunta si algún clínico de tu sede ofrece terapia hormonal. 203-777-7411.
+    url: https://www.fhchc.org/
+    phone: "203-777-7411"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [fhchc]
+  - id: apnh
+    name: APNH (AIDS Project New Haven)
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: Free and confidential STI testing (appointments or walk-in hours), plus support and affinity groups in Greater New Haven.
+      es: Pruebas de ITS gratuitas y confidenciales (con cita o sin cita en horario), además de grupos de apoyo y afinidad en Gran New Haven.
+    url: https://www.apnh.org/
+    cost: free
+    verification: org_website
+    sources: [apnh]
+  - id: yale-gender-program
+    name: Yale Medicine Gender Program
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Evaluation and mental health support for children, adolescents, young adults, and families. Stopped prescribing blockers and hormones to patients under 19 in July 2025. 203-785-4081.
+      es: Evaluación y apoyo de salud mental para niños, adolescentes, adultos jóvenes y familias. Dejó de recetar bloqueadores y hormonas a menores de 19 años en julio de 2025. 203-785-4081.
+    url: https://www.yalemedicine.org/departments/gender-program
+    phone: "203-785-4081"
+    address: 1 Long Wharf Drive, Fl 2, New Haven, CT 06511
+    cost: insurance
+    verification: org_website
+    sources: [yale-gender, ctmirror-yale]
+  - id: new-haven-pride-center
+    name: New Haven Pride Center
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Greater New Haven's LGBTQ+ community center. Reopened in April 2026 after a funding closure and is rebuilding its programs with limited staff.
+      es: Centro comunitario LGBTQ+ de Gran New Haven. Reabrió en abril de 2026 tras un cierre por falta de fondos y está reconstruyendo sus programas con personal limitado.
+    url: https://www.newhavenpridecenter.org/
+    cost: free
+    verification: org_website
+    sources: [nh-pride]
+  - id: q-plus
+    name: Q Plus
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Youth-led nonprofit running weekly LGBTQ+ youth groups in towns across Connecticut, open mics, summer camps, and GSA support.
+      es: Organización dirigida por jóvenes que ofrece grupos semanales para jóvenes LGBTQ+ en pueblos de todo Connecticut, micrófonos abiertos, campamentos de verano y apoyo a GSA.
+    url: https://www.qplusct.org/
+    cost: free
+    verification: org_website
+    sources: [qplus]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: hartford-probate
+    url: https://www.ctprobate.gov/courts/hartford-probate-court
+    title: Hartford Probate Court PD-01
+    publisher: Connecticut Probate Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: 250 Constitution Plaza, 3rd Floor Hartford, CT 06103-2814. Telephone (860) 757-9150
+  - id: new-haven-probate
+    url: https://www.ctprobate.gov/courts/new-haven-probate-court
+    title: New Haven Probate Court PD-38
+    publisher: Connecticut Probate Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: 200 Orange Street, 1st Floor, P.O. Box 905 New Haven, CT 06504-0905. Telephone (203) 946-4880
+  - id: probate-name-changes
+    url: https://www.ctprobate.gov/other-matters/name-changes
+    title: Changing Your Legal Name
+    publisher: Connecticut Probate Courts
+    kind: official
+    accessed: "2026-09-24"
+  - id: glad-ct-id
+    url: https://www.gladlaw.org/ct-id
+    title: ID Documents, Connecticut
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: ghla
+    url: https://www.ghla.org/
+    title: Greater Hartford Legal Aid
+    publisher: Greater Hartford Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: slsct
+    url: https://slsct.org/contact-us/
+    title: Contact Us
+    publisher: Statewide Legal Services of Connecticut
+    kind: org
+    accessed: "2026-09-24"
+  - id: nhlaa
+    url: https://nhlegal.org/contact-us/
+    title: Find Us
+    publisher: New Haven Legal Assistance Association
+    kind: org
+    accessed: "2026-09-24"
+    quote: 205 Orange Street New Haven, Connecticut 06510-2069 Phone 203-946-4811
+  - id: pp-hartford
+    url: https://www.plannedparenthood.org/health-center/connecticut/hartford/06112/hartford-north-center-2220-90220
+    title: Hartford North Center
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-new-haven
+    url: https://www.plannedparenthood.org/health-center/connecticut/new-haven/06511/new-haven-center-3271-90220
+    title: New Haven Center
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppsne-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our providers are trained in best practices of informed consent, so you don't need a letter from a therapist to get a hormone prescription from us.
+  - id: anchor-home
+    url: https://anchorhealthct.org/
+    title: Anchor Health
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: anchor-locations
+    url: https://anchorhealthct.org/locations-hours/
+    title: Locations and hours
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: HAMDEN HEALTH CENTER 2200 Whitney Ave, Ste 290 Hamden, CT 06518 Phone 203-903-8308
+  - id: hhc-gender
+    url: https://www.hartfordhealthcare.org/services/gender-health
+    title: Center for Gender Health
+    publisher: Hartford HealthCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: fhchc
+    url: https://www.fhchc.org/
+    title: Fair Haven Community Health Care
+    publisher: Fair Haven Community Health Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: apnh
+    url: https://www.apnh.org/
+    title: APNH
+    publisher: APNH
+    kind: org
+    accessed: "2026-09-24"
+    quote: We provide free and confidential STI testing services to the community. Book an appointment or walk in during our convenient testing hours.
+  - id: yale-gender
+    url: https://www.yalemedicine.org/departments/gender-program
+    title: Gender Program
+    publisher: Yale Medicine
+    kind: org
+    accessed: "2026-09-24"
+  - id: ctmirror-yale
+    url: https://ctmirror.org/2025/07/24/yale-new-haven-health-youth-gender-affirming-care/
+    title: Yale New Haven Health to cut youth gender-affirming care services
+    publisher: CT Mirror
+    kind: news
+    accessed: "2026-09-24"
+  - id: nh-pride
+    url: https://www.newhavenpridecenter.org/
+    title: New Haven Pride Center
+    publisher: New Haven Pride Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: After closing due to lack of funding in February 2026, and then mounting a truly historic fundraising campaign to reopen our doors in April, we are in the process of restoring the New Haven Pride Center
+  - id: qplus
+    url: https://www.qplusct.org/
+    title: Q Plus
+    publisher: Q Plus
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

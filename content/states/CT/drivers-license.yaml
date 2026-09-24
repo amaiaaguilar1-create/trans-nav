@@ -1,0 +1,194 @@
+guide_type: drivers_license
+jurisdiction: CT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Form B-385 (New 1-2020) and the DMV "Update a driver's license" and fees pages read 2026-09-24. The DMV has no
+    standalone gender-change web page; the forms list says B-372 is replaced by B-385. Fees: "Making any change to
+    your driver's license $30", duplicate license $30, non-driver ID replacement $30. Reviewer: confirm that the $30
+    change fee applies to a gender-only change on a non-driver ID, and whether gender changes, like name changes,
+    are handled only at hub and express offices by appointment. No 2025-2026 law or policy change found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Connecticut lets you choose F, M, or X on your driver's license or non-driver ID by signing form B-385. No doctor's
+    letter, court order, or proof of surgery is needed. You make the change in person at a DMV office and pay $30.
+  es: >-
+    Connecticut te permite elegir F, M o X en tu licencia de conducir o identificación de no conductor firmando el
+    formulario B-385. No se necesita carta médica, orden judicial ni prueba de cirugía. El cambio se hace en persona
+    en una oficina del DMV y cuesta $30.
+summary:
+  en: |
+    Since January 2020, the Connecticut DMV has used a one-page self-attestation form, **B-385 (Gender Designation on a License or Identification Card)**. You check Female (F), Male (M), or Non-Binary (X) and sign under penalty of false statement. DMV staff are told not to ask for more gender-related information or about your medical history.
+
+    You surrender your current card, get a new photo, and pay the fee for an updated card. You can change your **name** at the same visit, but that needs a court order or other legal name document and your Social Security record must already show the new name.
+  es: |
+    Desde enero de 2020, el DMV de Connecticut usa un formulario de declaración propia de una página, el **B-385 (Designación de género en una licencia o tarjeta de identificación)**. Marcas Femenino (F), Masculino (M) o No binario (X) y firmas bajo pena de declaración falsa. El personal del DMV no debe pedir más información de género ni preguntar por tu historial médico.
+
+    Entregas tu tarjeta actual, te toman una foto nueva y pagas la tarifa de la tarjeta actualizada. Puedes cambiar tu **nombre** en la misma visita, pero eso requiere una orden judicial u otro documento legal y que tu registro del Seguro Social ya muestre el nuevo nombre.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Connecticut driver's license, learner's permit, or non-driver ID.
+    es: Debes tener o estar solicitando una licencia, permiso de aprendiz o identificación de no conductor de Connecticut.
+  age:
+    en: Any age. For a minor, a parent or guardian must come along and sign the B-385, or the minor brings a signed and notarized parental consent form 2D.
+    es: Cualquier edad. Para un menor, un padre, madre o tutor debe acompañarlo y firmar el B-385, o el menor lleva el formulario de consentimiento 2D firmado y notarizado.
+  sources: [dmv-b385]
+forms:
+  - id: B-385
+    name:
+      en: Gender Designation on a License or Identification Card
+      es: Designación de género en una licencia o tarjeta de identificación
+    url: https://portal.ct.gov/-/media/DMV/20/29/B-385.pdf
+    required: always
+    condition:
+      en: For any change of the gender shown on your license or ID.
+      es: Para cualquier cambio del género en tu licencia o identificación.
+    how_to_fill:
+      en: |
+        - Fill in your name exactly as it appears on your current license, plus license or ID number, date of birth, Social Security number, and address.
+        - Check one box: **Female (F)**, **Male (M)**, or **Non-Binary (X)**.
+        - Sign and date. No notary and no medical signature are needed.
+        - Minors: the parent or guardian signs the parental consent section at the DMV, or attach a notarized form 2D.
+      es: |
+        - Escribe tu nombre como aparece en tu licencia actual, número de licencia o identificación, fecha de nacimiento, número de Seguro Social y dirección.
+        - Marca una casilla: **Femenino (F)**, **Masculino (M)** o **No binario (X)**.
+        - Firma y fecha. No se necesita notario ni firma médica.
+        - Menores: el padre, madre o tutor firma la sección de consentimiento en el DMV, o adjunta el formulario 2D notarizado.
+    sources: [dmv-b385]
+  - id: E-78
+    name:
+      en: Change of Name or Name Correction Request
+      es: Solicitud de cambio o corrección de nombre
+    url: https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/e78pdf.pdf
+    required: conditional
+    condition:
+      en: Only if you are also changing your name. Bring the original certified court order.
+      es: Solo si también cambias tu nombre. Lleva la orden judicial certificada original.
+    sources: [dmv-change, dmv-e78]
+  - id: 2D
+    name:
+      en: Certificate of Parental Consent (notarized)
+      es: Certificado de consentimiento de los padres (notarizado)
+    url: https://portal.ct.gov/-/media/DMV/20/29/2dpdf.pdf
+    required: conditional
+    condition:
+      en: For a minor whose parent or guardian cannot come to the DMV to sign the B-385.
+      es: Para un menor cuyo padre, madre o tutor no puede ir al DMV a firmar el B-385.
+    sources: [dmv-b385]
+steps:
+  - id: ssa-first
+    title:
+      en: If you are changing your name, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: The DMV checks your name against Social Security. Update your name with SSA using your court order, then wait up to 48 hours before your DMV visit. Skip this step if you are only changing your gender marker.
+      es: El DMV verifica tu nombre con el Seguro Social. Actualiza tu nombre en la SSA con tu orden judicial y espera hasta 48 horas antes de ir al DMV. Omite este paso si solo cambias tu marcador de género.
+    applies_to: [name_change]
+    sources: [dmv-change]
+  - id: fill-forms
+    title:
+      en: Fill out B-385 (and E-78 for a name change)
+      es: Llena el B-385 (y el E-78 si cambias de nombre)
+    body:
+      en: Print and complete B-385, choosing F, M, or X. For a name change, also complete E-78 and bring your original certified court order (Probate or Superior Court, or an order from another state). Photocopies are not accepted.
+      es: Imprime y completa el B-385, eligiendo F, M o X. Para un cambio de nombre, completa también el E-78 y lleva tu orden judicial certificada original (de Connecticut o de otro estado). No se aceptan fotocopias.
+    forms: [B-385, E-78, 2D]
+    sources: [dmv-b385, dmv-change, glad-ct-id]
+  - id: appointment
+    title:
+      en: Make a DMV appointment
+      es: Haz una cita en el DMV
+    body:
+      en: Name updates are done by appointment only at DMV hub offices or DMV express offices (including some AAA and credit union locations, which may add up to an $8 convenience fee). Walk-ins are not available at every office and never on Saturdays.
+      es: Los cambios de nombre se hacen solo con cita en las oficinas principales del DMV o en oficinas express (incluidas algunas de AAA y cooperativas de crédito, que pueden cobrar hasta $8 adicionales). No todas las oficinas aceptan visitas sin cita y ninguna los sábados.
+    applies_to: [in_person]
+    sources: [dmv-change]
+  - id: visit
+    title:
+      en: Go to the DMV, surrender your card, and get a new photo
+      es: Ve al DMV, entrega tu tarjeta y tómate una foto nueva
+    body:
+      en: Bring the forms, your current license or ID, and payment. The DMV takes your old card, gives you a temporary paper card, and takes a new photo. Your new card is mailed to the address on file.
+      es: Lleva los formularios, tu licencia o identificación actual y el pago. El DMV recoge tu tarjeta anterior, te da una tarjeta temporal de papel y toma una foto nueva. La tarjeta nueva llega por correo a la dirección registrada.
+    fees: [change]
+    applies_to: [in_person, gender_marker]
+    sources: [dmv-b385, dmv-change]
+fees:
+  - id: change
+    label:
+      en: Updated driver's license or non-driver ID (name or gender change)
+      es: Licencia o identificación actualizada (cambio de nombre o género)
+    amount: 30
+    note:
+      en: The DMV lists $30 for making any change to a driver's license and $30 for a replacement non-driver ID. Express offices may add up to $8.
+      es: El DMV cobra $30 por cualquier cambio en la licencia y $30 por reemplazo de identificación de no conductor. Las oficinas express pueden agregar hasta $8.
+    sources: [dmv-fees, dmv-change]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person only, because the DMV must take your old card and a new photo.
+    es: Solo en persona, porque el DMV debe recoger tu tarjeta anterior y tomar una foto nueva.
+  sources: [dmv-b385, dmv-change]
+timeline:
+  en: One DMV visit. You leave with a temporary paper card; the permanent card arrives by mail.
+  es: Una visita al DMV. Sales con una tarjeta temporal; la permanente llega por correo.
+after:
+  en: |
+    Your Connecticut license is often the easiest document to update and a good first step for daily life. The DMV notes that other agencies may not accept a marker that differs from your birth certificate or passport. Update your **birth certificate** (if born in Connecticut) with DPH. **Passport** and **Social Security** sex markers cannot currently be changed at the federal level; name changes still go through.
+  es: |
+    Tu licencia de Connecticut suele ser el documento más fácil de actualizar y un buen primer paso para la vida diaria. El DMV advierte que otras agencias podrían no aceptar un marcador distinto al de tu acta de nacimiento o pasaporte. Actualiza tu **acta de nacimiento** (si naciste en Connecticut) en DPH. Los marcadores de sexo del **pasaporte** y del **Seguro Social** no pueden cambiarse actualmente a nivel federal; los cambios de nombre sí.
+tips:
+  - en: Do the name change and gender change at the same appointment so you pay once and get one new photo.
+    es: Haz el cambio de nombre y de género en la misma cita para pagar una sola vez y tomarte una sola foto.
+  - en: An X marker on a Connecticut REAL ID is issued by the state; some federal agencies and other states may not recognize it.
+    es: Un marcador X en una REAL ID de Connecticut lo emite el estado; algunas agencias federales y otros estados podrían no reconocerlo.
+related_links:
+  - title: GLAD Law, ID Documents Connecticut
+    url: https://www.gladlaw.org/ct-id
+  - title: Advocates for Trans Equality, Connecticut identity documents
+    url: https://transequality.org/documents/connecticut-identity-documents
+sources:
+  - id: dmv-b385
+    url: https://portal.ct.gov/-/media/DMV/20/29/B-385.pdf
+    title: Form B-385, Gender Designation on a License or Identification Card (New 1-2020)
+    publisher: Connecticut Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: Employees shall not request additional gender-related information beyond that required on the applicable forms or otherwise inquire about the applicant's private medical history or records.
+  - id: dmv-change
+    url: https://portal.ct.gov/dmv/licenses-permits-ids/change-driver-license
+    title: Update a driver's license, learner's permit, or non-driver ID
+    publisher: Connecticut Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: A new license or non-driver ID will be issued indicating the changes made, there is a $30 fee to change your name on your driver's license or non-driver ID card.
+  - id: dmv-e78
+    url: https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/e78pdf.pdf
+    title: Form E-78, Change of Name or Name Correction Request
+    publisher: Connecticut Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+  - id: dmv-fees
+    url: https://portal.ct.gov/dmv/resources/dmv-fees
+    title: DMV fees
+    publisher: Connecticut Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Making any change to your driver's license ... $30
+  - id: glad-ct-id
+    url: https://www.gladlaw.org/ct-id
+    title: ID Documents, Connecticut
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: You must also submit a name change order from a court (NOTE - It doesn't need to be from a Connecticut court).

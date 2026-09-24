@@ -1,0 +1,571 @@
+guide_type: name_change
+jurisdiction: CT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted from primary sources on 2026-09-24: Conn. Gen. Stat. §§ 45a-99, 52-11, 45a-106a, 45a-109, 45a-111 on
+    cga.ct.gov; Probate Court Rules of Procedure § 47.1 to 47.4 (2026 edition PDF); forms PC-901, PC-901CI, PC-910,
+    PC-900, PC-900CI, PC-910A, PC-184 downloaded from ctprobate.gov; the Probate Courts' name change page.
+    FEE DISAGREEMENT, reviewer must confirm with a probate clerk: P.A. 23-204 § 308 deleted "Change a person's name"
+    from the list of $250 filings in § 45a-106a(b), effective July 1, 2023, and the current statute no longer lists
+    name changes, so this guide says there is no filing fee. GLAD's CT page still says "$250" and A4TE's CT page says
+    "$225"; the Probate Courts' fee calculator only shows a generic "all other petitions" $250 line. Also confirm:
+    (1) typical time from filing to hearing (no official figure found); (2) whether courts still charge the
+    $5-per-copy certified copy fee under § 45a-109(5) for decrees; (3) Superior Court § 52-11 route uses the general
+    $360 civil entry fee (§ 52-259) and has no statewide self-help form; no 2025 or 2026 name change law changes were
+    found. No sealing statute for gender-related name changes was found.
+status: available
+status_summary:
+  en: >-
+    Connecticut adults can change their name in the Probate Court for the town where they live. There is no newspaper
+    publication, and since July 1, 2023 there is no filing fee. You attend a short hearing before the judge.
+  es: >-
+    En Connecticut, las personas adultas pueden cambiar su nombre en el Tribunal de Sucesiones (Probate Court) del
+    pueblo donde viven. No hay publicación en periódico y, desde el 1 de julio de 2023, no hay tarifa de presentación.
+    Asistes a una audiencia breve ante el juez.
+summary:
+  en: |
+    Most people in Connecticut change their name through their local **Probate Court**, using form **PC-901** (petition) and **PC-910** (affidavit). You do not have to explain that the change is related to your gender, and no medical letter is needed; the judge only checks that the change is not meant to defraud anyone or avoid a criminal record. You never publish a notice in a newspaper.
+
+    The Probate Court sends your name to the state police registry check, schedules a hearing, and signs a decree at or after the hearing. The Superior Court also has power to change names (Conn. Gen. Stat. § 52-11), but it is slower and costs a $360 civil filing fee, so the Probate Court is the usual route.
+
+    The name change order does **not** change your gender marker. For that, see the driver's license and birth certificate guides; neither requires a court order.
+  es: |
+    La mayoría de las personas en Connecticut cambian su nombre en el **Tribunal de Sucesiones (Probate Court)** local, con el formulario **PC-901** (petición) y el **PC-910** (declaración jurada). No tienes que explicar que el cambio se relaciona con tu género ni necesitas carta médica; el juez solo verifica que el cambio no busque defraudar a nadie ni evadir antecedentes penales. Nunca publicas un aviso en un periódico.
+
+    El tribunal consulta tu nombre en el registro de la policía estatal, programa una audiencia y firma un decreto en la audiencia o después. El Tribunal Superior también puede cambiar nombres (§ 52-11), pero es más lento y cuesta $360, así que el Probate Court es la vía habitual.
+
+    La orden de cambio de nombre **no** cambia tu marcador de género. Para eso, consulta las guías de licencia de conducir y acta de nacimiento; ninguna requiere orden judicial.
+eligibility:
+  residency:
+    en: File in the Probate Court for the probate district where you live. Use the court locator at ctprobate.gov to find it.
+    es: Presenta la petición en el Tribunal de Sucesiones del distrito donde vives. Usa el localizador de tribunales en ctprobate.gov.
+  age:
+    en: 18 or older for PC-901. For a child under 18, a parent or guardian files PC-900 as "next friend"; see Minors.
+    es: 18 años o más para el PC-901. Para menores de 18, un padre, madre o tutor presenta el PC-900; ver Menores.
+  criminal_history:
+    en: >-
+      A criminal record does not bar a name change. You must list pending charges and convictions on the PC-910
+      affidavit. If you must register as a sex offender or deadly weapon offender, you must notify the Department of
+      Emergency Services and Public Protection before filing and include a sworn statement; the department can object.
+    es: >-
+      Tener antecedentes penales no impide el cambio de nombre. Debes indicar cargos pendientes y condenas en el PC-910.
+      Si debes registrarte como agresor sexual o por delitos con arma mortal, debes notificar al Departamento de
+      Servicios de Emergencia y Protección Pública antes de presentar la petición.
+  sources: [cgs-45a-99, pc-901, pc-910, probate-rules]
+forms:
+  - id: PC-901
+    name:
+      en: Petition for Change of Name (Adult)
+      es: Petición de cambio de nombre (adulto)
+    url: https://www.ctprobate.gov/Forms/PC-901.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Probate Court name and district number**: find yours with the court locator at ctprobate.gov.
+        - **Current name / Name to be changed to**: write the new name exactly as you want it on every document.
+        - **Spouse**: if you are married, list your spouse. The court normally mails them notice of the hearing. If notice to your spouse might put you in danger, check the box asking the court to excuse notice to your spouse (Probate Court Rule 47.1(c)).
+        - **Reasons**: a short, truthful reason is enough, for example "to reflect my gender identity" or "this is the name I use in daily life." You do not need to attach any medical letter.
+        - Sign under penalty of false statement. No notary is needed for the petition itself.
+      es: |
+        - **Nombre y número de distrito del tribunal**: búscalo con el localizador en ctprobate.gov.
+        - **Nombre actual / nuevo nombre**: escribe el nuevo nombre exactamente como lo quieres en todos tus documentos.
+        - **Cónyuge**: si estás casado/a, anota a tu cónyuge. Si notificarle podría ponerte en peligro, marca la casilla para pedir que se le excuse la notificación (Regla 47.1(c)).
+        - **Razones**: basta una razón breve y veraz, por ejemplo "para reflejar mi identidad de género". No necesitas carta médica.
+    sources: [pc-901, probate-rules]
+  - id: PC-901CI
+    name:
+      en: Confidential Information, Petition for Change of Name (Adult)
+      es: Información confidencial, petición de cambio de nombre (adulto)
+    url: https://www.ctprobate.gov/Forms/PC-901CI.pdf
+    required: always
+    condition:
+      en: Lists your Social Security number. It is filed separately and kept out of the public court record.
+      es: Contiene tu número de Seguro Social. Se presenta por separado y no forma parte del expediente público.
+    sources: [pc-901ci]
+  - id: PC-910
+    name:
+      en: Affidavit Re Change of Name (Adult)
+      es: Declaración jurada sobre cambio de nombre (adulto)
+    url: https://www.ctprobate.gov/Forms/PC-910.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Lists where you live and for how long, whether you own real estate, and that you have no debts in arrears (and will notify creditors).
+        - Check the boxes about pending criminal charges and past convictions truthfully.
+        - Must be **sworn** before a judge, court clerk, notary public, or commissioner of the Superior Court (any Connecticut attorney). The probate clerk can usually do this when you file in person.
+      es: |
+        - Indica dónde vives y desde cuándo, si tienes bienes raíces y que no tienes deudas atrasadas.
+        - Marca con veracidad las casillas sobre cargos pendientes y condenas.
+        - Debe **jurarse** ante un juez, secretario del tribunal, notario o abogado de Connecticut. El secretario del tribunal suele hacerlo si presentas en persona.
+    sources: [pc-910]
+  - id: PC-184
+    name:
+      en: Request/Order Waiver of Fees (Petitioner)
+      es: Solicitud/Orden de exención de tarifas (peticionario)
+    url: https://www.ctprobate.gov/Forms/PC-184.pdf
+    required: optional
+    condition:
+      en: There is no filing fee for a name change, but you can use this form to ask the court to waive other costs (such as certified copies) if you receive public assistance or your income is at or below 125% of the federal poverty level.
+      es: No hay tarifa de presentación para el cambio de nombre, pero puedes usar este formulario para pedir que se eximan otros costos (como copias certificadas) si recibes asistencia pública o tus ingresos son iguales o menores al 125% del nivel federal de pobreza.
+    sources: [pc-184, cgs-45a-111]
+  - id: PC-900
+    name:
+      en: Petition for Change of Name (Minor)
+      es: Petición de cambio de nombre (menor)
+    url: https://www.ctprobate.gov/Forms/PC-900.pdf
+    required: conditional
+    condition:
+      en: For a child under 18. Filed with PC-900CI and PC-910A.
+      es: Para menores de 18 años. Se presenta con PC-900CI y PC-910A.
+    sources: [pc-900]
+  - id: PC-910A
+    name:
+      en: Affidavit Re Change of Name (Minor)
+      es: Declaración jurada sobre cambio de nombre (menor)
+    url: https://www.ctprobate.gov/Forms/PC-910A.pdf
+    required: conditional
+    condition:
+      en: Goes with PC-900 for a minor's name change.
+      es: Acompaña al PC-900 para el cambio de nombre de un menor.
+    sources: [probate-name-changes]
+  - id: PC-900CI
+    name:
+      en: Confidential Information, Petition for Change of Name (Minor)
+      es: Información confidencial, petición de cambio de nombre (menor)
+    url: https://www.ctprobate.gov/Forms/PC-900CI.pdf
+    required: conditional
+    condition:
+      en: The child's Social Security number, filed separately from the public record.
+      es: El número de Seguro Social del menor, presentado por separado del expediente público.
+    sources: [pc-900]
+steps:
+  - id: find-court
+    title:
+      en: Find your Probate Court
+      es: Encuentra tu Tribunal de Sucesiones
+    body:
+      en: Use the court locator at ctprobate.gov to find the probate district for the town where you live. Many districts cover several towns. Note the court name and district number; you will write them at the top of every form.
+      es: Usa el localizador en ctprobate.gov para encontrar el distrito de sucesiones del pueblo donde vives. Anota el nombre y número de distrito; los escribirás en cada formulario.
+    sources: [probate-name-changes, probate-rules]
+  - id: gather
+    title:
+      en: Fill out the forms and gather your documents
+      es: Llena los formularios y reúne tus documentos
+    body:
+      en: |
+        You need:
+        - **PC-901** petition and **PC-901CI** confidential Social Security sheet.
+        - **PC-910** affidavit, sworn before a notary, clerk, or attorney (or at the court when you file).
+        - A **certified copy of your long-form birth certificate** (the court may accept other proof of your birth name if you cannot get one).
+        - **Two forms of ID**, at least one with a photo. You can bring these to the hearing instead of filing them.
+      es: |
+        Necesitas:
+        - La petición **PC-901** y la hoja confidencial **PC-901CI**.
+        - La declaración jurada **PC-910**, jurada ante notario, secretario o abogado (o en el tribunal al presentar).
+        - Una **copia certificada de tu acta de nacimiento en formato largo** (el tribunal puede aceptar otra prueba de tu nombre de nacimiento si no puedes conseguirla).
+        - **Dos identificaciones**, al menos una con foto. Puedes llevarlas a la audiencia.
+    forms: [PC-901, PC-901CI, PC-910]
+    sources: [pc-901, probate-name-changes, probate-rules]
+  - id: file
+    title:
+      en: File online, by mail, or in person
+      es: Presenta en línea, por correo o en persona
+    body:
+      en: Submit everything to your Probate Court. The Probate Courts accept name change filings online (eFiling for self-represented people), by mail, or in person. There is no filing fee. If other court costs would be a hardship, add PC-184 to ask for a waiver.
+      es: Entrega todo a tu Tribunal de Sucesiones. Se aceptan peticiones en línea (eFiling para personas sin abogado), por correo o en persona. No hay tarifa de presentación. Si otros costos del tribunal son una carga, agrega el PC-184 para pedir una exención.
+    forms: [PC-184]
+    fees: [filing]
+    sources: [probate-name-changes, cgs-45a-106a, pa-23-204]
+  - id: wait-notice
+    title:
+      en: Wait for the notice of hearing
+      es: Espera el aviso de audiencia
+    body:
+      en: The court checks the sex offender and deadly weapon offender registries (and may run a criminal background check), then mails you a notice with your hearing date. If you are married, your spouse also gets notice unless you asked the court to excuse it for your safety.
+      es: El tribunal revisa los registros de agresores sexuales y de delitos con arma mortal (y puede verificar antecedentes penales), y luego te envía por correo un aviso con la fecha de tu audiencia. Si estás casado/a, tu cónyuge también recibe aviso a menos que hayas pedido excusarlo por tu seguridad.
+    estimated_time:
+      en: usually a few weeks; varies by court
+      es: normalmente unas semanas; varía según el tribunal
+    sources: [probate-name-changes, probate-rules, pc-901]
+  - id: hearing
+    title:
+      en: Attend the hearing
+      es: Asiste a la audiencia
+    body:
+      en: Bring your two forms of ID if you did not file them. The judge or clerk swears you in and may ask a few questions to confirm the change is not for an unlawful purpose. Hearings for adults are usually short, and the judge normally decides at the hearing.
+      es: Lleva tus dos identificaciones si no las presentaste. El juez o secretario te toma juramento y puede hacer algunas preguntas para confirmar que el cambio no tiene un propósito ilegal. Las audiencias para adultos suelen ser breves y el juez normalmente decide en la audiencia.
+    sources: [probate-name-changes, probate-rules]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the decree
+      es: Obtén copias certificadas del decreto
+    body:
+      en: The court gives you one uncertified copy of the decree free. Buy several **certified** copies (the statute sets $5 per copy for up to two pages); Social Security, the DMV, the passport agency, and banks each want to see one.
+      es: El tribunal te da gratis una copia no certificada del decreto. Compra varias copias **certificadas** (la ley fija $5 por copia de hasta dos páginas); el Seguro Social, el DMV, la agencia de pasaportes y los bancos pedirán verla.
+    fees: [certified-copy]
+    sources: [cgs-45a-109]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first. The Connecticut DMV will not update your license until SSA has processed the change (allow up to 48 hours).
+        2. **DMV** license or ID, by appointment, with form E-78 and your certified decree ($30).
+        3. **Birth certificate**: if you were born in Connecticut, send the decree to the town where you were born (name only) or to DPH with a gender change request.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. Primero el **Seguro Social**. El DMV de Connecticut no actualiza tu licencia hasta que la SSA procese el cambio (hasta 48 horas).
+        2. Licencia o identificación del **DMV**, con cita, formulario E-78 y tu decreto certificado ($30).
+        3. **Acta de nacimiento**: si naciste en Connecticut, envía el decreto al pueblo donde naciste (solo nombre) o a DPH junto con una solicitud de cambio de género.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [dmv-change, dph-corrections]
+fees:
+  - id: filing
+    label:
+      en: Probate Court filing fee for a name change
+      es: Tarifa de presentación en el Tribunal de Sucesiones por cambio de nombre
+    amount: 0
+    note:
+      en: P.A. 23-204 removed name changes from the list of $250 probate filings effective July 1, 2023. Some older guides still show $225 or $250; ask the clerk if you are charged.
+      es: La Ley P.A. 23-204 eliminó el cambio de nombre de la lista de trámites de $250 a partir del 1 de julio de 2023. Algunas guías antiguas aún muestran $225 o $250; pregunta al secretario si te cobran.
+    sources: [cgs-45a-106a, pa-23-204]
+  - id: certified-copy
+    label:
+      en: Certified copy of the decree (each, up to two pages)
+      es: Copia certificada del decreto (cada una, hasta dos páginas)
+    amount: 5
+    waivable: true
+    note:
+      en: $2 more for each page after the second. One uncertified copy of the decree is free.
+      es: $2 adicionales por cada página después de la segunda. Una copia no certificada del decreto es gratis.
+    sources: [cgs-45a-109]
+  - id: superior-court
+    label:
+      en: Superior Court civil entry fee (alternative route under § 52-11)
+      es: Tarifa de entrada civil en el Tribunal Superior (vía alternativa, § 52-11)
+    amount: 360
+    waivable: true
+    note:
+      en: Only if you file in Superior Court instead of Probate Court. Most people do not need this route.
+      es: Solo si presentas en el Tribunal Superior en lugar del Tribunal de Sucesiones. La mayoría no necesita esta vía.
+    sources: [cgs-52-259, cgs-52-11]
+fee_waiver:
+  available: true
+  forms: [PC-184]
+  eligibility:
+    en: |
+      The filing itself is free. For other costs (certified copies, mailing), you are presumed unable to pay if:
+      - you receive public assistance, or
+      - your household income after taxes, payroll deductions, and child care is at or below 125% of the federal poverty level.
+    es: |
+      La presentación es gratuita. Para otros costos (copias certificadas, envíos), se presume que no puedes pagar si:
+      - recibes asistencia pública, o
+      - el ingreso de tu hogar, después de impuestos, deducciones y cuidado infantil, es igual o menor al 125% del nivel federal de pobreza.
+  how:
+    en: File PC-184 with proof of income or benefits (pay stubs, benefit letter) along with your petition.
+    es: Presenta el PC-184 con prueba de ingresos o beneficios junto con tu petición.
+  sources: [pc-184, cgs-45a-111]
+publication:
+  required: "no"
+  detail:
+    en: Connecticut law does not require newspaper publication for a name change. The court gives notice of the hearing only to you and your spouse (and, for minors, to parents and the child if 12 or older).
+    es: La ley de Connecticut no exige publicación en periódico. El tribunal notifica la audiencia solo a ti y a tu cónyuge (y, para menores, a los padres y al menor si tiene 12 años o más).
+  waiver_available: false
+  sources: [probate-rules, glad-ct-id]
+hearing:
+  required: "yes"
+  detail:
+    en: Probate Court Rule 47.1 requires a hearing and says the petitioner appears and shows two IDs "unless otherwise directed by the court." In practice adults attend a short hearing and the judge usually rules that day.
+    es: La Regla 47.1 exige una audiencia y que el peticionario comparezca con dos identificaciones "salvo que el tribunal indique otra cosa". En la práctica, los adultos asisten a una audiencia breve y el juez suele decidir ese día.
+  sources: [probate-rules, probate-name-changes]
+background_check:
+  required: conditional
+  detail:
+    en: The court always searches the sex offender and deadly weapon offender registries for adult petitioners. It must run a criminal background check if it has reason to believe you have a pending charge or record, and may run one for anyone. No fingerprints are required.
+    es: El tribunal siempre revisa los registros de agresores sexuales y de delitos con arma mortal. Debe verificar antecedentes penales si cree que tienes cargos o antecedentes, y puede hacerlo con cualquier persona. No se toman huellas.
+  sources: [probate-rules, pc-901]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Connecticut has no special law sealing name change records for trans people; the petition and decree are court records. Your Social Security number goes on a separate confidential sheet (PC-901CI) that is not public. If notice to your spouse could endanger you, the court can excuse it.
+    es: Connecticut no tiene una ley especial para sellar expedientes de cambio de nombre de personas trans; la petición y el decreto son registros judiciales. Tu número de Seguro Social va en una hoja confidencial aparte (PC-901CI). Si notificar a tu cónyuge podría ponerte en peligro, el tribunal puede excusarlo.
+  sources: [pc-901ci, probate-rules]
+minors:
+  summary:
+    en: |
+      A parent, guardian, or other adult allowed by the court files **PC-900**, **PC-900CI**, and **PC-910A** as "next friend" in the probate district where the child lives, with the child's long-form birth certificate. The court sends notice of the hearing to both parents, any guardian, and the child if 12 or older. If one parent is not joining, the petition must say why. The petitioner must appear, and the judge decides based on the child's best interest.
+    es: |
+      Un padre, madre, tutor u otro adulto autorizado presenta **PC-900**, **PC-900CI** y **PC-910A** en el distrito donde vive el menor, con su acta de nacimiento en formato largo. El tribunal notifica la audiencia a ambos padres, a cualquier tutor y al menor si tiene 12 años o más. Si un padre no se une, la petición debe explicar por qué. El peticionario debe comparecer y el juez decide según el mejor interés del menor.
+  forms: [PC-900, PC-900CI, PC-910A]
+  sources: [pc-900, probate-rules, cgs-45a-99]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: File online through Probate Court eFiling, by mail, or in person at your Probate Court. The hearing is in person unless the court directs otherwise.
+    es: Presenta en línea por eFiling, por correo o en persona. La audiencia es presencial salvo que el tribunal indique otra cosa.
+  sources: [probate-name-changes]
+timeline:
+  en: Plan on a few weeks to a couple of months from filing to the hearing, depending on your court. You usually leave the hearing with the decree or receive it by mail soon after.
+  es: Calcula de unas semanas a un par de meses desde la presentación hasta la audiencia, según tu tribunal. Normalmente sales de la audiencia con el decreto o lo recibes por correo poco después.
+after:
+  en: |
+    Start with **Social Security** (bring the certified decree and photo ID; the name changes, the sex field currently cannot). After SSA updates (up to 48 hours), book a **DMV** appointment with form E-78 and the decree ($30; you can change your gender marker with form B-385 at the same visit). If you were born in Connecticut, update your **birth certificate** through the town of birth or DPH. Then your **passport** (name changes are still processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el decreto certificado e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Cuando la SSA actualice (hasta 48 horas), haz cita en el **DMV** con el formulario E-78 y el decreto ($30; puedes cambiar tu marcador de género con el B-385 en la misma visita). Si naciste en Connecticut, actualiza tu **acta de nacimiento** en el pueblo de nacimiento o en DPH. Luego tu **pasaporte** (los cambios de nombre se siguen tramitando; los de sexo no, a septiembre de 2026), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: You can file one petition for spouses, parents, and children living at the same address at the same time; the court issues a separate decree for each person.
+    es: Puedes presentar al mismo tiempo peticiones para cónyuges, padres e hijos que viven en el mismo domicilio; el tribunal emite un decreto para cada persona.
+  - en: Probate staff cannot give legal advice, but they can answer questions about forms and swear your PC-910 affidavit when you file in person.
+    es: El personal del tribunal no da asesoría legal, pero puede responder preguntas sobre formularios y tomar juramento de tu PC-910 si presentas en persona.
+  - en: If you are asked for a filing fee, mention that P.A. 23-204 removed name changes from the fee schedule in Conn. Gen. Stat. § 45a-106a as of July 1, 2023.
+    es: Si te piden una tarifa de presentación, menciona que la Ley P.A. 23-204 eliminó el cambio de nombre de la lista de tarifas del § 45a-106a desde el 1 de julio de 2023.
+local_help:
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project and GLAD Law Answers
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help updating your name and gender marker on Connecticut and federal documents, plus a free legal information line (800-455-GLAD, online intake form).
+      es: Ayuda gratuita para actualizar tu nombre y marcador de género en documentos de Connecticut y federales, y una línea gratuita de información legal (800-455-GLAD, formulario en línea).
+    url: https://www.gladlaw.org/ct-id
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-ct-id, glad-answers]
+  - id: anchor-health-case-management
+    name: Anchor Health, case management
+    type: lgbtq_center
+    pillars: [name_change, gender_marker]
+    description:
+      en: In-house case managers walk patients step by step through name and ID document changes. Hamden and Stamford; 203-903-8308.
+      es: Gestores de casos guían a los pacientes paso a paso en los cambios de nombre y documentos. Hamden y Stamford; 203-903-8308.
+    url: https://anchorhealthct.org/
+    phone: "203-903-8308"
+    cost: insurance
+    verification: org_website
+    sources: [anchor-home]
+  - id: statewide-legal-services
+    name: Statewide Legal Services of Connecticut
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free legal advice hotline and referrals for people with very low income. 800-453-3320; online application.
+      es: Línea gratuita de asesoría legal y referencias para personas con ingresos muy bajos. 800-453-3320; solicitud en línea.
+    url: https://slsct.org/
+    phone: "800-453-3320"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [slsct]
+  - id: nhlaa
+    name: New Haven Legal Assistance Association
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services for low-income residents of New Haven County and the Lower Naugatuck Valley. 205 Orange St, New Haven; 203-946-4811.
+      es: Servicios legales civiles gratuitos para residentes de bajos ingresos del condado de New Haven y el Lower Naugatuck Valley. 205 Orange St, New Haven; 203-946-4811.
+    url: https://nhlegal.org/
+    phone: "203-946-4811"
+    address: 205 Orange Street, New Haven, CT 06510
+    cost: free
+    verification: org_website
+    sources: [nhlaa]
+  - id: ppsne-navigator
+    name: Planned Parenthood of Southern New England, patient care navigator
+    type: other
+    pillars: [name_change, gender_marker]
+    description:
+      en: PPSNE's gender-affirming care program includes a navigator who helps patients with legal name and gender marker changes and writes support letters for birth certificate amendments.
+      es: El programa de afirmación de género de PPSNE incluye una navegadora que ayuda con cambios legales de nombre y marcador de género y escribe cartas de apoyo para enmendar actas de nacimiento.
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    phone: "800-230-7526"
+    cost: sliding_scale
+    verification: org_website
+    sources: [ppsne-gac]
+statutes:
+  - cite: Conn. Gen. Stat. § 45a-99
+    title:
+      en: Probate Court jurisdiction to grant a change of name; registered offender requirements
+    url: https://www.cga.ct.gov/current/pub/chap_801a.htm#sec_45a-99
+  - cite: Conn. Gen. Stat. § 52-11
+    title:
+      en: Superior Court complaints for change of name
+    url: https://www.cga.ct.gov/current/pub/chap_895.htm#sec_52-11
+  - cite: Conn. Gen. Stat. § 45a-106a (as amended by P.A. 23-204 § 308)
+    title:
+      en: Probate filing fees; name changes removed from the $250 list effective July 1, 2023
+    url: https://www.cga.ct.gov/current/pub/chap_801b.htm#sec_45a-106a
+  - cite: Probate Court Rules of Procedure, Rule 47
+    title:
+      en: Change of name of adults and minors; notice; hearing; registry checks
+    url: https://www.ctprobate.gov/Documents/Probate%20Court%20Rules%20of%20Procedure.pdf
+related_links:
+  - title: Connecticut Probate Courts, Changing Your Legal Name
+    url: https://www.ctprobate.gov/other-matters/name-changes
+    note:
+      en: Official step-by-step instructions and forms.
+      es: Instrucciones oficiales paso a paso y formularios.
+  - title: GLAD Law, ID Documents Connecticut
+    url: https://www.gladlaw.org/ct-id
+    note:
+      en: Helpful overview; still lists a $250 fee, which this guide believes is out of date.
+      es: Resumen útil; todavía indica una tarifa de $250, que esta guía considera desactualizada.
+  - title: Advocates for Trans Equality, Connecticut identity documents
+    url: https://transequality.org/documents/connecticut-identity-documents
+    note:
+      en: No last-updated date shown; lists an outdated $225 fee.
+      es: No muestra fecha de actualización; indica una tarifa desactualizada de $225.
+sources:
+  - id: probate-name-changes
+    url: https://www.ctprobate.gov/other-matters/name-changes
+    title: Changing Your Legal Name
+    publisher: Connecticut Probate Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: You can submit these items together online, in person, or by mail. Wait for a Notice of Hearing to be mailed to you.
+  - id: probate-rules
+    url: https://www.ctprobate.gov/Documents/Probate%20Court%20Rules%20of%20Procedure.pdf
+    title: Probate Court Rules of Procedure (2026), Rule 47 Change of Name
+    publisher: Office of the Probate Court Administrator
+    kind: court
+    accessed: "2026-09-24"
+    quote: Unless otherwise directed by the court, the petitioner shall appear in court and present two forms of identification, including at least one form of photographic identification.
+  - id: pc-901
+    url: https://www.ctprobate.gov/Forms/PC-901.pdf
+    title: PC-901, Petition for Change of Name (Adult), rev. 5/22
+    publisher: Connecticut Probate Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: The court will conduct a search of the sex offender and deadly weapon offender registry and may conduct a full criminal background check.
+  - id: pc-901ci
+    url: https://www.ctprobate.gov/Forms/PC-901CI.pdf
+    title: PC-901CI, Confidential Information, Petition for Change of Name (Adult)
+    publisher: Connecticut Probate Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: pc-910
+    url: https://www.ctprobate.gov/Forms/PC-910.pdf
+    title: PC-910, Affidavit Re Change of Name (Adult)
+    publisher: Connecticut Probate Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: pc-900
+    url: https://www.ctprobate.gov/Forms/PC-900.pdf
+    title: PC-900, Petition for Change of Name (Minor)
+    publisher: Connecticut Probate Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: If a parent does not join in the petition, the petition must specify the reasons the parent has not joined in the petition.
+  - id: pc-184
+    url: https://www.ctprobate.gov/Forms/PC-184.pdf
+    title: PC-184, Request/Order Waiver of Fees (Petitioner)
+    publisher: Connecticut Probate Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: There is a rebuttable presumption that the petitioner is indigent if (a) he or she receives public assistance OR (b) the annual income of the petitioner's household is 125% or less of the federal poverty level.
+  - id: cgs-45a-99
+    url: https://www.cga.ct.gov/current/pub/chap_801a.htm#sec_45a-99
+    title: Conn. Gen. Stat. § 45a-99
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The courts of probate shall have concurrent jurisdiction with the Superior Court, as provided in section 52-11, to grant a change of name.
+  - id: cgs-52-11
+    url: https://www.cga.ct.gov/current/pub/chap_895.htm#sec_52-11
+    title: Conn. Gen. Stat. § 52-11
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: cgs-45a-106a
+    url: https://www.cga.ct.gov/current/pub/chap_801b.htm#sec_45a-106a
+    title: Conn. Gen. Stat. § 45a-106a, Probate filing fees
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: P.A. 23-204 amended Subsec. (b) by deleting Subdiv. (19) re fee for name changes, effective July 1, 2023.
+  - id: pa-23-204
+    url: https://www.cga.ct.gov/2023/ACT/PA/PDF/2023PA-00204-R00HB-06941-PA.PDF
+    title: Public Act 23-204, § 308
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "[(19) Change a person's name;]"
+  - id: cgs-45a-109
+    url: https://www.cga.ct.gov/current/pub/chap_801b.htm#sec_45a-109
+    title: Conn. Gen. Stat. § 45a-109, Probate copy fees
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: for certifying copies of any document ... five dollars per each copy certified for the first two pages of a document, and two dollars for each copy certified for each page after the second page
+  - id: cgs-45a-111
+    url: https://www.cga.ct.gov/current/pub/chap_801b.htm#sec_45a-111
+    title: Conn. Gen. Stat. § 45a-111, Waiver of probate fees
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: cgs-52-259
+    url: https://www.cga.ct.gov/current/pub/chap_901.htm#sec_52-259
+    title: Conn. Gen. Stat. § 52-259, Court fees
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: for each civil cause in the Superior Court, three hundred sixty dollars
+  - id: dmv-change
+    url: https://portal.ct.gov/dmv/licenses-permits-ids/change-driver-license
+    title: Update a driver's license, learner's permit, or non-driver ID
+    publisher: Connecticut Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: It may take up to 48 hours for SSA to process the change; this must be processed prior to updating your driver's license or non-driver ID.
+  - id: dph-corrections
+    url: https://portal.ct.gov/dph/vital-records/corrections-and-amendments
+    title: Correcting or Amending a Record
+    publisher: Connecticut Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: glad-ct-id
+    url: https://www.gladlaw.org/ct-id
+    title: ID Documents, Connecticut
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: Do I need to publish my name change in a newspaper? No. Connecticut does not have this requirement.
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: anchor-home
+    url: https://anchorhealthct.org/
+    title: Anchor Health
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: slsct
+    url: https://slsct.org/contact-us/
+    title: Contact Us
+    publisher: Statewide Legal Services of Connecticut
+    kind: org
+    accessed: "2026-09-24"
+  - id: nhlaa
+    url: https://nhlegal.org/contact-us/
+    title: Find Us, New Haven Legal Assistance Association
+    publisher: New Haven Legal Assistance Association
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppsne-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-southern-new-england/patient-resources/our-services/gender-affirming-care
+    title: Gender-Affirming Care
+    publisher: Planned Parenthood of Southern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our navigator educates and empowers patients with information so they can walk through their healthcare journey with greater knowledge and agency.

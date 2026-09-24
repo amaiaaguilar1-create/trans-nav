@@ -1,0 +1,274 @@
+guide_type: birth_certificate
+jurisdiction: CT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Conn. Gen. Stat. § 19a-42(i) and (c) read on cga.ct.gov; DPH Gender Change page and the adult instructions packet
+    (rev. 12/2021, forms 12-2023) read 2026-09-24. requirement_type set to provider_letter_any, but note the statute
+    limits signers to licensed physicians, PAs, APRNs, and psychologists (licensed in any state); therapists, LCSWs,
+    and counselors cannot sign. Non-Binary is offered on both affidavits. Open items: (1) processing time (DPH gives
+    none); (2) whether town registrars can issue certified copies of the replacement certificate at the town fee;
+    (3) the Probate Court form number for residents born out of state ("Confirmation of Gender Change") was not found.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F, X]
+status_summary:
+  en: >-
+    If you were born in Connecticut, you can get a new birth certificate showing female, male, or non-binary by
+    mailing DPH your own notarized affidavit and a notarized affidavit from a licensed doctor, PA, APRN, or
+    psychologist. No surgery or court order is required, and there is no amendment fee.
+  es: >-
+    Si naciste en Connecticut, puedes obtener un acta de nacimiento nueva que diga femenino, masculino o no binario
+    enviando por correo a DPH tu declaración jurada notarizada y una declaración notarizada de un médico, asistente
+    médico, enfermera de práctica avanzada o psicólogo con licencia. No se requiere cirugía ni orden judicial, y no hay
+    tarifa por la enmienda.
+summary:
+  en: |
+    Since 2015 (Public Act 15-132), Connecticut issues a **replacement birth certificate** to reflect a gender change. The provider affidavit states that you have had "surgical, hormonal, or other treatment clinically appropriate" for your gender transition; the provider decides what is appropriate for you, and surgery is not required. The new certificate replaces the old one, is **not marked "amended"**, and the original is sealed.
+
+    You can change your **name** in the same request by including a certified court order. A later change to the sex on the certificate requires a court order.
+
+    This only works if you were **born in Connecticut**. If you were born in another state, contact that state's vital records office; if that state requires a court order, Connecticut Probate Courts can issue an order confirming a gender change for residents born elsewhere.
+  es: |
+    Desde 2015 (Ley 15-132), Connecticut emite un **acta de nacimiento de reemplazo** que refleja el cambio de género. La declaración del proveedor indica que has recibido "tratamiento quirúrgico, hormonal u otro clínicamente apropiado" para tu transición; el proveedor decide qué es apropiado para ti y no se requiere cirugía. La nueva acta reemplaza a la anterior, **no se marca como "enmendada"** y la original se sella.
+
+    Puedes cambiar tu **nombre** en la misma solicitud incluyendo una orden judicial certificada. Un cambio posterior del sexo en el acta requiere orden judicial.
+
+    Esto solo aplica si **naciste en Connecticut**. Si naciste en otro estado, contacta a la oficina de registros vitales de ese estado; si exige orden judicial, los Tribunales de Sucesiones de Connecticut pueden emitir una orden que confirme el cambio de género para residentes nacidos en otro lugar.
+eligibility:
+  residency:
+    en: Your birth must be recorded in Connecticut. You do not need to live in Connecticut now.
+    es: Tu nacimiento debe estar registrado en Connecticut. No necesitas vivir en Connecticut ahora.
+  age:
+    en: Any age. For a minor, a parent completes the applicant affidavit using the minor packet.
+    es: Cualquier edad. Para un menor, un padre o madre completa la declaración usando el paquete para menores.
+  other:
+    en: The provider affidavit can be signed by a physician, physician assistant, APRN, or psychologist licensed in Connecticut or any other state.
+    es: La declaración del proveedor puede firmarla un médico, asistente médico, enfermera de práctica avanzada o psicólogo con licencia en Connecticut o en cualquier otro estado.
+  sources: [cgs-19a-42, dph-gender-change]
+forms:
+  - id: DPH-sex-amendment-adult
+    name:
+      en: Instructions and Forms for Amending Sex on Birth Certificate (includes Affidavit of Applicant and Affidavit of Health Care Practitioner)
+      es: Instrucciones y formularios para enmendar el sexo en el acta de nacimiento (incluye la declaración del solicitante y la del profesional de salud)
+    url: https://portal.ct.gov/dph/-/media/departments-and-agencies/dph/hisr/vr/instructions-and-forms-for-amending-sex-on-birth-certificate-12_2023.pdf
+    required: conditional
+    condition:
+      en: Adults (18 and older). Print on white paper only.
+      es: Adultos (18 años o más). Imprime solo en papel blanco.
+    how_to_fill:
+      en: |
+        - **Affidavit of Applicant**: write the current sex and the new one (Female, Male, or Non-Binary). Check the box if you also want your name changed, and enclose the certified court order. Sign in front of a notary.
+        - **Affidavit of Health Care Practitioner**: your provider fills in their license type and number, your birth name and any legal name change, and your gender (Male, Female, or Non-Binary), then signs in front of a notary.
+        - Add a photocopy of a government photo ID and, if you want a copy of the new certificate, the birth certificate request form with a $30 money order.
+      es: |
+        - **Declaración del solicitante**: escribe el sexo actual y el nuevo (Femenino, Masculino o No binario). Marca la casilla si también quieres cambiar tu nombre y adjunta la orden judicial certificada. Firma ante notario.
+        - **Declaración del profesional de salud**: tu proveedor anota su tipo y número de licencia, tu nombre de nacimiento y cambio legal de nombre, y tu género, y firma ante notario.
+        - Agrega una fotocopia de una identificación oficial con foto y, si quieres una copia del acta nueva, la solicitud con un giro postal de $30.
+    sources: [dph-packet-adult, dph-gender-change]
+  - id: DPH-sex-amendment-minor
+    name:
+      en: Instructions and Forms for Amending Sex on Birth Certificate, Minor
+      es: Instrucciones y formularios para enmendar el sexo en el acta de nacimiento, menor
+    url: https://portal.ct.gov/dph/-/media/departments-and-agencies/dph/hisr/vr/instructions-and-forms-for-amending-sex-on-birth-certificate---minor-12_2023.pdf
+    required: conditional
+    condition:
+      en: For a child under 18; a parent signs the applicant affidavit.
+      es: Para menores de 18 años; un padre o madre firma la declaración del solicitante.
+    sources: [dph-gender-change]
+  - id: DPH-practitioner-affidavit
+    name:
+      en: Affidavit of Health Care Practitioner (standalone)
+      es: Declaración del profesional de salud (por separado)
+    url: https://portal.ct.gov/dph/-/media/departments-and-agencies/dph/hisr/vr/affidavitpractitioner12_2023.pdf
+    required: always
+    condition:
+      en: Also included in the adult and minor packets. Must be notarized.
+      es: También incluida en los paquetes para adultos y menores. Debe estar notarizada.
+    sources: [dph-gender-change]
+  - id: DPH-birth-request
+    name:
+      en: Request for a Certified Copy of a Birth Record from the State
+      es: Solicitud de copia certificada de un acta de nacimiento del estado
+    url: https://portal.ct.gov/dph/-/media/departments-and-agencies/dph/hisr/vr/birth-cert-request-form_state-rev-12-2021-1-22.pdf
+    required: optional
+    condition:
+      en: Send it with your packet so the new certificate is mailed to you.
+      es: Envíala con tu paquete para que te envíen el acta nueva.
+    sources: [dph-gender-change]
+steps:
+  - id: provider-affidavit
+    title:
+      en: Get the provider affidavit signed and notarized
+      es: Consigue la declaración del proveedor firmada y notarizada
+    body:
+      en: Ask your doctor, PA, APRN, or psychologist to complete the Affidavit of Health Care Practitioner and sign it before a notary. Many clinics (including Planned Parenthood of Southern New England and Anchor Health) write these letters for patients.
+      es: Pide a tu médico, asistente médico, enfermera de práctica avanzada o psicólogo que complete la declaración del profesional de salud y la firme ante notario. Muchas clínicas (como Planned Parenthood of Southern New England y Anchor Health) escriben estas cartas.
+    forms: [DPH-practitioner-affidavit]
+    applies_to: [gender_marker]
+    sources: [dph-packet-adult, cgs-19a-42]
+  - id: applicant-affidavit
+    title:
+      en: Sign your own affidavit before a notary
+      es: Firma tu propia declaración ante notario
+    body:
+      en: Complete the Affidavit of Applicant, choosing Female, Male, or Non-Binary. If you also want your new legal name on the certificate, check the box and include a certified copy of your court order.
+      es: Completa la declaración del solicitante, eligiendo Femenino, Masculino o No binario. Si también quieres tu nuevo nombre legal en el acta, marca la casilla e incluye una copia certificada de tu orden judicial.
+    forms: [DPH-sex-amendment-adult, DPH-sex-amendment-minor]
+    sources: [dph-packet-adult]
+  - id: mail
+    title:
+      en: Mail everything to DPH Vital Records
+      es: Envía todo por correo a Registros Vitales de DPH
+    body:
+      en: |
+        Send both affidavits, a photocopy of your photo ID, any court order, and (optional) the certified copy request with a $30 money order payable to "Treasurer, State of Connecticut" to:
+
+        Connecticut Department of Public Health, Office of Vital Records, Record Replacement Unit, 410 Capitol Avenue, MS #11VRS, Hartford, CT 06134.
+
+        Credit cards and personal checks are not accepted. Questions: 860-509-7956.
+      es: |
+        Envía ambas declaraciones, una fotocopia de tu identificación con foto, la orden judicial si aplica y (opcional) la solicitud de copia certificada con un giro postal de $30 a nombre de "Treasurer, State of Connecticut" a:
+
+        Connecticut Department of Public Health, Office of Vital Records, Record Replacement Unit, 410 Capitol Avenue, MS #11VRS, Hartford, CT 06134.
+
+        No se aceptan tarjetas de crédito ni cheques personales. Preguntas: 860-509-7956.
+    forms: [DPH-birth-request]
+    fees: [amendment, certified-copy]
+    applies_to: [by_mail]
+    sources: [dph-packet-adult, dph-gender-change]
+  - id: name-only
+    title:
+      en: Changing only your name? Go to the town of birth
+      es: ¿Solo cambias tu nombre? Acude al pueblo de nacimiento
+    body:
+      en: If you are not changing the sex marker, send the town clerk (registrar of vital statistics) in the town where you were born an original certified name change order, the notarized "My Name Change Affidavit," and a photo ID, in person or by mail.
+      es: Si no cambias el marcador de sexo, envía al secretario municipal (registrador de estadísticas vitales) del pueblo donde naciste la orden certificada original de cambio de nombre, la "My Name Change Affidavit" notarizada y una identificación con foto, en persona o por correo.
+    applies_to: [name_change]
+    optional: true
+    sources: [dph-corrections]
+fees:
+  - id: amendment
+    label:
+      en: Amending the sex designation
+      es: Enmienda del marcador de sexo
+    amount: 0
+    sources: [dph-gender-change]
+  - id: certified-copy
+    label:
+      en: Certified copy of the new birth certificate from DPH (each)
+      es: Copia certificada del acta nueva emitida por DPH (cada una)
+    amount: 30
+    note:
+      en: Money order only, payable to "Treasurer, State of Connecticut."
+      es: Solo giro postal, a nombre de "Treasurer, State of Connecticut".
+    sources: [dph-gender-change]
+  - id: probate-out-of-state
+    label:
+      en: Probate Court petition to confirm a gender change for a Connecticut resident born in another state
+      es: Petición al Tribunal de Sucesiones para confirmar el cambio de género de un residente nacido en otro estado
+    amount: 250
+    waivable: true
+    note:
+      en: Only needed if your birth state requires a court order. Fee waiver form PC-184.
+      es: Solo si tu estado de nacimiento exige orden judicial. Formulario de exención PC-184.
+    sources: [cgs-45a-106a, probate-other]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: DPH asks for the documents by mail to its Hartford address. Name-only amendments can be made in person or by mail at the town of birth.
+    es: DPH pide los documentos por correo a su dirección en Hartford. Las enmiendas solo de nombre se hacen en persona o por correo en el pueblo de nacimiento.
+  sources: [dph-gender-change, dph-corrections]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: The original certificate is sealed in a confidential file at DPH and the town, and can be unsealed only as the law allows or by court order. The replacement certificate becomes the official record and does not show that it was changed.
+    es: El acta original se sella en un archivo confidencial en DPH y en el pueblo, y solo puede abrirse según la ley o por orden judicial. El acta de reemplazo se convierte en el registro oficial y no muestra que fue cambiada.
+  how:
+    en: Automatic; nothing extra to request.
+    es: Automático; no hay que solicitar nada adicional.
+  sources: [cgs-19a-42]
+minors:
+  summary:
+    en: A parent completes the applicant affidavit in the minor packet, and the child's physician, PA, APRN, or psychologist completes the practitioner affidavit. Both must be notarized.
+    es: Un padre o madre completa la declaración del solicitante del paquete para menores, y el médico, asistente médico, enfermera de práctica avanzada o psicólogo del menor completa la declaración del profesional. Ambas deben estar notarizadas.
+  forms: [DPH-sex-amendment-minor, DPH-practitioner-affidavit]
+  sources: [dph-gender-change]
+timeline:
+  en: DPH does not publish a processing time. Allow several weeks, and call 860-509-7956 if you have not heard back.
+  es: DPH no publica un tiempo de trámite. Calcula varias semanas y llama al 860-509-7956 si no recibes respuesta.
+after:
+  en: |
+    Use the new certificate to update records that follow your birth certificate (school, some employers, passport renewal when federal policy allows). Your Connecticut license can be changed separately by self-attestation (form B-385). Federal passport and Social Security sex markers cannot currently be changed; names can.
+  es: |
+    Usa el acta nueva para actualizar registros que dependen de tu acta de nacimiento (escuela, algunos empleadores, pasaporte cuando la política federal lo permita). Tu licencia de Connecticut se cambia por separado con declaración propia (formulario B-385). Los marcadores de sexo del pasaporte y del Seguro Social no pueden cambiarse actualmente; los nombres sí.
+tips:
+  - en: Print the forms on plain white paper; DPH asks for it.
+    es: Imprime los formularios en papel blanco; DPH lo pide.
+  - en: Order at least one certified copy with your packet so you do not need a second request later.
+    es: Pide al menos una copia certificada con tu paquete para no hacer otra solicitud después.
+  - en: Think carefully before choosing; a second change to the sex on the certificate requires a court order.
+    es: Piénsalo bien antes de elegir; un segundo cambio del sexo en el acta requiere orden judicial.
+statutes:
+  - cite: Conn. Gen. Stat. § 19a-42(i)
+    title:
+      en: New birth certificate to reflect a gender change on applicant and provider affidavits
+    url: https://www.cga.ct.gov/current/pub/chap_368a.htm#sec_19a-42
+  - cite: Conn. Gen. Stat. § 45a-106a(b)(19)
+    title:
+      en: Probate order to amend an out-of-state birth certificate to reflect a gender change
+    url: https://www.cga.ct.gov/current/pub/chap_801b.htm#sec_45a-106a
+related_links:
+  - title: CT DPH, Gender Change
+    url: https://portal.ct.gov/dph/vital-records/gender-change
+  - title: GLAD Law, ID Documents Connecticut
+    url: https://www.gladlaw.org/ct-id
+sources:
+  - id: cgs-19a-42
+    url: https://www.cga.ct.gov/current/pub/chap_368a.htm#sec_19a-42
+    title: Conn. Gen. Stat. § 19a-42, Amendment of vital records
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: stating that the applicant has undergone surgical, hormonal or other treatment clinically appropriate for the applicant for the purpose of gender transition
+  - id: dph-gender-change
+    url: https://portal.ct.gov/dph/vital-records/gender-change
+    title: Gender Change
+    publisher: Connecticut Department of Public Health, State Vital Records Office
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is no processing fee for amendments.
+  - id: dph-packet-adult
+    url: https://portal.ct.gov/dph/-/media/departments-and-agencies/dph/hisr/vr/instructions-and-forms-for-amending-sex-on-birth-certificate-12_2023.pdf
+    title: Instructions and Forms for Amending Sex on Birth Certificate
+    publisher: Connecticut Department of Public Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: Any subsequent request to amend the sex on this birth certificate will require a court order.
+  - id: dph-corrections
+    url: https://portal.ct.gov/dph/vital-records/corrections-and-amendments
+    title: Correcting or Amending a Record
+    publisher: Connecticut Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Once the Legal Name Change has been obtained, it must be presented to the town where the birth occurred.
+  - id: cgs-45a-106a
+    url: https://www.cga.ct.gov/current/pub/chap_801b.htm#sec_45a-106a
+    title: Conn. Gen. Stat. § 45a-106a, Probate filing fees
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: (19) Issue an order to amend the birth certificate of an individual born in another state to reflect a gender change
+  - id: probate-other
+    url: https://www.ctprobate.gov/other-matters
+    title: Other Matters
+    publisher: Connecticut Probate Courts
+    kind: official
+    accessed: "2026-09-24"
+    quote: When a person resides in Connecticut, but was born out-of-state, they may petition the Probate Court where they reside for an order amending the out-of-state birth certificate to reflect gender change.

@@ -1,0 +1,169 @@
+code: CT
+name:
+  en: Connecticut
+  es: Connecticut
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate drawn from Connecticut statutes read on cga.ct.gov (shield law §§ 52-571m, 52-571n, 54-155b; birth
+    certificate § 19a-42(i)), the DMV B-385 form, and the Probate Court name change page, all on 2026-09-24. Care is
+    marked protective because state law protects care for all ages, but reviewers should know that the two largest
+    pediatric programs (Yale New Haven Health and Connecticut Children's) stopped youth medication treatment in July
+    2025, and a federal rule effective October 13, 2026 bars HUSKY A/B payment for youth gender-affirming care.
+    Connecticut TransAdvocacy Coalition (cttransadvocacy.org) did not resolve and was not listed.
+overview:
+  en: >-
+    Connecticut is one of the more protective states for trans people. You can change your name in your local Probate
+    Court with **no filing fee** (since July 2023) and no newspaper publication, pick M, F, or X on your driver's license
+    by signing a one-page form, and amend a Connecticut birth certificate (including to non-binary) with a notarized
+    statement from a doctor, PA, APRN, or psychologist, with no surgery required. State insurance rules and HUSKY Health
+    cover gender-affirming care for adults, and Connecticut passed one of the first shield laws in 2022. Care for young
+    people is legal but harder to find: the two biggest pediatric hospital programs stopped prescribing in 2025, and a
+    federal rule stops HUSKY from paying for youth care starting October 13, 2026.
+  es: >-
+    Connecticut es uno de los estados que más protegen a las personas trans. Puedes cambiar tu nombre en el Tribunal
+    de Sucesiones (Probate Court) de tu localidad **sin tarifa de presentación** (desde julio de 2023) y sin publicación
+    en periódico, elegir M, F o X en tu licencia de conducir firmando un formulario de una página, y enmendar un acta de
+    nacimiento de Connecticut (incluso a no binario) con una declaración notarizada de un médico, asistente médico,
+    enfermera de práctica avanzada o psicólogo, sin cirugía. Las normas estatales de seguros y HUSKY Health cubren la
+    atención de afirmación de género para adultos, y Connecticut aprobó una de las primeras leyes escudo en 2022. La
+    atención para jóvenes es legal pero más difícil de encontrar: los dos principales programas hospitalarios
+    pediátricos dejaron de recetar en 2025, y una regla federal impide que HUSKY pague la atención de jóvenes a partir
+    del 13 de octubre de 2026.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [cgs-52-571n, cgs-54-155b, map-id, dph-gender-change, dmv-b385]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [hartford]
+key_resources:
+  - id: glad-law-answers
+    name: GLAD Law Answers and Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free, confidential legal information line for LGBTQ+ people in New England (800-455-GLAD). The Transgender ID Project helps you update your name and gender marker on state and federal documents.
+      es: Línea gratuita y confidencial de información legal para personas LGBTQ+ en Nueva Inglaterra (800-455-GLAD). El Transgender ID Project te ayuda a actualizar tu nombre y marcador de género en documentos estatales y federales.
+    url: https://www.gladlaw.org/ct-id
+    phone: "800-455-4523"
+    cost: free
+    verification: org_website
+    sources: [glad-answers, glad-ct-id]
+  - id: statewide-legal-services
+    name: Statewide Legal Services of Connecticut
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free legal advice and referral hotline for Connecticut residents with very low income, and the entry point to the state's legal aid programs. Call 800-453-3320 (860-344-0380 from Hartford and Middletown) or apply online.
+      es: Línea gratuita de asesoría legal y referencias para residentes de Connecticut con ingresos muy bajos, y punto de entrada a los programas de ayuda legal del estado. Llama al 800-453-3320 (860-344-0380 desde Hartford y Middletown) o solicita en línea.
+    url: https://slsct.org/
+    phone: "800-453-3320"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [slsct]
+  - id: anchor-health
+    name: Anchor Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, name_change, gender_marker]
+    description:
+      en: Connecticut's LGBTQ health center (Hamden and Stamford, plus video visits). Gender-affirming hormone care with "no gatekeeping", PrEP, sexual health, and in-house case managers who walk you through name and ID document changes. 203-903-8308.
+      es: Centro de salud LGBTQ de Connecticut (Hamden y Stamford, además de consultas por video). Atención hormonal de afirmación de género "sin barreras", PrEP, salud sexual y gestores de casos que te guían en los cambios de nombre y documentos. 203-903-8308.
+    url: https://anchorhealthct.org/
+    phone: "203-903-8308"
+    telehealth: true
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [anchor-home, anchor-locations]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: cgs-52-571n
+    url: https://www.cga.ct.gov/current/pub/chap_925.htm#sec_52-571n
+    title: Conn. Gen. Stat. § 52-571n (action to recover damages for out-of-state judgments over gender-affirming care)
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: History - P.A. 22-118 effective July 1, 2022.
+  - id: cgs-54-155b
+    url: https://www.cga.ct.gov/current/pub/chap_962.htm#sec_54-155b
+    title: Conn. Gen. Stat. § 54-155b (no public resources for interstate investigations of gender-affirming care)
+    publisher: Connecticut General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: dph-gender-change
+    url: https://portal.ct.gov/dph/vital-records/gender-change
+    title: Gender Change (Vital Records)
+    publisher: Connecticut Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is no processing fee for amendments.
+  - id: dmv-b385
+    url: https://portal.ct.gov/-/media/DMV/20/29/B-385.pdf
+    title: Form B-385, Gender Designation on a License or Identification Card
+    publisher: Connecticut Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+  - id: glad-answers
+    url: https://www.gladlaw.org/know-your-rights/glad-law-answers/
+    title: GLAD Law Answers
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: GLAD Law Answers is a free and confidential legal information line serving LGBTQ+ people and people with HIV in New England.
+  - id: glad-ct-id
+    url: https://www.gladlaw.org/ct-id
+    title: ID Documents, Connecticut (Transgender ID Project)
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: slsct
+    url: https://slsct.org/contact-us/
+    title: Contact Us, Statewide Legal Services of Connecticut
+    publisher: Statewide Legal Services of Connecticut
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Toll-free (800) 453-3320. From Middletown and Hartford (860) 344-0380."
+  - id: anchor-home
+    url: https://anchorhealthct.org/
+    title: Anchor Health
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Need help changing your name or IDENTITY documents? Our in-house case managers can walk you step-by-step through the process.
+  - id: anchor-locations
+    url: https://anchorhealthct.org/locations-hours/
+    title: Locations and hours
+    publisher: Anchor Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
