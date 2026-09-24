@@ -1,0 +1,473 @@
+guide_type: name_change
+jurisdiction: DC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from D.C. Code §§ 16-2501 to 16-2503, Superior Court Civil Rule 205, the court's name change
+    web pages (last updated 02/12/2026), the Adult name change application packet (revised December 2023), the minor
+    packet (revised 2014/2023), and the courtwide fee waiver application (rev. January 16, 2026). The court PDFs return
+    403 to automated requests without a browser referer but load normally in a browser. Open items: (1) The court says
+    the Civil Actions Branch takes adults 21 and older and that people under 21 file at the Family Court Central
+    Intake Center. Confirm which packet 18-20 year olds use there. (2) There is no statutory sealing provision for name
+    change files. I could not confirm whether judges grant motions to seal on safety grounds. (3) Typical adult
+    timeline from filing to hearing is not published. The minor packet says 2 to 5 weeks. (4) The Adult packet says 5
+    certified copies of the order are provided at no extra charge. Confirm there is no copy fee. (5) A4TE's DC page
+    (last updated December 2021) agrees on the $60 fee, creditor notice, and no publication, but links outdated
+    2020 form URLs. (6) Trans Legal Advocates of Washington (TransLAW): translaw.org redirects to jointla.org, which
+    sits behind a captcha. The clinic is confirmed only through Whitman-Walker's page.
+status: available
+status_summary:
+  en: >-
+    DC residents can change their name in DC Superior Court for a $60 fee (a fee waiver is available). There is no
+    newspaper publication. You must mail a copy of your application to your creditors by certified mail and attend a
+    short remote hearing.
+  es: >-
+    Las personas residentes en DC pueden cambiar su nombre en el Tribunal Superior de DC por una tarifa de $60 (hay
+    exención de tarifas). No hay publicación en periódico. Debes enviar una copia de tu solicitud a tus acreedores por
+    correo certificado y asistir a una breve audiencia remota.
+summary:
+  en: |
+    DC law lets any resident ask the Superior Court for a new name (D.C. Code § 16-2501). The newspaper publication requirement was repealed in 2013. You file one application packet, and the judge decides at a short hearing held by video (Webex). The hard part is **notice**: before the hearing you must send a copy of your application and hearing notice by certified mail with return receipt to every creditor the court lists (landlord, utilities, phone company, banks, credit cards, lenders) and file proof they were delivered. Missing receipts are the most common reason hearings get postponed.
+
+    You do not need a doctor's letter to change your name. The reason "to match my gender identity" is enough.
+
+    **Where to file depends on your age.** The Civil Actions Branch takes adults 21 and older. If you are under 21, or have an open Family Court case, you file at the Family Court Central Intake Center in the same courthouse.
+
+    Separately, the court can also issue a **declaration of gender change** (useful if you were born in a state that requires a court order to fix your birth certificate). See the birth certificate guide.
+  es: |
+    La ley de DC permite que cualquier residente pida al Tribunal Superior un nuevo nombre (Código de DC § 16-2501). El requisito de publicación en periódico se derogó en 2013. Presentas un solo paquete de solicitud y el juez decide en una breve audiencia por video (Webex). La parte difícil es la **notificación**: antes de la audiencia debes enviar por correo certificado con acuse de recibo una copia de tu solicitud y del aviso de audiencia a cada acreedor que indique el tribunal (arrendador, servicios públicos, compañía telefónica, bancos, tarjetas de crédito, prestamistas) y presentar prueba de entrega.
+
+    No necesitas carta médica para cambiar tu nombre. La razón "para que coincida con mi identidad de género" es suficiente.
+
+    **Dónde presentar depende de tu edad.** La Sección de Acciones Civiles atiende a adultos de 21 años o más. Si tienes menos de 21 años, o un caso abierto en el Tribunal de Familia, presentas en el Centro de Admisión Central del Tribunal de Familia en el mismo edificio.
+eligibility:
+  residency:
+    en: You must live in DC now, wherever you were born. Bring proof of DC residency (lease, recent utility or phone bill, bank statement, pay stub, or a DC ID with your current address).
+    es: Debes vivir en DC actualmente, sin importar dónde naciste. Lleva prueba de residencia en DC.
+  age:
+    en: 18 or older to apply for yourself (21 or older to file at the Civil Actions Branch; under 21 files at Family Court). A parent, guardian, or next friend applies for a minor.
+    es: 18 años o más para presentar por tu cuenta (21 o más en la Sección de Acciones Civiles; menores de 21 en el Tribunal de Familia). Un padre, madre o tutor presenta por un menor.
+  criminal_history:
+    en: >-
+      A felony conviction, probation, parole, or supervised release does not bar a name change, but you must say so
+      on the application and mail notice to the supervising and law enforcement agencies the court names.
+    es: >-
+      Una condena por delito grave, libertad condicional o supervisión no impide el cambio de nombre, pero debes
+      indicarlo en la solicitud y notificar a las agencias que el tribunal indique.
+  sources: [dc-code-16-2501, rule-205, court-name-change-page, adult-packet]
+forms:
+  - id: adult-name-change-application
+    name:
+      en: Application for Change of Name of an Adult (full packet, revised December 2023)
+      es: Solicitud de cambio de nombre de un adulto (paquete completo)
+    url: https://www.dccourts.gov/sites/default/files/2024-01/Name_Change_Application_Full_Fillable.pdf
+    required: always
+    condition:
+      en: >-
+        One PDF with the instructions, the application, the Order and Notice of Final Hearing, the Affidavit of Service
+        by Mail, the Affidavit of Personal Service, and the Order for Change of Name.
+    how_to_fill:
+      en: |
+        - **Item 3 (reason)**: a short statement is enough, for example "to conform my name to my gender identity." You do not need a medical letter.
+        - **Items 7-8**: list every earlier legal name and other names you have used. Leaving one out can delay the case.
+        - **Item 19 (creditors)**: list every company you pay or have an account with, even if the balance is zero. The court uses this list to decide who you must notify.
+        - Sign only in front of the clerk or a notary. The packet is sworn under penalty of perjury.
+      es: |
+        - **Punto 3 (razón)**: basta una frase breve, por ejemplo "para que mi nombre coincida con mi identidad de género". No necesitas carta médica.
+        - **Puntos 7-8**: anota todos los nombres legales anteriores y otros nombres que hayas usado.
+        - **Punto 19 (acreedores)**: anota todas las empresas a las que pagas o con las que tienes cuenta, aunque el saldo sea cero.
+    sources: [adult-packet, court-name-change-page]
+  - id: minor-name-change-application
+    name:
+      en: Application for Change of Name of a Minor (Family Court)
+      es: Solicitud de cambio de nombre de un menor (Tribunal de Familia)
+    url: https://www.dccourts.gov/sites/default/files/2017-11/Minor%20%28Name%20Change%29.pdf
+    required: conditional
+    condition:
+      en: For a child. Filed by a parent, guardian, or next friend at the Family Court Central Intake Center. Includes the Consent to the Request for Change of Name for the other parent.
+      es: Para un menor. Lo presenta un padre, madre, tutor o representante en el Centro de Admisión Central del Tribunal de Familia.
+    sources: [minor-packet]
+  - id: fee-waiver-application
+    name:
+      en: Application to Waive Court Costs and Fees
+      es: Solicitud de exención de costos y tarifas judiciales
+    url: https://www.dccourts.gov/sites/default/files/2026-02/DCSC_Courtwide_Fee_Waiver%20Application.pdf
+    url_es: https://www.dccourts.gov/sites/default/files/2026-02/Spanish_Courtwide_Fee_Waiver%20Application.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $60 filing fee.
+      es: Solo si no puedes pagar la tarifa de $60.
+    how_to_fill:
+      en: |
+        - **Question 1**: check any benefit you or a dependent receive (Medicaid or DC Healthcare Alliance, SNAP, SSI, SSDI, TANF, public housing, a housing voucher, LIHEAP, and others). If you check one, skip to the Declaration.
+        - **Question 2**: if a free legal services group or DC law school clinic represents you (for example Whitman-Walker), say yes and skip to the Declaration.
+        - **Question 3 and after**: otherwise, show that your income is at or below 200% of the federal poverty guidelines, or explain your hardship.
+      es: |
+        - **Pregunta 1**: marca cualquier beneficio que recibas tú o un dependiente (Medicaid o DC Healthcare Alliance, SNAP, SSI, SSDI, TANF, vivienda pública y otros). Si marcas uno, pasa a la Declaración.
+        - **Pregunta 2**: si te representa gratis una organización de servicios legales o una clínica de una facultad de derecho de DC, marca sí.
+        - **Pregunta 3 en adelante**: si no, muestra que tu ingreso es igual o menor al 200% de las guías federales de pobreza.
+    sources: [fee-waiver-form]
+steps:
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        - Valid (unexpired) photo ID: driver's license, ID card, or passport.
+        - Proof of DC residency: lease, utility or phone bill from the last 60 days, bank statement from the last 60 days, pay stub or W-2, or a DC property tax bill.
+        - The court may also ask for your birth certificate, earlier name change orders, a marriage certificate or divorce decree, or naturalization papers. Foreign-language documents need a certified translation.
+      es: |
+        - Identificación con foto vigente: licencia, tarjeta de identificación o pasaporte.
+        - Prueba de residencia en DC: contrato de alquiler, factura de servicios o teléfono de los últimos 60 días, estado bancario, talón de pago o W-2.
+        - El tribunal también puede pedir tu acta de nacimiento, órdenes anteriores de cambio de nombre, acta de matrimonio o divorcio. Los documentos en otro idioma necesitan traducción certificada.
+    sources: [adult-packet]
+  - id: fill
+    title:
+      en: Fill out the application packet
+      es: Llena el paquete de solicitud
+    body:
+      en: >-
+        Complete the Application for Change of Name of an Adult. List all creditors in item 19. Wait to sign it until
+        you are in front of the clerk or a notary. If you need a fee waiver, fill out the Application to Waive Court
+        Costs and Fees too.
+      es: >-
+        Llena la Solicitud de cambio de nombre de un adulto. Anota a todos tus acreedores en el punto 19. Firma frente
+        al secretario o un notario. Si necesitas exención de tarifas, llena también la Solicitud de exención.
+    forms: [adult-name-change-application, fee-waiver-application]
+    sources: [adult-packet, fee-waiver-form]
+  - id: file
+    title:
+      en: File at DC Superior Court
+      es: Presenta la solicitud en el Tribunal Superior de DC
+    body:
+      en: |
+        **21 and older**: Civil Actions Branch, Moultrie Courthouse, 500 Indiana Avenue NW, Room 5000 (202-879-1133). The court's web page says you can also file online.
+        **Under 21**: Family Court Central Intake Center, same courthouse.
+
+        Pay the $60 fee (cash, card, check, or money order to "Clerk of the Courts") or hand in your fee waiver application. The clerk gives you an **Order and Notice of Final Hearing** with your hearing date. The clerk copies your documents and gives the originals back.
+      es: |
+        **21 años o más**: Sección de Acciones Civiles, Moultrie Courthouse, 500 Indiana Avenue NW, Sala 5000 (202-879-1133). La página del tribunal dice que también puedes presentar en línea.
+        **Menores de 21**: Centro de Admisión Central del Tribunal de Familia, mismo edificio.
+
+        Paga los $60 o entrega tu solicitud de exención. El secretario te dará una **Orden y Aviso de Audiencia Final** con la fecha.
+    fees: [filing]
+    sources: [court-name-change-page, adult-packet]
+  - id: notify
+    title:
+      en: Mail notice to your creditors and anyone else the court names
+      es: Notifica por correo a tus acreedores y a quien indique el tribunal
+    body:
+      en: |
+        Send a copy of the application **and** the Order and Notice of Final Hearing to everyone checked on the order, by **certified or registered mail, return receipt requested** (or have an adult who is not part of the case deliver it in person). This usually means every creditor, and it can also include probation or parole, a bankruptcy court, or an immigration court.
+
+        Keep every green return-receipt card or a USPS tracking printout showing delivery. Then fill out the **Affidavit/Declaration of Service by Mail**, attach the receipts, and file it before the hearing. Mail early, since receipts can take two weeks to come back. The minor packet says notices must go out within 10 days of filing.
+      es: |
+        Envía una copia de la solicitud **y** de la Orden y Aviso de Audiencia Final a todas las personas marcadas en la orden, por **correo certificado o registrado con acuse de recibo** (o entrega personal por un adulto que no sea parte del caso). Normalmente esto incluye a cada acreedor.
+
+        Guarda cada tarjeta verde de acuse o la impresión de seguimiento de USPS que muestre la entrega. Llena la **Declaración de notificación por correo**, adjunta los acuses y preséntala antes de la audiencia.
+    fees: [certified-mail]
+    sources: [adult-packet, rule-205, minor-packet]
+  - id: hearing
+    title:
+      en: Attend the remote hearing
+      es: Asiste a la audiencia remota
+    body:
+      en: >-
+        The final hearing is held by Webex in remote Courtroom 400. It is usually short. Anyone who objects must appear
+        or file a written objection at least 5 business days before. If you are missing proof of notice, the judge will
+        usually continue (postpone) the case, not deny it. If you do not appear, the case can be dismissed without
+        prejudice, which means you can file again.
+      es: >-
+        La audiencia final es por Webex en la Sala remota 400 y suele ser breve. Si falta prueba de notificación, el
+        juez normalmente la pospone. Si no te presentas, el caso puede desestimarse sin perjuicio (puedes volver a
+        presentar).
+    sources: [adult-packet, court-name-change-page, a4te-dc]
+  - id: order
+    title:
+      en: Get your certified orders
+      es: Obtén tus órdenes certificadas
+    body:
+      en: >-
+        If the judge grants the application, you receive at least five certified copies of the Order for Change of Name.
+        You can ask for more at the hearing. Keep them safe; each agency will want to see one.
+      es: >-
+        Si el juez concede la solicitud, recibes al menos cinco copias certificadas de la Orden de cambio de nombre.
+        Puedes pedir más en la audiencia.
+    sources: [adult-packet]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first. DC DMV will not change your name until Social Security has it.
+        2. **DC DMV** license or ID, in person (see the driver's license guide).
+        3. **Birth certificate**: if you were born in DC, you can update the name when you change the gender marker (see the birth certificate guide). Otherwise contact your birth state.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero. El DMV de DC no cambia tu nombre hasta que el Seguro Social lo tenga.
+        2. **DMV de DC**, en persona (ver la guía de licencia).
+        3. **Acta de nacimiento**: si naciste en DC, puedes actualizar el nombre junto con el marcador de género. Si no, contacta a tu estado de nacimiento.
+        4. **Pasaporte**, banco, empleo, seguro, registro de votantes, escuela.
+    sources: [dmv-name-change, adult-packet]
+fees:
+  - id: filing
+    label:
+      en: Court filing fee (adult or minor name change)
+      es: Tarifa de presentación (cambio de nombre de adulto o menor)
+    amount: 60
+    waivable: true
+    sources: [adult-packet, minor-packet]
+  - id: certified-mail
+    label:
+      en: USPS certified mail with return receipt (one per creditor or interested party)
+      es: Correo certificado de USPS con acuse de recibo (uno por acreedor o parte interesada)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by the Postal Service and charged per letter. With many creditors, this can cost more than the filing fee. A court fee waiver does not cover postage.
+      es: Lo fija el Servicio Postal por carta. Con muchos acreedores puede costar más que la tarifa del tribunal. La exención de tarifas judiciales no cubre el correo.
+    sources: [adult-packet]
+fee_waiver:
+  available: true
+  forms: [fee-waiver-application]
+  eligibility:
+    en: |
+      You qualify if **any one** is true:
+      - You or a dependent receive a listed benefit (Medicaid or DC Healthcare Alliance, SNAP, SSI, SSDI, TANF, WIC, LIHEAP, public housing or a housing voucher, and others on the form).
+      - A free legal services organization or a DC law school clinic represents you.
+      - Your income is at or below 200% of the federal poverty guidelines, or you show you cannot pay.
+    es: |
+      Calificas si se cumple **cualquiera**:
+      - Tú o un dependiente reciben un beneficio de la lista (Medicaid o DC Healthcare Alliance, SNAP, SSI, SSDI, TANF, WIC, LIHEAP, vivienda pública u otros).
+      - Te representa gratis una organización de servicios legales o una clínica de una facultad de derecho de DC.
+      - Tu ingreso es igual o menor al 200% de las guías federales de pobreza, o demuestras que no puedes pagar.
+  how:
+    en: File the application with your name change packet. The form says your financial information is kept confidential.
+    es: Presenta la solicitud junto con tu paquete de cambio de nombre. El formulario dice que tu información financiera es confidencial.
+  sources: [fee-waiver-form]
+publication:
+  required: "no"
+  detail:
+    en: >-
+      DC repealed its newspaper publication requirement in 2013 (D.C. Law 20-37, repealing D.C. Code § 16-2502).
+      Instead, the court decides who must get notice by mail, which usually means your creditors.
+    es: >-
+      DC derogó el requisito de publicación en periódico en 2013 (Ley de DC 20-37, que derogó el § 16-2502). En su
+      lugar, el tribunal decide quién debe recibir aviso por correo, normalmente tus acreedores.
+  sources: [dc-code-16-2502, rule-205]
+hearing:
+  required: "yes"
+  detail:
+    en: Court Rule 205 requires a final hearing for every name change. It is held remotely by Webex, usually on a later day than filing, and is usually brief.
+    es: La Regla 205 exige una audiencia final para cada cambio de nombre. Es remota por Webex y suele ser breve.
+  sources: [rule-205, court-name-change-page]
+background_check:
+  required: "no"
+  detail:
+    en: >-
+      No fingerprints or background check. You must disclose felony convictions, probation or parole, and sex offender
+      or gun offender registration on the application. If any apply, you must notify the agencies the court lists, and
+      the court sends the order to law enforcement.
+    es: >-
+      No hay huellas digitales ni verificación de antecedentes. Debes declarar condenas por delitos graves, libertad
+      condicional y registros en la solicitud. Si aplica, debes notificar a las agencias que indique el tribunal.
+  sources: [adult-packet, rule-205]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      DC law does not provide for automatic sealing of name change cases, and the court's forms have no sealing
+      request. The application you mail to creditors includes your old and new names. If you have safety concerns,
+      talk to a lawyer (for example Whitman-Walker Legal Services) before filing about asking the judge to limit who
+      gets notice or to seal the file. Separately, a court *gender* declaration keeps medical records out of the public
+      file by default.
+    es: >-
+      La ley de DC no prevé el sellado automático de los casos de cambio de nombre y los formularios no incluyen una
+      solicitud de sellado. Si tienes preocupaciones de seguridad, habla con un abogado antes de presentar.
+  sources: [rule-205, gender-declaration-form]
+minors:
+  summary:
+    en: |
+      A parent, guardian, or next friend files the Application for Change of Name of a Minor at the **Family Court Central Intake Center** (500 Indiana Avenue NW, or by email to FamilyCourtCIC@dcsc.gov). The fee is $60. The packet includes a **Consent** form for the other parent. If a parent will not consent or cannot be found, talk to a lawyer: the court decides who must get notice and may hold a contested hearing. Notices (including to any creditors) must go out within 10 days of filing, and the process takes about 2 to 5 weeks. The court gives two certified copies of the order.
+    es: |
+      Un padre, madre, tutor o representante presenta la Solicitud de cambio de nombre de un menor en el **Centro de Admisión Central del Tribunal de Familia** (500 Indiana Avenue NW, o por correo electrónico a FamilyCourtCIC@dcsc.gov). La tarifa es $60. El paquete incluye un formulario de **Consentimiento** para el otro padre. Si un padre no da su consentimiento o no se le encuentra, habla con un abogado. Los avisos deben enviarse dentro de 10 días y el proceso tarda de 2 a 5 semanas.
+  forms: [minor-name-change-application]
+  sources: [minor-packet, dc-code-16-2501, a4te-dc]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: >-
+      In person at the courthouse. The court's page says the application can also be completed and filed online.
+      There is an after-hours drop box in the Moultrie Courthouse lobby. Minor applications can be emailed to Family
+      Court Central Intake.
+    es: >-
+      En persona en el tribunal. La página del tribunal dice que también se puede presentar en línea. Las solicitudes
+      de menores se pueden enviar por correo electrónico al Centro de Admisión del Tribunal de Familia.
+  sources: [court-name-change-page, minor-packet]
+timeline:
+  en: Plan on several weeks from filing to hearing (the court publishes 2 to 5 weeks for minors), depending on how fast your return receipts come back.
+  es: Calcula varias semanas desde la presentación hasta la audiencia (el tribunal indica de 2 a 5 semanas para menores), según lo rápido que regresen los acuses de recibo.
+after:
+  en: >-
+    With your certified order, update Social Security first, then the DC DMV, then your birth certificate (if born in
+    DC, through DC Health Vital Records; otherwise your birth state), passport, bank, employer, and insurance.
+  es: >-
+    Con tu orden certificada, actualiza primero el Seguro Social, luego el DMV de DC, luego tu acta de nacimiento (si
+    naciste en DC, en la oficina de Registros Vitales de DC Health; si no, en tu estado de nacimiento), pasaporte,
+    banco, empleo y seguro.
+tips:
+  - en: Make a list of your creditors before you file. A missing return receipt is the most common reason hearings are postponed.
+    es: Haz una lista de tus acreedores antes de presentar. Un acuse de recibo faltante es la razón más común de que se posponga la audiencia.
+  - en: If a green card has not come back, print the USPS tracking page showing "delivered" and attach it to your affidavit instead.
+    es: Si una tarjeta verde no ha regresado, imprime la página de seguimiento de USPS que muestra "entregado" y adjúntala.
+  - en: Whitman-Walker and TransLAW run free Name and Gender Change Clinics that help with the whole process.
+    es: Whitman-Walker y TransLAW organizan clínicas gratuitas de cambio de nombre y género.
+local_help:
+  - id: whitman-walker-legal
+    name: Whitman-Walker Health, Legal Services
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help with DC name change applications, gender marker changes, and provider letters. Email contact-legal@whitman-walker.org or call to schedule an intake.
+      es: Ayuda gratuita con solicitudes de cambio de nombre en DC, cambios de marcador de género y cartas médicas.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    phone: "202-939-7630"
+    areas_served:
+      en: DC, Maryland, and Virginia
+      es: DC, Maryland y Virginia
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: translaw-clinic
+    name: Trans Legal Advocates of Washington (TransLAW) Name and Gender Change Clinics
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Volunteer legal clinics, run with Whitman-Walker, that help with court orders, licenses, passports, and birth certificates.
+      es: Clínicas legales voluntarias, junto con Whitman-Walker, que ayudan con órdenes judiciales, licencias, pasaportes y actas de nacimiento.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: dc-courts-legal-help
+    name: DC Courts, Get Legal Help
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: The court's directory of free legal help and self-help resources, including the Civil Actions Branch contact (202-879-1133).
+      es: Directorio del tribunal de ayuda legal gratuita y recursos de autoayuda.
+    url: https://www.dccourts.gov/get-legal-help
+    cost: free
+    verification: official_source
+    sources: [court-name-change-page]
+statutes:
+  - cite: D.C. Code § 16-2501
+    title:
+      en: Application; persons who may file
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2501
+  - cite: D.C. Code § 16-2502 (repealed 2013)
+    title:
+      en: Notice (publication), repealed
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2502
+  - cite: D.C. Code § 16-2503
+    title:
+      en: Decree (name change and gender declaration)
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2503
+  - cite: D.C. Super. Ct. Civ. R. 205
+    title:
+      en: Change of Name or Gender Designation
+    url: https://www.dccourts.gov/sites/default/files/rules-superior-court/Civil%20Rule%20205.%20Change%20of%20Name%20or%20Gender%20Designation.pdf
+related_links:
+  - title: A4TE, District of Columbia Identity Documents
+    url: https://transequality.org/documents/state/district-columbia
+    note:
+      en: Step-by-step guide. Last updated December 2021, so some form links are outdated.
+      es: Guía paso a paso. Actualizada por última vez en diciembre de 2021.
+sources:
+  - id: dc-code-16-2501
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2501
+    title: D.C. Code § 16-2501, Application; persons who may file
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Whoever, being a resident of the District and desiring a change of name, may file an application in the Superior Court setting forth the reasons therefor
+  - id: dc-code-16-2502
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2502
+    title: D.C. Code § 16-2502, Notice; contents [Repealed]
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "[Repealed]. (... Nov. 5, 2013, D.C. Law 20-37, § 3(b) ...)"
+  - id: rule-205
+    url: https://www.dccourts.gov/sites/default/files/rules-superior-court/Civil%20Rule%20205.%20Change%20of%20Name%20or%20Gender%20Designation.pdf
+    title: Superior Court Civil Rule 205, Change of Name or Gender Designation
+    publisher: Superior Court of the District of Columbia
+    kind: court
+    accessed: "2026-09-24"
+    quote: The court must hold a final hearing on the application.
+  - id: court-name-change-page
+    url: https://www.dccourts.gov/superior-court/superior-court-divisions/civil-division/name-changes-gender-marker-changes-and-vital-records-amendments/application-for-name-change
+    title: Application for Change of Name
+    publisher: DC Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: >-
+      The Civil Actions Branch handles name change applications for adults age 21 and older. Applicants under the age
+      of 21 or with an open Family Court case should apply at the Family Court Central Intake Center.
+  - id: adult-packet
+    url: https://www.dccourts.gov/sites/default/files/2024-01/Name_Change_Application_Full_Fillable.pdf
+    title: Application for Change of Name for an Adult (revised December 2023)
+    publisher: Superior Court of the District of Columbia
+    kind: form
+    accessed: "2026-09-24"
+    quote: The cost the filing and Application for Change of Name of an Adult is $60.00
+  - id: minor-packet
+    url: https://www.dccourts.gov/sites/default/files/2017-11/Minor%20%28Name%20Change%29.pdf
+    title: Application for Change of Name of a Minor
+    publisher: Superior Court of the District of Columbia, Family Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: The process may take approximately 2 -to- 5 weeks to complete.
+  - id: fee-waiver-form
+    url: https://www.dccourts.gov/sites/default/files/2026-02/DCSC_Courtwide_Fee_Waiver%20Application.pdf
+    title: Application to Waive Court Costs and Fees (rev. January 16, 2026)
+    publisher: Superior Court of the District of Columbia
+    kind: form
+    accessed: "2026-09-24"
+    quote: I believe that my monthly income does not exceed 200% of the federal poverty guidelines
+  - id: gender-declaration-form
+    url: https://www.dccourts.gov/sites/default/files/2020-12/Application-for-Gender-Marker-Change_0.pdf
+    title: Application for Declaratory Judgment Reflecting a Change of Gender
+    publisher: Superior Court of the District of Columbia
+    kind: form
+    accessed: "2026-09-24"
+    quote: unless otherwise requested by Applicant, any medical records filed along with this application will be redacted
+  - id: dmv-name-change
+    url: https://dmv.dc.gov/page/name-changes-and-corrections
+    title: Name Changes and Corrections
+    publisher: DC Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: If your name has changed, you must first change or correct your name with the Social Security Administration
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Healthcare Legal Services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer Name and Gender Change Clinics in collaboration with TransLAW
+  - id: a4te-dc
+    url: https://transequality.org/documents/state/district-columbia
+    title: District of Columbia Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The most common reason for name changes to be denied in DC is because of procedural problems with the notification requirement

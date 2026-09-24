@@ -1,0 +1,196 @@
+guide_type: drivers_license
+jurisdiction: DC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Policy and form read 2026-09-24 from the DMV Gender Self-Designation Form publication page (form rev. 06/13/2017,
+    English and Spanish PDFs resolve). Fees come from the DMV Driver License Fees page ($20 duplicate license, $20
+    duplicate ID; a 2.5% card service fee since December 15, 2025). Name change rules come from the DMV "Name
+    Changes and Corrections" page. Reviewer: (1) the procedure sheet says a new photo is required, so I treated a
+    gender change as in person only. Confirm no online path exists. (2) Confirm the duplicate fee is what DMV charges
+    for a gender or name change (the fee page has no separate "correction" line). (3) A4TE's page (December 2021)
+    says the marker is chosen on the general DL/ID application. The DMV still publishes the separate
+    self-designation form, which I used. No 2025-2026 DC law or policy change found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    In DC you can choose M, F, or X on your driver's license or ID by signing the DMV's one-page Gender Self-Designation
+    Form. No doctor's letter, court order, or matching birth certificate is needed. You do it in person, and a new photo
+    is taken.
+  es: >-
+    En DC puedes elegir M, F o X en tu licencia o identificación firmando el formulario de Autodesignación de Género del
+    DMV, de una página. No necesitas carta médica, orden judicial ni acta de nacimiento que coincida. Se hace en persona
+    y se toma una foto nueva.
+summary:
+  en: |
+    Since June 2017, DC DMV has let you choose the gender marker that fits you best: **M**, **F**, or **X** (unspecified/other). Anyone can pick X, including people who simply do not want to disclose their gender. DMV staff may not ask for medical information, and you do not need to have changed any other document first.
+
+    Changing your **name** is a separate step. Update Social Security first, then bring your original court order to a DMV service center. You can do both at the same visit.
+  es: |
+    Desde junio de 2017, el DMV de DC te permite elegir el marcador de género que mejor te describa: **M**, **F** o **X** (no especificado/otro). Cualquier persona puede elegir X. El personal del DMV no puede pedir información médica, y no necesitas haber cambiado ningún otro documento antes.
+
+    Cambiar tu **nombre** es un paso aparte. Primero actualiza el Seguro Social y luego lleva tu orden judicial original a un centro de servicio del DMV. Puedes hacer ambos en la misma visita.
+eligibility:
+  residency:
+    en: For a DC license or ID, you must be a DC resident. If you do not already have a REAL ID or Limited Purpose card, you will also need identity, Social Security, and two DC residency documents.
+    es: Para una licencia o identificación de DC debes residir en DC. Si aún no tienes REAL ID o credencial de Propósito Limitado, necesitarás también documentos de identidad, Seguro Social y dos de residencia.
+  sources: [dmv-name-change, dmv-replace]
+forms:
+  - id: gender-self-designation
+    name:
+      en: Gender Self-Designation Form
+      es: Formulario de Autodesignación de Género
+    url: https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/DC%20DMV%20Form%20Gender%20Self-Designation%20English.pdf
+    url_es: https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/DC%20DMV%20Form%20Gender%20%20Self-Designation_Spanish.pdf
+    required: conditional
+    condition:
+      en: Only if you are changing the gender marker.
+      es: Solo si cambias el marcador de género.
+    how_to_fill:
+      en: |
+        - Fill in your name, Social Security number, license or ID number, and DC address.
+        - Circle **M**, **F**, or **X (Unspecified/Other)**.
+        - Sign and date. You are certifying the request is not for fraud; no other proof is needed.
+      es: |
+        - Escribe tu nombre, número de Seguro Social, número de licencia o identificación y dirección en DC.
+        - Encierra en un círculo **M**, **F** o **X (No especificado/Otro)**.
+        - Firma y pon la fecha. No se necesita otra prueba.
+    sources: [dmv-gender-form, dmv-gender-pdf]
+steps:
+  - id: ssa-first
+    title:
+      en: If you changed your name, update Social Security first
+      es: Si cambiaste tu nombre, actualiza primero el Seguro Social
+    body:
+      en: DC DMV will not change the name on your card until the Social Security Administration has your new name. Bring your certified court order to Social Security.
+      es: El DMV de DC no cambia el nombre en tu tarjeta hasta que el Seguro Social tenga tu nuevo nombre. Lleva tu orden judicial certificada al Seguro Social.
+    applies_to: [name_change]
+    sources: [dmv-name-change]
+  - id: fill-form
+    title:
+      en: Fill out the Gender Self-Designation Form
+      es: Llena el formulario de Autodesignación de Género
+    body:
+      en: Circle M, F, or X and sign. The form is also available in Spanish, Amharic, Chinese, French, Korean, and Vietnamese.
+      es: Encierra M, F o X y firma. El formulario también está disponible en español y otros idiomas.
+    forms: [gender-self-designation]
+    applies_to: [gender_marker]
+    sources: [dmv-gender-form]
+  - id: visit
+    title:
+      en: Visit a DMV service center
+      es: Acude a un centro de servicio del DMV
+    body:
+      en: |
+        Bring:
+        - Your current DC license or ID.
+        - The signed Gender Self-Designation Form (for a marker change).
+        - Your **original** certified court order (for a name change). DMV does not accept photocopies or scans.
+        - If your current card is not a REAL ID (no star), also bring original proof of identity, Social Security number, and two DC residency documents.
+
+        A new photo is taken. Present however you like; the photo does not need to match any gender.
+      es: |
+        Lleva:
+        - Tu licencia o identificación actual de DC.
+        - El formulario firmado (para el cambio de marcador).
+        - Tu orden judicial certificada **original** (para el cambio de nombre). El DMV no acepta fotocopias.
+        - Si tu tarjeta no es REAL ID (sin estrella), lleva también prueba original de identidad, número de Seguro Social y dos documentos de residencia en DC.
+
+        Se toma una foto nueva. Preséntate como quieras.
+    fees: [duplicate-license, duplicate-id]
+    applies_to: [in_person]
+    sources: [dmv-gender-pdf, dmv-name-change, dmv-fees]
+fees:
+  - id: duplicate-license
+    label:
+      en: Duplicate driver's license
+      es: Duplicado de licencia de conducir
+    amount: 20
+    note:
+      en: Paying by card adds a 2.5% service fee (since December 15, 2025).
+      es: Pagar con tarjeta agrega un cargo de servicio de 2.5%.
+    sources: [dmv-fees]
+  - id: duplicate-id
+    label:
+      en: Duplicate non-driver ID card
+      es: Duplicado de tarjeta de identificación
+    amount: 20
+    note:
+      en: First-time and renewal ID cards are free for residents 65 and older, residents experiencing homelessness, and people released from incarceration within the last 6 months.
+      es: Las tarjetas de identificación nuevas o renovadas son gratis para personas de 65 años o más, personas sin hogar y personas liberadas en los últimos 6 meses.
+    sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at a DC DMV service center, because a new photo is taken and a name change needs original documents.
+    es: En persona en un centro de servicio del DMV de DC, porque se toma una foto nueva y el cambio de nombre requiere documentos originales.
+  sources: [dmv-gender-pdf, dmv-name-change]
+timeline:
+  en: Done in one visit. DMV typically mails the permanent card afterward.
+  es: Se hace en una visita. El DMV normalmente envía la tarjeta permanente por correo después.
+after:
+  en: >-
+    Your DC license or ID does not have to match your other documents. If you were born in DC, you can update your birth
+    certificate next (see the birth certificate guide).
+  es: >-
+    Tu licencia o identificación de DC no tiene que coincidir con tus otros documentos. Si naciste en DC, puedes
+    actualizar tu acta de nacimiento después (ver la guía del acta de nacimiento).
+tips:
+  - en: If a DMV employee asks for medical proof, ask for a supervisor. DMV policy forbids asking for anything beyond the form.
+    es: Si un empleado del DMV pide pruebas médicas, pide hablar con un supervisor. La política del DMV prohíbe pedir algo más que el formulario.
+  - en: Some federal agencies and other states do not recognize X. Think about travel and federal paperwork before you choose.
+    es: Algunas agencias federales y otros estados no reconocen la X. Tenlo en cuenta antes de elegir.
+statutes:
+  - cite: DC DMV Gender Self-Designation policy (2017)
+    url: https://dmv.dc.gov/publication/gender-self-designation-form
+related_links:
+  - title: A4TE, District of Columbia Identity Documents
+    url: https://transequality.org/documents/state/district-columbia
+    note:
+      en: Last updated December 2021.
+sources:
+  - id: dmv-gender-form
+    url: https://dmv.dc.gov/publication/gender-self-designation-form
+    title: Gender Self-Designation Form (publication page)
+    publisher: DC Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Gender Self-Designation form contains private medical information and will be kept confidential
+  - id: dmv-gender-pdf
+    url: https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/DC%20DMV%20Form%20Gender%20Self-Designation%20English.pdf
+    title: Procedure for Establishing or Changing Gender Designation on a Driver License or Identification Card, and Gender Self-Designation Form (rev. 06/13/2017)
+    publisher: DC Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      Employees shall not request additional gender-related information beyond the Gender Designation Form ... An
+      applicant is not required to have already changed their gender designation on their birth certificate
+  - id: dmv-name-change
+    url: https://dmv.dc.gov/page/name-changes-and-corrections
+    title: Name Changes and Corrections
+    publisher: DC Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: You must bring original documents. DC DMV cannot accept photocopies or scanned documents.
+  - id: dmv-replace
+    url: https://dmv.dc.gov/service/replace-real-id-or-limited-purpose-driver-license
+    title: Replace a REAL ID or Limited Purpose Driver License
+    publisher: DC Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: dmv-fees
+    url: https://dmv.dc.gov/book/dmv-fees/dmv-fees-6
+    title: Driver License Fees
+    publisher: DC Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Duplicate Driver License $20 Duplicate Non-Driver ID Card $20

@@ -1,0 +1,240 @@
+guide_type: birth_certificate
+jurisdiction: DC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Law: D.C. Code § 7-231.22 (Vital Records Modernization Amendment Act, D.C. Law 22-164, 2018), read 2026-09-24. It
+    requires a signed provider statement, so this is NOT self-attestation, despite the task brief's premise. MAP also
+    scores DC 0.75/1 for this reason. Process: DC Health "Amending a Record" page and the Gender Designation
+    Application (rev. 02/19/2021). Open items: (1) MARKERS: the 2021 application and provider statement offer "Male,
+    Female, Unknown". MAP lists a gender-neutral birth certificate option for DC. I recorded X for the third option.
+    Confirm with Vital Records ((877) 572-6332, option 5) what the certificate actually prints. (2) FEES: the
+    application says $51 total ($28 amendment + $23 certified copy). The DC Health fee schedule currently linked
+    (dated January 2018) lists "Amendment to a birth record" at $23 and "Adoption processing" at $28. I used the
+    application's figures; confirm. (3) ADDRESS: the 2021 application says to mail to 899 North Capitol St NE, but the
+    current amending page says Vital Records moved to 2201 Shannon Place SE and that all amendments go by remote
+    (mail) order. I used the current address. (4) Processing: "up to three business days" after receipt, per the
+    application. Mail time is extra.
+status: available
+requirement_type: provider_letter_any
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in DC, DC Health will issue a new birth certificate with your gender (and new name, if you have a
+    court order). You need a signed statement from any of several kinds of licensed provider (not only a doctor).
+    Surgery is not required, and the new certificate does not show that it was changed.
+  es: >-
+    Si naciste en DC, DC Health emite una nueva acta de nacimiento con tu género (y tu nuevo nombre, si tienes orden
+    judicial). Necesitas una declaración firmada por un proveedor de salud con licencia de varios tipos (no solo un
+    médico). No se requiere cirugía, y la nueva acta no muestra que fue cambiada.
+summary:
+  en: |
+    Under D.C. Code § 7-231.22, the DC Registrar creates a **new** birth record with your gender, and your new name if you include a court order. The new certificate is not marked "amended". The original and your supporting papers are sealed.
+
+    You need two signed pages from the Gender Designation Application: your own request, **signed in front of a notary**, and a statement from a licensed healthcare provider who has treated you or reviewed your history. The provider can be a physician, osteopathic physician, psychologist, licensed clinical social worker (LICSW or LCSW), licensed professional counselor, or nurse practitioner, licensed in any US state or foreign country. They confirm you have had "surgical, hormonal, or other treatment appropriate for the individual" for gender transition. **Surgery is not required**, and no other medical records are requested.
+
+    **Born outside DC?** This guide only covers DC birth certificates. Contact the state or country where you were born. If that place requires a court order, a DC resident can ask DC Superior Court for one (D.C. Code § 16-2503(b)(2)).
+  es: |
+    Según el Código de DC § 7-231.22, el Registro de DC crea un acta **nueva** con tu género, y tu nuevo nombre si incluyes una orden judicial. La nueva acta no dice "enmendada". El original y tus documentos quedan sellados.
+
+    Necesitas dos páginas firmadas de la Solicitud de Designación de Género: tu propia solicitud, **firmada ante notario**, y una declaración de un proveedor de salud con licencia que te haya atendido o haya revisado tu historial. Puede ser médico, médico osteópata, psicólogo, trabajador social clínico con licencia (LICSW o LCSW), consejero profesional con licencia o enfermero practicante, con licencia en cualquier estado de EE. UU. o país extranjero. **No se requiere cirugía.**
+
+    **¿Naciste fuera de DC?** Esta guía solo cubre actas de DC. Contacta al estado o país donde naciste. Si ese lugar exige una orden judicial, una persona residente de DC puede pedirla al Tribunal Superior de DC (§ 16-2503(b)(2)).
+eligibility:
+  residency:
+    en: You must have been born in DC. You do not have to live in DC now.
+    es: Debes haber nacido en DC. No necesitas vivir en DC ahora.
+  age:
+    en: Adults apply for themselves. For a minor, a parent, guardian, or legal representative signs the request, with the same provider statement.
+    es: Los adultos presentan por sí mismos. Para un menor, firma un padre, madre, tutor o representante legal, con la misma declaración del proveedor.
+  other:
+    en: If you already changed the gender on your DC birth certificate once, a second change requires a court order.
+    es: Si ya cambiaste el género en tu acta de DC una vez, un segundo cambio requiere orden judicial.
+  sources: [dc-code-7-231-22, dc-code-16-2503, gda-form]
+forms:
+  - id: gender-designation-application
+    name:
+      en: Gender Designation Application (with model letter and instructions)
+      es: Solicitud de Designación de Género (con carta modelo e instrucciones)
+    url: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/page_content/attachments/Gender%20Designation%20Application_0.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Page 2 (your application)**: fill in your name as it appears on the birth record, date of birth, and certificate number if you know it. Check the marker you want. Answer whether the gender was changed before (if yes, you need a court order). **Do not sign until you are in front of a notary.** Use the mailing address where you want the new certificate sent.
+        - **Page 3 (provider statement)**: your provider fills in their license type, license number, and issuing state or country, checks the marker, and signs. No other letter or records are needed.
+        - Name change at the same time: attach the original or a certified copy of your court order.
+      es: |
+        - **Página 2 (tu solicitud)**: escribe tu nombre como aparece en el acta, fecha de nacimiento y número de acta si lo sabes. Marca el género que quieres. **No firmes hasta estar frente a un notario.**
+        - **Página 3 (declaración del proveedor)**: tu proveedor anota su tipo y número de licencia, marca el género y firma.
+        - Si también cambias el nombre, adjunta el original o una copia certificada de tu orden judicial.
+    sources: [gda-form]
+steps:
+  - id: provider-statement
+    title:
+      en: Get the provider statement signed
+      es: Pide que tu proveedor firme la declaración
+    body:
+      en: >-
+        Give page 3 of the application to a licensed provider who treats you or has reviewed your history (your
+        hormone prescriber, primary care provider, therapist, or social worker all qualify). If you do not have one,
+        Whitman-Walker's legal team can help you get a letter.
+      es: >-
+        Entrega la página 3 a un proveedor con licencia que te atienda o haya revisado tu historial (quien te receta
+        hormonas, tu médico de cabecera, terapeuta o trabajador social califican).
+    forms: [gender-designation-application]
+    sources: [gda-form, ww-legal]
+  - id: notarize
+    title:
+      en: Sign your application in front of a notary
+      es: Firma tu solicitud ante un notario
+    body:
+      en: Many banks, UPS stores, and public libraries offer notary service, often free for customers. DC Health will reject an application whose signature is not notarized.
+      es: Muchos bancos y bibliotecas ofrecen servicio de notario, a menudo gratis. DC Health rechaza solicitudes sin firma notariada.
+    sources: [gda-form, dchealth-amend]
+  - id: mail
+    title:
+      en: Mail the packet to DC Vital Records
+      es: Envía el paquete por correo a Registros Vitales de DC
+    body:
+      en: |
+        Send:
+        - The notarized application and the signed provider statement.
+        - Clear photocopies of your identification, following DC Health's Remote Identity Guidelines (three forms of ID, at least one from the primary list, all showing your name).
+        - The original or a certified copy of your court order, if you are changing your name too.
+
+        Mail to: DC Health Vital Records Division, Customer Service and Certification Operations Unit, 2201 Shannon Pl. SE, 1st Floor, Washington, DC 20020. DC Health tells you how to pay (card, or check or money order to "DC Treasurer") once the amendment is approved.
+      es: |
+        Envía la solicitud notariada, la declaración firmada, fotocopias claras de tu identificación según las Guías de Identidad Remota de DC Health (tres formas, al menos una de la lista principal) y tu orden judicial si cambias el nombre.
+
+        Dirección: DC Health Vital Records Division, Customer Service and Certification Operations Unit, 2201 Shannon Pl. SE, 1st Floor, Washington, DC 20020. DC Health te indicará cómo pagar una vez aprobada la enmienda.
+    fees: [new-record, certified-copy]
+    applies_to: [by_mail]
+    sources: [dchealth-amend, gda-form]
+  - id: receive
+    title:
+      en: Receive your new certificate
+      es: Recibe tu nueva acta
+    body:
+      en: Processing takes up to three business days after DC Health receives it, plus mailing time. The new certificate does not say it was amended.
+      es: El trámite tarda hasta tres días hábiles después de que DC Health lo recibe, más el tiempo de envío. La nueva acta no dice que fue enmendada.
+    estimated_time:
+      en: about 1 to 3 weeks including mail
+      es: de 1 a 3 semanas aproximadamente, con el correo
+    sources: [gda-form]
+fees:
+  - id: new-record
+    label:
+      en: New birth record (gender designation)
+      es: Nuevo registro de nacimiento (designación de género)
+    amount: 28
+    note:
+      en: From the Gender Designation Application. DC Health's older fee schedule lists a birth record amendment at $23; confirm the current amount when you apply.
+      es: Según la Solicitud. La lista de tarifas anterior de DC Health indica $23 por enmienda; confirma el monto actual.
+    sources: [gda-form, dchealth-fees]
+  - id: certified-copy
+    label:
+      en: Certified copy of the new birth certificate (each)
+      es: Copia certificada de la nueva acta (cada una)
+    amount: 23
+    note:
+      en: You must pay for at least one copy to receive the new certificate.
+      es: Debes pagar al menos una copia para recibir la nueva acta.
+    sources: [gda-form, dchealth-fees, dchealth-amend]
+fee_waiver:
+  available: false
+  how:
+    en: DC Health does not publish a fee waiver for birth certificate changes. If cost is a barrier, ask Whitman-Walker Legal Services about help.
+    es: DC Health no publica una exención de tarifas para cambios del acta. Si el costo es un problema, pide ayuda a Whitman-Walker.
+  sources: [dchealth-fees, ww-legal]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: DC Health currently accepts amendments only by remote (mail) order.
+    es: Actualmente DC Health acepta enmiendas solo por correo.
+  sources: [dchealth-amend]
+timeline:
+  en: Up to three business days to process after receipt, plus mailing both ways.
+  es: Hasta tres días hábiles después de recibirla, más el correo de ida y vuelta.
+after:
+  en: >-
+    Use your new birth certificate to update your passport or other records. Your DC driver's license does not require
+    a matching birth certificate.
+  es: >-
+    Usa tu nueva acta para actualizar tu pasaporte u otros registros. Tu licencia de DC no requiere un acta que
+    coincida.
+tips:
+  - en: Order extra certified copies with your application. Buying them later costs the same, but you pay shipping again.
+    es: Pide copias certificadas adicionales con tu solicitud.
+  - en: If DC Health rejects your request, keep the rejection letter. You need it to ask DC Superior Court to order the change.
+    es: Si DC Health rechaza tu solicitud, guarda la carta de rechazo. La necesitas para pedir al Tribunal Superior que ordene el cambio.
+statutes:
+  - cite: D.C. Code § 7-231.22
+    title:
+      en: New records of live birth for change of gender designation
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/7-231.22
+  - cite: D.C. Code § 16-2503(b)
+    title:
+      en: Court declaration of gender change and orders to other birth jurisdictions
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2503
+related_links:
+  - title: A4TE, District of Columbia Identity Documents
+    url: https://transequality.org/documents/state/district-columbia
+    note:
+      en: Last updated December 2021.
+sources:
+  - id: dc-code-7-231-22
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/7-231.22
+    title: D.C. Code § 7-231.22, New records of live birth for change of gender designation
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      A new record of live birth shall ... Not be marked "amended" ... The original record of live birth, along with
+      any documents submitted pursuant to this section, shall be sealed
+  - id: dc-code-16-2503
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/16-2503
+    title: D.C. Code § 16-2503, Decree
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Any District resident who was born in a state or foreign jurisdiction that requires a court order to amend a
+      birth certificate ... may request a court order by the Superior Court
+  - id: gda-form
+    url: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/page_content/attachments/Gender%20Designation%20Application_0.pdf
+    title: Gender Designation Application (with model letter and instructions), revised 02/19/2021
+    publisher: DC Health, Vital Records Division
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      Sexual reassignment surgery is not a prerequisite for changing the gender marker on a birth certificate. ...
+      Payment of $51.00 which includes amending the birth record ($28.00) + (1) certified copy of birth certificate
+      ($23.00)
+  - id: dchealth-amend
+    url: https://dchealth.dc.gov/service/amending-records
+    title: Amending a Record
+    publisher: DC Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: amendments to vital records may only be requested through remote order services
+  - id: dchealth-fees
+    url: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/publication/attachments/Fee%20Schedule.pdf
+    title: Vital Records Fee Schedule
+    publisher: DC Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Amendment to a birth record processing $23.00 ... Birth certificate $23.00
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Healthcare Legal Services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: We can also help clients to collect needed letters from your medical providers and to seek assistance with court fees

@@ -1,0 +1,315 @@
+jurisdiction: DC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read 2026-09-24: shield law (D.C. Law 24-257, D.C. Code § 2-1461.01 et seq.), insurance
+    nondiscrimination (D.C. Code § 31-2231.11(c), with DISB Bulletin 13-IB-01-30/15 revised Feb 27, 2014; the
+    bulletin PDF is a scanned image that I read by OCR). Open items: (1) MEDICAID: I could not load any DHCF page on
+    gender-affirming coverage (DHCF search returns "Access denied"). Coverage of hormones and surgery is based on MAP
+    ("Medicaid policy explicitly includes coverage") and Whitman-Walker's surgery navigation page, which describes DC
+    Medicaid's letter requirements. Find the DHCF policy or transmittal and cite it. (2) MINORS: no DC law restricts
+    care for minors, so minor_care is "available". But Children's National Hospital, the main pediatric gender clinic
+    in the District, stopped prescribing gender-affirming medications on August 30, 2025, "in light of escalating
+    legal and regulatory risks" (its own page). Whitman-Walker's FAQ still describes a youth pathway (ages 10-24, with
+    parental consent and a mental health assessment). Confirm it is still active in 2026. (3) FEDERAL: WebSearch was
+    unavailable, so I could not check for 2025-2026 federal rules (for example CMS conditions of participation for
+    hospitals), congressional riders, or disapproval resolutions aimed at DC's shield law or care for minors. Congress
+    can override DC law. Check before review. (4) Planned Parenthood of Metropolitan Washington lists gender-affirming
+    care at its DC center; the minimum age was not stated. (5) HIPS lists "Hormones" among clinic services; I could not
+    confirm eligibility. (6) La Clínica del Pueblo, SMYAL, and the DC Center sites blocked automated access, so those
+    entries are community_reported.
+status_summary:
+  en: >-
+    Gender-affirming care is legal in DC for adults and minors, and a 2022 shield law keeps DC government from helping
+    other states punish patients or providers. DC Medicaid covers hormones and surgery, and insurers regulated by DC
+    may not exclude transition care. Care for minors has become harder to find: Children's National Hospital stopped
+    prescribing gender-affirming medications in August 2025 because of federal legal risk.
+  es: >-
+    La atención de afirmación de género es legal en DC para adultos y menores, y una ley escudo de 2022 impide que el
+    gobierno de DC ayude a otros estados a castigar a pacientes o proveedores. Medicaid de DC cubre hormonas y cirugía,
+    y las aseguradoras reguladas por DC no pueden excluir la atención de transición. Para menores es más difícil
+    encontrar atención: el Children's National Hospital dejó de recetar medicamentos de afirmación de género en agosto
+    de 2025 por riesgo legal federal.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No DC restriction. Whitman-Walker Health follows an **informed consent** model for adults 18 and older, so no therapist letter is needed to start hormones. Planned Parenthood's DC center and HIPS also list hormone care. Telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **DC Medicaid**. It covers hormones, labs, and surgery.
+      2. Go to **Whitman-Walker** or another community health center. They charge on a sliding scale and help with insurance enrollment. Find others at findahealthcenter.hrsa.gov.
+      3. **Point of Pride's HRT Access Fund** pays for telehealth hormone care (applications each May).
+    es: |
+      Sin restricciones en DC. Whitman-Walker Health sigue un modelo de **consentimiento informado** para adultos de 18 años o más, así que no necesitas carta de terapeuta para empezar hormonas. El centro de Planned Parenthood en DC y HIPS también ofrecen atención hormonal. La telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid de DC**. Cubre hormonas, laboratorios y cirugía.
+      2. Acude a **Whitman-Walker** u otro centro de salud comunitario, que cobran en escala móvil. Busca otros en findahealthcenter.hrsa.gov.
+      3. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes cada mayo).
+  sources: [ww-trans-care, pp-dc, hips, hrsa, pop-hrt, map-medicaid]
+minor_care:
+  status: available
+  detail:
+    en: |
+      **Legal in DC.** No DC law bans or limits gender-affirming care for minors, and the Human Rights Sanctuary Amendment Act of 2022 bars DC agencies from helping other states investigate or punish anyone for providing, receiving, or helping with gender-affirming care. DC also lets people sue anyone who wins a judgment against them elsewhere over this care.
+
+      **Access is limited in practice.** Children's National Hospital stopped prescribing gender-affirming medications (puberty blockers and hormones) on August 30, 2025, citing escalating legal and regulatory risks. Its mental health and support services continue. Whitman-Walker serves young people ages 10 to 24. For people under 18, it requires parental consent and a mental health assessment before starting medication. Call ahead to confirm current availability.
+    es: |
+      **Legal en DC.** Ninguna ley de DC prohíbe ni limita la atención de afirmación de género para menores, y la Ley de Santuario de Derechos Humanos de 2022 impide que las agencias de DC ayuden a otros estados a investigar o castigar a nadie por brindar, recibir o apoyar esta atención.
+
+      **En la práctica el acceso es limitado.** El Children's National Hospital dejó de recetar medicamentos de afirmación de género el 30 de agosto de 2025, citando riesgos legales y regulatorios crecientes. Sus servicios de salud mental y apoyo continúan. Whitman-Walker atiende a jóvenes de 10 a 24 años. Para menores de 18 requiere consentimiento de los padres y una evaluación de salud mental antes de empezar medicamentos. Llama antes para confirmar.
+  sources: [shield-law, childrens-national, ww-trans-care]
+medicaid:
+  program_name: DC Medicaid
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: >-
+      DC Medicaid covers gender-affirming hormones and surgery. For surgery above the waist, Whitman-Walker reports that
+      DC Medicaid requires one letter from a behavioral health clinician and one from your medical provider. For
+      genital surgery, it requires letters from two independent behavioral health clinicians. Prior authorization is
+      required. Apply through District Direct or at an Income Maintenance Administration (IMA) service center
+      ((202) 727-5355 to find one).
+    es: >-
+      Medicaid de DC cubre hormonas y cirugía de afirmación de género. Para cirugía por encima de la cintura, según
+      Whitman-Walker, se necesita una carta de un clínico de salud conductual y otra de tu proveedor médico. Para
+      cirugía genital se necesitan cartas de dos clínicos de salud conductual independientes. Se requiere autorización
+      previa. Solicita en District Direct o en un centro de servicio (llama al (202) 727-5355).
+  how_to_apply_url: https://districtdirect.dc.gov/
+  sources: [map-medicaid, ww-trans-care, dhcf-medicaid]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      D.C. Code § 31-2231.11(c) bars insurers from limiting coverage because of gender identity or expression. The Department of Insurance, Securities and Banking (DISB) says exclusions like "sex change" or "sex transformation" are prohibited, and that medically necessary treatment for gender dysphoria, **including surgery**, is a covered benefit. Insurers must judge medical necessity using the WPATH Standards of Care (Bulletin 13-IB-01-30/15, revised February 27, 2014).
+
+      This covers plans sold or delivered in DC (individual, small group, large group). It does **not** cover self-funded employer (ERISA) plans or federal employee plans. If your DC-regulated plan denies care, appeal and file a complaint with DISB.
+    es: |
+      El Código de DC § 31-2231.11(c) prohíbe a las aseguradoras limitar la cobertura por identidad o expresión de género. El Departamento de Seguros, Valores y Banca (DISB) dice que las exclusiones de "cambio de sexo" están prohibidas y que el tratamiento médicamente necesario de la disforia de género, **incluida la cirugía**, es un beneficio cubierto.
+
+      Esto aplica a planes vendidos o entregados en DC. **No** aplica a planes de empleadores autofinanciados (ERISA) ni a planes federales. Si tu plan regulado por DC niega la atención, apela y presenta una queja ante DISB.
+  complaint_url: https://disb.dc.gov/complaints
+  sources: [disb-bulletin, dc-code-31-2231-11, disb-complaints]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: whitman-walker
+    name: Whitman-Walker Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: >-
+        DC's largest LGBTQ health center. Informed-consent hormones for adults, a youth program (ages 10-24), surgery
+        navigation, PrEP, HIV care, behavioral health, insurance navigation, and free legal services. Locations at
+        1377 R St NW and 1201 Sycamore Dr SE.
+      es: >-
+        El centro de salud LGBTQ más grande de DC. Hormonas por consentimiento informado para adultos, programa juvenil
+        (10-24 años), acompañamiento para cirugía, PrEP, atención de VIH, salud conductual, ayuda con seguros y servicios
+        legales gratuitos.
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/transgender-care/
+    phone: "202-745-7000"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [ww-trans-care]
+  - id: pp-metro-washington
+    org: planned-parenthood
+    name: Planned Parenthood of Metropolitan Washington, Carol Whitehill Moses Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care (in person and telehealth), STD testing, and HIV services. Minimum age for hormone care not stated; call to confirm.
+      es: Ofrece atención de afirmación de género (en persona y por telesalud), pruebas de ETS y servicios de VIH. No indica la edad mínima para hormonas; llama para confirmar.
+    url: https://www.plannedparenthood.org/health-center/district-of-columbia/washington/20002/carol-whitehill-moses-center-4221-90230
+    address: 1225 4th St NE, Washington, DC 20002
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pp-dc]
+  - id: hips
+    name: HIPS
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Harm reduction organization with a clinic offering hormones, HIV and hepatitis C testing, and medication care, plus a 24/7 hotline (1-800-676-4477) and supply delivery.
+      es: Organización de reducción de daños con clínica que ofrece hormonas, pruebas de VIH y hepatitis C, y una línea 24/7 (1-800-676-4477).
+    url: https://www.hips.org/
+    phone: "1-800-676-4477"
+    cost: free
+    verification: org_website
+    sources: [hips]
+  - id: la-clinica-del-pueblo
+    name: La Clínica del Pueblo
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Community health center serving the Latino community, with Spanish-language primary care, behavioral health, and LGBTQ programs.
+      es: Centro de salud comunitario para la comunidad latina, con atención primaria en español, salud conductual y programas LGBTQ.
+    url: https://www.lcdp.org/
+    cost: sliding_scale
+    languages: [es, en]
+    verification: community_reported
+    sources: [lcdp]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which see you regardless of insurance and charge on a sliding scale.
+      es: Localizador oficial de centros de salud comunitarios, que te atienden sin importar tu seguro y cobran en escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-dc
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for telehealth hormone therapy for people who cannot afford it.
+      es: Fondo nacional que paga terapia hormonal por telesalud a quienes no pueden costearla.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-dc
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and other transition costs.
+      es: Pequeñas becas para cirugía y otros costos de transición.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free guides and templates for appealing insurance denials of gender-affirming care.
+      es: Guías y plantillas gratuitas para apelar negaciones de seguro.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: D.C. Code § 2-1461.01 et seq. (Human Rights Sanctuary Amendment Act of 2022, D.C. Law 24-257)
+    title:
+      en: Shield law for bodily autonomy, including gender-affirming care
+    url: https://code.dccouncil.gov/us/dc/council/laws/24-257
+  - cite: D.C. Code § 31-2231.11
+    title:
+      en: Unfair discrimination in insurance (gender identity or expression)
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/31-2231.11
+sources:
+  - id: shield-law
+    url: https://code.dccouncil.gov/us/dc/council/laws/24-257
+    title: D.C. Law 24-257, Human Rights Sanctuary Amendment Act of 2022
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+    quote: (7) Providing, consenting to, receiving, or facilitating gender-affirming care.
+  - id: dc-code-31-2231-11
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/31-2231.11
+    title: D.C. Code § 31-2231.11, Unfair discrimination
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+  - id: disb-bulletin
+    url: https://disb.dc.gov/sites/default/files/dc/sites/disb/publication/attachments/Bulletin-ProhibitionDiscriminationBasedonGenderIdentityorExpressionv022714.pdf
+    title: "Bulletin 13-IB-01-30/15 (revised), Prohibition of Discrimination in Health Insurance Based on Gender Identity or Expression"
+    publisher: DC Department of Insurance, Securities and Banking
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      it is the position of the Department that treatment for gender dysphoria, including gender reassignment
+      surgeries, is a covered benefit
+  - id: disb-complaints
+    url: https://disb.dc.gov/complaints
+    title: Consumer Services Division (complaints)
+    publisher: DC Department of Insurance, Securities and Banking
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-medicaid
+    url: https://mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care/
+    title: Medicaid coverage of transgender-related health care
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: District of Columbia Medicaid policy explicitly includes coverage
+  - id: dhcf-medicaid
+    url: https://dhcf.dc.gov/service/medicaid
+    title: Medicaid
+    publisher: DC Department of Health Care Finance
+    kind: official
+    accessed: "2026-09-24"
+    quote: You may call (202) 727-5355 to locate your nearest IMA Service Center.
+  - id: childrens-national
+    url: https://www.childrensnational.org/get-care/departments/gender-development-program
+    title: Gender Development Program
+    publisher: Children's National Hospital
+    kind: org
+    accessed: "2026-09-24"
+    quote: >-
+      In light of escalating legal and regulatory risks to Children's National, our providers, and the families we
+      serve, we are discontinuing the prescription of gender-affirming medications. This change went into effect on
+      August 30, 2025.
+  - id: ww-trans-care
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/transgender-care/
+    title: Transgender Care
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: If you are at least 18 years old, we aim to follow an informed consent model for providing transgender health care
+  - id: pp-dc
+    url: https://www.plannedparenthood.org/health-center/district-of-columbia/washington/20002/carol-whitehill-moses-center-4221-90230
+    title: Carol Whitehill Moses Center
+    publisher: Planned Parenthood of Metropolitan Washington, DC
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender-Affirming Care, offered in-person and telehealth
+  - id: hips
+    url: https://www.hips.org/
+    title: HIPS
+    kind: org
+    accessed: "2026-09-24"
+    quote: Medication, HCV Clinic, HIV/HCV Testing, Hormones, and Wellness Checks
+  - id: lcdp
+    url: https://www.lcdp.org/
+    title: La Clínica del Pueblo
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

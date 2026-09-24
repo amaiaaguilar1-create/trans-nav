@@ -1,0 +1,255 @@
+jurisdiction: DC
+slug: washington-dc
+name: Washington, DC
+area:
+  en: The District of Columbia. Many of these services also serve residents of nearby Maryland and Virginia.
+  es: El Distrito de Columbia. Muchos de estos servicios también atienden a residentes de Maryland y Virginia cercanos.
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details come from the DC Courts name change pages (updated 02/12/2026). Whitman-Walker, HIPS, Planned
+    Parenthood, Legal Aid DC, and NLSP were confirmed on their own sites 2026-09-24. SMYAL (Sucuri JS challenge), the
+    DC Center (Cloudflare), La Clínica del Pueblo, and TransLAW/jointla.org (captcha) blocked automated access, so they
+    are community_reported. Confirm each still operates and its current programs. Casa Ruby is deliberately omitted
+    (closed). Legal Aid DC and NLSP do not list name changes as a practice area; they are included for Medicaid and
+    public-benefits denials.
+intro:
+  en: >-
+    DC has one courthouse and one set of rules for the whole District. Name changes are filed at DC Superior Court
+    (Moultrie Courthouse) and decided at a remote hearing. Whitman-Walker Health anchors trans care and legal help,
+    with harm reduction, youth, and Spanish-language programs around it.
+  es: >-
+    DC tiene un solo tribunal y las mismas reglas para todo el Distrito. Los cambios de nombre se presentan en el
+    Tribunal Superior de DC (Moultrie Courthouse) y se deciden en una audiencia remota. Whitman-Walker Health es el
+    centro principal de atención trans y ayuda legal, junto con programas de reducción de daños, juventud y servicios
+    en español.
+court:
+  name: Superior Court of the District of Columbia, Civil Actions Branch (21 and older); Family Court Central Intake Center (under 21)
+  url: https://www.dccourts.gov/superior-court/superior-court-divisions/civil-division/name-changes-gender-marker-changes-and-vital-records-amendments
+  self_help_url: https://www.dccourts.gov/get-legal-help
+  filing_fee: 60
+  notes:
+    en: >-
+      Moultrie Courthouse, 500 Indiana Avenue NW, Room 5000, Washington, DC 20001. Phone 202-879-1133. Open Monday to
+      Friday 8:30 am to 5 pm and Saturday 9 am to noon. There is an after-hours filing box in the lobby. Hearings are held
+      by Webex.
+    es: >-
+      Moultrie Courthouse, 500 Indiana Avenue NW, Sala 5000, Washington, DC 20001. Teléfono 202-879-1133. Lunes a viernes
+      de 8:30 a 5 y sábados de 9 a 12. Hay un buzón de presentación fuera de horario en el vestíbulo. Las audiencias son
+      por Webex.
+  sources: [court-page, adult-packet]
+resources:
+  - id: whitman-walker-legal
+    name: Whitman-Walker Health, Legal Services
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free help with name and gender changes, provider letters, insurance appeals, and discrimination. Email contact-legal@whitman-walker.org.
+      es: Ayuda gratuita con cambios de nombre y género, cartas médicas, apelaciones de seguros y discriminación.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    phone: "202-939-7630"
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: translaw
+    name: Trans Legal Advocates of Washington (TransLAW)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Volunteer Name and Gender Change Clinics, run with Whitman-Walker.
+      es: Clínicas voluntarias de cambio de nombre y género, junto con Whitman-Walker.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    cost: free
+    verification: community_reported
+    sources: [ww-legal]
+  - id: whitman-walker
+    name: Whitman-Walker Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Informed-consent hormones for adults, a youth program (ages 10-24), surgery navigation, PrEP, HIV and STI care, and behavioral health. Sliding scale; accepts Medicaid.
+      es: Hormonas por consentimiento informado para adultos, programa juvenil (10-24 años), acompañamiento para cirugía, PrEP, atención de VIH e ITS, y salud conductual. Escala móvil; acepta Medicaid.
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/transgender-care/
+    phone: "202-745-7000"
+    address: 1377 R St NW, Washington, DC (also 1201 Sycamore Dr SE)
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [ww-trans-care, ww-locations]
+  - id: pp-dc
+    org: planned-parenthood
+    name: Planned Parenthood, Carol Whitehill Moses Center
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming care (in person and telehealth), STD testing and treatment, HIV services, and birth control. Open Saturdays.
+      es: Atención de afirmación de género (en persona y por telesalud), pruebas y tratamiento de ETS, servicios de VIH y anticoncepción. Abre los sábados.
+    url: https://www.plannedparenthood.org/health-center/district-of-columbia/washington/20002/carol-whitehill-moses-center-4221-90230
+    address: 1225 4th St NE, Washington, DC 20002
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pp-dc]
+  - id: hips
+    name: HIPS
+    type: sexual_health
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Harm reduction for people who use drugs or trade sex, with a clinic (hormones, HIV and hepatitis C testing), drop-in center, and a 24/7 hotline.
+      es: Reducción de daños para personas que usan drogas o hacen trabajo sexual, con clínica (hormonas, pruebas de VIH y hepatitis C), centro de acogida y línea 24/7.
+    url: https://www.hips.org/
+    phone: "1-800-676-4477"
+    cost: free
+    verification: org_website
+    sources: [hips]
+  - id: la-clinica-del-pueblo
+    name: La Clínica del Pueblo
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Spanish-language community health center with primary care, behavioral health, and LGBTQ Latinx programs.
+      es: Centro de salud comunitario en español con atención primaria, salud conductual y programas para personas LGBTQ latinas.
+    url: https://www.lcdp.org/
+    cost: sliding_scale
+    languages: [es, en]
+    verification: community_reported
+    sources: [lcdp]
+  - id: smyal
+    name: SMYAL
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Youth center for LGBTQ young people, with support groups, counseling, and housing programs.
+      es: Centro para jóvenes LGBTQ, con grupos de apoyo, consejería y programas de vivienda.
+    url: https://www.smyal.org/
+    cost: free
+    verification: community_reported
+    sources: [smyal]
+  - id: dc-center
+    name: The DC Center for the LGBT Community
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Community center with peer support groups, including trans support groups, and referrals.
+      es: Centro comunitario con grupos de apoyo entre pares, incluidos grupos trans, y referencias.
+    url: https://www.thedccenter.org/
+    cost: free
+    verification: community_reported
+    sources: [dc-center]
+  - id: legal-aid-dc
+    name: Legal Aid DC
+    type: legal_aid
+    pillars: [insurance]
+    description:
+      en: Free civil legal help for low-income DC residents with public benefits (including Medicaid denials), housing, family, and consumer problems. Does not list name changes.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos con beneficios públicos (incluidas negaciones de Medicaid), vivienda, familia y consumo.
+    url: https://www.legalaiddc.org/
+    phone: "202-628-1161"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-dc]
+  - id: nlsp
+    name: Neighborhood Legal Services Program (NLSP)
+    type: legal_aid
+    pillars: [insurance]
+    description:
+      en: Free legal help with public benefits and health law, housing, family, and employment barriers, based in DC neighborhoods.
+      es: Ayuda legal gratuita con beneficios públicos y salud, vivienda, familia y barreras de empleo.
+    url: https://www.nlsp.org/
+    cost: free
+    verification: org_website
+    sources: [nlsp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: court-page
+    url: https://www.dccourts.gov/superior-court/superior-court-divisions/civil-division/name-changes-gender-marker-changes-and-vital-records-amendments
+    title: Name Changes, Gender Marker Changes, and Vital Records Amendments
+    publisher: DC Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: In most instances, applicants/parties will be required to attend a remote hearing before a judge.
+  - id: adult-packet
+    url: https://www.dccourts.gov/sites/default/files/2024-01/Name_Change_Application_Full_Fillable.pdf
+    title: Application for Change of Name for an Adult (revised December 2023)
+    publisher: Superior Court of the District of Columbia
+    kind: form
+    accessed: "2026-09-24"
+    quote: The cost the filing and Application for Change of Name of an Adult is $60.00
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Healthcare Legal Services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: We offer Name and Gender Change Clinics in collaboration with TransLAW
+  - id: ww-trans-care
+    url: https://www.whitman-walker.org/health-services/transgender-healthcare/transgender-care/
+    title: Transgender Care
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Whitman-Walker serves youth ages 10-24 years old.
+  - id: ww-locations
+    url: https://www.whitman-walker.org/locations/
+    title: Locations
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-dc
+    url: https://www.plannedparenthood.org/health-center/district-of-columbia/washington/20002/carol-whitehill-moses-center-4221-90230
+    title: Carol Whitehill Moses Center
+    publisher: Planned Parenthood of Metropolitan Washington, DC
+    kind: org
+    accessed: "2026-09-24"
+  - id: hips
+    url: https://www.hips.org/
+    title: HIPS
+    kind: org
+    accessed: "2026-09-24"
+    quote: HIPS offers a 24/7 hotline to provide emotional support, schedule supply deliveries, and get connected to health supportive services.
+  - id: lcdp
+    url: https://www.lcdp.org/
+    title: La Clínica del Pueblo
+    kind: org
+    accessed: "2026-09-24"
+  - id: smyal
+    url: https://www.smyal.org/
+    title: SMYAL
+    kind: org
+    accessed: "2026-09-24"
+  - id: dc-center
+    url: https://www.thedccenter.org/
+    title: The DC Center for the LGBT Community
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-aid-dc
+    url: https://www.legalaiddc.org/
+    title: Legal Aid DC
+    kind: org
+    accessed: "2026-09-24"
+  - id: nlsp
+    url: https://www.nlsp.org/
+    title: Neighborhood Legal Services Program
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

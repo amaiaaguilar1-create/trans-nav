@@ -1,0 +1,132 @@
+code: DC
+name:
+  en: District of Columbia
+  es: Distrito de Columbia
+kind: district
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on the D.C. Code (name change § 16-2501 et seq.; birth records § 7-231.22; shield law
+    § 2-1461.01 et seq.), the DMV gender self-designation form, and the DISB 2014 insurance bulletin, all read
+    2026-09-24. Cross-checked against MAP's DC profile, which agrees. Care is rated protective on the law, but note that
+    Children's National Hospital stopped prescribing gender-affirming medications on August 30, 2025, citing legal
+    and regulatory risk. That was a provider decision, not a DC law. Reviewer: Congress has final authority over DC
+    law (Home Rule Act) and can override Council acts or attach riders to DC appropriations. I could not
+    confirm (WebSearch was unavailable) whether any 2025-2026 congressional action or federal rule has changed the DC
+    laws cited here. Please check before marking this reviewed. The DC Center for the LGBT Community site blocked
+    automated access (Cloudflare), so that entry is community_reported.
+overview:
+  en: >-
+    DC's own laws protect trans people. You can choose M, F, or X on a DC driver's license or ID just by signing a form.
+    There is no newspaper publication for name changes. A DC birth certificate can be reissued with your gender and new
+    name if you send a short statement from a licensed provider. Insurers may not exclude transition care, and a 2022
+    shield law keeps DC government out of other states' cases against gender-affirming care. Two drawbacks: to change
+    your name you must mail notice to your creditors and attend a short remote hearing, and DC's main children's
+    hospital stopped prescribing gender-affirming medications in 2025 because of federal pressure.
+  es: >-
+    Las leyes del Distrito protegen a las personas trans. Puedes elegir M, F o X en tu licencia o identificación de DC
+    con solo firmar un formulario. El cambio de nombre no requiere publicación en periódico. Tu acta de nacimiento de DC
+    se puede volver a emitir con tu género y tu nuevo nombre si envías una declaración breve de un proveedor de salud
+    con licencia. Las aseguradoras no pueden excluir la atención de transición, y una ley escudo de 2022 impide que el
+    gobierno de DC colabore con casos de otros estados contra la atención de afirmación de género. Dos desventajas: para
+    cambiar tu nombre debes notificar por correo a tus acreedores y asistir a una breve audiencia remota, y el principal
+    hospital infantil de DC dejó de recetar medicamentos de afirmación de género en 2025 por presión federal.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [shield-law, dmv-gender-form, dc-code-7-231-22, map-dc]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [washington-dc]
+key_resources:
+  - id: whitman-walker-legal
+    name: Whitman-Walker Health, Legal Services
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: >-
+        Free legal help for DC, Maryland, and Virginia residents with name and gender changes (court orders, licenses,
+        birth certificates, passports, Social Security), plus insurance appeals and discrimination cases. Runs Name and
+        Gender Change Clinics with TransLAW.
+      es: >-
+        Ayuda legal gratuita para residentes de DC, Maryland y Virginia con cambios de nombre y género (órdenes
+        judiciales, licencias, actas de nacimiento, pasaportes, Seguro Social), además de apelaciones de seguros y casos
+        de discriminación. Organiza clínicas de cambio de nombre y género con TransLAW.
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    phone: "202-939-7630"
+    cost: free
+    verification: org_website
+    sources: [ww-legal]
+  - id: dc-center
+    name: The DC Center for the LGBT Community
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: DC's LGBTQ community center, with peer support groups, a trans support group, and referrals.
+      es: Centro comunitario LGBTQ de DC, con grupos de apoyo entre pares, un grupo de apoyo trans y referencias.
+    url: https://www.thedccenter.org/
+    cost: free
+    verification: community_reported
+    sources: [dc-center]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people. It does not call police without your consent.
+      es: Línea de apoyo entre pares dirigida por y para personas trans. No llama a la policía sin tu consentimiento.
+    url: https://translifeline.org/
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: shield-law
+    url: https://code.dccouncil.gov/us/dc/council/laws/24-257
+    title: D.C. Law 24-257, Human Rights Sanctuary Amendment Act of 2022
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The District and its officers and employees ... shall not provide any information or expend or use time, money
+      ... in furtherance of any interstate investigation or proceeding ... (7) Providing, consenting to, receiving, or
+      facilitating gender-affirming care.
+  - id: dmv-gender-form
+    url: https://dmv.dc.gov/publication/gender-self-designation-form
+    title: Gender Self-Designation Form
+    publisher: DC Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+  - id: dc-code-7-231-22
+    url: https://code.dccouncil.gov/us/dc/council/code/sections/7-231.22
+    title: D.C. Code § 7-231.22, New records of live birth for change of gender designation
+    publisher: Council of the District of Columbia
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-dc
+    url: https://mapresearch.org/equality-profiles/dc/
+    title: District of Columbia equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ww-legal
+    url: https://www.whitman-walker.org/health-services/legal-services/
+    title: Healthcare Legal Services
+    publisher: Whitman-Walker Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: We assist clients from DC, Maryland, and Virginia with obtaining name changes
+  - id: dc-center
+    url: https://www.thedccenter.org/
+    title: The DC Center for the LGBT Community
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
