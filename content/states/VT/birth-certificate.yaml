@@ -1,0 +1,235 @@
+guide_type: birth_certificate
+jurisdiction: VT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    18 V.S.A. § 5112 (as amended by 2021 Act 88, H.628, eff. July 1, 2022), 18 V.S.A. § 5075, 15 V.S.A. § 816, the
+    Health Department's Order Vital Records page, the Affidavit of Gender Identity (rev. April 2026) and the Application
+    to Correct or Amend a Vermont Birth Certificate (rev. April 2026) were read 2026-09-24. Open items: (1) whether a
+    gender amendment produces a certificate marked "Amended" (the default under § 5075(d)) or a new certificate with
+    no notation; the § 5112 heading says "Issuance of new birth certificate" but the implementing Health Department
+    rule was not located. (2) No fee is listed for the amendment itself; the only fee found is $10 per certified copy
+    ($2 extra online). Confirm there is no amendment fee. (3) Processing time not published. A4TE's Vermont page still
+    describes the pre-2022 physician-affidavit requirement; the primary sources above supersede it.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Vermont, you can change the sex on your birth certificate to M, F, or X by mailing a notarized
+    Affidavit of Gender Identity to the Health Department. No doctor's letter or court order is needed. People 16 and
+    older sign for themselves.
+  es: >-
+    Si naciste en Vermont, puedes cambiar el sexo en tu acta de nacimiento a M, F o X enviando por correo una
+    Declaración Jurada de Identidad de Género notarizada al Departamento de Salud. No se necesita carta médica ni orden
+    judicial. Las personas de 16 años o más firman por sí mismas.
+summary:
+  en: |
+    Since July 1, 2022, Vermont law (18 V.S.A. § 5112) directs the Health Department to offer "a simple process" to change the sex marker on a birth certificate to match your gender identity, including a non-binary marker. You fill out a two-page **Affidavit of Gender Identity**, sign it in front of a notary, and mail it to Vital Records. Records about the change are confidential and exempt from public records requests.
+
+    To change the **name** on your birth certificate you need a certified copy of a court order changing your name. If you checked "YES" to the birth certificate question on your Vermont name change petition, the court process covers this; otherwise send the order yourself with the Application to Correct or Amend. Certificates amended for a court-ordered name change say "Court Amended" at the top (15 V.S.A. § 816).
+
+    This only works for people **born in Vermont**. If you were born in another state, follow that state's rules.
+  es: |
+    Desde el 1 de julio de 2022, la ley de Vermont (18 V.S.A. § 5112) ordena al Departamento de Salud ofrecer "un proceso sencillo" para cambiar el marcador de sexo en un acta de nacimiento según tu identidad de género, incluido un marcador no binario. Llenas una **Declaración Jurada de Identidad de Género** de dos páginas, la firmas ante notario y la envías por correo a Registros Vitales. Los registros del cambio son confidenciales.
+
+    Para cambiar el **nombre** en tu acta necesitas una copia certificada de una orden judicial de cambio de nombre. Las actas enmendadas por un cambio de nombre judicial dicen "Court Amended" en la parte superior (15 V.S.A. § 816).
+
+    Esto solo aplica a personas **nacidas en Vermont**. Si naciste en otro estado, sigue las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Vermont. Where you live now does not matter.
+    es: Debes haber nacido en Vermont. No importa dónde vives ahora.
+  age:
+    en: Age 16 and older sign the affidavit themselves. For anyone under 16, a parent or legal guardian completes and signs it.
+    es: Las personas de 16 años o más firman la declaración. Para menores de 16, la completa y firma un padre, madre o tutor legal.
+  sources: [vsa-18-5112, affidavit-gender]
+forms:
+  - id: affidavit-gender-identity
+    name:
+      en: Affidavit of Gender Identity (Amendment of Vermont Birth Certificate to Reflect Gender Identity)
+      es: Declaración jurada de identidad de género
+    url: https://www.healthvermont.gov/sites/default/files/documents/pdf/HS-VR-Gender-Identity-Affidavit-withFormFields.pdf
+    required: conditional
+    condition:
+      en: To change the sex marker.
+      es: Para cambiar el marcador de sexo.
+    how_to_fill:
+      en: |
+        - Check **Self (age 16 or older)**, or Parent/Legal Guardian for a younger child.
+        - Enter your current legal name and mailing address, then your name, date of birth, sex, and town of birth **as they appear on your current certificate**.
+        - Check the box requesting the change, mark the sex currently shown, and choose **Male, Female, or X (Non-binary)** as it should appear.
+        - **Do not sign until you are in front of a notary.** The attestation says the request affirms your gender identity; no medical information is asked for.
+      es: |
+        - Marca **Self (16 años o más)**, o padre/tutor para un menor.
+        - Escribe tu nombre legal actual y dirección, y luego tu nombre, fecha de nacimiento, sexo y lugar de nacimiento **tal como aparecen en tu acta actual**.
+        - Marca la casilla de solicitud, el sexo actual y el nuevo: **Male, Female o X (No binario)**.
+        - **No firmes hasta estar frente a un notario.** No se pide información médica.
+    sources: [affidavit-gender]
+  - id: correct-amend-application
+    name:
+      en: Application to Correct or Amend a Vermont Birth Certificate
+      es: Solicitud para corregir o enmendar un acta de nacimiento de Vermont
+    url: https://www.healthvermont.gov/sites/default/files/documents/pdf/HS_VR_BC_Correct_Amend.pdf
+    required: conditional
+    condition:
+      en: To change the name, with a certified copy of your court order.
+      es: Para cambiar el nombre, con una copia certificada de tu orden judicial.
+    sources: [vr-order, correct-amend-form, vtlawhelp-name-gender]
+  - id: certified-copy-application
+    name:
+      en: Certified Copy of Birth or Death Certificate Application
+      es: Solicitud de copia certificada de acta de nacimiento o defunción
+    url: https://www.healthvermont.gov/sites/default/files/documents/pdf/HS_VR_App_Certified-Copy-Birth-Death-Form.pdf
+    required: optional
+    condition:
+      en: To receive certified copies of the updated certificate. A separate application and fee are required.
+      es: Para recibir copias certificadas del acta actualizada. Se requiere una solicitud y tarifa separadas.
+    sources: [vr-order, affidavit-gender]
+steps:
+  - id: affidavit
+    title:
+      en: Fill out the Affidavit of Gender Identity and have it notarized
+      es: Llena la declaración jurada y hazla notarizar
+    body:
+      en: Complete the form and sign it in front of a notary public. Many banks, town clerks, and libraries offer free notary service.
+      es: Completa el formulario y fírmalo ante un notario. Muchos bancos, oficinas municipales y bibliotecas ofrecen notario gratis.
+    forms: [affidavit-gender-identity]
+    applies_to: [gender_marker]
+    sources: [affidavit-gender]
+  - id: name-order
+    title:
+      en: For a name change, include your court order
+      es: Para un cambio de nombre, incluye tu orden judicial
+    body:
+      en: Send a certified copy of your name change order with the Application to Correct or Amend (VTLawHelp says a cover letter also works). You can send it together with the gender affidavit.
+      es: Envía una copia certificada de tu orden de cambio de nombre con la Solicitud para Corregir o Enmendar. Puedes enviarla junto con la declaración de género.
+    forms: [correct-amend-application]
+    applies_to: [name_change]
+    sources: [vr-order, vtlawhelp-name-gender, vsa-15-ch13]
+  - id: order-copies
+    title:
+      en: Order certified copies
+      es: Pide copias certificadas
+    body:
+      en: Include the certified copy application, a copy of your ID, and $10 per copy if you want the updated certificate mailed to you. After the change, you can also get copies from any Vermont town clerk or online.
+      es: Incluye la solicitud de copia certificada, una copia de tu identificación y $10 por copia si quieres recibir el acta actualizada. También puedes pedir copias a cualquier secretario municipal de Vermont o en línea.
+    forms: [certified-copy-application]
+    fees: [certified-copy]
+    sources: [vr-order, vtlawhelp-name-gender]
+  - id: mail
+    title:
+      en: Mail everything to Vital Records
+      es: Envía todo a Registros Vitales
+    body:
+      en: "Mail to: Vermont Department of Health, Vital Records Office, 280 State Drive, Waterbury, VT 05671-8370. Questions: 802-863-7275 or 800-439-5008 (in Vermont)."
+      es: "Envía a: Vermont Department of Health, Vital Records Office, 280 State Drive, Waterbury, VT 05671-8370. Preguntas: 802-863-7275 o 800-439-5008 (en Vermont)."
+    applies_to: [by_mail]
+    sources: [affidavit-gender]
+fees:
+  - id: certified-copy
+    label:
+      en: Certified copy of the updated birth certificate
+      es: Copia certificada del acta actualizada
+    amount: 10
+    note:
+      en: Plus a $2 processing fee if ordered online. Noncertified copies are free. No separate fee for the amendment itself was found.
+      es: Más $2 si se pide en línea. Las copias no certificadas son gratis. No se encontró tarifa por la enmienda.
+    sources: [vr-order]
+fee_waiver:
+  available: false
+  sources: [vr-order]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: The affidavit and amendment application are submitted by mail. Certified copies can be ordered online, by mail, or from a town clerk.
+    es: La declaración y la solicitud se envían por correo. Las copias certificadas se pueden pedir en línea, por correo o a un secretario municipal.
+  sources: [affidavit-gender, vr-order]
+timeline:
+  en: The Health Department does not publish a processing time. Allow several weeks.
+  es: El Departamento de Salud no publica un tiempo de procesamiento. Calcula varias semanas.
+after:
+  en: |
+    With an updated birth certificate you can update other records that ask for one. Your Vermont driver's license does not need it (the DMV accepts self-designation). The US passport and Social Security currently will not change the sex marker regardless of your birth certificate; check the federal guides for current litigation.
+  es: |
+    Con un acta actualizada puedes actualizar otros registros que la pidan. Tu licencia de Vermont no la necesita (el DMV acepta la autodesignación). El pasaporte de EE. UU. y el Seguro Social actualmente no cambian el marcador de sexo sin importar tu acta; consulta las guías federales.
+tips:
+  - en: Records about a gender amendment are confidential and exempt from Vermont's Public Records Act (18 V.S.A. § 5112(d)).
+    es: Los registros de una enmienda de género son confidenciales y están exentos de la Ley de Registros Públicos de Vermont.
+  - en: If Vital Records denies an amendment, you can ask the Probate Division to review it (18 V.S.A. § 5075(c)).
+    es: Si Registros Vitales niega una enmienda, puedes pedir que la División de Sucesiones la revise.
+statutes:
+  - cite: 18 V.S.A. § 5112
+    title:
+      en: Amending the sex marker on a birth certificate to reflect gender identity, including a non-binary marker
+    url: https://legislature.vermont.gov/statutes/fullchapter/18/104
+  - cite: 18 V.S.A. § 5075
+    title:
+      en: Amended birth certificates; review by the Probate Division if denied
+    url: https://legislature.vermont.gov/statutes/fullchapter/18/103
+  - cite: 15 V.S.A. § 816
+    title:
+      en: Amending a birth certificate after a court-ordered name change
+    url: https://legislature.vermont.gov/statutes/fullchapter/15/013
+related_links:
+  - title: VTLawHelp, Name and Gender Marker Changes in Vermont
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+  - title: CDC, Where to write for vital records (if you were born in another state)
+    url: https://www.cdc.gov/nchs/w2w/
+sources:
+  - id: vsa-18-5112
+    url: https://legislature.vermont.gov/statutes/fullchapter/18/104
+    title: 18 V.S.A. § 5112, Issuance of new birth certificate
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      the State shall adopt a simple process by which an individual may amend the marker on a birth certificate to
+      reflect the individual's gender identity, including a third non-binary marker. ... records relating to the
+      amendment of a birth certificate pursuant to this chapter shall be confidential
+  - id: vsa-15-ch13
+    url: https://legislature.vermont.gov/statutes/fullchapter/15/013
+    title: 15 V.S.A. § 816, Amendment of birth certificate
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: certificates amended pursuant to this section shall have the words "Court Amended" at the top
+  - id: affidavit-gender
+    url: https://www.healthvermont.gov/sites/default/files/documents/pdf/HS-VR-Gender-Identity-Affidavit-withFormFields.pdf
+    title: Affidavit of Gender Identity (April 2026)
+    publisher: Vermont Department of Health, Vital Records Office
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      If registrant is under 16 years of age, a parent or legal guardian must complete this form. ... Sign your name
+      ONLY in the presence of a Notary Public.
+  - id: correct-amend-form
+    url: https://www.healthvermont.gov/sites/default/files/documents/pdf/HS_VR_BC_Correct_Amend.pdf
+    title: Application to Correct or Amend a Vermont Birth Certificate (April 2026)
+    publisher: Vermont Department of Health
+    kind: form
+    accessed: "2026-09-24"
+  - id: vr-order
+    url: https://www.healthvermont.gov/stats/vital-records/order-vital-records
+    title: Order Vital Records
+    publisher: Vermont Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      Certified copies are printed on State engraved security paper with raised seal, costing $10 per certificate (plus
+      a $2 processing fee if ordered online). ... Change gender marker on birth certificate: Complete the Affidavit of
+      Gender Identify form.
+  - id: vtlawhelp-name-gender
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    title: Name and Gender Marker Changes in Vermont
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: No specific form is required, but we recommend that you submit an Application to Correct or Amend a Vermont Birth Certificate.

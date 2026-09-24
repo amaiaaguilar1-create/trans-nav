@@ -1,0 +1,241 @@
+guide_type: drivers_license
+jurisdiction: VT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    DMV FAQ "How do I change the gender on my license/ID?" and fee page read 2026-09-24 (fees page dated July 9, 2026:
+    replacement $24 for license and non-driver ID, $60 EDL, reduced $10 / $5). Forms VL-021 (rev. 04/26) and VL-017
+    show Gender: Female / Male / Other. The DMV's "self-designated descriptors" page (cited by A4TE) returned HTTP 403,
+    so the statement that no documentation is required rests on VTLawHelp and A4TE plus the DMV FAQ, which lists no
+    document requirement. Reviewer: (1) confirm the "Other" box prints as X on the card (VTLawHelp and A4TE say X);
+    (2) confirm the X option start date (commonly reported as 2019; not confirmed on a DMV page); (3) confirm whether
+    the online myDMV gender change works for REAL ID holders without a visit. No 2025-2026 law changed the marker
+    policy (Acts 66 of 2025 and 153 of 2026 on motor vehicles were checked by summary and do not touch it).
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Vermont lets you choose male, female, or X (listed as "Other" on the form) on your driver's license or non-driver
+    ID with no doctor's letter, court order, or other proof. You can make the change online, by mail, or in person.
+  es: >-
+    Vermont te permite elegir masculino, femenino o X ("Other" en el formulario) en tu licencia de conducir o
+    identificación sin carta médica, orden judicial ni otra prueba. Puedes hacer el cambio en línea, por correo o en
+    persona.
+summary:
+  en: |
+    The Vermont DMV treats gender as a self-designated descriptor, like eye color or height: you pick the marker you want on the application and no documentation is required. Three options are available: F, M, and X.
+
+    Changing your **name** is different. You must go **in person** with a certified copy of your court order, and you must update your name with **Social Security first**, because the DMV checks your name against SSA records before issuing a card in the new name. Vermont law requires you to tell the DMV about a name change within 30 days.
+  es: |
+    El DMV de Vermont trata el género como un dato que tú mismo designas, igual que el color de ojos o la estatura: eliges el marcador en la solicitud y no se requiere documentación. Hay tres opciones: F, M y X.
+
+    Cambiar tu **nombre** es diferente. Debes ir **en persona** con una copia certificada de tu orden judicial, y debes actualizar tu nombre en el **Seguro Social primero**, porque el DMV verifica tu nombre con el Seguro Social. La ley de Vermont exige avisar al DMV de un cambio de nombre dentro de 30 días.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Vermont driver's license, permit, or non-driver ID.
+    es: Debes tener o estar solicitando una licencia, permiso o identificación de Vermont.
+  age:
+    en: Any age. A parent or guardian signs non-driver ID applications for applicants under 18.
+    es: Cualquier edad. Un padre o tutor firma las solicitudes de identificación para menores de 18.
+  sources: [dmv-gender-faq, form-vl-017]
+forms:
+  - id: VL-021
+    name:
+      en: License/Permit Application (also used for name, address, and gender changes)
+      es: Solicitud de licencia/permiso (también para cambios de nombre, dirección y género)
+    url: https://dmv.vermont.gov/sites/dmv/files/documents/VL-021%20-%20License%20Application%20-%2007.09.25%20-%20Fillable_0.pdf
+    required: conditional
+    condition:
+      en: For a driver's license or permit, if you apply by mail or in person.
+      es: Para licencia o permiso, si solicitas por correo o en persona.
+    how_to_fill:
+      en: |
+        - Check the box for the gender you want: Female, Male, or Other (Other is shown as X on the card).
+        - If you are also changing your name, write your new legal name and bring your certified court order and updated Social Security record.
+        - No letter or other proof is needed for the gender box.
+      es: |
+        - Marca el género que quieres: Female, Male u Other (Other aparece como X en la tarjeta).
+        - Si también cambias tu nombre, escribe tu nuevo nombre legal y lleva tu orden judicial certificada.
+        - No se necesita carta ni prueba para el género.
+    sources: [form-vl-021, dmv-gender-faq, vtlawhelp-name-gender]
+  - id: VL-017
+    name:
+      en: Non-Driver ID Application
+      es: Solicitud de identificación para no conductores
+    url: https://dmv.vermont.gov/sites/dmv/files/documents/VL-017-NonDriver_ID_App.pdf
+    required: conditional
+    condition:
+      en: For a non-driver ID card.
+      es: Para una tarjeta de identificación de no conductor.
+    how_to_fill:
+      en: Check Male, Female, or Other in the Gender field. A parent or guardian signs if you are under 18.
+      es: Marca Male, Female u Other en el campo Gender. Un padre o tutor firma si eres menor de 18.
+    sources: [form-vl-017]
+steps:
+  - id: choose-method
+    title:
+      en: Change the gender marker online, by mail, or in person
+      es: Cambia el marcador en línea, por correo o en persona
+    body:
+      en: |
+        - **Online**: go to mydmv.vermont.gov and choose "Renew/Replace My License/ID." You will need your name, date of birth, license or ID number, and two forms of identification.
+        - **By mail**: send form VL-021 (or VL-017 for an ID) with the fee to Vermont DMV, 120 State Street, Montpelier, VT 05603-0001.
+        - **In person**: fill out the form and schedule an appointment at a DMV office.
+      es: |
+        - **En línea**: entra a mydmv.vermont.gov y elige "Renew/Replace My License/ID". Necesitas tu nombre, fecha de nacimiento, número de licencia y dos formas de identificación.
+        - **Por correo**: envía el formulario VL-021 (o VL-017) con la tarifa a Vermont DMV, 120 State Street, Montpelier, VT 05603-0001.
+        - **En persona**: llena el formulario y haz una cita en una oficina del DMV.
+    forms: [VL-021, VL-017]
+    fees: [license-replacement, id-replacement]
+    applies_to: [gender_marker]
+    sources: [dmv-gender-faq, dmv-fees]
+  - id: update-ssa
+    title:
+      en: For a name change, update Social Security first
+      es: Para un cambio de nombre, actualiza primero el Seguro Social
+    body:
+      en: Apply at Social Security with your certified court order. The DMV verifies your name with SSA online and cannot issue a card in the new name until SSA's records are updated.
+      es: Solicita en el Seguro Social con tu orden judicial certificada. El DMV verifica tu nombre en línea con el Seguro Social y no puede emitir la tarjeta con el nombre nuevo hasta que se actualicen esos registros.
+    applies_to: [name_change]
+    sources: [dmv-name-change]
+  - id: visit-name
+    title:
+      en: Change your name in person at the DMV
+      es: Cambia tu nombre en persona en el DMV
+    body:
+      en: >-
+        Bring your current card, a certified copy of your court order (it must show your prior name, new name, and date
+        of birth and carry the court's seal), and form VL-021 or VL-017. You can change your gender marker at the same
+        visit. You leave with a temporary card and the new one comes by mail.
+      es: >-
+        Lleva tu tarjeta actual, una copia certificada de tu orden judicial (debe mostrar tu nombre anterior, el nuevo
+        y tu fecha de nacimiento, con el sello del tribunal) y el formulario. Puedes cambiar tu marcador de género en la
+        misma visita. Recibes una tarjeta temporal y la nueva llega por correo.
+    forms: [VL-021, VL-017]
+    fees: [license-replacement, id-replacement]
+    applies_to: [name_change, in_person]
+    sources: [dmv-name-change, vtlawhelp-name-gender]
+fees:
+  - id: license-replacement
+    label:
+      en: Driver's license replacement (REAL ID or non-REAL ID)
+      es: Reemplazo de licencia de conducir (REAL ID o no REAL ID)
+    amount: 24
+    note:
+      en: $60 for an Enhanced Driver's License. $10 if you receive SSI or SSDI or have a qualifying disability (from July 1, 2026).
+      es: $60 para una licencia mejorada (EDL). $10 si recibes SSI o SSDI o tienes una discapacidad que califica (desde el 1 de julio de 2026).
+    sources: [dmv-fees]
+  - id: id-replacement
+    label:
+      en: Non-driver ID replacement
+      es: Reemplazo de identificación de no conductor
+    amount: 24
+    note:
+      en: $5 if you receive SSI or SSD (bring proof).
+      es: $5 si recibes SSI o SSD (lleva prueba).
+    sources: [dmv-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no general waiver, but reduced fees apply if you receive SSI or SSDI (license replacement $10, non-driver ID replacement $5). Fees are also waived for some young people under 23 leaving foster care.
+    es: No hay exención general, pero hay tarifas reducidas si recibes SSI o SSDI (reemplazo de licencia $10, identificación $5). También se exoneran para algunos jóvenes menores de 23 años que salen del sistema de cuidado temporal.
+  sources: [dmv-fees, act-66-2025]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: Gender marker changes can be done online, by mail, or in person. Name changes must be done in person.
+    es: Los cambios de marcador se pueden hacer en línea, por correo o en persona. Los cambios de nombre deben hacerse en persona.
+  sources: [dmv-gender-faq, dmv-name-change]
+timeline:
+  en: You get a temporary card right away (online or in person); the permanent card arrives by mail.
+  es: Recibes una tarjeta temporal de inmediato (en línea o en persona); la permanente llega por correo.
+after:
+  en: |
+    Your Vermont license is valid for REAL ID, flying, and voting with any marker. Be aware that the US passport and Social Security record currently cannot show X or a changed sex marker; that is a federal policy and does not affect your Vermont card.
+  es: |
+    Tu licencia de Vermont es válida para REAL ID, para volar y para votar con cualquier marcador. Ten en cuenta que el pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; es una política federal y no afecta tu tarjeta de Vermont.
+tips:
+  - en: You do not need to change your name to change your marker, or the other way around.
+    es: No necesitas cambiar tu nombre para cambiar tu marcador, ni al revés.
+  - en: If you have a non-REAL ID card, the DMV says you must provide all required identity documents again when you request a replacement.
+    es: Si tienes una tarjeta que no es REAL ID, el DMV dice que debes presentar todos los documentos de identidad otra vez al pedir un reemplazo.
+statutes:
+  - cite: 23 V.S.A. § 205
+    title:
+      en: Duty to notify the DMV of a change of name or address within 30 days
+    url: https://legislature.vermont.gov/statutes/section/23/005/00205
+related_links:
+  - title: VTLawHelp, Name and Gender Marker Changes in Vermont
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+  - title: Advocates for Trans Equality, Vermont identity documents
+    url: https://transequality.org/documents/vermont-identity-documents
+    note:
+      en: No last-updated date shown; its form links point to older DMV form versions.
+      es: Sin fecha de actualización; sus enlaces a formularios apuntan a versiones antiguas.
+sources:
+  - id: dmv-gender-faq
+    url: https://dmv.vermont.gov/faq/how-do-i-change-the-gender-on-my-license-id
+    title: How do I change the gender on my license/ID?
+    publisher: Vermont DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      Online: Go to mydmv.vermont.gov, click the 'Renew/Replace My License/ID' button ... In-person: Complete the
+      License Application (form #VL-021) ... By Mail: Complete the License Application (form #VL-021) and mail with any
+      required fees
+  - id: dmv-name-change
+    url: https://dmv.vermont.gov/licenses/name-change
+    title: Driver's License, Name Change
+    publisher: Vermont DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      You must apply in person in order to have your name changed on your license or non-driver ID card. ... Before a
+      license or ID can be issued in the new name, SSA records must be updated.
+  - id: dmv-fees
+    url: https://dmv.vermont.gov/licenses/fees
+    title: Driver's License Fees
+    publisher: Vermont DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Real ID 4 years: $62.00 new, $24.00 replacement. Non-Driver ID: $29.00, replacement $24.00. Non-Driver ID (SSI Reduced Fee): $10.00, replacement $5.00."
+  - id: form-vl-021
+    url: https://dmv.vermont.gov/sites/dmv/files/documents/VL-021%20-%20License%20Application%20-%2007.09.25%20-%20Fillable_0.pdf
+    title: Form VL-021, License/Permit Application
+    publisher: Vermont DMV
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Gender: Female / Male / Other"
+  - id: form-vl-017
+    url: https://dmv.vermont.gov/sites/dmv/files/documents/VL-017-NonDriver_ID_App.pdf
+    title: Form VL-017, Non-Driver ID Application
+    publisher: Vermont DMV
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Gender: Male / Female / Other ... Signature of Parent or Guardian (if the applicant is under 18)"
+  - id: vtlawhelp-name-gender
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    title: Name and Gender Marker Changes in Vermont
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: >-
+      To change the gender marker on your ID, the DMV does not ask for any documentation. ... Vermont now allows three
+      gender marker options on state IDs: Male ("M"), Female ("F"), or Other ("X").
+  - id: act-66-2025
+    url: https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT066/ACT066%20Act%20Summary.pdf
+    title: Act 66 of 2025 (S.123), miscellaneous changes to laws related to motor vehicles, act summary
+    publisher: Vermont Office of Legislative Counsel
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      This act waives certain fees related to learner's permits, operator's licenses, and nondriver identification
+      cards for individuals under 23 years of age who are transitioning out of the State foster care system

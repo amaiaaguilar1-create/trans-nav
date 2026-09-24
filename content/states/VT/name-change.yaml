@@ -1,0 +1,362 @@
+guide_type: name_change
+jurisdiction: VT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from 15 V.S.A. §§ 811-817 (legislature.vermont.gov), the Vermont Judiciary's Name Changes page,
+    form 700-00122 (rev. 06/2026), the fee waiver page, and the Judiciary fee schedule. Open items for the reviewer:
+    (1) Confidentiality: no statute or rule found that seals name change records; Probate Rule 80.6 (on Lexis only)
+    was not read. The guide says sealing is not automatic and suggests asking by motion; confirm whether any Probate
+    Division practice or Rule 80.6 provision addresses this. (2) Certified copies: the fee schedule lists "Adoption
+    decree and instrument changing name (issuance of two certified copies): No fee" and "Official certificate
+    (Certified Copy): $5"; VTLawHelp says a certified copy of the order is $5. Confirm whether two free copies are
+    issued with a name change order. (3) Timeline: no official processing time found; the "a few weeks to two months"
+    estimate is unverified. (4) Whether all probate units require a certified birth certificate and photo ID (the
+    court page says "may be required... check with the court"). A4TE's Vermont page (undated) agrees: no publication,
+    sex offender registry bar. Outright Vermont (outrightvt.org) returned HTTP 403, so it is not listed in local_help.
+status: available
+status_summary:
+  en: >-
+    Vermont adults can change their name by filing a one-page petition (form 700-00122) in the probate court of the
+    county where they live. The fee is $150 (waivable), there is no newspaper publication, and you attend a short
+    hearing in person or by video.
+  es: >-
+    En Vermont, las personas adultas pueden cambiar su nombre presentando una petición de una página (formulario
+    700-00122) en el tribunal de sucesiones (probate) del condado donde viven. La tarifa es de $150 (se puede
+    exonerar), no hay publicación en periódico y asistes a una audiencia breve en persona o por video.
+summary:
+  en: |
+    Under 15 V.S.A. § 811, an adult may change their name by signing a name change instrument before the judge of the **Probate Division of the Superior Court** in the county where they live. In practice you file the **Petition of Adult to Change Name (700-00122)**, the court schedules a short hearing, and the judge signs the order. You do not need to give a reason, and there is no gender-specific form: the same petition works for everyone.
+
+    Vermont repealed its newspaper publication requirement in 2004, so nothing about your name change is published. The court does check the Sex Offender Registry for every petitioner (15 V.S.A. § 817); there are no fingerprints.
+
+    Changing your **gender marker** does not require a court order in Vermont. See the driver's license and birth certificate guides.
+  es: |
+    Según 15 V.S.A. § 811, una persona adulta puede cambiar su nombre firmando un instrumento de cambio de nombre ante el juez de la **División de Sucesiones (Probate) del Tribunal Superior** del condado donde vive. En la práctica presentas la **Petición de Adulto para Cambiar de Nombre (700-00122)**, el tribunal programa una audiencia breve y el juez firma la orden. No necesitas dar una razón y no hay un formulario específico de género.
+
+    Vermont eliminó el requisito de publicación en periódico en 2004, así que nada de tu cambio de nombre se publica. El tribunal revisa el Registro de Delincuentes Sexuales para cada solicitante (15 V.S.A. § 817); no se toman huellas.
+
+    Cambiar tu **marcador de género** no requiere orden judicial en Vermont. Consulta las guías de licencia de conducir y acta de nacimiento.
+eligibility:
+  residency:
+    en: File in the Probate Division of the Superior Court in the county of your legal physical residence in Vermont.
+    es: Presenta la petición en la División de Sucesiones del Tribunal Superior del condado donde tienes tu residencia física legal en Vermont.
+  age:
+    en: Adults (18 and older) file for themselves. For anyone under 18, a parent or guardian files (see Minors).
+    es: Las personas adultas (18 años o más) presentan su propia petición. Para menores de 18, un padre, madre o tutor presenta la petición.
+  criminal_history:
+    en: >-
+      If you are on the Vermont Sex Offender Registry, the court may not grant the change unless it finds a compelling
+      purpose, after letting the Department of Public Safety appear. Other criminal history does not bar a name change.
+    es: >-
+      Si estás en el Registro de Delincuentes Sexuales de Vermont, el tribunal no puede conceder el cambio salvo que
+      encuentre un propósito imperioso, después de permitir que el Departamento de Seguridad Pública comparezca.
+  sources: [vsa-15-ch13, vtcourts-name-changes]
+forms:
+  - id: 700-00122
+    name:
+      en: Petition of Adult to Change Name
+      es: Petición de adulto para cambiar de nombre
+    url: https://www.vermontjudiciary.org/media/349
+    required: always
+    how_to_fill:
+      en: |
+        - **Current Full Legal Name**: your name exactly as it is now. Put your county as the court "Unit." Leave the case number blank.
+        - **Born at / on**: your town or city and state of birth, and date of birth.
+        - **Name I wish to be known by**: first, middle, and last. There is no box for a reason; you do not need to explain why.
+        - **Do you want your birth certificate changed?** Check YES only if you were born in Vermont and want the court to send the change to Vital Records. If you were born elsewhere, check NO and update your birth certificate with your birth state yourself.
+        - Sign and date, and add a mailing address, phone, and email so the court can send you the hearing notice. The bottom section is signed by the judge at the hearing.
+      es: |
+        - **Nombre legal completo actual**: tu nombre tal como es ahora. Escribe tu condado como "Unit". Deja en blanco el número de caso.
+        - **Lugar y fecha de nacimiento**: ciudad o pueblo y estado donde naciste, y la fecha.
+        - **Nombre que deseas usar**: nombre, segundo nombre y apellido. No hay espacio para una razón; no necesitas explicar por qué.
+        - **¿Quieres cambiar tu acta de nacimiento?** Marca SÍ solo si naciste en Vermont. Si naciste en otro lugar, marca NO y actualiza tu acta con tu estado de nacimiento.
+        - Firma y fecha, y agrega dirección postal, teléfono y correo para recibir el aviso de audiencia.
+    sources: [form-700-00122, vtcourts-name-changes, vtlawhelp-name-gender]
+  - id: 600-00228
+    name:
+      en: Application to Waive Filing Fees and Service Costs
+      es: Solicitud para exonerar tarifas de presentación y costos de notificación
+    url: https://www.vermontjudiciary.org/self-help/application-waive-filing-fees-and-service-costs
+    required: conditional
+    condition:
+      en: Only if you cannot afford the $150 filing fee.
+      es: Solo si no puedes pagar la tarifa de $150.
+    sources: [vtcourts-fee-waiver]
+  - id: 700-00123
+    name:
+      en: Petition to Change Name of Minor
+      es: Petición para cambiar el nombre de un menor
+    url: https://www.vermontjudiciary.org/media/855
+    required: conditional
+    condition:
+      en: For a child under 18. Includes sections for the non-petitioning parent's consent and the minor's consent if over 14.
+      es: Para un menor de 18 años. Incluye secciones para el consentimiento del otro padre y del menor si tiene más de 14 años.
+    sources: [vtcourts-name-changes]
+steps:
+  - id: fill-petition
+    title:
+      en: Fill out the petition
+      es: Llena la petición
+    body:
+      en: >-
+        Complete form 700-00122 (adults) or 700-00123 (minors). The court may also ask for a certified copy of your birth
+        certificate and a copy of a photo ID; call your probate court to check before you file. VTLawHelp.org also offers
+        a guided online interview for the fee waiver form.
+      es: >-
+        Llena el formulario 700-00122 (adultos) o 700-00123 (menores). El tribunal puede pedir una copia certificada de
+        tu acta de nacimiento y una copia de una identificación con foto; llama a tu tribunal antes de presentar.
+    forms: [700-00122, 700-00123]
+    sources: [vtcourts-name-changes, vtlawhelp-name-gender]
+  - id: file
+    title:
+      en: File with the probate court and pay or ask for a waiver
+      es: Presenta en el tribunal de sucesiones y paga o pide exoneración
+    body:
+      en: >-
+        File in person, by mail, or by email with the Probate Division in your county. Pay the $150 fee, or attach the
+        Application to Waive Filing Fees (600-00228). Keep a date-stamped copy for yourself.
+      es: >-
+        Presenta en persona, por correo o por correo electrónico en la División de Sucesiones de tu condado. Paga la
+        tarifa de $150 o adjunta la solicitud de exoneración (600-00228). Guarda una copia sellada.
+    forms: [600-00228]
+    fees: [filing]
+    sources: [vtcourts-name-changes, vtcourts-fee-waiver]
+  - id: hearing
+    title:
+      en: Attend the short hearing
+      es: Asiste a la audiencia breve
+    body:
+      en: >-
+        The court mails you a hearing date. The hearing can be in person or by video. There is no opposing party; the
+        judge may ask a few questions, such as confirming no one is forcing you to change your name, and then signs the
+        instrument with you.
+      es: >-
+        El tribunal te envía por correo la fecha de la audiencia, que puede ser en persona o por video. No hay parte
+        contraria; el juez puede hacer algunas preguntas y luego firma el documento contigo.
+    sources: [vtcourts-name-changes, vtlawhelp-name-gender, form-700-00122]
+  - id: copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: >-
+        Ask for several certified copies so you can update agencies at the same time. Later copies can be requested
+        with the Request for Access to Court Record form, writing the case name as "In re New Name (formerly Old Name)".
+      es: >-
+        Pide varias copias certificadas para actualizar varias agencias a la vez. Puedes pedir más copias después con el
+        formulario de solicitud de acceso a expedientes.
+    fees: [certified-copy]
+    sources: [vtcourts-name-changes, vtcourts-fees, vtlawhelp-name-gender]
+fees:
+  - id: filing
+    label:
+      en: Petition for change of name
+      es: Petición de cambio de nombre
+    amount: 150
+    waivable: true
+    sources: [vtcourts-fees, vtcourts-name-changes]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    amount: 5
+    note:
+      en: The court fee schedule also lists "instrument changing name (issuance of two certified copies)" as no fee; ask the clerk whether two copies come with your order.
+      es: La lista de tarifas también indica que la emisión de dos copias certificadas del instrumento de cambio de nombre no tiene costo; pregunta al secretario.
+    sources: [vtcourts-fees, vtlawhelp-name-gender]
+fee_waiver:
+  available: true
+  forms: [600-00228]
+  eligibility:
+    en: You qualify if you receive any public assistance, your gross income is at or below 150% of the federal poverty guidelines, or the court finds you cannot pay without giving up money you need to support yourself and your dependents.
+    es: Calificas si recibes cualquier asistencia pública, si tu ingreso bruto es igual o menor al 150% de las pautas federales de pobreza, o si el tribunal determina que no puedes pagar sin usar recursos que necesitas para mantenerte.
+  how:
+    en: File the application with your petition. If it is denied you have 30 days to pay, or 7 days to appeal in writing to the presiding judge.
+    es: Presenta la solicitud junto con tu petición. Si la niegan, tienes 30 días para pagar o 7 días para apelar por escrito.
+  sources: [vtcourts-fee-waiver]
+publication:
+  required: "no"
+  detail:
+    en: Vermont does not require newspaper publication for an adult name change. The former publication statute (15 V.S.A. § 815) was repealed in 2004.
+    es: Vermont no exige publicación en periódico para un cambio de nombre de adulto. La antigua ley de publicación (15 V.S.A. § 815) fue derogada en 2004.
+  sources: [vsa-15-ch13, a4te-vt]
+hearing:
+  required: "yes"
+  detail:
+    en: The court schedules a hearing and notifies you by mail. You may appear in person or by video, and the judge acknowledges your signature on the instrument.
+    es: El tribunal programa una audiencia y te avisa por correo. Puedes comparecer en persona o por video.
+  sources: [vtcourts-name-changes, form-700-00122]
+background_check:
+  required: "yes"
+  detail:
+    en: The court asks the Department of Public Safety whether your name is on the Sex Offender Registry. This happens automatically; there are no fingerprints and no general criminal background check.
+    es: El tribunal consulta al Departamento de Seguridad Pública si tu nombre está en el Registro de Delincuentes Sexuales. Es automático; no hay huellas ni verificación general de antecedentes.
+  sources: [vsa-15-ch13, form-700-00122]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Vermont has no law that automatically seals name change records, and we could not confirm a specific sealing procedure. If you have safety concerns, ask the court to limit access using the General Motion (700-00300) and talk to a lawyer first.
+    es: Vermont no tiene una ley que selle automáticamente los expedientes de cambio de nombre. Si tienes preocupaciones de seguridad, pide al tribunal que limite el acceso con una moción general (700-00300) y consulta a un abogado.
+  sources: [vtcourts-name-changes]
+minors:
+  summary:
+    en: |
+      A parent or guardian files the **Petition to Change Name of Minor (700-00123)** in the county where the child lives. If the other parent agrees, they sign the Non-Petitioning Parent section. If they do not agree or cannot be found, you must list their address (or describe your efforts to find them) and have the petition served on them, usually by certified mail, then file a Certificate of Service; publication in a newspaper is possible only as an alternative method of service with the court's permission. **A child over 14 must consent in court.** The court holds a hearing.
+    es: |
+      Un padre, madre o tutor presenta la **Petición para Cambiar el Nombre de un Menor (700-00123)** en el condado donde vive el menor. Si el otro padre está de acuerdo, firma la sección correspondiente. Si no está de acuerdo o no se le encuentra, debes notificarle la petición, normalmente por correo certificado. **Un menor de más de 14 años debe dar su consentimiento ante el tribunal.** Hay una audiencia.
+  forms: [700-00123]
+  sources: [vsa-15-ch13, vtcourts-name-changes]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: You can file in person, by mail, or by email with the probate court. The hearing can be in person or by video.
+    es: Puedes presentar en persona, por correo o por correo electrónico. La audiencia puede ser en persona o por video.
+  sources: [vtcourts-name-changes, form-700-00122]
+timeline:
+  en: Usually a few weeks to two months from filing to hearing, depending on the county's calendar.
+  es: Normalmente de unas semanas a dos meses desde la presentación hasta la audiencia, según el condado.
+after:
+  en: |
+    With certified copies of your order, update records in this order: **Selective Service** within 10 days if it applies to you, then your **Vermont birth certificate** (if you checked YES on the petition the court may send it; otherwise send the order to Vital Records), then **Social Security**, then the **DMV** (the DMV will not process a name change until SSA records match), then your **passport**, banks, employer, insurance, and voter registration.
+  es: |
+    Con copias certificadas de tu orden, actualiza en este orden: **Servicio Selectivo** dentro de 10 días si te aplica, luego tu **acta de nacimiento de Vermont**, luego el **Seguro Social**, luego el **DMV** (el DMV no procesa el cambio hasta que coincidan los registros del Seguro Social), luego tu **pasaporte**, bancos, empleador, seguro y registro de votante.
+tips:
+  - en: You can change your gender marker in Vermont without a court order, so there is no need to ask the probate court for a gender order.
+    es: En Vermont puedes cambiar tu marcador de género sin orden judicial, así que no necesitas pedir una orden de género al tribunal.
+  - en: The Judiciary's Access and Resource Center helps with forms by phone at 802-879-1185 or selfhelp@vtcourts.gov.
+    es: El Centro de Acceso y Recursos del Poder Judicial ayuda con formularios al 802-879-1185 o selfhelp@vtcourts.gov.
+local_help:
+  - id: vtlawhelp
+    name: VTLawHelp.org (Vermont Legal Aid and Legal Services Vermont)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Step-by-step guide to name and gender marker changes in Vermont, plus a guided interview for the fee waiver form. Their helpline says it cannot give further advice on name changes, so use the online guide first.
+      es: Guía paso a paso para cambios de nombre y marcador de género en Vermont, y una entrevista guiada para la exoneración de tarifas.
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    cost: free
+    verification: org_website
+    sources: [vtlawhelp-name-gender]
+  - id: vt-access-resource-center
+    name: Vermont Judiciary Access and Resource Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help center that answers questions about forms and filing. 802-879-1185, selfhelp@vtcourts.gov.
+      es: Centro de autoayuda del tribunal que responde preguntas sobre formularios. 802-879-1185, selfhelp@vtcourts.gov.
+    url: https://www.vermontjudiciary.org/self-help/ARC
+    phone: "802-879-1185"
+    cost: free
+    verification: official_source
+    sources: [vtcourts-name-changes]
+  - id: aclu-vt
+    name: ACLU of Vermont
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization; VTLawHelp directs people affected by the federal passport policy to contact the ACLU of Vermont. General intake through its Share Your Story form.
+      es: Organización de libertades civiles; VTLawHelp remite a quienes están afectados por la política federal de pasaportes a la ACLU de Vermont.
+    url: https://www.acluvt.org/share-your-story-intake/
+    cost: free
+    verification: org_website
+    sources: [aclu-vt, vtlawhelp-name-gender]
+  - id: trans-lifeline-microgrants
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Peer support hotline (877-565-8860) that also offers microgrants for ID document costs when funding allows.
+      es: Línea de apoyo (877-565-8860) que también ofrece microsubvenciones para costos de documentos cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [translifeline]
+statutes:
+  - cite: 15 V.S.A. §§ 811-817
+    title:
+      en: Change of name (procedure, minors, filing, birth certificate amendment, sex offender registry check)
+      es: Cambio de nombre
+    url: https://legislature.vermont.gov/statutes/fullchapter/15/013
+  - cite: 32 V.S.A. § 1434(a)(17)
+    title:
+      en: Probate filing fee for a petition for change of name
+    url: https://www.vermontjudiciary.org/fees
+related_links:
+  - title: Advocates for Trans Equality, Vermont identity documents
+    url: https://transequality.org/documents/vermont-identity-documents
+    note:
+      en: No last-updated date shown. Its birth certificate section describes the pre-2022 physician-affidavit rule, which no longer applies.
+      es: Sin fecha de actualización. Su sección de actas de nacimiento describe la regla anterior a 2022, que ya no aplica.
+sources:
+  - id: vsa-15-ch13
+    url: https://legislature.vermont.gov/statutes/fullchapter/15/013
+    title: 15 V.S.A. chapter 13, Change of Name
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      the name of the minor, if over 14 years of age, shall not be changed without his or her consent given in court.
+      ... § 815. Repealed. 2003, No. 88 (Adj. Sess.), § 1.
+  - id: vtcourts-name-changes
+    url: https://www.vermontjudiciary.org/probate/name-changes
+    title: Name Changes
+    publisher: Vermont Judiciary
+    kind: court
+    accessed: "2026-09-24"
+    quote: >-
+      There is a $150 fee to file a name change petition. ... The court will schedule a hearing with the judge, and
+      will notify you of the hearing date by mail.
+  - id: form-700-00122
+    url: https://www.vermontjudiciary.org/media/349
+    title: Form 700-00122, Petition of Adult to Change Name (06/2026)
+    publisher: Vermont Judiciary
+    kind: form
+    accessed: "2026-09-24"
+    quote: Do you want your birth certificate changed? YES NO ... by Personal Appearance OR Virtual Video
+  - id: vtcourts-fee-waiver
+    url: https://www.vermontjudiciary.org/self-help/application-waive-filing-fees-and-service-costs
+    title: Application to Waive Filing Fees and Service Costs
+    publisher: Vermont Judiciary
+    kind: court
+    accessed: "2026-09-24"
+    quote: your gross income is at or below 150% of the federal poverty guidelines
+  - id: vtcourts-fees
+    url: https://www.vermontjudiciary.org/fees
+    title: Court fees
+    publisher: Vermont Judiciary
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Petition for change of name: $150.00, 32 V.S.A. § 1434(a)(17). Official certificate (Certified Copy): $5.00"
+  - id: vtlawhelp-name-gender
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    title: Name and Gender Marker Changes in Vermont
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: Once the Order Changing Name is issued, you can get a certified copy for a $5 fee at the courthouse.
+  - id: a4te-vt
+    url: https://transequality.org/documents/vermont-identity-documents
+    title: Vermont identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: No publication is required.
+  - id: aclu-vt
+    url: https://www.acluvt.org/
+    title: ACLU of Vermont
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

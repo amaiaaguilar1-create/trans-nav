@@ -1,0 +1,208 @@
+jurisdiction: VT
+slug: burlington
+name: Burlington
+area:
+  en: Chittenden County (Burlington, South Burlington, Winooski, Essex, Colchester)
+  es: Condado de Chittenden (Burlington, South Burlington, Winooski, Essex, Colchester)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the Vermont Judiciary's Chittenden Probate Division page (2026-09-24). Resources from org
+    websites where they loaded. Outright Vermont (outrightvt.org) and Planned Parenthood of Northern New England
+    returned HTTP 403 to automated fetching: their entries are marked unverified and carry no address; confirm
+    services, ages, and the Burlington health center address. CHCB's LGBTQ+ page does not mention hormone therapy;
+    confirm. Pride Center HIV testing drop-in hours (Tue/Thu 12-6) are from its health page and may change.
+intro:
+  en: >-
+    Burlington is Vermont's largest city and the center of its trans services: the statewide Pride Center, the UVM
+    Children's Hospital Transgender Youth Program, a sliding-scale community health center, and Planned Parenthood.
+    Name change petitions for Chittenden County residents are filed at the Chittenden Probate Division on Main Street.
+  es: >-
+    Burlington es la ciudad más grande de Vermont y el centro de sus servicios trans: el Pride Center estatal, el
+    Programa de Jóvenes Transgénero del Hospital Infantil de UVM, un centro de salud comunitario con escala móvil y
+    Planned Parenthood. Las peticiones de cambio de nombre de residentes del condado de Chittenden se presentan en la
+    División de Sucesiones de Chittenden en Main Street.
+court:
+  name: Vermont Superior Court, Chittenden Unit, Probate Division
+  url: https://www.vermontjudiciary.org/court-locations/chittenden-probate-division
+  self_help_url: https://www.vermontjudiciary.org/probate/name-changes
+  filing_fee: 150
+  notes:
+    en: >-
+      175 Main Street, Burlington, VT 05401; 802-651-1518; ChittendenUnit@vtcourts.gov. Open Monday to Friday 8 a.m. to
+      4:30 p.m., closed the second Tuesday of each month from noon to 4 p.m. You can file in person, by mail, or by email.
+      The fee is the same statewide.
+    es: >-
+      175 Main Street, Burlington, VT 05401; 802-651-1518; ChittendenUnit@vtcourts.gov. Abierto de lunes a viernes de
+      8 a.m. a 4:30 p.m. Puedes presentar en persona, por correo o por correo electrónico.
+  sources: [chittenden-probate, vtcourts-name-changes]
+resources:
+  - id: pride-center-vt
+    name: Pride Center of Vermont
+    type: lgbtq_center
+    pillars: [sexual_health, mental_health, hrt]
+    description:
+      en: Statewide LGBTQ+ center. Free rapid HIV testing (results in 20 minutes; drop-in Tuesdays and Thursdays noon to 6 p.m.), and the Vermont Diversity Health Project directory of affirming providers.
+      es: Centro LGBTQ+ estatal. Pruebas rápidas de VIH gratuitas (resultados en 20 minutos; sin cita martes y jueves de 12 a 6 p.m.) y el directorio de proveedores afirmativos del Vermont Diversity Health Project.
+    url: https://www.pridecentervt.org/programs/health/
+    phone: "802-860-7812"
+    address: 11 Elmwood Ave, Burlington, VT 05401
+    cost: free
+    verification: org_website
+    sources: [pride-center-health]
+  - id: outright-vt
+    name: Outright Vermont
+    type: lgbtq_center
+    pillars: [mental_health, name_change, gender_marker]
+    description:
+      en: Statewide organization for LGBTQ+ youth; VTLawHelp points to its website for updates on issues affecting trans Vermonters, including federal ID gender markers.
+      es: Organización estatal para jóvenes LGBTQ+; VTLawHelp remite a su sitio para novedades sobre temas que afectan a personas trans en Vermont.
+    url: https://outrightvt.org/
+    cost: free
+    verification: unverified
+    sources: [vtlawhelp-name-gender]
+  - id: chcb
+    name: Community Health Centers of Burlington (CHCB)
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Community health center with LGBTQ+ primary care, PrEP/PEP, HIV and STI services, and a sliding-fee scale. Patient support for financial help at 802-264-8124.
+      es: Centro de salud comunitario con atención primaria LGBTQ+, PrEP/PEP, servicios de VIH e ITS y escala móvil. Apoyo financiero al 802-264-8124.
+    url: https://www.chcb.org/services/medical-care/lgbtq-health-clinics/
+    phone: "802-864-6309"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [chcb]
+  - id: uvm-transgender-youth-program
+    name: UVM Children's Hospital Transgender Youth Program
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Counseling, puberty blockers, menstrual suppression, and gender-affirming hormones for youth under 18, with a team including adolescent medicine, endocrinology, social work, and psychology.
+      es: Consejería, bloqueadores de pubertad, supresión menstrual y hormonas para menores de 18, con un equipo de medicina adolescente, endocrinología, trabajo social y psicología.
+    url: https://www.uvmhealth.org/conditions-specialties/golisano-childrens-hospital/transgender-youth-program
+    phone: "802-847-4696"
+    address: 111 Colchester Ave, Burlington, VT 05401
+    cost: insurance
+    verification: org_website
+    sources: [uvm-typ]
+  - id: ppnne-burlington
+    org: planned-parenthood
+    name: Planned Parenthood of Northern New England, Burlington
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual and reproductive health care, STI testing, and PrEP. Confirm gender-affirming hormone therapy availability and minimum age by calling the affiliate.
+      es: Salud sexual y reproductiva, pruebas de ITS y PrEP. Confirma la disponibilidad de terapia hormonal y la edad mínima con la afiliada.
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [ppnne]
+  - id: vtlawhelp
+    name: Vermont Legal Aid and Legal Services Vermont (VTLawHelp)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free online guide to name and gender marker changes in Vermont and a guided fee waiver interview. Legal helpline 1-800-889-2047.
+      es: Guía gratuita en línea para cambios de nombre y marcador de género en Vermont y entrevista guiada para exoneración de tarifas. Línea legal 1-800-889-2047.
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    phone: "800-889-2047"
+    cost: free
+    verification: org_website
+    sources: [vtlawhelp-name-gender, vtlawhelp-help]
+  - id: health-care-advocate
+    name: Office of the Health Care Advocate
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help with Medicaid and insurance denials and appeals, 1-800-917-7787.
+      es: Ayuda gratuita con negaciones y apelaciones de Medicaid y seguros, 1-800-917-7787.
+    url: https://vtlawhelp.org/health
+    phone: "800-917-7787"
+    cost: free
+    verification: org_website
+    sources: [vtlawhelp-hca]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: chittenden-probate
+    url: https://www.vermontjudiciary.org/court-locations/chittenden-probate-division
+    title: Chittenden Probate Division
+    publisher: Vermont Judiciary
+    kind: court
+    accessed: "2026-09-24"
+    quote: 175 Main Street, Burlington, VT 05401 p. 802-651-1518
+  - id: vtcourts-name-changes
+    url: https://www.vermontjudiciary.org/probate/name-changes
+    title: Name Changes
+    publisher: Vermont Judiciary
+    kind: court
+    accessed: "2026-09-24"
+    quote: There is a $150 fee to file a name change petition.
+  - id: pride-center-health
+    url: https://www.pridecentervt.org/programs/health/
+    title: Health programs
+    publisher: Pride Center of Vermont
+    kind: org
+    accessed: "2026-09-24"
+    quote: Pride Center of Vermont currently offers rapid HIV testing that is free and fast! Get your results in just 20 minutes!
+  - id: chcb
+    url: https://www.chcb.org/services/medical-care/lgbtq-health-clinics/
+    title: LGBTQ+ Health
+    publisher: Community Health Centers of Burlington
+    kind: org
+    accessed: "2026-09-24"
+  - id: uvm-typ
+    url: https://www.uvmhealth.org/conditions-specialties/golisano-childrens-hospital/transgender-youth-program
+    title: Transgender Youth Program
+    publisher: University of Vermont Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppnne
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england
+    title: Planned Parenthood of Northern New England
+    kind: org
+    accessed: "2026-09-24"
+    watch: false
+  - id: vtlawhelp-name-gender
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    title: Name and Gender Marker Changes in Vermont
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: Outright Vermont is providing updates on its website about issues affecting transgender Vermonters.
+  - id: vtlawhelp-help
+    url: https://vtlawhelp.org/how-we-can-help
+    title: How we can help
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+  - id: vtlawhelp-hca
+    url: https://vtlawhelp.org/health
+    title: Vermont Office of the Health Care Advocate
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

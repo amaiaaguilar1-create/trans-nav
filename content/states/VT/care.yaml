@@ -1,0 +1,306 @@
+jurisdiction: VT
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework from Act 14 and Act 15 of 2023 (bill pages and Legislative Counsel summaries; Act 15 enacted text
+    for 8 V.S.A. § 4088m) and Act 20 of 2025 (summary), read 2026-09-24. Medicaid surgery criteria from DVHA's
+    "Gender Affirmation Surgery" clinical criteria (last review Dec 17, 2024), which cites HCAR 4.238. Not confirmed:
+    any DVHA page stating hormone coverage specifically (covers_hrt = yes rests on 8 V.S.A. § 4088m, which applies to
+    Medicaid). Planned Parenthood of Northern New England's pages and Outright Vermont returned HTTP 403; PPNNE's
+    gender-affirming hormone offering and minimum age in Vermont are unverified. CHCB's LGBTQ+ page lists primary care,
+    PrEP and STI care but does not mention hormones; confirm whether CHCB prescribes GAHT on informed consent. FOLX does
+    not list Vermont in the brief's coverage list; QueerMed not checked (not Southern). No litigation or pending bills
+    restricting care found.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected for adults and minors in Vermont. State law requires Medicaid and
+    state-regulated private health plans to cover medically necessary gender-affirming care, and shield laws (2023,
+    expanded 2025) protect patients and providers from other states' investigations and lawsuits.
+  es: >-
+    La atención de afirmación de género es legal y está protegida para adultos y menores en Vermont. La ley estatal
+    exige que Medicaid y los planes privados regulados por el estado cubran la atención médicamente necesaria, y las
+    leyes escudo (2023, ampliadas en 2025) protegen a pacientes y proveedores de investigaciones y demandas de otros
+    estados.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restrictions. Vermont law defines gender-affirming health care as a "legally protected health care activity" and a legal right. Providers cannot be disciplined by Vermont licensing boards for providing it, and malpractice insurers cannot raise premiums for it.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **Vermont Medicaid (Green Mountain Care)** through Vermont Health Connect. It must cover medically necessary gender-affirming care.
+      2. Go to a **community health center** (FQHC) such as Community Health Centers of Burlington, which charges on a sliding scale. Find others at findahealthcenter.hrsa.gov.
+      3. Use the **Vermont Diversity Health Project** directory to find affirming prescribers near you, filtered for hormone therapy.
+      4. Telehealth: **Plume** serves Vermont. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who qualify.
+      5. If a plan denies care, call the **Health Care Advocate** HelpLine (1-800-917-7787), free.
+    es: |
+      Sin restricciones estatales. La ley de Vermont define la atención de afirmación de género como una "actividad de atención médica legalmente protegida" y un derecho. Los proveedores no pueden ser sancionados por las juntas de licencias de Vermont por brindarla.
+
+      **Si no tienes seguro ni mucho dinero**:
+      1. Solicita **Medicaid de Vermont (Green Mountain Care)** a través de Vermont Health Connect.
+      2. Acude a un **centro de salud comunitario** como Community Health Centers of Burlington, con escala móvil. Busca otros en findahealthcenter.hrsa.gov.
+      3. Usa el directorio del **Vermont Diversity Health Project** para encontrar proveedores afirmativos que recetan hormonas.
+      4. Telesalud: **Plume** atiende Vermont. El **Fondo HRT de Point of Pride** paga atención hormonal por telesalud a quienes califican.
+      5. Si tu plan niega atención, llama gratis al **Health Care Advocate** (1-800-917-7787).
+  sources: [act-14-2023, act-15-2023, act-15-text, vdhp, chcb, vtlawhelp-hca, hrsa]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. Vermont has no ban on gender-affirming care for minors, and its shield laws cover care for people of any age. Care for minors generally requires parental consent. The **UVM Children's Hospital Transgender Youth Program** in Burlington offers counseling, puberty blockers, menstrual suppression, and gender-affirming hormones following AAP, Endocrine Society, and WPATH guidelines, and helps patients move to adult care at 18.
+
+      Act 20 of 2025 extended the shield law to bar Vermont agencies from cooperating with **federal** investigations into legally protected care performed in Vermont (except under court order), and lets prescribers and pharmacists ask that their names be left off gender-affirming prescription labels.
+    es: |
+      Legal. Vermont no prohíbe la atención de afirmación de género para menores, y sus leyes escudo cubren la atención a cualquier edad. La atención a menores generalmente requiere consentimiento de los padres. El **Programa de Jóvenes Transgénero del Hospital Infantil de UVM** en Burlington ofrece consejería, bloqueadores de pubertad, supresión menstrual y hormonas.
+
+      La Ley 20 de 2025 amplió la ley escudo para impedir que agencias de Vermont cooperen con investigaciones **federales** sobre atención legalmente protegida realizada en Vermont (salvo por orden judicial), y permite que quienes recetan y farmacéuticos pidan que sus nombres no aparezcan en las etiquetas.
+  sources: [act-14-2023, act-20-2025, uvm-typ]
+medicaid:
+  program_name: Vermont Medicaid (Green Mountain Care)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Since Act 15 of 2023, 8 V.S.A. § 4088m requires Medicaid and other health insurance plans to cover gender-affirming health care services that are medically necessary and clinically appropriate. Surgery (genital and chest) is covered with prior authorization under Health Care Administrative Rule 4.238 and DVHA's clinical criteria. Apply through **Vermont Health Connect** online, by phone, or with an in-person assister.
+    es: |
+      Desde la Ley 15 de 2023, 8 V.S.A. § 4088m exige que Medicaid y otros planes de salud cubran la atención de afirmación de género médicamente necesaria. La cirugía (genital y de pecho) está cubierta con autorización previa según la Regla 4.238 y los criterios clínicos de DVHA. Solicita a través de **Vermont Health Connect**.
+  how_to_apply_url: https://info.healthconnect.vermont.gov/
+  sources: [act-15-text, dvha-surgery, vhc]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      8 V.S.A. § 4088m requires individual and group health plans regulated by Vermont, and state employee plans, to cover medically necessary gender-affirming care included in the state's essential health benefits benchmark. Self-funded employer plans are federally regulated and may not be covered. If your plan denies care, appeal with the plan, get free help from the Health Care Advocate (1-800-917-7787), and file a complaint with the Department of Financial Regulation.
+    es: |
+      8 V.S.A. § 4088m exige que los planes de salud individuales y grupales regulados por Vermont, y los planes de empleados estatales, cubran la atención de afirmación de género médicamente necesaria. Los planes autofinanciados por empleadores pueden no estar incluidos. Si niegan la atención, apela con el plan, pide ayuda gratis al Health Care Advocate y presenta una queja ante el Departamento de Regulación Financiera.
+  complaint_url: https://dfr.vermont.gov/consumers/file-complaint/insurance/insurance-complaints
+  sources: [act-15-text, dfr-complaint, vtlawhelp-hca]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: chcb
+    name: Community Health Centers of Burlington (CHCB)
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federally qualified health center with LGBTQ+ primary care, PrEP/PEP, HIV and STI services, and a sliding-fee scale for uninsured patients. Ask whether its prescribers start hormones.
+      es: Centro de salud comunitario con atención primaria LGBTQ+, PrEP/PEP, servicios de VIH e ITS y escala móvil para personas sin seguro.
+    url: https://www.chcb.org/services/medical-care/lgbtq-health-clinics/
+    phone: "802-864-6309"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [chcb]
+  - id: uvm-transgender-youth-program
+    name: UVM Children's Hospital Transgender Youth Program
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Multidisciplinary program for gender-diverse youth and families; counseling, puberty blockers, menstrual suppression, and gender-affirming hormones until age 18.
+      es: Programa multidisciplinario para jóvenes de género diverso y sus familias; consejería, bloqueadores de pubertad y hormonas hasta los 18.
+    url: https://www.uvmhealth.org/conditions-specialties/golisano-childrens-hospital/transgender-youth-program
+    phone: "802-847-4696"
+    address: 111 Colchester Ave, Burlington, VT 05401
+    cost: insurance
+    verification: org_website
+    sources: [uvm-typ]
+  - id: vdhp
+    name: Vermont Diversity Health Project (Pride Center of Vermont)
+    type: other
+    pillars: [hrt, mental_health]
+    description:
+      en: Searchable directory of more than 330 LGBTQ-affirming health and mental health providers across Vermont, filterable for hormone therapy and letter writing.
+      es: Directorio de más de 330 proveedores de salud y salud mental afirmativos en todo Vermont, con filtros para terapia hormonal y cartas.
+    url: https://www.pridecentervt.org/programs/health/vdhp/
+    cost: free
+    verification: org_website
+    sources: [vdhp]
+  - id: ppnne
+    org: planned-parenthood
+    name: Planned Parenthood of Northern New England
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Affiliate with health centers across Vermont, including Burlington. Planned Parenthood affiliates commonly offer informed-consent hormone therapy; confirm availability and minimum age with PPNNE.
+      es: Afiliada con centros en todo Vermont, incluido Burlington. Confirma la disponibilidad de terapia hormonal y la edad mínima con PPNNE.
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [ppnne]
+  - id: health-care-advocate
+    name: Office of the Health Care Advocate
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free HelpLine for Medicaid and private insurance problems, denials, and appeals. 1-800-917-7787.
+      es: Línea gratuita para problemas con Medicaid y seguros privados, negaciones y apelaciones. 1-800-917-7787.
+    url: https://vtlawhelp.org/health
+    phone: "800-917-7787"
+    cost: free
+    verification: org_website
+    sources: [vtlawhelp-hca]
+  - id: pop-hrt
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that covers telehealth hormone therapy for trans people who cannot afford it; application periods are limited.
+      es: Fondo nacional que cubre terapia hormonal por telesalud para personas trans sin recursos; los periodos de solicitud son limitados.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit offering grants toward gender-affirming care costs.
+      es: Organización nacional que ofrece becas para costos de atención de afirmación de género.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios con escala móvil sin importar el seguro.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: 1 V.S.A. § 150 (Act 15 of 2023)
+    title:
+      en: Definitions of gender-affirming health care services and legally protected health care activity
+    url: https://legislature.vermont.gov/bill/status/2024/S.37
+  - cite: 8 V.S.A. § 4088m
+    title:
+      en: Required coverage of gender-affirming health care by Medicaid and health insurance plans
+    url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT015/ACT015%20As%20Enacted.pdf
+  - cite: Act 14 of 2023 (H.89)
+    title:
+      en: Shield law protecting legally protected health care activity from out-of-state litigation, subpoenas, and extradition
+    url: https://legislature.vermont.gov/bill/status/2024/H.89
+  - cite: Act 20 of 2025 (S.28)
+    title:
+      en: Shield law expansion (federal non-cooperation, prescriber name removal, interstate reciprocity)
+    url: https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT020/ACT020%20Act%20Summary.pdf
+sources:
+  - id: act-14-2023
+    url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT014/ACT014%20Act%20Summary.pdf
+    title: Act 14 of 2023 (H.89), act summary
+    publisher: Vermont Office of Legislative Counsel
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      reaffirms that access to such services is a legal right in Vermont. The act declares interference with legally
+      protected health care activity ... against the public policy of Vermont
+  - id: act-15-2023
+    url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT015/ACT015%20Act%20Summary.pdf
+    title: Act 15 of 2023 (S.37), act summary
+    publisher: Vermont Office of Legislative Counsel
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      prohibits a health care provider from being subject to professional disciplinary action for providing or
+      assisting in the provision of legally protected health care activity
+  - id: act-15-text
+    url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT015/ACT015%20As%20Enacted.pdf
+    title: Act 15 of 2023, as enacted (8 V.S.A. § 4088m)
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      "Health insurance plan" means Medicaid and any other public health care assistance program, any individual or
+      group health insurance policy ... A health insurance plan shall provide coverage for gender-affirming health care
+      services that are medically necessary and clinically appropriate
+  - id: act-20-2025
+    url: https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT020/ACT020%20Act%20Summary.pdf
+    title: Act 20 of 2025 (S.28), act summary
+    publisher: Vermont Office of Legislative Counsel
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      It adds federal investigations and proceedings to an existing prohibition on public agencies and officials
+      cooperating in an interstate investigation ... allows prescribers and pharmacists to request their names be
+      removed from fulfilled prescriptions for medications for gender-affirming or reproductive health care services
+  - id: dvha-surgery
+    url: https://dvha.vermont.gov/sites/dvha/files/documents/providers/Forms/gender%20affirmation%20surgery%20for%20web.pdf
+    title: Clinical Criteria, Gender Affirmation Surgery for the Treatment of Gender Dysphoria (last review Dec 17, 2024)
+    publisher: Department of Vermont Health Access
+    kind: official
+    accessed: "2026-09-24"
+    quote: Vermont Medicaid Health Care Administrative Rule (HCAR) 4.238 includes a list of covered gender affirmation procedures
+  - id: vhc
+    url: https://info.healthconnect.vermont.gov/
+    title: Vermont Health Connect
+    publisher: State of Vermont
+    kind: official
+    accessed: "2026-09-24"
+  - id: dfr-complaint
+    url: https://dfr.vermont.gov/file-complaint-or-seek-help-and-other-assistance
+    title: File a Complaint or Seek Help and Other Assistance
+    publisher: Vermont Department of Financial Regulation
+    kind: official
+    accessed: "2026-09-24"
+    quote: File a complaint about an insurance company or agent doing business in Vermont, including ... major medical
+  - id: vtlawhelp-hca
+    url: https://vtlawhelp.org/health
+    title: Vermont Office of the Health Care Advocate
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: Call 1-800-917-7787 to speak with a health care advocate
+  - id: chcb
+    url: https://www.chcb.org/services/medical-care/lgbtq-health-clinics/
+    title: LGBTQ+ Health
+    publisher: Community Health Centers of Burlington
+    kind: org
+    accessed: "2026-09-24"
+    quote: Primary and preventive care for LGBTQ+ individuals, partners, and their families
+  - id: uvm-typ
+    url: https://www.uvmhealth.org/conditions-specialties/golisano-childrens-hospital/transgender-youth-program
+    title: Transgender Youth Program
+    publisher: University of Vermont Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Transgender Youth Program offers education, support and medical treatment to gender-diverse youth and their families.
+  - id: vdhp
+    url: https://www.pridecentervt.org/programs/health/vdhp/
+    title: Vermont Diversity Health Project
+    publisher: Pride Center of Vermont
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppnne
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england
+    title: Planned Parenthood of Northern New England
+    kind: org
+    accessed: "2026-09-24"
+    watch: false
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: HRSA
+    kind: official
+    accessed: "2026-09-24"

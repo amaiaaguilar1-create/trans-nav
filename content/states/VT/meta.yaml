@@ -1,0 +1,164 @@
+code: VT
+name:
+  en: Vermont
+  es: Vermont
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Climate drawn from statutes and agency pages read 2026-09-24: 15 V.S.A. ch. 13 (name change), 18 V.S.A. § 5112
+    (birth certificate, self-attestation with X since July 1, 2022), DMV FAQ (gender change without documentation),
+    Acts 14 and 15 of 2023 (shield law and coverage mandate) and Act 20 of 2025 (shield law expansion). Outright
+    Vermont's site returned HTTP 403 to automated fetching; its listing is based on VTLawHelp's reference to it and
+    has not been checked against Outright's own pages.
+overview:
+  en: >-
+    Vermont is one of the most protective states for trans people. You can change the sex marker on your driver's
+    license (M, F, or X) with no documentation and on a Vermont birth certificate (M, F, or X) with a notarized
+    self-attestation. Name changes go through the probate court with a $150 fee, no newspaper publication, and a
+    short hearing. State law requires Medicaid and state-regulated private plans to cover gender-affirming care, and
+    shield laws passed in 2023 and expanded in 2025 protect patients and providers from other states' bans. Federal
+    documents (passport, Social Security) are the exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Vermont es uno de los estados que más protege a las personas trans. Puedes cambiar el marcador de sexo en tu
+    licencia de conducir (M, F o X) sin documentación y en un acta de nacimiento de Vermont (M, F o X) con una
+    declaración propia notarizada. Los cambios de nombre se tramitan en el tribunal de sucesiones (probate) con una
+    tarifa de $150, sin publicación en periódico y con una audiencia breve. La ley estatal exige que Medicaid y los
+    planes privados regulados por el estado cubran la atención de afirmación de género, y las leyes escudo de 2023,
+    ampliadas en 2025, protegen a pacientes y proveedores de las prohibiciones de otros estados. Los documentos
+    federales (pasaporte, Seguro Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [act-14-2023, act-15-2023, act-20-2025, vsa-18-5112]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [burlington]
+key_resources:
+  - id: legal-services-vermont
+    name: Vermont Legal Aid and Legal Services Vermont (VTLawHelp)
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: >-
+        Free statewide civil legal help for people with low income. VTLawHelp.org has a step-by-step guide to name and
+        gender marker changes in Vermont. Legal helpline 1-800-889-2047 (note: they say they cannot give further advice on
+        name changes, so start with the online guide).
+      es: >-
+        Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos. VTLawHelp.org tiene una guía paso a
+        paso para cambios de nombre y de marcador de género en Vermont. Línea de ayuda legal 1-800-889-2047.
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    phone: "800-889-2047"
+    cost: free
+    verification: org_website
+    sources: [vtlawhelp-name-gender, vtlawhelp-help]
+  - id: health-care-advocate
+    name: Office of the Health Care Advocate (Vermont Legal Aid)
+    type: insurance_help
+    pillars: [insurance, hrt]
+    description:
+      en: Free HelpLine for anyone in Vermont with a health insurance problem, including Medicaid and private plan denials. Call 1-800-917-7787.
+      es: Línea de ayuda gratuita para cualquier persona en Vermont con problemas de seguro médico, incluidas negaciones de Medicaid y planes privados. Llama al 1-800-917-7787.
+    url: https://vtlawhelp.org/health
+    phone: "800-917-7787"
+    cost: free
+    verification: org_website
+    sources: [vtlawhelp-hca]
+  - id: pride-center-vt
+    name: Pride Center of Vermont
+    type: lgbtq_center
+    pillars: [sexual_health, hrt, mental_health]
+    description:
+      en: Burlington-based statewide LGBTQ+ center. Free rapid HIV testing and runs the Vermont Diversity Health Project, a directory of affirming providers across Vermont (filterable for hormone therapy and letter writers).
+      es: Centro LGBTQ+ estatal con sede en Burlington. Pruebas rápidas de VIH gratuitas y administra el Vermont Diversity Health Project, un directorio de proveedores afirmativos en todo Vermont.
+    url: https://www.pridecentervt.org/
+    phone: "802-860-7812"
+    address: 11 Elmwood Ave, Burlington, VT 05401
+    cost: free
+    verification: org_website
+    sources: [pride-center-health]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: act-14-2023
+    url: https://legislature.vermont.gov/bill/status/2024/H.89
+    title: H.89 (Act 14 of 2023), civil and criminal procedures concerning legally protected health care activity
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      This act defines "legally protected health care activity" for purposes of Vermont law to include reproductive
+      health care services and gender-affirming health care services and reaffirms that access to such services is a
+      legal right in Vermont.
+  - id: act-15-2023
+    url: https://legislature.vermont.gov/bill/status/2024/S.37
+    title: S.37 (Act 15 of 2023), access to legally protected health care activity and regulation of health care providers
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: requires (in statute) that health insurance plans and Medicaid cover gender-affirming health care services
+  - id: act-20-2025
+    url: https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT020/ACT020%20Act%20Summary.pdf
+    title: Act 20 of 2025 (S.28), access to certain legally protected health care services, act summary
+    publisher: Vermont Office of Legislative Counsel
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      This act creates reciprocity with other states that also safeguard access to reproductive health care and
+      gender-affirming health care services
+  - id: vsa-18-5112
+    url: https://legislature.vermont.gov/statutes/fullchapter/18/104
+    title: 18 V.S.A. § 5112, Issuance of new birth certificate
+    publisher: Vermont General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      the State shall adopt a simple process by which an individual may amend the marker on a birth certificate to
+      reflect the individual's gender identity, including a third non-binary marker.
+  - id: vtlawhelp-name-gender
+    url: https://vtlawhelp.org/name-and-gender-marker-changes-vermont
+    title: Name and Gender Marker Changes in Vermont
+    publisher: VTLawHelp.org (Vermont Legal Aid and Legal Services Vermont)
+    kind: org
+    accessed: "2026-09-24"
+  - id: vtlawhelp-help
+    url: https://vtlawhelp.org/how-we-can-help
+    title: How we can help
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: Or, leave a message on our legal helpline at 1-800-889-2047
+  - id: vtlawhelp-hca
+    url: https://vtlawhelp.org/health
+    title: Vermont Office of the Health Care Advocate
+    publisher: VTLawHelp.org
+    kind: org
+    accessed: "2026-09-24"
+    quote: Call 1-800-917-7787 to speak with a health care advocate
+  - id: pride-center-health
+    url: https://www.pridecentervt.org/programs/health/
+    title: Health programs
+    publisher: Pride Center of Vermont
+    kind: org
+    accessed: "2026-09-24"
+    quote: Pride Center of Vermont currently offers rapid HIV testing that is free and fast!
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
