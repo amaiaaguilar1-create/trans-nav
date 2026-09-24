@@ -1,0 +1,127 @@
+code: ND
+name:
+  en: North Dakota
+  es: Dakota del Norte
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate is based on primary sources read 2026-09-24. N.D.C.C. 23-02.1-25.1 (HB 1297, 2023) bars birth
+    certificate sex changes "due to a gender identity change"; the DOT still publishes Gender Designation Form SFN
+    61146 (revised 4-2026) with M/F only; N.D.C.C. ch. 12.1-36.1 (HB 1254, 2023) criminalizes care for minors and was
+    upheld by the North Dakota Supreme Court on 2026-09-17 (T.D. v. Wrigley, per Gender Justice). ND Medicaid's
+    Gender Affirming Care policy (updated July 2026) covers hormones and listed surgeries for adults. MAP's profile
+    agrees on all of these points and also lists a negative law on state-employee health benefits and a
+    statewide definition of "sex" (now N.D.C.C. 1-01-49); the state-employee plan exclusion was not verified from
+    a primary source. No shield law exists. The Pride Collective and Community Center (Fargo) website could not be
+    found (pridecollective.com is a parked domain), so it is not listed.
+overview:
+  en: >-
+    North Dakota is mixed for ID documents and restrictive for care. You can change your name in district court
+    (newspaper publication can be waived if you change only your first or middle name) and change the sex on your
+    driver's license to M or F with a form signed by a medical provider. But state law has barred changing the sex on
+    a North Dakota birth certificate because of gender identity since 2023, and a 2023 law makes it a crime to
+    provide puberty blockers, hormones, or surgery to anyone under 18. Adults can get care, and ND Medicaid covers
+    hormones and many surgeries. There is no shield law.
+  es: >-
+    Dakota del Norte es mixto en documentos de identidad y restrictivo en atención médica. Puedes cambiar tu nombre
+    en el tribunal de distrito (la publicación en el periódico puede omitirse si solo cambias el primer nombre o el
+    segundo nombre) y cambiar el sexo en tu licencia de conducir a M o F con un formulario firmado por un proveedor
+    médico. Pero desde 2023 la ley prohíbe cambiar el sexo en un acta de nacimiento de Dakota del Norte por identidad
+    de género, y una ley de 2023 convierte en delito dar bloqueadores de pubertad, hormonas o cirugía a menores de 18.
+    Los adultos pueden recibir atención, y ND Medicaid cubre hormonas y muchas cirugías. No hay ley escudo.
+climate:
+  id_documents: mixed
+  care: restrictive
+  shield_law: false
+  sources: [ndcc-23-02-1, sfn61146, ndcc-12-1-36-1, map-nd]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [fargo]
+key_resources:
+  - id: lsnd
+    name: Legal Services of North Dakota
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: >-
+        Free civil legal help statewide for people with low income and people 60 and older. Apply by phone Monday to
+        Thursday, 9 am to 3 pm Central, at 1-800-634-5263 (under 60) or 1-866-621-9886 (60 and older).
+      es: >-
+        Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos y mayores de 60. Solicita por
+        teléfono de lunes a jueves, de 9 am a 3 pm hora central, al 1-800-634-5263 (menores de 60) o 1-866-621-9886
+        (60 o más).
+    url: https://lsnd.org/
+    phone: "1-800-634-5263"
+    cost: free
+    verification: org_website
+    sources: [lsnd]
+  - id: dakota-outright
+    name: Dakota OutRight
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Bismarck-based LGBTQ2S+ community organization (since 2004) that runs Capitol City Pride, year-round meetups, and a resource list.
+      es: Organización comunitaria LGBTQ2S+ con sede en Bismarck (desde 2004) que organiza Capitol City Pride, encuentros durante todo el año y una lista de recursos.
+    url: https://dakotaoutright.org/
+    cost: free
+    verification: org_website
+    sources: [dakota-outright]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ndcc-23-02-1
+    url: https://ndlegis.gov/cencode/t23c02-1.pdf
+    title: N.D.C.C. ch. 23-02.1, Vital Statistics (see 23-02.1-25.1)
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The sex designation on a birth record of an individual born in this state may not be amended under section 23-02.1-25 due to a gender identity change.
+  - id: sfn61146
+    url: https://www.dot.nd.gov/forms/sfn61146.pdf
+    title: SFN 61146 Gender Designation (4-2026)
+    publisher: North Dakota Department of Transportation
+    kind: form
+    accessed: "2026-09-24"
+  - id: ndcc-12-1-36-1
+    url: https://ndlegis.gov/cencode/t12-1c36-1.pdf
+    title: N.D.C.C. ch. 12.1-36.1, Minor Sex Change Treatment
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-nd
+    url: https://www.mapresearch.org/equality-maps/profile_state/ND
+    title: North Dakota equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsnd
+    url: https://lsnd.org/
+    title: Legal Services of North Dakota
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Apply for Assistance Mon. – Thurs., 9 am – 3 pm Central Under age 60: 1-800-634-5263"
+  - id: dakota-outright
+    url: https://dakotaoutright.org/
+    title: Dakota OutRight
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

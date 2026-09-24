@@ -1,0 +1,211 @@
+jurisdiction: ND
+slug: fargo
+name: Fargo
+area:
+  en: Cass County, North Dakota, and the Fargo-Moorhead metro (including Moorhead, Minnesota)
+  es: Condado de Cass, Dakota del Norte, y el área metropolitana de Fargo-Moorhead (incluida Moorhead, Minnesota)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the ND Courts Cass County page (fetched 2026-09-24). The $160 fee is the statewide figure
+    from the court's self-help instructions. The Pride Collective and Community Center (Fargo) could not be found
+    online (pridecollective.com is a parked domain; other guessed domains did not resolve), so it is not listed;
+    reviewer should confirm whether it still operates and add it with its current address. Sanford Health (Fargo)
+    adult gender care could not be verified from its website. Family HealthCare's website does not mention
+    gender-affirming care. Planned Parenthood Moorhead lists "Gender-Affirming Care" but its age minimum was not
+    confirmed. Reviewer: add a local trans peer-support group and an NDSU or MSUM campus LGBTQ resource if they
+    serve the public.
+intro:
+  en: >-
+    Fargo is North Dakota's largest city. Name change petitions for Cass County residents are filed with the Cass
+    County District Court in downtown Fargo. For care, many people cross the Red River to Moorhead, Minnesota, where
+    Planned Parenthood offers gender-affirming care and Minnesota's shield law protects patients and providers.
+    Minors cannot get puberty blockers or hormones in North Dakota; see the care guide.
+  es: >-
+    Fargo es la ciudad más grande de Dakota del Norte. Las peticiones de cambio de nombre de residentes del condado de
+    Cass se presentan en el Tribunal de Distrito del condado de Cass, en el centro de Fargo. Para atención médica,
+    muchas personas cruzan el río Rojo hacia Moorhead, Minnesota, donde Planned Parenthood ofrece atención de
+    afirmación de género. Los menores no pueden recibir bloqueadores ni hormonas en Dakota del Norte.
+court:
+  name: Cass County District Court (East Central Judicial District)
+  url: https://www.ndcourts.gov/court-locations/cass-county
+  self_help_url: https://www.ndcourts.gov/legal-self-help/name-change-adult
+  filing_fee: 160
+  notes:
+    en: >-
+      211 9th St. S., Fargo, ND 58103. Clerk's Office (second floor) phone (701) 451-6900; hours 8 am to 5 pm, Monday
+      to Friday. Public entrance on the east side. Ask the clerk whether Cass County judges require a background
+      check for all adult name changes. Newspaper publication is extra unless the judge waives it.
+    es: >-
+      211 9th St. S., Fargo, ND 58103. Secretaría (segundo piso) teléfono (701) 451-6900; de 8 am a 5 pm, lunes a
+      viernes. Pregunta si los jueces de Cass exigen verificación de antecedentes a todos los adultos.
+  sources: [cass-court, nc-instructions]
+resources:
+  - id: nd-legal-self-help-center
+    name: North Dakota Legal Self Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: The court system's free online forms and step-by-step instructions for adult and child name changes and fee waivers.
+      es: Formularios gratuitos e instrucciones paso a paso del sistema judicial para cambios de nombre y exenciones de tarifas.
+    url: https://www.ndcourts.gov/legal-self-help/name-change-adult
+    cost: free
+    verification: official_source
+    sources: [nc-forms-page]
+  - id: lsnd
+    name: Legal Services of North Dakota
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help statewide for people with low income and people 60 and older. Apply by phone, Monday to Thursday, 9 am to 3 pm Central.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos y mayores de 60. Solicita por teléfono de lunes a jueves, de 9 am a 3 pm.
+    url: https://lsnd.org/
+    phone: "1-800-634-5263"
+    cost: free
+    verification: org_website
+    sources: [lsnd]
+  - id: pp-moorhead
+    org: planned-parenthood
+    name: Planned Parenthood Moorhead Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: In Moorhead, Minnesota. Lists gender-affirming care, STI testing, HIV services, mental health, and birth control; in-person and telehealth visits; fees based on income.
+      es: En Moorhead, Minnesota. Ofrece atención de afirmación de género, pruebas de ITS, servicios de VIH, salud mental y anticonceptivos; tarifas según ingresos.
+    url: https://www.plannedparenthood.org/health-center/minnesota/moorhead/56560/moorhead-health-center-2932-90720
+    phone: "218-236-7145"
+    address: 803 Belsly Boulevard, Moorhead, MN 56560
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [pp-moorhead]
+  - id: family-healthcare
+    name: Family HealthCare (Main Clinic)
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federally qualified health center with a sliding fee scale ("Access Plan") and free interpreters in 14 languages; does not refuse care for inability to pay. Ask whether a provider prescribes hormones. Also has a South Fargo clinic at 4025 9th Ave. S.
+      es: Centro de salud comunitario con escala móvil e intérpretes gratis en 14 idiomas; no niega atención por falta de pago. Pregunta si recetan hormonas.
+    url: https://famhealthcare.org/
+    phone: "701-271-3344"
+    address: 301 NP Avenue, Fargo, ND 58102
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fhc, fhc-locations]
+  - id: fargo-cass-public-health
+    name: Fargo Cass Public Health clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Rapid HIV and hepatitis C testing (20-minute results), PrEP, STI testing and treatment, and birth control; some visits available virtually.
+      es: Pruebas rápidas de VIH y hepatitis C, PrEP, pruebas y tratamiento de ITS y anticonceptivos; algunas visitas virtuales.
+    url: https://fargond.gov/city-government/departments/fargo-cass-public-health/clinic-services
+    phone: "701-241-1383"
+    address: 1240 25th Street South, Fargo, ND 58103
+    cost: sliding_scale
+    verification: official_source
+    sources: [fcph]
+  - id: firstlink
+    name: FirstLink (988 and 211)
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Fargo-based helpline that answers the 988 Suicide & Crisis Lifeline locally and runs 211 for referrals to food, rent, and other help, 24/7.
+      es: Línea de ayuda con sede en Fargo que atiende localmente la línea 988 y el 211 para referencias de comida, renta y otros apoyos, 24/7.
+    url: https://myfirstlink.org/
+    phone: "988"
+    cost: free
+    verification: org_website
+    sources: [firstlink]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+  - id: fm-pride
+    name: Fargo-Moorhead Pride
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Volunteer-run organization behind the Fargo-Moorhead Pride festival, drag brunches, and community workshops; publishes an annual Pride Guide.
+      es: Organización voluntaria que organiza el festival Pride de Fargo-Moorhead, brunches y talleres comunitarios; publica una guía anual.
+    url: https://fmpride.org/
+    cost: free
+    verification: org_website
+    sources: [fmpride]
+sources:
+  - id: cass-court
+    url: https://www.ndcourts.gov/court-locations/cass-county
+    title: Cass County court location
+    publisher: North Dakota Court System
+    kind: court
+    accessed: "2026-09-24"
+    quote: "211 9th St. S., Fargo, ND 58103 ... Phone Number: (701) 451-6900 for Clerk's Office"
+  - id: nc-instructions
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Instructions%20for%20a%20name%20change%20-%20adult.pdf
+    title: Instructions for a Name Change, Adult (rev. May 2026)
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: nc-forms-page
+    url: https://www.ndcourts.gov/legal-self-help/name-change-adult
+    title: Adult Name Changes
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: lsnd
+    url: https://lsnd.org/
+    title: Legal Services of North Dakota
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-moorhead
+    url: https://www.plannedparenthood.org/health-center/minnesota/moorhead/56560/moorhead-health-center-2932-90720
+    title: Moorhead Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: fhc
+    url: https://famhealthcare.org/
+    title: Family HealthCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: fhc-locations
+    url: https://famhealthcare.org/locations/
+    title: Family HealthCare locations
+    kind: org
+    accessed: "2026-09-24"
+  - id: fcph
+    url: https://fargond.gov/city-government/departments/fargo-cass-public-health/clinic-services
+    title: Fargo Cass Public Health Clinic Services
+    publisher: City of Fargo
+    kind: official
+    accessed: "2026-09-24"
+  - id: firstlink
+    url: https://myfirstlink.org/
+    title: FirstLink
+    kind: org
+    accessed: "2026-09-24"
+    quote: 988 Suicide & Crisis Lifeline is answered locally by FirstLink.
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
+  - id: fmpride
+    url: https://fmpride.org/
+    title: Fargo-Moorhead Pride
+    kind: org
+    accessed: "2026-09-24"

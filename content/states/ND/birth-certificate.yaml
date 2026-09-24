@@ -1,0 +1,222 @@
+guide_type: birth_certificate
+jurisdiction: ND
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    N.D.C.C. 23-02.1-25.1 (created by HB 1297, 2023, signed and filed 2023-05-09) read on ndlegis.gov 2026-09-24.
+    Subsection 1 bars amending the sex designation "due to a gender identity change." Subsection 2(c) allows a
+    correction when "the sex of the individual was changed with anatomically correct genitalia for the identified
+    sex as certified by a medical provider." How Vital Records applies 2(c) to trans people who have had genital
+    surgery is unknown: the HHS page only says amendments are "unique to each person" and to email
+    vitalrec@nd.gov, the court self-help packet answers "No" to sex changes, and A4TE (Jan 2026) and MAP treat North
+    Dakota as not allowing changes. Status is set to prohibited on that basis; a reviewer should ask Vital Records
+    directly whether any 2(c) amendments have been granted and, if so, consider changing to restricted /
+    surgery_proof. No evidence was found that previously amended certificates were voided (A4TE says it has heard of
+    none). Fees: the $15 certified-copy fee is from HHS and SFN 8140; statute (23-02.1-29) allows up to $15 for
+    filing an amendment, but whether HHS charges a separate amendment fee on top of the copy was not confirmed.
+    Whether Vital Records requires a separate notarized affidavit form for a name amendment (A4TE mentions one) was
+    not confirmed from HHS.
+status: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    North Dakota law does not allow the sex on a North Dakota birth certificate to be changed because of gender
+    identity. You can still update your name on it with a certified court order.
+  es: >-
+    La ley de Dakota del Norte no permite cambiar el sexo en un acta de nacimiento de Dakota del Norte por identidad
+    de género. Sí puedes actualizar tu nombre con una orden judicial certificada.
+summary:
+  en: |
+    Since 2023, North Dakota law (N.D.C.C. § 23-02.1-25.1) says the sex on a birth record of someone born in North Dakota **may not be amended due to a gender identity change**. The law defines sex as "the biological state of being male or female" at birth. A court order does not override this.
+
+    The law lists three narrow exceptions: a clerical or data-entry error, a misidentification shown by genetic testing with a lab affidavit, or when "the sex of the individual was changed with anatomically correct genitalia for the identified sex as certified by a medical provider." It is unclear how Vital Records applies that last exception; if you have had genital surgery and want to ask, email vitalrec@nd.gov. Do not expect approval.
+
+    **Name changes are still allowed.** Vital Records amends the name on your existing record using a certified copy of your court order. The certificate is amended, not replaced: a note at the bottom shows what was changed and what document supported it.
+
+    This guide is for people **born in North Dakota**. If you were born in another state, follow that state's rules, even if you live in North Dakota now.
+
+    Your driver's license can still show M or F based on a provider form; it does not depend on your birth certificate.
+  es: |
+    Desde 2023, la ley de Dakota del Norte (N.D.C.C. § 23-02.1-25.1) dice que el sexo en el registro de nacimiento de una persona nacida en Dakota del Norte **no puede modificarse por un cambio de identidad de género**. Una orden judicial no cambia esto.
+
+    La ley tiene tres excepciones estrechas: un error de escritura, un error comprobado con pruebas genéticas, o cuando "el sexo de la persona fue cambiado con genitales anatómicamente correctos" certificado por un proveedor médico. No está claro cómo aplica Registros Vitales esta última; si te has hecho cirugía genital y quieres preguntar, escribe a vitalrec@nd.gov.
+
+    **Los cambios de nombre sí se permiten.** Registros Vitales modifica el nombre en tu registro con una copia certificada de tu orden judicial. El acta queda enmendada, no se reemplaza: una nota al pie indica el cambio.
+
+    Esta guía es para personas **nacidas en Dakota del Norte**. Si naciste en otro estado, sigue las reglas de ese estado.
+
+    Tu licencia de conducir puede mostrar M o F con un formulario del proveedor; no depende de tu acta de nacimiento.
+requirement_type: prohibited
+markers_available: [M, F]
+eligibility:
+  residency:
+    en: You must have been born in North Dakota. You do not need to live in North Dakota now.
+    es: Debes haber nacido en Dakota del Norte. No necesitas vivir allí ahora.
+  age:
+    en: You must be 18 or older to request an amendment to your own record. A parent listed on the record, or a legal guardian with a certified court order, can request for a minor.
+    es: Debes tener 18 años o más para pedir una enmienda de tu propio registro. Un padre o madre que figure en el registro, o un tutor legal con orden judicial, puede pedirla por un menor.
+  sources: [hhs-changing, ndcc-23-02-1]
+forms:
+  - id: SFN 8140
+    name:
+      en: Request for Certified Copy of a Birth Record
+      es: Solicitud de copia certificada de un registro de nacimiento
+    url: https://www.hhs.nd.gov/sites/www/files/documents/DOH%20Legacy/Vital/SFN%208140.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Fill in the information **as it should appear** after the change (your new name), as HHS instructs for amendments.
+        - Enclose a copy of a valid photo ID and the $15 fee per copy (check or money order).
+        - Include a certified copy of your court order **with the certified Confidential Information Form attached**; Vital Records will not accept the order without it.
+      es: |
+        - Escribe la información **como debe aparecer** después del cambio (tu nuevo nombre).
+        - Incluye copia de una identificación con foto y $15 por copia.
+        - Incluye copia certificada de tu orden judicial **con el formulario de información confidencial certificado adjunto**.
+    sources: [hhs-changing, sfn8140, nc-instructions]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified court order for your name change
+      es: Obtén una orden judicial certificada de tu cambio de nombre
+    body:
+      en: >-
+        Get your name changed in court first (see the name change guide). Ask the clerk for a certified copy of the
+        order and of the Confidential Information Form. An order from a court in another state also works.
+      es: >-
+        Primero cambia tu nombre en el tribunal (ver la guía de cambio de nombre). Pide a la secretaría una copia
+        certificada de la orden y del formulario de información confidencial.
+    applies_to: [name_change]
+    sources: [nc-instructions, a4te-nd]
+  - id: contact-vital-records
+    title:
+      en: Contact Vital Records and send your request
+      es: Contacta a Registros Vitales y envía tu solicitud
+    body:
+      en: >-
+        Email vitalrec@nd.gov or call (701) 328-2360 and say you want to amend the name on your birth record with a
+        court order. Send SFN 8140 with the new name, a copy of your ID, the certified court order with the
+        Confidential Information Form, and the fee to Vital Records, 600 East Boulevard Ave., Dept. 325, Bismarck, ND
+        58505-0250. Follow any extra instructions Vital Records gives you.
+      es: >-
+        Escribe a vitalrec@nd.gov o llama al (701) 328-2360 y di que quieres modificar el nombre con una orden
+        judicial. Envía el SFN 8140 con el nuevo nombre, copia de tu identificación, la orden certificada con el
+        formulario de información confidencial y la tarifa a Vital Records, 600 East Boulevard Ave., Dept. 325,
+        Bismarck, ND 58505-0250.
+    forms: [SFN 8140]
+    fees: [certified-copy]
+    applies_to: [name_change, by_mail]
+    sources: [hhs-changing, sfn8140, a4te-nd]
+  - id: sex-marker
+    title:
+      en: Sex marker changes are not available
+      es: No se puede cambiar el marcador de sexo
+    body:
+      en: >-
+        Vital Records cannot change the sex on your North Dakota birth certificate because of gender identity. The
+        only exceptions in the law are clerical errors, genetic-test misidentification, and the "anatomically
+        correct genitalia" provision, whose use for trans people is untested. If you think an exception applies,
+        email vitalrec@nd.gov before sending anything.
+      es: >-
+        Registros Vitales no puede cambiar el sexo en tu acta por identidad de género. Las únicas excepciones son
+        errores de escritura, errores comprobados genéticamente y la disposición sobre "genitales anatómicamente
+        correctos", cuyo uso para personas trans no está probado.
+    applies_to: [gender_marker]
+    sources: [ndcc-23-02-1, hb1297, hhs-changing]
+fees:
+  - id: certified-copy
+    label:
+      en: Certified copy of the amended birth certificate
+      es: Copia certificada del acta enmendada
+    amount: 15
+    note:
+      en: $15 per copy. State law allows a fee of up to $15 for filing an amendment; ask Vital Records whether it is charged in addition to the copy.
+      es: $15 por copia. La ley permite hasta $15 por presentar una enmienda; pregunta si se cobra además de la copia.
+    sources: [hhs-changing, sfn8140, ndcc-23-02-1]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Requests go to Vital Records in Bismarck by mail. Contact the office first for amendment instructions.
+    es: Las solicitudes se envían por correo a Registros Vitales en Bismarck. Contacta primero a la oficina.
+  sources: [hhs-changing, a4te-nd]
+timeline:
+  en: Vital Records says it takes about 3 to 5 business days to update the record once the amendment is approved, plus mailing time.
+  es: Registros Vitales indica unos 3 a 5 días hábiles para actualizar el registro una vez aprobada la enmienda, más el tiempo de envío.
+after:
+  en: |
+    Your amended certificate will show your new name with an amendment note, and the original sex. For most other documents you do not need a birth certificate that matches your gender:
+    - **Driver's license or ID**: change the sex with SFN 61146; see the driver's license guide.
+    - **Social Security** and **passport**: see the federal guides for current rules.
+  es: |
+    Tu acta enmendada mostrará tu nuevo nombre con una nota de enmienda y el sexo original. Para la mayoría de los demás documentos no necesitas un acta que coincida con tu género:
+    - **Licencia o identificación**: cambia el sexo con el SFN 61146.
+    - **Seguro Social** y **pasaporte**: consulta las guías federales.
+tips:
+  - en: Order extra certified copies of your court order; Vital Records keeps the one you send.
+    es: Pide copias certificadas extra de tu orden; Registros Vitales se queda con la que envías.
+statutes:
+  - cite: N.D.C.C. § 23-02.1-25.1
+    title:
+      en: Birth records; amendments and corrections; sex change
+    url: https://ndlegis.gov/cencode/t23c02-1.pdf
+  - cite: N.D.C.C. § 23-02.1-25
+    title:
+      en: Correction and amendment of vital records
+    url: https://ndlegis.gov/cencode/t23c02-1.pdf
+  - cite: N.D.C.C. § 23-02.1-29
+    title:
+      en: Vital records fees
+    url: https://ndlegis.gov/cencode/t23c02-1.pdf
+related_links:
+  - title: A4TE, North Dakota Identity Documents
+    url: https://transequality.org/documents/north-dakota-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizada en enero de 2026.
+sources:
+  - id: ndcc-23-02-1
+    url: https://ndlegis.gov/cencode/t23c02-1.pdf
+    title: N.D.C.C. ch. 23-02.1, Vital Statistics
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The sex designation on a birth record of an individual born in this state may not be amended under section 23-02.1-25 due to a gender identity change.
+  - id: hb1297
+    url: https://ndlegis.gov/assembly/68-2023/regular/bill-overview/bo1297.html
+    title: HB 1297 (2023), relating to correction or amendment of birth records
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Current Status Governor signed Last Official Action Filed with Secretary Of State 05/09"
+  - id: hhs-changing
+    url: https://www.hhs.nd.gov/vital/changing-birth-record
+    title: Changing a Birth Record
+    publisher: North Dakota Health and Human Services, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: It takes approximately 3-5 business days to update a birth record before the amended certified copy can be issued.
+  - id: sfn8140
+    url: https://www.hhs.nd.gov/sites/www/files/documents/DOH%20Legacy/Vital/SFN%208140.pdf
+    title: SFN 8140 Request for Certified Copy of a Birth Record
+    publisher: North Dakota Health and Human Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: Number of Certified Copies Requested ($15.00 per copy requested)
+  - id: nc-instructions
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Instructions%20for%20a%20name%20change%20-%20adult.pdf
+    title: Instructions for a Name Change, Adult (rev. May 2026)
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+    quote: If the Confidential Information Form isn't attached, North Dakota Vital Records won't accept the Order Granting Name Change.
+  - id: a4te-nd
+    url: https://transequality.org/documents/north-dakota-identity-documents
+    title: North Dakota Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

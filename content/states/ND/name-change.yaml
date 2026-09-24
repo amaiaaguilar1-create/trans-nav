@@ -1,0 +1,514 @@
+guide_type: name_change
+jurisdiction: ND
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from N.D.C.C. 32-28-02 (ndlegis.gov) and the ND Legal Self Help Center adult packet
+    (Instructions rev. May 2026) and fee waiver packet (rev. Aug 2026). Open items: (1) newspaper publication costs
+    in Cass County (Fargo Forum) were not checked, so no dollar range is given; (2) whether a judge will waive
+    publication when only the first and middle names change is discretionary ("may waive"); no data on how often
+    Cass County judges grant it; (3) the statute has no sealing provision, and nothing was found on whether ND
+    judges seal name-change files on request; (4) the cost of the FBI Identity History Summary through
+    edo.cjis.gov (about $18 at last check) was not re-verified and is not stated; (5) the minor packet says
+    publication cannot be waived for minors; this matches A4TE's page (last updated January 2026). The $160
+    filing fee and $10/$5 certified-copy fees are from the court's own instructions and match A4TE. The Pride
+    Collective and Community Center in Fargo could not be verified online and is not listed.
+status: available
+status_summary:
+  en: >-
+    Adults can change their name in North Dakota district court for any good-faith reason, including to match
+    their gender. If you change only your first or middle name, you can ask the judge to skip newspaper
+    publication. The filing fee is $160, and you can ask the court to waive it.
+  es: >-
+    Las personas adultas pueden cambiar su nombre en el tribunal de distrito de Dakota del Norte por cualquier
+    motivo de buena fe, incluso para que coincida con su género. Si solo cambias tu primer nombre o segundo nombre,
+    puedes pedir al juez que omita la publicación en el periódico. La tarifa de presentación es de $160 y puedes
+    pedir una exención.
+summary:
+  en: |
+    You file a petition in the **district court of the county where you live**. You must have lived in that county for at least **six months**, and you must be a U.S. citizen or lawful permanent resident.
+
+    State law normally requires you to publish a notice in the county's official newspaper and wait 30 days before the judge can grant the change. The judge **may waive publication** if you change **only your first or middle name** (not your last name), or if you are a victim of domestic violence. The court's self-help packet has a checkbox for this.
+
+    The judge decides on the papers in most cases; a hearing is not required but can be ordered. The judge must check whether you have a criminal record and may make you get a background check at your own cost. A felony conviction makes it much harder, but not impossible, to get a name change.
+
+    A name change order does **not** let you change the sex on a North Dakota birth certificate; state law bars that. You can still use the order to change your name everywhere else, and to change the sex on your driver's license with a separate provider form.
+  es: |
+    Presentas una petición en el **tribunal de distrito del condado donde vives**. Debes haber vivido en ese condado al menos **seis meses** y ser ciudadano estadounidense o residente permanente legal.
+
+    La ley normalmente exige publicar un aviso en el periódico oficial del condado y esperar 30 días. El juez **puede omitir la publicación** si cambias **solo tu primer nombre o segundo nombre** (no el apellido), o si eres víctima de violencia doméstica. El paquete de autoayuda del tribunal tiene una casilla para pedirlo.
+
+    Por lo general el juez decide con los documentos; no se exige audiencia, pero puede ordenarla. El juez debe verificar si tienes antecedentes penales y puede pedirte una verificación a tu costo. Una condena por delito grave dificulta mucho el cambio, pero no lo impide.
+
+    Una orden de cambio de nombre **no** permite cambiar el sexo en un acta de nacimiento de Dakota del Norte; la ley lo prohíbe. Sí puedes usarla para cambiar tu nombre en todo lo demás.
+eligibility:
+  residency:
+    en: You must have been a resident of the North Dakota county where you file for at least six months before filing.
+    es: Debes haber residido al menos seis meses en el condado de Dakota del Norte donde presentas la petición.
+  age:
+    en: 18 or older for the adult process. A parent files for a minor; see the Minors section.
+    es: 18 años o más para el proceso de adultos. Un padre o madre presenta la petición por un menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      If you have a felony conviction anywhere, the law presumes the request is in bad faith. You can still get the
+      change if you prove by clear and convincing evidence that it is in good faith, not meant to defraud or
+      mislead, and will not harm anyone or public safety. The court reports granted name changes of people with a
+      criminal history to the Bureau of Criminal Investigation.
+    es: >-
+      Si tienes una condena por delito grave en cualquier lugar, la ley presume mala fe. Aun así puedes obtener el
+      cambio si pruebas con evidencia clara y convincente que actúas de buena fe y sin intención de engañar.
+  other:
+    en: You must be a U.S. citizen or a lawful permanent resident.
+    es: Debes ser ciudadano estadounidense o residente permanente legal.
+  sources: [ndcc-32-28, nc-instructions]
+forms:
+  - id: nc-petition-adult
+    name:
+      en: Petition for Name Change (adult)
+      es: Petición de cambio de nombre (adulto)
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Petition-Name-Change-Adult.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Leave the case number blank; the clerk assigns it.
+        - Paragraph 4: the county and the month and year you began living there. It must be at least six months ago.
+        - Paragraph 7: your new name exactly as you want it on the order.
+        - **Paragraph 11**: if you are changing only your first and/or middle name, check the box asking the judge to **waive publication** and check that reason. If you keep the box unchecked, you must publish first (Steps 1 and 2 of the instructions).
+        - Paragraph 9: check whether you have any criminal convictions. Answer honestly; the court checks.
+      es: |
+        - Deja en blanco el número de caso.
+        - Párrafo 4: el condado y el mes y año en que empezaste a vivir allí (al menos seis meses).
+        - Párrafo 7: tu nuevo nombre exactamente como lo quieres.
+        - **Párrafo 11**: si solo cambias el primer nombre o segundo nombre, marca la casilla para pedir que se **omita la publicación**.
+        - Párrafo 9: indica si tienes condenas penales.
+    sources: [nc-forms-page, nc-instructions]
+  - id: nc-declaration-adult
+    name:
+      en: Declaration of Petitioner
+      es: Declaración del peticionario
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Declaration-name-change-adult.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Item 8 asks for your reasons. A short, honest statement is enough, for example that you are transgender and want your legal name to match the name you use. You do not need a doctor's letter.
+        - Item 11 must match paragraph 11 of your petition. If you ask for a waiver of publication because of domestic violence, explain in detail here.
+        - Item 12: list anyone who sent a written objection (only if you published).
+      es: |
+        - El punto 8 pide tus razones. Basta una explicación breve y honesta, por ejemplo que eres una persona trans y quieres que tu nombre legal coincida con el que usas. No necesitas carta médica.
+        - El punto 11 debe coincidir con el párrafo 11 de tu petición.
+    sources: [nc-forms-page, nc-instructions]
+  - id: nc-confidential-info-adult
+    name:
+      en: Confidential Information Form
+      es: Formulario de información confidencial
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Confidential-info-form-adult.pdf
+    required: always
+    condition:
+      en: Holds your full date of birth. It is not public. Get a certified copy of it with your order; Vital Records will not accept the order without it.
+      es: Contiene tu fecha de nacimiento completa. No es público. Pide una copia certificada junto con tu orden; Registros Vitales no acepta la orden sin él.
+    sources: [nc-forms-page, nc-instructions]
+  - id: nc-order-adult
+    name:
+      en: Order Granting Name Change (proposed)
+      es: Orden que concede el cambio de nombre (propuesta)
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Order-name-change-adult.pdf
+    required: always
+    condition:
+      en: Fill in the caption and names; skip paragraph 5 and do not sign or date it. The judge signs it.
+      es: Completa el encabezado y los nombres; omite el párrafo 5 y no lo firmes. El juez lo firma.
+    sources: [nc-forms-page, nc-instructions]
+  - id: nc-notice-adult
+    name:
+      en: Notice of Petition for Name Change
+      es: Aviso de petición de cambio de nombre
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Notice-of-name-change-adult.pdf
+    required: conditional
+    condition:
+      en: Only if you publish (for example, if you change your last name, or the judge denies your waiver request).
+      es: Solo si publicas (por ejemplo, si cambias el apellido o el juez niega la exención).
+    sources: [nc-forms-page, nc-instructions]
+  - id: nc-declaration-criminal-history
+    name:
+      en: "Declaration of Petitioner: Criminal History Records Checks and/or Objections"
+      es: "Declaración del peticionario: verificación de antecedentes penales u objeciones"
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Declaration%20of%20Petitioner.pdf
+    required: conditional
+    condition:
+      en: Only if the court tells you after filing that you need a background check or must respond to objections.
+      es: Solo si el tribunal te lo pide después de presentar.
+    sources: [nc-forms-page]
+  - id: fee-waiver-packet
+    name:
+      en: Petition for Waiver of Filing Fees and Financial Declaration (Forms 1 and 2)
+      es: Petición de exención de tarifas y declaración financiera (formularios 1 y 2)
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Other%20Forms/Fee%20Waiver/All%20Petition%20for%20Fee%20Waiver%20Instructions%20%20Forms.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $160 filing fee. File it at the same time as your petition.
+      es: Solo si no puedes pagar los $160. Preséntalo junto con tu petición.
+    sources: [fee-waiver-page, fee-waiver-packet-src]
+steps:
+  - id: check-background-rule
+    title:
+      en: Call the clerk and ask about background checks
+      es: Llama a la secretaría y pregunta por la verificación de antecedentes
+    body:
+      en: >-
+        Some judges require every adult petitioner to get a criminal history check; others decide case by case.
+        Ask the Clerk of District Court in your county before you start, because a check can take weeks. Court
+        locations and phone numbers are at [ndcourts.gov/court-locations](https://www.ndcourts.gov/court-locations).
+      es: >-
+        Algunos jueces exigen a todos los adultos una verificación de antecedentes; otros deciden caso por caso.
+        Pregunta a la secretaría del tribunal de tu condado antes de empezar, porque puede tardar semanas.
+    sources: [nc-instructions]
+  - id: decide-publication
+    title:
+      en: Decide whether you need to publish
+      es: Decide si necesitas publicar
+    body:
+      en: >-
+        If you are changing **only your first and/or middle name**, you can skip publication for now and ask the
+        judge to waive it in your petition (paragraph 11). If you are changing your **last name**, you must publish
+        the Notice of Petition in your county's official newspaper, get an Affidavit or Declaration of Publication
+        from the newspaper, and **wait 30 calendar days** before filing. If the judge later denies your waiver
+        request, the court will tell you to publish then.
+      es: >-
+        Si cambias **solo tu primer nombre o segundo nombre**, puedes omitir la publicación y pedir al juez que la
+        exima en tu petición (párrafo 11). Si cambias el **apellido**, debes publicar el aviso en el periódico oficial
+        del condado, obtener la declaración de publicación y **esperar 30 días** antes de presentar.
+    forms: [nc-notice-adult]
+    fees: [publication]
+    sources: [nc-instructions, ndcc-32-28]
+  - id: fill-forms
+    title:
+      en: Fill out the petition packet
+      es: Completa el paquete de la petición
+    body:
+      en: >-
+        Complete the Petition, Declaration of Petitioner, Confidential Information Form, and proposed Order. Type
+        or print in black ink on one side of each page. Keep copies of everything.
+      es: >-
+        Completa la petición, la declaración, el formulario de información confidencial y la orden propuesta.
+        Escribe a máquina o con tinta negra en un solo lado de cada hoja. Guarda copias.
+    forms: [nc-petition-adult, nc-declaration-adult, nc-confidential-info-adult, nc-order-adult]
+    sources: [nc-instructions]
+  - id: file
+    title:
+      en: File with the Clerk of District Court and pay or ask for a fee waiver
+      es: Presenta en la secretaría del tribunal y paga o pide una exención
+    body:
+      en: >-
+        File the packet with the Clerk of District Court in your county and pay the **$160** filing fee, or file the
+        fee waiver forms at the same time. If you published, also file the Notice, the Affidavit or Declaration of
+        Publication, and any written objections you received.
+      es: >-
+        Presenta el paquete en la secretaría del tribunal de distrito de tu condado y paga **$160**, o presenta al
+        mismo tiempo los formularios de exención. Si publicaste, incluye el aviso, la declaración de publicación y
+        cualquier objeción recibida.
+    forms: [fee-waiver-packet]
+    fees: [filing]
+    sources: [nc-instructions, fee-waiver-page]
+  - id: background-check
+    title:
+      en: Get a background check if the judge asks
+      es: Obtén la verificación de antecedentes si el juez la pide
+    body:
+      en: >-
+        If the court notifies you that a check is required, you may be directed to request your FBI record at
+        [edo.cjis.gov](https://www.edo.cjis.gov/). You pay the cost. File the Declaration of Petitioner about
+        criminal history checks if the court asks for it.
+      es: >-
+        Si el tribunal lo pide, es posible que te indiquen solicitar tu historial del FBI en edo.cjis.gov. Tú pagas
+        el costo.
+    forms: [nc-declaration-criminal-history]
+    fees: [background-check]
+    optional: true
+    sources: [nc-instructions]
+  - id: order
+    title:
+      en: Wait for the judge's decision and get certified copies
+      es: Espera la decisión del juez y pide copias certificadas
+    body:
+      en: >-
+        The judge may decide without a hearing or may schedule one. Your name is not changed until the judge signs
+        the order. Then ask the clerk for certified copies of the order **and** of the Confidential Information
+        Form attached to it: $10 for the first copy and $5 for each additional copy requested at the same time.
+        Get several.
+      es: >-
+        El juez puede decidir sin audiencia o fijar una. Tu nombre no cambia hasta que el juez firma. Luego pide a la
+        secretaría copias certificadas de la orden **y** del formulario de información confidencial: $10 la primera
+        y $5 cada copia adicional pedida al mismo tiempo.
+    fees: [certified-copy]
+    sources: [nc-instructions]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee
+      es: Tarifa de presentación en el tribunal de distrito
+    amount: 160
+    waivable: true
+    sources: [nc-instructions]
+  - id: publication
+    label:
+      en: Newspaper publication (only if not waived)
+      es: Publicación en el periódico (solo si no se exime)
+    varies_by: vendor
+    note:
+      en: Set by the county's official newspaper. Ask the newspaper for a quote before you submit the notice.
+      es: La fija el periódico oficial del condado. Pide una cotización antes de enviar el aviso.
+    sources: [nc-instructions]
+  - id: background-check
+    label:
+      en: Criminal history record check (only if the judge requires it)
+      es: Verificación de antecedentes penales (solo si el juez la exige)
+    varies_by: vendor
+    sources: [ndcc-32-28, nc-instructions]
+  - id: certified-copy
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    amount: 10
+    waivable: false
+    note:
+      en: $10 for the first copy, $5 for each additional copy requested at the same time. A filing fee waiver does not cover certified copies.
+      es: $10 la primera copia y $5 cada copia adicional pedida al mismo tiempo. La exención no cubre copias certificadas.
+    sources: [nc-instructions, fee-waiver-packet-src]
+fee_waiver:
+  available: true
+  forms: [fee-waiver-packet]
+  eligibility:
+    en: >-
+      The judge decides based on your inability to pay. The financial declaration asks whether you receive public
+      assistance (Medicaid, SNAP, TANF, or other) and about your income and expenses. The waiver covers the filing
+      fee only, not certified copies, publication, or service costs.
+    es: >-
+      El juez decide según tu capacidad de pago. La declaración financiera pregunta si recibes asistencia pública
+      (Medicaid, SNAP, TANF u otra) y sobre tus ingresos y gastos. La exención cubre solo la tarifa de presentación.
+  how:
+    en: Fill out Form 1 (Petition) and Form 2 (Financial Declaration) from the court's fee waiver packet and file them with your name change papers.
+    es: Completa los formularios 1 y 2 del paquete de exención del tribunal y preséntalos con tus documentos.
+  sources: [fee-waiver-page, fee-waiver-packet-src]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      The law requires 30 days' notice in the official newspaper of your county before the judge can grant a name
+      change. The law does not say how many times the notice must run. Publication can be in print, e-edition, or
+      both.
+    es: >-
+      La ley exige 30 días de aviso en el periódico oficial de tu condado antes de que el juez conceda el cambio. No
+      dice cuántas veces debe publicarse.
+  waiver_available: true
+  waiver_how:
+    en: >-
+      Check the waiver box in paragraph 11 of the petition. The judge may waive publication only if you change just
+      your first or middle name, or if you give evidence that you are a victim of domestic violence. Changing your
+      last name for gender-identity reasons alone is not a listed ground for waiver.
+    es: >-
+      Marca la casilla del párrafo 11 de la petición. El juez puede eximir la publicación solo si cambias únicamente
+      el primer nombre o segundo nombre, o si demuestras ser víctima de violencia doméstica.
+  sources: [ndcc-32-28, nc-instructions]
+hearing:
+  required: conditional
+  detail:
+    en: A hearing is not required, but the judge may order one. If so, the clerk will tell you the date, time, and place; be ready to support what you wrote in your petition.
+    es: No se exige audiencia, pero el juez puede ordenarla. La secretaría te avisará de la fecha y el lugar.
+  sources: [nc-instructions]
+background_check:
+  required: conditional
+  detail:
+    en: >-
+      The court must determine whether you have a criminal history in any state and may require a statewide and
+      nationwide check at your cost. Practice varies by judge; ask the clerk first.
+    es: >-
+      El tribunal debe determinar si tienes antecedentes penales y puede exigir una verificación estatal y nacional a
+      tu costo. Varía según el juez.
+  sources: [ndcc-32-28, nc-instructions]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      North Dakota law has no provision for sealing a name change case, and a published notice is public. Your full
+      date of birth goes on the Confidential Information Form, which is not public under Rule 3.4 of the North
+      Dakota Rules of Court. Asking to skip publication (first or middle name only) is the main way to limit who
+      learns of your name change.
+    es: >-
+      La ley de Dakota del Norte no prevé sellar un caso de cambio de nombre, y el aviso publicado es público. Tu
+      fecha de nacimiento va en el formulario de información confidencial, que no es público.
+  sources: [ndcc-32-28, nc-instructions]
+minors:
+  summary:
+    en: >-
+      A parent files in the county where the child lives, using the court's child name change packet. The court must
+      consider appointing a guardian ad litem. Notice must be published in the child's county and, if different,
+      in each parent's county; the self-help instructions say publication cannot be waived for minors. If there is a
+      noncustodial parent, you must mail them a copy of the notice within 10 days after publication and file a
+      Declaration of Service by Mail. The judge decides based on the child's best interests. The filing fee is also
+      $160.
+    es: >-
+      Un padre o madre presenta la petición en el condado donde vive el menor, con el paquete para menores del
+      tribunal. El tribunal debe considerar nombrar un tutor ad litem. El aviso debe publicarse en el condado del
+      menor y, si es distinto, en el de cada padre; para menores no se puede omitir la publicación. Si hay un padre
+      sin custodia, debes enviarle por correo una copia del aviso dentro de 10 días después de la publicación.
+  sources: [ndcc-32-28, nc-minor-page, nc-child-instructions]
+timeline:
+  en: >-
+    If publication is waived, expect a few weeks to a couple of months from filing to a signed order, depending on
+    the county and any background check. If you publish, add at least 30 days before you can file.
+  es: >-
+    Si se exime la publicación, espera de unas semanas a un par de meses desde la presentación hasta la orden
+    firmada. Si publicas, suma al menos 30 días antes de poder presentar.
+after:
+  en: |
+    With certified copies of your order (and the attached Confidential Information Form), update in this order:
+    1. **Social Security** (in person or by mail with Form SS-5). Do this first; the DOT checks your name against SSA.
+    2. **Driver's license or ID** at a North Dakota DOT driver license site. See the driver's license guide.
+    3. **Passport** (Form DS-82 by mail if eligible, or DS-11).
+    4. **Birth certificate**: if you were born in North Dakota, you can update the name (not the sex). See the birth certificate guide.
+    5. Banks, employer, school, insurance, voter registration.
+  es: |
+    Con copias certificadas de tu orden (y el formulario de información confidencial adjunto), actualiza en este orden:
+    1. **Seguro Social** (formulario SS-5). Hazlo primero; el DOT verifica tu nombre con la SSA.
+    2. **Licencia de conducir o identificación** en una oficina del DOT de Dakota del Norte.
+    3. **Pasaporte** (DS-82 por correo si calificas, o DS-11).
+    4. **Acta de nacimiento**: si naciste en Dakota del Norte, puedes actualizar el nombre (no el sexo).
+    5. Bancos, empleador, escuela, seguro, registro de votante.
+tips:
+  - en: Publication can be skipped only for first or middle name changes (or for domestic violence victims). If you also change your last name, plan for the newspaper cost and the 30-day wait.
+    es: La publicación solo se puede omitir para cambios del primer nombre o segundo nombre (o para víctimas de violencia doméstica). Si también cambias el apellido, prevé el costo del periódico y la espera de 30 días.
+  - en: Court staff cannot give legal advice, but the ND Legal Self Help Center's packet walks through every line. Print forms on one side only.
+    es: El personal del tribunal no puede dar asesoría legal, pero el paquete del Centro de Autoayuda explica cada línea. Imprime en un solo lado.
+  - en: Order more certified copies than you think you need; each agency keeps or checks one, and extra copies cost only $5 when ordered together.
+    es: Pide más copias certificadas de las que creas necesitar; las adicionales cuestan solo $5 si se piden juntas.
+local_help:
+  - id: nd-legal-self-help-center
+    name: North Dakota Legal Self Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: The court system's self-help site with the adult and child name change packets, fee waiver forms, and instructions.
+      es: Sitio de autoayuda del sistema judicial con los paquetes de cambio de nombre para adultos y menores y formularios de exención.
+    url: https://www.ndcourts.gov/legal-self-help/name-change-adult
+    cost: free
+    verification: official_source
+    sources: [nc-forms-page]
+  - id: lsnd
+    name: Legal Services of North Dakota
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low income and people 60 and older statewide; also screens for the low-cost Volunteer Lawyers program. Under 60, call 1-800-634-5263.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos y mayores de 60 en todo el estado. Menores de 60, llama al 1-800-634-5263.
+    url: https://lsnd.org/
+    phone: "1-800-634-5263"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [lsnd, fee-waiver-packet-src]
+  - id: dpls
+    name: Dakota Plains Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low income, older people, and veterans, with offices serving North Dakota and South Dakota, including nine tribal nations.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, mayores y veteranos, con oficinas que atienden a Dakota del Norte y del Sur, incluidas nueve naciones tribales.
+    url: https://www.dpls.org/
+    cost: free
+    verification: org_website
+    sources: [dpls]
+  - id: aclu-nd
+    name: ACLU of North Dakota
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization that tracks and challenges anti-trans laws in North Dakota. It does not offer individual name change help, but you can report a problem.
+      es: Organización de libertades civiles que sigue y cuestiona leyes anti-trans en Dakota del Norte. No ayuda con casos individuales de cambio de nombre, pero puedes reportar un problema.
+    url: https://www.aclund.org/
+    cost: free
+    verification: org_website
+    sources: [aclund]
+statutes:
+  - cite: N.D.C.C. § 32-28-02
+    title:
+      en: Change of name of person; petition; criminal history record checks
+    url: https://ndlegis.gov/cencode/t32c28.pdf
+  - cite: N.D.C.C. § 32-28-04
+    title:
+      en: Costs; change not to affect rights or pending actions
+    url: https://ndlegis.gov/cencode/t32c28.pdf
+related_links:
+  - title: A4TE, North Dakota Identity Documents
+    url: https://transequality.org/documents/north-dakota-identity-documents
+    note:
+      en: Step-by-step guide from Advocates for Trans Equality; last updated January 2026.
+      es: Guía paso a paso de Advocates for Trans Equality; actualizada en enero de 2026.
+sources:
+  - id: ndcc-32-28
+    url: https://ndlegis.gov/cencode/t32c28.pdf
+    title: N.D.C.C. ch. 32-28, Change of Names of Persons and Places
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The court may waive publication of the notice when the proposed change relates only to a first or given name
+      as distinguished from a surname or upon evidence satisfactory to the court that the petitioner has been the
+      victim of domestic violence
+  - id: nc-forms-page
+    url: https://www.ndcourts.gov/legal-self-help/name-change-adult
+    title: Adult Name Changes
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: nc-instructions
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Instructions%20for%20a%20name%20change%20-%20adult.pdf
+    title: Instructions for a Name Change, Adult (rev. May 2026)
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Note: You must pay an $160.00 filing fee."
+  - id: nc-minor-page
+    url: https://www.ndcourts.gov/legal-self-help/name-change-minor
+    title: Minor Name Changes
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: nc-child-instructions
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Name%20Change/Instructions%20name%20change,%20child.pdf
+    title: Instructions for a Name Change, Child
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: fee-waiver-page
+    url: https://www.ndcourts.gov/legal-self-help/fee-waiver
+    title: Fee Waiver
+    publisher: North Dakota Legal Self Help Center
+    kind: court
+    accessed: "2026-09-24"
+  - id: fee-waiver-packet-src
+    url: https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Other%20Forms/Fee%20Waiver/All%20Petition%20for%20Fee%20Waiver%20Instructions%20%20Forms.pdf
+    title: Instructions and Forms for Petition for Waiver of Filing Fees (rev. Aug 2026)
+    publisher: North Dakota Legal Self Help Center
+    kind: form
+    accessed: "2026-09-24"
+    quote: "The Filing Fee Waiver doesn't include waiver of the following: Transcript fees; Copy fees; Certified copy fees; or Cost of serving documents."
+  - id: lsnd
+    url: https://lsnd.org/
+    title: Legal Services of North Dakota
+    kind: org
+    accessed: "2026-09-24"
+  - id: dpls
+    url: https://www.dpls.org/
+    title: Dakota Plains Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclund
+    url: https://www.aclund.org/
+    title: ACLU of North Dakota
+    kind: org
+    accessed: "2026-09-24"

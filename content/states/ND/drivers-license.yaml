@@ -1,0 +1,251 @@
+guide_type: drivers_license
+jurisdiction: ND
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The DOT's Gender Designation Form SFN 61146 was downloaded from dot.nd.gov on 2026-09-24; it is revised 4-2026
+    and offers only Male/Female, with Part 2 signed by a physician, PA, advanced practice nurse, psychologist, or
+    psychiatrist stating that "a gender role transition has been completed and is permanent." No DOT web page
+    describing the gender-change procedure was found; the DOT FAQ only says documentation is needed for a "gender
+    change." In-person appointment and SSA-first requirements come from A4TE's North Dakota page (last updated
+    January 2026), not from the DOT. Fee: N.D.C.C. 39-06-49 sets $8 for a substitute license, $3 when the
+    substitute is for "erroneous information due to a change in name or address." A4TE says $3 applies to a gender
+    marker update; the DOT did not confirm which fee applies to a sex-only change. N.D.C.C. 1-01-49 now defines
+    "sex" as biological sex at birth for the whole code and 1-01-34 says words referring to gender mean sex; the
+    DOT has not published any change in policy, and the April 2026 form revision suggests the process continues,
+    but reviewer should call the DOT (701-328-2600) to confirm it still accepts SFN 61146. No 2025-2026 bill
+    changing license sex markers was found; the Legislature was not in regular session in 2026. The 2025 bill that
+    added the definitions to 1-01-49 was not identified (the ndlegis.gov bill index blocked automated access).
+status: available
+name_change_status: available
+status_summary:
+  en: >-
+    You can change the sex on a North Dakota driver's license or ID to M or F with the DOT's Gender Designation
+    Form (SFN 61146), signed by you and by a physician, physician assistant, advanced practice nurse, psychologist,
+    or psychiatrist. X is not available. No court order or surgery is required.
+  es: >-
+    Puedes cambiar el sexo en una licencia o identificación de Dakota del Norte a M o F con el formulario de
+    designación de género del DOT (SFN 61146), firmado por ti y por un médico, asistente médico, enfermero de
+    práctica avanzada, psicólogo o psiquiatra. No hay opción X. No se exige orden judicial ni cirugía.
+summary:
+  en: |
+    The North Dakota Department of Transportation (NDDOT) Driver License Division handles licenses and non-driver IDs. To change the **sex marker**, bring the **Gender Designation Form (SFN 61146)** to a driver license site. You fill out Part 1 and certify, under penalty of perjury, that the request is to make your ID reflect your gender identity. A licensed physician, physician assistant, advanced practice nurse, psychologist, or psychiatrist who has treated you fills out Part 2, stating that your gender transition "has been completed and is permanent." The form does not require surgery; what "completed" means is up to your provider's professional judgment. Therapists who are not psychologists (for example, LPCs or LCSWs) are **not** on the list.
+
+    Only **M** and **F** are available. A court order and a birth certificate change are not required, which matters because North Dakota does not allow sex changes on its birth certificates.
+
+    To change your **name**, bring a certified court order (or marriage certificate or divorce decree) after you have updated your name with Social Security.
+
+    Be aware that since 2025 North Dakota law defines "sex" throughout the Century Code as biological sex at birth. The DOT has not announced any change to the license process, and it revised the gender form in April 2026, but call ahead to confirm.
+  es: |
+    La División de Licencias del Departamento de Transporte de Dakota del Norte (NDDOT) maneja licencias e identificaciones. Para cambiar el **marcador de sexo**, lleva el **formulario de designación de género (SFN 61146)** a una oficina de licencias. Tú completas la Parte 1 y certificas bajo pena de perjurio que la solicitud es para que tu identificación refleje tu identidad de género. Un médico, asistente médico, enfermero de práctica avanzada, psicólogo o psiquiatra que te haya tratado completa la Parte 2, declarando que tu transición "se ha completado y es permanente". No se exige cirugía. Los terapeutas que no son psicólogos (como LPC o LCSW) **no** están en la lista.
+
+    Solo hay **M** y **F**. No se exige orden judicial ni cambio del acta de nacimiento.
+
+    Para cambiar el **nombre**, lleva una orden judicial certificada después de actualizar tu nombre en el Seguro Social.
+
+    Desde 2025 la ley de Dakota del Norte define "sexo" como el sexo biológico al nacer. El DOT no ha anunciado cambios en el trámite y revisó el formulario en abril de 2026, pero llama antes para confirmar.
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+eligibility:
+  other:
+    en: >-
+      The provider must be licensed in the United States as a physician, physician assistant, advanced practice
+      nurse, psychologist, or psychiatrist, and must have treated you. State law now defines "sex" as biological sex
+      at birth throughout the Century Code; the DOT has not announced any change to this process.
+    es: El proveedor debe tener licencia en EE. UU. como médico, asistente médico, enfermero de práctica avanzada, psicólogo o psiquiatra, y debe haberte tratado. Desde 2025 la ley estatal define "sexo" como sexo biológico al nacer; el DOT no ha anunciado cambios.
+  sources: [sfn61146, ndcc-1-01]
+forms:
+  - id: SFN 61146
+    name:
+      en: Gender Designation
+      es: Designación de género
+    url: https://www.dot.nd.gov/forms/sfn61146.pdf
+    required: conditional
+    condition:
+      en: Required to change the sex marker. Not needed for a name-only change.
+      es: Obligatorio para cambiar el marcador de sexo. No se necesita si solo cambias el nombre.
+    how_to_fill:
+      en: |
+        - **Part 1 (you)**: your name, date of birth, and address; check Male or Female; sign. Your DLN (license number) goes at the top if you have one.
+        - **Part 2 (provider)**: the provider checks their license type (physician, PA, advanced practice nurse, psychologist, or psychiatrist), checks Male or Female, and signs under penalty of perjury.
+        - The form must list the provider's clinic address and phone; the DOT may call to verify.
+      es: |
+        - **Parte 1 (tú)**: nombre, fecha de nacimiento y dirección; marca Masculino o Femenino; firma.
+        - **Parte 2 (proveedor)**: marca su tipo de licencia, marca Masculino o Femenino y firma bajo pena de perjurio.
+    sources: [sfn61146]
+steps:
+  - id: update-ssa
+    title:
+      en: Update your name with Social Security first (if changing your name)
+      es: Actualiza primero tu nombre en el Seguro Social (si cambias el nombre)
+    body:
+      en: The DOT checks your name against Social Security records. Update your Social Security record with your court order before you go to the DOT.
+      es: El DOT verifica tu nombre con los registros del Seguro Social. Actualízalo con tu orden judicial antes de ir al DOT.
+    applies_to: [name_change]
+    sources: [a4te-nd]
+  - id: provider-form
+    title:
+      en: Get the Gender Designation Form signed by an eligible provider
+      es: Obtén el formulario de designación de género firmado por un proveedor autorizado
+    body:
+      en: >-
+        Print SFN 61146, complete Part 1, and ask a physician, physician assistant, advanced practice nurse,
+        psychologist, or psychiatrist who has treated you to complete and sign Part 2. A primary care or hormone
+        provider is usually the easiest choice.
+      es: >-
+        Imprime el SFN 61146, completa la Parte 1 y pide a un médico, asistente médico, enfermero de práctica
+        avanzada, psicólogo o psiquiatra que te haya tratado que complete y firme la Parte 2.
+    forms: [SFN 61146]
+    applies_to: [gender_marker]
+    sources: [sfn61146]
+  - id: gather-docs
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: |
+        Bring:
+        - Your current North Dakota license or ID.
+        - The signed SFN 61146 (for a sex marker change).
+        - A certified court order, marriage certificate, or divorce decree (for a name change). Court seal required; no photocopies.
+        - Proof of identity and proof of North Dakota residential address. The DOT's REAL ID page lists accepted documents.
+      es: |
+        Lleva:
+        - Tu licencia o identificación actual de Dakota del Norte.
+        - El SFN 61146 firmado (para cambio de sexo).
+        - Una orden judicial certificada, acta de matrimonio o sentencia de divorcio (para cambio de nombre). Con sello del tribunal; no se aceptan fotocopias.
+        - Prueba de identidad y prueba de domicilio en Dakota del Norte.
+    sources: [dot-real-id, dot-dl-faq]
+  - id: visit
+    title:
+      en: Visit a driver license site
+      es: Acude a una oficina de licencias
+    body:
+      en: >-
+        Go in person to a North Dakota driver license site; appointments are available through the DOT's online
+        scheduler. You will get a new photo and pay the substitute license fee.
+      es: >-
+        Acude en persona a una oficina de licencias de Dakota del Norte; puedes hacer cita en línea. Te tomarán una
+        nueva foto y pagarás la tarifa de licencia sustituta.
+    fees: [substitute-license, substitute-name-change]
+    applies_to: [in_person]
+    sources: [dot-sites, dot-dl-faq, ndcc-39-06]
+fees:
+  - id: substitute-license
+    label:
+      en: Substitute (duplicate) driver's license
+      es: Licencia de conducir sustituta (duplicado)
+    amount: 8
+    note:
+      en: Statutory fee for a substitute license. Whether the DOT charges $8 or $3 for a sex-marker-only change was not confirmed.
+      es: Tarifa legal de licencia sustituta. No se confirmó si el DOT cobra $8 o $3 por un cambio solo de sexo.
+    sources: [ndcc-39-06]
+  - id: substitute-name-change
+    label:
+      en: Substitute license to correct name or address
+      es: Licencia sustituta por cambio de nombre o domicilio
+    amount: 3
+    sources: [ndcc-39-06]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and sex marker changes are made in person at a driver license site. Online renewal does not change these fields.
+    es: Los cambios de nombre y sexo se hacen en persona en una oficina de licencias. La renovación en línea no los cambia.
+  sources: [a4te-nd, dot-dl-faq]
+timeline:
+  en: The change is processed at your visit. Ask staff whether your new card is printed on site or mailed.
+  es: El cambio se tramita en tu visita. Pregunta si la nueva tarjeta se imprime allí o se envía por correo.
+after:
+  en: |
+    Your license can be used as supporting ID elsewhere, but it does not change other records. Next:
+    - **Passport**: the federal government currently issues passports only with the sex assigned at birth; see the passport guide.
+    - **Birth certificate**: North Dakota does not allow sex marker changes; you can still update the name.
+    - Keep the approved SFN 61146 copy for your records.
+  es: |
+    Tu licencia sirve como identificación, pero no cambia otros registros. Después:
+    - **Pasaporte**: el gobierno federal actualmente emite pasaportes solo con el sexo asignado al nacer; ver la guía de pasaporte.
+    - **Acta de nacimiento**: Dakota del Norte no permite cambiar el sexo; sí puedes actualizar el nombre.
+    - Guarda una copia del SFN 61146.
+tips:
+  - en: If your provider is unsure about the "transition completed and permanent" wording, it is a clinical judgment; no surgery or specific treatment is named on the form.
+    es: Si tu proveedor duda por la frase "transición completada y permanente", es un juicio clínico; el formulario no menciona cirugía ni tratamiento específico.
+  - en: Call the Driver License Division at 701-328-2600 before your visit to confirm the current form and fee.
+    es: Llama a la División de Licencias al 701-328-2600 antes de tu visita para confirmar el formulario y la tarifa.
+statutes:
+  - cite: N.D.C.C. § 39-06-07
+    title:
+      en: Application for operator's license (must state sex)
+    url: https://ndlegis.gov/cencode/t39c06.pdf
+  - cite: N.D.C.C. § 39-06-49
+    title:
+      en: Driver license fees
+    url: https://ndlegis.gov/cencode/t39c06.pdf
+  - cite: N.D.C.C. §§ 1-01-34, 1-01-49
+    title:
+      en: General definitions of gender, sex, male, and female
+    url: https://ndlegis.gov/cencode/t01c01.pdf
+related_links:
+  - title: A4TE, North Dakota Identity Documents
+    url: https://transequality.org/documents/north-dakota-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizada en enero de 2026.
+sources:
+  - id: sfn61146
+    url: https://www.dot.nd.gov/forms/sfn61146.pdf
+    title: SFN 61146 Gender Designation (4-2026)
+    publisher: North Dakota Department of Transportation
+    kind: form
+    accessed: "2026-09-24"
+    quote: >-
+      I have treated the above named applicant, and in my professional opinion, a gender role transition has been
+      completed and is permanent.
+  - id: ndcc-39-06
+    url: https://ndlegis.gov/cencode/t39c06.pdf
+    title: N.D.C.C. ch. 39-06, Operators' Licenses
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      A substitute operator's license is eight dollars unless the substitute is for erroneous information due to a
+      change in name or address, then the fee is three dollars.
+  - id: ndcc-1-01
+    url: https://ndlegis.gov/cencode/t01c01.pdf
+    title: N.D.C.C. ch. 1-01, General Principles and Definitions
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      "Sex" means the biological state of being male or female, based on the individual's nonambiguous sex organs,
+      chromosomes, or endogenous hormone profiles at birth.
+  - id: dot-dl-faq
+    url: https://www.dot.nd.gov/driver/driver-license
+    title: Driver License (FAQ)
+    publisher: North Dakota Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+    quote: The exception to this is you will need to present documentation if you've had a name change, change of address, or gender change.
+  - id: dot-real-id
+    url: https://www.dot.nd.gov/driver/real-id-information
+    title: REAL ID Information
+    publisher: North Dakota Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+  - id: dot-sites
+    url: https://www.dot.nd.gov/driver/driver-license-sites
+    title: Driver License Sites
+    publisher: North Dakota Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+  - id: a4te-nd
+    url: https://transequality.org/documents/north-dakota-identity-documents
+    title: North Dakota Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

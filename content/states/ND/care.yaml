@@ -1,0 +1,337 @@
+jurisdiction: ND
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minor ban text (N.D.C.C. ch. 12.1-36.1) read on ndlegis.gov 2026-09-24; HB 1254 (2023) bill page shows "Governor
+    signed," filed with the Secretary of State 04/21 (2023), which matches the April 21, 2023 grandfather date in
+    12.1-36.1-03. Litigation status is from Gender Justice press releases (district court ruling October 8, 2025;
+    North Dakota Supreme Court affirmed September 17, 2026). The Supreme Court opinion itself was not read; reviewer
+    should link the opinion on ndcourts.gov and confirm its date and holding. ND Medicaid "Gender Affirming Care and
+    Services" policy (updated July 2026) read directly; it still describes GnRH therapy for adolescents, which
+    conflicts with the criminal ban; the ban controls for under-18s. The policy requires 12 months of behavioral
+    health counseling with hormone therapy. MAP lists a negative law on state-employee health benefits; not verified
+    from a primary source, so not rendered. No state law bars insurance exclusions (MAP agrees). Sanford Health's
+    adult gender care offerings in Fargo could not be verified (site search did not load), so Sanford is not
+    listed. Family HealthCare's site does not mention gender-affirming care. Planned Parenthood Moorhead (MN) lists
+    "Gender-Affirming Care" but the minimum age and whether it serves North Dakota residents by telehealth were
+    not confirmed. No pending bills: the Legislature had no regular session in 2026.
+status_summary:
+  en: >-
+    Adults (18 and older) can legally get hormone therapy and surgery in North Dakota, and ND Medicaid covers
+    hormones and many surgeries. For anyone under 18, puberty blockers, hormones, and surgery for gender transition
+    are a crime for providers; the North Dakota Supreme Court upheld the ban in September 2026. There is no shield
+    law and no state protection against insurance exclusions.
+  es: >-
+    Las personas adultas (18 años o más) pueden recibir legalmente terapia hormonal y cirugía en Dakota del Norte, y
+    ND Medicaid cubre hormonas y muchas cirugías. Para menores de 18, los bloqueadores, las hormonas y la cirugía de
+    transición son delito para los proveedores; la Corte Suprema estatal confirmó la prohibición en septiembre de
+    2026. No hay ley escudo ni protección estatal contra exclusiones de seguros.
+adult_care:
+  status: available
+  detail:
+    en: |
+      North Dakota law does not restrict gender-affirming care for adults 18 and older.
+
+      **If you have little money**, in rough order of what to try:
+      1. Apply for **ND Medicaid**. It covers medically necessary gender-affirming care with a diagnosis of gender dysphoria, including hormone therapy, and many surgeries for people 18 and older with prior authorization. Its policy requires behavioral health counseling during your first 12 months on hormones.
+      2. Go to a **community health center** (FQHC) such as Family HealthCare in Fargo. They charge on a sliding scale; ask whether a provider there prescribes hormones.
+      3. **Planned Parenthood North Central States** lists gender-affirming care at its **Moorhead, Minnesota** health center, just across the river from Fargo. There are no Planned Parenthood health centers in North Dakota.
+      4. **Telehealth**: Plume serves North Dakota. Point of Pride's HRT Access Fund pays for telehealth hormone care for some applicants each year.
+    es: |
+      La ley de Dakota del Norte no restringe la atención de afirmación de género para adultos de 18 años o más.
+
+      **Si tienes poco dinero**, en orden aproximado:
+      1. Solicita **ND Medicaid**. Cubre la atención médicamente necesaria con diagnóstico de disforia de género, incluida la terapia hormonal, y muchas cirugías para mayores de 18 con autorización previa. Exige consejería de salud conductual durante los primeros 12 meses de hormonas.
+      2. Acude a un **centro de salud comunitario** como Family HealthCare en Fargo. Cobran en escala móvil; pregunta si recetan hormonas.
+      3. **Planned Parenthood North Central States** ofrece atención de afirmación de género en su centro de **Moorhead, Minnesota**, al otro lado del río desde Fargo. No hay centros de Planned Parenthood en Dakota del Norte.
+      4. **Telesalud**: Plume atiende en Dakota del Norte. El Fondo de Acceso a TRH de Point of Pride paga atención hormonal por telesalud a algunas personas.
+  sources: [nd-medicaid-gac, pp-moorhead, pp-nd, fhc]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      Since **April 21, 2023**, N.D.C.C. chapter 12.1-36.1 (HB 1254) bars health care providers from giving anyone **under 18** (including emancipated minors) the following to change or affirm their gender:
+      - puberty blockers, or testosterone or estrogen at supraphysiologic doses (a **class A misdemeanor** for the provider);
+      - surgeries including mastectomy, hysterectomy, vaginoplasty, phalloplasty, and others (a **class B felony**).
+
+      **Exceptions**: minors with a medically verifiable disorder of sex development, and treatment that **began before April 21, 2023**. Prosecutions can be brought up to three years after the offense or after it is reported.
+
+      Families challenged the law in state court (T.D. v. Wrigley). The district court upheld it in October 2025, and the **North Dakota Supreme Court affirmed on September 17, 2026**, so the ban is fully in effect.
+
+      Counseling and social transition are not banned. Families who seek medical care usually travel to Minnesota, which has a shield law, or other states. Minors can still change their name through a parent's petition (see the name change guide).
+    es: |
+      Desde el **21 de abril de 2023**, el capítulo 12.1-36.1 (HB 1254) prohíbe a los proveedores dar a **menores de 18** (incluidos los emancipados), para cambiar o afirmar su género:
+      - bloqueadores de pubertad, o testosterona o estrógeno en dosis suprafisiológicas (**delito menor clase A** para el proveedor);
+      - cirugías como mastectomía, histerectomía, vaginoplastia, faloplastia y otras (**delito grave clase B**).
+
+      **Excepciones**: menores con un trastorno del desarrollo sexual verificable, y tratamientos que **comenzaron antes del 21 de abril de 2023**.
+
+      Familias impugnaron la ley (T.D. v. Wrigley). El tribunal de distrito la confirmó en octubre de 2025 y la **Corte Suprema de Dakota del Norte la confirmó el 17 de septiembre de 2026**; la prohibición está plenamente vigente.
+
+      La consejería y la transición social no están prohibidas. Las familias que buscan atención médica suelen viajar a Minnesota, que tiene ley escudo, u otros estados.
+  sources: [ndcc-12-1-36-1, hb1254, gj-district, gj-supreme]
+medicaid:
+  program_name: ND Medicaid
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: >-
+      ND Medicaid's Gender Affirming Care and Services policy (updated July 2026) covers medically necessary care
+      for members with a diagnosis of gender dysphoria who give informed consent. Hormone therapy is covered, with
+      behavioral health counseling required for the first 12 months. Surgery requires age 18+, 12 continuous months
+      living in your gender and on hormones (unless contraindicated), a recent behavioral health evaluation, and
+      prior authorization; covered procedures include mastectomy, hysterectomy, orchiectomy, vaginoplasty,
+      phalloplasty, and others (breast augmentation after 24 months of hormones). Facial feminization, tracheal
+      shave, most hair removal, and fertility preservation are **not** covered. Care for minors is limited by the
+      state criminal ban regardless of this policy.
+    es: >-
+      La política de ND Medicaid (actualizada en julio de 2026) cubre la atención médicamente necesaria con
+      diagnóstico de disforia de género y consentimiento informado. Cubre hormonas, con consejería obligatoria los
+      primeros 12 meses. La cirugía requiere 18 años o más, 12 meses viviendo en tu género y con hormonas, una
+      evaluación reciente y autorización previa. No cubre feminización facial, reducción de nuez, la mayoría de la
+      depilación ni preservación de fertilidad.
+  how_to_apply_url: https://www.hhs.nd.gov/healthcare/medicaid/apply
+  sources: [nd-medicaid-gac, nd-medicaid-apply]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: >-
+      North Dakota has no state law barring private health plans from excluding gender-affirming care. Check your
+      plan's exclusions list. If a claim is denied, you can appeal with the plan and file a complaint with the North
+      Dakota Insurance Department; the Trans Health Project can help with appeals.
+    es: >-
+      Dakota del Norte no tiene ley que prohíba a los seguros privados excluir la atención de afirmación de género.
+      Revisa las exclusiones de tu plan. Si te niegan un reclamo, puedes apelar y presentar una queja ante el
+      Departamento de Seguros; el Trans Health Project puede ayudar con apelaciones.
+  complaint_url: https://www.insurance.nd.gov/consumers/complaints
+  sources: [map-nd, nd-insurance-complaints]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: nd-medicaid
+    name: ND Medicaid
+    type: government_office
+    pillars: [hrt, insurance]
+    description:
+      en: State Medicaid program; covers hormone therapy and many surgeries for adults under its gender-affirming care policy. Apply online or through your county human service zone.
+      es: Programa estatal de Medicaid; cubre hormonas y muchas cirugías para adultos. Solicita en línea o en tu zona de servicios humanos del condado.
+    url: https://www.hhs.nd.gov/healthcare/medicaid/apply
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: official_source
+    sources: [nd-medicaid-apply, nd-medicaid-gac]
+  - id: pp-moorhead
+    org: planned-parenthood
+    name: Planned Parenthood Moorhead Health Center (MN)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Across the river from Fargo. Lists gender-affirming care, STI testing, HIV services, and birth control; in-person and telehealth visits; fees based on income. Minimum age for hormones not confirmed.
+      es: Al otro lado del río desde Fargo. Ofrece atención de afirmación de género, pruebas de ITS, servicios de VIH y anticonceptivos; tarifas según ingresos. No se confirmó la edad mínima para hormonas.
+    url: https://www.plannedparenthood.org/health-center/minnesota/moorhead/56560/moorhead-health-center-2932-90720
+    phone: "218-236-7145"
+    address: 803 Belsly Boulevard, Moorhead, MN 56560
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [pp-moorhead]
+  - id: fargo-cass-public-health
+    name: Fargo Cass Public Health clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Public health clinic offering rapid HIV and hepatitis C testing, PrEP, and STI testing and treatment. Call 701-241-1383 for an appointment.
+      es: Clínica de salud pública con pruebas rápidas de VIH y hepatitis C, PrEP y pruebas y tratamiento de ITS. Llama al 701-241-1383.
+    url: https://fargond.gov/city-government/departments/fargo-cass-public-health/clinic-services
+    phone: "701-241-1383"
+    address: 1240 25th Street South, Fargo, ND 58103
+    cost: sliding_scale
+    verification: official_source
+    sources: [fcph]
+  - id: family-healthcare
+    name: Family HealthCare
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federally qualified health center in Fargo-Moorhead with a sliding fee scale and free interpreters. Its website does not mention gender-affirming care; ask whether a provider prescribes hormones.
+      es: Centro de salud comunitario en Fargo-Moorhead con escala móvil e intérpretes gratis. Su sitio no menciona atención de afirmación de género; pregunta si recetan hormonas.
+    url: https://famhealthcare.org/
+    phone: "701-271-3344"
+    address: 301 NP Avenue, Fargo, ND 58102
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fhc]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit with an HRT Access Fund and other funds for trans people who cannot afford care.
+      es: Organización nacional con un fondo de acceso a TRH y otros fondos para personas trans sin recursos.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pointofpride]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit that offers grants toward gender-affirming surgery and other transition costs.
+      es: Organización nacional que otorga becas para cirugía de afirmación de género y otros costos.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (A4TE)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Advocates for Trans Equality program that helps people appeal insurance denials for gender-affirming care.
+      es: Programa de Advocates for Trans Equality que ayuda a apelar negaciones de seguros.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [transhealthproject]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale, including in rural North Dakota.
+      es: Buscador federal de centros de salud comunitarios con escala móvil, incluso en zonas rurales de Dakota del Norte.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: N.D.C.C. ch. 12.1-36.1
+    title:
+      en: Minor sex change treatment (ban on care for minors)
+    url: https://ndlegis.gov/cencode/t12-1c36-1.pdf
+litigation:
+  - case: T.D. v. Wrigley
+    court: North Dakota Supreme Court (on appeal from Burleigh County District Court)
+    summary:
+      en: >-
+        A pediatric endocrinologist and families challenged HB 1254 under the North Dakota Constitution. After
+        trial, the district court upheld the law on October 8, 2025. The North Dakota Supreme Court affirmed on
+        September 17, 2026.
+      es: >-
+        Un endocrinólogo pediátrico y familias impugnaron la HB 1254 bajo la Constitución de Dakota del Norte. El
+        tribunal de distrito confirmó la ley el 8 de octubre de 2025 y la Corte Suprema estatal la confirmó el 17 de
+        septiembre de 2026.
+    effect_today:
+      en: The ban on puberty blockers, hormones, and surgery for minors is fully in effect.
+      es: La prohibición de bloqueadores, hormonas y cirugía para menores está plenamente vigente.
+    last_update: "2026-09-17"
+    url: https://www.genderjustice.us/work/td-v-wrigley/
+    sources: [gj-supreme, gj-district]
+sources:
+  - id: ndcc-12-1-36-1
+    url: https://ndlegis.gov/cencode/t12-1c36-1.pdf
+    title: N.D.C.C. ch. 12.1-36.1, Minor Sex Change Treatment
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If performance or administration of the medical procedure on the minor began before April 21, 2023.
+  - id: hb1254
+    url: https://ndlegis.gov/assembly/68-2023/regular/bill-overview/bo1254.html
+    title: HB 1254 (2023), prohibition of certain practices against a minor
+    publisher: North Dakota Legislative Branch
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Current Status Governor signed Last Official Action Filed with Secretary Of State 04/21"
+  - id: gj-district
+    url: https://www.genderjustice.us/judge-upholds-north-dakota-trans-health-care-ban/
+    title: Judge upholds North Dakota's ban on trans health care for teens (Oct. 9, 2025)
+    publisher: Gender Justice
+    kind: org
+    accessed: "2026-09-24"
+  - id: gj-supreme
+    url: https://www.genderjustice.us/north-dakota-supreme-court-upholds-ban-on-gender-affirming-health-care-for-trans-young-people/
+    title: North Dakota Supreme Court upholds ban on gender-affirming health care for trans young people (Sept. 17, 2026)
+    publisher: Gender Justice
+    kind: org
+    accessed: "2026-09-24"
+    quote: Today, the North Dakota Supreme Court upheld the district court's ruling in T.D. v. Wrigley
+  - id: nd-medicaid-gac
+    url: https://www.hhs.nd.gov/sites/www/files/documents/medicaid-policies/gender-affirming-care.pdf
+    title: "ND Medicaid Billing and Policy Manual: Gender Affirming Care and Services (updated July 2026)"
+    publisher: North Dakota Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: ND Medicaid covers medically necessary gender affirming care and services provided to members with a qualifying diagnosis.
+  - id: nd-medicaid-apply
+    url: https://www.hhs.nd.gov/healthcare/medicaid/apply
+    title: Apply for Medicaid
+    publisher: North Dakota Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-nd
+    url: https://www.mapresearch.org/equality-maps/profile_state/ND
+    title: North Dakota equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: nd-insurance-complaints
+    url: https://www.insurance.nd.gov/consumers/complaints
+    title: File a Complaint
+    publisher: North Dakota Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: pp-moorhead
+    url: https://www.plannedparenthood.org/health-center/minnesota/moorhead/56560/moorhead-health-center-2932-90720
+    title: Moorhead Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-nd
+    url: https://www.plannedparenthood.org/health-center/north-dakota
+    title: Planned Parenthood health centers in North Dakota
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: fcph
+    url: https://fargond.gov/city-government/departments/fargo-cass-public-health/clinic-services
+    title: Fargo Cass Public Health Clinic Services
+    publisher: City of Fargo
+    kind: official
+    accessed: "2026-09-24"
+    quote: Rapid HIV and Hepatitis C Testing-results available in 20 minutes PrEP Sexually Transmitted Infection counseling, testing and treatment
+  - id: fhc
+    url: https://famhealthcare.org/
+    title: Family HealthCare
+    kind: org
+    accessed: "2026-09-24"
+  - id: pointofpride
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: transhealthproject
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
