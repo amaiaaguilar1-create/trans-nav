@@ -1,0 +1,170 @@
+guide_type: drivers_license
+jurisdiction: NM
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Form MVD-10237 (rev. 12/19) read on 2026-09-24: sworn, notarized self-attestation with Male, Female, or X; no
+    provider letter. Open items: (1) the MVD Driver Procedures Manual, Chapter 2, Section K (revised July 1, 2019)
+    still says an X is issued on submission of a New Mexico birth certificate showing X; the newer form MVD-10237
+    offers X by self-attestation. Confirm with MVD which applies at the counter today, especially for people born
+    outside New Mexico. (2) Fees: the only fee found on mvd.newmexico.gov was the lost/stolen replacement fee ($18
+    four-year, $34 eight-year); confirm whether an amended credential for a sex or name change is charged that fee or
+    a full new-issuance fee, and the ID card fee. (3) Whether a sex-designation change can be done by mail or at
+    private MVD service providers was not confirmed. (4) No 2025-2026 legislation was reviewed (web search
+    unavailable).
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    New Mexico lets you choose M, F, or X on your driver's license or ID card by signing a sworn, notarized statement
+    on form MVD-10237. No doctor's letter, court order, or surgery is required.
+  es: >-
+    Nuevo México te permite elegir M, F o X en tu licencia de conducir o tarjeta de identificación firmando una
+    declaración jurada y notariada en el formulario MVD-10237. No se necesita carta médica, orden judicial ni cirugía.
+summary:
+  en: |
+    Form **MVD-10237, Request for Sex Designation Change**, lets you pick Male (M), Female (F), or X. You swear, under penalty of perjury, that the request is so your license or ID "accurately reflects my sex identity" and is not for a fraudulent purpose, and you sign in front of a notary. Nothing else is required for the sex field. The same form works for a first New Mexico license or ID when you want a different marker from your other documents.
+
+    Changing your **name** is a separate requirement: bring the original or certified court order (or marriage certificate or divorce decree) showing the new name. You can do both on the same visit.
+  es: |
+    El formulario **MVD-10237, Solicitud de cambio de designación de sexo**, te permite elegir Masculino (M), Femenino (F) o X. Juras, bajo pena de perjurio, que la solicitud es para que tu licencia o identificación "refleje con precisión mi identidad de sexo" y no tiene fines fraudulentos, y firmas ante notario. No se exige nada más para el campo de sexo. El mismo formulario sirve para una primera licencia o identificación de Nuevo México.
+
+    Cambiar tu **nombre** es un requisito aparte: lleva la orden judicial original o certificada (o acta de matrimonio o sentencia de divorcio). Puedes hacer ambos en la misma visita.
+eligibility:
+  residency:
+    en: You must hold or be applying for a New Mexico driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia o identificación de Nuevo México.
+  other:
+    en: An older MVD procedures manual section (2019) ties the X marker to a New Mexico birth certificate showing X. The current form offers X by self-attestation; if an office asks for a birth certificate, show them form MVD-10237.
+    es: Una sección antigua del manual de la MVD (2019) vincula la X a un acta de nacimiento de Nuevo México con X. El formulario actual ofrece X por declaración propia; si una oficina pide el acta, muestra el MVD-10237.
+  sources: [mvd-10237, mvd-manual-ch2]
+forms:
+  - id: MVD-10237
+    name:
+      en: Request for Sex Designation Change
+      es: Solicitud de cambio de designación de sexo
+    url: https://realfile.tax.newmexico.gov/mvd10237.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Applicant information: your current (or prior) full legal name, license or ID number, address, phone, email.
+        - If you are also changing your name, fill in "New Full Legal Name" and bring the original or certified court order.
+        - Sex Designation Statement: check Male (M), Female (F), or X.
+        - **Do not sign until you are in front of a notary.** The notary completes the acknowledgement. Many banks and UPS stores notarize, and some MVD offices may have a notary; call ahead.
+      es: |
+        - Datos: tu nombre legal completo actual, número de licencia o identificación, dirección, teléfono y correo.
+        - Si también cambias de nombre, llena "New Full Legal Name" y lleva la orden judicial original o certificada.
+        - Declaración: marca Masculino (M), Femenino (F) o X.
+        - **No firmes hasta estar frente a un notario.** El notario completa el reconocimiento.
+    sources: [mvd-10237, mvd-drivers-forms]
+steps:
+  - id: fill-form
+    title:
+      en: Fill out MVD-10237 and sign it before a notary
+      es: Llena el MVD-10237 y fírmalo ante notario
+    body:
+      en: Download the form, fill in your information, choose M, F, or X, and sign it in front of a notary public. No medical or court document is needed for the sex field.
+      es: Descarga el formulario, llena tus datos, elige M, F o X y fírmalo ante un notario público. No se necesita documento médico ni judicial para el campo de sexo.
+    forms: [MVD-10237]
+    sources: [mvd-10237]
+  - id: name-documents
+    title:
+      en: If your name is changing, bring proof
+      es: Si cambias de nombre, lleva prueba
+    body:
+      en: Bring the original or a certified copy of your court order (or marriage certificate or divorce decree) showing your new legal name. Update Social Security first, since the MVD checks your name against it.
+      es: Lleva el original o una copia certificada de tu orden judicial (o acta de matrimonio o sentencia de divorcio). Actualiza primero el Seguro Social, porque la MVD verifica tu nombre con ese registro.
+    applies_to: [name_change]
+    sources: [mvd-10237]
+  - id: visit
+    title:
+      en: Visit an MVD office
+      es: Visita una oficina de la MVD
+    body:
+      en: Make an appointment through MVD's online scheduling if your office offers it. Bring your current license or ID, the notarized MVD-10237, and any name-change documents. Expect a new photo and a fee for the amended card.
+      es: Haz una cita en línea si tu oficina lo permite. Lleva tu licencia o identificación actual, el MVD-10237 notariado y los documentos de cambio de nombre. Te tomarán una foto nueva y pagarás una tarifa.
+    fees: [dl-replacement]
+    applies_to: [in_person]
+    sources: [mvd-replace, mvd-appointments]
+fees:
+  - id: dl-replacement
+    label:
+      en: Replacement driver's license
+      es: Licencia de conducir de reemplazo
+    min: 18
+    max: 34
+    note:
+      en: MVD's posted replacement fee is $18 for a four-year license and $34 for an eight-year license; drivers 79 and older pay no replacement fee. Confirm at the office whether an amended card is charged this fee.
+      es: La tarifa de reemplazo publicada es $18 (licencia de cuatro años) o $34 (ocho años); mayores de 79 no pagan. Confirma en la oficina si se aplica a una tarjeta modificada.
+    sources: [mvd-replace]
+delivery:
+  online: false
+  in_person: true
+  detail:
+    en: Plan on going in person. Online and mail options for a sex-designation change were not confirmed.
+    es: Planea ir en persona. No se confirmaron opciones en línea o por correo.
+  sources: [mvd-replace]
+timeline:
+  en: One office visit. You may receive a temporary paper credential while the new card is mailed.
+  es: Una visita a la oficina. Puedes recibir un documento provisional mientras envían la tarjeta nueva por correo.
+after:
+  en: |
+    If you chose X or changed your marker, be aware that the US passport and Social Security record currently cannot show X or a changed sex marker. Your New Mexico card remains valid ID. If you were born in New Mexico, you can also update your birth certificate by self-attestation (see the birth certificate guide).
+  es: |
+    Si elegiste X o cambiaste tu marcador, ten en cuenta que el pasaporte y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado. Tu tarjeta de Nuevo México sigue siendo una identificación válida. Si naciste en Nuevo México, también puedes actualizar tu acta de nacimiento por declaración propia.
+tips:
+  - en: Bring the form unsigned if you are not sure a notary will be available; signing ahead of time without a notary makes the form invalid.
+    es: Lleva el formulario sin firmar si no sabes si habrá notario; firmarlo sin notario lo invalida.
+  - en: TGRCNM in Albuquerque helps people with ID document changes and can answer questions about what the MVD is accepting in practice.
+    es: TGRCNM en Albuquerque ayuda con cambios de documentos y puede decirte qué acepta la MVD en la práctica.
+statutes:
+  - cite: MVD Driver Procedures Manual, Chapter 2, Section K (Gender "X" designation, revised July 1, 2019)
+    title:
+      en: MVD internal procedure for issuing X credentials
+    url: https://www.mvd.newmexico.gov/chapter-2-non-commercial-license/
+related_links:
+  - title: MVD Drivers Forms
+    url: https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/drivers-forms/
+  - title: Transgender Resource Center of New Mexico, ID documents
+    url: https://tgrcnm.org/
+sources:
+  - id: mvd-10237
+    url: https://realfile.tax.newmexico.gov/mvd10237.pdf
+    title: MVD-10237, Request for Sex Designation Change (rev. 12/19)
+    publisher: New Mexico Taxation and Revenue Department, Motor Vehicle Division
+    kind: form
+    accessed: "2026-09-24"
+    quote: I hereby swear, under the penalty of perjury, that this request for the selected sex designation to appear on my Driver License/ID Card is for the purpose of ensuring that my Driver License/ID Card accurately reflects my sex identity
+  - id: mvd-drivers-forms
+    url: https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/drivers-forms/
+    title: Drivers Forms
+    publisher: New Mexico Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: Gender Designation Change Request | MVD10237
+  - id: mvd-manual-ch2
+    url: https://www.mvd.newmexico.gov/chapter-2-non-commercial-license/
+    title: Driver Procedures Manual, Chapter 2, Non-Commercial License
+    publisher: New Mexico Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: A MVD customer can be issued a first-time or amended driver's license (DL) or identification (ID) card with "X" by submitting an original or certified copy of a birth certificate issued by the Bureau of Vital Records.
+  - id: mvd-replace
+    url: https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/drivers-license/replace-a-lost-or-stolen-driving-credential/
+    title: Replace a lost or stolen driving credential
+    publisher: New Mexico Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: The fee is $18.00 for a four-year license or $34.00 for an eight-year license.
+  - id: mvd-appointments
+    url: https://www.mvd.newmexico.gov/mvd-direct-appointments/
+    title: MVD appointments
+    publisher: New Mexico Motor Vehicle Division
+    kind: official
+    accessed: "2026-09-24"

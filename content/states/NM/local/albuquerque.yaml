@@ -1,0 +1,210 @@
+jurisdiction: NM
+slug: albuquerque
+name: Albuquerque
+area:
+  en: Bernalillo County and the Albuquerque metro area
+  es: Condado de Bernalillo y el área metropolitana de Albuquerque
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the Second Judicial District adult name change packet (rev. June 2023); confirm the $132 fee
+    and clerk hours (505-841-7438). Resource list from org homepages on 2026-09-24. PFLAG Albuquerque and ACLU of New
+    Mexico sites loaded but their services pages were not read. UNM Health's LGBTQ+ Collaborative has no program URL
+    found and Truman Health Services' old URL 404'd. Planned Parenthood pages returned 403. First Choice's gender
+    care and PrEP services are unconfirmed. Verify hours, walk-in policies, and new-patient availability before
+    marking reviewed.
+intro:
+  en: >-
+    Albuquerque has most of New Mexico's trans-specific services, including the Transgender Resource Center of New
+    Mexico, which helps with ID document changes and keeps a provider directory. Name change petitions for Bernalillo
+    County residents are filed with the Second Judicial District Court downtown.
+  es: >-
+    Albuquerque concentra la mayoría de los servicios específicos para personas trans de Nuevo México, incluido el
+    Centro de Recursos Transgénero de Nuevo México, que ayuda con cambios de documentos y mantiene un directorio de
+    proveedores. Las peticiones de cambio de nombre de residentes del condado de Bernalillo se presentan en el Segundo
+    Tribunal de Distrito Judicial, en el centro.
+court:
+  name: Second Judicial District Court (Bernalillo County Courthouse)
+  url: https://seconddistrict.nmcourts.gov/
+  self_help_url: https://seconddistrict.nmcourts.gov/self-representation/civil-law/name-change/
+  filing_fee: 132
+  notes:
+    en: File in the Clerk's Office, Room 119, first floor, 400 Lomas Blvd NW, weekdays 8 am to 4 pm (call 505-841-7438 to confirm hours). The court does not take personal checks. Ask the clerk about free process if you cannot afford the fee. After the judge signs, record a certified copy with the Bernalillo County Clerk ($25).
+    es: Presenta en la oficina del secretario, sala 119, primer piso, 400 Lomas Blvd NW, de lunes a viernes de 8 am a 4 pm (llama al 505-841-7438 para confirmar). No aceptan cheques personales. Pide free process si no puedes pagar. Después de la firma del juez, registra una copia certificada con el secretario del condado de Bernalillo ($25).
+  sources: [sjdc-instructions, sjdc-name-change]
+resources:
+  - id: tgrcnm
+    name: Transgender Resource Center of New Mexico (TGRCNM)
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Drop-in center with help on name and gender marker changes, in-person and remote support groups, a trans-friendly provider directory, and housing (Casa Lola) and food support.
+      es: Centro de acogida con ayuda para cambios de nombre y marcador de género, grupos de apoyo, directorio de proveedores y apoyo de vivienda (Casa Lola) y alimentos.
+    url: https://tgrcnm.org/
+    phone: "505-200-9086"
+    address: 1515 4th St NW, Albuquerque, NM 87102
+    cost: free
+    verification: org_website
+    sources: [tgrcnm]
+  - id: nm-legal-aid
+    name: New Mexico Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for people with low incomes, with a Volunteer Attorney Program offering free consultations. Call 1-833-545-4357 (Monday to Thursday intake) or apply online.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos, con consultas gratuitas de abogados voluntarios. Llama al 1-833-545-4357 (lunes a jueves) o solicita en línea.
+    url: https://newmexicolegalaid.org/
+    phone: "1-833-545-4357"
+    cost: free
+    verification: org_website
+    sources: [nmla]
+  - id: sjdc-self-help
+    name: Second Judicial District Court Self Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help center that publishes the adult and under-14 name change packets. The statewide NM Courts HelpLine is 855-268-7804.
+      es: Centro de autoayuda del tribunal que publica los paquetes de cambio de nombre. La línea estatal de ayuda es 855-268-7804.
+    url: https://seconddistrict.nmcourts.gov/self-representation/self-help-center/
+    address: 400 Lomas Blvd NW, Albuquerque, NM 87102
+    phone: "505-841-8400"
+    cost: free
+    verification: official_source
+    sources: [sjdc-home]
+  - id: first-choice
+    name: First Choice Community Healthcare
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Community health centers across the metro (Alameda, South Broadway, South Valley, Los Lunas, Edgewood, and others) with a sliding-fee discount program. Ask whether your site prescribes hormones and offers PrEP.
+      es: Centros de salud comunitarios en el área metropolitana con programa de descuento por escala móvil. Pregunta si tu sede receta hormonas y ofrece PrEP.
+    url: https://www.fcch.com/
+    phone: "505-873-7400"
+    address: 2001 Centro Familiar SW, Albuquerque, NM 87105
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fcch]
+  - id: unm-health
+    name: UNM Health, LGBTQ+ Collaborative and Truman Health Services
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: The University of New Mexico health system advertises LGBTQ+ health and mental health care; its Truman Health Services clinic has long provided HIV and LGBTQ care. Call 505-272-2111 to be routed.
+      es: El sistema de salud de la Universidad de Nuevo México ofrece atención LGBTQ+ de salud y salud mental; su clínica Truman Health Services ha brindado atención de VIH y LGBTQ. Llama al 505-272-2111.
+    url: https://unmhealth.org/
+    phone: "505-272-2111"
+    cost: insurance
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [unmhealth]
+  - id: pp-albuquerque
+    org: planned-parenthood
+    name: Planned Parenthood of the Rocky Mountains, Albuquerque
+    type: sexual_health
+    pillars: [hrt, sexual_health]
+    description:
+      en: Sexual health care, STI testing, and PrEP; ask about gender-affirming hormone therapy and the minimum age. Details not confirmed this session.
+      es: Salud sexual, pruebas de ITS y PrEP; pregunta por terapia hormonal de afirmación de género y la edad mínima. Detalles no confirmados.
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains
+    cost: sliding_scale
+    verification: unverified
+    sources: [pprm]
+  - id: pflag-abq
+    name: PFLAG Albuquerque
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Support meetings for LGBTQ people and their families.
+      es: Reuniones de apoyo para personas LGBTQ y sus familias.
+    url: https://www.pflagabq.org/
+    cost: free
+    verification: community_reported
+    sources: [pflag-abq]
+  - id: aclu-nm
+    name: ACLU of New Mexico
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Civil liberties organization; contact them if a government office refuses a document change or care that state law protects.
+      es: Organización de libertades civiles; contáctala si una oficina de gobierno niega un cambio de documento o atención protegida por la ley estatal.
+    url: https://www.aclu-nm.org/
+    cost: free
+    verification: community_reported
+    sources: [aclu-nm]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: community_reported
+    sources: [translifeline]
+sources:
+  - id: sjdc-instructions
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Adult_Name_Change_Instructions.pdf
+    title: Change of Name (Adults) packet, rev. June 2023
+    publisher: Second Judicial District Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: File the Petition in the Clerk's Office, Room 119, first floor, of the Bernalillo County Courthouse at 400 Lomas Blvd. NW
+  - id: sjdc-name-change
+    url: https://seconddistrict.nmcourts.gov/self-representation/civil-law/name-change/
+    title: Name change forms and guides
+    publisher: Second Judicial District Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: sjdc-home
+    url: https://seconddistrict.nmcourts.gov/
+    title: Second Judicial District Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: tgrcnm
+    url: https://tgrcnm.org/
+    title: Transgender Resource Center of New Mexico
+    kind: org
+    accessed: "2026-09-24"
+  - id: nmla
+    url: https://newmexicolegalaid.org/
+    title: New Mexico Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: fcch
+    url: https://www.fcch.com/
+    title: First Choice Community Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: unmhealth
+    url: https://unmhealth.org/
+    title: UNM Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pprm
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains
+    title: Planned Parenthood of the Rocky Mountains
+    kind: org
+    accessed: "2026-09-24"
+  - id: pflag-abq
+    url: https://www.pflagabq.org/
+    title: PFLAG Albuquerque
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-nm
+    url: https://www.aclu-nm.org/
+    title: ACLU of New Mexico
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

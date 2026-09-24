@@ -1,0 +1,204 @@
+guide_type: birth_certificate
+jurisdiction: NM
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute: NMSA 24-14-25(D) as amended by SB 20 (2019), read in the enrolled bill text on 2026-09-24. Process, forms,
+    and fees from the NMDOH Gender Designation Change page (via WebFetch summary; the form PDFs on
+    publications.nmdoh.gov were not opened). Open items: (1) confirm the $20 amendment fee (includes one new
+    certificate) and $10 per additional copy; the NMDOH ordering page lists $26 through VitalChek standard service,
+    which includes vendor fees. (2) Processing time was not stated. (3) Confirm whether in-person submission at 2554
+    Camino Entrada, Santa Fe is accepted. (4) The page says the reissued certificate is not marked amended (per
+    statute); whether the prior record is sealed was not confirmed. (5) SB 20's effective date shows as October 29,
+    2019 on the NMDOH page while the MVD manual references July 1, 2019; reviewer may reconcile. (6) Check for
+    2025-2026 changes (web search unavailable).
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in New Mexico, you can get a reissued birth certificate showing male, female, or X by sending a
+    notarized request form to Vital Records. No doctor's letter or court order is needed for the gender marker, and
+    the new certificate is not marked "amended".
+  es: >-
+    Si naciste en Nuevo México, puedes obtener un acta de nacimiento reexpedida con masculino, femenino o X enviando
+    un formulario notariado a Registros Vitales. No se necesita carta médica ni orden judicial para el marcador de
+    género, y la nueva acta no lleva la marca "enmendada".
+summary:
+  en: |
+    Since 2019 (SB 20, NMSA 24-14-25(D)), New Mexico reissues a birth certificate with a sex designation of **male, female, or X** when the person (or a parent, guardian, or legal representative) signs a statement under penalty of perjury stating their gender identity. "X" means "a gender other than male or female or an undesignated gender." The reissued certificate is **not marked "amended"**.
+
+    If your current legal name differs from the name on the birth certificate, include a **certified copy of your court-ordered name change** and the name is updated at the same time. A name change alone (without a gender change) is done by mailing a certified court order with a letter and the $20 fee.
+
+    Only people **born in New Mexico** can use this process. If you were born elsewhere, contact your birth state's vital records office.
+  es: |
+    Desde 2019 (SB 20, NMSA 24-14-25(D)), Nuevo México reexpide el acta de nacimiento con la designación **masculino, femenino o X** cuando la persona (o un padre, tutor o representante legal) firma una declaración bajo pena de perjurio indicando su identidad de género. "X" significa "un género distinto de masculino o femenino o un género no designado". El acta reexpedida **no se marca como "enmendada"**.
+
+    Si tu nombre legal actual es distinto al del acta, incluye una **copia certificada de tu orden judicial de cambio de nombre** y el nombre se actualiza al mismo tiempo.
+
+    Solo pueden usar este proceso las personas **nacidas en Nuevo México**. Si naciste en otro lugar, contacta a la oficina de registros vitales de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in New Mexico. Where you live now does not matter.
+    es: Debes haber nacido en Nuevo México. No importa dónde vivas ahora.
+  age:
+    en: Adults use the adult form. For anyone under 18, a parent or legal guardian applies; if the minor is 14 or older, the minor must also sign a consent form.
+    es: Los adultos usan el formulario para adultos. Para menores de 18, solicita un padre o tutor legal; si el menor tiene 14 años o más, también debe firmar un consentimiento.
+  sources: [sb20-text, nmdoh-gdc]
+forms:
+  - id: gdc-adult
+    name:
+      en: "Request to Change Gender Designation on a Birth Certificate: Adult Form"
+      es: "Solicitud de cambio de designación de género en el acta de nacimiento: formulario para adultos"
+    url: https://publications.nmdoh.gov/publication/view/form/5429/
+    required: conditional
+    condition:
+      en: For people 18 and older.
+      es: Para personas de 18 años o más.
+    how_to_fill:
+      en: |
+        - Choose male, female, or X.
+        - **Sign in front of a notary public**; an unnotarized form will be returned.
+        - If your legal name differs from the one on your birth certificate, attach a certified copy of the court order changing your name.
+      es: |
+        - Elige masculino, femenino o X.
+        - **Firma ante un notario público**; un formulario sin notarizar será devuelto.
+        - Si tu nombre legal es distinto al del acta, adjunta una copia certificada de la orden judicial de cambio de nombre.
+    sources: [nmdoh-gdc]
+  - id: gdc-parent
+    name:
+      en: "Request to Change Gender Designation on a Birth Certificate: Parent/Legal Guardian Form"
+      es: "Solicitud de cambio de designación de género: formulario para padre/madre o tutor legal"
+    url: https://publications.nmdoh.gov/publication/view/form/5430/
+    required: conditional
+    condition:
+      en: For a child under 18, signed by one parent or legal guardian.
+      es: Para menores de 18, firmado por un padre, madre o tutor legal.
+    sources: [nmdoh-gdc]
+  - id: gdc-two-parent
+    name:
+      en: "Request to Change Gender Designation on a Birth Certificate: Two Parent Signature Form"
+      es: "Solicitud de cambio de designación de género: formulario con firma de ambos padres"
+    url: https://publications.nmdoh.gov/publication/view/form/5431/
+    required: optional
+    condition:
+      en: Alternative to the single-parent form when both parents sign.
+      es: Alternativa al formulario de un solo padre cuando ambos firman.
+    sources: [nmdoh-gdc]
+  - id: gdc-minor-consent
+    name:
+      en: "Request to Change Gender Designation on a Birth Certificate: 14 Years of Age or Over Consent Form"
+      es: "Solicitud de cambio de designación de género: consentimiento para mayores de 14 años"
+    url: https://publications.nmdoh.gov/publication/view/form/5432/
+    required: conditional
+    condition:
+      en: Required when the minor is 14 to 17.
+      es: Obligatorio cuando el menor tiene de 14 a 17 años.
+    sources: [nmdoh-gdc]
+steps:
+  - id: choose-form
+    title:
+      en: Choose the right form
+      es: Elige el formulario correcto
+    body:
+      en: Adults use the Adult Form. For a minor, a parent or guardian uses the Parent/Legal Guardian Form (or the Two Parent Signature Form), and a minor 14 or older also signs the consent form.
+      es: Los adultos usan el formulario para adultos. Para un menor, un padre o tutor usa el formulario de padre/tutor (o el de dos firmas), y el menor de 14 años o más firma el consentimiento.
+    forms: [gdc-adult, gdc-parent, gdc-two-parent, gdc-minor-consent]
+    sources: [nmdoh-gdc]
+  - id: notarize
+    title:
+      en: Fill it out and sign before a notary
+      es: Llénalo y fírmalo ante notario
+    body:
+      en: Choose male, female, or X and sign in the presence of a notary public. No medical letter, proof of surgery, or court order about gender is needed.
+      es: Elige masculino, femenino o X y firma ante un notario público. No se necesita carta médica, prueba de cirugía ni orden judicial sobre el género.
+    forms: [gdc-adult]
+    sources: [nmdoh-gdc, sb20-text]
+  - id: name-order
+    title:
+      en: Add your certified name change order, if needed
+      es: Agrega tu orden certificada de cambio de nombre, si hace falta
+    body:
+      en: If your current legal name is different from the name on your birth certificate, include a certified copy of your court order. The new certificate will show both the new name and the new sex designation.
+      es: Si tu nombre legal actual es distinto al del acta, incluye una copia certificada de la orden judicial. La nueva acta mostrará el nombre y la designación de sexo nuevos.
+    applies_to: [name_change]
+    optional: true
+    sources: [nmdoh-gdc]
+  - id: mail
+    title:
+      en: Mail the request with the fee
+      es: Envía la solicitud por correo con la tarifa
+    body:
+      en: |
+        Mail the notarized form, any name change order, and the fee ($20, which includes one new certificate; $10 for each extra copy) to **New Mexico Vital Records, PO Box 26110, Santa Fe, NM 87502**. The office's street address is 2554 Camino Entrada, Santa Fe, NM 87505; phone 1-866-534-0051.
+      es: |
+        Envía el formulario notariado, la orden de cambio de nombre si aplica y la tarifa ($20, que incluye una acta nueva; $10 por cada copia adicional) a **New Mexico Vital Records, PO Box 26110, Santa Fe, NM 87502**. Dirección física: 2554 Camino Entrada, Santa Fe, NM 87505; teléfono 1-866-534-0051.
+    fees: [amendment, extra-copy]
+    applies_to: [by_mail]
+    sources: [nmdoh-gdc]
+fees:
+  - id: amendment
+    label:
+      en: Gender designation change, including one new birth certificate
+      es: Cambio de designación de género, con una acta nueva incluida
+    amount: 20
+    sources: [nmdoh-gdc]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy ordered with the request
+      es: Cada copia certificada adicional pedida con la solicitud
+    amount: 10
+    sources: [nmdoh-gdc]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No fee waiver was found on the Vital Records page. Ask TGRCNM or a legal aid program whether any local fund covers document fees.
+    es: No se encontró exención de tarifas en la página de Registros Vitales. Pregunta a TGRCNM o a un programa de asistencia legal si algún fondo cubre las tarifas.
+  sources: [nmdoh-gdc]
+delivery:
+  by_mail: true
+  detail:
+    en: Mail to the PO Box above. For questions, call Vital Records toll-free at 1-866-534-0051.
+    es: Envía al apartado postal indicado. Para preguntas, llama gratis a Registros Vitales al 1-866-534-0051.
+  sources: [nmdoh-gdc]
+after:
+  en: |
+    Use the new birth certificate to update anything that still shows the old marker. The MVD does not require it (you can change your license by self-attestation), but an X birth certificate is accepted there. Federal records are different: as of September 2026, the passport and Social Security sex fields cannot be changed, though name changes are still processed.
+  es: |
+    Usa la nueva acta para actualizar lo que aún muestre el marcador anterior. La MVD no la exige (puedes cambiar tu licencia por declaración propia), pero acepta un acta con X. Los registros federales son distintos: a septiembre de 2026, los campos de sexo del pasaporte y del Seguro Social no se pueden cambiar, aunque los cambios de nombre sí se procesan.
+tips:
+  - en: Order an extra copy or two ($10 each) with your request; ordering later costs more through VitalChek.
+    es: Pide una o dos copias adicionales ($10 cada una) con tu solicitud; pedirlas después cuesta más por VitalChek.
+statutes:
+  - cite: NMSA 1978, § 24-14-25(D) (as amended by Laws 2019, ch. 89)
+    title:
+      en: Birth certificate reissued with male, female, or X on a statement signed under penalty of perjury; not marked amended
+    url: https://www.nmlegis.gov/Sessions/19%20Regular/final/SB0020.pdf
+related_links:
+  - title: NMDOH, Gender Designation Change on Birth Certificate
+    url: https://www.nmhealth.org/about/erd/bvrhs/vrp/gdc/
+  - title: Advocates for Trans Equality, New Mexico identity documents
+    url: https://transequality.org/documents/new-mexico-identity-documents
+    note:
+      en: No update date shown.
+      es: Sin fecha de actualización.
+sources:
+  - id: sb20-text
+    url: https://www.nmlegis.gov/Sessions/19%20Regular/final/SB0020.pdf
+    title: SB 20 (2019), enrolled text amending NMSA 24-14-25
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the certificate of birth of the individual shall be reissued to reflect a designation of male, female or X, as prescribed by regulation. The certificate of birth shall not be marked "amended"
+  - id: nmdoh-gdc
+    url: https://www.nmhealth.org/about/erd/bvrhs/vrp/gdc/
+    title: Gender Designation Change on Birth Certificate
+    publisher: New Mexico Department of Health, Bureau of Vital Records and Health Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: Must be signed in the presence of a notary public

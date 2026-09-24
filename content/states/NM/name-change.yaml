@@ -1,0 +1,412 @@
+guide_type: name_change
+jurisdiction: NM
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the enrolled text of HB 31 (2023), the statewide NM Courts name change instructions
+    (March 2025), and the Second Judicial District (Bernalillo County) adult packet (rev. June 2023). Open items:
+    (1) the current NMSA 40-8-1 text on nmonesource.com could not be loaded (403); the text used is the enrolled HB 31
+    bill, also reprinted in the Second District packet; check nothing changed in the 2024-2026 sessions (web search
+    was unavailable). (2) The $132 filing fee is Bernalillo County's figure from the June 2023 packet; other districts
+    may differ and the fee may have changed. (3) The statewide "free process" (fee waiver) form number and income
+    test were not confirmed; the guide tells people to ask the clerk. (4) The sealing order is part of the Second
+    District packet; whether other districts seal the final order routinely is unconfirmed. (5) No statute or form
+    mentions fingerprints or a background check; the petition asks only for residency and age. (6) A4TE's New Mexico
+    page still says notice must be published once a week for two weeks; that was repealed by HB 31 effective June 16,
+    2023. The primary source controls. (7) Minors 14 to 17 may file on their own under the statute; confirm how
+    district courts handle that in practice.
+status: available
+status_summary:
+  en: >-
+    New Mexico residents 14 and older can change their name by filing a petition in the district court of the county
+    where they live. Since June 2023 there is no newspaper publication. You attend a short hearing, and the final
+    order is then recorded with your county clerk.
+  es: >-
+    Las personas residentes de Nuevo México de 14 años o más pueden cambiar su nombre presentando una petición en el
+    tribunal de distrito del condado donde viven. Desde junio de 2023 no hay publicación en periódico. Asistes a una
+    audiencia breve y luego la orden final se registra con el secretario del condado.
+summary:
+  en: |
+    New Mexico uses one simple petition for every name change; you do not need to give a reason or show any medical proof, and nothing is specific to gender identity. File in the **district court of the county where you live** (NMSA 40-8-1). The judge grants the change "if no sufficient cause is shown to the contrary".
+
+    In 2023, HB 31 repealed the old rule requiring you to publish a notice in a newspaper, so the main costs are the filing fee (about $132 in Bernalillo County, waivable through "free process"), certified copies, and a $25 fee to record the order with the county clerk. There are no statewide Supreme Court-approved forms; most districts, including Bernalillo County, publish their own packet.
+  es: |
+    Nuevo México usa una sola petición para todo cambio de nombre; no necesitas dar una razón ni prueba médica. Presenta la petición en el **tribunal de distrito del condado donde vives** (NMSA 40-8-1). El juez concede el cambio "si no se demuestra causa suficiente en contrario".
+
+    En 2023, la ley HB 31 derogó la obligación de publicar un aviso en un periódico, así que los costos principales son la tarifa de presentación (unos $132 en el condado de Bernalillo, que se puede eximir mediante "free process"), las copias certificadas y $25 para registrar la orden con el secretario del condado. No hay formularios estatales aprobados por la Corte Suprema; la mayoría de los distritos, incluido Bernalillo, publican su propio paquete.
+eligibility:
+  residency:
+    en: You must be a New Mexico resident. File in the district court for the county where you live.
+    es: Debes residir en Nuevo México. Presenta en el tribunal de distrito del condado donde vives.
+  age:
+    en: 14 or older files for themselves. For children 13 and under, a parent or legal guardian files, and all legal parents or guardians must get notice.
+    es: Las personas de 14 años o más presentan por sí mismas. Para menores de 13 años o menos, presenta un padre, madre o tutor legal, y todos los padres o tutores deben ser notificados.
+  criminal_history:
+    en: The statute does not bar people with a criminal record, and the court forms do not ask about it. The judge can deny a petition if there is "sufficient cause" (for example, an attempt to avoid debts or a criminal case).
+    es: La ley no excluye a personas con antecedentes penales y los formularios no preguntan al respecto. El juez puede negar la petición si hay "causa suficiente".
+  sources: [hb31-2023, nmcourts-instructions, sjdc-petition]
+forms:
+  - id: sjdc-petition-adult
+    name:
+      en: Petition to Change Name (Adult), Second Judicial District (Bernalillo County)
+      es: Petición de cambio de nombre (adulto), Segundo Distrito Judicial (condado de Bernalillo)
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Petition_Adult.pdf
+    required: always
+    condition:
+      en: This is Bernalillo County's version. In another county, ask your district court clerk for its packet or use this one and change the court name, as the statewide instructions allow.
+      es: Esta es la versión del condado de Bernalillo. En otro condado, pide el paquete a tu tribunal de distrito o usa este cambiando el nombre del tribunal.
+    how_to_fill:
+      en: |
+        - Leave the case number ("No.") blank; the clerk fills it in.
+        - Item 1 and the caption: your current legal name, the name you are changing (usually the one on your birth certificate or Social Security card).
+        - Item 4: "Current Name", "Proposed Name", and year of birth. Spell the proposed name exactly as you want it on every document; the order copies it.
+        - There is no box for a reason, and you do not have to mention gender identity or give medical proof.
+        - Sign with your **current** name.
+    sources: [sjdc-petition, sjdc-instructions]
+  - id: sjdc-notice-adult
+    name:
+      en: Notice of Petition to Change Name (Adult)
+      es: Aviso de petición de cambio de nombre (adulto)
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Notice_Adult.pdf
+    required: conditional
+    condition:
+      en: Required by the Second Judicial District packet. It is filed with the court (not published in a newspaper) after the judge's office sets your hearing date.
+      es: Lo exige el paquete del Segundo Distrito Judicial. Se presenta ante el tribunal (no se publica en un periódico) después de que se fija la fecha de audiencia.
+    sources: [sjdc-instructions]
+  - id: sjdc-final-order-adult
+    name:
+      en: Final Order Changing Name (Adult)
+      es: Orden final de cambio de nombre (adulto)
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Final_Order_Adult.pdf
+    required: always
+    condition:
+      en: You fill in the top and the names; bring it and two copies to the hearing for the judge to sign.
+      es: Llenas el encabezado y los nombres; llévala con dos copias a la audiencia para que la firme el juez.
+    sources: [sjdc-instructions]
+  - id: sjdc-order-seal-adult
+    name:
+      en: Order Sealing Final Order to Change Name
+      es: Orden de sellado de la orden final de cambio de nombre
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Order_to_Seal_Adult.pdf
+    required: conditional
+    condition:
+      en: Part of the Bernalillo County packet. Bring it to the hearing with the final order.
+      es: Parte del paquete del condado de Bernalillo. Llévala a la audiencia junto con la orden final.
+    sources: [sjdc-order-seal]
+steps:
+  - id: get-packet
+    title:
+      en: Get your district court's name change packet
+      es: Consigue el paquete de cambio de nombre de tu tribunal de distrito
+    body:
+      en: |
+        There are no statewide approved forms. Download your district court's packet or ask the clerk or self-help desk. In Bernalillo County (Albuquerque), the Second Judicial District posts an adult packet online: petition, notice, final order, and order sealing the final order. If your court has no packet, the statewide instructions say you may use another New Mexico court's forms and change the court name.
+      es: |
+        No hay formularios estatales aprobados. Descarga el paquete de tu tribunal de distrito o pídelo al secretario o a la oficina de autoayuda. En el condado de Bernalillo (Albuquerque), el Segundo Distrito Judicial publica un paquete para adultos. Si tu tribunal no tiene paquete, puedes usar los formularios de otro tribunal de Nuevo México cambiando el nombre del tribunal.
+    forms: [sjdc-petition-adult, sjdc-notice-adult, sjdc-final-order-adult, sjdc-order-seal-adult]
+    sources: [nmcourts-instructions, sjdc-name-change]
+  - id: fill-petition
+    title:
+      en: Fill out the petition
+      es: Llena la petición
+    body:
+      en: Fill in your current name, the new name, and your year of birth. Make one or two copies of each form (Bernalillo County asks for two). You do not need to explain why you want the change.
+      es: Escribe tu nombre actual, el nombre nuevo y tu año de nacimiento. Haz una o dos copias de cada formulario (Bernalillo pide dos). No necesitas explicar por qué quieres el cambio.
+    forms: [sjdc-petition-adult]
+    sources: [sjdc-instructions]
+  - id: file
+    title:
+      en: File the petition and pay the fee (or ask for free process)
+      es: Presenta la petición y paga la tarifa (o pide "free process")
+    body:
+      en: |
+        Take the originals and copies to the district court clerk in your county and pay the filing fee. Bernalillo County charges $132 (cash, card, money order, or cashier's check; no personal checks). If your income is low, ask the clerk for **free process**, New Mexico's name for a fee waiver.
+      es: |
+        Lleva los originales y copias al secretario del tribunal de distrito de tu condado y paga la tarifa. Bernalillo cobra $132 (efectivo, tarjeta, giro postal o cheque de caja; no cheques personales). Si tienes bajos ingresos, pide al secretario **free process**, la exención de tarifas de Nuevo México.
+    fees: [filing]
+    sources: [sjdc-instructions, nmcourts-instructions]
+  - id: hearing
+    title:
+      en: Get a hearing date and attend the hearing
+      es: Obtén fecha de audiencia y asiste
+    body:
+      en: |
+        After filing, the court (in Bernalillo County, the assigned judge's assistant) sets a hearing date. In Bernalillo County you then file the Notice of Petition with the clerk. Bring the Final Order Changing Name and the Order Sealing Final Order, with copies, to the hearing and arrive on time; missing the hearing can get the case dismissed. The judge approves or denies the change at the hearing.
+      es: |
+        Después de presentar, el tribunal fija una fecha de audiencia. En Bernalillo, luego presentas el Aviso de Petición al secretario. Lleva la Orden Final y la Orden de Sellado, con copias, a la audiencia y llega a tiempo; si faltas, pueden desestimar el caso. El juez aprueba o niega el cambio en la audiencia.
+    forms: [sjdc-notice-adult, sjdc-final-order-adult, sjdc-order-seal-adult]
+    sources: [sjdc-instructions, nmcourts-instructions]
+  - id: file-order-copies
+    title:
+      en: File the signed orders and buy certified copies
+      es: Presenta las órdenes firmadas y compra copias certificadas
+    body:
+      en: The signed orders are **not effective until the clerk files them**, so go straight back to the clerk's office with them. Buy several certified copies of the final order ($1.50 each in Bernalillo County, plus $0.35 per page for copies).
+      es: Las órdenes firmadas **no tienen efecto hasta que el secretario las registra**, así que regresa directamente a la oficina del secretario. Compra varias copias certificadas de la orden final ($1.50 cada una en Bernalillo, más $0.35 por página).
+    fees: [certified-copies]
+    sources: [sjdc-instructions]
+  - id: county-clerk
+    title:
+      en: Record the order with the county clerk
+      es: Registra la orden con el secretario del condado
+    body:
+      en: State law requires a certified copy of the order to be filed with the county clerk of the county where you live. Take one certified copy to the county clerk's office (not the court clerk). The fee in Bernalillo County is $25.
+      es: La ley estatal exige presentar una copia certificada de la orden al secretario del condado donde vives. Lleva una copia certificada a la oficina del secretario del condado (no del tribunal). En Bernalillo cuesta $25.
+    fees: [county-clerk]
+    sources: [hb31-2023, sjdc-instructions]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free; bring a certified copy of the order and photo ID). The name can change; the sex field currently cannot.
+        2. **MVD** driver's license or ID (see the driver's license guide).
+        3. **Birth certificate**: if you were born in New Mexico, send a certified copy to Vital Records with $20 (see the birth certificate guide). If you were born elsewhere, contact your birth state.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis; lleva una copia certificada de la orden e identificación con foto).
+        2. **MVD**, licencia o identificación.
+        3. **Acta de nacimiento**: si naciste en Nuevo México, envía una copia certificada a Registros Vitales con $20. Si naciste en otro estado, contacta a ese estado.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [sjdc-instructions, nmcourts-instructions]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (petition for change of name)
+      es: Tarifa de presentación en el tribunal de distrito
+    amount: 132
+    varies_by: court
+    waivable: true
+    note:
+      en: Bernalillo County figure from the Second Judicial District packet (rev. June 2023). The statewide instructions say filing fees vary; confirm with your clerk.
+      es: Cifra del condado de Bernalillo según el paquete del Segundo Distrito Judicial (junio de 2023). Las tarifas varían; confirma con tu secretario.
+    sources: [sjdc-instructions, nmcourts-instructions]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    amount: 1.5
+    varies_by: court
+    note:
+      en: Plus $0.35 per page for photocopies (Bernalillo County).
+      es: Más $0.35 por página de fotocopia (Bernalillo).
+    sources: [sjdc-instructions]
+  - id: county-clerk
+    label:
+      en: Recording the order with the county clerk
+      es: Registro de la orden con el secretario del condado
+    amount: 25
+    varies_by: county
+    sources: [sjdc-instructions]
+fee_waiver:
+  available: true
+  eligibility:
+    en: If your income is below a certain level, you may qualify for a waiver of the filing fee, which New Mexico courts call **free process**.
+    es: Si tus ingresos están por debajo de cierto nivel, puedes calificar para una exención de la tarifa, que los tribunales de Nuevo México llaman **free process**.
+  how:
+    en: Ask the clerk's office at your district court for the free process application and file it with your petition. The NM Courts HelpLine (855-268-7804) can also explain it.
+    es: Pide al secretario de tu tribunal de distrito la solicitud de free process y preséntala con tu petición. La línea de ayuda de los tribunales (855-268-7804) también puede orientarte.
+  sources: [nmcourts-instructions, nmcourts-selfhelp]
+publication:
+  required: "no"
+  detail:
+    en: HB 31 (2023) repealed NMSA 40-8-2, which had required publishing notice in a newspaper and filing proof of publication. Since June 16, 2023, no publication is required for anyone. (For a child whose other parent cannot be found, a court may still order service by publication on that parent.)
+    es: La ley HB 31 (2023) derogó la sección 40-8-2 NMSA, que exigía publicar un aviso en un periódico. Desde el 16 de junio de 2023 no se exige publicación para nadie. (Para un menor cuyo otro padre no puede ser localizado, el tribunal aún puede ordenar notificación por edicto a ese padre.)
+  waiver_available: true
+  sources: [hb31-2023, hb31-text, nmcourts-selfhelp]
+hearing:
+  required: "yes"
+  detail:
+    en: The statewide instructions and the Bernalillo County packet both say the court schedules a hearing you must attend, and the judge decides at the hearing. NMSA 40-8-3 requires the hearing to be held in the county where you live.
+    es: Las instrucciones estatales y el paquete de Bernalillo indican que el tribunal fija una audiencia a la que debes asistir. NMSA 40-8-3 exige que sea en el condado donde vives.
+  sources: [nmcourts-instructions, sjdc-instructions]
+background_check:
+  required: "no"
+  detail:
+    en: Neither the statute nor the court packets require fingerprints or a background check.
+    es: Ni la ley ni los paquetes del tribunal exigen huellas ni verificación de antecedentes.
+  sources: [hb31-text, sjdc-instructions]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      The Bernalillo County packet includes an **Order Sealing Final Order to Change Name**: the court seals the final order under Rule 1-079 NMRA because it contains personal identifiers, and you keep access to it. For children, if notice to a parent would endanger the child or the applicant, the statute requires the court to waive notice and seal all records of the petition.
+    es: |
+      El paquete de Bernalillo incluye una **Orden de sellado de la orden final**: el tribunal sella la orden final bajo la Regla 1-079 NMRA porque contiene identificadores personales, y tú conservas acceso. Para menores, si notificar a un padre pondría en peligro al menor o al solicitante, la ley exige que el tribunal no exija la notificación y selle todo el expediente.
+  how:
+    en: Bring the sealing order to your hearing with the final order. In other counties, ask the clerk or self-help desk whether a sealing order is part of the packet; you can ask the judge to seal under Rule 1-079.
+    es: Lleva la orden de sellado a la audiencia junto con la orden final. En otros condados, pregunta si forma parte del paquete; puedes pedir al juez que selle bajo la Regla 1-079.
+  sources: [sjdc-order-seal, hb31-text]
+minors:
+  summary:
+    en: |
+      **Ages 14 to 17** can petition on their own under NMSA 40-8-1. **Ages 13 and under**: a parent or legal guardian files, and all legal parents or guardians must get notice. A parent who agrees can sign a consent form; otherwise the other parent must be formally served with a summons and the petition by someone else (not you). If the other parent cannot be found, you ask the court for service by publication. If the court finds that notice would endanger the child or the applicant, it must waive notice and seal all records. Bernalillo County posts a separate under-14 packet (petition, mother's and father's consent, notice, final order, sealing order).
+    es: |
+      **De 14 a 17 años** pueden presentar la petición por sí mismos según NMSA 40-8-1. **De 13 años o menos**: presenta un padre o tutor legal, y todos los padres o tutores deben ser notificados. El padre que esté de acuerdo puede firmar un consentimiento; si no, debe ser notificado formalmente por otra persona. Si no se le puede localizar, se pide notificación por edicto. Si notificar pondría en peligro al menor o al solicitante, el tribunal debe omitir la notificación y sellar el expediente. Bernalillo publica un paquete para menores de 14 años.
+  sources: [hb31-text, nmcourts-instructions, sjdc-name-change]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: The packets describe filing in person at the clerk's office and attending the hearing. Some district courts accept e-filing; check with your clerk.
+    es: Los paquetes describen la presentación en persona en la oficina del secretario y la asistencia a la audiencia. Algunos tribunales aceptan presentación electrónica; consulta.
+  sources: [sjdc-instructions]
+timeline:
+  en: Usually a few weeks to a couple of months from filing to hearing, depending on the judge's calendar; then one day to file the orders and record them with the county clerk.
+  es: Normalmente de unas semanas a un par de meses desde la presentación hasta la audiencia, según el calendario del juez; luego un día para registrar las órdenes.
+after:
+  en: |
+    Record the order with your **county clerk** (required by law). Then update **Social Security** (bring a certified copy; the name changes, the sex field currently cannot), the **MVD** (see the driver's license guide), and your **birth certificate** (New Mexico Vital Records, $20, if you were born in New Mexico). Then your **passport** (name changes are still processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Registra la orden con el **secretario del condado** (lo exige la ley). Luego actualiza el **Seguro Social** (lleva una copia certificada; el nombre cambia, el campo de sexo actualmente no), la **MVD** y tu **acta de nacimiento** (Registros Vitales de Nuevo México, $20, si naciste en Nuevo México). Después tu **pasaporte** (los cambios de nombre se siguen procesando; los de sexo no, a septiembre de 2026), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: Buy at least three certified copies of the final order before you leave the courthouse; at $1.50 each in Bernalillo County they are cheap, and you need one for the county clerk.
+    es: Compra al menos tres copias certificadas de la orden final antes de salir del tribunal; a $1.50 cada una en Bernalillo son baratas, y necesitas una para el secretario del condado.
+  - en: If you were born outside New Mexico, check your birth state's rules before the hearing; some require specific wording in the order, which the judge can include.
+    es: Si naciste fuera de Nuevo México, revisa las reglas de tu estado de nacimiento antes de la audiencia; algunos exigen cierta redacción en la orden.
+  - en: The NM Courts HelpLine (855-268-7804) answers procedural questions for people without lawyers.
+    es: La línea de ayuda de los tribunales (855-268-7804) responde preguntas de procedimiento a personas sin abogado.
+local_help:
+  - id: tgrcnm
+    name: Transgender Resource Center of New Mexico
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Helps with name and gender marker changes on ID documents. Drop-in center in Albuquerque; call or email to set up help.
+      es: Ayuda con cambios de nombre y marcador de género en documentos. Centro en Albuquerque; llama o escribe para recibir ayuda.
+    url: https://tgrcnm.org/
+    phone: "505-200-9086"
+    address: 1515 4th St NW, Albuquerque, NM 87102
+    cost: free
+    verification: org_website
+    sources: [tgrcnm]
+  - id: nm-legal-aid
+    name: New Mexico Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free statewide civil legal aid for people with low incomes; runs a Volunteer Attorney Program with free consultations. Call 1-833-545-4357 or apply online.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos; tiene un programa de abogados voluntarios con consultas gratuitas.
+    url: https://newmexicolegalaid.org/
+    phone: "1-833-545-4357"
+    cost: free
+    verification: org_website
+    sources: [nmla]
+  - id: nm-courts-helpline
+    name: New Mexico Courts HelpLine
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free statewide phone line for people handling court cases without a lawyer; explains forms, fees, and free process.
+      es: Línea telefónica estatal gratuita para personas que llevan casos sin abogado; explica formularios, tarifas y free process.
+    url: https://selfrepresentation.nmcourts.gov/new-mexico-courts-helpline/
+    phone: "855-268-7804"
+    cost: free
+    verification: official_source
+    sources: [nmcourts-selfhelp]
+  - id: sjdc-self-help
+    name: Second Judicial District Court Self Help Center (Bernalillo County)
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help center in Albuquerque that publishes the adult and under-14 name change packets.
+      es: Centro de autoayuda del tribunal en Albuquerque que publica los paquetes de cambio de nombre.
+    url: https://seconddistrict.nmcourts.gov/self-representation/self-help-center/
+    address: 400 Lomas Blvd NW, Albuquerque, NM 87102
+    cost: free
+    verification: official_source
+    sources: [sjdc-name-change]
+statutes:
+  - cite: NMSA 1978, § 40-8-1 (as amended by Laws 2023, ch. 28)
+    title:
+      en: Change of name by petition to the district court; notice to parents for children under 14; order recorded with the county clerk
+    url: https://www.nmlegis.gov/Sessions/23%20Regular/final/HB0031.pdf
+  - cite: HB 31 (2023), Laws 2023, ch. 28
+    title:
+      en: Repealed NMSA 40-8-2 (publication and proof of publication); effective June 16, 2023
+    url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=31&year=23
+  - cite: NMSA 1978, § 40-8-3
+    title:
+      en: Hearing held in the county where the petitioner lives
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Adult_Name_Change_Instructions.pdf
+related_links:
+  - title: NM Courts, Name change self-help
+    url: https://selfrepresentation.nmcourts.gov/sample-page/name-change/
+    note:
+      en: Official statewide overview.
+      es: Resumen oficial estatal.
+  - title: Advocates for Trans Equality, New Mexico identity documents
+    url: https://transequality.org/documents/new-mexico-identity-documents
+    note:
+      en: No update date shown; still describes the newspaper publication requirement repealed in 2023.
+      es: Sin fecha de actualización; todavía describe el requisito de publicación derogado en 2023.
+sources:
+  - id: hb31-2023
+    url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=31&year=23
+    title: HB 31 (2023), No publication required for name changes
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Signed by the Governor March 24, 2023; Chapter 28.
+  - id: hb31-text
+    url: https://www.nmlegis.gov/Sessions/23%20Regular/final/HB0031.pdf
+    title: HB 31 (2023), enrolled text
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Section 40-8-2 NMSA 1978 (being Laws 1889, Chapter 3, Section 2, as amended) is repealed."
+  - id: nmcourts-instructions
+    url: https://nmcourts.gov/wp-content/uploads/sites/62/2024/01/NameChangeInstructions-updatedMarch2025.pdf
+    title: Name Change Instructions (March 2025)
+    publisher: New Mexico District Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: Currently, there are no New Mexico Supreme Court approved forms for changing your name.
+  - id: nmcourts-selfhelp
+    url: https://selfrepresentation.nmcourts.gov/sample-page/name-change/
+    title: Name change
+    publisher: New Mexico Courts, Self-Representation
+    kind: court
+    accessed: "2026-09-24"
+  - id: sjdc-name-change
+    url: https://seconddistrict.nmcourts.gov/self-representation/civil-law/name-change/
+    title: Name change forms and guides
+    publisher: Second Judicial District Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: sjdc-instructions
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Adult_Name_Change_Instructions.pdf
+    title: Change of Name (Adults) packet, rev. June 2023
+    publisher: Second Judicial District Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: There are additional associated costs with name changes including the filing fee of $132.00. Certified copies - $1.50 each. Filing with the County Clerk - $25.00
+  - id: sjdc-petition
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Petition_Adult.pdf
+    title: Petition to Change Name (Adult)
+    publisher: Second Judicial District Court
+    kind: form
+    accessed: "2026-09-24"
+  - id: sjdc-order-seal
+    url: https://seconddistrict.nmcourts.gov/wp-content/uploads/sites/21/2023/11/Order_to_Seal_Adult.pdf
+    title: Order Sealing Final Order to Change Name
+    publisher: Second Judicial District Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: the Final Order to Change Name ... shall be sealed pursuant to Rule 1-079 NMRA
+  - id: tgrcnm
+    url: https://tgrcnm.org/
+    title: Transgender Resource Center of New Mexico
+    kind: org
+    accessed: "2026-09-24"
+  - id: nmla
+    url: https://newmexicolegalaid.org/
+    title: New Mexico Legal Aid
+    kind: org
+    accessed: "2026-09-24"

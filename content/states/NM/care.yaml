@@ -1,0 +1,232 @@
+jurisdiction: NM
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read in the enrolled texts of HB 7 (2023) and SB 13 (2023) on 2026-09-24. Open items: (1) Medicaid
+    (Turquoise Care) coverage of hormones and surgery is set to "yes" on the basis of HB 7 (a public body may not
+    deny or restrict access to gender-affirming care within the standard of care) and prior MAP/advocacy reporting;
+    no HCA coverage policy or NMAC rule was found on hca.nm.gov, so confirm the current Turquoise Care policy and any
+    prior-authorization criteria. (2) Private insurance: New Mexico OSI is reported to have barred transgender
+    exclusions by bulletin (2018) and rule; neither was fetched. nondiscrimination_protection is set true pending
+    confirmation. (3) First Choice Community Healthcare's homepage confirms a sliding-fee program but does not mention
+    gender-affirming care or PrEP. (4) UNM Health's homepage mentions an LGBTQ+ Collaborative; no program URL was
+    found, and the Truman Health Services page URL 404'd. (5) Planned Parenthood of the Rocky Mountains pages returned
+    403; services and minimum age for hormone therapy in Albuquerque are unverified. (6) HRSA finder not fetched this
+    session. (7) Federal actions in 2025-2026 affecting hospitals that serve minors, and any 2025-2026 New Mexico
+    bills, were not reviewed (web search unavailable).
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected for adults and minors in New Mexico. State law bars public bodies
+    from restricting it, a shield law protects patients, providers, and helpers from other states' investigations,
+    and Medicaid (Turquoise Care) is expected to cover it. Clinics are concentrated in Albuquerque, and several
+    telehealth services cover the whole state.
+  es: >-
+    La atención de afirmación de género es legal y está protegida para adultos y menores en Nuevo México. La ley
+    estatal prohíbe que los organismos públicos la restrinjan, una ley escudo protege a pacientes, proveedores y
+    quienes ayudan frente a investigaciones de otros estados, y se espera que Medicaid (Turquoise Care) la cubra. Las
+    clínicas se concentran en Albuquerque y varios servicios de telesalud cubren todo el estado.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. The **Reproductive and Gender-Affirming Health Care Freedom Act** (HB 7, 2023) forbids any public body, including state agencies, cities, counties, school districts, and public universities, from denying, restricting, or interfering with a person's ability to access or provide gender-affirming care within the medical standard of care, or from discriminating against someone for using it.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Medicaid (Turquoise Care)**; adults with low incomes qualify.
+      2. Go to a **community health center** (FQHC); they charge on a sliding scale. Find one at findahealthcenter.hrsa.gov. Ask whether they prescribe hormones on an informed-consent basis.
+      3. Use a **telehealth** service that serves New Mexico (Plume, FOLX, Planned Parenthood).
+      4. Apply to **Point of Pride's HRT Access Fund** for free telehealth hormone care.
+      5. Ask **TGRCNM** for its trans-friendly provider directory.
+    es: |
+      Sin restricciones estatales. La **Ley de Libertad en la Atención de Salud Reproductiva y de Afirmación de Género** (HB 7, 2023) prohíbe que cualquier organismo público (agencias estatales, ciudades, condados, distritos escolares, universidades públicas) niegue, restrinja o interfiera con el acceso a la atención de afirmación de género dentro del estándar médico, o discrimine a alguien por usarla.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid (Turquoise Care)**.
+      2. Acude a un **centro de salud comunitario** con escala móvil (findahealthcenter.hrsa.gov). Pregunta si recetan hormonas por consentimiento informado.
+      3. Usa un servicio de **telesalud** que atienda Nuevo México (Plume, FOLX, Planned Parenthood).
+      4. Solicita el **Fondo de Acceso a TRH de Point of Pride**.
+      5. Pide a **TGRCNM** su directorio de proveedores.
+  sources: [hb7-text, hrsa, pop, tgrcnm]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. HB 7 (2023) bars public bodies from restricting gender-affirming care within the standard of care, for people of any age. The **Reproductive and Gender-Affirming Health Care Protection Act** (SB 13, 2023) is New Mexico's shield law: public bodies may not help other states' investigations into protected care, out-of-state subpoenas need a sworn attestation, the governor may not extradite someone for care provided in New Mexico unless they were physically in the other state, and licensing boards may not discipline providers for care that is lawful in New Mexico. Care for minors follows clinical guidelines and requires parental consent. Families from states with bans can travel to New Mexico for care.
+    es: |
+      Legal. HB 7 (2023) prohíbe que los organismos públicos restrinjan la atención de afirmación de género dentro del estándar médico, para personas de cualquier edad. La **Ley de Protección de la Atención de Salud Reproductiva y de Afirmación de Género** (SB 13, 2023) es la ley escudo: los organismos públicos no pueden ayudar a investigaciones de otros estados, las citaciones de otros estados requieren una declaración jurada, el gobernador no puede extraditar a alguien por atención prestada en Nuevo México salvo que haya estado físicamente en el otro estado, y las juntas de licencias no pueden sancionar a proveedores por atención legal en Nuevo México. La atención a menores sigue guías clínicas y requiere consentimiento de los padres.
+  sources: [hb7-text, sb13-text]
+medicaid:
+  program_name: Turquoise Care (New Mexico Medicaid)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: New Mexico's Medicaid program, Turquoise Care, is run by the Health Care Authority. HB 7 prohibits public bodies from denying or restricting access to gender-affirming care within the standard of care. Surgery usually needs prior authorization; ask your managed care plan for its criteria. If a claim is denied, ask for a written denial and appeal.
+    es: El programa de Medicaid de Nuevo México, Turquoise Care, lo administra la Autoridad de Atención Médica (HCA). HB 7 prohíbe que los organismos públicos nieguen o restrinjan la atención de afirmación de género. La cirugía suele requerir autorización previa; pregunta a tu plan sus criterios. Si niegan un reclamo, pide la negación por escrito y apela.
+  how_to_apply_url: https://www.hca.nm.gov/turquoise-care/
+  sources: [hca-turquoise, hb7-text]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: New Mexico's insurance regulator (Office of Superintendent of Insurance) is reported to prohibit blanket transgender exclusions in state-regulated plans. Self-funded employer plans are regulated federally, not by the state. If your plan denies gender-affirming care, file a complaint with OSI.
+    es: Se informa que el regulador de seguros de Nuevo México (OSI) prohíbe exclusiones generales para personas trans en planes regulados por el estado. Los planes autofinanciados de empleadores se regulan a nivel federal. Si tu plan niega la atención, presenta una queja ante OSI.
+  complaint_url: https://osi.state.nm.us/en/complaints/
+  sources: [osi-complaints]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: tgrcnm
+    name: Transgender Resource Center of New Mexico, provider directory
+    type: lgbtq_center
+    pillars: [hrt, mental_health]
+    description:
+      en: Keeps a directory of trans-friendly medical providers across New Mexico and runs support groups (in person in Albuquerque and remote).
+      es: Mantiene un directorio de proveedores médicos amigables con personas trans en Nuevo México y ofrece grupos de apoyo.
+    url: https://tgrcnm.org/
+    phone: "505-200-9086"
+    address: 1515 4th St NW, Albuquerque, NM 87102
+    cost: free
+    verification: org_website
+    sources: [tgrcnm]
+  - id: first-choice
+    name: First Choice Community Healthcare
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Community health center network in the Albuquerque area (Alameda, South Broadway, South Valley, Los Lunas, Edgewood and others) with a sliding-fee discount program. Ask whether your site prescribes gender-affirming hormones.
+      es: Red de centros de salud comunitarios en el área de Albuquerque con programa de descuento por escala móvil. Pregunta si tu sede receta hormonas de afirmación de género.
+    url: https://www.fcch.com/
+    phone: "505-873-7400"
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fcch]
+  - id: unm-lgbtq
+    name: UNM Health, LGBTQ+ Collaborative
+    type: hrt_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: The state's academic health system advertises LGBTQ+ health and mental health care. Call UNM Health (505-272-2111) and ask for gender-affirming care or Truman Health Services.
+      es: El sistema de salud académico del estado ofrece atención de salud y salud mental LGBTQ+. Llama a UNM Health (505-272-2111) y pregunta por atención de afirmación de género o Truman Health Services.
+    url: https://unmhealth.org/
+    phone: "505-272-2111"
+    cost: insurance
+    accepts_medicaid: true
+    verification: community_reported
+    sources: [unmhealth]
+  - id: pp-rocky-mountains
+    org: planned-parenthood
+    name: Planned Parenthood of the Rocky Mountains (New Mexico health centers)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: The Planned Parenthood affiliate serving New Mexico, with a health center in Albuquerque. Hormone therapy availability and minimum age not confirmed; call ahead.
+      es: La afiliada de Planned Parenthood que atiende Nuevo México, con un centro en Albuquerque. No se confirmó la disponibilidad de terapia hormonal ni la edad mínima; llama antes.
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains
+    cost: sliding_scale
+    verification: unverified
+    sources: [pprm]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for free telehealth hormone therapy; applications open each May.
+      es: Fondo nacional que paga terapia hormonal gratuita por telesalud; solicitudes cada mayo.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: community_reported
+    sources: [pop]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal search tool for community health centers that charge on a sliding scale by income.
+      es: Buscador federal de centros de salud comunitarios con tarifas según ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+  - id: osi
+    name: New Mexico Office of Superintendent of Insurance, complaints
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: File a complaint if a state-regulated health plan denies gender-affirming care.
+      es: Presenta una queja si un plan regulado por el estado niega la atención de afirmación de género.
+    url: https://osi.state.nm.us/en/complaints/
+    cost: free
+    verification: official_source
+    sources: [osi-complaints]
+statutes:
+  - cite: HB 7 (2023), Laws 2023, ch. 11, Reproductive and Gender-Affirming Health Care Freedom Act
+    title:
+      en: Public bodies may not deny, restrict, or interfere with access to gender-affirming care
+    url: https://www.nmlegis.gov/Sessions/23%20Regular/final/HB0007.pdf
+  - cite: SB 13 (2023), Laws 2023, ch. 167, Reproductive and Gender-Affirming Health Care Protection Act
+    title:
+      en: Shield law covering subpoenas, extradition, licensing discipline, and release of information
+    url: https://www.nmlegis.gov/Sessions/23%20Regular/final/SB0013.pdf
+sources:
+  - id: hb7-text
+    url: https://www.nmlegis.gov/Sessions/23%20Regular/final/HB0007.pdf
+    title: HB 7 (2023), enrolled text
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A public body ... shall not deny, restrict or interfere with a person's ability to access or provide reproductive health care or gender-affirming health care within the medical standard of care.
+  - id: sb13-text
+    url: https://www.nmlegis.gov/Sessions/23%20Regular/final/SB0013.pdf
+    title: SB 13 (2023), enrolled text
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A board shall not take an action pursuant to the Uniform Licensing Act against a license holder or license applicant based solely on a licensee's or license applicant's provision of ... a protected health care activity
+  - id: hca-turquoise
+    url: https://www.hca.nm.gov/turquoise-care/
+    title: Turquoise Care
+    publisher: New Mexico Health Care Authority
+    kind: official
+    accessed: "2026-09-24"
+  - id: osi-complaints
+    url: https://osi.state.nm.us/en/complaints/
+    title: File a complaint
+    publisher: New Mexico Office of Superintendent of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: tgrcnm
+    url: https://tgrcnm.org/
+    title: Transgender Resource Center of New Mexico
+    kind: org
+    accessed: "2026-09-24"
+  - id: fcch
+    url: https://www.fcch.com/
+    title: First Choice Community Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: unmhealth
+    url: https://unmhealth.org/
+    title: UNM Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: LGBTQ+ Collaborative - Get the safe, compassionate health and mental healthcare you deserve at UNM Health.
+  - id: pprm
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains
+    title: Planned Parenthood of the Rocky Mountains
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

@@ -1,0 +1,139 @@
+code: NM
+name:
+  en: New Mexico
+  es: Nuevo México
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings rest on HB 31 (2023, no publication for name changes), SB 20 (2019, birth certificate
+    self-attestation with X), MVD form MVD-10237 (self-attestation, M/F/X), HB 7 (2023) and SB 13 (2023, shield law),
+    all read from primary sources on 2026-09-24. The reviewer should check for any 2025-2026 session changes; web
+    search was unavailable, so no newer bills were reviewed.
+overview:
+  en: >-
+    New Mexico is a protective state. Name changes go through the district court with no newspaper publication since
+    2023, and the driver's license and birth certificate both offer M, F, or X by signing a sworn, notarized statement
+    (no doctor's letter). State law bars public bodies from restricting gender-affirming care, and a 2023 shield law
+    protects patients and providers from other states' investigations. Federal documents (passport, Social Security)
+    are the exception: their sex fields are currently frozen nationwide.
+  es: >-
+    Nuevo México es un estado protector. Los cambios de nombre se tramitan en el tribunal de distrito y desde 2023 no
+    requieren publicación en periódico, y la licencia de conducir y el acta de nacimiento ofrecen M, F o X firmando una
+    declaración jurada notariada (sin carta médica). La ley estatal prohíbe que los organismos públicos restrinjan la
+    atención de afirmación de género, y una ley escudo de 2023 protege a pacientes y proveedores de investigaciones de
+    otros estados. Los documentos federales (pasaporte, Seguro Social) son la excepción: sus campos de sexo están
+    congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [hb31-2023, sb20-2019, mvd-10237, hb7-2023, sb13-2023]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [albuquerque]
+key_resources:
+  - id: tgrcnm
+    name: Transgender Resource Center of New Mexico (TGRCNM)
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Albuquerque drop-in center run for trans New Mexicans. Helps with name and gender marker changes on ID documents, runs in-person and remote support groups, keeps a trans-friendly provider directory, and offers housing and food help.
+      es: Centro de acogida en Albuquerque para personas trans de Nuevo México. Ayuda con cambios de nombre y marcador de género en documentos, ofrece grupos de apoyo presenciales y remotos, un directorio de proveedores y apoyo de vivienda y alimentos.
+    url: https://tgrcnm.org/
+    phone: "505-200-9086"
+    address: 1515 4th St NW, Albuquerque, NM 87102
+    cost: free
+    verification: org_website
+    sources: [tgrcnm]
+  - id: nm-legal-aid
+    name: New Mexico Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide free civil legal aid for people with low incomes. Apply by phone (1-833-545-4357, limited intake hours Monday to Thursday) or online. Whether they take a given name change case depends on capacity; ask.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos. Solicita por teléfono (1-833-545-4357, horario limitado de lunes a jueves) o en línea.
+    url: https://newmexicolegalaid.org/
+    phone: "1-833-545-4357"
+    cost: free
+    verification: org_website
+    sources: [nmla]
+  - id: eqnm
+    name: Equality New Mexico
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ advocacy organization with a trans community advocacy program; a good place to follow policy changes.
+      es: Organización estatal de defensa LGBTQ con un programa de defensa de la comunidad trans.
+    url: https://www.eqnm.org/
+    cost: free
+    verification: org_website
+    sources: [eqnm]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: community_reported
+    sources: [translifeline]
+sources:
+  - id: hb31-2023
+    url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=31&year=23
+    title: HB 31 (2023), No publication required for name changes (Laws 2023, ch. 28)
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sb20-2019
+    url: https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=20&year=19
+    title: SB 20 (2019), Sex designation on vital records (Laws 2019, ch. 89)
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: mvd-10237
+    url: https://realfile.tax.newmexico.gov/mvd10237.pdf
+    title: MVD-10237, Request for Sex Designation Change
+    publisher: New Mexico Taxation and Revenue Department, Motor Vehicle Division
+    kind: form
+    accessed: "2026-09-24"
+  - id: hb7-2023
+    url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=7&year=23
+    title: HB 7 (2023), Reproductive and Gender-Affirming Health Care Freedom Act (Laws 2023, ch. 11)
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sb13-2023
+    url: https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=13&year=23
+    title: SB 13 (2023), Reproductive and Gender-Affirming Health Care Protection Act (Laws 2023, ch. 167)
+    publisher: New Mexico Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: tgrcnm
+    url: https://tgrcnm.org/
+    title: Transgender Resource Center of New Mexico
+    kind: org
+    accessed: "2026-09-24"
+    quote: We'll help you with name and gender marker changes on ID documents
+  - id: nmla
+    url: https://newmexicolegalaid.org/
+    title: New Mexico Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: eqnm
+    url: https://www.eqnm.org/
+    title: Equality New Mexico
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
