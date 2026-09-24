@@ -1,0 +1,229 @@
+guide_type: birth_certificate
+jurisdiction: NH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes RSA 5-C:10, 5-C:87, 5-C:88, 5-C:89 read directly on gc.nh.gov 2026-09-24; RSA 5-C:87 has not been amended
+    since 2005, so there is no self-attestation route (the 2019 law sometimes remembered as a birth certificate bill,
+    2019 ch. 205, changed driver's licenses and IDs). sos.nh.gov (Vital Records) returned HTTP 403 and had no Wayback
+    copy, so the application form (A4TE calls it "VSCr, Application for Correcting or Completing a Certificate of
+    Birth") and its URL are unverified; the URL given is the SOS page A4TE links. UNVERIFIED: (1) what court and what
+    kind of petition judges accept for a "sex change" order, and what evidence they require (MAP classes New Hampshire
+    as "unclear process and/or unclear medical requirements left to the discretion of individual judges"); (2) whether
+    the new record issued under 5-C:87 V carries any notation; A4TE says it should not; (3) processing time; (4) whether
+    notarization is required (A4TE says yes). X is not available on New Hampshire birth certificates (MAP).
+status: restricted
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in New Hampshire, you can get a new birth certificate with a changed sex (M or F only) but only
+    with a certified court order. What judges require for that order is not set by law and varies. Name changes are
+    added with a certified name change order. The clerk charges $10 to amend plus $15 for the first copy.
+  es: >-
+    Si naciste en Nuevo Hampshire, puedes obtener una nueva acta de nacimiento con el sexo cambiado (solo M o F), pero
+    solo con una orden judicial certificada. Lo que los jueces exigen para esa orden no está definido por la ley y
+    varía. Los cambios de nombre se agregan con una orden certificada de cambio de nombre. El secretario cobra $10 por
+    la enmienda más $15 por la primera copia.
+summary:
+  en: |
+    New Hampshire birth records are amended by the **clerk of the town or city where you were born**, not by a central state office (RSA 5-C:87, 5-C:88).
+
+    - **Sex marker**: RSA 5-C:87, V says that "upon receipt of a certified copy of a court order advising that such individual ... has had a sex change, a new birth record shall be prepared." The law does not define what the court must find, and no statewide court form exists for this order. In practice people ask the Circuit Court, Probate Division, for an order directing the clerk of their birth town to change the sex on the birth record, often together with a name change. Only M and F are available.
+    - **Name**: a certified court order changing your name is required (RSA 5-C:89). The clerk replaces the name, adds a marginal note "legal change of name per court order," and lists the old name as "A.K.A."
+
+    Because the court-order step is left to judges, talk to GLAD Law's Transgender ID Project or 603 Legal Aid before filing.
+  es: |
+    Las actas de nacimiento de Nuevo Hampshire las enmienda el **secretario del pueblo o ciudad donde naciste**, no una oficina estatal central (RSA 5-C:87, 5-C:88).
+
+    - **Marcador de sexo**: RSA 5-C:87, V dice que al recibir una copia certificada de una orden judicial que indique que la persona "ha tenido un cambio de sexo", se preparará un nuevo registro de nacimiento. La ley no define qué debe determinar el tribunal y no hay un formulario estatal para esta orden. En la práctica se pide al Tribunal de Circuito, División de Sucesiones, una orden que indique al secretario cambiar el sexo, a menudo junto con el cambio de nombre. Solo hay M y F.
+    - **Nombre**: se requiere una orden judicial certificada de cambio de nombre (RSA 5-C:89). El secretario reemplaza el nombre, agrega una nota "cambio legal de nombre por orden judicial" y anota el nombre anterior como "A.K.A."
+
+    Como el paso judicial queda a criterio de los jueces, consulta al Transgender ID Project de GLAD Law o a 603 Legal Aid antes de presentar.
+eligibility:
+  residency:
+    en: You must have been born in New Hampshire. You can live anywhere. If you were born in another state, follow that state's rules.
+    es: Debes haber nacido en Nuevo Hampshire. Puedes vivir en cualquier lugar. Si naciste en otro estado, sigue las reglas de ese estado.
+  age:
+    en: Adults 18 and older apply themselves; for a minor, a parent, guardian, or legal representative applies (RSA 5-C:87, III).
+    es: Los adultos de 18 años o más solicitan por sí mismos; para un menor, solicita un padre, madre, tutor o representante legal.
+  sources: [rsa-5c-87, a4te-nh]
+forms:
+  - id: VSCr
+    name:
+      en: Application for Correcting or Completing a Certificate of Birth (from your birth town or city clerk)
+      es: Solicitud para corregir o completar un certificado de nacimiento (del secretario municipal de tu lugar de nacimiento)
+    url: https://www.sos.nh.gov/vital-records-0/purchasing-correcting-vital-records
+    required: always
+    how_to_fill:
+      en: |
+        - Ask the clerk of the town or city where you were born for this application; some clerks mail it or post it online.
+        - List the item to change (sex, name, or both) exactly as the court order states it.
+        - Sign in front of a notary.
+      es: |
+        - Pide esta solicitud al secretario del pueblo o ciudad donde naciste.
+        - Indica lo que cambia (sexo, nombre o ambos) exactamente como lo dice la orden judicial.
+        - Firma ante un notario.
+    sources: [a4te-nh, sos-vr]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified court order
+      es: Obtén una orden judicial certificada
+    body:
+      en: |
+        - **For the sex marker**: ask the Circuit Court, Probate Division, for an order that instructs the clerk of your birth town or city to change the sex on your birth record to male or female. There is no official form; many people add the request to their name change petition or file a separate petition. Legal aid can help you word it. What evidence a judge wants (for example a provider letter) varies.
+        - **For the name only**: your certified name change order is enough.
+      es: |
+        - **Para el marcador de sexo**: pide al Tribunal de Circuito, División de Sucesiones, una orden que indique al secretario de tu lugar de nacimiento cambiar el sexo en tu registro a masculino o femenino. No hay formulario oficial; mucha gente agrega la solicitud a su petición de cambio de nombre o presenta una petición aparte. La evidencia que pide el juez varía.
+        - **Solo para el nombre**: basta tu orden certificada de cambio de nombre.
+    sources: [rsa-5c-87, rsa-5c-89, a4te-nh, map-id]
+  - id: contact-clerk
+    title:
+      en: Contact the clerk of your birth town or city
+      es: Comunícate con el secretario de tu lugar de nacimiento
+    body:
+      en: Ask for the amendment application, the mailing address, and which payment methods they accept. The Secretary of State publishes a directory of town and city clerks.
+      es: Pide la solicitud de enmienda, la dirección postal y las formas de pago que aceptan. La Secretaría de Estado publica un directorio de secretarios municipales.
+    sources: [a4te-nh, clerk-directory]
+  - id: submit
+    title:
+      en: Submit the application, order, ID, and fees
+      es: Envía la solicitud, la orden, la identificación y las tarifas
+    body:
+      en: |
+        Send or bring: the notarized application, the certified court order(s), a photocopy of your photo ID, the $10 amendment fee, and $15 for the first certified copy ($10 for each additional copy ordered at the same time).
+      es: |
+        Envía o lleva: la solicitud notariada, la(s) orden(es) judicial(es) certificada(s), copia de tu identificación con foto, la tarifa de enmienda de $10 y $15 por la primera copia certificada ($10 por cada copia adicional pedida al mismo tiempo).
+    forms: [VSCr]
+    fees: [amendment, first-copy, additional-copy]
+    sources: [rsa-5c-10, a4te-nh]
+  - id: receive
+    title:
+      en: Receive your new or amended certificate
+      es: Recibe tu acta nueva o enmendada
+    body:
+      en: For a sex change the clerk prepares a new birth record. For a name-only change the record is amended with a note and your former name. The clerk forwards the change to the state Division of Vital Records.
+      es: Para un cambio de sexo el secretario prepara un nuevo registro. Para un cambio solo de nombre, el registro se enmienda con una nota y tu nombre anterior. El secretario envía el cambio a la División de Registros Vitales.
+    sources: [rsa-5c-87, rsa-5c-88]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee (paid to the town or city clerk)
+      es: Tarifa de enmienda (al secretario municipal)
+    amount: 10
+    sources: [rsa-5c-10]
+  - id: first-copy
+    label:
+      en: First certified copy
+      es: Primera copia certificada
+    amount: 15
+    sources: [rsa-5c-10]
+  - id: additional-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 10
+    sources: [rsa-5c-10]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: In person or by mail through the clerk of the town or city of birth; procedures vary by clerk.
+    es: En persona o por correo con el secretario del lugar de nacimiento; los procedimientos varían.
+  sources: [rsa-5c-87, a4te-nh]
+after:
+  en: |
+    Use your updated birth certificate for other records if needed. The US passport currently cannot show a changed sex marker. If you already have an X on your New Hampshire license, it can stay X even though the birth certificate shows M or F.
+  es: |
+    Usa tu acta actualizada para otros registros si hace falta. El pasaporte de EE. UU. actualmente no puede mostrar un marcador de sexo cambiado. Si ya tienes X en tu licencia de Nuevo Hampshire, puede seguir en X aunque el acta muestre M o F.
+tips:
+  - en: Ask the court for a certified copy of the order worded for the clerk (for example, "the clerk of the City of ___ shall amend the sex on the birth record of ___ to female"). A4TE recommends this wording.
+    es: Pide al tribunal una copia certificada de la orden redactada para el secretario (por ejemplo, "el secretario de la ciudad de ___ enmendará el sexo en el registro de nacimiento de ___ a femenino").
+statutes:
+  - cite: N.H. Rev. Stat. Ann. § 5-C:87
+    title:
+      en: Amendments to birth records; new record upon court order of sex change
+      es: Enmiendas a registros de nacimiento; nuevo registro con orden judicial de cambio de sexo
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-87.htm
+  - cite: N.H. Rev. Stat. Ann. § 5-C:88
+    title:
+      en: Town or city clerk procedures to amend birth records
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-88.htm
+  - cite: N.H. Rev. Stat. Ann. § 5-C:89
+    title:
+      en: Documentary evidence required; name changes need a certified court order
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-89.htm
+  - cite: N.H. Rev. Stat. Ann. § 5-C:10
+    title:
+      en: Fees for copies and amendments
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-10.htm
+related_links:
+  - title: Advocates for Trans Equality, New Hampshire identity documents
+    url: https://transequality.org/documents/new-hampshire-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+  - title: GLAD Law, Transgender ID Project
+    url: https://www.gladlaw.org/id/
+sources:
+  - id: rsa-5c-87
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-87.htm
+    title: RSA 5-C:87, Initiating amendments and corrections to birth records
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of a court order advising that such individual born in the state of New Hampshire has had a sex change, a new birth record shall be prepared to reflect such change.
+  - id: rsa-5c-88
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-88.htm
+    title: RSA 5-C:88, Town or city clerk procedures to amend birth records
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: All amendments shall be made to the record by the clerk of the city or town where the birth occurred.
+  - id: rsa-5c-89
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-89.htm
+    title: RSA 5-C:89, Documentary evidence required to amend birth record
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: name changes involving the name of the registrant ... shall require a certified copy of a court order
+  - id: rsa-5c-10
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-10.htm
+    title: RSA 5-C:10, Fees for copies, verifications and amendments to vital records
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the sum of $15 for making a search, which sum shall include payment for the issuance of such copy ... and $10 for each subsequent copy ... The town clerk shall receive for amending or correcting any record the fee of $10
+  - id: a4te-nh
+    url: https://transequality.org/documents/new-hampshire-identity-documents
+    title: New Hampshire Identity Documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: A certified copy of a court order of a "sex change" and a notarized application are required for this amendment.
+  - id: sos-vr
+    url: https://www.sos.nh.gov/vital-records-0/purchasing-correcting-vital-records
+    title: Purchasing and correcting vital records (could not be loaded; HTTP 403)
+    publisher: New Hampshire Secretary of State, Division of Vital Records Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: clerk-directory
+    url: https://app.sos.nh.gov/clerkinformation
+    title: Town and city clerk information
+    publisher: New Hampshire Secretary of State
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-map/identity-document-laws-and-policies
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: State has unclear process and/or unclear medical requirements left to the discretion of individual judges

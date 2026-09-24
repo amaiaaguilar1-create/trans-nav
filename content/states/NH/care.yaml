@@ -1,0 +1,307 @@
+jurisdiction: NH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minors' law read directly on gc.nh.gov 2026-09-24: RSA 332-N (HB 377, 2025 ch. 275, effective January 1, 2026),
+    RSA 332-M as amended by 2025 ch. 287 (HB 712, effective January 1, 2026), and RSA 329:53 (2025 ch. 287:1, effective
+    September 30, 2025). GLAD Law's statement confirms Gov. Ayotte signed HB 377 on August 1, 2025. No court challenge
+    to HB 377 or HB 712 was found on the ACLU-NH LGBTQ page or GLAD Law's site; reviewer should confirm there is no
+    pending case. dhhs.nh.gov, nheasy.nh.gov and insurance.nh.gov returned HTTP 403; Medicaid coverage ("policy
+    explicitly includes coverage") and the private-insurance exclusion ban are taken from MAP, not from a primary NH
+    source. Reviewer: find the NH Medicaid clinical policy and the NH Insurance Department bulletin on gender identity
+    and confirm neither changed in 2025-2026 (including whether the 2025 budget, HB 2, touched Medicaid coverage).
+    Amoskeag Health's website does not describe a gender-affirming program; it is listed as a sliding-scale FQHC only.
+    QueerMed service to NH not confirmed and omitted. Planned Parenthood of Northern New England minimum age for GAHT
+    not confirmed; under RSA 332-N it cannot start hormones for new patients under 18.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults in New Hampshire, and NH Medicaid and state-regulated private insurance
+    cover it. Since January 1, 2026, state law bars providers from starting puberty blockers or hormones for anyone
+    under 18 and bars gender surgery for minors; young people who began treatment before 2026 may continue. There is no
+    shield law.
+  es: >-
+    La atención de afirmación de género es legal para adultos en Nuevo Hampshire, y Medicaid de NH y los seguros
+    privados regulados por el estado la cubren. Desde el 1 de enero de 2026, la ley prohíbe a los proveedores iniciar
+    bloqueadores de pubertad u hormonas para menores de 18 años y prohíbe la cirugía de género en menores; quienes
+    empezaron el tratamiento antes de 2026 pueden continuar. No hay ley escudo.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction on care for adults 18 and older. Equality Health Center in Concord and Planned Parenthood of Northern New England (Derry, Exeter, Keene, Manchester) offer gender-affirming hormone therapy, and telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **NH Medicaid** (adults up to about 138% of the federal poverty level qualify through Granite Advantage). It covers hormones and related care.
+      2. Go to a **community health center** (FQHC) such as Amoskeag Health in Manchester; they charge on a sliding scale. Find one at findahealthcenter.hrsa.gov.
+      3. **Equality Health Center** and **Planned Parenthood** offer financial assistance or sliding fees for uninsured patients.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for a year or more (applications open once a year).
+    es: |
+      No hay restricciones estatales para adultos de 18 años o más. Equality Health Center en Concord y Planned Parenthood of Northern New England (Derry, Exeter, Keene, Manchester) ofrecen terapia hormonal de afirmación de género, y la telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medicaid de NH** (los adultos hasta aproximadamente el 138% del nivel federal de pobreza califican a través de Granite Advantage). Cubre hormonas y atención relacionada.
+      2. Acude a un **centro de salud comunitario** como Amoskeag Health en Manchester; cobran en escala móvil.
+      3. **Equality Health Center** y **Planned Parenthood** ofrecen ayuda financiera o tarifas reducidas para personas sin seguro.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud.
+  sources: [ehc, ppnne-services, hrsa, map-medicaid]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Hormones and puberty blockers**: RSA 332-N:2 (HB 377), effective January 1, 2026, bars any person from giving a minor under 18 puberty blockers, cross-sex hormones, or other medical procedures to affirm a gender that differs from the minor's sex at birth. Exceptions: minors with a medically verifiable disorder of sex development, and **treatment that began before January 1, 2026**, which may continue. Violations lead to discipline by the Board of Medicine (no criminal penalty), and the minor may sue for damages until two years after turning 18; the attorney general may also sue.
+
+      **Surgery**: RSA 332-M (2024, expanded by HB 712 effective January 1, 2026) bars genital surgery, chest surgery, facial surgery, and removal of reproductive organs for gender purposes on minors. RSA 329:53 separately bars "transgender chest surgery" under 18.
+
+      Counseling, social support, and non-medical care are not banned. Dartmouth Health says established minor patients may continue hormones already prescribed, with parental approval. New Hampshire has no shield law; families seeking to start care may look to neighboring states such as Maine, Vermont, and Massachusetts.
+    es: |
+      **Hormonas y bloqueadores**: RSA 332-N:2 (HB 377), vigente desde el 1 de enero de 2026, prohíbe dar a menores de 18 años bloqueadores de pubertad, hormonas u otros procedimientos médicos para afirmar un género distinto al sexo al nacer. Excepciones: menores con un trastorno del desarrollo sexual verificable y **tratamientos iniciados antes del 1 de enero de 2026**, que pueden continuar. Las infracciones conllevan sanción de la Junta de Medicina (no penal) y el menor puede demandar.
+
+      **Cirugía**: RSA 332-M (2024, ampliada por HB 712 desde el 1 de enero de 2026) prohíbe cirugía genital, de pecho, facial y extirpación de órganos reproductivos por motivos de género en menores. RSA 329:53 prohíbe la cirugía de pecho trans en menores de 18.
+
+      La consejería y el apoyo social no están prohibidos. Dartmouth Health indica que los pacientes menores ya establecidos pueden continuar las hormonas recetadas con aprobación de sus padres. Nuevo Hampshire no tiene ley escudo; las familias que buscan iniciar atención pueden considerar estados vecinos como Maine, Vermont y Massachusetts.
+  sources: [rsa-332-n-2, rsa-332-n-3, rsa-332-m-3, rsa-329-53, glad-hb377, dartmouth-hb377]
+medicaid:
+  program_name: NH Medicaid (including Granite Advantage)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      New Hampshire's Medicaid policy explicitly includes transgender-related care, according to the Movement Advancement Project. Adults with income up to about 138% of the federal poverty level qualify through the Granite Advantage expansion program. For minors, Medicaid cannot pay for care that state law now prohibits.
+
+      **Apply** online at NH EASY (nheasy.nh.gov), by phone through DHHS, or at a DHHS district office. If you are denied coverage for care, New Hampshire Legal Assistance can help with appeals.
+    es: |
+      La política de Medicaid de Nuevo Hampshire incluye explícitamente la atención trans, según el Movement Advancement Project. Los adultos con ingresos hasta aproximadamente el 138% del nivel federal de pobreza califican a través del programa de expansión Granite Advantage.
+
+      **Solicita** en línea en NH EASY (nheasy.nh.gov), por teléfono con DHHS o en una oficina de distrito. Si te niegan cobertura, New Hampshire Legal Assistance puede ayudar con apelaciones.
+  how_to_apply_url: https://nheasy.nh.gov/
+  sources: [map-medicaid, nheasy, nhla]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      New Hampshire prohibits state-regulated health insurers from excluding medically necessary care for transgender people and bans insurance discrimination based on gender identity. If your plan denies care, appeal with the plan first, then contact the New Hampshire Insurance Department's Consumer Services. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates.
+    es: |
+      Nuevo Hampshire prohíbe a las aseguradoras reguladas por el estado excluir atención médicamente necesaria para personas trans y prohíbe la discriminación por identidad de género en seguros. Si tu plan niega la atención, apela primero con el plan y luego contacta a Servicios al Consumidor del Departamento de Seguros de Nuevo Hampshire.
+  complaint_url: https://www.insurance.nh.gov/how-can-we-help-formal-insurance-complaints
+  sources: [map-insurance, nhid-complaints]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: equality-health-center
+    name: Equality Health Center (Concord)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Independent nonprofit clinic offering gender-affirming hormone therapy, PrEP, STI testing, and behavioral health, with telehealth. Accepts NH Medicaid and most major insurers; financial assistance for uninsured patients who qualify. 603-225-2739.
+      es: Clínica independiente sin fines de lucro que ofrece terapia hormonal de afirmación de género, PrEP, pruebas de ITS y salud conductual, con telesalud. Acepta Medicaid de NH y la mayoría de los seguros; ayuda financiera para personas sin seguro que califiquen.
+    url: https://www.equalityhc.org/
+    phone: "603-225-2739"
+    address: 38 S. Main Street, Concord, NH
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ehc]
+  - id: ppnne
+    org: planned-parenthood
+    name: Planned Parenthood of Northern New England (Derry, Exeter, Keene, Manchester)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming hormone therapy, PrEP and PEP, and STI testing among its services; in-person and telehealth visits. Adults 18+ for starting hormones in New Hampshire.
+      es: Ofrece terapia hormonal de afirmación de género, PrEP y PEP y pruebas de ITS; visitas en persona y por telesalud. Adultos de 18 años o más para iniciar hormonas en Nuevo Hampshire.
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england/for-patients/health-services
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [ppnne-services]
+  - id: dartmouth-health
+    name: Dartmouth Health (Lebanon), transgender care programs
+    type: primary_care
+    pillars: [hrt, mental_health]
+    description:
+      en: New Hampshire's academic health system. Runs a Pediatric and Adolescent Transgender Program that continues care allowed under state law; ask about adult gender-affirming services.
+      es: El sistema de salud académico de Nuevo Hampshire. Tiene un Programa Transgénero Pediátrico y Adolescente que continúa la atención permitida por la ley estatal; pregunta por servicios para adultos.
+    url: https://www.dartmouth-health.org/
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [dartmouth-hb377]
+  - id: amoskeag-health
+    name: Amoskeag Health (Manchester FQHC)
+    type: primary_care
+    pillars: [hrt, mental_health]
+    description:
+      en: Federally qualified health center with several Manchester sites offering primary and behavioral health care on a sliding scale. Ask whether a primary care provider can manage hormone therapy.
+      es: Centro de salud federalmente calificado con varias sedes en Manchester que ofrece atención primaria y conductual en escala móvil. Pregunta si un proveedor de atención primaria puede manejar la terapia hormonal.
+    url: https://www.amoskeaghealth.org/
+    phone: "603-626-9500"
+    address: 145 Hollis Street, Manchester, NH 03101
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [amoskeag]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for telehealth hormone therapy for adults who cannot afford it; applications open once a year.
+      es: Fondo nacional que paga terapia hormonal por telesalud para adultos que no pueden pagarla; las solicitudes abren una vez al año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for sliding-scale community health centers near you.
+      es: Buscador federal de centros de salud comunitarios con escala móvil cerca de ti.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+  - id: nh-outright
+    name: New Hampshire Outright
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ+ youth organization (formerly Seacoast Outright) with youth and young adult groups and caregiver groups.
+      es: Organización estatal para jóvenes LGBTQ+ (antes Seacoast Outright) con grupos para jóvenes y adultos jóvenes y grupos para cuidadores.
+    url: https://www.nhoutright.org/
+    cost: free
+    verification: org_website
+    sources: [nh-outright]
+statutes:
+  - cite: N.H. Rev. Stat. Ann. ch. 332-N (HB 377, 2025 N.H. Laws ch. 275)
+    title:
+      en: Bars puberty blockers and cross-sex hormones for minors; care begun before Jan. 1, 2026 may continue
+      es: Prohíbe bloqueadores y hormonas para menores; la atención iniciada antes del 1 de enero de 2026 puede continuar
+    url: https://gc.nh.gov/rsa/html/XXX/332-N/332-N-2.htm
+  - cite: N.H. Rev. Stat. Ann. ch. 332-M (as amended by HB 712, 2025 N.H. Laws ch. 287)
+    title:
+      en: Bars gender surgery on minors, effective Jan. 1, 2026 as amended
+      es: Prohíbe la cirugía de género en menores
+    url: https://gc.nh.gov/rsa/html/XXX/332-M/332-M-3.htm
+  - cite: N.H. Rev. Stat. Ann. § 329:53
+    title:
+      en: Bars transgender chest surgery under 18
+      es: Prohíbe la cirugía de pecho trans en menores de 18
+    url: https://gc.nh.gov/rsa/html/XXX/329/329-53.htm
+sources:
+  - id: rsa-332-n-2
+    url: https://gc.nh.gov/rsa/html/XXX/332-N/332-N-2.htm
+    title: RSA 332-N:2, Prohibitions for health care providers
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Nothing in this chapter shall prohibit a health care provider from continuing the direction or administration of medication or treatment that began prior to January 1, 2026
+  - id: rsa-332-n-3
+    url: https://gc.nh.gov/rsa/html/XXX/332-N/332-N-3.htm
+    title: RSA 332-N:3, Private right of action
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+  - id: rsa-332-m-3
+    url: https://gc.nh.gov/rsa/html/XXX/332-M/332-M-3.htm
+    title: RSA 332-M:3, Prohibition of gender surgery on minors
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A physician shall not perform gender surgery on minors in the state of New Hampshire.
+  - id: rsa-329-53
+    url: https://gc.nh.gov/rsa/html/XXX/329/329-53.htm
+    title: RSA 329:53, Prohibitions and enforcement (breast surgeries for minors)
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: no physician shall perform transgender chest surgery on a person under 18 years of age
+  - id: glad-hb377
+    url: https://www.gladlaw.org/glad-law-condemns-governor-banning-access-to-health-care-for-transgender-adolescents/
+    title: GLAD Law Condemns NH Ban on Access to Health Care for Transgender Adolescents (August 1, 2025)
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: Today, Governor Ayotte signed HB 377
+  - id: dartmouth-hb377
+    url: https://www.dartmouth-health.org/about/news/article/statement-passage-house-bill-377-banning-gender-affirming-hormone-therapy-minors-new-hampshire
+    title: Statement on passage of House Bill 377 (August 5, 2025)
+    publisher: Dartmouth Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Under this new law in New Hampshire, established minor patients may continue hormone therapies already prescribed by their clinicians with the approval of their parents.
+  - id: map-medicaid
+    url: https://www.mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care
+    title: Medicaid coverage of transgender-related health care
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: New Hampshire Medicaid policy explicitly includes coverage
+  - id: map-insurance
+    url: https://www.mapresearch.org/equality-map/bans-on-insurance-exclusions-of-transgender-related-care
+    title: Bans on insurance exclusions of transgender-related care
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Health insurers are prohibited from excluding coverage of medically necessary care for transgender people
+  - id: nhid-complaints
+    url: https://www.insurance.nh.gov/how-can-we-help-formal-insurance-complaints
+    title: How can we help with formal insurance complaints? (read via Wayback Machine)
+    publisher: New Hampshire Insurance Department
+    kind: official
+    accessed: "2026-09-24"
+  - id: nheasy
+    url: https://nheasy.nh.gov/
+    title: NH EASY (could not be loaded; HTTP 403)
+    publisher: New Hampshire Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: nhla
+    url: https://www.nhla.org/
+    title: New Hampshire Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: ehc
+    url: https://www.equalityhc.org/
+    title: Equality Health Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: We accept most major insurance companies ... NH Medicaid ... We also offer financial assistance for uninsured individuals who qualify.
+  - id: ppnne-services
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-new-england/for-patients/health-services
+    title: Health services
+    publisher: Planned Parenthood of Northern New England
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender affirming hormone therapy
+  - id: amoskeag
+    url: https://www.amoskeaghealth.org/locations
+    title: Locations
+    publisher: Amoskeag Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: nh-outright
+    url: https://www.nhoutright.org/
+    title: New Hampshire Outright
+    kind: org
+    accessed: "2026-09-24"

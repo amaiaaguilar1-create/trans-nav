@@ -1,0 +1,203 @@
+guide_type: drivers_license
+jurisdiction: NH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    dmv.nh.gov returned HTTP 403 to automated requests on 2026-09-24; the DMV "Update Personal Information" page was
+    read from a Wayback Machine copy dated 2026-09-06. It gives a $10 fee for a gender change; A4TE (December 2025) says
+    $3. The DMV figure is used. The DMV page does not itself mention X or self-attestation; the X option is in statute
+    (RSA 263:5 and RSA 260:21, added by 2019 ch. 205, effective January 1, 2020), and self-attestation is per A4TE, MAP
+    and ACLU-NH. Reviewer: confirm the DSMV 450 form URL and revision, whether the non-driver ID fee for a gender change
+    is also $10, and that A4TE's statement that SSA must be updated first applies to gender-only changes. RSA 260:21 was
+    amended in 2026 (2026 ch. 201, effective August 18, 2026); the current text still lists M, F, and X. No 2025-2026
+    law restricting marker changes was found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    New Hampshire lets you choose M, F, or X on your driver's license or non-driver ID by marking it on the
+    application. No doctor's letter or court order is needed. Book a "gender change" appointment at a DMV office and
+    pay $10.
+  es: >-
+    Nuevo Hampshire te permite elegir M, F o X en tu licencia de conducir o identificación marcándolo en la solicitud.
+    No se necesita carta médica ni orden judicial. Pide una cita de "cambio de género" en una oficina del DMV y paga $10.
+summary:
+  en: |
+    Since January 1, 2020, New Hampshire law has listed three gender options on driver's licenses and non-driver ID cards: "M" for male, "F" for female, and "X" for other (RSA 263:5 and RSA 260:21). You self-identify on the application; no medical or court documentation is required.
+
+    Changing your **name** on the card is a separate request that requires legal proof of the new name, such as a certified copy of your Probate Division name change order. The replacement card for a name change is free. You can do both at the same appointment.
+  es: |
+    Desde el 1 de enero de 2020, la ley de Nuevo Hampshire establece tres opciones de género en licencias y tarjetas de identificación: "M" masculino, "F" femenino y "X" otro (RSA 263:5 y RSA 260:21). Te autoidentificas en la solicitud; no se requiere documentación médica ni judicial.
+
+    Cambiar tu **nombre** en la tarjeta es un trámite separado que requiere prueba legal del nuevo nombre, como una copia certificada de tu orden de cambio de nombre. El reemplazo por cambio de nombre es gratis. Puedes hacer ambos en la misma cita.
+eligibility:
+  residency:
+    en: You must hold or be applying for a New Hampshire driver's license or non-driver ID.
+    es: Debes tener o solicitar una licencia de conducir o identificación de Nuevo Hampshire.
+  sources: [dmv-update, rsa-263-5, rsa-260-21, aclu-nh]
+forms:
+  - id: DSMV 450
+    name:
+      en: Application for Driver License
+      es: Solicitud de licencia de conducir
+    url: https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/dsmv450.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Check **Replacement**, and under Reason write "gender change."
+        - In the gender field, check M, F, or X. No other documentation is needed for the marker.
+        - Commercial drivers use DSMV 312 (Application for Commercial Driver License) instead.
+      es: |
+        - Marca **Reemplazo** y en Motivo escribe "cambio de género".
+        - En el campo de género, marca M, F o X. No se necesita otra documentación.
+        - Los conductores comerciales usan DSMV 312.
+    sources: [dmv-update]
+  - id: DSMV 30
+    name:
+      en: Record Change Request (name or address change)
+      es: Solicitud de cambio de registro (nombre o dirección)
+    url: https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/dsmv30.pdf
+    required: conditional
+    condition:
+      en: Only if you are also changing your name.
+      es: Solo si también cambias tu nombre.
+    sources: [dmv-update]
+steps:
+  - id: ssa-first
+    title:
+      en: Update Social Security first if your name is changing
+      es: Actualiza primero el Seguro Social si cambia tu nombre
+    body:
+      en: The DMV checks your name against Social Security records, so update your name with SSA before your DMV visit. The sex field at SSA currently cannot be changed, but that does not stop the DMV from issuing M, F, or X.
+      es: El DMV verifica tu nombre con los registros del Seguro Social, así que actualiza tu nombre con la SSA antes de ir al DMV. El campo de sexo en la SSA actualmente no se puede cambiar, pero eso no impide que el DMV emita M, F o X.
+    applies_to: [name_change]
+    optional: true
+    sources: [a4te-nh]
+  - id: appointment
+    title:
+      en: Book a DMV appointment
+      es: Haz una cita en el DMV
+    body:
+      en: Request an appointment for a **Gender Change** (and, if needed, a Name Change) through the DMV's online appointment system. Name changes are not accepted by mail.
+      es: Pide una cita para **Cambio de Género** (y, si hace falta, Cambio de Nombre) en el sistema de citas en línea del DMV. Los cambios de nombre no se aceptan por correo.
+    sources: [dmv-update]
+  - id: bring
+    title:
+      en: Bring your documents to the appointment
+      es: Lleva tus documentos a la cita
+    body:
+      en: |
+        - Completed DSMV 450 (Replacement, reason "gender change," with your chosen marker).
+        - Your current, valid NH driver's license or non-driver ID.
+        - $10 fee.
+        - For a name change too: DSMV 30 and a certified copy of your name change order.
+        You hand in your old card, get a new photo, and leave with a 60-day temporary paper license.
+      es: |
+        - DSMV 450 completo (Reemplazo, motivo "cambio de género", con tu marcador elegido).
+        - Tu licencia o identificación actual y válida de NH.
+        - Tarifa de $10.
+        - Si también cambias el nombre: DSMV 30 y copia certificada de tu orden de cambio de nombre.
+        Entregas tu tarjeta anterior, te toman una foto nueva y sales con una licencia temporal de papel de 60 días.
+    forms: [DSMV 450, DSMV 30]
+    fees: [gender-change]
+    applies_to: [in_person]
+    sources: [dmv-update]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: The permanent card is mailed to you; the temporary paper license is valid for 60 days.
+      es: La tarjeta permanente llega por correo; la licencia temporal es válida por 60 días.
+    estimated_time:
+      en: up to 60 days
+      es: hasta 60 días
+    sources: [dmv-update]
+fees:
+  - id: gender-change
+    label:
+      en: Replacement license for a gender change
+      es: Reemplazo de licencia por cambio de género
+    amount: 10
+    note:
+      en: A replacement license for a name change alone is issued at no charge. A4TE lists $3 for the gender change; the DMV's own page says $10.
+      es: El reemplazo por cambio de nombre solamente es gratis. A4TE indica $3; la página del DMV dice $10.
+    sources: [dmv-update]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at a DMV office, by appointment.
+    es: En persona en una oficina del DMV, con cita.
+  sources: [dmv-update]
+timeline:
+  en: One appointment, then the card arrives by mail (the temporary license covers up to 60 days).
+  es: Una cita y luego la tarjeta llega por correo (la licencia temporal cubre hasta 60 días).
+after:
+  en: |
+    Your license is the ID most places check first. If you chose X, note that the US passport and Social Security record currently cannot show X or a changed sex marker; your New Hampshire card is still valid ID. New Hampshire birth certificates cannot show X.
+  es: |
+    Tu licencia es la identificación que la mayoría de los lugares revisa primero. Si elegiste X, ten en cuenta que el pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; tu tarjeta de Nuevo Hampshire sigue siendo una identificación válida. Las actas de nacimiento de Nuevo Hampshire no pueden mostrar X.
+tips:
+  - en: You do not need a name change, a court order, or a doctor's letter to change your marker. If staff ask for one, ask for a supervisor and point to RSA 263:5.
+    es: No necesitas cambio de nombre, orden judicial ni carta médica para cambiar tu marcador. Si te la piden, pide hablar con un supervisor y menciona RSA 263:5.
+statutes:
+  - cite: N.H. Rev. Stat. Ann. § 263:5
+    title:
+      en: Driver's license application; gender marked M, F, or X
+      es: Solicitud de licencia; género M, F o X
+    url: https://gc.nh.gov/rsa/html/XXI/263/263-5.htm
+  - cite: N.H. Rev. Stat. Ann. § 260:21
+    title:
+      en: Non-driver identification card; gender shown as M, F, or X
+      es: Tarjeta de identificación; género M, F o X
+    url: https://gc.nh.gov/rsa/html/XXI/260/260-21.htm
+related_links:
+  - title: Advocates for Trans Equality, New Hampshire identity documents
+    url: https://transequality.org/documents/new-hampshire-identity-documents
+    note:
+      en: Last updated December 2025; lists a $3 fee, while the DMV page lists $10.
+      es: Actualizado en diciembre de 2025; indica $3, mientras que el DMV indica $10.
+sources:
+  - id: dmv-update
+    url: https://www.dmv.nh.gov/drivers-licensenon-driver-ids/update-personal-information
+    title: Update Personal Information (read via Wayback Machine copy of 2026-09-06)
+    publisher: New Hampshire Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "On the application, check the box for Replacement, and under Reason, please indicate \"gender change.\" Your current, valid NH Driver License or Non Driver Identification card. Payment of $10.00"
+  - id: rsa-263-5
+    url: https://gc.nh.gov/rsa/html/XXI/263/263-5.htm
+    title: RSA 263:5, Application for driver's license
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: gender indicated by checking either "M" for "male," "F" for female," or "X" for "other"
+  - id: rsa-260-21
+    url: https://gc.nh.gov/rsa/html/XXI/260/260-21.htm
+    title: RSA 260:21, Identification cards
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: gender indicated as "M" for "male," "F" for "female," or "X" for "other"
+  - id: a4te-nh
+    url: https://transequality.org/documents/new-hampshire-identity-documents
+    title: New Hampshire Identity Documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: You can self identify without providing a court order or medical documentation. Your DL/ID may display F, M, or X gender markers.
+  - id: aclu-nh
+    url: https://www.aclu-nh.org/en/issues/lgbtq-rights
+    title: LGBTQ+ rights
+    publisher: ACLU of New Hampshire
+    kind: org
+    accessed: "2026-09-24"
+    quote: in 2020 when the option for a third gender marker (X) became available for state driver's licenses

@@ -1,0 +1,202 @@
+jurisdiction: NH
+slug: manchester
+name: Manchester
+area:
+  en: Manchester and greater Hillsborough County, with statewide and nearby Concord resources
+  es: Manchester y el condado de Hillsborough, con recursos estatales y de Concord cercanos
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    courts.nh.gov blocked automated access (HTTP 403). Name change filing is electronic for all Probate Division
+    locations, so Manchester residents file with the 9th Circuit Court, Probate Division (Hillsborough County) online.
+    Reviewer: confirm the physical Probate Division location that serves Manchester residents (believed to be Nashua)
+    and the current filing fee (A4TE reports $170). Manchester Health Department STD/HIV clinic details ($25 cash, hours,
+    1528 Elm Street) were read on manchesternh.gov 2026-09-24. PPNNE Manchester address and services read on
+    plannedparenthood.org. Amoskeag Health does not describe gender-affirming care on its site.
+intro:
+  en: >-
+    Manchester is New Hampshire's largest city. File a name change online with the Circuit Court, Probate Division, for
+    Hillsborough County. For hormone therapy, Planned Parenthood's Manchester health center and Equality Health Center
+    in Concord (about 20 miles north) are the main informed-consent options; Amoskeag Health offers sliding-scale primary
+    care, and the city health department runs a low-cost STI and HIV testing clinic.
+  es: >-
+    Manchester es la ciudad más grande de Nuevo Hampshire. Presenta el cambio de nombre en línea ante el Tribunal de
+    Circuito, División de Sucesiones, del condado de Hillsborough. Para terapia hormonal, el centro de Planned
+    Parenthood en Manchester y Equality Health Center en Concord (a unas 20 millas al norte) son las principales
+    opciones; Amoskeag Health ofrece atención primaria en escala móvil y el departamento de salud de la ciudad tiene una
+    clínica de pruebas de ITS y VIH de bajo costo.
+court:
+  name: 9th Circuit Court, Probate Division (Hillsborough County)
+  url: https://www.courts.nh.gov/self-help/name-changes
+  self_help_url: https://www.courts.nh.gov/self-help/name-changes
+  notes:
+    en: Name change petitions must be e-filed (TurboCourt for self-represented people). Choose the Hillsborough County Probate Division when you start the case. Courthouse kiosks can help if you have no computer.
+    es: Las peticiones de cambio de nombre se presentan electrónicamente (TurboCourt para personas sin abogado). Elige la División de Sucesiones del condado de Hillsborough al iniciar el caso.
+  sources: [courts-selfhelp]
+resources:
+  - id: ppnne-manchester
+    org: planned-parenthood
+    name: Planned Parenthood, Manchester Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming care, HIV services including PrEP, and STI testing and treatment, in person or by telehealth. Operated by Planned Parenthood of Northern New England.
+      es: Atención de afirmación de género, servicios de VIH incluida la PrEP, y pruebas y tratamiento de ITS, en persona o por telesalud.
+    url: https://www.plannedparenthood.org/health-center/new-hampshire/manchester/03104/manchester-health-center-2740-91770
+    phone: "603-669-7321"
+    address: 24 Pennacook Street, Manchester, NH 03104
+    cost: sliding_scale
+    accepts_medicaid: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-manchester]
+  - id: equality-health-center
+    name: Equality Health Center (Concord)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: About 20 miles from Manchester. Gender-affirming hormone therapy, PrEP, STI testing, behavioral health, and telehealth; accepts NH Medicaid; financial assistance for uninsured patients who qualify.
+      es: A unas 20 millas de Manchester. Terapia hormonal de afirmación de género, PrEP, pruebas de ITS, salud conductual y telesalud; acepta Medicaid de NH; ayuda financiera para personas sin seguro que califiquen.
+    url: https://www.equalityhc.org/
+    phone: "603-225-2739"
+    address: 38 S. Main Street, Concord, NH
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ehc]
+  - id: amoskeag-health
+    name: Amoskeag Health
+    type: primary_care
+    pillars: [hrt, mental_health]
+    description:
+      en: Manchester's federally qualified health center, with sites on Hollis Street, Elm Street (children and teens), Tarrytown Road, and Kimball Street. Sliding-scale primary and behavioral health care; ask whether your provider can manage hormone therapy.
+      es: El centro de salud federalmente calificado de Manchester, con sedes en Hollis Street, Elm Street (niños y adolescentes), Tarrytown Road y Kimball Street. Atención primaria y conductual en escala móvil; pregunta si tu proveedor puede manejar la terapia hormonal.
+    url: https://www.amoskeaghealth.org/locations
+    phone: "603-626-9500"
+    address: 145 Hollis Street, Manchester, NH 03101
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [amoskeag]
+  - id: manchester-std-clinic
+    name: Manchester Health Department, STD/HIV clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: By appointment. A typical visit costs $25 (cash only) and includes screening for HIV, syphilis, chlamydia, and gonorrhea. Wednesdays 2 to 6 pm and some Thursday mornings. Call 603-624-6466.
+      es: Con cita. Una visita típica cuesta $25 (solo efectivo) e incluye pruebas de VIH, sífilis, clamidia y gonorrea. Miércoles de 2 a 6 pm y algunos jueves por la mañana. Llama al 603-624-6466.
+    url: https://www.manchesternh.gov/Departments/Health/Clinics/STDHIV-Programs
+    phone: "603-624-6466"
+    address: 1528 Elm Street, Manchester, NH 03101
+    cost: low_cost
+    accepts_uninsured: true
+    verification: official_source
+    sources: [manchester-std]
+  - id: 603-legal-aid
+    name: 603 Legal Aid
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal help for people with low income statewide, including advice on name changes and ID updates. 603-224-3333.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en todo el estado, incluido asesoramiento sobre cambios de nombre y documentos. 603-224-3333.
+    url: https://www.603legalaid.org/
+    phone: "603-224-3333"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-603]
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help for New England residents updating name and gender on documents; online intake and quick reference guides for New Hampshire.
+      es: Ayuda gratuita para residentes de Nueva Inglaterra que actualizan nombre y género en documentos; admisión en línea y guías rápidas para Nuevo Hampshire.
+    url: https://www.gladlaw.org/id/
+    phone: "617-426-1350"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+  - id: nh-outright
+    name: New Hampshire Outright
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQ+ youth organization with youth, young adult, and caregiver support groups.
+      es: Organización estatal para jóvenes LGBTQ+ con grupos de apoyo para jóvenes, adultos jóvenes y cuidadores.
+    url: https://www.nhoutright.org/
+    cost: free
+    verification: org_website
+    sources: [nh-outright]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: courts-selfhelp
+    url: https://www.courts.nh.gov/self-help/name-changes
+    title: Name Changes (read via Wayback Machine copy of 2026-09-22)
+    publisher: New Hampshire Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+    quote: Electronic Filing is mandatory in name change cases at all probate division locations.
+  - id: pp-manchester
+    url: https://www.plannedparenthood.org/health-center/new-hampshire/manchester/03104/manchester-health-center-2740-91770
+    title: Manchester Health Center
+    publisher: Planned Parenthood of Northern New England
+    kind: org
+    accessed: "2026-09-24"
+  - id: ehc
+    url: https://www.equalityhc.org/
+    title: Equality Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: amoskeag
+    url: https://www.amoskeaghealth.org/locations
+    title: Locations
+    publisher: Amoskeag Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: manchester-std
+    url: https://www.manchesternh.gov/Departments/Health/Clinics/STDHIV-Programs
+    title: STD/HIV Programs
+    publisher: City of Manchester Health Department
+    kind: official
+    accessed: "2026-09-24"
+    quote: A typical clinic visit costs $25 (cash only) and includes screening for HIV, Syphilis, Chlamydia and Gonorrhea.
+  - id: legal-aid-603
+    url: https://www.603legalaid.org/
+    title: 603 Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-id
+    url: https://www.gladlaw.org/id/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: nh-outright
+    url: https://www.nhoutright.org/
+    title: New Hampshire Outright
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

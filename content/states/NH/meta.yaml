@@ -1,0 +1,141 @@
+code: NH
+name:
+  en: New Hampshire
+  es: Nuevo Hampshire
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on statutes read on gc.nh.gov (RSA 263:5 and 260:21 for the X marker; RSA 5-C:87 for
+    birth certificates; RSA 332-M, 332-N and 329:53 for minors' care) and cross-checked against the Movement
+    Advancement Project maps on 2026-09-24. MAP lists no shield law for New Hampshire. Reviewer: confirm no shield
+    law passed in the 2026 session.
+overview:
+  en: >-
+    New Hampshire is mixed. Adults can change their name with a simple court petition (no newspaper publication in
+    practice), and driver's licenses offer M, F, or X by self-attestation. Birth certificate sex changes still require
+    a court order, and the process is left to judges. Since January 1, 2026, state law bans puberty blockers, hormones,
+    and gender surgery for new patients under 18; care for adults is legal, and NH Medicaid and state-regulated
+    insurance cover it. There is no shield law.
+  es: >-
+    Nuevo Hampshire es mixto. Los adultos pueden cambiar su nombre con una petición judicial sencilla (en la práctica
+    sin publicación en periódico) y las licencias de conducir ofrecen M, F o X por declaración propia. El cambio de sexo
+    en el acta de nacimiento todavía requiere una orden judicial y el proceso queda a criterio de los jueces. Desde el
+    1 de enero de 2026, la ley estatal prohíbe bloqueadores de pubertad, hormonas y cirugía de género para pacientes
+    nuevos menores de 18 años; la atención para adultos es legal y Medicaid de NH y los seguros regulados por el estado
+    la cubren. No hay ley escudo.
+climate:
+  id_documents: mixed
+  care: mixed
+  shield_law: false
+  sources: [rsa-263-5, rsa-5c-87, rsa-332-n, map-id, map-health]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [manchester]
+key_resources:
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help for people living in New England, including New Hampshire, updating their legal name and gender on state and federal documents. Self-help quick reference guides plus an online intake form for individual help.
+      es: Ayuda gratuita para personas que viven en Nueva Inglaterra, incluido Nuevo Hampshire, para actualizar su nombre legal y género en documentos estatales y federales. Guías de autoayuda y un formulario de admisión en línea para ayuda individual.
+    url: https://www.gladlaw.org/id/
+    phone: "617-426-1350"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+  - id: 603-legal-aid
+    name: 603 Legal Aid
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide civil legal aid intake for people with low income in New Hampshire. Apply online or call 603-224-3333.
+      es: Admisión estatal de asistencia legal civil para personas de bajos ingresos en Nuevo Hampshire. Solicita en línea o llama al 603-224-3333.
+    url: https://www.603legalaid.org/
+    phone: "603-224-3333"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-603]
+  - id: 603-equality
+    name: 603 Equality
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Statewide LGBTQIA+ advocacy organization that tracks New Hampshire legislation, runs the Trans Youth Emergency Project, and lists community resources.
+      es: Organización estatal de defensa LGBTQIA+ que da seguimiento a la legislación de Nuevo Hampshire, dirige el Trans Youth Emergency Project y publica recursos comunitarios.
+    url: https://603equality.org/
+    cost: free
+    verification: org_website
+    sources: [equality-603]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: rsa-263-5
+    url: https://gc.nh.gov/rsa/html/XXI/263/263-5.htm
+    title: RSA 263:5, Application for driver's license
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: gender indicated by checking either "M" for "male," "F" for female," or "X" for "other"
+  - id: rsa-5c-87
+    url: https://gc.nh.gov/rsa/html/I/5-C/5-C-87.htm
+    title: RSA 5-C:87, Initiating amendments and corrections to birth records
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of a court order advising that such individual born in the state of New Hampshire has had a sex change, a new birth record shall be prepared to reflect such change.
+  - id: rsa-332-n
+    url: https://gc.nh.gov/rsa/html/XXX/332-N/332-N-2.htm
+    title: RSA 332-N:2, Prohibitions for health care providers (HB 377, 2025)
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://www.mapresearch.org/equality-map/identity-document-laws-and-policies
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-health
+    url: https://www.mapresearch.org/equality-map/healthcare-laws-and-policies
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: glad-id
+    url: https://www.gladlaw.org/id/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: Free resources for transgender people living in New England (Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, or Vermont)
+  - id: legal-aid-603
+    url: https://www.603legalaid.org/
+    title: 603 Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: equality-603
+    url: https://603equality.org/
+    title: 603 Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

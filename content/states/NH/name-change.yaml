@@ -1,0 +1,380 @@
+guide_type: name_change
+jurisdiction: NH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    courts.nh.gov returned HTTP 403 to automated requests on 2026-09-24, so the self-help page was read from a Wayback
+    Machine copy dated 2026-09-22 and the petition (NHJB-2175-FPe, revision 03/26/2026) from a Wayback copy dated
+    2026-04-09. Statute RSA 547:3-i read directly on gc.nh.gov. UNVERIFIED against a primary source: (1) the $170
+    filing fee comes only from A4TE's New Hampshire page (last updated December 2025); court fees rose on July 1, 2025
+    under a Supreme Court order that could not be loaded; confirm the current probate name change fee; (2) the fee
+    waiver form number NHJB-3234-DFP and its URL come from A4TE's link; (3) certified copy fee unknown; (4) the minor
+    consent form number is not given; (5) whether a motion to seal is routinely granted is unknown. MAP classes New
+    Hampshire as "unclear publication requirement / court discretion"; A4TE says publication is not required. RSA 547:3-i
+    lets the court proceed with or without notice, so publication is marked conditional.
+status: available
+status_summary:
+  en: >-
+    Adults in New Hampshire can change their name by e-filing a petition with the Circuit Court, Probate Division, in
+    the county where they live. There is no statutory publication requirement, most petitions are granted without a
+    hearing, and the filing fee (about $170) can be reduced or waived if you cannot afford it.
+  es: >-
+    Los adultos en Nuevo Hampshire pueden cambiar su nombre presentando electrónicamente una petición ante el Tribunal
+    de Circuito, División de Sucesiones (Probate), del condado donde viven. La ley no exige publicación, la mayoría de
+    las peticiones se conceden sin audiencia y la tarifa (unos $170) se puede reducir o eximir si no puedes pagarla.
+summary:
+  en: |
+    Under RSA 547:3-i, the Probate Division of the Circuit Court "may grant the petition of any person to change the name of that person," and may proceed with or without notice. You do not have to give a reason tied to gender, submit medical records, or get anyone's consent (for adults).
+
+    **E-filing is mandatory** for name changes: self-represented people file through the court's online system (TurboCourt) at courts.nh.gov. You file the Petition for Change of Name (NHJB-2175-FPe), a Confidential Information Sheet (NHJB-2878-DFPe), and proof of identity showing your current name and address. Most petitions are decided on the papers within about 45 days.
+
+    People who are incarcerated, on probation or parole, registered as sex offenders, or convicted of certain violent felonies must make a "compelling showing" and serve the petition on prosecutors; everyone else follows the standard process.
+  es: |
+    Según RSA 547:3-i, la División de Sucesiones del Tribunal de Circuito "puede conceder la petición de cualquier persona para cambiar su nombre" y puede proceder con o sin notificación. No tienes que dar una razón relacionada con el género, presentar expedientes médicos ni obtener el consentimiento de nadie (si eres adulto).
+
+    **La presentación electrónica es obligatoria** para cambios de nombre: las personas sin abogado presentan a través del sistema en línea del tribunal (TurboCourt) en courts.nh.gov. Presentas la Petición de Cambio de Nombre (NHJB-2175-FPe), una Hoja de Información Confidencial (NHJB-2878-DFPe) y prueba de identidad con tu nombre y dirección actuales. La mayoría de las peticiones se deciden sin audiencia en unos 45 días.
+eligibility:
+  residency:
+    en: File in the Circuit Court, Probate Division, for the New Hampshire county where you live.
+    es: Presenta en el Tribunal de Circuito, División de Sucesiones, del condado de Nuevo Hampshire donde vives.
+  age:
+    en: 18 or older files for themself. For a minor, a parent or guardian files; see the Minors section.
+    es: Las personas de 18 años o más presentan por sí mismas. Para un menor, presenta un padre, madre o tutor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      If you are incarcerated, on probation or parole, required to register as a sex offender or offender against
+      children, or were convicted of a listed violent felony or a crime against a child, you must make a "compelling
+      showing" that the change is necessary and serve the petition on the prosecuting agency (and the Department of
+      Corrections or Department of Safety). Victims may be notified and heard.
+    es: >-
+      Si estás encarcelado, en libertad condicional o bajo palabra, debes registrarte como agresor sexual, o fuiste
+      condenado por ciertos delitos graves violentos o contra menores, debes demostrar de forma convincente que el cambio
+      es necesario y notificar la petición a la fiscalía.
+  sources: [rsa-547-3-i, petition-pdf]
+forms:
+  - id: NHJB-2175-FPe
+    name:
+      en: Petition for Change of Name (adult or minor), e-filing version
+      es: Petición de cambio de nombre (adulto o menor), versión electrónica
+    url: https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2021-05/nhjb-2175-fpe-petitionfornamechange.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Check **Adult** or **Minor** at the top.
+        - Item 3: your current legal name. Your date of birth goes on the Confidential Information Sheet, not the petition.
+        - Item 4: your new full name, and the reason. A short reason such as "to reflect my gender identity" or "this is the name I use" is enough; you do not need medical details.
+        - Item 7: check the box that says the criminal-history paragraphs do not apply, unless one does.
+        - Item 8: you must upload proof of identity showing your current name and address.
+        - Sign electronically (/s/) under the verification.
+      es: |
+        - Marca **Adulto** o **Menor** arriba.
+        - Punto 3: tu nombre legal actual. Tu fecha de nacimiento va en la Hoja de Información Confidencial, no en la petición.
+        - Punto 4: tu nuevo nombre completo y la razón. Una razón breve como "para reflejar mi identidad de género" o "es el nombre que uso" es suficiente.
+        - Punto 7: marca la casilla que dice que los párrafos de antecedentes penales no aplican, salvo que alguno aplique.
+        - Punto 8: debes subir prueba de identidad con tu nombre y dirección actuales.
+    sources: [petition-pdf]
+  - id: NHJB-2878-DFPe
+    name:
+      en: Confidential Information Sheet
+      es: Hoja de información confidencial
+    url: https://www.courts.nh.gov/self-help/name-changes
+    required: always
+    condition:
+      en: Holds your date of birth and any confidential case information so it stays out of the public petition. Get it through the e-filing system or the court's name change page.
+      es: Contiene tu fecha de nacimiento e información confidencial para que no aparezca en la petición pública.
+    sources: [petition-pdf, courts-selfhelp]
+  - id: NHJB-3234-DFP
+    name:
+      en: Motion to Reduce or Eliminate Filing Fees and/or Costs
+      es: Moción para reducir o eliminar tarifas y costos
+    url: https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2025-02/nhjb-3234-dfp-b.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee.
+      es: Solo si no puedes pagar la tarifa.
+    sources: [a4te-nh, courts-fee-help]
+steps:
+  - id: gather
+    title:
+      en: Gather what you need
+      es: Reúne lo que necesitas
+    body:
+      en: |
+        - A photo ID (or other proof of identity) showing your current name and residential address, scanned or photographed for upload.
+        - An email address for the e-filing account.
+        - A way to pay the filing fee online, or the fee-waiver motion if you cannot pay.
+      es: |
+        - Una identificación con foto (u otra prueba de identidad) con tu nombre actual y dirección, escaneada o fotografiada.
+        - Un correo electrónico para la cuenta de presentación electrónica.
+        - Una forma de pagar en línea, o la moción de exención si no puedes pagar.
+    sources: [petition-pdf, courts-selfhelp]
+  - id: efile
+    title:
+      en: File the petition online with the Probate Division
+      es: Presenta la petición en línea ante la División de Sucesiones
+    body:
+      en: |
+        Go to courts.nh.gov, choose electronic filing for self-represented parties, and start a new name change case in the Circuit Court, Probate Division, for your county. The system walks you through the Petition for Change of Name and the Confidential Information Sheet. Upload your ID and pay the fee. If you cannot use a computer, public kiosks are available at courthouses; paper filing requires permission from the court.
+      es: |
+        Ve a courts.nh.gov, elige presentación electrónica para personas sin abogado e inicia un nuevo caso de cambio de nombre en el Tribunal de Circuito, División de Sucesiones, de tu condado. El sistema te guía por la Petición y la Hoja de Información Confidencial. Sube tu identificación y paga la tarifa.
+    forms: [NHJB-2175-FPe, NHJB-2878-DFPe]
+    fees: [filing]
+    applies_to: [online]
+    sources: [courts-selfhelp, a4te-nh]
+  - id: fee-waiver
+    title:
+      en: Ask to reduce or waive the fee if you cannot pay
+      es: Pide reducir o eximir la tarifa si no puedes pagar
+    body:
+      en: File the Motion to Reduce or Eliminate Filing Fees and/or Costs with your petition, with information about your income, benefits, and expenses. A judge decides.
+      es: Presenta la Moción para Reducir o Eliminar Tarifas con tu petición, con información sobre tus ingresos, beneficios y gastos. Un juez decide.
+    forms: [NHJB-3234-DFP]
+    optional: true
+    sources: [courts-fee-help, a4te-nh]
+  - id: wait
+    title:
+      en: Wait for the court's decision
+      es: Espera la decisión del tribunal
+    body:
+      en: Most adult petitions are granted on the papers without a hearing. The court can schedule a hearing or order notice if it has questions or someone objects. Watch your email and e-filing account for notices.
+      es: La mayoría de las peticiones de adultos se conceden sin audiencia. El tribunal puede fijar una audiencia u ordenar notificación si tiene preguntas o alguien se opone. Revisa tu correo y tu cuenta de presentación electrónica.
+    estimated_time:
+      en: about 45 days
+      es: unos 45 días
+    sources: [rsa-547-3-i, a4te-nh]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Once the judge signs the Certificate of Change of Name, request several certified copies (5 or more is common) from the court. Social Security, the DMV, the passport agency, and banks usually want a certified copy. There is a fee per copy.
+      es: Cuando el juez firme el Certificado de Cambio de Nombre, pide varias copias certificadas (5 o más es común). El Seguro Social, el DMV, la agencia de pasaportes y los bancos suelen pedir una copia certificada. Hay una tarifa por copia.
+    sources: [a4te-nh]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). The New Hampshire DMV expects your SSA record to be updated before it changes your license.
+        2. **NH DMV** license or ID, in person by appointment, within 30 days (see the driver's license guide).
+        3. **Birth certificate** through the clerk of the town or city where you were born, if born in New Hampshire.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis). El DMV de NH espera que tu registro en el Seguro Social esté actualizado antes de cambiar tu licencia.
+        2. **DMV de NH**, en persona con cita, dentro de 30 días.
+        3. **Acta de nacimiento** con el secretario municipal del pueblo o ciudad donde naciste, si naciste en Nuevo Hampshire.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [a4te-nh, dmv-update]
+fees:
+  - id: filing
+    label:
+      en: Probate Division filing fee, petition for change of name
+      es: Tarifa de presentación, petición de cambio de nombre
+    amount: 170
+    waivable: true
+    note:
+      en: Figure reported by A4TE (December 2025) after the July 1, 2025 court fee increase. Confirm the current amount on the court's fee schedule or with the clerk.
+      es: Cifra reportada por A4TE (diciembre de 2025) tras el aumento de tarifas del 1 de julio de 2025. Confirma el monto actual con el tribunal.
+    sources: [a4te-nh, courts-fee-order]
+fee_waiver:
+  available: true
+  forms: [NHJB-3234-DFP]
+  eligibility:
+    en: A judge may reduce or eliminate court fees if you show you cannot afford them. Include income, public benefits you receive (for example Medicaid or SNAP), and household expenses.
+    es: Un juez puede reducir o eliminar las tarifas si demuestras que no puedes pagarlas. Incluye ingresos, beneficios públicos que recibes (por ejemplo Medicaid o SNAP) y gastos del hogar.
+  how:
+    en: File the motion with your petition through the e-filing system.
+    es: Presenta la moción con tu petición a través del sistema electrónico.
+  sources: [courts-fee-help, a4te-nh]
+publication:
+  required: conditional
+  detail:
+    en: New Hampshire law does not require newspaper publication. RSA 547:3-i lets the court "proceed with or without notice," so a judge could order notice in an unusual case, but adult petitions are normally decided without publication.
+    es: La ley de Nuevo Hampshire no exige publicación en periódico. RSA 547:3-i permite al tribunal proceder con o sin notificación, pero las peticiones de adultos normalmente se deciden sin publicación.
+  waiver_available: true
+  sources: [rsa-547-3-i, a4te-nh]
+hearing:
+  required: conditional
+  detail:
+    en: Usually no hearing. A hearing is scheduled if someone objects or the judge wants more information, and in cases involving criminal history under RSA 547:3-i, II.
+    es: Normalmente no hay audiencia. Se programa si alguien se opone, si el juez necesita más información, o en casos con antecedentes penales según RSA 547:3-i, II.
+  sources: [rsa-547-3-i, a4te-nh]
+background_check:
+  required: conditional
+  detail:
+    en: No fingerprints. The petition asks whether you are incarcerated, on probation or parole, on the sex offender registry, or convicted of a listed violent felony or crime against a child; if so, you must serve the prosecuting agency and make a compelling showing.
+    es: No se toman huellas. La petición pregunta si estás encarcelado, en libertad condicional, en el registro de agresores sexuales o condenado por ciertos delitos; si es así, debes notificar a la fiscalía y demostrar de forma convincente la necesidad.
+  sources: [rsa-547-3-i, petition-pdf]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Your date of birth and certain case information go on the Confidential Information Sheet, which is not public. The petition itself is a court record. No statute provides automatic sealing for gender-related name changes; if publicity would put you at risk, ask a legal aid organization about filing a motion to seal or limit access.
+    es: Tu fecha de nacimiento y cierta información van en la Hoja de Información Confidencial, que no es pública. La petición es un registro judicial. Ninguna ley sella automáticamente los cambios de nombre por género; si la publicidad te pondría en riesgo, consulta a una organización de asistencia legal sobre una moción para sellar.
+  sources: [petition-pdf]
+minors:
+  summary:
+    en: |
+      A parent or guardian files the same petition (check **Minor**). All known legal parents must consent: both can sign as petitioners, or a non-filing parent signs a consent form. A parent who lives at the same address, has died, or whose rights were terminated does not need to sign. If a parent will not consent, that parent must be given notice and the court may hold a hearing. A child 14 or older also signs the consent. The judge decides based on the child's best interests.
+    es: |
+      Un padre, madre o tutor presenta la misma petición (marca **Menor**). Todos los padres legales conocidos deben dar su consentimiento: ambos pueden firmar como peticionarios, o el otro padre firma un formulario de consentimiento. Si un padre no consiente, se le debe notificar y el tribunal puede celebrar una audiencia. Un menor de 14 años o más también firma el consentimiento. El juez decide según el interés superior del menor.
+  sources: [a4te-nh, petition-pdf]
+delivery:
+  online: true
+  by_mail: false
+  in_person: false
+  detail:
+    en: Electronic filing is mandatory in name change cases at all Probate Division locations. Courthouse kiosks can be used to e-file; paper filing needs an exemption from the court.
+    es: La presentación electrónica es obligatoria en todos los casos de cambio de nombre. Se pueden usar quioscos en los juzgados; presentar en papel requiere una exención del tribunal.
+  sources: [courts-selfhelp]
+timeline:
+  en: About 45 days from filing to a decision in most cases, then a week or two to get certified copies and update Social Security and the DMV.
+  es: Unos 45 días desde la presentación hasta la decisión en la mayoría de los casos, y luego una o dos semanas para obtener copias certificadas y actualizar el Seguro Social y el DMV.
+after:
+  en: |
+    Start with **Social Security** (bring the certified order and photo ID; the name changes, the sex field currently cannot). Then the **NH DMV** within 30 days, in person by appointment (a replacement license for a name change is free). If you were born in New Hampshire, send the clerk of your birth town or city the amendment application, a certified copy of the order, a copy of your ID, and the $10 amendment fee. Then your **passport**, bank, employer, insurance, and voter registration.
+  es: |
+    Empieza con el **Seguro Social** (lleva la orden certificada e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego el **DMV de NH** dentro de 30 días, en persona con cita (el reemplazo de licencia por cambio de nombre es gratis). Si naciste en Nuevo Hampshire, envía al secretario municipal de tu lugar de nacimiento la solicitud de enmienda, una copia certificada de la orden, copia de tu identificación y la tarifa de $10. Después tu **pasaporte**, banco, empleador, seguro y registro de votante.
+tips:
+  - en: If you also want to change the sex on a New Hampshire birth certificate, ask the court at the same time for an order directing the town or city clerk to change it; see the birth certificate guide.
+    es: Si también quieres cambiar el sexo en un acta de nacimiento de Nuevo Hampshire, pide al tribunal al mismo tiempo una orden que indique al secretario municipal cambiarlo; ver la guía del acta de nacimiento.
+  - en: GLAD Law's Transgender ID Project gives free help to New Hampshire residents and has a step-by-step quick reference guide.
+    es: El Transgender ID Project de GLAD Law ofrece ayuda gratuita a residentes de Nuevo Hampshire y tiene una guía rápida paso a paso.
+local_help:
+  - id: glad-id-project
+    name: GLAD Law, Transgender ID Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free self-help guides and individual help for New England residents updating their name and gender on state and federal documents. Fill out the online intake form.
+      es: Guías gratuitas y ayuda individual para residentes de Nueva Inglaterra que actualizan su nombre y género en documentos estatales y federales. Llena el formulario de admisión en línea.
+    url: https://www.gladlaw.org/id/
+    phone: "617-426-1350"
+    cost: free
+    verification: org_website
+    sources: [glad-id]
+  - id: 603-legal-aid
+    name: 603 Legal Aid
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide intake for free civil legal help for people with low income; can advise on the name change process and ID updates.
+      es: Admisión estatal para ayuda legal civil gratuita para personas de bajos ingresos; puede asesorar sobre el cambio de nombre y la actualización de documentos.
+    url: https://www.603legalaid.org/
+    phone: "603-224-3333"
+    cost: free
+    verification: org_website
+    sources: [legal-aid-603, a4te-nh]
+  - id: nhla
+    name: New Hampshire Legal Assistance
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Statewide nonprofit law firm for people with low income and older adults. Help with public benefits including Medicaid denials. Call 1-800-639-5290.
+      es: Bufete estatal sin fines de lucro para personas de bajos ingresos y adultos mayores. Ayuda con beneficios públicos, incluidas negaciones de Medicaid. Llama al 1-800-639-5290.
+    url: https://www.nhla.org/
+    phone: "800-639-5290"
+    cost: free
+    verification: org_website
+    sources: [nhla]
+  - id: nhbar-lrs
+    name: New Hampshire Bar Association, Lawyer Referral Service
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Referrals to private attorneys, including reduced-fee programs, if you want a lawyer to handle the petition.
+      es: Referencias a abogados privados, incluidos programas de tarifa reducida, si quieres que un abogado se encargue de la petición.
+    url: https://www.nhbar.org/
+    cost: varies
+    verification: unverified
+    sources: [nhbar]
+statutes:
+  - cite: N.H. Rev. Stat. Ann. § 547:3-i
+    title:
+      en: Change of name; probate court may proceed with or without notice; extra requirements for certain criminal histories
+      es: Cambio de nombre; el tribunal puede proceder con o sin notificación
+    url: https://gc.nh.gov/rsa/html/LVI/547/547-3-i.htm
+related_links:
+  - title: New Hampshire Judicial Branch, Name Changes
+    url: https://www.courts.nh.gov/self-help/name-changes
+    note:
+      en: Official page with e-filing instructions and checklists.
+      es: Página oficial con instrucciones de presentación electrónica.
+  - title: Advocates for Trans Equality, New Hampshire identity documents
+    url: https://transequality.org/documents/new-hampshire-identity-documents
+    note:
+      en: Last updated December 2025.
+      es: Actualizado en diciembre de 2025.
+sources:
+  - id: rsa-547-3-i
+    url: https://gc.nh.gov/rsa/html/LVI/547/547-3-i.htm
+    title: RSA 547:3-i, Change of name
+    publisher: New Hampshire General Court
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The probate court may grant the petition of any person to change the name of that person or the name of another person. The court shall not require the petitioner to obtain consents to the name change. The court may proceed with or without notice
+  - id: petition-pdf
+    url: https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2021-05/nhjb-2175-fpe-petitionfornamechange.pdf
+    title: NHJB-2175-FPe, Petition for Change of Name (rev. 03/26/2026), read via Wayback Machine copy of 2026-04-09
+    publisher: New Hampshire Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: I understand that proof of identity must be filed with this petition in order for it to be granted.
+  - id: courts-selfhelp
+    url: https://www.courts.nh.gov/self-help/name-changes
+    title: Name Changes (read via Wayback Machine copy of 2026-09-22)
+    publisher: New Hampshire Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+    quote: Electronic Filing is mandatory in name change cases at all probate division locations. Self-represented litigants will use the program TurboCourt.
+  - id: courts-fee-help
+    url: https://www.courts.nh.gov/resources/forms-and-fees/how-request-pay-lower-fee-or-file-free
+    title: How to request to pay a lower fee or file for free
+    publisher: New Hampshire Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+  - id: courts-fee-order
+    url: https://www.courts.nh.gov/news-and-media/supreme-court-issues-order-changing-fees-court-filings-and-record-checks
+    title: Supreme Court Issues Order Changing Fees for Court Filings and Record Checks (read via Wayback Machine)
+    publisher: New Hampshire Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+    quote: The fee increases will take effect on Tuesday July 1, 2025
+  - id: a4te-nh
+    url: https://transequality.org/documents/new-hampshire-identity-documents
+    title: New Hampshire Identity Documents (last updated December 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Name Change (Adult) Yes. A hearing is not typically required. Publication in a newspaper is not required.
+  - id: dmv-update
+    url: https://www.dmv.nh.gov/drivers-licensenon-driver-ids/update-personal-information
+    title: Update Personal Information (read via Wayback Machine copy of 2026-09-06)
+    publisher: New Hampshire Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: glad-id
+    url: https://www.gladlaw.org/id/
+    title: Transgender ID Project
+    publisher: GLAD Law
+    kind: org
+    accessed: "2026-09-24"
+  - id: legal-aid-603
+    url: https://www.603legalaid.org/
+    title: 603 Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: nhla
+    url: https://www.nhla.org/
+    title: New Hampshire Legal Assistance
+    kind: org
+    accessed: "2026-09-24"
+  - id: nhbar
+    url: https://www.nhbar.org/
+    title: New Hampshire Bar Association
+    kind: org
+    accessed: "2026-09-24"
