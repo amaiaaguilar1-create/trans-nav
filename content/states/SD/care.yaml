@@ -1,0 +1,330 @@
+jurisdiction: SD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minors' ban text read on sdlegislature.gov (HB 1080, 2023, codified SDCL 34-24-33 to 34-24-38; signed February 14,
+    2023). No lawsuit challenging it was found; SB 216 (2024), which would have modified it, died in committee. After
+    United States v. Skrmetti (2025) a federal challenge is unlikely to succeed. Medicaid: the South Dakota Medicaid
+    Physician Services billing and policy manual (updated June 2026) lists "Elective gender transition procedures" as
+    not covered; no provision on hormones was found in the physician, pharmacy, FQHC, or hospital manuals or in ARSD
+    67:16:01:08, so covers_hrt is "unclear." MAP lists South Dakota's Medicaid policy as a negative law. HB 1184 (2026)
+    defines sex as biological sex but contains no health care provision; reviewer should watch whether agencies or
+    licensing boards cite it to limit adult care. Sanford Health and Avera did not have findable gender care pages
+    (Sanford URLs 404; Avera 403), so neither is listed. Planned Parenthood Sioux Falls lists "Gender-Affirming Care"
+    and accepts Medicaid; the minimum age (18 under state law) and informed-consent model were not confirmed on its
+    page. Falls Community Health (city FQHC) offers primary care and PrEP but its site does not mention hormone
+    therapy. QueerMed coverage of South Dakota was not checked; FOLX and QueerDoc do not list South Dakota.
+status_summary:
+  en: >-
+    Adults can get hormone therapy and surgery in South Dakota, but South Dakota Medicaid excludes "elective gender
+    transition procedures" and state law does not stop private plans from excluding care. For anyone under 18,
+    puberty blockers, hormones, and surgery for gender transition are banned (HB 1080, since July 1, 2023). There is
+    no shield law.
+  es: >-
+    Los adultos pueden recibir terapia hormonal y cirugía en Dakota del Sur, pero Medicaid excluye los "procedimientos
+    electivos de transición de género" y la ley estatal no impide que los planes privados excluyan la atención. Para
+    menores de 18 años, los bloqueadores, las hormonas y la cirugía de transición están prohibidos (HB 1080, desde el
+    1 de julio de 2023). No hay ley escudo.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No South Dakota law restricts gender-affirming care for adults 18 and older. The barriers are cost and access: Medicaid excludes "elective gender transition procedures," and few clinics outside Sioux Falls and Rapid City advertise trans care.
+
+      **If you have little money**, in rough order of what to try:
+      1. **Planned Parenthood North Central States, Sioux Falls** lists gender-affirming care, in person or by telehealth anywhere in the state, and accepts Medicaid and most insurance.
+      2. **Telehealth**: Plume serves South Dakota. Point of Pride's HRT Access Fund and GenderBands can help with costs.
+      3. **Community health centers** (FQHCs) such as Falls Community Health in Sioux Falls charge on a sliding scale; ask whether a provider there prescribes hormones.
+      4. **The Transformation Project** keeps a statewide referral list of affirming medical and mental health providers.
+    es: |
+      Ninguna ley de Dakota del Sur restringe la atención de afirmación de género para adultos de 18 años o más. Las barreras son el costo y el acceso: Medicaid excluye los "procedimientos electivos de transición de género" y pocas clínicas fuera de Sioux Falls y Rapid City ofrecen atención trans.
+
+      **Si tienes poco dinero**, en orden aproximado:
+      1. **Planned Parenthood North Central States, Sioux Falls** ofrece atención de afirmación de género, en persona o por telesalud en todo el estado, y acepta Medicaid y la mayoría de los seguros.
+      2. **Telesalud**: Plume atiende en Dakota del Sur. El HRT Access Fund de Point of Pride y GenderBands ayudan con los costos.
+      3. Los **centros de salud comunitarios** como Falls Community Health en Sioux Falls cobran en escala móvil; pregunta si recetan hormonas.
+      4. **The Transformation Project** tiene una lista estatal de proveedores médicos y de salud mental que afirman la identidad.
+  sources: [pp-sioux-falls, medicaid-physician-manual, tp-get-help, fch]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **HB 1080 (2023)**, codified at SDCL 34-24-33 to 34-24-38 and in effect since **July 1, 2023**, bans health care professionals from giving anyone **under 18**, for gender transition:
+
+      - puberty blockers;
+      - testosterone, estrogen, or progesterone above normal levels for the minor's age and birth sex;
+      - sterilizing surgery, genital surgery, or removal of healthy body parts.
+
+      **Exceptions**: intersex conditions (disorders of sex development) and treating complications caused by prohibited care. Minors already on blockers or hormones before July 1, 2023 had to be tapered off by December 31, 2023.
+
+      **Penalties**: the provider's licensing board **must revoke** the license. A person harmed can sue until age 25 or within three years of discovering the harm.
+
+      No court has blocked the law. South Dakota has **no shield law**. The Transformation Project's SD Trans Resilience Fund helps families with travel costs for care in other states (not medical bills). Mental health care, including counseling about gender, is not banned.
+    es: |
+      **HB 1080 (2023)**, codificada en las SDCL 34-24-33 a 34-24-38 y vigente desde el **1 de julio de 2023**, prohíbe a los profesionales de salud dar a **menores de 18 años**, con fines de transición:
+
+      - bloqueadores de pubertad;
+      - testosterona, estrógeno o progesterona por encima de los niveles normales para su edad y sexo al nacer;
+      - cirugía esterilizante, genital o la extirpación de partes sanas del cuerpo.
+
+      **Excepciones**: condiciones intersexuales y el tratamiento de complicaciones. Quienes ya recibían tratamiento antes del 1 de julio de 2023 debían dejarlo antes del 31 de diciembre de 2023.
+
+      **Sanciones**: la junta de licencias **debe revocar** la licencia del profesional. Una persona afectada puede demandar hasta los 25 años o dentro de tres años de descubrir el daño.
+
+      Ningún tribunal ha bloqueado la ley. Dakota del Sur **no tiene ley escudo**. El SD Trans Resilience Fund del Transformation Project ayuda a las familias con gastos de viaje para atención en otros estados. La atención de salud mental no está prohibida.
+  sources: [sdcl-34-24-33, sdcl-34-24-34, sdcl-34-24-35, sdcl-34-24-36, sdcl-34-24-37, sdcl-34-24-38, hb1080-2023, tp-resilience-fund]
+medicaid:
+  program_name: South Dakota Medicaid
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: The South Dakota Medicaid Physician Services manual lists "elective gender transition procedures" among services that are not covered. It does not say whether hormone prescriptions are covered; ask your provider to check before you start, and appeal any denial. Low-income adults may qualify for Medicaid; apply through the Department of Social Services.
+    es: El manual de Servicios Médicos de Medicaid de Dakota del Sur incluye los "procedimientos electivos de transición de género" entre los servicios no cubiertos. No dice si cubre recetas de hormonas; pide a tu proveedor que lo verifique y apela cualquier negativa. Los adultos de bajos ingresos pueden calificar; solicita en el Departamento de Servicios Sociales.
+  how_to_apply_url: https://dss.sd.gov/economicassistance/medical_eligibility.aspx
+  sources: [medicaid-physician-manual, dss-medical-eligibility, map-sd]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: South Dakota has no law barring health plans from excluding gender-affirming care. Read your plan's exclusions list. If a claim for a covered benefit is denied, you can file a complaint with the Division of Insurance; self-funded employer plans are regulated federally.
+    es: Dakota del Sur no tiene ley que prohíba a los planes excluir la atención de afirmación de género. Lee las exclusiones de tu plan. Si te niegan un beneficio cubierto, puedes presentar una queja ante la División de Seguros.
+  complaint_url: https://dlr.sd.gov/insurance/doi_complaint.aspx
+  sources: [doi-complaint, map-sd]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: pp-sioux-falls
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, Sioux Falls Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Lists gender-affirming care, HIV services, STI testing, and mental health, in person or by telehealth statewide. Accepts Medicaid and most insurance; will not turn you away if you cannot pay. Adults 18+ only for hormones under state law.
+      es: Ofrece atención de afirmación de género, servicios de VIH, pruebas de ITS y salud mental, en persona o por telesalud en todo el estado. Acepta Medicaid y la mayoría de los seguros. Solo adultos de 18+ para hormonas según la ley estatal.
+    url: https://www.plannedparenthood.org/health-center/south-dakota/sioux-falls/57106/sioux-falls-clinic-2738-90720
+    phone: "605-361-5100"
+    address: 6511 W. 41st St., Sioux Falls, SD 57106
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-sioux-falls]
+  - id: falls-community-health
+    name: Falls Community Health (City of Sioux Falls)
+    type: primary_care
+    pillars: [sexual_health, hrt]
+    description:
+      en: City-run community health center with primary care, dental, lab, HIV/STI prevention, and PrEP. Sliding-scale discounts with proof of income; accepts Medicaid and Medicare. Its site does not mention hormone therapy; ask.
+      es: Centro de salud comunitario de la ciudad con atención primaria, dental, laboratorio, prevención de VIH/ITS y PrEP. Descuentos en escala móvil; acepta Medicaid y Medicare. Pregunta si ofrecen terapia hormonal.
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health
+    phone: "605-367-8793"
+    address: 521 N. Main Ave., Sioux Falls, SD 57104
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [fch, fch-sti]
+  - id: transformation-project-referrals
+    name: The Transformation Project, provider referral list
+    type: lgbtq_center
+    pillars: [hrt, mental_health]
+    description:
+      en: Fill out the intake form to receive the South Dakota referral list of affirming medical and mental health providers, a welcome kit, and name change information.
+      es: Llena el formulario de admisión para recibir la lista de proveedores médicos y de salud mental que afirman la identidad, un kit de bienvenida e información sobre cambio de nombre.
+    url: https://www.transformationprojectsd.org/home/get-help
+    phone: "605-610-8579"
+    cost: free
+    verification: org_website
+    sources: [tp-get-help]
+  - id: sd-trans-resilience-fund
+    name: SD Trans Resilience Fund (Transformation Project)
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Gift cards or hotel and transportation for families with trans minors who travel out of state for gender-affirming care. Does not pay medical bills.
+      es: Tarjetas de regalo u hotel y transporte para familias con menores trans que viajan fuera del estado para recibir atención. No paga gastos médicos.
+    url: https://www.transformationprojectsd.org/trans-resilience-fund
+    cost: free
+    verification: org_website
+    sources: [tp-resilience-fund]
+  - id: point-of-pride-hrt
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund that pays for a period of telehealth hormone care for selected applicants; application windows open once a year.
+      es: Fondo nacional que paga atención hormonal por telesalud a personas seleccionadas; abre solicitudes una vez al año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit offering grants toward gender-affirming care costs.
+      es: Organización nacional que ofrece subvenciones para costos de atención de afirmación de género.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-health-project
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Helps trans people appeal insurance and Medicaid denials for gender-affirming care.
+      es: Ayuda a apelar negaciones de seguros y Medicaid para atención de afirmación de género.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: unverified
+    sources: [a4te-thp]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health]
+    description:
+      en: Federal locator for sliding-scale community health centers across South Dakota.
+      es: Buscador federal de centros de salud comunitarios con escala móvil en Dakota del Sur.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: free
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: SDCL 34-24-33 to 34-24-38
+    title:
+      en: Prohibited medical interventions on minors (HB 1080, 2023)
+      es: Intervenciones médicas prohibidas en menores (HB 1080, 2023)
+    url: https://sdlegislature.gov/Statutes/34-24-34
+sources:
+  - id: hb1080-2023
+    url: https://sdlegislature.gov/Session/Bill/24100
+    title: HB 1080 (2023), An Act to prohibit certain medical and surgical interventions on minor patients
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-34-24-33
+    url: https://sdlegislature.gov/Statutes/34-24-33
+    title: SDCL 34-24-33, Prohibited medical interventions, definitions
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: '"Minor," any person under the age of eighteen'
+  - id: sdcl-34-24-34
+    url: https://sdlegislature.gov/Statutes/34-24-34
+    title: SDCL 34-24-34, Prohibited medical interventions
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Prescribe or administer any drug to delay or stop normal puberty
+  - id: sdcl-34-24-35
+    url: https://sdlegislature.gov/Statutes/34-24-35
+    title: SDCL 34-24-35, Exceptions
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-34-24-36
+    url: https://sdlegislature.gov/Statutes/34-24-36
+    title: SDCL 34-24-36, License revocation
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the board must revoke any professional or occupational license or certificate held by the healthcare professional
+  - id: sdcl-34-24-37
+    url: https://sdlegislature.gov/Statutes/34-24-37
+    title: SDCL 34-24-37, Civil action, time limits
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-34-24-38
+    url: https://sdlegislature.gov/Statutes/34-24-38
+    title: SDCL 34-24-38, Transition period ending December 31, 2023
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: medicaid-physician-manual
+    url: https://dss.sd.gov/docs/medicaid/providers/billingmanuals/Professional/Physician_Services.pdf
+    title: South Dakota Medicaid Billing and Policy Manual, Physician Services (updated June 2026)
+    publisher: South Dakota Department of Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Elective gender transition procedures.
+  - id: dss-medical-eligibility
+    url: https://dss.sd.gov/economicassistance/medical_eligibility.aspx
+    title: Medical Assistance eligibility
+    publisher: South Dakota Department of Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: doi-complaint
+    url: https://dlr.sd.gov/insurance/doi_complaint.aspx
+    title: Division of Insurance Complaint Process
+    publisher: South Dakota Department of Labor and Regulation
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-sd
+    url: https://mapresearch.org/equality-profiles/SD/
+    title: South Dakota equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-sioux-falls
+    url: https://www.plannedparenthood.org/health-center/south-dakota/sioux-falls/57106/sioux-falls-clinic-2738-90720
+    title: Sioux Falls Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender-Affirming Care
+  - id: fch
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health
+    title: Falls Community Health
+    publisher: City of Sioux Falls
+    kind: official
+    accessed: "2026-09-24"
+  - id: fch-sti
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health/protectparts
+    title: HIV/STI prevention (Protect Your Parts)
+    publisher: City of Sioux Falls
+    kind: official
+    accessed: "2026-09-24"
+  - id: tp-get-help
+    url: https://www.transformationprojectsd.org/home/get-help
+    title: Get Help
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-resilience-fund
+    url: https://www.transformationprojectsd.org/trans-resilience-fund
+    title: SD Trans Resilience Fund
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: This fund does not cover medical expenses.
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

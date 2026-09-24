@@ -1,0 +1,511 @@
+guide_type: name_change
+jurisdiction: SD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from SDCL ch. 21-37 (read on sdlegislature.gov), UJS forms UJS-024/025/026/027 (Rev. 04/2026) and
+    UJS-022 (Rev. 03/2026), and the UJS Schedule of Court Costs (Rev. July 1, 2026), which lists Name Change at $72.00
+    total ($25 filing + $40 court automation surcharge + $7 liquidated costs). Open items: (1) typical newspaper
+    publication cost in Minnehaha/Lincoln counties was not found; the guide gives no dollar figure; (2) per-copy fee for
+    a certified copy of the order was not found (SDCL 16-2-29 lists $15 only for authenticated/exemplified copies); (3)
+    no publication waiver exists for gender identity; SDCL 21-37-5.2 waives publication only for human-trafficking and
+    domestic-abuse victims, so status is "restricted"; (4) the petition (UJS-025, para. 4) asks "My gender at birth";
+    confirm with the Transformation Project whether judges in Minnehaha County have questioned trans petitioners; (5)
+    East River Legal Services' site does not list name changes among its case types. A4TE's South Dakota page (no
+    last-updated date shown; it links an old DPS URL and old DOH address) agrees on court petition plus four weeks of
+    publication. MAP scores South Dakota's publication requirement as a negative law. The Center for Equality
+    (Sioux Falls) could not be verified (empty website) and is not listed.
+status: restricted
+status_summary:
+  en: >-
+    You can change your name in South Dakota by petitioning the circuit court in the county where you have lived for at
+    least six months. You must publish a notice in a newspaper once a week for four weeks and attend a hearing; there
+    is no exception for trans people (only for victims of domestic abuse or trafficking).
+  es: >-
+    Puedes cambiar tu nombre en Dakota del Sur con una petición al tribunal de circuito del condado donde has vivido al
+    menos seis meses. Debes publicar un aviso en un periódico una vez por semana durante cuatro semanas y asistir a una
+    audiencia; no hay excepción para personas trans (solo para víctimas de violencia doméstica o trata).
+summary:
+  en: |
+    Name changes are governed by SDCL chapter 21-37. You file a **Verified Petition for Adult Name Change (UJS-025)** with the clerk of courts in the county where you have lived for at least six months, pay the filing fee (or ask for a fee waiver), schedule a hearing about six weeks out, publish the hearing notice in a legal newspaper for four weeks in a row, and then go to the hearing. If the judge finds "proper and reasonable cause," they sign the order.
+
+    The court system publishes free fill-in forms and runs a legal form helpline (1-855-784-0004, ujssrlhelp@ujs.state.sd.us). The clerk cannot give legal advice.
+
+    A court order changes your **name only**. It does not change the sex on your birth certificate, which South Dakota no longer allows (see the birth certificate guide).
+  es: |
+    Los cambios de nombre se rigen por el capítulo 21-37 de las SDCL. Presentas una **Petición Verificada de Cambio de Nombre de Adulto (UJS-025)** ante el secretario del tribunal del condado donde has vivido al menos seis meses, pagas la tarifa (o pides una exención), programas una audiencia unas seis semanas después, publicas el aviso en un periódico legal durante cuatro semanas seguidas y asistes a la audiencia. Si el juez encuentra "causa adecuada y razonable", firma la orden.
+
+    El sistema judicial publica formularios gratuitos y tiene una línea de ayuda con formularios (1-855-784-0004, ujssrlhelp@ujs.state.sd.us). El secretario no puede dar asesoría legal.
+
+    Una orden judicial cambia **solo tu nombre**. No cambia el sexo en tu acta de nacimiento, lo cual Dakota del Sur ya no permite (ver la guía del acta de nacimiento).
+eligibility:
+  residency:
+    en: You must have been a bona fide resident of the county where you file for at least six months before filing (SDCL 21-37-2 and 21-37-3).
+    es: Debes haber residido de buena fe en el condado donde presentas la petición durante al menos seis meses antes de presentarla (SDCL 21-37-2 y 21-37-3).
+  age:
+    en: 18 or older for the adult forms. Minors use a separate packet; see Minors.
+    es: 18 años o más para los formularios de adultos. Los menores usan otro paquete; ver Menores.
+  other:
+    en: You swear the petition is made in good faith and not to defraud anyone or hide from creditors or government agencies.
+    es: Declaras bajo juramento que la petición es de buena fe y no para defraudar ni esconderte de acreedores o agencias.
+  sources: [sdcl-21-37-2, sdcl-21-37-3, ujs-025]
+forms:
+  - id: UJS-024
+    name:
+      en: Instructions for Adult Name Change
+      es: Instrucciones para cambio de nombre de adulto
+    url: https://ujs.sd.gov/files/ujs-024-instructions-for-adult-name-change/
+    required: optional
+    condition:
+      en: Read first. Explains every paragraph of the petition, the notice, and the order.
+      es: Léelo primero. Explica cada párrafo de la petición, el aviso y la orden.
+    sources: [ujs-024]
+  - id: UJS-232
+    name:
+      en: Case Filing Statement
+      es: Declaración de presentación de caso
+    url: https://ujs.sd.gov/files/ujs-232-case-filing-statement/
+    required: always
+    condition:
+      en: Fill in only the "Information for Plaintiff/Petitioner/Applicant" box; leave the defendant box blank.
+      es: Llena solo la sección del peticionario; deja en blanco la del demandado.
+    sources: [ujs-024]
+  - id: UJS-025
+    name:
+      en: Verified Petition for Adult Name Change
+      es: Petición verificada de cambio de nombre de adulto
+    url: https://ujs.sd.gov/files/ujs-025-verified-petition-for-adult-name-change/
+    required: always
+    how_to_fill:
+      en: |
+        - **Paragraph 4** asks your "gender at birth" (male/female). The form requires an answer; it does not change anything on your records.
+        - **Paragraph 12** (reason): this must be filled in or the petition is rejected. A short, truthful reason is enough, for example "to use the name I am known by, which matches my gender identity." Only check the two boxes if you are a victim of human trafficking or domestic abuse; those boxes are what allow a judge to skip publication and seal the file.
+        - **Paragraph 15** (optional): check it if you also want your South Dakota birth certificate amended to the new name. This amends the name only.
+        - You do not need a notary, but you sign under penalty of perjury. Print single-sided in black ink.
+      es: |
+        - El **párrafo 4** pregunta tu "género al nacer" (masculino/femenino). Es obligatorio; no cambia nada en tus registros.
+        - **Párrafo 12** (motivo): debe llenarse o la petición será rechazada. Basta un motivo breve y verdadero, por ejemplo "para usar el nombre con el que me conocen, que coincide con mi identidad de género". Marca las casillas solo si eres víctima de trata o de violencia doméstica.
+        - **Párrafo 15** (opcional): márcalo si también quieres que tu acta de nacimiento de Dakota del Sur se modifique con el nuevo nombre. Solo cambia el nombre.
+        - Firmas bajo pena de perjurio. Imprime por una sola cara y con tinta negra.
+    sources: [ujs-025, ujs-024]
+  - id: UJS-026
+    name:
+      en: Notice of Hearing for Adult Name Change
+      es: Aviso de audiencia de cambio de nombre de adulto
+    url: https://ujs.sd.gov/files/ujs-026-notice-of-hearing-for-adult-name-change/
+    required: always
+    condition:
+      en: The clerk gives you a hearing date at least six weeks out; a judge or clerk signs the notice. You then take it to a legal newspaper for publication.
+      es: El secretario te da una fecha de audiencia con al menos seis semanas; un juez o secretario firma el aviso. Luego lo llevas a un periódico legal para su publicación.
+    sources: [ujs-024]
+  - id: UJS-027
+    name:
+      en: Order for Adult Name Change
+      es: Orden de cambio de nombre de adulto
+    url: https://ujs.sd.gov/files/ujs-027-order-for-adult-name-change/
+    required: always
+    condition:
+      en: Prepare it before the hearing. Check the box for the newspaper where you published, and the birth certificate box if you want the name amended on a South Dakota birth certificate.
+      es: Prepárala antes de la audiencia. Marca la casilla del periódico donde publicaste y la del acta de nacimiento si quieres modificar el nombre en un acta de Dakota del Sur.
+    sources: [ujs-024]
+  - id: UJS-022
+    name:
+      en: Motion, Affidavit, and Order for Waiver of Filing and/or Service Fees
+      es: Moción, declaración jurada y orden para exención de tarifas de presentación y/o notificación
+    url: https://ujs.sd.gov/files/ujs-022-motion-affidavit-and-order-to-waive-filing-fee-service-of-process-fee-form/
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. It does not cover newspaper publication.
+      es: Solo si no puedes pagar la tarifa. No cubre la publicación en el periódico.
+    how_to_fill:
+      en: |
+        - Check "Filing Fee." List your weekly take-home pay, household income and size, home, vehicles, savings, and monthly expenses.
+        - Item 11: check every benefit you receive (SSI, SSD, TANF, Medicaid, WIC, food stamps).
+        - Sign under penalty of perjury and file it with your petition. If you hear nothing in five business days, call the clerk.
+      es: |
+        - Marca "Filing Fee". Indica tu pago semanal neto, ingresos y tamaño del hogar, vivienda, vehículos, ahorros y gastos mensuales.
+        - Punto 11: marca cada beneficio que recibes (SSI, SSD, TANF, Medicaid, WIC, cupones de alimentos).
+        - Firma bajo pena de perjurio y preséntalo con tu petición.
+    sources: [ujs-022, ujs-fee-waiver]
+  - id: UJS-030
+    name:
+      en: Verified Petition for Name Change of a Minor
+      es: Petición verificada de cambio de nombre de un menor
+    url: https://ujs.sd.gov/files/ujs-030-verified-petition-for-name-change-of-a-minor/
+    required: conditional
+    condition:
+      en: Only for a child under 18. Part of the Minor Name Change packet; read UJS-029 instructions first.
+      es: Solo para menores de 18. Forma parte del paquete para menores; lee primero las instrucciones UJS-029.
+    sources: [ujs-forms]
+  - id: UJS-033
+    name:
+      en: Consent for Uncontested Change of Name, Minor Child
+      es: Consentimiento para cambio de nombre no disputado de un menor
+    url: https://ujs.sd.gov/files/ujs-033-consent-for-uncontested-change-of-name-minor-child/
+    required: conditional
+    condition:
+      en: Signed by each parent (and guardian) so the court can skip publication and the hearing. A child 12 or older also signs UJS-037.
+      es: Lo firma cada padre (y tutor) para que el tribunal pueda omitir la publicación y la audiencia. Un menor de 12 años o más también firma UJS-037.
+    sources: [ujs-forms, sdcl-21-37-5-1]
+steps:
+  - id: get-forms
+    title:
+      en: Get the adult name change packet
+      es: Consigue el paquete de cambio de nombre de adulto
+    body:
+      en: |
+        Download the "Adult Name Change Print All Packet" from the court's Name Change Forms page, or the individual forms (UJS-024 instructions, UJS-232, UJS-025, UJS-026, UJS-027). Print single-sided and fill in with black ink. For help with the forms, call the free legal form helpline at 1-855-784-0004. The Transformation Project also helps with paperwork.
+      es: |
+        Descarga el paquete "Adult Name Change Print All Packet" de la página de formularios del tribunal, o cada formulario por separado. Imprime por una sola cara y llena con tinta negra. Para ayuda con los formularios llama a la línea gratuita 1-855-784-0004. The Transformation Project también ayuda con los trámites.
+    forms: [UJS-024, UJS-232, UJS-025, UJS-026, UJS-027]
+    sources: [ujs-forms, ujs-024, tp-name-change]
+  - id: file
+    title:
+      en: File the petition with the clerk of courts in your county
+      es: Presenta la petición ante el secretario del tribunal de tu condado
+    body:
+      en: |
+        File UJS-232 and UJS-025 with the clerk of courts in the county where you have lived for six months or more, and pay the $72 name change fee (or file UJS-022 to ask for a waiver). The clerk assigns a case number, which goes on every later form.
+      es: |
+        Presenta UJS-232 y UJS-025 ante el secretario del tribunal del condado donde has vivido seis meses o más, y paga la tarifa de $72 (o presenta UJS-022 para pedir una exención). El secretario asigna un número de caso que va en todos los formularios posteriores.
+    forms: [UJS-232, UJS-025, UJS-022]
+    fees: [filing]
+    sources: [ujs-024, court-costs]
+  - id: schedule-and-publish
+    title:
+      en: Schedule the hearing and publish the notice for four weeks
+      es: Programa la audiencia y publica el aviso durante cuatro semanas
+    body:
+      en: |
+        Ask the clerk or court administrator for a hearing date about six weeks away. Fill in UJS-026 and have the judge or clerk sign it. Take the filed notice to a **legal newspaper** in your county (the county auditor can tell you which papers qualify) and have it published **once a week for four weeks in a row**. Ask the newspaper its deadline and price before you schedule. The newspaper gives you an **Affidavit of Publication**; file it with the clerk on or before the hearing date. If publication is not finished in time, you may have to publish again at your own cost.
+      es: |
+        Pide al secretario una fecha de audiencia unas seis semanas después. Llena UJS-026 y haz que el juez o secretario lo firme. Lleva el aviso a un **periódico legal** de tu condado (el auditor del condado sabe cuáles califican) y publícalo **una vez por semana durante cuatro semanas seguidas**. Pregunta la fecha límite y el precio antes de programar. El periódico te da una **Declaración Jurada de Publicación**; preséntala al secretario antes o el día de la audiencia.
+    forms: [UJS-026]
+    fees: [publication]
+    estimated_time:
+      en: about 6 weeks
+      es: unas 6 semanas
+    sources: [sdcl-21-37-4, ujs-024]
+  - id: hearing
+    title:
+      en: Go to the hearing with your proposed order
+      es: Asiste a la audiencia con tu orden propuesta
+    body:
+      en: |
+        Bring the completed Order for Adult Name Change (UJS-027) and your ID. The judge confirms that notice was published and that the petition is true, and signs the order if there is "proper and reasonable cause." The hearing is in open court.
+      es: |
+        Lleva la Orden de Cambio de Nombre de Adulto (UJS-027) llena y tu identificación. El juez confirma que se publicó el aviso y que la petición es verdadera, y firma la orden si hay "causa adecuada y razonable". La audiencia es en sesión pública.
+    forms: [UJS-027]
+    sources: [sdcl-21-37-5, ujs-024]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the signed order
+      es: Obtén copias certificadas de la orden firmada
+    body:
+      en: Ask the clerk for several certified copies. Social Security, the driver license office, the passport agency, and the Department of Health each want one. Ask the clerk for the per-copy price.
+      es: Pide al secretario varias copias certificadas. El Seguro Social, la oficina de licencias, la agencia de pasaportes y el Departamento de Salud piden una cada uno. Pregunta el precio por copia.
+    fees: [certified-copies]
+    sources: [sdcl-16-2-29]
+fees:
+  - id: filing
+    label:
+      en: Name change filing fee and court costs
+      es: Tarifa de presentación y costos judiciales de cambio de nombre
+    amount: 72
+    waivable: true
+    note:
+      en: $25 filing fee plus $40 court automation surcharge and $7 liquidated court costs, per the UJS schedule effective July 1, 2026.
+      es: $25 de presentación más $40 de recargo de automatización y $7 de costos, según la tabla del UJS vigente desde el 1 de julio de 2026.
+    sources: [court-costs, sdcl-16-2-29]
+  - id: publication
+    label:
+      en: Newspaper publication (4 weeks)
+      es: Publicación en periódico (4 semanas)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by each newspaper. The court fee waiver does not cover it. Ask for a price quote before scheduling your hearing.
+      es: La fija cada periódico. La exención de tarifas judiciales no la cubre. Pide una cotización antes de programar la audiencia.
+    sources: [ujs-024]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    varies_by: court
+    note:
+      en: Not listed on the UJS schedule; ask the clerk. Authenticated (exemplified) copies are $15.
+      es: No aparece en la tabla del UJS; pregunta al secretario. Las copias autenticadas cuestan $15.
+    sources: [court-costs, sdcl-16-2-29]
+fee_waiver:
+  available: true
+  forms: [UJS-022]
+  eligibility:
+    en: There is no fixed income cutoff. The judge decides based on your income, household size, property, savings, expenses, and public benefits listed on UJS-022.
+    es: No hay un límite fijo de ingresos. El juez decide según tus ingresos, tamaño del hogar, bienes, ahorros, gastos y beneficios públicos indicados en UJS-022.
+  how:
+    en: File UJS-022 with your petition. If you hear nothing in five business days, call the clerk. If the judge denies it, you have 30 days to pay or the case is dismissed.
+    es: Presenta UJS-022 con tu petición. Si no sabes nada en cinco días hábiles, llama al secretario. Si el juez la niega, tienes 30 días para pagar o el caso se desestima.
+  sources: [ujs-fee-waiver, ujs-022]
+publication:
+  required: "yes"
+  detail:
+    en: SDCL 21-37-4 requires publishing the notice of hearing once a week for four successive weeks in a legal newspaper of your county. There is no exception for gender identity.
+    es: La SDCL 21-37-4 exige publicar el aviso de audiencia una vez por semana durante cuatro semanas seguidas en un periódico legal de tu condado. No hay excepción por identidad de género.
+  waiver_available: false
+  waiver_how:
+    en: A judge may skip publication and the open hearing only for adults who are victims of domestic abuse or human trafficking and show a particular need to hide from the abuser (SDCL 21-37-5.2). If that applies to you, check the matching box in paragraph 12 of UJS-025.
+    es: Un juez puede omitir la publicación y la audiencia pública solo para víctimas adultas de violencia doméstica o de trata que demuestren una necesidad particular de protegerse del agresor (SDCL 21-37-5.2).
+  sources: [sdcl-21-37-4, sdcl-21-37-5-2, ujs-024, a4te-sd]
+hearing:
+  required: "yes"
+  detail:
+    en: A hearing in open court is required (SDCL 21-37-5), except for the domestic-abuse and trafficking exception and for uncontested minor name changes where all parents consent.
+    es: Se requiere audiencia en sesión pública (SDCL 21-37-5), salvo la excepción para víctimas y los cambios de nombre de menores con consentimiento de todos los padres.
+  sources: [sdcl-21-37-5, sdcl-21-37-5-2, sdcl-21-37-5-1]
+background_check:
+  required: "no"
+  detail:
+    en: Chapter 21-37 does not require fingerprints or a background check. You swear on the petition that the change is not to defraud anyone or avoid creditors or government agencies.
+    es: El capítulo 21-37 no exige huellas ni verificación de antecedentes. Declaras en la petición que el cambio no es para defraudar ni evitar acreedores o agencias.
+  sources: [sdcl-21-37-3, ujs-025]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Name change files are public, and the newspaper notice prints your old and new names. Sealing is available only to domestic-abuse and trafficking victims who qualify under SDCL 21-37-5.2.
+    es: Los expedientes de cambio de nombre son públicos y el aviso en el periódico imprime tu nombre anterior y el nuevo. Solo las víctimas de violencia doméstica o trata que califiquen bajo la SDCL 21-37-5.2 pueden sellarlo.
+  sources: [sdcl-21-37-5-2, sdcl-21-37-4]
+minors:
+  summary:
+    en: |
+      Use the Minor Name Change packet (UJS-029 instructions, UJS-030 petition, and related forms). If every parent whose rights have not been terminated, and any guardian, signs a written consent (UJS-033), and the child consents in writing if 12 or older (UJS-037), the judge may grant the change **without publication or a hearing** if it is in the child's best interests (SDCL 21-37-5.1). Otherwise you must publish and have a hearing, and any parent who is not a petitioner must be formally served (SDCL 21-37-4).
+    es: |
+      Usa el paquete de cambio de nombre de menores (instrucciones UJS-029, petición UJS-030 y formularios relacionados). Si todos los padres cuyos derechos no han terminado, y cualquier tutor, firman un consentimiento (UJS-033), y el menor de 12 años o más también consiente por escrito (UJS-037), el juez puede otorgar el cambio **sin publicación ni audiencia** si es en el mejor interés del menor (SDCL 21-37-5.1). De lo contrario hay que publicar y tener audiencia, y cualquier padre que no sea peticionario debe ser notificado formalmente.
+  forms: [UJS-030, UJS-033]
+  sources: [sdcl-21-37-5-1, sdcl-21-37-4, ujs-forms]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File paper forms at the clerk of courts' office in your county and attend the hearing in person. Ask your clerk whether they accept filings by mail.
+    es: Presenta los formularios en papel en la oficina del secretario del tribunal de tu condado y asiste a la audiencia en persona. Pregunta si aceptan presentaciones por correo.
+  sources: [ujs-024]
+timeline:
+  en: Plan on 6 to 8 weeks from filing to a signed order, mostly the four weeks of publication plus scheduling.
+  es: Calcula de 6 a 8 semanas desde la presentación hasta la orden firmada, sobre todo por las cuatro semanas de publicación.
+after:
+  en: |
+    1. **Social Security** first (bring the certified order and photo ID). The name changes; the sex field cannot currently be changed.
+    2. **Driver license or ID** at a Driver Licensing exam station ($20 for a name change; see the driver's license guide).
+    3. **Birth certificate** (South Dakota births): send the certified order with the Birth Record Amendment Request form and $8 to Vital Records; only the name can be changed.
+    4. **Passport**, bank, employer, insurance, voter registration, school records.
+  es: |
+    1. **Seguro Social** primero (lleva la orden certificada e identificación con foto). Cambia el nombre; el campo de sexo actualmente no se puede cambiar.
+    2. **Licencia o identificación** en una estación de licencias ($20 por cambio de nombre).
+    3. **Acta de nacimiento** (nacidos en Dakota del Sur): envía la orden certificada con el formulario de modificación y $8 a Vital Records; solo se puede cambiar el nombre.
+    4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+tips:
+  - en: Call the newspaper before you pick a hearing date. Publication must finish, and the affidavit must be filed, before the hearing, or you may have to pay to publish again.
+    es: Llama al periódico antes de elegir la fecha de audiencia. La publicación debe terminar, y la declaración jurada presentarse, antes de la audiencia.
+  - en: The published notice shows your old and new names. If you are escaping abuse, tell the court; SDCL 21-37-5.2 lets victims skip publication and seal the file.
+    es: El aviso publicado muestra tu nombre anterior y el nuevo. Si huyes de abuso, díselo al tribunal; la SDCL 21-37-5.2 permite a las víctimas omitir la publicación y sellar el expediente.
+  - en: Married couples and their children can change names on one petition (SDCL 21-37-3.1).
+    es: Los matrimonios y sus hijos pueden cambiar de nombre en una sola petición (SDCL 21-37-3.1).
+local_help:
+  - id: transformation-project
+    name: The Transformation Project, name change and gender correction help
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Sioux Falls trans nonprofit that helps statewide with name change paperwork. Email susan@transformationprojectsd.org or call 605-610-8579.
+      es: Organización trans de Sioux Falls que ayuda en todo el estado con los trámites de cambio de nombre. Escribe a susan@transformationprojectsd.org o llama al 605-610-8579.
+    url: https://www.transformationprojectsd.org/name-change-gender-correction
+    phone: "605-610-8579"
+    address: 500 N. Western Ave., Sioux Falls, SD
+    cost: free
+    verification: org_website
+    sources: [tp-name-change, tp-contact]
+  - id: ujs-form-helpline
+    name: South Dakota Unified Judicial System legal form helpline
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free help understanding and completing court forms (not legal advice). Call 1-855-784-0004 or email ujssrlhelp@ujs.state.sd.us.
+      es: Ayuda gratuita para entender y llenar formularios judiciales (no es asesoría legal). Llama al 1-855-784-0004 o escribe a ujssrlhelp@ujs.state.sd.us.
+    url: https://ujs.sd.gov/self-help/pro-se-forms/name-change-forms/
+    phone: "1-855-784-0004"
+    cost: free
+    verification: official_source
+    sources: [ujs-forms]
+  - id: east-river-legal-services
+    name: East River Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for low-income people in eastern South Dakota. Its site lists family, housing, consumer, and benefits cases; ask whether it can help with a name change. Apply online through sdlawhelp.org or call 1-800-952-3015.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos en el este de Dakota del Sur. Pregunta si puede ayudar con un cambio de nombre. Solicita en línea en sdlawhelp.org o llama al 1-800-952-3015.
+    url: https://erlservices.org/
+    phone: "1-800-952-3015"
+    address: 335 N. Main Ave., Suite 200, Sioux Falls, SD 57104
+    cost: free
+    verification: org_website
+    sources: [erls]
+  - id: a4te-name-change-project
+    org: a4te
+    name: A4TE Name Change Project
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: National program of Advocates for Trans Equality that connects trans people with pro bono attorneys for name changes; check whether it currently covers South Dakota.
+      es: Programa nacional de Advocates for Trans Equality que conecta a personas trans con abogados gratuitos para cambios de nombre; verifica si cubre Dakota del Sur.
+    url: https://transequality.org/name-change-project
+    cost: free
+    verification: unverified
+    sources: [a4te-ncp]
+statutes:
+  - cite: SDCL ch. 21-37 (Change of Name)
+    title:
+      en: Circuit court name changes, residency, petition, notice, hearing
+      es: Cambios de nombre en el tribunal de circuito
+    url: https://sdlegislature.gov/Statutes/21-37
+  - cite: SDCL 21-37-4
+    title:
+      en: Publication for four successive weeks
+      es: Publicación durante cuatro semanas seguidas
+    url: https://sdlegislature.gov/Statutes/21-37-4
+  - cite: SDCL 21-37-5.1
+    title:
+      en: Minors, no publication or hearing with all consents
+      es: Menores, sin publicación ni audiencia con todos los consentimientos
+    url: https://sdlegislature.gov/Statutes/21-37-5.1
+  - cite: SDCL 21-37-5.2
+    title:
+      en: Domestic abuse and trafficking victims, waiver and sealing
+      es: Víctimas de violencia doméstica y trata, exención y sellado
+    url: https://sdlegislature.gov/Statutes/21-37-5.2
+related_links:
+  - title: A4TE, South Dakota Identity Documents
+    url: https://transequality.org/documents/south-dakota-identity-documents
+    note:
+      en: No last-updated date is shown and some links are out of date; it predates HB 1184 (2026).
+      es: No muestra fecha de actualización y algunos enlaces están desactualizados; es anterior a HB 1184 (2026).
+  - title: South Dakota UJS Name Change Forms
+    url: https://ujs.sd.gov/self-help/pro-se-forms/name-change-forms/
+sources:
+  - id: sdcl-21-37-2
+    url: https://sdlegislature.gov/Statutes/21-37-2
+    title: SDCL 21-37-2, Residence required for change of name
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Any person who has been a bona fide resident of any county of this state for a period of six months next preceding the filing of the petition
+  - id: sdcl-21-37-3
+    url: https://sdlegislature.gov/Statutes/21-37-3
+    title: SDCL 21-37-3, Petition for change of name, contents
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-21-37-4
+    url: https://sdlegislature.gov/Statutes/21-37-4
+    title: SDCL 21-37-4, Notice of hearing on change of name
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: by publishing the notice once each week for four successive weeks in any legal newspaper of the county of petitioner's residence
+  - id: sdcl-21-37-5
+    url: https://sdlegislature.gov/Statutes/21-37-5
+    title: SDCL 21-37-5, Hearing and order changing name
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: upon proof in open court ... that there exists proper and reasonable cause for changing the name of the petitioner
+  - id: sdcl-21-37-5-1
+    url: https://sdlegislature.gov/Statutes/21-37-5.1
+    title: SDCL 21-37-5.1, Exception for name change of minor
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-21-37-5-2
+    url: https://sdlegislature.gov/Statutes/21-37-5.2
+    title: SDCL 21-37-5.2, Exception for victims, sealed records
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-16-2-29
+    url: https://sdlegislature.gov/Statutes/16-2-29
+    title: SDCL 16-2-29, Fees charged by clerk of courts
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: court-costs
+    url: https://ujs.sd.gov/media/pcyowtsx/2027-schedule-of-court-costs.pdf
+    title: Schedule of Court Costs (Rev. July 1, 2026)
+    publisher: South Dakota Unified Judicial System
+    kind: court
+    accessed: "2026-09-24"
+    quote: Name Change $25.00 $40.00 $7.00 $72.00
+  - id: ujs-forms
+    url: https://ujs.sd.gov/self-help/pro-se-forms/name-change-forms/
+    title: Name Change Forms
+    publisher: South Dakota Unified Judicial System
+    kind: court
+    accessed: "2026-09-24"
+  - id: ujs-024
+    url: https://ujs.sd.gov/files/ujs-024-instructions-for-adult-name-change/
+    title: UJS-024 Instructions, Adult Name Change (Rev. 04/2026)
+    publisher: South Dakota Unified Judicial System
+    kind: form
+    accessed: "2026-09-24"
+    quote: It must be published one time each week for four successive weeks in any legal newspaper in the county where you reside.
+  - id: ujs-025
+    url: https://ujs.sd.gov/files/ujs-025-verified-petition-for-adult-name-change/
+    title: UJS-025 Verified Petition for Adult Name Change (Rev. 04/2026)
+    publisher: South Dakota Unified Judicial System
+    kind: form
+    accessed: "2026-09-24"
+  - id: ujs-022
+    url: https://ujs.sd.gov/files/ujs-022-motion-affidavit-and-order-to-waive-filing-fee-service-of-process-fee-form/
+    title: UJS-022 Motion, Affidavit, and Order for Waiver of Filing and/or Service Fees
+    publisher: South Dakota Unified Judicial System
+    kind: form
+    accessed: "2026-09-24"
+  - id: ujs-fee-waiver
+    url: https://ujs.sd.gov/self-help/civil-law-help/fee-waivers/
+    title: Fee Waivers
+    publisher: South Dakota Unified Judicial System
+    kind: court
+    accessed: "2026-09-24"
+    quote: If the Judge did not sign your Order, you have 30 days to pay the filing fee or your case will be dismissed.
+  - id: tp-name-change
+    url: https://www.transformationprojectsd.org/name-change-gender-correction
+    title: Name Change & Gender Correction
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-contact
+    url: https://www.transformationprojectsd.org/contact
+    title: Contact
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: erls
+    url: https://erlservices.org/
+    title: East River Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-ncp
+    url: https://transequality.org/name-change-project
+    title: Name Change Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-sd
+    url: https://transequality.org/documents/south-dakota-identity-documents
+    title: South Dakota Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

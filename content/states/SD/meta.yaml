@@ -1,0 +1,140 @@
+code: SD
+name:
+  en: South Dakota
+  es: Dakota del Sur
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate is based on primary statutes read on sdlegislature.gov 2026-09-24: HB 1184 (2026, SL 2026 ch 19, signed
+    March 30, 2026, no emergency clause so effective July 1, 2026 under SDCL 2-14-16) defines "sex" as biological sex
+    in SDCL 2-14-2 and orders every state agency and political subdivision to "strictly adhere" to it; HB 1080 (2023,
+    SDCL 34-24-33 to 34-24-38) bans puberty blockers, hormones, and surgery for minors; HB 1259 (2025) and HB 1161 (2026)
+    restrict multi-occupancy restrooms and changing rooms in public buildings by biological sex (SDCL 20-13-58 to 20-13-63).
+    Reviewer: confirm HB 1184 was not referred to the ballot and has no pending court challenge. The Center for
+    Equality (Sioux Falls) was requested as a key resource, but its website returned an empty page and could not be
+    verified, so it is not listed.
+overview:
+  en: >-
+    South Dakota is restrictive. Since July 1, 2026, state law (HB 1184) defines "sex" as biological sex everywhere in
+    state law and requires every state agency to follow that definition, so changing the sex on a South Dakota birth
+    certificate is not available and a driver's license change is doubtful. You can still change your **name**, but the
+    court process requires a hearing and four weeks of newspaper publication. Gender-affirming care is legal for adults
+    (Medicaid excludes "elective gender transition procedures"), and banned for anyone under 18.
+  es: >-
+    Dakota del Sur es restrictivo. Desde el 1 de julio de 2026, la ley estatal (HB 1184) define "sexo" como sexo
+    biológico en toda la ley estatal y obliga a todas las agencias a usar esa definición, por lo que no es posible
+    cambiar el sexo en el acta de nacimiento y el cambio en la licencia de conducir es dudoso. Todavía puedes cambiar
+    tu **nombre**, pero el proceso judicial exige una audiencia y cuatro semanas de publicación en un periódico. La
+    atención de afirmación de género es legal para adultos (Medicaid excluye los "procedimientos electivos de
+    transición de género") y está prohibida para menores de 18 años.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [hb1184-2026, hb1080-2023, map-sd]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [sioux-falls]
+key_resources:
+  - id: transformation-project
+    name: The Transformation Project (Prism Community Center)
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health, hrt]
+    description:
+      en: >-
+        Sioux Falls nonprofit serving trans people and families statewide. Helps with name change and gender
+        correction paperwork (email susan@transformationprojectsd.org), runs the Prism Community Center, a weekly
+        "Safe Space" peer group for adults (in person and virtual), a provider referral list, a free clothing closet,
+        and the SD Trans Resilience Fund for travel to out-of-state care. General line 605-610-8579.
+      es: >-
+        Organización de Sioux Falls que atiende a personas trans y familias en todo el estado. Ayuda con los trámites de
+        cambio de nombre y corrección de género (susan@transformationprojectsd.org), dirige el Prism Community Center, un
+        grupo de apoyo semanal para adultos, una lista de proveedores, un ropero gratuito y el SD Trans Resilience Fund
+        para viajes a atención fuera del estado. Teléfono 605-610-8579.
+    url: https://www.transformationprojectsd.org/
+    phone: "605-610-8579"
+    address: 500 N. Western Ave., Sioux Falls, SD
+    cost: free
+    verification: org_website
+    sources: [tp-name-change, tp-contact, tp-prism]
+  - id: aclu-sd
+    name: ACLU of South Dakota
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization that tracks and challenges anti-trans laws in South Dakota; use its "Get Help" form to report a rights violation.
+      es: Organización de libertades civiles que sigue y desafía leyes anti-trans en Dakota del Sur; usa su formulario "Get Help" para reportar una violación de derechos.
+    url: https://www.aclusd.org/
+    cost: free
+    verification: org_website
+    sources: [aclu-sd]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: hb1184-2026
+    url: https://sdlegislature.gov/Session/Bill/27106
+    title: HB 1184 (2026), An Act to define man and woman throughout the state
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      "Sex," except as used in chapters 22-24A and 22-24B, an individual's biological sex, either male or female ...
+      Each state agency ... shall, in the execution of applicable duties, strictly adhere to the definitions
+  - id: hb1080-2023
+    url: https://sdlegislature.gov/Session/Bill/24100
+    title: HB 1080 (2023), An Act to prohibit certain medical and surgical interventions on minor patients
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-sd
+    url: https://mapresearch.org/equality-profiles/SD/
+    title: South Dakota equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-name-change
+    url: https://www.transformationprojectsd.org/name-change-gender-correction
+    title: Name Change & Gender Correction
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: For assistance with name change and gender correction paperwork, please reach out to Susan (she/her) at susan@transformationprojectsd.org
+  - id: tp-contact
+    url: https://www.transformationprojectsd.org/contact
+    title: Contact
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-prism
+    url: https://www.transformationprojectsd.org/home/prism-community-center
+    title: Prism Community Center
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Prism Center address is 500 N. Western Ave.
+  - id: aclu-sd
+    url: https://www.aclusd.org/
+    title: ACLU of South Dakota
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

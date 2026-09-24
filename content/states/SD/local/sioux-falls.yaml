@@ -1,0 +1,250 @@
+jurisdiction: SD
+slug: sioux-falls
+name: Sioux Falls
+area:
+  en: Minnehaha and Lincoln counties (Second Judicial Circuit)
+  es: Condados de Minnehaha y Lincoln (Segundo Circuito Judicial)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court address and clerk phone from the UJS Minnehaha County court-finder page (read 2026-09-24). Lincoln County
+    residents file at the Lincoln County courthouse in Canton; that page was not read. Falls Community Health's
+    walk-in STI clinic at 521 N. Main Ave. was listed as "temporarily closed" on the city's page; the page refers people
+    to the SD Department of Health office at 1501 S. Highline Ave. (605-367-5363) for free testing. Safe Space SD is run
+    through the Helpline Center and reached via 988; its own phone number was not shown. The Center for Equality could
+    not be verified (empty website) and is not listed. Sanford and Avera gender care pages could not be found or
+    loaded.
+intro:
+  en: >-
+    Sioux Falls is South Dakota's largest city and home to the state's main trans organization, the Transformation
+    Project, and its Prism Community Center. Name change petitions for Minnehaha County residents are filed at the
+    Minnehaha County Courthouse. Adults can get hormone therapy at Planned Parenthood; care for anyone under 18 is
+    banned statewide.
+  es: >-
+    Sioux Falls es la ciudad más grande de Dakota del Sur y sede de la principal organización trans del estado, el
+    Transformation Project, y su Prism Community Center. Las peticiones de cambio de nombre de residentes del condado
+    de Minnehaha se presentan en el tribunal del condado. Los adultos pueden recibir terapia hormonal en Planned
+    Parenthood; la atención para menores de 18 está prohibida en todo el estado.
+court:
+  name: Minnehaha County Clerk of Courts, Second Judicial Circuit (425 N. Dakota Ave., Sioux Falls, SD 57104; 605-367-5900)
+  url: https://ujs.sd.gov/court-finder/second-judicial-circuit/minnehaha-county/
+  self_help_url: https://ujs.sd.gov/self-help/pro-se-forms/name-change-forms/
+  filing_fee: 72
+  notes:
+    en: >-
+      Office hours 8 a.m. to 5 p.m., Monday through Friday; email minnehahacoclerk@ujs.state.sd.us. The $72 fee is the
+      statewide name change fee. Because of Minnesota Avenue construction, approach the courthouse from Dakota or Main
+      Avenue. Lincoln County residents file in Lincoln County.
+    es: >-
+      Horario de 8 a.m. a 5 p.m., de lunes a viernes; correo minnehahacoclerk@ujs.state.sd.us. La tarifa de $72 es la
+      estatal. Por obras en Minnesota Avenue, llega al tribunal por Dakota o Main Avenue. Los residentes del condado de
+      Lincoln presentan en su condado.
+  sources: [minnehaha-court, second-circuit, court-costs]
+resources:
+  - id: transformation-project
+    name: The Transformation Project and Prism Community Center
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: >-
+        Trans-led nonprofit. Free help with name change paperwork (susan@transformationprojectsd.org), a statewide
+        provider referral list, weekly "Safe Space" peer support group for adults 18+ (Tuesdays 5:30 to 6:30 pm, in
+        person and virtual), youth and adult hang-out hours, a Discord server for rural members, and Marty's Closet
+        (free clothing). Ring the doorbell to the right of the recycling bins.
+      es: >-
+        Organización dirigida por personas trans. Ayuda gratuita con trámites de cambio de nombre, lista de proveedores,
+        grupo de apoyo semanal para adultos (martes de 5:30 a 6:30 pm, en persona y virtual), horarios para jóvenes y
+        adultos, un servidor de Discord y Marty's Closet (ropa gratuita).
+    url: https://www.transformationprojectsd.org/
+    phone: "605-610-8579"
+    address: 500 N. Western Ave., Sioux Falls, SD
+    cost: free
+    verification: org_website
+    sources: [tp-prism, tp-support, tp-name-change, tp-contact]
+  - id: east-river-legal-services
+    name: East River Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for low-income residents of eastern South Dakota; apply through sdlawhelp.org or call. Its listed practice areas do not include name changes, so ask.
+      es: Asistencia legal civil gratuita para residentes de bajos ingresos del este de Dakota del Sur; solicita en sdlawhelp.org o llama. Pregunta si ayudan con cambios de nombre.
+    url: https://erlservices.org/
+    phone: "1-800-952-3015"
+    address: 335 N. Main Ave., Suite 200, Sioux Falls, SD 57104
+    cost: free
+    verification: org_website
+    sources: [erls]
+  - id: pp-sioux-falls
+    org: planned-parenthood
+    name: Planned Parenthood Sioux Falls Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Gender-affirming care for adults, HIV services, STI testing, birth control, and mental health; in person or by telehealth. Accepts Medicaid and most insurance.
+      es: Atención de afirmación de género para adultos, servicios de VIH, pruebas de ITS, anticonceptivos y salud mental; en persona o por telesalud. Acepta Medicaid y la mayoría de los seguros.
+    url: https://www.plannedparenthood.org/health-center/south-dakota/sioux-falls/57106/sioux-falls-clinic-2738-90720
+    phone: "605-361-5100"
+    address: 6511 W. 41st St., Sioux Falls, SD 57106
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-sioux-falls]
+  - id: falls-community-health
+    name: Falls Community Health
+    type: primary_care
+    pillars: [sexual_health, hrt]
+    description:
+      en: City of Sioux Falls community health center. Primary care, dental, lab, HIV/STI screening, and PrEP; sliding-scale fees with proof of income. Book at 605-367-8793. Ask whether a provider prescribes hormones.
+      es: Centro de salud comunitario de la ciudad. Atención primaria, dental, laboratorio, pruebas de VIH/ITS y PrEP; tarifas en escala móvil. Citas al 605-367-8793. Pregunta si recetan hormonas.
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health
+    phone: "605-367-8793"
+    address: 521 N. Main Ave., Sioux Falls, SD 57104
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [fch, fch-sti]
+  - id: sd-doh-sioux-falls-testing
+    name: South Dakota Department of Health, Sioux Falls office (HIV/STI testing)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free HIV and STI testing, listed by the city as the alternative while the Falls Community Health walk-in clinic is closed.
+      es: Pruebas gratuitas de VIH e ITS, indicadas por la ciudad como alternativa mientras la clínica sin cita está cerrada.
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health/protectparts
+    phone: "605-367-5363"
+    address: 1501 S. Highline Ave., Sioux Falls, SD 57110
+    cost: free
+    verification: official_source
+    sources: [fch-sti]
+  - id: safe-space-sd
+    name: Safe Space SD (Helpline Center)
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: LGBTQ+ support line run through the Sioux Falls-based Helpline Center. Call, text, or chat 988; staff are available 24/7.
+      es: Línea de apoyo LGBTQ+ del Helpline Center de Sioux Falls. Llama, envía texto o chatea al 988; disponible las 24 horas.
+    url: https://www.safespacesd.org/
+    phone: "988"
+    cost: free
+    verification: org_website
+    sources: [safe-space-sd]
+  - id: sd-trans-resilience-fund
+    name: SD Trans Resilience Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Travel help (gift cards or hotel and transportation) for families of trans minors going out of state for care. Apply through the Transformation Project's online form.
+      es: Ayuda de viaje para familias de menores trans que salen del estado para recibir atención. Solicita con el formulario del Transformation Project.
+    url: https://www.transformationprojectsd.org/trans-resilience-fund
+    cost: free
+    verification: org_website
+    sources: [tp-resilience-fund]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: minnehaha-court
+    url: https://ujs.sd.gov/court-finder/second-judicial-circuit/minnehaha-county/
+    title: Minnehaha County
+    publisher: South Dakota Unified Judicial System
+    kind: court
+    accessed: "2026-09-24"
+    quote: Clerk of Court 425 N. Dakota Avenue Sioux Falls, SD 57104-2470 ... Phone 605-367-5900
+  - id: second-circuit
+    url: https://ujs.sd.gov/court-finder/second-judicial-circuit/
+    title: Second Judicial Circuit
+    publisher: South Dakota Unified Judicial System
+    kind: court
+    accessed: "2026-09-24"
+  - id: court-costs
+    url: https://ujs.sd.gov/media/pcyowtsx/2027-schedule-of-court-costs.pdf
+    title: Schedule of Court Costs (Rev. July 1, 2026)
+    publisher: South Dakota Unified Judicial System
+    kind: court
+    accessed: "2026-09-24"
+    quote: Name Change $25.00 $40.00 $7.00 $72.00
+  - id: tp-prism
+    url: https://www.transformationprojectsd.org/home/prism-community-center
+    title: Prism Community Center
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-support
+    url: https://www.transformationprojectsd.org/support-programs
+    title: Support Programs
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Ages 18+ Weekly on Tuesdays 5:30PM- 6:30PM Virtual and in person
+  - id: tp-name-change
+    url: https://www.transformationprojectsd.org/name-change-gender-correction
+    title: Name Change & Gender Correction
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-contact
+    url: https://www.transformationprojectsd.org/contact
+    title: Contact
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: tp-resilience-fund
+    url: https://www.transformationprojectsd.org/trans-resilience-fund
+    title: SD Trans Resilience Fund
+    publisher: The Transformation Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: erls
+    url: https://erlservices.org/
+    title: East River Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-sioux-falls
+    url: https://www.plannedparenthood.org/health-center/south-dakota/sioux-falls/57106/sioux-falls-clinic-2738-90720
+    title: Sioux Falls Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: fch
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health
+    title: Falls Community Health
+    publisher: City of Sioux Falls
+    kind: official
+    accessed: "2026-09-24"
+  - id: fch-sti
+    url: https://www.siouxfalls.gov/health-safety/health-services/falls-community-health/protectparts
+    title: HIV/STI prevention (Protect Your Parts)
+    publisher: City of Sioux Falls
+    kind: official
+    accessed: "2026-09-24"
+    quote: South Dakota Department of Health 1501 South Highline Avenue, Sioux Falls, SD 57110, 605-367-5363
+  - id: safe-space-sd
+    url: https://www.safespacesd.org/
+    title: Safe Space SD
+    publisher: Helpline Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Call, text or chat with us at 988 ... our staff is available 24 hours a day / 7 days a week.
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

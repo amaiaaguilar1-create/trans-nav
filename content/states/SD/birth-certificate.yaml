@@ -1,0 +1,259 @@
+guide_type: birth_certificate
+jurisdiction: SD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    South Dakota has never had a statute or rule specific to changing sex on a birth certificate. A4TE's page (undated)
+    says the Department of Health amended records under the general amendment rule (ARSD 44:09:05:02) with a certified
+    court order changing name and/or gender. The DOH "Amendments & Court Orders" page (content last updated January 9,
+    2025, read 2026-09-24) describes only name amendments by court order and factual corrections backed by early
+    documentary evidence; it says nothing about sex. HB 1184 (2026, SL 2026 ch 19, effective July 1, 2026) defines
+    "sex" as biological sex and requires every agency to follow it in rules, policies, and practices, which forecloses
+    sex amendments; MAP scores South Dakota's birth certificate policy as a negative law. Status is therefore
+    "prohibited." Not confirmed: whether DOH has issued written guidance, whether it will refuse court orders that
+    direct a sex change, and whether certificates amended before July 1, 2026 are being reissued or voided (no
+    statute voids them). HB 1260 (2025), a document-specific bill, failed 35-35 in the House. Fees ($15 per certified
+    copy, $8 amendment after one year) confirmed on the DOH fee page (last updated January 9, 2025) and SDCL 34-25-51.
+status: prohibited
+requirement_type: prohibited
+markers_available: []
+name_change_status: available
+status_summary:
+  en: >-
+    South Dakota does not change the sex on birth certificates. Since July 1, 2026, state law (HB 1184) defines sex as
+    biological sex and requires the Department of Health to follow that definition. You can still update the **name**
+    on a South Dakota birth certificate with a certified court order and an $8 fee.
+  es: >-
+    Dakota del Sur no cambia el sexo en las actas de nacimiento. Desde el 1 de julio de 2026, la ley estatal (HB 1184)
+    define el sexo como sexo biológico y obliga al Departamento de Salud a usar esa definición. Todavía puedes
+    actualizar el **nombre** en un acta de Dakota del Sur con una orden judicial certificada y una tarifa de $8.
+summary:
+  en: |
+    Birth records are kept by the South Dakota Department of Health, Office of Vital Records, in Pierre. Amendments are governed by SDCL 34-25-51 and ARSD chapter 44:09:05. There has never been a specific rule for correcting sex, and HB 1184 (2026) now requires every state agency to use "biological sex" in all its rules and practices. The Department's amendment page lists no process for changing sex.
+
+    **Name:** a name change on a birth certificate more than a year old requires a certified court order that tells the Department to amend the record (ARSD 44:09:05:12). South Dakota's name change forms let you ask for this in the same case (paragraph 15 of UJS-025 and the order UJS-027).
+
+    This guide applies only if you were **born in South Dakota**. If you were born in another state, that state's law controls your birth certificate.
+  es: |
+    Las actas de nacimiento las guarda el Departamento de Salud de Dakota del Sur, Oficina de Registros Vitales, en Pierre. Las modificaciones se rigen por la SDCL 34-25-51 y el capítulo 44:09:05 de las ARSD. Nunca existió una regla específica para corregir el sexo, y HB 1184 (2026) obliga ahora a todas las agencias a usar el "sexo biológico". La página de modificaciones del Departamento no incluye un proceso para cambiar el sexo.
+
+    **Nombre:** cambiar el nombre en un acta de más de un año requiere una orden judicial certificada que indique al Departamento modificar el registro (ARSD 44:09:05:12). Los formularios de cambio de nombre permiten pedirlo en el mismo caso (párrafo 15 de UJS-025 y la orden UJS-027).
+
+    Esta guía aplica solo si **naciste en Dakota del Sur**. Si naciste en otro estado, rige la ley de ese estado.
+eligibility:
+  other:
+    en: You must have been born in South Dakota. The registrant (if an adult), a parent, or a guardian may request an amendment (ARSD 44:09:05:04).
+    es: Debes haber nacido en Dakota del Sur. Puede pedir la modificación la persona registrada (si es adulta), uno de los padres o el tutor.
+  sources: [arsd-44-09-05-04, doh-amendments]
+forms:
+  - id: birth-record-amendment-request
+    name:
+      en: Birth Record Amendment Request
+      es: Solicitud de modificación de acta de nacimiento
+    url: https://doh.sd.gov/media/rekjrpxy/birth-record-amendment-request-form.pdf
+    required: always
+    condition:
+      en: Sign in front of a notary public. Send with the certified court order and the $8 fee.
+      es: Fírmala ante un notario. Envíala con la orden judicial certificada y la tarifa de $8.
+    sources: [doh-amendments]
+  - id: vital-records-request
+    name:
+      en: South Dakota Vital Records Request (to order certified copies)
+      es: Solicitud de registros vitales de Dakota del Sur (para pedir copias certificadas)
+    url: https://doh.sd.gov/media/enwfylbq/stateapplication.pdf
+    required: optional
+    condition:
+      en: Use it to order new certified copies after the amendment. Copies you already bought can be exchanged at no cost.
+      es: Úsala para pedir copias certificadas nuevas después de la modificación. Las copias ya compradas se pueden cambiar sin costo.
+    sources: [doh-fees, doh-homeless-waiver]
+steps:
+  - id: sex-marker-not-available
+    title:
+      en: Know that the sex marker cannot be changed
+      es: Ten en cuenta que el marcador de sexo no se puede cambiar
+    body:
+      en: |
+        Before July 1, 2026, the Department of Health reportedly amended the sex on a birth certificate when given a certified court order. HB 1184 (2026) now requires all state agencies to use biological sex in their rules and practices, and the Department lists no process for changing sex. Do not pay for a court petition only to change the sex on a South Dakota birth certificate without first getting legal advice.
+      es: |
+        Antes del 1 de julio de 2026, se informaba que el Departamento de Salud modificaba el sexo en el acta con una orden judicial certificada. HB 1184 (2026) obliga ahora a todas las agencias a usar el sexo biológico, y el Departamento no ofrece un proceso para cambiarlo. No pagues una petición judicial solo para cambiar el sexo en un acta de Dakota del Sur sin antes obtener asesoría legal.
+    applies_to: [gender_marker]
+    sources: [hb1184-2026, a4te-sd, map-sd, doh-amendments]
+  - id: court-order
+    title:
+      en: Get a court order that directs the name amendment
+      es: Obtén una orden judicial que ordene modificar el nombre
+    body:
+      en: When you petition for a name change, check paragraph 15 of UJS-025 and the birth certificate box on the order (UJS-027). The order must identify the certificate, show the name as it appears now, and show the new name (ARSD 44:09:05:02).
+      es: Al pedir el cambio de nombre, marca el párrafo 15 de UJS-025 y la casilla del acta en la orden (UJS-027). La orden debe identificar el acta, mostrar el nombre actual y el nuevo nombre.
+    applies_to: [name_change]
+    sources: [arsd-44-09-05-02, doh-amendments]
+  - id: send-amendment
+    title:
+      en: Send the amendment request to Vital Records
+      es: Envía la solicitud de modificación a Registros Vitales
+    body:
+      en: |
+        Mail the notarized Birth Record Amendment Request, a **certified** copy of the court order, and the $8 fee (payable to the South Dakota Department of Health) to Vital Records, 221 W. Capitol Ave., Pierre, SD 57501. Questions: 605-773-4961 or vitalrecords@state.sd.us.
+      es: |
+        Envía por correo la solicitud notariada, una copia **certificada** de la orden judicial y la tarifa de $8 (a nombre del South Dakota Department of Health) a Vital Records, 221 W. Capitol Ave., Pierre, SD 57501. Preguntas: 605-773-4961 o vitalrecords@state.sd.us.
+    forms: [birth-record-amendment-request]
+    fees: [amendment]
+    applies_to: [name_change, by_mail]
+    sources: [doh-amendments, doh-fees]
+  - id: order-copies
+    title:
+      en: Order certified copies of the amended certificate
+      es: Pide copias certificadas del acta modificada
+    body:
+      en: Order copies from Vital Records or any county Register of Deeds office. Each certified copy is $15. If you are homeless, one copy is free with the Affidavit of Homeless Status.
+      es: Pide copias en Registros Vitales o en cualquier Register of Deeds del condado. Cada copia certificada cuesta $15. Si no tienes hogar, una copia es gratis con la declaración jurada de falta de vivienda.
+    forms: [vital-records-request]
+    fees: [certified-copy]
+    sources: [doh-fees, doh-homeless-waiver]
+fees:
+  - id: amendment
+    label:
+      en: Amendment of a record more than 1 year old
+      es: Modificación de un registro de más de 1 año
+    amount: 8
+    note:
+      en: Does not include a certified copy.
+      es: No incluye una copia certificada.
+    sources: [doh-fees, sdcl-34-25-51]
+  - id: certified-copy
+    label:
+      en: Certified copy of a birth certificate
+      es: Copia certificada de acta de nacimiento
+    amount: 15
+    note:
+      en: Phone or internet orders add an $11.50 expedite fee. One free copy for people experiencing homelessness (SDCL 34-25-63).
+      es: Los pedidos por teléfono o internet agregan $11.50. Una copia gratis para personas sin hogar.
+    sources: [doh-fees, doh-homeless-waiver]
+fee_waiver:
+  available: true
+  eligibility:
+    en: Only for people experiencing homelessness (one free certified copy), and for certain military, Head Start, school-enrollment, and youth baseball uses.
+    es: Solo para personas sin hogar (una copia certificada gratis) y ciertos usos militares, Head Start, inscripción escolar y béisbol juvenil.
+  how:
+    en: Submit the Affidavit of Homeless Status, signed before a notary by you and a homeless services provider, with the Vital Records Request form.
+    es: Envía la declaración jurada de falta de vivienda, firmada ante notario por ti y un proveedor de servicios, con la solicitud de registros vitales.
+  sources: [doh-homeless-waiver, doh-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Amendment requests go to the Vital Records Office in Pierre by mail or in person. Copies can also be ordered at county Register of Deeds offices.
+    es: Las solicitudes de modificación van a la Oficina de Registros Vitales en Pierre por correo o en persona.
+  sources: [doh-amendments, doh-homeless-waiver]
+after:
+  en: With your amended certificate, update your passport and any records that ask for a birth certificate. The sex field on your South Dakota birth certificate will stay as originally recorded.
+  es: Con tu acta modificada, actualiza tu pasaporte y cualquier registro que pida acta de nacimiento. El campo de sexo de tu acta de Dakota del Sur quedará como se registró originalmente.
+tips:
+  - en: If you were born in another state, check that state's rules; some still change the sex marker for people who live elsewhere.
+    es: Si naciste en otro estado, revisa las reglas de ese estado; algunos aún cambian el marcador de sexo a quienes viven en otro lugar.
+  - en: If you had your sex marker changed before July 1, 2026 and receive any notice from Vital Records about your record, contact the ACLU of South Dakota.
+    es: Si cambiaste tu marcador antes del 1 de julio de 2026 y recibes un aviso de Registros Vitales sobre tu acta, contacta a la ACLU de Dakota del Sur.
+statutes:
+  - cite: SDCL 34-25-51
+    title:
+      en: Amendment of vital records, $8 fee
+      es: Modificación de registros vitales, tarifa de $8
+    url: https://sdlegislature.gov/Statutes/34-25-51
+  - cite: ARSD 44:09:05:02
+    title:
+      en: Requirements for amending vital records
+      es: Requisitos para modificar registros vitales
+    url: https://sdlegislature.gov/Rules/Administrative/44:09:05:02
+  - cite: SDCL 2-14-2 (as amended by HB 1184, 2026)
+    title:
+      en: "\"Sex\" means biological sex throughout state law"
+      es: "\"Sexo\" significa sexo biológico en toda la ley estatal"
+    url: https://sdlegislature.gov/Statutes/2-14-2
+pending_bills:
+  - bill: HB 1260 (2025)
+    summary:
+      en: Would have required birth certificates to reflect biological sex. Failed in the House 35-35.
+      es: Habría exigido que las actas reflejaran el sexo biológico. Fracasó en la Cámara 35-35.
+    status: dead
+    last_action: "2025-02-20"
+    url: https://sdlegislature.gov/Session/Bill/26071
+    sources: [hb1260-2025]
+related_links:
+  - title: A4TE, South Dakota Identity Documents
+    url: https://transequality.org/documents/south-dakota-identity-documents
+    note:
+      en: Describes the court-order practice used before HB 1184 (2026); no longer current.
+      es: Describe la práctica anterior a HB 1184 (2026); ya no está vigente.
+sources:
+  - id: doh-amendments
+    url: https://doh.sd.gov/licensing-and-records/vital-records/amendments-court-orders/
+    title: Amendments & Court Orders
+    publisher: South Dakota Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: >-
+      To file a court-ordered name change on a vital record, you must provide a certified copy of the court order that
+      directs the record be amended
+  - id: doh-fees
+    url: https://doh.sd.gov/licensing-and-records/vital-records/order-vital-records/vital-records-fees/
+    title: Vital Records Fees
+    publisher: South Dakota Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Certified or informational copy of birth, death, marriage, or divorce record ... $15.00
+  - id: doh-homeless-waiver
+    url: https://doh.sd.gov/licensing-and-records/vital-records/homeless-birth-certificate-waiver/
+    title: Homeless Birth Certificate Waiver
+    publisher: South Dakota Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: sdcl-34-25-51
+    url: https://sdlegislature.gov/Statutes/34-25-51
+    title: SDCL 34-25-51, Amendment of vital record
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: arsd-44-09-05-02
+    url: https://sdlegislature.gov/Rules/Administrative/44:09:05:02
+    title: ARSD 44:09:05:02, Requirements for amending vital records
+    publisher: South Dakota Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: arsd-44-09-05-04
+    url: https://sdlegislature.gov/Rules/Administrative/44:09:05:04
+    title: ARSD 44:09:05:04, Who may request an amendment
+    publisher: South Dakota Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: hb1184-2026
+    url: https://sdlegislature.gov/Session/Bill/27106
+    title: HB 1184 (2026), An Act to define man and woman throughout the state
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      Each state agency ... shall, in the execution of applicable duties, strictly adhere to the definitions of ...
+      "sex" ... as set forth in § 2-14-2.
+  - id: hb1260-2025
+    url: https://sdlegislature.gov/Session/Bill/26071
+    title: HB 1260 (2025), require that birth certificates and certain official documents reflect biological sex
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-sd
+    url: https://mapresearch.org/equality-profiles/SD/
+    title: South Dakota equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-sd
+    url: https://transequality.org/documents/south-dakota-identity-documents
+    title: South Dakota Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

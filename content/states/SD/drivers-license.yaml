@@ -1,0 +1,217 @@
+guide_type: drivers_license
+jurisdiction: SD
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The Department of Public Safety's driver licensing pages now live on the sd.gov ServiceNow portal, which renders
+    only with JavaScript. The fee article KB0043708 was read through the portal's search API (Duplicate/Replacement
+    Driver License $20); fees were confirmed against SDCL 32-12-16 as amended by SB 3 (2025): $38 original/renewal,
+    $20 duplicate, name change, or address change; ID card fees are the same (SDCL 32-12-17.2). NO official DPS page on
+    changing the sex marker was found; portal searches for "gender" and "sex" returned nothing relevant. A4TE's South
+    Dakota page (undated; links a retired DPS URL) says DPS accepted a court order or a licensed physician's affidavit
+    that the applicant's gender "has been medically altered." That policy predates HB 1184 (2026, effective July 1,
+    2026), which defines "sex" as biological sex throughout state law and requires every state agency to "strictly
+    adhere" to it in its "policies, practices." SDCL 32-12-17.10 requires the license to show "the holder's sex." Taken
+    together, a marker change is very likely no longer granted, but no DPS statement confirms it, so status is
+    "unclear." MAP shows no negative driver's license law for South Dakota (0/1), which is consistent with the absence
+    of a DL-specific statute. HB 1260 (2025), which would have required documents to reflect biological sex,
+    failed in the House 35-35 on February 19, 2025. Reviewer: call DPS Driver Licensing (605-773-6883 is commonly
+    listed, not verified) to confirm current practice and whether previously changed markers are being reversed.
+status: unclear
+requirement_type: unclear
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on a South Dakota driver license or ID for $20. Changing the sex marker is very likely no
+    longer possible: since July 1, 2026, state law requires every agency to use biological sex, and the license must
+    show "the holder's sex." The state has not published a policy either way; there is no X option.
+  es: >-
+    Puedes actualizar tu nombre en la licencia o identificación de Dakota del Sur por $20. Es muy probable que ya no se
+    pueda cambiar el marcador de sexo: desde el 1 de julio de 2026 la ley obliga a todas las agencias a usar el sexo
+    biológico, y la licencia debe mostrar "el sexo del titular". El estado no ha publicado una política; no existe la
+    opción X.
+summary:
+  en: |
+    **Name change:** bring your certified court order (or another document proving the new legal name, such as a passport in that name) to a Driver Licensing exam station and pay the $20 name change fee. The name on the card must be your full legal name.
+
+    **Sex marker:** South Dakota law requires the license to show "the holder's sex" (SDCL 32-12-17.10). HB 1184 (2026) now defines "sex" in all state law as "an individual's biological sex, either male or female," and requires state agencies to strictly follow that definition in their policies and practices. Before this law, advocates reported that the Department of Public Safety changed the marker with a court order or a physician's statement. We could not find any current DPS policy. Expect a request to be refused, and ask before you pay.
+
+    Only **M** and **F** are printed on South Dakota cards; there is no X.
+  es: |
+    **Cambio de nombre:** lleva tu orden judicial certificada (u otro documento que pruebe el nuevo nombre legal, como un pasaporte con ese nombre) a una estación de licencias y paga $20. La tarjeta debe mostrar tu nombre legal completo.
+
+    **Marcador de sexo:** la ley exige que la licencia muestre "el sexo del titular" (SDCL 32-12-17.10). HB 1184 (2026) define ahora "sexo" en toda la ley estatal como "el sexo biológico de una persona, masculino o femenino" y obliga a las agencias a seguir esa definición. Antes de esta ley, se informaba que el Departamento de Seguridad Pública cambiaba el marcador con una orden judicial o una declaración médica. No encontramos una política actual. Espera una negativa y pregunta antes de pagar.
+
+    Las tarjetas de Dakota del Sur solo muestran **M** y **F**; no hay X.
+eligibility:
+  residency:
+    en: South Dakota residents. Name and identity documents must meet the state's REAL ID document rules (SDCL 32-12-3.1 to 32-12-3.5).
+    es: Residentes de Dakota del Sur. Los documentos deben cumplir las reglas de identificación del estado.
+  sources: [sdcl-32-12-3]
+steps:
+  - id: gather-name-documents
+    title:
+      en: Gather proof of your new legal name
+      es: Reúne la prueba de tu nuevo nombre legal
+    body:
+      en: Bring a certified copy of the court order changing your name (or a U.S. passport in the new name), plus your current license or ID. Update your name with Social Security first, since the license record is checked against it.
+      es: Lleva una copia certificada de la orden judicial de cambio de nombre (o un pasaporte con el nuevo nombre) y tu licencia o identificación actual. Actualiza primero tu nombre en el Seguro Social.
+    applies_to: [name_change]
+    sources: [dps-name-change-news, sdcl-32-12-3]
+  - id: visit-exam-station
+    title:
+      en: Visit a Driver Licensing exam station and pay $20
+      es: Visita una estación de licencias y paga $20
+    body:
+      en: A name change requires a new card with a new photo, so go in person. Some offices, including Sioux Falls, work by appointment; schedule on the state's driver licensing site. The fee for a name change or duplicate is $20 for a driver license or ID card.
+      es: Un cambio de nombre requiere una nueva tarjeta con foto, así que ve en persona. Algunas oficinas, como la de Sioux Falls, atienden con cita. La tarifa es $20 para licencia o identificación.
+    fees: [name-change]
+    applies_to: [name_change, in_person]
+    sources: [dps-fees, sdcl-32-12-16, dps-sioux-falls-appointments]
+  - id: ask-about-marker
+    title:
+      en: Ask before trying to change the sex marker
+      es: Pregunta antes de intentar cambiar el marcador de sexo
+    body:
+      en: |
+        If you want to try, call Driver Licensing first and ask whether it accepts any document to change the sex on a license after HB 1184 took effect on July 1, 2026. Ask for the answer in writing. If you are refused, contact the ACLU of South Dakota or the Transformation Project, which track how the law is applied.
+      es: |
+        Si quieres intentarlo, llama primero a Licencias de Conducir y pregunta si acepta algún documento para cambiar el sexo después de que HB 1184 entró en vigor el 1 de julio de 2026. Pide la respuesta por escrito. Si te lo niegan, contacta a la ACLU de Dakota del Sur o al Transformation Project.
+    applies_to: [gender_marker]
+    optional: true
+    sources: [hb1184-2026, sdcl-32-12-17-10, a4te-sd]
+fees:
+  - id: name-change
+    label:
+      en: Name change, duplicate, or address change (driver license or ID card)
+      es: Cambio de nombre, duplicado o cambio de dirección (licencia o identificación)
+    amount: 20
+    note:
+      en: An original or renewal license is $38. A one-time free ID card or duplicate is available if you are homeless, with an affidavit from a homeless services provider (SDCL 32-12-17.16).
+      es: Una licencia original o renovación cuesta $38. Si no tienes hogar, puedes obtener una vez una identificación o duplicado gratis con una declaración de un proveedor de servicios (SDCL 32-12-17.16).
+    sources: [dps-fees, sdcl-32-12-16, sdcl-32-12-17-2, sdcl-32-12-17-16]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require a visit to an exam station for a new photo.
+    es: Los cambios de nombre requieren visitar una estación para una nueva foto.
+  sources: [dps-sioux-falls-appointments, sdcl-32-12-17-10]
+after:
+  en: If you have a South Dakota birth certificate, you can amend the name on it with your court order (see the birth certificate guide). Keep your old card until the new one arrives.
+  es: Si tienes acta de nacimiento de Dakota del Sur, puedes modificar el nombre con tu orden judicial (ver la guía del acta de nacimiento). Guarda tu tarjeta anterior hasta recibir la nueva.
+tips:
+  - en: Bring the certified court order, not a photocopy.
+    es: Lleva la orden judicial certificada, no una fotocopia.
+statutes:
+  - cite: SDCL 32-12-17.10
+    title:
+      en: Contents of license, including the holder's sex
+      es: Contenido de la licencia, incluido el sexo del titular
+    url: https://sdlegislature.gov/Statutes/32-12-17.10
+  - cite: SDCL 32-12-16
+    title:
+      en: Fees for original, renewal, duplicate, or changed license
+      es: Tarifas de licencia original, renovación, duplicado o cambio
+    url: https://sdlegislature.gov/Statutes/32-12-16
+  - cite: SDCL 2-14-2 (as amended by HB 1184, 2026)
+    title:
+      en: Definition of "sex" as biological sex throughout state law
+      es: Definición de "sexo" como sexo biológico en toda la ley estatal
+    url: https://sdlegislature.gov/Statutes/2-14-2
+pending_bills:
+  - bill: HB 1260 (2025)
+    summary:
+      en: Would have required birth certificates and other official documents, including driver licenses, to reflect biological sex. Failed on the House floor 35-35; reconsideration failed.
+      es: Habría exigido que las actas de nacimiento y otros documentos oficiales reflejaran el sexo biológico. Fracasó en la Cámara 35-35.
+    status: dead
+    last_action: "2025-02-20"
+    url: https://sdlegislature.gov/Session/Bill/26071
+    sources: [hb1260-2025]
+related_links:
+  - title: A4TE, South Dakota Identity Documents
+    url: https://transequality.org/documents/south-dakota-identity-documents
+    note:
+      en: Describes the older court-order or physician-affidavit policy; predates HB 1184 (2026).
+      es: Describe la política anterior; es anterior a HB 1184 (2026).
+sources:
+  - id: dps-fees
+    url: https://www.sd.gov/dps?id=kb_article_view&sysparm_article=KB0043708
+    title: Driver License/ID Card Fees (KB0043708)
+    publisher: South Dakota Department of Public Safety
+    kind: official
+    accessed: "2026-09-24"
+    quote: Driver License $38 Driver License Renewal $38 Duplicate / Replacement Driver License $20
+  - id: dps-sioux-falls-appointments
+    url: https://www.sd.gov/dps?id=kb_article_view&sysparm_article=KB0044486
+    title: Sioux Falls Driver License Express Station Moving to Appointments Only
+    publisher: South Dakota Department of Public Safety
+    kind: official
+    accessed: "2026-09-24"
+  - id: dps-name-change-news
+    url: https://www.sd.gov/dps?id=kb_article_view&sysparm_article=KB0014053
+    title: Passport Works As Proof Of Driver License Name-Change
+    publisher: South Dakota Department of Public Safety
+    kind: official
+    accessed: "2026-09-24"
+  - id: sdcl-32-12-16
+    url: https://sdlegislature.gov/Statutes/32-12-16
+    title: SDCL 32-12-16, Fee for original, renewal, duplicate, or changed license
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The fee for a duplicate license, a name change, or an address change is twenty dollars.
+  - id: sdcl-32-12-17-2
+    url: https://sdlegislature.gov/Statutes/32-12-17.2
+    title: SDCL 32-12-17.2, Nondriver identification cards
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-32-12-17-10
+    url: https://sdlegislature.gov/Statutes/32-12-17.10
+    title: SDCL 32-12-17.10, Contents of license or permit
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: must bear ... (4) The holder's sex
+  - id: sdcl-32-12-17-16
+    url: https://sdlegislature.gov/Statutes/32-12-17.16
+    title: SDCL 32-12-17.16, Nondriver ID fee waiver for homeless applicants
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sdcl-32-12-3
+    url: https://sdlegislature.gov/Statutes/32-12-3
+    title: SDCL 32-12-3, Contents of application
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hb1184-2026
+    url: https://sdlegislature.gov/Session/Bill/27106
+    title: HB 1184 (2026), An Act to define man and woman throughout the state
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      The definitions of "boy," "father," "female," "girl," "male," "man," "mother," "sex," and "woman," as set forth
+      in § 2-14-2, apply uniformly throughout all administrative rules, contracts, guidance documents, policies,
+      practices, and statutes of the state and each political subdivision.
+  - id: hb1260-2025
+    url: https://sdlegislature.gov/Session/Bill/26071
+    title: HB 1260 (2025), require that birth certificates and certain official documents reflect biological sex
+    publisher: South Dakota Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: a4te-sd
+    url: https://transequality.org/documents/south-dakota-identity-documents
+    title: South Dakota Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: a court order certifying the gender change or (2b) a signed affidavit from a licensed physician certifying that the applicant's gender has been medically altered
