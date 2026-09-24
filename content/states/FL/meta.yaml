@@ -1,0 +1,136 @@
+code: FL
+name:
+  en: Florida
+  es: Florida
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings from primary sources (Fla. Stat. 456.52, 286.311, Rule 59G-1.050(7)) and agency and advocate
+    pages read 2026-09-24. MAP's identity-document map (read 2026-09-24) was summarized as showing a "positive"
+    birth certificate policy for Florida, which conflicts with the Florida Name Change Project and Equality Florida
+    reports that DOH refuses sex-marker amendments; reviewer should check the MAP citation directly. Litigation
+    status of Doe v. Ladapo and Dekker v. Weida could not be confirmed past mid-2026 (see care.yaml notes).
+overview:
+  en: >-
+    Florida is one of the most restrictive states for trans people. You can still change your **name** in circuit
+    court (with a required FBI/FDLE fingerprint check), but since January 2024 the driver's license agency will not
+    change the sex on an existing license or ID, and the Department of Health has stopped amending the sex on birth
+    certificates. A 2023 law (SB 254) bans hormone therapy and surgery for minors and requires adults to see a
+    **physician in person** and sign a state consent form; Florida Medicaid and state-funded plans exclude
+    gender-affirming care. Both restrictions are being challenged in federal court. Florida has no shield law.
+  es: >-
+    Florida es uno de los estados más restrictivos para las personas trans. Todavía puedes cambiar tu **nombre** en
+    el tribunal de circuito (con una verificación de huellas obligatoria del FBI/FDLE), pero desde enero de 2024 la
+    agencia de licencias no cambia el sexo en una licencia o identificación existente, y el Departamento de Salud
+    dejó de enmendar el sexo en las actas de nacimiento. Una ley de 2023 (SB 254) prohíbe la terapia hormonal y la
+    cirugía para menores y exige que los adultos vean a un **médico en persona** y firmen un formulario estatal de
+    consentimiento; Medicaid de Florida y los planes con fondos estatales excluyen la atención de afirmación de
+    género. Ambas restricciones están impugnadas en un tribunal federal. Florida no tiene ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [fs-456-52, eqfl-dhsmv-faq, fnc-birth, map-health]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [miami, orlando]
+key_resources:
+  - id: southern-legal-counsel
+    name: Southern Legal Counsel, Trans Rights Initiative
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: >-
+        Gainesville-based nonprofit law firm that represents low-income Floridians statewide. Its Trans Rights
+        Initiative handles gender marker problems with state and federal documents and brought the Medicaid and
+        SB 254 challenges. Apply through its online intake.
+      es: >-
+        Bufete sin fines de lucro con sede en Gainesville que representa a floridanos de bajos ingresos en todo el
+        estado. Su Iniciativa de Derechos Trans atiende problemas de marcadores de género en documentos estatales y
+        federales. Solicita ayuda por su formulario en línea.
+    url: https://www.southernlegal.org/
+    phone: "352-271-8890"
+    address: 1229 NW 12th Ave, Gainesville, FL 32601
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [slc]
+  - id: equality-florida
+    name: Equality Florida, Transgender Equality program
+    type: advocacy_org
+    pillars: [gender_marker, hrt, insurance]
+    description:
+      en: >-
+        Statewide LGBTQ advocacy group. Publishes FAQs on the driver's license policy and runs community education
+        and health care resource sharing for trans Floridians.
+      es: >-
+        Organización estatal de defensa LGBTQ. Publica preguntas frecuentes sobre la política de licencias y ofrece
+        educación comunitaria y recursos de salud para personas trans en Florida.
+    url: https://eqfl.org/issue/transgender-equality/
+    cost: free
+    verification: org_website
+    sources: [eqfl-trans]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: fs-456-52
+    url: https://www.flsenate.gov/Laws/Statutes/2025/456.52
+    title: Fla. Stat. § 456.52, Sex-reassignment prescriptions and procedures; prohibitions; informed consent
+    publisher: The Florida Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Sex-reassignment prescriptions and procedures are prohibited for patients younger than 18 years of age
+  - id: eqfl-dhsmv-faq
+    url: https://eqfl.org/resource/faq-dhsmv-memo/
+    title: FAQ on DHSMV Memo
+    publisher: Equality Florida
+    kind: org
+    accessed: "2026-09-24"
+    quote: those with updated gender markers should be able to retain their affirming gender markers upon renewal
+  - id: fnc-birth
+    url: https://www.floridanamechange.org/step-5---birth-certificate-gender.html
+    title: Step 5, Birth Certificate Gender
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+    quote: The Florida Department of Health recently changed its policy to prohibit gender marker amendments on Florida birth certificates.
+  - id: map-health
+    url: https://www.mapresearch.org/equality-map/healthcare-laws-and-policies
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: slc
+    url: https://www.southernlegal.org/
+    title: Southern Legal Counsel
+    kind: org
+    accessed: "2026-09-24"
+  - id: eqfl-trans
+    url: https://eqfl.org/issue/transgender-equality/
+    title: Transgender Equality
+    publisher: Equality Florida
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

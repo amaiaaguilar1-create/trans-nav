@@ -1,0 +1,206 @@
+jurisdiction: FL
+slug: miami
+name: Miami
+area:
+  en: Miami-Dade County
+  es: Condado de Miami-Dade
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details from the Eleventh Circuit Self-Help Program page and adult name change packet (read 2026-09-24).
+    Org details from each org's own site the same day. Not confirmed: whether any Miami clinic currently prescribes
+    gender-affirming hormones under SB 254's physician-only rule. Care Resource's site shows a "coming" banner for
+    gender-affirming services but no details; Pridelines lists primary care but not hormones. Reviewer should call
+    both, and check whether Planned Parenthood of Florida's Miami centers offer hormone therapy. Legal Services of
+    Greater Miami's site did not mention name change help; it is listed for general civil legal aid.
+intro:
+  en: >-
+    Miami-Dade has several LGBTQ community organizations, a trans-led group that helps with name changes, and
+    sliding-scale clinics for PrEP and STI testing. Hormone therapy options are limited by Florida's physician-only
+    and in-person consent rules, so call clinics before visiting. Name change petitions are filed with the Miami-Dade
+    Clerk at the Lawson E. Thomas Courthouse Center downtown.
+  es: >-
+    Miami-Dade tiene varias organizaciones LGBTQ, un grupo trans que ayuda con cambios de nombre y clínicas con escala
+    móvil para PrEP y pruebas de ITS. Las opciones de terapia hormonal están limitadas por las reglas de Florida de
+    médico y consentimiento en persona, así que llama antes. Las peticiones de cambio de nombre se presentan ante el
+    secretario de Miami-Dade en el Lawson E. Thomas Courthouse Center.
+court:
+  name: Circuit Court of the Eleventh Judicial Circuit (Miami-Dade), Family Division
+  url: https://www.jud11.flcourts.org/
+  self_help_url: https://www.jud11.flcourts.org/Family-Court-Self-Help-Program
+  filing_fee: 401
+  notes:
+    en: >-
+      File at the Clerk's NEW FILINGS window, 175 NW 1st Avenue, 12th Floor, Miami. The Family Court Self-Help
+      Program (Room 2441 in the same building, or the South Dade Justice Center in Cutler Bay; 305-349-7800) reviews
+      and notarizes name change packets for a $40 fee. Fingerprint ORI number for Miami-Dade is FL923940Z. The hearing
+      date arrives by mail in about 4 to 8 weeks.
+    es: >-
+      Presenta en la ventanilla NEW FILINGS, 175 NW 1st Avenue, piso 12, Miami. El Programa de Autoayuda (sala 2441,
+      o el South Dade Justice Center; 305-349-7800) revisa y notariza los paquetes por $40. El número ORI para huellas
+      es FL923940Z.
+  sources: [md-packet, md-selfhelp, fnc-miami-prints]
+resources:
+  - id: transsocial
+    name: TransSOCIAL
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health, insurance]
+    description:
+      en: Trans-led Miami organization offering name change and ID document help, peer support, mental health and legal referrals, and help with insurance denials.
+      es: Organización trans de Miami que ayuda con cambios de nombre y documentos, apoyo entre pares, referencias de salud mental y legales, y negaciones de seguro.
+    url: https://transsocial.org/
+    phone: "305-747-3156"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [transsocial]
+  - id: md-self-help
+    name: Family Court Self-Help Program, Eleventh Judicial Circuit
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court program that provides the name change packet, paralegal review, notarization, and help setting the final hearing. $40 for name changes; no legal advice.
+      es: Programa del tribunal con el paquete de cambio de nombre, revisión, notarización y ayuda para fijar la audiencia. $40; no da asesoría legal.
+    url: https://www.jud11.flcourts.org/Family-Court-Self-Help-Program
+    phone: "305-349-7800"
+    address: 175 NW 1st Avenue, Room 2441, Miami, FL 33128
+    cost: low_cost
+    verification: official_source
+    sources: [md-selfhelp]
+  - id: legal-services-miami
+    name: Legal Services of Greater Miami
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal services for low-income residents of Miami-Dade and Monroe counties. Call to ask whether your issue (name change, benefits, insurance) is covered.
+      es: Servicios legales civiles gratuitos para residentes de bajos ingresos de Miami-Dade y Monroe. Llama para preguntar si cubren tu caso.
+    url: https://www.legalservicesmiami.org/
+    phone: "305-576-0080"
+    address: 4343 West Flagler Street, Suite 100, Miami, FL 33134
+    cost: free
+    verification: org_website
+    sources: [lsgm]
+  - id: pridelines
+    name: Pridelines
+    type: lgbtq_center
+    pillars: [sexual_health, mental_health]
+    description:
+      en: LGBTQ community center in Miami Beach with HIV testing, STI screening, PrEP/PEP and DoxyPEP navigation, primary care, sliding-scale therapy, and youth (13 to 24) programs.
+      es: Centro LGBTQ en Miami Beach con pruebas de VIH e ITS, navegación de PrEP/PEP y DoxyPEP, atención primaria, terapia con escala móvil y programas juveniles (13 a 24 años).
+    url: https://pridelines.center/
+    phone: "305-571-9601"
+    address: 1130 Washington Ave, First Floor, Miami Beach, FL 33139
+    cost: sliding_scale
+    verification: org_website
+    sources: [pridelines]
+  - id: care-resource
+    name: Care Resource
+    type: primary_care
+    pillars: [sexual_health, mental_health, hrt]
+    description:
+      en: Federally qualified health center with primary care, behavioral health, HIV/STI testing, PrEP, PEP, and DoxyPEP, on a sliding fee scale. Ask whether gender-affirming hormone care is available; its site says it is coming.
+      es: Centro de salud federal con atención primaria, salud mental, pruebas de VIH/ITS, PrEP, PEP y DoxyPEP con escala móvil. Pregunta si ya ofrecen terapia hormonal.
+    url: https://careresource.org/
+    phone: "305-576-1234"
+    address: 3510 Biscayne Blvd, Miami, FL 33137
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [care-resource]
+  - id: save
+    name: SAVE
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: South Florida's longest-serving LGBTQ civil rights organization; community connections, youth leadership programs, and scholarships.
+      es: La organización de derechos civiles LGBTQ más antigua del sur de Florida; programas juveniles y becas.
+    url: https://save.lgbt/
+    phone: "305-751-7283"
+    cost: free
+    verification: org_website
+    sources: [save]
+  - id: doh-miami-dade
+    name: Florida Department of Health in Miami-Dade County
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: County health department; call for HIV and STI testing and PrEP options, or use the state PrEP provider finder.
+      es: Departamento de salud del condado; llama para pruebas de VIH e ITS y opciones de PrEP.
+    url: https://miamidade.floridahealth.gov/
+    phone: "305-324-2400"
+    cost: varies
+    verification: official_source
+    sources: [doh-md]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: md-packet
+    url: https://www.jud11.flcourts.org/docs/Name%20change%20adult%20Online.pdf
+    title: Name Change Adult packet
+    publisher: Eleventh Judicial Circuit of Florida
+    kind: court
+    accessed: "2026-09-24"
+    quote: File with the Clerk at 175 N.W. 1st Avenue, 12th Floor at the NEW FILINGS window and pay the filing fee of $401.00
+  - id: md-selfhelp
+    url: https://www.jud11.flcourts.org/Family-Court-Self-Help-Program
+    title: Family Court Self-Help Program
+    publisher: Eleventh Judicial Circuit of Florida
+    kind: court
+    accessed: "2026-09-24"
+  - id: fnc-miami-prints
+    url: https://www.floridanamechange.org/miami-dade-get-fingerprints.html
+    title: Miami-Dade, Get Fingerprints
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+  - id: transsocial
+    url: https://transsocial.org/
+    title: TransSOCIAL
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsgm
+    url: https://www.legalservicesmiami.org/
+    title: Legal Services of Greater Miami
+    kind: org
+    accessed: "2026-09-24"
+  - id: pridelines
+    url: https://pridelines.center/
+    title: Pridelines
+    kind: org
+    accessed: "2026-09-24"
+  - id: care-resource
+    url: https://careresource.org/services/
+    title: Care Resource services
+    kind: org
+    accessed: "2026-09-24"
+  - id: save
+    url: https://save.lgbt/
+    title: SAVE
+    kind: org
+    accessed: "2026-09-24"
+  - id: doh-md
+    url: https://miamidade.floridahealth.gov/
+    title: Florida Department of Health in Miami-Dade County
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

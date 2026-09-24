@@ -1,0 +1,514 @@
+guide_type: name_change
+jurisdiction: NY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. Statute text (Civ. Rights Law §§ 60-64-a, 67, 67-a, 67-b; CPLR 8018) read on nysenate.gov.
+    nycourts.gov (CourtHelp, forms, NYC Civil Court pages) returned HTTP 403 to every automated fetch, so court-page
+    facts ($65 Civil Court fee, $210 Supreme/County fee, DIY program, "tell the clerk before you file" sealing advice)
+    come from search-engine extracts of those pages and are corroborated by LawHelpNY, SRLP (June 2023), and the
+    University at Buffalo School of Law guide (March 2025). Reviewer, please confirm: (1) the exact petition/order
+    form names and numbers (UB guide lists USC-NC1 petition, USC-NC01 order, UCS-840 RJI; not seen on the court site);
+    (2) the UB guide's statement that "effective December 2, 2024, all name change applications shall be immediately
+    sealed upon filing" (the task brief says sealing is by default, but the § 64-a text on nysenate.gov, last revised
+    2021, makes temporary sealing apply "where an applicant seeks relief under this section"; § 67-b lets the court
+    seal sex-designation papers on request or on its own); (3) certified-copy fees (UB guide quotes $5.20 per copy
+    at the Erie County Clerk; NYC Civil Court fee not confirmed); (4) whether judges in some counties still order
+    publication in practice. A4TE's NY page (no last-updated date shown) agrees on no publication and sealing on
+    request. A4TE's Name Change Project stopped accepting applications on March 11, 2026, so it is listed only as a
+    related link with that warning, not as local help. SRLP's NYC guide is dated June 2023.
+status: available
+status_summary:
+  en: >-
+    New York adults can change their name, their legal sex designation (M, F, or X), or both in one court petition.
+    There is no newspaper publication, no medical evidence is needed for the sex designation, and you can ask the
+    court to seal the file. In New York City it costs $65 in Civil Court; elsewhere it costs $210 in Supreme or
+    County Court, and fee waivers are available.
+  es: >-
+    En Nueva York, las personas adultas pueden cambiar su nombre, su designación legal de sexo (M, F o X), o ambos,
+    en una sola petición judicial. No hay publicación en periódico, no se necesita evidencia médica para la
+    designación de sexo y puedes pedir que el tribunal selle el expediente. En la ciudad de Nueva York cuesta $65 en
+    el Tribunal Civil; en el resto del estado cuesta $210 en el Tribunal Supremo o del Condado, y hay exenciones de
+    tarifas.
+summary:
+  en: |
+    New York's **Gender Recognition Act** (2021) changed the name change law in three ways that matter to trans people: it ended the newspaper publication requirement, it lets the court seal your records when an open record would put you at risk (being transgender counts), and it created a **sex designation change** you can request in the same petition as your name change. The court must grant the sex designation request based on your own affidavit; no doctor's letter is required (Civil Rights Law § 67).
+
+    **Do you even need a court order for your gender marker?** Not for New York documents: the DMV and both birth certificate offices (New York State and New York City) accept self-attestation. A court order recognizing your sex designation is useful mainly if you were born in another state or country that requires one to amend your birth certificate.
+
+    **Which court:**
+    - **In New York City** (all five boroughs): file in **NYC Civil Court** in any borough. The fee is **$65**. You may also use Supreme Court.
+    - **Outside New York City**: file in the **Supreme Court or County Court** of the county where you live. The fee is **$210**.
+
+    The court system's free **DIY Form Program** walks you through the petition and prints the forms.
+  es: |
+    La **Ley de Reconocimiento de Género** de Nueva York (2021) cambió la ley de cambio de nombre de tres maneras importantes para las personas trans: eliminó el requisito de publicación en periódico, permite que el tribunal selle tu expediente cuando un registro público te pondría en riesgo (ser transgénero cuenta), y creó un **cambio de designación de sexo** que puedes pedir en la misma petición que el cambio de nombre. El tribunal debe conceder la designación de sexo con base en tu propia declaración jurada; no se requiere carta médica (Ley de Derechos Civiles § 67).
+
+    **¿Necesitas una orden judicial para tu marcador de género?** No para documentos de Nueva York: el DMV y ambas oficinas de actas de nacimiento (estado de Nueva York y ciudad de Nueva York) aceptan la autodeclaración. La orden judicial sirve sobre todo si naciste en otro estado o país que la exige para enmendar tu acta.
+
+    **Qué tribunal:**
+    - **En la ciudad de Nueva York** (los cinco condados): presenta en el **Tribunal Civil de NYC** de cualquier condado. La tarifa es de **$65**.
+    - **Fuera de la ciudad de Nueva York**: presenta en el **Tribunal Supremo o del Condado** donde vives. La tarifa es de **$210**.
+eligibility:
+  residency:
+    en: >-
+      File in the county where you live. New York City residents may file in Civil Court or Supreme Court in any of
+      the five boroughs, not only their own (Civil Rights Law § 60).
+    es: >-
+      Presenta en el condado donde vives. Quienes viven en la ciudad de Nueva York pueden presentar en el Tribunal
+      Civil o Supremo de cualquiera de los cinco condados (Ley de Derechos Civiles § 60).
+  age:
+    en: 18 or older for the adult petition. For people under 18, a parent, guardian, or the child's attorney files; see the Minors section.
+    es: 18 años o más para la petición de adultos. Para menores de 18, presenta un padre, madre, tutor o el abogado del menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      You must disclose criminal convictions, bankruptcies, judgments, liens, and child or spousal support
+      obligations on the petition. These do not automatically bar the change. If you are incarcerated or under
+      supervision for certain violent felonies or sex offenses, notice must go to the district attorney and the
+      sentencing court at least 60 days before the petition is heard. The court may not require notice to ICE,
+      CBP, or USCIS.
+    es: >-
+      Debes declarar en la petición condenas penales, bancarrotas, fallos, gravámenes y obligaciones de manutención.
+      Esto no impide automáticamente el cambio. El tribunal no puede exigir que se notifique a ICE, CBP ni USCIS.
+  sources: [cvr-60, cvr-61, cvr-62]
+forms:
+  - id: Adult Name/Sex Designation Change Petition
+    name:
+      en: Name Change and/or Sex Designation Change Petition for Individual Adult (with proposed Order)
+      es: Petición de cambio de nombre y/o designación de sexo para persona adulta (con orden propuesta)
+    url: https://www.nycourts.gov/help/name-change-andor-sex-designation-change/name-change-andor-sex-designation-change-forms
+    required: always
+    how_to_fill:
+      en: |
+        - Easiest route: use the court's free **DIY Form Program**, which asks questions and prints the petition and proposed order for you. You cannot use the DIY program if you were born in a state or country that requires a court order to change the sex on a birth certificate; use the PDF petition instead.
+        - **What you are asking for**: check name change, sex designation change, or both. For a sex designation, choose M, F, or X. You sign an affidavit attesting to your gender identity; no medical evidence can be required.
+        - **Reason**: a short, honest reason is enough (for example, "to reflect my gender identity").
+        - **Sealing**: there is a place to ask the court to seal the records for your safety (SRLP describes it as item 30 on the NYC Civil Court petition). Check it if you want your file closed to the public. Also tell the clerk before you file.
+        - **Disclosures**: answer every question about convictions, bankruptcy, judgments, and support; attach papers where asked.
+        - Sign in front of a notary. Many courts and banks notarize for free.
+      es: |
+        - Lo más fácil: usa el **Programa de Formularios DIY** gratuito del tribunal, que hace preguntas e imprime la petición y la orden propuesta.
+        - **Qué pides**: marca cambio de nombre, de designación de sexo, o ambos. Para la designación de sexo, elige M, F o X. Firmas una declaración jurada sobre tu identidad de género; no se puede exigir evidencia médica.
+        - **Sellado**: hay un espacio para pedir que el tribunal selle el expediente por tu seguridad. Márcalo si quieres que tu expediente no sea público y díselo al secretario antes de presentar.
+        - Firma ante un notario.
+    sources: [courts-forms, courts-diy, cvr-67, srlp-namechange]
+  - id: Poor Person Application
+    name:
+      en: Poor Person Order and Affidavit in Support of Application to Proceed as a Poor Person (fee waiver)
+      es: Orden y declaración jurada para proceder como persona de bajos recursos (exención de tarifas)
+    url: https://www.nycourts.gov/help/name-change-andor-sex-designation-change/name-change-andor-sex-designation-change-forms
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. The affidavit must be notarized. Ask the clerk for the version your court uses.
+      es: Solo si no puedes pagar la tarifa. La declaración jurada debe notarizarse. Pide al secretario la versión que usa tu tribunal.
+    sources: [ub-guide, lawhelpny]
+steps:
+  - id: decide
+    title:
+      en: Decide what you are asking for
+      es: Decide qué vas a pedir
+    body:
+      en: |
+        - **Name only**, **sex designation only**, or **both**. One petition covers both.
+        - If you only want to change the gender marker on New York documents (license, NYS or NYC birth certificate), you do not need a court order at all. See the driver's license and birth certificate guides.
+        - Ask for a sex designation order if you were born outside New York in a place that requires a court order, or if you want a court order for other records.
+      es: |
+        - **Solo nombre**, **solo designación de sexo**, o **ambos**. Una sola petición cubre los dos.
+        - Si solo quieres cambiar el marcador de género en documentos de Nueva York, no necesitas orden judicial. Consulta las guías de licencia y acta de nacimiento.
+    sources: [cvr-67]
+  - id: prepare
+    title:
+      en: Fill out the petition with the DIY program
+      es: Llena la petición con el programa DIY
+    body:
+      en: |
+        Use the court system's free DIY Form Program online, or the PDF forms. Gather an original or certified copy of your birth certificate (required if you were born in New York; people born elsewhere bring proof of birth). Sign the petition in front of a notary.
+      es: |
+        Usa el Programa de Formularios DIY gratuito del tribunal o los formularios PDF. Reúne un original o copia certificada de tu acta de nacimiento (obligatoria si naciste en Nueva York; si naciste en otro lugar, lleva prueba de nacimiento). Firma la petición ante un notario.
+    forms: [Adult Name/Sex Designation Change Petition]
+    sources: [courts-diy, courts-forms, cvr-61]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot pay
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: File the Poor Person papers with your petition. Outside NYC, some counties also require you to send a copy to the county attorney. If the waiver is denied, you pay the fee later.
+      es: Presenta los documentos de persona de bajos recursos con tu petición. Fuera de NYC, algunos condados también exigen enviar copia al abogado del condado. Si se niega la exención, pagas la tarifa después.
+    forms: [Poor Person Application]
+    optional: true
+    sources: [ub-guide, lawhelpny]
+  - id: file-nyc
+    title:
+      en: "In New York City: file at Civil Court"
+      es: "En la ciudad de Nueva York: presenta en el Tribunal Civil"
+    body:
+      en: |
+        Bring the notarized petition, proposed order, and your birth certificate to the Civil Court clerk in any borough and pay $65. SRLP recommends the Manhattan courthouse at 111 Centre Street, Room 118, because staff there handle many of these cases. Tell the clerk before you file if you want the records sealed.
+      es: |
+        Lleva la petición notarizada, la orden propuesta y tu acta de nacimiento al secretario del Tribunal Civil de cualquier condado y paga $65. SRLP recomienda el tribunal de Manhattan en 111 Centre Street, sala 118. Dile al secretario antes de presentar si quieres sellar el expediente.
+    fees: [nyc-civil]
+    applies_to: [in_person]
+    sources: [courts-nyc-civil, srlp-namechange]
+  - id: file-state
+    title:
+      en: "Outside New York City: file at Supreme or County Court"
+      es: "Fuera de la ciudad de Nueva York: presenta en el Tribunal Supremo o del Condado"
+    body:
+      en: |
+        Buy an index number from the County Clerk ($210 unless waived), then file the petition, proposed order, and a Request for Judicial Intervention (RJI) so a judge is assigned. There is **no fee** for the RJI on a sex designation petition. Many counties also accept e-filing through NYSCEF.
+      es: |
+        Compra un número de índice en la Secretaría del Condado ($210 salvo exención), luego presenta la petición, la orden propuesta y una Solicitud de Intervención Judicial (RJI). **No se cobra** la RJI en una petición de designación de sexo. Muchos condados aceptan presentación electrónica por NYSCEF.
+    fees: [supreme-county]
+    sources: [courts-basics, cplr-8018, cvr-67, ub-guide]
+  - id: wait
+    title:
+      en: Wait for the judge's signed order
+      es: Espera la orden firmada por el juez
+    body:
+      en: A judge reviews the papers. Most petitions are decided on the papers, but the judge can call you in if something needs explaining. Once signed, the order takes effect with no publication step.
+      es: Un juez revisa los documentos. La mayoría se deciden sin audiencia, pero el juez puede citarte si necesita aclarar algo. Una vez firmada, la orden surte efecto sin publicación.
+    estimated_time:
+      en: several weeks to a few months, depending on the court
+      es: de varias semanas a unos meses, según el tribunal
+    sources: [ub-guide, nyclu-gra]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Buy several certified copies from the clerk (outside NYC, the order is filed with the County Clerk). Social Security, the DMV, the passport agency, and your birth-state vital records office each need one. If your file is sealed, ask how to get copies before you leave; SRLP notes that once sealed, you may need a motion to get more copies later.
+      es: Compra varias copias certificadas. El Seguro Social, el DMV, la agencia de pasaportes y la oficina de actas de tu estado de nacimiento necesitan una cada uno. Si tu expediente está sellado, pregunta cómo obtener copias antes de irte.
+    fees: [certified-copies]
+    sources: [ub-guide, srlp-namechange]
+fees:
+  - id: nyc-civil
+    label:
+      en: NYC Civil Court filing fee (name and/or sex designation change)
+      es: Tarifa del Tribunal Civil de NYC (cambio de nombre y/o designación de sexo)
+    amount: 65
+    waivable: true
+    sources: [courts-nyc-civil, lawhelpny, srlp-namechange]
+  - id: supreme-county
+    label:
+      en: Supreme or County Court index number fee
+      es: Tarifa de número de índice del Tribunal Supremo o del Condado
+    amount: 210
+    waivable: true
+    note:
+      en: The court system quotes $210. The RJI that assigns a judge is free for a sex designation petition (Civil Rights Law § 67).
+      es: El sistema judicial indica $210. La RJI es gratuita en una petición de designación de sexo.
+    sources: [courts-basics, lawhelpny, cplr-8018, cvr-67]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    varies_by: court
+    note:
+      en: Set by each clerk. A 2025 University at Buffalo guide quotes $5.20 per copy at the Erie County Clerk.
+      es: La fija cada secretaría. Una guía de 2025 indica $5.20 por copia en la Secretaría del Condado de Erie.
+    sources: [ub-guide]
+fee_waiver:
+  available: true
+  forms: [Poor Person Application]
+  eligibility:
+    en: You qualify if you cannot afford the fee (for example, you receive public assistance or have very low income). The judge decides based on your sworn affidavit.
+    es: Calificas si no puedes pagar la tarifa (por ejemplo, recibes asistencia pública o tienes ingresos muy bajos). El juez decide con base en tu declaración jurada.
+  how:
+    en: File the notarized Poor Person affidavit and proposed order with your petition, or ask the clerk for the "application to file for free."
+    es: Presenta la declaración jurada notarizada y la orden propuesta con tu petición, o pide al secretario la solicitud para presentar gratis.
+  sources: [lawhelpny, ub-guide]
+publication:
+  required: "no"
+  detail:
+    en: The Gender Recognition Act (effective December 2021) eliminated the newspaper publication requirement for name changes in New York.
+    es: La Ley de Reconocimiento de Género (vigente desde diciembre de 2021) eliminó el requisito de publicación en periódico para cambios de nombre en Nueva York.
+  sources: [nyclu-gra, gra-bill, cvr-62]
+hearing:
+  required: conditional
+  detail:
+    en: Usually decided on the papers. The judge may ask you to appear, and a hearing date applies when notice is required (petitions for minors, or people incarcerated or under supervision for certain offenses).
+    es: Normalmente se decide sin audiencia. El juez puede pedir que comparezcas, y hay fecha de audiencia cuando se requiere notificación (menores o personas bajo supervisión por ciertos delitos).
+  sources: [ub-guide, cvr-62]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. You disclose your own history on the petition, and the clerk sends the order to the Division of Criminal Justice Services only if you have certain convictions.
+    es: No hay huellas ni verificación de antecedentes. Declaras tu historial en la petición.
+  sources: [cvr-61, cvr-64]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      - **Name change records**: the court must seal them if an open record would jeopardize your safety, judged on the totality of the circumstances, which explicitly includes the risk of violence or discrimination because you are transgender. You do not have to show a past threat. While the request is pending, your names, addresses, and phone numbers are sealed immediately (Civil Rights Law § 64-a).
+      - **Sex designation records**: the court seals them on your request or on its own, and they can be opened only for good cause or at your request (§ 67-b).
+    es: |
+      - **Cambio de nombre**: el tribunal debe sellar el expediente si un registro público pone en riesgo tu seguridad, considerando todas las circunstancias, incluido el riesgo de violencia o discriminación por ser transgénero. No tienes que demostrar una amenaza previa (§ 64-a).
+      - **Designación de sexo**: el tribunal lo sella a tu pedido o por iniciativa propia (§ 67-b).
+  how:
+    en: Check the sealing request on the petition and tell the clerk before you file.
+    es: Marca la solicitud de sellado en la petición y díselo al secretario antes de presentar.
+  sources: [cvr-64a, cvr-67b, courts-nyc-civil]
+minors:
+  summary:
+    en: |
+      A parent, general guardian, "next friend," or the child's attorney files for a person under 18, using the minor version of the name/sex designation petition (the DIY program covers minors too). Notice of the petition must be served on the parent who is not filing, and the court grants the change only if it substantially promotes the child's interests (Civil Rights Law §§ 60, 62, 63, 67-a). Sex designation petitions for minors follow the same rules.
+    es: |
+      Un padre, madre, tutor general, "amigo cercano" o el abogado del menor presenta la petición para una persona menor de 18 años, con la versión para menores. Se debe notificar al padre o madre que no presenta, y el tribunal concede el cambio solo si favorece sustancialmente los intereses del menor (§§ 60, 62, 63, 67-a).
+  sources: [cvr-60, cvr-62, cvr-63, cvr-67a]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person at the clerk's office. Supreme and County Court cases can usually be e-filed through NYSCEF.
+    es: En persona en la secretaría. Los casos del Tribunal Supremo y del Condado suelen poder presentarse en línea por NYSCEF.
+  sources: [ub-guide]
+timeline:
+  en: Several weeks to a few months from filing to a signed order, varying by court. Then allow time for certified copies and agency updates.
+  es: De varias semanas a unos meses desde la presentación hasta la orden firmada, según el tribunal.
+after:
+  en: |
+    1. **Social Security** first (free; bring a certified order and photo ID). The name changes; the sex field currently cannot be changed.
+    2. **DMV**: license or non-driver ID (see the driver's license guide). You can pick M, F, or X there without a court order.
+    3. **Birth certificate**: New York City births go to NYC Health; the rest of New York State goes to the NYS Department of Health (see the birth certificate guide).
+    4. **Passport**, bank, employer, insurance, voter registration, school records.
+
+    Section 64 of the Civil Rights Law says a name change order is enough to change your name on any record held by the State of New York.
+  es: |
+    1. **Seguro Social** primero (gratis; lleva la orden certificada y una identificación con foto). El nombre cambia; el campo de sexo actualmente no.
+    2. **DMV**: licencia o identificación (ver la guía). Puedes elegir M, F o X sin orden judicial.
+    3. **Acta de nacimiento**: los nacimientos en la ciudad de Nueva York van a NYC Health; el resto del estado va al Departamento de Salud del estado.
+    4. **Pasaporte**, banco, empleo, seguro, registro de votante, expedientes escolares.
+tips:
+  - en: If you live in NYC, Civil Court ($65) is much cheaper than Supreme Court ($210) and you can file in any borough.
+    es: Si vives en NYC, el Tribunal Civil ($65) es mucho más barato que el Tribunal Supremo ($210) y puedes presentar en cualquier condado.
+  - en: Sealing is on the petition itself. Decide before you file; unsealing later is easier than sealing a file that has been public.
+    es: El sellado se pide en la propia petición. Decídelo antes de presentar.
+  - en: Order extra certified copies at the same visit, especially if you ask for sealing.
+    es: Pide copias certificadas adicionales en la misma visita, sobre todo si pides el sellado.
+local_help:
+  - id: srlp
+    name: Sylvia Rivera Law Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help for low-income trans, gender nonconforming, and intersex New Yorkers, with a step-by-step NYC name change guide. Call 212-337-8550 ext. 308 or email legal@srlp.org.
+      es: Ayuda legal gratuita para personas trans, de género no conforme e intersexuales de bajos ingresos en Nueva York, con una guía paso a paso. Llama al 212-337-8550 ext. 308 o escribe a legal@srlp.org.
+    url: https://srlp.org/resources/namechange/
+    phone: "212-337-8550"
+    cost: free
+    verification: org_website
+    sources: [srlp-namechange]
+  - id: nylag-lgbtq
+    name: NYLAG LGBTQ Law Unit
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free civil legal services for low-income New Yorkers, including help with name and gender marker changes.
+      es: Servicios legales civiles gratuitos para personas de bajos ingresos, incluida ayuda con cambios de nombre y marcador de género.
+    url: https://nylag.org/lgbtq-law/
+    phone: "212-613-5000"
+    address: 100 Pearl Street, 19th Floor, New York, NY 10004
+    cost: free
+    verification: org_website
+    sources: [nylag]
+  - id: nls-buffalo
+    name: Neighborhood Legal Services (Buffalo)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Recommended by the University at Buffalo School of Law guide for people in Western New York who get stuck or are denied when changing their name or documents. Call 716-847-0650.
+      es: Recomendado por la guía de la Facultad de Derecho de la Universidad de Buffalo para personas del oeste de Nueva York. Llama al 716-847-0650.
+    url: https://nls.org/
+    phone: "716-847-0650"
+    areas_served:
+      en: Western New York
+      es: Oeste de Nueva York
+    cost: free
+    verification: community_reported
+    sources: [ub-guide]
+  - id: lawhelpny
+    name: LawHelpNY
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide free legal information site with a name change guide and a directory of free legal aid programs by county.
+      es: Sitio estatal gratuito de información legal con guía de cambio de nombre y directorio de ayuda legal gratuita por condado.
+    url: https://www.lawhelpny.org/guide/how-do-i-change-my-name
+    cost: free
+    verification: org_website
+    sources: [lawhelpny]
+statutes:
+  - cite: N.Y. Civ. Rights Law § 60
+    title:
+      en: Where to petition; NYC residents may use Civil Court in any borough
+    url: https://www.nysenate.gov/legislation/laws/CVR/60
+  - cite: N.Y. Civ. Rights Law § 64-a
+    title:
+      en: Sealing of name change papers; transgender status counts toward the safety finding
+    url: https://www.nysenate.gov/legislation/laws/CVR/64-A
+  - cite: N.Y. Civ. Rights Law § 67
+    title:
+      en: Sex designation change on affidavit alone; no medical evidence; no RJI fee
+    url: https://www.nysenate.gov/legislation/laws/CVR/67
+  - cite: N.Y. Civ. Rights Law § 67-b
+    title:
+      en: Sealing of sex designation change papers
+    url: https://www.nysenate.gov/legislation/laws/CVR/67-B
+  - cite: Gender Recognition Act, L. 2021 ch. 158 (A5465-D)
+    title:
+      en: Ended publication, added sealing protections and sex designation petitions, and M/F/X self-attestation on state documents
+    url: https://www.nysenate.gov/legislation/bills/2021/A5465
+related_links:
+  - title: NY Courts, Name Change and/or Sex Designation Change
+    url: https://www.nycourts.gov/help/name-change-andor-sex-designation-change
+    note:
+      en: Official self-help pages and DIY Form Program.
+      es: Páginas oficiales de autoayuda y programa DIY.
+  - title: NYCLU, Changing your name or gender marker under the Gender Recognition Act
+    url: https://www.nyclu.org/resources/know-your-rights/changing-your-name-or-gender-marker-under-gender-recognition-act
+  - title: Advocates for Trans Equality, New York identity documents
+    url: https://transequality.org/documents/new-york-identity-documents
+    note:
+      en: No last-updated date shown on the page (checked 2026-09-24). A4TE's Name Change Project, which covered NYC and Long Island, stopped accepting applications on March 11, 2026.
+      es: La página no muestra fecha de actualización. El Proyecto de Cambio de Nombre de A4TE dejó de aceptar solicitudes el 11 de marzo de 2026.
+sources:
+  - id: cvr-60
+    url: https://www.nysenate.gov/legislation/laws/CVR/60
+    title: Civil Rights Law § 60, Petition for change of name
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In New York City, the petition may be made to the supreme court or civil court in any county in the city.
+  - id: cvr-61
+    url: https://www.nysenate.gov/legislation/laws/CVR/61
+    title: Civil Rights Law § 61, Contents of petition
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: cvr-62
+    url: https://www.nysenate.gov/legislation/laws/CVR/62
+    title: Civil Rights Law § 62, Notice
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the court shall not require notice to United States immigration and customs enforcement, United States customs and border protection, United States citizenship and immigration services
+  - id: cvr-63
+    url: https://www.nysenate.gov/legislation/laws/CVR/63
+    title: Civil Rights Law § 63, Order
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the interests of the infant will be substantially promoted by the change
+  - id: cvr-64
+    url: https://www.nysenate.gov/legislation/laws/CVR/64
+    title: Civil Rights Law § 64, Effect
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A name change order ... shall be sufficient to change the petitioner's name on any document or record issued or maintained by the state of New York
+  - id: cvr-64a
+    url: https://www.nysenate.gov/legislation/laws/CVR/64-A
+    title: Civil Rights Law § 64-a, Exemption from publication requirements (sealing)
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: including such applicant's status as transgender or as the subject of domestic violence
+  - id: cvr-67
+    url: https://www.nysenate.gov/legislation/laws/CVR/67
+    title: Civil Rights Law § 67, Petition for change of sex designation
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No additional medical evidence shall be required to grant such request. ... No fee shall be charged for a request for judicial intervention associated with a petition to change sex designation.
+  - id: cvr-67a
+    url: https://www.nysenate.gov/legislation/laws/CVR/67-A
+    title: Civil Rights Law § 67-a, Order for change of sex designation
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: cvr-67b
+    url: https://www.nysenate.gov/legislation/laws/CVR/67-B
+    title: Civil Rights Law § 67-b, Sealing of change of sex designation papers
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: upon request of the applicant or sua sponte
+  - id: cplr-8018
+    url: https://www.nysenate.gov/legislation/laws/CVP/8018
+    title: CPLR § 8018, Index number fees of county clerks
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: to a fee of (i) one hundred ninety dollars (plus supplementary fees in subdivision (a)(3))
+  - id: gra-bill
+    url: https://www.nysenate.gov/legislation/bills/2021/A5465
+    title: A5465-D (2021), Gender Recognition Act, Chapter 158 of 2021
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: courts-forms
+    url: https://www.nycourts.gov/help/name-change-andor-sex-designation-change/name-change-andor-sex-designation-change-forms
+    title: Name Change and/or Sex Designation Change Forms
+    publisher: New York State Unified Court System
+    kind: form
+    accessed: "2026-09-24"
+    quote: If you were born in a state or country that requires a court order to correct the sex on your birth certificate, you cannot use the interactive DIY program
+  - id: courts-diy
+    url: https://www.nycourts.gov/courthelp/diy/nameChange.shtml
+    title: Adult Name Change Petition Program (DIY)
+    publisher: New York State Unified Court System
+    kind: official
+    accessed: "2026-09-24"
+  - id: courts-basics
+    url: https://www.nycourts.gov/help/name-change-andor-sex-designation-change/name-change-basics
+    title: Name Change Basics
+    publisher: New York State Unified Court System
+    kind: official
+    accessed: "2026-09-24"
+    quote: The court fee is $210 in Supreme and County Courts, and $65.00 in New York City Civil Court.
+  - id: courts-nyc-civil
+    url: https://www.nycourts.gov/new-york-city-civil-court/nyc-civil-court-name-andor-sex-designation-change
+    title: NYC Civil Court, Name and/or Sex Designation Change
+    publisher: New York State Unified Court System
+    kind: court
+    accessed: "2026-09-24"
+    quote: It costs $65.00 to change a name and/or sex designation in Civil Court. ... Please tell the clerk, before you file your petition, if you want to keep your name change and/or sex designation change private
+  - id: nyclu-gra
+    url: https://www.nyclu.org/resources/know-your-rights/changing-your-name-or-gender-marker-under-gender-recognition-act
+    title: Changing your name or gender marker under the Gender Recognition Act
+    publisher: NYCLU
+    kind: org
+    accessed: "2026-09-24"
+    quote: The GRA eliminated any publication requirement associated with a name or gender marker change.
+  - id: lawhelpny
+    url: https://www.lawhelpny.org/guide/how-do-i-change-my-name
+    title: How do I change my name?
+    publisher: LawHelpNY
+    kind: org
+    accessed: "2026-09-24"
+    quote: If you cannot afford the fee, ask the clerk for an application to file for free.
+  - id: ub-guide
+    url: https://www.law.buffalo.edu/content/dam/law/content/clinics/access-to-justice/20250306%20-%20Name%20Change%20Guide%20-%20FINAL.pdf
+    title: Legal Guide to Changing Names and Gender Markers in Erie County, NY (March 2025)
+    publisher: University at Buffalo School of Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: For a name change and/or sex designation change, there is no cost to file an RJI form.
+  - id: srlp-namechange
+    url: https://srlp.org/resources/namechange/
+    title: How to legally change your name in New York City (updated June 2023)
+    publisher: Sylvia Rivera Law Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: $65 fee to file a name change.
+  - id: nylag
+    url: https://nylag.org/lgbtq-law/
+    title: LGBTQ Law
+    publisher: New York Legal Assistance Group
+    kind: org
+    accessed: "2026-09-24"

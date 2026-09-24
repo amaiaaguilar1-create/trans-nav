@@ -1,0 +1,283 @@
+jurisdiction: OH
+slug: columbus
+name: Columbus
+area:
+  en: Franklin County and the Columbus metro area (Delaware, Fairfield, Licking, and nearby counties)
+  es: Condado de Franklin y el área metropolitana de Columbus (Delaware, Fairfield, Licking y condados cercanos)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Franklin County Probate Court details read through WebFetch 2026-09-24 (direct requests return 403). Equitas Health
+    addresses from its locations page. Columbus Public Health's Sexual Health and Wellness Center is listed on the city's
+    clinics page; the city site blocks direct fetching, and the clinic's street address was not confirmed (240 Parsons
+    Ave is Columbus Public Health's main address). Stonewall Columbus's address not confirmed, so it is omitted.
+    Kaleidoscope Youth Center address from its site.
+intro:
+  en: >-
+    Columbus has Ohio's largest cluster of trans services: Equitas Health's informed-consent clinics and pharmacy,
+    Equality Ohio's legal clinic, and a probate court that grants both name changes and birth record sex-marker
+    corrections. Name change applications are e-filed with the Franklin County Probate Court.
+  es: >-
+    Columbus tiene la mayor concentración de servicios trans de Ohio: las clínicas de Equitas Health con consentimiento
+    informado y farmacia, la clínica legal de Equality Ohio y un tribunal testamentario que concede cambios de nombre y
+    correcciones del marcador de sexo en actas de nacimiento. Las solicitudes se presentan electrónicamente ante el
+    Tribunal Testamentario del Condado de Franklin.
+court:
+  name: Franklin County Probate Court
+  url: https://probate.franklincountyohio.gov/Departments/Name-Change
+  self_help_url: https://probate.franklincountyohio.gov/Forms/Name-Change-Forms
+  filing_fee: 128
+  notes:
+    en: >-
+      373 South High Street, 22nd Floor, Columbus, OH 43215; (614) 525-5362. File through the court's e-filing system
+      (confidential name changes must be filed on paper). Residency of 60 days required. Hearings are about 45 days
+      after filing, by Zoom. Publication, when ordered, starts at $72. The same court handles birth record corrections
+      ($70), including sex-marker corrections with affidavit PC-3.A.
+    es: >-
+      373 South High Street, piso 22, Columbus, OH 43215; (614) 525-5362. Presenta por el sistema electrónico (los
+      cambios confidenciales se presentan en papel). Se requieren 60 días de residencia. Las audiencias son unos 45
+      días después, por Zoom. El mismo tribunal tramita correcciones del acta de nacimiento ($70).
+  sources: [franklin-nc, franklin-birth]
+resources:
+  - id: equality-ohio-legal-clinic
+    name: Equality Ohio Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Columbus-based statewide LGBTQ+ legal clinic. Free name change representation at or below 300% of the federal poverty level. 855-LGBT-LAW or (614) 224-0400.
+      es: Clínica legal LGBTQ+ con sede en Columbus. Representación gratuita en cambios de nombre hasta el 300% del nivel federal de pobreza.
+    url: https://equalityohio.org/legal-clinic/
+    phone: "614-224-0400"
+    cost: free
+    verification: org_website
+    sources: [equality-ohio-clinic]
+  - id: lasco
+    name: Legal Aid of Southeast and Central Ohio (LASCO)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes; listed by Equitas Health as a name and gender marker clinic partner.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos; Equitas Health la incluye como clínica asociada.
+    url: https://www.lasco.org/
+    phone: "614-221-7201"
+    address: 1108 City Park Ave, Suite 100, Columbus, OH 43206
+    cost: free
+    verification: org_website
+    sources: [lasco, equitas-legal]
+  - id: equitas-short-north
+    name: Equitas Health Short North Community Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Informed-consent hormone therapy (no therapist letter), primary care, PrEP, pharmacy, and counseling; sliding fee scale.
+      es: Terapia hormonal por consentimiento informado, atención primaria, PrEP, farmacia y consejería; escala móvil.
+    url: https://equitashealth.com/our-services/gender-affirming-care/
+    phone: "833-378-4827"
+    address: 1033 N. High St., Columbus, OH 43201
+    cost: sliding_scale
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [equitas-gac, equitas-locations]
+  - id: equitas-king-lincoln
+    name: Equitas Health King-Lincoln Community Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Second Columbus Equitas clinic offering gender-affirming care, on the Near East Side.
+      es: Segunda clínica de Equitas en Columbus con atención de afirmación de género, en el Near East Side.
+    url: https://equitashealth.com/find-a-location/
+    phone: "833-378-4827"
+    address: 750 E. Long St., Columbus, OH 43203
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [equitas-gac, equitas-locations]
+  - id: pp-greater-ohio
+    org: planned-parenthood
+    name: Planned Parenthood of Greater Ohio
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy for adults 18 and older, plus STI testing, PrEP, and birth control. Call 1-800-230-7526 to find the nearest Columbus center.
+      es: Terapia hormonal para adultos de 18 años o más, pruebas de ITS, PrEP y anticonceptivos.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-ohio/our-patients/our-services
+    phone: "800-230-7526"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [ppgoh-services]
+  - id: cph-sexual-health
+    name: Columbus Public Health, Sexual Health and Wellness Center
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: City clinic for STI testing, treatment and education, birth control, and reproductive health. Call Columbus Public Health at (614) 645-7417.
+      es: Clínica municipal de pruebas y tratamiento de ITS, anticonceptivos y salud reproductiva.
+    url: https://www.columbus.gov/Services/Public-Health/Health-Clinics-and-Services/Sexual-Health-and-Wellness-Center
+    phone: "614-645-7417"
+    cost: low_cost
+    verification: official_source
+    sources: [cph-clinics]
+  - id: equitas-teleprep
+    name: Equitas Health TelePrEP
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Online PrEP visits with lab testing and free medication delivery; most patients pay nothing.
+      es: Consultas de PrEP en línea con análisis y entrega gratuita; la mayoría no paga nada.
+    url: https://teleprep.equitashealth.com/
+    cost: free
+    telehealth: true
+    verification: org_website
+    sources: [equitas-teleprep]
+  - id: stonewall-columbus
+    name: Stonewall Columbus
+    type: lgbtq_center
+    pillars: [mental_health, name_change]
+    description:
+      en: Central Ohio's LGBTQ+ community center, with counseling, recovery and support groups, HIV wellness programs, and a guide to name and gender marker changes (parts of the guide predate the 2026 BMV change).
+      es: Centro comunitario LGBTQ+ del centro de Ohio, con consejería, grupos de apoyo y programas de bienestar.
+    url: https://stonewallcolumbus.org/
+    cost: free
+    verification: org_website
+    sources: [stonewall, stonewall-guide]
+  - id: kaleidoscope
+    name: Kaleidoscope Youth Center
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Free drop-in programming, mental health support, and mentorship for LGBTQIA+ youth ages 12 to 20.
+      es: Programas gratuitos, apoyo de salud mental y mentoría para jóvenes LGBTQIA+ de 12 a 20 años.
+    url: https://www.kycohio.org/
+    address: 700 Bryden Rd. Ste 245, Columbus, OH 43215
+    cost: free
+    verification: org_website
+    sources: [kyc]
+  - id: transohio-fund
+    name: TransOhio Emergency Fund and name change microgrants
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: Emergency cash assistance for trans Ohioans who need to relocate or reach care, and microgrants for name change filing fees.
+      es: Ayuda económica de emergencia para personas trans de Ohio y microsubvenciones para tarifas de cambio de nombre.
+    url: https://www.transohio.org/
+    cost: free
+    verification: org_website
+    sources: [transohio, transohio-clinic]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [trans-lifeline]
+sources:
+  - id: franklin-nc
+    url: https://probate.franklincountyohio.gov/Departments/Name-Change
+    title: Name Change
+    publisher: Franklin County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change Application: starts at $128.00. 373 South High Street, 22nd Floor, Columbus, Ohio 43215. Phone: (614) 525-5362."
+  - id: franklin-birth
+    url: https://probate.franklincountyohio.gov/Departments/Birth-Correction-Delayed-Birth-Registration
+    title: Birth Correction / Delayed Birth Registration
+    publisher: Franklin County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+  - id: equality-ohio-clinic
+    url: https://equalityohio.org/legal-clinic/
+    title: Legal Clinic
+    publisher: Equality Ohio
+    kind: org
+    accessed: "2026-09-24"
+  - id: lasco
+    url: https://www.lasco.org/
+    title: Legal Aid of Southeast and Central Ohio
+    publisher: LASCO
+    kind: org
+    accessed: "2026-09-24"
+  - id: equitas-legal
+    url: https://equitashealth.com/our-services/gender-affirming-care/legal-clinics/
+    title: Gender Affirming Legal Resources, Legal Clinics
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: equitas-gac
+    url: https://equitashealth.com/our-services/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: equitas-locations
+    url: https://equitashealth.com/find-a-location/
+    title: Find a Location
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Columbus Short North Community Health Center, 1033 N. High St., Columbus, OH 43201
+  - id: equitas-teleprep
+    url: https://teleprep.equitashealth.com/
+    title: TelePrEP
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgoh-services
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-ohio/our-patients/our-services
+    title: Our Services
+    publisher: Planned Parenthood of Greater Ohio
+    kind: org
+    accessed: "2026-09-24"
+  - id: cph-clinics
+    url: https://www.columbus.gov/Services/Public-Health/Health-Clinics-and-Services
+    title: Health Clinics and Services
+    publisher: Columbus Public Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: stonewall
+    url: https://stonewallcolumbus.org/
+    title: Stonewall Columbus
+    publisher: Stonewall Columbus
+    kind: org
+    accessed: "2026-09-24"
+  - id: stonewall-guide
+    url: https://stonewallcolumbus.org/legal-name-and-gender-marker-changes/
+    title: Legal Name & Gender Marker Changes
+    publisher: Stonewall Columbus
+    kind: org
+    accessed: "2026-09-24"
+  - id: kyc
+    url: https://www.kycohio.org/
+    title: Kaleidoscope Youth Center
+    publisher: Kaleidoscope Youth Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: transohio
+    url: https://www.transohio.org/
+    title: TransOhio
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+  - id: transohio-clinic
+    url: https://www.transohio.org/legalclinic
+    title: Ohio Name Change Legal Clinic
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

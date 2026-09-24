@@ -1,0 +1,631 @@
+guide_type: name_change
+jurisdiction: OH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute text (ORC 2717.01 to 2717.19, as rewritten by HB 7, effective August 17, 2021) read on codes.ohio.gov
+    2026-09-24. Supreme Court of Ohio standard probate forms 21.0, 21.01, 21.2, 21.4, 21.6, 21.6A, 21.14 downloaded
+    and read the same day. Franklin County fees ($128 application, publication from $72) and practice (publication
+    not required in every case; hearings about 45 days after filing, by Zoom; public-records criminal check) come from
+    the Franklin County Probate Court name change page, read through WebFetch; direct requests to that site return
+    403. Cuyahoga fees ($100; certified copies $2 per page) from its court-costs and name-change pages. Open items:
+    (1) whether ORC 2323.311 indigency affidavits are routinely accepted by probate courts for name changes, and
+    whether a waiver covers publication costs; (2) Franklin County certified-copy fee; (3) which counties still
+    require publication by default or BCI fingerprinting. Disagreements: the ACLU of Ohio guide, Stonewall Columbus,
+    and A4TE's Ohio page (no date shown) still describe one year of county residency and mandatory publication; the
+    statute since 2021 requires 60 days and leaves publication to the court. The primary source is used here.
+status: available
+status_summary:
+  en: >-
+    Adults in Ohio can change their name by filing an application in the probate court of the county where they
+    have lived for at least 60 days. The judge decides whether to hold a hearing and whether you must publish a
+    newspaper notice. If publishing would put your safety at risk, the court must waive it and seal the file.
+  es: >-
+    En Ohio, las personas adultas pueden cambiar su nombre presentando una solicitud en el tribunal testamentario
+    (probate) del condado donde han vivido al menos 60 días. El juez decide si habrá audiencia y si debes publicar un
+    aviso en el periódico. Si publicar pondría en riesgo tu seguridad, el tribunal debe eximirte y sellar el
+    expediente.
+summary:
+  en: |
+    Name changes are handled by the **probate court** (a division of the Court of Common Pleas) in the county where you live. Since August 17, 2021 (House Bill 7), Ohio Revised Code Chapter 2717 sets one process for the whole state:
+
+    - You must have lived in the county for **at least 60 days** before filing.
+    - You file an application (standard form 21.0) and a supporting affidavit (form 21.01), give a reason, and show ID.
+    - A hearing is **up to the court**. If it holds one, it decides what notice you must give, which may include a newspaper notice at least 30 days before the hearing.
+    - If open records or a published notice **would put your personal safety at risk**, the court must waive the notice and seal the file (ORC 2717.11, form 21.6A).
+    - People who must register as sex offenders, and people convicted of identity fraud, cannot change their name.
+
+    Wanting your name to match your gender identity is a proper reason. Most courts do not ask for any medical proof. Practice varies by county, so read your county probate court's name change page before you file.
+  es: |
+    Los cambios de nombre los tramita el **tribunal testamentario (probate)** del condado donde vives. Desde el 17 de agosto de 2021 (House Bill 7), el Capítulo 2717 del Código Revisado de Ohio fija un solo proceso para todo el estado:
+
+    - Debes haber vivido en el condado **al menos 60 días** antes de presentar la solicitud.
+    - Presentas una solicitud (formulario 21.0) y una declaración jurada de apoyo (formulario 21.01), das un motivo y muestras identificación.
+    - La audiencia **depende del tribunal**. Si la hay, el tribunal decide qué aviso debes dar, que puede incluir un aviso en el periódico al menos 30 días antes.
+    - Si los registros abiertos o el aviso publicado **pondrían en riesgo tu seguridad personal**, el tribunal debe eximir el aviso y sellar el expediente (ORC 2717.11, formulario 21.6A).
+    - Las personas que deben registrarse como delincuentes sexuales y las condenadas por fraude de identidad no pueden cambiar su nombre.
+
+    Querer que tu nombre coincida con tu identidad de género es un motivo válido. La mayoría de los tribunales no piden pruebas médicas. La práctica varía por condado; revisa la página de tu tribunal antes de presentar.
+eligibility:
+  residency:
+    en: You must have been a bona fide resident of the Ohio county where you file for at least 60 days before filing.
+    es: Debes haber residido de buena fe en el condado de Ohio donde presentas al menos 60 días antes de presentar.
+  age:
+    en: 18 or older files for themselves. For a minor, a parent or guardian files; see the Minors section.
+    es: Las personas de 18 años o más presentan por sí mismas. Para un menor, presenta un padre, madre o tutor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      The court may not grant a name change to someone who has a duty to register for a sexually oriented or
+      child-victim oriented offense, or who was convicted of identity fraud (ORC 2913.49) unless the conviction was
+      reversed. Other convictions do not bar a name change, but the court may run a criminal records check.
+    es: >-
+      El tribunal no puede conceder un cambio de nombre a quien debe registrarse por un delito sexual o contra menores,
+      ni a quien fue condenado por fraude de identidad (ORC 2913.49) salvo que la condena se haya revocado. Otras
+      condenas no impiden el cambio, pero el tribunal puede revisar antecedentes penales.
+  sources: [orc-2717-03, orc-2717-16, orc-2717-19, form-21-0]
+forms:
+  - id: "21.0"
+    name:
+      en: Application for Change of Name of Adult
+      es: Solicitud de cambio de nombre de adulto
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_0.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Write your present name and the requested name exactly as you want it to appear (first, middle, last).
+        - Reason: a short, truthful statement is enough, for example "to reflect my gender identity" or "I have been known by this name." You do not need to attach medical records. If you would rather not state your gender identity in a public filing, "personal preference" or "I am known by this name" is also a reason courts accept; ask a legal clinic if unsure.
+        - Many counties (including Franklin) require the application to be **notarized**. Court staff cannot notarize; an online notary must be Ohio-licensed.
+        - Some counties require their own packet instead of this standard form. Franklin County's packet includes it.
+    sources: [form-21-0, franklin-nc]
+  - id: "21.01"
+    name:
+      en: Affidavit in Support of Application for Change of Name of Adult
+      es: Declaración jurada de apoyo a la solicitud de cambio de nombre de adulto
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_01.pdf
+    required: always
+    condition:
+      en: File it with form 21.0. It asks about the disqualifying convictions and other facts under oath.
+      es: Preséntala con el formulario 21.0.
+    sources: [sco-probate-forms]
+  - id: 21.6A
+    name:
+      en: Application to Waive Publication and Seal File (and Judgment Entry)
+      es: Solicitud para eximir la publicación y sellar el expediente (y resolución)
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_6A.pdf
+    required: optional
+    condition:
+      en: Use it if a public record or newspaper notice of your name change would put your personal safety at risk.
+      es: Úsalo si un registro público o un aviso en el periódico pondría en riesgo tu seguridad personal.
+    how_to_fill:
+      en: |
+        - Explain specifically why open records or a published notice would jeopardize your safety. Concrete facts help: past harassment, threats, violence, stalking, or documented risks trans people face. Attach exhibits if you have them (police reports, protection orders, screenshots, a letter from an advocate) and check the exhibits box.
+        - If granted, the judge signs the entry at the bottom: publication is waived and the file is sealed. It can be opened later only by court order for good cause or at your request.
+        - Some counties call this a "confidential name change" and use their own packet; Franklin County's confidential packet cannot be e-filed.
+    sources: [form-21-6a, orc-2717-11, franklin-nc]
+  - id: "21.14"
+    name:
+      en: Release for Criminal Background Check
+      es: Autorización para verificación de antecedentes penales
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_14.pdf
+    required: conditional
+    condition:
+      en: Only if your county requires it. It asks for your Social Security number.
+      es: Solo si tu condado lo exige. Pide tu número de Seguro Social.
+    sources: [form-21-14, orc-2717-19]
+  - id: "21.2"
+    name:
+      en: Application for Change of Name of Minor
+      es: Solicitud de cambio de nombre de menor
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_2.pdf
+    required: conditional
+    condition:
+      en: For a child under 18, filed by a parent or guardian.
+      es: Para un menor de 18 años, presentado por un padre, madre o tutor.
+    sources: [sco-probate-forms]
+  - id: "21.4"
+    name:
+      en: Consent to Change of Name
+      es: Consentimiento al cambio de nombre
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_4.pdf
+    required: conditional
+    condition:
+      en: For a minor, signed by each legal parent who agrees. A parent who does not sign must be notified by certified mail.
+      es: Para un menor, firmado por cada padre o madre legal que esté de acuerdo.
+    sources: [sco-probate-forms, orc-2717-14]
+steps:
+  - id: check-county
+    title:
+      en: Check your county probate court's rules
+      es: Revisa las reglas del tribunal testamentario de tu condado
+    body:
+      en: >-
+        File in the county where you have lived for at least 60 days. Each probate court posts its own packet, fee, and
+        filing method. Franklin County (Columbus) and Cuyahoga County (Cleveland) accept e-filing. Ohio Legal Help has
+        a guided form for Franklin County.
+      es: >-
+        Presenta en el condado donde has vivido al menos 60 días. Cada tribunal publica su paquete, tarifa y forma de
+        presentación. Franklin (Columbus) y Cuyahoga (Cleveland) aceptan presentación electrónica.
+    sources: [orc-2717-02, franklin-nc, cuyahoga-nc]
+  - id: fill-forms
+    title:
+      en: Fill out the application and affidavit
+      es: Llena la solicitud y la declaración jurada
+    body:
+      en: >-
+        Complete form 21.0 (or your county's packet) and form 21.01. Get them notarized if your county requires it.
+        If publishing a notice would put you at risk, add form 21.6A and explain why. Bring or upload a photo ID.
+      es: >-
+        Completa el formulario 21.0 (o el paquete de tu condado) y el 21.01. Notarízalos si tu condado lo exige. Si
+        publicar un aviso te pondría en riesgo, agrega el formulario 21.6A y explica por qué. Lleva o sube una
+        identificación con foto.
+    forms: ["21.0", "21.01", 21.6A, "21.14"]
+    sources: [form-21-0, form-21-6a, orc-2717-07, franklin-nc]
+  - id: file
+    title:
+      en: File and pay the fee, or ask for a waiver
+      es: Presenta la solicitud y paga la tarifa, o pide una exención
+    body:
+      en: >-
+        File in person, by mail, or by e-filing where available, and pay the filing deposit (about $100 to $150; $128 in
+        Franklin County, $100 in Cuyahoga County). If you cannot afford it, file an affidavit of indigency (see Fee
+        waiver). TransOhio's microgrants can help with fees.
+      es: >-
+        Presenta en persona, por correo o electrónicamente donde se pueda, y paga el depósito (entre $100 y $150; $128
+        en Franklin, $100 en Cuyahoga). Si no puedes pagarlo, presenta una declaración de indigencia. Las
+        microsubvenciones de TransOhio pueden ayudar.
+    fees: [filing]
+    sources: [franklin-nc, cuyahoga-costs, orc-2323-311, transohio-clinic]
+  - id: notice
+    title:
+      en: Publish notice only if the court orders it
+      es: Publica el aviso solo si el tribunal lo ordena
+    body:
+      en: >-
+        If the court sets a hearing and orders notice, it will tell you how. In Franklin County the court sends the
+        notice to a newspaper at least 30 days before the hearing and you pay the newspaper (from $72). If you asked
+        for a safety waiver (form 21.6A) and the court grants it, no notice is published.
+      es: >-
+        Si el tribunal fija una audiencia y ordena aviso, te dirá cómo. En Franklin el tribunal envía el aviso a un
+        periódico al menos 30 días antes y tú pagas la publicación (desde $72). Si pediste la exención por seguridad y
+        se concede, no se publica nada.
+    fees: [publication]
+    optional: true
+    sources: [orc-2717-08, orc-2717-11, franklin-nc]
+  - id: hearing
+    title:
+      en: Attend the hearing if one is set
+      es: Asiste a la audiencia si se fija una
+    body:
+      en: >-
+        Hearings are short. A magistrate checks that you meet the requirements and have a reasonable and proper reason.
+        In Franklin County hearings are about 45 days after filing and held by Zoom; bring photo ID.
+      es: >-
+        Las audiencias son breves. Un magistrado verifica que cumples los requisitos y tienes un motivo razonable. En
+        Franklin son unos 45 días después de presentar y se hacen por Zoom; lleva identificación con foto.
+    estimated_time:
+      en: about 6 to 8 weeks from filing
+      es: unas 6 a 8 semanas desde la presentación
+    sources: [orc-2717-08, orc-2717-09, franklin-nc]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the judgment entry
+      es: Obtén copias certificadas de la resolución
+    body:
+      en: >-
+        Order several certified copies of the signed judgment entry (form 21.1). Social Security, the BMV, the passport
+        agency, banks, and the Ohio Department of Health each need to see one. In Cuyahoga County copies cost $2 per
+        page.
+      es: >-
+        Pide varias copias certificadas de la resolución firmada (formulario 21.1). El Seguro Social, el BMV, la agencia
+        de pasaportes, los bancos y el Departamento de Salud de Ohio necesitarán una. En Cuyahoga cuestan $2 por página.
+    fees: [certified-copies]
+    sources: [cuyahoga-nc]
+  - id: update-documents
+    title:
+      en: Update your other documents
+      es: Actualiza tus demás documentos
+    body:
+      en: >-
+        Start with Social Security, then the BMV (in person at a deputy registrar), then your birth certificate if you
+        were born in Ohio, then your passport and everything else. See the Driver's license and Birth certificate
+        guides.
+      es: >-
+        Empieza con el Seguro Social, luego el BMV (en persona en una agencia), luego tu acta de nacimiento si naciste
+        en Ohio, luego tu pasaporte y lo demás.
+    sources: [odh-correct]
+fees:
+  - id: filing
+    label:
+      en: Probate court filing deposit for an adult name change
+      es: Depósito de presentación para cambio de nombre de adulto
+    min: 100
+    max: 150
+    varies_by: county
+    waivable: true
+    note:
+      en: Franklin County $128 (card payments add a processing fee); Cuyahoga County $100. Some counties add a fee for a criminal background check.
+      es: Franklin $128 (los pagos con tarjeta tienen un cargo adicional); Cuyahoga $100. Algunos condados cobran aparte la verificación de antecedentes.
+    sources: [franklin-nc, cuyahoga-costs, olh-franklin]
+  - id: publication
+    label:
+      en: Newspaper publication, only if the court orders it
+      es: Publicación en periódico, solo si el tribunal la ordena
+    min: 72
+    varies_by: county
+    note:
+      en: Franklin County lists publication costs starting at $72, paid to the newspaper. Not charged if publication is waived.
+      es: Franklin indica costos desde $72, que se pagan al periódico. No se cobra si se exime la publicación.
+    sources: [franklin-nc]
+  - id: certified-copies
+    label:
+      en: Certified copy of the judgment entry
+      es: Copia certificada de la resolución
+    amount: 2
+    varies_by: county
+    note:
+      en: Cuyahoga County charges $2 per page. Check your county.
+      es: Cuyahoga cobra $2 por página. Consulta tu condado.
+    sources: [cuyahoga-nc]
+fee_waiver:
+  available: true
+  eligibility:
+    en: >-
+      Under ORC 2323.311 you can ask the court to waive prepayment of costs by filing an affidavit of indigency. It is
+      normally approved if your gross household income is at or below 187.5% of the federal poverty guidelines and your
+      monthly expenses equal or exceed your liquid assets; the judge can approve others in exceptional circumstances.
+    es: >-
+      Según ORC 2323.311 puedes pedir que se exima el pago anticipado de costos presentando una declaración de
+      indigencia. Normalmente se aprueba si tu ingreso bruto está en o por debajo del 187.5% de las pautas federales de
+      pobreza y tus gastos mensuales igualan o superan tus bienes líquidos.
+  how:
+    en: >-
+      Ask the probate clerk for the court's affidavit of indigency (poverty affidavit) form and file it with your
+      application. A waiver may not cover newspaper publication, which is paid to the newspaper; if cost is a barrier,
+      apply for TransOhio's name change microgrant.
+    es: >-
+      Pide al secretario del tribunal el formulario de declaración de indigencia y preséntalo con tu solicitud. La
+      exención puede no cubrir la publicación. Si el costo es un obstáculo, solicita la microsubvención de TransOhio.
+  sources: [orc-2323-311, transohio-clinic]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      Ohio law no longer requires publication in every case. If the court holds a hearing, it sets the notice you must
+      give, which can be a newspaper notice at least 30 days before the hearing. Franklin County says publication is not
+      required for all applications.
+    es: >-
+      La ley de Ohio ya no exige publicación en todos los casos. Si el tribunal fija una audiencia, decide el aviso, que
+      puede ser un aviso en el periódico al menos 30 días antes. Franklin indica que no se exige en todas las solicitudes.
+  waiver_available: true
+  waiver_how:
+    en: >-
+      File form 21.6A (or your county's confidential name change packet) showing that open records or a published notice
+      would jeopardize your personal safety. If you show this, the court **must** waive the notice and seal the records
+      (ORC 2717.11).
+    es: >-
+      Presenta el formulario 21.6A (o el paquete confidencial de tu condado) mostrando que los registros abiertos o el
+      aviso pondrían en riesgo tu seguridad personal. Si lo demuestras, el tribunal **debe** eximir el aviso y sellar el
+      expediente (ORC 2717.11).
+  sources: [orc-2717-08, orc-2717-11, form-21-6a, franklin-nc]
+hearing:
+  required: conditional
+  detail:
+    en: >-
+      The probate court "may" hold a hearing (ORC 2717.08). Many counties, including Franklin, usually set one; Franklin
+      holds them by Zoom about 45 days after filing. For a minor whose other parent has not consented, a hearing with
+      notice to that parent is required.
+    es: >-
+      El tribunal "puede" celebrar una audiencia (ORC 2717.08). Muchos condados, incluido Franklin, suelen fijarla;
+      Franklin las hace por Zoom unos 45 días después de presentar.
+  sources: [orc-2717-08, orc-2717-14, franklin-nc]
+background_check:
+  required: conditional
+  detail:
+    en: >-
+      The court may order a criminal records check, paid by you (ORC 2717.19). Franklin County checks public records for
+      adult applicants; some counties use form 21.14 or a BCI check with a fee.
+    es: >-
+      El tribunal puede ordenar una verificación de antecedentes, pagada por ti (ORC 2717.19). Franklin revisa registros
+      públicos; algunos condados usan el formulario 21.14 o una verificación del BCI con costo.
+  sources: [orc-2717-19, form-21-14, franklin-nc, olh-franklin]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      Name change files are public unless sealed. The court must seal the file if you show that open records or
+      publication would jeopardize your personal safety. A sealed file can be opened only by court order for good cause
+      or at your request.
+    es: >-
+      Los expedientes son públicos salvo que se sellen. El tribunal debe sellarlos si demuestras que los registros
+      abiertos o la publicación pondrían en riesgo tu seguridad personal.
+  how:
+    en: File form 21.6A with your application. In Franklin County, confidential name changes must be filed on paper, not e-filed.
+    es: Presenta el formulario 21.6A con tu solicitud. En Franklin, los cambios confidenciales se presentan en papel, no electrónicamente.
+  sources: [orc-2717-11, form-21-6a, franklin-nc]
+minors:
+  summary:
+    en: >-
+      A parent or guardian files form 21.2 (or the county's minor packet) with a certified copy of the child's birth
+      certificate. Both living legal parents must consent (form 21.4); otherwise the non-consenting parent must be
+      notified of the hearing by certified mail, or by newspaper publication if the parent or address is unknown. Ohio
+      law has no separate rule for trans minors' name changes, but judges have discretion and outcomes vary.
+    es: >-
+      Un padre, madre o tutor presenta el formulario 21.2 (o el paquete del condado) con copia certificada del acta de
+      nacimiento del menor. Ambos padres legales deben consentir (formulario 21.4); si no, el que no consiente debe ser
+      notificado de la audiencia por correo certificado, o por periódico si se desconoce su domicilio.
+  forms: ["21.2", "21.4"]
+  sources: [orc-2717-14, franklin-nc, sco-probate-forms]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: Rules vary by county. Franklin County asks everyone to e-file except confidential cases; Cuyahoga accepts e-filing.
+    es: Varía por condado. Franklin pide presentar electrónicamente salvo casos confidenciales; Cuyahoga acepta presentación electrónica.
+  sources: [franklin-nc, cuyahoga-nc]
+timeline:
+  en: About 6 to 10 weeks from filing to a signed judgment entry in counties that hold hearings, longer if publication is ordered.
+  es: Unas 6 a 10 semanas desde la presentación hasta la resolución firmada en condados con audiencia; más si se ordena publicación.
+after:
+  en: |
+    1. **Social Security** first (free; bring a certified copy of the judgment entry and photo ID). The name changes; the sex field currently cannot.
+    2. **BMV**: go to a deputy registrar with the certified entry and your current card (see the Driver's license guide).
+    3. **Birth certificate** (if born in Ohio): mail a certified copy to the Ohio Department of Health, which adds a note of the name change to your birth record.
+    4. **Passport**, bank, employer, insurance, voter registration, school records.
+  es: |
+    1. **Seguro Social** primero (gratis; lleva copia certificada de la resolución e identificación con foto). El nombre cambia; el campo de sexo actualmente no.
+    2. **BMV**: acude a una agencia con la resolución certificada y tu tarjeta actual.
+    3. **Acta de nacimiento** (si naciste en Ohio): envía una copia certificada al Departamento de Salud de Ohio, que anota el cambio de nombre en tu registro.
+    4. **Pasaporte**, banco, empleo, seguro, registro de votante, escuela.
+tips:
+  - en: TransOhio's free virtual clinic (second Wednesday of each month) and Equality Ohio's legal clinic both help with forms. Register early; clinic spots fill weeks ahead.
+    es: La clínica virtual gratuita de TransOhio (segundo miércoles de cada mes) y la clínica legal de Equality Ohio ayudan con los formularios. Inscríbete con tiempo.
+  - en: Older guides say you need one year of county residency and must always publish. That changed in 2021; the rule is now 60 days, and publication is up to the court.
+    es: Guías antiguas dicen que necesitas un año de residencia y que siempre debes publicar. Eso cambió en 2021; ahora son 60 días y la publicación depende del tribunal.
+  - en: A name change does not change your sex marker. In Ohio that takes a separate probate court order to correct your birth record (see the Birth certificate guide).
+    es: El cambio de nombre no cambia tu marcador de sexo. En Ohio eso requiere otra orden judicial para corregir el acta de nacimiento.
+local_help:
+  - id: equality-ohio-legal-clinic
+    name: Equality Ohio Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free representation for legal name changes for people at or below 300% of the federal poverty level, statewide. Call 855-LGBT-LAW or use the online intake.
+      es: Representación gratuita en cambios de nombre para personas hasta el 300% del nivel federal de pobreza, en todo el estado.
+    url: https://equalityohio.org/legal-clinic/
+    phone: "855-542-8529"
+    cost: free
+    verification: org_website
+    sources: [equality-ohio-clinic]
+  - id: transohio-clinic
+    name: TransOhio, Ohio Name Change Legal Clinic and microgrants
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free, confidential virtual consultations with pro bono attorneys on the second Wednesday of each month. Register at least 48 hours ahead. Separate microgrant application for filing fees. Email legalclinics@transohio.org.
+      es: Consultas virtuales gratuitas y confidenciales con abogados voluntarios el segundo miércoles de cada mes. Inscríbete al menos 48 horas antes. Microsubvenciones aparte para tarifas.
+    url: https://www.transohio.org/legalclinic
+    cost: free
+    telehealth: true
+    verification: org_website
+    sources: [transohio-clinic]
+  - id: equitas-legal
+    name: Equitas Health, gender-affirming legal resources
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Lists current name and gender marker clinics (Equality Ohio, TransOhio, Legal Aid of Southeast and Central Ohio) and a do-it-yourself Ohio guide. Clinic waits can be several weeks.
+      es: Enumera clínicas de nombre y marcador de género y una guía para hacerlo por tu cuenta. La espera puede ser de varias semanas.
+    url: https://equitashealth.com/our-services/gender-affirming-care/legal-clinics/
+    cost: free
+    verification: org_website
+    sources: [equitas-legal]
+  - id: lasco
+    name: Legal Aid of Southeast and Central Ohio (LASCO)
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes in 36 central and southeast Ohio counties, including a legal clinic calendar.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en 36 condados del centro y sureste de Ohio.
+    url: https://www.lasco.org/
+    phone: "614-221-7201"
+    address: 1108 City Park Ave, Suite 100, Columbus, OH 43206
+    cost: free
+    verification: org_website
+    sources: [lasco]
+  - id: ohio-legal-help
+    name: Ohio Legal Help
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide legal aid website with plain-language name change information and a guided Franklin County adult application.
+      es: Sitio estatal de ayuda legal con información sobre cambio de nombre y una solicitud guiada para Franklin.
+    url: https://www.ohiolegalhelp.org/letters-forms/franklin-name-change
+    cost: free
+    verification: org_website
+    sources: [olh-franklin]
+statutes:
+  - cite: Ohio Rev. Code §§ 2717.01 to 2717.19 (HB 7, effective August 17, 2021)
+    title:
+      en: Change of name, application, hearing, sealing, minors, and prohibitions
+    url: https://codes.ohio.gov/ohio-revised-code/chapter-2717
+  - cite: Ohio Rev. Code § 2717.11
+    title:
+      en: Waiver of hearing notice and sealing when open records or publication would jeopardize the applicant's safety
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.11
+  - cite: Ohio Rev. Code § 2323.311
+    title:
+      en: Waiver of prepayment of court costs for indigent litigants
+    url: https://codes.ohio.gov/ohio-revised-code/section-2323.311
+related_links:
+  - title: Advocates for Trans Equality, Ohio identity documents
+    url: https://transequality.org/documents/ohio-identity-documents
+    note:
+      en: No update date shown; its BMV section describes the Declaration of Gender Change form that the BMV withdrew in August 2026.
+      es: Sin fecha de actualización; su sección del BMV describe el formulario que el BMV retiró en agosto de 2026.
+  - title: ACLU of Ohio, Gender and Name Change and ID Documents
+    url: https://www.acluohio.org/transgender-spotlight/gender-and-name-change-id-documents/
+    note:
+      en: Useful background, but it still lists one-year residency and mandatory publication, which changed in 2021.
+      es: Útil, pero aún menciona un año de residencia y publicación obligatoria, que cambiaron en 2021.
+  - title: Franklin County Probate Court, name change forms
+    url: https://probate.franklincountyohio.gov/Forms/Name-Change-Forms
+sources:
+  - id: orc-2717-02
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.02
+    title: Ohio Revised Code § 2717.02, Application for change of name allowed
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person desiring to change the person's name may file an application in the probate court of the county in which the person resides.
+  - id: orc-2717-03
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.03
+    title: Ohio Revised Code § 2717.03, Contents of application for change of name
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The applicant has been a bona fide resident of the county for at least sixty days prior to the filing of the application.
+  - id: orc-2717-07
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.07
+    title: Ohio Revised Code § 2717.07, Evidence of identity
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: orc-2717-08
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.08
+    title: Ohio Revised Code § 2717.08, Hearing
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The probate court may hold a hearing on an application. ... if the court requires a hearing, it shall set the manner, scope, and content of the hearing notice the applicant must serve.
+  - id: orc-2717-09
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.09
+    title: Ohio Revised Code § 2717.09, Court order
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: upon proof that the facts set forth in the application show reasonable and proper cause for changing the name of the applicant ... the court may order the change of name.
+  - id: orc-2717-11
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.11
+    title: Ohio Revised Code § 2717.11, Sealing records
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: open records of the name change or conformity, or publication of the hearing notice ... would jeopardize the applicant's personal safety
+  - id: orc-2717-14
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.14
+    title: Ohio Revised Code § 2717.14, Application on behalf of minor
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: the consent of both living, legal parents of the minor shall be filed, or notice of the hearing shall be given to the parent or parents not consenting by certified mail, return receipt requested.
+  - id: orc-2717-16
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.16
+    title: Ohio Revised Code § 2717.16, Change of name prohibited
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: orc-2717-19
+    url: https://codes.ohio.gov/ohio-revised-code/section-2717.19
+    title: Ohio Revised Code § 2717.19, Criminal records check
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: On receipt of an application, the probate court may order a criminal records check. Any fee required for the criminal records check shall be paid by the applicant.
+  - id: orc-2323-311
+    url: https://codes.ohio.gov/ohio-revised-code/section-2323.311
+    title: Ohio Revised Code § 2323.311, Indigent litigants
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: gross income does not exceed one hundred eighty-seven and five-tenths per cent of the federal poverty guidelines
+  - id: form-21-0
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_0.pdf
+    title: Form 21.0, Application for Change of Name of Adult (amended January 1, 2023)
+    publisher: Supreme Court of Ohio
+    kind: form
+    accessed: "2026-09-24"
+    quote: Applicant is an adult and has been a bona fide resident of ______ County, Ohio, for at least 60 days immediately prior to the filing of this application.
+  - id: form-21-6a
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_6A.pdf
+    title: Form 21.6A, Application to Waive Publication and Seal File and Judgment Entry
+    publisher: Supreme Court of Ohio
+    kind: form
+    accessed: "2026-09-24"
+    quote: The record of these proceedings shall be opened only by Order of the Court for good cause shown or at the request of the applicant for any reason.
+  - id: form-21-14
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/nameChange/21_14.pdf
+    title: Form 21.14, Release for Criminal Background Check
+    publisher: Supreme Court of Ohio
+    kind: form
+    accessed: "2026-09-24"
+  - id: sco-probate-forms
+    url: https://www.supremecourt.ohio.gov/forms/all-forms/probate/5
+    title: Probate forms (Change of Name, forms 21.0 to 21.14)
+    publisher: Supreme Court of Ohio
+    kind: official
+    accessed: "2026-09-24"
+  - id: franklin-nc
+    url: https://probate.franklincountyohio.gov/Departments/Name-Change
+    title: Name Change
+    publisher: Franklin County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change Application: starts at $128.00. Publication costs (if required): starts at $72.00. Publication is not required for all applications. Confidential name changes cannot be e-filed."
+  - id: cuyahoga-nc
+    url: https://probate.cuyahogacounty.gov/namechange.aspx
+    title: Name Changes
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: Each certified copy costs $2.00 per page either with cash, or a money order made payable to Cuyahoga County Probate Court.
+  - id: cuyahoga-costs
+    url: https://probate.cuyahogacounty.gov/costs.aspx
+    title: Probate Court Filing Fees
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change Adult: Change of Name $100.00"
+  - id: olh-franklin
+    url: https://www.ohiolegalhelp.org/letters-forms/franklin-name-change
+    title: Franklin County Adult Name Change Application
+    publisher: Ohio Legal Help
+    kind: org
+    accessed: "2026-09-24"
+    quote: Typical fees are about $100 to $150. ... Some counties may also require payment for a BCI background check.
+  - id: odh-correct
+    url: https://odh.ohio.gov/know-our-programs/vital-statistics/changing-correcting-birth-record
+    title: Changing or Correcting a Birth Record
+    publisher: Ohio Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: When a legal name change has been granted to a person whose birth occurred in Ohio our office will accept a certified copy of the court ordered legal name change to update the birth record.
+  - id: equality-ohio-clinic
+    url: https://equalityohio.org/legal-clinic/
+    title: Legal Clinic
+    publisher: Equality Ohio
+    kind: org
+    accessed: "2026-09-24"
+  - id: transohio-clinic
+    url: https://www.transohio.org/legalclinic
+    title: Ohio Name Change Legal Clinic
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+    quote: Virtual clinics occur the second Wednesday of each month via Zoom or phone.
+  - id: equitas-legal
+    url: https://equitashealth.com/our-services/gender-affirming-care/legal-clinics/
+    title: Gender Affirming Legal Resources, Legal Clinics
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: lasco
+    url: https://www.lasco.org/
+    title: Legal Aid of Southeast and Central Ohio
+    publisher: LASCO
+    kind: org
+    accessed: "2026-09-24"

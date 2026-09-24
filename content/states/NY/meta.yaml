@@ -1,0 +1,111 @@
+code: NY
+name:
+  en: New York
+  es: Nueva York
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on the Gender Recognition Act (L. 2021 ch. 158), the 2023 shield law (L. 2023 ch. 143),
+    and 18 NYCRR 505.2(l). The Movement Advancement Project map was not re-fetched for this draft; reviewer should
+    cross-check. Trans Lifeline number copied from the national org entry.
+overview:
+  en: >-
+    New York is among the most protective states for trans people. You can change your name and legal sex designation
+    in one court petition with no newspaper publication, and choose M, F, or X on your driver's license and birth
+    certificate by self-attestation. Medicaid and state-regulated insurance cover gender-affirming care, and a 2023
+    shield law protects patients and providers from other states' bans. New York City and the rest of the state issue
+    birth certificates separately, and NYC residents can file name changes in Civil Court for $65.
+  es: >-
+    Nueva York es uno de los estados que más protege a las personas trans. Puedes cambiar tu nombre y tu designación
+    legal de sexo en una sola petición judicial sin publicación en periódico, y elegir M, F o X en tu licencia y acta de
+    nacimiento por autodeclaración. Medicaid y los seguros regulados por el estado cubren la atención de afirmación de
+    género, y una ley escudo de 2023 protege a pacientes y proveedores de las prohibiciones de otros estados. La ciudad
+    de Nueva York y el resto del estado emiten actas por separado, y en NYC el cambio de nombre en el Tribunal Civil
+    cuesta $65.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [gra, shield-law, nycrr-505-2]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [new-york-city]
+key_resources:
+  - id: srlp
+    name: Sylvia Rivera Law Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help for low-income trans, gender nonconforming, and intersex New Yorkers, including name and ID changes. 212-337-8550 ext. 308, legal@srlp.org.
+      es: Ayuda legal gratuita para personas trans, de género no conforme e intersexuales de bajos ingresos, incluidos cambios de nombre e identificación. 212-337-8550 ext. 308.
+    url: https://srlp.org/resources/namechange/
+    phone: "212-337-8550"
+    cost: free
+    verification: org_website
+    sources: [srlp]
+  - id: nylag-lgbtq
+    name: NYLAG LGBTQ Law Unit
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Free civil legal services for low-income New Yorkers, including name and gender marker changes.
+      es: Servicios legales civiles gratuitos para personas de bajos ingresos, incluidos cambios de nombre y marcador de género.
+    url: https://nylag.org/lgbtq-law/
+    phone: "212-613-5000"
+    cost: free
+    verification: org_website
+    sources: [nylag]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: gra
+    url: https://www.nysenate.gov/legislation/bills/2021/A5465
+    title: A5465-D (2021), Gender Recognition Act, Chapter 158 of 2021
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: shield-law
+    url: https://www.nysenate.gov/legislation/bills/2023/S2475
+    title: S2475-B (2023), gender-affirming care shield law, Chapter 143 of 2023
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: nycrr-505-2
+    url: https://www.law.cornell.edu/regulations/new-york/18-NYCRR-505.2
+    title: 18 NYCRR § 505.2(l), Medicaid coverage for gender dysphoria treatment
+    publisher: Legal Information Institute
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: srlp
+    url: https://srlp.org/resources/namechange/
+    title: How to legally change your name in New York City
+    publisher: Sylvia Rivera Law Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: nylag
+    url: https://nylag.org/lgbtq-law/
+    title: LGBTQ Law
+    publisher: New York Legal Assistance Group
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

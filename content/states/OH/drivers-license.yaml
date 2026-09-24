@@ -1,0 +1,218 @@
+guide_type: drivers_license
+jurisdiction: OH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The August 2026 policy change is not documented on bmv.ohio.gov (no page mentions sex designation changes as of
+    2026-09-24). It comes from news reports quoting BMV spokesperson Lindsey Bohrer: The Buckeye Flame (Aug 19, 2026),
+    The Daily Signal (Aug 20, 2026), PinkNews, and The Post (Athens, Sept 2026). The Ohio Capital Journal and WKYC
+    articles returned 403. Reports differ on whether a passport is accepted: the BMV statement says it will record the
+    sex on "an individual's birth certificate or passport", while The Buckeye Flame says an amended birth certificate
+    from the Ohio Department of Health is required. It is unconfirmed whether an amended birth certificate from another
+    state is accepted and what happens to cards already changed with Form 2369. Reviewer: call the BMV (614-752-7500)
+    to confirm. Fees from the BMV fee page and ID card page (read 2026-09-24): duplicate license $29; ID card
+    duplicate listed as $12 on the fee page and $9 on the ID card page (the difference is probably the deputy
+    registrar fee); ID cards are free for Ohio residents 17 and older who do not hold a license. MAP scores Ohio's
+    license policy as negative; A4TE's Ohio page still describes Form 2369 and is out of date.
+status: restricted
+requirement_type: amended_birth_certificate
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Since August 2026 the Ohio BMV no longer accepts its Declaration of Gender Change form (Form 2369). It now puts on
+    your license or ID the sex shown on your birth certificate (or, per the BMV's statement, your passport), so you can
+    change the marker only after getting an amended birth certificate. No X option. Name changes work as before.
+  es: >-
+    Desde agosto de 2026 el BMV de Ohio ya no acepta su formulario de Declaración de Cambio de Género (Formulario
+    2369). Ahora pone en tu licencia o identificación el sexo que aparece en tu acta de nacimiento (o, según el BMV, en
+    tu pasaporte), así que solo puedes cambiar el marcador después de obtener un acta enmendada. No hay opción X. Los
+    cambios de nombre funcionan igual que antes.
+summary:
+  en: |
+    For about 17 years the Ohio Bureau of Motor Vehicles let you change the sex on your license or state ID with a Declaration of Gender Change (BMV Form 2369) signed by a physician, psychologist, or therapist. In **August 2026** the BMV removed the form, saying it "is not compatible with Ohio Revised Code Sec. 9.05," the 2025 budget provision (HB 96) stating that Ohio recognizes two sexes that "are not changeable."
+
+    **What works now**: the BMV says it will record the sex stated on your birth certificate or passport. In practice that means:
+    - If you were born in Ohio, get a probate court order correcting your birth record (available in some counties only; see the Birth certificate guide), then order the new certificate from the Ohio Department of Health and bring it to the BMV.
+    - US passports issued since early 2025 show sex at birth, so a new passport will not help. Whether an older passport with a changed marker, or an amended birth certificate from another state, is accepted has not been confirmed.
+
+    Ohio has never offered an X marker on licenses or ID cards.
+
+    **Changing your name** is unaffected: bring a certified copy of your court order and your current card to any deputy registrar license agency.
+  es: |
+    Durante unos 17 años el BMV de Ohio permitió cambiar el sexo en la licencia o identificación con una Declaración de Cambio de Género (Formulario 2369) firmada por un médico, psicólogo o terapeuta. En **agosto de 2026** el BMV retiró el formulario, diciendo que "no es compatible" con la sección 9.05 del Código Revisado de Ohio, la disposición del presupuesto de 2025 (HB 96) que dice que Ohio reconoce dos sexos que "no son cambiables".
+
+    **Lo que funciona ahora**: el BMV dice que registrará el sexo que aparece en tu acta de nacimiento o pasaporte. En la práctica:
+    - Si naciste en Ohio, obtén una orden del tribunal testamentario que corrija tu registro de nacimiento (solo en algunos condados), pide la nueva acta al Departamento de Salud de Ohio y llévala al BMV.
+    - Los pasaportes de EE. UU. emitidos desde principios de 2025 muestran el sexo al nacer. No se ha confirmado si se acepta un pasaporte anterior con marcador cambiado o un acta enmendada de otro estado.
+
+    Ohio nunca ha ofrecido el marcador X.
+
+    **Cambiar tu nombre** no se ve afectado: lleva copia certificada de tu orden judicial y tu tarjeta actual a cualquier agencia del BMV.
+eligibility:
+  residency:
+    en: You must be an Ohio resident with, or applying for, an Ohio license or state ID.
+    es: Debes residir en Ohio y tener o solicitar una licencia o identificación de Ohio.
+  age:
+    en: Any age for ID cards; ID cards are free for residents 17 and older who do not hold a driver's license.
+    es: Cualquier edad para la identificación; es gratis para residentes de 17 años o más sin licencia.
+  sources: [bmv-id-card, bmv-fees]
+steps:
+  - id: name-change
+    title:
+      en: To change your name, bring your court order to a deputy registrar
+      es: Para cambiar tu nombre, lleva tu orden judicial a una agencia del BMV
+    body:
+      en: >-
+        Update Social Security first and wait a day or two. Then go in person to any deputy registrar license agency
+        with your current license or ID and a certified copy of your name change judgment entry, and ask for a
+        duplicate with the new name. You can get in line online first.
+      es: >-
+        Actualiza primero el Seguro Social y espera uno o dos días. Luego ve en persona a una agencia del BMV con tu
+        licencia o identificación actual y una copia certificada de tu resolución de cambio de nombre, y pide un
+        duplicado con el nuevo nombre.
+    fees: [dl-duplicate, id-duplicate]
+    applies_to: [name_change, in_person]
+    sources: [bmv-duplicate, bmv-fees]
+  - id: birth-certificate-first
+    title:
+      en: To change the sex marker, get an amended birth certificate first
+      es: Para cambiar el marcador de sexo, primero obtén un acta de nacimiento enmendada
+    body:
+      en: >-
+        The BMV no longer accepts Form 2369 or a provider letter. If you were born in Ohio, see the Birth certificate
+        guide: you need a probate court order correcting your birth record, then a certified copy of the new
+        certificate from the Ohio Department of Health. Legal clinics at Equality Ohio and TransOhio can help you
+        choose which county to file in.
+      es: >-
+        El BMV ya no acepta el Formulario 2369 ni cartas de proveedores. Si naciste en Ohio, consulta la guía del acta
+        de nacimiento: necesitas una orden del tribunal testamentario y luego una copia certificada de la nueva acta
+        del Departamento de Salud de Ohio.
+    applies_to: [gender_marker]
+    sources: [bohrer-statement, buckeye-flame-bmv, post-athens]
+  - id: marker-visit
+    title:
+      en: Bring the amended birth certificate to the BMV
+      es: Lleva el acta enmendada al BMV
+    body:
+      en: >-
+        Take the certified amended birth certificate and your current card to a deputy registrar and ask for a
+        duplicate with the corrected sex. Call the BMV at 614-752-7500 before you go if you were born outside Ohio or
+        want to use a passport, because the BMV has not published written rules for those cases.
+      es: >-
+        Lleva el acta enmendada certificada y tu tarjeta actual a una agencia y pide un duplicado con el sexo
+        corregido. Llama al BMV al 614-752-7500 antes de ir si naciste fuera de Ohio o quieres usar un pasaporte.
+    fees: [dl-duplicate, id-duplicate]
+    applies_to: [gender_marker, in_person]
+    sources: [bohrer-statement, bmv-duplicate]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Duplicate driver's license (name or other change)
+      es: Duplicado de licencia de conducir (cambio de nombre u otro)
+    amount: 29
+    waivable: false
+    sources: [bmv-fees]
+  - id: id-duplicate
+    label:
+      en: Duplicate state ID card
+      es: Duplicado de tarjeta de identificación estatal
+    min: 9
+    max: 12
+    note:
+      en: Free for Ohio residents 17 and older who do not hold a driver's license, and for permanently disabled applicants (form BMV 5755).
+      es: Gratis para residentes de Ohio de 17 años o más sin licencia de conducir, y para solicitantes con discapacidad permanente (formulario BMV 5755).
+    sources: [bmv-fees, bmv-id-card]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no waiver for driver's licenses. State ID cards are free for residents 17 and older who do not hold a license (you can surrender a license for a free ID).
+    es: No hay exención para licencias. La identificación estatal es gratis para residentes de 17 años o más sin licencia.
+  sources: [bmv-id-card]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Duplicates with changed information must be done in person at a deputy registrar license agency; online reprints cannot change information.
+    es: Los duplicados con información cambiada se hacen en persona en una agencia; las reimpresiones en línea no cambian datos.
+  sources: [bmv-duplicate]
+timeline:
+  en: The name change takes one visit. A marker change depends on how long the birth certificate correction takes, usually 2 to 4 months.
+  es: El cambio de nombre toma una visita. El cambio de marcador depende de la corrección del acta, normalmente 2 a 4 meses.
+after:
+  en: >-
+    The BMV has not said publicly whether licenses already changed with Form 2369 will be reversed. They stay valid
+    until they expire, but at renewal or when you get a duplicate the BMV may print the sex on your birth certificate.
+    Keep a copy of any BMV approval letter you received. If a clerk refuses a name-only update or asks you about your
+    sex marker, contact Equality Ohio's legal clinic.
+  es: >-
+    El BMV no ha dicho públicamente si revertirá las licencias ya cambiadas con el Formulario 2369. Siguen siendo
+    válidas hasta que venzan, pero al renovar o pedir un duplicado el BMV podría imprimir el sexo de tu acta de
+    nacimiento. Guarda cualquier carta de aprobación del BMV. Si te niegan un cambio solo de nombre, contacta la
+    clínica legal de Equality Ohio.
+tips:
+  - en: If your license already shows the correct marker, think carefully before getting a duplicate or renewing early; ask a legal clinic first.
+    es: Si tu licencia ya muestra el marcador correcto, piénsalo antes de pedir un duplicado o renovar antes de tiempo; consulta primero a una clínica legal.
+  - en: Name changes and sex marker changes are separate. You can still update your name any time.
+    es: El cambio de nombre y el de marcador son trámites separados. Puedes actualizar tu nombre en cualquier momento.
+statutes:
+  - cite: Ohio Rev. Code § 9.05 (HB 96, effective September 30, 2025)
+    title:
+      en: State policy recognizing two sexes, male and female, that are not changeable; cited by the BMV for withdrawing Form 2369
+    url: https://codes.ohio.gov/ohio-revised-code/section-9.05
+related_links:
+  - title: The Buckeye Flame, Ohio BMV abruptly creates new obstacle to change a sex marker (Aug 19, 2026)
+    url: https://thebuckeyeflame.com/2026/08/19/ohio-bmv-creates-new-obstacle-to-change-sex-marker-on-licenses/
+  - title: Equality Ohio, Trans Know Your Rights
+    url: https://equalityohio.org/legal-clinic/trans-know-your-rights/
+  - title: Advocates for Trans Equality, Ohio identity documents
+    url: https://transequality.org/documents/ohio-identity-documents
+    note:
+      en: Out of date; still describes the withdrawn Form 2369 process.
+      es: Desactualizada; aún describe el proceso del Formulario 2369 retirado.
+sources:
+  - id: bohrer-statement
+    url: https://www.dailysignal.com/2026/08/20/ohio-bmv-policy-transgender/
+    title: Ohio BMV Changes Policy on Gender Markers
+    publisher: The Daily Signal
+    kind: news
+    accessed: "2026-09-24"
+    quote: The BMV has determined that BMV Form 2369 is not compatible with Ohio Revised Code Sec. 9.05 ... [and will] record the sex that is stated on an individual's birth certificate or passport.
+  - id: buckeye-flame-bmv
+    url: https://thebuckeyeflame.com/2026/08/19/ohio-bmv-creates-new-obstacle-to-change-sex-marker-on-licenses/
+    title: Ohio BMV abruptly creates new obstacle to change a sex marker on driver's licenses, IDs
+    publisher: The Buckeye Flame
+    kind: news
+    accessed: "2026-09-24"
+    quote: The Ohio Bureau of Motor Vehicles now requires an amended birth certificate from the Ohio Department of Health to change sex markers on driver's licenses and ID cards.
+  - id: post-athens
+    url: https://www.thepostathens.com/article/2026/09/bmv-gender-change-form-transgender-ohio
+    title: Ohio BMV disqualifies gender change form
+    publisher: The Post (Athens)
+    kind: news
+    accessed: "2026-09-24"
+  - id: bmv-fees
+    url: https://www.bmv.ohio.gov/doc-fees.aspx
+    title: Fees
+    publisher: Ohio Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate Operator: $29.00. State Identification Card duplicate: $12.00."
+  - id: bmv-id-card
+    url: https://www.bmv.ohio.gov/dl-id-card.aspx
+    title: Identification Cards
+    publisher: Ohio Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: bmv-duplicate
+    url: https://www.bmv.ohio.gov/dl-reprint-duplicate.aspx
+    title: Reprint/Duplicate
+    publisher: Ohio Bureau of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: A duplicate is obtained when your DL/ID is lost, stolen, mutilated, or destroyed, and/or if changes are needed to the information on your card (address, name, etc.).

@@ -1,0 +1,354 @@
+jurisdiction: FL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Statutes (456.52, 456.001, 286.311) read on flsenate.gov and Rule 59G-1.050(7) text read from flrules.org on
+    2026-09-24. LITIGATION STATUS IS THE BIGGEST GAP: the web search budget ran out, and the most recent material
+    found says Doe v. Ladapo (11th Cir., argued January 15, 2025, supplemental briefing after US v. Skrmetti) and
+    Dekker v. Weida (11th Cir., supplemental briefs July 2025) were both still undecided. Reviewer must check both
+    dockets for any 2026 decision. Dekker: whether the district court judgment protects anyone other than the named
+    plaintiffs is unclear; secondary sources and 2025 AHCA variance petitions (flrules notices of 3/14/2025 and
+    12/26/2025) indicate AHCA still applies the exclusion, so covers_hrt/surgery are "no". The adult consent form is
+    adopted by Board of Medicine rule (not read). Telehealth: the physician-in-the-room consent rule means telehealth
+    alone cannot start care; whether Plume, FOLX, and QueerDoc currently accept new Florida patients, and how, was not
+    confirmed (QueerDoc has a Florida page but details did not load). Planned Parenthood of Florida (merged affiliate)
+    was not confirmed to offer hormone therapy. Care Resource's site hints at upcoming gender-affirming services but
+    does not confirm them. Hope & Help's site confirms gender-affirming hormone therapy.
+status_summary:
+  en: >-
+    Florida bans hormone therapy, puberty blockers, and surgery for anyone under 18. Adults can get care, but only from
+    a **physician** (not a nurse practitioner or physician assistant), and the first consent must be signed **in person**
+    with the prescribing physician on a state form. Florida Medicaid and state-funded plans exclude gender-affirming
+    care. Federal lawsuits challenging these rules have been pending on appeal since 2023 and 2024, and the laws are
+    being enforced.
+  es: >-
+    Florida prohíbe la terapia hormonal, los bloqueadores de pubertad y la cirugía para menores de 18 años. Los adultos
+    pueden recibir atención, pero solo de un **médico** (no de una enfermera practicante ni asistente médico), y el
+    primer consentimiento debe firmarse **en persona** con el médico en un formulario estatal. Medicaid de Florida y
+    los planes con fondos estatales excluyen la atención de afirmación de género. Las demandas federales siguen en
+    apelación y las leyes se están aplicando.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Under SB 254 (2023), codified at section 456.52:
+      - Only a **physician** (MD or DO) may prescribe or administer hormones, blockers, or perform surgery for gender transition. Nurse practitioners and physician assistants cannot, which closed or changed many clinic and telehealth programs.
+      - Consent must be voluntary, informed, in writing on a form adopted by the Board of Medicine, and given while the **physician is physically in the same room** with you. You cannot start care through telehealth alone.
+      - Violating the consent or physician rules is a first-degree misdemeanor for the provider.
+
+      Hormone therapy for adults is still legal. **If you have little money**, in rough order:
+      1. Look for a **community health center or HIV/LGBTQ clinic** with a physician who prescribes hormones (for example Hope & Help in the Orlando area; see the city pages). Sliding-scale fees are common. Use findahealthcenter.hrsa.gov.
+      2. **Point of Pride's HRT Access Fund** pays for 18 months of telehealth hormone care (applications in May); check first that the partner provider can serve Florida given the in-person rule.
+      3. For medications, generic estradiol and spironolactone are inexpensive with discount cards (GoodRx) or Cost Plus Drugs. Testosterone prices vary more.
+    es: |
+      Según SB 254 (2023), sección 456.52:
+      - Solo un **médico** (MD o DO) puede recetar hormonas o bloqueadores o hacer cirugía de transición. Las enfermeras practicantes y asistentes médicos no pueden.
+      - El consentimiento debe ser por escrito en un formulario de la Junta de Medicina y darse con el **médico físicamente presente** en la misma sala. No puedes iniciar la atención solo por telesalud.
+      - Violar estas reglas es un delito menor de primer grado para el proveedor.
+
+      La terapia hormonal para adultos sigue siendo legal. **Si tienes poco dinero**:
+      1. Busca un **centro de salud comunitario o clínica de VIH/LGBTQ** con un médico que recete hormonas (por ejemplo Hope & Help en Orlando). Usa findahealthcenter.hrsa.gov.
+      2. El **Fondo de Acceso a TRH de Point of Pride** paga 18 meses de atención por telesalud (solicitudes en mayo); confirma primero que el proveedor pueda atender en Florida.
+      3. El estradiol y la espironolactona genéricos son baratos con cupones (GoodRx) o Cost Plus Drugs.
+  sources: [fs-456-52, hope-help, hrsa, pop]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      Section 456.52(1) prohibits puberty blockers, hormones, and surgery for gender transition for anyone **under 18**. The only exception is for minors who began treatment before May 17, 2023, who may continue under Board of Medicine rules requiring parental consent. A practitioner who willfully participates in a violation commits a **third-degree felony**. SB 254 also gives Florida courts temporary emergency jurisdiction in custody matters involving this care.
+
+      A federal judge declared the ban unconstitutional in June 2024 (Doe v. Ladapo), but the Eleventh Circuit stayed that ruling in August 2024, so **the ban is in effect**. Families seeking care travel to states without bans; the Campaign for Southern Equality's Trans Youth Emergency Project helps with navigation and costs.
+    es: |
+      La sección 456.52(1) prohíbe bloqueadores de pubertad, hormonas y cirugía de transición para **menores de 18 años**. La única excepción es para menores que empezaron antes del 17 de mayo de 2023. Un profesional que participe a sabiendas comete un **delito grave de tercer grado**.
+
+      Un juez federal declaró inconstitucional la prohibición en junio de 2024 (Doe v. Ladapo), pero el Undécimo Circuito suspendió ese fallo en agosto de 2024, así que **la prohibición está vigente**. El Proyecto de Emergencia para Jóvenes Trans de Campaign for Southern Equality ayuda a las familias que viajan a otros estados.
+  sources: [fs-456-52, nclr-doe, tyep]
+medicaid:
+  program_name: Florida Medicaid (Statewide Medicaid Managed Care)
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: |
+      AHCA Rule 59G-1.050(7) (effective August 21, 2022) says Florida Medicaid does not cover puberty blockers, hormones and hormone antagonists, sex reassignment surgeries, or any other procedures that alter sex characteristics for the treatment of gender dysphoria, and declares them not medically necessary. Section 286.311 (SB 254) also bars Medicaid managed care plans, the state employee health plan, and other public entities from spending state funds on this care.
+
+      A federal court struck down the rule in June 2023 (Dekker v. Weida), but the state appealed and the case is still pending; the state continues to apply the exclusion. Medicaid still covers other care (primary care, labs, mental health) for eligible people. Florida has not expanded Medicaid, so most adults without children or a disability do not qualify. If you are denied a gender-affirming service, the Florida Health Justice Project may be able to help.
+    es: |
+      La Regla 59G-1.050(7) de AHCA (vigente desde el 21 de agosto de 2022) dice que Medicaid de Florida no cubre bloqueadores de pubertad, hormonas, cirugías de reasignación ni otros procedimientos para tratar la disforia de género. La sección 286.311 también prohíbe a los planes de Medicaid y al plan de empleados estatales gastar fondos estatales en esta atención.
+
+      Un tribunal federal anuló la regla en junio de 2023 (Dekker v. Weida), pero el estado apeló y el caso sigue pendiente; el estado sigue aplicando la exclusión. Medicaid cubre otra atención (primaria, laboratorios, salud mental). Florida no amplió Medicaid, así que la mayoría de los adultos sin hijos ni discapacidad no califican.
+  how_to_apply_url: https://ahca.myflorida.com/medicaid
+  sources: [rule-59g, fs-286-311, lambda-dekker, wusf-dekker, fhjp]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: >-
+      Florida law does not prohibit private health plans from excluding gender-affirming care. Plans bought on
+      HealthCare.gov and employer plans vary: read the exclusions list in your plan documents. The state employee
+      plan and other state-funded plans may not pay for this care (section 286.311). If a plan denies a claim, appeal
+      with the plan first; unresolved problems with state-regulated insurers can be reported to the Department of
+      Financial Services. Self-funded employer plans are federally regulated.
+    es: >-
+      La ley de Florida no prohíbe que los planes privados excluyan la atención de afirmación de género. Revisa las
+      exclusiones de tu plan. El plan de empleados estatales no puede pagar esta atención. Si niegan un reclamo, apela
+      primero con el plan; luego puedes presentar una queja ante el Departamento de Servicios Financieros.
+  complaint_url: https://www.myfloridacfo.com/division/consumers/needourhelp
+  sources: [fs-286-311, dfs-help, map-health]
+telehealth_hrt: [plume, folx, queerdoc, planned-parenthood]
+resources:
+  - id: hope-and-help
+    name: Hope & Help
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Central Florida clinic offering gender-affirming hormone therapy and trans care, PrEP and PEP, HIV and STI testing, behavioral health, and an on-site discount pharmacy. Sliding scale and insurance.
+      es: Clínica de Florida Central con terapia hormonal de afirmación de género, PrEP y PEP, pruebas de VIH e ITS, salud mental y farmacia con descuento. Escala móvil y seguro.
+    url: https://hopeandhelp.org/
+    phone: "407-645-2577"
+    areas_served:
+      en: Orange, Seminole, Osceola, and Lake counties
+      es: Condados de Orange, Seminole, Osceola y Lake
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [hope-help]
+  - id: fhjp
+    name: Florida Health Justice Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Nonprofit legal advocacy group for low-income Floridians with Medicaid, KidCare, and coverage denials; serves LGBTQ+ clients. Submit a legal help intake on its website.
+      es: Organización legal sin fines de lucro para floridanos de bajos ingresos con problemas de Medicaid y negaciones de cobertura; atiende a personas LGBTQ+.
+    url: https://www.floridahealthjustice.org/
+    cost: free
+    verification: org_website
+    sources: [fhjp]
+  - id: slc
+    name: Southern Legal Counsel, Trans Rights Initiative
+    type: legal_aid
+    pillars: [hrt, insurance]
+    description:
+      en: Statewide nonprofit law firm that litigates Florida's trans health care and Medicaid restrictions and takes intake from low-income Floridians.
+      es: Bufete sin fines de lucro que litiga contra las restricciones de Florida y recibe casos de personas de bajos ingresos.
+    url: https://www.southernlegal.org/
+    phone: "352-271-8890"
+    cost: free
+    verification: org_website
+    sources: [slc]
+  - id: fl-doh-prep
+    name: Florida Department of Health, PrEP and PEP
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: State page with a PrEP provider finder and information on paying for PrEP; free HIV testing locations and at-home test kits at knowyourhivstatus.com.
+      es: Página estatal con buscador de proveedores de PrEP e información sobre cómo pagarla; pruebas de VIH gratis en knowyourhivstatus.com.
+    url: https://www.floridahealth.gov/individual-family-health/injury-prevention-wellness/hiv-aids/prevention/prep-pep/
+    cost: varies
+    verification: official_source
+    sources: [doh-prep]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers, which charge on a sliding scale regardless of insurance. Call ahead to ask whether a physician there prescribes hormones.
+      es: Buscador federal de centros de salud comunitarios con escala móvil. Llama antes para preguntar si un médico receta hormonas.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National fund paying for hormone therapy (HRT Access Fund, applications in May), surgery, and other gender-affirming needs.
+      es: Fondo nacional que paga terapia hormonal (solicitudes en mayo), cirugía y otras necesidades.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop]
+  - id: tyep
+    name: Campaign for Southern Equality, Trans Youth Emergency Project
+    type: other
+    pillars: [hrt]
+    description:
+      en: Helps families of trans youth in Southern states with bans find out-of-state care, with navigation and travel grants.
+      es: Ayuda a familias de jóvenes trans en estados del Sur con prohibiciones a encontrar atención en otros estados.
+    url: https://southernequality.org/tyep/
+    cost: free
+    verification: community_reported
+    sources: [tyep]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit offering grants toward gender-affirming care costs.
+      es: Organización nacional que ofrece becas para costos de atención de afirmación de género.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+statutes:
+  - cite: Fla. Stat. § 456.52
+    title:
+      en: Minors ban; physician-only and in-person written consent for adults; penalties
+      es: Prohibición para menores; solo médicos y consentimiento en persona para adultos
+    url: https://www.flsenate.gov/Laws/Statutes/2025/456.52
+  - cite: Fla. Stat. § 456.001(9)
+    title:
+      en: Definition of sex-reassignment prescriptions or procedures
+    url: https://www.flsenate.gov/Laws/Statutes/2025/456.001
+  - cite: Fla. Stat. § 286.311
+    title:
+      en: No state funds for sex-reassignment prescriptions or procedures
+      es: Prohibición de fondos estatales
+    url: https://www.flsenate.gov/Laws/Statutes/2025/286.311
+  - cite: Fla. Admin. Code R. 59G-1.050(7)
+    title:
+      en: Florida Medicaid exclusion of gender dysphoria treatment
+      es: Exclusión de Medicaid de Florida
+    url: https://www.flrules.org/gateway/ruleNo.asp?id=59G-1.050
+litigation:
+  - case: Doe v. Ladapo
+    court: US Court of Appeals for the Eleventh Circuit (appeal from N.D. Fla. No. 4:23-cv-00114)
+    summary:
+      en: >-
+        Challenge to SB 254's ban on care for minors and its adult restrictions. On June 11, 2024 the district court
+        held both unconstitutional and enjoined them. In August 2024 a 2-1 Eleventh Circuit panel stayed that ruling
+        pending appeal. Oral argument was held January 15, 2025; the parties then briefed the effect of the Supreme
+        Court's June 2025 decision in United States v. Skrmetti.
+      es: >-
+        Impugnación de la prohibición para menores y las restricciones para adultos de SB 254. El 11 de junio de 2024
+        el tribunal de distrito las declaró inconstitucionales. En agosto de 2024 el Undécimo Circuito suspendió el
+        fallo mientras se resuelve la apelación.
+    effect_today:
+      en: The law is fully in effect. Minors cannot start care in Florida, and adults must follow the physician-only, in-person consent rules.
+      es: La ley está plenamente vigente. Los menores no pueden iniciar atención en Florida y los adultos deben seguir las reglas de médico y consentimiento en persona.
+    last_update: "2025-01-15"
+    url: https://www.nclrights.org/our-work/cases/doe-v-ladapo/
+    sources: [nclr-doe, blade-doe]
+  - case: Dekker v. Weida
+    court: US Court of Appeals for the Eleventh Circuit (appeal from N.D. Fla.)
+    summary:
+      en: >-
+        Challenge to Florida's Medicaid exclusion (Rule 59G-1.050(7)) and the state-funds ban in section 286.311. The
+        district court held the exclusion unlawful in June 2023; Florida appealed, and supplemental briefs on the
+        Skrmetti decision were filed in July 2025.
+      es: >-
+        Impugnación de la exclusión de Medicaid y la prohibición de fondos estatales. El tribunal de distrito la
+        declaró ilegal en junio de 2023; Florida apeló y en julio de 2025 se presentaron escritos sobre Skrmetti.
+    effect_today:
+      en: Florida Medicaid continues to deny coverage for hormones and surgery for gender dysphoria while the appeal is pending.
+      es: Medicaid de Florida sigue negando la cobertura de hormonas y cirugía mientras la apelación está pendiente.
+    last_update: "2025-07-14"
+    url: https://lambdalegal.org/case/dekker-v-marstiller/
+    sources: [lambda-dekker, wusf-dekker]
+sources:
+  - id: fs-456-52
+    url: https://www.flsenate.gov/Laws/Statutes/2025/456.52
+    title: Fla. Stat. § 456.52
+    publisher: The Florida Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Sex-reassignment prescriptions or procedures may not be prescribed, administered, or performed except by a physician
+  - id: fs-286-311
+    url: https://www.flsenate.gov/Laws/Statutes/2025/286.311
+    title: Fla. Stat. § 286.311
+    publisher: The Florida Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: may not expend state funds as described in s. 215.31 for sex-reassignment prescriptions or procedures
+  - id: rule-59g
+    url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=26157328&type=1&file=59G-1.050.doc
+    title: Rule 59G-1.050, General Medicaid Policy (effective 8/21/2022)
+    publisher: Florida Agency for Health Care Administration
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: "Florida Medicaid does not cover the following services for the treatment of gender dysphoria: 1. Puberty blockers; 2. Hormones and hormone antagonists; 3. Sex reassignment surgeries"
+  - id: nclr-doe
+    url: https://www.nclrights.org/our-work/cases/doe-v-ladapo/
+    title: Doe v. Ladapo
+    publisher: National Center for Lesbian Rights
+    kind: org
+    accessed: "2026-09-24"
+  - id: blade-doe
+    url: https://www.washingtonblade.com/2025/01/16/appeals-court-hears-case-challenging-floridas-trans-healthcare-ban/
+    title: Appeals court hears case challenging Florida's trans healthcare ban
+    publisher: Washington Blade
+    kind: news
+    accessed: "2026-09-24"
+  - id: lambda-dekker
+    url: https://lambdalegal.org/case/dekker-v-marstiller/
+    title: Dekker v. Weida
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: wusf-dekker
+    url: https://www.wusf.org/health-news-florida/2025-07-14/supreme-court-fuels-arguments-florida-transgender-case-blocking-medicaid-coverage
+    title: Supreme Court fuels arguments in Florida transgender case about blocking Medicaid coverage
+    publisher: WUSF
+    kind: news
+    accessed: "2026-09-24"
+  - id: fhjp
+    url: https://www.floridahealthjustice.org/
+    title: Florida Health Justice Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: slc
+    url: https://www.southernlegal.org/
+    title: Southern Legal Counsel
+    kind: org
+    accessed: "2026-09-24"
+  - id: hope-help
+    url: https://hopeandhelp.org/
+    title: Hope & Help
+    kind: org
+    accessed: "2026-09-24"
+  - id: doh-prep
+    url: https://www.floridahealth.gov/individual-family-health/injury-prevention-wellness/hiv-aids/prevention/prep-pep/
+    title: PrEP and PEP
+    publisher: Florida Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"
+  - id: dfs-help
+    url: https://www.myfloridacfo.com/division/consumers/needourhelp
+    title: Need Our Help? Consumer Assistance
+    publisher: Florida Department of Financial Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-health
+    url: https://www.mapresearch.org/equality-map/healthcare-laws-and-policies
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"

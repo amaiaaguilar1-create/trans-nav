@@ -1,0 +1,204 @@
+jurisdiction: OH
+slug: cleveland
+name: Cleveland
+area:
+  en: Cuyahoga County and Northeast Ohio (Lorain, Summit, Lake, and nearby counties)
+  es: Condado de Cuyahoga y el noreste de Ohio (Lorain, Summit, Lake y condados cercanos)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Cuyahoga County Probate Court fees and birth-correction requirements read 2026-09-24 (costs page, name change page,
+    COB page, and e-filing guide updated 9/29/25). The LGBT Community Center of Greater Cleveland and Circle Health
+    Services sites blocked automated fetching (403 / empty page), so the Center is listed as unverified with no address,
+    and Circle Health Services is left out. MetroHealth Pride Network details from its own page. Legal Aid Society of
+    Cleveland contact details from its contact page. Reviewer: add verified informed-consent clinics (Circle Health
+    Services, Cleveland Clinic or University Hospitals gender programs) and confirm the Center's services.
+intro:
+  en: >-
+    In Cleveland, name changes and birth record corrections go through the Cuyahoga County Probate Court, one of the
+    counties that grants sex-marker corrections. MetroHealth's Pride Network provides hormone therapy and surgery in the
+    public hospital system, and TransOhio is based in the area.
+  es: >-
+    En Cleveland, los cambios de nombre y las correcciones del acta de nacimiento se tramitan en el Tribunal
+    Testamentario del Condado de Cuyahoga, uno de los condados que concede correcciones del marcador de sexo. La Pride
+    Network de MetroHealth ofrece terapia hormonal y cirugía, y TransOhio tiene su sede en la zona.
+court:
+  name: Cuyahoga County Probate Court
+  url: https://probate.cuyahogacounty.gov/namechange.aspx
+  self_help_url: https://probate.cuyahogacounty.gov/ncforms.aspx
+  filing_fee: 100
+  notes:
+    en: >-
+      Adult name change $100; certified copies of the judgment entry $2 per page (cash or money order). A birth
+      certificate is required at filing (for people born outside Ohio, at the hearing). E-filing is available. For a
+      birth record sex-marker correction, the court asks for an application (CCPC_HEA 2783), a certified Ohio birth
+      record, and a licensed professional's statement.
+    es: >-
+      Cambio de nombre de adulto $100; copias certificadas $2 por página. Se requiere acta de nacimiento al presentar.
+      Se acepta presentación electrónica. Para corregir el marcador de sexo, el tribunal pide una solicitud, el acta
+      certificada y una declaración de un profesional con licencia.
+  sources: [cuyahoga-nc, cuyahoga-costs, cuyahoga-cob-guide]
+resources:
+  - id: legal-aid-cleveland
+    name: Legal Aid Society of Cleveland
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low incomes in Cuyahoga, Ashtabula, Geauga, Lake, and Lorain counties. Apply online or call 888-817-3777.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en Cuyahoga, Ashtabula, Geauga, Lake y Lorain. Llama al 888-817-3777.
+    url: https://lasclev.org/
+    phone: "888-817-3777"
+    address: 1223 West Sixth Street, Cleveland, OH 44113
+    cost: free
+    verification: org_website
+    sources: [lasclev]
+  - id: transohio
+    name: TransOhio (clinic, microgrants, emergency fund, support groups)
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Trans-led nonprofit based in the Cleveland area. Free virtual name change clinic monthly, fee microgrants, an emergency fund, and support groups.
+      es: Organización dirigida por personas trans con sede en el área de Cleveland. Clínica virtual gratuita mensual, microsubvenciones, fondo de emergencia y grupos de apoyo.
+    url: https://www.transohio.org/
+    cost: free
+    verification: org_website
+    sources: [transohio, transohio-clinic]
+  - id: equality-ohio-legal-clinic
+    name: Equality Ohio Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide free legal clinic for name changes (up to 300% of the federal poverty level). 855-LGBT-LAW.
+      es: Clínica legal gratuita estatal para cambios de nombre (hasta el 300% del nivel federal de pobreza).
+    url: https://equalityohio.org/legal-clinic/
+    phone: "855-542-8529"
+    cost: free
+    verification: org_website
+    sources: [equality-ohio-clinic]
+  - id: metrohealth-pride
+    name: MetroHealth Pride Network
+    type: hrt_clinic
+    pillars: [hrt, mental_health, sexual_health]
+    description:
+      en: Hormone therapy, gender-affirming surgery, behavioral health, primary care, and PrEP/PEP in Cuyahoga County's public health system. Adult primary care 216-957-4905. A Pride Network Fund helps patients with transportation and emergency needs.
+      es: Terapia hormonal, cirugía, salud mental, atención primaria y PrEP/PEP en el sistema público de salud del condado. Un fondo ayuda con transporte y emergencias.
+    url: https://www.metrohealth.org/pride-clinic
+    phone: "216-957-4905"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [metrohealth]
+  - id: pp-greater-ohio
+    org: planned-parenthood
+    name: Planned Parenthood of Greater Ohio
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy for adults 18 and older, STI testing, and PrEP at Northeast Ohio health centers. Call 1-800-230-7526.
+      es: Terapia hormonal para adultos de 18 años o más, pruebas de ITS y PrEP en centros del noreste de Ohio.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-ohio/our-patients/our-services
+    phone: "800-230-7526"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [ppgoh-services]
+  - id: lgbt-center-cleveland
+    name: LGBT Community Center of Greater Cleveland
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Cleveland's LGBTQ+ community center with support groups and community programs. Services not confirmed for this guide; check its website.
+      es: Centro comunitario LGBTQ+ de Cleveland con grupos de apoyo y programas. Servicios no confirmados; consulta su sitio.
+    url: https://www.lgbtcleveland.org/
+    cost: free
+    verification: unverified
+    sources: [lgbt-center]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer support hotline run by and for trans people.
+      es: Línea de apoyo entre pares dirigida por y para personas trans.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: unverified
+    sources: [trans-lifeline]
+sources:
+  - id: cuyahoga-nc
+    url: https://probate.cuyahogacounty.gov/namechange.aspx
+    title: Name Changes
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: A birth certificate is now required for all adult and minor name changes at the time of filing.
+  - id: cuyahoga-costs
+    url: https://probate.cuyahogacounty.gov/costs.aspx
+    title: Probate Court Filing Fees
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change Adult: Change of Name $100.00"
+  - id: cuyahoga-cob-guide
+    url: https://probate.cuyahogacounty.gov/pdf/crob/guides/COBFilingGuide.pdf
+    title: New Case Guidelines, E-File Correction of Birth Record (updated 9/29/25)
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: Licensed Professional Statement or similar supporting medical document from a licensed professional
+  - id: lasclev
+    url: https://lasclev.org/contact/
+    title: Contact Us
+    publisher: The Legal Aid Society of Cleveland
+    kind: org
+    accessed: "2026-09-24"
+    quote: Need help? Apply for free legal help online or call 888-817-3777 to begin an intake application by phone.
+  - id: transohio
+    url: https://www.transohio.org/
+    title: TransOhio
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+    quote: "P.O. Box 18272, Cleveland, Ohio 44118"
+  - id: transohio-clinic
+    url: https://www.transohio.org/legalclinic
+    title: Ohio Name Change Legal Clinic
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+  - id: equality-ohio-clinic
+    url: https://equalityohio.org/legal-clinic/
+    title: Legal Clinic
+    publisher: Equality Ohio
+    kind: org
+    accessed: "2026-09-24"
+  - id: metrohealth
+    url: https://www.metrohealth.org/pride-clinic
+    title: Pride Network
+    publisher: MetroHealth
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgoh-services
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-ohio/our-patients/our-services
+    title: Our Services
+    publisher: Planned Parenthood of Greater Ohio
+    kind: org
+    accessed: "2026-09-24"
+  - id: lgbt-center
+    url: https://www.lgbtcleveland.org/
+    title: LGBT Community Center of Greater Cleveland
+    publisher: LGBT Community Center of Greater Cleveland
+    kind: org
+    accessed: "2026-09-24"
+  - id: trans-lifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    publisher: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

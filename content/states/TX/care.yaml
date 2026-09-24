@@ -1,0 +1,350 @@
+jurisdiction: TX
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Read directly 2026-09-24: SB 14 (88R) enrolled text and bill history; SB 1257 and SB 1188 (89R) enrolled texts;
+    HB 229 bill history; Texas Supreme Court docket for No. 23-0697 (State v. Loe, opinion June 28, 2024, reversing
+    and vacating the temporary injunction; mandate issued October 2, 2024). Medicaid coverage is the weakest item: the
+    HHSC Medicaid page returned HTTP 403 and the Texas Medicaid Provider Procedures Manual was not read. MAP's Texas
+    profile scores Texas as having a negative (exclusionary) Medicaid policy, so covers_surgery is set to "no" and
+    covers_hrt to "unclear"; reviewer must confirm from the TMPPM whether adult hormone therapy for gender dysphoria is
+    excluded. No state law bars private insurers from excluding transition care (MAP: no ban on exclusions); SB 1257
+    requires plans that ever covered transition care to also cover side effects and reversal. Clinic details are from
+    org websites read 2026-09-24. Planned Parenthood Gulf Coast closed October 1, 2025, and Planned Parenthood of
+    Greater Texas took over; PPGT's page says hormone therapy is for patients 18 and up on an informed-consent model.
+    State v. Loe procedural history (2023 injunction, direct appeal keeping the law in effect) is from general knowledge plus the docket; the injunction date was not re-read. "Texas did not expand Medicaid" and 2-1-1 are general knowledge, not re-read this session.
+    Prism Health North Texas's site did not respond and is not listed. QueerMed lists Texas as served on its locations
+    page; there is no content/orgs entry for it, so it is an inline resource rather than in telehealth_hrt.
+status_summary:
+  en: >-
+    Hormone therapy and other gender-affirming care are legal for adults in Texas and are offered on an informed-consent
+    basis by Planned Parenthood of Greater Texas and several community clinics. For anyone under 18, puberty blockers,
+    hormones, and surgeries for gender transition are banned (SB 14, in effect since September 2023 and upheld by the
+    Texas Supreme Court in 2024). Texas Medicaid excludes transition care, state law does not stop private plans from
+    excluding it, and there is no shield law.
+  es: >-
+    La terapia hormonal y otra atención de afirmación de género son legales para adultos en Texas y las ofrecen por
+    consentimiento informado Planned Parenthood of Greater Texas y varias clínicas comunitarias. Para menores de 18
+    años están prohibidos los bloqueadores de pubertad, las hormonas y las cirugías para la transición (SB 14, vigente
+    desde septiembre de 2023 y confirmada por la Corte Suprema de Texas en 2024). Medicaid de Texas excluye la atención
+    de transición, la ley estatal no impide que los planes privados la excluyan y no hay ley escudo.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Texas law bans gender-affirming care for adults 18 and older. Planned Parenthood of Greater Texas (which took over the former Planned Parenthood Gulf Coast health centers in Houston in October 2025) prescribes estrogen and testosterone on an **informed consent** basis, in person or by telehealth, and most patients get a prescription at the first visit. Resource Center Health in Dallas and Legacy Community Health in Houston also provide hormone therapy. Telehealth providers licensed in Texas (Plume, FOLX, QueerMed, Planned Parenthood) can prescribe to adults anywhere in the state.
+
+      Things that affect adults:
+      - **Medical records**: SB 1188 (2025) requires electronic health records in Texas to include a separate field for the biological sex observed at birth. It does not restrict care, but your chart will show it.
+      - **Insurance**: Texas Medicaid excludes transition care, and no state law prevents private plans from excluding it (see below).
+      - **Documents**: your ID and birth certificate cannot be changed to match your gender (see the ID guides), so bring your chosen name and pronouns to intake forms.
+
+      **If you have no insurance and little money**:
+      1. Try a **community health center** (FQHC) such as Legacy Community Health (Houston) on a sliding fee scale. Find others at findahealthcenter.hrsa.gov.
+      2. **Planned Parenthood of Greater Texas** offers hormone therapy with several payment options; call 1-800-230-7526.
+      3. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for a limited number of applicants each year.
+      4. Generic estradiol and spironolactone are inexpensive with pharmacy discount coupons; ask the pharmacy for its cash price.
+    es: |
+      Ninguna ley de Texas prohíbe la atención de afirmación de género para adultos de 18 años o más. Planned Parenthood of Greater Texas (que asumió los antiguos centros de Planned Parenthood Gulf Coast en Houston en octubre de 2025) receta estrógeno y testosterona por **consentimiento informado**, en persona o por telesalud, y la mayoría de los pacientes reciben receta en la primera visita. Resource Center Health en Dallas y Legacy Community Health en Houston también ofrecen terapia hormonal. Proveedores de telesalud con licencia en Texas (Plume, FOLX, QueerMed, Planned Parenthood) pueden recetar a adultos en todo el estado.
+
+      Lo que afecta a adultos:
+      - **Expedientes médicos**: SB 1188 (2025) exige que los expedientes electrónicos en Texas incluyan un campo separado para el sexo biológico observado al nacer. No restringe la atención, pero tu expediente lo mostrará.
+      - **Seguro**: Medicaid de Texas excluye la atención de transición y ninguna ley estatal impide que los planes privados la excluyan.
+      - **Documentos**: tu identificación y acta de nacimiento no se pueden cambiar para coincidir con tu género, así que indica tu nombre y pronombres en los formularios de admisión.
+
+      **Si no tienes seguro ni mucho dinero**:
+      1. Prueba un **centro de salud comunitario** (FQHC) como Legacy Community Health (Houston), con tarifas en escala móvil. Busca otros en findahealthcenter.hrsa.gov.
+      2. **Planned Parenthood of Greater Texas** ofrece terapia hormonal con varias opciones de pago; llama al 1-800-230-7526.
+      3. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud a un número limitado de solicitantes cada año.
+      4. El estradiol y la espironolactona genéricos son económicos con cupones de descuento; pide a la farmacia su precio en efectivo.
+  sources: [ppgt-gac, ppgc-closure, sb1188, resource-center, legacy-trans, map-tx, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **SB 14** (2023), Health & Safety Code §§ 161.701 to 161.706, took effect **September 1, 2023**. For anyone under 18, physicians and other licensed providers may not, for the purpose of gender transition, perform sterilizing surgeries or mastectomy, remove healthy tissue, or prescribe **puberty blockers or hormones** (testosterone or estrogen above natural levels).
+
+      - **Exceptions**: puberty blockers for precocious puberty, and care for children with a medically verifiable disorder of sex development. Minors who started blockers or hormones before June 1, 2023, after at least 12 counseling sessions over six months, could continue only long enough to be **weaned off** safely.
+      - **Penalties**: the Texas Medical Board **must revoke** the license of a physician who violates the law; the Attorney General can sue to stop violations. Medicaid, CHIP, and public money may not pay for prohibited care.
+      - **Court challenge**: the Texas Supreme Court upheld SB 14 in *State v. Loe* on June 28, 2024, vacating a lower-court injunction. The law is fully in effect.
+
+      Families who seek care for a minor usually travel to a state where it is legal. Texas has no shield law protecting patients or providers. Mental health care and social transition (name, clothing, pronouns) are not banned by SB 14, and a parent can still petition to change a child's name (see the name change guide).
+    es: |
+      **SB 14** (2023), Código de Salud y Seguridad §§ 161.701 a 161.706, entró en vigor el **1 de septiembre de 2023**. Para menores de 18 años, los médicos y otros proveedores con licencia no pueden, con fines de transición de género, realizar cirugías esterilizantes o mastectomías, extirpar tejido sano, ni recetar **bloqueadores de pubertad u hormonas** (testosterona o estrógeno por encima de los niveles naturales).
+
+      - **Excepciones**: bloqueadores para pubertad precoz y atención a menores con un trastorno del desarrollo sexual verificable médicamente. Los menores que comenzaron bloqueadores u hormonas antes del 1 de junio de 2023, tras al menos 12 sesiones de consejería durante seis meses, solo podían continuar el tiempo necesario para **dejarlos** de forma segura.
+      - **Sanciones**: la Junta Médica de Texas **debe revocar** la licencia del médico que viole la ley; el Fiscal General puede demandar para detener violaciones. Medicaid, CHIP y el dinero público no pueden pagar atención prohibida.
+      - **Impugnación judicial**: la Corte Suprema de Texas confirmó SB 14 en *State v. Loe* el 28 de junio de 2024, anulando una orden judicial inferior. La ley está plenamente vigente.
+
+      Las familias que buscan atención para un menor suelen viajar a un estado donde es legal. Texas no tiene ley escudo que proteja a pacientes o proveedores. SB 14 no prohíbe la atención de salud mental ni la transición social (nombre, ropa, pronombres), y un padre todavía puede pedir el cambio de nombre de un menor.
+  sources: [sb14, sb14-history, loe-docket]
+medicaid:
+  program_name: Texas Medicaid (STAR, STAR+PLUS)
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: |
+      Texas Medicaid policy excludes gender transition services, and the Movement Advancement Project classifies Texas as having an explicit Medicaid exclusion. Whether a given Medicaid health plan will pay for adult hormone prescriptions is not clearly stated in the sources we could load; ask your plan in writing before you rely on it. By statute, Medicaid and CHIP may not cover transition care for anyone under 18 (SB 14). SB 1257 (2025) requires Medicaid to cover side effects and reversal of past transition treatment.
+
+      Texas did not expand Medicaid, so most adults without children or a disability do not qualify no matter how low their income. Apply at YourTexasBenefits.com or by calling 2-1-1.
+    es: |
+      La política de Medicaid de Texas excluye los servicios de transición de género, y el Movement Advancement Project clasifica a Texas como un estado con exclusión explícita en Medicaid. Las fuentes que pudimos consultar no dicen claramente si un plan de Medicaid pagará recetas de hormonas para adultos; pregunta a tu plan por escrito antes de depender de ello. Por ley, Medicaid y CHIP no pueden cubrir atención de transición para menores de 18 (SB 14). SB 1257 (2025) exige que Medicaid cubra efectos secundarios y la reversión de tratamientos anteriores.
+
+      Texas no expandió Medicaid, así que la mayoría de los adultos sin hijos o sin discapacidad no califican aunque sus ingresos sean muy bajos. Solicita en YourTexasBenefits.com o llamando al 2-1-1.
+  how_to_apply_url: https://www.yourtexasbenefits.com/
+  sources: [map-tx, sb14, sb1257, yourtexasbenefits]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Texas has no law prohibiting health plans from excluding transition care, and many state-regulated plans do exclude it. Employer plans that are self-funded are regulated federally and may cover it; read your plan's Evidence of Coverage. Under **SB 1257** (effective September 1, 2025), any state-regulated plan that covers, or ever covered, transition treatment must also cover its side effects, annual monitoring, and reversal. If a plan denies a claim, file an internal appeal first, then a complaint with the Texas Department of Insurance. A4TE's Trans Health Project has free appeal guides.
+    es: |
+      Texas no tiene una ley que prohíba a los planes de salud excluir la atención de transición, y muchos planes regulados por el estado la excluyen. Los planes de empleadores autofinanciados están regulados a nivel federal y pueden cubrirla; revisa la Evidencia de Cobertura de tu plan. Según **SB 1257** (vigente desde el 1 de septiembre de 2025), un plan regulado por el estado que cubra, o haya cubierto, tratamientos de transición también debe cubrir sus efectos secundarios, el monitoreo anual y la reversión. Si un plan niega un reclamo, presenta primero una apelación interna y luego una queja ante el Departamento de Seguros de Texas. El Trans Health Project de A4TE tiene guías de apelación gratuitas.
+  complaint_url: https://www.tdi.texas.gov/consumer/complfrm.html
+  sources: [map-tx, sb1257, tdi-complaint, thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: ppgt
+    org: planned-parenthood
+    name: Planned Parenthood of Greater Texas, Gender Affirming Hormone Therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent estrogen and testosterone therapy for patients 18 and up, in person at its Texas health centers or through its Texas virtual health center. Also STI and HIV testing. Call 1-800-230-7526.
+      es: Terapia con estrógeno y testosterona por consentimiento informado para pacientes de 18 años o más, en persona en sus centros de Texas o por su centro de salud virtual en Texas. También pruebas de ITS y VIH. Llama al 1-800-230-7526.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-texas/patient-resources/gender-affirming-healthcare
+    phone: "1-800-230-7526"
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [ppgt-gac, ppgc-closure]
+  - id: queermed
+    name: QueerMed (telehealth)
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming care; its locations page lists Texas as a state where services are available. Minors cannot receive this care in Texas.
+      es: Atención de afirmación de género por telesalud; su página de ubicaciones incluye a Texas entre los estados con servicio. Los menores no pueden recibir esta atención en Texas.
+    url: https://queermed.com/locations/
+    cost: paid
+    telehealth: true
+    verification: org_website
+    sources: [queermed]
+  - id: legacy
+    name: Legacy Community Health, Transgender Specialty Care
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Houston-area federally qualified health center with transgender medical services (including hormone treatment) and transgender behavioral health. Medical 832-548-5000; behavioral health 832-548-5014.
+      es: Centro de salud comunitario del área de Houston con servicios médicos para personas trans (incluido tratamiento hormonal) y salud conductual. Médico 832-548-5000; salud conductual 832-548-5014.
+    url: https://www.legacycommunityhealth.org/transgender-specialty-care/
+    phone: "832-548-5000"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [legacy-trans]
+  - id: resource-center-health
+    name: Resource Center Health (Dallas)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQIA+ clinic offering hormone therapy (18+), primary care, PrEP, HIV and STI services, and mental health care. 2603 Inwood Road, Dallas.
+      es: Clínica LGBTQIA+ con terapia hormonal (18+), atención primaria, PrEP, servicios de VIH e ITS y salud mental. 2603 Inwood Road, Dallas.
+    url: https://myresourcecenter.org/health/
+    address: 2603 Inwood Road, Dallas, TX 75235
+    cost: varies
+    verification: org_website
+    sources: [resource-center]
+  - id: point-of-pride-hrt
+    org: point-of-pride
+    name: Point of Pride, HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for telehealth hormone therapy for trans adults who cannot afford it; limited spots each year.
+      es: Paga terapia hormonal por telesalud para adultos trans que no pueden costearla; cupos limitados cada año.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit offering grants toward gender-affirming care costs.
+      es: Organización nacional sin fines de lucro que ofrece subvenciones para costos de atención de afirmación de género.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: trans-health-project
+    org: a4te
+    name: Trans Health Project (A4TE)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free guides and templates for appealing insurance denials of gender-affirming care.
+      es: Guías y plantillas gratuitas para apelar negaciones de seguro por atención de afirmación de género.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [thp]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale based on income.
+      es: Buscador federal de centros de salud comunitarios que cobran en escala móvil según ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: Tex. Health & Safety Code §§ 161.701 to 161.706 (SB 14, 88th Leg.)
+    title:
+      en: Ban on gender transition procedures and treatments for minors; no public money or Medicaid/CHIP reimbursement
+    url: https://capitol.texas.gov/tlodocs/88R/billtext/html/SB00014F.htm
+  - cite: Tex. Occ. Code § 164.0552
+    title:
+      en: Mandatory license revocation for physicians who violate SB 14
+    url: https://capitol.texas.gov/tlodocs/88R/billtext/html/SB00014F.htm
+  - cite: Tex. Ins. Code ch. 1373 (SB 1257, 89th Leg.)
+    title:
+      en: Required coverage of transition side effects and reversals; effective September 1, 2025
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01257F.htm
+  - cite: Tex. Health & Safety Code ch. 183 (SB 1188, 89th Leg.)
+    title:
+      en: Electronic health records must record biological sex observed at birth
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01188F.htm
+litigation:
+  - case: State of Texas v. Loe, No. 23-0697
+    court: Supreme Court of Texas
+    summary:
+      en: Families and physicians challenged SB 14 under the Texas Constitution. A Travis County district court (No. D-1-GN-23-003616) temporarily enjoined the law in 2023; the State took a direct appeal to the Supreme Court, and SB 14 took effect on schedule. On June 28, 2024 the Supreme Court of Texas reversed and vacated the injunction, holding the ban constitutional.
+      es: Familias y médicos impugnaron SB 14 bajo la Constitución de Texas. Un tribunal del condado Travis (No. D-1-GN-23-003616) suspendió temporalmente la ley en 2023; el Estado apeló directamente a la Corte Suprema y SB 14 entró en vigor según lo previsto. El 28 de junio de 2024 la Corte Suprema de Texas revocó y anuló la orden, declarando constitucional la prohibición.
+    effect_today:
+      en: SB 14 is fully enforceable. Providers in Texas cannot prescribe blockers or hormones to minors for gender transition.
+      es: SB 14 es plenamente aplicable. Los proveedores en Texas no pueden recetar bloqueadores ni hormonas a menores para la transición de género.
+    last_update: "2024-10-02"
+    url: https://search.txcourts.gov/Case.aspx?cn=23-0697&coa=cossup
+    sources: [loe-docket]
+sources:
+  - id: sb14
+    url: https://capitol.texas.gov/tlodocs/88R/billtext/html/SB00014F.htm
+    title: SB 14 (88th Legislature), enrolled text
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The board shall revoke the license or other authorization to practice medicine of a physician who violates Section 161.702.
+  - id: sb14-history
+    url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=SB14
+    title: SB 14 (88th Legislature), bill history
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Signed by the Governor 06/02/2023. Effective on 9/1/23.
+  - id: loe-docket
+    url: https://search.txcourts.gov/Case.aspx?cn=23-0697&coa=cossup
+    title: Case 23-0697, State of Texas et al. v. Loe et al.
+    publisher: Supreme Court of Texas
+    kind: court
+    accessed: "2026-09-24"
+    quote: "06/28/2024 Opinion issued: Direct Appeal/Trial court order reversed and vacated. 10/02/2024 Mandate issued."
+  - id: sb1257
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01257F.htm
+    title: SB 1257 (89th Legislature), required coverage for gender transition adverse effects and reversals
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A health benefit plan that provides or has ever provided coverage for an enrollee's gender transition procedure or treatment shall provide coverage for all possible adverse consequences.
+  - id: sb1188
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01188F.htm
+    title: SB 1188 (89th Legislature), electronic health records
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Each electronic health record includes a separate space to document an individual's biological sex as either male or female based on the individual's observed biological sex recorded by a health care practitioner at birth.
+  - id: map-tx
+    url: https://www.mapresearch.org/equality-maps/profile_state/TX
+    title: Texas state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "State Medicaid Policy Related to Coverage for Transgender People: Negative Law."
+  - id: yourtexasbenefits
+    url: https://www.yourtexasbenefits.com/
+    title: Your Texas Benefits
+    publisher: Texas Health and Human Services Commission
+    kind: official
+    accessed: "2026-09-24"
+  - id: tdi-complaint
+    url: https://www.tdi.texas.gov/consumer/complfrm.html
+    title: File a complaint
+    publisher: Texas Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: ppgt-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-texas/patient-resources/gender-affirming-healthcare
+    title: Gender affirming healthcare
+    publisher: Planned Parenthood of Greater Texas
+    kind: org
+    accessed: "2026-09-24"
+    quote: Planned Parenthood of Greater Texas provides Gender Affirming Hormone Therapy for patients 18 and up.
+  - id: ppgc-closure
+    url: https://www.plannedparenthood.org/planned-parenthood-gulf-coast
+    title: Planned Parenthood Gulf Coast, important update
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+    quote: Planned Parenthood Gulf Coast (PPGC) is no longer operating. Effective October 1, 2025, Planned Parenthood of Greater Texas...
+  - id: legacy-trans
+    url: https://www.legacycommunityhealth.org/transgender-specialty-care/
+    title: Transgender specialty care
+    publisher: Legacy Community Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: For Transgender Medical Services, please call (832) 548 5000.
+  - id: resource-center
+    url: https://myresourcecenter.org/health/
+    title: Resource Center Health
+    publisher: Resource Center (Dallas)
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Resource Center Health offers a wide range of services for individuals 18 and older: PrEP Care Program, Primary Healthcare (15+), Mental Healthcare, HRT (18+)."
+  - id: queermed
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

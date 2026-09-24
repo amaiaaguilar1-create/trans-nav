@@ -1,0 +1,278 @@
+guide_type: birth_certificate
+jurisdiction: NY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Two separate systems. NYC: VR 218 form (Rev. 1/24) and corrections page read directly 2026-09-24; $40 processing
+    + $15 per copy (max 3) is printed on the form. NYS (outside NYC): forms DOH-5305/5303 (adults 17+) and
+    DOH-5306/5304 (16 and under), all rev. 1/23, read directly. The NYS gender-designation web page was not found
+    (old URL 404s), so the mailing address and fee are not confirmed on a DOH page: the DOH amendment page gives
+    P.O. Box 2602, Albany, NY 12220-2602 for amendments, while the UB guide (March 2025) gives 800 North Pearl Street,
+    Albany, NY 12204 for gender applications. PHL § 4138 says one certified copy is sent without charge; the DOH page
+    and A4TE say additional copies are $30. Reviewer: confirm the NYS gender-application address, processing times
+    (not found for either office), and whether NYS forms still require a notarized affidavit (the GRA text in § 4138
+    describes an affidavit; the UB guide says no affidavit is needed at DMV). Also note: § 4138 lets a provider sign
+    the affidavit for a person under 17, but DOH-5306 requires both parents' signatures.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in New York you can change the sex on your birth certificate to M, F, or X with a sworn,
+    notarized statement. No court order or medical letter is needed for the marker. Changing the name on the
+    certificate needs a court order. New York City births and the rest of the state use different offices and forms.
+  es: >-
+    Si naciste en Nueva York puedes cambiar el sexo en tu acta de nacimiento a M, F o X con una declaración jurada
+    notarizada. No se necesita orden judicial ni carta médica para el marcador. Cambiar el nombre en el acta requiere
+    orden judicial. Los nacimientos en la ciudad de Nueva York y en el resto del estado usan oficinas y formularios
+    distintos.
+summary:
+  en: |
+    First, check **where you were born**:
+    - **One of the five boroughs of New York City** (Manhattan, Brooklyn, Queens, Bronx, Staten Island): apply to the **NYC Department of Health and Mental Hygiene** with the *Application for Gender Marker Change on a NYC Birth Certificate* (VR 218). NYC has offered X since 2019 and requires no provider letter.
+    - **Anywhere else in New York State**: apply to the **NYS Department of Health, Bureau of Vital Records**, with DOH-5305 plus the notarized affidavit DOH-5303 (ages 17 and up). Public Health Law § 4138 lets you choose female, male, or X by affidavit.
+
+    The state office cannot change NYC certificates and vice versa. In both systems you get a **new certificate**, and the original is sealed. To change the **name** too, include a certified court order.
+  es: |
+    Primero, revisa **dónde naciste**:
+    - **En uno de los cinco condados de la ciudad de Nueva York**: solicita al **Departamento de Salud e Higiene Mental de NYC** con la *Solicitud de cambio de marcador de género en un acta de nacimiento de NYC* (VR 218). NYC ofrece X desde 2019 y no exige carta de proveedor.
+    - **En cualquier otro lugar del estado de Nueva York**: solicita al **Departamento de Salud del Estado (NYS DOH)** con el DOH-5305 más la declaración jurada notarizada DOH-5303 (17 años o más). La Ley de Salud Pública § 4138 permite elegir femenino, masculino o X.
+
+    La oficina estatal no puede cambiar actas de NYC ni al revés. En ambos sistemas recibes un **acta nueva** y la original se sella. Para cambiar también el **nombre**, incluye una orden judicial certificada.
+eligibility:
+  residency:
+    en: You must have been born in New York State. Where you live now does not matter. If you were born in another state, that state's rules apply.
+    es: Debes haber nacido en el estado de Nueva York. No importa dónde vivas ahora. Si naciste en otro estado, se aplican sus reglas.
+  age:
+    en: NYC, 18 and older apply for themselves; for younger people, parents or guardians apply and both listed parents sign. NYS, 17 and older apply for themselves (DOH-5305); for 16 and under, parents or guardians apply (DOH-5306), signed by both parents unless there is only one.
+    es: NYC, desde 18 años solicitas tú; para menores, los padres o tutores, y firman ambos padres. Estado, desde 17 años solicitas tú (DOH-5305); para 16 o menos, los padres o tutores (DOH-5306).
+  sources: [nyc-vr218, doh-5305, doh-5306, phl-4138]
+forms:
+  - id: VR 218
+    name:
+      en: Application for Gender Marker Change on a NYC Birth Certificate
+      es: Solicitud de cambio de marcador de género en un acta de nacimiento de NYC
+    url: https://www.nyc.gov/assets/doh/downloads/pdf/vr/gender-marker-change-application.pdf
+    url_es: https://www.nyc.gov/assets/doh/downloads/pdf/vr/gender-marker-change-application-sp.pdf
+    required: conditional
+    condition:
+      en: Born in New York City. Fill out the English form; translations are for reference.
+      es: Nacimiento en la ciudad de Nueva York. Llena el formulario en inglés; las traducciones son de referencia.
+    how_to_fill:
+      en: |
+        - Page 2: pick your situation (adult or minor; marker only or marker and name), then follow Table A or B.
+        - Section Three: one line per change, e.g. "Gender marker: Male to X". No crossing out or Wite-Out; start a new form if you make a mistake.
+        - Section Four: you attest under penalty of perjury that the change reflects your gender identity. Sign page 7 and have page 8 notarized.
+        - Include a copy of valid photo ID, and the **original certified** court order if you are changing your name (it must list your name at birth, date and place of birth, and certificate number).
+        - Check or money order payable to NYC Department of Health and Mental Hygiene.
+    sources: [nyc-vr218]
+  - id: DOH-5305
+    name:
+      en: Application for Amendment of Certificate of Birth for Gender Designation for an Adult (17 and older)
+      es: Solicitud de enmienda del acta de nacimiento por designación de género para adultos (17 años o más)
+    url: https://www.health.ny.gov/forms/doh-5305.pdf
+    required: conditional
+    condition:
+      en: Born in New York State outside NYC, age 17 or older. Send with DOH-5303.
+      es: Nacimiento en el estado fuera de NYC, 17 años o más. Envía con el DOH-5303.
+    how_to_fill:
+      en: |
+        - Fill in your details exactly as on the current certificate.
+        - In the amendments table, write the current and new gender, and the new first, middle, and last name only if you have a court order.
+        - Enclose the notarized DOH-5303 and, for a name change, a certified copy of the court order.
+    sources: [doh-5305]
+  - id: DOH-5303
+    name:
+      en: Notarized Affidavit of Gender Change for a Person 17 Years of Age or Older
+      es: Declaración jurada notarizada de cambio de género para personas de 17 años o más
+    url: https://www.health.ny.gov/forms/doh-5303.pdf
+    required: conditional
+    condition:
+      en: Goes with DOH-5305. Sign in front of a notary.
+      es: Acompaña al DOH-5305. Firma ante un notario.
+    sources: [doh-5303]
+  - id: DOH-5306
+    name:
+      en: Parent/Legal Guardian Application for Amendment of Certificate of Birth for Gender Designation for a Minor (16 and under)
+      es: Solicitud de padres o tutores para enmienda por designación de género de un menor (16 años o menos)
+    url: https://www.health.ny.gov/forms/doh-5306.pdf
+    required: conditional
+    condition:
+      en: Born in New York State outside NYC, age 16 or under. Send with DOH-5304. Both parents sign unless there is only one.
+      es: Nacimiento en el estado fuera de NYC, 16 años o menos. Envía con el DOH-5304. Firman ambos padres salvo que haya solo uno.
+    sources: [doh-5306]
+  - id: DOH-5304
+    name:
+      en: Parent/Legal Guardian Notarized Affidavit of Gender for a Person 16 Years of Age or Under
+      es: Declaración jurada notarizada de padres o tutores para personas de 16 años o menos
+    url: https://www.health.ny.gov/forms/doh-5304.pdf
+    required: conditional
+    condition:
+      en: Goes with DOH-5306.
+      es: Acompaña al DOH-5306.
+    sources: [doh-5306]
+steps:
+  - id: which-office
+    title:
+      en: Find your office by place of birth
+      es: Identifica tu oficina según el lugar de nacimiento
+    body:
+      en: Born in the five boroughs, use NYC form VR 218. Born elsewhere in New York State, use DOH-5305 and DOH-5303 (or DOH-5306 and DOH-5304 for a child 16 or under).
+      es: Si naciste en los cinco condados, usa el formulario VR 218 de NYC. Si naciste en otro lugar del estado, usa DOH-5305 y DOH-5303 (o DOH-5306 y DOH-5304 para menores de 16 o menos).
+    forms: [VR 218, DOH-5305, DOH-5306]
+    sources: [nys-amend, nyc-corrections]
+  - id: nyc-apply
+    title:
+      en: "NYC births: mail VR 218 with fee"
+      es: "Nacimientos en NYC: envía el VR 218 con la tarifa"
+    body:
+      en: |
+        Mail the notarized application, a copy of your photo ID, any original court order, and a check or money order ($40 plus $15 per new certificate, up to 3) to: NYC Department of Health and Mental Hygiene, Corrections Unit, Attention: Group A, 125 Worth Street, Room 144, CN-4, New York, NY 10013. Questions: tgnyc@health.nyc.gov. Coming in person does not speed things up and needs an appointment.
+      es: |
+        Envía la solicitud notarizada, copia de tu identificación, cualquier orden judicial original y un cheque o giro ($40 más $15 por cada acta nueva, hasta 3) a: NYC Department of Health and Mental Hygiene, Corrections Unit, Attention: Group A, 125 Worth Street, Room 144, CN-4, New York, NY 10013. Preguntas: tgnyc@health.nyc.gov.
+    forms: [VR 218]
+    fees: [nyc-processing, nyc-copy]
+    applies_to: [by_mail]
+    sources: [nyc-vr218, nyc-corrections]
+  - id: nys-apply
+    title:
+      en: "Rest of New York State: mail DOH-5305 and DOH-5303"
+      es: "Resto del estado: envía el DOH-5305 y el DOH-5303"
+    body:
+      en: |
+        Mail the application, the notarized affidavit, and (for a name change) a certified court order to the NYS Department of Health, Bureau of Vital Records. The DOH amendment page lists Vital Records Amendment Unit, P.O. Box 2602, Albany, NY 12220-2602; call or email vr@health.ny.gov to confirm the address for gender applications before mailing. One copy of the new certificate is free; add $30 for each extra copy.
+      es: |
+        Envía la solicitud, la declaración jurada notarizada y (si cambias el nombre) la orden judicial certificada al Departamento de Salud del Estado. La página de enmiendas indica Vital Records Amendment Unit, P.O. Box 2602, Albany, NY 12220-2602; confirma la dirección en vr@health.ny.gov antes de enviar. Una copia del acta nueva es gratis; cada copia adicional cuesta $30.
+    forms: [DOH-5305, DOH-5303]
+    fees: [nys-amendment, nys-copy]
+    applies_to: [by_mail]
+    sources: [nys-amend, doh-5305, phl-4138]
+fees:
+  - id: nyc-processing
+    label:
+      en: NYC application processing fee (nonrefundable)
+      es: Tarifa de procesamiento de NYC (no reembolsable)
+    amount: 40
+    waivable: false
+    sources: [nyc-vr218]
+  - id: nyc-copy
+    label:
+      en: NYC amended certificate, each (maximum 3)
+      es: Acta enmendada de NYC, cada una (máximo 3)
+    amount: 15
+    sources: [nyc-vr218]
+  - id: nys-amendment
+    label:
+      en: NYS amendment, including one certified copy
+      es: Enmienda estatal, incluida una copia certificada
+    amount: 0
+    note:
+      en: Public Health Law § 4138 says the first certified copy is sent without charge.
+      es: La Ley de Salud Pública § 4138 dice que la primera copia certificada se envía sin costo.
+    sources: [phl-4138]
+  - id: nys-copy
+    label:
+      en: NYS additional certified copy, each
+      es: Copia certificada adicional del estado, cada una
+    amount: 30
+    sources: [nys-amend]
+fee_waiver:
+  available: false
+  how:
+    en: No fee waiver was found for either office. The NYS amendment itself is free.
+    es: No se encontró exención en ninguna de las oficinas. La enmienda estatal en sí es gratuita.
+  sources: [nyc-vr218, phl-4138]
+minors:
+  summary:
+    en: NYC, parents or guardians of a child under 18 apply with VR 218; if both parents are on the certificate, both must sign (or provide a court order or death certificate). NYS, parents or guardians of a child 16 or under use DOH-5306 and DOH-5304, signed by both parents unless there is only one; 17-year-olds apply themselves.
+    es: NYC, los padres o tutores de menores de 18 solicitan con el VR 218 y firman ambos padres si figuran en el acta. Estado, los padres o tutores de menores de 16 o menos usan DOH-5306 y DOH-5304; a los 17 años solicitas tú.
+  forms: [VR 218, DOH-5306, DOH-5304]
+  sources: [nyc-vr218, doh-5306, phl-4138]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail to either office. NYC also takes in-person requests by appointment, but that is not faster.
+    es: Por correo a cualquiera de las oficinas. NYC también atiende en persona con cita, pero no es más rápido.
+  sources: [nyc-corrections, nys-amend]
+timeline:
+  en: Processing times are not published on the pages we reviewed; NYC posts current times and order status at nyc.gov/vitalrecords.
+  es: Los tiempos de procesamiento no aparecen en las páginas revisadas; NYC publica tiempos y estado en nyc.gov/vitalrecords.
+after:
+  en: |
+    Use the new certificate with agencies that accept it. As of September 2026, the US State Department issues passports only with sex at birth, and Social Security is not changing sex fields, so the new certificate will not change those records. If you were born outside New York, contact your birth state's vital records office.
+  es: |
+    Usa la nueva acta con las agencias que la aceptan. A septiembre de 2026, el Departamento de Estado solo emite pasaportes con el sexo al nacer y el Seguro Social no cambia el campo de sexo. Si naciste fuera de Nueva York, contacta la oficina de registros vitales de tu estado de nacimiento.
+tips:
+  - en: Order extra copies with the same application; a later order is a separate request.
+    es: Pide copias adicionales en la misma solicitud.
+  - en: For NYC, the court order must list your name at birth, date and place of birth, and certificate number, or you must also send the original petition.
+    es: Para NYC, la orden judicial debe indicar tu nombre al nacer, fecha y lugar de nacimiento y número de acta.
+statutes:
+  - cite: N.Y. Pub. Health Law § 4138
+    title:
+      en: New birth certificate with female, male, or X on application and affidavit; original sealed
+    url: https://www.nysenate.gov/legislation/laws/PBH/4138
+related_links:
+  - title: NYC Health, Birth certificate corrections (gender marker section)
+    url: https://www.nyc.gov/site/doh/services/birth-death-records-corrections-birth.page
+  - title: Advocates for Trans Equality, New York identity documents
+    url: https://transequality.org/documents/new-york-identity-documents
+    note:
+      en: No last-updated date shown (checked 2026-09-24). Its NYC fee figures match the NYC form.
+      es: Sin fecha de actualización visible.
+sources:
+  - id: phl-4138
+    url: https://www.nysenate.gov/legislation/laws/PBH/4138
+    title: Public Health Law § 4138
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: an affidavit attesting under penalty of perjury that the request for a change of gender to (female, male, or X) is to conform the person's documents and records to the person's gender identity
+  - id: nys-amend
+    url: https://www.health.ny.gov/vital_records/amend_birth.htm
+    title: Amending a birth certificate
+    publisher: New York State Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: When the amended certificate is placed on file, the original birth record is placed under seal. ... $30.00 for each additional copy.
+  - id: doh-5305
+    url: https://www.health.ny.gov/forms/doh-5305.pdf
+    title: DOH-5305 (1/23), Application for Amendment of Certificate of Birth for Gender Designation for an Adult
+    publisher: New York State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: Enclose a Notarized Affidavit of Gender for a Person 17 Years of Age or Older (form DOH-5303). If requesting a name change, also enclose a copy of the authorizing court order.
+  - id: doh-5303
+    url: https://www.health.ny.gov/forms/doh-5303.pdf
+    title: DOH-5303 (1/23), Notarized Affidavit of Gender Change for a Person 17 Years of Age or Older
+    publisher: New York State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+  - id: doh-5306
+    url: https://www.health.ny.gov/forms/doh-5306.pdf
+    title: DOH-5306 (1/23), Parent/Legal Guardian Application for Amendment of Certificate of Birth for Gender Designation for a Minor
+    publisher: New York State Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: This application must be signed by both parents or legal guardians.
+  - id: nyc-vr218
+    url: https://www.nyc.gov/assets/doh/downloads/pdf/vr/gender-marker-change-application.pdf
+    title: VR 218 (Rev. 1/24), Application for Gender Marker Change on a NYC Birth Certificate
+    publisher: NYC Department of Health and Mental Hygiene
+    kind: form
+    accessed: "2026-09-24"
+    quote: nonrefundable $40 application processing fee, plus $15 per copy for each new certificate. A maximum of three copies can be ordered.
+  - id: nyc-corrections
+    url: https://www.nyc.gov/site/doh/services/birth-death-records-corrections-birth.page
+    title: Birth certificates, corrections
+    publisher: NYC Department of Health and Mental Hygiene
+    kind: official
+    accessed: "2026-09-24"
+    quote: As of 2019, people born in New York City can change their gender marker on their birth certificate to "X". It is no longer required for you to have a letter from a provider

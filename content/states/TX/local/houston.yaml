@@ -1,0 +1,193 @@
+jurisdiction: TX
+slug: houston
+name: Houston
+area:
+  en: Harris County and the Greater Houston area
+  es: Condado Harris y el área metropolitana de Houston
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Filing fee ($350, name change adult or minor) from the Harris County District Clerk fee schedule effective
+    January 1, 2026 (updated July 15, 2026). Resource details from org websites read 2026-09-24. Not confirmed: which
+    Houston Planned Parenthood of Greater Texas centers currently offer hormone therapy in person after the October
+    2025 Gulf Coast transition; the Montrose Center's gender services page describes peer groups and partner referrals
+    rather than clinical care; Avenue 360's site lists HIV testing, PrEP education and referral, and sliding-scale
+    primary care but does not mention hormone therapy. Houston Health Department's HIV/STD page is JavaScript-rendered
+    and could not be read, so it is not listed. Verify hours and new-patient availability before marking reviewed.
+intro:
+  en: >-
+    Houston has the largest cluster of trans-affirming services in Texas, centered in Montrose. Name change petitions
+    are filed with the Harris County District Clerk ($350 filing fee, waivable) and decided by a district judge; you
+    also need a fingerprint card and a DPS background check (see the name change guide). Adults can get hormone therapy
+    at Legacy Community Health and Planned Parenthood of Greater Texas. Care for anyone under 18 is banned statewide.
+  es: >-
+    Houston tiene el mayor grupo de servicios afirmativos para personas trans en Texas, concentrados en Montrose. Las
+    peticiones de cambio de nombre se presentan ante el Secretario de Distrito del condado Harris (tarifa de $350, se
+    puede exentar) y las decide un juez de distrito; también necesitas una tarjeta de huellas y una revisión de
+    antecedentes de DPS (ver la guía de cambio de nombre). Los adultos pueden recibir terapia hormonal en Legacy
+    Community Health y Planned Parenthood of Greater Texas. La atención para menores de 18 años está prohibida en todo
+    el estado.
+court:
+  name: Harris County District Clerk (civil and family district courts)
+  url: https://www.hcdistrictclerk.com/
+  self_help_url: https://www.harriscountylawlibrary.org/adult-name-change
+  filing_fee: 350
+  notes:
+    en: The District Clerk classifies name changes as family cases. File in person at the District Clerk's office or electronically through eFileTexas.gov. Certified copies of the order are $1 per page plus $5 for the certificate and seal. The Harris County Law Library (1019 Congress St; 713-755-5183) has a free adult name change packet and staff who help find forms.
+    es: El Secretario de Distrito clasifica los cambios de nombre como casos de familia. Presenta en persona en la oficina del Secretario de Distrito o electrónicamente por eFileTexas.gov. Las copias certificadas de la orden cuestan $1 por página más $5 por el certificado y sello. La Biblioteca Legal del condado Harris (1019 Congress St; 713-755-5183) tiene un paquete gratuito de cambio de nombre para adultos y personal que ayuda a encontrar formularios.
+  sources: [harris-fees, harris-law-library]
+resources:
+  - id: lone-star-legal-aid
+    name: Lone Star Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income residents of Houston and East and Southeast Texas. Main office downtown; 713-652-0077 or 800-733-8394.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos de Houston y el este y sureste de Texas. Oficina principal en el centro; 713-652-0077 o 800-733-8394.
+    url: https://www.lonestarlegal.org/
+    phone: "713-652-0077"
+    address: 1415 Fannin Street, Houston, TX 77002
+    cost: free
+    verification: org_website
+    sources: [lsla]
+  - id: harris-law-library
+    name: Harris County Robert W. Hainsworth Law Library
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free public law library with an adult name change packet and help finding and filling out forms (no legal advice). Weekdays 8 am to 5 pm.
+      es: Biblioteca legal pública gratuita con un paquete de cambio de nombre para adultos y ayuda para encontrar y llenar formularios (sin asesoría legal). Entre semana de 8 am a 5 pm.
+    url: https://www.harriscountylawlibrary.org/adult-name-change
+    phone: "713-755-5183"
+    address: 1019 Congress Street, Houston, TX 77002
+    cost: free
+    verification: official_source
+    sources: [harris-law-library]
+  - id: legacy
+    name: Legacy Community Health, Transgender Specialty Care
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federally qualified health center with transgender medical services (hormone treatment, well-person exams, STD testing, vaccines) and transgender behavioral health, including evaluations before hormones or surgery. Clinics across Houston including Montrose. Medical 832-548-5000; behavioral health 832-548-5014.
+      es: Centro de salud comunitario con servicios médicos para personas trans (tratamiento hormonal, exámenes preventivos, pruebas de ETS, vacunas) y salud conductual, incluidas evaluaciones antes de hormonas o cirugía. Clínicas en todo Houston, incluido Montrose. Médico 832-548-5000; salud conductual 832-548-5014.
+    url: https://www.legacycommunityhealth.org/transgender-specialty-care/
+    phone: "832-548-5000"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    languages: [English, Español]
+    verification: org_website
+    sources: [legacy-trans]
+  - id: ppgt
+    org: planned-parenthood
+    name: Planned Parenthood of Greater Texas (Houston area)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Took over the former Planned Parenthood Gulf Coast health centers on October 1, 2025. Informed-consent hormone therapy for patients 18 and up, in person or by telehealth, plus STI and HIV testing. Call 1-800-230-7526.
+      es: Asumió los antiguos centros de Planned Parenthood Gulf Coast el 1 de octubre de 2025. Terapia hormonal por consentimiento informado para pacientes de 18 años o más, en persona o por telesalud, además de pruebas de ITS y VIH. Llama al 1-800-230-7526.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-texas/patient-resources/gender-affirming-healthcare
+    phone: "1-800-230-7526"
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [ppgt-gac, ppgc-closure]
+  - id: avenue-360
+    name: Avenue 360 Health & Wellness
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Community health center in the Heights with HIV testing and care, PrEP education and referral, hepatitis C testing, and primary care. All services on a sliding fee scale; no one turned away for inability to pay. 713-426-0027.
+      es: Centro de salud comunitario en the Heights con pruebas y atención de VIH, educación y referencia para PrEP, pruebas de hepatitis C y atención primaria. Todos los servicios con tarifa en escala móvil; no se rechaza a nadie por no poder pagar. 713-426-0027.
+    url: https://avenue360.org/services/
+    phone: "713-426-0027"
+    address: 2150 West 18th Street, Houston, TX 77008
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [avenue360]
+  - id: montrose-center
+    name: The Montrose Center, Gender Affirming Services
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Houston's LGBTQ+ community center. TransWellness peer groups and resource referrals, counseling, case management, HIV testing, youth programs (Hatch), and an anti-violence program with a 24-hour helpline for survivors of sexual assault.
+      es: Centro comunitario LGBTQ+ de Houston. Grupos de apoyo TransWellness y referencias, consejería, manejo de casos, pruebas de VIH, programas juveniles (Hatch) y un programa contra la violencia con línea de ayuda de 24 horas para sobrevivientes de agresión sexual.
+    url: https://montrosecenter.org/services/gender-services/
+    address: 401 Branard Street, Houston, TX 77006
+    cost: varies
+    verification: org_website
+    sources: [montrose-center]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: harris-fees
+    url: https://www.hcdistrictclerk.com/common/civil/pdf/Fee_Schedule_Civil_And_Family.pdf
+    title: Civil and family cases filing and service fees (effective January 1, 2026; updated July 15, 2026)
+    publisher: Harris County District Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change, Minor and Adult: $350.00"
+  - id: harris-law-library
+    url: https://www.harriscountylawlibrary.org/adult-name-change
+    title: Adult name change
+    publisher: Harris County Robert W. Hainsworth Law Library
+    kind: official
+    accessed: "2026-09-24"
+  - id: lsla
+    url: https://www.lonestarlegal.org/
+    title: Lone Star Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: legacy-trans
+    url: https://www.legacycommunityhealth.org/transgender-specialty-care/
+    title: Transgender specialty care
+    publisher: Legacy Community Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgt-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-texas/patient-resources/gender-affirming-healthcare
+    title: Gender affirming healthcare
+    publisher: Planned Parenthood of Greater Texas
+    kind: org
+    accessed: "2026-09-24"
+    quote: Planned Parenthood of Greater Texas provides Gender Affirming Hormone Therapy for patients 18 and up.
+  - id: ppgc-closure
+    url: https://www.plannedparenthood.org/planned-parenthood-gulf-coast
+    title: Planned Parenthood Gulf Coast, important update
+    publisher: Planned Parenthood
+    kind: org
+    accessed: "2026-09-24"
+  - id: avenue360
+    url: https://avenue360.org/services/
+    title: Services
+    publisher: Avenue 360 Health & Wellness
+    kind: org
+    accessed: "2026-09-24"
+  - id: montrose-center
+    url: https://montrosecenter.org/services/gender-services/
+    title: Gender affirming services
+    publisher: The Montrose Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

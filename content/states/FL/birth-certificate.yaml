@@ -1,0 +1,184 @@
+guide_type: birth_certificate
+jurisdiction: FL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    No written statute, rule, or DOH notice announcing the change was found. The prohibition is reported by the
+    Florida Name Change Project ("refusing to amend gender markers regardless of what evidence is submitted") and
+    Equality Florida's DHSMV FAQ; DOH's amendments page (read 2026-09-24) says nothing about sex, and the current DH
+    429 (3/2020) lists only Adoption, Correction, Legal Name Change, and Paternity as amendment types. MAP's identity
+    document map was summarized on 2026-09-24 as rating Florida's birth certificate policy "positive"; this conflicts
+    with the advocate reports and may reflect the pre-2023 physician-letter policy. Reviewer should confirm with SLC
+    or DOH directly and check whether previously amended certificates are affected (no reports found that they were
+    voided). Fees ($20 amendment including one copy; $9 first additional, $4 each after; $10 rush) from DH 429.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    The Florida Department of Health is not amending the sex on Florida birth certificates, whatever documents you
+    submit. You can still update your **name** on a Florida birth certificate after a court name change, for $20.
+  es: >-
+    El Departamento de Salud de Florida no está enmendando el sexo en las actas de nacimiento de Florida, sin importar
+    los documentos que presentes. Todavía puedes actualizar tu **nombre** en un acta de Florida después de un cambio
+    de nombre judicial, por $20.
+summary:
+  en: |
+    Until around 2023 the Bureau of Vital Statistics amended the sex on a Florida birth certificate with an application, a notarized affidavit, and a physician's letter. Advocates report that the Department of Health has since changed its policy and now refuses these requests; the current amendment application (DH 429) no longer offers a sex change option. There is no public rule or statute explaining the change, and Southern Legal Counsel is working to challenge it.
+
+    **Name changes still work.** When a Florida court grants your name change, the clerk sends a Report of Legal Name Change (DH 427) to Vital Statistics, and you apply for the amended certificate.
+
+    This guide applies only if you were **born in Florida**. If you were born in another state, that state's rules apply wherever you live now.
+  es: |
+    Hasta alrededor de 2023, la Oficina de Estadísticas Vitales enmendaba el sexo en un acta de Florida con una solicitud, una declaración notarizada y una carta médica. Según organizaciones de apoyo, el Departamento de Salud cambió su política y ahora rechaza estas solicitudes; la solicitud actual (DH 429) ya no ofrece la opción. No hay regla ni ley pública que explique el cambio, y Southern Legal Counsel trabaja para impugnarlo.
+
+    **Los cambios de nombre sí funcionan.** Cuando un tribunal de Florida aprueba tu cambio de nombre, el secretario envía el Informe de Cambio de Nombre Legal (DH 427) a Estadísticas Vitales, y tú solicitas el acta enmendada.
+
+    Esta guía aplica solo si **naciste en Florida**. Si naciste en otro estado, se aplican las reglas de ese estado.
+eligibility:
+  residency:
+    en: You must have been born in Florida. Where you live now does not matter.
+    es: Debes haber nacido en Florida. No importa dónde vivas ahora.
+  age:
+    en: The registrant can apply at 18 or older; a parent or guardian applies for a minor.
+    es: La persona registrada puede solicitar a partir de los 18 años; un padre o tutor lo hace por un menor.
+  sources: [dh429, fnc-birth, eqfl-dhsmv-faq]
+forms:
+  - id: DH429
+    name:
+      en: Application for Amendment to Florida Birth Certificate
+      es: Solicitud de enmienda al acta de nacimiento de Florida
+    url: https://www.floridahealth.gov/wp-content/uploads/2025/07/DH429-Birth-Amendment-Application-7-14-2023.pdf
+    url_es: https://www.floridahealth.gov/wp-content/uploads/2025/07/DH429S-Birth-Amendment-Application-6-30-2023.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Check **Legal Name Change** as the amendment type.
+        - "Full Name on New Birth Record" is your new legal name exactly as in the court judgment.
+        - Include a copy of the front and back of your photo ID. If your name was changed outside Florida, attach a certified copy of the order.
+      es: |
+        - Marca **Legal Name Change** como tipo de enmienda.
+        - Escribe tu nuevo nombre legal exactamente como en la sentencia.
+        - Incluye copia de ambos lados de tu identificación con foto.
+    sources: [dh429, doh-amend]
+  - id: DH 427
+    name:
+      en: Report of Legal Name Change
+      es: Informe de cambio de nombre legal
+    url: https://www.floridahealth.gov/wp-content/uploads/2025/07/DH_427_Legal_Name_Change.pdf
+    required: conditional
+    condition:
+      en: Filed through the clerk of court as part of a Florida name change case; you do not send it yourself.
+      es: Se presenta a través del secretario del tribunal en un caso de cambio de nombre de Florida.
+    sources: [doh-amend]
+steps:
+  - id: court-order
+    title:
+      en: Get your court name change
+      es: Obtén tu cambio de nombre judicial
+    body:
+      en: Complete the Florida name change process (see the name change guide). The clerk reports the judgment to Vital Statistics on form DH 427.
+      es: Completa el cambio de nombre en Florida (ver la guía). El secretario informa la sentencia a Estadísticas Vitales con el formulario DH 427.
+    forms: [DH 427]
+    applies_to: [name_change]
+    sources: [doh-amend]
+  - id: apply
+    title:
+      en: Send the amendment application and fee
+      es: Envía la solicitud de enmienda y la tarifa
+    body:
+      en: >-
+        Mail DH 429, a copy of your photo ID, and a check or money order payable to Vital Statistics to Bureau of Vital
+        Statistics, P.O. Box 210, Jacksonville, FL 32231-0042. Questions about name change amendments go to
+        904-359-6900 ext. 9005.
+      es: >-
+        Envía por correo el DH 429, copia de tu identificación y un cheque o giro a nombre de Vital Statistics a Bureau
+        of Vital Statistics, P.O. Box 210, Jacksonville, FL 32231-0042.
+    forms: [DH429]
+    fees: [amendment, extra-copy, rush]
+    applies_to: [name_change, by_mail]
+    estimated_time:
+      en: Usually 2 to 3 weeks
+      es: Normalmente 2 a 3 semanas
+    sources: [dh429, doh-amend]
+fees:
+  - id: amendment
+    label:
+      en: Amendment, including one certified copy
+      es: Enmienda, incluye una copia certificada
+    amount: 20
+    note:
+      en: Non-refundable, even if the amendment cannot be completed.
+      es: No reembolsable, aunque no se pueda completar la enmienda.
+    sources: [dh429, doh-amend]
+  - id: extra-copy
+    label:
+      en: Additional certified copies ordered at the same time
+      es: Copias certificadas adicionales pedidas al mismo tiempo
+    min: 4
+    max: 9
+    note:
+      en: $9 for the first additional copy, $4 for each one after that.
+      es: $9 la primera copia adicional, $4 cada una después.
+    sources: [dh429]
+  - id: rush
+    label:
+      en: Optional rush processing
+      es: Procesamiento urgente opcional
+    amount: 10
+    sources: [dh429]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Amendments are handled by mail through the Bureau of Vital Statistics in Jacksonville.
+    es: Las enmiendas se tramitan por correo en la Oficina de Estadísticas Vitales en Jacksonville.
+  sources: [doh-amend]
+timeline:
+  en: About 2 to 3 weeks for a name amendment, per DOH; longer when workload is high.
+  es: Unas 2 a 3 semanas para una enmienda de nombre, según el DOH.
+after:
+  en: |
+    If you need a document with an updated sex marker, Florida documents are not an option right now. Keep your certified name change judgment with your birth certificate. If the Department of Health refuses a name amendment or questions a previously amended certificate, contact Southern Legal Counsel.
+  es: |
+    Si necesitas un documento con el marcador de sexo actualizado, los documentos de Florida no son una opción por ahora. Guarda tu sentencia de cambio de nombre certificada con tu acta. Si el Departamento de Salud rechaza una enmienda de nombre o cuestiona un acta ya enmendada, contacta a Southern Legal Counsel.
+tips:
+  - en: The amendment fee is non-refundable, so do not send a sex-marker request expecting a refund if it is denied.
+    es: La tarifa no es reembolsable; no envíes una solicitud de cambio de sexo esperando un reembolso si la rechazan.
+related_links:
+  - title: Florida Name Change Project, Birth Certificate Gender
+    url: https://www.floridanamechange.org/step-5---birth-certificate-gender.html
+sources:
+  - id: fnc-birth
+    url: https://www.floridanamechange.org/step-5---birth-certificate-gender.html
+    title: Step 5, Birth Certificate Gender
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+    quote: The Florida Department of Health recently changed its policy to prohibit gender marker amendments on Florida birth certificates.
+  - id: eqfl-dhsmv-faq
+    url: https://eqfl.org/resource/faq-dhsmv-memo/
+    title: FAQ on DHSMV Memo
+    publisher: Equality Florida
+    kind: org
+    accessed: "2026-09-24"
+    quote: is not fulfilling requests to update gender markers on Florida birth certificates
+  - id: dh429
+    url: https://www.floridahealth.gov/wp-content/uploads/2025/07/DH429-Birth-Amendment-Application-7-14-2023.pdf
+    title: DH 429, Application for Amendment to Florida Birth Certificate (3/2020)
+    publisher: Florida Department of Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: "TYPE OF AMENDMENT (check one): Adoption, Correction, Legal Name Change, Paternity Establishment"
+  - id: doh-amend
+    url: https://www.floridahealth.gov/certificates-records/amendments-and-corrections/
+    title: Amendments and Corrections
+    publisher: Florida Department of Health, Bureau of Vital Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: A non-refundable fee of $20 is required for amending the record and includes one certification of the amended record.

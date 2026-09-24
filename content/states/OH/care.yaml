@@ -1,0 +1,370 @@
+jurisdiction: OH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    HB 68 provisions (ORC 3129.02, 3129.04, 3129.05, 3129.06) read on codes.ohio.gov 2026-09-24. Moe v. Yost status
+    from the national ACLU case page (Ohio Supreme Court stay granted April 29, 2025; amicus briefs December 9, 2025;
+    described as ongoing, with no 2026 entries). Reviewer: check the Ohio Supreme Court docket for a 2026 decision or
+    oral argument. Medicaid: OAC 5160-2-03 lists "gender transformation" as a non-covered hospital service (read
+    2026-09-24). Coverage of hormones for adults under Ohio Medicaid was not confirmed from an official source, so
+    covers_hrt is "unclear". MAP marks Ohio's Medicaid policy and state employee benefits as excluding trans care and
+    finds no private insurance protection. Not researched in depth: whether HB 96 (2025 budget) or ODH/OMHAS rules
+    adopted in 2024 add data-reporting or other duties for adult care; none were found that bar adult care. medicaid.ohio.gov,
+    benefits.ohio.gov, and insurance.ohio.gov returned errors to automated fetching, so their URLs are cited without a
+    quote. Planned Parenthood of Greater Ohio's services page (read 2026-09-24) lists gender-affirming hormone therapy;
+    its minimum age is 18 under HB 68. QueerMed availability in Ohio not checked.
+status_summary:
+  en: >-
+    Adults in Ohio can get hormone therapy, including on an informed-consent basis at Equitas Health and Planned
+    Parenthood. Ohio Medicaid excludes gender-affirming surgery, and state law gives no insurance protection. HB 68 bans
+    hormones, puberty blockers, and surgery for anyone under 18; the ban is in effect while the Ohio Supreme Court
+    hears an appeal.
+  es: >-
+    Los adultos en Ohio pueden recibir terapia hormonal, incluso por consentimiento informado en Equitas Health y
+    Planned Parenthood. Medicaid de Ohio excluye la cirugía de afirmación de género y la ley estatal no protege la
+    cobertura de seguros. La ley HB 68 prohíbe hormonas, bloqueadores de pubertad y cirugía para menores de 18 años;
+    la prohibición está vigente mientras la Corte Suprema de Ohio decide una apelación.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Ohio law bans gender-affirming care for adults. Equitas Health (Columbus, Cincinnati, Dayton, Akron, and telehealth) and Planned Parenthood of Greater Ohio prescribe hormones on an **informed consent** basis, which means you do not need a therapist's letter.
+
+      **If you have no insurance and little money**:
+      1. Apply for **Ohio Medicaid** (adults up to about 138% of the federal poverty level). Surgery is excluded; ask your plan or clinic whether hormones and labs are covered.
+      2. Go to a **community health center** (Equitas Health or another FQHC). They charge on a sliding scale.
+      3. **Telehealth**: Plume, FOLX, and Planned Parenthood serve Ohio.
+      4. **Point of Pride** and **GenderBands** give grants for hormones and surgery.
+
+      Ohio law (ORC 9.05, 2025) defines sex as fixed at birth. It does not ban adult care, but it has been used to change state agency rules, such as the BMV's August 2026 policy.
+    es: |
+      Ninguna ley de Ohio prohíbe la atención de afirmación de género para adultos. Equitas Health (Columbus, Cincinnati, Dayton, Akron y telesalud) y Planned Parenthood of Greater Ohio recetan hormonas por **consentimiento informado**, sin carta de terapeuta.
+
+      **Si no tienes seguro ni mucho dinero**:
+      1. Solicita **Medicaid de Ohio** (adultos hasta aproximadamente el 138% del nivel federal de pobreza). La cirugía está excluida; pregunta si cubren hormonas y análisis.
+      2. Acude a un **centro de salud comunitario** con escala móvil.
+      3. **Telesalud**: Plume, FOLX y Planned Parenthood atienden en Ohio.
+      4. **Point of Pride** y **GenderBands** dan becas para hormonas y cirugía.
+
+      La ley de Ohio (ORC 9.05, 2025) define el sexo como fijo al nacer. No prohíbe la atención para adultos, pero se ha usado para cambiar reglas de agencias estatales.
+  sources: [equitas-gac, ppgoh-services, orc-9-05, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **HB 68** (ORC Chapter 3129, effective April 24, 2024, enacted over Governor DeWine's veto) bars physicians from providing gender reassignment surgery, cross-sex hormones, or puberty blockers to anyone under 18 for gender transition. Medicaid may not cover these services for minors.
+
+      - **Exceptions**: minors who were already receiving hormones or blockers before April 24, 2024, if the physician finds that stopping would cause harm; and care for differences of sex development.
+      - **Penalties**: violations are unprofessional conduct subject to license discipline, and the Attorney General can sue to enforce the ban.
+      - **Mental health care** for gender dysphoria is still allowed.
+
+      **Litigation**: an appeals court struck down the ban in March 2025, but the Ohio Supreme Court stayed that ruling on April 29, 2025, so **the ban is in effect** while the appeal (Moe v. Yost) is pending.
+    es: |
+      **HB 68** (Capítulo 3129 del ORC, vigente desde el 24 de abril de 2024, aprobada pese al veto del gobernador DeWine) prohíbe a los médicos dar cirugía, hormonas cruzadas o bloqueadores de pubertad a menores de 18 años para transición de género. Medicaid no puede cubrir estos servicios para menores.
+
+      - **Excepciones**: menores que ya recibían hormonas o bloqueadores antes del 24 de abril de 2024, si el médico determina que suspenderlos causaría daño; y atención de diferencias del desarrollo sexual.
+      - **Sanciones**: las violaciones son conducta no profesional sujeta a disciplina de la licencia, y el Fiscal General puede demandar.
+      - La **atención de salud mental** sigue permitida.
+
+      **Litigio**: un tribunal de apelaciones anuló la prohibición en marzo de 2025, pero la Corte Suprema de Ohio suspendió ese fallo el 29 de abril de 2025, así que **la prohibición está vigente** mientras se decide la apelación (Moe v. Yost).
+  sources: [orc-3129-02, orc-3129-04, orc-3129-05, orc-3129-06, aclu-moe]
+medicaid:
+  program_name: Ohio Medicaid
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: >-
+      Ohio's Medicaid hospital-services rule lists "gender transformation" as a non-covered service (OAC 5160-2-03), and
+      HB 68 bars coverage of transition services for minors (ORC 3129.06). Whether your managed care plan covers
+      hormones and labs for adults is not stated in a public policy; ask your plan and your clinic, and appeal a denial.
+      Adults qualify with income up to about 138% of the federal poverty level. Apply online at Ohio Benefits or at
+      your county Job and Family Services office.
+    es: >-
+      La norma de servicios hospitalarios de Medicaid de Ohio excluye la "transformación de género" (OAC 5160-2-03), y
+      HB 68 prohíbe cubrir servicios de transición para menores (ORC 3129.06). No hay una política pública sobre la
+      cobertura de hormonas para adultos; pregunta a tu plan y a tu clínica, y apela si te la niegan. Los adultos
+      califican con ingresos hasta aproximadamente el 138% del nivel federal de pobreza. Solicita en Ohio Benefits o
+      en la oficina de Job and Family Services de tu condado.
+  how_to_apply_url: https://benefits.ohio.gov/
+  sources: [oac-5160-2-03, orc-3129-06, map-profile, ohio-benefits]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: >-
+      Ohio has no law barring insurers from excluding gender-affirming care, and the state employee health plan excludes
+      it. Check your plan's exclusions list. If a claim is denied, you can appeal and request an external review, and
+      you can file a complaint with the Ohio Department of Insurance. The Trans Health Project and Equality Ohio can help
+      with appeals.
+    es: >-
+      Ohio no tiene ley que prohíba a las aseguradoras excluir la atención de afirmación de género, y el plan de
+      empleados estatales la excluye. Revisa las exclusiones de tu plan. Si te niegan un reclamo, puedes apelar, pedir
+      revisión externa y presentar una queja ante el Departamento de Seguros de Ohio.
+  complaint_url: https://insurance.ohio.gov/
+  sources: [map-profile, odi]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: equitas-health
+    name: Equitas Health, gender-affirming care
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: >-
+        Informed-consent hormone therapy (no therapist letter), primary care, PrEP, pharmacy, and counseling at Columbus
+        (Short North and King-Lincoln), Cincinnati, Dayton, and Akron community health centers, plus telehealth. Sliding
+        fee scale.
+      es: >-
+        Terapia hormonal por consentimiento informado, atención primaria, PrEP, farmacia y consejería en Columbus,
+        Cincinnati, Dayton y Akron, además de telesalud. Escala móvil.
+    url: https://equitashealth.com/our-services/gender-affirming-care/
+    phone: "833-378-4827"
+    areas_served:
+      en: Statewide by telehealth; clinics in Columbus, Cincinnati, Dayton, Akron
+      es: Todo el estado por telesalud; clínicas en Columbus, Cincinnati, Dayton, Akron
+    cost: sliding_scale
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [equitas-gac, equitas-locations]
+  - id: equitas-teleprep
+    name: Equitas Health TelePrEP
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Online PrEP appointments with HIV/STI testing and free medication delivery in Ohio. The clinic says 99% of patients pay nothing, with or without insurance.
+      es: Citas de PrEP en línea con pruebas de VIH/ITS y entrega gratuita de medicamentos en Ohio.
+    url: https://teleprep.equitashealth.com/
+    phone: "833-378-4827"
+    cost: free
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [equitas-teleprep]
+  - id: pp-greater-ohio
+    org: planned-parenthood
+    name: Planned Parenthood of Greater Ohio
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy at health centers across central and northeast Ohio, 18 and older. Also STI testing and PrEP.
+      es: Terapia hormonal de afirmación de género en centros del centro y noreste de Ohio, a partir de 18 años. También pruebas de ITS y PrEP.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-ohio/our-patients/our-services
+    phone: "800-230-7526"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [ppgoh-services]
+  - id: metrohealth-pride
+    name: MetroHealth Pride Network (Cleveland)
+    type: hrt_clinic
+    pillars: [hrt, mental_health, sexual_health]
+    description:
+      en: Cuyahoga County's public health system offers hormone therapy, gender-affirming surgery, behavioral health, primary care, and PrEP/PEP. Adult primary care 216-957-4905.
+      es: El sistema público de salud del condado de Cuyahoga ofrece terapia hormonal, cirugía, salud mental, atención primaria y PrEP/PEP.
+    url: https://www.metrohealth.org/pride-clinic
+    phone: "216-957-4905"
+    cost: insurance
+    accepts_medicaid: true
+    verification: org_website
+    sources: [metrohealth]
+  - id: transohio-fund
+    name: TransOhio Emergency Fund
+    type: fund
+    pillars: [hrt, mental_health]
+    description:
+      en: Cash assistance for trans Ohioans and families who need to relocate to a safer place or reach care. Apply through the form on TransOhio's site.
+      es: Ayuda económica para personas trans de Ohio y sus familias que necesitan mudarse a un lugar más seguro o acceder a atención.
+    url: https://www.transohio.org/
+    cost: free
+    verification: org_website
+    sources: [transohio]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride, HRT Access and surgery funds
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National grants for hormone therapy (through telehealth) and gender-affirming surgery.
+      es: Becas nacionales para terapia hormonal (por telesalud) y cirugía de afirmación de género.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands grants
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National grants toward gender-affirming procedures and related costs.
+      es: Becas nacionales para procedimientos de afirmación de género y costos relacionados.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: hrsa-finder
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers that charge on a sliding scale regardless of insurance.
+      es: Buscador federal de centros de salud comunitarios con tarifas de escala móvil.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: Ohio Rev. Code §§ 3129.01 to 3129.06 (HB 68, effective April 24, 2024)
+    title:
+      en: Ban on gender transition services for minors, exceptions, enforcement, and Medicaid exclusion
+    url: https://codes.ohio.gov/ohio-revised-code/chapter-3129
+  - cite: Ohio Admin. Code 5160-2-03
+    title:
+      en: Medicaid hospital services; "gender transformation" listed as non-covered
+    url: https://codes.ohio.gov/ohio-administrative-code/rule-5160-2-03
+  - cite: Ohio Rev. Code § 9.05 (HB 96, effective September 30, 2025)
+    title:
+      en: State policy recognizing two unchangeable sexes
+    url: https://codes.ohio.gov/ohio-revised-code/section-9.05
+litigation:
+  - case: Moe v. Yost
+    court: Supreme Court of Ohio (on appeal from the Tenth District Court of Appeals)
+    summary:
+      en: >-
+        Families and physicians challenged HB 68's ban on care for minors under the Ohio Constitution. The Franklin
+        County trial court upheld the ban in August 2024; the Tenth District reversed in March 2025; the Ohio Supreme
+        Court stayed that ruling on April 29, 2025 and is hearing the state's appeal.
+      es: >-
+        Familias y médicos impugnaron la prohibición de HB 68 bajo la Constitución de Ohio. El tribunal de Franklin la
+        confirmó en agosto de 2024; el Décimo Distrito la anuló en marzo de 2025; la Corte Suprema de Ohio suspendió
+        ese fallo el 29 de abril de 2025 y está decidiendo la apelación.
+    effect_today:
+      en: The ban is in effect. Ohio physicians may not start hormones or puberty blockers for anyone under 18.
+      es: La prohibición está vigente. Los médicos de Ohio no pueden iniciar hormonas ni bloqueadores para menores de 18 años.
+    last_update: "2025-12-09"
+    url: https://www.aclu.org/cases/moe-v-yost
+    sources: [aclu-moe]
+sources:
+  - id: orc-3129-02
+    url: https://codes.ohio.gov/ohio-revised-code/section-3129.02
+    title: Ohio Revised Code § 3129.02, Physician prohibitions
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: orc-3129-04
+    url: https://codes.ohio.gov/ohio-revised-code/section-3129.04
+    title: Ohio Revised Code § 3129.04, Permissible medical treatment
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: orc-3129-05
+    url: https://codes.ohio.gov/ohio-revised-code/section-3129.05
+    title: Ohio Revised Code § 3129.05, Enforcement
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: orc-3129-06
+    url: https://codes.ohio.gov/ohio-revised-code/section-3129.06
+    title: Ohio Revised Code § 3129.06, Medicaid coverage
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Medical assistance provided under the medicaid program shall not include coverage for gender transition services for minor individuals.
+  - id: orc-9-05
+    url: https://codes.ohio.gov/ohio-revised-code/section-9.05
+    title: Ohio Revised Code § 9.05, Sex recognition policy
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: oac-5160-2-03
+    url: https://codes.ohio.gov/ohio-administrative-code/rule-5160-2-03
+    title: Ohio Admin. Code 5160-2-03, Conditions and limitations (hospital services)
+    publisher: Ohio Legislative Service Commission
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Gender transformation
+  - id: aclu-moe
+    url: https://www.aclu.org/cases/moe-v-yost
+    title: Moe v. Yost
+    publisher: ACLU
+    kind: org
+    accessed: "2026-09-24"
+    quote: H.B. 68 will remain in effect during Defendants' appeal.
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/OH
+    title: Ohio state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ohio-benefits
+    url: https://benefits.ohio.gov/
+    title: Ohio Benefits
+    publisher: State of Ohio
+    kind: official
+    accessed: "2026-09-24"
+  - id: odi
+    url: https://insurance.ohio.gov/
+    title: Ohio Department of Insurance
+    publisher: State of Ohio
+    kind: official
+    accessed: "2026-09-24"
+  - id: equitas-gac
+    url: https://equitashealth.com/our-services/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: You do not need an okay from a psychiatrist or therapist to start gender-affirming hormone therapy.
+  - id: equitas-locations
+    url: https://equitashealth.com/find-a-location/
+    title: Find a Location
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: equitas-teleprep
+    url: https://teleprep.equitashealth.com/
+    title: TelePrEP
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgoh-services
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-ohio/our-patients/our-services
+    title: Our Services
+    publisher: Planned Parenthood of Greater Ohio
+    kind: org
+    accessed: "2026-09-24"
+    quote: We provide gender-affirming care, including hormone therapy, in a safe, judgment-free, and compassionate environment.
+  - id: metrohealth
+    url: https://www.metrohealth.org/pride-clinic
+    title: Pride Network
+    publisher: MetroHealth
+    kind: org
+    accessed: "2026-09-24"
+  - id: transohio
+    url: https://www.transohio.org/
+    title: TransOhio
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: GenderBands
+    publisher: GenderBands
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

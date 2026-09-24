@@ -1,0 +1,210 @@
+guide_type: drivers_license
+jurisdiction: TX
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    DPS has never published its August 2024 sex-marker policy on its public website; the policy is documented by the
+    internal DPS email quoted in the ACLU of Texas fact sheet (March 31, 2025), A4TE's Texas page (August 2025), and the
+    Texas State Law Library guide. AG Opinion KP-0489 (March 14, 2025) read directly. Fees ($11 replacement license or
+    ID) and name-change document list read directly on DPS pages 2026-09-24. NOT CONFIRMED: whether DPS has actually
+    reverted any previously changed markers after KP-0489 (ACLU said in March 2025 it was monitoring; no source we
+    could load reports reversions), and whether DPS now rejects combined name-and-gender orders for the name (A4TE and
+    TSLL say it may). No active lawsuit specific to the DPS policy was confirmed; the search budget ran out before this
+    could be checked, so reviewer should check ACLU of Texas and Lambda Legal for any 2025-2026 filing.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    You cannot change the sex marker on a Texas driver's license or ID card. Since August 2024 DPS refuses court orders
+    and amended birth certificates for this purpose, the Attorney General calls such orders void, and HB 229 (September
+    2025) defines sex in state law as biological sex. You can still change your name on the card in person with a
+    certified court order, for $11.
+  es: >-
+    No puedes cambiar el marcador de sexo en una licencia de conducir o tarjeta de identificación de Texas. Desde agosto
+    de 2024 DPS rechaza órdenes judiciales y actas de nacimiento enmendadas para este fin, el Fiscal General considera
+    nulas esas órdenes y HB 229 (septiembre de 2025) define el sexo en la ley estatal como sexo biológico. Todavía
+    puedes cambiar tu nombre en la tarjeta en persona con una orden judicial certificada, por $11.
+summary:
+  en: |
+    Until 2024, Texans could update the sex on a license or ID by bringing DPS a court order or an amended birth certificate. On **August 20, 2024** DPS told its employees it would "not accept court orders or amended birth certificates issued that change the sex when it differs from documentation already on file" unless there was a clerical error, and to document anyone who asked. On **March 14, 2025** the Attorney General issued Opinion KP-0489, answering a DPS request, concluding that district courts have no power to order agencies to change a person's sex on a license or birth certificate, that such orders are void, and that agencies "must immediately correct" documents changed under them. Attorney General opinions are not binding on courts, but DPS follows them. **HB 229**, effective September 1, 2025, adds definitions to the Code Construction Act: "sex" means biological sex, male or female, and "female" and "male" are defined by reproductive biology.
+
+    What this means today:
+    - **No new marker changes**, whether you bring a court order, an amended Texas birth certificate, or another state's amended birth certificate.
+    - **First-time Texas applicants** (including people moving from another state) get the marker on DPS's primary document on file, such as a birth certificate or passport, and A4TE advises caution.
+    - **Existing cards** that were changed before August 2024: we found no confirmed reports of DPS reverting them, but KP-0489 tells agencies to correct them, and A4TE understands DPS will not update gender markers during renewals. If DPS contacts you or changes your card, contact TENT, ACLU of Texas, or Lambda Legal.
+    - **Name changes still work**: bring a certified court order, amended birth certificate, or naturalization certificate to any office within 30 days.
+    - Texas cards show only M or F. Texas has no X option.
+  es: |
+    Hasta 2024, los texanos podían actualizar el sexo en su licencia o identificación con una orden judicial o un acta de nacimiento enmendada. El **20 de agosto de 2024** DPS indicó a sus empleados que "no aceptará órdenes judiciales ni actas de nacimiento enmendadas que cambien el sexo cuando difiera de la documentación en archivo", salvo errores administrativos, y que documentaran a quien lo pidiera. El **14 de marzo de 2025** el Fiscal General emitió la Opinión KP-0489, a solicitud de DPS, concluyendo que los tribunales de distrito no pueden ordenar a las agencias cambiar el sexo en una licencia o acta de nacimiento, que esas órdenes son nulas y que las agencias "deben corregir inmediatamente" los documentos cambiados con ellas. Las opiniones del Fiscal General no obligan a los tribunales, pero DPS las sigue. **HB 229**, vigente desde el 1 de septiembre de 2025, agrega definiciones a la ley estatal: "sexo" significa sexo biológico, masculino o femenino.
+
+    Qué significa hoy:
+    - **No hay nuevos cambios de marcador**, ya sea con orden judicial, acta de nacimiento enmendada de Texas o de otro estado.
+    - **Quienes solicitan por primera vez en Texas** (incluidos quienes se mudan de otro estado) reciben el marcador del documento principal en archivo, como el acta de nacimiento o el pasaporte.
+    - **Tarjetas existentes** cambiadas antes de agosto de 2024: no encontramos reportes confirmados de que DPS las haya revertido, pero KP-0489 indica corregirlas. Si DPS te contacta o cambia tu tarjeta, comunícate con TENT, ACLU de Texas o Lambda Legal.
+    - **El cambio de nombre sigue funcionando**: lleva una orden judicial certificada, un acta de nacimiento enmendada o un certificado de naturalización a cualquier oficina dentro de 30 días.
+    - Las tarjetas de Texas solo muestran M o F. Texas no tiene opción X.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Texas driver's license or ID card.
+    es: Debes tener o estar solicitando una licencia de conducir o tarjeta de identificación de Texas.
+  other:
+    en: Name changes must be made within 30 days, in person. The sex field can be corrected only for a documented clerical error.
+    es: Los cambios de nombre deben hacerse dentro de 30 días, en persona. El campo de sexo solo se corrige por un error administrativo documentado.
+  sources: [dps-change-info, aclu-tx-factsheet, tsll-gender, hb229]
+steps:
+  - id: court-order
+    title:
+      en: Get your court order and update Social Security first
+      es: Obtén tu orden judicial y actualiza primero el Seguro Social
+    body:
+      en: Get a certified copy of your name change order (a name-only order is safest). Update your name with Social Security before going to DPS, since DPS checks your record against SSA.
+      es: Obtén una copia certificada de tu orden de cambio de nombre (una orden solo de nombre es lo más seguro). Actualiza tu nombre en el Seguro Social antes de ir a DPS, ya que DPS verifica tu registro con el SSA.
+    applies_to: [name_change]
+    sources: [a4te-tx]
+  - id: appointment
+    title:
+      en: Make an appointment at a DPS driver license office
+      es: Haz una cita en una oficina de licencias de DPS
+    body:
+      en: A name change must be done in person; you cannot do it online or by mail. Book an appointment through DPS's online scheduler, or call 1-888-368-4689 with questions.
+      es: El cambio de nombre debe hacerse en persona; no se puede en línea ni por correo. Reserva una cita con el sistema de citas en línea de DPS, o llama al 1-888-368-4689 si tienes preguntas.
+    applies_to: [name_change, in_person]
+    sources: [dps-change-info, a4te-tx]
+  - id: visit
+    title:
+      en: Bring your documents and pay the replacement fee
+      es: Lleva tus documentos y paga la tarifa de reemplazo
+    body:
+      en: |
+        Bring the **original or certified** court order (not a photocopy, not laminated), an amended birth certificate, or a naturalization certificate showing the new name; your current card; and proof of identity and Texas residency if asked. Pay $11 for a replacement license or ID (the expiration date does not change). You will take a new photo.
+      es: |
+        Lleva la orden judicial **original o certificada** (no fotocopia, no laminada), un acta de nacimiento enmendada o un certificado de naturalización con el nuevo nombre; tu tarjeta actual; y prueba de identidad y residencia en Texas si te la piden. Paga $11 por la licencia o identificación de reemplazo (la fecha de vencimiento no cambia). Te tomarán una foto nueva.
+    fees: [replacement-dl, replacement-id]
+    applies_to: [name_change, in_person]
+    sources: [dps-change-info, dps-fees]
+  - id: marker
+    title:
+      en: Know what happens if you ask about the sex marker
+      es: Qué pasa si preguntas por el marcador de sexo
+    body:
+      en: DPS will deny the request unless you can document a clerical error, and staff were instructed to record such requests internally. Asking is not illegal, but it will not succeed and may be logged. If you are denied or questioned, contact TENT or ACLU of Texas.
+      es: DPS negará la solicitud salvo que demuestres un error administrativo, y el personal recibió instrucciones de registrar internamente esas solicitudes. Preguntar no es ilegal, pero no tendrá éxito y puede quedar registrado. Si te niegan o te cuestionan, contacta a TENT o a ACLU de Texas.
+    applies_to: [gender_marker]
+    sources: [aclu-tx-factsheet, kp-0489]
+fees:
+  - id: replacement-dl
+    label:
+      en: Replacement driver license (name or address change)
+      es: Licencia de conducir de reemplazo (cambio de nombre o domicilio)
+    amount: 11
+    sources: [dps-fees]
+  - id: replacement-id
+    label:
+      en: Replacement ID card (name or address change)
+      es: Tarjeta de identificación de reemplazo (cambio de nombre o domicilio)
+    amount: 11
+    note:
+      en: A new ID card is $16 (age 59 and younger) or $6 (age 60 and older).
+      es: Una identificación nueva cuesta $16 (59 años o menos) o $6 (60 años o más).
+    sources: [dps-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: DPS lists no general low-income waiver. Disabled veterans (60% or more) get free licenses.
+    es: DPS no tiene exención general por bajos ingresos. Los veteranos con discapacidad (60% o más) reciben licencias gratis.
+  sources: [dps-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require an office visit. Only address changes can be done online or by mail.
+    es: Los cambios de nombre requieren una visita a la oficina. Solo los cambios de domicilio se pueden hacer en línea o por correo.
+  sources: [dps-change-info]
+timeline:
+  en: One office visit; the new card is mailed to you afterward. Ask at the office how long delivery is currently taking.
+  es: Una visita a la oficina; la nueva tarjeta se te envía por correo después. Pregunta en la oficina cuánto tarda actualmente la entrega.
+after:
+  en: |
+    Your license will show your new name and the sex DPS has on file. For travel, a US passport is the other main ID, but federal passport and Social Security sex fields are also frozen as of September 2026. Keep a certified copy of your name change order with you when an ID mismatch could cause problems (for example at banks or medical offices).
+  es: |
+    Tu licencia mostrará tu nuevo nombre y el sexo que DPS tiene en archivo. Para viajar, el pasaporte de EE. UU. es la otra identificación principal, pero los campos de sexo del pasaporte y del Seguro Social también están congelados en septiembre de 2026. Lleva una copia certificada de tu orden de cambio de nombre cuando una discrepancia de identificación pueda causar problemas (por ejemplo en bancos o consultorios médicos).
+tips:
+  - en: Do not bring an order that also changes your gender marker when you only want the name updated; advocates report DPS may reject the whole order.
+    es: No lleves una orden que también cambie tu marcador de género si solo quieres actualizar el nombre; organizaciones de apoyo informan que DPS puede rechazar toda la orden.
+  - en: If you already hold a Texas card with an updated marker, keep it valid and renew on time, and keep copies of the documents DPS accepted at the time.
+    es: Si ya tienes una tarjeta de Texas con el marcador actualizado, mantenla vigente, renueva a tiempo y guarda copias de los documentos que DPS aceptó en su momento.
+statutes:
+  - cite: Tex. Gov't Code § 311.005 (as amended by HB 229, 89th Leg., eff. Sept. 1, 2025)
+    title:
+      en: Statutory definitions of sex, male, female, man, and woman
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00229F.htm
+  - cite: Tex. Att'y Gen. Op. No. KP-0489 (2025)
+    title:
+      en: Court orders directing agencies to change sex on licenses and birth certificates are void, per the Attorney General
+    url: https://www.texasattorneygeneral.gov/sites/default/files/opinion-files/opinion/2025/kp-0489.pdf
+related_links:
+  - title: Advocates for Trans Equality, Texas identity documents
+    url: https://transequality.org/documents/texas-identity-documents
+    note:
+      en: Last updated August 2025.
+      es: Actualizado en agosto de 2025.
+  - title: ACLU of Texas fact sheet on gender markers (March 2025)
+    url: https://www.aclutx.org/app/uploads/2025/04/factsheet_gendermarkers_3.31.25.pdf
+  - title: Texas State Law Library, Gender marker and name change
+    url: https://guides.sll.texas.gov/name-changes/gender-marker-and-name-change
+sources:
+  - id: dps-change-info
+    url: https://www.dps.texas.gov/section/driver-license/how-change-information-your-driver-license-or-id-card
+    title: How to change information on your driver license or ID card
+    publisher: Texas Department of Public Safety
+    kind: official
+    accessed: "2026-09-24"
+    quote: "If your name change is not marriage related, bring one of the following documents: Certified court order, Amended birth certificate, Certificate of Naturalization."
+  - id: dps-fees
+    url: https://www.dps.texas.gov/section/driver-license/driver-license-fees
+    title: Driver license fees
+    publisher: Texas Department of Public Safety
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Replacement driver license $11 (change address or name). Replacement ID card $11."
+  - id: aclu-tx-factsheet
+    url: https://www.aclutx.org/app/uploads/2025/04/factsheet_gendermarkers_3.31.25.pdf
+    title: Texas Attorney General and agencies' refusal to follow court orders to update gender markers (fact sheet, March 31, 2025)
+    publisher: ACLU of Texas
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Department wrote to its employees that it will not accept court orders or amended birth certificates issued that change the sex when it differs from documentation already on file.
+  - id: kp-0489
+    url: https://www.texasattorneygeneral.gov/sites/default/files/opinion-files/opinion/2025/kp-0489.pdf
+    title: Opinion No. KP-0489 (March 14, 2025)
+    publisher: Office of the Attorney General of Texas
+    kind: official
+    accessed: "2026-09-24"
+    quote: The underlying proceedings are coram non judice, and the resulting orders are void.
+  - id: hb229
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00229F.htm
+    title: HB 229 (89th Legislature), enrolled text
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "Sex means an individual's biological sex, either male or female."
+  - id: a4te-tx
+    url: https://transequality.org/documents/texas-identity-documents
+    title: Texas identity documents (last updated August 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: On August 21, 2024, the Texas Department of Public Safety (DPS) stopped processing requests to update gender markers on Texas driver's licenses or state IDs.
+  - id: tsll-gender
+    url: https://guides.sll.texas.gov/name-changes/gender-marker-and-name-change
+    title: Gender marker and name change
+    publisher: Texas State Law Library
+    kind: official
+    accessed: "2026-09-24"
+    quote: DPS in 2024 stopped accepting court orders that change the sex of an individual or combined orders that issue a name change and a gender marker change in the same document.

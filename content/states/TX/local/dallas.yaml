@@ -1,0 +1,175 @@
+jurisdiction: TX
+slug: dallas
+name: Dallas
+area:
+  en: Dallas County and the Dallas-Fort Worth area
+  es: Condado Dallas y el área de Dallas-Fort Worth
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Short list. Filing fee ($350, name change of adult or child) from the Dallas County District Clerk fee schedule
+    effective January 1, 2024; confirm no 2025-2026 update. Clerk address from the Dallas County District Clerk civil
+    section page. Prism Health North Texas's website did not respond on 2026-09-24 and is not listed; a reviewer may
+    want to add it. The Dallas LGBT Bar Association's clinics are described from A4TE's Texas page; its own site did
+    not list upcoming clinic dates.
+intro:
+  en: >-
+    In Dallas County, name change petitions are filed with the District Clerk at the George L. Allen Sr. Courts
+    Building downtown ($350 filing fee, waivable), with the same fingerprint and DPS background check required
+    statewide. Resource Center Health on Inwood Road offers hormone therapy for adults, and Planned Parenthood of
+    Greater Texas offers informed-consent hormone therapy in person and by telehealth. Care for anyone under 18 is banned statewide.
+  es: >-
+    En el condado Dallas, las peticiones de cambio de nombre se presentan ante el Secretario de Distrito en el edificio
+    de tribunales George L. Allen Sr. en el centro (tarifa de $350, se puede exentar), con las mismas huellas y
+    revisión de antecedentes de DPS que se exigen en todo el estado. Resource Center Health en Inwood Road ofrece
+    terapia hormonal para adultos, y Planned Parenthood of Greater Texas ofrece terapia hormonal por consentimiento informado en persona y por telesalud. La atención para
+    menores de 18 años está prohibida en todo el estado.
+court:
+  name: Dallas County District Clerk, Civil, Family and Juvenile Section
+  url: https://www.dallascounty.org/government/district-clerk/civil-section.php
+  filing_fee: 350
+  notes:
+    en: George L. Allen Sr. Courts Building, 600 Commerce Street, Suite 103, Dallas; 214-653-7307. The county's legal information page points to TexasLawHelp.org for forms and notes that clerk staff cannot give legal advice.
+    es: Edificio de tribunales George L. Allen Sr., 600 Commerce Street, Suite 103, Dallas; 214-653-7307. La página de información legal del condado remite a TexasLawHelp.org para formularios e indica que el personal no puede dar asesoría legal.
+  sources: [dallas-fees, dallas-civil, dallas-namechange]
+resources:
+  - id: legal-aid-nwtx
+    name: Legal Aid of NorthWest Texas
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services for low-income people in 114 North and West Texas counties, including Dallas. Apply online or call the Legal Aid Line, 888-529-5277.
+      es: Servicios legales civiles gratuitos para personas de bajos ingresos en 114 condados del norte y oeste de Texas, incluido Dallas. Solicita en línea o llama a la Línea de Ayuda Legal, 888-529-5277.
+    url: https://legalaidtx.org/
+    phone: "888-529-5277"
+    cost: free
+    verification: org_website
+    sources: [lanwt]
+  - id: dallas-lgbt-bar
+    name: Dallas LGBT Bar Association, name and gender marker clinics
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Volunteer lawyers and law students who occasionally hold free name change clinics. Check the website or contact the association for the next date.
+      es: Abogados voluntarios y estudiantes de derecho que ocasionalmente organizan clínicas gratuitas de cambio de nombre. Consulta el sitio web o contacta a la asociación para la próxima fecha.
+    url: https://dlgbtba.org/
+    cost: free
+    verification: community_reported
+    sources: [a4te-tx, dlgbtba]
+  - id: resource-center-health
+    name: Resource Center Health
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQIA+ clinic with hormone therapy (18+), medical assessments, referral letters, PrEP, HIV and STI testing and care, primary care, mental health counseling, and peer support groups.
+      es: Clínica LGBTQIA+ con terapia hormonal (18+), evaluaciones médicas, cartas de referencia, PrEP, pruebas y atención de VIH e ITS, atención primaria, consejería de salud mental y grupos de apoyo.
+    url: https://myresourcecenter.org/health/
+    address: 2603 Inwood Road, Dallas, TX 75235
+    cost: varies
+    verification: org_website
+    sources: [resource-center]
+  - id: resource-center
+    name: Resource Center (community center)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: North Texas LGBTQIA+ community center with support services, family and community groups, and senior housing. Administrative offices 5750 Cedar Springs Rd; 214-521-5124.
+      es: Centro comunitario LGBTQIA+ del norte de Texas con servicios de apoyo, grupos familiares y comunitarios y vivienda para personas mayores. Oficinas 5750 Cedar Springs Rd; 214-521-5124.
+    url: https://myresourcecenter.org/
+    phone: "214-521-5124"
+    address: 5750 Cedar Springs Road, Dallas, TX 75235
+    cost: free
+    verification: org_website
+    sources: [resource-center-home]
+  - id: ppgt
+    org: planned-parenthood
+    name: Planned Parenthood of Greater Texas
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy for patients 18 and up, in person or by telehealth, plus STI and HIV testing. Call 1-800-230-7526.
+      es: Terapia hormonal por consentimiento informado para pacientes de 18 años o más, en persona o por telesalud, además de pruebas de ITS y VIH. Llama al 1-800-230-7526.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-texas/patient-resources/gender-affirming-healthcare
+    phone: "1-800-230-7526"
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [ppgt-gac]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: dallas-fees
+    url: https://www.dallascounty.org/Assets/uploads/docs/district-clerk/fee-schedules/2024-CIVIL-FILING-FEES-WPD.pdf
+    title: District civil and family court filing fees (effective January 1, 2024)
+    publisher: Dallas County District Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change of Adult or Child: $350.00"
+  - id: dallas-civil
+    url: https://www.dallascounty.org/government/district-clerk/civil-section.php
+    title: Civil, Family and Juvenile Section
+    publisher: Dallas County District Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: George L. Allen, Sr. Courts Building, 600 Commerce Street, Suite 103, Dallas, TX 75202. Telephone (214) 653-7307.
+  - id: dallas-namechange
+    url: https://www.dallascounty.org/services/legal-info/legal_namechange.php
+    title: Legal name change procedures
+    publisher: Dallas County
+    kind: official
+    accessed: "2026-09-24"
+    quote: In order to legally change a person's name an order must be signed by a District Judge.
+  - id: lanwt
+    url: https://legalaidtx.org/
+    title: Legal Aid of NorthWest Texas
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-tx
+    url: https://transequality.org/documents/texas-identity-documents
+    title: Texas identity documents (last updated August 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: dlgbtba
+    url: https://dlgbtba.org/
+    title: Dallas LGBT Bar Association
+    kind: org
+    accessed: "2026-09-24"
+  - id: resource-center
+    url: https://myresourcecenter.org/health/
+    title: Resource Center Health
+    publisher: Resource Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: "New Location: 2603 Inwood Road @ Sadler Circle Dallas, TX 75235. HRT (18+)."
+  - id: resource-center-home
+    url: https://myresourcecenter.org/
+    title: Resource Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgt-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-texas/patient-resources/gender-affirming-healthcare
+    title: Gender affirming healthcare
+    publisher: Planned Parenthood of Greater Texas
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

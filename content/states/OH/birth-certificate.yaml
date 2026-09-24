@@ -1,0 +1,345 @@
+guide_type: birth_certificate
+jurisdiction: OH
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    ODH page (dated May 18, 2021, read 2026-09-24) still says ODH changes the sex marker with a probate court order to
+    comply with Ray v. McCloud, No. 2:18-cv-00272 (S.D. Ohio Dec. 16, 2020). Franklin County's forms page lists
+    PC-30.0 and PC-3.A (adult affidavit, male or female only, no medical letter), and its birth-correction page says it
+    accepts gender marker corrections for a $70 fee. Cuyahoga's e-filing guide (updated 9/29/25) requires a licensed
+    professional statement. Which counties grant corrections comes from TransOhio as reported by The Buckeye Flame
+    (Aug 2026). Open items: (1) whether ODH or any probate court has changed practice because of ORC 9.05 (effective
+    Sept 30, 2025); no change found; (2) whether X is available (Stonewall Columbus says yes; Franklin's affidavit
+    lists only male or female; MAP says no); (3) whether ODH issues a new certificate with the original sealed (A4TE
+    and Stonewall Columbus say yes; Cuyahoga's page says so for corrections generally). MAP's profile says Ohio
+    birth certificates cannot be updated; that conflicts with ODH's own page and Franklin County's forms, which are
+    used here.
+status: restricted
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Ohio, you can change the sex on your birth certificate only with a probate court order, and
+    whether you can get one depends on the county. Franklin, Cuyahoga, Hamilton, and several other counties grant
+    these orders; many others refuse. Since August 2026 this is also the only way to change the sex on an Ohio driver's
+    license.
+  es: >-
+    Si naciste en Ohio, solo puedes cambiar el sexo en tu acta de nacimiento con una orden del tribunal testamentario
+    (probate), y conseguirla depende del condado. Franklin, Cuyahoga, Hamilton y otros condados conceden estas órdenes;
+    muchos otros las niegan. Desde agosto de 2026 esta es también la única forma de cambiar el sexo en la licencia de
+    Ohio.
+summary:
+  en: |
+    Ohio refused to change sex markers on birth certificates from 2016 until a federal court struck down that policy in **Ray v. McCloud** (S.D. Ohio, December 2020). Since then the Ohio Department of Health (ODH) changes the sex marker when it receives a **probate court order** correcting the birth record under ORC 3705.15.
+
+    In November 2024 the Ohio Supreme Court split with no majority in *In re Adelaide*, which left in place a Clark County appellate ruling that the statute only allows fixing errors made at birth. Each probate court now decides for itself. According to TransOhio, probate courts in **Athens, Cuyahoga, Delaware, Franklin, Hamilton, Lorain, Lucas, Portage, and Summit** counties are the most likely to grant corrections.
+
+    You can file in the county where you were born, the county where you live now (if in Ohio), or the county where your mother lived when you were born, so you may be able to pick a county that grants these orders. Requirements differ: Franklin County asks for a sworn affidavit (form PC-3.A), while Cuyahoga County asks for a statement from a licensed professional.
+
+    A 2025 law, ORC 9.05, says Ohio recognizes two sexes that are "not changeable." As of September 2026 ODH's page still says it follows Ray v. McCloud, but check with a legal clinic before you file.
+  es: |
+    Ohio se negó a cambiar el marcador de sexo en las actas de nacimiento desde 2016 hasta que un tribunal federal anuló esa política en **Ray v. McCloud** (diciembre de 2020). Desde entonces el Departamento de Salud de Ohio (ODH) cambia el marcador cuando recibe una **orden del tribunal testamentario** que corrige el registro según ORC 3705.15.
+
+    En noviembre de 2024 la Corte Suprema de Ohio se dividió sin mayoría en *In re Adelaide*, dejando vigente un fallo que dice que la ley solo permite corregir errores hechos al nacer. Cada tribunal decide por su cuenta. Según TransOhio, los tribunales de **Athens, Cuyahoga, Delaware, Franklin, Hamilton, Lorain, Lucas, Portage y Summit** son los más propensos a conceder correcciones.
+
+    Puedes presentar en el condado donde naciste, donde vives ahora (si es en Ohio) o donde vivía tu madre cuando naciste, así que quizá puedas elegir un condado que conceda estas órdenes. Los requisitos varían: Franklin pide una declaración jurada (PC-3.A); Cuyahoga pide una declaración de un profesional con licencia.
+
+    Una ley de 2025, ORC 9.05, dice que Ohio reconoce dos sexos que "no son cambiables". A septiembre de 2026 la página de ODH aún dice que sigue Ray v. McCloud, pero consulta con una clínica legal antes de presentar.
+eligibility:
+  residency:
+    en: >-
+      You must have been born in Ohio. File in the probate court of your county of birth, your current county of
+      residence, or the county where your mother lived at your birth. If you were born in another state, that state's
+      rules apply.
+    es: >-
+      Debes haber nacido en Ohio. Presenta en el tribunal del condado donde naciste, donde vives o donde vivía tu madre
+      al nacer. Si naciste en otro estado, se aplican las reglas de ese estado.
+  age:
+    en: Adults file for themselves. For a minor, a parent or guardian files; courts may require both parents' consent or set a hearing.
+    es: Los adultos presentan por sí mismos. Para un menor presenta un padre, madre o tutor; los tribunales pueden exigir el consentimiento de ambos o fijar audiencia.
+  sources: [orc-3705-15, franklin-birth, cuyahoga-cob]
+forms:
+  - id: PC-30.0
+    name:
+      en: Application for Correction of Birth Record (Franklin County)
+      es: Solicitud de corrección de registro de nacimiento (Condado de Franklin)
+    url: https://probate.franklincountyohio.gov/files/assets/probatecourt/v/4/documents/forms/birth-records/application-for-correction-of-birth-record.pdf
+    required: always
+    condition:
+      en: Franklin County's version of statewide form 30.0. Other counties use form 30.0 or their own form (Cuyahoga uses CCPC_HEA 2783).
+      es: Versión de Franklin del formulario estatal 30.0. Otros condados usan el 30.0 o su propio formulario.
+    how_to_fill:
+      en: |
+        - Top box: copy your name, date and place of birth, sex, and parents' names exactly as they appear on your current birth record.
+        - Corrections section: list the sex field and the correct entry. This application cannot change your name; do that through a name change and send the order to ODH.
+        - Sign in front of a notary. Attach a certified copy of your Ohio birth record and a copy of your photo ID.
+    sources: [franklin-birth-forms, franklin-birth, sco-form-30]
+  - id: PC-3.A
+    name:
+      en: Affidavit to Correct Gender Marker in Birth Record for an Adult (Franklin County)
+      es: Declaración jurada para corregir el marcador de género en el registro de nacimiento de un adulto (Condado de Franklin)
+    url: https://probate.franklincountyohio.gov/files/assets/probatecourt/v/5/documents/forms/birth-records/affidavit-to-correct-gender-marker-in-birth-for-record-for-an-adult.pdf
+    required: conditional
+    condition:
+      en: Franklin County adults. Minors use PC-3.B, signed by a parent or guardian.
+      es: Adultos en Franklin. Los menores usan el PC-3.B, firmado por un padre, madre o tutor.
+    how_to_fill:
+      en: |
+        - Check how you qualify: born in Franklin County, living in Franklin County now, or your mother lived there at your birth.
+        - Check male or female. The form does not offer X.
+        - You certify that the request reflects your gender identity and is not for a fraudulent purpose. No doctor's letter is required on this form. Sign in front of a notary.
+    sources: [franklin-affidavit]
+  - id: "30.0"
+    name:
+      en: Application for Correction of Birth Record (statewide standard form)
+      es: Solicitud de corrección de registro de nacimiento (formulario estatal)
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/birthCertificate/30.0.pdf
+    required: conditional
+    condition:
+      en: For counties that do not have their own form. Ask the court what supporting documents it wants for a sex-marker correction.
+      es: Para condados sin formulario propio. Pregunta al tribunal qué documentos pide.
+    sources: [sco-form-30]
+steps:
+  - id: choose-court
+    title:
+      en: Choose the probate court
+      es: Elige el tribunal testamentario
+    body:
+      en: >-
+        You can file where you were born, where you live, or where your mother lived when you were born. If more than
+        one is possible, a legal clinic (Equality Ohio, TransOhio, Equitas Health) can tell you which courts are
+        currently granting corrections.
+      es: >-
+        Puedes presentar donde naciste, donde vives o donde vivía tu madre cuando naciste. Si hay más de una opción,
+        una clínica legal puede decirte qué tribunales están concediendo correcciones.
+    sources: [orc-3705-15, buckeye-flame-bmv]
+  - id: gather
+    title:
+      en: Gather your documents
+      es: Reúne tus documentos
+    body:
+      en: >-
+        Get a certified copy of your Ohio birth record ($21.50 from ODH or a local health department), a copy of your
+        photo ID, the court's application, and whatever the court wants as support: a notarized affidavit in Franklin
+        County, or a licensed professional's statement in Cuyahoga County.
+      es: >-
+        Consigue una copia certificada de tu registro de nacimiento de Ohio ($21.50), copia de tu identificación con
+        foto, la solicitud del tribunal y el respaldo que pida: una declaración jurada notarizada en Franklin o una
+        declaración de un profesional con licencia en Cuyahoga.
+    forms: [PC-30.0, PC-3.A, "30.0"]
+    fees: [certified-copy]
+    sources: [franklin-birth, cuyahoga-cob-guide, odh-order]
+  - id: file
+    title:
+      en: File with the probate court
+      es: Presenta ante el tribunal testamentario
+    body:
+      en: >-
+        Franklin and Cuyahoga counties take these filings by e-filing only. Franklin County charges $70. The court may
+        set a hearing at least seven days after filing and may order a newspaper notice; for minors, a hearing is set
+        if both parents do not sign consents.
+      es: >-
+        Franklin y Cuyahoga aceptan estas solicitudes solo por vía electrónica. Franklin cobra $70. El tribunal puede
+        fijar audiencia al menos siete días después y puede ordenar aviso en periódico.
+    fees: [court-fee]
+    sources: [franklin-birth, cuyahoga-cob, orc-3705-15]
+  - id: odh-update
+    title:
+      en: The court sends the order to ODH; then order your new certificate
+      es: El tribunal envía la orden a ODH; luego pide tu nueva acta
+    body:
+      en: >-
+        When the order is granted, the court sends it to the Ohio Department of Health, which records it and prepares
+        the corrected certificate, usually within 3 to 4 weeks. Then order certified copies from ODH or your local
+        vital statistics office.
+      es: >-
+        Cuando se concede la orden, el tribunal la envía al Departamento de Salud, que prepara el acta corregida,
+        normalmente en 3 a 4 semanas. Luego pide copias certificadas a ODH o a tu oficina local.
+    fees: [certified-copy]
+    estimated_time:
+      en: 3 to 6 weeks after the order
+      es: 3 a 6 semanas después de la orden
+    sources: [cuyahoga-cob, odh-correct, odh-order]
+fees:
+  - id: court-fee
+    label:
+      en: Probate court fee for a correction of birth record
+      es: Tarifa del tribunal para corrección de registro de nacimiento
+    amount: 70
+    varies_by: county
+    note:
+      en: Franklin County's fee, paid by card through e-filing. Other counties differ.
+      es: Tarifa de Franklin, pagada con tarjeta en la presentación electrónica. Otros condados varían.
+    sources: [franklin-birth]
+  - id: certified-copy
+    label:
+      en: Certified copy of an Ohio birth record
+      es: Copia certificada del registro de nacimiento de Ohio
+    amount: 21.5
+    waivable: false
+    sources: [odh-order]
+fee_waiver:
+  available: false
+  how:
+    en: >-
+      ODH does not waive birth certificate fees. Ask the probate court whether it accepts an affidavit of indigency for
+      the court fee. TransOhio's microgrants and emergency fund may help with costs.
+    es: >-
+      ODH no exime tarifas. Pregunta al tribunal si acepta una declaración de indigencia. Las microsubvenciones de
+      TransOhio pueden ayudar.
+  sources: [odh-order, transohio]
+delivery:
+  online: true
+  by_mail: false
+  in_person: false
+  detail:
+    en: Filed with a county probate court (e-filing only in Franklin and Cuyahoga). ODH receives the order from the court; certificates are ordered separately.
+    es: Se presenta ante un tribunal del condado (solo electrónicamente en Franklin y Cuyahoga). Las actas se piden aparte.
+  sources: [franklin-birth, cuyahoga-cob]
+timeline:
+  en: About 1 to 3 months for the court order, depending on the county, then 3 to 6 weeks for ODH.
+  es: Aproximadamente 1 a 3 meses para la orden, según el condado, y luego 3 a 6 semanas para ODH.
+after:
+  en: >-
+    Bring the new certificate to the BMV to change the sex on your license or ID. To change the **name** on your
+    birth record, send a certified copy of your name change order to ODH (Bureau of Vital Statistics, P.O. Box 15098,
+    Columbus, OH 43215); it adds a note to the record, which takes 4 to 6 weeks. Social Security and the US passport
+    currently do not change the sex field based on an amended birth certificate.
+  es: >-
+    Lleva la nueva acta al BMV para cambiar el sexo en tu licencia o identificación. Para cambiar el **nombre** en tu
+    registro, envía copia certificada de tu orden de cambio de nombre a ODH (Bureau of Vital Statistics, P.O. Box
+    15098, Columbus, OH 43215); agrega una nota al registro en 4 a 6 semanas. El Seguro Social y el pasaporte
+    actualmente no cambian el campo de sexo con base en un acta enmendada.
+tips:
+  - en: Order two or three certified copies once the correction is recorded; you will need one for the BMV and others later.
+    es: Pide dos o tres copias certificadas cuando se registre la corrección.
+  - en: If a probate court denies your application, talk to a legal clinic before appealing; appeals courts are split on this issue.
+    es: Si un tribunal niega tu solicitud, habla con una clínica legal antes de apelar.
+statutes:
+  - cite: Ohio Rev. Code § 3705.15
+    title:
+      en: Probate court correction of a birth record
+    url: https://codes.ohio.gov/ohio-revised-code/section-3705.15
+  - cite: Ohio Rev. Code § 9.05
+    title:
+      en: State policy that sexes are "not changeable" (effective September 30, 2025)
+    url: https://codes.ohio.gov/ohio-revised-code/section-9.05
+litigation:
+  - case: Ray v. McCloud, No. 2:18-cv-00272
+    court: US District Court for the Southern District of Ohio
+    summary:
+      en: The court held on December 16, 2020 that Ohio's refusal to let transgender people correct the sex marker on their birth certificates was unconstitutional.
+      es: El 16 de diciembre de 2020 el tribunal declaró inconstitucional la negativa de Ohio a corregir el marcador de sexo en actas de personas trans.
+    effect_today:
+      en: ODH says it changes sex markers when it receives a probate court order, to comply with this ruling.
+      es: ODH dice que cambia el marcador cuando recibe una orden del tribunal testamentario, para cumplir este fallo.
+    last_update: "2020-12-16"
+    url: https://lambdalegal.org/case/ray-v-mccloud/
+    sources: [lambda-ray, odh-correct]
+  - case: In re Application for Correction of Birth Record of Adelaide, 2024-Ohio-5393
+    court: Supreme Court of Ohio
+    summary:
+      en: On November 19, 2024 the court could not reach a majority, leaving in place a Second District ruling that ORC 3705.15 allows correcting only a sex marker recorded in error at birth.
+      es: El 19 de noviembre de 2024 la Corte no alcanzó mayoría y quedó vigente un fallo que dice que ORC 3705.15 solo permite corregir errores hechos al nacer.
+    effect_today:
+      en: There is no statewide rule. Some probate courts grant corrections; many deny them.
+      es: No hay regla estatal. Algunos tribunales conceden correcciones; muchos las niegan.
+    last_update: "2024-11-19"
+    url: https://www.courtnewsohio.gov/cases/2024/SCO/1119/220934.asp
+    sources: [adelaide]
+related_links:
+  - title: ACLU of Ohio, FAQ on correcting the gender marker on an Ohio birth certificate (Dec 2024)
+    url: https://www.acluohio.org/publications/faq-correcting-gender-marker-ohio-birth-certificate/
+  - title: Ohio Department of Health, Changing or Correcting a Birth Record
+    url: https://odh.ohio.gov/know-our-programs/vital-statistics/changing-correcting-birth-record
+sources:
+  - id: orc-3705-15
+    url: https://codes.ohio.gov/ohio-revised-code/section-3705.15
+    title: Ohio Revised Code § 3705.15, Registration or correction of birth record
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: odh-correct
+    url: https://odh.ohio.gov/know-our-programs/vital-statistics/changing-correcting-birth-record
+    title: Changing or Correcting a Birth Record
+    publisher: Ohio Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: In order to comply with the court decision in Ray v. McCloud, Case # 2:18-cv-00272, the Ohio Department of Health will make changes to the sex marker on a birth certificate with a probate court order.
+  - id: odh-order
+    url: https://odh.ohio.gov/know-our-programs/vital-statistics/how-to-order-certificates
+    title: How to Order Certificates
+    publisher: Ohio Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Certified Birth Record - $21.50
+  - id: franklin-birth
+    url: https://probate.franklincountyohio.gov/Departments/Birth-Correction-Delayed-Birth-Registration
+    title: Birth Correction / Delayed Birth Registration
+    publisher: Franklin County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: Adult applicants must also submit an Affidavit to Correct Gender Marker.
+  - id: franklin-birth-forms
+    url: https://probate.franklincountyohio.gov/Forms/Birth-Records-Forms
+    title: Birth Records Forms
+    publisher: Franklin County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+  - id: franklin-affidavit
+    url: https://probate.franklincountyohio.gov/files/assets/probatecourt/v/5/documents/forms/birth-records/affidavit-to-correct-gender-marker-in-birth-for-record-for-an-adult.pdf
+    title: Form PC-3.A, Affidavit to Correct Gender Marker in Birth Record for an Adult (Rev. 6-2021)
+    publisher: Franklin County Probate Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: I certify that this request to correct the gender marker in my birth record accurately reflects my gender identity and is not for any fraudulent or other unlawful purposes.
+  - id: sco-form-30
+    url: https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/superintendence/probate_forms/birthCertificate/30.0.pdf
+    title: Form 30.0, Application for Correction of Birth Record
+    publisher: Supreme Court of Ohio
+    kind: form
+    accessed: "2026-09-24"
+  - id: cuyahoga-cob
+    url: https://probate.cuyahogacounty.gov/COB.aspx
+    title: Correction of Birth Record
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: The Department of Health will record the order and prepare the new birth certificate, usually within 3-4 weeks. The incorrect birth certificate is then sealed.
+  - id: cuyahoga-cob-guide
+    url: https://probate.cuyahogacounty.gov/pdf/crob/guides/COBFilingGuide.pdf
+    title: New Case Guidelines, E-File Correction of Birth Record (updated 9/29/25)
+    publisher: Cuyahoga County Probate Court
+    kind: official
+    accessed: "2026-09-24"
+    quote: Licensed Professional Statement or similar supporting medical document from a licensed professional
+  - id: buckeye-flame-bmv
+    url: https://thebuckeyeflame.com/2026/08/19/ohio-bmv-creates-new-obstacle-to-change-sex-marker-on-licenses/
+    title: Ohio BMV abruptly creates new obstacle to change a sex marker on driver's licenses, IDs
+    publisher: The Buckeye Flame
+    kind: news
+    accessed: "2026-09-24"
+    quote: Athens, Cuyahoga, Delaware, Franklin, Hamilton, Lorain, Lucas, Portage, and Summit
+  - id: lambda-ray
+    url: https://lambdalegal.org/case/ray-v-mccloud/
+    title: Ray v. McCloud
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: adelaide
+    url: https://www.courtnewsohio.gov/cases/2024/SCO/1119/220934.asp
+    title: Court Unable to Rule on Transgender Woman's Request to Change Birth Certificate
+    publisher: Court News Ohio (Supreme Court of Ohio)
+    kind: court
+    accessed: "2026-09-24"
+  - id: transohio
+    url: https://www.transohio.org/
+    title: TransOhio
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"

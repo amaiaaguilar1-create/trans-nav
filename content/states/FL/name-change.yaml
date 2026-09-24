@@ -1,0 +1,502 @@
+guide_type: name_change
+jurisdiction: FL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from Fla. Stat. 68.07 and 57.082 (flsenate.gov), the 12.982(a) instructions and form (02/18
+    revision, flcourts PDF), the Miami-Dade Family Court Self-Help adult name change packet, the Orange County Clerk
+    family law page, and the Hillsborough (13th Circuit) Packet #42 (01/02/2025). Open items: (1) filing fee differs
+    by county ($401 Miami-Dade, $412.50 Orange); no single statewide figure was confirmed, so the fee has no amount.
+    (2) FDLE/FBI check cost ($24 state + $16.50 national = $40.50) comes from the Florida Name Change Project's Orange
+    County page and the Hillsborough packet ("approximately $40.50"), not from FDLE directly. (3) The minors' petition
+    form number (12.982(d) per memory) was not confirmed, so it is described but not listed as a form. (4) Florida
+    civil indigency under 57.082 generally defers fees into a payment plan; confirm how clerks apply this to name
+    changes. (5) Sealing: 68.07 has no confidentiality provision; the Rule 2.420 motion route is general law, not
+    confirmed for name changes specifically. A4TE's Florida page still points to a 2017 guide; its content on
+    fingerprinting and no publication agrees with the statute.
+status: restricted
+status_summary:
+  en: >-
+    Adults in Florida can change their name by petitioning the circuit court in the county where they live. There is
+    no newspaper publication, but you must pay for an FBI/FDLE fingerprint background check, attend a short hearing,
+    and the court file is public. Filing costs about $400 to $415 depending on the county.
+  es: >-
+    En Florida, los adultos pueden cambiar su nombre presentando una petición en el tribunal de circuito del condado
+    donde viven. No hay publicación en periódico, pero debes pagar una verificación de antecedentes con huellas del
+    FBI/FDLE, asistir a una audiencia breve, y el expediente es público. Presentar cuesta entre $400 y $415 según el
+    condado.
+summary:
+  en: |
+    Florida name changes are handled under section 68.07 of the Florida Statutes. You fill out a sworn petition (Florida Supreme Court Approved Family Law Form 12.982(a)), sign it in front of a notary or deputy clerk, and file it with the clerk of the circuit court in your county. The petition asks for a lot of personal history: every address since birth, jobs for the past five years, schooling, criminal history, bankruptcies, and money judgments. **You do not have to give a reason connected to your gender, and you do not have to mention being trans.**
+
+    Unless you are going back to a former name, you must get fingerprinted by an FDLE-approved provider for a state and national background check. The court will not set your hearing until the clerk has the results. A judge then hears the petition, usually in a few minutes, and signs a Final Judgment of Change of Name.
+
+    The name change is the one legal step that still works normally in Florida. Changing the **sex marker** on a Florida license or birth certificate is not currently possible; see those guides.
+  es: |
+    Los cambios de nombre en Florida se rigen por la sección 68.07 de los Estatutos de Florida. Llenas una petición jurada (Formulario de Derecho de Familia 12.982(a) aprobado por la Corte Suprema de Florida), la firmas ante un notario o secretario adjunto y la presentas ante el secretario del tribunal de circuito de tu condado. La petición pide mucha información personal: todas tus direcciones desde el nacimiento, empleos de los últimos cinco años, estudios, antecedentes penales, quiebras y sentencias de dinero. **No tienes que dar una razón relacionada con tu género ni mencionar que eres trans.**
+
+    Salvo que vuelvas a un nombre anterior, debes tomarte las huellas con un proveedor aprobado por FDLE para una verificación estatal y nacional. El tribunal no fija la audiencia hasta que el secretario recibe los resultados. Luego un juez escucha la petición, normalmente en pocos minutos, y firma una Sentencia Final de Cambio de Nombre.
+
+    El cambio de nombre es el único trámite legal que sigue funcionando normalmente en Florida. Cambiar el **marcador de sexo** en una licencia o acta de nacimiento de Florida no es posible actualmente; consulta esas guías.
+eligibility:
+  residency:
+    en: File in the circuit court of the Florida county where you live. Miami-Dade and other clerks require proof you live in the county.
+    es: Presenta la petición en el tribunal de circuito del condado de Florida donde vives.
+  age:
+    en: 18 or older for the adult petition. A parent or guardian files for a minor; see the Minors section.
+    es: 18 años o más para la petición de adultos. Para menores, la presenta un padre, madre o tutor.
+  criminal_history:
+    en: >-
+      You must list any arrests, charges, pleas, or convictions and whether you have ever had to register as a
+      sexual predator or offender. A record does not automatically bar a name change, but the judge will see it.
+      You must also state that your civil rights have never been suspended or have been restored.
+    es: >-
+      Debes indicar arrestos, cargos, declaraciones o condenas y si alguna vez tuviste que registrarte como
+      delincuente sexual. Un antecedente no impide automáticamente el cambio, pero el juez lo verá.
+  sources: [fs-68-07, form-982a]
+forms:
+  - id: "12.982(a)"
+    name:
+      en: Petition for Change of Name (Adult)
+      es: Petición de cambio de nombre (adulto)
+    url: https://flcourts-media.flcourts.gov/content/download/685995/file_pdf/982a.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Put your **current** legal name as the Petitioner in the heading and in item 1, and the new name you want in item 1. Double-check spelling; the judgment copies it exactly.
+        - Item 7 (former names): if you have been using your new name socially, you can list it under "known or called by the following other name(s)". This is optional context, not a requirement.
+        - Items 5 and 8 to 11 ask for every address since birth, five years of jobs, and schools. Attach extra pages if needed and check the "continued on an attached page" box.
+        - Item 15 confirms you have been fingerprinted. Get fingerprinted before or right after you file, so the hearing is not delayed.
+        - The form has no "reason" box. Item 16 is a sworn statement that you have no illegal or ulterior purpose. You do not need to explain gender identity.
+        - Sign only in front of a notary or deputy clerk. Many court self-help centers notarize for you.
+      es: |
+        - Escribe tu nombre legal **actual** como Peticionario y en el punto 1, junto con el nuevo nombre que quieres. Revisa la ortografía.
+        - Punto 7: si ya usas tu nuevo nombre socialmente, puedes indicarlo como otro nombre por el que te conocen. Es opcional.
+        - Los puntos 5 y 8 a 11 piden todas tus direcciones desde el nacimiento, cinco años de empleos y escuelas. Adjunta páginas si hace falta.
+        - El punto 15 confirma que te tomaron las huellas. Hazlo pronto para no retrasar la audiencia.
+        - El formulario no pide una razón. El punto 16 es una declaración de que no tienes un propósito ilegal. No necesitas explicar tu identidad de género.
+        - Firma solo ante un notario o secretario adjunto.
+    sources: [form-982a]
+  - id: "12.982(b)"
+    name:
+      en: Final Judgment of Change of Name (Adult)
+      es: Sentencia final de cambio de nombre (adulto)
+    url: https://www.flcourts.gov/Services/Family-Courts/domestic-relations-court-resources/family-law-forms/12.982-Forms-A-G/final-judgment-of-change-of-name-adult
+    required: always
+    condition:
+      en: Fill in only the heading (circuit, county, case number, names). The judge completes and signs it at the hearing. Ask your clerk whether to bring it or file it in advance.
+      es: Llena solo el encabezado. El juez lo completa y firma en la audiencia.
+    sources: [form-982a]
+  - id: DH 427
+    name:
+      en: Report of Legal Name Change (Department of Health)
+      es: Informe de cambio de nombre legal (Departamento de Salud)
+    url: https://www.floridahealth.gov/wp-content/uploads/2025/07/DH_427_Legal_Name_Change.pdf
+    required: conditional
+    condition:
+      en: If you were born in Florida. Many clerks include it in the packet; the clerk sends it to Vital Statistics after the judgment so your birth certificate name can be updated.
+      es: Si naciste en Florida. El secretario lo envía a Estadísticas Vitales después de la sentencia.
+    sources: [hills-packet, doh-amend]
+steps:
+  - id: forms
+    title:
+      en: Get the packet and fill out the petition
+      es: Consigue el paquete y llena la petición
+    body:
+      en: >-
+        Download Form 12.982(a) from the Florida Courts site or get your county's adult name change packet from the
+        clerk or court self-help program (packets usually add a civil cover sheet, Form 12.928, a notice of related
+        cases, and the DH 427). Fill everything in black ink or type it.
+      es: >-
+        Descarga el Formulario 12.982(a) del sitio de los Tribunales de Florida o pide el paquete de cambio de nombre
+        de adultos de tu condado. Llena todo con tinta negra o a máquina.
+    forms: ["12.982(a)", "12.982(b)", DH 427]
+    sources: [form-982a, hills-packet]
+  - id: notarize
+    title:
+      en: Sign the petition in front of a notary or deputy clerk
+      es: Firma la petición ante un notario o secretario adjunto
+    body:
+      en: >-
+        The petition is sworn. Court self-help centers review and notarize packets (Miami-Dade charges a $40 service
+        fee; Orange County sends you to Family Court Services, room 340, before 3:30 p.m.).
+      es: >-
+        La petición es jurada. Los centros de autoayuda del tribunal revisan y notarizan los paquetes (Miami-Dade cobra
+        $40; en Orange vas a Family Court Services, sala 340, antes de las 3:30 p.m.).
+    sources: [md-packet, orange-clerk]
+  - id: file
+    title:
+      en: File with the clerk and pay the filing fee
+      es: Presenta la petición ante el secretario y paga la tarifa
+    body:
+      en: >-
+        File the original with the clerk of the circuit court in your county, in person or through the Florida Courts
+        E-Filing Portal. Keep a full copy. If you cannot afford the fee, ask the clerk for the Application for
+        Determination of Civil Indigent Status.
+      es: >-
+        Presenta el original ante el secretario del tribunal de circuito de tu condado, en persona o por el Portal de
+        Presentación Electrónica. Guarda una copia. Si no puedes pagar, pide la Solicitud de Determinación de
+        Indigencia Civil.
+    fees: [filing]
+    sources: [md-packet, form-982a, fs-57-082]
+  - id: fingerprints
+    title:
+      en: Get fingerprinted for the FDLE and FBI background check
+      es: Tómate las huellas para la verificación del FDLE y el FBI
+    body:
+      en: |
+        Go to an FDLE-approved Livescan provider or a law enforcement agency. Give them your county clerk's **ORI number** so the results go to the right court (Miami-Dade is FL923940Z; Orange is FL923990Z). Bring a photo ID and keep the Transaction Control Number (TCN). If the provider does not collect the state and FBI fee, pay it online through FDLE's Civil Applicant Payment System (caps.fdle.state.fl.us) within 30 days or you will have to be printed again.
+      es: |
+        Ve a un proveedor Livescan aprobado por FDLE o a una agencia policial. Dales el **número ORI** del secretario de tu condado (Miami-Dade FL923940Z; Orange FL923990Z). Lleva identificación con foto y guarda el número de transacción (TCN). Si el proveedor no cobra la tarifa estatal y del FBI, págala en línea en el sistema CAPS de FDLE dentro de 30 días.
+    fees: [fingerprints]
+    estimated_time:
+      en: Results usually reach the clerk within a few weeks
+      es: Los resultados suelen llegar al secretario en unas semanas
+    sources: [fs-68-07, fnc-miami-prints, fnc-orange-prints, hills-packet]
+  - id: hearing
+    title:
+      en: Attend the final hearing
+      es: Asiste a la audiencia final
+    body:
+      en: >-
+        Once the background check is back, the court sets a short hearing, in person or by video depending on the
+        county. You will get the date by mail (about 4 to 8 weeks in Miami-Dade). Bring your photo ID. The judge may
+        ask a few questions about the petition, then signs the final judgment.
+      es: >-
+        Cuando llega la verificación, el tribunal fija una audiencia breve, en persona o por video según el condado.
+        Recibirás la fecha por correo (unas 4 a 8 semanas en Miami-Dade). Lleva tu identificación. El juez puede hacer
+        algunas preguntas y luego firma la sentencia.
+    sources: [form-982a, md-packet]
+  - id: copies
+    title:
+      en: Get certified copies of the final judgment
+      es: Obtén copias certificadas de la sentencia
+    body:
+      en: >-
+        Buy several certified copies right after the hearing. You will need one each for Social Security, the
+        driver's license office, your passport, and your bank, and some agencies keep them.
+      es: >-
+        Compra varias copias certificadas justo después de la audiencia. Necesitarás una para el Seguro Social, la
+        oficina de licencias, el pasaporte y el banco.
+    fees: [certified-copies]
+    sources: [md-packet]
+fees:
+  - id: filing
+    label:
+      en: Circuit court filing fee
+      es: Tarifa de presentación en el tribunal de circuito
+    varies_by: county
+    waivable: true
+    note:
+      en: $401 in Miami-Dade and $412.50 in Orange County as of September 2026. Check your county clerk's fee schedule.
+      es: $401 en Miami-Dade y $412.50 en el condado de Orange en septiembre de 2026. Consulta la lista de tarifas de tu condado.
+    sources: [md-packet, orange-clerk]
+  - id: fingerprints
+    label:
+      en: FDLE and FBI background check, plus fingerprinting vendor fee
+      es: Verificación de antecedentes del FDLE y FBI, más la tarifa del proveedor de huellas
+    min: 40.5
+    max: 90
+    varies_by: vendor
+    waivable: false
+    note:
+      en: The state ($24) and FBI ($16.50) fees total about $40.50. Private Livescan vendors in Miami-Dade charged $59 to $90 all-in; a police department may add a smaller service fee.
+      es: Las tarifas estatal ($24) y del FBI ($16.50) suman unos $40.50. Los proveedores privados en Miami-Dade cobraban de $59 a $90 en total.
+    sources: [fnc-orange-prints, fnc-miami-prints, hills-packet]
+  - id: certified-copies
+    label:
+      en: Certified copy of the final judgment
+      es: Copia certificada de la sentencia
+    varies_by: county
+    note:
+      en: In Miami-Dade, $1.00 for the certification plus $1.50 per page.
+      es: En Miami-Dade, $1.00 por la certificación más $1.50 por página.
+    sources: [md-packet]
+fee_waiver:
+  available: true
+  eligibility:
+    en: >-
+      You qualify as indigent if your income is at or below 200% of the federal poverty guidelines (Fla. Stat.
+      57.082), subject to an asset test. Clerks say people receiving SNAP, Medicaid, or Social Security Disability can
+      ask for the application. The background check fee is not waived.
+    es: >-
+      Calificas como indigente si tus ingresos son iguales o menores al 200% de las pautas federales de pobreza (Est.
+      de Fla. 57.082), con una prueba de bienes. La tarifa de verificación de antecedentes no se exime.
+  how:
+    en: >-
+      Ask the clerk for the Application for Determination of Civil Indigent Status and file it with your petition.
+      You swear to your income and assets. In Florida, an approved application usually lets you file without paying
+      up front, but the clerk may enroll you in a payment plan for the fees.
+    es: >-
+      Pide al secretario la Solicitud de Determinación de Indigencia Civil y preséntala con tu petición. Si se
+      aprueba, normalmente puedes presentar sin pagar por adelantado, pero el secretario puede inscribirte en un plan
+      de pagos.
+  sources: [fs-57-082, hills-packet]
+publication:
+  required: "no"
+  detail:
+    en: Florida does not require you to publish a notice of an adult name change in a newspaper. Section 68.07 has no publication requirement.
+    es: Florida no exige publicar un aviso del cambio de nombre de un adulto en un periódico.
+  sources: [fs-68-07]
+hearing:
+  required: "yes"
+  detail:
+    en: >-
+      A final hearing is required and cannot be set until the clerk receives your background check results. Hearings
+      are usually short and uncontested; some counties hold them by video.
+    es: >-
+      Se requiere una audiencia final, que no se fija hasta que el secretario recibe tu verificación de antecedentes.
+      Suelen ser breves.
+  sources: [form-982a, hills-packet]
+background_check:
+  required: "yes"
+  detail:
+    en: >-
+      Required by law for everyone except people restoring a former name: fingerprints submitted to FDLE for a state
+      and FBI national criminal history check, paid by the petitioner (or by the parent of a minor). The check also
+      shows whether you are registered as a sexual predator or offender.
+    es: >-
+      Obligatorio por ley para todos, salvo quien recupera un nombre anterior: huellas enviadas a FDLE para una
+      verificación estatal y nacional del FBI, pagada por el peticionario.
+  sources: [fs-68-07]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: >-
+      Name change files are public court records in Florida, and section 68.07 has no automatic sealing or safety
+      exception. Your petition lists your address and history. The clerk also reports the judgment to FDLE.
+    es: >-
+      Los expedientes de cambio de nombre son públicos en Florida y la sección 68.07 no prevé sellado automático ni
+      excepción por seguridad. El secretario también informa la sentencia al FDLE.
+  how:
+    en: >-
+      If you face a safety risk, talk to a lawyer about asking the judge to make parts of the file confidential under
+      the general court-records rule (Florida Rule of General Practice and Judicial Administration 2.420). This is
+      discretionary and not routinely granted.
+    es: >-
+      Si corres peligro, consulta a un abogado sobre pedir al juez que haga confidenciales partes del expediente
+      según la regla general 2.420. Es discrecional.
+  sources: [fs-68-07]
+minors:
+  summary:
+    en: >-
+      A parent or guardian files a petition for the minor in the county where the child lives, using the minor's
+      name change forms in the 12.982 series. If only one parent files, the other parent must be formally served
+      with the petition, and proof of service filed. The fingerprint check cost is paid by the parent or guardian.
+      Judges decide based on the child's best interests.
+    es: >-
+      Un padre, madre o tutor presenta la petición del menor en el condado donde vive, con los formularios para
+      menores de la serie 12.982. Si solo un padre la presenta, se debe notificar formalmente al otro. El costo de la
+      verificación de huellas lo paga el padre o tutor.
+  sources: [fs-68-07]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: >-
+      You can file in person at the clerk's office or electronically through the Florida Courts E-Filing Portal
+      (optional for self-represented people). Fingerprinting and signing before a notary must be done in person.
+    es: >-
+      Puedes presentar en persona o electrónicamente por el Portal de Presentación Electrónica. Las huellas y la firma
+      ante notario son en persona.
+  sources: [form-982a]
+timeline:
+  en: About 1 to 3 months from filing to judgment in most counties, depending on how fast the background check returns and hearing availability.
+  es: Entre 1 y 3 meses desde la presentación hasta la sentencia en la mayoría de los condados.
+after:
+  en: |
+    With certified copies of your judgment:
+    1. **Social Security** first (form SS-5, in person or by appointment). Florida's driver's license office requires SSA to have your new name before it will update the card.
+    2. **Florida driver's license or ID** at a service center, with a certified copy of the judgment.
+    3. **Passport** (renewal by mail with DS-82 if eligible, otherwise DS-11).
+    4. **Birth certificate**: if you were born in Florida, the clerk sends the DH 427 report to Vital Statistics; you then order an amended copy ($20). If born elsewhere, follow your birth state's rules.
+    5. Banks, employer, voter registration, insurance, and school records.
+  es: |
+    Con copias certificadas de tu sentencia:
+    1. **Seguro Social** primero (formulario SS-5). La oficina de licencias de Florida exige que el SSA tenga tu nuevo nombre antes de actualizar la tarjeta.
+    2. **Licencia o identificación de Florida** en un centro de servicio, con copia certificada de la sentencia.
+    3. **Pasaporte** (renovación por correo con DS-82 si calificas, si no DS-11).
+    4. **Acta de nacimiento**: si naciste en Florida, el secretario envía el informe DH 427 a Estadísticas Vitales; luego pides una copia enmendada ($20). Si naciste en otro estado, sigue sus reglas.
+    5. Bancos, empleo, registro de votante, seguro y escuela.
+tips:
+  - en: Start the fingerprint step early and write down your county clerk's ORI number; using the wrong ORI sends the results to the wrong place.
+    es: Empieza pronto con las huellas y anota el número ORI de tu condado; un ORI equivocado envía los resultados al lugar incorrecto.
+  - en: You do not need a doctor's letter or to say anything about your gender to change your name in Florida.
+    es: No necesitas carta médica ni decir nada sobre tu género para cambiar tu nombre en Florida.
+  - en: Order more certified copies than you think you need; they are cheap at the hearing and slower to get later.
+    es: Pide más copias certificadas de las que creas necesitar.
+local_help:
+  - id: southern-legal-counsel
+    name: Southern Legal Counsel, Trans Rights Initiative
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide nonprofit law firm for low-income Floridians with a dedicated trans rights practice, including help with document problems. Apply through its online intake.
+      es: Bufete sin fines de lucro para floridanos de bajos ingresos con una práctica dedicada a derechos trans.
+    url: https://www.southernlegal.org/
+    phone: "352-271-8890"
+    cost: free
+    verification: org_website
+    sources: [slc]
+  - id: transsocial
+    name: TransSOCIAL
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Miami-based trans-led organization offering name change and ID document help, peer support, and legal and mental health referrals.
+      es: Organización trans de Miami que ayuda con cambios de nombre y documentos, apoyo entre pares y referencias.
+    url: https://transsocial.org/
+    phone: "305-747-3156"
+    areas_served:
+      en: Florida (Miami area) and Georgia
+      es: Florida (área de Miami) y Georgia
+    cost: free
+    verification: org_website
+    sources: [transsocial]
+  - id: lgbt-center-orlando
+    name: The LGBT+ Center Orlando
+    type: name_change_clinic
+    pillars: [name_change, mental_health, sexual_health]
+    description:
+      en: Central Florida LGBTQ center that runs name change clinics as part of its transgender support services, plus legal and immigration help.
+      es: Centro LGBTQ de Florida Central con clínicas de cambio de nombre y ayuda legal y migratoria.
+    url: https://thecenterorlando.org/
+    address: 942 N Mills Ave, Orlando, FL 32803
+    cost: free
+    verification: org_website
+    sources: [center-orlando]
+  - id: miami-self-help
+    name: Eleventh Judicial Circuit Family Court Self-Help Program (Miami-Dade)
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court program that gives you the name change packet, has a paralegal review and notarize it, and helps set the final hearing. $40 service fee for name changes; it does not give legal advice.
+      es: Programa del tribunal que entrega el paquete, revisa y notariza los formularios y ayuda a fijar la audiencia. Tarifa de $40; no da asesoría legal.
+    url: https://www.jud11.flcourts.org/Family-Court-Self-Help-Program
+    phone: "305-349-7800"
+    address: 175 NW 1st Avenue, Room 2441, Miami, FL 33128
+    cost: low_cost
+    verification: official_source
+    sources: [md-selfhelp]
+  - id: fl-free-legal-answers
+    name: Florida Free Legal Answers
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Online service where low-income Floridians post civil legal questions and volunteer lawyers answer. Useful for questions about your petition or hearing.
+      es: Servicio en línea donde abogados voluntarios responden preguntas legales civiles de personas de bajos ingresos.
+    url: https://florida.freelegalanswers.org/
+    cost: free
+    verification: community_reported
+    sources: [hills-packet]
+statutes:
+  - cite: Fla. Stat. § 68.07
+    title:
+      en: Change of name (venue, petition contents, fingerprints, hearing, minors)
+      es: Cambio de nombre
+    url: https://www.flsenate.gov/Laws/Statutes/2025/68.07
+  - cite: Fla. Stat. § 57.082
+    title:
+      en: Determination of civil indigent status
+      es: Determinación de indigencia civil
+    url: https://www.flsenate.gov/Laws/Statutes/2025/57.082
+related_links:
+  - title: Florida Name Change Project
+    url: https://www.floridanamechange.org/
+    note:
+      en: Step-by-step guides by county, including fingerprinting ORI numbers and vendors, in English and Spanish.
+      es: Guías paso a paso por condado, en inglés y español.
+  - title: Advocates for Trans Equality, Florida identity documents
+    url: https://transequality.org/documents/florida-identity-documents
+    note:
+      en: Its detailed Florida guide dates from August 2017 and predates the 2024 license and birth certificate changes.
+      es: Su guía detallada de Florida es de agosto de 2017 y no refleja los cambios de 2024.
+sources:
+  - id: fs-68-07
+    url: https://www.flsenate.gov/Laws/Statutes/2025/68.07
+    title: Fla. Stat. § 68.07, Change of name
+    publisher: The Florida Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Before the court hearing on a petition for a name change, the petitioner must have fingerprints submitted for a state and national criminal history records check, except if a former name is being restored.
+  - id: fs-57-082
+    url: https://www.flsenate.gov/Laws/Statutes/2025/57.082
+    title: Fla. Stat. § 57.082, Determination of civil indigent status
+    publisher: The Florida Senate
+    kind: statute
+    accessed: "2026-09-24"
+    quote: An applicant is indigent if the applicant's income is equal to or below 200 percent of the then-current federal poverty guidelines
+  - id: form-982a
+    url: https://flcourts-media.flcourts.gov/content/download/685995/file_pdf/982a.pdf
+    title: Instructions and Form 12.982(a), Petition for Change of Name (Adult) (02/18)
+    publisher: Florida Supreme Court
+    kind: form
+    accessed: "2026-09-24"
+    quote: You may not request a hearing on the petition until the clerk of court has received the results of your criminal history records check.
+  - id: md-packet
+    url: https://www.jud11.flcourts.org/docs/Name%20change%20adult%20Online.pdf
+    title: Name Change Adult packet
+    publisher: Eleventh Judicial Circuit of Florida, Family Court Self-Help Program
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Filing Fee $401.00 ... Certified Copies $ 1.00 + $1.50 per page"
+  - id: md-selfhelp
+    url: https://www.jud11.flcourts.org/Family-Court-Self-Help-Program
+    title: Family Court Self-Help Program
+    publisher: Eleventh Judicial Circuit of Florida
+    kind: court
+    accessed: "2026-09-24"
+  - id: orange-clerk
+    url: https://www.myorangeclerk.com/Divisions/Family/Family-Law
+    title: Family Law (name change)
+    publisher: Orange County Clerk of Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "$412.50 for name changes"
+  - id: hills-packet
+    url: https://www.fljud13.org/Portals/0/Forms/pdfs/family/packet42.pdf
+    title: Packet #42, Adult Name Change (01/02/2025)
+    publisher: Thirteenth Judicial Circuit of Florida
+    kind: court
+    accessed: "2026-09-24"
+    quote: You will need to be fingerprinted for a background check (fee is approximately $40.50 per person).
+  - id: fnc-miami-prints
+    url: https://www.floridanamechange.org/miami-dade-get-fingerprints.html
+    title: Miami-Dade, Get Fingerprints
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+    quote: FL923940Z
+  - id: fnc-orange-prints
+    url: https://www.floridanamechange.org/orange-get-fingerprints.html
+    title: Orange, Get Fingerprints
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+    quote: "FL923990Z; State portion: $24.00; National portion: $16.50"
+  - id: doh-amend
+    url: https://www.floridahealth.gov/certificates-records/amendments-and-corrections/
+    title: Amendments and Corrections
+    publisher: Florida Department of Health, Bureau of Vital Statistics
+    kind: official
+    accessed: "2026-09-24"
+  - id: slc
+    url: https://www.southernlegal.org/
+    title: Southern Legal Counsel
+    kind: org
+    accessed: "2026-09-24"
+  - id: transsocial
+    url: https://transsocial.org/
+    title: TransSOCIAL
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-orlando
+    url: https://thecenterorlando.org/
+    title: The LGBT+ Center Orlando
+    kind: org
+    accessed: "2026-09-24"

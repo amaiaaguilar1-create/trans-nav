@@ -1,0 +1,182 @@
+guide_type: drivers_license
+jurisdiction: NY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Online gender change and MV-44 route confirmed on the DMV "Change information on DMV photo documents" page via
+    WebFetch 2026-09-24 (direct curl returns 403). That page gives $12.50 (license/permit) and $5.00 (non-driver ID)
+    for a by-mail name change; it does not state a fee for the gender change itself. The University at Buffalo guide
+    (March 2025) gives the same $12.50/$5 figures for updating a license or ID with a new name and/or gender marker.
+    Reviewer: confirm (1) the fee charged for the online sex-identifier transaction; (2) whether X is available on
+    REAL ID and Enhanced documents (not stated on the pages read); (3) whether the online tool now handles M/F
+    changes as well as X (the 2022 press release describes X; the current DMV page says "change the gender" online).
+    The DMV fee schedule page could not be located (404s on guessed URLs). No 2025-2026 NY law restricting marker
+    changes was found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    New York lets you choose M, F, or X on your driver's license, learner permit, or non-driver ID by self-attestation.
+    No doctor's letter or court order is needed, and you can make the change online or in person with form MV-44.
+  es: >-
+    Nueva York te permite elegir M, F o X en tu licencia de conducir, permiso de aprendiz o identificación de no
+    conductor por autodeclaración. No se necesita carta médica ni orden judicial, y puedes hacer el cambio en línea
+    o en persona con el formulario MV-44.
+summary:
+  en: |
+    Under the Gender Recognition Act, the DMV uses a self-attestation standard: you simply select your gender (M, F, or X). You do not need medical documentation, an amended birth certificate, or a court order. X has been available since 2022, and an online transaction lets people who already hold a New York license, permit, or ID change the marker without an office visit.
+
+    Changing your **name** requires proof of the legal name change, such as a certified court order, and you should update Social Security first. Standard documents can be updated by mail; REAL ID and Enhanced documents need an office visit and a new photo.
+  es: |
+    Con la Ley de Reconocimiento de Género, el DMV usa la autodeclaración: simplemente eliges tu género (M, F o X). No necesitas documentación médica, acta enmendada ni orden judicial. La X existe desde 2022, y un trámite en línea permite a quienes ya tienen licencia, permiso o identificación de Nueva York cambiar el marcador sin ir a una oficina.
+
+    Cambiar tu **nombre** requiere prueba del cambio legal, como una orden judicial certificada, y conviene actualizar primero el Seguro Social. Los documentos estándar se pueden actualizar por correo; REAL ID y los documentos mejorados requieren visita a una oficina y foto nueva.
+eligibility:
+  residency:
+    en: You must hold or be applying for a New York license, learner permit, or non-driver ID.
+    es: Debes tener o estar solicitando una licencia, permiso o identificación de Nueva York.
+  sources: [dmv-change-info]
+forms:
+  - id: MV-44
+    name:
+      en: Application for Permit, Driver License or Non-Driver ID Card
+      es: Solicitud de permiso, licencia de conducir o tarjeta de identificación de no conductor
+    url: https://dmv.ny.gov/forms/mv44.pdf
+    required: conditional
+    condition:
+      en: For in-person changes, first-time applicants choosing X, and name changes on REAL ID or Enhanced documents.
+      es: Para cambios en persona, primeras solicitudes con X, y cambios de nombre en REAL ID o documentos mejorados.
+    how_to_fill:
+      en: |
+        - Check M, F, or X in the gender field. No supporting documents are required for the gender choice.
+        - If your name is changing, write your new legal name and bring a certified copy of the court order.
+    sources: [dmv-change-info, ub-guide]
+  - id: MV-44NC
+    name:
+      en: Name change by mail (standard documents only)
+      es: Cambio de nombre por correo (solo documentos estándar)
+    url: https://dmv.ny.gov/driver-license/change-information-on-dmv-photo-documents
+    required: optional
+    condition:
+      en: Only for a standard (not REAL ID or Enhanced) document, after Social Security has your new name, with no other changes.
+      es: Solo para documentos estándar, después de que el Seguro Social tenga tu nuevo nombre y sin otros cambios.
+    sources: [dmv-change-info]
+steps:
+  - id: online
+    title:
+      en: Change the gender marker online
+      es: Cambia el marcador de género en línea
+    body:
+      en: If you already have a New York license, permit, or non-driver ID, use the DMV's online transaction, either with your personal information or through your MyDMV account (NY.gov login). Choose M, F, or X. The new card arrives by mail.
+      es: Si ya tienes licencia, permiso o identificación de Nueva York, usa el trámite en línea del DMV con tus datos personales o tu cuenta MyDMV. Elige M, F o X. La nueva tarjeta llega por correo.
+    applies_to: [online, gender_marker]
+    fees: [license-amend, id-amend]
+    sources: [dmv-change-info, gov-x-online]
+  - id: in-person
+    title:
+      en: Or go to a DMV office with form MV-44
+      es: O ve a una oficina del DMV con el formulario MV-44
+    body:
+      en: Fill out MV-44, check your gender, and bring your current card (or proofs of identity). If your name is also changing, bring a certified copy of your court order. You will take a new photo.
+      es: Llena el MV-44, marca tu género y lleva tu tarjeta actual (o pruebas de identidad). Si también cambias tu nombre, lleva copia certificada de la orden judicial. Te tomarán una foto nueva.
+    forms: [MV-44]
+    fees: [license-amend, id-amend]
+    applies_to: [in_person]
+    sources: [dmv-change-info, ub-guide]
+  - id: name-by-mail
+    title:
+      en: Change your name by mail (standard documents)
+      es: Cambia tu nombre por correo (documentos estándar)
+    body:
+      en: |
+        After Social Security has your new name, mail the name change form, a copy of your new Social Security card, a copy of your current card, proof of the name change, and $12.50 (license or permit) or $5.00 (non-driver ID) to the DMV Utica Processing Center, 207 Genesee Street, Utica, NY 13501. REAL ID and Enhanced holders must go in person.
+      es: |
+        Después de actualizar el Seguro Social, envía por correo el formulario, copia de tu nueva tarjeta de Seguro Social, copia de tu tarjeta actual, prueba del cambio de nombre y $12.50 (licencia o permiso) o $5.00 (identificación) al DMV Utica Processing Center, 207 Genesee Street, Utica, NY 13501.
+    forms: [MV-44NC]
+    fees: [license-amend, id-amend]
+    applies_to: [by_mail, name_change]
+    estimated_time:
+      en: about 2 weeks
+      es: unas 2 semanas
+    sources: [dmv-change-info]
+fees:
+  - id: license-amend
+    label:
+      en: Amended driver license or learner permit
+      es: Licencia o permiso enmendado
+    amount: 12.5
+    note:
+      en: Fee the DMV lists for a name change by mail; also cited for gender updates in a 2025 legal guide. Confirm at checkout.
+      es: Tarifa que el DMV indica para cambio de nombre por correo; confirma al pagar.
+    sources: [dmv-change-info, ub-guide]
+  - id: id-amend
+    label:
+      en: Amended non-driver ID card
+      es: Identificación de no conductor enmendada
+    amount: 5
+    sources: [dmv-change-info, ub-guide]
+fee_waiver:
+  available: false
+  how:
+    en: No fee waiver was found for amended DMV documents.
+    es: No se encontró exención para documentos enmendados del DMV.
+  sources: [dmv-change-info]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: Gender marker online or in person; name changes by mail for standard documents or in person for REAL ID and Enhanced.
+    es: Marcador de género en línea o en persona; cambio de nombre por correo (estándar) o en persona (REAL ID y mejorados).
+  sources: [dmv-change-info]
+timeline:
+  en: The new card arrives by mail in about 2 weeks.
+  es: La nueva tarjeta llega por correo en unas 2 semanas.
+after:
+  en: |
+    Update your voter registration at the same time (the DMV offers it), and your vehicle registration and title if you have one. Note that as of September 2026 the US passport and Social Security record cannot show X or a changed sex marker; your New York card is still valid ID.
+  es: |
+    Actualiza tu registro de votante al mismo tiempo, y el registro y título de tu vehículo si tienes uno. A septiembre de 2026, el pasaporte de EE. UU. y el registro del Seguro Social no pueden mostrar X ni un marcador cambiado; tu tarjeta de Nueva York sigue siendo identificación válida.
+tips:
+  - en: You do not need a court order, amended birth certificate, or doctor's letter to change your marker at the DMV.
+    es: No necesitas orden judicial, acta enmendada ni carta médica para cambiar tu marcador en el DMV.
+  - en: If you are denied, you can appeal to the DMV Appeals Board within 60 days (form AA-33A, $10 fee).
+    es: Si te lo niegan, puedes apelar ante la Junta de Apelaciones del DMV dentro de 60 días (formulario AA-33A, $10).
+statutes:
+  - cite: Gender Recognition Act, L. 2021 ch. 158 (amending Veh. & Traf. Law §§ 490, 502)
+    title:
+      en: M, F, or X on licenses and non-driver IDs by self-attestation
+    url: https://www.nysenate.gov/legislation/bills/2021/A5465
+related_links:
+  - title: Advocates for Trans Equality, New York identity documents
+    url: https://transequality.org/documents/new-york-identity-documents
+    note:
+      en: No last-updated date shown (checked 2026-09-24).
+      es: Sin fecha de actualización visible.
+sources:
+  - id: dmv-change-info
+    url: https://dmv.ny.gov/driver-license/change-information-on-dmv-photo-documents
+    title: Change information on DMV photo documents
+    publisher: New York State DMV
+    kind: official
+    accessed: "2026-09-24"
+    quote: You can change the gender on your license or ID card online using your personal information ... $12.50 (for license or permit) or $5.00 (non-driver ID)
+  - id: gov-x-online
+    url: https://www.governor.ny.gov/news/governor-hochul-announces-new-online-process-new-yorkers-choose-x-gender-marker-driver-license
+    title: Governor Hochul announces new online process for New Yorkers to choose an X gender marker (August 4, 2022)
+    publisher: Office of the Governor
+    kind: official
+    accessed: "2026-09-24"
+  - id: ub-guide
+    url: https://www.law.buffalo.edu/content/dam/law/content/clinics/access-to-justice/20250306%20-%20Name%20Change%20Guide%20-%20FINAL.pdf
+    title: Legal Guide to Changing Names and Gender Markers in Erie County, NY (March 2025)
+    publisher: University at Buffalo School of Law
+    kind: org
+    accessed: "2026-09-24"
+    quote: You will not be required to provide any supporting documentation to change your gender marker.

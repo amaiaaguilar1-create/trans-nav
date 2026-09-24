@@ -1,0 +1,187 @@
+guide_type: drivers_license
+jurisdiction: FL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The January 26, 2024 FLHSMV memo itself was not located on flhsmv.gov; its content is taken from Equality
+    Florida's FAQ, the Florida Name Change Project, and ACLU of Florida (read 2026-09-24), which agree. FLHSMV's own
+    pages say nothing about sex markers. Fees ($25 replacement license, $25 ID card) from flhsmv.gov/fees; the $6.25
+    tax collector service fee is mentioned there but not confirmed for every office. Reviewer: (1) confirm no 2025 or
+    2026 statute codified the ban (web search budget ran out before this could be checked); (2) confirm whether the
+    first-time-applicant route still works given that new US passports no longer show a changed sex marker; (3) the
+    January 2025 license revocation (James Rose) is from Truthout reporting, not an agency source. MAP classifies
+    Florida driver's license policy as a negative (restrictive) policy, consistent with this guide.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Since January 26, 2024, Florida's driver's license agency (FLHSMV) will not change the sex marker on an existing
+    Florida license, permit, or ID card, whatever documents you bring. Licenses already changed before that date can
+    be renewed with the same marker. You can still change your name on the card.
+  es: >-
+    Desde el 26 de enero de 2024, la agencia de licencias de Florida (FLHSMV) no cambia el marcador de sexo en una
+    licencia, permiso o identificación de Florida existente, sin importar los documentos que presentes. Las licencias
+    cambiadas antes de esa fecha pueden renovarse con el mismo marcador. Todavía puedes cambiar tu nombre en la tarjeta.
+summary:
+  en: |
+    Florida used to change the sex on a license with a doctor's letter. A FLHSMV memo dated **January 26, 2024** ended that: the agency now treats sex as sex assigned at birth and rejects requests to amend the marker on an existing credential. The memo warned that listing a sex other than birth sex could be treated as misrepresentation, and in January 2025 the agency revoked a trans person's license after they described getting a marker changed through a replacement request. **Do not try to get around the policy**; it can put your license at risk.
+
+    What still works:
+    - **Already changed before January 26, 2024?** You should be able to renew and keep your marker.
+    - **First Florida license or ID** (for example, a new resident): the sex is taken from your primary identity document (US passport or birth certificate). Advocates report that a primary document already showing your gender has been accepted, but out-of-state licenses do not count as primary documents.
+    - **Name changes** work as usual.
+
+    Florida does not offer an X marker.
+  es: |
+    Florida antes cambiaba el sexo en la licencia con una carta médica. Un memorando de FLHSMV del **26 de enero de 2024** terminó con eso: la agencia ahora considera el sexo asignado al nacer y rechaza cambiar el marcador en una credencial existente. El memorando advirtió que indicar un sexo distinto podía tratarse como declaración falsa, y en enero de 2025 la agencia revocó la licencia de una persona trans. **No intentes eludir la política**; puedes arriesgar tu licencia.
+
+    Lo que aún funciona:
+    - **¿Ya lo cambiaste antes del 26 de enero de 2024?** Deberías poder renovar y conservar tu marcador.
+    - **Primera licencia o identificación de Florida**: el sexo se toma de tu documento primario (pasaporte o acta de nacimiento). Las licencias de otros estados no cuentan como documento primario.
+    - **Los cambios de nombre** funcionan como siempre.
+
+    Florida no ofrece el marcador X.
+eligibility:
+  residency:
+    en: Florida residents holding or applying for a Florida license or ID card.
+    es: Residentes de Florida con licencia o identificación de Florida o que la solicitan.
+  other:
+    en: Sex marker changes on existing credentials are not accepted. Name changes require that Social Security already has your new name.
+    es: No se aceptan cambios de marcador de sexo en credenciales existentes. Para cambiar el nombre, el Seguro Social ya debe tener tu nuevo nombre.
+  sources: [eqfl-dhsmv-faq, flhsmv-renew, aclu-fl, truthout-revocation]
+steps:
+  - id: ssa-first
+    title:
+      en: Update your name with Social Security first
+      es: Actualiza tu nombre en el Seguro Social primero
+    body:
+      en: FLHSMV requires your name to be updated with the Social Security Administration before it will change the name on your card. Bring the SSA receipt or wait a couple of days for records to update.
+      es: FLHSMV exige que tu nombre esté actualizado en el Seguro Social antes de cambiarlo en tu tarjeta.
+    applies_to: [name_change]
+    sources: [flhsmv-renew]
+  - id: visit-office
+    title:
+      en: Visit a driver license service center in person
+      es: Visita un centro de servicio de licencias en persona
+    body:
+      en: >-
+        Name changes cannot be done online. Bring your current card, an original or certified copy of your court
+        order (or marriage certificate) showing the name change, and, if the final document does not show both your
+        birth name and current name, every document linking them. You will take a new photo and pay the replacement
+        fee.
+      es: >-
+        Los cambios de nombre no se hacen en línea. Lleva tu tarjeta actual, el original o copia certificada de tu
+        orden judicial y, si no muestra tu nombre de nacimiento y el actual, todos los documentos que los vinculen.
+        Te tomarán una foto nueva y pagarás la tarifa de reemplazo.
+    fees: [dl-replace, id-card]
+    applies_to: [name_change, in_person]
+    sources: [flhsmv-renew, flhsmv-bring, flhsmv-fees]
+  - id: renew-existing
+    title:
+      en: If your marker was already changed, renew as usual
+      es: Si tu marcador ya se cambió, renueva normalmente
+    body:
+      en: If your license was amended before January 26, 2024, renew normally. If an office tries to revert your marker, ask for a supervisor and contact Southern Legal Counsel.
+      es: Si tu licencia se enmendó antes del 26 de enero de 2024, renueva normalmente. Si una oficina intenta revertir tu marcador, pide un supervisor y contacta a Southern Legal Counsel.
+    applies_to: [gender_marker]
+    sources: [eqfl-dhsmv-faq, fnc-dl]
+fees:
+  - id: dl-replace
+    label:
+      en: Replacement driver's license (including name change)
+      es: Licencia de reemplazo (incluye cambio de nombre)
+    amount: 25
+    note:
+      en: Tax collector offices may add a $6.25 service fee.
+      es: Las oficinas del recaudador de impuestos pueden añadir $6.25.
+    sources: [flhsmv-fees]
+  - id: id-card
+    label:
+      en: ID card (original, renewal, or replacement)
+      es: Tarjeta de identificación (original, renovación o reemplazo)
+    amount: 25
+    sources: [flhsmv-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: The fee page lists no low-income waiver; replacement licenses are free only for veterans adding the Veteran designation.
+    es: La página de tarifas no incluye exención por bajos ingresos.
+  sources: [flhsmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes require an in-person visit to a driver license service center or tax collector office.
+    es: Los cambios de nombre requieren visitar en persona un centro de servicio o una oficina del recaudador.
+  sources: [flhsmv-renew]
+timeline:
+  en: One office visit for a name change.
+  es: Una visita a la oficina para el cambio de nombre.
+after:
+  en: |
+    Your Florida card will keep the sex marker it has now. For a US passport, the federal government currently issues passports only with sex assigned at birth, so there is no federal workaround at the moment. Keep your court order with you when your name and appearance do not match an old record. If you move to another state, you can apply for that state's license under its rules.
+  es: |
+    Tu tarjeta de Florida conservará el marcador de sexo que tiene. El gobierno federal actualmente emite pasaportes solo con el sexo asignado al nacer. Si te mudas a otro estado, puedes solicitar la licencia de ese estado según sus reglas.
+tips:
+  - en: Do not report a card lost to get a new marker; FLHSMV has treated this as misrepresentation and revoked a license.
+    es: No reportes una tarjeta como perdida para obtener otro marcador; FLHSMV lo ha tratado como declaración falsa.
+  - en: If an office refuses to renew a previously amended marker, contact Southern Legal Counsel (352-271-8890).
+    es: Si una oficina se niega a renovar un marcador ya enmendado, contacta a Southern Legal Counsel (352-271-8890).
+related_links:
+  - title: Equality Florida, FAQ on the DHSMV memo
+    url: https://eqfl.org/resource/faq-dhsmv-memo/
+  - title: Florida Name Change Project, Driver License Gender
+    url: https://www.floridanamechange.org/step-3---driver-license-gender.html
+sources:
+  - id: eqfl-dhsmv-faq
+    url: https://eqfl.org/resource/faq-dhsmv-memo/
+    title: FAQ on DHSMV Memo
+    publisher: Equality Florida
+    kind: org
+    accessed: "2026-09-24"
+    quote: those with updated gender markers should be able to retain their affirming gender markers upon renewal
+  - id: fnc-dl
+    url: https://www.floridanamechange.org/step-3---driver-license-gender.html
+    title: Step 3, Driver License Gender
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+    quote: The Florida Department of Highway Safety and Motor Vehicles recently changed its policy to prohibit gender marker amendments
+  - id: aclu-fl
+    url: https://www.aclufl.org/flhsmv-gender-marker-changes-ids-and-licenses/
+    title: FLHSMV Gender Marker Changes on IDs and Licenses
+    publisher: ACLU of Florida
+    kind: org
+    accessed: "2026-09-24"
+  - id: truthout-revocation
+    url: https://truthout.org/articles/desantis-admin-revokes-trans-persons-license-over-gender-marker-change/
+    title: DeSantis Admin Revokes Trans Person's License Over Gender Marker Change
+    publisher: Truthout
+    kind: news
+    accessed: "2026-09-24"
+  - id: flhsmv-renew
+    url: https://www.flhsmv.gov/driver-licenses-id-cards/renew-or-replace-your-florida-driver-license-or-id-card/
+    title: Renew or Replace Your Florida Driver License or ID Card
+    publisher: Florida Department of Highway Safety and Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: Florida driver license or ID card holders must update their name with the Social Security Administration prior to updating their name on the credential
+  - id: flhsmv-bring
+    url: https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/
+    title: What to Bring
+    publisher: Florida Department of Highway Safety and Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+  - id: flhsmv-fees
+    url: https://www.flhsmv.gov/fees/
+    title: Fees
+    publisher: Florida Department of Highway Safety and Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Replacement License: $25.00; Identification Cards (Original, Renewal & Replacement): $25.00"

@@ -1,0 +1,141 @@
+code: TX
+name:
+  en: Texas
+  es: Texas
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings drawn from primary sources read 2026-09-24 (HB 229 and SB 14 enrolled texts and bill histories,
+    AG Opinion KP-0489, DSHS VS-170 form) and cross-checked against MAP's Texas profile (negative laws on driver's
+    license and birth certificate markers, Medicaid exclusion, no shield law). TENT's website (transtexas.org)
+    returned a bot-check page and could not be read directly; its description comes from A4TE's Texas page.
+overview:
+  en: >-
+    Texas is one of the most restrictive states for trans people's documents and care. Adults can still change their
+    **name** in district court (fingerprints and a criminal background check are required), but since August 2024 the
+    Department of Public Safety and Vital Statistics refuse to change the **sex marker** on driver's licenses, ID cards,
+    and birth certificates, and a 2025 law (HB 229) defines sex in state law as male or female at birth. Hormone therapy
+    and other care remain legal for adults, but gender-affirming medications and surgery are banned for anyone under 18
+    (SB 14, upheld by the Texas Supreme Court in 2024), Medicaid excludes transition care, and there is no shield law.
+  es: >-
+    Texas es uno de los estados más restrictivos para los documentos y la atención de las personas trans. Los adultos
+    todavía pueden cambiar su **nombre** en un tribunal de distrito (se requieren huellas digitales y una revisión de
+    antecedentes penales), pero desde agosto de 2024 el Departamento de Seguridad Pública y Estadísticas Vitales se
+    niegan a cambiar el **marcador de sexo** en licencias de conducir, tarjetas de identificación y actas de nacimiento,
+    y una ley de 2025 (HB 229) define el sexo en la ley estatal como masculino o femenino al nacer. La terapia hormonal
+    y otra atención siguen siendo legales para adultos, pero los medicamentos y cirugías de afirmación de género están
+    prohibidos para menores de 18 años (SB 14, confirmada por la Corte Suprema de Texas en 2024), Medicaid excluye la
+    atención de transición y no hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [hb229, kp-0489, sb14, map-tx]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [houston, dallas]
+key_resources:
+  - id: lone-star-legal-aid
+    name: Lone Star Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income people in Houston and much of East and Southeast Texas. Main office 1415 Fannin St, Houston; 713-652-0077 or toll-free 800-733-8394.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos en Houston y gran parte del este y sureste de Texas. Oficina principal 1415 Fannin St, Houston; 713-652-0077 o gratis 800-733-8394.
+    url: https://www.lonestarlegal.org/
+    phone: "713-652-0077"
+    address: 1415 Fannin Street, Houston, TX 77002
+    cost: free
+    verification: org_website
+    sources: [lsla]
+  - id: legal-aid-nwtx
+    name: Legal Aid of NorthWest Texas
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services for low-income people in 114 North and West Texas counties, including Dallas and Tarrant. Legal Aid Line 888-529-5277.
+      es: Servicios legales civiles gratuitos para personas de bajos ingresos en 114 condados del norte y oeste de Texas, incluidos Dallas y Tarrant. Línea de Ayuda Legal 888-529-5277.
+    url: https://legalaidtx.org/
+    phone: "888-529-5277"
+    cost: free
+    verification: org_website
+    sources: [lanwt]
+  - id: lambda-legal-help-desk
+    name: Lambda Legal Help Desk
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: National LGBTQ+ legal organization. Its online Help Desk gives legal information and referrals about LGBTQ+ rights (it cannot give legal advice).
+      es: Organización legal LGBTQ+ nacional. Su Help Desk en línea da información legal y referencias sobre derechos LGBTQ+ (no puede dar asesoría legal).
+    url: https://lambdalegal.org/helpdesk/
+    cost: free
+    verification: org_website
+    sources: [lambda]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860. Also runs microgrants for ID document fees when funding allows.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. También otorga microsubvenciones para tarifas de documentos cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: hb229
+    url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB229
+    title: HB 229 (89th Legislature), general definitions for and collection of governmental information regarding biological sex
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Signed by the Governor 06/20/2025. Effective on 9/1/25.
+  - id: kp-0489
+    url: https://www.texasattorneygeneral.gov/sites/default/files/opinion-files/opinion/2025/kp-0489.pdf
+    title: Opinion No. KP-0489, validity of district court orders directing state agencies to amend a person's sex on state identification documents
+    publisher: Office of the Attorney General of Texas
+    kind: official
+    accessed: "2026-09-24"
+    quote: State agencies must immediately correct any unlawfully altered driver's licenses or birth certificates that were changed pursuant to such orders.
+  - id: sb14
+    url: https://capitol.texas.gov/tlodocs/88R/billtext/html/SB00014F.htm
+    title: SB 14 (88th Legislature), enrolled text
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+    quote: This Act takes effect September 1, 2023.
+  - id: map-tx
+    url: https://www.mapresearch.org/equality-maps/profile_state/TX
+    title: Texas state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: lsla
+    url: https://www.lonestarlegal.org/
+    title: Lone Star Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: lanwt
+    url: https://legalaidtx.org/
+    title: Legal Aid of NorthWest Texas
+    kind: org
+    accessed: "2026-09-24"
+    quote: Providing free civil legal services to low-income individuals and families in the 114 counties we serve across North and West Texas.
+  - id: lambda
+    url: https://lambdalegal.org/helpdesk/
+    title: Legal Help Desk
+    publisher: Lambda Legal
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

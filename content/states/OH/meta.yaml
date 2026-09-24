@@ -1,0 +1,172 @@
+code: OH
+name:
+  en: Ohio
+  es: Ohio
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate set to restrictive for both documents and care. ID documents: since August 2026 the BMV no longer accepts
+    Form 2369 and requires an amended birth certificate (news reports quoting the BMV; the BMV site has no page on the
+    change), and Ohio birth certificate sex-marker corrections depend on the county probate court after the Ohio
+    Supreme Court's 2024 split decision in In re Adelaide. Name changes remain available. Care: HB 68 (ORC Chapter 3129)
+    bans hormones, puberty blockers, and surgery for minors and is in effect while the Ohio Supreme Court hears Moe v.
+    Yost. Reviewer: check whether the Ohio Supreme Court has ruled in Moe v. Yost (the ACLU page describes the case as
+    pending but gives no 2026 dates). Ohio state agency sites (medicaid.ohio.gov, insurance.ohio.gov, benefits.ohio.gov)
+    returned errors to automated fetching on 2026-09-24.
+overview:
+  en: >-
+    Ohio is a restrictive state for trans people, though a legal name change is still widely available through county
+    probate courts. Since August 2026 the BMV changes the sex on a driver's license or ID only if you show an amended
+    birth certificate. Birth certificate corrections need a probate court order, and only some counties grant them.
+    A 2025 law (ORC 9.05) declares that the state recognizes only two unchangeable sexes. Ohio's HB 68 bans hormones and
+    surgery for people under 18 while a court challenge continues. Adults can still get hormone therapy, but Medicaid
+    excludes surgery.
+  es: >-
+    Ohio es un estado restrictivo para las personas trans, aunque el cambio legal de nombre sigue disponible en los
+    tribunales testamentarios (probate) de los condados. Desde agosto de 2026 el BMV cambia el sexo en la licencia o
+    identificación solo si presentas un acta de nacimiento enmendada. Las correcciones del acta requieren una orden
+    judicial y solo algunos condados las conceden. Una ley de 2025 (ORC 9.05) declara que el estado reconoce solo dos
+    sexos inmutables. La ley HB 68 prohíbe hormonas y cirugía para menores de 18 años mientras sigue una demanda. Los
+    adultos aún pueden recibir terapia hormonal, pero Medicaid excluye la cirugía.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [orc-9-05, buckeye-flame-bmv, orc-3129-02, map-profile]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [columbus, cleveland]
+key_resources:
+  - id: equality-ohio-legal-clinic
+    name: Equality Ohio Legal Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Statewide LGBTQ+ legal clinic based in Columbus. Free representation for name changes and help with gender
+        marker issues for people with income at or below 300% of the federal poverty level. Call 855-LGBT-LAW or apply
+        online.
+      es: >-
+        Clínica legal LGBTQ+ estatal con sede en Columbus. Representación gratuita para cambios de nombre y ayuda con
+        marcadores de género para personas con ingresos hasta el 300% del nivel federal de pobreza. Llama al 855-LGBT-LAW
+        o solicita en línea.
+    url: https://equalityohio.org/legal-clinic/
+    phone: "855-542-8529"
+    cost: free
+    verification: org_website
+    sources: [equality-ohio-clinic]
+  - id: transohio
+    name: TransOhio
+    type: advocacy_org
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: >-
+        Trans-led statewide nonprofit. Runs the free virtual Ohio Name Change Legal Clinic (second Wednesday of each
+        month), name change microgrants for court fees, an emergency fund for trans people who need to relocate or
+        reach care, and support groups.
+      es: >-
+        Organización estatal dirigida por personas trans. Ofrece la clínica legal virtual gratuita de cambio de nombre
+        (segundo miércoles de cada mes), microsubvenciones para tarifas judiciales, un fondo de emergencia para personas
+        trans que necesitan mudarse o acceder a atención, y grupos de apoyo.
+    url: https://www.transohio.org/
+    cost: free
+    verification: org_website
+    sources: [transohio, transohio-clinic]
+  - id: equitas-health
+    name: Equitas Health
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health, name_change]
+    description:
+      en: >-
+        LGBTQ+ community health system with centers in Columbus, Cincinnati, Dayton, Akron, and other Ohio cities.
+        Informed-consent hormone therapy (no therapist letter needed), telehealth, PrEP, pharmacy, counseling, and a
+        sliding fee scale. Its website links to legal clinics and a do-it-yourself name and gender marker guide.
+      es: >-
+        Sistema de salud comunitario LGBTQ+ con centros en Columbus, Cincinnati, Dayton, Akron y otras ciudades de Ohio.
+        Terapia hormonal por consentimiento informado (sin carta de terapeuta), telesalud, PrEP, farmacia, consejería y
+        escala móvil de tarifas.
+    url: https://equitashealth.com/our-services/gender-affirming-care/
+    phone: "833-378-4827"
+    cost: sliding_scale
+    telehealth: true
+    verification: org_website
+    sources: [equitas-gac]
+  - id: aclu-ohio-guide
+    name: ACLU of Ohio, Gender and Name Change and ID Documents guide
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: >-
+        Know-your-rights guide to Ohio name changes and ID documents. Parts of it were written before the August 2026
+        BMV change, so check the dates before relying on it.
+      es: >-
+        Guía de derechos sobre cambios de nombre y documentos de identidad en Ohio. Partes de ella se escribieron antes
+        del cambio del BMV de agosto de 2026; revisa las fechas.
+    url: https://www.acluohio.org/transgender-spotlight/gender-and-name-change-id-documents/
+    cost: free
+    verification: org_website
+    sources: [aclu-ohio-guide]
+sources:
+  - id: orc-9-05
+    url: https://codes.ohio.gov/ohio-revised-code/section-9.05
+    title: Ohio Revised Code § 9.05, Sex recognition policy
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+    quote: It is the policy of the state of Ohio to recognize two sexes, male and female. These sexes are not changeable and are grounded in fundamental and incontrovertible reality.
+  - id: buckeye-flame-bmv
+    url: https://thebuckeyeflame.com/2026/08/19/ohio-bmv-creates-new-obstacle-to-change-sex-marker-on-licenses/
+    title: Ohio BMV abruptly creates new obstacle to change a sex marker on driver's licenses, IDs
+    publisher: The Buckeye Flame
+    kind: news
+    accessed: "2026-09-24"
+    quote: The Ohio Bureau of Motor Vehicles now requires an amended birth certificate from the Ohio Department of Health to change sex markers on driver's licenses and ID cards.
+  - id: orc-3129-02
+    url: https://codes.ohio.gov/ohio-revised-code/section-3129.02
+    title: Ohio Revised Code § 3129.02, Physician prohibitions (HB 68)
+    publisher: Ohio Legislative Service Commission
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-profile
+    url: https://www.mapresearch.org/equality-maps/profile_state/OH
+    title: Ohio state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: equality-ohio-clinic
+    url: https://equalityohio.org/legal-clinic/
+    title: Legal Clinic
+    publisher: Equality Ohio
+    kind: org
+    accessed: "2026-09-24"
+    quote: Income must fall within 300% of the federal poverty level to receive representation. Phone 855-LGBT-LAW or (614) 224-0400.
+  - id: transohio
+    url: https://www.transohio.org/
+    title: TransOhio
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+    quote: Emergency Fund ... assist trans community members and families needing to relocate to safer, more affirming environments or access care.
+  - id: transohio-clinic
+    url: https://www.transohio.org/legalclinic
+    title: Ohio Name Change Legal Clinic
+    publisher: TransOhio
+    kind: org
+    accessed: "2026-09-24"
+  - id: equitas-gac
+    url: https://equitashealth.com/our-services/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Equitas Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: You do not need an okay from a psychiatrist or therapist to start gender-affirming hormone therapy.
+  - id: aclu-ohio-guide
+    url: https://www.acluohio.org/transgender-spotlight/gender-and-name-change-id-documents/
+    title: Gender and Name Change & ID Documents
+    publisher: ACLU of Ohio
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,124 @@
+jurisdiction: FL
+slug: orlando
+name: Orlando
+area:
+  en: Orange County and nearby Seminole, Osceola, and Lake counties
+  es: Condado de Orange y condados cercanos de Seminole, Osceola y Lake
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Short list. Court details from the Orange County Clerk family law page (read 2026-09-24); orgs from their own
+    sites the same day. Hope & Help's street address was not shown (contact page says Winter Park); confirm. Planned
+    Parenthood of Florida's Orlando hormone services not confirmed.
+intro:
+  en: >-
+    Central Florida has an LGBTQ center that runs name change clinics, a clinic that offers gender-affirming hormone
+    therapy on a sliding scale, and a drop-in center for LGBTQ youth. Name change petitions are filed with the Orange
+    County Clerk of Courts at the downtown Orlando courthouse.
+  es: >-
+    Florida Central tiene un centro LGBTQ con clínicas de cambio de nombre, una clínica con terapia hormonal de
+    afirmación de género en escala móvil y un centro para jóvenes LGBTQ. Las peticiones de cambio de nombre se
+    presentan ante el secretario del condado de Orange en el tribunal del centro de Orlando.
+court:
+  name: Circuit Court of the Ninth Judicial Circuit (Orange County), Family Division
+  url: https://www.myorangeclerk.com/Divisions/Family/Family-Law
+  self_help_url: https://www.myorangeclerk.com/Divisions/Self-Help-Center/Self-Help-Center
+  filing_fee: 412.5
+  notes:
+    en: >-
+      File at 425 N. Orange Ave., Suite 320, Orlando. Go first to Family Court Services, room 340, before 3:30 p.m. to
+      have your pleadings reviewed and notarized. The Clerk's Self Help Center offers attorney consultations and form
+      help. Fingerprint ORI number for Orange County is FL923990Z.
+    es: >-
+      Presenta en 425 N. Orange Ave., Suite 320, Orlando. Primero ve a Family Court Services, sala 340, antes de las
+      3:30 p.m. para revisar y notarizar. El número ORI para huellas es FL923990Z.
+  sources: [orange-clerk, fnc-orange-prints]
+resources:
+  - id: lgbt-center-orlando
+    name: The LGBT+ Center Orlando
+    type: lgbtq_center
+    pillars: [name_change, sexual_health, mental_health]
+    description:
+      en: LGBTQ center with name change clinics, HIV/STI testing and PrEP, counseling, support groups, legal and immigration help, and a food pantry.
+      es: Centro LGBTQ con clínicas de cambio de nombre, pruebas de VIH/ITS y PrEP, consejería, grupos de apoyo, ayuda legal y despensa de alimentos.
+    url: https://thecenterorlando.org/
+    address: 942 N Mills Ave, Orlando, FL 32803
+    cost: free
+    verification: org_website
+    sources: [center-orlando]
+  - id: hope-and-help
+    name: Hope & Help
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Clinic offering gender-affirming hormone therapy and trans care, PrEP and PEP, free walk-in HIV testing, behavioral health, and a discount pharmacy. Sliding scale and insurance.
+      es: Clínica con terapia hormonal de afirmación de género, PrEP y PEP, pruebas de VIH gratis sin cita, salud mental y farmacia con descuento.
+    url: https://hopeandhelp.org/
+    phone: "407-645-2577"
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [hope-help]
+  - id: zebra-youth
+    name: Zebra Youth
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Drop-in center, counseling, care coordination, and affirming housing for LGBTQ+ youth ages 13 to 24.
+      es: Centro de acogida, consejería, coordinación de servicios y vivienda para jóvenes LGBTQ+ de 13 a 24 años.
+    url: https://www.zebrayouth.org/
+    phone: "407-228-1446"
+    address: 911 N Mills Avenue, Orlando, FL 32803
+    cost: free
+    verification: org_website
+    sources: [zebra]
+  - id: doh-orange
+    name: Florida Department of Health in Orange County
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: County health department; call for HIV and STI testing and PrEP options.
+      es: Departamento de salud del condado; llama para pruebas de VIH e ITS y PrEP.
+    url: https://orange.floridahealth.gov/
+    phone: "407-858-1400"
+    cost: varies
+    verification: official_source
+    sources: [doh-orange]
+sources:
+  - id: orange-clerk
+    url: https://www.myorangeclerk.com/Divisions/Family/Family-Law
+    title: Family Law
+    publisher: Orange County Clerk of Courts
+    kind: court
+    accessed: "2026-09-24"
+    quote: "$412.50 for name changes"
+  - id: fnc-orange-prints
+    url: https://www.floridanamechange.org/orange-get-fingerprints.html
+    title: Orange, Get Fingerprints
+    publisher: Florida Name Change Project
+    kind: community
+    accessed: "2026-09-24"
+  - id: center-orlando
+    url: https://thecenterorlando.org/
+    title: The LGBT+ Center Orlando
+    kind: org
+    accessed: "2026-09-24"
+  - id: hope-help
+    url: https://hopeandhelp.org/
+    title: Hope & Help
+    kind: org
+    accessed: "2026-09-24"
+  - id: zebra
+    url: https://www.zebrayouth.org/
+    title: Zebra Youth
+    kind: org
+    accessed: "2026-09-24"
+  - id: doh-orange
+    url: https://orange.floridahealth.gov/
+    title: Florida Department of Health in Orange County
+    kind: official
+    accessed: "2026-09-24"

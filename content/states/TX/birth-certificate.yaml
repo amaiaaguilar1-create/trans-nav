@@ -1,0 +1,247 @@
+guide_type: birth_certificate
+jurisdiction: TX
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Read directly 2026-09-24: DSHS form VS-170 (rev. 1/26), the DSHS Costs and Fees, Processing Times, Requirements for
+    Changing Vital Records, and Supporting Documentation pages. VS-170 now allows a sex correction only "due to proven
+    incompletion or inaccuracy" with a hospital record or hospital letter; name changes need a certified court order
+    ($15 correction fee plus $22 per certified copy). The DSHS statement that it stopped changing sex based on court
+    orders (around August 30, 2024) is quoted from the ACLU of Texas fact sheet, not from a DSHS page. NOT CONFIRMED:
+    whether DSHS has reverted any previously amended certificates after KP-0489; whether a name amendment produces a
+    new certificate or an amended certificate showing the change (DSHS pages say "certified corrected birth
+    certificate"); the VS-170 page 3 rules for a "New Birth Certificate based on child's sex" ($25) were not read in
+    full. Processing: DSHS page says 25 to 30 business days by mail; the form says 6 to 8 weeks, expedited 4 weeks.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Texas no longer changes the sex on birth certificates to reflect gender identity. Vital Statistics accepts sex
+    corrections only for a proven error at birth, backed by hospital records. If you were born in Texas you can still
+    change the name on your certificate by mail with a certified court order, for $15 plus $22 per copy.
+  es: >-
+    Texas ya no cambia el sexo en las actas de nacimiento para reflejar la identidad de género. Estadísticas Vitales solo
+    acepta correcciones de sexo por un error comprobado al nacer, con registros del hospital. Si naciste en Texas
+    todavía puedes cambiar el nombre en tu acta por correo con una orden judicial certificada, por $15 más $22 por copia.
+summary:
+  en: |
+    Texas birth records are kept by the Vital Statistics Section of the Department of State Health Services (DSHS). A record can be amended only to complete it or to correct information "proved by satisfactory evidence to be inaccurate" (Health & Safety Code § 191.028), and the amendment is attached to the legal record.
+
+    Until 2024, DSHS amended the sex on a birth certificate when given a court order. Around **August 30, 2024** it changed its application form and said it was "no longer altering applicants' sex on birth or death certificates based on these court orders." The Attorney General's Opinion KP-0489 (March 2025) calls such orders void and tells agencies to correct certificates changed under them, and **HB 229** (effective September 1, 2025) defines sex in state law as biological sex. The current form, VS-170, lists only "Correct child's sex due to proven incompletion or inaccuracy," supported by a hospital or medical record from birth or a hospital letter explaining the error.
+
+    **What you can still do**: change your **name** on the certificate with a certified court order. This works even if you now live in another state, as long as you were born in Texas. If you were born in another state, that state's rules apply, not Texas's; some states still allow sex marker changes.
+  es: |
+    Las actas de nacimiento de Texas las guarda la Sección de Estadísticas Vitales del Departamento Estatal de Servicios de Salud (DSHS). Un registro solo se puede enmendar para completarlo o corregir información "comprobada como inexacta" (Código de Salud y Seguridad § 191.028), y la enmienda se adjunta al registro legal.
+
+    Hasta 2024, DSHS enmendaba el sexo en el acta con una orden judicial. Alrededor del **30 de agosto de 2024** cambió su formulario y dijo que "ya no altera el sexo de los solicitantes en actas de nacimiento o defunción con base en estas órdenes judiciales". La Opinión KP-0489 del Fiscal General (marzo de 2025) considera nulas esas órdenes, y **HB 229** (vigente desde el 1 de septiembre de 2025) define el sexo en la ley estatal como sexo biológico. El formulario actual, VS-170, solo permite "corregir el sexo por un error o una omisión comprobados", con un registro médico u hospitalario del nacimiento o una carta del hospital.
+
+    **Lo que sí puedes hacer**: cambiar tu **nombre** en el acta con una orden judicial certificada. Funciona aunque ahora vivas en otro estado, siempre que hayas nacido en Texas. Si naciste en otro estado, se aplican las reglas de ese estado; algunos todavía permiten cambiar el marcador de sexo.
+eligibility:
+  residency:
+    en: You must have been born in Texas. Where you live now does not matter.
+    es: Debes haber nacido en Texas. No importa dónde vivas ahora.
+  age:
+    en: Adults 18 and older apply for themselves. For a minor, the parents named on the certificate (both, if both are listed) or a legal guardian sign.
+    es: Los adultos de 18 años o más solicitan por sí mismos. Para un menor, firman los padres que aparecen en el acta (ambos, si ambos aparecen) o un tutor legal.
+  sources: [vs-170, dshs-requirements, hs-191-028, aclu-tx-factsheet, kp-0489, hb229]
+forms:
+  - id: VS-170
+    name:
+      en: Correcting a Birth Certificate
+      es: Corrección de un acta de nacimiento
+    url: https://www.dshs.texas.gov/sites/default/files/vs/doc/correcting-birth-certificate-vs-170_1.2026.pdf
+    url_es: https://www.dshs.texas.gov/sites/default/files/vs/doc/correcting-birth-certificate-spanish_vs-170_1.2026.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Complete sections 1, 2, 5, and 6. In the document checklist, choose "Change child's First, Middle, Last name" (supporting document 5, a certified court order).
+        - Write the information exactly as it appears on your current certificate, then the new name exactly as it appears in the court order.
+        - No cross-outs, white-out, or correction tape; the application must be an original.
+        - Sign section 6 **in front of a notary** and attach a photocopy of your valid photo ID.
+        - Check the $15 correction fee and the number of $22 certified copies you want.
+    sources: [vs-170]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified copy of your name change order
+      es: Obtén una copia certificada de tu orden de cambio de nombre
+    body:
+      en: DSHS needs an original certified copy (not a photocopy). An order from a court in the state where you live now is accepted. See the name change guide for Texas orders.
+      es: DSHS necesita una copia certificada original (no fotocopia). Se acepta una orden de un tribunal del estado donde vives ahora. Ver la guía de cambio de nombre para órdenes de Texas.
+    applies_to: [name_change]
+    sources: [dshs-supporting-docs, a4te-tx]
+  - id: fill-form
+    title:
+      en: Fill out VS-170 and sign it before a notary
+      es: Llena el VS-170 y fírmalo ante notario
+    body:
+      en: Banks, libraries, UPS stores, and county clerk offices often have notaries. Do not sign until you are with the notary, and bring your photo ID.
+      es: Los bancos, bibliotecas, tiendas UPS y oficinas del secretario del condado suelen tener notarios. No firmes hasta estar con el notario y lleva tu identificación con foto.
+    forms: [VS-170]
+    applies_to: [name_change]
+    sources: [vs-170]
+  - id: mail
+    title:
+      en: Mail the application, order, ID copy, and payment
+      es: Envía por correo la solicitud, la orden, la copia de identificación y el pago
+    body:
+      en: |
+        Mail everything with a check or money order payable to "DSHS Vital Statistics" to: **DSHS, Vital Statistics Section, P.O. Box 12040, Austin, TX 78711-2040**. For faster service, add the $25 expedite fee and send it by overnight courier to DSHS Vital Statistics Section, MC 2096, 1100 W. 49th Street, Austin, TX 78756. Corrections cannot be ordered online.
+      es: |
+        Envía todo con un cheque o giro postal a nombre de "DSHS Vital Statistics" a: **DSHS, Vital Statistics Section, P.O. Box 12040, Austin, TX 78711-2040**. Para un servicio más rápido, agrega la tarifa de $25 y envíalo por mensajería nocturna a DSHS Vital Statistics Section, MC 2096, 1100 W. 49th Street, Austin, TX 78756. Las correcciones no se pueden pedir en línea.
+    fees: [amendment, certified-copy, expedite]
+    applies_to: [name_change, by_mail]
+    sources: [vs-170, dshs-requirements, dshs-processing]
+  - id: wait
+    title:
+      en: Wait for the corrected certificate
+      es: Espera el acta corregida
+    body:
+      en: DSHS lists 25 to 30 business days for mailed corrections, not counting mail time. Incomplete applications are rejected and must be resubmitted, which restarts the clock. Check status at 888-963-7111.
+      es: DSHS indica de 25 a 30 días hábiles para correcciones por correo, sin contar el envío. Las solicitudes incompletas se rechazan y deben reenviarse, lo que reinicia el plazo. Consulta el estado al 888-963-7111.
+    estimated_time:
+      en: 25 to 30 business days plus mail time
+      es: 25 a 30 días hábiles más el tiempo de correo
+    sources: [dshs-processing]
+fees:
+  - id: amendment
+    label:
+      en: Correction to birth certificate (name change and other corrections)
+      es: Corrección del acta de nacimiento (cambio de nombre y otras correcciones)
+    amount: 15
+    sources: [dshs-fees, vs-170]
+  - id: certified-copy
+    label:
+      en: Certified copy of the corrected birth certificate (each)
+      es: Copia certificada del acta corregida (cada una)
+    amount: 22
+    sources: [dshs-fees, vs-170]
+  - id: expedite
+    label:
+      en: Expedited processing (optional, per application)
+      es: Procesamiento acelerado (opcional, por solicitud)
+    amount: 25
+    note:
+      en: Must be sent by overnight courier; overnight return shipping costs extra.
+      es: Debe enviarse por mensajería nocturna; el envío de regreso nocturno cuesta aparte.
+    sources: [dshs-fees, vs-170]
+fee_waiver:
+  available: false
+  eligibility:
+    en: DSHS waives certified-copy fees only for specific groups (military personnel with a commander's letter, homeless youth with documentation, and copies for election identification). There is no general low-income waiver for corrections.
+    es: DSHS exenta las tarifas de copias certificadas solo para grupos específicos (personal militar con carta del comandante, jóvenes sin hogar con documentación y copias para identificación electoral). No hay exención general por bajos ingresos para correcciones.
+  sources: [dshs-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Corrections and amendments are by mail only; DSHS lists online ordering as "Service Not Available" for corrections.
+    es: Las correcciones y enmiendas son solo por correo; DSHS indica que el pedido en línea "no está disponible" para correcciones.
+  sources: [dshs-processing, dshs-requirements]
+timeline:
+  en: About 25 to 30 business days after DSHS receives a complete application, or about 4 weeks with expedited service.
+  es: Unos 25 a 30 días hábiles después de que DSHS reciba una solicitud completa, o unas 4 semanas con servicio acelerado.
+after:
+  en: |
+    A corrected Texas birth certificate with your new name helps with a passport name change and other agencies. It will continue to show the sex recorded at birth. If you were born in another state that still allows sex marker changes, you can apply there by mail; Texas DPS, however, currently will not use an amended out-of-state certificate to change the marker on a Texas license.
+  es: |
+    Un acta de Texas corregida con tu nuevo nombre ayuda con el cambio de nombre en el pasaporte y otras agencias. Seguirá mostrando el sexo registrado al nacer. Si naciste en otro estado que todavía permite cambiar el marcador de sexo, puedes solicitarlo allí por correo; sin embargo, DPS de Texas actualmente no usará un acta enmendada de otro estado para cambiar el marcador en una licencia de Texas.
+tips:
+  - en: If an item on your certificate was already amended once, DSHS requires a court order to amend the same item again.
+    es: Si un dato del acta ya se enmendó una vez, DSHS exige una orden judicial para enmendarlo de nuevo.
+  - en: If you hold a Texas birth certificate whose sex was amended before August 2024, keep your certified copies in a safe place. The Attorney General has told agencies to correct such records; if DSHS contacts you, get legal help before responding.
+    es: Si tienes un acta de Texas cuyo sexo fue enmendado antes de agosto de 2024, guarda tus copias certificadas en un lugar seguro. El Fiscal General indicó a las agencias corregir esos registros; si DSHS te contacta, busca ayuda legal antes de responder.
+statutes:
+  - cite: Tex. Health & Safety Code § 191.028
+    title:
+      en: Amendment of birth and death records (incomplete or inaccurate records only)
+    url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.191.htm
+  - cite: Tex. Gov't Code § 311.005 (as amended by HB 229, 89th Leg., eff. Sept. 1, 2025)
+    title:
+      en: Statutory definitions of sex, male, and female
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00229F.htm
+  - cite: Tex. Att'y Gen. Op. No. KP-0489 (2025)
+    url: https://www.texasattorneygeneral.gov/sites/default/files/opinion-files/opinion/2025/kp-0489.pdf
+related_links:
+  - title: Advocates for Trans Equality, Texas identity documents
+    url: https://transequality.org/documents/texas-identity-documents
+    note:
+      en: Last updated August 2025.
+      es: Actualizado en agosto de 2025.
+  - title: DSHS Vital Statistics, applications and forms
+    url: https://www.dshs.texas.gov/vital-applications-forms
+sources:
+  - id: vs-170
+    url: https://www.dshs.texas.gov/sites/default/files/vs/doc/correcting-birth-certificate-vs-170_1.2026.pdf
+    title: VS-170, Correcting a Birth Certificate (rev. 1/26)
+    publisher: Texas Department of State Health Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Correct child's sex due to proven incompletion or inaccuracy: supporting documents 1 or 2 (hospital or medical record at birth, or letter from hospital)."
+  - id: dshs-requirements
+    url: https://www.dshs.texas.gov/vital-statistics/requirements-requesting-changing-vital-records/requirements-changing-vital-records
+    title: Requirements for changing vital records
+    publisher: Texas Department of State Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: You can apply for changes or amendments to a vital record by mail.
+  - id: dshs-supporting-docs
+    url: https://www.dshs.texas.gov/vital-statistics/requirements-requesting-changing-vital-records/supporting-documentation-record-changes
+    title: Supporting documentation for record changes and corrections
+    publisher: Texas Department of State Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Change legal name: Certified copy of a court order affecting the information shown on the birth certificate."
+  - id: dshs-fees
+    url: https://www.dshs.texas.gov/vital-statistics/costs-fees
+    title: Costs and fees
+    publisher: Texas Department of State Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Correction to Birth Certificate, all other changes: $15.00. New, Certified Copy of Corrected Birth Record: $22.00."
+  - id: dshs-processing
+    url: https://www.dshs.texas.gov/vital-statistics/processing-times
+    title: Processing times
+    publisher: Texas Department of State Health Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Birth Certificate Correction/Amendment: Texas.gov, Service Not Available; Mail-in, 25-30 days (average business days)."
+  - id: aclu-tx-factsheet
+    url: https://www.aclutx.org/app/uploads/2025/04/factsheet_gendermarkers_3.31.25.pdf
+    title: Texas Attorney General and agencies' refusal to follow court orders to update gender markers (fact sheet, March 31, 2025)
+    publisher: ACLU of Texas
+    kind: org
+    accessed: "2026-09-24"
+    quote: DSHS is no longer altering applicants' sex on birth or death certificates based on these court orders.
+  - id: kp-0489
+    url: https://www.texasattorneygeneral.gov/sites/default/files/opinion-files/opinion/2025/kp-0489.pdf
+    title: Opinion No. KP-0489 (March 14, 2025)
+    publisher: Office of the Attorney General of Texas
+    kind: official
+    accessed: "2026-09-24"
+    quote: State agencies must immediately correct any unlawfully altered driver's licenses or birth certificates that were changed pursuant to such orders.
+  - id: hs-191-028
+    url: https://texas.public.law/statutes/tex._health_and_safety_code_section_191.028
+    title: Tex. Health & Safety Code § 191.028, Amendment of certificate
+    publisher: Public.Law (text of the Texas Health and Safety Code)
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hb229
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00229F.htm
+    title: HB 229 (89th Legislature), enrolled text
+    publisher: Texas Legislature Online
+    kind: statute
+    accessed: "2026-09-24"
+  - id: a4te-tx
+    url: https://transequality.org/documents/texas-identity-documents
+    title: Texas identity documents (last updated August 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Texas Vital Records Office will accept a certified copy of an order for name change signed by a court from your current state of residence.

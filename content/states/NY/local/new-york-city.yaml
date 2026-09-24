@@ -1,0 +1,223 @@
+jurisdiction: NY
+slug: new-york-city
+name: New York City
+area:
+  en: The five boroughs (Manhattan, Brooklyn, Queens, the Bronx, Staten Island)
+  es: Los cinco condados (Manhattan, Brooklyn, Queens, el Bronx, Staten Island)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Resources from org and city websites 2026-09-24. NYC Civil Court pages blocked automated fetching; $65 fee and
+    any-borough filing confirmed by Civ. Rights Law § 60, a search extract of the court page, and SRLP (June 2023).
+    Reviewer: confirm Civil Court clerk room (SRLP says 111 Centre St, Room 118), Callen-Lorde's informed-consent and
+    sliding-scale policy, and Destination Tomorrow's current health services. A4TE's Name Change Project (which served
+    all five boroughs) stopped taking applications on March 11, 2026 and is intentionally not listed.
+intro:
+  en: >-
+    New York City has some of the country's deepest trans services: a $65 Civil Court name and sex designation change
+    you can file in any borough, free legal help, public hospital Pride Health Centers, LGBTQ community health centers,
+    and free or low-cost sexual health clinics. People born in the five boroughs update their birth certificates with
+    NYC Health, not New York State.
+  es: >-
+    La ciudad de Nueva York tiene algunos de los servicios trans más completos del país: cambio de nombre y designación
+    de sexo por $65 en el Tribunal Civil de cualquier condado, ayuda legal gratuita, Centros de Salud Pride en hospitales
+    públicos, centros de salud comunitarios LGBTQ y clínicas de salud sexual gratuitas o de bajo costo. Quienes nacieron
+    en los cinco condados actualizan su acta con NYC Health, no con el estado.
+court:
+  name: Civil Court of the City of New York
+  url: https://www.nycourts.gov/new-york-city-civil-court/nyc-civil-court-name-andor-sex-designation-change
+  self_help_url: https://www.nycourts.gov/courthelp/diy/nameChange.shtml
+  filing_fee: 65
+  notes:
+    en: File in any borough's Civil Court (or Supreme Court for $210). SRLP recommends Manhattan, 111 Centre Street, Room 118. Tell the clerk before filing if you want the records sealed.
+    es: Presenta en el Tribunal Civil de cualquier condado (o en el Tribunal Supremo por $210). SRLP recomienda Manhattan, 111 Centre Street, sala 118. Dile al secretario antes de presentar si quieres sellar el expediente.
+  sources: [courts-nyc-civil, cvr-60, srlp]
+resources:
+  - id: srlp
+    name: Sylvia Rivera Law Project
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help and a step-by-step NYC name change guide for low-income trans, gender nonconforming, and intersex people. 212-337-8550 ext. 308, legal@srlp.org.
+      es: Ayuda legal gratuita y guía paso a paso para el cambio de nombre en NYC. 212-337-8550 ext. 308.
+    url: https://srlp.org/resources/namechange/
+    phone: "212-337-8550"
+    cost: free
+    verification: org_website
+    sources: [srlp]
+  - id: nylag-lgbtq
+    name: NYLAG LGBTQ Law Unit
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help with name and gender marker changes for low-income New Yorkers.
+      es: Ayuda legal gratuita con cambios de nombre y marcador de género.
+    url: https://nylag.org/lgbtq-law/
+    phone: "212-613-5000"
+    address: 100 Pearl Street, 19th Floor, New York, NY 10004
+    cost: free
+    verification: org_website
+    sources: [nylag]
+  - id: callen-lorde
+    name: Callen-Lorde Community Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ health center with hormone therapy, primary care, sexual health, and a youth program (HOTT). Chelsea 212-271-7200, Brooklyn 718-215-1818, Bronx 718-215-1800 (same-day appointments may be available in the Bronx).
+      es: Centro de salud LGBTQ con terapia hormonal, atención primaria, salud sexual y programa juvenil (HOTT). Chelsea 212-271-7200, Brooklyn 718-215-1818, Bronx 718-215-1800.
+    url: https://callen-lorde.org/transhealth/
+    phone: "212-271-7200"
+    address: 356 West 18th St, New York, NY 10011
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [callen-lorde]
+  - id: nychh-pride
+    name: NYC Health + Hospitals, Pride Health Centers
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: Hormone therapy, surgical referrals, PrEP/PEP, and behavioral health at eight public hospitals; surgery at Elmhurst and Metropolitan. Serves everyone regardless of ability to pay. 1-844-692-4692, lgbtq@nychhc.org.
+      es: Terapia hormonal, referencias quirúrgicas, PrEP/PEP y salud mental en ocho hospitales públicos. Atiende a todos sin importar la capacidad de pago. 1-844-692-4692.
+    url: https://www.nychealthandhospitals.org/services/lgbtq-health-care-services/
+    phone: "1-844-692-4692"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [nychh-pride]
+  - id: nyc-care
+    name: NYC Care
+    type: government_office
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: Low- and no-cost care at NYC Health + Hospitals for New Yorkers who do not qualify for or cannot afford insurance. 1-646-692-2273.
+      es: Atención de bajo o ningún costo en NYC Health + Hospitals para quienes no califican o no pueden pagar un seguro. 1-646-692-2273.
+    url: https://nyccare.nyc/
+    phone: "1-646-692-2273"
+    cost: low_cost
+    accepts_uninsured: true
+    verification: official_source
+    sources: [nyc-care]
+  - id: nyc-sexual-health
+    name: NYC Health Department Sexual Health Clinics
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Six walk-in clinics (Morrisania, Jamaica, Corona, Fort Greene, Chelsea, Central Harlem) for HIV/STI testing and treatment, PrEP, PEP, and doxy-PEP. Ages 12 and up, no parental consent, any immigration status; free for minors and sliding scale for adults. Hotline 347-396-7959.
+      es: Seis clínicas sin cita para pruebas y tratamiento de VIH/ITS, PrEP, PEP y doxy-PEP. Desde los 12 años, sin consentimiento de los padres, sin importar el estatus migratorio. Línea 347-396-7959.
+    url: https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
+    phone: "347-396-7959"
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [nyc-shc]
+  - id: lgbt-center
+    name: The LGBT Community Center
+    type: lgbtq_center
+    pillars: [mental_health, insurance]
+    description:
+      en: Counseling, insurance navigation, transition support and referrals, support groups, and youth programs. 208 W 13th St; 212-620-7310.
+      es: Consejería, navegación de seguros, apoyo en la transición, grupos de apoyo y programas juveniles. 208 W 13th St; 212-620-7310.
+    url: https://gaycenter.org/
+    phone: "212-620-7310"
+    address: 208 W 13th St, New York, NY 10011
+    cost: free
+    verification: org_website
+    sources: [gaycenter]
+  - id: destination-tomorrow
+    name: Destination Tomorrow
+    type: lgbtq_center
+    pillars: [mental_health, hrt]
+    description:
+      en: Bronx LGBTQ+ center with housing help, youth services, career readiness, and health programs. Walk-in Monday to Friday, 10 am to 6 pm. 646-723-3325.
+      es: Centro LGBTQ+ del Bronx con ayuda de vivienda, servicios juveniles, preparación laboral y programas de salud. Sin cita de lunes a viernes, 10 am a 6 pm. 646-723-3325.
+    url: https://www.destinationtomorrow.org/
+    phone: "646-723-3325"
+    address: 452 E 149th St, 3rd Floor, Bronx, NY 10455
+    cost: free
+    verification: org_website
+    sources: [destination-tomorrow]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: courts-nyc-civil
+    url: https://www.nycourts.gov/new-york-city-civil-court/nyc-civil-court-name-andor-sex-designation-change
+    title: NYC Civil Court, Name and/or Sex Designation Change
+    publisher: New York State Unified Court System
+    kind: court
+    accessed: "2026-09-24"
+    quote: It costs $65.00 to change a name and/or sex designation in Civil Court.
+  - id: cvr-60
+    url: https://www.nysenate.gov/legislation/laws/CVR/60
+    title: Civil Rights Law § 60
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: srlp
+    url: https://srlp.org/resources/namechange/
+    title: How to legally change your name in New York City (updated June 2023)
+    publisher: Sylvia Rivera Law Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: nylag
+    url: https://nylag.org/lgbtq-law/
+    title: LGBTQ Law
+    publisher: New York Legal Assistance Group
+    kind: org
+    accessed: "2026-09-24"
+  - id: callen-lorde
+    url: https://callen-lorde.org/transhealth/
+    title: Transgender health
+    publisher: Callen-Lorde Community Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: nychh-pride
+    url: https://www.nychealthandhospitals.org/services/lgbtq-health-care-services/
+    title: LGBTQ+ health care services, Pride Health Centers
+    publisher: NYC Health + Hospitals
+    kind: official
+    accessed: "2026-09-24"
+  - id: nyc-care
+    url: https://nyccare.nyc/
+    title: NYC Care
+    publisher: NYC Health + Hospitals
+    kind: official
+    accessed: "2026-09-24"
+  - id: nyc-shc
+    url: https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
+    title: Sexual Health Clinics
+    publisher: NYC Department of Health and Mental Hygiene
+    kind: official
+    accessed: "2026-09-24"
+    quote: Anyone who is 12 or older can receive services at any clinic, regardless of immigration status. Parental consent is not necessary.
+  - id: gaycenter
+    url: https://gaycenter.org/
+    title: The Lesbian, Gay, Bisexual & Transgender Community Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: destination-tomorrow
+    url: https://www.destinationtomorrow.org/
+    title: Destination Tomorrow
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

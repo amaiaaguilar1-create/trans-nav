@@ -1,0 +1,313 @@
+jurisdiction: NY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework from primary sources 2026-09-24: 18 NYCRR 505.2(l) (read via Cornell LII), S2475-B / L. 2023
+    ch. 143 shield law (nysenate.gov), DFS Insurance Circular Letter 2014-07, and the NY Attorney General's
+    transgender health care page. DFS consumer pages and nystateofhealth.ny.gov blocked automated fetching; the NY
+    State of Health URL resolves (HTTP 200 via curl). Planned Parenthood of Greater New York pages returned 403, so its
+    hormone-therapy offering and minimum age are not confirmed. Clinic entries are from org websites; Callen-Lorde's
+    site confirms hormone therapy but not an explicit informed-consent policy or sliding scale; Trillium confirms
+    transgender care and sliding fees; Evergreen confirms "LGBTQ+ Care" but not hormones specifically. Reviewer:
+    (1) check whether any NYC hospital youth gender programs have paused care for minors because of federal
+    pressure in 2025-2026 (reported in news for some programs; not verified here, so not stated in the text);
+    (2) check any 2026 federal Medicaid/CHIP rule on gender-affirming care for minors and its effect on NY Medicaid;
+    (3) confirm the 18 NYCRR 505.2(l) text has not been amended since the LII copy. No active NY litigation or
+    pending NY bill restricting care was identified.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected in New York for adults and minors. NY Medicaid covers hormone therapy
+    and surgery, state-regulated private insurance may not exclude it, and a 2023 shield law protects patients and
+    providers from other states' investigations. Community health centers, NYC Health + Hospitals, and LGBTQ health
+    centers offer care whether or not you have insurance.
+  es: >-
+    La atención de afirmación de género es legal y está protegida en Nueva York para adultos y menores. Medicaid de
+    Nueva York cubre terapia hormonal y cirugía, los seguros privados regulados por el estado no pueden excluirla, y
+    una ley escudo de 2023 protege a pacientes y proveedores de investigaciones de otros estados. Los centros de salud
+    comunitarios, NYC Health + Hospitals y los centros de salud LGBTQ ofrecen atención tengas o no seguro.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Hormone therapy is available from community health centers, LGBTQ health centers, NYC Health + Hospitals Pride Health Centers, and telehealth providers.
+
+      **If you have no insurance and little money**, in rough order:
+      1. Apply for **Medicaid** or the **Essential Plan** through NY State of Health. Medicaid covers hormones and surgery (see below).
+      2. In NYC, **NYC Care** guarantees low- and no-cost care at NYC Health + Hospitals for people who do not qualify for or cannot afford insurance, regardless of immigration status. Call 1-646-692-2273.
+      3. Go to a **community health center** (find one at findahealthcenter.hrsa.gov). They charge on a sliding scale.
+      4. **Point of Pride** and **GenderBands** help pay for hormone access and gender-affirming items when funding allows.
+    es: |
+      Sin restricciones estatales. La terapia hormonal está disponible en centros de salud comunitarios, centros de salud LGBTQ, los Centros de Salud Pride de NYC Health + Hospitals y proveedores de telesalud.
+
+      **Si no tienes seguro ni mucho dinero**:
+      1. Solicita **Medicaid** o el **Essential Plan** en NY State of Health. Medicaid cubre hormonas y cirugía.
+      2. En NYC, **NYC Care** garantiza atención de bajo o ningún costo en NYC Health + Hospitals para quienes no califican o no pueden pagar un seguro, sin importar el estatus migratorio. Llama al 1-646-692-2273.
+      3. Ve a un **centro de salud comunitario** (findahealthcenter.hrsa.gov). Cobran en escala móvil.
+      4. **Point of Pride** y **GenderBands** ayudan a pagar hormonas y artículos de afirmación cuando hay fondos.
+  sources: [ag-tgnci, nychh-pride, nyc-care, hrsa, pop, genderbands]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. New York's 2023 shield law (S2475-B, Chapter 143) bars enforcement of other states' laws that would remove a child from a parent for allowing gender-affirming care, blocks cooperation with out-of-state investigations and subpoenas, and prevents extradition for care lawfully provided in New York. Care for minors follows clinical guidelines; NY Medicaid covers puberty blockers, and hormones from age 16 (younger with prior approval).
+    es: |
+      Legal. La ley escudo de Nueva York de 2023 (S2475-B, capítulo 143) impide aplicar leyes de otros estados que separarían a un menor de sus padres por permitir atención de afirmación de género, bloquea la cooperación con investigaciones y citaciones de otros estados e impide extradiciones por atención legal en Nueva York. Medicaid cubre bloqueadores de pubertad y hormonas desde los 16 años (antes con aprobación previa).
+  sources: [shield-law, nycrr-505-2, ag-tgnci]
+medicaid:
+  program_name: New York Medicaid
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      18 NYCRR 505.2(l) requires Medicaid to cover medically necessary hormone therapy and gender-affirming surgery for gender dysphoria, in both fee-for-service and managed care plans.
+      - **Hormones**: puberty suppressants for people who meet clinical criteria; hormones from age 16, younger with demonstrated medical necessity and prior approval.
+      - **Surgery**: age 18 and older, with letters from two New York-licensed qualified professionals; under 18 only with prior approval. Procedures judged purely cosmetic are excluded.
+
+      **Apply** through NY State of Health online, by phone, or with a local navigator.
+    es: |
+      El reglamento 18 NYCRR 505.2(l) exige que Medicaid cubra terapia hormonal y cirugía médicamente necesarias para la disforia de género, en pago por servicio y en planes administrados.
+      - **Hormonas**: supresores de pubertad según criterios clínicos; hormonas desde los 16 años, antes con aprobación previa.
+      - **Cirugía**: desde los 18, con cartas de dos profesionales con licencia en Nueva York; menores solo con aprobación previa. Se excluyen procedimientos puramente cosméticos.
+
+      **Solicita** en NY State of Health en línea, por teléfono o con un navegador local.
+  how_to_apply_url: https://nystateofhealth.ny.gov/
+  sources: [nycrr-505-2, ag-tgnci]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      State-regulated (fully insured) plans may not deny medically necessary treatment solely because it is for gender dysphoria (DFS Circular Letter No. 7, 2014), and may not deny, limit, or exclude coverage because of gender identity or sex assigned at birth. Self-funded employer plans are regulated federally and may not be covered. If your plan denies care, appeal with the plan, then file a complaint or external appeal with the Department of Financial Services (1-800-541-2831).
+    es: |
+      Los planes regulados por el estado no pueden negar tratamiento médicamente necesario solo porque es para disforia de género (Carta Circular 7 de DFS, 2014), ni negar o limitar cobertura por identidad de género. Los planes autofinanciados de empleadores tienen regulación federal. Si te niegan atención, apela con el plan y luego presenta una queja ante el Departamento de Servicios Financieros (1-800-541-2831).
+  complaint_url: https://www.dfs.ny.gov/complaint
+  sources: [dfs-cl2014-07, ag-tgnci, dfs-complaint]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: nychh-pride
+    name: NYC Health + Hospitals, Pride Health Centers
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health, insurance]
+    description:
+      en: Eight public hospital sites (Bellevue, Elmhurst, Gouverneur, Judson, Jacobi, Lincoln, Metropolitan, Woodhull) offering primary care with hormone therapy, surgical referrals, PrEP/PEP, and behavioral health. Surgery at Elmhurst and Metropolitan. Serves patients regardless of ability to pay. Call 1-844-692-4692 or email lgbtq@nychhc.org.
+      es: Ocho hospitales públicos que ofrecen atención primaria con terapia hormonal, referencias quirúrgicas, PrEP/PEP y salud mental. Cirugía en Elmhurst y Metropolitan. Atiende sin importar la capacidad de pago. Llama al 1-844-692-4692.
+    url: https://www.nychealthandhospitals.org/services/lgbtq-health-care-services/
+    phone: "1-844-692-4692"
+    areas_served:
+      en: New York City
+      es: Ciudad de Nueva York
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [nychh-pride]
+  - id: callen-lorde
+    name: Callen-Lorde Community Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: LGBTQ community health center with hormone therapy, primary care, and an adolescent program (HOTT). Sites in Chelsea (212-271-7200), Brooklyn (718-215-1818), and the Bronx (718-215-1800).
+      es: Centro de salud comunitario LGBTQ con terapia hormonal, atención primaria y programa para adolescentes (HOTT). Sedes en Chelsea, Brooklyn y el Bronx.
+    url: https://callen-lorde.org/transhealth/
+    phone: "212-271-7200"
+    address: 356 West 18th St, New York, NY 10011
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [callen-lorde]
+  - id: trillium
+    name: Trillium Health (Rochester)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Community health center offering transgender care in primary care, plus PrEP and PEP. Sliding fee discounts based on income and family size. Call 585-545-7200.
+      es: Centro de salud comunitario con atención transgénero en atención primaria, además de PrEP y PEP. Descuentos según ingresos. Llama al 585-545-7200.
+    url: https://www.trilliumhealth.org/
+    phone: "585-545-7200"
+    areas_served:
+      en: Rochester and Finger Lakes
+      es: Rochester y Finger Lakes
+    cost: sliding_scale
+    verification: org_website
+    sources: [trillium]
+  - id: evergreen
+    name: Evergreen Health (Buffalo)
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: LGBTQ+ affirming medical care and the region's largest PrEP provider. Sites at 206 S. Elmwood Ave and 800 Hertel Ave, Buffalo. Call 716-847-2441 to ask about hormone therapy.
+      es: Atención médica afirmativa LGBTQ+ y el mayor proveedor de PrEP de la región. Llama al 716-847-2441 para preguntar por terapia hormonal.
+    url: https://www.evergreenhs.org/medical-services/lgbtq-healthcare/
+    phone: "716-847-2441"
+    address: 206 S. Elmwood Ave, Buffalo, NY
+    areas_served:
+      en: Western New York
+      es: Oeste de Nueva York
+    cost: varies
+    verification: org_website
+    sources: [evergreen]
+  - id: ppgny
+    org: planned-parenthood
+    name: Planned Parenthood of Greater New York
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Planned Parenthood affiliate covering NYC and much of the state. Many Planned Parenthood affiliates offer gender-affirming hormone therapy; call to confirm availability and minimum age at your health center.
+      es: Afiliada de Planned Parenthood en NYC y gran parte del estado. Llama para confirmar si ofrecen terapia hormonal y la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-new-york
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: unverified
+    sources: [ppgny]
+  - id: nyc-care
+    name: NYC Care
+    type: government_office
+    pillars: [hrt, mental_health, insurance]
+    description:
+      en: City program guaranteeing low- and no-cost services at NYC Health + Hospitals for New Yorkers who do not qualify for or cannot afford insurance. Call 1-646-692-2273.
+      es: Programa municipal que garantiza servicios de bajo o ningún costo en NYC Health + Hospitals para quienes no califican o no pueden pagar un seguro. Llama al 1-646-692-2273.
+    url: https://nyccare.nyc/
+    phone: "1-646-692-2273"
+    areas_served:
+      en: New York City residents
+      es: Residentes de la ciudad de Nueva York
+    cost: low_cost
+    accepts_uninsured: true
+    verification: official_source
+    sources: [nyc-care]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National fund programs for hormone therapy access and gender-affirming items.
+      es: Programas nacionales de fondos para acceso a hormonas y artículos de afirmación.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: unverified
+    sources: [pop]
+  - id: genderbands
+    org: genderbands
+    name: GenderBands
+    type: fund
+    pillars: [hrt]
+    description:
+      en: National nonprofit offering grants for gender-affirming care costs.
+      es: Organización nacional que ofrece subvenciones para costos de atención de afirmación de género.
+    url: https://genderbands.org/
+    cost: free
+    verification: unverified
+    sources: [genderbands]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal locator for community health centers, which charge on a sliding scale based on income.
+      es: Buscador federal de centros de salud comunitarios, que cobran en escala móvil según ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: 18 NYCRR 505.2(l)
+    title:
+      en: Medicaid coverage of hormone therapy and gender-affirming surgery
+    url: https://www.law.cornell.edu/regulations/new-york/18-NYCRR-505.2
+  - cite: S2475-B (2023), L. 2023 ch. 143
+    title:
+      en: Gender-affirming care shield law
+    url: https://www.nysenate.gov/legislation/bills/2023/S2475
+sources:
+  - id: nycrr-505-2
+    url: https://www.law.cornell.edu/regulations/new-york/18-NYCRR-505.2
+    title: 18 NYCRR § 505.2, Physicians' services (subdivision (l), gender dysphoria treatment)
+    publisher: Legal Information Institute (copy of NY regulation)
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: payment for gender reassignment surgery shall be covered for an individual who is 18 years of age or older
+  - id: shield-law
+    url: https://www.nysenate.gov/legislation/bills/2023/S2475
+    title: S2475-B (2023), gender-affirming care protections, Chapter 143 of 2023 (signed June 25, 2023)
+    publisher: New York State Senate
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ag-tgnci
+    url: https://ag.ny.gov/resources/individuals/health-care-insurance/transgender-nonbinary-intersex-health-care
+    title: Transgender, nonbinary, and intersex health care
+    publisher: New York State Office of the Attorney General
+    kind: official
+    accessed: "2026-09-24"
+    quote: New York law enforcement, insurers, and health care providers are not permitted to cooperate with out-of-state legal action related to legally protected health care activity.
+  - id: dfs-cl2014-07
+    url: https://www.dfs.ny.gov/industry_guidance/circular_letters/cl2014_07
+    title: Insurance Circular Letter No. 7 (2014), health insurance coverage for treatment of gender dysphoria
+    publisher: NY Department of Financial Services
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: An issuer may not deny medically necessary treatment otherwise covered by a health insurance policy solely on the basis that the treatment is for gender dysphoria.
+  - id: dfs-complaint
+    url: https://www.dfs.ny.gov/complaint
+    title: File a complaint
+    publisher: NY Department of Financial Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: nychh-pride
+    url: https://www.nychealthandhospitals.org/services/lgbtq-health-care-services/
+    title: LGBTQ+ health care services, Pride Health Centers
+    publisher: NYC Health + Hospitals
+    kind: official
+    accessed: "2026-09-24"
+    quote: Primary care, which includes immunizations, hormone therapy, and surgical referrals
+  - id: nyc-care
+    url: https://nyccare.nyc/
+    title: NYC Care
+    publisher: NYC Health + Hospitals
+    kind: official
+    accessed: "2026-09-24"
+    quote: a health care access program that guarantees low-cost and no-cost services to New Yorkers who do not qualify for or cannot afford health insurance
+  - id: callen-lorde
+    url: https://callen-lorde.org/transhealth/
+    title: Transgender health
+    publisher: Callen-Lorde Community Health Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: trillium
+    url: https://www.trilliumhealth.org/
+    title: Trillium Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Sliding fee discounts are available.
+  - id: evergreen
+    url: https://www.evergreenhs.org/medical-services/lgbtq-healthcare/
+    title: LGBTQ+ care
+    publisher: Evergreen Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppgny
+    url: https://www.plannedparenthood.org/planned-parenthood-greater-new-york
+    title: Planned Parenthood of Greater New York
+    kind: org
+    accessed: "2026-09-24"
+    watch: false
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://genderbands.org/
+    title: GenderBands
+    kind: org
+    accessed: "2026-09-24"

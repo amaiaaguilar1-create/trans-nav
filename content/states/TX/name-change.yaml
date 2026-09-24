@@ -1,0 +1,536 @@
+guide_type: name_change
+jurisdiction: TX
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24. Statute text for Fam. Code 45.002, 45.004, 45.102, and 45.103 read on texas.public.law because
+    statutes.capitol.texas.gov is a JavaScript app that would not render for automated fetching (the statute links
+    below point to the official site). TexasLawHelp.org returned a bot-check page to every automated request, so the
+    form names and URLs for FM-NCA-100 and the name change guide come from search-result listings, the Travis County
+    Law Library forms page, and A4TE's Texas page (last updated August 2025); reviewer should open each TLH link and
+    confirm the current form revision and URL. Filing fee of $350 confirmed on the Harris County District Clerk fee
+    schedule (effective January 1, 2026, updated July 15, 2026) and the Dallas County District Clerk schedule
+    (effective January 1, 2024); Travis County Law Library also lists $350. Other counties may differ. DPS fingerprint
+    fees ($20 vendor, $27 DPS/FBI) confirmed on form CR-65 (rev. 01/2025). Hearing practice varies by county and
+    judge; the statute does not require one, A4TE says a court appearance is required, and Travis County describes a
+    decision without a hearing. Unconfirmed reports (A4TE, TSLL) that DPS refuses combined name-and-gender orders even
+    for the name are included as a warning; confirm with TENT or TLC. Reports that Travis County judges stopped
+    signing gender marker orders after HB 229 come from a search-result summary of TSLL/TENT material; not verified
+    against a court source. Rule 145 details (benefits and legal-aid evidence, contest only after notice and hearing)
+    are summarized from knowledge of the rule's text, not re-read this session; reviewer should confirm.
+status: restricted
+status_summary:
+  en: >-
+    Texas adults can change their name by filing a petition in the district court of the county where they live. You
+    must include a fingerprint card and pay for a state and FBI background check, and the filing fee is about $350
+    (waivable). There is no newspaper publication for adults. Courts no longer grant, and state agencies no longer
+    honor, orders changing the sex marker, so ask only for a name change.
+  es: >-
+    Los adultos en Texas pueden cambiar su nombre presentando una petición en el tribunal de distrito del condado
+    donde viven. Debes incluir una tarjeta de huellas digitales y pagar una revisión de antecedentes estatal y del FBI,
+    y la tarifa de presentación es de unos $350 (se puede exentar). No hay publicación en periódico para adultos. Los
+    tribunales ya no conceden, y las agencias estatales ya no aceptan, órdenes que cambien el marcador de sexo, así que
+    pide solo el cambio de nombre.
+summary:
+  en: |
+    Texas Family Code chapter 45 governs name changes. Adults use subchapter B (sections 45.101 to 45.106); children use subchapter A. You file a verified petition with the **district clerk in the county where you live**, attach a **fingerprint card**, and send a second fingerprint card to the Department of Public Safety (DPS) so it can run a state and FBI criminal history check and report the results to the court. The judge grants the change if it is "in the interest or to the benefit of the petitioner and in the interest of the public" (§ 45.103). There is no publication requirement for adults.
+
+    Being trans is not a lawful reason to deny a name change, and most people get one. What you **cannot** get in Texas any more is a usable order changing your sex marker: since August 2024 DPS and Vital Statistics refuse such orders, the Attorney General has called them void (Opinion KP-0489, March 2025), and HB 229 (effective September 1, 2025) defines sex in state law as biological sex. Advocates report that DPS may reject an order that combines a name change with a gender marker change **even for the name**, so ask the court for a name change only.
+  es: |
+    El capítulo 45 del Código de Familia de Texas regula los cambios de nombre. Los adultos usan el subcapítulo B (secciones 45.101 a 45.106); los menores usan el subcapítulo A. Presentas una petición verificada ante el **secretario del tribunal de distrito del condado donde vives**, adjuntas una **tarjeta de huellas digitales** y envías una segunda tarjeta al Departamento de Seguridad Pública (DPS) para que haga una revisión de antecedentes estatal y del FBI y envíe los resultados al tribunal. El juez concede el cambio si es "en interés o beneficio del peticionario y en interés del público" (§ 45.103). No hay requisito de publicación para adultos.
+
+    Ser trans no es una razón legal para negar un cambio de nombre, y la mayoría de las personas lo obtienen. Lo que **ya no** puedes obtener en Texas es una orden útil para cambiar tu marcador de sexo: desde agosto de 2024 DPS y Estadísticas Vitales rechazan esas órdenes, el Fiscal General las declaró nulas (Opinión KP-0489, marzo de 2025) y HB 229 (vigente desde el 1 de septiembre de 2025) define el sexo en la ley estatal como sexo biológico. Organizaciones de apoyo informan que DPS puede rechazar una orden que combine cambio de nombre y de marcador de género **incluso para el nombre**, así que pide al tribunal solo el cambio de nombre.
+eligibility:
+  residency:
+    en: File in the district court of the Texas county where you live.
+    es: Presenta la petición en el tribunal de distrito del condado de Texas donde vives.
+  age:
+    en: 18 or older for the adult process. A parent or guardian files for a child; see the Minors section.
+    es: 18 años o más para el proceso de adultos. Un padre, madre o tutor presenta la petición por un menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      If you have a final felony conviction, the court can grant the change only if you were pardoned, or at least two
+      years have passed since you completed your sentence, parole, or community supervision, or you are changing to
+      your primary name in criminal history records. If you must register as a sex offender, you must also show you
+      notified your local law enforcement authority of the proposed change (§ 45.103).
+    es: >-
+      Si tienes una condena firme por delito grave, el tribunal solo puede conceder el cambio si recibiste un indulto,
+      si han pasado al menos dos años desde que terminaste tu sentencia, libertad condicional o supervisión, o si
+      cambias al nombre principal de tus antecedentes penales. Si debes registrarte como agresor sexual, también debes
+      demostrar que notificaste a la autoridad policial local del cambio propuesto (§ 45.103).
+  sources: [fam-45-102, fam-45-103, tsll-adults]
+forms:
+  - id: FM-NCA-100
+    name:
+      en: Petition to Change the Name of an Adult
+      es: Petición para cambiar el nombre de un adulto
+    url: https://texaslawhelp.org/form/petition-to-change-the-name-of-an-adult-0
+    required: always
+    how_to_fill:
+      en: |
+        - **Reason for the change**: a short, truthful reason is enough, for example "to match the name I use in daily life" or "the name reflects my gender identity." You do not need medical proof.
+        - **Do not ask for a change of sex or gender marker** in the petition or the order. Texas agencies will not honor it, and advocates report DPS may reject the whole order.
+        - Fill in every identifying item the statute requires (full name, sex, race, date of birth, driver's license numbers for the last 10 years, Social Security number, any FBI or state ID numbers, and any charges above a Class C misdemeanor), or explain why an item does not apply. Leaving items blank can delay the case.
+        - If you are in the Attorney General's Address Confidentiality Program (for survivors of family violence, sexual assault, stalking, or trafficking), you may leave out your street address and the reason, and the order becomes confidential; attach proof of participation.
+        - Attach the fingerprint card as an exhibit and sign the petition in front of a notary or clerk (it must be verified).
+    sources: [tlh-petition-form, fam-45-102, fam-45-103]
+  - id: fingerprint-card
+    name:
+      en: FBI/DPS fingerprint cards (two), with DPS form CR-65 instructions
+      es: Tarjetas de huellas digitales FBI/DPS (dos), con instrucciones del formulario CR-65 de DPS
+    url: https://www.dps.texas.gov/internetforms/Forms/CR-65.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Book "Option B, Fingerprint Cards" with IdentoGO (1-888-467-2080 or identogo.com). The $20 fee includes two cards. DPS cannot receive these prints electronically.
+        - Sign the card in your **current legal name**. Fill in place of birth, driver's license number (MNU field), reason fingerprinted ("Legal Name Change"), sex, date of birth, Social Security number, race, and, after you file, the cause number (OCA field).
+        - One card goes to the court with the petition. Mail the other to DPS with a court-stamped copy of the filed petition and a $27 check or money order payable to Texas DPS.
+    sources: [dps-cr65]
+  - id: order-adult
+    name:
+      en: Order Changing the Name of an Adult
+      es: Orden de cambio de nombre de un adulto
+    url: https://texaslawhelp.org/guide/i-want-to-change-my-name
+    required: always
+    condition:
+      en: Fill in the caption and names; the judge signs it. Bring it to court or file it as your clerk directs.
+      es: Llena el encabezado y los nombres; el juez la firma. Llévala al tribunal o preséntala según indique el secretario.
+    sources: [tlh-guide, travis-forms]
+  - id: statement-of-inability
+    name:
+      en: Statement of Inability to Afford Payment of Court Costs or an Appeal Bond (bilingual)
+      es: Declaración sobre Incapacidad de Pago de Costas de Tribunal o de una Fianza de Apelación (bilingüe)
+    url: https://www.txcourts.gov/media/1456942/statement-of-inability-to-afford-payment-of-court-costs-or-an-appeal-bond-bilingual.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. See the fee waiver section.
+      es: Solo si no puedes pagar la tarifa de presentación. Ver la sección de exención de tarifas.
+    how_to_fill:
+      en: |
+        - List any public benefits you receive (for example SNAP, Medicaid, SSI, TANF, CHIP, WIC). Receiving one is strong evidence you cannot pay.
+        - If a legal aid organization is representing you, say so; the form lets the provider certify it.
+        - Otherwise fill in your income, household members, and monthly expenses. Sign it; the form is a sworn declaration.
+    sources: [txcourts-soi]
+  - id: civil-case-information-sheet
+    name:
+      en: Civil Case Information Sheet
+      es: Hoja de información del caso civil
+    url: https://texaslawhelp.org/guide/i-want-to-change-my-name
+    required: always
+    condition:
+      en: Required with every new civil or family filing; it comes in the TexasLawHelp name change kit.
+      es: Se requiere con cada nueva demanda civil o de familia; viene en el paquete de cambio de nombre de TexasLawHelp.
+    sources: [a4te-tx, tlh-guide]
+steps:
+  - id: forms
+    title:
+      en: Get the adult name change forms
+      es: Obtén los formularios de cambio de nombre para adultos
+    body:
+      en: |
+        Use the free kit at TexasLawHelp.org ("I want to change my name") or the guided interview at eFileTexas Self-Help (choose Family Cases). You need the petition, the proposed order, and a Civil Case Information Sheet. Some counties have local forms; the Harris County Law Library and Travis County Law Library publish packets and will help you find the right ones.
+      es: |
+        Usa el paquete gratuito de TexasLawHelp.org ("Quiero cambiar mi nombre") o la entrevista guiada de eFileTexas Self-Help (elige Family Cases). Necesitas la petición, la orden propuesta y una Hoja de información del caso civil. Algunos condados tienen formularios locales; las bibliotecas legales de los condados Harris y Travis publican paquetes y te ayudan a encontrar los correctos.
+    forms: [FM-NCA-100, order-adult, civil-case-information-sheet]
+    sources: [tlh-guide, tsll-adults, efile-selfhelp]
+  - id: fingerprints
+    title:
+      en: Get two fingerprint cards
+      es: Obtén dos tarjetas de huellas digitales
+    body:
+      en: |
+        Schedule "Option B, Fingerprint Cards" with IdentoGO (1-888-467-2080). It costs $20 for two cards. Sign in your current legal name. Keep both cards clean and unfolded.
+      es: |
+        Programa "Option B, Fingerprint Cards" con IdentoGO (1-888-467-2080). Cuesta $20 por dos tarjetas. Firma con tu nombre legal actual. Mantén ambas tarjetas limpias y sin doblar.
+    forms: [fingerprint-card]
+    fees: [fingerprinting]
+    sources: [dps-cr65]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you need one
+      es: Pide una exención de tarifas si la necesitas
+    body:
+      en: File the Statement of Inability to Afford Payment of Court Costs with your petition. If you get public benefits or are represented by legal aid, the clerk generally cannot charge you unless the court orders otherwise. The waiver covers court costs; it does not cover the fingerprinting vendor or the DPS background check fee.
+      es: Presenta la Declaración sobre Incapacidad de Pago de Costas con tu petición. Si recibes beneficios públicos o te representa una organización de ayuda legal, en general el secretario no puede cobrarte salvo que el tribunal ordene lo contrario. La exención cubre las costas del tribunal, no el proveedor de huellas ni la tarifa de antecedentes de DPS.
+    forms: [statement-of-inability]
+    optional: true
+    sources: [txcourts-soi, trcp-145]
+  - id: file
+    title:
+      en: File with the district clerk in your county
+      es: Presenta los documentos ante el secretario de distrito de tu condado
+    body:
+      en: |
+        File the petition (with one fingerprint card attached as an exhibit), the proposed order, and the Civil Case Information Sheet with the district clerk, in person or through eFileTexas.gov. Pay the filing fee ($350 in Harris, Dallas, and Travis counties) or file your Statement of Inability. Ask for a **file-stamped copy** of the petition showing the cause number and court number; you need it for DPS.
+      es: |
+        Presenta la petición (con una tarjeta de huellas adjunta como anexo), la orden propuesta y la Hoja de información del caso civil ante el secretario de distrito, en persona o por eFileTexas.gov. Paga la tarifa ($350 en los condados Harris, Dallas y Travis) o presenta tu Declaración de Incapacidad. Pide una **copia sellada** de la petición con el número de causa y de tribunal; la necesitarás para DPS.
+    fees: [filing]
+    sources: [harris-fees, dallas-fees, travis-forms]
+  - id: mail-dps
+    title:
+      en: Mail the second fingerprint card to DPS
+      es: Envía la segunda tarjeta de huellas a DPS por correo
+    body:
+      en: |
+        Mail the second card, the file-stamped petition (do not redact anything), and a $27 cashier's check, certified check, personal check, or money order payable to "Texas DPS" to: Texas Department of Public Safety, Central Cash Receiving, P.O. Box 15999, Austin, TX 78761-5999. Write the cause number in the OCA field on the card. DPS sends the results straight to the court. Questions: 512-424-2474, option 2.
+      es: |
+        Envía la segunda tarjeta, la petición sellada (sin tachar nada) y un cheque de caja, cheque certificado, cheque personal o giro postal de $27 a nombre de "Texas DPS" a: Texas Department of Public Safety, Central Cash Receiving, P.O. Box 15999, Austin, TX 78761-5999. Escribe el número de causa en el campo OCA. DPS envía los resultados directamente al tribunal. Preguntas: 512-424-2474, opción 2.
+    fees: [dps-background]
+    sources: [dps-cr65]
+  - id: judge
+    title:
+      en: Wait for the judge's decision or a hearing
+      es: Espera la decisión del juez o una audiencia
+    body:
+      en: |
+        Once the background check reaches the court, the judge reviews the file. Some counties sign orders without a hearing; others set a short hearing, in person or by video. Check with the clerk or your court's coordinator. If a hearing is set, bring photo ID and a copy of everything you filed.
+      es: |
+        Cuando la revisión de antecedentes llega al tribunal, el juez revisa el expediente. Algunos condados firman sin audiencia; otros fijan una audiencia breve, en persona o por video. Consulta con el secretario o el coordinador del tribunal. Si hay audiencia, lleva identificación con foto y una copia de todo lo que presentaste.
+    estimated_time:
+      en: about 1 to 6 weeks after DPS results arrive (varies by county)
+      es: de 1 a 6 semanas después de que lleguen los resultados de DPS (varía por condado)
+    sources: [travis-forms, a4te-tx, tsll-adults]
+  - id: certified-copies
+    title:
+      en: Buy certified copies of the signed order
+      es: Compra copias certificadas de la orden firmada
+    body:
+      en: Ask the district clerk for several certified copies (A4TE suggests 5 to 7). Social Security, DPS, Vital Statistics, the passport agency, and banks each want one. In Harris County a certified copy is $1 per page plus $5 for the certificate and seal.
+      es: Pide al secretario de distrito varias copias certificadas (A4TE sugiere de 5 a 7). El Seguro Social, DPS, Estadísticas Vitales, la agencia de pasaportes y los bancos piden una cada uno. En el condado Harris cada copia certificada cuesta $1 por página más $5 por el certificado y sello.
+    fees: [certified-copies]
+    sources: [harris-fees, a4te-tx]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (name change, adult or child)
+      es: Tarifa de presentación del tribunal de distrito (cambio de nombre, adulto o menor)
+    amount: 350
+    varies_by: county
+    waivable: true
+    note:
+      en: $350 in Harris County (fees effective January 1, 2026), Dallas County, and Travis County. Confirm with your county district clerk; e-filing vendors may add a small service charge.
+      es: $350 en los condados Harris (tarifas vigentes desde el 1 de enero de 2026), Dallas y Travis. Confirma con el secretario de distrito de tu condado; los proveedores de presentación electrónica pueden cobrar un pequeño cargo.
+    sources: [harris-fees, dallas-fees, travis-forms]
+  - id: fingerprinting
+    label:
+      en: Fingerprinting (IdentoGO, two cards)
+      es: Toma de huellas (IdentoGO, dos tarjetas)
+    amount: 20
+    waivable: false
+    sources: [dps-cr65]
+  - id: dps-background
+    label:
+      en: DPS ($15) and FBI ($12) background check
+      es: Revisión de antecedentes de DPS ($15) y FBI ($12)
+    amount: 27
+    waivable: false
+    sources: [dps-cr65]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order
+      es: Copia certificada de la orden
+    varies_by: county
+    waivable: true
+    note:
+      en: Harris County charges $1 per page plus $5 for the certificate and seal, so a two-page order costs about $7 per certified copy.
+      es: El condado Harris cobra $1 por página más $5 por el certificado y sello, así que una orden de dos páginas cuesta unos $7 por copia certificada.
+    sources: [harris-fees]
+fee_waiver:
+  available: true
+  forms: [statement-of-inability]
+  eligibility:
+    en: |
+      Under Texas Rule of Civil Procedure 145 you do not have to pay court costs if you cannot afford them. Strong evidence includes:
+      - You receive means-tested public benefits (such as SNAP, Medicaid, SSI, or TANF).
+      - You are represented by a legal aid provider or a court-appointed attorney.
+      - Your income, after basic living expenses, leaves you unable to pay (the form walks you through income and expenses).
+    es: |
+      Según la Regla 145 de Procedimiento Civil de Texas no tienes que pagar las costas si no puedes costearlas. Pruebas sólidas incluyen:
+      - Recibes beneficios públicos según ingresos (como SNAP, Medicaid, SSI o TANF).
+      - Te representa un proveedor de ayuda legal o un abogado asignado por el tribunal.
+      - Tus ingresos, después de los gastos básicos, no te alcanzan para pagar (el formulario te guía por ingresos y gastos).
+  how:
+    en: File the Statement of Inability with your petition. The clerk, a party, or the court can challenge it, but only after notice and a hearing. The $20 fingerprinting and $27 DPS fees are not court costs and are not waived.
+    es: Presenta la Declaración de Incapacidad con tu petición. El secretario, una parte o el tribunal pueden impugnarla, pero solo después de aviso y audiencia. Las tarifas de huellas ($20) y de DPS ($27) no son costas judiciales y no se exentan.
+  sources: [txcourts-soi, trcp-145, dps-cr65]
+publication:
+  required: "no"
+  detail:
+    en: Texas does not require adults to publish a name change in a newspaper. Publication can come up only in a child's case when a parent who must be served cannot be found.
+    es: Texas no exige que los adultos publiquen el cambio de nombre en un periódico. La publicación solo puede ser necesaria en el caso de un menor cuando no se puede localizar a un padre que debe ser notificado.
+  waiver_available: false
+  sources: [fam-45-102, a4te-tx]
+hearing:
+  required: conditional
+  detail:
+    en: The statute does not require a hearing for an adult. Practice depends on the county and judge; some sign the order on the papers, others set a brief uncontested hearing in person or by video.
+    es: La ley no exige audiencia para un adulto. Depende del condado y del juez; algunos firman la orden con los documentos y otros fijan una audiencia breve sin oposición, en persona o por video.
+  sources: [tsll-adults, travis-forms, a4te-tx]
+background_check:
+  required: "yes"
+  detail:
+    en: The petition must include a legible, complete set of fingerprints on a DPS/FBI card (Fam. Code § 45.102), and DPS runs state and FBI criminal history checks and sends the results directly to the court. Budget $47 total ($20 fingerprinting and $27 DPS/FBI fees). DPS will not resend results more than 60 days after processing them.
+    es: La petición debe incluir un juego completo y legible de huellas en una tarjeta DPS/FBI (Código de Familia § 45.102), y DPS hace revisiones de antecedentes estatales y del FBI y envía los resultados directamente al tribunal. Calcula $47 en total ($20 de huellas y $27 de tarifas de DPS/FBI). DPS no reenvía resultados después de 60 días de procesarlos.
+  sources: [fam-45-102, dps-cr65]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: |
+      Texas name change files are public court records, and there is no special sealing procedure for trans petitioners. The one statutory exception: if you participate in the Attorney General's **Address Confidentiality Program** (for survivors of family violence, sexual assault, stalking, or trafficking), you may omit your street address and the reason from the petition, and the court must keep the order confidential (§§ 45.102(c), 45.103(d)).
+    es: |
+      Los expedientes de cambio de nombre en Texas son registros judiciales públicos y no hay un procedimiento especial de sellado para personas trans. La única excepción legal: si participas en el **Programa de Confidencialidad de Domicilio** del Fiscal General (para sobrevivientes de violencia familiar, agresión sexual, acecho o trata), puedes omitir tu domicilio y la razón de la petición, y el tribunal debe mantener la orden confidencial (§§ 45.102(c), 45.103(d)).
+  sources: [fam-45-102, fam-45-103]
+minors:
+  summary:
+    en: |
+      A parent, managing conservator, or guardian files a Petition to Change the Name of a Child in the county where the child lives (Fam. Code §§ 45.001 to 45.004). If the child is **10 or older**, the petition must include the child's written consent. Every living parent whose rights have not been terminated must either join the petition or be formally served; a non-petitioning parent gets at least 20 days to answer, and a contested case goes to a hearing. If a parent cannot be located, service by publication may be needed. The judge decides based on the child's best interest. No fingerprints are required for a child. Texas bans gender-affirming medical care for minors (see the care guide), but that law does not bar a name change.
+    es: |
+      Un padre, madre, tutor o custodio presenta una Petición para cambiar el nombre de un menor en el condado donde vive el menor (Código de Familia §§ 45.001 a 45.004). Si el menor tiene **10 años o más**, la petición debe incluir su consentimiento por escrito. Todo padre con vida cuyos derechos no hayan sido terminados debe unirse a la petición o ser notificado formalmente; un padre que no firma tiene al menos 20 días para responder, y un caso con oposición va a audiencia. Si no se localiza a un padre, puede requerirse notificación por publicación. El juez decide según el mejor interés del menor. No se requieren huellas para un menor. Texas prohíbe la atención médica de afirmación de género para menores (ver la guía de atención), pero esa ley no impide un cambio de nombre.
+  sources: [fam-45-002, fam-45-004, a4te-tx]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the district clerk's office or electronically through eFileTexas.gov. The fingerprint card for DPS goes by mail.
+    es: Presenta en persona en la oficina del secretario de distrito o electrónicamente por eFileTexas.gov. La tarjeta de huellas para DPS se envía por correo.
+  sources: [tsll-adults, travis-forms, dps-cr65]
+timeline:
+  en: Plan on roughly 1 to 3 months from fingerprinting to a signed order, depending on how fast DPS returns results and how your county schedules name changes.
+  es: Calcula entre 1 y 3 meses desde la toma de huellas hasta la orden firmada, según qué tan rápido DPS devuelva los resultados y cómo programe tu condado los cambios de nombre.
+after:
+  en: |
+    1. **Social Security** first (free; bring a certified copy and photo ID). The name changes; the sex field currently cannot.
+    2. **Texas DPS** driver's license or ID within 30 days: in person, bring the certified order, $11 replacement fee. The sex marker cannot be changed (see the driver's license guide).
+    3. **Birth certificate**: if you were born in Texas, mail DSHS form VS-170 with a certified copy of the order ($15 plus $22 per copy). Only the name can change. If you were born elsewhere, follow your birth state's rules.
+    4. **Passport** (name only), bank, employer, insurance, voter registration, school records.
+  es: |
+    1. **Seguro Social** primero (gratis; lleva una copia certificada e identificación con foto). El nombre cambia; el campo de sexo actualmente no.
+    2. **Licencia o identificación de DPS** dentro de 30 días: en persona, con la orden certificada y $11 de reemplazo. El marcador de sexo no se puede cambiar (ver la guía de licencia).
+    3. **Acta de nacimiento**: si naciste en Texas, envía a DSHS el formulario VS-170 con una copia certificada de la orden ($15 más $22 por copia). Solo cambia el nombre. Si naciste en otro estado, sigue las reglas de ese estado.
+    4. **Pasaporte** (solo nombre), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: Ask for a name-only order. Advocates report DPS has refused orders that also mention a gender marker change, even for the name part.
+    es: Pide una orden solo de nombre. Organizaciones de apoyo informan que DPS ha rechazado órdenes que también mencionan un cambio de marcador de género, incluso para el nombre.
+  - en: Get fingerprinted before you file so you can mail the DPS card the same day you receive your file-stamped petition. DPS will not resend results after 60 days.
+    es: Toma tus huellas antes de presentar para que puedas enviar la tarjeta a DPS el mismo día que recibas la petición sellada. DPS no reenvía resultados después de 60 días.
+  - en: County law libraries (Harris County at 1019 Congress St, Houston; Travis County in Austin) help people fill out the forms for free, though they cannot give legal advice.
+    es: Las bibliotecas legales de los condados (Harris en 1019 Congress St, Houston; Travis en Austin) ayudan gratis a llenar los formularios, aunque no pueden dar asesoría legal.
+local_help:
+  - id: lone-star-legal-aid
+    name: Lone Star Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income residents of Houston and East and Southeast Texas. Apply by phone at 713-652-0077 or 800-733-8394.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos de Houston y el este y sureste de Texas. Solicita por teléfono al 713-652-0077 o al 800-733-8394.
+    url: https://www.lonestarlegal.org/
+    phone: "713-652-0077"
+    address: 1415 Fannin Street, Houston, TX 77002
+    cost: free
+    verification: org_website
+    sources: [lsla]
+  - id: legal-aid-nwtx
+    name: Legal Aid of NorthWest Texas
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal services in 114 North and West Texas counties, including Dallas and Tarrant. Legal Aid Line 888-529-5277.
+      es: Servicios legales civiles gratuitos en 114 condados del norte y oeste de Texas, incluidos Dallas y Tarrant. Línea de Ayuda Legal 888-529-5277.
+    url: https://legalaidtx.org/
+    phone: "888-529-5277"
+    cost: free
+    verification: org_website
+    sources: [lanwt]
+  - id: dallas-lgbt-bar
+    name: Dallas LGBT Bar Association, name and gender marker clinics
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Volunteer lawyers and law students who occasionally hold free name change clinics in North Texas. Check the website for the next date.
+      es: Abogados voluntarios y estudiantes de derecho que ocasionalmente organizan clínicas gratuitas de cambio de nombre en el norte de Texas. Consulta el sitio web para la próxima fecha.
+    url: https://dlgbtba.org/
+    cost: free
+    verification: community_reported
+    sources: [a4te-tx, dlgbtba]
+  - id: harris-law-library
+    name: Harris County Robert W. Hainsworth Law Library
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Public law library with an adult name change packet and staff who help you find and fill out forms (no legal advice). 1019 Congress St, Houston; 713-755-5183; weekdays 8 am to 5 pm.
+      es: Biblioteca legal pública con un paquete de cambio de nombre para adultos y personal que te ayuda a encontrar y llenar formularios (sin asesoría legal). 1019 Congress St, Houston; 713-755-5183; entre semana de 8 am a 5 pm.
+    url: https://www.harriscountylawlibrary.org/adult-name-change
+    phone: "713-755-5183"
+    address: 1019 Congress Street, Houston, TX 77002
+    cost: free
+    verification: official_source
+    sources: [harris-law-library]
+  - id: trans-lifeline-microgrants
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Peer-support hotline (877-565-8860) that also offers microgrants for name change and ID costs when funding allows.
+      es: Línea de apoyo entre pares (877-565-8860) que también ofrece microsubvenciones para costos de cambio de nombre e identificación cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: Tex. Fam. Code ch. 45, subch. B (§§ 45.101 to 45.106)
+    title:
+      en: Change of name of adult; petition contents, fingerprints, criminal history limits
+    url: https://statutes.capitol.texas.gov/Docs/FA/htm/FA.45.htm
+  - cite: Tex. Fam. Code ch. 45, subch. A (§§ 45.001 to 45.004)
+    title:
+      en: Change of name of child; consent of a child 10 or older
+    url: https://statutes.capitol.texas.gov/Docs/FA/htm/FA.45.htm
+  - cite: Tex. R. Civ. P. 145
+    title:
+      en: Payment of costs not required (Statement of Inability)
+    url: https://www.txcourts.gov/rules-forms/rules-standards/
+related_links:
+  - title: TexasLawHelp.org, I want to change my name
+    url: https://texaslawhelp.org/guide/i-want-to-change-my-name
+    note:
+      en: Official statewide self-help forms and instructions (Texas Legal Services Center).
+      es: Formularios e instrucciones oficiales de autoayuda a nivel estatal (Texas Legal Services Center).
+  - title: Advocates for Trans Equality, Texas identity documents
+    url: https://transequality.org/documents/texas-identity-documents
+    note:
+      en: Last updated August 2025.
+      es: Actualizado en agosto de 2025.
+  - title: Texas State Law Library, Name changes for adults
+    url: https://guides.sll.texas.gov/name-changes/adults
+sources:
+  - id: fam-45-102
+    url: https://texas.public.law/statutes/tex._fam._code_section_45.102
+    title: Tex. Fam. Code § 45.102, Requirements of petition (adult)
+    publisher: Public.Law (text of the Texas Family Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A legible and complete set of the petitioner's fingerprints on a fingerprint card format acceptable to the Department of Public Safety and the Federal Bureau of Investigation.
+  - id: fam-45-103
+    url: https://texas.public.law/statutes/tex._fam._code_section_45.103
+    title: Tex. Fam. Code § 45.103, Order (adult)
+    publisher: Public.Law (text of the Texas Family Code)
+    kind: statute
+    accessed: "2026-09-24"
+  - id: fam-45-002
+    url: https://texas.public.law/statutes/tex._fam._code_section_45.002
+    title: Tex. Fam. Code § 45.002, Requirements of petition (child)
+    publisher: Public.Law (text of the Texas Family Code)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the child is 10 years of age or older, the petition must include the child's written consent to the change of name.
+  - id: fam-45-004
+    url: https://texas.public.law/statutes/tex._fam._code_section_45.004
+    title: Tex. Fam. Code § 45.004, Order (child)
+    publisher: Public.Law (text of the Texas Family Code)
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dps-cr65
+    url: https://www.dps.texas.gov/internetforms/Forms/CR-65.pdf
+    title: CR-65, Submission of fingerprint cards to DPS/FBI for adult legal name change (rev. 01/2025)
+    publisher: Texas Department of Public Safety
+    kind: form
+    accessed: "2026-09-24"
+    quote: The fee for this fingerprinting service is $20.00, includes two fingerprint cards. DPS charges a $15.00 fee and the FBI a $12.00 fee.
+  - id: tlh-petition-form
+    url: https://texaslawhelp.org/form/petition-to-change-the-name-of-an-adult-0
+    title: Petition to Change the Name of an Adult (FM-NCA-100)
+    publisher: TexasLawHelp.org
+    kind: form
+    accessed: "2026-09-24"
+  - id: tlh-guide
+    url: https://texaslawhelp.org/guide/i-want-to-change-my-name
+    title: I want to change my name
+    publisher: TexasLawHelp.org
+    kind: official
+    accessed: "2026-09-24"
+  - id: tsll-adults
+    url: https://guides.sll.texas.gov/name-changes/adults
+    title: Name changes, adults
+    publisher: Texas State Law Library
+    kind: official
+    accessed: "2026-09-24"
+    quote: Two fingerprint cards are required, one for the petition and one for the Texas Department of Public Safety.
+  - id: efile-selfhelp
+    url: https://selfhelp.efiletexas.gov/SRL/SRL/
+    title: eFileTexas Self-Help (guided forms)
+    publisher: Texas Office of Court Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: travis-forms
+    url: https://lawlibrary.traviscountytx.gov/forms/adult-name-change
+    title: Adult name change forms
+    publisher: Travis County Law Library
+    kind: official
+    accessed: "2026-09-24"
+    quote: $350.00 filing fee; judicial decision in 1 to 6 weeks.
+  - id: harris-fees
+    url: https://www.hcdistrictclerk.com/common/civil/pdf/Fee_Schedule_Civil_And_Family.pdf
+    title: Civil and family cases filing and service fees (effective January 1, 2026; updated July 15, 2026)
+    publisher: Harris County District Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change, Minor and Adult: $350.00. Certified Copy/Raised Seal: $5.00 each."
+  - id: dallas-fees
+    url: https://www.dallascounty.org/Assets/uploads/docs/district-clerk/fee-schedules/2024-CIVIL-FILING-FEES-WPD.pdf
+    title: District civil and family court filing fees (effective January 1, 2024)
+    publisher: Dallas County District Clerk
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Name Change of Adult or Child: $350.00"
+  - id: txcourts-soi
+    url: https://www.txcourts.gov/media/1456942/statement-of-inability-to-afford-payment-of-court-costs-or-an-appeal-bond-bilingual.pdf
+    title: Statement of Inability to Afford Payment of Court Costs or an Appeal Bond (bilingual), Misc. Docket No. 22-9090
+    publisher: Supreme Court of Texas
+    kind: form
+    accessed: "2026-09-24"
+  - id: trcp-145
+    url: https://www.txcourts.gov/rules-forms/rules-standards/
+    title: Texas Rules of Civil Procedure (Rule 145)
+    publisher: Texas Judicial Branch
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: a4te-tx
+    url: https://transequality.org/documents/texas-identity-documents
+    title: Texas identity documents (last updated August 2025)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: DPS may also refuse to accept court orders combining name and gender marker changes, even for just a name change.
+  - id: dlgbtba
+    url: https://dlgbtba.org/
+    title: Dallas LGBT Bar Association
+    kind: org
+    accessed: "2026-09-24"
+  - id: harris-law-library
+    url: https://www.harriscountylawlibrary.org/adult-name-change
+    title: Adult name change
+    publisher: Harris County Robert W. Hainsworth Law Library
+    kind: official
+    accessed: "2026-09-24"
+  - id: lsla
+    url: https://www.lonestarlegal.org/
+    title: Lone Star Legal Aid
+    kind: org
+    accessed: "2026-09-24"
+  - id: lanwt
+    url: https://legalaidtx.org/
+    title: Legal Aid of NorthWest Texas
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
