@@ -1,0 +1,204 @@
+jurisdiction: WY
+slug: cheyenne
+name: Cheyenne
+area:
+  en: Laramie County
+  es: Condado de Laramie
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Cheyenne chosen over Laramie because Wyoming Equality (statewide LGBTQ+ org) and Legal Aid of Wyoming's
+    administrative office are in Cheyenne; the UW LGBTQ+ Resource Center page in Laramie returned 404. Court address
+    and phone from the Wyoming Judicial Branch court page. Not verified: Cheyenne Health and Wellness Center (FQHC;
+    website chwcwy.org "under construction"), Cheyenne-Laramie County Health Department (laramiecountywy.gov returned
+    403), PFLAG Cheyenne and Cheyenne Pride (sites did not load). There are very few in-person trans-specific services
+    in Cheyenne; the list leans on statewide and telehealth resources. Reviewer: add a local sexual health clinic and
+    FQHC once confirmed.
+intro:
+  en: >-
+    Cheyenne is Wyoming's capital and largest city. Name change petitions for Laramie County residents are filed at
+    the First Judicial District Court downtown. Wyoming Equality's office is here and can connect you with affirming
+    local providers privately. Most hormone care for Cheyenne residents comes through telehealth or the Wellspring
+    clinic in Casper.
+  es: >-
+    Cheyenne es la capital y la ciudad más grande de Wyoming. Las peticiones de cambio de nombre de residentes del
+    condado de Laramie se presentan en el Tribunal del Primer Distrito Judicial en el centro. La oficina de Wyoming
+    Equality está aquí y puede conectarte en privado con proveedores afirmativos locales. La mayoría de la atención
+    hormonal para residentes de Cheyenne llega por telesalud o por la clínica Wellspring en Casper.
+court:
+  name: District Court, First Judicial District, Laramie County
+  url: https://www.wyocourts.gov/court/district-court-1st-judicial-district-laramie-county/
+  self_help_url: https://www.wyocourts.gov/legal-help-by-topic/adult-name-change/
+  filing_fee: 160
+  notes:
+    en: 309 West 20th Street, Room 3205, Cheyenne. Clerk's office 307-633-4270, districtcourtlc@laramiecountywy.gov. The statewide filing fee is $160; confirm any extra charges with the clerk. Clerks cannot fill out forms for you.
+    es: 309 West 20th Street, Sala 3205, Cheyenne. Secretaría 307-633-4270. La tarifa estatal es de $160; confirma cargos adicionales con la secretaría. Los secretarios no pueden llenar formularios por ti.
+  sources: [laramie-district-court, ws-5-3-206]
+resources:
+  - id: wyoming-equality
+    name: Wyoming Equality
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: Statewide LGBTQ+ organization headquartered in Cheyenne. Private referrals to affirming doctors and therapists, help with name change paperwork, and connections to local Pride and PFLAG groups. Office hours Monday to Friday, 9 am to noon and 1 to 5 pm; appointments recommended.
+      es: Organización estatal LGBTQ+ con sede en Cheyenne. Referencias privadas a médicos y terapeutas afirmativos, ayuda con trámites de cambio de nombre y conexión con grupos locales de Pride y PFLAG. Lunes a viernes, 9 am a mediodía y 1 a 5 pm; se recomienda cita.
+    url: https://www.wyomingequality.org/
+    phone: "307-222-8178"
+    address: 110 E. Lincolnway, Unit B, Cheyenne, WY 82001
+    cost: free
+    verification: org_website
+    sources: [wyoming-equality]
+  - id: legal-aid-wyoming-cheyenne
+    name: Legal Aid of Wyoming, Cheyenne office
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income residents. Call the hotline 1-877-432-9955 (Monday to Friday, 9 am to 4 pm) or apply online; local office 307-432-0807.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos. Llama a la línea 1-877-432-9955 (lunes a viernes, 9 am a 4 pm) o solicita en línea; oficina local 307-432-0807.
+    url: https://www.lawyoming.org/contact/
+    phone: "307-432-0807"
+    address: 2617 E. Lincolnway, Ste. K, Cheyenne, WY 82001
+    cost: free
+    verification: org_website
+    sources: [law-contact]
+  - id: wy-free-legal-answers
+    name: Wyoming Free Legal Answers
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Ask a volunteer Wyoming lawyer a written question online for free if you qualify by income.
+      es: Haz una pregunta por escrito a un abogado voluntario de Wyoming en línea, gratis si calificas por ingresos.
+    url: https://wyoming.freelegalanswers.org/
+    cost: free
+    verification: official_source
+    sources: [nca-packet]
+  - id: wdh-cdu
+    name: Wyoming Department of Health, Communicable Disease Unit (Cheyenne)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: State HIV, STI, and hepatitis program based in Cheyenne; call to find free or low-cost testing, PrEP help, and HIV case management. 307-777-7656 or 866-571-0944.
+      es: Programa estatal de VIH, ITS y hepatitis con sede en Cheyenne; llama para encontrar pruebas gratis o de bajo costo, ayuda con PrEP y manejo de casos de VIH. 307-777-7656 o 866-571-0944.
+    url: https://health.wyo.gov/publichealth/communicable-disease-unit/
+    phone: "307-777-7656"
+    address: 122 West 25th Street, 3rd Floor West, Cheyenne, WY 82002
+    cost: free
+    verification: official_source
+    sources: [wdh-cdu]
+  - id: wellspring
+    name: Wellspring Health Access (Casper; telehealth available)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: The nearest clinic that publicly lists gender-affirming hormone therapy; also STI testing, PrEP, and help with document changes, with financial assistance. About three hours from Cheyenne; ask about telehealth visits. 307-224-7851.
+      es: La clínica más cercana que ofrece públicamente terapia hormonal de afirmación de género; también pruebas de ITS, PrEP y ayuda con documentos, con asistencia financiera. Pregunta por visitas de telesalud. 307-224-7851.
+    url: https://wellspringaccess.org/service/gender-affirming-care/
+    phone: "307-224-7851"
+    address: 918 E. 2nd St, Casper, WY 82601
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [wellspring-gac]
+  - id: queerdoc-wy
+    org: queerdoc
+    name: QueerDoc (telehealth)
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming hormone therapy for adults in Wyoming, informed consent.
+      es: Terapia hormonal de afirmación de género por telesalud para adultos en Wyoming, con consentimiento informado.
+    url: https://queerdoc.com/
+    telehealth: true
+    cost: paid
+    verification: org_website
+    sources: [queerdoc]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Locator for federally funded health centers in and around Cheyenne that charge on a sliding scale; ask whether a provider prescribes hormones for adults.
+      es: Localizador de centros de salud con fondos federales en Cheyenne y alrededores que cobran en escala móvil; pregunta si algún proveedor receta hormonas para adultos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people. 877-565-8860, English and Spanish.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860, inglés y español.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: laramie-district-court
+    url: https://www.wyocourts.gov/court/district-court-1st-judicial-district-laramie-county/
+    title: District Court, 1st Judicial District, Laramie County
+    publisher: Wyoming Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Physical Location 309 West 20th Street, Room 3205 Cheyenne ... Voice: 307.633.4270"
+  - id: ws-5-3-206
+    url: https://wyoleg.gov/statutes/compress/title05.pdf
+    title: W.S. 5-3-206, District court clerk fees
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: wyoming-equality
+    url: https://www.wyomingequality.org/
+    title: Wyoming Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: law-contact
+    url: https://www.lawyoming.org/contact/
+    title: Contact info and locations
+    publisher: Legal Aid of Wyoming
+    kind: org
+    accessed: "2026-09-24"
+  - id: nca-packet
+    url: https://www.wyocourts.gov/app/uploads/2025/12/Full-Packet-Adult-Name-Change.pdf
+    title: Full Packet, Adult Name Change (lists free legal help resources)
+    publisher: Wyoming Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: wdh-cdu
+    url: https://health.wyo.gov/publichealth/communicable-disease-unit/
+    title: Communicable Disease Unit
+    publisher: Wyoming Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: wellspring-gac
+    url: https://wellspringaccess.org/service/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Wellspring Health Access
+    kind: org
+    accessed: "2026-09-24"
+  - id: queerdoc
+    url: https://queerdoc.com/
+    title: QueerDoc
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

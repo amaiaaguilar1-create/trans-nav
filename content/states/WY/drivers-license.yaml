@@ -1,0 +1,209 @@
+guide_type: drivers_license
+jurisdiction: WY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Sex-marker policy could not be confirmed from a primary source. What was checked 2026-09-24: (1) WYDOT's Forms
+    pages (applications, general, medical/vision) no longer list the "Gender Designation Change Request Form" that
+    A4TE's undated Wyoming page describes (signed by the applicant and a physician, therapist, counselor, psychiatric
+    social worker, or other medical or social service provider); (2) the current DL/ID application (10-4003, R05/25)
+    has no sex field; (3) the Add/Change Information page covers address, name, and organ donor changes only;
+    (4) W.S. 8-1-110 (2025 HB 32, effective March 14, 2025) defines "sex" as biological sex at birth "with respect to
+    the application of a person's biological sex under any law or rule and regulation in this state." MAP's Wyoming
+    profile scores the driver's license marker as 0 (no positive policy) and does NOT list a negative law, unlike the
+    birth certificate. No 2025 or 2026 bill amending driver license statutes on sex was found in the wyoleg.gov bill
+    list (HB 30 of 2025, driver's license revisions, does not mention sex). W.S. 31-7-111 (license application),
+    31-7-115 (license contents), and 31-8-102 (ID card contents) require the card to show "sex", which W.S. 8-1-110
+    now defines as sex at birth; this is the legal basis for treating the status as doubtful. Reviewer: call WYDOT Driver Services
+    (307-777-4800) and ask whether sex-marker changes are processed and on what documents, and whether existing
+    changed markers are being reissued. Name-change process and fees are confirmed on WYDOT pages.
+status: unclear
+requirement_type: unclear
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    You can update your name on a Wyoming license or ID in person with a court order. Changing the sex marker is
+    unclear: WYDOT no longer posts its old gender-change form, and a 2025 law defines sex as sex at birth for all
+    Wyoming laws and rules. There is no X option. Call WYDOT before you go.
+  es: >-
+    Puedes actualizar tu nombre en la licencia o identificación de Wyoming en persona con una orden judicial.
+    Cambiar el marcador de sexo no está claro: WYDOT ya no publica su antiguo formulario de cambio de género y una ley
+    de 2025 define el sexo como el sexo al nacer para todas las leyes y reglamentos de Wyoming. No hay opción X.
+    Llama a WYDOT antes de ir.
+summary:
+  en: |
+    **Name**: you must appear in person at any Wyoming driver exam office, surrender your current card, and show legal proof of the new name (a certified court order). Update Social Security first: WYDOT checks your new name and date of birth with SSA and will not issue the card if they do not match. You pay the standard renewal fee.
+
+    **Sex marker**: before 2025, WYDOT changed the marker on a "Gender Designation Change Request Form" signed by you and a medical or social service provider. That form is no longer on WYDOT's forms pages, and HB 32 (2025, W.S. 8-1-110) now says that whenever any Wyoming law or rule applies a person's sex, it means biological sex at birth. WYDOT has not published a current written policy. Assume a change may be refused, and call Driver Services at 307-777-4800 to ask before paying for a visit. Wyoming cards show only M or F.
+  es: |
+    **Nombre**: debes ir en persona a cualquier oficina de exámenes de conducir de Wyoming, entregar tu tarjeta actual y mostrar prueba legal del nuevo nombre (una orden judicial certificada). Actualiza primero el Seguro Social: WYDOT verifica tu nombre y fecha de nacimiento con el SSA. Pagas la tarifa de renovación estándar.
+
+    **Marcador de sexo**: antes de 2025, WYDOT cambiaba el marcador con un "Formulario de Solicitud de Cambio de Designación de Género" firmado por ti y un proveedor médico o de servicios sociales. Ese formulario ya no aparece en las páginas de WYDOT, y la ley HB 32 (2025, W.S. 8-1-110) establece que cuando cualquier ley o reglamento de Wyoming aplique el sexo de una persona, significa el sexo biológico al nacer. WYDOT no ha publicado una política escrita actual. Llama a Servicios al Conductor al 307-777-4800 antes de ir.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Wyoming driver's license or ID card. You cannot hold both a license and an ID at the same time.
+    es: Debes tener o solicitar una licencia o identificación de Wyoming. No puedes tener ambas al mismo tiempo.
+  sources: [wydot-id, wydot-change]
+forms:
+  - id: 10-4003
+    name:
+      en: Driver License / Identification Card Application
+      es: Solicitud de licencia de conducir / tarjeta de identificación
+    url: https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Forms/10-4003_Credential_Application_v2_20250506.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Write your new legal name exactly as it appears on your court order and your updated Social Security record.
+        - List your previous legal names in the "other legal names" box.
+        - The form has no sex field; the examiner handles the record at the counter.
+      es: |
+        - Escribe tu nuevo nombre legal exactamente como aparece en tu orden judicial y en tu registro actualizado del Seguro Social.
+        - Anota tus nombres legales anteriores en la casilla de otros nombres.
+        - El formulario no tiene campo de sexo.
+    sources: [wydot-app]
+steps:
+  - id: ssa-first
+    title:
+      en: Update your name with Social Security first
+      es: Actualiza primero tu nombre en el Seguro Social
+    body:
+      en: WYDOT verifies your new name and date of birth with SSA. If there is no match, you will need to bring your new Social Security card too. Wait a few days after the SSA update before going to WYDOT.
+      es: WYDOT verifica tu nuevo nombre y fecha de nacimiento con el SSA. Si no coinciden, tendrás que llevar tu nueva tarjeta de Seguro Social. Espera unos días después de actualizar el SSA.
+    applies_to: [name_change]
+    sources: [wydot-change]
+  - id: call-about-marker
+    title:
+      en: If you want to change the sex marker, call WYDOT first
+      es: Si quieres cambiar el marcador de sexo, llama primero a WYDOT
+    body:
+      en: Call Driver Services at 307-777-4800 (Monday to Friday, 8 am to 5 pm) and ask whether a sex-marker change is possible and what documents are accepted. Write down the date and the name of the person you spoke with. If you are refused, contact the ACLU of Wyoming.
+      es: Llama a Servicios al Conductor al 307-777-4800 (lunes a viernes, 8 am a 5 pm) y pregunta si es posible cambiar el marcador de sexo y qué documentos aceptan. Anota la fecha y el nombre de quien te atendió. Si te lo niegan, contacta a la ACLU de Wyoming.
+    applies_to: [gender_marker]
+    optional: true
+    sources: [wydot-faq, ws-8-1-110]
+  - id: visit
+    title:
+      en: Visit a driver exam office
+      es: Visita una oficina de exámenes de conducir
+    body:
+      en: Bring your current Wyoming card (you must surrender it), a certified copy of your name change order, and the completed application. You will be photographed and sign again. Pay by check, money order, or cash (cards accepted at some offices for an extra fee).
+      es: Lleva tu tarjeta actual de Wyoming (debes entregarla), una copia certificada de tu orden de cambio de nombre y la solicitud llena. Te toman una foto nueva y firmas otra vez. Paga con cheque, giro postal o efectivo.
+    forms: [10-4003]
+    fees: [dl-renewal, id-card]
+    applies_to: [in_person]
+    sources: [wydot-change, wydot-faq]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: The new license (valid five years) or ID arrives by mail in about 4 to 6 weeks.
+      es: La nueva licencia (válida cinco años) o identificación llega por correo en unas 4 a 6 semanas.
+    estimated_time:
+      en: 4 to 6 weeks
+      es: 4 a 6 semanas
+    sources: [wydot-change]
+fees:
+  - id: dl-renewal
+    label:
+      en: Driver's license, Class C (standard renewal fee, charged for a name change)
+      es: Licencia de conducir, Clase C (tarifa de renovación estándar, se cobra por cambio de nombre)
+    amount: 35
+    sources: [wydot-faq, wydot-change]
+  - id: id-card
+    label:
+      en: ID card
+      es: Tarjeta de identificación
+    amount: 10
+    note:
+      en: ID cards are valid for eight years.
+      es: Las tarjetas de identificación son válidas por ocho años.
+    sources: [wydot-id]
+fee_waiver:
+  available: false
+  how:
+    en: WYDOT does not publish a fee waiver. The ID card costs $10.
+    es: WYDOT no publica exención de tarifas. La tarjeta de identificación cuesta $10.
+  sources: [wydot-faq]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes must be done in person at a driver exam office. oneWYO online services cover renewals and address changes, not name changes.
+    es: Los cambios de nombre se hacen en persona. Los servicios en línea de oneWYO cubren renovaciones y direcciones, no cambios de nombre.
+  sources: [wydot-change]
+timeline:
+  en: One office visit, then 4 to 6 weeks for the card by mail.
+  es: Una visita a la oficina y luego 4 a 6 semanas para recibir la tarjeta por correo.
+after:
+  en: |
+    Your license is the ID most places check first. As of September 2026, the US passport and Social Security record also cannot show a changed sex marker, so for now most trans Wyomingites can update only their **name** across documents. Keep certified copies of your court order for banks, employers, and your county clerk (voter registration).
+  es: |
+    Tu licencia es la identificación que más se revisa. A septiembre de 2026, el pasaporte y el registro del Seguro Social tampoco pueden mostrar un marcador de sexo cambiado, así que por ahora la mayoría de las personas trans en Wyoming solo pueden actualizar su **nombre** en sus documentos. Guarda copias certificadas de tu orden judicial.
+tips:
+  - en: Wyoming law requires you to tell WYDOT within 10 days after a legal name change (W.S. 31-7-137).
+    es: La ley de Wyoming exige avisar a WYDOT dentro de 10 días después de un cambio legal de nombre (W.S. 31-7-137).
+  - en: If a marker was changed on your card before 2025, no published rule says it will be revoked, but ask WYDOT what will print at your next renewal.
+    es: Si tu marcador se cambió antes de 2025, ninguna regla publicada dice que se revocará, pero pregunta a WYDOT qué se imprimirá en tu próxima renovación.
+statutes:
+  - cite: Wyo. Stat. § 8-1-110 (2025 HB 32, What is a Woman Act)
+    title:
+      en: Defines sex as biological sex at birth for the application of any Wyoming law or rule; effective March 14, 2025
+    url: https://wyoleg.gov/Legislation/2025/HB0032
+  - cite: Wyo. Stat. §§ 31-7-111, 31-7-115, 31-8-102
+    title:
+      en: License application and license and ID card contents include the holder's "sex"
+    url: https://wyoleg.gov/statutes/compress/title31.pdf
+  - cite: Wyo. Stat. § 31-7-137
+    title:
+      en: Notice to WYDOT of change of address or name within 10 days
+    url: https://wyoleg.gov/statutes/compress/title31.pdf
+related_links:
+  - title: WYDOT Driver Services, Add/Change Information
+    url: https://www.dot.state.wy.us/home/driver_license_records/add_or_change_information.html
+  - title: Advocates for Trans Equality, Wyoming identity documents
+    url: https://transequality.org/documents/wyoming-identity-documents
+    note:
+      en: Undated; describes the pre-2025 Gender Designation Change Request Form, which WYDOT no longer lists.
+      es: Sin fecha; describe el formulario anterior a 2025, que WYDOT ya no publica.
+sources:
+  - id: wydot-change
+    url: https://www.dot.state.wy.us/home/driver_license_records/add_or_change_information.html
+    title: Add/Change Information
+    publisher: Wyoming Department of Transportation, Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Your new name and date of birth must be verified with SSA in order for us to issue you a revised driver's license or identification card.
+  - id: wydot-faq
+    url: https://www.dot.state.wy.us/home/driver_license_records/frequently-asked-questions.html
+    title: Frequently Asked Questions (fees)
+    publisher: Wyoming Department of Transportation, Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Renewal Driver License & Permit Fees: $35 - Class C or Permit ... $25 - Duplicate driver license or CDL ... $10 - Identification Card"
+  - id: wydot-id
+    url: https://www.dot.state.wy.us/home/driver_license_records/id_cards.html
+    title: ID Cards
+    publisher: Wyoming Department of Transportation, Driver Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: The cost of an identification card is $10. Identification cards are issued with an expiration date of eight years.
+  - id: wydot-app
+    url: https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Forms/10-4003_Credential_Application_v2_20250506.pdf
+    title: Form 10-4003, Driver License / Identification Card Application (R05/25)
+    publisher: Wyoming Department of Transportation
+    kind: form
+    accessed: "2026-09-24"
+  - id: ws-8-1-110
+    url: https://wyoleg.gov/statutes/compress/title08.pdf
+    title: W.S. 8-1-110, References to males and females
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Notwithstanding any other provision of law, with respect to the application of a person's biological sex under any law or rule and regulation in this state ... A person's "sex" means the person's biological sex, either male or female, at birth

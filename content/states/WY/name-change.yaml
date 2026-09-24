@@ -1,0 +1,432 @@
+guide_type: name_change
+jurisdiction: WY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from W.S. 1-25-101 to 1-25-104 and W.S. 5-3-206 (wyoleg.gov title PDFs) and the Wyoming
+    Judicial Branch adult name change packet (NCA forms, revised November 2025) and fee waiver instructions (MISC 10).
+    Open items: (1) the $160 filing fee is the statutory district court civil fee in W.S. 5-3-206(a)(i); the court
+    FAQ says fees "depend on the county", so confirm with the Laramie County clerk whether any extra charge applies;
+    (2) newspaper publication cost is not published anywhere official; the court FAQ says "several hundred dollars" in
+    some papers; (3) whether a fee waiver (MISC 11) also covers publication costs is not stated; (4) whether judges
+    will grant confidentiality/skip publication for a trans petitioner who is not a domestic abuse victim is not
+    documented; the statute ties the exception to W.S. 35-21-112 confidentiality orders. A4TE's Wyoming page
+    (undated) says you must live in the county two years before filing; that conflicts with the statute (six months
+    in Wyoming, W.S. 1-25-102) and with the court's own instructions, which say any current county of residence is
+    fine. The primary sources are used here. MAP scores Wyoming's publication rule as a negative law, consistent with
+    this guide. Wyoming Equality says it helps with name change paperwork (kota@wyomingequality.org); scope of that
+    help not confirmed.
+status: restricted
+status_summary:
+  en: >-
+    Adults who have lived in Wyoming for six months can change their name in district court, but you must publish
+    your old and new names in a local newspaper once a week for four weeks and then wait 30 days. Publication can be
+    skipped only if the court grants confidentiality because you are a victim of domestic abuse.
+  es: >-
+    Los adultos que han vivido en Wyoming seis meses pueden cambiar su nombre en el tribunal de distrito, pero deben
+    publicar su nombre anterior y el nuevo en un periódico local una vez por semana durante cuatro semanas y luego
+    esperar 30 días. La publicación solo se omite si el tribunal concede confidencialidad por ser víctima de
+    violencia doméstica.
+summary:
+  en: |
+    You file a **Petition and Affidavit for Change of Name of an Adult** (form NCA 06) with the Clerk of District Court in the county where you live now. The judge can grant the change if it is "proper and not detrimental to the interests of any other person" (W.S. 1-25-101). Gender identity is a valid reason; you write your own reason in plain words.
+
+    The hard part is **publication**: unless the court grants confidentiality (available only for domestic abuse victims), you must run a notice with your current and new names in a local newspaper once a week for four weeks, pay the newspaper, file its affidavit of publication, and wait 30 days for objections. Plan on roughly two to three months and a few hundred dollars beyond the $160 filing fee. Free legal help is available from Legal Aid of Wyoming.
+  es: |
+    Presentas una **Petición y Declaración Jurada para Cambio de Nombre de un Adulto** (formulario NCA 06) ante el Secretario del Tribunal de Distrito del condado donde vives ahora. El juez puede conceder el cambio si es "apropiado y no perjudica los intereses de otra persona" (W.S. 1-25-101). La identidad de género es una razón válida; escribes tu razón con tus propias palabras.
+
+    Lo difícil es la **publicación**: salvo que el tribunal conceda confidencialidad (solo para víctimas de violencia doméstica), debes publicar un aviso con tu nombre actual y el nuevo en un periódico local una vez por semana durante cuatro semanas, pagar al periódico, presentar su declaración de publicación y esperar 30 días por objeciones. Calcula unos dos o tres meses y algunos cientos de dólares además de la tarifa de $160.
+eligibility:
+  residency:
+    en: You must have lived in Wyoming for at least six months immediately before filing (W.S. 1-25-102). File in the district court of the county where you live now; you do not need six months in that county.
+    es: Debes haber vivido en Wyoming al menos seis meses justo antes de presentar (W.S. 1-25-102). Presenta en el tribunal de distrito del condado donde vives ahora; no necesitas seis meses en ese condado.
+  age:
+    en: 18 or older for the adult forms. A minor's name change is filed by a parent, guardian, or other adult "next friend" with the NCM forms.
+    es: 18 años o más para los formularios de adultos. El cambio de nombre de un menor lo presenta un padre, tutor u otro adulto con los formularios NCM.
+  criminal_history:
+    en: There is no fingerprinting requirement. The court will deny a change meant to avoid debts, judgments, or legal actions, or for fraud.
+    es: No se requieren huellas dactilares. El tribunal niega cambios para evadir deudas, sentencias o acciones legales, o con fines de fraude.
+  sources: [ws-1-25, nca-packet, wyocourts-adult-nc]
+forms:
+  - id: NCA 06
+    name:
+      en: Petition and Affidavit for Change of Name of an Adult
+      es: Petición y Declaración Jurada para Cambio de Nombre de un Adulto
+    url: https://www.wyocourts.gov/app/uploads/2025/12/NCA-06-Petition-for-Name-Change-adult-for-WJC-11-17-25.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - **Section 5 (reason)**: write an honest, short reason, for example "to match my gender identity and the name I use every day." No medical letter is needed.
+        - **Section 9 (only if born in Wyoming)**: choose whether a future birth certificate should be *amended* (old and new names both shown) or *reissued* (old name removed). If you choose reissue, write why it matters to you (for example, safety and privacy). This choice affects only the name, not the sex field.
+        - **Section 11**: if you are a domestic abuse victim and will ask for confidentiality, check the first box and do not write your address on the form.
+        - **Section 14**: choose whether you will publish or ask for confidentiality.
+        - Do not sign until you are in front of the clerk or a notary.
+      es: |
+        - **Sección 5 (razón)**: escribe una razón breve y honesta, por ejemplo "para que coincida con mi identidad de género y el nombre que uso a diario". No se necesita carta médica.
+        - **Sección 9 (solo si naciste en Wyoming)**: elige si el acta de nacimiento futura se *enmienda* (aparecen ambos nombres) o se *reemite* (se quita el nombre anterior). Si eliges reemitir, explica por qué es importante para ti.
+        - **Sección 11**: si eres víctima de violencia doméstica y pedirás confidencialidad, marca la primera casilla y no escribas tu dirección.
+        - **Sección 14**: indica si publicarás o pedirás confidencialidad.
+        - No firmes hasta estar frente al secretario o un notario.
+    sources: [nca-packet]
+  - id: NCA 07
+    name:
+      en: Motion for Grant of Confidentiality (with NCA 08 Affidavit and NCA 09 Order)
+      es: Moción para conceder confidencialidad (con declaración NCA 08 y orden NCA 09)
+    url: https://www.wyocourts.gov/self-help-forms/
+    required: conditional
+    condition:
+      en: Only if you are a victim of domestic abuse. If granted, your address stays confidential and you skip newspaper publication.
+      es: Solo si eres víctima de violencia doméstica. Si se concede, tu dirección es confidencial y no publicas en el periódico.
+    sources: [nca-packet]
+  - id: NCA 10
+    name:
+      en: Notice by Publication
+      es: Aviso por publicación
+    url: https://www.wyocourts.gov/self-help-forms/
+    required: conditional
+    condition:
+      en: Required unless the court grants confidentiality. Fill it in but do not sign; the clerk signs it.
+      es: Obligatorio salvo que el tribunal conceda confidencialidad. Llénalo pero no lo firmes; lo firma el secretario.
+    sources: [nca-packet]
+  - id: NCA 11
+    name:
+      en: Request to Set Hearing on Name Change
+      es: Solicitud para fijar audiencia sobre cambio de nombre
+    url: https://www.wyocourts.gov/self-help-forms/
+    required: always
+    condition:
+      en: Filed at the end to tell the court the case is ready. Bring a Notice of Hearing (NCA 12) and a proposed Order (NCA 13) with the top filled in.
+      es: Se presenta al final para avisar que el caso está listo. Lleva un Aviso de Audiencia (NCA 12) y una Orden propuesta (NCA 13) con el encabezado lleno.
+    sources: [nca-packet]
+  - id: NCA 13
+    name:
+      en: Order on Name Change, adult
+      es: Orden de cambio de nombre, adulto
+    url: https://www.wyocourts.gov/app/uploads/2025/12/NCA-13-Order-on-Name-Change-adult-for-WJC-11-17-25.pdf
+    required: always
+    condition:
+      en: Fill in only the top; the judge completes it.
+      es: Llena solo el encabezado; el juez completa el resto.
+    sources: [nca-packet]
+  - id: MISC 11
+    name:
+      en: Affidavit of Indigency and Request for Waiver of Fees (with MISC 12 Order)
+      es: Declaración de indigencia y solicitud de exención de tarifas (con orden MISC 12)
+    url: https://www.wyocourts.gov/app/uploads/2025/12/MISC-11-Affidavit-of-Indigency-and-Request-for-Waiver-of-Fees-05-25.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. There is no fee to file it.
+      es: Solo si no puedes pagar la tarifa de presentación. No cuesta presentarla.
+    sources: [misc10]
+steps:
+  - id: check-residency
+    title:
+      en: Make sure you have lived in Wyoming six months
+      es: Confirma que has vivido en Wyoming seis meses
+    body:
+      en: If you have not lived in Wyoming for the last six months in a row, the court cannot grant the change yet. Download the full adult packet (NCA 01 to NCA 15) from the Wyoming Judicial Branch self-help forms page and read NCA 01, the overview.
+      es: Si no has vivido en Wyoming los últimos seis meses seguidos, el tribunal aún no puede conceder el cambio. Descarga el paquete completo para adultos (NCA 01 a NCA 15) de la página de formularios del Poder Judicial de Wyoming y lee el NCA 01.
+    sources: [ws-1-25, nca-packet]
+  - id: fill-petition
+    title:
+      en: Fill out the petition and sign it before a notary or the clerk
+      es: Llena la petición y fírmala ante un notario o el secretario
+    body:
+      en: Complete NCA 06. Banks and libraries often notarize for free. If you cannot pay the filing fee, also fill out MISC 11 and the top of MISC 12.
+      es: Completa el NCA 06. Bancos y bibliotecas suelen notarizar gratis. Si no puedes pagar la tarifa, llena también el MISC 11 y el encabezado del MISC 12.
+    forms: [NCA 06, MISC 11]
+    sources: [nca-packet, misc10]
+  - id: file
+    title:
+      en: File with the Clerk of District Court in your county
+      es: Presenta en la Secretaría del Tribunal de Distrito de tu condado
+    body:
+      en: Pay the $160 filing fee or hand in your fee waiver request. Copies at the clerk's office cost about $1 per page, so bring your own copies. If you are asking for confidentiality, file NCA 07 (and NCA 08 if you have no current protection order) with a blank NCA 09 at the same time.
+      es: Paga la tarifa de $160 o entrega tu solicitud de exención. Las copias en la secretaría cuestan alrededor de $1 por página, así que lleva tus propias copias. Si pides confidencialidad, presenta el NCA 07 (y NCA 08 si no tienes orden de protección vigente) con un NCA 09 en blanco.
+    forms: [NCA 06, NCA 07, MISC 11]
+    fees: [filing]
+    sources: [ws-5-3-206, nca-packet]
+  - id: publish
+    title:
+      en: Publish the notice for four weeks, then wait 30 days
+      es: Publica el aviso cuatro semanas y espera 30 días
+    body:
+      en: |
+        File NCA 10 with the clerk (unsigned; the clerk signs it). Take the filed notice to a newspaper that publishes at least weekly in your county and pay its fee. The notice runs once a week for four weeks in a row. The newspaper then sends you an **Affidavit of Publisher**: file it with the clerk. Wait 30 days after the last publication for any objection.
+
+        Call two or three newspapers first and compare prices; costs vary a lot.
+      es: |
+        Presenta el NCA 10 en la secretaría (sin firmar; lo firma el secretario). Lleva el aviso a un periódico que publique al menos semanalmente en tu condado y paga su tarifa. El aviso se publica una vez por semana durante cuatro semanas seguidas. El periódico te envía una **Declaración del Editor**: preséntala en la secretaría. Espera 30 días después de la última publicación.
+    forms: [NCA 10]
+    fees: [publication]
+    estimated_time:
+      en: about 8 weeks
+      es: unas 8 semanas
+    sources: [nca-packet, ws-1-25]
+  - id: request-hearing
+    title:
+      en: Ask the court to finish the case
+      es: Pide al tribunal que termine el caso
+    body:
+      en: File NCA 11 with a Notice of Hearing (NCA 12) and a proposed Order (NCA 13), tops filled in. The judge may sign the order without a hearing or set a short hearing. If you get a notice of hearing, go; you do not need a lawyer unless someone objected.
+      es: Presenta el NCA 11 con un Aviso de Audiencia (NCA 12) y una Orden propuesta (NCA 13), con los encabezados llenos. El juez puede firmar la orden sin audiencia o fijar una audiencia breve. Si recibes aviso de audiencia, asiste.
+    forms: [NCA 11, NCA 13]
+    sources: [nca-packet]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: The filing fee includes one certified copy of the order. Ask the clerk for two or three more; the statutory charge is $1 for the first page, 50 cents for each extra page, and 50 cents per certificate.
+      es: La tarifa incluye una copia certificada de la orden. Pide dos o tres más; el cargo legal es $1 por la primera página, 50 centavos por página adicional y 50 centavos por certificado.
+    fees: [certified-copies]
+    sources: [ws-5-3-206]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (includes one certified copy of the order)
+      es: Tarifa de presentación del tribunal de distrito (incluye una copia certificada de la orden)
+    amount: 160
+    waivable: true
+    note:
+      en: Set by W.S. 5-3-206(a)(i) for all civil actions. The court website says to confirm the total with your county clerk.
+      es: Fijada por W.S. 5-3-206(a)(i) para todas las acciones civiles. Confirma el total con la secretaría de tu condado.
+    sources: [ws-5-3-206, wyocourts-adult-nc]
+  - id: publication
+    label:
+      en: Newspaper publication (four weekly notices)
+      es: Publicación en el periódico (cuatro avisos semanales)
+    varies_by: vendor
+    waivable: false
+    note:
+      en: Set by each newspaper. The court's FAQ warns some papers charge several hundred dollars. Not charged if the court grants confidentiality.
+      es: Lo fija cada periódico. El tribunal advierte que algunos cobran varios cientos de dólares. No aplica si se concede confidencialidad.
+    sources: [wyocourts-adult-nc]
+  - id: certified-copies
+    label:
+      en: Extra certified copies (per page plus certificate)
+      es: Copias certificadas adicionales (por página más certificado)
+    min: 1.5
+    waivable: false
+    note:
+      en: $1 first page, $0.50 each additional page, plus $0.50 per certificate and seal.
+      es: $1 la primera página, $0.50 cada página adicional, más $0.50 por certificado y sello.
+    sources: [ws-5-3-206]
+fee_waiver:
+  available: true
+  forms: [MISC 11]
+  eligibility:
+    en: There is no fixed income cutoff. You fill out a detailed financial affidavit under oath and a judge decides whether you can afford the fees. The judge does not have to explain the decision.
+    es: No hay un límite fijo de ingresos. Llenas una declaración financiera detallada bajo juramento y un juez decide si puedes pagar. El juez no tiene que explicar su decisión.
+  how:
+    en: File MISC 11 (Affidavit of Indigency and Request for Waiver of Fees) and a blank MISC 12 (Order) with your petition. If denied, you must pay before the case goes forward. The forms do not say whether newspaper costs are covered; assume they are not.
+    es: Presenta el MISC 11 y un MISC 12 en blanco con tu petición. Si se niega, debes pagar para continuar. Los formularios no dicen si cubren el costo del periódico; asume que no.
+  sources: [misc10]
+publication:
+  required: conditional
+  detail:
+    en: >-
+      Notice must be published "in the same manner as service by publication upon nonresidents in civil actions"
+      (W.S. 1-25-103): once a week for four consecutive weeks in a newspaper in your county, followed by a 30-day
+      wait. The only exception for adults is a court confidentiality order under W.S. 35-21-112 or another order
+      protecting your address, which the court forms offer only to domestic abuse victims. There is no exception for
+      gender identity or general safety concerns.
+    es: >-
+      El aviso debe publicarse "de la misma manera que la notificación por edictos a no residentes en acciones
+      civiles" (W.S. 1-25-103): una vez por semana durante cuatro semanas seguidas en un periódico del condado, y
+      luego 30 días de espera. La única excepción para adultos es una orden de confidencialidad, que los formularios
+      ofrecen solo a víctimas de violencia doméstica. No hay excepción por identidad de género.
+  waiver_available: true
+  waiver_how:
+    en: File NCA 07 (Motion for Grant of Confidentiality) with a copy of your protection order, or with NCA 08 (Affidavit) describing the abuse if you have no current order. If the court grants it, you skip publication.
+    es: Presenta el NCA 07 con copia de tu orden de protección, o con el NCA 08 describiendo el abuso si no tienes orden vigente. Si se concede, no publicas.
+  sources: [ws-1-25, nca-packet]
+hearing:
+  required: conditional
+  detail:
+    en: A hearing is required if someone objects. Otherwise the judge may sign the order without one or may choose to hold one; you ask for it with NCA 11.
+    es: Hay audiencia si alguien presenta objeción. Si no, el juez puede firmar la orden sin audiencia o decidir celebrar una.
+  sources: [nca-packet]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprints or background check. You swear under penalty of perjury that the change is proper and not harmful to anyone.
+    es: No se requieren huellas ni verificación de antecedentes. Juras bajo pena de perjurio que el cambio es apropiado y no perjudica a nadie.
+  sources: [nca-packet]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: The case record is public, and the newspaper notice shows both names. Only your address, city, and state of residence can be kept confidential, and only through a domestic-abuse confidentiality order (W.S. 1-25-101, 1-25-103). There is no sealing procedure for gender-identity name changes.
+    es: El expediente es público y el aviso en el periódico muestra ambos nombres. Solo tu dirección puede mantenerse confidencial, y solo con una orden de confidencialidad por violencia doméstica. No hay procedimiento para sellar cambios de nombre por identidad de género.
+  sources: [ws-1-25, nca-packet]
+minors:
+  summary:
+    en: |
+      A parent, guardian, or other adult "next friend" files NCA/NCM forms for the child (NCM 08 petition, NCM 28 order). The child must have lived in Wyoming six months. Every legal parent or guardian must either sign the petition, sign a Consent of Parent, or be formally served with a summons and given the chance to object. If **all** parents and guardians sign the petition, newspaper publication is not required (W.S. 1-25-103); otherwise the petitioner can ask the court to waive publication for good cause (NCM 15 motion, NCM 16 order).
+    es: |
+      Un padre, tutor u otro adulto presenta los formularios NCM por el menor (petición NCM 08, orden NCM 28). El menor debe haber vivido en Wyoming seis meses. Cada padre o tutor legal debe firmar la petición, firmar un consentimiento o ser notificado formalmente con la oportunidad de oponerse. Si **todos** firman la petición, no se requiere publicación (W.S. 1-25-103); si no, se puede pedir al tribunal que la exima por causa justificada (NCM 15 y NCM 16).
+  sources: [ws-1-25, ncm-overview]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: File in person at the Clerk of District Court. Wyoming courts offer e-filing, but self-represented filers should ask the clerk whether it is available for name changes.
+    es: Presenta en persona en la Secretaría del Tribunal de Distrito. Pregunta si la presentación electrónica está disponible para personas sin abogado.
+  sources: [nca-packet]
+timeline:
+  en: About 2 to 3 months from filing to a signed order when publication is required (four weeks of notices plus a 30-day waiting period, plus court time).
+  es: Unos 2 a 3 meses desde la presentación hasta la orden firmada cuando se requiere publicación (cuatro semanas de avisos más 30 días de espera, más el tiempo del tribunal).
+after:
+  en: |
+    Start with **Social Security** (free; bring the certified order and photo ID). The name changes; the sex field currently cannot be changed. WYDOT requires your new name to match SSA before it issues a new card. Then the **driver's license or ID** (in person, standard renewal fee; see the driver's license guide). If you were born in Wyoming, send the certified order to **Vital Records Services** to update the name on your birth certificate ($55; see the birth certificate guide). Then your **passport** (name changes are processed; sex marker changes are not, as of September 2026), voter registration with your county clerk, bank, employer, insurance, and school records.
+  es: |
+    Empieza con el **Seguro Social** (gratis; lleva la orden certificada e identificación con foto). El nombre cambia; el campo de sexo actualmente no. WYDOT exige que tu nuevo nombre coincida con el del Seguro Social antes de emitir la tarjeta. Luego la **licencia o identificación** (en persona, tarifa de renovación estándar). Si naciste en Wyoming, envía la orden certificada a **Vital Records Services** para cambiar el nombre en tu acta ($55). Después el **pasaporte** (los cambios de nombre se procesan; los de sexo no, a septiembre de 2026), registro de votante, banco, empleador, seguro y registros escolares.
+tips:
+  - en: Call the newspaper before filing to ask the price for four weekly legal notices; smaller weekly papers in your county may be cheaper.
+    es: Llama al periódico antes de presentar para preguntar el precio de cuatro avisos legales semanales; los semanarios pequeños pueden ser más baratos.
+  - en: Court clerks cannot fill out forms for you, but Legal Aid of Wyoming (1-877-432-9955) and Wyoming Free Legal Answers can. Wyoming Equality also helps with name change paperwork.
+    es: Los secretarios no pueden llenar formularios por ti, pero Legal Aid of Wyoming (1-877-432-9955) y Wyoming Free Legal Answers sí pueden ayudar. Wyoming Equality también ayuda con los trámites.
+  - en: If you were born in Wyoming and do not want your old name on your birth certificate, choose the "reissued" option in Section 9 of the petition and explain why.
+    es: Si naciste en Wyoming y no quieres tu nombre anterior en el acta, elige la opción "reemitida" en la Sección 9 y explica por qué.
+local_help:
+  - id: legal-aid-wyoming
+    name: Legal Aid of Wyoming
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for low-income Wyoming residents. Hotline 1-877-432-9955 (Monday to Friday, 9 am to 4 pm) or apply online. Offices in Cheyenne, Casper, Gillette, and Lander.
+      es: Ayuda legal civil gratuita para residentes de bajos ingresos. Línea 1-877-432-9955 (lunes a viernes, 9 am a 4 pm) o solicita en línea.
+    url: https://www.lawyoming.org/
+    phone: "1-877-432-9955"
+    cost: free
+    verification: org_website
+    sources: [law, nca-packet]
+  - id: wy-free-legal-answers
+    name: Wyoming Free Legal Answers
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Ask a volunteer Wyoming lawyer a written question online, privately, for free if you qualify by income.
+      es: Haz una pregunta por escrito a un abogado voluntario de Wyoming en línea, de forma privada y gratis si calificas por ingresos.
+    url: https://wyoming.freelegalanswers.org/
+    cost: free
+    verification: official_source
+    sources: [nca-packet]
+  - id: wyoming-equality
+    name: Wyoming Equality, document change help
+    type: lgbtq_center
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide LGBTQ+ organization in Cheyenne with a guide to Wyoming name change forms; email kota@wyomingequality.org for help with the process. 307-222-8178.
+      es: Organización estatal LGBTQ+ en Cheyenne con una guía de formularios de cambio de nombre; escribe a kota@wyomingequality.org para recibir ayuda. 307-222-8178.
+    url: https://www.wyomingequality.org/wehap_document-changes
+    phone: "307-222-8178"
+    cost: free
+    verification: org_website
+    sources: [we-docs]
+  - id: vrap
+    name: Volunteer Reference Attorney Program (Wyoming Judicial Branch)
+    type: name_change_clinic
+    pillars: [name_change]
+    description:
+      en: Short free informational meetings with volunteer lawyers at courthouses around the state; dates are on the Judicial Branch legal services calendar.
+      es: Reuniones informativas breves y gratuitas con abogados voluntarios en tribunales del estado; las fechas están en el calendario del Poder Judicial.
+    url: https://www.wyocourts.gov/find-legal-services/
+    cost: free
+    verification: official_source
+    sources: [nca-packet]
+  - id: genderbands-wy
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Small grants for transition costs, including name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: Wyo. Stat. §§ 1-25-101 to 1-25-104
+    title:
+      en: Change of name; petition in district court of county of residence; six-month state residency; notice by publication
+    url: https://wyoleg.gov/statutes/compress/title01.pdf
+  - cite: Wyo. Stat. § 5-3-206(a)(i)
+    title:
+      en: District court civil filing fee ($160)
+    url: https://wyoleg.gov/statutes/compress/title05.pdf
+related_links:
+  - title: Wyoming Judicial Branch, Adult Name Change (forms and FAQ)
+    url: https://www.wyocourts.gov/legal-help-by-topic/adult-name-change/
+    note:
+      en: Official forms packet revised November 2025.
+      es: Paquete oficial de formularios revisado en noviembre de 2025.
+  - title: Advocates for Trans Equality, Wyoming identity documents
+    url: https://transequality.org/documents/wyoming-identity-documents
+    note:
+      en: Undated and partly out of date (lists a two-year county residency rule and pre-2025 marker policies).
+      es: Sin fecha y en parte desactualizada (menciona una residencia de dos años en el condado y políticas anteriores a 2025).
+sources:
+  - id: ws-1-25
+    url: https://wyoleg.gov/statutes/compress/title01.pdf
+    title: Wyoming Statutes Title 1, Chapter 25, Change of Name (W.S. 1-25-101 to 1-25-104)
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person petitioning for a change of name shall have been a bona fide resident of Wyoming for at least six (6) months immediately preceding filing the petition.
+  - id: ws-5-3-206
+    url: https://wyoleg.gov/statutes/compress/title05.pdf
+    title: W.S. 5-3-206, District court clerk fees
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: an original filing fee of one hundred sixty dollars ($160.00), which shall be paid by the plaintiff
+  - id: nca-packet
+    url: https://www.wyocourts.gov/app/uploads/2025/12/Full-Packet-Adult-Name-Change.pdf
+    title: Full Packet, Adult Name Change (NCA forms 01 to 15, revised November 2025)
+    publisher: Wyoming Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: The notice must be published once a week for four weeks and, after that, you must wait 30 days to see if anyone responds.
+  - id: wyocourts-adult-nc
+    url: https://www.wyocourts.gov/legal-help-by-topic/adult-name-change/
+    title: Adult Name Change, common questions and forms
+    publisher: Wyoming Judicial Branch
+    kind: official
+    accessed: "2026-09-24"
+    quote: Filing fees depend on the county where you are filing. ... This fee may be substantial (some papers charge several hundred dollars).
+  - id: misc10
+    url: https://www.wyocourts.gov/app/uploads/2025/12/MISC-10-Instructions-for-Waiver-of-Fees-05-25.pdf
+    title: MISC 10, Instructions for Waiver of Fees
+    publisher: Wyoming Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: There is no fee to file this Affidavit.
+  - id: ncm-overview
+    url: https://www.wyocourts.gov/app/uploads/2025/12/NCM-01-Overview-of-the-Process-for-Minor-Name-Change-12-25.pdf
+    title: NCM 01, Overview of the Process for a Minor Child Name Change
+    publisher: Wyoming Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: law
+    url: https://www.lawyoming.org/
+    title: Legal Aid of Wyoming
+    kind: org
+    accessed: "2026-09-24"
+  - id: we-docs
+    url: https://www.wyomingequality.org/wehap_document-changes
+    title: Learn about document changes
+    publisher: Wyoming Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

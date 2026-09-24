@@ -1,0 +1,275 @@
+jurisdiction: WY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Minors' ban text from W.S. 35-4-1001 (title35.pdf) and bill data from the wyoleg.gov bill API: 2024 SF 99
+    ("Chloe's law", chapter 113), signed March 22, 2024, effective July 1, 2024. The task brief called it "SF 99
+    (2025)"; the enacted bill is the 2024 session's SF 99. No 2025 or 2026 bill further restricting adult care or
+    Medicaid was found in the wyoleg.gov bill lists (2025 HB 115 and HB 222, "Medical Ethics Defense Act", died). No
+    litigation against the Wyoming ban was found. Medicaid exclusion quoted from the CMS-1500 Provider Manual
+    v19.0 (July 1, 2026), section 24.9: adult hormone therapy is not listed as excluded, so covers_hrt is "unclear";
+    reviewer should confirm pharmacy coverage of estradiol/testosterone for adults with a gender dysphoria diagnosis.
+    The statement that Wyoming has not expanded Medicaid is general knowledge, not confirmed from a WDH page in this
+    session. No state law bars insurance exclusions (MAP: 0/1). Wyoming Equality's find-care page lists Plume, FOLX,
+    and QueerDoc; FOLX is omitted from telehealth_hrt because the project's FOLX state list does not include WY;
+    reviewer should confirm with FOLX. Planned Parenthood of the Rocky Mountains has no Wyoming health center; its
+    pages returned 403, so telehealth availability to Wyoming residents is unconfirmed. Cheyenne Health and Wellness
+    Center's website (chwcwy.org) was "under construction" and is not listed. The UW LGBTQ+ Resource Center page
+    returned 404 (UW closed its diversity offices in 2024); not listed.
+status_summary:
+  en: >-
+    Adults can legally get hormone therapy in Wyoming, mostly through telehealth and a few clinics such as Wellspring
+    Health Access in Casper. Hormones, puberty blockers, and surgeries for gender transition are banned for anyone
+    under 18 (since July 1, 2024). Wyoming Medicaid does not cover transition surgery for anyone, and state law does
+    not stop private insurers from excluding trans care. There is no shield law.
+  es: >-
+    Los adultos pueden recibir terapia hormonal legalmente en Wyoming, sobre todo por telesalud y en pocas clínicas
+    como Wellspring Health Access en Casper. Las hormonas, los bloqueadores de pubertad y las cirugías de transición
+    están prohibidos para menores de 18 años (desde el 1 de julio de 2024). Medicaid de Wyoming no cubre cirugías de
+    transición para nadie, y la ley estatal no impide que los seguros privados excluyan la atención trans. No hay ley
+    escudo.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No Wyoming law restricts gender-affirming care for adults 18 and older. In-person options are few, so most people use **telehealth**: Plume and QueerDoc serve Wyoming, and prescribe on an informed-consent basis (no therapist letter). **Wyoming Equality** keeps a private directory of affirming local providers and will match you by request (it keeps the list private for safety).
+
+      **If you have no insurance and little money**:
+      1. Ask a **community health center** (find one at findahealthcenter.hrsa.gov). They must see you regardless of ability to pay and charge on a sliding scale; ask whether a provider will prescribe hormones.
+      2. **Wellspring Health Access** in Casper offers hormone therapy and says it can help with financial assistance.
+      3. **Point of Pride's HRT Access Fund** pays for telehealth hormone care (applications open once a year).
+      4. Generic estradiol and spironolactone are usually inexpensive with a pharmacy discount coupon; ask the pharmacy for its cash price.
+    es: |
+      Ninguna ley de Wyoming restringe la atención de afirmación de género para adultos de 18 años o más. Hay pocas opciones presenciales, así que la mayoría usa **telesalud**: Plume y QueerDoc atienden en Wyoming con consentimiento informado (sin carta de terapeuta). **Wyoming Equality** mantiene un directorio privado de proveedores afirmativos y te conecta a pedido.
+
+      **Si no tienes seguro ni mucho dinero**:
+      1. Pregunta en un **centro de salud comunitario** (findahealthcenter.hrsa.gov). Deben atenderte sin importar tu capacidad de pago y cobran en escala móvil.
+      2. **Wellspring Health Access** en Casper ofrece terapia hormonal y ayuda financiera.
+      3. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud (solicitudes una vez al año).
+      4. El estradiol y la espironolactona genéricos suelen ser baratos con un cupón de descuento; pregunta el precio en efectivo.
+  sources: [we-findcare, wellspring-gac, hrsa, pop-hrt]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Banned since July 1, 2024** (W.S. 35-4-1001, enacted by 2024 SF 99, "Chloe's law"). For anyone under 18, physicians and other licensed providers may not, for the purpose of gender transition: prescribe puberty blockers, give testosterone or estrogen at above-typical doses, perform mastectomy, or perform sterilizing or other surgeries. **Penalty**: providing this care is grounds for suspension or revocation of the provider's license.
+
+      **Exceptions**: care for a child with a medically verifiable disorder of sex development, or with central precocious puberty, with parental consent. Mental health care is still allowed, but not the banned medications.
+
+      No court has blocked the law, and Wyoming has no shield law. Some families seek care in states where it remains legal for minors. Wyoming Medicaid separately does not cover puberty blockers or hormone therapy for gender dysphoria for minors.
+    es: |
+      **Prohibida desde el 1 de julio de 2024** (W.S. 35-4-1001, promulgada por SF 99 de 2024, "Ley de Chloe"). Para menores de 18 años, los médicos y otros proveedores con licencia no pueden, con fines de transición de género: recetar bloqueadores de pubertad, dar testosterona o estrógeno en dosis superiores a las fisiológicas, realizar mastectomías ni cirugías esterilizantes u otras. **Sanción**: suspensión o revocación de la licencia del proveedor.
+
+      **Excepciones**: atención a menores con un trastorno del desarrollo sexual verificable médicamente, o con pubertad precoz central, con consentimiento de los padres. La atención de salud mental sigue permitida, pero no los medicamentos prohibidos.
+
+      Ningún tribunal ha bloqueado la ley y Wyoming no tiene ley escudo. Algunas familias buscan atención en estados donde sigue siendo legal para menores.
+  sources: [ws-35-4-1001, sf99, medicaid-manual]
+medicaid:
+  program_name: Wyoming Medicaid
+  covers_hrt: unclear
+  covers_surgery: "no"
+  detail:
+    en: |
+      Wyoming Medicaid's provider manual (section 24.9) says it "does not cover gender transition or reassignment procedures for clients regardless of age or diagnosis" and "does not cover puberty blockers or hormone therapy for gender dysphoria for minors." It does not list hormone therapy for adults as excluded, so adult hormone prescriptions may be covered; ask your prescriber and pharmacy.
+
+      **Who qualifies**: Wyoming has not expanded Medicaid, so most adults without children, a disability, or a pregnancy do not qualify no matter how low their income. Parents, pregnant people, children, and people with disabilities may qualify. Apply online at the WES portal or call 1-855-294-2127.
+    es: |
+      El manual de proveedores de Medicaid de Wyoming (sección 24.9) dice que "no cubre procedimientos de transición o reasignación de género para clientes sin importar la edad o el diagnóstico" y "no cubre bloqueadores de pubertad ni terapia hormonal para disforia de género en menores". No excluye expresamente la terapia hormonal para adultos; pregunta a tu proveedor y farmacia.
+
+      **Quién califica**: Wyoming no ha expandido Medicaid, por lo que la mayoría de los adultos sin hijos, discapacidad o embarazo no califican aunque tengan ingresos muy bajos. Solicita en el portal WES o llama al 1-855-294-2127.
+  how_to_apply_url: https://www.wesystem.wyo.gov/
+  sources: [medicaid-manual, wdh-medicaid]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      Wyoming has no state law that bars health insurers from excluding gender-affirming care, so check your plan's exclusions list. Marketplace (healthcare.gov) plans are sold in Wyoming; compare their coverage before enrolling. If a state-regulated plan denies a claim, appeal to the insurer first, then contact the Wyoming Department of Insurance, which has a complaint process and an independent medical claim review. Employer self-funded plans are federally regulated; the Trans Health Project has appeal templates.
+    es: |
+      Wyoming no tiene una ley que prohíba a las aseguradoras excluir la atención de afirmación de género; revisa las exclusiones de tu plan. Si un plan regulado por el estado niega un reclamo, apela primero con la aseguradora y luego contacta al Departamento de Seguros de Wyoming, que tiene un proceso de quejas y revisión médica independiente. Los planes autofinanciados por empleadores están regulados federalmente.
+  complaint_url: https://doi.wyo.gov/consumers
+  sources: [doi-consumers, map-wy, thp]
+telehealth_hrt: [plume, queerdoc, planned-parenthood]
+resources:
+  - id: wyoming-equality-wehap
+    name: Wyoming Equality Healthcare Access Project
+    type: lgbtq_center
+    pillars: [hrt, mental_health, sexual_health]
+    description:
+      en: Private statewide directory of LGBTQ+-affirming providers, shared on request through the find-care form, plus health education. 307-222-8178, info@WyomingEquality.org.
+      es: Directorio estatal privado de proveedores afirmativos LGBTQ+, compartido a pedido mediante el formulario de búsqueda de atención. 307-222-8178.
+    url: https://www.wyomingequality.org/findcare
+    phone: "307-222-8178"
+    cost: free
+    verification: org_website
+    sources: [we-findcare]
+  - id: wellspring
+    name: Wellspring Health Access (Casper)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Nonprofit clinic offering hormone therapy, wellness visits, STI testing and treatment, PrEP, mental health referrals, and help changing legal documents, with financial assistance available. 918 E. 2nd St, Casper; 307-224-7851; clinic@wellspringaccess.org.
+      es: Clínica sin fines de lucro con terapia hormonal, chequeos, pruebas y tratamiento de ITS, PrEP, referencias de salud mental y ayuda para cambiar documentos legales, con asistencia financiera. 918 E. 2nd St, Casper; 307-224-7851.
+    url: https://wellspringaccess.org/service/gender-affirming-care/
+    phone: "307-224-7851"
+    address: 918 E. 2nd St, Casper, WY 82601
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [wellspring-gac]
+  - id: wdh-cdu
+    name: Wyoming Department of Health, Communicable Disease Unit
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: State program for HIV, STI, and hepatitis prevention, testing, and treatment, with HIV case management in every county. Call 307-777-7656 or 866-571-0944 to find testing and PrEP help near you.
+      es: Programa estatal de prevención, pruebas y tratamiento de VIH, ITS y hepatitis, con manejo de casos de VIH en cada condado. Llama al 307-777-7656 o 866-571-0944.
+    url: https://health.wyo.gov/publichealth/communicable-disease-unit/
+    phone: "307-777-7656"
+    cost: free
+    verification: official_source
+    sources: [wdh-cdu]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally funded health centers, which see patients regardless of insurance and charge on a sliding scale. Call and ask whether a provider prescribes gender-affirming hormones for adults.
+      es: Localizador oficial de centros de salud con fondos federales, que atienden sin importar el seguro y cobran en escala móvil. Llama y pregunta si algún proveedor receta hormonas para adultos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-wy
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: HRT Access Fund (free telehealth hormone therapy for a period; applications once a year), surgery fund, and free binders and shapewear.
+      es: Fondo de Acceso a TRH (terapia hormonal por telesalud gratis por un tiempo; solicitudes una vez al año), fondo de cirugía y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-wy
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for transition costs including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para costos de transición, incluidas hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Wyo. Stat. § 35-4-1001
+    title:
+      en: Gender transitioning and reassignment procedures for children prohibited (2024 SF 99, effective July 1, 2024)
+    url: https://wyoleg.gov/Legislation/2024/SF0099
+  - cite: Wyo. Stat. § 8-1-110
+    title:
+      en: Defines sex as biological sex at birth (2025 HB 32)
+    url: https://wyoleg.gov/Legislation/2025/HB0032
+sources:
+  - id: ws-35-4-1001
+    url: https://wyoleg.gov/statutes/compress/title35.pdf
+    title: W.S. 35-4-1001, Gender transitioning and reassignment procedures for children prohibited
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "no physician or health care provider shall ... (A) Puberty suppression or blocking prescription drugs to stop or delay normal puberty; (B) Supraphysiologic doses of testosterone to females; (C) Supraphysiologic doses of estrogen to males."
+  - id: sf99
+    url: https://wyoleg.gov/Legislation/2024/SF0099
+    title: 2024 SF 99, Children gender change prohibition (Chloe's law), Chapter 113
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: providing that gender transitioning and reassignment procedures are grounds for suspension or revocation of a physician's or health care provider's license ... Signed 3/22/2024, effective 7/1/2024.
+  - id: medicaid-manual
+    url: https://wyomingmedicaid.com/portal/References/latestproviderfiles/BMS_Acentra%20Health_CMS-1500%20Provider%20Manual_N_2026.07.01_v19.0.pdf
+    title: CMS-1500 Provider Manual v19.0 (July 1, 2026), section 24.9 Gender Transition and Reassignment Procedures
+    publisher: Wyoming Medicaid
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Wyoming Medicaid does not cover gender transition or reassignment procedures for clients regardless of age or diagnosis. Wyoming Medicaid does not cover puberty blockers or hormone therapy for gender dysphoria for minors.
+  - id: wdh-medicaid
+    url: https://health.wyo.gov/healthcarefin/medicaid/
+    title: Wyoming Medicaid
+    publisher: Wyoming Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: doi-consumers
+    url: https://doi.wyo.gov/consumers
+    title: Consumers (file a complaint, independent medical claim review)
+    publisher: Wyoming Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-wy
+    url: https://www.lgbtmap.org/equality_maps/profile_state/WY
+    title: Wyoming equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Private Health Insurance Nondiscrimination Laws 0/1 ... State Medicaid Policy Related to Coverage for Transgender People: Negative Law"
+  - id: we-findcare
+    url: https://www.wyomingequality.org/findcare
+    title: Find care
+    publisher: Wyoming Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Due to threats to safety including the leaking of doctor's personal information, we keep the full directory private and offer information based on patient requests.
+  - id: wellspring-gac
+    url: https://wellspringaccess.org/service/gender-affirming-care/
+    title: Gender Affirming Care
+    publisher: Wellspring Health Access
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Some of our gender-affirming services include: Hormone Therapy, Wellness Visits And Check-ups, STI and STD Testing and Treatment, Vasectomy, PreP, Assistance with Changing Legal Documents"
+  - id: wdh-cdu
+    url: https://health.wyo.gov/publichealth/communicable-disease-unit/
+    title: Communicable Disease Unit
+    publisher: Wyoming Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

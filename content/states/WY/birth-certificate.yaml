@@ -1,0 +1,244 @@
+guide_type: birth_certificate
+jurisdiction: WY
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Status "prohibited" is an inference, not a published agency policy. Basis: W.S. 8-1-110 (2025 HB 32, effective
+    March 14, 2025) defines sex as biological sex at birth for the application of any law or rule and, in subsection
+    (d), requires any state agency that "collects vital statistics" to identify each person as male or female
+    "consistent with the person's sex at birth"; MAP's Wyoming profile (modified July 2026) scores the birth
+    certificate marker as a "Negative Law". W.S. 35-1-424 itself says nothing about sex changes. Wyoming Vital Records
+    Services' Amending a Vital Record page and 2026 Correction Form (read 2026-09-24 via WebFetch; health.wyo.gov
+    blocks curl with Cloudflare) do not mention sex or gender, and the form still says "Any item on a certificate can
+    be changed upon receipt of an original certified copy of a Court Order." Before 2025, A4TE reports VRS required a
+    court order stating the sex was changed plus a doctor's letter that surgery was completed ($16 fee, now outdated).
+    Reviewer must: (1) call VRS at 307-777-7591 to confirm whether sex amendments are refused since March 2025;
+    (2) confirm whether certificates amended before 2025 have been or will be voided (no statute or rule found that
+    voids them); (3) confirm the court-order amendment fee ($55 on the Amending page; the form shows $30 correction
+    plus $25 certified copy) and the processing time (not published).
+status: prohibited
+requirement_type: prohibited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Since March 2025, Wyoming law requires state vital statistics to record people as male or female by sex at
+    birth, so a Wyoming birth certificate's sex marker is effectively no longer changeable. You can still update the
+    name on it with a certified court order and $55.
+  es: >-
+    Desde marzo de 2025, la ley de Wyoming exige que las estadísticas vitales registren a las personas como hombre o
+    mujer según el sexo al nacer, por lo que en la práctica ya no se puede cambiar el marcador de sexo en un acta de
+    nacimiento de Wyoming. Todavía puedes actualizar el nombre con una orden judicial certificada y $55.
+summary:
+  en: |
+    **Sex marker**: HB 32 (the "What is a Woman Act," W.S. 8-1-110), in force since March 14, 2025, says that in every Wyoming law and rule "sex" means biological sex at birth, and that any state agency collecting vital statistics must identify people as male or female consistent with sex at birth. Wyoming Vital Records Services has not published a trans-specific policy, but its pages no longer describe any gender-change process, and the Movement Advancement Project classifies Wyoming as having a law against birth certificate marker changes. Before 2025 a change required a court order and proof of surgery. If you want to try, call Vital Records at 307-777-7591 before spending money on a court case.
+
+    **Name**: this still works. Send a certified copy of your Wyoming name change order with the correction form. Depending on what you chose in your petition, the certificate is either **amended** (both names shown) or **reissued** (old name removed).
+
+    Only people born in Wyoming can use this process. If you were born elsewhere, your birth state's rules apply.
+  es: |
+    **Marcador de sexo**: la HB 32 ("Ley ¿Qué es una mujer?", W.S. 8-1-110), vigente desde el 14 de marzo de 2025, dice que en toda ley y reglamento de Wyoming "sexo" significa sexo biológico al nacer, y que cualquier agencia estatal que recopile estadísticas vitales debe identificar a las personas como hombre o mujer según el sexo al nacer. Vital Records Services no ha publicado una política específica, pero sus páginas ya no describen ningún proceso de cambio de género. Antes de 2025 se requería orden judicial y prueba de cirugía. Si quieres intentarlo, llama a Vital Records al 307-777-7591 antes de gastar dinero en un caso judicial.
+
+    **Nombre**: esto todavía funciona. Envía una copia certificada de tu orden de cambio de nombre de Wyoming con el formulario de corrección. Según lo que elegiste en tu petición, el acta se **enmienda** (aparecen ambos nombres) o se **reemite** (se quita el nombre anterior).
+
+    Solo las personas nacidas en Wyoming usan este proceso. Si naciste en otro lugar, aplican las reglas de tu estado de nacimiento.
+eligibility:
+  residency:
+    en: You must have been born in Wyoming. Where you live now does not matter for the birth certificate itself.
+    es: Debes haber nacido en Wyoming. No importa dónde vivas ahora.
+  age:
+    en: The named person if 18 or older; a parent named on the record or a legal guardian (with the guardianship order) for someone under 18.
+    es: La persona nombrada si tiene 18 años o más; un padre que aparezca en el acta o un tutor legal (con la orden de tutela) para menores de 18.
+  sources: [vrs-correction-form, ws-35-1-424]
+forms:
+  - id: WDH-VRS-Correction-Form-2026
+    name:
+      en: Form to Correct a Wyoming Vital Record
+      es: Formulario para corregir un registro vital de Wyoming
+    url: https://health.wyo.gov/wp-content/uploads/2026/07/WDH-VRS-Correction-Form-2026.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Record type: Birth.
+        - "Information currently listed": copy the name, date, and place of birth and parents' names exactly as on the certificate.
+        - In the change section, write the name as it appears now and the new name exactly as in your court order.
+        - Fees box: line 1 (correction from a court-ordered action, $30) and line 4(a) for each certified copy ($25).
+        - Sign, and attach a photocopy of your government photo ID (both sides if the signature is on the back) and a certified copy of the court order (VRS keeps it).
+      es: |
+        - Tipo de registro: Nacimiento.
+        - Copia la información exactamente como aparece en el acta actual.
+        - En la sección de cambios, escribe el nombre actual y el nuevo nombre exactamente como en tu orden judicial.
+        - Tarifas: línea 1 (corrección por orden judicial, $30) y línea 4(a) por cada copia certificada ($25).
+        - Firma y adjunta copia de tu identificación con foto y una copia certificada de la orden judicial (VRS la conserva).
+    sources: [vrs-correction-form, vrs-amending]
+  - id: NCA 15
+    name:
+      en: Vital Statistics Form (from the adult name change packet)
+      es: Formulario de Estadísticas Vitales (del paquete de cambio de nombre de adultos)
+    url: https://www.wyocourts.gov/self-help-forms/
+    required: optional
+    condition:
+      en: The court packet includes a Vital Statistics form to use with your name change order; follow its instructions or use the Department of Health correction form.
+      es: El paquete del tribunal incluye un formulario de Estadísticas Vitales para usar con tu orden; sigue sus instrucciones o usa el formulario de corrección.
+    sources: [nca-packet]
+steps:
+  - id: sex-marker
+    title:
+      en: Know that the sex marker cannot currently be changed
+      es: Ten en cuenta que el marcador de sexo actualmente no se puede cambiar
+    body:
+      en: Under W.S. 8-1-110 (2025 HB 32), Wyoming records sex as sex at birth. Vital Records has no published process for gender-marker changes. If you have a court order about your sex from before March 2025 or from another court, call Vital Records (307-777-7591) and ask in advance whether they will accept it; expect a refusal.
+      es: Según W.S. 8-1-110 (HB 32 de 2025), Wyoming registra el sexo como el sexo al nacer. Vital Records no tiene un proceso publicado para cambios de marcador. Si tienes una orden judicial sobre tu sexo, llama a Vital Records (307-777-7591) y pregunta antes si la aceptarán; espera un rechazo.
+    applies_to: [gender_marker]
+    sources: [ws-8-1-110, hb32, map-wy, vrs-correction-form]
+  - id: get-order
+    title:
+      en: Get a certified copy of your Wyoming name change order
+      es: Obtén una copia certificada de tu orden de cambio de nombre de Wyoming
+    body:
+      en: See the name change guide. In Section 9 of the petition you chose whether a future birth certificate is amended (both names) or reissued (old name removed); the order says what the judge allowed.
+      es: Consulta la guía de cambio de nombre. En la Sección 9 de la petición elegiste si el acta futura se enmienda (ambos nombres) o se reemite (sin el nombre anterior); la orden indica lo que permitió el juez.
+    applies_to: [name_change]
+    sources: [nca-packet]
+  - id: fill-form
+    title:
+      en: Fill out the correction form
+      es: Llena el formulario de corrección
+    body:
+      en: Use the 2026 Form to Correct a Wyoming Vital Record. Attach a copy of your photo ID and the certified court order.
+      es: Usa el Formulario 2026 para Corregir un Registro Vital de Wyoming. Adjunta copia de tu identificación con foto y la orden judicial certificada.
+    forms: [WDH-VRS-Correction-Form-2026]
+    applies_to: [name_change]
+    sources: [vrs-correction-form]
+  - id: mail
+    title:
+      en: Mail the packet with payment
+      es: Envía el paquete por correo con el pago
+    body:
+      en: |
+        Mail to Vital Records Services, 2300 Capitol Avenue, Hathaway Building, Cheyenne, WY 82002. Amendments must be done by mail; forms and payments cannot be sent electronically. Include $55 (court-ordered amendment with one new certified copy) plus $25 for each extra copy. Questions: 307-777-7591.
+      es: |
+        Envía a Vital Records Services, 2300 Capitol Avenue, Hathaway Building, Cheyenne, WY 82002. Las enmiendas se hacen solo por correo. Incluye $55 (enmienda por orden judicial con una copia certificada nueva) más $25 por cada copia adicional. Preguntas: 307-777-7591.
+    fees: [court-order-amendment, extra-copy]
+    applies_to: [by_mail, name_change]
+    sources: [vrs-amending, vrs-home, vrs-correction-form]
+fees:
+  - id: court-order-amendment
+    label:
+      en: Court-ordered amendment, including one certified copy
+      es: Enmienda por orden judicial, con una copia certificada
+    amount: 55
+    waivable: false
+    note:
+      en: The Amending page lists $55; the correction form breaks this into a $30 court-ordered correction fee plus $25 for a certified copy.
+      es: La página indica $55; el formulario lo divide en $30 por la corrección más $25 por una copia certificada.
+    sources: [vrs-amending, vrs-correction-form]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy
+      es: Cada copia certificada adicional
+    amount: 25
+    waivable: false
+    sources: [vrs-correction-form]
+fee_waiver:
+  available: false
+  how:
+    en: Vital Records does not publish a fee waiver. Funds such as Genderbands sometimes help with document fees.
+    es: Vital Records no publica exención de tarifas. Fondos como Genderbands a veces ayudan con tarifas de documentos.
+  sources: [vrs-correction-form]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail only to Vital Records Services in Cheyenne.
+    es: Solo por correo a Vital Records Services en Cheyenne.
+  sources: [vrs-amending]
+timeline:
+  en: Vital Records does not publish a processing time for amendments; ask when you call.
+  es: Vital Records no publica el tiempo de procesamiento de enmiendas; pregunta cuando llames.
+after:
+  en: |
+    A Wyoming birth certificate with your new name helps with a passport and other agencies. It will still show the sex recorded at birth. As of September 2026, Social Security and the US passport also do not update sex markers, so you cannot currently get a matching sex marker on federal documents either. If you were born in another state, check that state's birth certificate rules; some still allow marker changes for people who live elsewhere.
+  es: |
+    Un acta de nacimiento de Wyoming con tu nuevo nombre ayuda con el pasaporte y otras agencias. Seguirá mostrando el sexo registrado al nacer. A septiembre de 2026, el Seguro Social y el pasaporte tampoco actualizan marcadores de sexo. Si naciste en otro estado, revisa las reglas de ese estado; algunos todavía permiten cambios para personas que viven en otro lugar.
+tips:
+  - en: Order extra certified copies in the same request so you do not have to apply and pay again later.
+    es: Pide copias certificadas adicionales en la misma solicitud para no tener que volver a solicitar y pagar después.
+  - en: If Vital Records refuses a request, ask for the refusal in writing and share it with the ACLU of Wyoming.
+    es: Si Vital Records rechaza una solicitud, pide el rechazo por escrito y compártelo con la ACLU de Wyoming.
+statutes:
+  - cite: Wyo. Stat. § 8-1-110 (2025 HB 32, What is a Woman Act)
+    title:
+      en: Sex means biological sex at birth; agencies collecting vital statistics must identify people as male or female consistent with sex at birth
+    url: https://wyoleg.gov/Legislation/2025/HB0032
+  - cite: Wyo. Stat. § 35-1-424
+    title:
+      en: Correction and amendment of vital records; name change by certified court order
+    url: https://wyoleg.gov/statutes/compress/title35.pdf
+related_links:
+  - title: Wyoming Vital Records Services, Amending a Vital Record
+    url: https://health.wyo.gov/admin/vitalstatistics/amending-a-vital-record/
+  - title: Advocates for Trans Equality, Wyoming identity documents
+    url: https://transequality.org/documents/wyoming-identity-documents
+    note:
+      en: Undated; describes the pre-2025 court order and surgery-letter process and a $16 fee, both outdated.
+      es: Sin fecha; describe el proceso anterior a 2025 con orden judicial y carta de cirugía y una tarifa de $16, ambos desactualizados.
+sources:
+  - id: ws-8-1-110
+    url: https://wyoleg.gov/statutes/compress/title08.pdf
+    title: W.S. 8-1-110, References to males and females; data reporting requirements
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: any state agency ... that collects vital statistics ... shall, when identification by sex is used, identify each person who is part of the collected data set as either male or female consistent with the person's sex at birth.
+  - id: hb32
+    url: https://wyoleg.gov/Legislation/2025/HB0032
+    title: 2025 HB 32, What is a Woman Act (Chapter 146, effective March 14, 2025)
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ws-35-1-424
+    url: https://wyoleg.gov/statutes/compress/title35.pdf
+    title: W.S. 35-1-424, Correction and amendment of vital records
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of a court order changing the name of a person born in this state ... the state registrar of vital records shall amend the certificate to reflect the new name
+  - id: vrs-amending
+    url: https://health.wyo.gov/admin/vitalstatistics/amending-a-vital-record/
+    title: Amending a Vital Record
+    publisher: Wyoming Department of Health, Vital Records Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: All amendments must be done through the mail, forms and payments may not be sent electronically.
+  - id: vrs-home
+    url: https://health.wyo.gov/admin/vitalstatistics/
+    title: Vital Records Services
+    publisher: Wyoming Department of Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: vrs-correction-form
+    url: https://health.wyo.gov/wp-content/uploads/2026/07/WDH-VRS-Correction-Form-2026.pdf
+    title: Form to Correct a Wyoming Vital Record (WDH-VRS-Correction-Form-2026)
+    publisher: Wyoming Department of Health, Vital Records Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: "1. Correction from a Delayed or Court Ordered Action $30.00 ... 4. (a) Certified Copy of a Certificate $25.00"
+  - id: nca-packet
+    url: https://www.wyocourts.gov/app/uploads/2025/12/Full-Packet-Adult-Name-Change.pdf
+    title: Full Packet, Adult Name Change (NCA forms, revised November 2025)
+    publisher: Wyoming Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: map-wy
+    url: https://www.lgbtmap.org/equality_maps/profile_state/WY
+    title: Wyoming equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Changing Gender Marker on Birth Certificates: Negative Law"

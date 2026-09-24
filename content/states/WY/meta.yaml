@@ -1,0 +1,141 @@
+code: WY
+name:
+  en: Wyoming
+  es: Wyoming
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings are based on W.S. 8-1-110 (2025 HB 32, "What is a Woman Act"), W.S. 35-4-1001 (2024 SF 99,
+    minors' care ban), the Wyoming Medicaid CMS-1500 manual section 24.9, and the Movement Advancement Project's
+    Wyoming profile (read 2026-09-24). No Wyoming shield law exists. Reviewer: confirm current WYDOT and Vital Records
+    practice on sex-marker changes (see those guides' notes).
+overview:
+  en: >-
+    Wyoming is a restrictive state for trans people. A 2025 law (HB 32, W.S. 8-1-110) defines "sex" in every
+    Wyoming law and rule as biological sex at birth and tells state agencies that keep vital statistics to record
+    people as male or female by sex at birth, so changing the sex marker on a Wyoming birth certificate is
+    effectively no longer possible and the driver's license policy is unclear. Name changes are allowed but require
+    four weeks of newspaper publication for most adults. Gender-affirming medical care is banned for people under 18
+    (since July 1, 2024), Wyoming Medicaid does not cover transition surgery, and there is no shield law. Adults can
+    still get hormone therapy, mostly through telehealth and a few clinics.
+  es: >-
+    Wyoming es un estado restrictivo para las personas trans. Una ley de 2025 (HB 32, W.S. 8-1-110) define "sexo" en
+    todas las leyes y reglamentos de Wyoming como el sexo biológico al nacer y ordena a las agencias que llevan
+    estadísticas vitales registrar a las personas como hombre o mujer según el sexo al nacer, por lo que cambiar el
+    marcador de sexo en un acta de nacimiento de Wyoming ya no es posible en la práctica y la política para la
+    licencia de conducir no está clara. Los cambios de nombre están permitidos, pero la mayoría de los adultos deben
+    publicar un aviso en un periódico durante cuatro semanas. La atención médica de afirmación de género está
+    prohibida para menores de 18 años (desde el 1 de julio de 2024), Medicaid de Wyoming no cubre cirugías de
+    transición y no hay ley escudo. Los adultos todavía pueden recibir terapia hormonal, sobre todo por telesalud y
+    en algunas clínicas.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [ws-8-1-110, ws-35-4-1001, map-wy]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [cheyenne]
+key_resources:
+  - id: wyoming-equality
+    name: Wyoming Equality
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health]
+    description:
+      en: >-
+        Statewide LGBTQ+ advocacy organization based in Cheyenne. Its Healthcare Access Project keeps a private
+        directory of affirming providers (ask through the find-care form), and staff help with name change
+        paperwork. Office at 110 E. Lincolnway, Unit B, Cheyenne; 307-222-8178; info@WyomingEquality.org.
+      es: >-
+        Organización estatal LGBTQ+ con sede en Cheyenne. Su Proyecto de Acceso a la Salud mantiene un directorio
+        privado de proveedores afirmativos (se solicita con el formulario de búsqueda de atención) y su personal
+        ayuda con los trámites de cambio de nombre. Oficina en 110 E. Lincolnway, Unit B, Cheyenne; 307-222-8178.
+    url: https://www.wyomingequality.org/
+    phone: "307-222-8178"
+    address: 110 E. Lincolnway, Unit B, Cheyenne, WY 82001
+    cost: free
+    verification: org_website
+    sources: [wyoming-equality]
+  - id: legal-aid-wyoming
+    name: Legal Aid of Wyoming
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Federally funded nonprofit law firm giving free civil legal help to low-income Wyoming residents. Hotline 1-877-432-9955, Monday to Friday 9 am to 4 pm; apply online. Offices in Cheyenne, Casper, Gillette, and Lander.
+      es: Bufete sin fines de lucro con fondos federales que da ayuda legal civil gratuita a residentes de bajos ingresos. Línea 1-877-432-9955, lunes a viernes de 9 am a 4 pm; solicitud en línea. Oficinas en Cheyenne, Casper, Gillette y Lander.
+    url: https://www.lawyoming.org/
+    phone: "1-877-432-9955"
+    cost: free
+    verification: org_website
+    sources: [law]
+  - id: aclu-wy
+    name: ACLU of Wyoming
+    type: advocacy_org
+    pillars: [gender_marker, hrt]
+    description:
+      en: Civil liberties organization that tracks and challenges anti-LGBTQ+ legislation in Wyoming; contact it if you are denied a document change or service.
+      es: Organización de libertades civiles que da seguimiento e impugna leyes anti-LGBTQ+ en Wyoming; contáctala si te niegan un cambio de documento o un servicio.
+    url: https://www.aclu-wy.org/issues/lgbt-rights/
+    cost: free
+    verification: org_website
+    sources: [aclu-wy]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ws-8-1-110
+    url: https://wyoleg.gov/statutes/compress/title08.pdf
+    title: W.S. 8-1-110, References to males and females (enacted by 2025 HB 32, What is a Woman Act)
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person's "sex" means the person's biological sex, either male or female, at birth
+  - id: ws-35-4-1001
+    url: https://wyoleg.gov/statutes/compress/title35.pdf
+    title: W.S. 35-4-1001, Gender transitioning and reassignment procedures for children prohibited
+    publisher: Wyoming Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-wy
+    url: https://www.lgbtmap.org/equality_maps/profile_state/WY
+    title: Wyoming equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Changing Gender Marker on Birth Certificates: Negative Law. State Medicaid Policy Related to Coverage for Transgender People: Negative Law."
+  - id: wyoming-equality
+    url: https://www.wyomingequality.org/
+    title: Wyoming Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: law
+    url: https://www.lawyoming.org/
+    title: Legal Aid of Wyoming
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-wy
+    url: https://www.aclu-wy.org/issues/lgbt-rights/
+    title: LGBTQ+ and Two Spirit rights
+    publisher: ACLU of Wyoming
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
