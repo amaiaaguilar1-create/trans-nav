@@ -1,0 +1,210 @@
+guide_type: drivers_license
+jurisdiction: SC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    The SCDMV website (dmv.sc.gov, which replaced scdmvonline.com) has NO page on changing the sex marker; the old
+    scdmvonline.com/.../Gender-Change URL redirects to a 404, a sitemap search found nothing, and no gender-specific
+    form exists in the forms list. Application 447-NC (rev. 2026-01) offers only Male or Female. The requirement stated
+    here (court order and/or amended SC birth certificate, in person) comes from A4TE's South Carolina page (no date) and
+    the Harriet Hancock Center legal program page, not from the SCDMV. Reviewer: call SCDMV (or ask HHC) to confirm
+    (1) whether a court order alone, or an amended birth certificate from another state alone, is accepted; (2) whether
+    any provider letter is accepted; (3) that no 2025-2026 policy change has occurred. MAP scores SC -0.75 on driver's
+    license gender marker, consistent with a burdensome (court order or amended birth certificate) policy. $10
+    duplicate/modified fee and the name change process confirmed on SCDMV's fees and name-change pages. No 2025-2026
+    bill affecting SCDMV sex markers passed a chamber (H 3506, a "biological sex" definitions bill, stayed in committee).
+status: restricted
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    To change the sex on a South Carolina driver's license or ID you need a family court order recognizing the change,
+    usually together with your amended birth certificate. Only M or F is available. The SCDMV does not publish this
+    policy, so confirm before your visit. A corrected card costs $10.
+  es: >-
+    Para cambiar el sexo en una licencia o identificación de Carolina del Sur necesitas una orden del tribunal de
+    familia que reconozca el cambio, normalmente junto con tu acta de nacimiento enmendada. Solo hay M o F. El SCDMV no
+    publica esta política, así que confírmala antes de ir. Una tarjeta corregida cuesta $10.
+summary:
+  en: |
+    South Carolina has no statute or published SCDMV procedure for changing the sex marker. Advocates report that the SCDMV updates the marker when you bring **a court order for the gender marker change or a replaced or amended birth certificate** showing your sex. In practice, if you were born in South Carolina you get both from the same process: a family court order (see the name change guide) that you then use to amend your birth certificate. The Harriet Hancock Center advises bringing both to the DMV.
+
+    There is no X option. Your **name** is changed at a branch with Form 4057 and Form 447-NC, after you update Social Security. You can do the name and marker together at one visit and pay one $10 fee.
+  es: |
+    Carolina del Sur no tiene ley ni procedimiento publicado del SCDMV para cambiar el marcador de sexo. Según organizaciones de apoyo, el SCDMV actualiza el marcador cuando presentas **una orden judicial de cambio de marcador de género o un acta de nacimiento reemplazada o enmendada**. En la práctica, si naciste en Carolina del Sur obtienes ambos en el mismo proceso: una orden del tribunal de familia (ver la guía de cambio de nombre) que luego usas para enmendar tu acta. El Harriet Hancock Center recomienda llevar ambos al DMV.
+
+    No hay opción X. Tu **nombre** se cambia en una oficina con el Formulario 4057 y el 447-NC, después de actualizar el Seguro Social. Puedes hacer ambos cambios en una sola visita y pagar una sola tarifa de $10.
+eligibility:
+  residency:
+    en: You must live in South Carolina and hold or be applying for an SC license or ID.
+    es: Debes vivir en Carolina del Sur y tener o solicitar una licencia o identificación de Carolina del Sur.
+  age:
+    en: ID cards are available from age 5; licenses follow the usual age rules. For anyone under 18, a sex-marker court order would require the family court process for minors (both parents and a guardian ad litem).
+    es: Las identificaciones están disponibles desde los 5 años. Para menores de 18, la orden judicial requeriría el proceso para menores (ambos padres y un tutor ad litem).
+  sources: [dmv-id, hhc-legal]
+forms:
+  - id: "447-NC"
+    name:
+      en: Application for a Beginner's Permit, Driver's License, or Identification Card (non-commercial)
+      es: Solicitud de permiso de aprendiz, licencia de conducir o tarjeta de identificación (no comercial)
+    url: https://dmv.sc.gov/sites/scdmv/files/2026-01/447-NC_1.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Fill in your new legal name if it has changed. Your name, date of birth, and SSN must match Social Security's records.
+        - In the Sex box, check Male or Female to match your court order or amended birth certificate. There is no X.
+        - A parent or guardian signs for applicants under 18.
+      es: |
+        - Escribe tu nuevo nombre legal si cambió. Nombre, fecha de nacimiento y número de Seguro Social deben coincidir con el Seguro Social.
+        - En la casilla Sex, marca Male o Female según tu orden judicial o acta enmendada. No hay X.
+    sources: [dmv-447nc, dmv-name]
+  - id: "4057"
+    name:
+      en: Change of Address, Name, Date of Birth, and/or Social Security Number
+      es: Cambio de dirección, nombre, fecha de nacimiento y/o número de Seguro Social
+    url: https://dmv.sc.gov/sites/scdmv/files/2026-01/4057.pdf
+    required: conditional
+    condition:
+      en: Only if you are also changing your name.
+      es: Solo si también cambias tu nombre.
+    sources: [dmv-name]
+steps:
+  - id: court-order
+    title:
+      en: Get the court order and, if born in SC, your amended birth certificate
+      es: Obtén la orden judicial y, si naciste en Carolina del Sur, tu acta enmendada
+    body:
+      en: Petition the family court for a name and gender marker change (see the name change guide). If you were born in South Carolina, use the certified order to get an amended birth certificate from Vital Records (see the birth certificate guide).
+      es: Presenta una petición al tribunal de familia para el cambio de nombre y marcador (ver la guía de cambio de nombre). Si naciste en Carolina del Sur, usa la orden certificada para obtener un acta enmendada de Registros Vitales.
+    applies_to: [gender_marker]
+    sources: [a4te-sc, hhc-legal]
+  - id: ssa
+    title:
+      en: Update Social Security at least 48 hours before (if changing your name)
+      es: Actualiza el Seguro Social al menos 48 horas antes (si cambias tu nombre)
+    body:
+      en: The SCDMV checks your name against Social Security's records. Change your name with SSA first and wait at least 48 hours. SSA currently will not change the sex field; that does not stop the SCDMV name change.
+      es: El SCDMV verifica tu nombre con el Seguro Social. Cambia tu nombre en la SSA primero y espera al menos 48 horas. La SSA actualmente no cambia el campo de sexo; eso no impide el cambio de nombre en el SCDMV.
+    applies_to: [name_change]
+    sources: [dmv-name]
+  - id: visit
+    title:
+      en: Visit an SCDMV branch
+      es: Visita una oficina del SCDMV
+    body:
+      en: |
+        Bring your current card, a certified copy of the court order, your amended birth certificate (if you have one), completed Form 447-NC, and Form 4057 if your name is changing. Pay $10 (cash avoids the card processing fee). If you have not yet bought your first REAL ID, you will need the full REAL ID document set, and your first REAL ID costs $25.
+      es: |
+        Lleva tu tarjeta actual, una copia certificada de la orden judicial, tu acta enmendada (si la tienes), el Formulario 447-NC y el 4057 si cambias tu nombre. Paga $10 (el efectivo evita el cargo por tarjeta). Si aún no tienes tu primera REAL ID, necesitarás todos los documentos de REAL ID, y la primera cuesta $25.
+    forms: ["447-NC", "4057"]
+    fees: [modified-card]
+    applies_to: [in_person]
+    sources: [dmv-name, dmv-fees, hhc-legal]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: Cards are printed centrally. You get a temporary certificate at the branch, valid up to 30 days, and the card arrives in 7 to 15 business days. Go back to a branch if it has not arrived in 30 days.
+      es: Las tarjetas se imprimen de forma central. Recibes un certificado temporal válido hasta 30 días y la tarjeta llega en 7 a 15 días hábiles.
+    estimated_time:
+      en: 7 to 15 business days
+      es: 7 a 15 días hábiles
+    sources: [dmv-id]
+fees:
+  - id: modified-card
+    label:
+      en: Duplicate or modified license or ID card
+      es: Licencia o identificación duplicada o modificada
+    amount: 10
+    note:
+      en: First REAL ID is $25. ID card renewals are free for people 17 and older within a year of expiration. Card payments add a $1 + 1.7% processing fee.
+      es: La primera REAL ID cuesta $25. Las renovaciones de identificación son gratis para mayores de 17 años dentro del año antes del vencimiento. El pago con tarjeta agrega $1 + 1.7%.
+    sources: [dmv-fees, dmv-name]
+fee_waiver:
+  available: false
+  eligibility:
+    en: The SCDMV lists no fee waiver for a modified card. If your ID card is within a year of expiring and you are 17 or older, renewing it is free.
+    es: El SCDMV no ofrece exención para una tarjeta modificada. Si tu identificación vence dentro de un año y tienes 17 años o más, renovarla es gratis.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name and marker changes on the card are done at an SCDMV branch. (Address changes alone can be done online or by mail.)
+    es: Los cambios de nombre y marcador se hacen en una oficina del SCDMV.
+  sources: [dmv-name]
+timeline:
+  en: The DMV step is one visit plus 7 to 15 business days for the card. Getting the court order first usually takes a few months.
+  es: El paso del DMV es una visita más 7 a 15 días hábiles. Obtener la orden judicial primero suele tardar unos meses.
+after:
+  en: |
+    Update voter registration (the SCDMV passes address changes to the Election Commission, but check your name too), then your bank, employer, and insurance. US passports and Social Security records currently cannot show a changed sex marker; carry a copy of your court order when traveling internationally if your documents do not match.
+  es: |
+    Actualiza tu registro de votante, luego tu banco, empleador y seguro. Los pasaportes de EE. UU. y los registros del Seguro Social actualmente no pueden mostrar un marcador de sexo cambiado; lleva una copia de tu orden judicial al viajar al extranjero si tus documentos no coinciden.
+tips:
+  - en: Staff practice may vary by branch because the policy is not written down. If you are turned away, ask for a supervisor and contact the Harriet Hancock Center's legal program.
+    es: La práctica puede variar por oficina porque la política no está escrita. Si te rechazan, pide un supervisor y contacta el programa legal del Harriet Hancock Center.
+  - en: You can change your name without changing your marker. Name only needs the court order (or marriage/divorce papers) and the SSA update.
+    es: Puedes cambiar tu nombre sin cambiar tu marcador. Para el nombre solo necesitas la orden judicial y la actualización en la SSA.
+statutes:
+  - cite: S.C. Code Ann. § 15-49-20 (name change court order)
+    title:
+      en: The family court order used as proof of a new legal name
+      es: La orden del tribunal de familia usada como prueba del nuevo nombre legal
+    url: https://www.scstatehouse.gov/code/t15c049.php
+related_links:
+  - title: Advocates for Trans Equality, South Carolina identity documents
+    url: https://transequality.org/documents/south-carolina-identity-documents
+    note:
+      en: No last-updated date shown (checked 2026-09-24).
+      es: Sin fecha de actualización (revisado el 2026-09-24).
+sources:
+  - id: dmv-name
+    url: https://dmv.sc.gov/driver-services/drivers-license/address-or-name-change
+    title: Change My Address or Name
+    publisher: South Carolina Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: You must change your name with the Social Security Administration at least 48 hours before visiting the SCDMV to change your name.
+  - id: dmv-fees
+    url: https://dmv.sc.gov/fees
+    title: Fees
+    publisher: South Carolina Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate or Modified License or ID: $10"
+  - id: dmv-id
+    url: https://dmv.sc.gov/driver-services/identification-cards
+    title: Identification Cards
+    publisher: South Carolina Department of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: You will receive the ID card in the mail in seven to 15 business days.
+  - id: dmv-447nc
+    url: https://dmv.sc.gov/sites/scdmv/files/2026-01/447-NC_1.pdf
+    title: Form 447-NC, Application for a Beginner's Permit, Driver's License, or Identification Card
+    publisher: South Carolina Department of Motor Vehicles
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Sex: Male / Female"
+  - id: a4te-sc
+    url: https://transequality.org/documents/south-carolina-identity-documents
+    title: South Carolina identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Submit either a court order for gender marker change or a replaced or amended birth certificate showing correct gender
+  - id: hhc-legal
+    url: https://www.harriethancockcenter.org/legal-program
+    title: The Legal Name & Gender Marker Change Program
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Go to the SC DMV and update your driver's license. Bring your amended birth certificate and order.

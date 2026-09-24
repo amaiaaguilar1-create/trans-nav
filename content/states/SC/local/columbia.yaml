@@ -1,0 +1,184 @@
+jurisdiction: SC
+slug: columbia
+name: Columbia
+area:
+  en: Richland and Lexington counties (the Midlands)
+  es: Condados de Richland y Lexington (los Midlands)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Resources read on each org's site or on the Harriet Hancock Center resource guide 2026-09-24. Richland County's
+    website blocked automated access except for its Family Court page. Lexington County Family Court was not checked.
+    Reviewer: confirm current HHC fingerprint clinic schedule and Transfusion meeting night, and whether CAN Community
+    Health or any Midlands FQHC prescribes hormones (not stated on their pages). Prisma Health (the main Columbia
+    health system) was not listed because we could not confirm adult gender-affirming services on its site.
+intro:
+  en: >-
+    Columbia is home to the Harriet Hancock Center, which runs the state's main free legal program for name and gender
+    marker changes, including a monthly free fingerprinting clinic. Petitions for Richland County residents are filed
+    at the Richland County Family Court downtown. For hormones, Planned Parenthood's Columbia health center and
+    telehealth are the main low-barrier options.
+  es: >-
+    Columbia alberga el Harriet Hancock Center, que ofrece el principal programa legal gratuito del estado para cambios
+    de nombre y marcador de género, incluida una clínica mensual gratuita de huellas. Los residentes del condado de
+    Richland presentan sus peticiones en el Tribunal de Familia del condado en el centro. Para hormonas, el centro de
+    Planned Parenthood en Columbia y la telesalud son las principales opciones accesibles.
+court:
+  name: Richland County Family Court (Fifth Judicial Circuit)
+  url: https://www.richlandcountysc.gov/Courts-Safety/Family-Court
+  filing_fee: 150
+  notes:
+    en: 1701 Main St., 1st Floor West Wing, Columbia, SC 29201; mailing address P.O. Box 192, Columbia, SC 29202; 803-576-3320. The court does not give legal advice. Lexington County residents file with Lexington County Family Court instead.
+    es: 1701 Main St., primer piso, ala oeste, Columbia, SC 29201; correo P.O. Box 192, Columbia, SC 29202; 803-576-3320. El tribunal no da asesoría legal. Los residentes del condado de Lexington presentan en el Tribunal de Familia de Lexington.
+  sources: [richland-fc]
+resources:
+  - id: hhc-legal
+    name: Harriet Hancock Center, Legal Name & Gender Marker Change Program
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal help with name and gender marker petitions (forms, drafting, filing, an attorney at the hearing, fee assistance). Free fingerprinting with Rainy Day Fund on the third Friday of each month, 1 to 4 pm; apply online first.
+      es: Ayuda legal gratuita con peticiones de nombre y marcador de género (formularios, redacción, presentación, abogado en la audiencia, ayuda con tarifas). Huellas gratis con Rainy Day Fund el tercer viernes de cada mes, de 1 a 4 pm; solicita en línea primero.
+    url: https://www.harriethancockcenter.org/legal-program
+    phone: "803-771-7713"
+    address: 1108 Woodrow Street, Columbia, SC 29205
+    cost: free
+    verification: org_website
+    sources: [hhc-legal]
+  - id: hhc-transfusion
+    name: Harriet Hancock Center, Transfusion peer support group
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Peer-led, drop-in support group for trans, gender nonconforming, and nonbinary people, third Wednesday of the month, 6 to 8 pm. No registration.
+      es: Grupo de apoyo entre pares, sin cita, para personas trans, de género no conforme y no binarias, el tercer miércoles de cada mes, de 6 a 8 pm.
+    url: https://www.harriethancockcenter.org/transfusion
+    phone: "803-771-7713"
+    address: 1108 Woodrow Street, Columbia, SC 29205
+    cost: free
+    verification: org_website
+    sources: [hhc-transfusion]
+  - id: pp-columbia
+    org: planned-parenthood
+    name: Planned Parenthood South Atlantic, Columbia Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care, HIV services (including PrEP), and STI testing and treatment. Adults 18+ under state law; call about cost and insurance.
+      es: Ofrece atención de afirmación de género, servicios de VIH (incluida PrEP) y pruebas y tratamiento de ITS. Adultos de 18+ según la ley estatal; llama para costos y seguros.
+    url: https://www.plannedparenthood.org/health-center/south-carolina/columbia/29204/centro-de-salud-columbia-2646-90860
+    phone: "803-256-4908"
+    address: 2712 Middleburg Drive, Suite 107, Columbia, SC 29204
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pp-columbia]
+  - id: can-columbia
+    name: CAN Community Health, Columbia
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP, HIV care, free rapid HIV and hepatitis testing, STI testing and treatment, counseling, and pharmacy. Monday to Thursday 8:30 am to 5:30 pm, Friday 8:30 am to 12:30 pm.
+      es: PrEP, atención del VIH, pruebas rápidas gratuitas de VIH y hepatitis, pruebas y tratamiento de ITS, consejería y farmacia.
+    url: https://www.cancommunityhealth.org/south-carolina/
+    phone: "803-849-8430"
+    address: 1911 Hampton St., Columbia, SC 29201
+    cost: varies
+    verification: org_website
+    sources: [can-sc, hhc-can]
+  - id: rainy-day-fund
+    name: Rainy Day Fund
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Helps pay legal costs for people whose main barrier is money; partners with the Harriet Hancock Center on name and gender marker petitions.
+      es: Ayuda a pagar costos legales para personas cuya principal barrera es el dinero; colabora con el Harriet Hancock Center.
+    url: https://rainydayfund.us/
+    cost: free
+    verification: community_reported
+    sources: [hhc-rdf]
+  - id: pathways-to-healing
+    name: Pathways to Healing
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: 24-hour crisis line for survivors of sexual assault and abuse, 803-771-7273, serving Richland, Lexington, Sumter, and Newberry counties.
+      es: Línea de crisis las 24 horas para sobrevivientes de agresión y abuso sexual, 803-771-7273, en los condados de Richland, Lexington, Sumter y Newberry.
+    url: https://pathwaystohealing.com/survivor-services
+    phone: "803-771-7273"
+    cost: free
+    verification: community_reported
+    sources: [hhc-helplines]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: richland-fc
+    url: https://www.richlandcountysc.gov/Courts-Safety/Family-Court
+    title: Family Court
+    publisher: Richland County
+    kind: court
+    accessed: "2026-09-24"
+    quote: There is a $150 filing fee to start any case in Family Court.
+  - id: hhc-legal
+    url: https://www.harriethancockcenter.org/legal-program
+    title: The Legal Name & Gender Marker Change Program
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-transfusion
+    url: https://www.harriethancockcenter.org/transfusion
+    title: Transfusion
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Meetings are on the third Wednesday of the month from 6 - 8 PM.
+  - id: pp-columbia
+    url: https://www.plannedparenthood.org/health-center/south-carolina/columbia/29204/centro-de-salud-columbia-2646-90860
+    title: Columbia Health Center
+    publisher: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+  - id: can-sc
+    url: https://www.cancommunityhealth.org/south-carolina/
+    title: CAN Community Health, South Carolina
+    publisher: CAN Community Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-can
+    url: https://www.harriethancockcenter.org/resourceguide/can-community-health
+    title: CAN Community Health (resource guide entry)
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-rdf
+    url: https://www.harriethancockcenter.org/resourceguide/rainy-day-fund-1
+    title: Rainy Day Fund (resource guide entry)
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-helplines
+    url: https://www.harriethancockcenter.org/resourceguide/f4eoi37y44h93cmbd2nt4wwb2tpbfq
+    title: Sexual & Intimate Partner Helplines (resource guide entry)
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

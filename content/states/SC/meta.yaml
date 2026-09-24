@@ -1,0 +1,144 @@
+code: SC
+name:
+  en: South Carolina
+  es: Carolina del Sur
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on S.C. Code 15-49 (name change with mandatory background checks), the DPH birth certificate
+    page (sex change only by court order), the undocumented SCDMV marker policy (court order or amended birth
+    certificate per A4TE and the Harriet Hancock Center), and Act 203 of 2024 (H 4624). No shield law. See each guide's
+    review notes for open items.
+overview:
+  en: >-
+    South Carolina lets trans people change their name and their M or F sex marker, but only through the family court:
+    a name change petition requires SLED fingerprinting and child-abuse and sex offender registry checks, and the
+    birth certificate and driver's license need a court order for the sex marker. There is no X option. Adults can
+    still get hormone therapy, but a 2024 law bans public funds (including Medicaid and the state employee plan) for
+    transition care at any age and bans it entirely for minors. There is no shield law.
+  es: >-
+    Carolina del Sur permite a las personas trans cambiar su nombre y su marcador de sexo M o F, pero solo mediante el
+    tribunal de familia: la petición de cambio de nombre exige huellas de SLED y verificaciones de registros de abuso
+    infantil y de delincuentes sexuales, y el acta de nacimiento y la licencia necesitan una orden judicial para el
+    marcador. No hay opción X. Los adultos todavía pueden obtener terapia hormonal, pero una ley de 2024 prohíbe fondos
+    públicos (incluidos Medicaid y el plan de empleados estatales) para la transición a cualquier edad y la prohíbe por
+    completo para menores. No hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [sc-15-49, dph-birth, sc-44-42, map-sc]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [columbia, charleston]
+key_resources:
+  - id: hhc
+    name: Harriet Hancock LGBT Center
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Columbia LGBTQ+ center with a statewide Legal Name & Gender Marker Change Program (free attorney help, fee assistance, free fingerprinting clinic), trans peer support, and a vetted resource guide of affirming providers.
+      es: Centro LGBTQ+ de Columbia con un programa estatal de cambio legal de nombre y marcador de género (ayuda gratuita de abogados, asistencia con tarifas, clínica gratuita de huellas), apoyo entre pares trans y una guía de proveedores afirmativos.
+    url: https://www.harriethancockcenter.org/
+    phone: "803-771-7713"
+    address: 1108 Woodrow Street, Columbia, SC 29205
+    cost: free
+    verification: org_website
+    sources: [hhc, hhc-legal]
+  - id: sc-equality
+    name: SC Equality
+    type: advocacy_org
+    pillars: [name_change, gender_marker, hrt]
+    description:
+      en: Statewide LGBTQ advocacy organization that tracks bills in the General Assembly and publishes resources.
+      es: Organización estatal de defensa LGBTQ que sigue los proyectos de ley y publica recursos.
+    url: https://www.scequality.org/
+    phone: "803-256-6500"
+    cost: free
+    verification: org_website
+    sources: [sceq]
+  - id: aclu-sc
+    name: ACLU of South Carolina
+    type: legal_aid
+    pillars: [hrt, insurance]
+    description:
+      en: Civil liberties organization litigating South Carolina's gender-affirming care law (Misanin v. Wilson).
+      es: Organización de libertades civiles que litiga contra la ley de atención de afirmación de género (Misanin v. Wilson).
+    url: https://www.aclusc.org/
+    cost: free
+    verification: org_website
+    sources: [aclu-misanin]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: sc-15-49
+    url: https://www.scstatehouse.gov/code/t15c049.php
+    title: S.C. Code Title 15, Chapter 49, Change of Name
+    publisher: South Carolina Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: dph-birth
+    url: https://dph.sc.gov/public/vital-records/birth-certificates
+    title: Birth Certificates
+    publisher: South Carolina Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: The sex listed on a birth certificate may only be changed by an order from a court of competent jurisdiction.
+  - id: sc-44-42
+    url: https://www.scstatehouse.gov/code/t44c042.php
+    title: S.C. Code Title 44, Chapter 42, Gender Reassignment Procedures
+    publisher: South Carolina Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Public funds may not be used directly or indirectly for gender transition procedures.
+  - id: map-sc
+    url: https://www.mapresearch.org/equality-maps/profile_state/SC
+    title: South Carolina state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc
+    url: https://www.harriethancockcenter.org/
+    title: Harriet Hancock LGBT Center
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-legal
+    url: https://www.harriethancockcenter.org/legal-program
+    title: The Legal Name & Gender Marker Change Program
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: sceq
+    url: https://www.scequality.org/
+    title: SC Equality
+    publisher: SC Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-misanin
+    url: https://www.aclusc.org/cases/misanin-v-wilson/
+    title: Misanin v. Wilson
+    publisher: ACLU of South Carolina
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

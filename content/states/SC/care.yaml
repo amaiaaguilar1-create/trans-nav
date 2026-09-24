@@ -1,0 +1,363 @@
+jurisdiction: SC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Act No. 203 of 2024 (H 4624) read in full on scstatehouse.gov (bill text and codified S.C. Code 44-42-310 to -360,
+    59-32-36). Key reviewer checks: (1) 44-42-340 ("Public funds may not be used directly or indirectly for gender
+    transition procedures") has no age limit; per the ACLU of SC, adults lost care on Medicaid, the state employee
+    health plan, and at MUSC. We did not find an SCDHHS or PEBA written policy implementing it; confirm how the State
+    Health Plan and public university hospitals (MUSC, Prisma Health is private nonprofit) apply it today. (2) Misanin
+    v. Wilson, No. 2:24-cv-04734-BHH (D.S.C.): the ACLU-SC case page still shows "Latest Update: Aug 29, 2024" and
+    status Active; we could not confirm later rulings (likely affected by United States v. Skrmetti, June 18, 2025).
+    Reviewer must check PACER/CourtListener for the current posture. (3) MUSC's youth gender clinic closure and
+    Prisma Health's adult services were not confirmed on their own sites; neither is listed as a resource. (4) Planned
+    Parenthood South Atlantic lists Gender-Affirming Care at its Columbia and Charleston centers and in video visits
+    for SC residents; minimum age (presumably 18 given SC law) and informed-consent model were not stated on the pages
+    we could read. (5) QueerMed lists South Carolina on its locations page; it is not in content/orgs so it is listed as
+    a plain resource, not in telehealth_hrt. (6) 2025-2026 session bills (S 540, S 240/H 3094, H 3506) all stayed in
+    committee; the two-year session has ended, so no pending_bills are listed. MAP scores SC -1 on Medicaid, -0.5 on
+    state employee benefits, and 0 on private insurance nondiscrimination.
+status_summary:
+  en: >-
+    Adults in South Carolina can still legally get hormone therapy, including from Planned Parenthood and telehealth,
+    but since May 2024 state law bars any public funds from paying for it at any age, so Medicaid and the state
+    employee health plan do not cover it. Puberty blockers, hormones, and surgery for gender transition are banned for
+    everyone under 18. A federal lawsuit (Misanin v. Wilson) is pending, but the law is in effect. South Carolina has no
+    shield law.
+  es: >-
+    Los adultos en Carolina del Sur todavía pueden obtener legalmente terapia hormonal, incluso en Planned Parenthood y
+    por telesalud, pero desde mayo de 2024 la ley estatal prohíbe usar fondos públicos para pagarla a cualquier edad,
+    así que Medicaid y el plan de salud de empleados estatales no la cubren. Los bloqueadores de pubertad, las hormonas
+    y la cirugía para la transición de género están prohibidos para menores de 18 años. Hay una demanda federal
+    pendiente (Misanin v. Wilson), pero la ley está vigente. Carolina del Sur no tiene ley escudo.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Hormone therapy and surgery are **legal for adults 18 and older**, but Act 203 of 2024 (H 4624) limits who pays:
+      - **No public funds, at any age** (S.C. Code § 44-42-340). This covers Medicaid, the State Health Plan for public employees, and other state money. The ACLU of South Carolina reports that after the law passed, adults on Medicaid, on the state employees' plan, and at the Medical University of South Carolina (MUSC) had appointments canceled.
+      - **Medicaid** may not cover anything the chapter prohibits (§ 44-42-350).
+
+      **If you have no insurance or only Medicaid**, in rough order of what to try:
+      1. **Planned Parenthood South Atlantic** lists gender-affirming care at its Columbia and Charleston health centers and by video visit for South Carolina residents. Call to confirm age and cost.
+      2. **Telehealth**: Plume, FOLX, and QueerMed serve South Carolina. Point of Pride's HRT Access Fund pays for 18 months of telehealth care through partners like these.
+      3. **Private insurance** you buy yourself or get through a private employer is not covered by the public-funds ban, but South Carolina does not require plans to cover transition care, so check your policy.
+      4. **Community health centers** charge on a sliding scale; find one at findahealthcenter.hrsa.gov and ask whether they prescribe hormones and whether state money limits them.
+      5. Generic estradiol and spironolactone are inexpensive with a pharmacy discount coupon; compare cash prices for testosterone.
+    es: |
+      La terapia hormonal y la cirugía son **legales para adultos de 18 años o más**, pero la Ley 203 de 2024 (H 4624) limita quién paga:
+      - **Sin fondos públicos, a cualquier edad** (Código de Carolina del Sur § 44-42-340). Esto incluye Medicaid, el Plan de Salud Estatal para empleados públicos y otro dinero estatal. La ACLU de Carolina del Sur informa que, tras la ley, adultos con Medicaid, con el plan de empleados estatales y en la Universidad Médica de Carolina del Sur (MUSC) vieron canceladas sus citas.
+      - **Medicaid** no puede cubrir lo que el capítulo prohíbe (§ 44-42-350).
+
+      **Si no tienes seguro o solo tienes Medicaid**, en orden aproximado:
+      1. **Planned Parenthood South Atlantic** ofrece atención de afirmación de género en sus centros de Columbia y Charleston y por video para residentes de Carolina del Sur. Llama para confirmar edad y costo.
+      2. **Telesalud**: Plume, FOLX y QueerMed atienden Carolina del Sur. El Fondo de Acceso a TRH de Point of Pride paga 18 meses de atención por telesalud.
+      3. El **seguro privado** que compras tú o que te da un empleador privado no está afectado por la prohibición de fondos públicos, pero Carolina del Sur no exige que los planes cubran la transición; revisa tu póliza.
+      4. Los **centros de salud comunitarios** cobran en escala móvil; búscalos en findahealthcenter.hrsa.gov.
+      5. El estradiol y la espironolactona genéricos son económicos con un cupón de descuento; compara precios de testosterona.
+  sources: [sc-44-42, h4624, aclu-misanin, ppsat-virtual, ppsat-columbia, pop-hrt, qm-locations, hrsa]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      **Banned since May 21, 2024** (Act 203, H 4624; S.C. Code §§ 44-42-310 to -360). Physicians, mental health providers, and other health care professionals may not provide puberty blockers, cross-sex hormones, or gender reassignment surgery to anyone under 18. Young people already on blockers or hormones before August 1, 2024 could be tapered off only until **January 31, 2025**; that window has closed.
+
+      **Exceptions**: care for precocious puberty, certain cancers, endometriosis, differences of sex development, complications of earlier transition care, and emergencies. **Mental health care remains legal.**
+
+      **Penalties**: licensing board discipline; lawsuits by the patient until 21 years after turning 18, with attorney's fees; enforcement by the Attorney General; and a physician who performs genital surgery on a minor is guilty of inflicting great bodily injury on a child.
+
+      **Schools**: public school staff may not withhold from parents that a student's gender identity differs from their sex, and the principal, vice principal, or counselor must notify parents in writing if a student says so or asks to be called by a different pronoun (§ 59-32-36).
+
+      The ban is **in effect**. It is challenged in Misanin v. Wilson (federal court, filed August 2024), but no court has blocked it, and the US Supreme Court upheld Tennessee's similar ban in June 2025. Families can get navigation help and travel grants for out-of-state care from the Campaign for Southern Equality's Trans Youth Emergency Project.
+    es: |
+      **Prohibida desde el 21 de mayo de 2024** (Ley 203, H 4624; Código de Carolina del Sur §§ 44-42-310 a -360). Los médicos, proveedores de salud mental y otros profesionales no pueden dar bloqueadores de pubertad, hormonas ni cirugía de reasignación a menores de 18 años. Quienes ya recibían bloqueadores u hormonas antes del 1 de agosto de 2024 solo podían reducirlos gradualmente hasta el **31 de enero de 2025**; ese plazo terminó.
+
+      **Excepciones**: pubertad precoz, ciertos cánceres, endometriosis, diferencias del desarrollo sexual, complicaciones de atención previa y emergencias. **La atención de salud mental sigue siendo legal.**
+
+      **Sanciones**: disciplina de la junta de licencias; demandas del paciente hasta 21 años después de cumplir 18, con honorarios de abogados; acción del Fiscal General; y un médico que haga cirugía genital a un menor comete lesiones corporales graves a un menor.
+
+      **Escuelas**: el personal de escuelas públicas no puede ocultar a los padres que la identidad de género de un estudiante difiere de su sexo, y el director, subdirector o consejero debe notificar por escrito a los padres si el estudiante lo dice o pide otro pronombre (§ 59-32-36).
+
+      La prohibición está **vigente**. Se impugna en Misanin v. Wilson (tribunal federal, agosto de 2024), pero ningún tribunal la ha bloqueado, y la Corte Suprema confirmó en junio de 2025 una prohibición similar de Tennessee. Las familias pueden recibir ayuda y becas de viaje para atención fuera del estado del Trans Youth Emergency Project.
+  sources: [sc-44-42, h4624, aclu-misanin, skrmetti, tyep]
+medicaid:
+  program_name: Healthy Connections Medicaid
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: |
+      Section 44-42-340 bars public funds for gender transition procedures at any age, and § 44-42-350 bars Medicaid from covering practices the chapter prohibits. The ACLU reports Medicaid patients lost care after the law passed. Medicaid still covers other health care, including primary care, labs, mental health, and PrEP.
+
+      **Who qualifies**: South Carolina has not expanded Medicaid. Adults generally qualify only if they are 65+, blind, or disabled (about 100% of the poverty level, $1,330 a month for one person as of March 2026), pregnant, or a low-income parent or caretaker. If you are unsure, apply anyway; Healthcare.gov forwards eligible applications to SCDHHS. SC Thrive helps with applications for free.
+    es: |
+      La sección 44-42-340 prohíbe fondos públicos para procedimientos de transición a cualquier edad, y la § 44-42-350 prohíbe que Medicaid cubra lo que el capítulo prohíbe. Medicaid sigue cubriendo otra atención, como atención primaria, laboratorios, salud mental y PrEP.
+
+      **Quién califica**: Carolina del Sur no ha expandido Medicaid. Los adultos generalmente califican solo si tienen 65 años o más, son ciegos o tienen discapacidad (alrededor del 100% del nivel de pobreza, $1,330 al mes para una persona desde marzo de 2026), están embarazadas o son padres o cuidadores de bajos ingresos. Si no estás seguro, solicita de todas formas. SC Thrive ayuda gratis con la solicitud.
+  how_to_apply_url: https://www.scdhhs.gov/members/program-eligibility-and-income-limits
+  sources: [sc-44-42, aclu-misanin, scdhhs-elig, scthrive]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      South Carolina has no law stopping private insurers from excluding gender-affirming care. Private plans are not bound by the public-funds ban, but may exclude transition care; read your policy's exclusions. If a claim is denied, appeal with the insurer first (A4TE's Trans Health Project has free templates), then file a complaint with the SC Department of Insurance.
+    es: |
+      Carolina del Sur no tiene una ley que impida a los seguros privados excluir la atención de afirmación de género. Los planes privados no están sujetos a la prohibición de fondos públicos, pero pueden excluir la transición; revisa las exclusiones de tu póliza. Si niegan un reclamo, apela primero con la aseguradora (el Trans Health Project de A4TE tiene plantillas gratis) y luego presenta una queja ante el Departamento de Seguros.
+  complaint_url: https://doi.sc.gov/8/Consumers
+  sources: [map-sc, doi-consumers, a4te-thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: ppsat
+    org: planned-parenthood
+    name: Planned Parenthood South Atlantic (Columbia and Charleston health centers, video visits)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists Gender-Affirming Care, PrEP, HIV services, and STI testing at its Columbia (2712 Middleburg Dr, Suite 107; 803-256-4908) and Charleston (1312 Ashley River Rd; 843-628-4380) health centers, plus video visits for South Carolina residents. Book online or at 1-800-230-PLAN. Adults 18+ only under state law; confirm cost and informed-consent approach when you call.
+      es: Ofrece atención de afirmación de género, PrEP, servicios de VIH y pruebas de ITS en sus centros de Columbia (2712 Middleburg Dr, Suite 107; 803-256-4908) y Charleston (1312 Ashley River Rd; 843-628-4380), además de visitas por video para residentes de Carolina del Sur. Reserva en línea o al 1-800-230-PLAN. Solo adultos de 18+ según la ley estatal.
+    url: https://www.plannedparenthood.org/planned-parenthood-south-atlantic/patients/virtual-health-center
+    phone: "1-800-230-7526"
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [ppsat-virtual, ppsat-columbia, ppsat-charleston]
+  - id: queermed
+    name: QueerMed
+    type: telehealth_hrt
+    pillars: [hrt]
+    description:
+      en: Telehealth gender-affirming hormone care for trans and nonbinary adults; lists South Carolina among its states. Insurance and self-pay options.
+      es: Atención hormonal por telesalud para adultos trans y no binarios; incluye Carolina del Sur. Acepta seguros y pago directo.
+    url: https://queermed.com/locations/
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [qm-locations]
+  - id: point-of-pride
+    org: point-of-pride
+    name: Point of Pride HRT Access Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Pays for 18 months of telehealth hormone care (visits, labs, and letters) through partners including Plume, FOLX, and QueerMed, for people 18 and older.
+      es: Paga 18 meses de atención hormonal por telesalud (consultas, laboratorios y cartas) con socios como Plume, FOLX y QueerMed, para personas de 18 años o más.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: tyep
+    name: Campaign for Southern Equality, Trans Youth Emergency Project
+    type: fund
+    pillars: [hrt, mental_health]
+    description:
+      en: For families of trans youth in states with bans. One-on-one patient navigation to out-of-state care and emergency travel grants.
+      es: Para familias de jóvenes trans en estados con prohibiciones. Navegación personalizada hacia atención fuera del estado y becas de viaje de emergencia.
+    url: https://southernequality.org/tyep/
+    cost: free
+    verification: community_reported
+    sources: [tyep]
+  - id: can-columbia
+    name: CAN Community Health, Columbia
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: HIV care, PrEP, free rapid HIV and hepatitis testing, STI testing and treatment, counseling, and pharmacy in downtown Columbia.
+      es: Atención del VIH, PrEP, pruebas rápidas gratuitas de VIH y hepatitis, pruebas y tratamiento de ITS, consejería y farmacia en el centro de Columbia.
+    url: https://www.cancommunityhealth.org/south-carolina/
+    phone: "803-849-8430"
+    address: 1911 Hampton St., Columbia, SC 29201
+    cost: varies
+    verification: org_website
+    sources: [can-sc]
+  - id: palmetto-community-care
+    name: Palmetto Community Care
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: North Charleston HIV services organization offering in-office PrEP, PrEP by telehealth, PEP, doxyPEP, at-home HIV test kits, and case management, with LGBTQ+ inclusive and gender-affirming care.
+      es: Organización de servicios de VIH en North Charleston con PrEP en consultorio y por telesalud, PEP, doxyPEP, pruebas de VIH en casa y manejo de casos, con atención inclusiva LGBTQ+.
+    url: https://palmettocare.org/
+    phone: "843-747-2273"
+    address: 5064 Rivers Avenue, North Charleston, SC 29406
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pcc]
+  - id: scthrive
+    name: SC Thrive
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help applying for Medicaid and other benefits in South Carolina. SCDHHS refers applicants here.
+      es: Ayuda gratuita para solicitar Medicaid y otros beneficios en Carolina del Sur. SCDHHS refiere a los solicitantes aquí.
+    url: https://scthrive.org/
+    phone: "800-726-8774"
+    cost: free
+    verification: org_website
+    sources: [scthrive, scdhhs-elig]
+  - id: a4te-thp
+    org: a4te
+    name: A4TE Trans Health Project
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free help appealing insurance denials for gender-affirming care, with templates and guides.
+      es: Ayuda gratuita para apelar negaciones de seguros de atención de afirmación de género, con plantillas y guías.
+    url: https://transequality.org/trans-health-project
+    cost: free
+    verification: org_website
+    sources: [a4te-thp]
+  - id: hrsa
+    name: HRSA Find a Health Center
+    type: government_office
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federal search tool for community health centers, which charge on a sliding scale based on income.
+      es: Buscador federal de centros de salud comunitarios, que cobran según tus ingresos.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    verification: official_source
+    sources: [hrsa]
+statutes:
+  - cite: S.C. Code Ann. §§ 44-42-310 to 44-42-360 (Act No. 203 of 2024, H 4624)
+    title:
+      en: Ban on gender transition procedures for minors; public funds and Medicaid prohibitions; penalties
+      es: Prohibición de procedimientos de transición para menores; prohibición de fondos públicos y Medicaid; sanciones
+    url: https://www.scstatehouse.gov/code/t44c042.php
+  - cite: S.C. Code Ann. § 59-32-36
+    title:
+      en: Public school staff may not withhold a student's gender identity from parents; written parental notice
+      es: El personal escolar no puede ocultar a los padres la identidad de género de un estudiante; aviso escrito
+    url: https://www.scstatehouse.gov/sess125_2023-2024/bills/4624.htm
+litigation:
+  - case: Misanin v. Wilson, No. 2:24-cv-04734-BHH
+    court: U.S. District Court for the District of South Carolina
+    summary:
+      en: Three trans adults and two families of trans youth, represented by the ACLU, ACLU of South Carolina, and Selendy Gay, challenge the ban on care for minors, the public-funds ban (at any age), and the Medicaid exclusion under the Equal Protection Clause and federal anti-discrimination laws.
+      es: Tres adultos trans y dos familias de jóvenes trans, representados por la ACLU, la ACLU de Carolina del Sur y Selendy Gay, impugnan la prohibición de atención a menores, la prohibición de fondos públicos (a cualquier edad) y la exclusión de Medicaid.
+    effect_today:
+      en: No injunction has been issued. All three provisions are in effect while the case continues.
+      es: No se ha emitido ninguna orden judicial. Las tres disposiciones están vigentes mientras continúa el caso.
+    last_update: "2024-08-29"
+    url: https://www.aclusc.org/cases/misanin-v-wilson/
+    sources: [aclu-misanin]
+sources:
+  - id: sc-44-42
+    url: https://www.scstatehouse.gov/code/t44c042.php
+    title: S.C. Code Title 44, Chapter 42, Article 3, Gender Reassignment Procedures
+    publisher: South Carolina Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Public funds may not be used directly or indirectly for gender transition procedures.
+  - id: h4624
+    url: https://www.scstatehouse.gov/sess125_2023-2024/bills/4624.htm
+    title: H 4624 (2024), ratified text, Act No. 203
+    publisher: South Carolina Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: This act takes effect upon approval by the Governor. Ratified the 15th day of May, 2024. Approved the 21st day of May, 2024.
+  - id: aclu-misanin
+    url: https://www.aclusc.org/cases/misanin-v-wilson/
+    title: Misanin v. Wilson
+    publisher: ACLU of South Carolina
+    kind: org
+    accessed: "2026-09-24"
+    quote: adults who were receiving gender-affirming care on Medicaid, on the state employees' health insurance plan, and at the Medical University of South Carolina began receiving notice that their appointments were canceled
+  - id: skrmetti
+    url: https://www.supremecourt.gov/opinions/24pdf/23-477_2cp3.pdf
+    title: United States v. Skrmetti, No. 23-477 (June 18, 2025)
+    publisher: Supreme Court of the United States
+    kind: court
+    accessed: "2026-09-24"
+  - id: ppsat-virtual
+    url: https://www.plannedparenthood.org/planned-parenthood-south-atlantic/patients/virtual-health-center
+    title: Virtual Health Center
+    publisher: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+    quote: Video visits are available to residents of North Carolina, South Carolina, Virginia, and West Virginia.
+  - id: ppsat-columbia
+    url: https://www.plannedparenthood.org/health-center/south-carolina/columbia/29204/centro-de-salud-columbia-2646-90860
+    title: Columbia Health Center
+    publisher: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Services: Gender-Affirming Care; HIV Services; STD Testing and Treatment"
+  - id: ppsat-charleston
+    url: https://www.plannedparenthood.org/health-center/south-carolina/charleston/29407/charleston-health-center-4288-90860
+    title: Charleston Health Center
+    publisher: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Services: Gender-Affirming Care; HIV Services; STD Testing and Treatment"
+  - id: qm-locations
+    url: https://queermed.com/locations/
+    title: Locations
+    publisher: QueerMed
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: can-sc
+    url: https://www.cancommunityhealth.org/south-carolina/
+    title: CAN Community Health, South Carolina
+    publisher: CAN Community Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pcc
+    url: https://palmettocare.org/
+    title: Palmetto Community Care
+    publisher: Palmetto Community Care
+    kind: org
+    accessed: "2026-09-24"
+    quote: LGBTQ+ inclusive and gender-affirming care
+  - id: scdhhs-elig
+    url: https://www.scdhhs.gov/members/program-eligibility-and-income-limits
+    title: Program Eligibility and Income Limits
+    publisher: South Carolina Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you apply through Healthcare.gov and are eligible for Medicaid, they will automatically send us your application.
+  - id: scthrive
+    url: https://scthrive.org/
+    title: SC Thrive
+    publisher: SC Thrive
+    kind: org
+    accessed: "2026-09-24"
+  - id: doi-consumers
+    url: https://doi.sc.gov/8/Consumers
+    title: Consumers (file a complaint)
+    publisher: South Carolina Department of Insurance
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-sc
+    url: https://www.mapresearch.org/equality-maps/profile_state/SC
+    title: South Carolina state profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-thp
+    url: https://transequality.org/trans-health-project
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"

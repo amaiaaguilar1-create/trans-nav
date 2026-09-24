@@ -1,0 +1,161 @@
+jurisdiction: SC
+slug: charleston
+name: Charleston
+area:
+  en: Charleston, Berkeley, and Dorchester counties (the Lowcountry tri-county area)
+  es: Condados de Charleston, Berkeley y Dorchester (área de tres condados del Lowcountry)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: low
+  es_status: machine_draft
+  notes: >-
+    Short starter list. Charleston County Family Court's own page was not checked; the $150 fee is the statewide
+    family court fee. AFFA's programs page did not render in our text extraction, so its description is general. MUSC
+    (Medical University of South Carolina) is not listed: per the ACLU, MUSC canceled transition-related appointments
+    after the 2024 law, and we did not confirm any current adult services. Reviewer: confirm Charleston County Family
+    Court address and whether any local legal clinic helps with name changes.
+intro:
+  en: >-
+    The Charleston area has a Planned Parenthood health center offering gender-affirming care, an HIV and PrEP provider
+    with LGBTQ+ inclusive care, and two long-standing LGBTQ organizations. Name change petitions are filed with the
+    family court in the county where you live; the Columbia-based Harriet Hancock Center's legal program helps
+    residents statewide.
+  es: >-
+    El área de Charleston tiene un centro de Planned Parenthood con atención de afirmación de género, un proveedor de
+    VIH y PrEP con atención inclusiva LGBTQ+ y dos organizaciones LGBTQ establecidas. Las peticiones de cambio de nombre
+    se presentan en el tribunal de familia de tu condado; el programa legal del Harriet Hancock Center en Columbia ayuda
+    a residentes de todo el estado.
+court:
+  name: Family court of your county (Charleston, Berkeley, or Dorchester)
+  url: https://www.sccourts.org/courts/trial-courts/family-court/court-fees/
+  filing_fee: 150
+  notes:
+    en: The $150 name change filing fee is the same statewide. Check your county clerk of court for the filing address.
+    es: La tarifa de $150 es igual en todo el estado. Consulta al secretario del tribunal de tu condado la dirección.
+  sources: [sccourts-fees]
+resources:
+  - id: pp-charleston
+    org: planned-parenthood
+    name: Planned Parenthood South Atlantic, Charleston Health Center
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Lists gender-affirming care, HIV services (including PrEP), and STI testing and treatment. Adults 18+ under state law; call about cost and insurance.
+      es: Ofrece atención de afirmación de género, servicios de VIH (incluida PrEP) y pruebas y tratamiento de ITS. Adultos de 18+ según la ley estatal.
+    url: https://www.plannedparenthood.org/health-center/south-carolina/charleston/29407/charleston-health-center-4288-90860
+    phone: "843-628-4380"
+    address: 1312 Ashley River Road, Charleston, SC 29407
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pp-charleston]
+  - id: palmetto-community-care
+    name: Palmetto Community Care
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: In-office and telehealth PrEP, PEP, doxyPEP, at-home HIV test kits, HIV care, and case management with LGBTQ+ inclusive and gender-affirming care.
+      es: PrEP en consultorio y por telesalud, PEP, doxyPEP, pruebas de VIH en casa, atención del VIH y manejo de casos con atención inclusiva LGBTQ+.
+    url: https://palmettocare.org/
+    phone: "843-747-2273"
+    address: 5064 Rivers Avenue, North Charleston, SC 29406
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [pcc]
+  - id: affa
+    name: Alliance for Full Acceptance (AFFA)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Charleston-area LGBTQ+ organization focused on education, advocacy, and community engagement.
+      es: Organización LGBTQ+ del área de Charleston enfocada en educación, defensa y participación comunitaria.
+    url: https://www.affa-sc.org/
+    phone: "843-883-0343"
+    address: 3265 N. Carolina Ave, Suite 202, North Charleston, SC 29405
+    cost: free
+    verification: org_website
+    sources: [affa]
+  - id: we-are-family
+    name: We Are Family
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: South Carolina's oldest nonprofit for LGBTQ+ young people, focused on BIPOC and low-income youth; runs youth programs and a Trans Love Fund.
+      es: La organización sin fines de lucro más antigua de Carolina del Sur para jóvenes LGBTQ+, enfocada en jóvenes BIPOC y de bajos ingresos; tiene programas juveniles y un Trans Love Fund.
+    url: https://waf.org/
+    phone: "843-901-6951"
+    address: 1801 Reynolds Ave., Unit B, North Charleston, SC
+    cost: free
+    verification: org_website
+    sources: [waf]
+  - id: hhc-legal
+    name: Harriet Hancock Center, Legal Name & Gender Marker Change Program (statewide)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help for any South Carolina resident with name and gender marker petitions; apply online.
+      es: Ayuda gratuita para cualquier residente de Carolina del Sur con peticiones de nombre y marcador de género; solicita en línea.
+    url: https://www.harriethancockcenter.org/legal-program
+    phone: "803-771-7713"
+    cost: free
+    verification: org_website
+    sources: [hhc-legal]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: sccourts-fees
+    url: https://www.sccourts.org/courts/trial-courts/family-court/court-fees/
+    title: Family Court Filing Fees
+    publisher: South Carolina Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Name Change and Correction of Birth Record Actions: $150"
+  - id: pp-charleston
+    url: https://www.plannedparenthood.org/health-center/south-carolina/charleston/29407/charleston-health-center-4288-90860
+    title: Charleston Health Center
+    publisher: Planned Parenthood South Atlantic
+    kind: org
+    accessed: "2026-09-24"
+  - id: pcc
+    url: https://palmettocare.org/
+    title: Palmetto Community Care
+    publisher: Palmetto Community Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: affa
+    url: https://www.affa-sc.org/
+    title: Alliance for Full Acceptance
+    publisher: AFFA
+    kind: org
+    accessed: "2026-09-24"
+  - id: waf
+    url: https://waf.org/
+    title: We Are Family
+    publisher: We Are Family
+    kind: org
+    accessed: "2026-09-24"
+  - id: hhc-legal
+    url: https://www.harriethancockcenter.org/legal-program
+    title: The Legal Name & Gender Marker Change Program
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

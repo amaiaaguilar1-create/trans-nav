@@ -1,0 +1,212 @@
+guide_type: birth_certificate
+jurisdiction: SC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The DPH birth certificate page (updated Sept. 14, 2026) was read directly: "The sex listed on a birth certificate
+    may only be changed by an order from a court of competent jurisdiction." Fees ($12 search incl. one copy, $17
+    expedited, $3 per extra copy, $15 amendment/special filing fee) confirmed on the DPH fee page and the birth page.
+    Vital Records moved from DHEC to the S.C. Department of Public Health (DPH) in 2024; A4TE's page still says "SC DHEC
+    Vital Records". Open items: (1) No SC statute authorizes or describes sex-marker amendments; S.C. Code 44-63-150
+    (corrections by the state registrar) and DPH regulations (R. 61-19) govern amendments generally. Reviewer should
+    check R. 61-19 for amendment-by-court-order language. (2) A4TE says the court order must rest on a physician
+    statement that treatment is complete and the certificate is marked "amended" without showing what changed; the DPH
+    page instead says every amended field is noted at the bottom of the certification with the date. We follow DPH and
+    flag the conflict. (3) Several 2025-2026 bills (H 4515, H 5207, S 162) would have banned or limited sex changes on
+    birth certificates; all stayed in committee when the 2025-2026 session ended, so none are listed as pending. MAP
+    scores SC 0/1 ("no law or policy") for birth certificates.
+status: restricted
+requirement_type: court_order
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in South Carolina, you can change the sex on your birth certificate only with a court order. Send
+    the certified order to DPH Vital Records with an application; the cost is $15 plus $12 for the search and first
+    copy. Only M or F is available. Your name can be changed the same way, with a name change order.
+  es: >-
+    Si naciste en Carolina del Sur, solo puedes cambiar el sexo en tu acta de nacimiento con una orden judicial. Envía
+    la orden certificada a Registros Vitales de DPH con una solicitud; cuesta $15 más $12 por la búsqueda y la primera
+    copia. Solo hay M o F. Tu nombre se cambia de la misma forma, con una orden de cambio de nombre.
+summary:
+  en: |
+    The S.C. Department of Public Health (DPH) Vital Records office amends birth certificates for people born in South Carolina. For the **sex** field, DPH requires "an order from a court of competent jurisdiction." There is no affidavit-only or doctor's-letter route.
+
+    Most people get that order from the family court at the same time as their name change (see the name change guide). The Harriet Hancock Center reports that courts want a notarized medical affidavit stating you have made a permanent change; surgery is not specifically required. If you live in another state now, a court in your state of residence may be able to issue the order.
+
+    The amended certificate is the same computer-generated long form everyone gets; DPH notes each amended field and the date at the bottom of the certification.
+  es: |
+    Los Registros Vitales del Departamento de Salud Pública de Carolina del Sur (DPH) enmiendan las actas de quienes nacieron en el estado. Para el campo de **sexo**, DPH exige "una orden de un tribunal de jurisdicción competente". No hay vía solo con declaración jurada o carta médica.
+
+    La mayoría obtiene esa orden del tribunal de familia junto con su cambio de nombre. Según el Harriet Hancock Center, los tribunales piden una declaración médica notariada de que hiciste un cambio permanente; la cirugía no se exige específicamente. Si ahora vives en otro estado, un tribunal de tu estado de residencia podría emitir la orden.
+
+    El acta enmendada es la misma versión larga que reciben todos; DPH anota cada campo enmendado y la fecha al pie de la certificación.
+eligibility:
+  residency:
+    en: You must have been born in South Carolina. Where you live now does not matter. If you were born elsewhere, follow your birth state's rules; many are easier than South Carolina's.
+    es: Debes haber nacido en Carolina del Sur. No importa dónde vivas ahora. Si naciste en otro lugar, sigue las reglas de tu estado de nacimiento.
+  age:
+    en: Adults request their own record. For a minor, a parent or guardian applies with a court order from the family court's minor process.
+    es: Los adultos solicitan su propio registro. Para un menor, un padre o tutor solicita con una orden del proceso para menores del tribunal de familia.
+  sources: [dph-birth, hhc-legal]
+forms:
+  - id: D-2595
+    name:
+      en: Vital Records Birth Application
+      es: Solicitud de acta de nacimiento
+    url: https://dph.sc.gov/sites/scdph/files/Library/D-2595.pdf
+    url_es: https://dph.sc.gov/sites/scdph/files/Library/D-2595s.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Fill in the birth information exactly as it appears on your current certificate (name at birth, date and county of birth, parents' names).
+        - In "For what purpose are you requesting this certificate?", write **amend a certificate by court order**.
+        - Include a copy of a valid government, school, or employer photo ID; applications without ID are rejected.
+        - Attach the certified court order and payment. By mail, use a money order or cashier's check payable to S.C. DPH.
+      es: |
+        - Escribe los datos de nacimiento exactamente como aparecen en tu acta actual.
+        - En el propósito de la solicitud, escribe **amend a certificate by court order** (enmendar un acta por orden judicial).
+        - Incluye copia de una identificación con foto válida; las solicitudes sin identificación se rechazan.
+        - Adjunta la orden judicial certificada y el pago. Por correo, giro postal o cheque de caja a nombre de S.C. DPH.
+    sources: [dph-birth, dph-forms]
+steps:
+  - id: court-order
+    title:
+      en: Get a certified court order changing your sex (and name, if needed)
+      es: Obtén una orden judicial certificada que cambie tu sexo (y nombre, si hace falta)
+    body:
+      en: Petition the family court (see the name change guide). Ask for the gender marker change in the same petition as your name change and bring a notarized medical affidavit. Get a certified copy of the signed order from the clerk.
+      es: Presenta una petición al tribunal de familia (ver la guía de cambio de nombre). Pide el cambio de marcador en la misma petición que el nombre y lleva una declaración médica notariada. Obtén una copia certificada de la orden.
+    applies_to: [gender_marker]
+    sources: [dph-birth, hhc-legal]
+  - id: application
+    title:
+      en: Fill out the birth application
+      es: Llena la solicitud de acta
+    body:
+      en: Complete form D-2595 and write "amend a certificate by court order" as the purpose. If you applied for a certificate within the past year, return all the old certificates with the order.
+      es: Llena el formulario D-2595 y escribe "amend a certificate by court order" como propósito. Si solicitaste un acta en el último año, devuelve las actas anteriores con la orden.
+    forms: [D-2595]
+    sources: [dph-birth]
+  - id: submit
+    title:
+      en: Submit in person or by mail with the fees
+      es: Entrega en persona o por correo con las tarifas
+    body:
+      en: |
+        **By mail**: S.C. Department of Public Health, Vital Records Section, P.O. Box 2046, West Columbia, SC 29171. Send the application, certified order, copy of your photo ID, and a money order or cashier's check for $27 ($15 amendment + $12 search with one certified copy), plus $3 for each extra copy.
+
+        **In person**: any Vital Records office, including the state office at 2600 Bull St., Columbia (803-898-3630). In-person service carries the $17 expedited search fee instead of $12. Since November 17, 2025, amendments are not done same-day.
+      es: |
+        **Por correo**: S.C. Department of Public Health, Vital Records Section, P.O. Box 2046, West Columbia, SC 29171. Envía la solicitud, la orden certificada, copia de tu identificación y un giro postal o cheque de caja por $27 ($15 de enmienda + $12 de búsqueda con una copia), más $3 por cada copia adicional.
+
+        **En persona**: cualquier oficina de Registros Vitales, incluida la estatal en 2600 Bull St., Columbia (803-898-3630). En persona se cobra la búsqueda expedita de $17 en vez de $12. Desde el 17 de noviembre de 2025 las enmiendas no se hacen el mismo día.
+    fees: [amendment, search, search-expedited, extra-copy]
+    sources: [dph-birth, dph-fees]
+  - id: wait
+    title:
+      en: Wait for the amended certificate
+      es: Espera el acta enmendada
+    body:
+      en: DPH says court-ordered amendments can take up to 2 weeks for legal review once received; mail requests take about 4 weeks overall. If you hear nothing within 30 days, email vrrequeststatus@dph.sc.gov or call 803-898-3630.
+      es: DPH indica que las enmiendas por orden judicial pueden tardar hasta 2 semanas en revisión legal; las solicitudes por correo tardan unas 4 semanas. Si no sabes nada en 30 días, escribe a vrrequeststatus@dph.sc.gov o llama al 803-898-3630.
+    estimated_time:
+      en: 2 to 4 weeks
+      es: 2 a 4 semanas
+    sources: [dph-birth]
+fees:
+  - id: amendment
+    label:
+      en: Amendment (special filing) fee, court order
+      es: Tarifa de enmienda (registro especial), orden judicial
+    amount: 15
+    sources: [dph-fees, dph-birth]
+  - id: search
+    label:
+      en: Records search by mail, includes one certified copy
+      es: Búsqueda por correo, incluye una copia certificada
+    amount: 12
+    sources: [dph-fees]
+  - id: search-expedited
+    label:
+      en: Expedited search (in person or online), includes one certified copy
+      es: Búsqueda expedita (en persona o en línea), incluye una copia certificada
+    amount: 17
+    sources: [dph-fees]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy ordered at the same time
+      es: Cada copia certificada adicional pedida al mismo tiempo
+    amount: 3
+    sources: [dph-fees]
+fee_waiver:
+  available: false
+  eligibility:
+    en: DPH lists no fee waiver for amendments. The Harriet Hancock Center's program may help with costs.
+    es: DPH no ofrece exención para enmiendas. El programa del Harriet Hancock Center puede ayudar con los costos.
+  sources: [dph-fees, hhc-legal]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Amendments are submitted by mail to the DPH P.O. box or in person at a Vital Records office. Online vendors are for ordering copies only.
+    es: Las enmiendas se envían por correo al apartado de DPH o en persona en una oficina de Registros Vitales. Los proveedores en línea son solo para pedir copias.
+  sources: [dph-birth]
+timeline:
+  en: Up to about 4 weeks after DPH receives your request, once you have the court order.
+  es: Hasta unas 4 semanas después de que DPH recibe tu solicitud, una vez que tienes la orden judicial.
+after:
+  en: |
+    Take the amended certificate and your court order to Social Security (name only; the sex field currently cannot be changed there) and then to the SCDMV to update your license. Keep a few certified copies.
+  es: |
+    Lleva el acta enmendada y la orden judicial al Seguro Social (solo el nombre; el campo de sexo actualmente no se puede cambiar allí) y luego al SCDMV para actualizar tu licencia. Guarda varias copias certificadas.
+tips:
+  - en: If you already have an amended South Carolina certificate, it stays valid; no law has voided earlier changes.
+    es: Si ya tienes un acta de Carolina del Sur enmendada, sigue siendo válida; ninguna ley ha anulado cambios anteriores.
+  - en: Vital Records offices are busiest on Mondays, Fridays, and at lunch; Tuesday to Thursday from 9 to 11 am is quietest.
+    es: Las oficinas están más llenas los lunes, viernes y a la hora del almuerzo; de martes a jueves de 9 a 11 am hay menos gente.
+statutes:
+  - cite: S.C. Code Ann. § 44-63-150
+    title:
+      en: Corrections and amendments to birth and death certificates by the state registrar
+      es: Correcciones y enmiendas de actas por el registrador estatal
+    url: https://www.scstatehouse.gov/code/t44c063.php
+related_links:
+  - title: Advocates for Trans Equality, South Carolina identity documents
+    url: https://transequality.org/documents/south-carolina-identity-documents
+    note:
+      en: No last-updated date shown; still refers to DHEC, which no longer runs Vital Records.
+      es: Sin fecha de actualización; todavía menciona DHEC, que ya no maneja Registros Vitales.
+sources:
+  - id: dph-birth
+    url: https://dph.sc.gov/public/vital-records/birth-certificates
+    title: Birth Certificates (updated Sept. 14, 2026)
+    publisher: South Carolina Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: The sex listed on a birth certificate may only be changed by an order from a court of competent jurisdiction.
+  - id: dph-fees
+    url: https://dph.sc.gov/public/vital-records/about-vital-records/fees-vital-records-birth-death-etc
+    title: Fees for Vital Records
+    publisher: South Carolina Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Special Filing Fee - $15 per Record. We charge this special filing fee when a certificate is amended due to: ... Court order"
+  - id: dph-forms
+    url: https://dph.sc.gov/public/vital-records/about-vital-records/vital-records-forms
+    title: Vital Records Forms
+    publisher: South Carolina Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: hhc-legal
+    url: https://www.harriethancockcenter.org/legal-program
+    title: The Legal Name & Gender Marker Change Program
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: In SC, you must get an order from a Family Court Judge to change your legal name and gender marker on your birth certificate and other ID's.

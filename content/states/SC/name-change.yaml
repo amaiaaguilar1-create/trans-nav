@@ -1,0 +1,538 @@
+guide_type: name_change
+jurisdiction: SC
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute (S.C. Code 15-49-10 to -50) read in full on scstatehouse.gov 2026-09-24. $150 filing fee confirmed on the
+    Judicial Branch family court fee page and on Richland County's Family Court page. SLED Name Change Criminal Records
+    Check form DISS-0001-2024 ($25, blue fingerprint card, mail-in) read directly. Open items for the reviewer:
+    (1) the South Carolina Judicial Branch publishes NO statewide name change petition form; the petition, affidavit,
+    proposed order and hearing request are drafted by the filer or obtained from the Harriet Hancock Center program or
+    the county clerk. Confirm whether any county (Richland, Charleston, Greenville) publishes its own packet; Richland
+    County's website blocked automated access beyond its Family Court page. (2) The DSS Central Registry check fee is
+    not published on the DSS page we read (DSS Form 3072 / online one-time request); confirm the amount. (3) Certified
+    copy fees for the final order vary by county clerk and were not confirmed. (4) The court's authority to order a
+    change of sex designation is not written in the statute; the Harriet Hancock Center reports that family courts grant
+    combined name and gender marker petitions with a notarized medical affidavit and a required hearing. Practice may
+    vary by judge. (5) sccourts.org has no self-help page for name changes (the self-help URL returned 404).
+    Cross-check: A4TE's South Carolina page (no last-updated date shown) agrees on $150, fingerprinting, no publication.
+    MAP scores SC 1/1 on name-change publication.
+status: restricted
+status_summary:
+  en: >-
+    You can change your name in South Carolina by petitioning the family court, but the law adds steps most states do
+    not have: six months of state residency, a SLED fingerprint background check, a DSS child-abuse registry check, and
+    a sex offender registry check, all attached to your petition. There is no newspaper publication. The filing fee is
+    $150 and can be waived if you cannot afford it.
+  es: >-
+    Puedes cambiar tu nombre en Carolina del Sur presentando una petición en el tribunal de familia, pero la ley agrega
+    pasos que la mayoría de los estados no tienen: seis meses de residencia en el estado, una verificación de
+    antecedentes con huellas dactilares de SLED, una verificación del registro de abuso infantil de DSS y una
+    verificación del registro de delincuentes sexuales, todo adjunto a tu petición. No hay publicación en periódico. La
+    tarifa es de $150 y se puede exentar si no puedes pagarla.
+summary:
+  en: |
+    Name changes in South Carolina are handled by the **family court** in the county where you live (S.C. Code § 15-49-10). The judge decides whether the change serves your "true interest" and "protection of the public." There is no statewide fill-in form; you file a written petition that states your reason, age, residence, place of birth, and the name you want.
+
+    Before you file, you must collect three background screenings (§ 15-49-20):
+    - a **SLED fingerprint criminal background check**, which also includes the sex offender registry screening;
+    - a **DSS Central Registry of Child Abuse and Neglect** screening statement;
+    - plus two sworn affidavits: one about child support or alimony, and one proving at least six months of South Carolina residency.
+
+    A criminal record does not automatically mean denial. The judge may hold a hearing and usually does; many counties schedule one for every petition. If you also want a court order changing your **gender marker** (needed for your South Carolina birth certificate and driver's license), you can ask for it in the same petition; see the tips below.
+  es: |
+    Los cambios de nombre en Carolina del Sur los maneja el **tribunal de familia** del condado donde vives (Código de Carolina del Sur § 15-49-10). El juez decide si el cambio sirve a tu "verdadero interés" y a la "protección del público". No hay un formulario estatal; presentas una petición escrita que indica tu motivo, edad, residencia, lugar de nacimiento y el nombre que deseas.
+
+    Antes de presentar, debes reunir tres verificaciones (§ 15-49-20):
+    - una **verificación de antecedentes penales con huellas dactilares de SLED**, que también incluye la verificación del registro de delincuentes sexuales;
+    - una constancia del **Registro Central de Abuso y Negligencia Infantil de DSS**;
+    - además de dos declaraciones juradas: una sobre manutención infantil o pensión alimenticia, y otra que demuestre al menos seis meses de residencia en Carolina del Sur.
+
+    Tener antecedentes penales no significa una negación automática. El juez puede celebrar una audiencia y normalmente lo hace. Si también quieres una orden judicial que cambie tu **marcador de género** (necesaria para tu acta de nacimiento y licencia de Carolina del Sur), puedes pedirla en la misma petición.
+eligibility:
+  residency:
+    en: >-
+      You must have lived in South Carolina for at least six months and prove it with a document the SCDMV accepts as
+      proof of residency. The judge can waive the six months if you show you are a victim of domestic violence,
+      stalking, harassment, trafficking, or other abuse and are in reasonable fear for your safety.
+    es: >-
+      Debes haber vivido en Carolina del Sur al menos seis meses y demostrarlo con un documento que el SCDMV acepte como
+      prueba de residencia. El juez puede exentar los seis meses si demuestras que eres víctima de violencia doméstica,
+      acecho, acoso, trata u otro abuso y temes razonablemente por tu seguridad.
+  age:
+    en: 18 or older to file for yourself. A parent files for a minor; see the Minors section.
+    es: 18 años o más para presentar por ti mismo. Un padre o madre presenta por un menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      Everyone must submit a SLED fingerprint check and a sex offender registry screening. A record does not
+      automatically bar a name change; the judge weighs it. If granted, the clerk notifies SLED (and the Department of
+      Corrections if you are in custody) of your new name.
+    es: >-
+      Todos deben presentar una verificación de huellas de SLED y del registro de delincuentes sexuales. Tener
+      antecedentes no impide automáticamente el cambio; el juez lo evalúa. Si se concede, el secretario notifica a SLED
+      del nuevo nombre.
+  sources: [sc-15-49, hhc-legal]
+forms:
+  - id: DISS-0001-2024
+    name:
+      en: SLED Name Change Criminal Records Check (with affidavit)
+      es: Verificación de antecedentes penales para cambio de nombre de SLED (con declaración jurada)
+    url: https://sled.sc.gov/sites/sled/files/Documents/Name%20Change%20Packet%20%28AW%29_CJIS%20Form.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - List your current legal name, date of birth, Social Security number, every other name you have used (including nicknames), and the name you are requesting.
+        - The second page is an affidavit that you have never been convicted of a crime under another name. You must sign it yourself in front of a notary; no one else may sign it for you.
+        - Attach a **blue FBI-style fingerprint card** filled out completely, a $25 money order or cashier's check payable to SLED (no cash or personal checks), and a stamped envelope addressed to yourself.
+        - Mail everything to SLED, Attn: Records, P.O. Box 21398, Columbia, SC 29221. The result covers both the criminal record check and the sex offender registry screening, and is only valid with SLED's raised seal.
+      es: |
+        - Escribe tu nombre legal actual, fecha de nacimiento, número de Seguro Social, todos los otros nombres que has usado y el nombre que solicitas.
+        - La segunda página es una declaración jurada de que nunca te han condenado bajo otro nombre. Debes firmarla tú mismo ante un notario.
+        - Adjunta una **tarjeta de huellas azul** completa, un giro postal o cheque de caja de $25 a nombre de SLED (no efectivo ni cheques personales) y un sobre con estampilla dirigido a ti.
+        - Envía todo a SLED, Attn: Records, P.O. Box 21398, Columbia, SC 29221. El resultado cubre la verificación penal y la del registro de delincuentes sexuales.
+    sources: [sled-form, sled-cjis]
+  - id: DSS 3072
+    name:
+      en: DSS Central Registry of Child Abuse and Neglect check (online one-time request)
+      es: Verificación del Registro Central de Abuso y Negligencia Infantil de DSS (solicitud única en línea)
+    url: https://dss.sc.gov/about/child-abuseneglect-registry-checks/
+    required: always
+    how_to_fill:
+      en: |
+        - Use the DSS provider portal's **one-time request** option (DSS says this is the right choice for a name change). You will get an email with a secure link to enter your information and consent.
+        - Pay the fee by card through SC.GOV, then return to the portal and click Submit; paying alone does not submit the request.
+        - Choose email or mail for the results letter. Questions about name change checks go to CentralRegistryInfo@dss.sc.gov.
+      es: |
+        - Usa la opción de **solicitud única** del portal de DSS (DSS indica que es la correcta para un cambio de nombre). Recibirás un correo con un enlace seguro.
+        - Paga con tarjeta en SC.GOV y luego regresa al portal y haz clic en Submit; pagar no envía la solicitud por sí solo.
+        - Elige recibir la carta de resultados por correo electrónico o postal. Preguntas: CentralRegistryInfo@dss.sc.gov.
+    sources: [dss-registry, dss-2979]
+  - id: SCCA 467
+    name:
+      en: Family Court Coversheet
+      es: Portada del Tribunal de Familia
+    url: https://www.sccourts.org/media/forms/pdf/SCCA467.pdf
+    required: always
+    condition:
+      en: Filed with every new family court case.
+      es: Se presenta con todo caso nuevo en el tribunal de familia.
+    sources: [sccourts-forms, hhc-legal]
+  - id: SCCA 405
+    name:
+      en: Motion and Affidavit to Proceed In Forma Pauperis (Motion for Waiver of Costs and Fees), Family Court
+      es: Moción y declaración jurada para proceder in forma pauperis (exención de costos y tarifas), Tribunal de Familia
+    url: https://www.sccourts.org/media/forms/pdf/SCCA405F.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the $150 filing fee. Must be notarized.
+      es: Solo si no puedes pagar la tarifa de $150. Debe ser notariada.
+    how_to_fill:
+      en: |
+        - Fill in your monthly income (attach recent pay stubs), assets, monthly expenses, and household size.
+        - Sign in front of a notary; you are swearing you cannot pay the filing and service costs.
+        - Fill in only the caption (top) of the order, SCCA 405.1, and file both with your petition.
+      es: |
+        - Anota tus ingresos mensuales (adjunta talones de pago recientes), bienes, gastos mensuales y tamaño del hogar.
+        - Firma ante un notario.
+        - Llena solo el encabezado de la orden SCCA 405.1 y presenta ambos con tu petición.
+    sources: [scca405, scca405-2]
+  - id: SCCA 405.1
+    name:
+      en: In Forma Pauperis Order
+      es: Orden in forma pauperis
+    url: https://www.sccourts.org/media/forms/pdf/SCCA405.1.pdf
+    required: optional
+    condition:
+      en: Goes with SCCA 405. Fill in the caption only; the judge decides.
+      es: Acompaña al SCCA 405. Llena solo el encabezado; el juez decide.
+    sources: [scca405-2]
+steps:
+  - id: get-help
+    title:
+      en: Contact the Harriet Hancock Center's legal program (optional but recommended)
+      es: Contacta el programa legal del Harriet Hancock Center (opcional pero recomendado)
+    body:
+      en: |
+        South Carolina has no official do-it-yourself packet. The Harriet Hancock Center and Rainy Day Fund run a free **Legal Name & Gender Marker Change Program** for SC residents: they provide the forms, can draft and file your petition, send an attorney to your hearing, and have funds to help with fees. Apply through the form on their legal program page.
+      es: |
+        Carolina del Sur no tiene un paquete oficial para hacerlo por tu cuenta. El Harriet Hancock Center y Rainy Day Fund ofrecen un **Programa de Cambio Legal de Nombre y Marcador de Género** gratuito para residentes: proporcionan los formularios, pueden redactar y presentar tu petición, enviar un abogado a tu audiencia y tienen fondos para ayudar con las tarifas.
+    optional: true
+    sources: [hhc-legal]
+  - id: fingerprints
+    title:
+      en: Get fingerprinted and send the SLED check
+      es: Toma tus huellas y envía la verificación de SLED
+    body:
+      en: |
+        Get your prints taken on a blue fingerprint card at a local law enforcement agency, through IdentoGO (866-254-2366), or free at the Harriet Hancock Center's fingerprinting clinic (third Friday of each month, 1 to 4 pm, in Columbia). Mail the card with form DISS-0001-2024, the notarized affidavit, the $25 fee, and a self-addressed stamped envelope to SLED.
+      es: |
+        Toma tus huellas en una tarjeta azul en una agencia policial local, con IdentoGO (866-254-2366) o gratis en la clínica de huellas del Harriet Hancock Center (tercer viernes de cada mes, de 1 a 4 pm, en Columbia). Envía la tarjeta con el formulario DISS-0001-2024, la declaración notariada, la tarifa de $25 y un sobre con estampilla a SLED.
+    forms: [DISS-0001-2024]
+    fees: [sled-check]
+    estimated_time:
+      en: A few weeks by mail (not published)
+      es: Algunas semanas por correo (no publicado)
+    sources: [sled-cjis, sled-form, hhc-legal]
+  - id: dss-check
+    title:
+      en: Request the DSS child-abuse registry screening
+      es: Solicita la verificación del registro de abuso infantil de DSS
+    body:
+      en: Submit a one-time Central Registry request through the DSS online portal and pay the fee by card. Keep the results letter to attach to your petition.
+      es: Envía una solicitud única al Registro Central por el portal en línea de DSS y paga con tarjeta. Guarda la carta de resultados para adjuntarla a tu petición.
+    forms: [DSS 3072]
+    fees: [dss-check]
+    sources: [dss-registry, dss-2979]
+  - id: draft-petition
+    title:
+      en: Prepare the petition and affidavits
+      es: Prepara la petición y las declaraciones juradas
+    body:
+      en: |
+        Your filing packet usually includes: the Family Court Coversheet (SCCA 467), a written **petition** (reason for the change, your age, residence, place of birth, and the new name), an affidavit about child support or alimony, a residency affidavit with proof of six months in SC, a proposed order, and a hearing request. Attach the SLED and DSS results. Gather copies of your birth certificate, driver's license, Social Security card, and any earlier name change, marriage, or divorce papers.
+
+        If you also want a **gender marker** change, add that request to the petition and include a notarized **medical affidavit** from your provider (see tips).
+      es: |
+        Tu paquete normalmente incluye: la Portada del Tribunal de Familia (SCCA 467), una **petición** escrita (motivo, edad, residencia, lugar de nacimiento y nuevo nombre), una declaración jurada sobre manutención infantil o pensión alimenticia, una declaración de residencia con prueba de seis meses en Carolina del Sur, una orden propuesta y una solicitud de audiencia. Adjunta los resultados de SLED y DSS.
+
+        Si también quieres cambiar tu **marcador de género**, agrégalo a la petición e incluye una **declaración médica** notariada de tu proveedor.
+    forms: [SCCA 467]
+    sources: [sc-15-49, hhc-legal, sccourts-forms]
+  - id: fee-waiver
+    title:
+      en: Ask to waive the filing fee if you cannot pay
+      es: Pide la exención de la tarifa si no puedes pagar
+    body:
+      en: File SCCA 405 (notarized) and the caption of SCCA 405.1 with your petition. The judge grants or denies it; if denied, you get a set number of days to pay.
+      es: Presenta el SCCA 405 (notariado) y el encabezado del SCCA 405.1 con tu petición. El juez lo concede o lo niega; si lo niega, tendrás un plazo para pagar.
+    forms: [SCCA 405, SCCA 405.1]
+    optional: true
+    sources: [scca405-2]
+  - id: file
+    title:
+      en: File with the family court clerk in your county
+      es: Presenta en la secretaría del tribunal de familia de tu condado
+    body:
+      en: File in person or by mail with the Clerk of Court (family court) in the county where you live and pay $150, or submit your fee waiver. In Richland County (Columbia) that is 1701 Main St., 1st Floor West Wing.
+      es: Presenta en persona o por correo ante el Secretario del Tribunal (tribunal de familia) del condado donde vives y paga $150, o entrega tu solicitud de exención. En el condado de Richland (Columbia) es 1701 Main St., primer piso, ala oeste.
+    fees: [filing]
+    sources: [sccourts-fees, richland-fc]
+  - id: hearing
+    title:
+      en: Go to the hearing
+      es: Asiste a la audiencia
+    body:
+      en: The statute lets the judge hold a hearing and order you to attend. For a name-only change some counties skip it; for a gender marker change expect to attend. The judge reviews your reason and the background checks, then grants or denies the petition.
+      es: La ley permite que el juez celebre una audiencia y te ordene asistir. Para un cambio solo de nombre algunos condados no la hacen; para un cambio de marcador de género espera asistir. El juez revisa tu motivo y las verificaciones y concede o niega la petición.
+    sources: [sc-15-49, hhc-legal]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: Ask the clerk for several certified copies of the signed order. You will need one each for Social Security, SC Vital Records, the SCDMV, and your passport application.
+      es: Pide al secretario varias copias certificadas de la orden firmada. Necesitarás una para el Seguro Social, Registros Vitales, el SCDMV y tu pasaporte.
+    fees: [certified-copies]
+    sources: [hhc-legal]
+fees:
+  - id: filing
+    label:
+      en: Family court filing fee (name change)
+      es: Tarifa de presentación en el tribunal de familia (cambio de nombre)
+    amount: 150
+    waivable: true
+    note:
+      en: The Harriet Hancock Center reports clerks expect payment by money order or cashier's check; ask your county clerk.
+      es: Según el Harriet Hancock Center, los secretarios esperan giro postal o cheque de caja; consulta con tu condado.
+    sources: [sccourts-fees, richland-fc]
+  - id: sled-check
+    label:
+      en: SLED name change criminal records check
+      es: Verificación de antecedentes de SLED para cambio de nombre
+    amount: 25
+    note:
+      en: Money order, cashier's check, or certified check payable to SLED. Fingerprinting costs extra unless you use a free clinic.
+      es: Giro postal, cheque de caja o cheque certificado a nombre de SLED. Las huellas cuestan aparte salvo en una clínica gratuita.
+    sources: [sled-form]
+  - id: dss-check
+    label:
+      en: DSS Central Registry screening
+      es: Verificación del Registro Central de DSS
+    note:
+      en: Paid by card online; the amount is shown during the request. DSS waives fees only for child care licensing requests.
+      es: Se paga con tarjeta en línea; el monto se muestra durante la solicitud. DSS solo exenta tarifas para licencias de cuidado infantil.
+    sources: [dss-2979]
+  - id: certified-copies
+    label:
+      en: Certified copies of the order
+      es: Copias certificadas de la orden
+    varies_by: county
+    sources: [hhc-legal]
+fee_waiver:
+  available: true
+  forms: [SCCA 405, SCCA 405.1]
+  eligibility:
+    en: There is no fixed income cutoff on the form. You swear under oath, with a financial declaration, that you cannot pay the filing and service costs, and the judge decides. The waiver covers court costs only, not the SLED or DSS fees.
+    es: No hay un límite de ingresos fijo en el formulario. Declaras bajo juramento, con una declaración financiera, que no puedes pagar los costos, y el juez decide. La exención cubre solo los costos judiciales, no las tarifas de SLED o DSS.
+  how:
+    en: File the notarized SCCA 405 and the captioned SCCA 405.1 together with your petition. The Harriet Hancock Center's program can also help cover fees.
+    es: Presenta el SCCA 405 notariado y el SCCA 405.1 con tu petición. El programa del Harriet Hancock Center también puede ayudar con las tarifas.
+  sources: [scca405, scca405-2, sc-15-49, hhc-legal]
+publication:
+  required: "no"
+  detail:
+    en: South Carolina law does not require newspaper publication for a name change.
+    es: La ley de Carolina del Sur no exige publicación en periódico para un cambio de nombre.
+  sources: [sc-15-49, a4te-sc]
+hearing:
+  required: conditional
+  detail:
+    en: >-
+      Section 15-49-20(B) says the court "may conduct a hearing" and may order you to be present. Some counties hold one
+      for every petition; the Harriet Hancock Center reports a hearing is always required when you also ask for a gender
+      marker change.
+    es: >-
+      La sección 15-49-20(B) dice que el tribunal "puede celebrar una audiencia" y ordenarte asistir. Algunos condados la
+      hacen siempre; según el Harriet Hancock Center, siempre se requiere cuando también pides un cambio de marcador de
+      género.
+  sources: [sc-15-49, hhc-legal]
+background_check:
+  required: "yes"
+  detail:
+    en: >-
+      Required for every adult petitioner: a SLED fingerprint-based criminal records check, a SLED sex offender registry
+      screening (both on form DISS-0001-2024), and a DSS Central Registry of Child Abuse and Neglect screening. You pay
+      all costs (§ 15-49-20(I)).
+    es: >-
+      Obligatorio para todo adulto: verificación penal con huellas de SLED, verificación del registro de delincuentes
+      sexuales de SLED (ambas en el formulario DISS-0001-2024) y verificación del Registro Central de Abuso y
+      Negligencia Infantil de DSS. Tú pagas todos los costos.
+  sources: [sc-15-49, sled-form, dss-registry]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: >-
+      After granting the name change, the court must seal the file if you ask and the judge finds your safety (or your
+      child's) warrants it. A sealed name change record is not made public. Sealing is not automatic.
+    es: >-
+      Después de conceder el cambio, el tribunal debe sellar el expediente si lo pides y el juez determina que tu
+      seguridad (o la de tu hijo) lo justifica. Un expediente sellado no se hace público. No es automático.
+  how:
+    en: Ask for sealing in your petition and explain the safety risk (for example, harassment or violence you have faced as a trans person). Bring any supporting documents to the hearing.
+    es: Pide el sellado en tu petición y explica el riesgo para tu seguridad. Lleva documentos de apoyo a la audiencia.
+  sources: [sc-15-49]
+minors:
+  summary:
+    en: |
+      A parent petitions the family court. The **other parent must be named as a party** (if there is no other parent, the child is named) unless the court waives it, and the court **must appoint a guardian ad litem** for the child; the Harriet Hancock Center notes the parents pay for the guardian ad litem. The judge grants the petition if it is in the child's best interest. The six-month residency rule does not apply to a parent's petition for a minor. Note that South Carolina bans hormone therapy and puberty blockers for anyone under 18 (see the care guide); that law does not address name changes.
+    es: |
+      Un padre o madre presenta la petición en el tribunal de familia. **El otro padre debe ser nombrado como parte** (si no hay otro padre, se nombra al menor) salvo que el tribunal lo exente, y el tribunal **debe nombrar un tutor ad litem** para el menor; según el Harriet Hancock Center, los padres pagan el tutor ad litem. El juez concede la petición si es en el mejor interés del menor. La regla de seis meses de residencia no aplica a la petición de un padre por un menor.
+  sources: [sc-15-49, hhc-legal]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: The SLED check is by mail; the DSS check is online only. The petition is filed with the county clerk in person or by mail, and you attend any hearing in person.
+    es: La verificación de SLED es por correo; la de DSS es solo en línea. La petición se presenta ante el secretario del condado en persona o por correo, y asistes a la audiencia en persona.
+  sources: [sled-form, dss-2979, richland-fc]
+timeline:
+  en: Expect roughly 2 to 4 months from starting the background checks to a signed order, depending on SLED mail turnaround and your county's hearing calendar. This is an estimate; neither the courts nor SLED publish processing times.
+  es: Calcula entre 2 y 4 meses desde que inicias las verificaciones hasta la orden firmada, según los tiempos de SLED y la agenda de audiencias de tu condado. Es un estimado; ni los tribunales ni SLED publican tiempos.
+after:
+  en: |
+    1. **Social Security** first (free). The name changes; the sex field currently cannot. The SCDMV requires the SSA update at least 48 hours before your DMV visit.
+    2. **SC Vital Records** if you were born in South Carolina: send the certified order to amend your birth certificate ($15 amendment fee plus $12 search fee). See the birth certificate guide.
+    3. **SCDMV**: a new license or ID with your new name costs $10. See the driver's license guide.
+    4. **Passport**, voter registration, banks, employer, school, and insurance.
+  es: |
+    1. **Seguro Social** primero (gratis). El nombre cambia; el campo de sexo actualmente no. El SCDMV exige que actualices el Seguro Social al menos 48 horas antes de tu visita.
+    2. **Registros Vitales de Carolina del Sur** si naciste en el estado: envía la orden certificada para enmendar tu acta ($15 de enmienda más $12 de búsqueda).
+    3. **SCDMV**: una licencia o identificación nueva con tu nombre cuesta $10.
+    4. **Pasaporte**, registro de votante, bancos, empleador, escuela y seguros.
+tips:
+  - en: >-
+      To change the sex on your SC birth certificate and license you need a court order. The Harriet Hancock Center
+      reports that family courts accept a combined name and gender marker petition supported by a notarized medical
+      affidavit stating you have had a "permanent and irreversible" change; there is no set length or type of treatment
+      required. Only M or F are available; South Carolina does not offer X.
+    es: >-
+      Para cambiar el sexo en tu acta y licencia de Carolina del Sur necesitas una orden judicial. Según el Harriet
+      Hancock Center, los tribunales aceptan una petición combinada de nombre y marcador de género con una declaración
+      médica notariada de un cambio "permanente e irreversible"; no se exige un tiempo ni tipo de tratamiento específico.
+      Solo hay M o F; Carolina del Sur no ofrece X.
+  - en: If you were born in another state, check that state's rules first; many let you amend the birth certificate without a court order.
+    es: Si naciste en otro estado, revisa primero sus reglas; muchos permiten enmendar el acta sin orden judicial.
+  - en: If you are getting married or divorced soon, you can change your name through the marriage license or divorce decree instead, without the background checks.
+    es: Si pronto te vas a casar o divorciar, puedes cambiar tu nombre por la licencia de matrimonio o el decreto de divorcio, sin las verificaciones.
+  - en: A name change cannot be used to avoid debts, child support, or alimony; the child support affidavit exists for this reason.
+    es: Un cambio de nombre no puede usarse para evitar deudas, manutención o pensión alimenticia.
+local_help:
+  - id: hhc-legal
+    name: Harriet Hancock Center, Legal Name & Gender Marker Change Program (with Rainy Day Fund)
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free help for South Carolina residents with name and gender marker petitions, including forms, drafting and filing, an attorney at your hearing, and funds for fees. Free fingerprinting clinic on the third Friday of each month, 1 to 4 pm. Apply through the online form first.
+      es: Ayuda gratuita para residentes de Carolina del Sur con peticiones de nombre y marcador de género, incluidos formularios, redacción y presentación, un abogado en tu audiencia y fondos para tarifas. Clínica gratuita de huellas el tercer viernes de cada mes, de 1 a 4 pm. Solicita primero con el formulario en línea.
+    url: https://www.harriethancockcenter.org/legal-program
+    phone: "803-771-7713"
+    address: 1108 Woodrow Street, Columbia, SC 29205
+    areas_served:
+      en: Statewide (South Carolina residents only)
+      es: Todo el estado (solo residentes de Carolina del Sur)
+    cost: free
+    verification: org_website
+    sources: [hhc-legal]
+  - id: rainy-day-fund
+    name: Rainy Day Fund
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: Covers legal costs for people whose main barrier to the legal system is money, and co-runs the free fingerprinting clinic for name and gender marker petitions at the Harriet Hancock Center. Accepts referrals through its website.
+      es: Cubre costos legales para personas cuya principal barrera es el dinero y coorganiza la clínica gratuita de huellas en el Harriet Hancock Center.
+    url: https://rainydayfund.us/
+    cost: free
+    verification: community_reported
+    sources: [hhc-rdf]
+  - id: scbar-lrs
+    name: South Carolina Bar Lawyer Referral Service and SC Free Legal Answers
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Referral to a family law attorney near you (803-799-7100, weekdays), or post a civil legal question for free to a volunteer lawyer online if you qualify.
+      es: Referencia a un abogado de derecho familiar cerca de ti (803-799-7100, días hábiles), o publica gratis una pregunta legal civil a un abogado voluntario en línea si calificas.
+    url: https://www.scbar.org/for-the-public/quicklinks/get-legal-help/
+    phone: "803-799-7100"
+    cost: varies
+    verification: org_website
+    sources: [scbar]
+  - id: sc-access-justice
+    name: South Carolina Access to Justice Commission, Get Help
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide directory of free and low-cost civil legal help, searchable by county.
+      es: Directorio estatal de ayuda legal civil gratuita y de bajo costo, por condado.
+    url: https://www.scaccesstojustice.org/get-help
+    cost: free
+    verification: org_website
+    sources: [scatj]
+statutes:
+  - cite: S.C. Code Ann. §§ 15-49-10 to 15-49-50
+    title:
+      en: Change of name (family court petition, background checks, residency, sealing, filing fee)
+      es: Cambio de nombre (petición, verificaciones, residencia, sellado, tarifa)
+    url: https://www.scstatehouse.gov/code/t15c049.php
+related_links:
+  - title: Advocates for Trans Equality, South Carolina identity documents
+    url: https://transequality.org/documents/south-carolina-identity-documents
+    note:
+      en: No last-updated date shown on the page (checked 2026-09-24).
+      es: La página no muestra fecha de actualización (revisado el 2026-09-24).
+sources:
+  - id: sc-15-49
+    url: https://www.scstatehouse.gov/code/t15c049.php
+    title: S.C. Code Title 15, Chapter 49, Change of Name
+    publisher: South Carolina Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Prior to issuing an order for a name change, the court may conduct a hearing on the petition and may order the petitioner to be present.
+  - id: sccourts-fees
+    url: https://www.sccourts.org/courts/trial-courts/family-court/court-fees/
+    title: Family Court Filing Fees
+    publisher: South Carolina Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Name Change and Correction of Birth Record Actions: $150"
+  - id: sccourts-forms
+    url: https://www.sccourts.org/court-forms/?courtType=FC
+    title: Court Forms, Family Court
+    publisher: South Carolina Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: scca405
+    url: https://www.sccourts.org/media/forms/pdf/SCCA405F.pdf
+    title: SCCA 405 FC, Motion and Affidavit to Proceed in Forma Pauperis (rev. 04/2026)
+    publisher: South Carolina Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: I am unable to pay the costs of filing and service in the present matter and request that the court waive the costs
+  - id: scca405-2
+    url: https://www.sccourts.org/media/forms/pdf/SCCA405.2.pdf
+    title: SCCA 405.2, In Forma Pauperis Procedures
+    publisher: South Carolina Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: If the motion is granted you will be permitted to proceed without paying a filing fee or service cost.
+  - id: sled-cjis
+    url: https://www.sled.sc.gov/index.php/departments/criminal-justice-information-services-cjis
+    title: Criminal Justice Information Services, Name Change Criminal Records
+    publisher: South Carolina Law Enforcement Division
+    kind: official
+    accessed: "2026-09-24"
+    quote: SC Family Court requires SLED to perform a fingerprint-based criminal background check for name change requests.
+  - id: sled-form
+    url: https://sled.sc.gov/sites/sled/files/Documents/Name%20Change%20Packet%20%28AW%29_CJIS%20Form.pdf
+    title: Name Change Criminal Records Check, DISS-0001-2024
+    publisher: South Carolina Law Enforcement Division
+    kind: form
+    accessed: "2026-09-24"
+    quote: Pay the required twenty-five dollar ($25.00) fee to process a Name Change criminal history request.
+  - id: dss-registry
+    url: https://dss.sc.gov/about/child-abuseneglect-registry-checks/
+    title: Child Abuse/Neglect Registry Checks
+    publisher: South Carolina Department of Social Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: dss-2979
+    url: https://dss.sc.gov/media/sqihw0ys/dss-resource-2979-central-registry-one-time-request-72226.pdf
+    title: DSS Resource 2979, Central Registry One-Time Request (7/22/2026)
+    publisher: South Carolina Department of Social Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: This option may be appropriate for an individual check, a name change, an out-of-state child care request
+  - id: richland-fc
+    url: https://www.richlandcountysc.gov/Courts-Safety/Family-Court
+    title: Family Court
+    publisher: Richland County
+    kind: court
+    accessed: "2026-09-24"
+    quote: There is a $150 filing fee to start any case in Family Court.
+  - id: hhc-legal
+    url: https://www.harriethancockcenter.org/legal-program
+    title: The Legal Name & Gender Marker Change Program
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: For a gender marker change, you will also need a signed and notarized medical affidavit certifying that you have completed a "permanent and irreversible" change related to your sex
+  - id: hhc-rdf
+    url: https://www.harriethancockcenter.org/resourceguide/rainy-day-fund-1
+    title: Rainy Day Fund (resource guide entry)
+    publisher: Harriet Hancock LGBT Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: providing free fingerprinting services on the third Friday of each month from 1-4 PM at the HHC
+  - id: scbar
+    url: https://www.scbar.org/for-the-public/quicklinks/get-legal-help/
+    title: Get Legal Help
+    publisher: South Carolina Bar
+    kind: org
+    accessed: "2026-09-24"
+  - id: scatj
+    url: https://www.scaccesstojustice.org/get-help
+    title: Get Help
+    publisher: South Carolina Access to Justice Commission
+    kind: org
+    accessed: "2026-09-24"
+  - id: a4te-sc
+    url: https://transequality.org/documents/south-carolina-identity-documents
+    title: South Carolina identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The court may require a hearing. No publication is required.
