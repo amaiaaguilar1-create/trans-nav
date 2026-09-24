@@ -1,0 +1,376 @@
+jurisdiction: CO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    hcpf.colorado.gov and doi.colorado.gov blocked automated access on 2026-09-24; the Health First Colorado
+    Gender-Affirming Care Billing Manual and the Division of Insurance pages were read via Internet Archive snapshots
+    (2026 and December 2025). Youth developments come from Colorado Sun reporting through September 22, 2026 and the
+    Federal Register notice of August 13, 2026. Reviewer: (1) confirm HCPF's October 13, 2026 suspension of Medicaid and
+    CHP+ coverage for members under 18 (CHP+ under 19), the six-month hormone taper, and whether the 2027 legislature
+    funds state-only coverage; (2) confirm whether Denver Health has resumed any youth hormone care (suspended January
+    2, 2026); (3) Proposition 135 (surgery for minors) is on the November 3, 2026 ballot, update after the election;
+    (4) Planned Parenthood of the Rocky Mountains' minimum age for hormone therapy was not stated on its page (April
+    2026 snapshot); plannedparenthood.org blocked live access; (5) a 2025 federal rule stopped treating gender-affirming
+    care as an ACA essential health benefit starting in plan year 2026; the Division of Insurance's coverage guide still
+    lists 2026 individual and small-group coverage, confirm how Colorado is handling this. Minor care is marked
+    "restricted" because the two largest pediatric programs are not prescribing and Medicaid coverage ends October 13,
+    even though state law does not ban the care; a reviewer may prefer "available" or "litigation".
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors under Colorado law, and a 2023 shield law protects patients and
+    providers. Adults can get informed-consent hormones at Denver Health, Planned Parenthood, and community clinics, and
+    Health First Colorado (Medicaid) and state-regulated private plans cover care. For people under 18, access has
+    narrowed sharply: Children's Hospital Colorado and Denver Health stopped youth prescriptions in 2026, and federal
+    rules end Medicaid and CHP+ coverage for minors on October 13, 2026.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores según la ley de Colorado, y una ley escudo de
+    2023 protege a pacientes y proveedores. Los adultos pueden obtener hormonas por consentimiento informado en Denver
+    Health, Planned Parenthood y clínicas comunitarias, y Health First Colorado (Medicaid) y los planes privados
+    regulados por el estado cubren la atención. Para menores de 18, el acceso se ha reducido mucho: Children's Hospital
+    Colorado y Denver Health dejaron de recetar a jóvenes en 2026, y reglas federales terminan la cobertura de Medicaid y
+    CHP+ para menores el 13 de octubre de 2026.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction on adult care. Denver Health, Planned Parenthood of the Rocky Mountains, and several community clinics prescribe hormones on an **informed consent** basis: you talk through risks and benefits with the prescriber and sign a consent form, with no therapist letter required. Telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **Health First Colorado** (Medicaid). Adults with household income under about 133% of the federal poverty level qualify, and it covers hormones, labs, and surgery.
+      2. Go to a **community health center** (federally qualified health center). They charge on a sliding scale; find one at findahealthcenter.hrsa.gov and ask about gender-affirming hormone therapy.
+      3. **Planned Parenthood of the Rocky Mountains** offers hormone therapy at nine Colorado health centers (1-800-230-7526).
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who cannot afford it.
+      5. If you need a letter for surgery, The Center on Colfax runs a free monthly Gender Affirming Care Letter Lab and 12 free therapy sessions for LGBTQ+ adults.
+    es: |
+      No hay restricciones estatales para adultos. Denver Health, Planned Parenthood of the Rocky Mountains y varias clínicas comunitarias recetan hormonas por **consentimiento informado**: hablas de riesgos y beneficios y firmas un consentimiento, sin carta de terapeuta. La telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Health First Colorado** (Medicaid). Los adultos con ingresos menores a aproximadamente el 133% del nivel federal de pobreza califican, y cubre hormonas, laboratorios y cirugía.
+      2. Acude a un **centro de salud comunitario**. Cobran en escala móvil; búscalo en findahealthcenter.hrsa.gov.
+      3. **Planned Parenthood of the Rocky Mountains** ofrece terapia hormonal en nueve centros de Colorado (1-800-230-7526).
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud.
+      5. Si necesitas una carta para cirugía, The Center on Colfax tiene un laboratorio mensual gratuito de cartas y 12 sesiones de terapia gratis para adultos LGBTQ+.
+  sources: [denver-health-lgbtq, pprm-gac, doi-lgbtq, hrsa, pop-hrt, center-colfax-mh]
+minor_care:
+  status: restricted
+  detail:
+    en: |
+      **State law does not ban gender-affirming care for minors**, and Colorado's shield law (SB23-188) blocks out-of-state subpoenas, extradition, and professional discipline for care lawfully provided here. Parental consent is required. In practice, access has narrowed:
+
+      - **Hospitals:** Children's Hospital Colorado and Denver Health suspended new and renewed hormone and puberty-blocker prescriptions for patients under 18 on January 2, 2026, citing federal investigations. After the Colorado Supreme Court found likely discrimination (May 18, 2026), a Denver judge ordered Children's to stop refusing the care; Children's restored the service on paper, but its physicians (employed by the University of Colorado) have declined to write prescriptions, and on September 22, 2026 the judge ruled the hospital was not in contempt. The class action continues.
+      - **Medicaid and CHP+:** a federal rule finalized in August 2026 bars federal funds for this care for people under 18 (under 19 in CHP+). Colorado will suspend coverage on **October 13, 2026**, with six months of continued coverage to taper off hormones. Behavioral health is not affected.
+      - **Ballot:** **Proposition 135**, on the November 3, 2026 ballot, would ban gender-affirming surgery for anyone under 18 and bar public funds or insurance from paying for it. It does not address hormones or puberty blockers.
+
+      Some independent and community clinics may still see adolescents; call first and ask.
+    es: |
+      **La ley estatal no prohíbe la atención de afirmación de género para menores**, y la ley escudo de Colorado (SB23-188) bloquea citaciones de otros estados, extradiciones y sanciones profesionales por atención legal en Colorado. Se requiere consentimiento de los padres. En la práctica, el acceso se ha reducido:
+
+      - **Hospitales:** Children's Hospital Colorado y Denver Health suspendieron el 2 de enero de 2026 las recetas nuevas y renovaciones de hormonas y bloqueadores de pubertad para menores de 18, citando investigaciones federales. Tras un fallo de la Corte Suprema de Colorado (18 de mayo de 2026), un juez ordenó a Children's dejar de negarse; el hospital restableció el servicio en papel, pero sus médicos se han negado a recetar, y el 22 de septiembre de 2026 el juez resolvió que el hospital no estaba en desacato. La demanda colectiva continúa.
+      - **Medicaid y CHP+:** una regla federal de agosto de 2026 prohíbe fondos federales para esta atención a menores de 18 (menores de 19 en CHP+). Colorado suspenderá la cobertura el **13 de octubre de 2026**, con seis meses de cobertura para disminuir las hormonas. La salud conductual no se ve afectada.
+      - **Boleta:** la **Proposición 135**, en la boleta del 3 de noviembre de 2026, prohibiría la cirugía de afirmación de género para menores de 18. No trata hormonas ni bloqueadores.
+
+      Algunas clínicas independientes y comunitarias pueden seguir atendiendo a adolescentes; llama primero.
+  sources: [sb23-188, sun-chc-suspend, sun-chc-supreme, sun-chc-contempt, sun-medicaid-youth, fr-medicaid-rule, prop-135]
+medicaid:
+  program_name: Health First Colorado
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Health First Colorado covers gender-affirming care for members with a diagnosis of gender dysphoria when medically necessary, under program rule 10 CCR 2505-10 § 8.735: hormone therapy (prior authorization required), puberty blockers, and surgeries such as mastectomy, breast augmentation (mammoplasty), hysterectomy, and covered facial and neck procedures (the rule has the full list, and other medically necessary surgeries are reviewed case by case), plus electrolysis of surgical sites and pre- and post-operative care. Most surgeries require six continuous months of hormone therapy (12 months for breast augmentation) unless hormones are not clinically indicated or not wanted; chest surgery (mastectomy) has no hormone requirement. The surgeon must keep a statement from a qualified health professional that the criteria are met.
+
+      **Under 18 (CHP+ under 19):** coverage of hormones, puberty blockers, and related procedures is suspended starting October 13, 2026 because of a federal funding rule; people already on hormones keep coverage for a six-month taper.
+
+      **Who qualifies:** adults with household income under about 133% of the federal poverty level, even if not pregnant, married, or a parent. Apply online through PEAK, by phone, or at your county human services office.
+    es: |
+      Health First Colorado cubre la atención de afirmación de género para miembros con diagnóstico de disforia de género cuando es médicamente necesaria (regla 10 CCR 2505-10 § 8.735): terapia hormonal (con autorización previa), bloqueadores de pubertad y cirugías como mastectomía, aumento de senos, histerectomía y procedimientos faciales y de cuello cubiertos (otras cirugías médicamente necesarias se revisan caso por caso), además de electrólisis del sitio quirúrgico. La mayoría de las cirugías requieren seis meses continuos de hormonas (12 para aumento de senos), salvo que no estén indicadas o no se deseen; la mastectomía no tiene ese requisito.
+
+      **Menores de 18 (CHP+ menores de 19):** la cobertura de hormonas, bloqueadores y procedimientos relacionados se suspende desde el 13 de octubre de 2026 por una regla federal; quienes ya toman hormonas mantienen cobertura seis meses para disminuirlas.
+
+      **Quién califica:** adultos con ingresos menores a aproximadamente el 133% del nivel federal de pobreza. Solicita en línea en PEAK, por teléfono o en la oficina de servicios humanos de tu condado.
+  how_to_apply_url: https://www.healthfirstcolorado.com/apply-now/
+  sources: [hcpf-gac-manual, hcpf-rule, sun-medicaid-youth, fr-medicaid-rule, doi-lgbtq]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Colorado Insurance Regulation 4-2-62 bars state-regulated plans (look for "CO-DOI" on your card) from denying, excluding, or limiting medically necessary care based on gender identity, and the Division of Insurance says Colorado prohibits transgender exclusions in plans sold here. Since 2023 Colorado has included gender-affirming care in its essential health benefits benchmark for individual and small-group plans, and the Division publishes a yearly guide to what each company covers. The shield law (SB23-188) also bars insurers from penalizing providers for lawful gender-affirming care.
+
+      If a plan denies care, appeal to the plan within 180 days; if it is upheld as "not medically necessary," you can ask the Division for a free, binding independent external review. Help: Division of Insurance Consumer Services, 303-894-7490 or 800-930-3745. Self-funded employer plans are federally regulated and may not follow these rules; the Trans Health Project has appeal templates.
+    es: |
+      El Reglamento de Seguros 4-2-62 de Colorado prohíbe que los planes regulados por el estado (busca "CO-DOI" en tu tarjeta) nieguen, excluyan o limiten atención médicamente necesaria por identidad de género, y la División de Seguros dice que Colorado prohíbe exclusiones trans en los planes vendidos aquí. Desde 2023 Colorado incluye la atención de afirmación de género en sus beneficios de salud esenciales para planes individuales y de grupos pequeños, y la División publica cada año una guía de cobertura por compañía.
+
+      Si un plan niega la atención, apela ante el plan dentro de 180 días; si la negación se mantiene por "no ser médicamente necesaria", puedes pedir a la División una revisión externa independiente gratuita y vinculante. Ayuda: Servicios al Consumidor de la División de Seguros, 303-894-7490 o 800-930-3745.
+  complaint_url: https://doi.colorado.gov/for-consumers/file-a-complaint
+  sources: [doi-lgbtq, doi-gac-guide, sb23-188]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: denver-health-lgbtq
+    name: Denver Health LGBTQ+ Services
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Denver's public safety-net health system. Informed-consent hormone therapy, gender-affirming surgery (top surgery, hysterectomy, orchiectomy, vaginoplasty), voice therapy, behavioral health, same-day PrEP, and patient navigators. Accepts Medicaid and offers financial assistance. 303-602-5699, weekdays 8 am to 5 pm. Youth hormone care was suspended in January 2026.
+      es: Sistema de salud público de Denver. Terapia hormonal por consentimiento informado, cirugía de afirmación de género, terapia de voz, salud conductual, PrEP el mismo día y navegadores de pacientes. Acepta Medicaid y ofrece asistencia financiera. 303-602-5699. La atención hormonal para jóvenes se suspendió en enero de 2026.
+    url: https://www.denverhealth.org/services/lgbtq-services
+    phone: "303-602-5699"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [denver-health-lgbtq, sun-chc-suspend]
+  - id: pprm
+    org: planned-parenthood
+    name: Planned Parenthood of the Rocky Mountains, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy at Colorado health centers in Denver (Park Hill, Denver Central), Palmer South Metro, Boulder, Colorado Springs Westside, Durango, Glenwood Springs, Cortez, and Salida; transfers of existing prescriptions welcome. Call 1-800-230-7526 (1-800-230-PLAN). Confirm the minimum age with the health center.
+      es: Terapia hormonal por consentimiento informado en centros de Colorado en Denver (Park Hill, Denver Central), Palmer South Metro, Boulder, Colorado Springs Westside, Durango, Glenwood Springs, Cortez y Salida. Llama al 1-800-230-7526. Confirma la edad mínima con el centro.
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains/learn/gender-affirming-care
+    phone: "1-800-230-7526"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [pprm-gac]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which must see you regardless of insurance and charge on a sliding scale. Call and ask whether they offer gender-affirming hormone therapy.
+      es: Localizador oficial de centros de salud federalmente calificados, que deben atenderte sin importar tu seguro y cobran en escala móvil. Llama y pregunta si ofrecen terapia hormonal de afirmación de género.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: center-colfax-mh
+    name: The Center on Colfax, Glass Lawler Mental Health
+    type: mental_health
+    pillars: [mental_health, hrt]
+    description:
+      en: Twelve free therapy sessions for LGBTQ+ adults with no insurance or referral needed, free peer support groups, and a Gender Affirming Care Letter Lab on the second Wednesday of each month (10 am to 5 pm) for letters needed for surgery or insurance. 1301 E. Colfax Ave, Denver.
+      es: Doce sesiones de terapia gratuitas para adultos LGBTQ+ sin seguro ni referencia, grupos de apoyo gratuitos y un laboratorio de cartas de atención de afirmación de género el segundo miércoles de cada mes. 1301 E. Colfax Ave, Denver.
+    url: https://lgbtqcolorado.org/programs/glass-lawler-mental-health/
+    phone: "303-733-7743"
+    address: 1301 E. Colfax Ave, Denver, CO 80218
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [center-colfax-mh]
+  - id: prep-pharmacist
+    name: PrEP from a pharmacist (Colorado HB20-1061)
+    type: government_office
+    pillars: [sexual_health]
+    description:
+      en: Colorado law lets pharmacists prescribe HIV prevention medication (PrEP and PEP) under a statewide protocol, and state-regulated insurers must cover it without prior authorization or step therapy. Ask your pharmacy whether it offers PrEP.
+      es: La ley de Colorado permite que farmacéuticos receten medicamentos de prevención del VIH (PrEP y PEP) y los seguros regulados por el estado deben cubrirlos sin autorización previa. Pregunta en tu farmacia.
+    url: https://leg.colorado.gov/bills/hb20-1061
+    cost: insurance
+    verification: official_source
+    sources: [hb20-1061]
+  - id: point-of-pride-co
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy), a yearly surgery fund, and free binders and shapewear.
+      es: Fondos nacionales para personas que no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis), un fondo anual de cirugía y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/hrt-access-fund
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-co
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and transition costs, including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y costos de transición, incluidos hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including self-funded employer plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+  - id: doi-consumer
+    name: Colorado Division of Insurance, Consumer Services
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: State regulator that takes complaints and runs independent external reviews for state-regulated plans. Publishes a yearly Gender-Affirming Care Coverage Guide comparing what each insurer covers. 303-894-7490 or 800-930-3745.
+      es: Regulador estatal que recibe quejas y gestiona revisiones externas independientes. Publica cada año una guía de cobertura de atención de afirmación de género por aseguradora. 303-894-7490 u 800-930-3745.
+    url: https://doi.colorado.gov/for-consumers/file-a-complaint
+    phone: "303-894-7490"
+    cost: free
+    verification: official_source
+    sources: [doi-lgbtq, doi-gac-guide]
+statutes:
+  - cite: SB23-188 (2023), Protections for Accessing Reproductive Health Care
+    title:
+      en: Shield law covering gender-affirming care (subpoenas, extradition, licensing, insurers)
+      es: Ley escudo que cubre la atención de afirmación de género
+    url: https://leg.colorado.gov/bills/sb23-188
+  - cite: 10 CCR 2505-10 § 8.735
+    title:
+      en: Health First Colorado gender-affirming care benefit rule
+      es: Regla del beneficio de atención de afirmación de género de Health First Colorado
+    url: https://hcpf.colorado.gov/gac-manual
+  - cite: Colorado Insurance Regulation 4-2-62
+    title:
+      en: Prohibits discrimination based on gender identity in private health insurance
+      es: Prohíbe la discriminación por identidad de género en seguros privados
+    url: https://doi.colorado.gov/insurance-products/health-insurance/consumer-resources/lgbtq-health-care-rights-and-resources
+litigation:
+  - case: Transgender patients v. Children's Hospital Colorado (class action)
+    court: Denver District Court; Colorado Supreme Court
+    summary:
+      en: Families of transgender youth sued Children's Hospital Colorado under the state anti-discrimination law after it suspended hormone and puberty-blocker prescriptions for patients under 18 in January 2026. On May 18, 2026 the Colorado Supreme Court (5-2) found sufficient evidence of discrimination; in June a Denver judge enjoined the hospital from refusing the care. On September 22, 2026 the judge ruled the hospital was not in contempt because it had changed its policy, and its physicians, who are not hospital employees, had individually declined to prescribe.
+      es: Familias de jóvenes trans demandaron a Children's Hospital Colorado por discriminación después de que suspendiera en enero de 2026 las recetas de hormonas y bloqueadores para menores de 18. El 18 de mayo de 2026 la Corte Suprema de Colorado (5-2) halló pruebas suficientes de discriminación; en junio un juez ordenó al hospital no negar la atención. El 22 de septiembre de 2026 el juez resolvió que el hospital no estaba en desacato.
+    effect_today:
+      en: Children's Hospital Colorado lists youth gender-affirming medical care as a service again, but as of late September 2026 its doctors are not writing new or renewed prescriptions. Mental and behavioral health services continue. The case is ongoing.
+      es: Children's Hospital Colorado vuelve a listar la atención médica de afirmación de género para jóvenes, pero a finales de septiembre de 2026 sus médicos no están recetando. Los servicios de salud mental continúan. El caso sigue en curso.
+    last_update: "2026-09-22"
+    url: https://coloradosun.com/2026/09/22/childrens-hospital-colorado-contempt-ruling/
+    sources: [sun-chc-contempt, sun-chc-supreme, sun-chc-suspend]
+sources:
+  - id: sb23-188
+    url: https://leg.colorado.gov/bills/sb23-188
+    title: SB23-188, Protections for Accessing Reproductive Health Care (signed April 14, 2023)
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Insurers ... cannot penalize health-care providers for the provision of, or assistance in the provision of, reproductive health care or gender-affirming health-care services.
+  - id: hcpf-gac-manual
+    url: https://hcpf.colorado.gov/gac-manual
+    title: Gender-Affirming Care Billing Manual (read via Internet Archive snapshot, 2026)
+    publisher: Colorado Department of Health Care Policy and Financing
+    kind: official
+    accessed: "2026-09-24"
+    quote: Health First Colorado provides gender-affirming care services benefits to eligible members. ... Covered hormone therapy services are limited to Gonadotropin-Releasing Hormone Therapy and Gender-Affirming Hormone Therapy.
+  - id: hcpf-rule
+    url: https://hcpf.colorado.gov/gender-affirming-stakeholder-engagement
+    title: Gender-Affirming Care Stakeholder Engagement (links Transgender Services Department Rule 8.735; Internet Archive snapshot of May 23, 2025)
+    publisher: Colorado Department of Health Care Policy and Financing
+    kind: official
+    accessed: "2026-09-24"
+  - id: sun-medicaid-youth
+    url: https://coloradosun.com/2026/08/21/medicaid-gender-affirming-care-federal-rule/
+    title: Colorado to suspend Medicaid coverage for some gender-affirming care for youth due to new federal rule
+    publisher: The Colorado Sun
+    kind: news
+    accessed: "2026-09-24"
+    quote: Colorado's coverage suspension will begin Oct. 13 to match when the federal rule takes effect. Under the federal rule, patients taking hormones will continue to have coverage for a six-month-long tapering period.
+  - id: fr-medicaid-rule
+    url: https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for
+    title: Medicaid Program; Prohibition on Federal Medicaid and CHIP Funding for sex-trait procedures for minors (final rule, August 13, 2026)
+    publisher: Centers for Medicare and Medicaid Services, Federal Register
+    kind: regulation
+    accessed: "2026-09-24"
+  - id: sun-chc-suspend
+    url: https://coloradosun.com/2026/01/02/childrens-hospital-colorado-gender-affirming-care-kennedy/
+    title: Children's Hospital Colorado has suspended gender-affirming care for transgender youth amid a new federal investigation
+    publisher: The Colorado Sun
+    kind: news
+    accessed: "2026-09-24"
+    quote: A second Colorado hospital, Denver Health, also announced Friday that it has suspended gender-affirming care for transgender youth, including hormone and puberty-blocking therapies.
+  - id: sun-chc-supreme
+    url: https://coloradosun.com/2026/05/18/childrens-hospital-colorado-supreme-court/
+    title: Colorado Supreme Court sides with transgender youth in fight against Children's Hospital Colorado
+    publisher: The Colorado Sun
+    kind: news
+    accessed: "2026-09-24"
+  - id: sun-chc-contempt
+    url: https://coloradosun.com/2026/09/22/childrens-hospital-colorado-contempt-ruling/
+    title: Children's Hospital Colorado not in contempt in gender-affirming care case, Denver judge says
+    publisher: The Colorado Sun
+    kind: news
+    accessed: "2026-09-24"
+    quote: Children's responded to the injunction by changing its "scope of services" statement to reinstate gender-affirming care ... But patients have not begun receiving prescriptions again.
+  - id: prop-135
+    url: https://ballotpedia.org/Colorado_Proposition_135,_Prohibit_Surgeries_for_Treatment_in_Response_to_Minors%27_Perception_of_Sex_or_Gender_Measure_(2026)
+    title: Colorado Proposition 135 (2026)
+    publisher: Ballotpedia
+    kind: community
+    accessed: "2026-09-24"
+    quote: A health-care professional or other person shall not knowingly perform, prescribe, administer, or provide any surgery to a minor for the purpose of altering biological sex characteristics.
+  - id: doi-lgbtq
+    url: https://doi.colorado.gov/insurance-products/health-insurance/consumer-resources/lgbtq-health-care-rights-and-resources
+    title: LGBTQ Health Care Rights and Resources (read via Internet Archive snapshot of December 26, 2025)
+    publisher: Colorado Division of Insurance
+    kind: official
+    accessed: "2026-09-24"
+    quote: Colorado Regulation 4-2-62 prohibits discrimination in private health insurance plans based on sexual orientation or gender identity. ... Colorado prohibits transgender exclusions and clauses in private plans sold in Colorado.
+  - id: doi-gac-guide
+    url: https://doi.colorado.gov/for-consumers/consumer-resources/special-insurance-topics/lgbtq-health-care-rights/gender-affirming
+    title: Gender-Affirming Care Coverage Guide (read via Internet Archive snapshot, 2026)
+    publisher: Colorado Division of Insurance
+    kind: official
+    accessed: "2026-09-24"
+    quote: The information below displays a list of gender-affirming services and how they are covered by each insurance company offering individual and small group plans for 2026.
+  - id: denver-health-lgbtq
+    url: https://www.denverhealth.org/services/lgbtq-services
+    title: LGBTQ+ Services
+    publisher: Denver Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Hormone Replacement Therapy (HRT) on an Informed Consent Model
+  - id: pprm-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains/learn/gender-affirming-care
+    title: Gender Affirming Care (Internet Archive snapshot of April 4, 2026)
+    publisher: Planned Parenthood of the Rocky Mountains
+    kind: org
+    accessed: "2026-09-24"
+    quote: "In Colorado: Park Hill, Denver Central, Durango, Colorado Springs Westside, Glenwood Springs, Cortez, Boulder, Salida, and Palmer South Metro"
+  - id: center-colfax-mh
+    url: https://lgbtqcolorado.org/programs/glass-lawler-mental-health/
+    title: Glass Lawler Mental Health
+    publisher: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+  - id: hb20-1061
+    url: https://leg.colorado.gov/bills/hb20-1061
+    title: HB20-1061, HIV Infection Prevention Medications
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,267 @@
+jurisdiction: CO
+slug: denver
+name: Denver
+area:
+  en: City and County of Denver and the surrounding metro (Adams, Arapahoe, Jefferson, Douglas, and Broomfield counties)
+  es: Ciudad y Condado de Denver y el área metropolitana (condados de Adams, Arapahoe, Jefferson, Douglas y Broomfield)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Built from org and court websites read 2026-09-24 (Planned Parenthood via an April 2026 Internet Archive snapshot,
+    because plannedparenthood.org blocked live access). Reviewer: (1) Denver County Court is a municipal court outside
+    the state judicial system; its name change filing fee was not published on its site, so no filing_fee is set
+    (the state county court fee is $98). People living in the suburbs file in their own county's court (Adams,
+    Arapahoe, Jefferson, and so on). (2) Envision:You says its programs have joined Denver Family Institute; that site
+    did not render for automated fetching, so it is not listed. (3) The Transgender Center of the Rockies site
+    (transcenterrockies.org) did not render; consider adding after checking. (4) Verify walk-in hours and new-patient
+    availability before marking reviewed.
+intro:
+  en: >-
+    Denver has the state's largest cluster of trans services: The Center on Colfax (with on-site fingerprinting for name
+    change background checks), Denver Health's informed-consent LGBTQ+ clinic, Planned Parenthood hormone care, and free
+    HIV/STI testing and PrEP. Denver residents file name changes at Denver County Court in the City and County Building.
+  es: >-
+    Denver tiene la mayor concentración de servicios trans del estado: The Center on Colfax (con toma de huellas para las
+    verificaciones de antecedentes del cambio de nombre), la clínica LGBTQ+ de Denver Health con consentimiento
+    informado, atención hormonal en Planned Parenthood y pruebas gratuitas de VIH/ITS y PrEP. Los residentes de Denver
+    presentan su cambio de nombre en el Tribunal del Condado de Denver, en el City and County Building.
+court:
+  name: Denver County Court (Civil Division), City and County Building
+  url: https://www.denvercountycourt.org/civil/
+  self_help_url: https://www.denvercountycourt.org/civil/#anchor_self_help_center
+  notes:
+    en: >-
+      File in person at the City and County Building, 1437 Bannock St (Clerk's Office, Room 135, weekdays 8 am to 4 pm,
+      720-865-7840). The free Civil Self Help Center in Room 281 (720-865-7819, selfhelp@denvercountycourt.org) reviews
+      forms. The court handles adult, minor, gender identity, prior-felony, and over-70 name changes. Use the statewide
+      JDF forms in the name change guide.
+    es: >-
+      Presenta en persona en el City and County Building, 1437 Bannock St (Oficina del Secretario, sala 135, días hábiles
+      de 8 am a 4 pm, 720-865-7840). El Centro de Autoayuda Civil gratuito en la sala 281 (720-865-7819) revisa
+      formularios. Usa los formularios estatales JDF de la guía de cambio de nombre.
+  sources: [denver-county-civil, denver-county-contact]
+resources:
+  - id: center-on-colfax
+    name: The Center on Colfax
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Colorado's largest LGBTQ center. Transgender Program with weekly support groups (trans feminine, trans masculine, nonbinary, and 40+), on-site fingerprinting for name change background checks, and referrals to LGBTQ-friendly attorneys. Lobby open weekdays 10 am to 8 pm.
+      es: El centro LGBTQ más grande de Colorado. Programa trans con grupos de apoyo semanales, toma de huellas en el lugar para las verificaciones de antecedentes y referencias a abogados LGBTQ. Abierto entre semana de 10 am a 8 pm.
+    url: https://lgbtqcolorado.org/programs/transgender/
+    phone: "303-733-7743"
+    address: 1301 E. Colfax Ave, Denver, CO 80218
+    cost: free
+    verification: org_website
+    sources: [center-colfax-trans, center-colfax-legal]
+  - id: center-colfax-mh
+    name: The Center on Colfax, Glass Lawler Mental Health
+    type: mental_health
+    pillars: [mental_health, hrt]
+    description:
+      en: Twelve free counseling sessions for LGBTQ+ adults (no insurance or referral), free peer support groups, and a monthly Gender Affirming Care Letter Lab (second Wednesday, 10 am to 5 pm).
+      es: Doce sesiones de consejería gratuitas para adultos LGBTQ+ (sin seguro ni referencia), grupos de apoyo gratuitos y un laboratorio mensual de cartas de atención de afirmación de género.
+    url: https://lgbtqcolorado.org/programs/glass-lawler-mental-health/
+    phone: "303-733-7743"
+    address: 1301 E. Colfax Ave, Denver, CO 80218
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [center-colfax-mh]
+  - id: colorado-name-change-project
+    name: Colorado Name Change Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Volunteer nonprofit with free automated forms, workshops, a list of county court hearing practices, and microgrants for trans and nonbinary Coloradans.
+      es: Organización de voluntarios con formularios automatizados gratuitos, talleres y microsubvenciones para personas trans y no binarias de Colorado.
+    url: https://www.namechangeproject.org/
+    cost: free
+    verification: org_website
+    sources: [ncp-home]
+  - id: bread-and-roses
+    name: Bread and Roses Legal Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Denver legal center providing gender-affirming legal services, record sealing, warrant resolution, and criminal defense on a pay-what-you-can basis.
+      es: Centro legal en Denver que ofrece servicios legales de afirmación de género, sellado de antecedentes y defensa penal según tu capacidad de pago.
+    url: https://www.breadandroseslaw.org/
+    cost: sliding_scale
+    verification: org_website
+    sources: [bread-roses]
+  - id: denver-self-help
+    name: Denver County Court Civil Self Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free in-person help with civil court forms, including name changes, for people without a lawyer. Room 281, weekdays 8 am to 4 pm.
+      es: Ayuda gratuita en persona con formularios civiles, incluidos cambios de nombre, para personas sin abogado. Sala 281, días hábiles de 8 am a 4 pm.
+    url: https://www.denvercountycourt.org/civil/
+    phone: "720-865-7819"
+    address: 1437 Bannock St, Room 281, Denver, CO 80202
+    cost: free
+    verification: official_source
+    sources: [denver-county-civil, denver-county-contact]
+  - id: denver-health-lgbtq
+    name: Denver Health LGBTQ+ Services
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Informed-consent hormone therapy, gender-affirming surgery, voice therapy, behavioral health, same-day PrEP, and patient navigators at Denver's public hospital system. Accepts Medicaid and Medicare; financial assistance available. Youth hormone care was suspended in January 2026.
+      es: Terapia hormonal por consentimiento informado, cirugía de afirmación de género, terapia de voz, salud conductual, PrEP el mismo día y navegadores de pacientes en el sistema hospitalario público de Denver. Acepta Medicaid; hay asistencia financiera.
+    url: https://www.denverhealth.org/services/lgbtq-services
+    phone: "303-602-5699"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [denver-health-lgbtq]
+  - id: pprm-denver
+    org: planned-parenthood
+    name: Planned Parenthood of the Rocky Mountains (Park Hill, Denver Central, Palmer South Metro)
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent gender-affirming hormone therapy plus STI testing and sexual health care at three Denver-area health centers. Call 1-800-230-7526 for an appointment; ask about the minimum age.
+      es: Terapia hormonal por consentimiento informado, pruebas de ITS y salud sexual en tres centros del área de Denver. Llama al 1-800-230-7526; pregunta la edad mínima.
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains/learn/gender-affirming-care
+    phone: "1-800-230-7526"
+    cost: sliding_scale
+    accepts_medicaid: true
+    verification: org_website
+    sources: [pprm-gac]
+  - id: denver-element
+    name: Denver Element (Mile High Behavioral Healthcare)
+    type: sexual_health
+    pillars: [sexual_health, mental_health, hrt]
+    description:
+      en: LGBTQ+ program offering free HIV/STI testing, PrEP navigation, harm reduction, substance use counseling, and gender-affirming care letters.
+      es: Programa LGBTQ+ con pruebas gratuitas de VIH/ITS, navegación de PrEP, reducción de daños, consejería de consumo de sustancias y cartas de atención de afirmación de género.
+    url: https://denverelement.org/
+    phone: "720-382-5900"
+    address: 4242 Delaware St, Denver, CO 80216
+    cost: free
+    verification: org_website
+    sources: [denver-element]
+  - id: vivent-denver
+    name: Vivent Health Denver
+    type: sexual_health
+    pillars: [sexual_health, mental_health]
+    description:
+      en: PrEP and PrEP navigation, HIV, STI, and hepatitis C testing, HIV care, primary and behavioral health care, pharmacy, and insurance enrollment support.
+      es: PrEP y navegación de PrEP, pruebas de VIH, ITS y hepatitis C, atención del VIH, atención primaria y conductual, farmacia y apoyo con seguros.
+    url: https://www.viventhealth.org/locations/denver/
+    phone: "303-393-8050"
+    address: 5250 Leetsdale Dr, Suite 300, Denver, CO 80246
+    cost: varies
+    verification: org_website
+    sources: [vivent-denver]
+  - id: one-colorado
+    name: One Colorado
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide LGBTQ+ advocacy organization; tracks legislation and leads the campaign on the 2026 ballot measures affecting trans Coloradans.
+      es: Organización estatal de defensa LGBTQ+; da seguimiento a la legislación y lidera la campaña sobre las medidas de 2026 que afectan a personas trans.
+    url: https://www.one-colorado.org/
+    phone: "303-396-6170"
+    address: 303 E. 17th Ave, Suite 400, Denver, CO 80203
+    cost: free
+    verification: org_website
+    sources: [one-colorado]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860; also offers microgrants.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860; también ofrece microsubvenciones.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: denver-county-civil
+    url: https://www.denvercountycourt.org/civil/
+    title: Civil (Official Name Changes; Self Help Center)
+    publisher: Denver County Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Official name changes may be filed in-person at the City & County Building ... name changes due to gender identification, and name changes for persons over 70 years of age."
+  - id: denver-county-contact
+    url: https://www.denvercountycourt.org/contact/
+    title: Contact
+    publisher: Denver County Court
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Civil Self Help Center, Monday - Friday: 8:00AM - 4:00PM, 720-865-7819"
+  - id: center-colfax-trans
+    url: https://lgbtqcolorado.org/programs/transgender/
+    title: Transgender Program
+    publisher: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-colfax-legal
+    url: https://lgbtqcolorado.org/programs/legal/
+    title: Legal Resources
+    publisher: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Center on Colfax cannot give legal advice and only provides referrals to LGBTQ-friendly attorneys and resources.
+  - id: center-colfax-mh
+    url: https://lgbtqcolorado.org/programs/glass-lawler-mental-health/
+    title: Glass Lawler Mental Health
+    publisher: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+  - id: ncp-home
+    url: https://www.namechangeproject.org/
+    title: Colorado Name Change Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: bread-roses
+    url: https://www.breadandroseslaw.org/
+    title: Bread and Roses Legal Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: denver-health-lgbtq
+    url: https://www.denverhealth.org/services/lgbtq-services
+    title: LGBTQ+ Services
+    publisher: Denver Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: pprm-gac
+    url: https://www.plannedparenthood.org/planned-parenthood-rocky-mountains/learn/gender-affirming-care
+    title: Gender Affirming Care (Internet Archive snapshot of April 4, 2026)
+    publisher: Planned Parenthood of the Rocky Mountains
+    kind: org
+    accessed: "2026-09-24"
+  - id: denver-element
+    url: https://denverelement.org/
+    title: Denver Element
+    publisher: Mile High Behavioral Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: vivent-denver
+    url: https://www.viventhealth.org/locations/denver/
+    title: Vivent Health Denver
+    publisher: Vivent Health
+    kind: org
+    accessed: "2026-09-24"
+  - id: one-colorado
+    url: https://www.one-colorado.org/
+    title: One Colorado
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

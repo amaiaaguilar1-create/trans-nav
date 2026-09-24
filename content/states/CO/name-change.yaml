@@ -1,0 +1,711 @@
+guide_type: name_change
+jurisdiction: CO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted 2026-09-24 from the Colorado Judicial Branch forms (JDF 432 guide revised March 9, 2026; JDF 433; JDF 426;
+    JDF 427; JDF 448; JDF 421-423; JDF 385/386; JDF 205/206), the C.R.S. text of 13-15-101 and 13-15-102 as published
+    on colorado.public.law (2024 edition), and the signed acts of HB24-1071 and SB26-018 on leg.colorado.gov.
+    Open items for the reviewer: (1) Fees ($98 county court, $268 district court, $20 certified copy) come from JDF 432
+    (March 2026); the Colorado Name Change Project's minor page still shows the older $88/$238, and JDF 385 (April 2024)
+    also shows $88/$238. (2) Fingerprint cost ($34.50 CBI + $55 FBI = $89.50) is from the Colorado Name Change Project,
+    not from CBI; its minor page says $86.50. Confirm on CBI's site (cbi.colorado.gov blocks automated access).
+    (3) JDF 432 mentions JDF 209 (Notice of Fee Waiver for public-benefit recipients), but the judicial forms search
+    did not list JDF 209; the current JDF 205 has an "automatic qualification" section for SNAP, TANF, SSI, and others,
+    so the guide points people to JDF 205/206 only. (4) SB26-018 (7)(b)(III) lets a person ask to suppress a petition
+    filed before July 1, 2026 and says the court "shall grant" it; it sits inside the minors' subsection, and the
+    Colorado Sun reads it as available to anyone. Confirm whether adults who filed before July 1, 2026 can use it.
+    There is no automatic suppression for adults filing now. (5) The task brief called the adult forms the "JDF 385
+    series"; JDF 385/386/387 are actually the prior-felony name change packet; the standard adult packet is JDF 432/433.
+    (6) Denver County Court is a separate court from the state system; confirm its filing fee matches $98.
+    Cross-check: A4TE Colorado page ("Last updated April 2026") agrees on forms JDF 433/427/426/448, the $98-$268 fee
+    range, fingerprinting, and waived publication for gender identity.
+status: available
+status_summary:
+  en: >-
+    Colorado adults can change their name to match their gender identity by filing a petition in the county court
+    where they live. You must first get an FBI and Colorado fingerprint background check (about $90), and the filing
+    fee is $98 (fee waiver available). Newspaper publication is not required for a gender-identity name change.
+  es: >-
+    En Colorado, las personas adultas pueden cambiar su nombre para que coincida con su identidad de género presentando
+    una petición en el tribunal del condado donde viven. Primero necesitas una verificación de antecedentes con huellas
+    digitales del FBI y de Colorado (unos $90), y la tarifa de presentación es de $98 (hay exención de tarifas). No se
+    requiere publicar en el periódico un cambio de nombre por identidad de género.
+summary:
+  en: |
+    Name changes in Colorado are handled by the county court (or, for more money, the district court) in the county where you live, under C.R.S. § 13-15-101. The process is the same for everyone, with two important protections for trans people:
+
+    - **No newspaper publication.** Since January 1, 2020 (Jude's Law, HB19-1039), a person changing their name to conform with their gender identity does not have to publish a notice (C.R.S. § 13-15-102(4)). You ask for the waiver on the petition and the court must grant it.
+    - **A prior felony is no longer a bar** when the new name matches your gender identity (HB24-1071, 2024), though you use a different packet and the court may still order publication.
+
+    The main extra step compared with other states is the **fingerprint-based background check** from both the Colorado Bureau of Investigation and the FBI, dated within 90 days before you file. Most courts then sign the decree without a hearing, but some counties schedule a short one.
+  es: |
+    En Colorado, los cambios de nombre los tramita el tribunal del condado (o, por más dinero, el tribunal de distrito) del condado donde vives, según C.R.S. § 13-15-101. El proceso es el mismo para todos, con dos protecciones importantes para personas trans:
+
+    - **Sin publicación en el periódico.** Desde el 1 de enero de 2020 (Ley de Jude, HB19-1039), quien cambia su nombre para que coincida con su identidad de género no tiene que publicar un aviso (C.R.S. § 13-15-102(4)). Pides la exención en la petición y el tribunal debe concederla.
+    - **Un delito grave anterior ya no impide el cambio** cuando el nuevo nombre coincide con tu identidad de género (HB24-1071, 2024), aunque se usa otro paquete de formularios y el tribunal todavía puede ordenar la publicación.
+
+    El paso adicional principal es la **verificación de antecedentes con huellas digitales** del Buró de Investigación de Colorado (CBI) y del FBI, con fecha dentro de los 90 días anteriores a la presentación. La mayoría de los tribunales firman el decreto sin audiencia, pero algunos condados programan una breve.
+eligibility:
+  residency:
+    en: File in the county where you live in Colorado.
+    es: Presenta la petición en el condado de Colorado donde vives.
+  age:
+    en: 18 or older for the adult packet. A parent or guardian files for anyone under 18 (see Minors).
+    es: 18 años o más para el paquete de adultos. Un padre, madre o tutor presenta la petición por menores de 18 (ver Menores).
+  criminal_history:
+    en: >-
+      The standard adult petition (JDF 433) is only for people with no felony conviction or felony-level juvenile
+      adjudication. If you have one, use the prior-felony packet (JDF 385 guide, JDF 386 petition). Since HB24-1071,
+      changing your name to conform with your gender identity counts as good cause to choose a name other than the one
+      you were convicted under. That packet also requires adding the new name as an alias on your CBI record and
+      notifying the district attorney.
+    es: >-
+      La petición estándar para adultos (JDF 433) es solo para personas sin condena por delito grave. Si tienes una, usa
+      el paquete para personas con delitos graves anteriores (guía JDF 385, petición JDF 386). Desde HB24-1071, cambiar
+      tu nombre para que coincida con tu identidad de género cuenta como causa justificada.
+  sources: [jdf432, crs-13-15-101, hb24-1071, jdf385]
+forms:
+  - id: JDF 432
+    name:
+      en: Guide to Adult Name Changes (instructions)
+      es: Guía para cambios de nombre de adultos (instrucciones)
+    url: https://www.coloradojudicial.gov/sites/default/files/2026-03/JDF432.pdf
+    url_es: https://www.coloradojudicial.gov/sites/default/files/2026-03/JDF432.spanish.pdf
+    required: optional
+    condition:
+      en: Read this first. It lists every form, the fees, and the steps.
+      es: Léela primero. Enumera cada formulario, las tarifas y los pasos.
+    sources: [jdf432]
+  - id: JDF 433
+    name:
+      en: Petition for Change of Name (Adult)
+      es: Petición de cambio de nombre (adulto)
+    url: https://www.coloradojudicial.gov/sites/default/files/2023-07/JDF433.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Items 1 to 5: current name exactly as on your ID, the new name, date of birth, and your county of residence.
+        - Item 6: attach your FBI report as **Exhibit A** and your CBI report as **Exhibit B**. Both must be dated within 90 days of filing.
+        - Item 7 (reason): a short statement is enough, for example "to conform my name with my gender identity." You do not need a doctor's letter.
+        - Item 9 (publication): check the second option, "Publication of my name change request is not required," and write: "I am changing my name to conform with my gender identity, C.R.S. § 13-15-102(4)." The court must then waive publication.
+        - **Do not sign yet.** The petition must be signed in front of a court clerk or a notary.
+      es: |
+        - Puntos 1 a 5: nombre actual exactamente como aparece en tu identificación, nuevo nombre, fecha de nacimiento y condado de residencia.
+        - Punto 6: adjunta el informe del FBI como **Anexo A** y el del CBI como **Anexo B**, ambos con fecha dentro de los 90 días anteriores.
+        - Punto 7 (motivo): basta una frase breve, por ejemplo "para que mi nombre coincida con mi identidad de género". No se necesita carta médica.
+        - Punto 9 (publicación): marca la segunda opción ("no se requiere publicación") y escribe: "Cambio mi nombre para que coincida con mi identidad de género, C.R.S. § 13-15-102(4)".
+        - **No firmes todavía.** Debes firmar ante un secretario del tribunal o un notario.
+    sources: [jdf433, jdf432, crs-13-15-102, ncp-adult]
+  - id: JDF 426
+    name:
+      en: Order for Publication for Change of Name
+      es: Orden de publicación del cambio de nombre
+    url: https://www.coloradojudicial.gov/sites/default/files/2025-06/JDF426.pdf
+    required: always
+    condition:
+      en: Fill in the case caption only. The court still expects it in the packet even when publication is waived.
+      es: Llena solo el encabezado del caso. El tribunal lo espera en el paquete aunque se exima la publicación.
+    sources: [jdf432, jdf426, ncp-adult]
+  - id: JDF 427
+    name:
+      en: Public Notice of Petition for Change of Name
+      es: Aviso público de petición de cambio de nombre
+    url: https://www.coloradojudicial.gov/sites/default/files/2025-06/JDF427.pdf
+    required: always
+    condition:
+      en: Include it with the packet; it is only published if the court does not waive publication.
+      es: Inclúyelo en el paquete; solo se publica si el tribunal no exime la publicación.
+    sources: [jdf432, ncp-adult]
+  - id: JDF 448
+    name:
+      en: Name Change Decree
+      es: Decreto de cambio de nombre
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-06/JDF448.pdf
+    required: always
+    condition:
+      en: Fill in the caption only; the judge completes the rest. This is the document you will show to every agency.
+      es: Llena solo el encabezado; el juez completa el resto. Este es el documento que mostrarás a cada agencia.
+    sources: [jdf432, jdf448]
+  - id: JDF 386
+    name:
+      en: Petition for Name Change for a Prior Felon
+      es: Petición de cambio de nombre para una persona con delito grave anterior
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-04/JDF386.pdf
+    required: conditional
+    condition:
+      en: Only if you have a felony conviction or felony-level juvenile adjudication. Read the JDF 385 guide first. In item 8(b), check "To conform my name with my gender identity," and in item 9 you can ask the court to waive publication for the same reason.
+      es: Solo si tienes una condena por delito grave. Lee primero la guía JDF 385. En el punto 8(b), marca "para que mi nombre coincida con mi identidad de género".
+    sources: [jdf385, jdf386, hb24-1071]
+  - id: JDF 205
+    name:
+      en: Motion to Waive Fees
+      es: Moción para eximir tarifas
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-05/JDF205.pdf
+    url_es: https://www.coloradojudicial.gov/sites/default/files/2025-05/JDF205.spanish.pdf
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee.
+      es: Solo si no puedes pagar la tarifa de presentación.
+    how_to_fill:
+      en: |
+        - Section 6: if you receive SNAP, TANF, SSI, Aid to the Needy and Disabled, Aid to the Blind, or Old Age Pension, check it and skip to Section 11. That is automatic qualification.
+        - Otherwise fill in Sections 7 to 10 (home, household, monthly income and expenses, what you own).
+        - File it together with JDF 206 (fill in only the caption).
+      es: |
+        - Sección 6: si recibes SNAP, TANF, SSI, AND, Ayuda para Ciegos o Pensión de Vejez, márcalo y pasa a la Sección 11 (calificación automática).
+        - Si no, llena las Secciones 7 a 10 (vivienda, hogar, ingresos y gastos, bienes).
+        - Preséntala junto con el JDF 206 (llena solo el encabezado).
+    sources: [jdf205]
+  - id: JDF 206
+    name:
+      en: Order re Court Fees
+      es: Orden sobre tarifas judiciales
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-08/JDF206.pdf
+    url_es: https://www.coloradojudicial.gov/sites/default/files/2024-10/JDF206.spanish.pdf
+    required: optional
+    condition:
+      en: Goes with JDF 205; the judge or court staff decides.
+      es: Acompaña al JDF 205; el juez o el personal del tribunal decide.
+    sources: [jdf206]
+  - id: JDF 421
+    name:
+      en: Petition for Name Change for a Minor
+      es: Petición de cambio de nombre de un menor
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-12/JDF421.pdf
+    url_es: https://www.coloradojudicial.gov/sites/default/files/2024-12/JDF421.spanish.pdf
+    required: conditional
+    condition:
+      en: For anyone under 18. Item 8 has a checkbox to waive publication because the change conforms with the child's gender identity.
+      es: Para menores de 18. El punto 8 tiene una casilla para eximir la publicación porque el cambio coincide con la identidad de género del menor.
+    sources: [jdf421]
+  - id: JDF 422
+    name:
+      en: Notice to Non-Custodial Parent (Minor Name Change)
+      es: Aviso al padre o madre sin custodia (cambio de nombre de un menor)
+    url: https://www.coloradojudicial.gov/sites/default/files/2023-07/JDF422.pdf
+    required: conditional
+    condition:
+      en: If the other parent has not consented, they must be given notice of the hearing.
+      es: Si el otro padre no ha dado su consentimiento, se le debe notificar la audiencia.
+    sources: [jdf421, jdf422]
+  - id: JDF 423
+    name:
+      en: Consent of Non-Custodial Parent (Change of Name of Minor)
+      es: Consentimiento del padre o madre sin custodia (cambio de nombre de un menor)
+    url: https://www.coloradojudicial.gov/sites/default/files/2025-04/JDF423.pdf
+    required: conditional
+    condition:
+      en: If the other parent agrees; can be filed with the petition.
+      es: Si el otro padre está de acuerdo; se puede presentar con la petición.
+    sources: [jdf421, jdf423]
+steps:
+  - id: fingerprints
+    title:
+      en: Get fingerprinted and order your CBI and FBI background checks
+      es: Tómate las huellas y pide tus verificaciones de antecedentes del CBI y el FBI
+    body:
+      en: |
+        Book a fingerprint appointment with Colorado Fingerprinting (coloradofingerprinting.com) or IdentoGO, and order a fingerprint-based criminal history check from **both** the Colorado Bureau of Investigation and the FBI. The Center on Colfax in Denver has on-site fingerprinting.
+
+        The FBI result usually arrives by email in a few days; the CBI result can take about two weeks. **You must file within 90 days of the report dates**, so do not order them too early.
+      es: |
+        Haz una cita para huellas con Colorado Fingerprinting (coloradofingerprinting.com) o IdentoGO y pide una verificación de antecedentes con huellas al Buró de Investigación de Colorado **y** al FBI. The Center on Colfax en Denver ofrece toma de huellas.
+
+        El resultado del FBI suele llegar por correo electrónico en pocos días; el del CBI puede tardar unas dos semanas. **Debes presentar la petición dentro de los 90 días de la fecha de los informes.**
+    fees: [fingerprints]
+    estimated_time:
+      en: 1 to 3 weeks
+      es: 1 a 3 semanas
+    sources: [jdf432, crs-13-15-101, ncp-adult, center-colfax-trans]
+  - id: fill-forms
+    title:
+      en: Fill out the petition packet
+      es: Llena el paquete de la petición
+    body:
+      en: |
+        Fill out **JDF 433** (petition) and the captions of **JDF 427**, **JDF 426**, and **JDF 448**. In item 9 of the petition, state that publication is not required because you are changing your name to conform with your gender identity (C.R.S. § 13-15-102(4)). Attach the FBI report as Exhibit A and the CBI report as Exhibit B.
+
+        The Colorado Name Change Project has a free form generator that fills these in for you.
+      es: |
+        Llena el **JDF 433** (petición) y los encabezados del **JDF 427**, **JDF 426** y **JDF 448**. En el punto 9 de la petición, indica que no se requiere publicación porque cambias tu nombre para que coincida con tu identidad de género (C.R.S. § 13-15-102(4)). Adjunta el informe del FBI como Anexo A y el del CBI como Anexo B.
+
+        El Colorado Name Change Project tiene un generador gratuito de formularios.
+    forms: [JDF 433, JDF 427, JDF 426, JDF 448]
+    sources: [jdf432, jdf433, ncp-home]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you qualify
+      es: Pide una exención de tarifas si calificas
+    body:
+      en: File JDF 205 and JDF 206 with your petition. If you receive SNAP, TANF, SSI, or another program listed in Section 6, you qualify automatically. If you are not found indigent, the court can still let you pay the filing fee in two or three installments.
+      es: Presenta el JDF 205 y el JDF 206 con tu petición. Si recibes SNAP, TANF, SSI u otro programa de la Sección 6, calificas automáticamente. Si no te declaran indigente, el tribunal puede permitir pagar en dos o tres cuotas.
+    forms: [JDF 205, JDF 206]
+    optional: true
+    sources: [jdf205, jdf206, jdf432]
+  - id: file
+    title:
+      en: Sign in front of the clerk and file at your county court
+      es: Firma ante el secretario y presenta en el tribunal de tu condado
+    body:
+      en: |
+        Take the packet to the **county court** in the county where you live (district court also works but costs $268 instead of $98). Sign the petition in front of the clerk, or have it notarized beforehand. Pay the filing fee or hand in your fee waiver request. Keep a stamped copy.
+      es: |
+        Lleva el paquete al **tribunal del condado** donde vives (el tribunal de distrito también sirve, pero cuesta $268 en lugar de $98). Firma la petición ante el secretario o haz que la notaricen antes. Paga la tarifa o entrega tu solicitud de exención. Guarda una copia sellada.
+    fees: [filing-county, filing-district]
+    applies_to: [in_person]
+    sources: [jdf432, jdf433, ncp-adult]
+  - id: hearing
+    title:
+      en: Attend a short hearing if your court schedules one
+      es: Asiste a una breve audiencia si tu tribunal la programa
+    body:
+      en: Most courts decide on the paperwork, but some counties hold a brief hearing. If yours does, the court will send the date. The judge reviews the papers, may ask a few questions, and waives publication. Arrive early to get through security.
+      es: La mayoría de los tribunales deciden con los documentos, pero algunos condados hacen una audiencia breve. Si el tuyo la programa, te enviarán la fecha. El juez revisa los documentos, puede hacer algunas preguntas y exime la publicación.
+    optional: true
+    sources: [jdf432, ncp-adult]
+  - id: decree
+    title:
+      en: Receive the signed decree and buy certified copies
+      es: Recibe el decreto firmado y compra copias certificadas
+    body:
+      en: The court mails you the signed decree (JDF 448). Order at least two or three certified copies ($20 each); Social Security, the DMV, and the passport agency each need to see one.
+      es: El tribunal te envía por correo el decreto firmado (JDF 448). Pide al menos dos o tres copias certificadas ($20 cada una); el Seguro Social, el DMV y la agencia de pasaportes necesitan ver una.
+    fees: [certified-copy]
+    sources: [jdf432, jdf448, ncp-adult]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first. The Colorado DMV pulls your name from the SSA database, so wait at least 24 hours after SSA updates before going to the DMV.
+        2. **Colorado DMV** driver's license or ID (in person; see the driver's license guide).
+        3. **Birth certificate**, if you were born in Colorado (CDPHE; see the birth certificate guide). Send a certified copy of the decree.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero. El DMV de Colorado toma tu nombre de la base de datos del SSA, así que espera al menos 24 horas antes de ir al DMV.
+        2. **DMV de Colorado** (en persona; ver la guía de licencia de conducir).
+        3. **Acta de nacimiento**, si naciste en Colorado (CDPHE). Envía una copia certificada del decreto.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares.
+    sources: [jdf432, dmv-change-sex]
+fees:
+  - id: fingerprints
+    label:
+      en: Fingerprint-based background checks (CBI and FBI, together)
+      es: Verificaciones de antecedentes con huellas (CBI y FBI, juntas)
+    amount: 89.5
+    waivable: false
+    note:
+      en: About $34.50 for the CBI check and $55 for the FBI check, paid to the fingerprint vendor and agencies, not the court. A court fee waiver does not cover this.
+      es: Unos $34.50 por la verificación del CBI y $55 por la del FBI, pagados al proveedor y a las agencias, no al tribunal. La exención del tribunal no cubre este costo.
+    sources: [ncp-adult]
+  - id: filing-county
+    label:
+      en: Filing fee, county court
+      es: Tarifa de presentación, tribunal del condado
+    amount: 98
+    waivable: true
+    sources: [jdf432]
+  - id: filing-district
+    label:
+      en: Filing fee, district court (same process, more expensive)
+      es: Tarifa de presentación, tribunal de distrito (mismo proceso, más caro)
+    amount: 268
+    waivable: true
+    sources: [jdf432]
+  - id: certified-copy
+    label:
+      en: Certified copy of the decree (each)
+      es: Copia certificada del decreto (cada una)
+    amount: 20
+    waivable: true
+    note:
+      en: A granted fee waiver covers "reasonable copy fees."
+      es: Una exención aprobada cubre las "tarifas razonables de copias".
+    sources: [jdf432, jdf206]
+fee_waiver:
+  available: true
+  forms: [JDF 205, JDF 206]
+  eligibility:
+    en: |
+      You qualify automatically if you are enrolled in SNAP, TANF, SSI, Aid to the Needy and Disabled (AND), Aid to the Blind, or Old Age Pension. Otherwise the court looks at your household income, expenses, and assets on JDF 205 and decides whether you are indigent. If not, it can allow payment in two or three installments.
+    es: |
+      Calificas automáticamente si estás inscrito en SNAP, TANF, SSI, AND, Ayuda para Ciegos o Pensión de Vejez. Si no, el tribunal revisa los ingresos, gastos y bienes de tu hogar en el JDF 205 y decide si eres indigente. Si no lo eres, puede permitir el pago en dos o tres cuotas.
+  how:
+    en: File JDF 205 and JDF 206 with your petition. The waiver covers court filing and copy fees only, not fingerprinting or newspaper costs.
+    es: Presenta el JDF 205 y el JDF 206 con tu petición. La exención cubre solo tarifas del tribunal y copias, no huellas ni periódico.
+  sources: [jdf205, jdf206, jdf432]
+publication:
+  required: "no"
+  detail:
+    en: >-
+      Ordinary name changes must be published three times within 21 days in a local newspaper. A petitioner "need not
+      give public notice" when changing their name to conform with their gender identity (C.R.S. § 13-15-102(4)). Since
+      July 1, 2026, no petitioner under 18 has to publish (SB26-018). For people with a prior felony, the court may still
+      order publication.
+    es: >-
+      Los cambios de nombre ordinarios deben publicarse tres veces en 21 días en un periódico local. No hay que publicar
+      cuando el cambio es para que el nombre coincida con la identidad de género (C.R.S. § 13-15-102(4)). Desde el 1 de
+      julio de 2026, ningún menor de 18 tiene que publicar (SB26-018). Para personas con delitos graves anteriores, el
+      tribunal aún puede ordenar la publicación.
+  waiver_available: true
+  waiver_how:
+    en: In item 9 of JDF 433 (item 8 of JDF 421 for minors), state that the change is to conform with your gender identity and cite C.R.S. § 13-15-102(4). The court must grant it.
+    es: En el punto 9 del JDF 433 (punto 8 del JDF 421 para menores), indica que el cambio es para que coincida con tu identidad de género y cita C.R.S. § 13-15-102(4). El tribunal debe concederlo.
+  sources: [crs-13-15-102, jdf432, jdf433, jdf421, sb26-018, hb24-1071]
+hearing:
+  required: conditional
+  detail:
+    en: Not required by statute for adults. The state guide says most courts do not hold one but some counties do. Minor name changes almost always have a hearing, especially when a parent has not consented.
+    es: La ley no lo exige para adultos. La guía estatal dice que la mayoría de los tribunales no hacen audiencia, pero algunos condados sí. Los cambios de nombre de menores casi siempre tienen audiencia.
+  sources: [jdf432, ncp-minor, jdf422]
+background_check:
+  required: "yes"
+  detail:
+    en: >-
+      Every petitioner over 14 must attach a certified, fingerprint-based criminal history check from the CBI and the FBI,
+      dated within 90 days before filing (C.R.S. § 13-15-101(1)(a)(II)). You pay for it yourself. The only exception is a
+      simplified process for people 70 and older seeking a name change to get an ID card.
+    es: >-
+      Toda persona mayor de 14 años debe adjuntar una verificación de antecedentes con huellas del CBI y del FBI, con
+      fecha dentro de los 90 días anteriores (C.R.S. § 13-15-101(1)(a)(II)). Tú la pagas. La única excepción es un
+      proceso simplificado para personas de 70 años o más que buscan una identificación.
+  sources: [crs-13-15-101, jdf432]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: |
+      **Adults filing now:** no Colorado law automatically seals or suppresses an adult's name change record, and the court file is public.
+
+      **Minors:** since July 1, 2026, every name change petition for someone under 18 is a **suppressed court record** (SB26-018), visible only to judges, court staff, the parties and their lawyers, and people with a court order or sworn consent. Courts may never publish the child's old or new name online. This does not apply to a minor with a felony-level adjudication who uses the prior-felony process.
+
+      **Petitions filed before July 1, 2026:** SB26-018 says that if a person asks the court to suppress the record of a name change petition filed before that date, the court "shall grant the request."
+    es: |
+      **Adultos que presentan ahora:** ninguna ley de Colorado sella automáticamente el expediente de cambio de nombre de un adulto; el expediente es público.
+
+      **Menores:** desde el 1 de julio de 2026, toda petición de cambio de nombre de un menor de 18 es un **expediente judicial suprimido** (SB26-018), visible solo para jueces, personal del tribunal, las partes y sus abogados, y personas con orden judicial o consentimiento jurado. Los tribunales nunca pueden publicar en línea el nombre anterior ni el nuevo del menor.
+
+      **Peticiones presentadas antes del 1 de julio de 2026:** SB26-018 dice que si una persona pide suprimir el expediente de una petición presentada antes de esa fecha, el tribunal "concederá la solicitud".
+  how:
+    en: For a petition filed before July 1, 2026, file a written request in the same case asking the court to suppress the record under C.R.S. § 13-15-101(7)(b)(III). Legal aid groups listed below can help.
+    es: Para una petición presentada antes del 1 de julio de 2026, presenta una solicitud escrita en el mismo caso pidiendo al tribunal que suprima el expediente según C.R.S. § 13-15-101(7)(b)(III).
+  sources: [sb26-018, coloradosun-sb18]
+minors:
+  summary:
+    en: |
+      A parent or guardian files **JDF 421** in the county court where the child lives (or in the court that already has a custody or child support case about the child). Children 14 and older need the same CBI and FBI fingerprint checks as adults. The other parent must either sign a consent (**JDF 423**) or be given notice of the hearing (**JDF 422**); if they cannot be found, ask the court about notice by publication. The court decides based on the child's best interests, and a hearing is almost always held.
+
+      Since July 1, 2026 (SB26-018), minors never have to publish the name change, and the court record is automatically suppressed.
+    es: |
+      Un padre, madre o tutor presenta el **JDF 421** en el tribunal del condado donde vive el menor (o en el tribunal que ya tiene un caso de custodia o manutención). Los menores de 14 años o más necesitan las mismas huellas del CBI y el FBI que los adultos. El otro padre debe firmar un consentimiento (**JDF 423**) o recibir aviso de la audiencia (**JDF 422**). El tribunal decide según el interés superior del menor y casi siempre hay audiencia.
+
+      Desde el 1 de julio de 2026 (SB26-018), los menores nunca tienen que publicar el cambio y el expediente se suprime automáticamente.
+  forms: [JDF 421, JDF 422, JDF 423, JDF 448]
+  sources: [jdf421, jdf422, jdf423, crs-13-15-101, sb26-018, ncp-minor]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Plan to file in person, because the petition must be signed in front of a clerk (or notarized). Some courts accept e-filing by people without lawyers; ask your clerk.
+    es: Planea presentarla en persona, porque la petición debe firmarse ante un secretario (o notarizarse). Algunos tribunales aceptan presentación electrónica; pregunta al secretario.
+  sources: [jdf433, ncp-adult]
+timeline:
+  en: Plan on 2 to 3 weeks for fingerprint results, then a few weeks to a couple of months for the court to sign the decree, depending on your county and whether it schedules a hearing.
+  es: Calcula de 2 a 3 semanas para los resultados de huellas y luego de unas semanas a un par de meses para que el tribunal firme el decreto, según tu condado y si programa audiencia.
+after:
+  en: |
+    Start with **Social Security** (bring the certified decree and photo ID; the name changes, but the sex field currently cannot). Wait at least 24 hours, then go to the **Colorado DMV** in person with the certified decree. If you were born in Colorado, send **CDPHE** the birth certificate correction form, a certified copy of the decree, and the fees; you can change the sex designation in the same request. Then update your **passport** (name changes are still processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el decreto certificado e identificación con foto; el nombre cambia, pero el campo de sexo actualmente no). Espera al menos 24 horas y luego ve al **DMV de Colorado** en persona con el decreto certificado. Si naciste en Colorado, envía a **CDPHE** el formulario de corrección del acta, una copia certificada del decreto y las tarifas; puedes cambiar el sexo en la misma solicitud. Después actualiza tu **pasaporte** (los cambios de nombre se procesan; los de marcador de sexo no, a septiembre de 2026), banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: Time your fingerprints. The reports expire for this purpose after 90 days, so order them once you are ready to file.
+    es: Calcula bien las huellas. Los informes vencen para este trámite a los 90 días, así que pídelos cuando estés listo para presentar.
+  - en: File in county court, not district court. The process is the same and the fee is $170 less.
+    es: Presenta en el tribunal del condado, no en el de distrito. El proceso es el mismo y la tarifa es $170 menor.
+  - en: The Colorado Name Change Project offers free form automation, workshops, and microgrants to help trans and nonbinary Coloradans with fees.
+    es: El Colorado Name Change Project ofrece automatización gratuita de formularios, talleres y microsubvenciones para ayudar a personas trans y no binarias con las tarifas.
+  - en: Every court has a self-help center that can check your forms for free (in Denver, Room 281 of the City and County Building).
+    es: Cada tribunal tiene un centro de autoayuda que revisa tus formularios gratis (en Denver, sala 281 del City and County Building).
+local_help:
+  - id: colorado-name-change-project
+    name: Colorado Name Change Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Volunteer-run nonprofit with free automated forms for adult and minor name changes, gender marker guides, workshops, a county-by-county list of court hearing practices, and microgrants for trans and nonbinary Coloradans.
+      es: Organización sin fines de lucro dirigida por voluntarios con formularios automatizados gratuitos para cambios de nombre de adultos y menores, guías de marcador de género, talleres y microsubvenciones para personas trans y no binarias de Colorado.
+    url: https://www.namechangeproject.org/
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [ncp-home]
+  - id: bread-and-roses
+    name: Bread and Roses Legal Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Denver social justice legal center offering gender-affirming legal services, record sealing, and criminal defense, with fees based on ability to pay. Helpful if you have a criminal record.
+      es: Centro legal de justicia social en Denver que ofrece servicios legales de afirmación de género, sellado de antecedentes y defensa penal, con tarifas según tu capacidad de pago.
+    url: https://www.breadandroseslaw.org/
+    cost: sliding_scale
+    verification: org_website
+    sources: [bread-roses]
+  - id: center-on-colfax
+    name: The Center on Colfax, Transgender Program
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Denver LGBTQ center with on-site fingerprinting for name change background checks, referrals to LGBTQ-friendly attorneys, and weekly trans support groups. 1301 E. Colfax Ave; 303-733-7743.
+      es: Centro LGBTQ de Denver con toma de huellas en el lugar para las verificaciones de antecedentes, referencias a abogados LGBTQ y grupos de apoyo trans semanales. 1301 E. Colfax Ave; 303-733-7743.
+    url: https://lgbtqcolorado.org/programs/transgender/
+    phone: "303-733-7743"
+    address: 1301 E. Colfax Ave, Denver, CO 80218
+    cost: free
+    verification: org_website
+    sources: [center-colfax-trans, center-colfax-legal]
+  - id: colorado-legal-services
+    name: Colorado Legal Services
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide free civil legal aid for low-income Coloradans and people 60 and older; runs an ID project. Call to ask whether they can help with your name change.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos y mayores de 60; tiene un proyecto de identificaciones. Llama para preguntar si pueden ayudarte con tu cambio de nombre.
+    url: https://www.coloradolegalservices.org/
+    phone: "303-837-1313"
+    cost: free
+    verification: org_website
+    sources: [cls]
+  - id: denver-self-help
+    name: Denver County Court Civil Self Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Free in-person help with court forms for people without a lawyer. 1437 Bannock St, Room 281, Denver; weekdays 8 am to 4 pm; 720-865-7819.
+      es: Ayuda gratuita en persona con formularios judiciales para personas sin abogado. 1437 Bannock St, sala 281, Denver; días hábiles de 8 am a 4 pm; 720-865-7819.
+    url: https://www.denvercountycourt.org/civil/
+    phone: "720-865-7819"
+    address: 1437 Bannock St, Room 281, Denver, CO 80202
+    cost: free
+    verification: official_source
+    sources: [denver-county-civil, denver-county-contact]
+  - id: trans-lifeline-microgrants
+    org: trans-lifeline
+    name: Trans Lifeline microgrants
+    type: fund
+    pillars: [name_change, gender_marker]
+    description:
+      en: National peer-support line (877-565-8860) that relaunched its microgrant program in December 2025 to help trans people with costs such as name changes and ID updates.
+      es: Línea nacional de apoyo entre pares (877-565-8860) que relanzó sus microsubvenciones en diciembre de 2025 para ayudar con costos como cambios de nombre e identificaciones.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: C.R.S. § 13-15-101
+    title:
+      en: Name change petition; residence county; fingerprint-based background check; felony rules; suppression of minors' records (subsection 7, added 2026)
+      es: Petición de cambio de nombre; condado de residencia; verificación de antecedentes; reglas sobre delitos graves; supresión de expedientes de menores
+    url: https://colorado.public.law/statutes/crs_13-15-101
+  - cite: C.R.S. § 13-15-102
+    title:
+      en: Publication; no public notice when the name change conforms with gender identity (subsection 4) or when the petitioner is under 18 (subsection 3.5)
+      es: Publicación; no se requiere aviso público por identidad de género ni para menores de 18
+    url: https://colorado.public.law/statutes/crs_13-15-102
+  - cite: HB19-1039 (2019), Identity Documents for Transgender Persons (Jude's Law)
+    url: https://leg.colorado.gov/bills/hb19-1039
+  - cite: HB24-1071 (2024), Name Change to Conform with Gender Identity
+    url: https://leg.colorado.gov/bills/hb24-1071
+  - cite: SB26-018 (2026), Legal Protections for Dignity of Minors
+    url: https://leg.colorado.gov/bills/SB26-018
+related_links:
+  - title: Colorado Judicial Branch, Self-Help Forms (Name Changes)
+    url: https://www.coloradojudicial.gov/self-help-forms
+    note:
+      en: Official forms; choose "Name Changes" in the category menu.
+      es: Formularios oficiales; elige "Name Changes" en el menú de categorías.
+  - title: Colorado Name Change Project, adult name change guide
+    url: https://www.namechangeproject.org/adult-name-change/
+  - title: Advocates for Trans Equality, Colorado identity documents
+    url: https://transequality.org/documents/colorado-identity-documents
+    note:
+      en: Last updated April 2026.
+      es: Actualizado en abril de 2026.
+sources:
+  - id: crs-13-15-101
+    url: https://colorado.public.law/statutes/crs_13-15-101
+    title: C.R.S. § 13-15-101, Petition, proceedings, applicability (2024 edition text)
+    publisher: Colorado.Public.Law (from the Office of Legislative Legal Services CRS 2024)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: If the petitioner is over fourteen years of age, the petition shall also include the results of a certified, fingerprint-based criminal history record check ... within ninety days prior to the date of the filing of the petition.
+  - id: crs-13-15-102
+    url: https://colorado.public.law/statutes/crs_13-15-102
+    title: C.R.S. § 13-15-102, Publication of change
+    publisher: Colorado.Public.Law (from the Office of Legislative Legal Services CRS 2024)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A petitioner need not give public notice of a name change ... if the petitioner is changing the petitioner's name to conform with the petitioner's gender identity.
+  - id: hb24-1071
+    url: https://leg.colorado.gov/bills/hb24-1071
+    title: HB24-1071, Name Change to Conform with Gender Identity
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Good cause includes changing the petitioner's name to conform with the petitioner's gender identity.
+  - id: sb26-018
+    url: https://leg.colorado.gov/bills/SB26-018
+    title: SB26-018, Legal Protections for Dignity of Minors (signed April 20, 2026)
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Beginning July 1, 2026, if a petitioner is under eighteen years old at the time of filing the petition, a court record associated with a petition seeking to change the petitioner's name is a suppressed court record.
+  - id: coloradosun-sb18
+    url: https://coloradosun.com/2026/05/14/top-bills-colorado-2026-legislative-session/
+    title: 101 bills that passed and failed in Colorado's legislature this year
+    publisher: The Colorado Sun
+    kind: news
+    accessed: "2026-09-24"
+    quote: The measure also lets anyone who filed a petition for a name change prior to July 1 ask the court system to seal their records, and the courts must oblige.
+  - id: jdf432
+    url: https://www.coloradojudicial.gov/sites/default/files/2026-03/JDF432.pdf
+    title: JDF 432, Guide to Adult Name Changes (revised March 9, 2026)
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Filing Fee $98 - County Court (most common choice); $268 - District Court (same process, more expensive); Certified Copy $20"
+  - id: jdf433
+    url: https://www.coloradojudicial.gov/sites/default/files/2023-07/JDF433.pdf
+    title: JDF 433, Petition for Change of Name (Adult)
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: jdf426
+    url: https://www.coloradojudicial.gov/sites/default/files/2025-06/JDF426.pdf
+    title: JDF 426, Order for Publication for Change of Name
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: jdf448
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-06/JDF448.pdf
+    title: JDF 448, Name Change Decree
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: jdf385
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-04/JDF385.pdf
+    title: JDF 385, Guide to Name Changes (prior felon)
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: jdf386
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-04/JDF386.pdf
+    title: JDF 386, Petition for Name Change for a Prior Felon
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: "If not, why are you requesting a name change? To conform my name with my gender identity. C.R.S. § 13-15-101(3)(b)(II)."
+  - id: jdf205
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-05/JDF205.pdf
+    title: JDF 205, Motion to Waive Fees
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Are you enrolled in one of these programs? ... Supp. Security Income (SSI), Temporary Aid for Needy Families (TANF), Supp. Nutrition Assistance Program (SNAP), Aid to the Needy and Disabled (AND)"
+  - id: jdf206
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-08/JDF206.pdf
+    title: JDF 206, Order re Court Fees
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: jdf421
+    url: https://www.coloradojudicial.gov/sites/default/files/2024-12/JDF421.pdf
+    title: JDF 421, Petition for Name Change for a Minor
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: This name change is done to conform with the child's gender identity. C.R.S. § 13-15-102(4).
+  - id: jdf422
+    url: https://www.coloradojudicial.gov/sites/default/files/2023-07/JDF422.pdf
+    title: JDF 422, Notice to Non-Custodial Parent (Minor Name Change)
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: jdf423
+    url: https://www.coloradojudicial.gov/sites/default/files/2025-04/JDF423.pdf
+    title: JDF 423, Consent of Non-Custodial Parent (Change of Name of Minor)
+    publisher: Colorado Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: ncp-home
+    url: https://www.namechangeproject.org/
+    title: Colorado Name Change Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ncp-adult
+    url: https://www.namechangeproject.org/adult-name-change/
+    title: Adult name change
+    publisher: Colorado Name Change Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Fingerprints (FBI + CBI): $89.50 total ($34.50 CBI + $55 FBI)"
+  - id: ncp-minor
+    url: https://www.namechangeproject.org/minor-name-change/
+    title: Minor name change
+    publisher: Colorado Name Change Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: dmv-change-sex
+    url: https://dmv.colorado.gov/change-your-sex
+    title: Change Your Sex Identifier (read via Internet Archive snapshot of January 9, 2026)
+    publisher: Colorado Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you changed your name, please visit the Social Security Administration, then wait 24 hours before visiting a Driver License Office.
+  - id: center-colfax-trans
+    url: https://lgbtqcolorado.org/programs/transgender/
+    title: Transgender Program
+    publisher: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-colfax-legal
+    url: https://lgbtqcolorado.org/programs/legal/
+    title: Legal Resources
+    publisher: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+  - id: bread-roses
+    url: https://www.breadandroseslaw.org/
+    title: Bread and Roses Legal Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: cls
+    url: https://www.coloradolegalservices.org/
+    title: Colorado Legal Services
+    kind: org
+    accessed: "2026-09-24"
+  - id: denver-county-civil
+    url: https://www.denvercountycourt.org/civil/
+    title: Civil (Official Name Changes; Self Help Center)
+    publisher: Denver County Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: denver-county-contact
+    url: https://www.denvercountycourt.org/contact/
+    title: Contact
+    publisher: Denver County Court
+    kind: court
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

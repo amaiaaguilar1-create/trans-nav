@@ -1,0 +1,259 @@
+guide_type: birth_certificate
+jurisdiction: CO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    cdphe.colorado.gov blocked automated access (HTTP 403) on 2026-09-24. The "Correct or change a birth certificate"
+    page was read through an Internet Archive snapshot of February 10, 2026; the forms and fee schedule it links (hosted
+    on Google Drive) were downloaded directly the same day: Sex Designation Form (revised 09/2021), Form to Correct or
+    Change a Colorado Birth Certificate, and the fee schedule effective January 1, 2026 ($25 correction fee, $25 first
+    certified copy, $20 each additional copy or exchange). Reviewer: (1) The CDPHE page and the Sex Designation Form
+    still say a self-attested change is allowed "only once"; HB25-1312 section 10 repealed that limit in C.R.S.
+    25-2-113.8(5) effective May 16, 2025. Confirm CDPHE's current practice and rule 5 CCR 1006-1 section 5.5(C).
+    (2) Processing time: the correction form says "up to 30 business days"; A4TE (April 2026) says 45 to 60 business
+    days, and the Colorado Name Change Project says the limit is still "once" (outdated). (3) Confirm whether the $25
+    correction fee is charged per request or per item corrected when name and sex change together.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Colorado, you can get a new birth certificate showing M, F, or X by sending CDPHE Vital Records a
+    short Sex Designation Form that you sign yourself. No court order, surgery, or doctor's letter is needed for adults.
+    The new certificate is not marked as amended. Expect about $50 ($25 fee plus $25 for the first copy).
+  es: >-
+    Si naciste en Colorado, puedes obtener una nueva acta de nacimiento con M, F o X enviando a Registros Vitales de
+    CDPHE un breve Formulario de Designación de Sexo que firmas tú. Los adultos no necesitan orden judicial, cirugía ni
+    carta médica. La nueva acta no indica que fue enmendada. Calcula unos $50 ($25 de tarifa más $25 por la primera copia).
+summary:
+  en: |
+    Colorado's birth certificate law (C.R.S. § 25-2-113.8, part of Jude's Law) requires the State Registrar to issue a **new** birth certificate when you submit a request and a statement, signed under penalty of law, that the sex on your certificate does not match your gender identity. You can choose male, female, or X. For someone under 18, a parent signs and a licensed medical or mental health provider also signs a statement; no specific treatment is required.
+
+    The new certificate **replaces the original as the official record** and must not be marked as amended or show that anything changed. The registrar may not ask for anything beyond the required statements and may not share information about the change.
+
+    If you also changed your legal name, include a certified copy of the court order and the new certificate will show the new name too.
+  es: |
+    La ley de actas de nacimiento de Colorado (C.R.S. § 25-2-113.8, parte de la Ley de Jude) obliga al Registro Estatal a emitir una **nueva** acta cuando presentas una solicitud y una declaración, firmada bajo pena de ley, de que el sexo en tu acta no coincide con tu identidad de género. Puedes elegir masculino, femenino o X. Para menores de 18, firma un padre o madre y un proveedor de salud médica o mental con licencia también firma una declaración; no se exige ningún tratamiento.
+
+    La nueva acta **reemplaza la original como registro oficial** y no puede indicar que fue enmendada. El registro no puede pedir nada más que las declaraciones requeridas ni compartir información sobre el cambio.
+
+    Si también cambiaste tu nombre legal, incluye una copia certificada de la orden judicial y la nueva acta mostrará también el nuevo nombre.
+eligibility:
+  residency:
+    en: >-
+      You must have been born in Colorado; where you live now does not matter. If you live in Colorado but were born in
+      a state or country that requires a court order to change a birth certificate, Colorado courts can issue that
+      decree (C.R.S. § 25-2-113.8(10)). Otherwise, follow your birth state's rules.
+    es: >-
+      Debes haber nacido en Colorado; no importa dónde vivas ahora. Si vives en Colorado pero naciste en un estado o país
+      que exige una orden judicial, los tribunales de Colorado pueden emitirla (C.R.S. § 25-2-113.8(10)). Si no, sigue
+      las reglas de tu estado de nacimiento.
+  age:
+    en: Adults 18 and older apply for themselves. For a minor, a parent, guardian, or legal representative applies, and a licensed medical or behavioral health provider completes Section B of the Sex Designation Form.
+    es: Los adultos de 18 años o más lo solicitan ellos mismos. Para un menor, lo solicita un padre, tutor o representante legal, y un proveedor de salud médica o conductual con licencia completa la Sección B del formulario.
+  sources: [crs-25-2-113-8, sex-designation-form, correction-form, hb25-1312]
+forms:
+  - id: Correction Form
+    name:
+      en: Form to Correct or Change a Colorado Birth Certificate
+      es: Formulario para corregir o cambiar un acta de nacimiento de Colorado
+    url: https://drive.google.com/file/d/1rOqWcZQsLYDqrOjHDsc4KYwEOERsfOyn/view?usp=sharing
+    required: always
+    how_to_fill:
+      en: |
+        - Complete it in ink; cross-outs and white-out are not accepted.
+        - Items 1 to 3: your information exactly as it currently appears on the birth certificate.
+        - Items 4 to 7 (incorrect / correct information): list the sex, and your name if it is changing, with the current and new entries.
+        - Items 8 to 12: sign, date, check "Self", and give your address, phone, and email.
+        - Services and fees: the $25 correction fee does not include a certificate, so also order at least one certified copy ($25) and any extras ($20 each).
+      es: |
+        - Llénalo con tinta; no se aceptan tachaduras ni corrector.
+        - Puntos 1 a 3: tus datos exactamente como aparecen en el acta actual.
+        - Puntos 4 a 7 (información incorrecta / correcta): anota el sexo, y tu nombre si cambia, con los datos actuales y nuevos.
+        - Puntos 8 a 12: firma, fecha, marca "Self" y da tu dirección, teléfono y correo.
+        - Tarifas: la tarifa de corrección de $25 no incluye un acta, así que pide al menos una copia certificada ($25) y extras ($20 cada una).
+    sources: [correction-form, cdphe-correct]
+  - id: Sex Designation Form
+    name:
+      en: Sex Designation Form
+      es: Formulario de designación de sexo
+    url: https://drive.google.com/file/d/1FsCkTI5mNaqYpD_jqsHxMmcOywt6KtlJ/view?usp=sharing
+    required: always
+    how_to_fill:
+      en: |
+        - Adults: complete Section A only. Check Male, Female, or X, fill in your name, date of birth, and contact details, and sign.
+        - The form asks for your Social Security number, citing HB19-1039.
+        - Minors: the provider completes Section B, including their license number and the state that issued it (attach a copy of an out-of-state license).
+        - Instead of this form you may send a certified court order stating your sex or gender has been changed.
+      es: |
+        - Adultos: llena solo la Sección A. Marca Masculino, Femenino o X, escribe tu nombre, fecha de nacimiento y contacto, y firma.
+        - El formulario pide tu número de Seguro Social, citando HB19-1039.
+        - Menores: el proveedor completa la Sección B, con su número y estado de licencia.
+        - En lugar de este formulario puedes enviar una orden judicial certificada que indique que tu sexo o género cambió.
+    sources: [sex-designation-form, cdphe-correct]
+steps:
+  - id: gather
+    title:
+      en: Gather the forms, your ID, and your name change order if you have one
+      es: Reúne los formularios, tu identificación y tu orden de cambio de nombre si la tienes
+    body:
+      en: You need the correction form, the Sex Designation Form, a copy of your photo ID (driver's license, state ID, passport, or other acceptable ID), and, only if your name changed, a certified copy of the court order.
+      es: Necesitas el formulario de corrección, el Formulario de Designación de Sexo, una copia de tu identificación con foto y, solo si cambiaste de nombre, una copia certificada de la orden judicial.
+    forms: [Correction Form, Sex Designation Form]
+    sources: [cdphe-correct, correction-form]
+  - id: fill
+    title:
+      en: Fill out and sign both forms
+      es: Llena y firma ambos formularios
+    body:
+      en: Choose M, F, or X on the Sex Designation Form and sign it. On the correction form, list the changes and the number of certified copies you want.
+      es: Elige M, F o X en el Formulario de Designación de Sexo y fírmalo. En el formulario de corrección, anota los cambios y cuántas copias certificadas quieres.
+    forms: [Correction Form, Sex Designation Form]
+    sources: [sex-designation-form, correction-form]
+  - id: submit
+    title:
+      en: Mail the packet or bring it to a scheduled appointment
+      es: Envía el paquete por correo o llévalo a una cita programada
+    body:
+      en: |
+        Mail to **Vital Records, Birth Unit, 4300 Cherry Creek Drive South, Denver, CO 80246-1530**, with a check or money order payable to Vital Records. Use a trackable method (certified mail, FedEx, or UPS), because the office cannot confirm arrival. You can also go in person, by appointment only; appointments open on the 1st of each month. Questions: 303-692-2200.
+      es: |
+        Envía a **Vital Records, Birth Unit, 4300 Cherry Creek Drive South, Denver, CO 80246-1530**, con cheque o giro postal a nombre de Vital Records. Usa un método con rastreo (correo certificado, FedEx o UPS). También puedes ir en persona, solo con cita; las citas se abren el día 1 de cada mes. Preguntas: 303-692-2200.
+    fees: [correction, first-copy, extra-copy]
+    sources: [cdphe-correct, correction-form, cdphe-fees]
+  - id: wait
+    title:
+      en: Wait for the new certificate
+      es: Espera la nueva acta
+    body:
+      en: The form says to allow up to 30 business days from the date received; CDPHE's page lists the date of requests currently being processed. Your certified copies arrive by mail.
+      es: El formulario indica hasta 30 días hábiles desde la recepción; la página de CDPHE muestra la fecha de las solicitudes que se procesan actualmente. Las copias certificadas llegan por correo.
+    estimated_time:
+      en: about 6 weeks or more
+      es: unas 6 semanas o más
+    sources: [correction-form, cdphe-correct]
+fees:
+  - id: correction
+    label:
+      en: Correction or change fee (does not include a certificate)
+      es: Tarifa de corrección o cambio (no incluye un acta)
+    amount: 25
+    waivable: false
+    sources: [correction-form, cdphe-fees]
+  - id: first-copy
+    label:
+      en: First certified copy of the new certificate
+      es: Primera copia certificada de la nueva acta
+    amount: 25
+    waivable: false
+    sources: [correction-form, cdphe-fees]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time, or each old certificate exchanged
+      es: Cada copia adicional pedida al mismo tiempo, o cada acta anterior intercambiada
+    amount: 20
+    waivable: false
+    note:
+      en: Paying by credit card adds a $12 convenience fee.
+      es: Pagar con tarjeta de crédito agrega un cargo de $12.
+    sources: [correction-form, cdphe-fees]
+fee_waiver:
+  available: false
+  how:
+    en: CDPHE's fee schedule lists no waiver for corrections. The Colorado Name Change Project and Trans Lifeline offer microgrants for document costs when funds allow.
+    es: El listado de tarifas de CDPHE no incluye exención para correcciones. El Colorado Name Change Project y Trans Lifeline ofrecen microsubvenciones cuando hay fondos.
+  sources: [cdphe-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: By mail, or in person at the state Vital Records office in Denver by appointment only (no walk-ins).
+    es: Por correo, o en persona en la oficina estatal de Registros Vitales en Denver solo con cita (sin visitas sin cita).
+  sources: [cdphe-correct]
+timeline:
+  en: About 6 to 12 weeks in total, depending on CDPHE's backlog and mail time.
+  es: Aproximadamente de 6 a 12 semanas en total, según el atraso de CDPHE y el correo.
+after:
+  en: |
+    CDPHE notifies the Colorado DMV when it issues a new certificate, and you can use the new certificate at the DMV instead of form DR 2083. As of September 2026 the Social Security Administration and the State Department will **not** update the sex field based on an amended birth certificate. If you were born in another state, that state's rules control your birth certificate.
+  es: |
+    CDPHE notifica al DMV de Colorado cuando emite una nueva acta, y puedes usar la nueva acta en el DMV en lugar del formulario DR 2083. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** actualizarán el campo de sexo con base en un acta enmendada. Si naciste en otro estado, las reglas de ese estado rigen tu acta.
+tips:
+  - en: Order two or three extra copies ($20 each) with the same request. Ordering later costs $25 for the first copy again.
+    es: Pide dos o tres copias adicionales ($20 cada una) en la misma solicitud. Pedirlas después cuesta otra vez $25 por la primera.
+  - en: If you have old copies of your birth certificate, you can exchange them for $20 each after the change.
+    es: Si tienes copias anteriores de tu acta, puedes intercambiarlas por $20 cada una después del cambio.
+  - en: Since HB25-1312 (May 2025), the law no longer limits you to a single self-attested change; if CDPHE says otherwise, ask it to confirm under C.R.S. § 25-2-113.8 as amended.
+    es: Desde HB25-1312 (mayo de 2025), la ley ya no limita a un solo cambio por declaración propia; si CDPHE dice lo contrario, pide que lo confirme según C.R.S. § 25-2-113.8 enmendado.
+statutes:
+  - cite: C.R.S. § 25-2-113.8 (Jude's Law, Birth Certificate Modernization Act)
+    title:
+      en: New birth certificate on self-attestation (provider statement for minors); M, F, or X; not marked as amended
+      es: Nueva acta por declaración propia (declaración de proveedor para menores); M, F o X; sin marca de enmienda
+    url: https://colorado.public.law/statutes/crs_25-2-113.8
+  - cite: HB19-1039 (2019), Identity Documents for Transgender Persons
+    url: https://leg.colorado.gov/bills/hb19-1039
+  - cite: HB25-1312 (2025), Kelly Loving Act, section 10
+    title:
+      en: Repealed the one-time limit on birth certificate gender designation changes
+      es: Derogó el límite de un solo cambio de designación de género en el acta
+    url: https://leg.colorado.gov/bills/hb25-1312
+related_links:
+  - title: CDPHE, Correct or change a birth certificate
+    url: https://cdphe.colorado.gov/correct-or-change-a-birth-certificate
+  - title: Colorado Name Change Project, gender marker guide
+    url: https://www.namechangeproject.org/gender-marker/
+  - title: Advocates for Trans Equality, Colorado identity documents
+    url: https://transequality.org/documents/colorado-identity-documents
+    note:
+      en: Last updated April 2026; lists 45 to 60 business days for processing.
+      es: Actualizado en abril de 2026; indica de 45 a 60 días hábiles.
+sources:
+  - id: crs-25-2-113-8
+    url: https://colorado.public.law/statutes/crs_25-2-113.8
+    title: C.R.S. § 25-2-113.8, Birth certificate modernization act (2024 edition text)
+    publisher: Colorado.Public.Law (from the Office of Legislative Legal Services CRS 2024)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The new birth certificate supersedes the original as the official public record and must not be marked as amended or indicate in any other manner that the gender designation or name on the certificate has been changed.
+  - id: hb25-1312
+    url: https://leg.colorado.gov/bills/hb25-1312
+    title: HB25-1312, Kelly Loving Act (signed May 16, 2025)
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In Colorado Revised Statutes, 25-2-113.8, repeal (5).
+  - id: cdphe-correct
+    url: https://cdphe.colorado.gov/correct-or-change-a-birth-certificate
+    title: Correct or change a birth certificate (read via Internet Archive snapshot of February 10, 2026)
+    publisher: Colorado Department of Public Health and Environment, Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "To request a sex/gender designation change to your birth certificate, please submit the following in person or by mail: Completed Birth Certificate Correction Form, Copy of your identification, Non-refundable processing fee(s), A completed Sex/Gender Designation form OR Certified copy of a court order"
+  - id: sex-designation-form
+    url: https://drive.google.com/file/d/1FsCkTI5mNaqYpD_jqsHxMmcOywt6KtlJ/view?usp=sharing
+    title: Sex Designation Form (revised 09/2021)
+    publisher: Colorado Office of the State Registrar of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: "I would like to change the sex listed on my birth certificate to: Male, Female, X"
+  - id: correction-form
+    url: https://drive.google.com/file/d/1rOqWcZQsLYDqrOjHDsc4KYwEOERsfOyn/view?usp=sharing
+    title: Form to Correct or Change a Colorado Birth Certificate
+    publisher: Colorado Office of the State Registrar of Vital Statistics
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Correct or Change a birth certificate - (this fee does not include a birth certificate) 25.00 ... Allow up to 30 business days from date received."
+  - id: cdphe-fees
+    url: https://drive.google.com/file/d/1POQTDPVLqteFe2rdx59mnLAOyca4ZA3A/view?usp=sharing
+    title: Vital Records fee schedule, effective January 1, 2026
+    publisher: Colorado Office of the State Registrar of Vital Statistics
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Birth: first copy $25.00; additional copies ordered at the same time $20.00; corrections/changes fee $25.00; exchange old certificates $20.00"

@@ -1,0 +1,134 @@
+code: CO
+name:
+  en: Colorado
+  es: Colorado
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate set from Colorado statutes (HB19-1039, HB24-1071, HB25-1312, SB26-018, SB23-188) and cross-checked
+    against the MAP equality maps. Care is marked protective based on state law, but youth access narrowed in 2026
+    (hospital suspensions, federal Medicaid rule effective October 13, 2026) and Proposition 135 (surgery for minors)
+    is on the November 3, 2026 ballot; revisit after the election.
+overview:
+  en: >-
+    Colorado's laws are among the most protective for trans people. Name changes for gender identity need no newspaper
+    publication (though you must get a fingerprint background check), and driver's licenses and birth certificates offer
+    M, F, or X by self-attestation. Health First Colorado and state-regulated private plans cover gender-affirming care,
+    and a 2023 shield law protects patients and providers. Youth care is the exception: major hospitals stopped
+    prescribing to minors in 2026 under federal pressure, Medicaid coverage for minors ends October 13, 2026, and a
+    ballot measure on surgery for minors is before voters in November 2026.
+  es: >-
+    Las leyes de Colorado están entre las que más protegen a las personas trans. Los cambios de nombre por identidad de
+    género no requieren publicación en el periódico (aunque sí una verificación de antecedentes con huellas), y las
+    licencias y actas de nacimiento ofrecen M, F o X por declaración propia. Health First Colorado y los seguros privados
+    regulados por el estado cubren la atención de afirmación de género, y una ley escudo de 2023 protege a pacientes y
+    proveedores. La excepción es la atención a jóvenes: los principales hospitales dejaron de recetar a menores en 2026
+    por presión federal, la cobertura de Medicaid para menores termina el 13 de octubre de 2026, y una medida sobre
+    cirugía para menores está en la boleta de noviembre de 2026.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [sb23-188, hb19-1039, map-id, map-health]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [denver]
+key_resources:
+  - id: colorado-name-change-project
+    name: Colorado Name Change Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Volunteer nonprofit with free automated court forms, gender marker guides, workshops, and microgrants for trans and nonbinary Coloradans.
+      es: Organización de voluntarios con formularios judiciales automatizados gratuitos, guías de marcador de género, talleres y microsubvenciones para personas trans y no binarias de Colorado.
+    url: https://www.namechangeproject.org/
+    cost: free
+    verification: org_website
+    sources: [ncp]
+  - id: center-on-colfax
+    name: The Center on Colfax
+    type: lgbtq_center
+    pillars: [name_change, mental_health]
+    description:
+      en: Denver LGBTQ center with trans support groups, free therapy for LGBTQ+ adults, on-site fingerprinting for name changes, and legal referrals. 303-733-7743.
+      es: Centro LGBTQ de Denver con grupos de apoyo trans, terapia gratuita para adultos LGBTQ+, toma de huellas para cambios de nombre y referencias legales. 303-733-7743.
+    url: https://lgbtqcolorado.org/
+    phone: "303-733-7743"
+    address: 1301 E. Colfax Ave, Denver, CO 80218
+    cost: free
+    verification: org_website
+    sources: [center-colfax]
+  - id: one-colorado
+    name: One Colorado
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide LGBTQ+ advocacy organization that tracks legislation and ballot measures affecting trans Coloradans.
+      es: Organización estatal de defensa LGBTQ+ que da seguimiento a leyes y medidas electorales que afectan a personas trans.
+    url: https://www.one-colorado.org/
+    phone: "303-396-6170"
+    cost: free
+    verification: org_website
+    sources: [one-colorado]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860. Also runs microgrants for ID document costs when funding allows.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. También otorga microsubvenciones para costos de documentos cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: sb23-188
+    url: https://leg.colorado.gov/bills/sb23-188
+    title: SB23-188 (2023), Protections for Accessing Reproductive Health Care (shield law covering gender-affirming care)
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: hb19-1039
+    url: https://leg.colorado.gov/bills/hb19-1039
+    title: HB19-1039 (2019), Identity Documents for Transgender Persons (Jude's Law)
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: map-health
+    url: https://mapresearch.org/equality-map/healthcare-laws-and-policies
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ncp
+    url: https://www.namechangeproject.org/
+    title: Colorado Name Change Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: center-colfax
+    url: https://lgbtqcolorado.org/
+    title: The Center on Colfax
+    kind: org
+    accessed: "2026-09-24"
+  - id: one-colorado
+    url: https://www.one-colorado.org/
+    title: One Colorado
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

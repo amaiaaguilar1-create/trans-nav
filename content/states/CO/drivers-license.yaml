@@ -1,0 +1,242 @@
+guide_type: drivers_license
+jurisdiction: CO
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    dmv.colorado.gov blocked automated access (HTTP 403) on 2026-09-24, so the DMV pages were read through Internet
+    Archive snapshots: "Change Your Sex Identifier" (January 9, 2026), form DR 2083 (revision 03/14/23, snapshot of
+    February 22, 2026), and "State DMV Fees" (May 11, 2026). Reviewer: (1) The DMV announced fee adjustments effective
+    June 30 and July 1, 2026 (press release title seen in the archive index; page itself was blocked), so the fee
+    amounts below may be out of date; confirm on dmv.colorado.gov/state-dmv-fees. (2) HB25-1312 raises the number of
+    self-attested sex designation changes from one to three, effective October 1, 2026; the DMV page and DR 2083 still
+    say "one time". Confirm the DMV's implementation and whether a revised DR 2083 is issued. (3) Confirm which fee
+    applies to a sex or name change outside of renewal (the DMV says "the standard fee to obtain a new credential";
+    the duplicate fee is our best reading). Cross-check: A4TE's Colorado page (April 2026) agrees on DR 2083, in-person
+    only, SSA first, and provider signature for minors.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Colorado lets you choose M, F, or X on your driver's license or ID by signing form DR 2083 yourself. No doctor's
+    letter, surgery, or court order is needed for adults. You must apply in person at a state driver license office and
+    pay the normal card fee.
+  es: >-
+    Colorado te permite elegir M, F o X en tu licencia o identificación firmando tú mismo el formulario DR 2083. Los
+    adultos no necesitan carta médica, cirugía ni orden judicial. Debes solicitarlo en persona en una oficina estatal de
+    licencias y pagar la tarifa normal de la tarjeta.
+summary:
+  en: |
+    Under C.R.S. § 42-2-107(2)(a)(II) (and the matching sections for ID cards), the Division of Motor Vehicles must issue a new card with a different sex designation when you give it either a new Colorado birth certificate or a signed statement, under penalty of law, that the sex on your card does not match your gender identity. That statement is form **DR 2083**. You can choose male (M), female (F), or X, which has been available since November 2018. The DMV "does not require residents to undergo any specific surgery, treatment, clinical care or behavioral healthcare."
+
+    **How many times:** until September 30, 2026 the law allows one self-attested change; after that a court order is needed. **Starting October 1, 2026**, HB25-1312 (the Kelly Loving Act) raises the limit to three changes.
+
+    Changing your **name** on the card requires a court decree (or other legal name change document) and your Social Security record must already show the new name.
+  es: |
+    Según C.R.S. § 42-2-107(2)(a)(II) (y las secciones equivalentes para identificaciones), la División de Vehículos Motorizados debe emitir una nueva tarjeta con otra designación de sexo cuando le entregas una nueva acta de nacimiento de Colorado o una declaración firmada, bajo pena de ley, de que el sexo en tu tarjeta no coincide con tu identidad de género. Esa declaración es el formulario **DR 2083**. Puedes elegir masculino (M), femenino (F) o X, disponible desde noviembre de 2018. El DMV no exige ninguna cirugía, tratamiento ni atención de salud conductual.
+
+    **Cuántas veces:** hasta el 30 de septiembre de 2026 la ley permite un cambio por declaración propia; después se necesita orden judicial. **Desde el 1 de octubre de 2026**, HB25-1312 (Ley Kelly Loving) aumenta el límite a tres cambios.
+
+    Cambiar tu **nombre** en la tarjeta requiere un decreto judicial y que tu registro del Seguro Social ya muestre el nuevo nombre.
+eligibility:
+  residency:
+    en: You must be applying for or renewing a Colorado driver's license, ID card, or identification document.
+    es: Debes estar solicitando o renovando una licencia, tarjeta de identificación o documento de identificación de Colorado.
+  age:
+    en: >-
+      Adults 18 and older sign DR 2083 themselves. For anyone under 18, a parent, guardian, or legal representative signs,
+      a licensed medical or mental health provider completes the Health Care Provider Statement on page 4, and the minor
+      must be present with proof of parentage or guardianship.
+    es: >-
+      Los adultos de 18 años o más firman el DR 2083 ellos mismos. Para menores de 18, firma un padre, madre, tutor o
+      representante legal, un proveedor de salud médica o mental con licencia completa la declaración de la página 4, y el
+      menor debe estar presente con prueba de parentesco o tutela.
+  other:
+    en: >-
+      Colorado also issues cards under the Colorado Road and Community Safety Act (standard, non-REAL ID) to people
+      regardless of immigration status; the same sex designation rules apply to those identification documents.
+    es: >-
+      Colorado también emite tarjetas estándar (no REAL ID) según la Ley de Seguridad Vial y Comunitaria sin importar el
+      estatus migratorio; las mismas reglas de designación de sexo se aplican.
+  sources: [dr2083, crs-42-2-107, hb25-1312, dmv-fees]
+forms:
+  - id: DR 2083
+    name:
+      en: Change of Sex Designation
+      es: Cambio de designación de sexo
+    url: https://dmv.colorado.gov/sites/dmv/files/documents/DR2083_2023.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Print your name, current license or ID number (if you have one), date, and address. If you are changing your name at the same visit, write your previous name and bring your court decree.
+        - Mark Male, Female, or X.
+        - Check the first statement ("I, the above named person, confirm under penalty of law...") and sign. Nothing else is needed for adults.
+        - For a minor, the parent or guardian checks the second or third statement, signs the Health Care Provider Authorization, and a licensed medical or mental health provider completes and signs the Health Care Provider Statement.
+      es: |
+        - Escribe tu nombre, número de licencia o identificación (si tienes), fecha y dirección. Si también cambias tu nombre, escribe tu nombre anterior y lleva tu decreto judicial.
+        - Marca Masculino, Femenino o X.
+        - Marca la primera declaración ("confirmo bajo pena de ley...") y firma. Los adultos no necesitan nada más.
+        - Para un menor, el padre o tutor marca la segunda o tercera declaración, firma la autorización, y un proveedor de salud médica o mental con licencia completa y firma su declaración.
+    sources: [dr2083]
+steps:
+  - id: ssa-first
+    title:
+      en: If you are also changing your name, update Social Security first
+      es: Si también cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: The DMV checks your name against the Social Security database. Update your name with SSA, then wait at least 24 hours before going to the DMV.
+      es: El DMV verifica tu nombre con la base de datos del Seguro Social. Actualiza tu nombre con el SSA y espera al menos 24 horas antes de ir al DMV.
+    applies_to: [name_change]
+    optional: true
+    sources: [dmv-change-sex]
+  - id: fill-dr2083
+    title:
+      en: Fill out and sign DR 2083
+      es: Llena y firma el DR 2083
+    body:
+      en: Print the form at home or ask for one at the office. Mark M, F, or X and sign. Adults do not need any other documentation. (Alternatively, you can bring a new Colorado birth certificate instead of DR 2083.)
+      es: Imprime el formulario o pídelo en la oficina. Marca M, F o X y firma. Los adultos no necesitan otra documentación. (También puedes llevar una nueva acta de nacimiento de Colorado en lugar del DR 2083.)
+    forms: [DR 2083]
+    applies_to: [gender_marker]
+    sources: [dr2083, dmv-change-sex]
+  - id: visit
+    title:
+      en: Go in person to a state driver license office
+      es: Ve en persona a una oficina estatal de licencias
+    body:
+      en: |
+        Make an appointment on the DMV website if you can. Bring DR 2083, your current card, a certified copy of your name change decree if your name is changing, and any documents needed for the card you are getting (for example, REAL ID documents). Staff take a new photo and you pay the fee. **Online and mail renewals cannot be used to change the sex designation.**
+      es: |
+        Haz una cita en el sitio web del DMV si puedes. Lleva el DR 2083, tu tarjeta actual, una copia certificada del decreto si cambias de nombre y los documentos necesarios para la tarjeta (por ejemplo, de REAL ID). Te toman una foto nueva y pagas la tarifa. **La renovación en línea o por correo no sirve para cambiar la designación de sexo.**
+    fees: [dl-duplicate, dl-renewal, id-card]
+    applies_to: [in_person]
+    sources: [dmv-change-sex, dmv-fees]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: You leave with a temporary paper document; the permanent card is mailed to you.
+      es: Sales con un documento temporal en papel; la tarjeta permanente te llega por correo.
+    sources: [dmv-change-sex]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Duplicate driver's license (new card without renewing)
+      es: Duplicado de licencia (tarjeta nueva sin renovar)
+    amount: 12.3
+    note:
+      en: $16.40 for a subsequent duplicate. There is no extra charge for changing the sex identifier itself. Fees as listed in May 2026; the DMV adjusted fees on July 1, 2026, so confirm before you go.
+      es: $16.40 por un duplicado posterior. No hay cargo adicional por cambiar el identificador de sexo. Tarifas de mayo de 2026; el DMV ajustó tarifas el 1 de julio de 2026, confirma antes de ir.
+    sources: [dmv-fees, dmv-change-sex]
+  - id: dl-renewal
+    label:
+      en: Driver's license renewal (if you change your marker when renewing)
+      es: Renovación de licencia (si cambias el marcador al renovar)
+    amount: 32
+    note:
+      en: Standard (non-REAL ID) driver's license under the Road and Community Safety Act is $34.
+      es: La licencia estándar (no REAL ID) según la Ley de Seguridad Vial y Comunitaria cuesta $34.
+    sources: [dmv-fees]
+  - id: id-card
+    label:
+      en: Identification card
+      es: Tarjeta de identificación
+    amount: 13
+    note:
+      en: Free if you are 60 or older. Standard (non-REAL ID) ID card is $13.30.
+      es: Gratis si tienes 60 años o más. La identificación estándar (no REAL ID) cuesta $13.30.
+    sources: [dmv-fees]
+fee_waiver:
+  available: false
+  how:
+    en: There is no general fee waiver, but ID cards are free for people 60 and older. The Colorado Name Change Project and Trans Lifeline offer microgrants for document costs when funds are available.
+    es: No hay una exención general, pero las identificaciones son gratis para personas de 60 años o más. El Colorado Name Change Project y Trans Lifeline ofrecen microsubvenciones para costos de documentos cuando hay fondos.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: In person only, at a state driver license office (not a county motor vehicle office, which handles vehicles).
+    es: Solo en persona, en una oficina estatal de licencias (no en una oficina de vehículos del condado).
+  sources: [dmv-change-sex]
+timeline:
+  en: One office visit; the card arrives by mail afterwards.
+  es: Una visita a la oficina; la tarjeta llega por correo después.
+after:
+  en: |
+    Your license is the ID most agencies check first. If you chose X, be aware that the US passport and Social Security record currently cannot show X or a changed sex marker; your Colorado card is still valid ID, including for REAL ID and for voting. If you were born in Colorado you can also update your birth certificate by affidavit (see the birth certificate guide); a new Colorado birth certificate can be used at the DMV instead of DR 2083.
+  es: |
+    Tu licencia es la identificación que la mayoría de las agencias revisa primero. Si elegiste X, ten en cuenta que el pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; tu tarjeta de Colorado sigue siendo válida, incluso para REAL ID y para votar. Si naciste en Colorado también puedes actualizar tu acta de nacimiento por declaración (ver la guía de acta de nacimiento).
+tips:
+  - en: You do not need to change your name to change your marker, or the other way around.
+    es: No necesitas cambiar tu nombre para cambiar tu marcador, ni al revés.
+  - en: If you already used your one self-attested change before October 1, 2026, HB25-1312 raises the limit to three changes from that date; ask the DMV how prior changes are counted.
+    es: Si ya usaste tu único cambio por declaración antes del 1 de octubre de 2026, HB25-1312 aumenta el límite a tres desde esa fecha; pregunta al DMV cómo cuentan los cambios anteriores.
+  - en: If staff ask for medical documentation from an adult, ask for a supervisor and point to C.R.S. § 42-2-107(2)(a)(II) and form DR 2083.
+    es: Si el personal pide documentación médica a un adulto, pide hablar con un supervisor y menciona C.R.S. § 42-2-107(2)(a)(II) y el formulario DR 2083.
+statutes:
+  - cite: C.R.S. § 42-2-107(2)(a)(II)-(III)
+    title:
+      en: New driver's license with a different sex designation on self-attestation; limit on the number of changes
+      es: Nueva licencia con otra designación de sexo por declaración propia; límite de cambios
+    url: https://colorado.public.law/statutes/crs_42-2-107
+  - cite: HB19-1039 (2019), Identity Documents for Transgender Persons
+    url: https://leg.colorado.gov/bills/hb19-1039
+  - cite: HB25-1312 (2025), Kelly Loving Act, sections 11-13
+    title:
+      en: Raises the number of self-attested sex designation changes on licenses and IDs from one to three, effective October 1, 2026
+      es: Aumenta de uno a tres los cambios de designación de sexo por declaración propia, a partir del 1 de octubre de 2026
+    url: https://leg.colorado.gov/bills/hb25-1312
+related_links:
+  - title: Colorado DMV, Change Your Sex Identifier
+    url: https://dmv.colorado.gov/change-your-sex
+  - title: Colorado Name Change Project, gender marker guide
+    url: https://www.namechangeproject.org/gender-marker/
+  - title: Advocates for Trans Equality, Colorado identity documents
+    url: https://transequality.org/documents/colorado-identity-documents
+    note:
+      en: Last updated April 2026.
+      es: Actualizado en abril de 2026.
+sources:
+  - id: dmv-change-sex
+    url: https://dmv.colorado.gov/change-your-sex
+    title: Change Your Sex Identifier (read via Internet Archive snapshot of January 9, 2026)
+    publisher: Colorado Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "People can designate M (male), F (female) or X. ... You must appear at an office in person to change your sex identifier. ... There is no additional fee for people to change the sex identifier."
+  - id: dr2083
+    url: https://dmv.colorado.gov/sites/dmv/files/documents/DR2083_2023.pdf
+    title: Form DR 2083, Change of Sex Designation (rev. 03/14/23; read via Internet Archive snapshot of February 22, 2026)
+    publisher: Colorado Department of Revenue
+    kind: form
+    accessed: "2026-09-24"
+    quote: I, the above named person, confirm under penalty of law that the sex designation on my driver license/identification card does not align with my gender identity.
+  - id: dmv-fees
+    url: https://dmv.colorado.gov/state-dmv-fees
+    title: State DMV Fees (read via Internet Archive snapshot of May 11, 2026)
+    publisher: Colorado Division of Motor Vehicles
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Driver License, renewal $32.00; Identification Card (under 60 Years Old) $13.00; Identification Card (over 60 years old) FREE; Duplicate Permit or License $12.30; Subsequent Duplicate Permit or License $16.40"
+  - id: crs-42-2-107
+    url: https://colorado.public.law/statutes/crs_42-2-107
+    title: C.R.S. § 42-2-107, Application for license (2024 edition text)
+    publisher: Colorado.Public.Law (from the Office of Legislative Legal Services CRS 2024)
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The department shall issue a new driver's license to a person who has a gender different from the sex denoted on that person's driver's license when the department receives a new birth certificate ... or ... a statement ... confirming the sex designation ... does not align with the person's gender identity.
+  - id: hb25-1312
+    url: https://leg.colorado.gov/bills/hb25-1312
+    title: HB25-1312, Kelly Loving Act (signed May 16, 2025)
+    publisher: Colorado General Assembly
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The department may only amend a sex designation for an individual's driver's license three times upon the individual's request. ... sections 11, 12, and 13 of this act take effect October 1, 2026.
