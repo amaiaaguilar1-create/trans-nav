@@ -1,0 +1,219 @@
+guide_type: birth_certificate
+jurisdiction: MN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Requirements, fees ($40 amendment, $26 first amended certificate, $19 each additional copy, optional $20 faster
+    processing and $21 express delivery), notary requirement, and mailing address confirmed 2026-09-24 on MDH's "Change
+    a Birth Record" page (updated 02/19/2026), "Supporting Documents for Amendments" page, and the Birth Record
+    Amendment Packet (rev. 07/2025). Open items: (1) MDH pages do not say whether X (or any non-binary marker) can be
+    placed on a Minnesota birth certificate; markers_available is set to M and F only and the reviewer should ask MDH
+    (651-201-5970). A4TE's page also does not mention X. (2) MDH gives no processing time for amendments. (3) MDH is in
+    rulemaking on Minn. R. ch. 4601 (vital records); watch for changes to the gender amendment standard. (4) The
+    statute (Minn. Stat. 144.218) covers replacement records by court order but does not mention sex or gender; the
+    physician-letter route is MDH policy/rule, not statute. Status is "restricted" because the non-court route
+    accepts a letter only from a licensed physician (not a nurse practitioner, physician assistant, or therapist)
+    certifying "appropriate clinical treatment"; the court-order route through a name change application has no
+    medical requirement.
+status: restricted
+requirement_type: provider_letter_limited
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Minnesota you can change the sex on your birth certificate, but you need either a letter from
+    a licensed physician saying you have had appropriate clinical treatment for gender transition, or a court order
+    that specifically directs the change. The request is notarized and mailed to the Minnesota Department of Health
+    with a $40 fee plus $26 for the new certificate.
+  es: >-
+    Si naciste en Minnesota puedes cambiar el sexo en tu acta de nacimiento, pero necesitas una carta de un médico con
+    licencia que diga que has recibido tratamiento clínico apropiado para la transición de género, o una orden judicial
+    que ordene expresamente el cambio. La solicitud se notariza y se envía por correo al Departamento de Salud de
+    Minnesota con una tarifa de $40 más $26 por la nueva acta.
+summary:
+  en: |
+    Birth record changes are handled only by the Minnesota Department of Health (MDH) Office of Vital Records in St. Paul, not by county offices. To change the sex, you file a Birth Record Amendment Request, list "sex" as the item to amend, and include **one** of:
+    - **Physician letter**: an original letter signed by a licensed physician, using the name and date of birth on your current birth record, certifying that you have had "appropriate clinical" treatment for gender transition. Surgery is not required, but letters from nurse practitioners, physician assistants, or therapists are not listed as acceptable.
+    - **Court order**: a certified court order that specifically directs amendment of your sex on the birth record. The easiest way to get one is to include the request in your name change application (see the name change guide).
+
+    **Amended vs. replaced**: with a physician letter, MDH amends your record and new certificates print a line saying "Data items other than the registrant's name or date of birth were amended [date]." If a court order directs MDH to **replace** the record, MDH issues a new certificate without that note and seals the original.
+
+    MDH's pages do not say whether an X marker is available; ask the Office of Vital Records if you want one.
+  es: |
+    Los cambios en actas de nacimiento solo los hace la Oficina de Registros Vitales del Departamento de Salud de Minnesota (MDH) en St. Paul, no las oficinas de los condados. Para cambiar el sexo, presentas una Solicitud de Enmienda de Registro de Nacimiento, indicas "sexo" como el dato a enmendar e incluyes **uno** de estos:
+    - **Carta médica**: carta original firmada por un médico con licencia, con el nombre y fecha de nacimiento de tu acta actual, que certifique que has recibido tratamiento clínico "apropiado" para la transición de género. No se requiere cirugía, pero las cartas de enfermeros practicantes, asistentes médicos o terapeutas no figuran como aceptables.
+    - **Orden judicial**: una orden judicial certificada que ordene expresamente enmendar el sexo en tu registro. La forma más fácil es incluir la petición en tu solicitud de cambio de nombre.
+
+    **Enmienda o reemplazo**: con carta médica, MDH enmienda tu registro y las nuevas actas incluyen una línea que dice que se enmendaron datos. Si una orden judicial ordena **reemplazar** el registro, MDH emite una nueva acta sin esa nota y sella la original.
+
+    Las páginas de MDH no indican si hay un marcador X; pregunta a la Oficina de Registros Vitales si lo quieres.
+eligibility:
+  residency:
+    en: You must have been born in Minnesota. Where you live now does not matter. If you were born in another state, that state's rules apply.
+    es: Debes haber nacido en Minnesota. No importa dónde vivas ahora. Si naciste en otro estado, aplican las reglas de ese estado.
+  age:
+    en: Adults 18 and older must request their own amendment. For a minor, a parent named on the birth record or a legal guardian (with a certified court order naming them) requests it.
+    es: Los adultos de 18 años o más deben pedir su propia enmienda. Para un menor, lo pide un padre que aparezca en el acta o un tutor legal (con orden judicial certificada).
+  sources: [mdh-amend, mdh-packet]
+forms:
+  - id: birth-amendment
+    name:
+      en: Birth Record Amendment Packet (application, instructions, supporting document list)
+      es: Paquete de enmienda de registro de nacimiento (solicitud, instrucciones y lista de documentos)
+    url: https://www.health.state.mn.us/people/vitalrecords/docs/bamendia.pdf
+    url_es: https://www.health.state.mn.us/people/vitalrecords/docs/bamendiaspanish.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - "What does the birth record show now?": copy the name, date of birth, sex, city and county of birth, and parents exactly as they appear on your current certificate.
+        - "Item to amend": write **Sex** and, in "Show on new certificate as", the marker you want. If a court order also changed your name, list the name as a separate item.
+        - Requester: check "I am the subject of the record and 18 or older". If you have a court order, you (not a parent) must be the requester.
+        - Sign **in front of a notary**. Unnotarized applications are returned.
+        - Fees page: $40 amendment plus $26 for the first new certificate; $19 for each extra copy. Standard processing and first-class mail are free; faster processing is $20 and express delivery $21.
+        - Pay by card, check, or money order payable to Minnesota Department of Health (no cash). Enclose the original physician letter or certified court order and a copy of your ID if the packet asks for it; MDH returns original documents.
+      es: |
+        - "¿Qué muestra el registro ahora?": copia el nombre, fecha de nacimiento, sexo, ciudad y condado de nacimiento y padres tal como aparecen en tu acta actual.
+        - "Dato a enmendar": escribe **Sexo** y el marcador que deseas. Si una orden también cambió tu nombre, anótalo como otro dato.
+        - Solicitante: marca "soy la persona del registro y tengo 18 años o más".
+        - Firma **ante un notario**. Las solicitudes sin notarizar se devuelven.
+        - Tarifas: $40 de enmienda más $26 por la primera acta nueva; $19 por cada copia adicional.
+        - Paga con tarjeta, cheque o giro postal a nombre de Minnesota Department of Health (sin efectivo). Adjunta la carta médica original o la orden judicial certificada.
+    sources: [mdh-amend, mdh-packet]
+steps:
+  - id: get-document
+    title:
+      en: Get a physician letter or a court order
+      es: Obtén una carta médica o una orden judicial
+    body:
+      en: |
+        Ask a licensed physician (MD or DO) to write an original, signed letter that uses your name and date of birth **as they appear on your current birth record** and certifies you have had "appropriate clinical treatment for gender transition". Or get a certified court order that specifically directs MDH to amend (or replace) the sex on your birth record, usually as part of a name change.
+      es: |
+        Pide a un médico con licencia (MD o DO) una carta original firmada que use tu nombre y fecha de nacimiento **tal como aparecen en tu acta actual** y certifique que has recibido "tratamiento clínico apropiado para la transición de género". O consigue una orden judicial certificada que ordene expresamente a MDH enmendar (o reemplazar) el sexo en tu registro, normalmente como parte de un cambio de nombre.
+    sources: [mdh-reqdocs, mdh-amend, stat-144-218]
+  - id: fill-notarize
+    title:
+      en: Fill out the amendment request and sign it before a notary
+      es: Llena la solicitud de enmienda y fírmala ante un notario
+    body:
+      en: Use the English or Spanish packet (a Somali version is also available). List "sex" as the item to amend, plus your name if a court order changed it.
+      es: Usa el paquete en inglés o español (también hay versión en somalí). Anota "sexo" como el dato a enmendar, y tu nombre si una orden judicial lo cambió.
+    forms: [birth-amendment]
+    sources: [mdh-amend, mdh-packet]
+  - id: mail
+    title:
+      en: Mail the packet with payment
+      es: Envía el paquete por correo con el pago
+    body:
+      en: |
+        Mail to Minnesota Department of Health, Office of Vital Records, PO Box 64499, St. Paul, MN 55164-0499. Courier or express packages go to 625 Robert St. N, St. Paul, MN 55155 (there is no walk-in counter). Keep copies of everything.
+      es: |
+        Envía a Minnesota Department of Health, Office of Vital Records, PO Box 64499, St. Paul, MN 55164-0499. Los paquetes por mensajería van a 625 Robert St. N, St. Paul, MN 55155 (no hay atención en persona). Guarda copias de todo.
+    fees: [amendment, first-certificate, extra-copy]
+    applies_to: [by_mail]
+    sources: [mdh-packet]
+  - id: wait
+    title:
+      en: Wait for the new certificate and your returned documents
+      es: Espera la nueva acta y la devolución de tus documentos
+    body:
+      en: MDH returns incomplete, unnotarized, or underpaid applications. Requests left unresolved for 12 months are closed and must be refiled with new fees. If you have not heard back, call 651-201-5970 or email health.vitalrecords@state.mn.us.
+      es: MDH devuelve solicitudes incompletas, sin notarizar o sin el pago completo. Las solicitudes sin resolver por 12 meses se cierran y hay que volver a presentarlas y pagar. Si no tienes respuesta, llama al 651-201-5970 o escribe a health.vitalrecords@state.mn.us.
+    sources: [mdh-packet]
+fees:
+  - id: amendment
+    label:
+      en: Amendment request processing (non-refundable)
+      es: Procesamiento de la solicitud de enmienda (no reembolsable)
+    amount: 40
+    waivable: false
+    sources: [mdh-amend, mdh-packet]
+  - id: first-certificate
+    label:
+      en: First certified copy of the amended birth certificate
+      es: Primera copia certificada del acta enmendada
+    amount: 26
+    waivable: false
+    sources: [mdh-amend, mdh-packet]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy ordered with the amendment
+      es: Cada copia certificada adicional pedida con la enmienda
+    amount: 19
+    waivable: false
+    note:
+      en: Optional extras are $20 for faster processing and $21 for express delivery.
+      es: Opcionales - $20 por procesamiento más rápido y $21 por envío exprés.
+    sources: [mdh-packet]
+fee_waiver:
+  available: false
+  how:
+    en: MDH does not list a fee waiver for amendments. If cost is a barrier, see the funds listed in the name change guide.
+    es: MDH no ofrece exención de tarifas para enmiendas. Si el costo es un obstáculo, consulta los fondos de la guía de cambio de nombre.
+  sources: [mdh-packet]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail or courier to MDH's Office of Vital Records in St. Paul. County vital records offices cannot do amendments, and there is no counter service.
+    es: Por correo o mensajería a la Oficina de Registros Vitales de MDH en St. Paul. Las oficinas de los condados no hacen enmiendas y no hay atención en persona.
+  sources: [mdh-amend, mdh-packet]
+timeline:
+  en: MDH does not publish an amendment processing time. Paying $20 for faster processing moves your request ahead of standard requests.
+  es: MDH no publica un tiempo de procesamiento para enmiendas. Pagar $20 por procesamiento más rápido adelanta tu solicitud.
+after:
+  en: |
+    Use your new certificate to update records that accept a birth certificate. As of September 2026, the Social Security Administration and the State Department will **not** change the sex field based on it. You do not need an updated birth certificate to change the marker on a Minnesota driver's license or ID.
+  es: |
+    Usa tu nueva acta para actualizar registros que aceptan un acta de nacimiento. A septiembre de 2026, el Seguro Social y el Departamento de Estado **no** cambiarán el campo de sexo con base en ella. No necesitas un acta actualizada para cambiar el marcador en una licencia o identificación de Minnesota.
+tips:
+  - en: If you do not have a physician, the court-order route through your name change application avoids the medical requirement and can get you a replacement record with the original sealed.
+    es: Si no tienes médico, la vía de orden judicial en tu solicitud de cambio de nombre evita el requisito médico y puede darte un registro de reemplazo con el original sellado.
+  - en: Order extra copies ($19 each) in the same request; ordering later costs more.
+    es: Pide copias adicionales ($19 cada una) en la misma solicitud; pedirlas después cuesta más.
+statutes:
+  - cite: Minn. Stat. § 144.218
+    title:
+      en: Replacement of vital records, including by court order; the prior record becomes confidential
+    url: https://www.revisor.mn.gov/statutes/cite/144.218
+related_links:
+  - title: Minnesota Department of Health, Change a Birth Record
+    url: https://www.health.state.mn.us/people/vitalrecords/amend.html
+  - title: Advocates for Trans Equality, Minnesota identity documents
+    url: https://transequality.org/documents/minnesota-identity-documents
+    note:
+      en: Last updated January 2026; agrees with MDH on the physician letter or court order requirement and the fees.
+      es: Actualizado en enero de 2026; coincide con MDH sobre el requisito de carta médica u orden judicial y las tarifas.
+sources:
+  - id: mdh-amend
+    url: https://www.health.state.mn.us/people/vitalrecords/amend.html
+    title: Change a Birth Record (last updated 02/19/2026)
+    publisher: Minnesota Department of Health, Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: People requesting amendments for changing gender must provide either a letter from a physician certifying that they are receiving treatment for gender transition or a court order directing a change to the birth record.
+  - id: mdh-reqdocs
+    url: https://www.health.state.mn.us/people/vitalrecords/reqdocs.html
+    title: Supporting Documents for Amendments
+    publisher: Minnesota Department of Health, Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: "For changing gender: \"Medical certification of appropriate clinical treatment for gender transition\" in the form of an original letter signed by a licensed physician."
+  - id: mdh-packet
+    url: https://www.health.state.mn.us/people/vitalrecords/docs/bamendia.pdf
+    title: Birth Record Amendment Packet (rev. 07/2025)
+    publisher: Minnesota Department of Health, Office of Vital Records
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Amendment request processing $40. First amended birth certificate $26. Additional birth certificates $19 each."
+  - id: stat-144-218
+    url: https://www.revisor.mn.gov/statutes/cite/144.218
+    title: Minn. Stat. § 144.218, Replacement of vital records
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: upon the order of a court of this state, upon the request of a court of another state, or upon the filing of a recognition of parentage

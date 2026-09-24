@@ -1,0 +1,151 @@
+code: MN
+name:
+  en: Minnesota
+  es: Minnesota
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate is based on statutes read on revisor.mn.gov 2026-09-24: the 2023 trans refuge law (HF 146, Laws 2023
+    ch. 29), Medical Assistance coverage of gender-affirming care (Minn. Stat. 256B.0625 subd. 3a), and the health plan
+    coverage mandate (Minn. Stat. 62Q.585, Laws 2024 ch. 114). ID documents are rated protective even though the birth
+    certificate needs a physician letter or court order, because the driver's license is self-attestation with X and
+    name changes need no publication. The mncourts.gov and mn.gov sites (courts, DHS, Commerce, MNsure) blocked
+    automated fetching, so court and agency details come from LawHelpMN and other secondary pages; see each guide's
+    notes. Rainbow Health closed July 19, 2024 and the Minnesota Transgender Health Coalition's domain now hosts an
+    unrelated site; neither is listed.
+overview:
+  en: >-
+    Minnesota is one of the more protective states for trans people. You can choose M, F, or X on a driver's license
+    or state ID without any medical proof, name changes need no newspaper publication, Medical Assistance and
+    state-regulated health plans must cover medically necessary gender-affirming care, and a 2023 "trans refuge" law
+    (HF 146) shields patients, families, and providers from other states' bans. Two things take more effort than in
+    some states: a name change requires a short court hearing with two witnesses, and changing the sex on a Minnesota
+    birth certificate needs a physician's letter or a court order.
+  es: >-
+    Minnesota es uno de los estados que más protege a las personas trans. Puedes elegir M, F o X en tu licencia de
+    conducir o identificación estatal sin prueba médica, los cambios de nombre no requieren publicación en el
+    periódico, Medical Assistance y los planes de salud regulados por el estado deben cubrir la atención de afirmación
+    de género médicamente necesaria, y una ley "refugio trans" de 2023 (HF 146) protege a pacientes, familias y
+    proveedores de las prohibiciones de otros estados. Dos trámites requieren más esfuerzo: el cambio de nombre
+    necesita una audiencia breve con dos testigos, y cambiar el sexo en un acta de nacimiento de Minnesota requiere una
+    carta de un médico o una orden judicial.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [hf146, stat-256b-0625, stat-62q-585, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [minneapolis-st-paul]
+key_resources:
+  - id: vln-lgbtq-clinic
+    name: Volunteer Lawyers Network, LGBTQ Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free 20-minute phone appointments with a volunteer attorney on LGBTQ legal questions, including name and gender marker changes for adults and minors. Statewide; apply online or call 612-752-6677.
+      es: Citas telefónicas gratuitas de 20 minutos con un abogado voluntario sobre asuntos legales LGBTQ, incluidos cambios de nombre y marcador de género para adultos y menores. En todo el estado; solicita en línea o llama al 612-752-6677.
+    url: https://www.vlnmn.org/intake
+    phone: "612-752-6677"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [lawhelp-vln]
+  - id: gender-justice
+    name: Gender Justice
+    type: advocacy_org
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Saint Paul legal advocacy organization that takes gender-equity impact cases, including trans rights and health care coverage. Not a general referral service; submit the online legal assistance form.
+      es: Organización de defensa legal en Saint Paul que lleva casos de impacto sobre equidad de género, incluidos derechos trans y cobertura médica. No es un servicio general de referencias; envía el formulario de asistencia legal en línea.
+    url: https://www.genderjustice.us/legal-assistance/
+    phone: "651-789-2090"
+    address: 663 University Avenue W, Suite 200, Saint Paul, MN 55104
+    cost: free
+    verification: org_website
+    sources: [gender-justice]
+  - id: outfront-avp
+    name: OutFront Minnesota, Anti-Violence Program helpline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Minnesota's statewide LGBTQ advocacy organization. Its Anti-Violence Program helpline (800-800-0350) supports LGBTQ people who have experienced violence, and its online directory lists LGBTQ-friendly clinics, therapists, and lawyers.
+      es: La organización de defensa LGBTQ de todo Minnesota. Su línea del Programa contra la Violencia (800-800-0350) apoya a personas LGBTQ que han sufrido violencia, y su directorio en línea incluye clínicas, terapeutas y abogados LGBTQ.
+    url: https://www.outfront.org/anti-violence-program
+    phone: "800-800-0350"
+    address: 2446 University Ave W, Saint Paul, MN
+    cost: free
+    verification: org_website
+    sources: [outfront-avp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: hf146
+    url: https://www.revisor.mn.gov/laws/2023/0/29/
+    title: Laws 2023, chapter 29 (HF 146), gender-affirming health care refuge law
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: An act relating to children; preventing the use of subpoenas to gather information for out-of-state laws interfering in the use of gender-affirming health care
+  - id: stat-256b-0625
+    url: https://www.revisor.mn.gov/statutes/cite/256B.0625
+    title: Minn. Stat. § 256B.0625, subd. 3a, Gender-affirming care (Medical Assistance)
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Medical assistance covers gender-affirming care, as defined in section 62Q.585.
+  - id: stat-62q-585
+    url: https://www.revisor.mn.gov/statutes/cite/62Q.585
+    title: Minn. Stat. § 62Q.585, Gender-affirming care coverage; medically necessary care
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No health plan that covers physical or mental health services may be offered, sold, issued, or renewed in this state that (1) excludes coverage for medically necessary gender-affirming care
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: lawhelp-vln
+    url: https://www.lawhelpmn.org/loon/services/vln-lgbtq-clinic
+    title: VLN LGBTQ Clinic
+    publisher: LawHelpMN (Minnesota Legal Services Coalition)
+    kind: org
+    accessed: "2026-09-24"
+    quote: Meeting topics include, but are not limited to, legal advice regarding name and gender marker changes for both minors and adults
+  - id: gender-justice
+    url: https://www.genderjustice.us/legal-assistance/
+    title: Legal Assistance
+    publisher: Gender Justice
+    kind: org
+    accessed: "2026-09-24"
+  - id: outfront-avp
+    url: https://www.outfront.org/anti-violence-program
+    title: Anti-Violence Program
+    publisher: OutFront Minnesota
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

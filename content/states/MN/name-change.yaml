@@ -1,0 +1,512 @@
+guide_type: name_change
+jurisdiction: MN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes (Minn. Stat. 259.10, 259.11, 259.13, 357.021, 563.01) read on revisor.mn.gov 2026-09-24; 259.10 was last
+    amended in 1995 and 259.11/259.13 in 2023 (Laws 2023 ch. 52 art. 19), so no 2024-2026 changes to the name change
+    statute were found. mncourts.gov returned HTTP 403 to every automated request (help topic page, forms page, and form
+    PDFs), so form numbers and titles (NAM102, NAM103, NAM107; minors NAM202, NAM203, NAM208) come from A4TE's Minnesota
+    page (updated January 2026) and the court URLs come from links on LawHelpMN. Reviewer must confirm on mncourts.gov:
+    (1) current form numbers and exact titles, and whether NAM102 still includes the "other relief" request to amend
+    the birth record's sex; (2) the fee waiver form numbers (not listed here because unverified); (3) whether Hennepin
+    County adds a law library fee to the $310 statutory filing fee and the total; (4) Hennepin's separate name change
+    guide/supplement mentioned by A4TE; (5) typical time from filing to hearing. The 2019 OutFront + Robins Kaplan name
+    change clinic appears to be a past event (OutFront's own directory says the firm "has partnered with OutFront in
+    the past"); it is not listed as an active clinic. No statute provides sealing for gender-identity name changes; the
+    confidentiality section reflects that and should be checked against current court practice.
+status: available
+status_summary:
+  en: >-
+    Minnesota adults can change their name, and ask the court to order a sex change on their Minnesota birth record,
+    by filing an application in district court in the county where they live. There is no newspaper publication, but
+    there is a short hearing where you bring two witnesses, and the court runs a criminal history check.
+  es: >-
+    En Minnesota, las personas adultas pueden cambiar su nombre, y pedir al tribunal que ordene cambiar el sexo en su
+    acta de nacimiento de Minnesota, presentando una solicitud en el tribunal de distrito del condado donde viven. No
+    hay publicación en el periódico, pero hay una audiencia breve a la que llevas dos testigos, y el tribunal revisa
+    tus antecedentes penales.
+summary:
+  en: |
+    Minnesota Statutes § 259.10 lets anyone who has lived in Minnesota for at least six months apply to the district court in their county of residence for a name change. The court **must** grant the application unless it finds an intent to defraud or mislead, the felony-conviction rules in § 259.13 block it, or (for a child) the change is not in the child's best interests (§ 259.11). Gender identity is a valid reason, and you do not need a doctor's letter.
+
+    The court form is called an **Application for Name Change and Other Relief**. The "other relief" part lets you ask the judge to also order the Minnesota Department of Health to change the sex on your birth record, which many people find easier than getting a physician's letter (see the birth certificate guide). A name change order does **not** change your sex marker anywhere unless the judge specifically orders it.
+
+    There is no newspaper publication. You do have to appear at a brief hearing and bring **two adult witnesses** who have known you for at least a year (if you are married, one must be your spouse).
+  es: |
+    El artículo 259.10 de los Estatutos de Minnesota permite a cualquier persona que haya vivido en Minnesota al menos seis meses solicitar un cambio de nombre al tribunal de distrito de su condado de residencia. El tribunal **debe** concederlo a menos que encuentre intención de defraudar o engañar, que las reglas sobre condenas por delitos graves (§ 259.13) lo impidan o, en el caso de un menor, que el cambio no sea en su mejor interés (§ 259.11). La identidad de género es una razón válida y no necesitas carta médica.
+
+    El formulario se llama **Solicitud de cambio de nombre y otras medidas** (Application for Name Change and Other Relief). La parte de "otras medidas" te permite pedir al juez que también ordene al Departamento de Salud cambiar el sexo en tu acta de nacimiento de Minnesota. Una orden de cambio de nombre **no** cambia tu marcador de sexo a menos que el juez lo ordene expresamente.
+
+    No hay publicación en el periódico. Sí debes asistir a una audiencia breve y llevar **dos testigos adultos** que te conozcan desde hace al menos un año (si estás casado, uno debe ser tu cónyuge).
+eligibility:
+  residency:
+    en: You must have lived in Minnesota for at least six months, and you file in the district court of the county where you live.
+    es: Debes haber vivido en Minnesota al menos seis meses y presentar la solicitud en el tribunal de distrito del condado donde vives.
+  age:
+    en: 18 or older for the adult forms. A parent or guardian applies for a minor; see the Minors section.
+    es: 18 años o más para los formularios de adultos. Un padre, madre o tutor presenta la solicitud por un menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      The court checks your criminal history. A past conviction does not bar a name change. If you have a **felony**
+      conviction, you must also serve notice on the prosecutor who obtained it (and the Attorney General if the
+      conviction is from another state or federal court), who has 30 days to object; you generally cannot get a fee
+      waiver in that case (§ 259.13). If you have any criminal history, you and the court must report the new name to
+      the Bureau of Criminal Apprehension within 10 days of the order (§ 259.11).
+    es: >-
+      El tribunal revisa tus antecedentes penales. Una condena anterior no impide el cambio de nombre. Si tienes una
+      condena por **delito grave**, también debes notificar a la fiscalía que la obtuvo (y al Fiscal General si la
+      condena es de otro estado o federal), que tiene 30 días para objetar; en ese caso generalmente no puedes obtener
+      exención de tarifas (§ 259.13). Si tienes antecedentes, tú y el tribunal deben informar el nuevo nombre a la
+      Oficina de Aprehensión Criminal dentro de 10 días (§ 259.11).
+  sources: [stat-259-10, stat-259-11, stat-259-13, lawhelp-diy]
+forms:
+  - id: NAM102
+    name:
+      en: Application for Name Change (Application for Name Change and Other Relief), adult
+      es: Solicitud de cambio de nombre (y otras medidas), adulto
+    url: https://mncourts.gov/getforms/name-change
+    required: always
+    how_to_fill:
+      en: |
+        - Give your current legal name exactly as it appears on your ID, and the new name you want. The order copies it exactly, so check the spelling.
+        - List your spouse and minor children, if any, and describe any real estate you or they own (use the legal description from the deed, not the street address).
+        - List every criminal conviction with date, state, and whether it was a felony, so it matches the court's criminal history check.
+        - **Other relief**: if you want your Minnesota birth record's sex changed, ask the court to order the Minnesota Department of Health (Office of Vital Records) to amend the sex on your birth record. MDH only accepts a court order that *specifically directs* amendment of the sex on the birth record. If you want a replacement birth record (with the original sealed) rather than an amended one, ask for that expressly.
+        - Sign in front of a notary. Court staff can often notarize.
+        - The free LawHelp Interactive interview (Education for Justice) asks you questions and fills out this form, including the gender marker request.
+      es: |
+        - Escribe tu nombre legal actual tal como aparece en tu identificación y el nuevo nombre que deseas. Revisa la ortografía.
+        - Anota a tu cónyuge e hijos menores, si los hay, y cualquier propiedad inmueble (con la descripción legal de la escritura).
+        - Anota cada condena penal con fecha, estado y si fue delito grave.
+        - **Otras medidas**: si quieres cambiar el sexo en tu acta de nacimiento de Minnesota, pide al tribunal que ordene al Departamento de Salud (Oficina de Registros Vitales) enmendar el sexo en tu registro de nacimiento. MDH solo acepta una orden que lo indique *expresamente*.
+        - Firma ante un notario. El personal del tribunal a menudo puede notarizar.
+    sources: [a4te-mn, lawhelp-diy, mdh-amend, outfront-name]
+  - id: NAM103
+    name:
+      en: Criminal History Check Release
+      es: Autorización para revisión de antecedentes penales
+    url: https://mncourts.gov/getforms/name-change
+    required: always
+    condition:
+      en: Filed with the application so the court can check your criminal history.
+      es: Se presenta con la solicitud para que el tribunal revise tus antecedentes penales.
+    sources: [a4te-mn, stat-259-11]
+  - id: NAM107
+    name:
+      en: Proposed Order Granting Name Change
+      es: Propuesta de orden que concede el cambio de nombre
+    url: https://mncourts.gov/getforms/name-change
+    required: always
+    how_to_fill:
+      en: Fill in the top and your current and new names. If you asked for a birth record sex change, make sure the proposed order includes a line directing the Minnesota Department of Health to amend (or replace) the sex on your birth record. The judge signs it at the hearing.
+      es: Llena la parte superior y tus nombres actual y nuevo. Si pediste cambiar el sexo en el acta de nacimiento, asegúrate de que la orden propuesta incluya una línea que ordene al Departamento de Salud enmendar (o reemplazar) el sexo en tu registro. El juez la firma en la audiencia.
+    sources: [a4te-mn, mdh-amend]
+  - id: NAM202
+    name:
+      en: Application for Name Change of a Minor
+      es: Solicitud de cambio de nombre de un menor
+    url: https://mncourts.gov/getforms/name-change/forms-packet-minor-name-change
+    required: conditional
+    condition:
+      en: Only for a child under 18. Use with NAM203 (criminal history release, for a child 10 or older) and NAM208 (proposed order).
+      es: Solo para menores de 18 años. Se usa con NAM203 (autorización de antecedentes, para mayores de 10 años) y NAM208 (orden propuesta).
+    sources: [a4te-mn, lawhelp-diy]
+steps:
+  - id: prepare
+    title:
+      en: Fill out the application packet
+      es: Llena el paquete de solicitud
+    body:
+      en: |
+        Download the adult forms from the court website (NAM102, NAM103, NAM107), or use the free LawHelp Interactive interview, which fills them out for you in about 30 minutes. Decide now whether you also want the court to order a sex change on your Minnesota birth record, and include it in the application and proposed order. The Hennepin and Ramsey County Self-Help Centers, and the Statewide Self-Help Center (651-435-6535), will answer process questions and review your forms for free.
+      es: |
+        Descarga los formularios para adultos del sitio del tribunal (NAM102, NAM103, NAM107) o usa la entrevista gratuita de LawHelp Interactive, que los llena por ti en unos 30 minutos. Decide si también quieres que el tribunal ordene cambiar el sexo en tu acta de nacimiento de Minnesota e inclúyelo en la solicitud y la orden propuesta. Los Centros de Autoayuda de Hennepin y Ramsey, y el Centro de Autoayuda Estatal (651-435-6535), responden preguntas y revisan tus formularios gratis.
+    forms: [NAM102, NAM103, NAM107]
+    sources: [lawhelp-diy, a4te-mn, lawhelp-statewide-shc, lawhelp-hennepin-shc, lawhelp-ramsey-shc]
+  - id: notarize
+    title:
+      en: Sign the application in front of a notary
+      es: Firma la solicitud ante un notario
+    body:
+      en: The application is signed under oath. Many court clerks are notaries; banks and libraries often notarize for free.
+      es: La solicitud se firma bajo juramento. Muchos secretarios del tribunal son notarios; los bancos y bibliotecas a menudo notarizan gratis.
+    forms: [NAM102]
+    sources: [outfront-name]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you cannot afford the fee
+      es: Pide una exención de tarifas si no puedes pagar
+    body:
+      en: File a request to proceed in forma pauperis (IFP) with your application. You qualify automatically if you receive public assistance, have a free legal-aid lawyer, or have income at or below 125% of the federal poverty level. The court's fee waiver page and a free Guide & File interview walk you through it.
+      es: Presenta una solicitud para proceder in forma pauperis (IFP) con tu solicitud. Calificas automáticamente si recibes asistencia pública, tienes un abogado gratuito de asistencia legal o tus ingresos están en o por debajo del 125% del nivel federal de pobreza.
+    optional: true
+    sources: [stat-563-01, lawhelp-ifp]
+  - id: file
+    title:
+      en: File with the district court in your county
+      es: Presenta los documentos en el tribunal de distrito de tu condado
+    body:
+      en: |
+        File in person at the court administrator's office or through the court's e-filing system, and pay the filing fee (or hand in your fee waiver request). If you have a felony conviction, also serve notice on the prosecuting authority and file proof of service; the court must wait 30 days for any objection. The court will schedule a hearing.
+      es: |
+        Presenta en persona en la oficina del administrador del tribunal o por el sistema de presentación electrónica, y paga la tarifa (o entrega tu solicitud de exención). Si tienes una condena por delito grave, también notifica a la fiscalía y presenta la prueba de notificación; el tribunal debe esperar 30 días por cualquier objeción. El tribunal fijará una audiencia.
+    fees: [filing]
+    sources: [stat-357-021, stat-259-13, lawhelp-diy]
+  - id: hearing
+    title:
+      en: Go to the hearing with two witnesses
+      es: Asiste a la audiencia con dos testigos
+    body:
+      en: |
+        Bring two adult witnesses who have known you for at least one year; they can be relatives, and if you are married one must be your spouse. Bring photo ID. Most hearings take only a few minutes, and the judge must grant the application unless there is evidence of intent to defraud or mislead.
+      es: |
+        Lleva a dos testigos adultos que te conozcan desde hace al menos un año; pueden ser familiares, y si estás casado uno debe ser tu cónyuge. Lleva identificación con foto. La mayoría de las audiencias duran pocos minutos, y el juez debe conceder la solicitud a menos que haya pruebas de intención de defraudar o engañar.
+    sources: [stat-259-10, stat-259-11, lawhelp-diy, outfront-name]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the order
+      es: Obtén copias certificadas de la orden
+    body:
+      en: |
+        Buy certified copies of the signed Order Granting Name Change from the court administrator ($14 each). A4TE suggests 5 to 7. Social Security, Driver and Vehicle Services, the passport agency, and the Minnesota Department of Health each want a certified copy. If you or your spouse or children own real estate, you must also record a certified copy with the county recorder.
+      es: |
+        Compra copias certificadas de la orden firmada al administrador del tribunal ($14 cada una). A4TE sugiere de 5 a 7. El Seguro Social, Driver and Vehicle Services, la oficina de pasaportes y el Departamento de Salud de Minnesota piden cada uno una copia certificada. Si tú o tu familia tienen propiedades, también debes registrar una copia en la oficina del registrador del condado.
+    fees: [certified-copies]
+    sources: [stat-357-021, stat-259-11, a4te-mn]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first. Minnesota DVS will not change the name on your license until SSA has processed it.
+        2. **Driver's license or ID** at a DVS office (see the driver's license guide).
+        3. **Birth certificate** through the Minnesota Department of Health if you were born in Minnesota (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records, vehicle titles.
+      es: |
+        1. **Seguro Social** primero. DVS de Minnesota no cambiará el nombre en tu licencia hasta que SSA lo procese.
+        2. **Licencia o identificación** en una oficina de DVS.
+        3. **Acta de nacimiento** con el Departamento de Salud si naciste en Minnesota.
+        4. **Pasaporte**, banco, empleador, seguro, registro de votante, expedientes escolares, títulos de vehículos.
+    sources: [dvs-name, mdh-amend]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (first paper in a civil action)
+      es: Tarifa de presentación en el tribunal de distrito
+    amount: 310
+    varies_by: county
+    waivable: true
+    note:
+      en: $310 is the statewide statutory fee. Counties may add a small law library fee, so the total at the counter is slightly higher and varies by county.
+      es: $310 es la tarifa estatal por ley. Los condados pueden agregar una pequeña tarifa de biblioteca jurídica, así que el total varía un poco según el condado.
+    sources: [stat-357-021, stat-134a-09]
+  - id: certified-copies
+    label:
+      en: Certified copy of the order (each)
+      es: Copia certificada de la orden (cada una)
+    amount: 14
+    waivable: true
+    sources: [stat-357-021, a4te-mn]
+fee_waiver:
+  available: true
+  eligibility:
+    en: |
+      You are presumed eligible if **any one** is true:
+      - You receive public assistance.
+      - You are represented by a free civil legal services or volunteer lawyer program because of low income.
+      - Your household income is at or below 125% of the federal poverty level.
+
+      Otherwise, you can show you cannot pay the fee and also meet basic expenses; the court may also order a partial payment. People with a felony conviction generally cannot use a fee waiver for a name change (§ 259.13).
+    es: |
+      Se presume que calificas si se cumple **cualquiera** de estas condiciones:
+      - Recibes asistencia pública.
+      - Te representa un programa gratuito de servicios legales o de abogados voluntarios por bajos ingresos.
+      - El ingreso de tu hogar está en o por debajo del 125% del nivel federal de pobreza.
+
+      Si no, puedes demostrar que no puedes pagar la tarifa y tus gastos básicos; el tribunal también puede ordenar un pago parcial. Las personas con condenas por delitos graves generalmente no pueden usar la exención para un cambio de nombre.
+  how:
+    en: File the in forma pauperis (IFP) affidavit and proposed order with your application. The court's Fillable Smart Form or the Guide & File interview produces them.
+    es: Presenta la declaración jurada in forma pauperis (IFP) y la orden propuesta con tu solicitud.
+  sources: [stat-563-01, lawhelp-ifp, stat-259-13]
+publication:
+  required: "no"
+  detail:
+    en: Minnesota's name change statute has no newspaper publication requirement for adults. For minors, publication may be needed only when a parent cannot be located for notice.
+    es: La ley de cambio de nombre de Minnesota no exige publicación en el periódico para adultos. Para menores, puede ser necesaria solo si no se puede localizar a un padre para notificarlo.
+  sources: [stat-259-10, a4te-mn]
+hearing:
+  required: "yes"
+  detail:
+    en: The applicant must appear in court and prove identity through at least two witnesses (§ 259.10). In practice the hearing is short. Bring two adults who have known you at least a year; if married, one must be your spouse.
+    es: La persona solicitante debe comparecer y probar su identidad con al menos dos testigos (§ 259.10). En la práctica la audiencia es breve.
+  sources: [stat-259-10, lawhelp-diy]
+background_check:
+  required: "yes"
+  detail:
+    en: The court must determine whether you have a criminal history in Minnesota or elsewhere and may use an FBI fingerprint search to do so; you sign a criminal history release (NAM103). Having a record does not bar the change. Felony convictions trigger the prosecutor-notice process in § 259.13.
+    es: El tribunal debe determinar si tienes antecedentes penales en Minnesota u otro lugar y puede usar una búsqueda de huellas del FBI; firmas una autorización (NAM103). Tener antecedentes no impide el cambio.
+  sources: [stat-259-11, stat-259-13, a4te-mn]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Minnesota law only requires sealing of name change records for people in witness and victim protection programs (§ 259.10 subd. 2). There is no automatic sealing for gender-identity name changes, so the application and order are generally public court records. If you have a safety concern, ask the Self-Help Center or a lawyer about asking the judge to restrict access; whether it is granted is up to the court.
+    es: La ley de Minnesota solo exige sellar los registros de cambio de nombre para personas en programas de protección de testigos y víctimas (§ 259.10 subd. 2). No hay sellado automático para cambios por identidad de género, así que la solicitud y la orden generalmente son públicas. Si tienes un problema de seguridad, pregunta a un abogado sobre pedir al juez que restrinja el acceso.
+  sources: [stat-259-10]
+minors:
+  summary:
+    en: |
+      A parent or guardian applies for a child using the minor packet (NAM202 application, NAM203 criminal history release for a child 10 or older, NAM208 proposed order). **Both parents must get notice** when practicable, and the judge decides based on the child's best interests. A hearing is held. Publication is only needed if a parent's whereabouts are unknown. The Volunteer Lawyers Network LGBTQ Clinic advises on minor name and gender marker changes.
+    es: |
+      Un padre, madre o tutor presenta la solicitud con el paquete para menores (NAM202, NAM203 para mayores de 10 años, NAM208). **Ambos padres deben ser notificados** cuando sea posible, y el juez decide según el mejor interés del menor. Hay audiencia. Solo se publica si no se conoce el paradero de un padre. La Clínica LGBTQ de Volunteer Lawyers Network asesora sobre cambios para menores.
+  forms: [NAM202]
+  sources: [stat-259-10, stat-259-11, a4te-mn, lawhelp-vln]
+delivery:
+  online: true
+  by_mail: false
+  in_person: true
+  detail:
+    en: File at the court administrator's office in your county, or e-file through the Minnesota Judicial Branch's eFS system. You must attend the hearing.
+    es: Presenta en la oficina del administrador del tribunal de tu condado o por el sistema electrónico eFS. Debes asistir a la audiencia.
+  sources: [lawhelp-ifp, stat-259-10]
+timeline:
+  en: Usually a few weeks to a few months from filing to hearing, depending on the county's calendar and the criminal history check; add 30 days or more if you have a felony conviction.
+  es: Por lo general de unas semanas a unos meses desde la presentación hasta la audiencia, según el calendario del condado y la revisión de antecedentes; más 30 días o más si tienes una condena por delito grave.
+after:
+  en: |
+    Start with **Social Security** (bring a certified copy of the order and photo ID; the name changes, but as of September 2026 SSA will not change the sex field). Wait until SSA confirms, then go to a **DVS** office for your license or ID, where you can also choose M, F, or X. If you were born in Minnesota, send the **Minnesota Department of Health** a notarized amendment request with a certified copy of the order ($40 plus $26 for the new certificate). Then update your **passport** (names are still processed; sex marker changes are not), bank, employer, insurance, voter registration, and school records. If you have a criminal record, report the new name to the BCA within 10 days.
+  es: |
+    Empieza con el **Seguro Social** (lleva una copia certificada de la orden e identificación con foto; el nombre cambia, pero a septiembre de 2026 SSA no cambia el campo de sexo). Cuando SSA lo confirme, ve a una oficina de **DVS** para tu licencia o identificación, donde también puedes elegir M, F o X. Si naciste en Minnesota, envía al **Departamento de Salud de Minnesota** una solicitud de enmienda notarizada con una copia certificada de la orden ($40 más $26 por la nueva acta). Luego actualiza tu **pasaporte** (se procesan cambios de nombre; los de sexo no), banco, empleador, seguro, registro de votante y expedientes escolares. Si tienes antecedentes penales, informa el nuevo nombre a la BCA dentro de 10 días.
+tips:
+  - en: Ask for the birth-record sex change in the same application. A court order that specifically directs the amendment is accepted by the Minnesota Department of Health instead of a physician's letter, and can ask for a replacement record with the original sealed.
+    es: Pide el cambio de sexo en el acta de nacimiento en la misma solicitud. Una orden que lo indique expresamente sustituye la carta médica ante el Departamento de Salud.
+  - en: Confirm your witnesses can come on the hearing date before you file, and bring a backup if you can.
+    es: Confirma que tus testigos pueden asistir el día de la audiencia antes de presentar, y lleva uno de reserva si puedes.
+  - en: Your new name on the birth record may use only letters A to Z, spaces, hyphens, and apostrophes, up to 50 characters per part. Keep this in mind when choosing the spelling.
+    es: Tu nuevo nombre en el acta de nacimiento solo puede usar letras de la A a la Z, espacios, guiones y apóstrofos, hasta 50 caracteres por parte.
+local_help:
+  - id: vln-lgbtq-clinic
+    name: Volunteer Lawyers Network, LGBTQ Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free 20-minute phone appointments with a volunteer attorney who can answer questions, review papers, and help fill out name and gender marker change paperwork for adults and minors. Statewide; apply online.
+      es: Citas telefónicas gratuitas de 20 minutos con un abogado voluntario que responde preguntas, revisa documentos y ayuda a llenar trámites de cambio de nombre y marcador de género para adultos y menores. En todo el estado; solicita en línea.
+    url: https://www.vlnmn.org/intake
+    phone: "612-752-6677"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: org_website
+    sources: [lawhelp-vln]
+  - id: lawhelp-interview
+    name: LawHelpMN, Name Change Application (Do It Yourself interview)
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free guided interview by Education for Justice that fills out the Application for Name Change and Other Relief, including a gender marker request, for adults 18 and older.
+      es: Entrevista guiada gratuita de Education for Justice que llena la Solicitud de cambio de nombre y otras medidas, incluida la solicitud de marcador de género, para adultos de 18 años o más.
+    url: https://www.lawhelpmn.org/self-help-library/legal-resource/name-change-application-do-it-yourself
+    cost: free
+    verification: org_website
+    sources: [lawhelp-diy]
+  - id: statewide-self-help
+    name: Minnesota Judicial Branch, Statewide Self-Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court staff who give free legal information (not advice) by phone and email, explain the process, and point you to the right forms. County Self-Help Centers in Hennepin and Ramsey also review completed forms.
+      es: Personal del tribunal que da información legal gratuita (no asesoría) por teléfono y correo, explica el proceso y te indica los formularios correctos. Los Centros de Autoayuda de Hennepin y Ramsey también revisan formularios.
+    url: https://mncourts.gov/help-topics/name-change
+    phone: "651-435-6535"
+    areas_served:
+      en: Statewide
+      es: Todo el estado
+    cost: free
+    verification: official_source
+    sources: [lawhelp-statewide-shc]
+  - id: gender-justice
+    name: Gender Justice
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Saint Paul legal organization that takes impact cases on gender equity, including trans rights. Use its intake form if you were denied a name or gender marker change.
+      es: Organización legal en Saint Paul que lleva casos de impacto sobre equidad de género, incluidos derechos trans. Usa su formulario si te negaron un cambio de nombre o de marcador de género.
+    url: https://www.genderjustice.us/legal-assistance/
+    phone: "651-789-2090"
+    address: 663 University Avenue W, Suite 200, Saint Paul, MN 55104
+    cost: free
+    verification: org_website
+    sources: [gender-justice]
+  - id: genderbands
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [name_change]
+    description:
+      en: National nonprofit that gives small grants for transition costs, including name change fees; 18 and older.
+      es: Organización nacional que otorga pequeñas becas para costos de transición, incluidas las tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+statutes:
+  - cite: Minn. Stat. § 259.10
+    title:
+      en: Name change procedure; six-month residency; appearance and two witnesses; notice to both parents of a minor
+    url: https://www.revisor.mn.gov/statutes/cite/259.10
+  - cite: Minn. Stat. § 259.11
+    title:
+      en: Court must grant unless intent to defraud or mislead; criminal history check and BCA reporting
+    url: https://www.revisor.mn.gov/statutes/cite/259.11
+  - cite: Minn. Stat. § 259.13
+    title:
+      en: Name changes for persons with felony convictions
+    url: https://www.revisor.mn.gov/statutes/cite/259.13
+  - cite: Minn. Stat. § 563.01
+    title:
+      en: In forma pauperis (fee waiver)
+    url: https://www.revisor.mn.gov/statutes/cite/563.01
+related_links:
+  - title: Minnesota Judicial Branch, Name change help topic and forms
+    url: https://mncourts.gov/help-topics/name-change
+    note:
+      en: Official forms, instructions, and the Hennepin County supplement. The site may block some browsers or automated tools.
+      es: Formularios oficiales, instrucciones y el suplemento del condado de Hennepin.
+  - title: Advocates for Trans Equality, Minnesota identity documents
+    url: https://transequality.org/documents/minnesota-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizado en enero de 2026.
+  - title: OutFront Minnesota, Changing your name
+    url: https://outfront.org/changing-your-name
+sources:
+  - id: stat-259-10
+    url: https://www.revisor.mn.gov/statutes/cite/259.10
+    title: Minn. Stat. § 259.10, General requirements
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person who shall have resided in this state for six months may apply to the district court in the county where the person resides ... no minor child's name may be changed without both parents having notice of the pending of the application for change of name, whenever practicable
+  - id: stat-259-11
+    url: https://www.revisor.mn.gov/statutes/cite/259.11
+    title: Minn. Stat. § 259.11, Order; filing copies
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon meeting the requirements of section 259.10, the court shall grant the application unless (1) it finds that there is an intent to defraud or mislead
+  - id: stat-259-13
+    url: https://www.revisor.mn.gov/statutes/cite/259.13
+    title: Minn. Stat. § 259.13, Persons with felony conviction; name changes
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person with a felony conviction ... shall serve a notice of application for a name change on the prosecuting authority that obtained the conviction
+  - id: stat-357-021
+    url: https://www.revisor.mn.gov/statutes/cite/357.021
+    title: Minn. Stat. § 357.021, Court administrator fees
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "In every civil action or proceeding in said court ... for filing the first paper, $310 ... Certified copy of any instrument from a civil or criminal proceeding, $14"
+  - id: stat-134a-09
+    url: https://www.revisor.mn.gov/statutes/cite/134A.09
+    title: Minn. Stat. § 134A.09, County law library fees
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The law library board of trustees shall, with the approval of the board of commissioners, set the amount of the law library fee
+  - id: stat-563-01
+    url: https://www.revisor.mn.gov/statutes/cite/563.01
+    title: Minn. Stat. § 563.01, In forma pauperis
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A person who is receiving public assistance ... who is represented by an attorney on behalf of a civil legal services program ... or who has an annual income not greater than 125 percent of the poverty line ... is presumed to be unable to pay
+  - id: lawhelp-diy
+    url: https://www.lawhelpmn.org/self-help-library/legal-resource/name-change-application-do-it-yourself
+    title: Name Change Application, Do It Yourself (last updated 07/2025)
+    publisher: LawHelpMN / Education for Justice
+    kind: org
+    accessed: "2026-09-24"
+    quote: Go to your hearing. You must bring 2 witnesses who have known you for at least 1 year. If you are married, 1 witness must be your spouse.
+  - id: lawhelp-ifp
+    url: https://www.lawhelpmn.org/self-help-library/legal-resource/court-fee-waiver-do-it-yourself
+    title: Court Fee Waiver, Do It Yourself
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: You may be able to get a fee waiver if you fit into 1 of these 4 categories
+  - id: lawhelp-statewide-shc
+    url: https://www.lawhelpmn.org/loon/services/statewide-self-help-center
+    title: Statewide Self-Help Center
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: You may also call the Statewide Self-Help Center at 651-435-6535
+  - id: lawhelp-hennepin-shc
+    url: https://www.lawhelpmn.org/loon/services/hennepin-county-self-help-center
+    title: Hennepin County Self-Help Center
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Self-Help Center can help with ... general civil matters, including harassment restraining orders, name changes
+  - id: lawhelp-ramsey-shc
+    url: https://www.lawhelpmn.org/loon/services/ramsey-county-self-help-service-center
+    title: Ramsey County Self-Help Service Center
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Ramsey County Self-Help Center offers help on ... Civil Name Changes
+  - id: lawhelp-vln
+    url: https://www.lawhelpmn.org/loon/services/vln-lgbtq-clinic
+    title: VLN LGBTQ Clinic
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: Meeting topics include, but are not limited to, legal advice regarding name and gender marker changes for both minors and adults
+  - id: a4te-mn
+    url: https://transequality.org/documents/minnesota-identity-documents
+    title: Minnesota identity documents (updated January 2026)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "NAM102: Application for Name Change; NAM103: Criminal History Check Release; NAM107: Proposed Order Granting Name Change"
+  - id: mdh-amend
+    url: https://www.health.state.mn.us/people/vitalrecords/amend.html
+    title: Change a Birth Record
+    publisher: Minnesota Department of Health, Office of Vital Records
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you are changing your name as part of gender transition, you may want to request that the court order for your name change include the gender change as well.
+  - id: outfront-name
+    url: https://outfront.org/changing-your-name
+    title: Changing Your Name
+    publisher: OutFront Minnesota
+    kind: org
+    accessed: "2026-09-24"
+    quote: A name change order, by itself, will not authorize amendment of sex-designations on identity documents ... unless the judge specifically orders that this happen.
+  - id: dvs-name
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/common-transactions-all-dl-and-id-card-types/change-your-name-your-dl-id-card
+    title: Change your name on your driver's license or ID card
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: If you have a Social Security number (SSN), you need to change your name with the Social Security Administration (SSA) first.
+  - id: gender-justice
+    url: https://www.genderjustice.us/legal-assistance/
+    title: Legal Assistance
+    publisher: Gender Justice
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"

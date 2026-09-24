@@ -1,0 +1,270 @@
+jurisdiction: MN
+slug: minneapolis-st-paul
+name: Minneapolis-St. Paul
+area:
+  en: Twin Cities metro, mainly Hennepin County (Minneapolis) and Ramsey County (Saint Paul), plus surrounding suburbs
+  es: Área metropolitana de las Ciudades Gemelas, principalmente los condados de Hennepin (Minneapolis) y Ramsey (Saint Paul), y suburbios cercanos
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court details come from LawHelpMN's listings for the Hennepin and Ramsey self-help centers (updated August 2026);
+    mncourts.gov blocked automated fetching, so the Hennepin court URL, any Hennepin law library fee, and Hennepin's
+    separate name change supplement are unverified. No local filing_fee is given because the county total was not
+    confirmed (statutory fee is $310). Hennepin Healthcare's clinic is from OutFront's directory (hennepinhealthcare.org
+    returned 403). Rainbow Health (closed July 2024) and the Minnesota Transgender Health Coalition (domain lapsed) are
+    intentionally omitted. Verify hours and new-patient status before marking reviewed.
+intro:
+  en: >-
+    The Twin Cities have Minnesota's largest cluster of trans-affirming services: free self-help centers at the Hennepin
+    and Ramsey County courthouses that review name change forms, a statewide volunteer-lawyer LGBTQ clinic, sliding-scale
+    hormone care at Family Tree Clinic and Planned Parenthood, the county-run Red Door sexual health clinic, and youth
+    therapy at RECLAIM. Name change applications are filed in the district court of the county where you live.
+  es: >-
+    Las Ciudades Gemelas tienen la mayor concentración de servicios para personas trans de Minnesota: centros de
+    autoayuda gratuitos en los tribunales de los condados de Hennepin y Ramsey que revisan formularios de cambio de
+    nombre, una clínica LGBTQ estatal de abogados voluntarios, atención hormonal con escala móvil en Family Tree Clinic y
+    Planned Parenthood, la clínica de salud sexual Red Door del condado y terapia para jóvenes en RECLAIM. Las
+    solicitudes de cambio de nombre se presentan en el tribunal de distrito del condado donde vives.
+court:
+  name: Hennepin County District Court (Fourth Judicial District)
+  url: https://mncourts.gov/help-topics/name-change
+  self_help_url: https://www.mncourts.gov/Find-Courts/Hennepin/Self-Help-Center.aspx
+  notes:
+    en: |
+      Minneapolis residents file at Hennepin County District Court; the Self-Help Center is at the Hennepin County Government Center, 300 South 6th Street, A20 (20th floor, A tower), open for walk-ins weekdays 8:00 am to 4:30 pm and by phone (651-478-8757) weekdays 10:00 am to 3:00 pm. It reviews completed name change forms for free. Saint Paul residents file at Ramsey County District Court; its Self-Help Service Center front counter is at 15 W. Kellogg Blvd, Room 190, weekdays 8:00 am to 4:30 pm. The statewide filing fee is $310 plus any county law library fee.
+    es: |
+      Quienes viven en Minneapolis presentan en el Tribunal de Distrito del condado de Hennepin; el Centro de Autoayuda está en el Hennepin County Government Center, 300 South 6th Street, A20 (piso 20, torre A), abierto sin cita de lunes a viernes de 8:00 am a 4:30 pm y por teléfono (651-478-8757) de 10:00 am a 3:00 pm. Revisa formularios gratis. Quienes viven en Saint Paul presentan en el Tribunal de Distrito del condado de Ramsey; su mostrador de autoayuda está en 15 W. Kellogg Blvd, sala 190, de lunes a viernes de 8:00 am a 4:30 pm. La tarifa estatal es de $310 más cualquier tarifa de biblioteca jurídica del condado.
+  sources: [lawhelp-hennepin-shc, lawhelp-ramsey-shc, stat-357-021]
+resources:
+  - id: hennepin-self-help
+    name: Hennepin County Self-Help Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Court self-help center that provides name change forms, answers process questions, and reviews completed forms (legal information, not advice). Walk-in weekdays 8:00 am to 4:30 pm; phone 10:00 am to 3:00 pm.
+      es: Centro de autoayuda del tribunal que da formularios de cambio de nombre, responde preguntas y revisa formularios (información legal, no asesoría). Sin cita de lunes a viernes de 8:00 am a 4:30 pm; por teléfono de 10:00 am a 3:00 pm.
+    url: https://www.mncourts.gov/Find-Courts/Hennepin/Self-Help-Center.aspx
+    phone: "651-478-8757"
+    address: Hennepin County Government Center, 300 South 6th Street, A20, Minneapolis, MN 55487
+    cost: free
+    verification: org_website
+    sources: [lawhelp-hennepin-shc]
+  - id: ramsey-self-help
+    name: Ramsey County Self-Help Service Center
+    type: government_office
+    pillars: [name_change]
+    description:
+      en: Saint Paul court self-help center that helps with civil name changes, including reviewing completed forms. Front counter open weekdays 8:00 am to 4:30 pm.
+      es: Centro de autoayuda del tribunal en Saint Paul que ayuda con cambios de nombre civiles, incluida la revisión de formularios. Mostrador abierto de lunes a viernes de 8:00 am a 4:30 pm.
+    url: https://www.lawhelpmn.org/loon/services/ramsey-county-self-help-service-center
+    address: 15 W. Kellogg Blvd, Room 190, Saint Paul, MN 55102
+    cost: free
+    verification: org_website
+    sources: [lawhelp-ramsey-shc]
+  - id: vln-lgbtq-clinic
+    name: Volunteer Lawyers Network, LGBTQ Clinic
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free 20-minute phone appointments with a volunteer attorney for name and gender marker changes (adults and minors) and other LGBTQ legal questions. Apply online or call 612-752-6677.
+      es: Citas telefónicas gratuitas de 20 minutos con un abogado voluntario para cambios de nombre y marcador de género (adultos y menores) y otras preguntas legales LGBTQ. Solicita en línea o llama al 612-752-6677.
+    url: https://www.vlnmn.org/intake
+    phone: "612-752-6677"
+    cost: free
+    verification: org_website
+    sources: [lawhelp-vln]
+  - id: family-tree-clinic
+    name: Family Tree Clinic
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Nonprofit clinic accepting new hormone care patients ages 14 and up (parent or guardian consent under 18), plus PrEP, STI care, and telehealth. Sliding fee by income and no one turned away for inability to pay. Call or text 612-473-0800.
+      es: Clínica sin fines de lucro que acepta nuevos pacientes de atención hormonal desde los 14 años (con consentimiento de padre o tutor si son menores de 18), además de PrEP, atención de ITS y telesalud. Escala móvil según ingresos y no rechaza a nadie por no poder pagar. Llama o envía texto al 612-473-0800.
+    url: https://www.familytreeclinic.org/trans-hormone-care/
+    phone: "612-473-0800"
+    address: 1919 Nicollet Avenue, Minneapolis, MN 55403
+    cost: sliding_scale
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [familytree-hrt, familytree-pay]
+  - id: pp-north-central-states
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy (16 and older in Minnesota; parent or guardian at the first visit if under 18) at Twin Cities health centers or by telehealth, plus PrEP and STI testing. Same-day and next-day appointments are often available.
+      es: Terapia hormonal por consentimiento informado (desde los 16 años en Minnesota; con padre o tutor en la primera visita si eres menor de 18) en centros de las Ciudades Gemelas o por telesalud, además de PrEP y pruebas de ITS. A menudo hay citas el mismo día o el siguiente.
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ppncs-hrt]
+  - id: hennepin-healthcare-gender
+    name: Hennepin Healthcare, Adult Gender and Sexual Health Clinic
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: LGBTQ-focused adult primary care clinic at Hennepin Healthcare, Minneapolis's public hospital system. 612-873-2474. Call to confirm hormone services and new-patient availability.
+      es: Clínica de atención primaria para adultos LGBTQ en Hennepin Healthcare, el sistema hospitalario público de Minneapolis. 612-873-2474. Llama para confirmar servicios hormonales y disponibilidad.
+    url: https://outfront.org/hennepin-healthcare-adult-gender-sexual-health-clinic
+    phone: "612-873-2474"
+    cost: unknown
+    verification: community_reported
+    sources: [outfront-hhc]
+  - id: red-door
+    name: Red Door Clinic (Hennepin County Public Health)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: County clinic for STI and HIV testing and treatment, doxy-PEP, PrEP (for some patients; staff refer others), family planning, and syringe exchange. Walk-ins first-come, first-served, weekdays. Does not turn patients away based on ability to pay.
+      es: Clínica del condado para pruebas y tratamiento de ITS y VIH, doxy-PEP, PrEP (para algunos pacientes; refieren a otros), planificación familiar e intercambio de jeringas. Sin cita por orden de llegada entre semana. No rechaza a nadie por no poder pagar.
+    url: https://www.reddoorclinic.org/
+    phone: "612-543-5555"
+    address: 525 Portland Ave S, 4th Floor, Minneapolis, MN 55415
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [reddoor, reddoor-fees]
+  - id: annex-teen-clinic
+    name: Annex Teen Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Sexual health clinic for young people that supports LGBTQ youth; STI testing, PrEP, and birth control. No one is turned away for inability to pay.
+      es: Clínica de salud sexual para jóvenes que apoya a jóvenes LGBTQ; pruebas de ITS, PrEP y anticonceptivos. No rechaza a nadie por no poder pagar.
+    url: https://annexteenclinic.org/
+    phone: "763-533-1316"
+    address: 5810 42nd Ave N, Robbinsdale, MN 55422
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [annex]
+  - id: reclaim
+    name: RECLAIM
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Individual, relationship, and family therapy for queer and trans youth ages 12 to 25 and their families, with sliding-scale pricing. Request services online.
+      es: Terapia individual, de pareja y familiar para jóvenes queer y trans de 12 a 25 años y sus familias, con precios en escala móvil. Solicita servicios en línea.
+    url: https://www.reclaim.care/
+    cost: sliding_scale
+    verification: org_website
+    sources: [reclaim]
+  - id: outfront-avp
+    name: OutFront Minnesota, Anti-Violence Program
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Helpline (800-800-0350) for LGBTQ people who have experienced violence, plus a Health Shelf of supplies by appointment at OutFront's Saint Paul office and an online directory of LGBTQ-friendly providers.
+      es: Línea de ayuda (800-800-0350) para personas LGBTQ que han sufrido violencia, un estante de artículos de salud con cita en la oficina de OutFront en Saint Paul y un directorio en línea de proveedores LGBTQ.
+    url: https://www.outfront.org/anti-violence-program
+    phone: "800-800-0350"
+    address: 2446 University Ave W, Saint Paul, MN
+    cost: free
+    verification: org_website
+    sources: [outfront-avp]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: lawhelp-hennepin-shc
+    url: https://www.lawhelpmn.org/loon/services/hennepin-county-self-help-center
+    title: Hennepin County Self-Help Center
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: Hennepin County Government Center - 300 South 6th Street A20 (20th floor, A tower) Minneapolis, MN 55487 ... Hennepin County Self Help Center 651-478-8757
+  - id: lawhelp-ramsey-shc
+    url: https://www.lawhelpmn.org/loon/services/ramsey-county-self-help-service-center
+    title: Ramsey County Self-Help Service Center
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: The front counter is located at 15 W. Kellogg Blvd, Room 190, St. Paul, MN 55102.
+  - id: stat-357-021
+    url: https://www.revisor.mn.gov/statutes/cite/357.021
+    title: Minn. Stat. § 357.021, Court administrator fees
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+  - id: lawhelp-vln
+    url: https://www.lawhelpmn.org/loon/services/vln-lgbtq-clinic
+    title: VLN LGBTQ Clinic
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+  - id: familytree-hrt
+    url: https://www.familytreeclinic.org/trans-hormone-care/
+    title: Trans Hormone Care
+    publisher: Family Tree Clinic
+    kind: org
+    accessed: "2026-09-24"
+  - id: familytree-pay
+    url: https://www.familytreeclinic.org/paying-services/
+    title: Paying for Services
+    publisher: Family Tree Clinic
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppncs-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    title: Transgender hormone therapy
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: outfront-hhc
+    url: https://outfront.org/hennepin-healthcare-adult-gender-sexual-health-clinic
+    title: Hennepin Healthcare Adult Gender & Sexual Health Clinic (directory listing)
+    publisher: OutFront Minnesota
+    kind: community
+    accessed: "2026-09-24"
+  - id: reddoor
+    url: https://www.reddoorclinic.org/
+    title: Red Door Clinic
+    publisher: Hennepin County Public Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: reddoor-fees
+    url: https://www.reddoorclinic.org/fees-insurance
+    title: Fees and insurance
+    publisher: Hennepin County Public Health, Red Door Clinic
+    kind: official
+    accessed: "2026-09-24"
+  - id: annex
+    url: https://annexteenclinic.org/
+    title: Annex Teen Clinic
+    kind: org
+    accessed: "2026-09-24"
+  - id: reclaim
+    url: https://www.reclaim.care/
+    title: RECLAIM
+    kind: org
+    accessed: "2026-09-24"
+  - id: outfront-avp
+    url: https://www.outfront.org/anti-violence-program
+    title: Anti-Violence Program
+    publisher: OutFront Minnesota
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,330 @@
+jurisdiction: MN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework read on revisor.mn.gov 2026-09-24: Minn. Stat. 256B.0625 subd. 3a (MA covers gender-affirming care
+    as defined in 62Q.585), 62Q.585 (new in Laws 2024 ch. 114; effective date not confirmed), and Laws 2023 ch. 29 (HF
+    146). mn.gov (DHS, Commerce) and mnsure.org blocked automated fetching, so: the Commerce complaint URL is not
+    verified; MA income limits are not stated; MinnesotaCare coverage of gender-affirming care was not confirmed and is
+    not claimed. Federal MA changes (immigration eligibility from October 1, 2026; work requirements from January 2027)
+    are from LawHelpMN's page. Clinics: Family Tree Clinic (ages 14+, accepting new hormone patients) and Planned
+    Parenthood North Central States (16+ in Minnesota, informed consent, telehealth) were read on their own sites.
+    childrensmn.org and hennepinhealthcare.org returned HTTP 403; Children's Minnesota's current youth gender care
+    status is unverified (some hospitals nationally paused youth care under 2025-2026 federal pressure), and Hennepin
+    Healthcare's clinic is listed from OutFront's directory. M Health Fairview's gender care program page could not be
+    located and is not listed. Rainbow Health (closed July 19, 2024) and the Minnesota Transgender Health Coalition
+    (domain now hosts an unrelated site) are intentionally omitted. No bill restricting care was confirmed to have passed
+    a chamber in the 2026 session; pending_bills is omitted and should be checked. Point of Pride fund timing, the Commerce vs. MDH complaint routing for HMOs, and PP North Central States' Medicaid participation were not verified.
+status_summary:
+  en: >-
+    Gender-affirming care is legal for adults and minors in Minnesota. Medical Assistance and state-regulated health
+    plans must cover medically necessary gender-affirming care, and the 2023 trans refuge law protects patients,
+    families, and providers from other states' subpoenas, extradition, and custody claims. Informed-consent hormone
+    care is available from Planned Parenthood (16 and older) and sliding-scale clinics in the Twin Cities.
+  es: >-
+    La atención de afirmación de género es legal para adultos y menores en Minnesota. Medical Assistance y los planes
+    de salud regulados por el estado deben cubrir la atención de afirmación de género médicamente necesaria, y la ley
+    refugio trans de 2023 protege a pacientes, familias y proveedores de citaciones, extradiciones y reclamos de
+    custodia de otros estados. Hay atención hormonal por consentimiento informado en Planned Parenthood (desde los 16
+    años) y en clínicas con escala móvil en las Ciudades Gemelas.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Planned Parenthood North Central States and several Twin Cities clinics prescribe hormones on an **informed consent** basis: no therapist letter or referral is needed. Telehealth prescribing is legal.
+
+      **If you have no insurance and little money**, in rough order of what to try:
+      1. Apply for **Medical Assistance** (Minnesota Medicaid) through MNsure or your county. It covers gender-affirming care by statute.
+      2. Go to a **sliding-scale clinic** such as Family Tree Clinic in Minneapolis, which does not turn people away for inability to pay, or a community health center (findahealthcenter.hrsa.gov).
+      3. **Planned Parenthood North Central States** offers hormone therapy in person and by telehealth and helps uninsured patients figure out costs.
+      4. **Point of Pride's HRT Access Fund** pays for telehealth hormone care for people who qualify (applications open once a year).
+    es: |
+      Sin restricciones estatales. Planned Parenthood North Central States y varias clínicas de las Ciudades Gemelas recetan hormonas por **consentimiento informado**: no se necesita carta de terapeuta ni referencia. La telesalud es legal.
+
+      **Si no tienes seguro ni mucho dinero**, en orden aproximado:
+      1. Solicita **Medical Assistance** (Medicaid de Minnesota) a través de MNsure o tu condado. Por ley cubre la atención de afirmación de género.
+      2. Acude a una **clínica con escala móvil** como Family Tree Clinic en Minneapolis, que no rechaza a nadie por no poder pagar, o a un centro de salud comunitario (findahealthcenter.hrsa.gov).
+      3. **Planned Parenthood North Central States** ofrece terapia hormonal en persona y por telesalud y ayuda a pacientes sin seguro con los costos.
+      4. El **Fondo de Acceso a TRH de Point of Pride** paga atención hormonal por telesalud a quienes califican (solicitudes una vez al año).
+  sources: [stat-256b-0625, ppncs-hrt, familytree-pay, hrsa, pop-hrt]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal with parental consent. Minnesota's 2023 trans refuge law (HF 146) bars enforcement of other states' laws that would remove a child from a parent for allowing gender-affirming care, blocks subpoenas seeking information about gender-affirming care received or provided in Minnesota, lets Minnesota courts take emergency custody jurisdiction when a child is in the state to get this care, and limits extradition for providing or receiving it.
+
+      Planned Parenthood North Central States sees patients in Minnesota from **age 16** (post-puberty; a parent or guardian comes to the first visit). Family Tree Clinic offers hormone care from **age 14** with a parent or guardian consent form. RECLAIM provides sliding-scale therapy for queer and trans youth 12 to 25. Federal actions in 2025 and 2026 led some hospital systems nationally to pause youth gender care, so call a hospital program to confirm what it currently offers.
+    es: |
+      Legal con consentimiento de los padres. La ley refugio trans de 2023 (HF 146) impide aplicar leyes de otros estados que quitarían a un menor a sus padres por permitir atención de afirmación de género, bloquea citaciones que buscan información sobre esa atención recibida o dada en Minnesota, permite a los tribunales de Minnesota asumir jurisdicción de custodia de emergencia cuando un menor está en el estado para recibirla, y limita la extradición por darla o recibirla.
+
+      Planned Parenthood North Central States atiende en Minnesota desde los **16 años** (después de la pubertad; un padre o tutor asiste a la primera visita). Family Tree Clinic ofrece atención hormonal desde los **14 años** con un formulario de consentimiento de padre o tutor. RECLAIM ofrece terapia con escala móvil para jóvenes queer y trans de 12 a 25 años. Acciones federales en 2025 y 2026 llevaron a algunos hospitales del país a pausar la atención para jóvenes, así que llama para confirmar lo que ofrece cada programa.
+  sources: [hf146, ppncs-hrt, familytree-hrt, reclaim]
+medicaid:
+  program_name: Medical Assistance (Minnesota Medicaid)
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Minnesota law says "Medical assistance covers gender-affirming care, as defined in section 62Q.585" (Minn. Stat. § 256B.0625, subd. 3a). That definition includes all medical, surgical, counseling, and referral services, including telehealth, that support a person's gender identity or expression and are legal in Minnesota, when medically necessary.
+
+      **Federal changes are coming**: starting October 1, 2026, federal law changes who can qualify for MA based on immigration status; from January 1, 2027 some adults may need to meet work or community engagement reporting requirements, and some will renew every six months. If you are enrolled, watch your mail and renew on time.
+
+      **Apply** through MNsure (online), or at your county or tribal human services office.
+    es: |
+      La ley de Minnesota dice que "Medical Assistance cubre la atención de afirmación de género, según la define la sección 62Q.585" (§ 256B.0625, subd. 3a). Esa definición incluye todos los servicios médicos, quirúrgicos, de consejería y de referencia, incluida la telesalud, que apoyan la identidad o expresión de género y son legales en Minnesota, cuando son médicamente necesarios.
+
+      **Vienen cambios federales**: desde el 1 de octubre de 2026, la ley federal cambia quién califica para MA según su estatus migratorio; desde el 1 de enero de 2027 algunos adultos quizá deban cumplir requisitos de trabajo o participación comunitaria, y algunos renovarán cada seis meses. Si estás inscrito, revisa tu correo y renueva a tiempo.
+
+      **Solicita** por MNsure (en línea) o en la oficina de servicios humanos de tu condado o tribu.
+  how_to_apply_url: https://www.mnsure.org/
+  sources: [stat-256b-0625, stat-62q-585, lawhelp-ma]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      Since the 2024 law (Minn. Stat. § 62Q.585), no health plan offered, sold, issued, or renewed in Minnesota may exclude coverage for medically necessary gender-affirming care or apply a more restrictive definition of medical necessity to it. If your plan denies care, file an internal appeal, then request an external review or file a complaint with the Minnesota Department of Commerce, which regulates insurers (HMO complaints may go to the Minnesota Department of Health; Commerce can route you). Self-funded employer plans are federally regulated and may not be covered by this law; the Trans Health Project has appeal templates for those.
+    es: |
+      Desde la ley de 2024 (§ 62Q.585), ningún plan de salud ofrecido, vendido, emitido o renovado en Minnesota puede excluir la atención de afirmación de género médicamente necesaria ni aplicarle una definición más restrictiva de necesidad médica. Si tu plan niega la atención, presenta una apelación interna y luego una revisión externa o queja ante el Departamento de Comercio de Minnesota (o el Departamento de Salud para HMO). Los planes autofinanciados de empleadores están regulados federalmente y pueden no estar cubiertos; el Trans Health Project tiene plantillas de apelación.
+  complaint_url: https://mn.gov/commerce/consumers/file-a-complaint/
+  sources: [stat-62q-585, thp]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: pp-north-central-states
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy with no therapy note or referral required, in person or by telehealth (periodic in-person lab visits needed). In Minnesota, patients must be 16 or older and post-puberty; under 18 bring a parent or guardian to the first visit. LGBTQ+ Care Coordinators help with questions. In-network with most insurance; staff help uninsured patients with costs.
+      es: Terapia hormonal por consentimiento informado sin nota de terapia ni referencia, en persona o por telesalud (con visitas periódicas para análisis). En Minnesota se atiende desde los 16 años y después de la pubertad; menores de 18 van con un padre o tutor a la primera visita. Coordinadores LGBTQ+ ayudan con preguntas.
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ppncs-hrt, ppncs-telehealth]
+  - id: family-tree-clinic
+    name: Family Tree Clinic, Trans Hormone Care
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Nonprofit sexual and reproductive health clinic in Minneapolis that is accepting new hormone patients, ages 14 and up (parent or guardian consent under 18), plus PrEP and telehealth. Sliding fee of 40 to 100 percent of cost by income, payment plans, and no one turned away for inability to pay. Call or text 612-473-0800.
+      es: Clínica sin fines de lucro de salud sexual y reproductiva en Minneapolis que acepta nuevos pacientes de hormonas desde los 14 años (con consentimiento de padre o tutor si son menores de 18), además de PrEP y telesalud. Escala móvil del 40 al 100 por ciento del costo según ingresos, planes de pago, y no rechaza a nadie por no poder pagar. Llama o envía texto al 612-473-0800.
+    url: https://www.familytreeclinic.org/trans-hormone-care/
+    phone: "612-473-0800"
+    address: 1919 Nicollet Avenue, Minneapolis, MN 55403
+    cost: sliding_scale
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [familytree-hrt, familytree-pay]
+  - id: hennepin-healthcare-gender
+    name: Hennepin Healthcare, Adult Gender and Sexual Health Clinic
+    type: primary_care
+    pillars: [hrt, sexual_health]
+    description:
+      en: Primary care clinic at Hennepin County's public hospital system for LGBTQ adults, including trans and nonbinary patients. 612-873-2474. Call to confirm services and new-patient availability.
+      es: Clínica de atención primaria del sistema hospitalario público del condado de Hennepin para adultos LGBTQ, incluidas personas trans y no binarias. 612-873-2474. Llama para confirmar servicios y disponibilidad.
+    url: https://outfront.org/hennepin-healthcare-adult-gender-sexual-health-clinic
+    phone: "612-873-2474"
+    areas_served:
+      en: Minneapolis and Hennepin County
+      es: Minneapolis y el condado de Hennepin
+    cost: unknown
+    verification: community_reported
+    sources: [outfront-hhc]
+  - id: reclaim
+    name: RECLAIM
+    type: mental_health
+    pillars: [mental_health]
+    description:
+      en: Nonprofit providing individual, relationship, and family therapy for queer and trans youth ages 12 to 25 and their families, with equity-based sliding-scale pricing.
+      es: Organización sin fines de lucro que ofrece terapia individual, de pareja y familiar para jóvenes queer y trans de 12 a 25 años y sus familias, con precios en escala móvil.
+    url: https://www.reclaim.care/
+    cost: sliding_scale
+    verification: org_website
+    sources: [reclaim]
+  - id: red-door
+    name: Red Door Clinic (Hennepin County Public Health)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: County sexual health clinic for STI and HIV testing, doxy-PEP, PrEP (for certain patients; staff refer others), family planning, and syringe exchange. Walk-ins first-come, first-served. Does not turn patients away based on ability to pay. 612-543-5555.
+      es: Clínica de salud sexual del condado para pruebas de ITS y VIH, doxy-PEP, PrEP (para ciertos pacientes; refieren a otros), planificación familiar e intercambio de jeringas. Sin cita por orden de llegada. No rechaza a nadie por no poder pagar. 612-543-5555.
+    url: https://www.reddoorclinic.org/
+    phone: "612-543-5555"
+    address: 525 Portland Ave S, 4th Floor, Minneapolis, MN 55415
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: official_source
+    sources: [reddoor, reddoor-fees]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally qualified health centers, which see you regardless of insurance or ability to pay and charge on a sliding scale. Call and ask whether they offer gender-affirming hormone therapy.
+      es: Localizador oficial de centros de salud federalmente calificados, que te atienden sin importar tu seguro o capacidad de pago y cobran en escala móvil. Llama y pregunta si ofrecen terapia hormonal de afirmación de género.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa]
+  - id: point-of-pride-mn
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds for people who cannot afford care, including the HRT Access Fund (free telehealth hormone therapy), a trans surgery fund, and free binders and shapewear.
+      es: Fondos nacionales para personas que no pueden pagar la atención, incluido el Fondo de Acceso a TRH (terapia hormonal por telesalud gratis), un fondo de cirugía trans y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: genderbands-mn
+    org: genderbands
+    name: Genderbands grants
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Small grants for surgery and other transition costs, including hormones and name change fees; 18 and older.
+      es: Pequeñas becas para cirugía y otros costos de transición, incluidas hormonas y tarifas de cambio de nombre; 18 años o más.
+    url: https://www.genderbands.org/
+    cost: free
+    verification: org_website
+    sources: [genderbands]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including self-funded employer plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género, incluidos planes autofinanciados de empleadores.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Minn. Stat. § 256B.0625, subd. 3a
+    title:
+      en: Medical Assistance covers gender-affirming care
+    url: https://www.revisor.mn.gov/statutes/cite/256B.0625
+  - cite: Minn. Stat. § 62Q.585
+    title:
+      en: Health plans may not exclude medically necessary gender-affirming care (Laws 2024, ch. 114)
+    url: https://www.revisor.mn.gov/statutes/cite/62Q.585
+  - cite: Laws 2023, ch. 29 (HF 146)
+    title:
+      en: Trans refuge law; Minn. Stat. §§ 260.925, 543.23, 518D.201, 518D.204, 518D.207, and 629.02 to 629.14
+    url: https://www.revisor.mn.gov/laws/2023/0/29/
+sources:
+  - id: stat-256b-0625
+    url: https://www.revisor.mn.gov/statutes/cite/256B.0625
+    title: Minn. Stat. § 256B.0625, Covered services (subd. 3a, Gender-affirming care)
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Medical assistance covers gender-affirming care, as defined in section 62Q.585.
+  - id: stat-62q-585
+    url: https://www.revisor.mn.gov/statutes/cite/62Q.585
+    title: Minn. Stat. § 62Q.585, Gender-affirming care coverage; medically necessary care
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No health plan that covers physical or mental health services may be offered, sold, issued, or renewed in this state that (1) excludes coverage for medically necessary gender-affirming care
+  - id: hf146
+    url: https://www.revisor.mn.gov/laws/2023/0/29/
+    title: Laws 2023, chapter 29 (HF 146)
+    publisher: Minnesota Office of the Revisor of Statutes
+    kind: statute
+    accessed: "2026-09-24"
+    quote: An act relating to children; preventing the use of subpoenas to gather information for out-of-state laws interfering in the use of gender-affirming health care
+  - id: lawhelp-ma
+    url: https://www.lawhelpmn.org/federal-changes-medical-assistance-ma
+    title: Federal Changes to Medical Assistance (MA)
+    publisher: LawHelpMN
+    kind: org
+    accessed: "2026-09-24"
+    quote: On Oct. 1, 2026, federal law changes who can qualify for Medical Assistance based on immigration status.
+  - id: ppncs-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    title: Transgender hormone therapy
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+    quote: Patients in Minnesota must be at least 16 years old and post-puberty to qualify for this service. You'll need to bring a parent or guardian to your first visit, if you are under the age of 18.
+  - id: ppncs-telehealth
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/telehealth-online-visits
+    title: Telehealth online visits
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+    quote: patients will need to have periodic in-person visits to complete the lab work
+  - id: familytree-hrt
+    url: https://www.familytreeclinic.org/trans-hormone-care/
+    title: Trans Hormone Care
+    publisher: Family Tree Clinic
+    kind: org
+    accessed: "2026-09-24"
+    quote: WE ARE CURRENTLY ACCEPTING NEW HORMONE Care PATIENTS.
+  - id: familytree-pay
+    url: https://www.familytreeclinic.org/paying-services/
+    title: Paying for Services
+    publisher: Family Tree Clinic
+    kind: org
+    accessed: "2026-09-24"
+    quote: We do not turn patients away for an inability to pay for services at the clinic. ... You will be charged between 40 to 100 percent of the actual cost of your visit depending on your income.
+  - id: outfront-hhc
+    url: https://outfront.org/hennepin-healthcare-adult-gender-sexual-health-clinic
+    title: Hennepin Healthcare Adult Gender & Sexual Health Clinic (directory listing)
+    publisher: OutFront Minnesota
+    kind: community
+    accessed: "2026-09-24"
+  - id: reclaim
+    url: https://www.reclaim.care/
+    title: RECLAIM
+    kind: org
+    accessed: "2026-09-24"
+    quote: We serve youth ages 12-25 and their families by providing individual, relationship, and family therapy.
+  - id: reddoor
+    url: https://www.reddoorclinic.org/
+    title: Red Door Clinic
+    publisher: Hennepin County Public Health
+    kind: official
+    accessed: "2026-09-24"
+  - id: reddoor-fees
+    url: https://www.reddoorclinic.org/fees-insurance
+    title: Fees and insurance
+    publisher: Hennepin County Public Health, Red Door Clinic
+    kind: official
+    accessed: "2026-09-24"
+    quote: We do not turn patients away based on ability to pay.
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/hrt-access-fund
+    title: HRT Access Fund
+    publisher: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: genderbands
+    url: https://www.genderbands.org/
+    title: Genderbands
+    kind: org
+    accessed: "2026-09-24"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

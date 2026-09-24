@@ -1,0 +1,208 @@
+guide_type: drivers_license
+jurisdiction: MN
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Confirmed on dps.mn.gov 2026-09-24: the current Driver's License/Instruction Permit/Identification Card Application
+    (PS33100, revision 10/2025) has Male, Female, and Non-Binary checkboxes and no medical or supporting-document field
+    for sex; duplicate driver's license fee $26 and ID card fees on the DVS fee page; name change requires SSA first and
+    a certified court order at a renewal office. DVS has no web page that explicitly describes the sex-designation
+    change or says "no documentation needed"; that statement comes from A4TE's Minnesota page (updated January 2026),
+    which also says DVS issues M, F, or X on request. Reviewer: (1) confirm with DVS that a sex-only change is processed
+    as a duplicate ($26 DL) and what the duplicate ID card fee is (the fee page lists ID card original and renewal fees
+    but no duplicate ID fee); (2) confirm the X option start date (widely reported as fall 2018; not found on a DVS
+    page); (3) confirm whether a sex-only change can be done through online pre-application or requires an office visit.
+    No 2025-2026 Minnesota law or policy restricting marker changes was found.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    Minnesota lets you choose male (M), female (F), or non-binary (X) on your driver's license or state ID by checking
+    the box on the regular application. No doctor's letter, court order, or birth certificate change is required. You
+    apply at a Driver and Vehicle Services office.
+  es: >-
+    Minnesota te permite elegir masculino (M), femenino (F) o no binario (X) en tu licencia de conducir o
+    identificación estatal marcando la casilla en la solicitud normal. No se requiere carta médica, orden judicial ni
+    cambio en el acta de nacimiento. Haces el trámite en una oficina de Driver and Vehicle Services.
+summary:
+  en: |
+    Minnesota Driver and Vehicle Services (DVS) uses a single application for licenses, permits, and ID cards (form PS33100). Its physical description section lets you check **Male, Female, or Non-Binary**; a non-binary selection prints as X. There is no separate gender form and no medical documentation requirement.
+
+    Changing your **name** is different: you must first update your name with the Social Security Administration, wait for SSA to process it, and then bring a certified copy of your court order to a DVS office. You can change your name and your sex marker in the same visit.
+  es: |
+    Driver and Vehicle Services (DVS) de Minnesota usa una sola solicitud para licencias, permisos y tarjetas de identificación (formulario PS33100). La sección de descripción física te permite marcar **masculino, femenino o no binario**; la opción no binaria se imprime como X. No hay un formulario de género aparte ni se exige documentación médica.
+
+    Cambiar tu **nombre** es distinto: primero debes actualizarlo en el Seguro Social, esperar a que lo procesen y luego llevar una copia certificada de tu orden judicial a una oficina de DVS. Puedes cambiar nombre y marcador de sexo en la misma visita.
+eligibility:
+  residency:
+    en: You must hold or be applying for a Minnesota driver's license, instruction permit, or ID card.
+    es: Debes tener o estar solicitando una licencia, permiso o tarjeta de identificación de Minnesota.
+  age:
+    en: Any age for an ID card. If you are under 18 and applying for driving privileges, a parent or guardian signs the application.
+    es: Cualquier edad para una tarjeta de identificación. Si tienes menos de 18 años y solicitas privilegios de manejo, un padre o tutor firma la solicitud.
+  sources: [dvs-app, dvs-id]
+forms:
+  - id: PS33100
+    name:
+      en: Minnesota Driver's License/Instruction Permit/Identification Card Application
+      es: Solicitud de licencia de conducir, permiso de aprendizaje o tarjeta de identificación de Minnesota
+    url: https://assets.dps.mn.gov/files/dvs/dvs-license-permit-id-application.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Choose the card type (Standard, REAL ID, or Enhanced). Standard needs the fewest documents.
+        - Legal name: must match your proof documents and your Social Security record. Fill in "Previous legal name" only if your name changed since your last application.
+        - Physical description: check **Male**, **Female**, or **Non-Binary** (prints as X). You do not attach anything to support this choice.
+        - Sign at the bottom. You can also fill this out as an online pre-application before your visit to save time.
+      es: |
+        - Elige el tipo de tarjeta (Standard, REAL ID o Enhanced). Standard requiere menos documentos.
+        - Nombre legal: debe coincidir con tus documentos y tu registro del Seguro Social. Llena "nombre legal anterior" solo si cambió.
+        - Descripción física: marca **masculino**, **femenino** o **no binario** (se imprime como X). No adjuntas nada para respaldar esta elección.
+        - Firma al final. También puedes hacer una pre-solicitud en línea antes de tu visita.
+    sources: [dvs-app, dvs-forms, a4te-mn]
+steps:
+  - id: ssa-first
+    title:
+      en: If your name is changing, update Social Security first
+      es: Si cambias tu nombre, actualiza primero el Seguro Social
+    body:
+      en: DVS will not change your name until your full legal name matches your Social Security record. Update SSA with a certified copy of your court order and wait until SSA confirms the change. Skip this step if you are only changing the sex marker.
+      es: DVS no cambiará tu nombre hasta que tu nombre legal completo coincida con tu registro del Seguro Social. Actualiza SSA con una copia certificada de tu orden y espera la confirmación. Omite este paso si solo cambias el marcador de sexo.
+    applies_to: [name_change]
+    sources: [dvs-name]
+  - id: fill-app
+    title:
+      en: Fill out the application or pre-apply online
+      es: Llena la solicitud o pre-solicita en línea
+    body:
+      en: Complete PS33100 (paper) or the online pre-application, and check Male, Female, or Non-Binary. No other gender documentation is needed.
+      es: Completa el PS33100 (en papel) o la pre-solicitud en línea y marca masculino, femenino o no binario. No se necesita otra documentación de género.
+    forms: [PS33100]
+    sources: [dvs-app, a4te-mn]
+  - id: visit
+    title:
+      en: Visit a DVS office that does renewals
+      es: Visita una oficina de DVS que haga renovaciones
+    body:
+      en: |
+        Bring your current license or ID and, if your name is changing, a certified court order (or certified marriage certificate or divorce decree) that links your old and new names. A new photo is taken when your name changes. Pay the duplicate fee. For a REAL ID or Enhanced card, bring the extra identity and residency documents those cards require.
+      es: |
+        Lleva tu licencia o identificación actual y, si cambias de nombre, una orden judicial certificada (o acta de matrimonio o sentencia de divorcio certificada) que vincule tu nombre anterior y el nuevo. Te toman una foto nueva si cambias de nombre. Paga la tarifa de duplicado. Para REAL ID o tarjeta Enhanced, lleva los documentos adicionales de identidad y residencia.
+    fees: [dl-duplicate]
+    applies_to: [in_person]
+    sources: [dvs-name, dvs-duplicate, dvs-fees]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: DVS mails the card to the address on your application; the post office will not forward it, so make sure the address is current. Fast-track service (extra fee, participating offices) processes most duplicates within three business days.
+      es: DVS envía la tarjeta a la dirección de tu solicitud; el correo no la reenvía, así que verifica que esté actualizada. El servicio rápido (tarifa adicional, oficinas participantes) procesa la mayoría de los duplicados en tres días hábiles.
+    fees: [fast-track]
+    sources: [dvs-app, dvs-fees]
+fees:
+  - id: dl-duplicate
+    label:
+      en: Duplicate driver's license (all classes)
+      es: Duplicado de licencia de conducir (todas las clases)
+    amount: 26
+    note:
+      en: A duplicate keeps your current expiration date. ID card fees are $35.50 for a new card under 65 ($32 at 65 and older); ask the office for the duplicate ID price. ID cards are free for youth experiencing homelessness, and a reduced-fee ID is available if you qualify.
+      es: Un duplicado mantiene tu fecha de vencimiento actual. Las tarjetas de identificación cuestan $35.50 si eres menor de 65 ($32 a partir de 65); pregunta en la oficina el precio del duplicado. Son gratis para jóvenes sin hogar y hay una tarifa reducida si calificas.
+    sources: [dvs-fees, dvs-id]
+  - id: fast-track
+    label:
+      en: Fast-track (expedited) processing, optional
+      es: Procesamiento rápido, opcional
+    amount: 20
+    sources: [dvs-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: There is no fee waiver for driver's licenses. For **ID cards**, youth experiencing homelessness can get a free ID with documentation, and DVS has an eligibility verification form for a reduced-fee ID card.
+    es: No hay exención para licencias de conducir. Para **tarjetas de identificación**, los jóvenes sin hogar pueden obtener una gratis con documentación, y DVS tiene un formulario de verificación para una tarjeta de tarifa reducida.
+  sources: [dvs-fees, dvs-id]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: You can pre-apply online, but you finish at a DVS office (driver's license renewal office or exam station) where your photo can be taken.
+    es: Puedes pre-solicitar en línea, pero terminas en una oficina de DVS donde te toman la foto.
+  sources: [dvs-name, dvs-duplicate]
+timeline:
+  en: One office visit; the card arrives by mail, usually within a few weeks (about 10 business days with fast-track).
+  es: Una visita a la oficina; la tarjeta llega por correo, normalmente en unas semanas (unos 10 días hábiles con servicio rápido).
+after:
+  en: |
+    Your Minnesota license or ID is the document most places check. If you chose X, note that as of September 2026 the US passport and Social Security record cannot show X or a changed sex marker; a Minnesota X card is still valid ID. Also update your vehicle titles if your name changed.
+  es: |
+    Tu licencia o identificación de Minnesota es el documento que más se revisa. Si elegiste X, ten en cuenta que, a septiembre de 2026, el pasaporte de EE. UU. y el registro del Seguro Social no pueden mostrar X ni un marcador cambiado; una tarjeta de Minnesota con X sigue siendo identificación válida. Actualiza también los títulos de tus vehículos si cambiaste de nombre.
+tips:
+  - en: You can change the sex marker without changing your name, and without changing your birth certificate first.
+    es: Puedes cambiar el marcador de sexo sin cambiar tu nombre y sin cambiar primero tu acta de nacimiento.
+  - en: If staff ask for a doctor's note, ask for a supervisor and point to the Male/Female/Non-Binary checkboxes on form PS33100, which have no documentation requirement. The Volunteer Lawyers Network LGBTQ Clinic (612-752-6677) can advise.
+    es: Si el personal pide una nota médica, pide hablar con un supervisor y señala las casillas de masculino/femenino/no binario del formulario PS33100, que no exigen documentación.
+related_links:
+  - title: Minnesota DVS, Change your name on your driver's license or ID card
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/common-transactions-all-dl-and-id-card-types/change-your-name-your-dl-id-card
+  - title: Advocates for Trans Equality, Minnesota identity documents
+    url: https://transequality.org/documents/minnesota-identity-documents
+    note:
+      en: Last updated January 2026.
+      es: Actualizado en enero de 2026.
+sources:
+  - id: dvs-app
+    url: https://assets.dps.mn.gov/files/dvs/dvs-license-permit-id-application.pdf
+    title: Form PS33100, Driver's License/Instruction Permit/Identification Card Application (rev. 10/2025)
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Applicant's physical description ... Male Female Non-Binary"
+  - id: dvs-forms
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/class-d-regular-dl/class-d-dl-forms-documents-and-manuals
+    title: Class D driver's license forms, documents and manuals
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: dvs-name
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/common-transactions-all-dl-and-id-card-types/change-your-name-your-dl-id-card
+    title: Change your name on your driver's license or ID card
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Your full legal name must match your Social Security card. ... Certified Court Order that specifies the name change
+  - id: dvs-duplicate
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/common-transactions-all-dl-and-id-card-types/get-duplicate-license-id-card
+    title: Get a duplicate license or ID card
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: You will have to get a new photo taken for each application if you have an identity theft indicator on your record or if you are changing your name.
+  - id: dvs-fees
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/dl-and-id-card-fees
+    title: Driver's license and ID card fees
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: "Duplicate driver's license - all classes $26 ... Identification cards, Under age 65 $35.50 ... Homeless youth (documentation required) FREE ... Fast track (expedited) services $20"
+  - id: dvs-id
+    url: https://dps.mn.gov/divisions/dvs/license-and-id/dl-and-id-card-information/id-id-card
+    title: ID card
+    publisher: Minnesota Department of Public Safety, Driver and Vehicle Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: You can apply for a reduced fee or a free ID card if you are a youth experiencing homelessness. Eligibility verification for reduced fee ID card form
+  - id: a4te-mn
+    url: https://transequality.org/documents/minnesota-identity-documents
+    title: Minnesota identity documents (updated January 2026)
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: Minnesota Driver and Vehicle Services will issue an M, F, or X on a license or state ID upon request. No medical or additional documentation is required.
