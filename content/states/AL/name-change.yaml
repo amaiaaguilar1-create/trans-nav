@@ -1,0 +1,381 @@
+guide_type: name_change
+jurisdiction: AL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute: adult name changes are in the probate court of the county of residence under Ala. Code 12-13-1(b)(10);
+    minors under 12-13-1(b)(11) (both read on ALISON 2026-09-24). NOTE for reviewer: the task brief and the Campaign
+    for Southern Equality's Alabama page cite Ala. Code 26-11-1 to 26-11-3, but those sections govern legitimation and
+    a father's petition to rename a legitimated child, not adult name changes; they are not cited here. Statutory
+    probate fee for "proceedings in change of name" is $15 (12-19-90(a)(8)), but counties add local fees; A4TE (last
+    updated Nov. 2021) reports $25 to $95 total and a $25 ALEA background check, which we could not confirm on ALEA's
+    site. The Jefferson County (jccal.org) probate site returned 403 to automated access, so Jefferson County's current
+    fee, background-check requirement, and whether it uses PS-12 or its own form are NOT confirmed. No statute requires
+    publication for adult name changes; confirm locally. Fee waiver: the AOC civil Affidavit of Substantial Hardship
+    (C-10) exists, but whether each probate court accepts it for name changes is not confirmed. The one-year residency
+    requirement in A4TE's summary is not in 12-13-1; treated as possible local practice.
+status: available
+status_summary:
+  en: >-
+    Adults (19 and older) can change their name by filing a short sworn petition in the probate court of the county
+    where they live. No newspaper publication is required by law, and many courts decide without a hearing. Expect about
+    $25 to $100 in court fees, and some counties ask for a state criminal background check.
+  es: >-
+    Los adultos (19 años o más) pueden cambiar su nombre presentando una breve petición jurada en el tribunal
+    testamentario (probate) del condado donde viven. La ley no exige publicación en el periódico y muchos tribunales
+    deciden sin audiencia. Calcula entre $25 y $100 en tarifas, y algunos condados piden una verificación de
+    antecedentes penales estatal.
+summary:
+  en: |
+    In Alabama, name changes for adults are handled by the **probate court** (the "judge of probate") in the county where you live. The law only asks for a written declaration, signed by you, stating your current name and the name you want (Ala. Code § 12-13-1(b)(10)). The Alabama State Bar's plain-language form **PS-12, Request to Change Name (For An Adult)** is accepted in many counties; some probate courts have their own form.
+
+    There is no law requiring you to explain that the change is related to gender identity, and no publication requirement. The main barriers are:
+    - **Criminal history**: the PS-12 asks you to swear you have no pending charges and no felony, crime of moral turpitude, or sex offense conviction. Registered sex offenders are barred from changing their name except for marriage or religion (Ala. Code § 15-20A-36).
+    - **Local practice** varies: some judges hold a short hearing, and some courts ask for a background check from the Alabama Law Enforcement Agency (ALEA).
+
+    A name change order does **not** change your sex marker. For that, see the driver's license and birth certificate guides; both require proof of surgery in Alabama.
+  es: |
+    En Alabama, los cambios de nombre de adultos los tramita el **tribunal testamentario (probate)** del condado donde vives. La ley solo pide una declaración escrita, firmada por ti, con tu nombre actual y el nombre que deseas (Código de Alabama § 12-13-1(b)(10)). El formulario **PS-12, Solicitud de cambio de nombre (adulto)** del Colegio de Abogados de Alabama se acepta en muchos condados; algunos tribunales tienen su propio formulario.
+
+    La ley no exige explicar que el cambio se relaciona con tu identidad de género, ni publicarlo. Las principales barreras son:
+    - **Antecedentes penales**: el PS-12 te pide jurar que no tienes cargos pendientes ni condenas por delito grave, delito de vileza moral o delito sexual. Las personas registradas como agresores sexuales no pueden cambiar su nombre salvo por matrimonio o religión (§ 15-20A-36).
+    - **Práctica local**: algunos jueces hacen una audiencia breve y algunos tribunales piden una verificación de antecedentes de la Agencia de Aplicación de la Ley de Alabama (ALEA).
+
+    Una orden de cambio de nombre **no** cambia tu marcador de sexo. Para eso, consulta las guías de licencia y acta de nacimiento; ambas exigen prueba de cirugía en Alabama.
+eligibility:
+  residency:
+    en: File in the probate court of the Alabama county where you live. Some courts may ask how long you have lived there.
+    es: Presenta la petición en el tribunal testamentario del condado de Alabama donde vives. Algunos tribunales pueden preguntar cuánto tiempo llevas ahí.
+  age:
+    en: 19 or older to file for yourself. Under 19, a parent or guardian files (see Minors).
+    es: 19 años o más para presentarla tú mismo. Si tienes menos de 19, la presenta un padre, madre o tutor.
+  criminal_history:
+    en: The PS-12 requires you to swear you have no pending criminal charges and no conviction for a felony, a crime of moral turpitude, or a criminal sex offense. Registered sex offenders may not change their name except upon marriage or divorce or for religious reasons. If you have a record, talk to a legal aid lawyer before filing.
+    es: El PS-12 exige jurar que no tienes cargos penales pendientes ni condenas por delito grave, delito de vileza moral o delito sexual. Las personas registradas como agresores sexuales no pueden cambiar su nombre salvo por matrimonio, divorcio o religión. Si tienes antecedentes, habla con un abogado de asistencia legal antes de presentar.
+  sources: [ala-12-13-1, ps-12, ala-15-20a-36]
+forms:
+  - id: PS-12
+    name:
+      en: Request to Change Name (For An Adult)
+      es: Solicitud de cambio de nombre (para un adulto)
+    url: https://eforms.alacourt.gov/media/jtzbncuw/request-to-change-name.pdf
+    required: conditional
+    condition:
+      en: Use this statewide form unless your county probate court gives you its own petition. Call the probate office first to ask.
+      es: Usa este formulario estatal a menos que tu tribunal testamentario te dé su propia petición. Llama primero a la oficina.
+    how_to_fill:
+      en: |
+        - **Reason for the change**: a short, truthful reason is enough, such as "to match the name I use in daily life" or "to reflect my gender identity." You do not need to give medical details.
+        - Attach a **certified copy of your birth certificate** and a **copy of your photo ID**, as the form instructs.
+        - Read the declarations carefully: you are swearing you have no pending charges and no disqualifying convictions.
+        - **Sign in front of a notary.** Many banks, libraries, and legal aid offices offer free notary service.
+      es: |
+        - **Razón del cambio**: basta una razón breve y veraz, como "para coincidir con el nombre que uso a diario" o "para reflejar mi identidad de género". No necesitas dar detalles médicos.
+        - Adjunta una **copia certificada de tu acta de nacimiento** y una **copia de tu identificación con foto**, como indica el formulario.
+        - Lee las declaraciones con cuidado: juras que no tienes cargos pendientes ni condenas que te descalifiquen.
+        - **Firma ante un notario.** Muchos bancos, bibliotecas y oficinas de asistencia legal ofrecen notario gratis.
+    sources: [ps-12]
+  - id: C-10
+    name:
+      en: Affidavit of Substantial Hardship and Order (Civil)
+      es: Declaración jurada de dificultad sustancial y orden (civil)
+    url: https://eforms.alacourt.gov/media/cqjl33ke/c-10-civil-affidavit-of-substantial-hardship-order-10-2023.pdf
+    required: optional
+    condition:
+      en: If you cannot afford the filing fee. Ask the probate office whether it accepts this form for name changes.
+      es: Si no puedes pagar la tarifa. Pregunta a la oficina del tribunal si acepta este formulario para cambios de nombre.
+    sources: [c-10]
+steps:
+  - id: call-probate
+    title:
+      en: Call your county probate court
+      es: Llama al tribunal testamentario de tu condado
+    body:
+      en: Ask the probate office for its name change requirements, fee, whether it accepts form PS-12, and whether it needs an ALEA background check. Requirements vary by county.
+      es: Pregunta a la oficina del tribunal testamentario sus requisitos, la tarifa, si acepta el formulario PS-12 y si necesita una verificación de antecedentes de ALEA. Los requisitos varían por condado.
+    sources: [ala-12-13-1, a4te-al]
+  - id: background-check
+    title:
+      en: Get a background check if your county requires it
+      es: Obtén una verificación de antecedentes si tu condado la exige
+    body:
+      en: Some probate courts ask for an Alabama criminal history report from ALEA. A4TE reports the fee as about $25. Ask the court exactly which report it wants.
+      es: Algunos tribunales piden un informe de antecedentes penales de Alabama emitido por ALEA. A4TE indica que cuesta unos $25. Pregunta al tribunal exactamente qué informe quiere.
+    fees: [background]
+    optional: true
+    sources: [a4te-al]
+  - id: fill-petition
+    title:
+      en: Fill out and notarize the petition
+      es: Llena y notariza la petición
+    body:
+      en: Complete PS-12 (or your county's form), attach a certified copy of your birth certificate and a copy of your photo ID, and sign in front of a notary.
+      es: Completa el PS-12 (o el formulario de tu condado), adjunta una copia certificada de tu acta de nacimiento y una copia de tu identificación con foto, y firma ante un notario.
+    forms: [PS-12]
+    sources: [ps-12]
+  - id: file
+    title:
+      en: File at the probate court and pay the fee
+      es: Presenta la petición en el tribunal y paga la tarifa
+    body:
+      en: File in person at the probate court in your county. Bring cash or a money order (many offices do not take personal checks). If you cannot pay, ask about the Affidavit of Substantial Hardship.
+      es: Presenta en persona en el tribunal testamentario de tu condado. Lleva efectivo o giro postal (muchas oficinas no aceptan cheques personales). Si no puedes pagar, pregunta por la declaración de dificultad sustancial.
+    forms: [C-10]
+    fees: [filing, certified-copy]
+    sources: [ala-12-19-90, c-10, cse-al]
+  - id: hearing
+    title:
+      en: Attend a hearing if one is set
+      es: Asiste a la audiencia si la programan
+    body:
+      en: Many judges sign the order without a hearing. If a hearing is scheduled, the judge may ask why you want the change; answer briefly and honestly.
+      es: Muchos jueces firman la orden sin audiencia. Si hay una, el juez puede preguntar por qué quieres el cambio; responde de forma breve y honesta.
+    optional: true
+    sources: [cse-al]
+  - id: get-copies
+    title:
+      en: Get several certified copies of the decree
+      es: Obtén varias copias certificadas del decreto
+    body:
+      en: The court issues a decree changing your name. Buy several certified copies; Social Security, ALEA, the passport agency, and your bank may each want one.
+      es: El tribunal emite un decreto que cambia tu nombre. Compra varias copias certificadas; el Seguro Social, ALEA, la agencia de pasaportes y tu banco pueden pedir una cada uno.
+    fees: [certified-copy]
+    sources: [cse-al, ala-12-19-90]
+fees:
+  - id: filing
+    label:
+      en: Probate court filing fee for a name change
+      es: Tarifa de presentación en el tribunal testamentario
+    min: 25
+    max: 95
+    varies_by: county
+    waivable: true
+    note:
+      en: State law sets a $15 base fee for "proceedings in change of name"; counties add local fees. The $25 to $95 range is from A4TE (2021); call your probate office for the current amount.
+      es: La ley estatal fija una tarifa base de $15; los condados agregan tarifas locales. El rango de $25 a $95 proviene de A4TE (2021); llama a tu oficina para el monto actual.
+    sources: [ala-12-19-90, a4te-al]
+  - id: background
+    label:
+      en: ALEA criminal background check (if required)
+      es: Verificación de antecedentes de ALEA (si se exige)
+    amount: 25
+    note:
+      en: Amount reported by A4TE; not confirmed on ALEA's site.
+      es: Monto indicado por A4TE; no confirmado en el sitio de ALEA.
+    sources: [a4te-al]
+  - id: certified-copy
+    label:
+      en: Certified copies of the decree
+      es: Copias certificadas del decreto
+    varies_by: county
+    note:
+      en: The statutory probate fee for each certificate with seal is $3, plus copy charges; counties may charge more.
+      es: La tarifa legal por cada certificado con sello es $3, más el costo de copias; los condados pueden cobrar más.
+    sources: [ala-12-19-90]
+fee_waiver:
+  available: true
+  forms: [C-10]
+  eligibility:
+    en: For people who cannot pay court costs because of low income or public benefits. The judge decides.
+    es: Para personas que no pueden pagar los costos por bajos ingresos o por recibir beneficios públicos. El juez decide.
+  how:
+    en: Fill out the Affidavit of Substantial Hardship (C-10) with your income and expenses and file it with your petition. Ask the probate office first whether it uses this form or its own.
+    es: Llena la declaración de dificultad sustancial (C-10) con tus ingresos y gastos y preséntala con tu petición. Pregunta primero si la oficina usa este formulario o uno propio.
+  sources: [c-10]
+publication:
+  required: "no"
+  detail:
+    en: Alabama's name change law does not require publishing notice in a newspaper for adults. If a court tells you otherwise, ask which law requires it.
+    es: La ley de Alabama no exige publicar un aviso en el periódico para adultos. Si un tribunal te dice lo contrario, pregunta qué ley lo exige.
+  sources: [ala-12-13-1]
+hearing:
+  required: conditional
+  detail:
+    en: Up to the judge. Many probate courts grant uncontested adult petitions on the papers.
+    es: Depende del juez. Muchos tribunales aprueban peticiones de adultos sin oposición solo con los documentos.
+  sources: [cse-al]
+background_check:
+  required: conditional
+  detail:
+    en: Not required by statute, but some probate courts require an ALEA criminal history report. The PS-12 itself requires a sworn statement about criminal history.
+    es: La ley no lo exige, pero algunos tribunales piden un informe de antecedentes de ALEA. El PS-12 exige una declaración jurada sobre antecedentes penales.
+  sources: [a4te-al, ps-12]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: Alabama has no statute for sealing adult name change records. Probate records are generally public. You can ask the judge to seal the file for safety reasons, but there is no set procedure.
+    es: Alabama no tiene una ley para sellar expedientes de cambio de nombre de adultos. Los expedientes del tribunal testamentario suelen ser públicos. Puedes pedir al juez que selle el expediente por seguridad, pero no hay un procedimiento establecido.
+  sources: [ala-12-13-1]
+minors:
+  summary:
+    en: For someone under 19, a parent or legal guardian files in the probate court of the county where the minor lives, with written consent from everyone who has parental or legal rights. A minor 14 or older must also consent (Ala. Code § 12-13-1(b)(11)). If a parent will not consent or cannot be found, or a custody case is pending in circuit court, the probate court cannot use this simple process; talk to a lawyer.
+    es: Para menores de 19 años, un padre, madre o tutor legal presenta la petición en el tribunal testamentario del condado donde vive el menor, con el consentimiento por escrito de todas las personas con derechos parentales o legales. Un menor de 14 años o más también debe consentir (§ 12-13-1(b)(11)). Si un padre no consiente o no se le encuentra, o hay un caso de custodia pendiente, habla con un abogado.
+  sources: [ala-12-13-1]
+timeline:
+  en: Often the same day to a few weeks after filing, depending on the county and whether a hearing is set.
+  es: A menudo el mismo día o unas semanas después de presentar, según el condado y si hay audiencia.
+after:
+  en: |
+    1. **Social Security** first (form SS-5, in person or by mail, free). ALEA wants to see your updated Social Security record.
+    2. **Driver's license or ID** at ALEA or a county license office, or by mail with form DL-100 ($31.25 duplicate fee); bring the certified decree and new Social Security card.
+    3. **Birth certificate** (if born in Alabama): send the certified decree to the Center for Health Statistics with the amendment application ($20, includes one copy).
+    4. **Passport**, then banks, employer, voter registration, and insurance.
+  es: |
+    1. **Seguro Social** primero (formulario SS-5, en persona o por correo, gratis). ALEA quiere ver tu registro actualizado.
+    2. **Licencia o identificación** en ALEA o en una oficina de licencias del condado, o por correo con el formulario DL-100 ($31.25 por duplicado); lleva el decreto certificado y tu nueva tarjeta del Seguro Social.
+    3. **Acta de nacimiento** (si naciste en Alabama): envía el decreto certificado al Centro de Estadísticas de Salud con la solicitud de enmienda ($20, incluye una copia).
+    4. **Pasaporte**, luego bancos, empleador, registro de votante y seguros.
+tips:
+  - en: Ask the probate office on the phone before you go; small counties sometimes have their own form and only accept cash or money orders.
+    es: Llama antes a la oficina; los condados pequeños a veces tienen su propio formulario y solo aceptan efectivo o giro postal.
+  - en: Birmingham's Volunteer Lawyers Program runs walk-in help desks for low-income Jefferson County residents; Legal Services Alabama covers the rest of the state.
+    es: El Programa de Abogados Voluntarios de Birmingham tiene mesas de ayuda sin cita para residentes de bajos ingresos del condado de Jefferson; Legal Services Alabama cubre el resto del estado.
+local_help:
+  - id: legal-services-alabama
+    name: Legal Services Alabama
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal aid for low-income Alabamians, with eight regional offices. Apply online or call 866-456-4995.
+      es: Asistencia legal civil gratuita para personas de bajos ingresos, con ocho oficinas regionales. Solicita en línea o llama al 866-456-4995.
+    url: https://legalservicesalabama.org/
+    phone: "866-456-4995"
+    cost: free
+    verification: org_website
+    sources: [lsa]
+  - id: bbvlp
+    name: Birmingham Bar Volunteer Lawyers Program
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: In-person help desks where income-eligible people meet a volunteer attorney who explains the court process and helps start forms. Bring proof of income.
+      es: Mesas de ayuda en persona donde personas con ingresos elegibles se reúnen con un abogado voluntario que explica el proceso y ayuda a iniciar los formularios. Lleva prueba de ingresos.
+    url: https://vlpbirmingham.org/
+    areas_served:
+      en: Birmingham area
+      es: Área de Birmingham
+    cost: free
+    verification: org_website
+    sources: [bbvlp]
+  - id: aclu-al
+    name: ACLU of Alabama
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Civil liberties organization with an online legal help intake form for rights violations, including discrimination by government offices.
+      es: Organización de libertades civiles con un formulario en línea para pedir ayuda legal por violaciones de derechos, incluida la discriminación por oficinas del gobierno.
+    url: https://www.aclualabama.org/get-help/
+    cost: free
+    verification: org_website
+    sources: [aclu-al]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: fund
+    pillars: [name_change]
+    description:
+      en: Offers microgrants for name change and ID document fees when funding allows, plus a peer-support hotline at 877-565-8860.
+      es: Ofrece microsubvenciones para tarifas de cambio de nombre y documentos cuando hay fondos, y una línea de apoyo al 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+statutes:
+  - cite: Ala. Code § 12-13-1(b)(10)-(11)
+    title:
+      en: Probate court jurisdiction over name changes for adults and minors residing in the county
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=12-13-1
+  - cite: Ala. Code § 12-19-90(a)(8)
+    title:
+      en: Probate fee for proceedings in change of name
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=12-19-90
+  - cite: Ala. Code § 15-20A-36
+    title:
+      en: Name change restriction for registered sex offenders
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=15-20A-36
+related_links:
+  - title: Advocates for Trans Equality, Alabama identity documents
+    url: https://transequality.org/documents/alabama-identity-documents
+    note:
+      en: Name change sections last updated November 2021.
+      es: Secciones de cambio de nombre actualizadas en noviembre de 2021.
+  - title: Campaign for Southern Equality, Alabama legal resources
+    url: https://southernequality.org/legal-resources/alabama/
+    note:
+      en: Older guide; some fees and statute citations are out of date.
+      es: Guía antigua; algunas tarifas y citas legales están desactualizadas.
+sources:
+  - id: ala-12-13-1
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=12-13-1
+    title: Ala. Code § 12-13-1, probate court jurisdiction
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The change of the name of any adult residing in their county, upon his or her filing a declaration in writing, signed by him or her, stating the name by which he or she is known and the name to which he or she wishes it to be changed.
+  - id: ala-12-19-90
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=12-19-90
+    title: Ala. Code § 12-19-90, judge of probate schedule of fees
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: (8) Proceedings in change of name ..... 15.00
+  - id: ala-15-20a-36
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=15-20A-36
+    title: Ala. Code § 15-20A-36, name change of offender
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: No sex offender shall change his or her name unless the change is incident to a change in the marital status of the sex offender or is necessary to effect the exercise of the religion of the sex offender.
+  - id: ps-12
+    url: https://eforms.alacourt.gov/media/jtzbncuw/request-to-change-name.pdf
+    title: PS-12, Request to Change Name (For An Adult)
+    publisher: Alabama State Bar / Alabama Administrative Office of Courts
+    kind: form
+    accessed: "2026-09-24"
+    quote: Attach a certified copy of your birth certificate and a copy of your photo ID, and File your form and attachments in the same county where you live.
+  - id: c-10
+    url: https://eforms.alacourt.gov/media/cqjl33ke/c-10-civil-affidavit-of-substantial-hardship-order-10-2023.pdf
+    title: C-10, Affidavit of Substantial Hardship and Order (Civil)
+    publisher: Alabama Administrative Office of Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: a4te-al
+    url: https://transequality.org/documents/alabama-identity-documents
+    title: Alabama identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: $25-$95 filing fee (varies by county); $25 for background check
+  - id: cse-al
+    url: https://southernequality.org/legal-resources/alabama/
+    title: Alabama legal resources
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: The probate court may or may not set a hearing date. If a hearing is scheduled, the court may ask you why you want to change your name.
+  - id: lsa
+    url: https://legalservicesalabama.org/
+    title: Legal Services Alabama
+    kind: org
+    accessed: "2026-09-24"
+  - id: bbvlp
+    url: https://vlpbirmingham.org/index_php/get-help/
+    title: Get Help, Birmingham Bar Volunteer Lawyers Program
+    kind: org
+    accessed: "2026-09-24"
+    quote: If you meet the income requirements, you will see an attorney on the day you visit the Help Desk.
+  - id: aclu-al
+    url: https://www.aclualabama.org/get-help/
+    title: Get Legal Help, ACLU of Alabama
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

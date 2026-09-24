@@ -1,0 +1,239 @@
+jurisdiction: AL
+slug: birmingham
+name: Birmingham
+area:
+  en: Jefferson County and the surrounding Birmingham metro (Shelby, St. Clair, Walker, Blount counties)
+  es: Condado de Jefferson y el área metropolitana de Birmingham (condados de Shelby, St. Clair, Walker y Blount)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    The Jefferson County Commission site (jccal.org), including the Probate Court pages, returned HTTP 403 to automated
+    access on 2026-09-24, so the probate court's name change fee, form, and background-check requirement are NOT
+    confirmed; no court URL or fee is given. Jefferson County Probate Court has a Birmingham division and a Bessemer
+    division; reviewer should add the current address, fee, and URL. Resource details (addresses, phones, services)
+    read on each organization's own site the same day. MCAC's contact page lists phone numbers with a 447 area code
+    that look like typos, so no phone is listed. Planned Parenthood Southeast's site returned 403; its Birmingham
+    center is omitted.
+intro:
+  en: >-
+    Birmingham has Alabama's largest cluster of trans-affirming services: UAB's Gender Health Clinic for adult hormone
+    therapy, the Magic City Acceptance Center for LGBTQ+ community and case management, and several free sexual health
+    clinics. Name changes are filed in the Jefferson County Probate Court. Remember that care for anyone under 19 is
+    banned statewide.
+  es: >-
+    Birmingham tiene la mayor concentración de servicios de afirmación trans en Alabama: la Clínica de Salud de Género de
+    UAB para terapia hormonal de adultos, el Magic City Acceptance Center para comunidad LGBTQ+ y manejo de casos, y
+    varias clínicas gratuitas de salud sexual. Los cambios de nombre se presentan en el Tribunal Testamentario del
+    Condado de Jefferson. Recuerda que la atención para menores de 19 años está prohibida en todo el estado.
+court:
+  name: Jefferson County Probate Court (Birmingham and Bessemer divisions)
+  notes:
+    en: File where you live in Jefferson County. Call the probate office before you go to confirm the fee, whether it uses form PS-12, and whether it wants an ALEA background check. For free help preparing the petition, visit a Birmingham Volunteer Lawyers Program help desk.
+    es: Presenta donde vives en el condado de Jefferson. Llama antes para confirmar la tarifa, si usa el formulario PS-12 y si pide una verificación de antecedentes de ALEA. Para ayuda gratuita, visita una mesa de ayuda del Programa de Abogados Voluntarios de Birmingham.
+  sources: [ala-12-13-1, ps-12]
+resources:
+  - id: bbvlp
+    name: Birmingham Bar Volunteer Lawyers Program
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: In-person help desks where income-eligible people meet a volunteer attorney the same day, get the court process explained, and start forms. Bring a pay stub or benefits letter.
+      es: Mesas de ayuda en persona donde personas con ingresos elegibles ven a un abogado voluntario el mismo día y reciben ayuda con los formularios. Lleva un talón de pago o carta de beneficios.
+    url: https://vlpbirmingham.org/
+    cost: free
+    verification: org_website
+    sources: [bbvlp]
+  - id: lsa-birmingham
+    name: Legal Services Alabama (Birmingham office)
+    type: legal_aid
+    pillars: [name_change, insurance]
+    description:
+      en: Free civil legal aid for low-income residents, including public benefits problems. Apply online or call 866-456-4995.
+      es: Asistencia legal civil gratuita para residentes de bajos ingresos, incluidos problemas con beneficios públicos. Solicita en línea o llama al 866-456-4995.
+    url: https://legalservicesalabama.org/
+    phone: "866-456-4995"
+    cost: free
+    verification: org_website
+    sources: [lsa]
+  - id: uab-ghc
+    name: UAB Gender Health Clinic
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Gender-affirming hormone therapy and sexual and reproductive health for adults, with referrals for voice therapy, mental health, and some surgeries.
+      es: Terapia hormonal de afirmación de género y salud sexual y reproductiva para adultos, con referencias para terapia de voz, salud mental y algunas cirugías.
+    url: https://www.uabmedicine.org/specialties/gender-health/
+    phone: "205-975-5854"
+    cost: insurance
+    verification: org_website
+    sources: [uab-ghc]
+  - id: cooper-green
+    name: Cooper Green Mercy Health Services
+    type: primary_care
+    pillars: [hrt, mental_health]
+    description:
+      en: Jefferson County's safety-net clinic, providing primary care, urgent care, and a pharmacy regardless of ability to pay. Ask your primary care provider about hormone therapy or a referral. Enrollment 205-930-3377.
+      es: Clínica de red de seguridad del condado de Jefferson con atención primaria, urgencias y farmacia sin importar la capacidad de pago. Pregunta a tu proveedor por terapia hormonal o una referencia. Inscripción 205-930-3377.
+    url: https://coopergreen.org/
+    phone: "205-930-3200"
+    address: 1509 6th Avenue South, Birmingham, AL 35233
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: org_website
+    sources: [cooper-green]
+  - id: jcdh-sexual-health
+    name: Jefferson County Department of Health, Sexual Health and PrEP Clinics
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: County health department clinics for STI testing, PrEP, HIV post-exposure prophylaxis, doxy-PEP, and family planning.
+      es: Clínicas del departamento de salud del condado para pruebas de ITS, PrEP, profilaxis post-exposición, doxy-PEP y planificación familiar.
+    url: https://www.jcdh.org/
+    cost: low_cost
+    verification: official_source
+    sources: [jcdh]
+  - id: aids-alabama-living-well
+    name: AIDS Alabama Living Well Health Clinic
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Walk-in STI testing and treatment, PrEP and PEP; helps uninsured people get PrEP free or at low cost.
+      es: Pruebas y tratamiento de ITS sin cita, PrEP y PEP; ayuda a personas sin seguro a obtener PrEP gratis o a bajo costo.
+    url: https://www.aidsalabama.org/livingwellhealthclinic
+    phone: "205-831-0641"
+    address: 3522 7th Ave S, Birmingham, AL 35222
+    cost: varies
+    accepts_uninsured: true
+    verification: org_website
+    sources: [aids-alabama-clinic]
+  - id: bao
+    name: Birmingham AIDS Outreach (BAO)
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Alabama's first HIV service organization, offering free HIV testing, prevention, and services for people living with HIV. Parent organization of the Magic City Acceptance Center.
+      es: La primera organización de servicios de VIH de Alabama, con pruebas gratuitas, prevención y servicios para personas con VIH. Organización madre del Magic City Acceptance Center.
+    url: https://www.birminghamaidsoutreach.org/
+    phone: "205-322-4197"
+    address: 205 32nd Street South, Birmingham, AL 35233
+    cost: free
+    verification: org_website
+    sources: [bao]
+  - id: mcac
+    name: Magic City Acceptance Center (MCAC)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: LGBTQ+ center with youth programs (13 to 20), adult programs (21+), free identity, recovery, and neurodivergent support groups, social work linkage, and shower and laundry services. Open during scheduled programs; contact to arrange a visit.
+      es: Centro LGBTQ+ con programas juveniles (13 a 20), programas para adultos (21+), grupos de apoyo gratuitos, vinculación con trabajo social y servicio de duchas y lavandería. Abre durante programas; contacta para una visita.
+    url: https://www.magiccityacceptancecenter.org/
+    address: 3130 3rd Avenue South, Birmingham, AL 35233
+    cost: free
+    verification: org_website
+    sources: [mcac, mcac-services]
+  - id: cse-tyep
+    name: Campaign for Southern Equality, Trans Youth Emergency Project
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Navigation and $500 travel grants for families of trans youth, and for trans 18-year-olds living in Alabama, to reach care in other states.
+      es: Navegación y becas de viaje de $500 para familias de jóvenes trans, y para personas trans de 18 años en Alabama, para recibir atención en otros estados.
+    url: https://southernequality.org/tyep/
+    cost: free
+    verification: org_website
+    sources: [cse-tyep]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: ala-12-13-1
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=12-13-1
+    title: Ala. Code § 12-13-1, probate court jurisdiction
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ps-12
+    url: https://eforms.alacourt.gov/media/jtzbncuw/request-to-change-name.pdf
+    title: PS-12, Request to Change Name (For An Adult)
+    publisher: Alabama Administrative Office of Courts
+    kind: form
+    accessed: "2026-09-24"
+  - id: bbvlp
+    url: https://vlpbirmingham.org/index_php/get-help/
+    title: Get Help, Birmingham Bar Volunteer Lawyers Program
+    kind: org
+    accessed: "2026-09-24"
+    quote: If you meet the income requirements, you will see an attorney on the day you visit the Help Desk.
+  - id: lsa
+    url: https://legalservicesalabama.org/
+    title: Legal Services Alabama
+    kind: org
+    accessed: "2026-09-24"
+    quote: Our offices are located in Anniston/Gadsden, Birmingham, Dothan, Huntsville, Mobile, Montgomery, Selma and Tuscaloosa.
+  - id: uab-ghc
+    url: https://www.uabmedicine.org/specialties/gender-health/
+    title: Gender Health
+    publisher: UAB Medicine
+    kind: org
+    accessed: "2026-09-24"
+    quote: To make an appointment, please call 205-975-5854
+  - id: cooper-green
+    url: https://coopergreen.org/
+    title: Cooper Green Mercy Health Services
+    kind: org
+    accessed: "2026-09-24"
+    quote: Cooper Green Mercy Health Services 1509 6th Avenue South Birmingham, Alabama 35233
+  - id: jcdh
+    url: https://www.jcdh.org/
+    title: Jefferson County Department of Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: Pre-Exposure Prophylaxis (PrEP) Clinic ... Sexual Health Clinic
+  - id: aids-alabama-clinic
+    url: https://www.aidsalabama.org/livingwellhealthclinic
+    title: Living Well Health Clinic
+    publisher: AIDS Alabama
+    kind: org
+    accessed: "2026-09-24"
+  - id: bao
+    url: https://www.birminghamaidsoutreach.org/
+    title: Birmingham AIDS Outreach
+    kind: org
+    accessed: "2026-09-24"
+    quote: Find us 205 32nd Street South, Birmingham, AL 35233
+  - id: mcac
+    url: https://www.magiccityacceptancecenter.org/general-8
+    title: Contact Us, Magic City Acceptance Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Magic City Acceptance Center 3130 3rd Avenue South Birmingham, Alabama 35233
+  - id: mcac-services
+    url: https://www.magiccityacceptancecenter.org/supportiveservices
+    title: Supportive Services, Magic City Acceptance Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: cse-tyep
+    url: https://southernequality.org/tyep/
+    title: Trans Youth Emergency Project
+    publisher: Campaign for Southern Equality
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

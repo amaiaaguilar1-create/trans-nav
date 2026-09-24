@@ -1,0 +1,201 @@
+guide_type: birth_certificate
+jurisdiction: AL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statute Ala. Code 22-9A-19 read on ALISON 2026-09-24. Fees ($20 amendment including one copy, $6 additional copies,
+    $15 expedite) and mailing address read in ADPH's Amendment Packet (ADPH-HS-33, rev. 05/01/2019) the same day. The
+    ADPH rule implementing 22-9A-19(d) (Ala. Admin. Code ch. 420-7-1) could not be read: the Administrative Code site
+    only serves persisted API queries. NOT CONFIRMED: whether ADPH still amends the sex field after SB 79 (Act 2025-3,
+    effective Oct. 1, 2025) redefined sex as observed at birth and required agencies collecting vital statistics to
+    record male or female; reviewer should call the Birth Amendment Clerk (334-206-2637). Processing time not published.
+    CSE's older Alabama page gives $15 and $4 fees, now outdated. MAP scores the birth certificate policy as negative law.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    If you were born in Alabama, the sex on your birth certificate can be changed only with a court order stating that
+    your sex was changed by surgery (and that your name was changed). The certificate is amended, not replaced. Whether
+    the state still makes these changes after the 2025 "What Is a Woman Act" is unconfirmed. Name-only changes with a
+    court order cost $20.
+  es: >-
+    Si naciste en Alabama, el sexo en tu acta de nacimiento solo se puede cambiar con una orden judicial que indique que
+    tu sexo fue cambiado mediante cirugía (y que tu nombre fue cambiado). El acta se enmienda, no se reemplaza. No está
+    confirmado si el estado sigue haciendo estos cambios después de la ley "What Is a Woman Act" de 2025. Los cambios
+    solo de nombre con orden judicial cuestan $20.
+summary:
+  en: |
+    Alabama birth certificates are kept by the **Center for Health Statistics** of the Alabama Department of Public Health (ADPH) in Montgomery. This guide applies only if you were **born in Alabama**; if you were born elsewhere, follow your birth state's rules.
+
+    **Sex marker**: Ala. Code § 22-9A-19(d) says the certificate "shall be amended" when ADPH receives a certified court order "indicating that the sex of an individual born in this state has been changed by surgical procedure and that the name of the individual has been changed." In practice that means:
+    - You need a **court order** (usually from circuit or probate court) that finds your sex was changed by surgery. Most people need a lawyer for this.
+    - Hormone therapy alone does not qualify, and there is no X option.
+    - The certificate is **amended** (marked "AMENDED"), not reissued as a new certificate, so the change is visible on the record.
+    - Once an item is amended, it can only be amended again by court order.
+
+    **Since October 1, 2025**, SB 79 defines sex in Alabama law as sex "observed or clinically verified at birth" and requires state agencies that collect vital statistics by sex to identify each person as male or female. We could not confirm whether ADPH still processes surgery-based changes under § 22-9A-19(d). Call ADPH before paying for a court case.
+
+    **Name only**: send a certified copy of your name change order with the amendment application. This is routine.
+  es: |
+    Las actas de nacimiento de Alabama las guarda el **Centro de Estadísticas de Salud** del Departamento de Salud Pública (ADPH) en Montgomery. Esta guía aplica solo si **naciste en Alabama**; si naciste en otro lugar, sigue las reglas de tu estado de nacimiento.
+
+    **Marcador de sexo**: el § 22-9A-19(d) dice que el acta "se enmendará" cuando ADPH reciba una orden judicial certificada que indique "que el sexo de una persona nacida en este estado ha sido cambiado mediante un procedimiento quirúrgico y que el nombre de la persona ha sido cambiado". En la práctica:
+    - Necesitas una **orden judicial** (normalmente de un tribunal de circuito o testamentario) que determine que tu sexo fue cambiado por cirugía. La mayoría necesita un abogado.
+    - La terapia hormonal sola no califica y no hay opción X.
+    - El acta se **enmienda** (marcada "AMENDED"), no se emite una nueva, así que el cambio es visible.
+    - Una vez enmendado un dato, solo se puede enmendar de nuevo con orden judicial.
+
+    **Desde el 1 de octubre de 2025**, la SB 79 define el sexo en la ley de Alabama como el sexo "observado o verificado clínicamente al nacer" y exige que las agencias que recopilan estadísticas vitales por sexo identifiquen a cada persona como hombre o mujer. No pudimos confirmar si ADPH sigue tramitando cambios basados en cirugía. Llama a ADPH antes de pagar un proceso judicial.
+
+    **Solo nombre**: envía una copia certificada de tu orden de cambio de nombre con la solicitud de enmienda. Es un trámite de rutina.
+eligibility:
+  residency:
+    en: You must have been born in Alabama. Where you live now does not matter.
+    es: Debes haber nacido en Alabama. No importa dónde vivas ahora.
+  age:
+    en: If you are 19 or older, you must sign the application yourself. For a minor, a parent or guardian applies.
+    es: Si tienes 19 años o más, debes firmar la solicitud tú mismo. Para un menor, solicita un padre, madre o tutor.
+  sources: [ala-22-9a-19, h33]
+forms:
+  - id: ADPH-HS-33
+    name:
+      en: Amendment Packet for Alabama Birth and Death Certificates (Application to Change an Alabama Birth or Death Certificate)
+      es: Paquete de enmiendas para actas de nacimiento y defunción de Alabama
+    url: https://www.alabamapublichealth.gov/vitalrecords/assets/h33-full-amendment-package.pdf
+    url_es: https://www.alabamapublichealth.gov/vitalrecords/assets/h33-full-amendment-package-sp.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Use **Application 1** (amendments). Only one request per form.
+        - In the section listing the changes, write exactly what should change (for example, the new first and middle name as shown in the court order).
+        - Attach a **certified** copy of the court order and a copy of valid photo ID (see the ID list on the back).
+        - If you are 19 or older, sign the applicant section yourself.
+      es: |
+        - Usa la **Solicitud 1** (enmiendas). Una sola solicitud por formulario.
+        - En la sección de cambios, escribe exactamente qué debe cambiar (por ejemplo, el nuevo nombre tal como aparece en la orden).
+        - Adjunta una copia **certificada** de la orden judicial y una copia de una identificación con foto válida.
+        - Si tienes 19 años o más, firma tú la sección del solicitante.
+    sources: [h33]
+steps:
+  - id: court-order
+    title:
+      en: Get the court order you need
+      es: Obtén la orden judicial que necesitas
+    body:
+      en: For a **name** change, the probate court decree is enough. For a **sex** change, you need a court order stating your sex was changed by surgical procedure and your name was changed. Talk to a lawyer; there is no standard form for this order.
+      es: Para cambiar el **nombre**, basta el decreto del tribunal testamentario. Para cambiar el **sexo**, necesitas una orden que indique que tu sexo fue cambiado mediante cirugía y que tu nombre fue cambiado. Habla con un abogado; no hay formulario estándar para esta orden.
+    sources: [ala-22-9a-19]
+  - id: call-adph
+    title:
+      en: Call ADPH before a sex-marker request
+      es: Llama a ADPH antes de pedir el cambio de sexo
+    body:
+      en: Call a Birth Amendment Clerk at 334-206-2637 and ask whether ADPH is currently accepting § 22-9A-19(d) amendments after SB 79, and what the order must say.
+      es: Llama a un empleado de enmiendas al 334-206-2637 y pregunta si ADPH acepta actualmente enmiendas bajo el § 22-9A-19(d) después de la SB 79 y qué debe decir la orden.
+    applies_to: [gender_marker]
+    sources: [h33, sb79]
+  - id: mail
+    title:
+      en: Mail the application, order, ID, and fee
+      es: Envía por correo la solicitud, la orden, la identificación y la tarifa
+    body:
+      en: Mail the completed application, the certified court order, a copy of your ID, and a check or money order payable to "Center for Health Statistics" to Center for Health Statistics, Special Services Division, P.O. Box 5625, Montgomery, AL 36103-5625. Do not send cash.
+      es: Envía la solicitud completa, la orden certificada, una copia de tu identificación y un cheque o giro a nombre de "Center for Health Statistics" a Center for Health Statistics, Special Services Division, P.O. Box 5625, Montgomery, AL 36103-5625. No envíes efectivo.
+    forms: [ADPH-HS-33]
+    fees: [amendment, extra-copy, expedite]
+    applies_to: [by_mail]
+    sources: [h33]
+fees:
+  - id: amendment
+    label:
+      en: Amendment, including one certified copy
+      es: Enmienda, incluye una copia certificada
+    amount: 20
+    sources: [h33]
+  - id: extra-copy
+    label:
+      en: Each additional copy ordered at the same time
+      es: Cada copia adicional pedida al mismo tiempo
+    amount: 6
+    sources: [h33]
+  - id: expedite
+    label:
+      en: Optional expedite fee
+      es: Tarifa opcional de trámite urgente
+    amount: 15
+    sources: [h33]
+fee_waiver:
+  available: false
+  eligibility:
+    en: ADPH does not publish a fee waiver. Fees are non-refundable.
+    es: ADPH no publica una exención de tarifas. Las tarifas no son reembolsables.
+  sources: [h33]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: Amendments are handled by mail by the Center for Health Statistics in Montgomery. County health departments can print copies of an already-amended certificate.
+    es: Las enmiendas se tramitan por correo en el Centro de Estadísticas de Salud en Montgomery. Los departamentos de salud del condado pueden imprimir copias de un acta ya enmendada.
+  sources: [h33, adph-bc]
+timeline:
+  en: ADPH does not publish a processing time for amendments. Allow several weeks, or pay the $15 expedite fee.
+  es: ADPH no publica un plazo para las enmiendas. Calcula varias semanas o paga la tarifa urgente de $15.
+after:
+  en: |
+    Order extra certified copies at the same time ($6 each). If your sex marker was amended, you can bring the amended certificate to ALEA to request a matching driver's license under Policy Order 63.
+  es: |
+    Pide copias certificadas adicionales al mismo tiempo ($6 cada una). Si se enmendó tu marcador de sexo, puedes llevar el acta enmendada a ALEA para pedir una licencia que coincida según la Orden de Política 63.
+tips:
+  - en: Born in another state but living in Alabama? Your birth state's rules apply, and many states allow changes without surgery or a court order.
+    es: ¿Naciste en otro estado pero vives en Alabama? Aplican las reglas de tu estado de nacimiento, y muchos permiten cambios sin cirugía ni orden judicial.
+statutes:
+  - cite: Ala. Code § 22-9A-19
+    title:
+      en: Amendment of vital records, including (c)(3) name changes and (d) sex changes by surgical procedure
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=22-9A-19
+  - cite: Act 2025-3 (SB 79)
+    title:
+      en: Defines sex as observed or clinically verified at birth; agencies collecting vital statistics must identify each person as male or female
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SB79-enr.pdf
+related_links:
+  - title: Advocates for Trans Equality, Alabama identity documents
+    url: https://transequality.org/documents/alabama-identity-documents
+    note:
+      en: Birth certificate section undated; fees shown there are outdated.
+      es: Sección sin fecha; las tarifas que muestra están desactualizadas.
+sources:
+  - id: ala-22-9a-19
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=22-9A-19
+    title: Ala. Code § 22-9A-19, amendment of vital records
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Upon receipt of a certified copy of an order of a court of competent jurisdiction indicating that the sex of an individual born in this state has been changed by surgical procedure and that the name of the individual has been changed, the certificate of birth of the individual shall be amended as prescribed by rules to reflect the changes.
+  - id: h33
+    url: https://www.alabamapublichealth.gov/vitalrecords/assets/h33-full-amendment-package.pdf
+    title: Amendment Packet for Alabama Birth and Death Certificates (ADPH-HS-33)
+    publisher: Alabama Department of Public Health
+    kind: form
+    accessed: "2026-09-24"
+    quote: The fee to amend a birth certificate is $20.00 which includes one certified copy of the amended birth certificate. Additional copies of the same record ordered at the same time are $6.00 each. There is an additional fee of $15.00 to expedite a request.
+  - id: adph-bc
+    url: https://www.alabamapublichealth.gov/vitalrecords/birth-certificates.html
+    title: Birth Certificates
+    publisher: Alabama Department of Public Health
+    kind: official
+    accessed: "2026-09-24"
+    quote: You may go to any county health department in the State of Alabama to obtain a certified copy of an Alabama birth certificate.
+  - id: sb79
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SB79-enr.pdf
+    title: SB 79 (2025), Act 2025-3
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: shall identify each individual who is part of the collected data set as either male or female.

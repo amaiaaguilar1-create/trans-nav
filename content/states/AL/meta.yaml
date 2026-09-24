@@ -1,0 +1,140 @@
+code: AL
+name:
+  en: Alabama
+  es: Alabama
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate is based on primary sources read 2026-09-24: Ala. Code 22-9A-19(d) (birth certificate sex change needs a
+    court order that sex was changed by surgery), ALEA Policy Order 63 as quoted by the Eleventh Circuit in Corbitt v.
+    Secretary (Sept. 20, 2024), Act 2022-289 (V-CAP, Ala. Code 26-26-1 to -8), and Act 2025-3 (SB 79, the "What Is a
+    Woman Act", effective Oct. 1, 2025). MAP's Alabama profile agrees (negative law for both documents, youth care ban,
+    no shield law). Not confirmed: whether ALEA and ADPH still process surgery-based changes after SB 79 took effect.
+    equalityalabama.org is no longer an LGBTQ organization (the domain now hosts unrelated content); do not link it.
+overview:
+  en: >-
+    Alabama is a restrictive state for trans people. You can change your name in probate court with a short petition
+    and no publication, but changing the sex on an Alabama birth certificate or driver's license requires proof of
+    gender-affirming surgery, and a 2025 law (SB 79) defines sex in state law as sex "observed or clinically verified at
+    birth." Hormones, puberty blockers, and surgery are banned for anyone under 19 (Alabama's age of majority). Adults
+    can get care, and there is no shield law.
+  es: >-
+    Alabama es un estado restrictivo para las personas trans. Puedes cambiar tu nombre en el tribunal testamentario
+    (probate) con una petición breve y sin publicación, pero cambiar el sexo en un acta de nacimiento o licencia de
+    Alabama requiere prueba de cirugía de afirmación de género, y una ley de 2025 (SB 79) define el sexo en la ley
+    estatal como el sexo "observado o verificado clínicamente al nacer". Las hormonas, los bloqueadores de pubertad y la
+    cirugía están prohibidos para menores de 19 años (la mayoría de edad en Alabama). Los adultos pueden recibir
+    atención y no hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [map-al, sb79, vcap, corbitt]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [birmingham]
+key_resources:
+  - id: legal-services-alabama
+    name: Legal Services Alabama
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Statewide free civil legal aid for low-income Alabamians, with offices in Anniston/Gadsden, Birmingham, Dothan, Huntsville, Mobile, Montgomery, Selma, and Tuscaloosa. Apply online or call 866-456-4995.
+      es: Asistencia legal civil gratuita en todo el estado para personas de bajos ingresos, con oficinas en Anniston/Gadsden, Birmingham, Dothan, Huntsville, Mobile, Montgomery, Selma y Tuscaloosa. Solicita en línea o llama al 866-456-4995.
+    url: https://legalservicesalabama.org/
+    phone: "866-456-4995"
+    cost: free
+    verification: org_website
+    sources: [lsa]
+  - id: mcac
+    name: Magic City Acceptance Center (MCAC)
+    type: lgbtq_center
+    pillars: [mental_health]
+    description:
+      en: Birmingham LGBTQ+ center (a program of Birmingham AIDS Outreach) with youth programs for ages 13 to 20, adult programs for 21 and older, free support groups, case management, and shower and laundry services. Reports reaching people in 54 Alabama counties.
+      es: Centro LGBTQ+ de Birmingham (programa de Birmingham AIDS Outreach) con programas juveniles de 13 a 20 años, programas para adultos de 21 años o más, grupos de apoyo gratuitos, manejo de casos y servicio de duchas y lavandería. Atiende a personas en 54 condados de Alabama.
+    url: https://www.magiccityacceptancecenter.org/
+    address: 3130 3rd Avenue South, Birmingham, AL 35233
+    cost: free
+    verification: org_website
+    sources: [mcac]
+  - id: altrac
+    name: Alabama Transgender Rights Action Coalition (ALTRAC)
+    type: advocacy_org
+    pillars: [gender_marker, hrt]
+    description:
+      en: Statewide trans advocacy coalition that tracks anti-trans bills in the Alabama Legislature and explains what passed each session. Email info@altrac.works.
+      es: Coalición estatal de defensa trans que sigue los proyectos de ley anti-trans en la Legislatura de Alabama y explica qué se aprobó cada sesión. Correo info@altrac.works.
+    url: https://altrac.works/
+    cost: free
+    verification: org_website
+    sources: [altrac]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: map-al
+    url: https://www.mapresearch.org/equality_maps/profile_state/AL
+    title: Alabama equality profile
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+    quote: Driver's license gender marker and birth certificate gender marker scored as negative law; youth medical care ban; no shield law.
+  - id: sb79
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SB79-enr.pdf
+    title: SB 79 (2025), Act 2025-3, sex-based terms defined
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "SEX. When the term is used to classify or describe a natural person, the state of being male or female as observed or clinically verified at birth."
+  - id: vcap
+    url: https://alison.legislature.state.al.us/code-of-alabama?section=26-26-4
+    title: Ala. Code 26-26-4, Vulnerable Child Compassion and Protection Act
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A violation of this section is a Class C felony.
+  - id: corbitt
+    url: https://media.ca11.uscourts.gov/opinions/pub/files/202110486.pdf
+    title: Corbitt v. Secretary of the Alabama Law Enforcement Agency, No. 21-10486 (11th Cir. Sept. 20, 2024)
+    publisher: U.S. Court of Appeals for the Eleventh Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: the individual must submit a letter from the physician who performed the reassignment procedure, or else an amended birth certificate reflecting a changed sex designation.
+  - id: lsa
+    url: https://legalservicesalabama.org/
+    title: Legal Services Alabama
+    kind: org
+    accessed: "2026-09-24"
+    quote: The LSA law firm provides free, client-centered civil legal advocacy to low-income Alabamians
+  - id: mcac
+    url: https://www.magiccityacceptancecenter.org/
+    title: Magic City Acceptance Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Programming currently reaches individuals in 54 counties across alabama
+  - id: altrac
+    url: https://altrac.works/
+    title: Alabama Transgender Rights Action Coalition
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

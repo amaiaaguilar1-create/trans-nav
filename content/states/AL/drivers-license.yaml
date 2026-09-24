@@ -1,0 +1,226 @@
+guide_type: drivers_license
+jurisdiction: AL
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    ALEA publishes no page or form on sex-marker changes (checked the driver license, forms, and document
+    requirements pages 2026-09-24). The requirement comes from ALEA Policy Order 63 as quoted in Corbitt v. Secretary,
+    ALEA, No. 21-10486 (11th Cir. Sept. 20, 2024), which reversed the district court's injunction; ACLU lists the case
+    as closed Dec. 19, 2024. NOT CONFIRMED: whether ALEA still processes Policy Order 63 changes after SB 79 (Act
+    2025-3) took effect Oct. 1, 2025; ALTRAC wrote that SB 79 will "likely be used to deny" marker changes. Also not
+    confirmed: whether cards changed before Oct. 2025 are being reverted at renewal. MAP classifies Alabama's DL policy
+    as negative law. Fees ($31.25 duplicate, $36.25 license/ID) and name-update-by-mail instructions read on form
+    DL-100 (rev. 7/25/25) and ALEA's license page.
+status: restricted
+requirement_type: surgery_proof
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Alabama changes the sex on a driver's license or ID only if you show an amended birth certificate or a letter from
+    the surgeon who performed gender-affirming surgery (ALEA Policy Order 63). A federal appeals court upheld this rule
+    in 2024. It is unclear whether ALEA still makes these changes after the 2025 "What Is a Woman Act." Name changes are
+    available for $31.25.
+  es: >-
+    Alabama cambia el sexo en una licencia o identificación solo si presentas un acta de nacimiento enmendada o una
+    carta del cirujano que realizó la cirugía de afirmación de género (Orden de Política 63 de ALEA). Un tribunal federal
+    de apelaciones confirmó esta regla en 2024. No está claro si ALEA sigue haciendo estos cambios después de la ley
+    "What Is a Woman Act" de 2025. El cambio de nombre está disponible por $31.25.
+summary:
+  en: |
+    Driver's licenses and ID cards are issued by the **Alabama Law Enforcement Agency (ALEA)**, Driver License Division. ALEA takes the sex on your license from your birth certificate. Under an internal guidance document called **Policy Order 63**, you can change it only by submitting **either** an amended birth certificate showing the new sex **or** a letter from the physician who performed your "gender reassignment" surgery. ALEA has not published which surgeries it accepts; in the Corbitt case, a woman who had some gender-affirming surgery was refused because it was not "full" reassignment surgery.
+
+    In *Corbitt v. Secretary of ALEA* (September 20, 2024), the Eleventh Circuit upheld Policy Order 63, reversing a 2021 ruling that had struck it down. There is no active challenge.
+
+    **Since October 1, 2025**, SB 79 (Act 2025-3) defines "sex" throughout the Alabama Code as sex "observed or clinically verified at birth." We could not confirm whether ALEA still accepts surgeon letters or amended birth certificates after this law. Expect that a request may be refused. Alabama licenses show only M or F; there is no X.
+
+    **Name changes** work normally: bring your certified court order and updated Social Security card.
+  es: |
+    Las licencias e identificaciones las emite la **Agencia de Aplicación de la Ley de Alabama (ALEA)**, División de Licencias. ALEA toma el sexo de tu acta de nacimiento. Según un documento interno llamado **Orden de Política 63**, solo puedes cambiarlo presentando **o bien** un acta de nacimiento enmendada con el nuevo sexo, **o bien** una carta del médico que realizó tu cirugía de "reasignación de género". ALEA no ha publicado qué cirugías acepta; en el caso Corbitt, a una mujer con algunas cirugías se le negó porque no era una cirugía de reasignación "completa".
+
+    En *Corbitt v. Secretary of ALEA* (20 de septiembre de 2024), el Undécimo Circuito confirmó la Orden de Política 63 y revocó un fallo de 2021 que la había anulado. No hay una impugnación activa.
+
+    **Desde el 1 de octubre de 2025**, la SB 79 (Ley 2025-3) define "sexo" en todo el Código de Alabama como el sexo "observado o verificado clínicamente al nacer". No pudimos confirmar si ALEA sigue aceptando cartas de cirujanos o actas enmendadas después de esta ley. Es posible que rechacen la solicitud. Las licencias de Alabama solo muestran M o F; no hay X.
+
+    Los **cambios de nombre** funcionan normalmente: lleva tu orden judicial certificada y tu tarjeta del Seguro Social actualizada.
+eligibility:
+  residency:
+    en: You must hold or be applying for an Alabama driver's license or non-driver ID.
+    es: Debes tener o estar solicitando una licencia o identificación de Alabama.
+  other:
+    en: For a sex-marker change, ALEA requires an amended birth certificate or a letter from the surgeon who performed gender-affirming surgery. A provider letter about hormones or a court order alone is not enough.
+    es: Para cambiar el marcador de sexo, ALEA exige un acta de nacimiento enmendada o una carta del cirujano que realizó la cirugía. Una carta sobre hormonas o una orden judicial sola no bastan.
+  sources: [corbitt, sb79]
+forms:
+  - id: DL-100
+    name:
+      en: Application for Renewal or Duplicate of Alabama Driver License or ID Card (by mail)
+      es: Solicitud de renovación o duplicado de licencia o identificación de Alabama (por correo)
+    url: https://www.alea.gov/sites/default/files/DL100%20Renewal%20By%20Mail%207.28.25.pdf
+    required: conditional
+    condition:
+      en: Only if you are updating your name by mail and have had an Alabama card with your photo in the last four years. Otherwise go in person.
+      es: Solo si actualizas tu nombre por correo y has tenido una tarjeta de Alabama con tu foto en los últimos cuatro años. Si no, ve en persona.
+    how_to_fill:
+      en: |
+        - Check **Duplicate**.
+        - Include **photocopies** of your name change order and your updated Social Security card (the form asks for copies, not originals).
+        - Pay by money order or cashier's check to "ALEA Driver License Division" ($31.25 duplicate). No cash or personal checks.
+        - Mail to ALEA Driver License Division, PO Box 1471, Montgomery, AL 36102.
+      es: |
+        - Marca **Duplicate** (duplicado).
+        - Incluye **fotocopias** de tu orden de cambio de nombre y tu tarjeta del Seguro Social actualizada.
+        - Paga con giro postal o cheque de caja a "ALEA Driver License Division" ($31.25 por duplicado). No efectivo ni cheques personales.
+        - Envía a ALEA Driver License Division, PO Box 1471, Montgomery, AL 36102.
+    sources: [dl-100]
+steps:
+  - id: ssa-first
+    title:
+      en: Update Social Security first
+      es: Actualiza primero el Seguro Social
+    body:
+      en: ALEA checks your name against Social Security. Update your name there (form SS-5) and wait for the new card before going to ALEA.
+      es: ALEA verifica tu nombre con el Seguro Social. Actualiza tu nombre ahí (formulario SS-5) y espera la nueva tarjeta antes de ir a ALEA.
+    applies_to: [name_change]
+    sources: [dl-100, a4te-al]
+  - id: name-in-person
+    title:
+      en: Change your name in person or by mail
+      es: Cambia tu nombre en persona o por correo
+    body:
+      en: Go to an ALEA driver license office or county license office with your current card, certified name change order, and new Social Security card, or mail form DL-100 with photocopies. Pay the $31.25 duplicate fee. A STAR ID (REAL ID) cannot be first issued by mail.
+      es: Ve a una oficina de licencias de ALEA o del condado con tu tarjeta actual, la orden certificada y tu nueva tarjeta del Seguro Social, o envía el formulario DL-100 con fotocopias. Paga $31.25 por el duplicado. La STAR ID (REAL ID) no se emite por primera vez por correo.
+    forms: [DL-100]
+    fees: [duplicate]
+    applies_to: [name_change]
+    sources: [dl-100, alea-star]
+  - id: marker-request
+    title:
+      en: Ask about a sex-marker change (surgery proof required)
+      es: Pregunta por el cambio de marcador (se exige prueba de cirugía)
+    body:
+      en: If you have an amended Alabama birth certificate or a letter from your surgeon, bring it to an ALEA Driver License office (not a county office) with your current card. There is no form. Because of SB 79, ALEA may refuse; if it does, ask for the refusal in writing and contact ACLU of Alabama.
+      es: Si tienes un acta de nacimiento de Alabama enmendada o una carta de tu cirujano, llévala a una oficina de Licencias de ALEA (no del condado) con tu tarjeta actual. No hay formulario. Por la SB 79, ALEA podría negarse; si lo hace, pide la negativa por escrito y contacta a ACLU de Alabama.
+    fees: [duplicate]
+    applies_to: [gender_marker, in_person]
+    sources: [corbitt, sb79]
+fees:
+  - id: duplicate
+    label:
+      en: Duplicate license or ID (any class)
+      es: Duplicado de licencia o identificación (cualquier clase)
+    amount: 31.25
+    note:
+      en: A 4% convenience fee applies to card payments at offices. Seniors 62+ pay $5.50 for a non-driver ID; a disabled ID is $2 with a doctor's letter.
+      es: Se cobra un 4% adicional por pagos con tarjeta. Mayores de 62 pagan $5.50 por una identificación; la identificación por discapacidad cuesta $2 con carta médica.
+    sources: [dl-100, alea-cards]
+  - id: renewal
+    label:
+      en: Class D license or non-driver ID, new or renewal
+      es: Licencia clase D o identificación, nueva o renovación
+    amount: 36.25
+    sources: [dl-100, alea-cards]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No general fee waiver. Reduced fees exist only for seniors (62+) and people with a permanent disability.
+    es: No hay exención general. Solo hay tarifas reducidas para mayores de 62 y personas con discapacidad permanente.
+  sources: [dl-100]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Name updates can be done by mail with DL-100 if you had an Alabama photo card in the last four years. Sex-marker requests have no published process; go in person to an ALEA office.
+    es: Los cambios de nombre se pueden hacer por correo con el DL-100 si tuviste una tarjeta con foto en los últimos cuatro años. Para el marcador de sexo no hay proceso publicado; ve en persona a una oficina de ALEA.
+  sources: [dl-100]
+timeline:
+  en: In person, you leave with a temporary license the same day. By mail, allow several weeks.
+  es: En persona, sales con una licencia temporal el mismo día. Por correo, calcula varias semanas.
+after:
+  en: |
+    Keep your certified name change order with your records. If your license and passport or Social Security record show different sex markers, carry your old documents only if you need them to explain the difference; you are not required to disclose your medical history at a traffic stop.
+  es: |
+    Guarda tu orden de cambio de nombre certificada. Si tu licencia y tu pasaporte o registro del Seguro Social muestran marcadores distintos, lleva documentos anteriores solo si los necesitas para explicar la diferencia; no estás obligado a revelar tu historial médico en una parada de tránsito.
+tips:
+  - en: Moving to Alabama with an out-of-state license that shows a changed marker? ALEA uses your birth certificate, so expect your Alabama card to show the sex on it unless you meet Policy Order 63.
+    es: ¿Te mudas a Alabama con una licencia de otro estado con marcador cambiado? ALEA usa tu acta de nacimiento, así que espera que tu tarjeta muestre ese sexo a menos que cumplas la Orden de Política 63.
+  - en: County license offices handle renewals and duplicates; ALEA exam offices handle first-time STAR IDs and document questions.
+    es: Las oficinas del condado tramitan renovaciones y duplicados; las oficinas de ALEA tramitan STAR ID por primera vez y dudas de documentos.
+statutes:
+  - cite: Act 2025-3 (SB 79), amending Ala. Code § 1-1-1
+    title:
+      en: Defines sex as "observed or clinically verified at birth" throughout the Alabama Code; effective October 1, 2025
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SB79-enr.pdf
+litigation:
+  - case: Corbitt v. Secretary of the Alabama Law Enforcement Agency, No. 21-10486
+    court: U.S. Court of Appeals for the Eleventh Circuit
+    summary:
+      en: Trans Alabamians challenged Policy Order 63's surgery requirement. A district court struck it down in January 2021; on September 20, 2024 the Eleventh Circuit reversed, holding the policy constitutional.
+      es: Personas trans de Alabama impugnaron el requisito de cirugía de la Orden de Política 63. Un tribunal de distrito lo anuló en enero de 2021; el 20 de septiembre de 2024 el Undécimo Circuito revocó ese fallo y declaró la política constitucional.
+    effect_today:
+      en: Policy Order 63 is enforceable. The case is closed, so there is no court order helping applicants.
+      es: La Orden de Política 63 es aplicable. El caso está cerrado, así que no hay orden judicial que ayude a los solicitantes.
+    last_update: "2024-12-19"
+    url: https://www.aclu.org/cases/corbitt-v-taylor
+    sources: [corbitt, aclu-corbitt]
+related_links:
+  - title: Advocates for Trans Equality, Alabama identity documents
+    url: https://transequality.org/documents/alabama-identity-documents
+    note:
+      en: Last updated November 2021; predates Corbitt and SB 79.
+      es: Actualizado en noviembre de 2021; anterior a Corbitt y a la SB 79.
+sources:
+  - id: corbitt
+    url: https://media.ca11.uscourts.gov/opinions/pub/files/202110486.pdf
+    title: Corbitt v. Secretary of the Alabama Law Enforcement Agency, No. 21-10486 (11th Cir. Sept. 20, 2024)
+    publisher: U.S. Court of Appeals for the Eleventh Circuit
+    kind: court
+    accessed: "2026-09-24"
+    quote: The current version of Policy Order 63 requires the submission of either an amended birth certificate reflecting a changed sex designation or a letter from the physician who performed the reassignment procedure.
+  - id: aclu-corbitt
+    url: https://www.aclu.org/cases/corbitt-v-taylor
+    title: Corbitt v. Taylor
+    publisher: ACLU
+    kind: org
+    accessed: "2026-09-24"
+    quote: Eleventh Circuit reversed the lower court, ruling Alabama's refusal to issue accurate licenses did not violate the federal constitution
+  - id: sb79
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SB79-enr.pdf
+    title: SB 79 (2025), Act 2025-3
+    publisher: Alabama Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: "SEX. When the term is used to classify or describe a natural person, the state of being male or female as observed or clinically verified at birth."
+  - id: dl-100
+    url: https://www.alea.gov/sites/default/files/DL100%20Renewal%20By%20Mail%207.28.25.pdf
+    title: DL-100, Application for Renewal or Duplicate of Alabama Driver License or ID Card
+    publisher: Alabama Law Enforcement Agency
+    kind: form
+    accessed: "2026-09-24"
+    quote: "$31.25 - Any license Class/ID duplicate fee ... To update the name on your license/ID: Include photocopies of legal name change documentation and the updated social security card."
+  - id: alea-cards
+    url: https://www.alea.gov/dps/driver-license/license-and-id-cards
+    title: License and ID Cards
+    publisher: Alabama Law Enforcement Agency
+    kind: official
+    accessed: "2026-09-24"
+    quote: $36.25 to purchase non-driver identification card ... Credit Cards Accepted (MasterCard, Visa or Discover) convenience fee of 4% applies to the total charge.
+  - id: alea-star
+    url: https://www.alea.gov/dps/driver-license/star-id
+    title: STAR ID
+    publisher: Alabama Law Enforcement Agency
+    kind: official
+    accessed: "2026-09-24"
+    quote: County operated license offices will continue to provide renewals/duplicates for license, ID cards, and STAR ID.
+  - id: a4te-al
+    url: https://transequality.org/documents/alabama-identity-documents
+    title: Alabama identity documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: "Prerequisite: Update Social Security Administration records first."
