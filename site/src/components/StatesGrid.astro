@@ -1,0 +1,15 @@
+---
+import { type Locale } from '../i18n/ui';
+import { lt, localePath, type StateBundle } from '../lib/content';
+import { ALL_JURISDICTIONS } from '../lib/jurisdictions';
+const { states, locale } = Astro.props as { states: StateBundle[]; locale: Locale };
+const have = new Map(states.map((s) => [s.code, s]));
+---
+<ul class="state-grid">
+  {ALL_JURISDICTIONS.map((j) => {
+    const s = have.get(j.code);
+    return s
+      ? <li><a href={localePath(locale, `states/${j.code.toLowerCase()}`)}>{lt(s.meta.name, locale)}</a></li>
+      : <li><span class="soon" style="display:block;padding:.5rem .7rem;border:1px dashed var(--border);border-radius:8px;color:var(--muted)" title="Coming soon">{locale === 'es' ? j.es : j.en}</span></li>;
+  })}
+</ul>

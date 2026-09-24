@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/source-registry.json",
+  "title": "Monitoring source registry",
+  "description": "Every URL the monitor watches. Mostly generated from `sources[]` across content; hand-added entries cover feeds and APIs.",
+  "type": "object",
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "url": { "$ref": "common.json#/$defs/Url" },
+          "kind": { "type": "string", "enum": ["html", "pdf", "json_api", "rss", "docket"] },
+          "fetch": { "type": "string", "enum": ["plain", "browser"], "default": "plain", "description": "browser = headless Playwright for sites that block plain HTTP clients." },
+          "frequency": { "type": "string", "enum": ["daily", "weekly", "monthly"], "default": "weekly" },
+          "selector": { "type": "string", "description": "Optional CSS selector to scope the watched region." },
+          "linked_content": { "type": "array", "items": { "type": "string" }, "description": "Repo-relative content paths that cite this source." },
+          "jurisdiction": { "type": "string", "pattern": "^(US|[A-Z]{2})$" },
+          "severity_hint": { "type": "string", "enum": ["critical", "normal", "low"], "default": "normal" }
+        },
+        "required": ["id", "url", "kind", "linked_content"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["sources"],
+  "additionalProperties": false
+}

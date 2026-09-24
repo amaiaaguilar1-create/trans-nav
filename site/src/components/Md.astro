@@ -1,0 +1,6 @@
+---
+/** Renders a small, safe subset of Markdown (paragraphs, **bold**, *italic*, [links](url), `code`, lists). No raw HTML. */
+import { renderMd } from '../lib/md';
+const { text } = Astro.props as { text: string };
+---
+<Fragment set:html={renderMd(text)} />

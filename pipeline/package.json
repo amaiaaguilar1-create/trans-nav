@@ -1,0 +1,23 @@
+{
+  "name": "pipeline",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Content validation, type generation, research, monitoring, ingest, and translation scripts. Run by GitHub Actions and locally.",
+  "scripts": {
+    "validate": "tsx src/validate.ts",
+    "gen-types": "tsx src/gen-types.ts",
+    "registry": "tsx src/build-registry.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^15.0.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "@types/node": "^24.5.2"
+  }
+}

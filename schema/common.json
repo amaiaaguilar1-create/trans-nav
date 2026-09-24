@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/common.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "LocalizedText": {
+      "type": "object",
+      "description": "Prose in English with optional Spanish. Spanish review state is tracked at the document level in `review.es_status`.",
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "es": { "type": "string", "minLength": 1 }
+      },
+      "required": ["en"],
+      "additionalProperties": false
+    },
+    "ISODate": { "type": "string", "format": "date", "description": "YYYY-MM-DD" },
+    "Url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "Status": {
+      "type": "string",
+      "description": "available: the change can be made today. restricted: possible only under narrow conditions (e.g. surgery proof, court order). prohibited: not possible. litigation: availability is actively changing due to a court case; read the banner. unclear: policy is unwritten or inconsistently applied.",
+      "enum": ["available", "restricted", "prohibited", "litigation", "unclear"]
+    },
+    "RequirementType": {
+      "type": "string",
+      "description": "What the agency requires to change a sex/gender marker.",
+      "enum": [
+        "self_attestation",
+        "provider_letter_any",
+        "provider_letter_limited",
+        "court_order",
+        "amended_birth_certificate",
+        "surgery_proof",
+        "prohibited",
+        "unclear"
+      ]
+    },
+    "Marker": { "type": "string", "enum": ["M", "F", "X"] },
+    "Confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+    "Review": {
+      "type": "object",
+      "description": "Editorial state. The site shows `last_verified` and a badge derived from `status`.",
+      "properties": {
+        "status": { "type": "string", "enum": ["draft", "reviewed"], "description": "draft = AI-drafted or unreviewed; reviewed = a human checked every claim against its source." },
+        "last_verified": { "$ref": "#/$defs/ISODate" },
+        "verified_by": { "type": "string", "description": "GitHub handle or 'ai-draft'." },
+        "confidence": { "$ref": "#/$defs/Confidence" },
+        "es_status": { "type": "string", "enum": ["missing", "machine_draft", "reviewed"], "default": "missing" },
+        "notes": { "type": "string", "description": "Internal reviewer notes, not rendered." }
+      },
+      "required": ["status", "last_verified", "verified_by", "confidence"],
+      "additionalProperties": false
+    },
+    "Source": {
+      "type": "object",
+      "description": "A citation. Every rendered claim must trace to one of these via its `id`.",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "url": { "$ref": "#/$defs/Url" },
+        "title": { "type": "string" },
+        "publisher": { "type": "string" },
+        "kind": { "type": "string", "enum": ["official", "statute", "regulation", "court", "form", "org", "news", "community"] },
+        "accessed": { "$ref": "#/$defs/ISODate" },
+        "quote": { "type": "string", "description": "Short excerpt supporting the claim, for reviewers and change detection." },
+        "watch": { "type": "boolean", "default": true, "description": "Include in the monitoring registry." }
+      },
+      "required": ["id", "url", "title", "kind", "accessed"],
+      "additionalProperties": false
+    },
+    "SourceRefs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Ids from this document's `sources` array."
+    },
+    "Citation": {
+      "type": "object",
+      "properties": {
+        "cite": { "type": "string", "description": "e.g. Cal. Code Civ. Proc. § 1277" },
+        "title": { "$ref": "#/$defs/LocalizedText" },
+        "url": { "$ref": "#/$defs/Url" }
+      },
+      "required": ["cite", "url"],
+      "additionalProperties": false
+    },
+    "Fee": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "label": { "$ref": "#/$defs/LocalizedText" },
+        "amount": { "type": "number", "minimum": 0, "description": "Use when the fee is a single statewide number." },
+        "min": { "type": "number", "minimum": 0 },
+        "max": { "type": "number", "minimum": 0 },
+        "varies_by": { "type": "string", "enum": ["county", "court", "office", "vendor"] },
+        "waivable": { "type": "boolean" },
+        "note": { "$ref": "#/$defs/LocalizedText" },
+        "sources": { "$ref": "#/$defs/SourceRefs" }
+      },
+      "required": ["id", "label", "sources"],
+      "additionalProperties": false
+    },
+    "Form": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Agency form number, e.g. NC-100, DL 329, VS 24." },
+        "name": { "$ref": "#/$defs/LocalizedText" },
+        "url": { "$ref": "#/$defs/Url" },
+        "url_es": { "$ref": "#/$defs/Url", "description": "Official Spanish version if the agency publishes one." },
+        "required": { "type": "string", "enum": ["always", "conditional", "optional"] },
+        "condition": { "$ref": "#/$defs/LocalizedText" },
+        "how_to_fill": { "$ref": "#/$defs/LocalizedText", "description": "Plain-language, field-level tips. Markdown allowed." },
+        "sources": { "$ref": "#/$defs/SourceRefs" }
+      },
+      "required": ["id", "name", "url", "required", "sources"],
+      "additionalProperties": false
+    },
+    "Step": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "title": { "$ref": "#/$defs/LocalizedText" },
+        "body": { "$ref": "#/$defs/LocalizedText", "description": "Markdown allowed." },
+        "forms": { "type": "array", "items": { "type": "string" }, "description": "Form ids from this document's `forms`." },
+        "fees": { "type": "array", "items": { "type": "string" }, "description": "Fee ids from this document's `fees`." },
+        "applies_to": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["adult", "minor", "name_change", "gender_marker", "in_person", "by_mail", "online"] },
+          "description": "Used by the checklist builder to filter steps. Omit for steps that always apply."
+        },
+        "optional": { "type": "boolean", "default": false },
+        "estimated_time": { "$ref": "#/$defs/LocalizedText" },
+        "sources": { "$ref": "#/$defs/SourceRefs" }
+      },
+      "required": ["id", "title", "body", "sources"],
+      "additionalProperties": false
+    },
+    "Litigation": {
+      "type": "object",
+      "properties": {
+        "case": { "type": "string" },
+        "court": { "type": "string" },
+        "summary": { "$ref": "#/$defs/LocalizedText" },
+        "effect_today": { "$ref": "#/$defs/LocalizedText", "description": "What the case means for someone applying right now." },
+        "last_update": { "$ref": "#/$defs/ISODate" },
+        "url": { "$ref": "#/$defs/Url" },
+        "sources": { "$ref": "#/$defs/SourceRefs" }
+      },
+      "required": ["case", "summary", "effect_today", "last_update", "sources"],
+      "additionalProperties": false
+    },
+    "ResourceType": {
+      "type": "string",
+      "enum": [
+        "legal_aid",
+        "name_change_clinic",
+        "lgbtq_center",
+        "fund",
+        "hrt_clinic",
+        "informed_consent_clinic",
+        "telehealth_hrt",
+        "primary_care",
+        "sexual_health",
+        "mental_health",
+        "hotline",
+        "insurance_help",
+        "government_office",
+        "advocacy_org",
+        "other"
+      ]
+    },
+    "Resource": {
+      "type": "object",
+      "description": "A place, org, program, or fund a person can contact. Inline in state/local files; national ones live in content/orgs and are referenced by `org`.",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "org": { "type": "string", "description": "Id of an entry in content/orgs, when this resource is a national org's local presence." },
+        "name": { "type": "string" },
+        "type": { "$ref": "#/$defs/ResourceType" },
+        "pillars": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["name_change", "gender_marker", "hrt", "sexual_health", "mental_health", "insurance"] },
+          "minItems": 1
+        },
+        "description": { "$ref": "#/$defs/LocalizedText" },
+        "url": { "$ref": "#/$defs/Url" },
+        "phone": { "type": "string" },
+        "address": { "type": "string", "description": "Public business address only. Never a private residence." },
+        "areas_served": { "$ref": "#/$defs/LocalizedText" },
+        "cost": { "type": "string", "enum": ["free", "sliding_scale", "low_cost", "insurance", "paid", "varies", "unknown"] },
+        "accepts_medicaid": { "type": "boolean" },
+        "accepts_uninsured": { "type": "boolean" },
+        "telehealth": { "type": "boolean" },
+        "languages": { "type": "array", "items": { "type": "string" } },
+        "verification": { "type": "string", "enum": ["official_source", "org_website", "community_reported", "unverified"] },
+        "sources": { "$ref": "#/$defs/SourceRefs" }
+      },
+      "required": ["id", "name", "type", "pillars", "description", "verification", "sources"],
+      "additionalProperties": false
+    },
+    "PendingBill": {
+      "type": "object",
+      "properties": {
+        "bill": { "type": "string", "description": "e.g. HB 1234 (2026)" },
+        "summary": { "$ref": "#/$defs/LocalizedText" },
+        "status": { "type": "string", "enum": ["introduced", "in_committee", "passed_one_chamber", "passed", "signed", "vetoed", "enjoined", "dead"] },
+        "last_action": { "$ref": "#/$defs/ISODate" },
+        "url": { "$ref": "#/$defs/Url" },
+        "sources": { "$ref": "#/$defs/SourceRefs" }
+      },
+      "required": ["bill", "summary", "status", "last_action", "sources"],
+      "additionalProperties": false
+    }
+  }
+}

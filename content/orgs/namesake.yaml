@@ -1,0 +1,25 @@
+id: namesake
+name: Namesake
+url: https://namesake.fyi/
+type: other
+pillars: [name_change, gender_marker]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: Open source (github.com/namesakefyi). Supported states per research on 2026-09-23 were Massachusetts and Rhode Island; confirm current list.
+description:
+  en: Free, open-source web tool that fills out legal name and gender marker change paperwork with step-by-step guidance. Full support for Massachusetts and Rhode Island, with more states in progress.
+  es: Herramienta web gratuita y de código abierto que llena los formularios de cambio de nombre y marcador de género con guía paso a paso. Soporte completo para Massachusetts y Rhode Island; más estados en desarrollo.
+scope: multi_state
+states_served: [MA, RI]
+cost: free
+program_status: active
+sources:
+  - id: namesake
+    url: https://namesake.fyi/
+    title: Namesake
+    kind: org
+    accessed: "2026-09-23"

@@ -1,0 +1,27 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt, localePath, type StateBundle } from '../lib/content';
+import type { DocumentGuide } from '../types/content';
+import StatusPill from '../components/StatusPill.astro';
+import StatesGrid from '../components/StatesGrid.astro';
+
+const { states, federal, locale } = Astro.props as { states: StateBundle[]; federal: DocumentGuide[]; locale: Locale };
+const _ = t(locale);
+---
+<h1>{_('site.name')}</h1>
+<p class="lead">{_('site.tagline')}</p>
+
+<h2>{_('home.pick_state')}</h2>
+<StatesGrid states={states} locale={locale} />
+
+<h2>{_('home.federal_heading')}</h2>
+<p>{_('home.federal_intro')}</p>
+<div class="cards">
+  {federal.map((g) => (
+    <a class="card" href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)} style="text-decoration:none;color:inherit">
+      <h3>{_(`guide.${g.guide_type}` as const)}</h3>
+      <div class="tags"><StatusPill status={g.status} locale={locale} />{g.name_change_status && <StatusPill status={g.name_change_status} locale={locale} label={_('name_change_status.label')} />}</div>
+      <p class="small">{lt(g.status_summary, locale)}</p>
+    </a>
+  ))}
+</div>

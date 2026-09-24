@@ -1,0 +1,109 @@
+---
+/**
+ * Single router for every page in both locales. Routes:
+ *   /                          /es/
+ *   /states/                   /es/states/
+ *   /states/ca/                /es/states/ca/
+ *   /states/ca/name-change/    (+ drivers-license, birth-certificate, care)
+ *   /states/ca/local/los-angeles/
+ *   /federal/                  /federal/passport/ (+ social-security, uscis, tsa-global-entry)
+ *   /about/  /privacy/
+ * Generating both locales from one file keeps the route table DRY.
+ */
+import Base from '../layouts/Base.astro';
+import { locales, t, type Locale } from '../i18n/ui';
+import { loadStates, loadFederal, loadOrgs, lt, guideSlug, GUIDE_TYPES, localePath, type StateBundle } from '../lib/content';
+import type { DocumentGuide } from '../types/content';
+import HomeView from '../views/HomeView.astro';
+import StateView from '../views/StateView.astro';
+import GuideView from '../views/GuideView.astro';
+import CareView from '../views/CareView.astro';
+import LocalView from '../views/LocalView.astro';
+import FederalIndexView from '../views/FederalIndexView.astro';
+import StaticPage from '../views/StaticPage.astro';
+import StatesGrid from '../components/StatesGrid.astro';
+
+type Route =
+  | { kind: 'home' }
+  | { kind: 'states' }
+  | { kind: 'state'; state: StateBundle }
+  | { kind: 'guide'; state: StateBundle; guideType: (typeof GUIDE_TYPES)[number] }
+  | { kind: 'care'; state: StateBundle }
+  | { kind: 'local'; state: StateBundle; slug: string }
+  | { kind: 'federal' }
+  | { kind: 'federal_guide'; guide: DocumentGuide }
+  | { kind: 'static'; page: 'about' | 'privacy' };
+
+export async function getStaticPaths() {
+  const states = await loadStates();
+  const federal = await loadFederal();
+  const orgs = await loadOrgs();
+  const out: { params: { path: string | undefined }; props: { locale: Locale; route: Route; states: StateBundle[]; federal: DocumentGuide[]; orgs: typeof orgs } }[] = [];
+
+  for (const locale of locales) {
+    const add = (path: string, route: Route) => {
+      const full = locale === 'en' ? path : path ? `es/${path}` : 'es';
+      out.push({ params: { path: full || undefined }, props: { locale, route, states, federal, orgs } });
+    };
+    add('', { kind: 'home' });
+    add('states', { kind: 'states' });
+    add('federal', { kind: 'federal' });
+    add('about', { kind: 'static', page: 'about' });
+    add('privacy', { kind: 'static', page: 'privacy' });
+    for (const g of federal) add(`federal/${g.guide_type.replace(/_/g, '-')}`, { kind: 'federal_guide', guide: g });
+    for (const s of states) {
+      const base = `states/${s.code.toLowerCase()}`;
+      add(base, { kind: 'state', state: s });
+      for (const gt of GUIDE_TYPES) if (s.guides[gt]) add(`${base}/${guideSlug[gt]}`, { kind: 'guide', state: s, guideType: gt });
+      if (s.care) add(`${base}/care`, { kind: 'care', state: s });
+      for (const c of s.cities) add(`${base}/local/${c.slug}`, { kind: 'local', state: s, slug: c.slug });
+    }
+  }
+  return out;
+}
+
+const { locale, route, states, federal, orgs } = Astro.props;
+const _ = t(locale);
+const rawPath = (Astro.params.path ?? '').replace(/^es\/?/, '');
+
+let title = _('site.name');
+let description: string | undefined;
+let crumbs: { href: string; label: string }[] = [];
+
+if (route.kind === 'state') {
+  title = lt(route.state.meta.name, locale);
+  description = lt(route.state.meta.overview, locale);
+  crumbs = [{ href: localePath(locale, 'states'), label: _('nav.states') }];
+} else if (route.kind === 'guide' || route.kind === 'care' || route.kind === 'local') {
+  const sName = lt(route.state.meta.name, locale);
+  const sub = route.kind === 'guide' ? _(`guide.${route.guideType}` as const) : route.kind === 'care' ? _('guide.care') : route.state.cities.find((c) => c.slug === route.slug)?.name ?? route.slug;
+  title = `${sub} · ${sName}`;
+  if (route.kind === 'guide') description = lt(route.state.guides[route.guideType]!.status_summary, locale);
+  if (route.kind === 'care') description = lt(route.state.care!.status_summary, locale);
+  crumbs = [{ href: localePath(locale, 'states'), label: _('nav.states') }, { href: localePath(locale, `states/${route.state.code.toLowerCase()}`), label: sName }];
+} else if (route.kind === 'federal_guide') {
+  title = _(`guide.${route.guide.guide_type}` as const);
+  description = lt(route.guide.status_summary, locale);
+  crumbs = [{ href: localePath(locale, 'federal'), label: _('nav.federal') }];
+} else if (route.kind === 'federal') title = _('nav.federal');
+else if (route.kind === 'states') title = _('nav.states');
+else if (route.kind === 'static') title = route.page === 'about' ? _('nav.about') : _('footer.privacy');
+---
+<Base title={title} description={description} locale={locale} path={rawPath}>
+  {crumbs.length > 0 && (
+    <nav class="crumbs" aria-label="Breadcrumb">
+      {crumbs.map((c) => <><a href={c.href}>{c.label}</a> › </>)}<span>{title.split(' · ')[0]}</span>
+    </nav>
+  )}
+  {route.kind !== 'home' && route.kind !== 'static' && route.kind !== 'federal' && <h1>{title}</h1>}
+
+  {route.kind === 'home' && <HomeView states={states} federal={federal} locale={locale} />}
+  {route.kind === 'states' && <StatesGrid states={states} locale={locale} />}
+  {route.kind === 'state' && <StateView state={route.state} locale={locale} />}
+  {route.kind === 'guide' && <GuideView guide={route.state.guides[route.guideType]!} locale={locale} />}
+  {route.kind === 'care' && <CareView care={route.state.care!} orgs={orgs} locale={locale} />}
+  {route.kind === 'local' && <LocalView local={route.state.cities.find((c) => c.slug === route.slug)!} locale={locale} />}
+  {route.kind === 'federal' && <FederalIndexView federal={federal} locale={locale} />}
+  {route.kind === 'federal_guide' && <GuideView guide={route.guide} locale={locale} />}
+  {route.kind === 'static' && <StaticPage page={route.page} locale={locale} />}
+</Base>

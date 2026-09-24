@@ -1,0 +1,57 @@
+---
+/** About and Privacy pages. Bilingual copy lives here rather than in YAML because it is site copy, not jurisdiction data. */
+import type { Locale } from '../i18n/ui';
+const { page, locale } = Astro.props as { page: 'about' | 'privacy'; locale: Locale };
+
+const copy = {
+  about: {
+    en: {
+      title: 'About this project',
+      body: [
+        'This site collects, in one place, what a transgender person needs to change their legal name, update the gender marker on their documents, and find gender-affirming care, for every US state and for federal documents.',
+        'It was started by someone who went through the process and kept running into scattered, outdated, or contradictory information. Rules change often, especially since 2025, and they change differently in every state.',
+        'How it stays current: automated checks watch the official pages we cite and flag changes. A person reviews every change before it is published. Each page shows when it was last verified. Pages marked "Draft" were written with AI from official sources and have not yet been checked line by line.',
+        'This site is not a law firm or a medical provider and nothing here is legal or medical advice. We link to organizations that can help you directly. If you find something wrong or out of date, please tell us using the report link in the footer.',
+        'We build on the work of others and link to them rather than copying: Advocates for Trans Equality, the Movement Advancement Project, Namesake, Erin Reed, Trans Legislation Tracker, and many local organizations.',
+      ],
+    },
+    es: {
+      title: 'Acerca de este proyecto',
+      body: [
+        'Este sitio reúne en un solo lugar lo que una persona trans necesita para cambiar su nombre legal, actualizar el marcador de género en sus documentos y encontrar atención de afirmación de género, en cada estado de EE. UU. y para documentos federales.',
+        'Lo inició una persona que pasó por el proceso y se topó una y otra vez con información dispersa, desactualizada o contradictoria. Las reglas cambian con frecuencia, sobre todo desde 2025, y cambian de manera distinta en cada estado.',
+        'Cómo se mantiene al día: revisiones automáticas vigilan las páginas oficiales que citamos y señalan cambios. Una persona revisa cada cambio antes de publicarlo. Cada página muestra cuándo se verificó por última vez. Las páginas marcadas como "Borrador" se redactaron con IA a partir de fuentes oficiales y aún no se han revisado línea por línea.',
+        'Este sitio no es un despacho de abogados ni un proveedor médico, y nada aquí es asesoría legal ni médica. Enlazamos a organizaciones que pueden ayudarte directamente. Si encuentras algo incorrecto o desactualizado, avísanos con el enlace de reporte al pie de página.',
+        'Nos apoyamos en el trabajo de otras organizaciones y enlazamos a ellas en lugar de copiarlas: Advocates for Trans Equality, Movement Advancement Project, Namesake, Erin Reed, Trans Legislation Tracker y muchas organizaciones locales.',
+      ],
+    },
+  },
+  privacy: {
+    en: {
+      title: 'Privacy',
+      body: [
+        'You do not need an account and we do not ask who you are.',
+        'We do not use advertising trackers, fingerprinting, or third-party analytics that identify you. Our hosting provider (Cloudflare) records aggregate, anonymous page counts.',
+        'Anything you save on this site, such as a checklist, is stored only in your own browser. It never leaves your device. You can delete it any time from the page where you saved it, or by clearing your browser data.',
+        'If you use the chat assistant, your question is sent to an AI provider to generate an answer and is not stored by us afterwards. Do not include your name, address, or other identifying details in a question.',
+        'The "Quick exit" button, and pressing Escape twice, immediately replaces this page with an unrelated website. It does not clear your browser history; use a private window if you need that.',
+        'Links to other websites are subject to those sites\' own privacy practices.',
+      ],
+    },
+    es: {
+      title: 'Privacidad',
+      body: [
+        'No necesitas una cuenta y no te pedimos quién eres.',
+        'No usamos rastreadores publicitarios, huellas digitales del navegador ni analíticas de terceros que te identifiquen. Nuestro proveedor de hosting (Cloudflare) registra conteos de páginas anónimos y agregados.',
+        'Todo lo que guardes en este sitio, como una lista de pasos, se almacena solo en tu propio navegador. Nunca sale de tu dispositivo. Puedes borrarlo en cualquier momento desde la página donde lo guardaste o limpiando los datos del navegador.',
+        'Si usas el asistente de chat, tu pregunta se envía a un proveedor de IA para generar la respuesta y nosotros no la guardamos después. No incluyas tu nombre, dirección u otros datos identificativos en una pregunta.',
+        'El botón de "Salida rápida", o presionar Escape dos veces, reemplaza de inmediato esta página con un sitio web no relacionado. No borra tu historial del navegador; usa una ventana privada si lo necesitas.',
+        'Los enlaces a otros sitios web están sujetos a las prácticas de privacidad de esos sitios.',
+      ],
+    },
+  },
+} as const;
+const c = copy[page][locale];
+---
+<h1>{c.title}</h1>
+{c.body.map((p) => <p>{p}</p>)}

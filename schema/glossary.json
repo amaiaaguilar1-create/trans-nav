@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/glossary.json",
+  "title": "Glossary",
+  "type": "object",
+  "properties": {
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+          "term": { "$ref": "common.json#/$defs/LocalizedText" },
+          "definition": { "$ref": "common.json#/$defs/LocalizedText" }
+        },
+        "required": ["id", "term", "definition"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["terms"],
+  "additionalProperties": false
+}

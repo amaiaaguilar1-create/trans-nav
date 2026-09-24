@@ -1,0 +1,85 @@
+guide_type: uscis
+jurisdiction: US
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Based on Immigration Equality's January 2026 FAQ and the USCIS Policy Manual. Reviewer: confirm current I-90 and N-565 fees on uscis.gov and whether USCIS still accepts court orders for name changes on all document types.
+status: prohibited
+name_change_status: available
+requirement_type: prohibited
+markers_available: [M, F]
+status_summary:
+  en: >-
+    USCIS now issues green cards, work permits, naturalization certificates, and travel documents showing only M or F
+    based on sex at birth, following the January 2025 executive order. Previously self-selected or X markers are no
+    longer honored on new documents. Name changes with a court order are still processed.
+  es: >-
+    USCIS ahora emite tarjetas de residencia, permisos de trabajo, certificados de naturalización y documentos de viaje
+    solo con M o F según el sexo al nacer, tras la orden ejecutiva de enero de 2025. Los cambios de nombre con orden
+    judicial se siguen procesando.
+summary:
+  en: |
+    In 2024 USCIS had begun accepting self-attested gender and an X option on some forms. After Executive Order 14168, USCIS updated its Policy Manual to recognize only two sexes as recorded at birth and applies that across all benefit documents.
+
+    If you need to change the **name** on a green card (Form I-90), work permit (I-765 renewal), or naturalization/citizenship certificate (N-565), file the usual form with a certified court order. Fees apply and can be high; a fee waiver (Form I-912) is available for some forms if you receive means-tested benefits or have low income.
+
+    Immigration situations are individual and the stakes are high. Talk to an immigration attorney or Immigration Equality before filing anything that could draw attention to your case.
+  es: |
+    Tras la Orden Ejecutiva 14168, USCIS actualizó su Manual de Políticas para reconocer solo dos sexos según el registro al nacer y lo aplica a todos los documentos.
+
+    Si necesitas cambiar el **nombre** en una tarjeta de residencia (I-90), permiso de trabajo o certificado de naturalización (N-565), presenta el formulario habitual con una orden judicial certificada. Hay tarifas; existe exención (I-912) para algunos formularios.
+
+    Consulta con un abogado de inmigración o con Immigration Equality antes de presentar algo que pueda llamar la atención sobre tu caso.
+steps:
+  - id: consult
+    title:
+      en: Get advice before filing
+      es: Busca asesoría antes de presentar
+    body:
+      en: Immigration Equality runs a free legal helpline for LGBTQ and HIV-positive immigrants. Filing a replacement document can trigger a review of your status; make sure that is safe in your situation.
+      es: Immigration Equality tiene una línea legal gratuita para inmigrantes LGBTQ y VIH positivos. Presentar un reemplazo puede desencadenar una revisión de tu estatus; asegúrate de que sea seguro en tu situación.
+    sources: [ie-faq, ie-helpline]
+  - id: name-change
+    title:
+      en: Update your name on the right form
+      es: Actualiza tu nombre en el formulario correcto
+    body:
+      en: |
+        - Green card: Form I-90 (replacement), with certified court order.
+        - Work permit (EAD): file a new I-765 when you next renew, with the court order.
+        - Naturalization or citizenship certificate: Form N-565, with the court order.
+        - Check the current fee on each form's USCIS page and whether Form I-912 (fee waiver) applies.
+      es: |
+        - Tarjeta de residencia: Formulario I-90 con orden judicial certificada.
+        - Permiso de trabajo: nuevo I-765 en la próxima renovación, con la orden judicial.
+        - Certificado de naturalización o ciudadanía: Formulario N-565 con la orden judicial.
+        - Revisa la tarifa actual y si aplica la exención I-912.
+    sources: [ie-faq]
+fee_waiver:
+  available: true
+  eligibility:
+    en: Form I-912 fee waiver is available for some forms (including I-90 and N-565) if you receive a means-tested benefit, your household income is at or below 150% of the federal poverty guidelines, or you have a financial hardship.
+    es: La exención I-912 está disponible para algunos formularios (incluidos I-90 y N-565) si recibes un beneficio basado en ingresos, tu ingreso familiar es igual o menor al 150% de las guías federales de pobreza, o tienes dificultades económicas.
+  sources: [ie-faq]
+related_links:
+  - title: Immigration Equality, FAQs on the gender executive order, forms, and documents
+    url: https://immigrationequality.org/wp-content/uploads/2026/01/1.8.Gender-EO_FAQs-on-forms-and-Docs_-01-06-2026-Update-FINAL-1.pdf
+  - title: USCIS Policy Manual
+    url: https://www.uscis.gov/policy-manual
+sources:
+  - id: ie-faq
+    url: https://immigrationequality.org/wp-content/uploads/2026/01/1.8.Gender-EO_FAQs-on-forms-and-Docs_-01-06-2026-Update-FINAL-1.pdf
+    title: FAQs on the gender executive order, forms, and documents (updated Jan. 6, 2026)
+    publisher: Immigration Equality
+    kind: org
+    accessed: "2026-09-23"
+  - id: ie-helpline
+    url: https://immigrationequality.org/legal/legal-help/
+    title: Legal help
+    publisher: Immigration Equality
+    kind: org
+    accessed: "2026-09-23"

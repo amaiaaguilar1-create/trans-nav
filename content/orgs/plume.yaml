@@ -1,0 +1,31 @@
+id: plume
+name: Plume
+url: https://getplume.co/
+type: telehealth_hrt
+pillars: [hrt]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: Coverage and price from the company site via research on 2026-09-23; confirm state list and current monthly fee.
+description:
+  en: Trans-led telehealth service providing informed-consent hormone therapy, lab orders, and letters for surgery and documents, by app and video visit.
+  es: Servicio de telesalud dirigido por personas trans que ofrece terapia hormonal por consentimiento informado, órdenes de laboratorio y cartas para cirugía y documentos, por app y videollamada.
+scope: national
+states_served: [ALL]
+cost: paid
+cost_detail:
+  en: Flat monthly membership (about $99/month as of 2025); medications and labs billed separately, often covered by insurance or discount programs.
+  es: Membresía mensual fija (alrededor de $99/mes en 2025); medicamentos y laboratorios se cobran por separado.
+accepts_insurance: false
+serves_minors: false
+telehealth: true
+program_status: active
+sources:
+  - id: plume
+    url: https://getplume.co/
+    title: Plume
+    kind: org
+    accessed: "2026-09-23"

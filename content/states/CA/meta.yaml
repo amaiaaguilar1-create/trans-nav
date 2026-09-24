@@ -1,0 +1,80 @@
+code: CA
+name:
+  en: California
+  es: California
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+overview:
+  en: >-
+    California is among the most protective states for trans people. Name changes to match gender identity need no
+    publication or hearing, driver's licenses and birth certificates offer M, F, or X by self-attestation, Medi-Cal and
+    regulated private insurance must cover gender-affirming care, and a shield law (SB 107) protects patients and
+    providers from other states' bans. Federal documents (passport, Social Security) are the exception: their sex
+    fields are currently frozen nationwide.
+  es: >-
+    California es uno de los estados que más protege a las personas trans. Los cambios de nombre por identidad de
+    género no requieren publicación ni audiencia, las licencias y actas de nacimiento ofrecen M, F o X por declaración
+    propia, Medi-Cal y los seguros privados regulados deben cubrir la atención de afirmación de género, y una ley
+    escudo (SB 107) protege a pacientes y proveedores de las prohibiciones de otros estados. Los documentos federales
+    (pasaporte, Seguro Social) son la excepción: sus campos de sexo están congelados a nivel nacional.
+climate:
+  id_documents: protective
+  care: protective
+  shield_law: true
+  sources: [sb107, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [los-angeles]
+key_resources:
+  - id: tlc
+    name: Transgender Law Center
+    type: legal_aid
+    pillars: [name_change, gender_marker, insurance]
+    description:
+      en: Oakland-based national trans legal organization; legal information helpline and California ID document guides.
+      es: Organización legal trans nacional con sede en Oakland; línea de información legal y guías de documentos para California.
+    url: https://transgenderlawcenter.org/
+    cost: free
+    verification: org_website
+    sources: [tlc]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860. Also runs microgrants for ID document fees when funding allows.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860. También otorga microsubvenciones para tarifas de documentos cuando hay fondos.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: sb107
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB107
+    title: SB 107 (2022), Gender-affirming health care shield law
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-23"
+  - id: tlc
+    url: https://transgenderlawcenter.org/
+    title: Transgender Law Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-23"

@@ -1,0 +1,73 @@
+guide_type: tsa_global_entry
+jurisdiction: US
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    TSA FAQ read via search on 2026-09-23; Global Entry status from news reporting. Reviewer: confirm on tsa.gov and ttp.cbp.dhs.gov.
+status: restricted
+name_change_status: available
+requirement_type: unclear
+markers_available: [M, F, X]
+status_summary:
+  en: >-
+    TSA PreCheck still lets you pick Male, Female, or "Another Gender" when you enroll, regardless of what your ID says,
+    and TSA accepts state IDs with an X marker at checkpoints. Global Entry, run by Customs and Border Protection, uses
+    your passport's sex marker and currently cannot show a changed marker or X.
+  es: >-
+    TSA PreCheck todavía te permite elegir masculino, femenino u "otro género" al inscribirte, sin importar lo que diga
+    tu identificación, y TSA acepta identificaciones estatales con marcador X. Global Entry, de Aduanas y Protección
+    Fronteriza, usa el marcador de sexo de tu pasaporte y actualmente no puede mostrar un marcador cambiado ni X.
+summary:
+  en: |
+    **Airport screening**: Your ID does not need to match your gender presentation, and a mismatch between the marker on your boarding pass and your ID is not a problem. TSA's body scanners are no longer gender-based, and you can always ask for a private screening or a same-gender officer.
+
+    **TSA PreCheck**: enrollment asks for gender and offers Male, Female, or Another Gender; your choice does not need to match your documents.
+
+    **Global Entry / NEXUS / SENTRI**: these CBP programs pull the sex marker from your passport. Under the January 2025 executive order the marker is frozen to sex at birth even if your passport was previously corrected.
+
+    **Name changes**: update your PreCheck or Global Entry profile online after your passport or ID is updated; there is no fee for the update.
+  es: |
+    **Controles en aeropuertos**: tu identificación no tiene que coincidir con tu presentación de género, y una discrepancia entre el marcador del pase de abordar y la identificación no es problema. Puedes pedir una revisión privada o un agente del mismo género.
+
+    **TSA PreCheck**: la inscripción ofrece masculino, femenino u otro género; tu elección no tiene que coincidir con tus documentos.
+
+    **Global Entry / NEXUS / SENTRI**: estos programas de CBP toman el marcador de sexo de tu pasaporte, congelado al sexo al nacer bajo la orden ejecutiva de enero de 2025.
+steps:
+  - id: precheck
+    title:
+      en: TSA PreCheck enrollment
+      es: Inscripción en TSA PreCheck
+    body:
+      en: Enroll online, choose the gender option you prefer, and finish at an enrollment center with your ID. The name must match the name on the ID you fly with.
+      es: Inscríbete en línea, elige la opción de género que prefieras y termina en un centro de inscripción con tu identificación. El nombre debe coincidir con la identificación con la que vuelas.
+    sources: [tsa-faq, tpg]
+  - id: name-update
+    title:
+      en: Update your name after a legal name change
+      es: Actualiza tu nombre tras un cambio legal
+    body:
+      en: Log in to your Trusted Traveler Programs account (Global Entry) or contact TSA (PreCheck) to update the name once your passport or ID reflects it, so your Known Traveler Number keeps working on reservations in the new name.
+      es: Ingresa a tu cuenta de Trusted Traveler Programs (Global Entry) o contacta a TSA (PreCheck) para actualizar el nombre una vez que tu pasaporte o identificación lo refleje.
+    sources: [tsa-faq, tpg]
+related_links:
+  - title: TSA, transgender and nonbinary passengers
+    url: https://www.tsa.gov/transgender-passengers
+  - title: ACLU, Four ways the TSA is making flying easier for transgender people
+    url: https://www.aclu.org/news/lgbtq-rights/four-ways-the-tsa-is-making-flying-easier-for-transgender-people
+sources:
+  - id: tsa-faq
+    url: https://www.tsa.gov/travel/frequently-asked-questions/can-i-apply-tsa-precheckr-non-binary-gender-and-gender-non
+    title: Can I apply for TSA PreCheck if I am non-binary or gender non-conforming?
+    publisher: Transportation Security Administration
+    kind: official
+    accessed: "2026-09-23"
+  - id: tpg
+    url: https://thepointsguy.com/news/tsa-precheck-x-gender-marker
+    title: TSA PreCheck and Global Entry gender marker options
+    publisher: The Points Guy
+    kind: news
+    accessed: "2026-09-23"

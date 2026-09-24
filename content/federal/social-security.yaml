@@ -1,0 +1,120 @@
+guide_type: social_security
+jurisdiction: US
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    POMS RM 10212.200 (TN 36, effective 06/05/2026) read directly 2026-09-23. Reviewer: confirm SS-5 name-change document list on ssa.gov.
+status: prohibited
+name_change_status: available
+requirement_type: prohibited
+markers_available: [M, F]
+status_summary:
+  en: >-
+    The Social Security Administration will not change the sex field in your record to match your gender identity.
+    Since January 2025, and formalized in policy in 2026, SSA changes the sex field only to correct a data-entry error or
+    to reflect sex at birth. Name changes are unaffected: bring a certified court order and photo ID, free of charge.
+  es: >-
+    La Administración del Seguro Social no cambiará el campo de sexo en tu registro para que coincida con tu identidad
+    de género. Desde enero de 2025, y formalizado en 2026, SSA cambia el campo de sexo solo para corregir un error de
+    captura o reflejar el sexo al nacer. Los cambios de nombre no se ven afectados: lleva una orden judicial certificada
+    e identificación con foto, sin costo.
+summary:
+  en: |
+    Your Social Security card does not print sex, but SSA's internal record (the Numident) has a sex field that other agencies and employers' E-Verify checks can see. Between 2013 and January 2025, you could update it with a doctor's letter, passport, or court order. Following Executive Order 14168, SSA stopped those changes on January 31, 2025, and its current Program Operations Manual System (POMS RM 10212.200, effective June 5, 2026) says the agency corrects the sex field only to reflect sex at birth.
+
+    **Changing your name** still works exactly as before and is the first thing to do after a court order, because the DMV and other agencies verify your name against SSA.
+  es: |
+    Tu tarjeta de Seguro Social no imprime el sexo, pero el registro interno de SSA tiene un campo de sexo que otras agencias pueden ver. Tras la Orden Ejecutiva 14168, SSA dejó de hacer esos cambios el 31 de enero de 2025, y su manual actual (POMS RM 10212.200, vigente desde el 5 de junio de 2026) dice que la agencia corrige el campo de sexo solo para reflejar el sexo al nacer.
+
+    **Cambiar tu nombre** sigue funcionando igual que antes y es lo primero que debes hacer después de una orden judicial.
+forms:
+  - id: SS-5
+    name:
+      en: Application for a Social Security Card
+      es: Solicitud de tarjeta de Seguro Social
+    url: https://www.ssa.gov/forms/ss-5.pdf
+    required: always
+    url_es: https://www.ssa.gov/forms/ss-5sp.pdf
+    how_to_fill:
+      en: |
+        - Item 1: your new legal name. Item 1 also asks for your name at birth and other names used; list your prior name there.
+        - Item 8 (sex): whatever you enter, SSA will keep the sex on record. Leaving it as recorded avoids delays.
+        - Sign and bring (or mail) with a certified copy of your court order and an unexpired photo ID (driver's license, state ID, or passport).
+      es: |
+        - Punto 1: tu nuevo nombre legal; anota tu nombre anterior donde pide otros nombres usados.
+        - Punto 8 (sexo): lo que escribas, SSA mantendrá el sexo registrado.
+        - Firma y lleva (o envía) con una copia certificada de tu orden judicial y una identificación con foto vigente.
+    sources: [ssa-name]
+steps:
+  - id: gather
+    title:
+      en: Gather documents
+      es: Reúne documentos
+    body:
+      en: Certified court order showing old and new name; unexpired photo ID; proof of citizenship if SSA does not already have it (birth certificate or passport). Originals or certified copies only; photocopies are not accepted.
+      es: Orden judicial certificada con nombre anterior y nuevo; identificación con foto vigente; prueba de ciudadanía si SSA no la tiene. Solo originales o copias certificadas.
+    sources: [ssa-name, poms]
+  - id: submit
+    title:
+      en: Submit SS-5 online, by mail, or in person
+      es: Presenta el SS-5 en línea, por correo o en persona
+    body:
+      en: Start at ssa.gov/number-card; many people can begin online and finish by mail or at an office. Bring or mail the SS-5 and documents. SSA mails your documents back. There is no fee.
+      es: Empieza en ssa.gov/number-card. Lleva o envía el SS-5 y los documentos. SSA te devuelve los documentos por correo. No hay tarifa.
+    forms: [SS-5]
+    sources: [ssa-name]
+  - id: card
+    title:
+      en: Receive the new card
+      es: Recibe la nueva tarjeta
+    body:
+      en: A card with your new name arrives in about 2 weeks. Wait for it (or for online confirmation) before going to the DMV, which checks the SSA record electronically.
+      es: La tarjeta con tu nuevo nombre llega en unas 2 semanas. Espérala antes de ir al DMV, que verifica el registro de SSA electrónicamente.
+    estimated_time:
+      en: about 2 weeks
+      es: unas 2 semanas
+    sources: [ssa-name]
+fees:
+  - id: none
+    label:
+      en: Replacement card and name change
+      es: Tarjeta de reemplazo y cambio de nombre
+    amount: 0
+    sources: [ssa-name]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  sources: [ssa-name]
+after:
+  en: Next stop is the DMV. Employers using E-Verify may see a sex mismatch if your ID shows a different marker than SSA's record; this generates a "tentative nonconfirmation" only in rare cases and can be resolved by the employer with SSA.
+  es: El siguiente paso es el DMV. Los empleadores que usan E-Verify podrían ver una discrepancia de sexo si tu identificación muestra un marcador distinto al registro de SSA; esto rara vez causa problemas y el empleador puede resolverlo con SSA.
+tips:
+  - en: Keep your old Social Security card; the number never changes.
+    es: Conserva tu tarjeta anterior; el número nunca cambia.
+statutes:
+  - cite: POMS RM 10212.200
+    title:
+      en: Changing Numident data for reasons other than name change (sex field)
+    url: https://secure.ssa.gov/poms.nsf/lnx/0110212200
+related_links:
+  - title: Advocates for Trans Equality, Social Security
+    url: https://transequality.org/documents/social-security
+sources:
+  - id: poms
+    url: https://secure.ssa.gov/poms.nsf/lnx/0110212200
+    title: POMS RM 10212.200, TN 36 (06-26), effective 06/05/2026
+    publisher: Social Security Administration
+    kind: regulation
+    accessed: "2026-09-23"
+    quote: The agency is only correcting or changing the sex field on the NUMIDENT to reflect the NH's sex at birth.
+  - id: ssa-name
+    url: https://www.ssa.gov/personal-record/change-name
+    title: Change your name
+    publisher: Social Security Administration
+    kind: official
+    accessed: "2026-09-23"

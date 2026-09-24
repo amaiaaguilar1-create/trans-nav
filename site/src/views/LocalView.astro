@@ -1,0 +1,50 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt } from '../lib/content';
+import type { CityMetroResources } from '../types/content';
+import ReviewBadge from '../components/ReviewBadge.astro';
+import ResourceCard from '../components/ResourceCard.astro';
+import Md from '../components/Md.astro';
+import Cite from '../components/Cite.astro';
+import Sources from '../components/Sources.astro';
+
+const { local, locale } = Astro.props as { local: CityMetroResources; locale: Locale };
+const _ = t(locale);
+const index = new Map(local.sources.map((s, i) => [s.id, i + 1]));
+const pillars = ['name_change', 'gender_marker', 'hrt', 'sexual_health', 'mental_health', 'insurance'] as const;
+const pillarLabel: Record<(typeof pillars)[number], string> = {
+  name_change: _('guide.name_change'),
+  gender_marker: 'Gender marker',
+  hrt: 'HRT / hormones',
+  sexual_health: 'Sexual health',
+  mental_health: 'Mental health',
+  insurance: 'Insurance help',
+};
+---
+<div class="banner unclear">
+  <div class="row"><ReviewBadge review={local.review} locale={locale} /></div>
+  {local.area && <p class="small">{lt(local.area, locale)}</p>}
+  <Md text={lt(local.intro, locale)} />
+</div>
+{local.review.status === 'draft' && <div class="notice"><p>{_('review.draft_help')}</p></div>}
+
+{local.court && (
+  <>
+    <h2>Court for name changes <Cite ids={local.court.sources} index={index} /></h2>
+    <p><strong>{local.court.url ? <a href={local.court.url} rel="noopener">{local.court.name}</a> : local.court.name}</strong>{typeof local.court.filing_fee === 'number' && ` · $${local.court.filing_fee}`}{local.court.self_help_url && <> · <a href={local.court.self_help_url} rel="noopener">Self-help center</a></>}</p>
+    {local.court.notes && <Md text={lt(local.court.notes, locale)} />}
+  </>
+)}
+
+{pillars.map((p) => {
+  const rs = local.resources.filter((r) => r.pillars.includes(p));
+  if (!rs.length) return null;
+  return (
+    <>
+      <h2 id={p}>{pillarLabel[p]}</h2>
+      <div class="cards">{rs.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
+    </>
+  );
+})}
+
+<Sources sources={local.sources} locale={locale} />

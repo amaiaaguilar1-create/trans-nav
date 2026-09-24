@@ -1,0 +1,66 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt, localePath, guideSlug, GUIDE_TYPES, type StateBundle } from '../lib/content';
+import StatusPill from '../components/StatusPill.astro';
+import ReviewBadge from '../components/ReviewBadge.astro';
+import ResourceCard from '../components/ResourceCard.astro';
+import Md from '../components/Md.astro';
+import Cite from '../components/Cite.astro';
+import Sources from '../components/Sources.astro';
+
+const { state, locale } = Astro.props as { state: StateBundle; locale: Locale };
+const _ = t(locale);
+const m = state.meta;
+const index = new Map(m.sources.map((s, i) => [s.id, i + 1]));
+const base = `states/${state.code.toLowerCase()}`;
+---
+<div class="banner unclear">
+  <div class="row">
+    <span class={`pill ${m.climate.id_documents === 'protective' ? 'available' : m.climate.id_documents === 'mixed' ? 'restricted' : 'prohibited'}`}>{_('climate.id_documents')}: {_(`climate.${m.climate.id_documents}` as const)}</span>
+    <span class={`pill ${m.climate.care === 'protective' ? 'available' : m.climate.care === 'mixed' ? 'restricted' : 'prohibited'}`}>{_('climate.care')}: {_(`climate.${m.climate.care}` as const)}</span>
+    {m.climate.shield_law && <span class="pill available">{_('climate.shield_law')}</span>}
+    <Cite ids={m.climate.sources} index={index} />
+    <ReviewBadge review={m.review} locale={locale} />
+  </div>
+  <Md text={lt(m.overview, locale)} />
+</div>
+
+<h2>{_('state.guides_heading')} {lt(m.name, locale)}</h2>
+<div class="cards">
+  {GUIDE_TYPES.map((g) => {
+    const guide = state.guides[g];
+    if (!guide) return null;
+    return (
+      <a class="card" href={localePath(locale, `${base}/${guideSlug[g]}`)} style="text-decoration:none;color:inherit">
+        <h3>{_(`guide.${g}` as const)}</h3>
+        <div class="tags"><StatusPill status={guide.status} locale={locale} />{guide.markers_available && <span class="pill neutral">{guide.markers_available.join('/')}</span>}</div>
+        <p class="small">{lt(guide.status_summary, locale)}</p>
+      </a>
+    );
+  })}
+  {state.care && (
+    <a class="card" href={localePath(locale, `${base}/care`)} style="text-decoration:none;color:inherit">
+      <h3>{_('guide.care')}</h3>
+      <div class="tags"><StatusPill status={state.care.adult_care.status} locale={locale} label={_('care.adult')} /><StatusPill status={state.care.minor_care.status} locale={locale} label={_('care.minor')} /></div>
+      <p class="small">{lt(state.care.status_summary, locale)}</p>
+    </a>
+  )}
+</div>
+
+{state.cities.length > 0 && (
+  <>
+    <h2>{_('state.cities_heading')}</h2>
+    <ul class="state-grid">
+      {state.cities.map((c) => <li><a href={localePath(locale, `${base}/local/${c.slug}`)}>{c.name}</a></li>)}
+    </ul>
+  </>
+)}
+
+{m.key_resources && m.key_resources.length > 0 && (
+  <>
+    <h2>{_('section.resources')}</h2>
+    <div class="cards">{m.key_resources.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
+  </>
+)}
+
+<Sources sources={m.sources} locale={locale} />

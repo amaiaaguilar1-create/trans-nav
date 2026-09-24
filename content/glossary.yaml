@@ -1,0 +1,36 @@
+terms:
+  - id: gender-marker
+    term: { en: Gender marker, es: Marcador de género }
+    definition:
+      en: The sex or gender field (M, F, or X) printed on an ID document or stored in an agency's record.
+      es: El campo de sexo o género (M, F o X) impreso en un documento de identidad o guardado en el registro de una agencia.
+  - id: self-attestation
+    term: { en: Self-attestation, es: Declaración propia }
+    definition:
+      en: A process where your own signed statement is enough; no doctor's letter, court order, or other proof is required.
+      es: Un proceso en el que basta tu propia declaración firmada; no se requiere carta médica, orden judicial ni otra prueba.
+  - id: informed-consent
+    term: { en: Informed consent (hormone therapy), es: Consentimiento informado (terapia hormonal) }
+    definition:
+      en: A care model where a prescriber explains the risks and benefits of hormones and you sign a consent form, without needing a therapist's letter or a gender dysphoria diagnosis first.
+      es: Un modelo de atención en el que quien receta explica riesgos y beneficios de las hormonas y firmas un consentimiento, sin necesitar primero una carta de terapeuta ni un diagnóstico de disforia de género.
+  - id: publication
+    term: { en: Publication requirement, es: Requisito de publicación }
+    definition:
+      en: A rule in some states that a name-change petition be printed in a newspaper before it is granted. Many states waive it for trans petitioners or for safety.
+      es: Una regla en algunos estados que exige imprimir la petición de cambio de nombre en un periódico antes de concederla. Muchos estados la exentan para personas trans o por seguridad.
+  - id: sealing
+    term: { en: Sealed record, es: Registro sellado }
+    definition:
+      en: A court file that is kept confidential and not available to the public.
+      es: Un expediente judicial que se mantiene confidencial y no está disponible al público.
+  - id: fee-waiver
+    term: { en: Fee waiver, es: Exención de tarifas }
+    definition:
+      en: Permission from a court or agency to skip a filing fee because of low income or receipt of public benefits.
+      es: Permiso de un tribunal o agencia para no pagar una tarifa por bajos ingresos o por recibir beneficios públicos.
+  - id: shield-law
+    term: { en: Shield law, es: Ley escudo }
+    definition:
+      en: A state law that protects patients and providers of gender-affirming care from investigations, subpoenas, or extradition attempts by states that ban that care.
+      es: Una ley estatal que protege a pacientes y proveedores de atención de afirmación de género de investigaciones, citaciones o intentos de extradición de estados que prohíben esa atención.

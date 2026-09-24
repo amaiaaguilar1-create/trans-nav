@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/guide.json",
+  "title": "Document guide",
+  "description": "One guide = one jurisdiction x one document/process (name change, driver's license, birth certificate, passport, Social Security, USCIS, TSA/Global Entry). Sections that don't apply to a guide type are simply omitted.",
+  "type": "object",
+  "properties": {
+    "guide_type": {
+      "type": "string",
+      "enum": ["name_change", "drivers_license", "birth_certificate", "passport", "social_security", "uscis", "tsa_global_entry"]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Two-letter state/territory code, or 'US' for federal.",
+      "pattern": "^(US|[A-Z]{2})$"
+    },
+    "review": { "$ref": "common.json#/$defs/Review" },
+    "status": { "$ref": "common.json#/$defs/Status" },
+    "status_summary": {
+      "$ref": "common.json#/$defs/LocalizedText",
+      "description": "One or two sentences for the banner: what is and isn't possible right now."
+    },
+    "name_change_status": {
+      "$ref": "common.json#/$defs/Status",
+      "description": "For federal/ID documents: whether the NAME can be updated (often still possible when the sex field is frozen)."
+    },
+    "summary": { "$ref": "common.json#/$defs/LocalizedText", "description": "Short overview paragraph. Markdown allowed." },
+    "requirement_type": { "$ref": "common.json#/$defs/RequirementType" },
+    "markers_available": { "type": "array", "items": { "$ref": "common.json#/$defs/Marker" }, "uniqueItems": true },
+    "eligibility": {
+      "type": "object",
+      "properties": {
+        "residency": { "$ref": "common.json#/$defs/LocalizedText" },
+        "age": { "$ref": "common.json#/$defs/LocalizedText" },
+        "criminal_history": { "$ref": "common.json#/$defs/LocalizedText" },
+        "other": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["sources"],
+      "additionalProperties": false
+    },
+    "forms": { "type": "array", "items": { "$ref": "common.json#/$defs/Form" } },
+    "steps": { "type": "array", "items": { "$ref": "common.json#/$defs/Step" }, "minItems": 1 },
+    "fees": { "type": "array", "items": { "$ref": "common.json#/$defs/Fee" } },
+    "fee_waiver": {
+      "type": "object",
+      "properties": {
+        "available": { "type": "boolean" },
+        "forms": { "type": "array", "items": { "type": "string" }, "description": "Form ids." },
+        "eligibility": { "$ref": "common.json#/$defs/LocalizedText" },
+        "how": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["available", "sources"],
+      "additionalProperties": false
+    },
+    "publication": {
+      "type": "object",
+      "description": "Name change only.",
+      "properties": {
+        "required": { "type": "string", "enum": ["yes", "no", "conditional"] },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "waiver_available": { "type": "boolean" },
+        "waiver_how": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["required", "sources"],
+      "additionalProperties": false
+    },
+    "hearing": {
+      "type": "object",
+      "properties": {
+        "required": { "type": "string", "enum": ["yes", "no", "conditional"] },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["required", "sources"],
+      "additionalProperties": false
+    },
+    "background_check": {
+      "type": "object",
+      "properties": {
+        "required": { "type": "string", "enum": ["yes", "no", "conditional"] },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["required", "sources"],
+      "additionalProperties": false
+    },
+    "confidentiality": {
+      "type": "object",
+      "description": "Record sealing and privacy protections.",
+      "properties": {
+        "sealing_available": { "type": "boolean" },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "how": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["sealing_available", "sources"],
+      "additionalProperties": false
+    },
+    "minors": {
+      "type": "object",
+      "properties": {
+        "summary": { "$ref": "common.json#/$defs/LocalizedText" },
+        "forms": { "type": "array", "items": { "type": "string" } },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["summary", "sources"],
+      "additionalProperties": false
+    },
+    "delivery": {
+      "type": "object",
+      "description": "How the request can be submitted.",
+      "properties": {
+        "online": { "type": "boolean" },
+        "by_mail": { "type": "boolean" },
+        "in_person": { "type": "boolean" },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["sources"],
+      "additionalProperties": false
+    },
+    "timeline": { "$ref": "common.json#/$defs/LocalizedText" },
+    "after": {
+      "$ref": "common.json#/$defs/LocalizedText",
+      "description": "What to do next (e.g. after a court order: SSA, DMV, passport, banks). Markdown allowed."
+    },
+    "tips": { "type": "array", "items": { "$ref": "common.json#/$defs/LocalizedText" } },
+    "local_help": { "type": "array", "items": { "$ref": "common.json#/$defs/Resource" } },
+    "statutes": { "type": "array", "items": { "$ref": "common.json#/$defs/Citation" } },
+    "litigation": { "type": "array", "items": { "$ref": "common.json#/$defs/Litigation" } },
+    "pending_bills": { "type": "array", "items": { "$ref": "common.json#/$defs/PendingBill" } },
+    "related_links": {
+      "type": "array",
+      "description": "Trusted external guides to point people to (A4TE, Namesake, ACLU affiliate...).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "$ref": "common.json#/$defs/Url" },
+          "note": { "$ref": "common.json#/$defs/LocalizedText" }
+        },
+        "required": ["title", "url"],
+        "additionalProperties": false
+      }
+    },
+    "sources": { "type": "array", "items": { "$ref": "common.json#/$defs/Source" }, "minItems": 1 }
+  },
+  "required": ["guide_type", "jurisdiction", "review", "status", "status_summary", "summary", "steps", "sources"],
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+id: point-of-pride
+name: Point of Pride
+url: https://www.pointofpride.org/
+type: fund
+pillars: [hrt, insurance]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+description:
+  en: National nonprofit funding gender-affirming care for trans people who cannot afford it, including an HRT Access Fund (a year of hormone therapy through partner telehealth providers), an Electrolysis Fund, a Thrive Fund for surgery and other costs, and a free chest binder and femme shapewear program.
+  es: >-
+    Organización nacional que financia atención de afirmación de género para personas trans sin recursos: un Fondo de Acceso a TRH (un año de terapia hormonal con proveedores de telesalud asociados), un Fondo de Electrólisis, un Fondo Thrive para cirugía y otros costos, y un programa gratuito de binders y prendas moldeadoras.
+scope: national
+states_served: [ALL]
+cost: free
+program_status: active
+notes:
+  en: Funds open for applications in cycles; check the site for current windows.
+  es: Los fondos abren solicitudes por ciclos; revisa el sitio para las fechas actuales.
+sources:
+  - id: pop
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-23"

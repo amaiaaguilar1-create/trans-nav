@@ -1,0 +1,24 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt } from '../lib/content';
+import Cite from './Cite.astro';
+import type { Fee } from '../types/content';
+const { fees, locale, index } = Astro.props as { fees: Fee[]; locale: Locale; index: Map<string, number> };
+const _ = t(locale);
+const money = (n: number) => new Intl.NumberFormat(locale === 'es' ? 'es-US' : 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
+---
+<table class="plain" id="fees">
+  <tbody>
+    {fees.map((f) => (
+      <tr>
+        <th scope="row">{lt(f.label, locale)} <Cite ids={f.sources} index={index} /></th>
+        <td>
+          {typeof f.amount === 'number' ? money(f.amount) : typeof f.min === 'number' && typeof f.max === 'number' ? `${money(f.min)} – ${money(f.max)}` : typeof f.min === 'number' ? `${money(f.min)}+` : '—'}
+          {f.varies_by && <span class="small"> ({_('fee.varies')} {_(`fee.by.${f.varies_by}` as const)})</span>}
+          {f.waivable && <span class="pill available" style="margin-left:.4rem">{_('fee.waivable')}</span>}
+          {f.note && <div class="small">{lt(f.note, locale)}</div>}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

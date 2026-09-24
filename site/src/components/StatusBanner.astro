@@ -1,0 +1,29 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt, type LocalizedText } from '../lib/content';
+import StatusPill from './StatusPill.astro';
+import ReviewBadge from './ReviewBadge.astro';
+import Md from './Md.astro';
+
+interface Props {
+  locale: Locale;
+  status: 'available' | 'restricted' | 'prohibited' | 'litigation' | 'unclear';
+  nameChangeStatus?: 'available' | 'restricted' | 'prohibited' | 'litigation' | 'unclear';
+  markers?: string[];
+  summary: LocalizedText;
+  review: { status: 'draft' | 'reviewed'; last_verified: string; es_status?: string };
+}
+const { locale, status, nameChangeStatus, markers, summary, review } = Astro.props;
+const _ = t(locale);
+---
+<div class={`banner ${status}`} role="region" aria-label="Status">
+  <div class="row">
+    <StatusPill status={status} locale={locale} />
+    {nameChangeStatus && <StatusPill status={nameChangeStatus} locale={locale} label={_('name_change_status.label')} />}
+    {markers && markers.length > 0 && <span class="pill neutral">{_('markers.label')}: {markers.join(' / ')}</span>}
+    <ReviewBadge review={review} locale={locale} />
+  </div>
+  <Md text={lt(summary, locale)} />
+</div>
+{review.status === 'draft' && <div class="notice"><p>{_('review.draft_help')}</p></div>}
+{locale === 'es' && review.es_status !== 'reviewed' && <div class="notice info"><p>{_('review.es_machine')}</p></div>}

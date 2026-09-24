@@ -1,0 +1,23 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt } from '../lib/content';
+import Md from './Md.astro';
+import Cite from './Cite.astro';
+import type { Form } from '../types/content';
+const { forms, locale, index } = Astro.props as { forms: Form[]; locale: Locale; index: Map<string, number> };
+const _ = t(locale);
+---
+{forms.map((f) => (
+  <details class="form" id={`form-${f.id}`}>
+    <summary>
+      <span>{f.id}</span> <span style="font-weight:400">{lt(f.name, locale)}</span>
+      <span class={`pill ${f.required === 'always' ? 'litigation' : 'neutral'}`}>{_(`form.required.${f.required}` as const)}</span>
+      <Cite ids={f.sources} index={index} />
+    </summary>
+    <div class="inner">
+      <p><a href={f.url} rel="noopener">{f.id} (PDF)</a>{f.url_es && <> · <a href={f.url_es} rel="noopener" lang="es">{_('form.official_es')}</a></>}</p>
+      {f.condition && <p><em>{lt(f.condition, locale)}</em></p>}
+      {f.how_to_fill && <><h4 style="margin:.6rem 0 .3rem">{_('form.how_to_fill')}</h4><Md text={lt(f.how_to_fill, locale)} /></>}
+    </div>
+  </details>
+))}

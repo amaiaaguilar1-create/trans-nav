@@ -1,0 +1,7 @@
+---
+import { t, type Locale } from '../i18n/ui';
+type Status = 'available' | 'restricted' | 'prohibited' | 'litigation' | 'unclear';
+const { status, locale, label } = Astro.props as { status: Status; locale: Locale; label?: string };
+const _ = t(locale);
+---
+<span class={`pill ${status}`}>{label ? `${label}: ` : ''}{_(`status.${status}` as const)}</span>

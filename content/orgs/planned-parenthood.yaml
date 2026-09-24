@@ -1,0 +1,29 @@
+id: planned-parenthood
+name: Planned Parenthood
+url: https://www.plannedparenthood.org/learn/gender-identity/transgender/what-do-i-need-know-about-transitioning
+type: informed_consent_clinic
+pillars: [hrt, sexual_health]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: Availability of hormone therapy varies by affiliate; the state care pages list the specific affiliates that offer it.
+description:
+  en: Many Planned Parenthood affiliates provide informed-consent gender-affirming hormone therapy alongside sexual and reproductive health care, on a sliding scale and with Medicaid. Availability and age limits vary by affiliate.
+  es: Muchas afiliadas de Planned Parenthood ofrecen terapia hormonal de afirmación de género por consentimiento informado junto con salud sexual y reproductiva, en escala móvil y con Medicaid. La disponibilidad y los límites de edad varían según la afiliada.
+scope: national
+states_served: [ALL]
+cost: sliding_scale
+accepts_insurance: true
+accepts_medicaid: true
+telehealth: true
+program_status: active
+sources:
+  - id: pp
+    url: https://www.plannedparenthood.org/learn/gender-identity/transgender/what-do-i-need-know-about-transitioning
+    title: Gender-affirming care at Planned Parenthood
+    publisher: Planned Parenthood Federation of America
+    kind: org
+    accessed: "2026-09-23"

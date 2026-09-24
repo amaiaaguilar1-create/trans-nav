@@ -1,0 +1,32 @@
+id: folx
+name: FOLX Health
+url: https://www.folxhealth.com/
+type: telehealth_hrt
+pillars: [hrt, sexual_health, mental_health]
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: Research on 2026-09-23 indicated 47 states (not AK, HI, LA) and insurance acceptance; confirm current list.
+description:
+  en: LGBTQ-focused telehealth offering hormone therapy, PrEP, primary care, and mental health visits; accepts many insurance plans.
+  es: Telesalud enfocada en personas LGBTQ con terapia hormonal, PrEP, atención primaria y salud mental; acepta muchos planes de seguro.
+scope: multi_state
+states_served: [ALL]
+states_excluded: [AK, HI, LA]
+cost: insurance
+cost_detail:
+  en: Insurance accepted in most states; self-pay membership available.
+  es: Acepta seguro en la mayoría de los estados; membresía de pago directo disponible.
+accepts_insurance: true
+serves_minors: false
+telehealth: true
+program_status: active
+sources:
+  - id: folx
+    url: https://www.folxhealth.com/
+    title: FOLX Health
+    kind: org
+    accessed: "2026-09-23"

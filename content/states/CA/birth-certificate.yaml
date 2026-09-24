@@ -1,0 +1,196 @@
+guide_type: birth_certificate
+jurisdiction: CA
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Fee ($26 including one copy; $31 per additional copy) and processing time (7 to 9 weeks average) confirmed on
+    CDPH pages 2026-09-23. Reviewer: confirm the current mailing address printed on VS 24B and whether CDPH still
+    issues a brand-new certificate (rather than an amended one) under H&SC 103426.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: restricted
+status_summary:
+  en: >-
+    If you were born in California you can get a new birth certificate showing female, male, or nonbinary by mailing
+    CDPH an application and a sworn affidavit. No court order and no medical documentation are required. The fee is
+    $26 and includes one certified copy. Changing the name on the certificate requires a court order.
+  es: >-
+    Si naciste en California puedes obtener una nueva acta de nacimiento con femenino, masculino o no binario
+    enviando por correo a CDPH una solicitud y una declaración jurada. No se requiere orden judicial ni documentación
+    médica. La tarifa es de $26 e incluye una copia certificada. Cambiar el nombre en el acta requiere una orden judicial.
+summary:
+  en: |
+    California Health and Safety Code § 103426 requires the State Registrar to issue a new birth certificate reflecting a change of gender to female, male, or nonbinary **without a court order** when you submit an application and an affidavit swearing, under penalty of perjury, that the change is to conform your legal gender to your gender identity and is not for a fraudulent purpose.
+
+    Two routes:
+    - **Affidavit route (most people)**: form VS 24B plus the fee. No decree needed.
+    - **Court order route**: if you already have an NC-330 order (see the name change guide), send a certified copy with VS 24B. This is the only way to change the **name** on the certificate at the same time.
+
+    CDPH Vital Records handles amendments centrally in Sacramento; county recorders cannot do this one.
+  es: |
+    El Código de Salud y Seguridad de California § 103426 obliga al Registro Estatal a emitir una nueva acta de nacimiento que refleje el cambio de género a femenino, masculino o no binario **sin orden judicial** cuando presentas una solicitud y una declaración jurada, bajo pena de perjurio, de que el cambio es para que tu género legal coincida con tu identidad de género y no tiene fines fraudulentos.
+
+    Dos vías:
+    - **Vía de declaración jurada (la mayoría)**: formulario VS 24B más la tarifa. No se necesita decreto.
+    - **Vía de orden judicial**: si ya tienes una orden NC-330 (ver la guía de cambio de nombre), envía una copia certificada con el VS 24B. Es la única forma de cambiar también el **nombre** en el acta.
+eligibility:
+  residency:
+    en: You must have been born in California. Where you live now does not matter.
+    es: Debes haber nacido en California. No importa dónde vivas ahora.
+  age:
+    en: Adults apply for themselves. For a minor, a parent or guardian signs; the statute allows the change for a minor child with the same affidavit.
+  sources: [hsc-103426, cdph-amend]
+forms:
+  - id: VS 24B
+    name:
+      en: Application to Amend a Birth Record
+      es: Solicitud para Enmendar un Registro de Nacimiento
+    url: https://www.cdph.ca.gov/CDPH%20Document%20Library/ControlledForms/VS24B.pdf
+    url_es: https://www.cdph.ca.gov/CDPH%20Document%20Library/ControlledForms/VS24Bsp.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Part 1: the information exactly as it appears on the current certificate (name at birth, date and place of birth, parents' names).
+        - Amendment section: check "change of gender / sex identifier" and write the new designation (female, male, or nonbinary). If you are also changing your name under a court order, list the new name and attach a certified copy of the order.
+        - Affidavit: sign in front of a notary if the form requires it for your request type (read the instructions page; the gender-identity affidavit is signed under penalty of perjury).
+        - Include a copy of your government photo ID and payment ($26, check or money order payable to CDPH Vital Records; no cash).
+        - Mail to the CDPH Vital Records address printed on the form.
+      es: |
+        - Parte 1: la información exactamente como aparece en el acta actual.
+        - Sección de enmienda: marca cambio de género / identificador de sexo y escribe la nueva designación (femenino, masculino o no binario). Si también cambias tu nombre con orden judicial, anota el nuevo nombre y adjunta copia certificada de la orden.
+        - Incluye copia de tu identificación oficial con foto y el pago ($26, cheque o giro postal a nombre de CDPH Vital Records; no efectivo).
+        - Envía por correo a la dirección de CDPH Vital Records impresa en el formulario.
+    sources: [cdph-amend, cdph-ab218]
+steps:
+  - id: get-form
+    title:
+      en: Download VS 24B (English or Spanish)
+      es: Descarga el VS 24B (inglés o español)
+    body:
+      en: Both language versions are official and accepted. Print single-sided.
+      es: Ambas versiones son oficiales y se aceptan.
+    forms: [VS 24B]
+    sources: [cdph-amend]
+  - id: fill
+    title:
+      en: Fill in the application and sign the affidavit
+      es: Llena la solicitud y firma la declaración jurada
+    body:
+      en: State that the change is to conform your legal gender to your gender identity and is not for any fraudulent purpose. Choose female, male, or nonbinary. Attach a certified court order only if you are also changing your name.
+      es: Declara que el cambio es para que tu género legal coincida con tu identidad de género y no tiene fines fraudulentos. Elige femenino, masculino o no binario. Adjunta orden judicial certificada solo si también cambias tu nombre.
+    forms: [VS 24B]
+    sources: [hsc-103426]
+  - id: pay-mail
+    title:
+      en: Mail the packet with payment and a copy of your ID
+      es: Envía el paquete con el pago y copia de tu identificación
+    body:
+      en: Check or money order for $26 payable to CDPH Vital Records, drawn on a US bank. Requests without the correct fee are returned. Keep a copy of everything.
+      es: Cheque o giro postal por $26 a nombre de CDPH Vital Records. Las solicitudes sin la tarifa correcta se devuelven. Guarda copia de todo.
+    fees: [amendment, extra-copy]
+    applies_to: [by_mail]
+    sources: [cdph-fees]
+  - id: wait
+    title:
+      en: Wait for the new certificate
+      es: Espera la nueva acta
+    body:
+      en: CDPH's average processing time for amendments is 7 to 9 weeks. If anything is missing they mail you a letter; once you reply it takes another 6 to 8 weeks. Your one included certified copy arrives with the completion notice.
+      es: El tiempo promedio de CDPH para enmiendas es de 7 a 9 semanas. Si falta algo te envían una carta; después de responder tarda otras 6 a 8 semanas.
+    estimated_time:
+      en: 7 to 9 weeks
+      es: 7 a 9 semanas
+    sources: [cdph-times]
+fees:
+  - id: amendment
+    label:
+      en: Amendment fee (includes one certified copy of the new certificate)
+      es: Tarifa de enmienda (incluye una copia certificada de la nueva acta)
+    amount: 26
+    waivable: false
+    note:
+      en: Applies regardless of when the request is submitted for gender / sex-field changes.
+    sources: [cdph-fees]
+  - id: extra-copy
+    label:
+      en: Each additional certified copy
+      es: Cada copia certificada adicional
+    amount: 31
+    waivable: false
+    sources: [cdph-fees]
+fee_waiver:
+  available: false
+  how:
+    en: CDPH does not waive vital-records fees. If cost is a barrier, some LGBTQ centers and funds (see local help in the name change guide) help cover document fees.
+    es: CDPH no exenta tarifas de registros vitales. Si el costo es un obstáculo, algunos centros LGBTQ y fondos ayudan a cubrirlas.
+  sources: [cdph-fees]
+delivery:
+  online: false
+  by_mail: true
+  in_person: false
+  detail:
+    en: By mail to CDPH Vital Records in Sacramento. County recorder offices do not process gender amendments.
+    es: Por correo a CDPH Vital Records en Sacramento. Las oficinas de los condados no procesan enmiendas de género.
+  sources: [cdph-amend]
+timeline:
+  en: About 2 to 3 months door to door, mostly CDPH processing time.
+  es: Aproximadamente 2 a 3 meses en total, principalmente tiempo de procesamiento de CDPH.
+after:
+  en: |
+    The new certificate is your strongest proof of legal sex for other agencies that still accept amended birth certificates. Note that as of September 2026 the Social Security Administration and the State Department will **not** update the sex field based on it. If you were born in another state, that state's rules control your birth certificate, not California's.
+  es: |
+    La nueva acta es tu prueba más sólida de sexo legal para otras agencias que aún aceptan actas enmendadas. Ten en cuenta que, a septiembre de 2026, el Seguro Social y el Departamento de Estado **no** actualizarán el campo de sexo con base en ella. Si naciste en otro estado, las reglas de ese estado rigen tu acta, no las de California.
+tips:
+  - en: Order two or three extra copies ($31 each) with the same request; ordering later means a new application and another wait.
+    es: Pide dos o tres copias adicionales ($31 cada una) en la misma solicitud; pedirlas después implica otra solicitud y otra espera.
+statutes:
+  - cite: Cal. Health & Safety Code § 103426
+    title:
+      en: New birth certificate reflecting change of gender without a court order, on application and affidavit
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=103426
+related_links:
+  - title: CDPH, Amending a California birth record
+    url: https://www.cdph.ca.gov/Programs/CHSI/Pages/Amending-a-California-Birth-Record.aspx
+  - title: Advocates for Trans Equality, ID Documents Center (California)
+    url: https://transequality.org/documents/state/california
+sources:
+  - id: hsc-103426
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=103426
+    title: Health and Safety Code § 103426
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+    quote: The State Registrar shall issue a new birth certificate reflecting a change of gender and sex identifier to female, male, or nonbinary without a court order for any person who has a birth certificate issued by this state who submits directly to the State Registrar an application to change the gender and sex identifier on the birth certificate and an affidavit attesting under penalty of perjury...
+  - id: cdph-amend
+    url: https://www.cdph.ca.gov/Programs/CHSI/Pages/Amending-a-California-Birth-Record.aspx
+    title: Amending a California birth record
+    publisher: California Department of Public Health, Vital Records
+    kind: official
+    accessed: "2026-09-23"
+    quote: "VS 24B - Application to Amend a Birth Record ... Change child's sex field to reflect gender identity"
+  - id: cdph-ab218
+    url: https://www.cdph.ca.gov/Programs/CHSI/Pages/Assembly-Bill-(AB)-218.aspx
+    title: Amending vital records to reflect a change of gender (AB 218)
+    publisher: California Department of Public Health, Vital Records
+    kind: official
+    accessed: "2026-09-23"
+    quote: This process does not require a court order if the person submits specific supporting documentation.
+  - id: cdph-fees
+    url: https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Fees.aspx
+    title: Vital records fees (effective January 1, 2026)
+    publisher: California Department of Public Health, Vital Records
+    kind: official
+    accessed: "2026-09-23"
+    quote: The fee to change/correct the sex field or parent designation on child's birth certificate is $26, regardless of when the request is submitted. ... includes one free copy of newly amended record. $31 per additional copy.
+  - id: cdph-times
+    url: https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Processing-Times.aspx
+    title: Vital records processing times
+    publisher: California Department of Public Health, Vital Records
+    kind: official
+    accessed: "2026-09-23"
+    quote: CDPH-VR's average time to process an amendment request is 7 to 9 weeks.

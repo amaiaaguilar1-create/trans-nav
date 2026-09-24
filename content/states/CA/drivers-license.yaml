@@ -1,0 +1,184 @@
+guide_type: drivers_license
+jurisdiction: CA
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Fees confirmed on the DMV licensing-fees page 2026-09-23 ($37 change of information on a license, $40 ID card,
+    $11 reduced-fee ID). Reviewer: confirm DL 329S is still the current form revision and whether any DMV office
+    accepts the gender change without a new photo.
+status: available
+requirement_type: self_attestation
+markers_available: [M, F, X]
+name_change_status: available
+status_summary:
+  en: >-
+    California lets you pick M, F, or X on your driver's license or ID by signing a one-page self-attestation
+    (form DL 329S). No doctor's letter or court order is needed. You must finish the change in person at a DMV office.
+  es: >-
+    California te permite elegir M, F o X en tu licencia de conducir o identificación firmando una declaración de una
+    página (formulario DL 329S). No se necesita carta médica ni orden judicial. Debes completar el cambio en persona
+    en una oficina del DMV.
+summary:
+  en: |
+    Since January 1, 2019 (SB 179, the Gender Recognition Act), the DMV may not ask for anything beyond your own signed request to change the gender category on a license or ID card, and your choice is not reviewed. You can pick female (F), male (M), or nonbinary (X).
+
+    Changing your **name** on the card is a separate transaction that does require proof of the new legal name (your court decree, an amended birth certificate, or a passport in the new name). You can do both at the same visit and pay one fee.
+  es: |
+    Desde el 1 de enero de 2019 (SB 179, Ley de Reconocimiento de Género), el DMV no puede pedir nada más que tu propia solicitud firmada para cambiar la categoría de género en una licencia o tarjeta de identificación, y tu elección no se revisa. Puedes elegir femenino (F), masculino (M) o no binario (X).
+
+    Cambiar tu **nombre** en la tarjeta es un trámite separado que sí requiere prueba del nuevo nombre legal (tu decreto judicial, un acta de nacimiento enmendada o un pasaporte con el nuevo nombre). Puedes hacer ambos en la misma visita y pagar una sola tarifa.
+eligibility:
+  residency:
+    en: You must hold or be applying for a California driver's license or ID card.
+  age:
+    en: Any age. For minors, a parent or guardian signs the application; the DL 329S is signed by the applicant.
+  sources: [dl329s, dmv-update]
+forms:
+  - id: DL 329S
+    name:
+      en: Gender Category Request
+      es: Solicitud de categoría de género
+    url: https://www.dmv.ca.gov/portal/uploads/2020/03/dl329S.pdf
+    required: always
+    how_to_fill:
+      en: |
+        - Print your full name and driver's license or ID number exactly as on your current card (or as on your new application).
+        - Check one gender category: female, male, or nonbinary.
+        - Sign and date. That is all: the DMV is prohibited from requiring any other documentation, and your choice is not subject to review.
+      es: |
+        - Escribe tu nombre completo y número de licencia o identificación tal como aparece en tu tarjeta actual.
+        - Marca una categoría: femenino, masculino o no binario.
+        - Firma y fecha. Eso es todo: el DMV no puede exigir otra documentación y tu elección no está sujeta a revisión.
+    sources: [dl329s]
+  - id: DL 44
+    name:
+      en: Driver's License or Identification Card Application (start online, finish in office)
+      es: Solicitud de licencia de conducir o tarjeta de identificación (inicia en línea, termina en oficina)
+    url: https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-online-app-edl-44/
+    required: always
+    how_to_fill:
+      en: |
+        - Complete the online application (eDL 44). Choose "change of information". The gender question on the application lets you select F, M, or X.
+        - Bring the confirmation code to the office along with DL 329S.
+        - If you are getting a REAL ID, also bring proof of identity, Social Security number, and two California residency documents; for a non-REAL ID card you only need proof of your true full name if the name is changing.
+    sources: [dmv-update]
+steps:
+  - id: online-app
+    title:
+      en: Start the application online
+      es: Inicia la solicitud en línea
+    body:
+      en: Fill in the online DL/ID application (eDL 44) and select "change of information". Save the confirmation number. If you also want a REAL ID, gather the extra documents now.
+      es: Llena la solicitud en línea (eDL 44) y selecciona cambio de información. Guarda el número de confirmación. Si también quieres una REAL ID, reúne los documentos adicionales.
+    forms: [DL 44]
+    sources: [dmv-update]
+  - id: sign-329
+    title:
+      en: Fill out and sign DL 329S
+      es: Llena y firma el DL 329S
+    body:
+      en: Print it at home or pick one up at the office. Check F, M, or X and sign. No other documentation may be required.
+      es: Imprímelo en casa o pídelo en la oficina. Marca F, M o X y firma. No pueden exigir otra documentación.
+    forms: [DL 329S]
+    sources: [dl329s]
+  - id: visit
+    title:
+      en: Visit a DMV office
+      es: Visita una oficina del DMV
+    body:
+      en: |
+        Make an appointment online to skip most of the wait. Bring: your current card, DL 329S, your online confirmation, proof of your new legal name if the name is changing (certified court decree, amended birth certificate, or passport), and REAL ID documents if applicable. You will take a new photo, give a thumbprint, and pay the fee. **The gender change is not complete until you go into an office.**
+      es: |
+        Haz una cita en línea para evitar la espera. Lleva: tu tarjeta actual, DL 329S, tu confirmación en línea, prueba de tu nuevo nombre legal si cambia (decreto judicial certificado, acta de nacimiento enmendada o pasaporte) y documentos de REAL ID si aplica. Te tomarán una foto nueva y pagarás la tarifa. **El cambio de género no está completo hasta que vayas a una oficina.**
+    fees: [dl-change, id-change]
+    applies_to: [in_person]
+    sources: [dmv-update, dmv-fees]
+  - id: receive
+    title:
+      en: Receive the new card by mail
+      es: Recibe la nueva tarjeta por correo
+    body:
+      en: You leave with a paper interim document. The new card arrives by mail in about 3 to 4 weeks.
+      es: Sales con un documento provisional en papel. La nueva tarjeta llega por correo en unas 3 a 4 semanas.
+    estimated_time:
+      en: 3 to 4 weeks
+      es: 3 a 4 semanas
+    sources: [dmv-update]
+fees:
+  - id: dl-change
+    label:
+      en: Driver's license, change of information or replacement
+      es: Licencia de conducir, cambio de información o reemplazo
+    amount: 37
+    sources: [dmv-fees]
+  - id: id-change
+    label:
+      en: ID card, change of information or replacement
+      es: Tarjeta de identificación, cambio de información o reemplazo
+    amount: 40
+    note:
+      en: Reduced-fee ID card is $11 if you receive certain public benefits; senior (62+) ID cards and ID cards for people experiencing homelessness are free. Ask at the office.
+      es: La tarjeta de identificación de tarifa reducida cuesta $11 si recibes ciertos beneficios públicos; las tarjetas para mayores de 62 años y para personas sin hogar son gratis. Pregunta en la oficina.
+    sources: [dmv-fees]
+fee_waiver:
+  available: true
+  eligibility:
+    en: |
+      There is no waiver for driver's licenses. For **ID cards**: a reduced-fee ($11) ID is available if you can show you receive benefits from an approved public assistance program (bring the DMV's verification form completed by the agency), and a no-fee ID is available to people experiencing homelessness (with a verification form from a homeless services provider) and to people 62 and older.
+    es: |
+      No hay exención para licencias de conducir. Para **tarjetas de identificación**: hay una tarifa reducida ($11) si demuestras que recibes beneficios de un programa de asistencia pública aprobado, y una identificación sin costo para personas sin hogar (con un formulario de verificación de un proveedor de servicios) y para personas de 62 años o más.
+  sources: [dmv-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: You can start online but must finish in a field office (photo, thumbprint, signature).
+    es: Puedes empezar en línea pero debes terminar en una oficina (foto, huella, firma).
+  sources: [dmv-update]
+timeline:
+  en: One office visit, then 3 to 4 weeks for the card to arrive by mail.
+  es: Una visita a la oficina y luego 3 a 4 semanas para que llegue la tarjeta por correo.
+after:
+  en: |
+    Your new license is the ID most agencies check first, so do this soon after Social Security. If you chose X, be aware that the US passport and Social Security record currently cannot show X or a changed sex marker; your California card is still valid for flying (TSA accepts X-marker state IDs), for REAL ID, and for voting.
+  es: |
+    Tu nueva licencia es la identificación que la mayoría de las agencias revisa primero, así que hazlo poco después del Seguro Social. Si elegiste X, ten en cuenta que el pasaporte de EE. UU. y el registro del Seguro Social actualmente no pueden mostrar X ni un marcador cambiado; tu tarjeta de California sigue siendo válida para volar, para REAL ID y para votar.
+tips:
+  - en: You do not need to change your name to change your gender marker, or vice versa. Either can be done alone.
+    es: No necesitas cambiar tu nombre para cambiar tu marcador de género, ni al revés. Cada uno se puede hacer por separado.
+  - en: If you were denied or asked for medical documentation, ask for a supervisor and cite SB 179 (Gender Recognition Act) and form DL 329S. Transgender Law Center's helpline can help.
+statutes:
+  - cite: SB 179 (2017), Gender Recognition Act
+    title:
+      en: Created the nonbinary option and self-attestation for California driver's licenses, ID cards, and birth certificates; effective January 1, 2019 for the DMV
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB179
+related_links:
+  - title: Advocates for Trans Equality, ID Documents Center (California)
+    url: https://transequality.org/documents/state/california
+sources:
+  - id: dl329s
+    url: https://www.dmv.ca.gov/portal/uploads/2020/03/dl329S.pdf
+    title: Form DL 329S, Gender Category Request
+    publisher: California DMV
+    kind: form
+    accessed: "2026-09-23"
+    quote: The DMV is prohibited from requiring an applicant to provide documentation other than the request from the applicant; the applicant's choice is not subject to review by DMV.
+  - id: dmv-update
+    url: https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/updating-information-on-your-driver-license-or-identification-dl-id-card/
+    title: Updating information on your driver's license or identification card
+    publisher: California DMV
+    kind: official
+    accessed: "2026-09-23"
+    quote: Your gender category change isn't complete until you come into a field office!
+  - id: dmv-fees
+    url: https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/licensing-fees/
+    title: Licensing fees
+    publisher: California DMV
+    kind: official
+    accessed: "2026-09-23"
+    quote: "Driver's license change of information: $37. Identification card (original, renewal, replacement, change of information): $40. Reduced-fee ID: $11. Senior citizen ID: no fee."

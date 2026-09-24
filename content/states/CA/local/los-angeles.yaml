@@ -1,0 +1,169 @@
+jurisdiction: CA
+slug: los-angeles
+name: Los Angeles
+area:
+  en: Los Angeles County
+  es: Condado de Los Ángeles
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: Starter list from org websites. Verify hours, walk-in policies, and new-patient availability before marking reviewed.
+intro:
+  en: >-
+    Los Angeles County has the largest concentration of trans-specific services in the state: free legal clinics for
+    name and gender marker changes, several informed-consent hormone clinics, and dedicated trans wellness programs.
+    Name change petitions are filed with the Los Angeles Superior Court.
+  es: >-
+    El condado de Los Ángeles tiene la mayor concentración de servicios específicos para personas trans del estado:
+    clínicas legales gratuitas para cambios de nombre y marcador de género, varias clínicas de hormonas por
+    consentimiento informado y programas de bienestar trans. Las peticiones de cambio de nombre se presentan en el
+    Tribunal Superior de Los Ángeles.
+court:
+  name: Superior Court of California, County of Los Angeles
+  url: https://www.lacourt.ca.gov/
+  self_help_url: https://www.lacourt.ca.gov/selfhelp
+  filing_fee: 435
+  notes:
+    en: Name change petitions can be filed at any LA Superior Court civil filing window; Stanley Mosk Courthouse downtown handles the largest volume. Self-Help Centers at several courthouses review forms for free.
+    es: Las peticiones se pueden presentar en cualquier ventanilla civil del Tribunal Superior de LA; el Stanley Mosk Courthouse en el centro maneja el mayor volumen. Los Centros de Autoayuda revisan formularios gratis.
+  sources: [lacourt-fees]
+resources:
+  - id: lalgbt-legal
+    name: Los Angeles LGBT Center, Legal Services
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free consultations with volunteer attorneys, including help with NC-200/NC-300 petitions and DMV/passport paperwork.
+      es: Consultas gratuitas con abogados voluntarios, incluida ayuda con peticiones NC-200/NC-300 y trámites de DMV/pasaporte.
+    url: https://lalgbtcenter.org/services/legal-services/legal-clinic-lawyer-referral/
+    phone: "323-993-7670"
+    cost: free
+    verification: org_website
+    sources: [lalgbt-legal]
+  - id: trans-wellness-center
+    name: Trans Wellness Center
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, hrt, mental_health, insurance]
+    description:
+      en: One-stop center run by a coalition of LA organizations; legal help, health navigation, mental health, and peer support for trans and nonbinary people.
+      es: Centro integral dirigido por una coalición de organizaciones de LA; ayuda legal, navegación de salud, salud mental y apoyo entre pares para personas trans y no binarias.
+    url: https://mytranswellness.org/
+    address: 553 S. Clarence St, Los Angeles, CA 90033
+    cost: free
+    verification: org_website
+    sources: [twc]
+  - id: lls-project
+    name: LMU Loyola Law School, Legal Name & Gender Marker Change Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Law students supervised by attorneys prepare and file petitions at no cost.
+      es: Estudiantes de derecho supervisados por abogados preparan y presentan peticiones sin costo.
+    url: https://www.lls.edu/thellsdifference/facesoflls/thelegalnamegendermarkerchangeproject/
+    cost: free
+    verification: org_website
+    sources: [lls]
+  - id: lalgbt-health
+    name: Los Angeles LGBT Center, Health Services
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Primary care, informed-consent hormone therapy, HIV/STI testing and PrEP, and mental health services; sliding scale and Medi-Cal.
+      es: Atención primaria, terapia hormonal por consentimiento informado, pruebas de VIH/ITS y PrEP, y salud mental; escala móvil y Medi-Cal.
+    url: https://lalgbtcenter.org/health-services/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: unverified
+    sources: [lalgbt-health]
+  - id: pp-la
+    org: planned-parenthood
+    name: Planned Parenthood Los Angeles, gender-affirming care
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy and sexual health services at health centers across LA County; Medi-Cal and sliding scale.
+      es: Terapia hormonal por consentimiento informado y salud sexual en centros de todo el condado; Medi-Cal y escala móvil.
+    url: https://www.plannedparenthood.org/planned-parenthood-los-angeles
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: unverified
+    sources: [pp-la]
+  - id: apla-health
+    name: APLA Health
+    type: sexual_health
+    pillars: [sexual_health, hrt, mental_health]
+    description:
+      en: Federally qualified health center with HIV/STI care, PrEP, primary care, dental, and behavioral health for LGBTQ people; multiple LA sites.
+      es: Centro de salud federalmente calificado con atención de VIH/ITS, PrEP, atención primaria, dental y salud conductual para personas LGBTQ; varias sedes en LA.
+    url: https://aplahealth.org/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: unverified
+    sources: [apla]
+  - id: trans-lifeline-la
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline by and for trans people; no nonconsensual active rescue. 877-565-8860, English and Spanish.
+      es: Línea de apoyo entre pares por y para personas trans. 877-565-8860, inglés y español.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: lacourt-fees
+    url: https://www.lacourt.ca.gov/pages/cp/filing-fees
+    title: Civil filing fees
+    publisher: Superior Court of California, County of Los Angeles
+    kind: official
+    accessed: "2026-09-23"
+  - id: lalgbt-legal
+    url: https://lalgbtcenter.org/services/legal-services/legal-clinic-lawyer-referral/
+    title: Legal Clinic and Lawyer Referral
+    publisher: Los Angeles LGBT Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: twc
+    url: https://mytranswellness.org/legal-services/
+    title: Legal services
+    publisher: Trans Wellness Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: lls
+    url: https://www.lls.edu/thellsdifference/facesoflls/thelegalnamegendermarkerchangeproject/
+    title: The Legal Name & Gender Marker Change Project
+    publisher: LMU Loyola Law School
+    kind: org
+    accessed: "2026-09-23"
+  - id: lalgbt-health
+    url: https://lalgbtcenter.org/health-services/
+    title: Health services
+    publisher: Los Angeles LGBT Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: pp-la
+    url: https://www.plannedparenthood.org/planned-parenthood-los-angeles
+    title: Planned Parenthood Los Angeles
+    kind: org
+    accessed: "2026-09-23"
+  - id: apla
+    url: https://aplahealth.org/
+    title: APLA Health
+    kind: org
+    accessed: "2026-09-23"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-23"

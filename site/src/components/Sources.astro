@@ -1,0 +1,15 @@
+---
+import { t, type Locale } from '../i18n/ui';
+interface Source { id: string; url: string; title: string; publisher?: string; kind: string; accessed: string; quote?: string }
+const { sources, locale } = Astro.props as { sources: Source[]; locale: Locale };
+const _ = t(locale);
+---
+<h2 id="sources">{_('section.sources')}</h2>
+<ol class="sources">
+  {sources.map((s) => (
+    <li id={`src-${s.id}`}>
+      <a href={s.url} rel="noopener">{s.title}</a>{s.publisher ? `, ${s.publisher}` : ''} <span>({s.kind}; {_('source.accessed')} <time datetime={s.accessed}>{s.accessed}</time>)</span>
+      {s.quote && <blockquote style="margin:0.2rem 0 0 0.8rem;font-style:italic;">“{s.quote}”</blockquote>}
+    </li>
+  ))}
+</ol>

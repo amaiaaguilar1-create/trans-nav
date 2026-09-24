@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/state-meta.json",
+  "title": "State metadata",
+  "type": "object",
+  "properties": {
+    "code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "name": { "$ref": "common.json#/$defs/LocalizedText" },
+    "kind": { "type": "string", "enum": ["state", "district", "territory"] },
+    "review": { "$ref": "common.json#/$defs/Review" },
+    "overview": { "$ref": "common.json#/$defs/LocalizedText", "description": "Two or three sentences on the overall climate for ID documents and care. Markdown allowed." },
+    "climate": {
+      "type": "object",
+      "description": "Coarse, sourced signal so people in hostile states are warned early. Keep neutral wording.",
+      "properties": {
+        "id_documents": { "type": "string", "enum": ["protective", "mixed", "restrictive"] },
+        "care": { "type": "string", "enum": ["protective", "mixed", "restrictive"] },
+        "shield_law": { "type": "boolean", "description": "State has a law protecting providers/patients of gender-affirming care from out-of-state prosecution." },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["id_documents", "care", "sources"],
+      "additionalProperties": false
+    },
+    "guides": {
+      "type": "array",
+      "description": "Which guide files exist for this state; the site uses this to build navigation.",
+      "items": { "type": "string", "enum": ["name_change", "drivers_license", "birth_certificate", "care"] }
+    },
+    "cities": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "description": "Slugs of files in local/." },
+    "key_resources": { "type": "array", "items": { "$ref": "common.json#/$defs/Resource" }, "description": "Statewide orgs to show on the state landing page." },
+    "sources": { "type": "array", "items": { "$ref": "common.json#/$defs/Source" }, "minItems": 1 }
+  },
+  "required": ["code", "name", "kind", "review", "overview", "climate", "guides", "sources"],
+  "additionalProperties": false
+}

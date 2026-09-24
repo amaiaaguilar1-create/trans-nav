@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/org.json",
+  "title": "National or multi-state organization",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "name": { "type": "string" },
+    "url": { "$ref": "common.json#/$defs/Url" },
+    "type": { "$ref": "common.json#/$defs/ResourceType" },
+    "pillars": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["name_change", "gender_marker", "hrt", "sexual_health", "mental_health", "insurance"] },
+      "minItems": 1
+    },
+    "review": { "$ref": "common.json#/$defs/Review" },
+    "description": { "$ref": "common.json#/$defs/LocalizedText" },
+    "scope": { "type": "string", "enum": ["national", "multi_state", "regional"] },
+    "states_served": {
+      "type": "array",
+      "description": "Two-letter codes, or ['ALL'].",
+      "items": { "type": "string", "pattern": "^(ALL|[A-Z]{2})$" }
+    },
+    "states_excluded": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{2}$" } },
+    "cost": { "type": "string", "enum": ["free", "sliding_scale", "low_cost", "insurance", "paid", "varies", "unknown"] },
+    "cost_detail": { "$ref": "common.json#/$defs/LocalizedText" },
+    "accepts_insurance": { "type": "boolean" },
+    "accepts_medicaid": { "type": "boolean" },
+    "serves_minors": { "type": "boolean" },
+    "telehealth": { "type": "boolean" },
+    "phone": { "type": "string" },
+    "languages": { "type": "array", "items": { "type": "string" } },
+    "program_status": { "type": "string", "enum": ["active", "paused", "waitlist", "closed", "unknown"], "description": "For funds/grants especially." },
+    "notes": { "$ref": "common.json#/$defs/LocalizedText" },
+    "sources": { "type": "array", "items": { "$ref": "common.json#/$defs/Source" }, "minItems": 1 }
+  },
+  "required": ["id", "name", "url", "type", "pillars", "review", "description", "scope", "states_served", "cost", "sources"],
+  "additionalProperties": false
+}

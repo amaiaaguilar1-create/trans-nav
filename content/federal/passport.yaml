@@ -1,0 +1,200 @@
+guide_type: passport
+jurisdiction: US
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    travel.state.gov blocks automated fetching (Cloudflare), so the State Department page text was not read directly on
+    2026-09-23; the policy status is drawn from the ACLU case page, the Supreme Court docket, and Immigration Equality's
+    January 2026 FAQ. Reviewer: open the travel.state.gov sex marker and fees pages manually and confirm wording and
+    current fee amounts. The monitor should fetch this source with a headless browser.
+status: prohibited
+name_change_status: available
+requirement_type: prohibited
+markers_available: [M, F]
+status_summary:
+  en: >-
+    As of September 2026, new and renewed US passports are issued only with the sex listed on your original birth
+    certificate. You cannot select M, F, or X yourself. This is being litigated (Orr v. Trump); a nationwide court order
+    that briefly restored self-selection was put on hold by the Supreme Court in November 2025. Passports already issued
+    with a corrected marker or an X remain valid until they expire. Name changes are still processed normally.
+  es: >-
+    A septiembre de 2026, los pasaportes nuevos y renovados de EE. UU. se emiten solo con el sexo que aparece en tu acta
+    de nacimiento original. No puedes elegir M, F o X. Esto está en litigio (Orr v. Trump); una orden judicial nacional
+    que restauró brevemente la autoselección fue suspendida por la Corte Suprema en noviembre de 2025. Los pasaportes ya
+    emitidos con un marcador corregido o una X siguen siendo válidos hasta su vencimiento. Los cambios de nombre se
+    procesan normalmente.
+summary:
+  en: |
+    From June 2022 until January 2025, the State Department let applicants self-select M, F, or X. Executive Order 14168 (January 20, 2025) directed federal agencies to recognize only sex at birth, and the State Department stopped issuing passports with a self-selected or X marker.
+
+    The ACLU sued (Orr v. Trump, D. Mass.). A district court ordered the government to resume self-selection for the named plaintiffs in April 2025 and for everyone in June 2025. The First Circuit refused to pause that order, but on **November 6, 2025 the Supreme Court granted the government's request for a stay**, so the sex-at-birth policy is in force again while the case continues. The case is in discovery and summary-judgment briefing through at least spring 2027.
+
+    **What this means for you today**
+    - A new or renewed passport will show the sex on your birth certificate as originally issued, even if your state has amended it.
+    - If you hold a valid passport with a corrected marker or X, keep using it. It is valid until it expires, and there is no requirement to surrender it.
+    - Renewing early is not helpful: the renewal will carry the birth sex.
+    - Name changes are unaffected. You can update your name with a certified court order, and it is free if your passport was issued less than a year ago.
+  es: |
+    De junio de 2022 a enero de 2025, el Departamento de Estado permitía elegir M, F o X. La Orden Ejecutiva 14168 (20 de enero de 2025) ordenó a las agencias federales reconocer solo el sexo al nacer, y el Departamento de Estado dejó de emitir pasaportes con marcador autoseleccionado o X.
+
+    La ACLU demandó (Orr v. Trump). Un tribunal de distrito ordenó restaurar la autoselección para los demandantes en abril de 2025 y para todos en junio de 2025. El 6 de noviembre de 2025 la Corte Suprema suspendió esa orden, por lo que la política de sexo al nacer vuelve a estar vigente mientras el caso continúa.
+
+    **Qué significa hoy**
+    - Un pasaporte nuevo o renovado mostrará el sexo de tu acta de nacimiento original, aunque tu estado la haya enmendado.
+    - Si tienes un pasaporte válido con marcador corregido o X, sigue usándolo hasta que venza.
+    - Los cambios de nombre no se ven afectados.
+litigation:
+  - case: Orr v. Trump
+    court: U.S. District Court for the District of Massachusetts; stay granted by the U.S. Supreme Court (No. 25A319)
+    summary:
+      en: ACLU class action challenging the sex-at-birth passport policy. Preliminary relief for all trans, nonbinary, and intersex applicants was granted June 17, 2025; the Supreme Court stayed it November 6, 2025 pending appeal.
+      es: Demanda colectiva de la ACLU contra la política de pasaportes de sexo al nacer. Se otorgó alivio preliminar para todos los solicitantes trans, no binarios e intersex el 17 de junio de 2025; la Corte Suprema lo suspendió el 6 de noviembre de 2025.
+    effect_today:
+      en: The restrictive policy is being enforced. Applications are issued with birth sex. Watch this page; if the district court rules for the plaintiffs after summary judgment, self-selection could return, and the government would likely appeal again.
+      es: La política restrictiva está en vigor. Las solicitudes se emiten con el sexo al nacer. Si el tribunal de distrito falla a favor de los demandantes, la autoselección podría volver, y el gobierno probablemente apelaría de nuevo.
+    last_update: "2026-01-06"
+    url: https://www.aclu.org/cases/orr-v-trump
+    sources: [aclu-orr, aclu-scotus, ie-faq]
+eligibility:
+  other:
+    en: Any US citizen or non-citizen national can apply. Nothing about gender identity affects eligibility for a passport itself; only the sex marker printed on it is restricted.
+  sources: [ie-faq]
+forms:
+  - id: DS-11
+    name:
+      en: Application for a U.S. Passport (first passport, or if you cannot renew by mail)
+      es: Solicitud de pasaporte de EE. UU. (primer pasaporte o si no puedes renovar por correo)
+    url: https://travel.state.gov/content/travel/en/passports/how-apply/forms.html
+    required: conditional
+    condition:
+      en: Use if you have never had a passport, your last one was issued before age 16 or more than 15 years ago, or it was lost, stolen, or damaged. Must be submitted in person at an acceptance facility.
+    how_to_fill:
+      en: |
+        - Fill in your current legal name. If it differs from your citizenship evidence, bring the certified name-change order.
+        - The sex field will be issued according to your birth certificate regardless of what you select; selecting a different marker will not cause a denial but will not be honored.
+    sources: [ie-faq]
+  - id: DS-82
+    name:
+      en: Renewal by mail
+      es: Renovación por correo
+    url: https://travel.state.gov/content/travel/en/passports/how-apply/forms.html
+    required: conditional
+    condition:
+      en: Use if your most recent passport is undamaged, was issued when you were 16 or older, within the last 15 years, and in your current name or a name you can document with a certified court order.
+    sources: [ie-faq]
+  - id: DS-5504
+    name:
+      en: Name change, data correction, or limited passport replacement (within one year of issuance, no fee)
+      es: Cambio de nombre o corrección de datos (dentro de un año de la emisión, sin costo)
+    url: https://travel.state.gov/content/travel/en/passports/how-apply/forms.html
+    required: conditional
+    condition:
+      en: Use to change your name for free if your passport was issued less than a year ago. Mail it with the passport and a certified court order.
+    sources: [ie-faq]
+steps:
+  - id: decide
+    title:
+      en: Decide whether to apply now
+      es: Decide si solicitar ahora
+    body:
+      en: |
+        If your current passport has the marker you want and is valid, **do nothing**; it stays valid until it expires. If you have no passport or it is expiring, you can still apply; it will be issued with your birth sex. Some people prefer to wait for the litigation; others need a passport for travel or as ID and apply anyway. Both are reasonable.
+      es: |
+        Si tu pasaporte actual tiene el marcador que quieres y es válido, **no hagas nada**; sigue siendo válido hasta que venza. Si no tienes pasaporte o está por vencer, puedes solicitarlo; se emitirá con tu sexo al nacer.
+    sources: [aclu-orr, ie-faq]
+  - id: name-only
+    title:
+      en: Changing only your name
+      es: Cambiar solo tu nombre
+    body:
+      en: |
+        - Passport issued **less than a year ago**: mail form DS-5504 with your passport and a certified court order. Free.
+        - Issued **more than a year ago** and eligible to renew: mail DS-82 with your passport, the court order, a new photo, and the fee.
+        - Otherwise: DS-11 in person with the court order and citizenship evidence.
+      es: |
+        - Pasaporte emitido **hace menos de un año**: envía DS-5504 con tu pasaporte y orden judicial certificada. Gratis.
+        - Emitido **hace más de un año** y elegible para renovar: envía DS-82 con tu pasaporte, la orden judicial, una foto nueva y la tarifa.
+        - En otros casos: DS-11 en persona con la orden judicial y prueba de ciudadanía.
+    forms: [DS-5504, DS-82, DS-11]
+    fees: [book, execution]
+    sources: [ie-faq]
+  - id: track
+    title:
+      en: Follow the case
+      es: Sigue el caso
+    body:
+      en: The ACLU's Orr v. Trump case page posts every ruling. This site's monitor watches the docket and the State Department page and will update the status banner above when the policy changes.
+      es: La página del caso Orr v. Trump de la ACLU publica cada fallo. El monitor de este sitio vigila el expediente y la página del Departamento de Estado y actualizará el aviso de estado cuando cambie la política.
+    sources: [aclu-orr]
+fees:
+  - id: book
+    label:
+      en: Passport book application or renewal (adult)
+      es: Solicitud o renovación de libreta de pasaporte (adulto)
+    amount: 130
+    note:
+      en: Confirm the current amount on the State Department fees page; DS-5504 within one year of issuance is free.
+    sources: [state-fees]
+  - id: execution
+    label:
+      en: Execution (acceptance) fee for in-person DS-11 applications
+      es: Tarifa de aceptación para solicitudes DS-11 en persona
+    amount: 35
+    sources: [state-fees]
+fee_waiver:
+  available: false
+  how:
+    en: There is no federal fee waiver for passports. Name changes within one year of issuance are free via DS-5504.
+  sources: [state-fees]
+after:
+  en: |
+    Once you have a passport in your new name, it becomes strong photo ID for the DMV, banks, and employers. If your state ID shows X or a corrected marker and your passport shows birth sex, that mismatch is common now and does not by itself cause problems at TSA checkpoints or with REAL ID.
+  es: |
+    Con un pasaporte en tu nuevo nombre tienes una identificación con foto sólida para el DMV, bancos y empleadores. Si tu identificación estatal muestra X o un marcador corregido y tu pasaporte muestra el sexo al nacer, esa discrepancia es común ahora y por sí sola no causa problemas en los controles de TSA ni con REAL ID.
+tips:
+  - en: Do not surrender or "correct" a valid passport that already shows your marker. Nothing requires you to.
+    es: No entregues ni "corrijas" un pasaporte válido que ya muestra tu marcador. Nada te obliga a hacerlo.
+  - en: If you travel internationally, carry your court order and a copy of your state ID in case a border officer questions the mismatch.
+statutes:
+  - cite: Executive Order 14168 (Jan. 20, 2025)
+    title:
+      en: Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government
+    url: https://www.federalregister.gov/documents/2025/01/30/2025-02090/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government
+related_links:
+  - title: U.S. Department of State, Selecting your gender marker
+    url: https://travel.state.gov/content/travel/en/passports/need-passport/selecting-your-gender-marker.html
+    note:
+      en: The official page. Read it directly; automated tools cannot fetch it.
+  - title: ACLU, Orr v. Trump
+    url: https://www.aclu.org/cases/orr-v-trump
+  - title: Advocates for Trans Equality, Passports
+    url: https://transequality.org/documents/passports
+sources:
+  - id: aclu-orr
+    url: https://www.aclu.org/cases/orr-v-trump
+    title: Orr v. Trump, case page
+    publisher: American Civil Liberties Union
+    kind: court
+    accessed: "2026-09-23"
+  - id: aclu-scotus
+    url: https://www.aclu.org/press-releases/supreme-court-allows-trump-administration-to-enforce-discriminatory-passport-policy
+    title: Supreme Court allows Trump administration to enforce discriminatory passport policy (Nov. 6, 2025)
+    publisher: American Civil Liberties Union
+    kind: news
+    accessed: "2026-09-23"
+  - id: ie-faq
+    url: https://immigrationequality.org/wp-content/uploads/2026/01/1.8.Gender-EO_FAQs-on-forms-and-Docs_-01-06-2026-Update-FINAL-1.pdf
+    title: FAQs on the gender executive order, forms, and documents (updated Jan. 6, 2026)
+    publisher: Immigration Equality
+    kind: org
+    accessed: "2026-09-23"
+  - id: state-fees
+    url: https://travel.state.gov/content/travel/en/passports/how-apply/fees.html
+    title: Passport fees
+    publisher: U.S. Department of State
+    kind: official
+    accessed: "2026-09-23"

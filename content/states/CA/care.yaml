@@ -1,0 +1,188 @@
+jurisdiction: CA
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Legal framework (Medi-Cal coverage, IGNA, SB 923, SB 107) drafted from official pages 2026-09-23. Clinic list is a
+    starting point from org websites; verify each clinic's current informed-consent policy and new-patient status.
+status_summary:
+  en: >-
+    Gender-affirming care is legal and protected for adults and minors in California. Medi-Cal covers hormone therapy,
+    surgery, and related care, state-regulated private plans may not exclude it, and a shield law protects patients and
+    providers. Informed-consent hormone clinics operate in every major metro.
+  es: >-
+    La atención de afirmación de género es legal y está protegida para adultos y menores en California. Medi-Cal cubre
+    terapia hormonal, cirugía y atención relacionada, los planes privados regulados por el estado no pueden excluirla, y
+    una ley escudo protege a pacientes y proveedores. Hay clínicas de hormonas por consentimiento informado en cada área metropolitana.
+adult_care:
+  status: available
+  detail:
+    en: |
+      No state restriction. Most community clinics and Planned Parenthood affiliates prescribe hormones on an **informed consent** basis: you discuss risks and benefits with the prescriber and sign a consent form, with no therapist letter required. Telehealth prescribing is legal statewide.
+    es: |
+      Sin restricciones estatales. La mayoría de las clínicas comunitarias y afiliadas de Planned Parenthood recetan hormonas mediante **consentimiento informado**: hablas de riesgos y beneficios con quien receta y firmas un consentimiento, sin carta de terapeuta. La telesalud es legal en todo el estado.
+  sources: [dmhc-tgi, pp-norcal]
+minor_care:
+  status: available
+  detail:
+    en: |
+      Legal. California's shield law (SB 107, 2022) bars state courts and agencies from cooperating with other states' attempts to punish families or providers for gender-affirming care, and protects medical records from out-of-state subpoenas. Care for minors follows clinical guidelines and requires parental consent (or the consent of a minor who is legally able to consent to their own care).
+    es: |
+      Legal. La ley escudo de California (SB 107, 2022) impide que tribunales y agencias estatales cooperen con intentos de otros estados de castigar a familias o proveedores por atención de afirmación de género, y protege los expedientes médicos de citaciones de otros estados.
+  sources: [sb107]
+medicaid:
+  program_name: Medi-Cal
+  covers_hrt: "yes"
+  covers_surgery: "yes"
+  detail:
+    en: |
+      Medi-Cal covers medically necessary transgender health services, including hormone therapy, puberty blockers, mental health care, hair removal, voice therapy, and chest, genital, and facial surgeries, following recognized standards of care. Since March 2025, Medi-Cal managed care plans must mark in their provider directories which in-network providers offer gender-affirming care (SB 923, TGI Inclusive Care Act). Apply through Covered California or your county; adults up to 138% of the federal poverty level qualify regardless of immigration status.
+    es: |
+      Medi-Cal cubre servicios de salud trans médicamente necesarios, incluidos terapia hormonal, bloqueadores de pubertad, salud mental, depilación, terapia de voz y cirugías de pecho, genitales y rostro, según estándares de atención reconocidos. Desde marzo de 2025, los planes de Medi-Cal deben indicar en sus directorios qué proveedores ofrecen atención de afirmación de género (SB 923). Solicítalo a través de Covered California o tu condado.
+  how_to_apply_url: https://www.coveredca.com/
+  sources: [dhcs-apl, sb923]
+private_insurance:
+  nondiscrimination_protection: true
+  detail:
+    en: |
+      The Insurance Gender Nondiscrimination Act (Health & Safety Code § 1365.5; Insurance Code § 10140) bars state-regulated health plans and insurers from denying, limiting, or excluding gender-affirming benefits based on sex or gender identity. If a plan denies care, file a grievance with the plan; if it is not resolved in 30 days (or the situation is urgent), file a complaint or request an Independent Medical Review with the Department of Managed Health Care. Self-funded employer plans are federally regulated and may not be covered; the Trans Health Project has appeal templates for those.
+    es: |
+      La Ley de No Discriminación de Género en Seguros prohíbe a los planes y aseguradoras regulados por el estado negar, limitar o excluir beneficios de afirmación de género. Si un plan niega la atención, presenta una queja ante el plan; si no se resuelve en 30 días (o es urgente), presenta una queja o solicita una Revisión Médica Independiente ante el Departamento de Atención Médica Administrada (DMHC).
+  complaint_url: https://www.dmhc.ca.gov/HealthCareinCalifornia/GettheBestCare/TGICare.aspx
+  sources: [dmhc-tgi]
+telehealth_hrt: [plume, folx, planned-parenthood]
+resources:
+  - id: lyon-martin
+    name: Lyon-Martin Community Health Services
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: San Francisco clinic serving women, trans, and nonbinary people; informed-consent hormone therapy, no therapist letter required; sliding scale.
+      es: Clínica en San Francisco para mujeres y personas trans y no binarias; terapia hormonal por consentimiento informado; escala móvil.
+    url: https://www.lyon-martin.org/healthcare-services
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [lyon-martin]
+  - id: fhcsd
+    name: Family Health Centers of San Diego, Transgender Health Services
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Federally qualified health center with dedicated transgender health program across San Diego County; sliding scale and Medi-Cal.
+      es: Centro de salud federalmente calificado con programa de salud trans en el condado de San Diego; escala móvil y Medi-Cal.
+    url: https://www.fhcsd.org/transgender-health-services/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [fhcsd]
+  - id: gender-health-center
+    name: Gender Health Center (Sacramento)
+    type: informed_consent_clinic
+    pillars: [hrt, mental_health]
+    description:
+      en: Sacramento nonprofit offering informed-consent hormone clinic (with UC Davis), counseling, and advocacy on a sliding scale.
+      es: Organización sin fines de lucro en Sacramento con clínica de hormonas por consentimiento informado, consejería y defensoría en escala móvil.
+    url: https://genderhealthcenter.org/
+    cost: sliding_scale
+    accepts_uninsured: true
+    verification: unverified
+    sources: [ghc]
+  - id: pp-norcal-gaht
+    org: planned-parenthood
+    name: Planned Parenthood Northern California, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy at many Northern California health centers and by telehealth; Medi-Cal and sliding scale. Other California affiliates (Los Angeles, Pacific Southwest, Central Coast, Mar Monte) offer the same service.
+      es: Terapia hormonal por consentimiento informado en muchos centros del norte de California y por telesalud; Medi-Cal y escala móvil. Otras afiliadas de California ofrecen el mismo servicio.
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-california/get-involved-locally/learn/gaht
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-norcal]
+  - id: trans-health-project
+    name: Trans Health Project (Advocates for Trans Equality)
+    type: insurance_help
+    pillars: [insurance]
+    description:
+      en: Free templates and guides for appealing insurance denials of gender-affirming care, including employer self-funded plans.
+      es: Plantillas y guías gratuitas para apelar negaciones de seguro de atención de afirmación de género.
+    url: https://transhealthproject.org/
+    cost: free
+    verification: org_website
+    sources: [thp]
+statutes:
+  - cite: Cal. Health & Safety Code § 1365.5
+    title:
+      en: Insurance Gender Nondiscrimination Act
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1365.5
+  - cite: SB 107 (2022)
+    title:
+      en: Shield law for gender-affirming care
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB107
+  - cite: SB 923 (2022), TGI Inclusive Care Act
+    title:
+      en: Provider cultural-competency training and provider-directory labeling for gender-affirming care
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB923
+sources:
+  - id: dmhc-tgi
+    url: https://www.dmhc.ca.gov/HealthCareinCalifornia/GettheBestCare/TGICare.aspx
+    title: Transgender, gender diverse, and intersex (TGI) care
+    publisher: California Department of Managed Health Care
+    kind: official
+    accessed: "2026-09-23"
+  - id: dhcs-apl
+    url: https://www.dhcs.ca.gov/wp-content/uploads/2025/10/APL16-013.pdf
+    title: All Plan Letter 16-013, Transgender services (Medi-Cal managed care)
+    publisher: California Department of Health Care Services
+    kind: regulation
+    accessed: "2026-09-23"
+  - id: sb923
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB923
+    title: SB 923, TGI Inclusive Care Act
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+  - id: sb107
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB107
+    title: SB 107, Gender-affirming health care shield law
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+  - id: pp-norcal
+    url: https://www.plannedparenthood.org/planned-parenthood-northern-california/get-involved-locally/learn/gaht
+    title: Gender-affirming hormone therapy
+    publisher: Planned Parenthood Northern California
+    kind: org
+    accessed: "2026-09-23"
+  - id: lyon-martin
+    url: https://www.lyon-martin.org/healthcare-services
+    title: Healthcare services
+    publisher: Lyon-Martin Community Health Services
+    kind: org
+    accessed: "2026-09-23"
+  - id: fhcsd
+    url: https://www.fhcsd.org/transgender-health-services/
+    title: Transgender health services
+    publisher: Family Health Centers of San Diego
+    kind: org
+    accessed: "2026-09-23"
+  - id: ghc
+    url: https://genderhealthcenter.org/
+    title: Gender Health Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: thp
+    url: https://transhealthproject.org/
+    title: Trans Health Project
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-23"

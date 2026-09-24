@@ -1,0 +1,16 @@
+{
+  "name": "trans-nav",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Trans Resource Navigator: name change, gender marker, and gender-affirming care guides for every US state, kept current.",
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "workspaces": ["site", "pipeline", "workers/*"],
+  "scripts": {
+    "dev": "npm run dev -w site",
+    "build": "npm run build -w site",
+    "preview": "npm run preview -w site",
+    "validate": "npm run validate -w pipeline",
+    "check": "npm run validate && npm run build"
+  }
+}

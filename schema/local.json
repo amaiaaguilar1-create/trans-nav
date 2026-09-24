@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/local.json",
+  "title": "City / metro resources",
+  "type": "object",
+  "properties": {
+    "jurisdiction": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string", "description": "e.g. Los Angeles" },
+    "area": { "$ref": "common.json#/$defs/LocalizedText", "description": "Counties / metro area covered." },
+    "review": { "$ref": "common.json#/$defs/Review" },
+    "intro": { "$ref": "common.json#/$defs/LocalizedText" },
+    "court": {
+      "type": "object",
+      "description": "Where name change petitions are filed locally.",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "$ref": "common.json#/$defs/Url" },
+        "self_help_url": { "$ref": "common.json#/$defs/Url" },
+        "filing_fee": { "type": "number" },
+        "notes": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["name", "sources"],
+      "additionalProperties": false
+    },
+    "resources": { "type": "array", "items": { "$ref": "common.json#/$defs/Resource" }, "minItems": 1 },
+    "sources": { "type": "array", "items": { "$ref": "common.json#/$defs/Source" }, "minItems": 1 }
+  },
+  "required": ["jurisdiction", "slug", "name", "review", "intro", "resources", "sources"],
+  "additionalProperties": false
+}

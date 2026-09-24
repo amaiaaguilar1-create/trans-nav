@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transnav.local/schema/care.json",
+  "title": "State gender-affirming care overview",
+  "type": "object",
+  "properties": {
+    "jurisdiction": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "review": { "$ref": "common.json#/$defs/Review" },
+    "status_summary": { "$ref": "common.json#/$defs/LocalizedText" },
+    "adult_care": {
+      "type": "object",
+      "properties": {
+        "status": { "$ref": "common.json#/$defs/Status" },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["status", "detail", "sources"],
+      "additionalProperties": false
+    },
+    "minor_care": {
+      "type": "object",
+      "properties": {
+        "status": { "$ref": "common.json#/$defs/Status" },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["status", "detail", "sources"],
+      "additionalProperties": false
+    },
+    "medicaid": {
+      "type": "object",
+      "properties": {
+        "program_name": { "type": "string", "description": "e.g. Medi-Cal" },
+        "covers_hrt": { "type": "string", "enum": ["yes", "no", "partial", "unclear"] },
+        "covers_surgery": { "type": "string", "enum": ["yes", "no", "partial", "unclear"] },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "how_to_apply_url": { "$ref": "common.json#/$defs/Url" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["covers_hrt", "covers_surgery", "detail", "sources"],
+      "additionalProperties": false
+    },
+    "private_insurance": {
+      "type": "object",
+      "properties": {
+        "nondiscrimination_protection": { "type": "boolean" },
+        "detail": { "$ref": "common.json#/$defs/LocalizedText" },
+        "complaint_url": { "$ref": "common.json#/$defs/Url" },
+        "sources": { "$ref": "common.json#/$defs/SourceRefs" }
+      },
+      "required": ["nondiscrimination_protection", "detail", "sources"],
+      "additionalProperties": false
+    },
+    "telehealth_hrt": {
+      "type": "array",
+      "description": "Ids of telehealth orgs (content/orgs) that serve this state.",
+      "items": { "type": "string" }
+    },
+    "resources": { "type": "array", "items": { "$ref": "common.json#/$defs/Resource" }, "description": "Statewide care resources (clinics with many sites, funds, insurance navigators)." },
+    "statutes": { "type": "array", "items": { "$ref": "common.json#/$defs/Citation" } },
+    "litigation": { "type": "array", "items": { "$ref": "common.json#/$defs/Litigation" } },
+    "pending_bills": { "type": "array", "items": { "$ref": "common.json#/$defs/PendingBill" } },
+    "sources": { "type": "array", "items": { "$ref": "common.json#/$defs/Source" }, "minItems": 1 }
+  },
+  "required": ["jurisdiction", "review", "status_summary", "adult_care", "minor_care", "medicaid", "sources"],
+  "additionalProperties": false
+}

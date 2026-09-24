@@ -1,0 +1,521 @@
+guide_type: name_change
+jurisdiction: CA
+review:
+  status: draft
+  last_verified: "2026-09-23"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Drafted from primary sources on 2026-09-23. Open items for the human reviewer: (1) confirm each county's current
+    fee schedule beyond LA (statewide baseline is $435); (2) confirm certified-copy fee for decrees; (3) confirm no
+    fingerprint/background-check requirement in CCP 1277 text; (4) confirm NC-225 is no longer used for adults after AB 1084.
+status: available
+status_summary:
+  en: >-
+    California adults can change their name to match their gender identity by filing a petition in Superior Court.
+    Since July 1, 2026 there is no newspaper publication, no hearing, and no objection period: the court must grant
+    the petition within six weeks of filing, and the record is confidential automatically.
+  es: >-
+    En California, las personas adultas pueden cambiar su nombre para que coincida con su identidad de género
+    presentando una petición en el Tribunal Superior. Desde el 1 de julio de 2026 no hay publicación en periódico,
+    ni audiencia, ni periodo de objeción: el tribunal debe conceder la petición dentro de seis semanas y el
+    expediente es confidencial automáticamente.
+summary:
+  en: |
+    California has one of the simplest processes in the country. You file a short petition with the Superior Court in the county where you live, pay a filing fee (or ask for a fee waiver), and the court signs a decree. You never have to publish a notice in a newspaper and, for adults, you never appear in court.
+
+    There are two petition packets. Use the **NC-200 series** if you only want to change your name. Use the **NC-300 series** if you want the court to recognize your gender change too (this gets you a court order you can use for a new birth certificate, and it can include a name change in the same petition). If you were born in California you do **not** need a court order to update your birth certificate; see the birth certificate guide. Many people still choose NC-300 because a court order is accepted everywhere, including by other states and some foreign consulates.
+  es: |
+    California tiene uno de los procesos más sencillos del país. Presentas una petición breve en el Tribunal Superior del condado donde vives, pagas una tarifa (o pides una exención) y el tribunal firma un decreto. Nunca tienes que publicar un aviso en un periódico y, si eres adulto, nunca compareces ante el tribunal.
+
+    Hay dos paquetes de formularios. Usa la **serie NC-200** si solo quieres cambiar tu nombre. Usa la **serie NC-300** si además quieres que el tribunal reconozca tu cambio de género (esto te da una orden judicial que sirve para una nueva acta de nacimiento y puede incluir el cambio de nombre en la misma petición).
+eligibility:
+  residency:
+    en: File in the Superior Court of the California county where you live.
+    es: Presenta la petición en el Tribunal Superior del condado de California donde vives.
+  age:
+    en: 18 or older for the adult process. Minors use the same forms with a parent or guardian; see the Minors section.
+    es: 18 años o más para el proceso de adultos. Los menores usan los mismos formularios con un padre, madre o tutor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      You must disclose on the petition whether you are on parole, probation, or a registered sex offender; those
+      situations add requirements but do not automatically bar a name change.
+  sources: [selfhelp-nc200-forms, nc300-pdf]
+forms:
+  - id: NC-200
+    name:
+      en: Petition for Change of Name to Conform to Gender Identity
+      es: Petición de cambio de nombre para que coincida con la identidad de género
+    url: https://selfhelp.courts.ca.gov/jcc-form/NC-200
+    required: conditional
+    condition:
+      en: Use this packet if you want to change your name only (no court order about gender).
+      es: Usa este paquete si solo quieres cambiar tu nombre (sin orden judicial sobre género).
+    how_to_fill:
+      en: |
+        - Item 1: your current legal name exactly as it appears on your ID.
+        - Item 2: the new name you want. Double-check spelling; the decree copies it exactly.
+        - Check the box stating the change is to conform your name to your gender identity. You do not need to explain further or attach any medical letter.
+        - Sign and date. Do not use this form for a name change unrelated to gender identity (that is NC-100, which still requires publication).
+    sources: [selfhelp-nc200-forms]
+  - id: NC-230
+    name:
+      en: Decree Changing Name (to conform to gender identity)
+      es: Decreto de cambio de nombre (identidad de género)
+    url: https://selfhelp.courts.ca.gov/jcc-form/NC-230
+    required: conditional
+    condition:
+      en: Goes with NC-200. Fill in the caption and your current/new names; the judge signs the rest.
+    sources: [selfhelp-nc200-forms]
+  - id: NC-300
+    name:
+      en: Petition for Recognition of Adult's Change of Gender and Sex Identifier, Name Change, and Issuance of New Certificates
+      es: Petición de reconocimiento del cambio de género e identificador de sexo de un adulto, cambio de nombre y emisión de nuevos certificados
+    url: https://courts.ca.gov/sites/default/files/courts/default/2024-11/nc300.pdf
+    required: conditional
+    condition:
+      en: Use this packet if you want a court order recognizing your gender (female, male, or nonbinary), with or without a name change.
+      es: Usa este paquete si quieres una orden judicial que reconozca tu género (femenino, masculino o no binario), con o sin cambio de nombre.
+    how_to_fill:
+      en: |
+        - Check the boxes for what you are asking: change of gender and sex identifier, name change, new birth certificate, and (optionally) a new marriage certificate or a child's birth certificate.
+        - Choose female, male, or nonbinary.
+        - You attest under penalty of perjury that the request is to conform your legal gender to your gender identity and is not for a fraudulent purpose. No doctor's letter is required.
+        - Read NC-300-INFO first; it walks through each item.
+    sources: [nc300-pdf, nc300-info]
+  - id: NC-330
+    name:
+      en: Order Recognizing Adult's Change of Gender and Sex Identifier, for Name Change, and for Issuance of New Certificate
+      es: Orden de reconocimiento del cambio de género e identificador de sexo de un adulto, cambio de nombre y emisión de nuevo certificado
+    url: https://courts.ca.gov/sites/default/files/courts/default/2024-11/nc330.pdf
+    required: conditional
+    condition:
+      en: Goes with NC-300. Fill in the boxes at the top; the judge signs the rest. This is the document you will use everywhere afterwards, so get several certified copies.
+    sources: [selfhelp-gender-name-forms]
+  - id: NC-311
+    name:
+      en: Birth Certificate for Child of Petitioner (Attachment)
+    url: https://selfhelp.courts.ca.gov/jcc-form/NC-311
+    required: optional
+    condition:
+      en: Only if you want your information changed on your child's birth certificate. If the child is 18 or older, they must also sign.
+    sources: [selfhelp-gender-name-forms]
+  - id: NC-312
+    name:
+      en: Marriage License and Certificate (Attachment)
+    url: https://selfhelp.courts.ca.gov/jcc-form/NC-312
+    required: optional
+    condition:
+      en: Only if you want a new marriage certificate. If your spouse does not sign it, you also need NC-325.
+    sources: [selfhelp-gender-name-forms]
+  - id: NC-325
+    name:
+      en: Order to Show Cause, Issuance of New Marriage License and Certificate
+    url: https://selfhelp.courts.ca.gov/jcc-form/NC-325
+    required: optional
+    condition:
+      en: Only if your spouse did not sign NC-312.
+    sources: [selfhelp-gender-name-forms]
+  - id: CM-010
+    name:
+      en: Civil Case Cover Sheet
+      es: Portada de caso civil
+    url: https://selfhelp.courts.ca.gov/jcc-form/CM-010
+    required: conditional
+    condition:
+      en: >-
+        Most courts require it with any new civil filing; some do not. Check "Petition re: change of name" (or the closest option) and file it with your petition.
+    sources: [selfhelp-gender-name-forms]
+  - id: FW-001
+    name:
+      en: Request to Waive Court Fees
+      es: Solicitud de exención de cuotas judiciales
+    url: https://selfhelp.courts.ca.gov/jcc-form/FW-001
+    required: optional
+    condition:
+      en: Only if you cannot afford the $435 filing fee. See the fee waiver section for who qualifies.
+    how_to_fill:
+      en: |
+        - Item 5a: check any public benefit you receive (Medi-Cal, CalFresh, SSI, CalWORKs, General Assistance, and others listed). One is enough.
+        - Item 5b: if you receive no listed benefit, check the box if your household income is at or below the amount shown on the form for your household size (125% of the federal poverty level; the form prints the current numbers).
+        - Item 5c: if neither applies, explain why you cannot pay for both basic needs and court fees.
+        - Also fill in FW-003 (Order on Court Fee Waiver) and file both with your petition.
+    sources: [selfhelp-fee-waiver]
+  - id: FW-003
+    name:
+      en: Order on Court Fee Waiver
+      es: Orden sobre exención de cuotas judiciales
+    url: https://selfhelp.courts.ca.gov/jcc-form/FW-003
+    required: optional
+    condition:
+      en: Goes with FW-001; the judge fills in the decision.
+    sources: [selfhelp-fee-waiver]
+steps:
+  - id: choose-packet
+    title:
+      en: Choose your packet
+      es: Elige tu paquete de formularios
+    body:
+      en: |
+        - **Name only**: NC-200 + NC-230 (+ CM-010).
+        - **Gender recognition, with or without name change**: NC-300 + NC-330 (+ CM-010), plus NC-311 / NC-312 / NC-325 only if you are also updating a child's birth certificate or your marriage certificate.
+
+        You can fill the forms with the court's free guided interview at selfhelp.courts.ca.gov, which produces the completed PDFs.
+      es: |
+        - **Solo nombre**: NC-200 + NC-230 (+ CM-010).
+        - **Reconocimiento de género, con o sin cambio de nombre**: NC-300 + NC-330 (+ CM-010), más NC-311 / NC-312 / NC-325 solo si también actualizas el acta de nacimiento de un hijo o tu certificado de matrimonio.
+    forms: [NC-200, NC-300, CM-010]
+    sources: [selfhelp-nc200-forms, selfhelp-gender-name-forms]
+  - id: fee-waiver
+    title:
+      en: Ask for a fee waiver if you qualify
+      es: Pide una exención de tarifas si calificas
+    body:
+      en: Fill out FW-001 and FW-003 and file them with your petition. If you receive Medi-Cal, CalFresh, SSI, or another listed benefit, you qualify automatically. The clerk will not charge you while the request is pending.
+      es: Llena FW-001 y FW-003 y preséntalos con tu petición. Si recibes Medi-Cal, CalFresh, SSI u otro beneficio de la lista, calificas automáticamente.
+    forms: [FW-001, FW-003]
+    optional: true
+    sources: [selfhelp-fee-waiver]
+  - id: copies
+    title:
+      en: Make one copy of everything
+      es: Haz una copia de todo
+    body:
+      en: The court keeps the originals and returns your copy stamped "filed". Some courts want two copies; check your county's self-help page or call the clerk.
+    sources: [selfhelp-gender-name-forms]
+  - id: file
+    title:
+      en: File at the Superior Court in your county
+      es: Presenta los documentos en el Tribunal Superior de tu condado
+    body:
+      en: |
+        Take or mail your forms to the civil clerk of the Superior Court in the county where you live, and pay the filing fee (or hand in your fee waiver). Many counties also accept electronic filing through an approved e-filing provider; check your court's website.
+
+        Ask the clerk whether your court wants the proposed decree (NC-230 or NC-330) filed now or brought later. Keep your stamped copy.
+    fees: [filing]
+    sources: [statewide-fee-schedule, lacourt-fees, selfhelp-gender-name-forms]
+  - id: wait
+    title:
+      en: Wait for the signed decree (no hearing)
+      es: Espera el decreto firmado (sin audiencia)
+    body:
+      en: |
+        For adults, the court must grant the petition without a hearing within six weeks of filing (Code Civ. Proc. § 1277.5, as amended by AB 1084, effective July 1, 2026). There is no longer a public notice or objection period. If the court has a question about your paperwork it will contact you.
+      es: |
+        Para adultos, el tribunal debe conceder la petición sin audiencia dentro de las seis semanas siguientes a la presentación (Código de Procedimiento Civil § 1277.5, modificado por AB 1084, vigente desde el 1 de julio de 2026).
+    estimated_time:
+      en: up to 6 weeks
+      es: hasta 6 semanas
+    sources: [ab1084, ccp-1277-5]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the decree
+      es: Obtén copias certificadas del decreto
+    body:
+      en: |
+        Buy at least 3 certified copies of the signed decree (NC-230 or NC-330) from the clerk. Social Security, the DMV, the passport agency, banks, and schools each usually want to see a certified copy, and some keep it. The per-copy fee is set by each court.
+    fees: [certified-copies]
+    sources: [statewide-fee-schedule]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free; other agencies check the SSA record). Bring the decree and photo ID. The sex field cannot currently be changed; the name can.
+        2. **California DMV** driver's license or ID (in person; see the driver's license guide).
+        3. **Birth certificate** through CDPH (see the birth certificate guide).
+        4. **Passport**, bank, employer, insurance, voter registration, school records, utilities.
+    sources: [selfhelp-gender-name-forms]
+fees:
+  - id: filing
+    label:
+      en: Court filing fee (petition for change of name or gender)
+      es: Tarifa de presentación (petición de cambio de nombre o género)
+    amount: 435
+    varies_by: county
+    waivable: true
+    note:
+      en: Statewide uniform fee as of January 1, 2026. The court self-help site quotes "$435 to $450" because a few courts add small local surcharges.
+      es: Tarifa uniforme estatal desde el 1 de enero de 2026. El sitio de autoayuda del tribunal indica "$435 a $450" porque algunos tribunales agregan pequeños recargos locales.
+    sources: [statewide-fee-schedule, lacourt-fees, selfhelp-gender-adult-forms]
+  - id: certified-copies
+    label:
+      en: Certified copy of the decree (each)
+      es: Copia certificada del decreto (cada una)
+    varies_by: court
+    waivable: true
+    note:
+      en: Set by each court's fee schedule; typically under $50 per copy. A granted fee waiver usually covers the first copies.
+    sources: [statewide-fee-schedule]
+fee_waiver:
+  available: true
+  forms: [FW-001, FW-003]
+  eligibility:
+    en: |
+      You qualify if **any one** is true:
+      - You receive a listed public benefit (Medi-Cal, CalFresh/SNAP, SSI, SSP, CalWORKs/TANF, General Assistance, IHSS, Tribal TANF, CAPI, or others on the form).
+      - Your household income is at or below 125% of the federal poverty level (the current dollar amounts are printed on FW-001).
+      - You cannot pay for both basic household needs and court fees.
+    es: |
+      Calificas si se cumple **cualquiera** de estas condiciones:
+      - Recibes un beneficio público de la lista (Medi-Cal, CalFresh, SSI, SSP, CalWORKs, Asistencia General, IHSS y otros en el formulario).
+      - El ingreso de tu hogar es igual o menor al 125% del nivel federal de pobreza (las cantidades actuales están impresas en FW-001).
+      - No puedes pagar tanto las necesidades básicas del hogar como las tarifas del tribunal.
+  how:
+    en: File FW-001 and FW-003 together with your petition. If the waiver is granted, filing and first certified copies are free.
+  sources: [selfhelp-fee-waiver]
+publication:
+  required: "no"
+  detail:
+    en: A name change to conform to gender identity is exempt from any newspaper publication requirement (Code Civ. Proc. § 1277.5). Only ordinary NC-100 name changes still publish.
+    es: Un cambio de nombre para que coincida con la identidad de género está exento de cualquier requisito de publicación en periódico (Código de Procedimiento Civil § 1277.5).
+  waiver_available: true
+  sources: [ccp-1277-5]
+hearing:
+  required: "no"
+  detail:
+    en: Since July 1, 2026, adult petitions are granted without a hearing and without an objection period; the court must act within six weeks (AB 1084). Before that date, a six-week objection window applied and a hearing was held only if someone filed an objection with good cause.
+  sources: [ab1084, ccp-1277-5]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprinting or background check is required for an adult civil name-change petition. You must disclose on the form if you are on parole or probation or are a registered sex offender.
+  sources: [nc300-pdf]
+confidentiality:
+  sealing_available: true
+  detail:
+    en: |
+      Since July 1, 2026, courts automatically keep the petition and all related records confidential for name changes to conform to gender identity and for gender-recognition petitions, for petitioners of any age (SB 59). Access is limited to you, anyone who signed the petition, your attorney, and people you authorize. Posting these records online is prohibited, with civil penalties.
+    es: |
+      Desde el 1 de julio de 2026, los tribunales mantienen confidenciales automáticamente la petición y todos los registros relacionados para cambios de nombre por identidad de género y peticiones de reconocimiento de género, para peticionarios de cualquier edad (SB 59).
+  how:
+    en: Nothing to do for petitions filed on or after July 1, 2026. If you filed earlier, you can ask the court to make your old file confidential, with no filing fee.
+    es: No hay que hacer nada para peticiones presentadas a partir del 1 de julio de 2026. Si presentaste antes, puedes pedir al tribunal que haga confidencial tu expediente anterior, sin costo.
+  sources: [sb59, selfhelp-gender-name-forms]
+minors:
+  summary:
+    en: |
+      A parent or guardian files for a child using the same NC-200 or NC-300 series (the child-specific forms are listed on the court's guided interview). If every living parent signs the petition, the court grants it without a hearing within six weeks, like an adult petition. If a parent does not sign, the court sends that parent notice and holds a hearing only if they object with good cause. All records are confidential (AB 223, since 2024, and SB 59).
+    es: |
+      Un padre, madre o tutor presenta la petición por el menor usando las mismas series NC-200 o NC-300. Si todos los padres con vida firman, el tribunal la concede sin audiencia dentro de seis semanas. Si un padre no firma, el tribunal le envía notificación y celebra una audiencia solo si objeta con causa justificada. Todos los registros son confidenciales (AB 223 y SB 59).
+  sources: [ab1084, ab223, selfhelp-gender-recognition]
+delivery:
+  online: true
+  by_mail: true
+  in_person: true
+  detail:
+    en: In person at the clerk's window, by mail, or by e-filing where your county offers it.
+  sources: [selfhelp-gender-name-forms]
+timeline:
+  en: Plan on about 6 weeks from filing to a signed decree, then 1 to 3 weeks to collect certified copies and update Social Security and the DMV.
+  es: Calcula unas 6 semanas desde la presentación hasta el decreto firmado, y luego de 1 a 3 semanas para obtener copias certificadas y actualizar el Seguro Social y el DMV.
+after:
+  en: |
+    Start with **Social Security** (bring the decree and photo ID; the name changes, the sex field currently cannot). Then the **DMV** (in person, $37 for a license, $40 for an ID card). If you were born in California, send **CDPH** form VS 24B with your decree, or use the affidavit route with no decree at all. Then your **passport** (name changes are still processed; sex marker changes are not, as of September 2026), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el decreto e identificación con foto; el nombre cambia, el campo de sexo actualmente no). Luego el **DMV** (en persona, $37 para licencia, $40 para tarjeta de identificación). Si naciste en California, envía a **CDPH** el formulario VS 24B con tu decreto, o usa la vía de declaración jurada sin decreto. Después el **pasaporte**, banco, empleador, seguro, registro de votante y expedientes escolares.
+tips:
+  - en: The court's free guided interview at selfhelp.courts.ca.gov fills in the right forms for your situation and flags mistakes before you file.
+    es: La entrevista guiada gratuita en selfhelp.courts.ca.gov llena los formularios correctos para tu situación y señala errores antes de presentar.
+  - en: If you are also changing your gender marker, NC-300 gets you a court order accepted by other states and by most foreign consulates; the California birth certificate route alone does not produce a court order.
+  - en: Every court has a free Self-Help Center that will review your forms before you file. Ask for it at the clerk's window.
+local_help:
+  - id: tlc
+    name: Transgender Law Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Statewide legal information helpline and the "ID Please" guide to California and federal document changes.
+      es: Línea de información legal estatal y la guía "ID Please" sobre cambios de documentos en California y a nivel federal.
+    url: https://transgenderlawcenter.org/
+    cost: free
+    verification: org_website
+    sources: [tlc]
+  - id: baylegal-clinic
+    name: Bay Area Legal Aid, Name and Gender Marker Change Clinic
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free clinic that helps complete and file petitions. Oakland office; serves Bay Area counties.
+      es: Clínica gratuita que ayuda a completar y presentar peticiones. Oficina en Oakland; atiende los condados del Área de la Bahía.
+    url: https://baylegal.org/name-and-gender-marker-change-legal-clinic_english-2/
+    phone: "510-663-4755"
+    address: 1735 Telegraph Ave, Oakland, CA
+    cost: free
+    verification: org_website
+    sources: [baylegal]
+  - id: lalgbt-legal
+    name: Los Angeles LGBT Center, Legal Services
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Free legal consultations with volunteer attorneys, including name and gender marker changes; also at the Trans Wellness Center.
+      es: Consultas legales gratuitas con abogados voluntarios, incluidos cambios de nombre y de marcador de género; también en el Trans Wellness Center.
+    url: https://lalgbtcenter.org/services/legal-services/legal-clinic-lawyer-referral/
+    phone: "323-993-7670"
+    cost: free
+    verification: org_website
+    sources: [lalgbt-legal]
+  - id: lls-name-gender-project
+    name: LMU Loyola Law School, Legal Name & Gender Marker Change Project
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: Law-student clinic in Los Angeles that prepares and files name and gender marker petitions for free.
+    url: https://www.lls.edu/thellsdifference/facesoflls/thelegalnamegendermarkerchangeproject/
+    cost: free
+    verification: org_website
+    sources: [lls]
+  - id: sf-tgnci-legal
+    name: San Francisco TGNCI legal services referral list
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: City of San Francisco directory of free legal services for trans, gender-nonconforming, and intersex residents.
+    url: https://www.sf.gov/information--tgnci-legal-services
+    cost: free
+    verification: official_source
+    sources: [sfgov-tgnci]
+statutes:
+  - cite: Cal. Code Civ. Proc. § 1277.5
+    title:
+      en: Name change to conform to gender identity; no publication; adult petitions granted without hearing within six weeks
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1277.5
+  - cite: AB 1084 (2025), Stats. 2025 ch. 723
+    title:
+      en: Removed the objection and hearing process for adult petitions; operative July 1, 2026
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1084
+  - cite: SB 59 (2025), Stats. 2025 ch. 738
+    title:
+      en: Automatic confidentiality of name and gender change court records for petitioners of any age; operative July 1, 2026
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB59
+  - cite: AB 223 (2023)
+    title:
+      en: Transgender Youth Privacy Act; confidentiality of minors' petitions since January 1, 2024
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB223
+related_links:
+  - title: California Courts Self-Help, Gender recognition
+    url: https://selfhelp.courts.ca.gov/gender-recognition
+    note:
+      en: Official guided interview and step-by-step instructions.
+      es: Entrevista guiada oficial e instrucciones paso a paso.
+  - title: Advocates for Trans Equality, ID Documents Center (California)
+    url: https://transequality.org/documents/state/california
+sources:
+  - id: selfhelp-nc200-forms
+    url: https://selfhelp.courts.ca.gov/name-change/name-match-gender-adult/fill-forms
+    title: Fill out your forms, name change to match gender identity (adult)
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
+    accessed: "2026-09-23"
+    quote: Starting July 1, 2026, courts will automatically keep your petition and related court records private in most cases.
+  - id: selfhelp-gender-name-forms
+    url: https://selfhelp.courts.ca.gov/gender-recognition/gender-name-adult/fill-forms
+    title: Fill out your forms, change your name and ask for a court order recognizing your gender change (adult)
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
+    accessed: "2026-09-23"
+    quote: Make 1 copy of all of your forms. When you file them, the court will keep the original and return the copy to you, stamped.
+  - id: selfhelp-gender-adult-forms
+    url: https://selfhelp.courts.ca.gov/gender-recognition/gender-adult/fill-forms
+    title: Fill out your forms, court order recognizing gender change (adult, no name change)
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
+    accessed: "2026-09-23"
+    quote: You will need to pay a fee when you file the forms ($435 - $450).
+  - id: selfhelp-gender-recognition
+    url: https://selfhelp.courts.ca.gov/gender-recognition
+    title: Gender recognition
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
+    accessed: "2026-09-23"
+    quote: You do not need to provide any medical documentation. The process takes about two months.
+  - id: selfhelp-fee-waiver
+    url: https://selfhelp.courts.ca.gov/fee-waiver
+    title: Ask the court to waive your fees
+    publisher: Judicial Council of California, Self-Help Guide
+    kind: official
+    accessed: "2026-09-23"
+  - id: nc300-pdf
+    url: https://courts.ca.gov/sites/default/files/courts/default/2024-11/nc300.pdf
+    title: Form NC-300, Petition for Recognition of Adult's Change of Gender and Sex Identifier, Name Change, and Issuance of New Certificates
+    publisher: Judicial Council of California
+    kind: form
+    accessed: "2026-09-23"
+  - id: nc300-info
+    url: https://courts.ca.gov/sites/default/files/courts/default/2024-11/nc300info.pdf
+    title: Form NC-300-INFO, Instructions for Filing Petition for Recognition of Adult's Change of Gender
+    publisher: Judicial Council of California
+    kind: form
+    accessed: "2026-09-23"
+  - id: statewide-fee-schedule
+    url: https://www.humboldt.courts.ca.gov/system/files/general/2026-statewide-civil-fee-schedule.pdf
+    title: 2026 Statewide Civil Fee Schedule (effective January 1, 2026)
+    publisher: Judicial Council of California
+    kind: official
+    accessed: "2026-09-23"
+    quote: Petition for a decree of change of name or gender, $435
+  - id: lacourt-fees
+    url: https://www.lacourt.ca.gov/pages/cp/filing-fees
+    title: Civil filing fees
+    publisher: Superior Court of California, County of Los Angeles
+    kind: official
+    accessed: "2026-09-23"
+  - id: ccp-1277-5
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1277.5
+    title: Code of Civil Procedure § 1277.5
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+    quote: The proceeding for a change of name to conform the petitioner's name to the petitioner's gender identity is exempt from any requirement for publication.
+  - id: ab1084
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1084
+    title: AB 1084, Change of name and gender and sex identifier (Stats. 2025, ch. 723)
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+    quote: Courts must enter orders granting petitions without hearing and within six weeks of the petition's filing (adults); operative July 1, 2026.
+  - id: sb59
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB59
+    title: SB 59, confidentiality of name and gender change court records (Stats. 2025, ch. 738)
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+    quote: All court records associated with a proceeding for a change of name or gender and sex identifier shall be kept confidential by the court.
+  - id: ab223
+    url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB223
+    title: AB 223, Transgender Youth Privacy Act
+    publisher: California Legislative Information
+    kind: statute
+    accessed: "2026-09-23"
+  - id: tlc
+    url: https://transgenderlawcenter.org/
+    title: Transgender Law Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: baylegal
+    url: https://baylegal.org/name-and-gender-marker-change-legal-clinic_english-2/
+    title: Name and Gender Marker Change Legal Clinic
+    publisher: Bay Area Legal Aid
+    kind: org
+    accessed: "2026-09-23"
+  - id: lalgbt-legal
+    url: https://lalgbtcenter.org/services/legal-services/legal-clinic-lawyer-referral/
+    title: Legal Clinic and Lawyer Referral
+    publisher: Los Angeles LGBT Center
+    kind: org
+    accessed: "2026-09-23"
+  - id: lls
+    url: https://www.lls.edu/thellsdifference/facesoflls/thelegalnamegendermarkerchangeproject/
+    title: The Legal Name & Gender Marker Change Project
+    publisher: LMU Loyola Law School
+    kind: org
+    accessed: "2026-09-23"
+  - id: sfgov-tgnci
+    url: https://www.sf.gov/information--tgnci-legal-services
+    title: TGNCI legal services
+    publisher: City and County of San Francisco
+    kind: official
+    accessed: "2026-09-23"

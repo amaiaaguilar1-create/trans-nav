@@ -1,0 +1,63 @@
+---
+import '../styles/global.css';
+import { t, type Locale } from '../i18n/ui';
+import { localePath, BASE } from '../lib/content';
+import QuickExit from '../components/QuickExit.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  locale: Locale;
+  /** Path without locale prefix, e.g. "states/ca/name-change", used for the language switcher and hreflang. */
+  path: string;
+}
+const { title, description, locale, path } = Astro.props;
+const _ = t(locale);
+const other: Locale = locale === 'en' ? 'es' : 'en';
+const site = Astro.site ? new URL(Astro.site).origin : '';
+const REPO = 'https://github.com/amaiaaguilar1-create/trans-nav';
+---
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="index,follow" />
+    <title>{title} · {_('site.name')}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href={`${BASE}favicon.svg`} type="image/svg+xml" />
+    <link rel="alternate" hreflang="en" href={site + localePath('en', path)} />
+    <link rel="alternate" hreflang="es" href={site + localePath('es', path)} />
+    <link rel="alternate" hreflang="x-default" href={site + localePath('en', path)} />
+  </head>
+  <body>
+    <a class="skip" href="#main">{_('nav.skip')}</a>
+    <header class="site">
+      <div class="bar">
+        <a class="brand" href={localePath(locale, '')}>{_('site.name')}</a>
+        <nav aria-label="Primary">
+          <a href={localePath(locale, 'states')}>{_('nav.states')}</a>
+          <a href={localePath(locale, 'federal')}>{_('nav.federal')}</a>
+          <a href={localePath(locale, 'about')}>{_('nav.about')}</a>
+          <a href={localePath(other, path)} lang={other} hreflang={other}>{_('nav.language')}</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="inner">
+        <p>{_('disclaimer')}</p>
+        <nav aria-label="Footer">
+          <a href={localePath(locale, 'privacy')}>{_('footer.privacy')}</a>
+          <a href={`${REPO}/issues/new?labels=report&template=outdated.md`} rel="noopener">{_('footer.report')}</a>
+          <a href={REPO} rel="noopener">{_('footer.source')}</a>
+        </nav>
+      </div>
+    </footer>
+    <QuickExit locale={locale} />
+  </body>
+</html>

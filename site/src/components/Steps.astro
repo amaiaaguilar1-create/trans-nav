@@ -1,0 +1,28 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { lt } from '../lib/content';
+import Md from './Md.astro';
+import Cite from './Cite.astro';
+import type { Step, Form, Fee } from '../types/content';
+const { steps, forms = [], fees = [], locale, index } = Astro.props as { steps: Step[]; forms?: Form[]; fees?: Fee[]; locale: Locale; index: Map<string, number> };
+const _ = t(locale);
+const formById = new Map(forms.map((f) => [f.id, f]));
+const feeById = new Map(fees.map((f) => [f.id, f]));
+---
+<ol class="steps">
+  {steps.map((s) => (
+    <li id={`step-${s.id}`}>
+      <div>
+        <h3>{lt(s.title, locale)}{s.optional && <span class="pill neutral" style="margin-left:.5rem">{_('form.required.optional')}</span>} <Cite ids={s.sources} index={index} /></h3>
+        <div class="body"><Md text={lt(s.body, locale)} /></div>
+        {(s.forms?.length || s.fees?.length || s.estimated_time) && (
+          <div class="meta">
+            {s.forms?.map((id) => { const f = formById.get(id); return f ? <a href={`#form-${id}`}>📄 {id}: {lt(f.name, locale)}</a> : <span>📄 {id}</span>; })}
+            {s.fees?.map((id) => { const f = feeById.get(id); return f ? <a href="#fees">💲 {lt(f.label, locale)}{typeof f.amount === 'number' ? `: $${f.amount}` : ''}</a> : null; })}
+            {s.estimated_time && <span>⏱ {lt(s.estimated_time, locale)}</span>}
+          </div>
+        )}
+      </div>
+    </li>
+  ))}
+</ol>

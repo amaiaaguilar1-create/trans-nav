@@ -1,0 +1,23 @@
+---
+import { t, type Locale } from '../i18n/ui';
+const { locale } = Astro.props as { locale: Locale };
+const _ = t(locale);
+---
+<button class="exit" type="button" id="quick-exit" title={_('exit.hint')} aria-label={_('exit.label')}>✕ {_('exit.label')}</button>
+<script>
+  // Quick exit: click or press Escape twice within 1.5s. Replaces the current history entry with a
+  // neutral site so the back button does not return here, then opens a second neutral tab as cover.
+  const NEUTRAL = 'https://www.weather.gov/';
+  function leave() {
+    try { window.open('https://www.google.com/', '_blank'); } catch {}
+    location.replace(NEUTRAL);
+  }
+  document.getElementById('quick-exit')?.addEventListener('click', leave);
+  let last = 0;
+  window.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const now = Date.now();
+    if (now - last < 1500) leave();
+    last = now;
+  });
+</script>
