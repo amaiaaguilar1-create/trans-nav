@@ -1,0 +1,356 @@
+jurisdiction: IA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Statutes read 2026-09-24 on legis.iowa.gov: § 147.164 (SF 538, 2023), § 249A.14 (HF 1049, 2025 Acts ch. 169,
+    § 14), § 216.7(3), § 4.1A; Medicaid rule 441-78.1(4) (IAC 9/2/26) still lists sex reassignment surgery as
+    excluded. Clinic details read on UnityPoint (19+ hormones), UIHC (18+), UCS Healthcare, and Planned Parenthood
+    North Central States (Iowa 18+) sites. Reviewer items: (1) whether anyone has challenged § 249A.14 in court; the
+    2021 Polk County ruling in Covington and Vasquez (left intact by the Iowa Supreme Court in May 2023) held the
+    older surgery exclusion unconstitutional under the Iowa Constitution's equal protection clause, but § 249A.14 is a
+    newer statute and no ruling on it was found; (2) status of the state-court challenge to SF 538 (not enjoined as
+    far as could be determined; case history not verified); (3) whether Primary Health Care currently offers
+    gender-affirming hormone therapy (its website does not say); (4) Iowa Legal Aid and Polk County Health Department
+    sites blocked automated access. MAP's healthcare map lists Iowa as banning care for minors and shows no Medicaid
+    policy; that predates or omits § 249A.14, so the statute is used here. No news search was possible, so 2026
+    session bills were not checked; pending_bills is omitted.
+status_summary:
+  en: >-
+    Hormone therapy is legal for adults in Iowa, and informed-consent care is available in Des Moines and Iowa City.
+    But since July 1, 2025, Iowa Medicaid may not pay for hormones or surgery for gender dysphoria, and state law no
+    longer protects against gender identity discrimination. Care for anyone under 18 has been banned since 2023.
+  es: >-
+    La terapia hormonal es legal para adultos en Iowa, y hay atención por consentimiento informado en Des Moines e
+    Iowa City. Pero desde el 1 de julio de 2025, Medicaid de Iowa no puede pagar hormonas ni cirugía para la disforia
+    de género, y la ley estatal ya no protege contra la discriminación por identidad de género. La atención para
+    menores de 18 años está prohibida desde 2023.
+adult_care:
+  status: restricted
+  detail:
+    en: |
+      Adults can legally get hormone therapy and surgery. Planned Parenthood North Central States (18+) uses an **informed consent** model: no therapist letter or referral. University of Iowa Health Care's LGBTQ Clinic (18+) and UCS Healthcare in West Des Moines also prescribe hormones, and UnityPoint's LGBTQ+ clinic in Des Moines prescribes from **age 19**; ask each whether it requires a letter. Telehealth prescribing is legal.
+
+      The restriction is **money**: Iowa Code § 249A.14 bars Iowa Medicaid from paying for hormones or surgery related to gender dysphoria, and state law does not require private plans to cover this care.
+
+      **If you have no insurance, or only Medicaid, and little money**, in rough order of what to try:
+      1. **Keep or get Medicaid anyway.** It still covers primary care, lab work, mental health care, and other services not tied to transition. You pay for hormones separately.
+      2. **Pay cash for generic hormones.** Generic spironolactone and estradiol tablets are often under $35 a month with a GoodRx-type coupon or at Cost Plus Drugs; ask the pharmacy for the cash price. Testosterone costs vary more.
+      3. **Telehealth self-pay**: Plume serves Iowa on a monthly subscription; Planned Parenthood offers telehealth visits.
+      4. **Point of Pride's HRT Access Fund** pays for 18 months of telehealth hormone care (applications each spring), and the **Iowa Trans Mutual Aid Fund** gives monthly grants for gender-affirming care.
+      5. **Community health centers** (such as Primary Health Care in Des Moines) charge on a sliding scale for primary care and labs.
+    es: |
+      Los adultos pueden recibir legalmente terapia hormonal y cirugía. Planned Parenthood North Central States (18+) usa **consentimiento informado**: sin carta de terapeuta ni referencia. La Clínica LGBTQ de University of Iowa Health Care (18+) y UCS Healthcare en West Des Moines también recetan hormonas, y la clínica LGBTQ+ de UnityPoint en Des Moines receta desde los **19 años**; pregunta a cada una si pide carta. La telesalud es legal.
+
+      La restricción es el **dinero**: el § 249A.14 del Código de Iowa prohíbe que Medicaid pague hormonas o cirugía relacionadas con la disforia de género, y la ley estatal no obliga a los planes privados a cubrir esta atención.
+
+      **Si no tienes seguro, o solo Medicaid, y poco dinero**:
+      1. **Mantén o solicita Medicaid de todos modos.** Sigue cubriendo atención primaria, análisis, salud mental y otros servicios no ligados a la transición.
+      2. **Paga en efectivo hormonas genéricas.** La espironolactona y el estradiol genéricos suelen costar menos de $35 al mes con cupón o en Cost Plus Drugs.
+      3. **Telesalud con pago propio**: Plume atiende Iowa con suscripción mensual; Planned Parenthood ofrece visitas por telesalud.
+      4. El **Fondo de Acceso a TRH de Point of Pride** y el **Iowa Trans Mutual Aid Fund** ayudan con los costos.
+      5. Los **centros de salud comunitarios** cobran en escala móvil por atención primaria y análisis.
+  sources: [ia-code-249a-14, ppncs-hrt, uihc-lgbtq, unitypoint-lgbtq, ucs-lgbtq, pop-hrt, itmaf]
+minor_care:
+  status: prohibited
+  detail:
+    en: |
+      Iowa Code § 147.164 (SF 538, signed March 22, 2023; in force since about September 18, 2023) bars health care professionals from giving anyone under 18 puberty blockers, cross-sex hormones, or gender-related surgery "for the purpose of attempting to alter the appearance of, or affirm the minor's perception of, the minor's gender or sex." Exceptions cover only differences of sex development and treating complications. Providers who violate it face licensing discipline, lawsuits (a minor can sue until 20 years after turning 18), and enforcement by the attorney general. As far as could be determined, the law is **not enjoined**.
+
+      Mental health care, social support, and counseling are not banned. Iowa has **no shield law**. Families who travel to a state such as Illinois or Minnesota, which have shield laws, can get care there; Iowa's law regulates Iowa-licensed professionals.
+    es: |
+      El § 147.164 del Código de Iowa (SF 538, firmado el 22 de marzo de 2023; vigente desde aproximadamente el 18 de septiembre de 2023) prohíbe a los profesionales de la salud dar a menores de 18 años bloqueadores de pubertad, hormonas o cirugía "con el propósito de intentar alterar la apariencia o afirmar la percepción del menor sobre su género o sexo". Las excepciones solo cubren diferencias del desarrollo sexual y complicaciones. Los proveedores que la violan enfrentan sanciones de licencia, demandas (el menor puede demandar hasta 20 años después de cumplir 18) y acciones del fiscal general. Hasta donde se pudo determinar, la ley **no está suspendida**.
+
+      La atención de salud mental y el apoyo no están prohibidos. Iowa **no tiene ley escudo**. Las familias que viajan a estados como Illinois o Minnesota, que tienen leyes escudo, pueden recibir atención allí.
+  sources: [ia-code-147-164, map-health]
+medicaid:
+  program_name: Iowa Medicaid (IA Health Link; Iowa Health and Wellness Plan for adults 19 to 64)
+  covers_hrt: "no"
+  covers_surgery: "no"
+  detail:
+    en: |
+      **Since July 1, 2025, Iowa Code § 249A.14 says state Medicaid funds "shall not be used for reimbursement for sex reassignment surgery or associated procedures, including hormone therapy or other medical interventions intended to alter primary or secondary sex characteristics related to an individual's gender dysphoria diagnosis."** It was added by the 2025 health and human services budget (HF 1049). Other covered services, including mental health care, primary care, and labs, are still covered. Medicaid's administrative rule (441-78.1(4)) also still lists sex reassignment surgery as excluded.
+
+      Background: Iowa courts struck down earlier Medicaid exclusions twice, in *Good v. Iowa DHS* (Iowa Supreme Court, 2019, under the Iowa Civil Rights Act) and in *Covington and Vasquez* (Polk County District Court, 2021, under the Iowa Constitution; left intact by the Iowa Supreme Court in 2023). SF 418 then removed gender identity from the Civil Rights Act, and § 249A.14 is a new statute that has not been ruled on as far as could be found.
+
+      **Who qualifies**: adults 19 to 64 with income at or below 133% of the federal poverty level, plus children, pregnant people, and people with disabilities under other programs. Apply through the HHS benefits portal or a paper application at your local HHS office.
+    es: |
+      **Desde el 1 de julio de 2025, el § 249A.14 del Código de Iowa establece que los fondos estatales de Medicaid "no se usarán para reembolsar cirugía de reasignación de sexo o procedimientos asociados, incluida la terapia hormonal".** Se agregó en el presupuesto de salud de 2025 (HF 1049). Otros servicios cubiertos, como salud mental, atención primaria y análisis, siguen cubiertos.
+
+      Antecedentes: los tribunales de Iowa anularon exclusiones anteriores en 2019 y 2021. SF 418 eliminó la identidad de género de la Ley de Derechos Civiles, y el § 249A.14 es una ley nueva sobre la que no se encontró ningún fallo.
+
+      **Quién califica**: adultos de 19 a 64 años con ingresos hasta el 133% del nivel federal de pobreza, además de niños, embarazadas y personas con discapacidad. Solicita en el portal de beneficios de HHS o con una solicitud en papel en tu oficina local de HHS.
+  how_to_apply_url: https://hhs.iowa.gov/medicaid/apply-medicaid
+  sources: [ia-code-249a-14, hf1049, iac-441-78, aclu-covington, aclu-timeline, hhs-medicaid-eligibility, hhs-medicaid-apply]
+private_insurance:
+  nondiscrimination_protection: false
+  detail:
+    en: |
+      No Iowa law bars private health plans from excluding gender-affirming care, and since July 1, 2025 the Iowa Civil Rights Act no longer covers gender identity (SF 418). Iowa Code § 216.7(3) also says public accommodation law does not require state or local governments to pay for gender-related surgery. Check your plan documents for exclusions. If a claim is denied, appeal through the plan, then ask for an external review; for state-regulated plans, you can file a complaint with the Iowa Insurance Division. Self-funded employer plans are federally regulated; federal sex discrimination law (Section 1557 and Title VII) may still apply, and the Trans Health Project has appeal templates.
+    es: |
+      Ninguna ley de Iowa prohíbe que los planes privados excluyan la atención de afirmación de género, y desde el 1 de julio de 2025 la Ley de Derechos Civiles de Iowa ya no cubre la identidad de género (SF 418). Revisa tu plan. Si te niegan una reclamación, apela ante el plan y luego pide una revisión externa; para planes regulados por el estado, puedes presentar una queja ante la División de Seguros de Iowa.
+  complaint_url: https://iid.iowa.gov/consumers/filing-complaints
+  sources: [sf418, ia-code-216-7, iid-complaints]
+telehealth_hrt: [plume, planned-parenthood]
+resources:
+  - id: pp-north-central-states
+    org: planned-parenthood
+    name: Planned Parenthood North Central States, gender-affirming hormone therapy
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent hormone therapy with no therapist letter or referral, in person or by telehealth. **Iowa patients must be 18 or older.** LGBTQ+ Care Coordinators help with questions and costs. Iowa health centers include Des Moines (Susan Knapp Health Center, 2304 University Ave).
+      es: Terapia hormonal por consentimiento informado sin carta de terapeuta ni referencia, en persona o por telesalud. **En Iowa se atiende desde los 18 años.** Coordinadores LGBTQ+ ayudan con preguntas y costos.
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [ppncs-hrt, pp-des-moines]
+  - id: uihc-lgbtq
+    name: University of Iowa Health Care, LGBTQ Clinic (Iowa City)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Full-service primary care clinic with hormone therapy for patients 18 and older, gender-affirming voice services, post-surgical care, HIV prevention, and STI testing. Accepts Medicaid, Medicare, and most insurance; staff help uninsured patients. Call 1-800-777-8442.
+      es: Clínica de atención primaria con terapia hormonal desde los 18 años, servicios de voz, atención posquirúrgica, prevención del VIH y pruebas de ITS. Acepta Medicaid y la mayoría de seguros; el personal ayuda a pacientes sin seguro. Llama al 1-800-777-8442.
+    url: https://uihc.org/lesbian-gay-bisexual-transgender-queer-and-questioning-lgbtq-clinic
+    phone: "1-800-777-8442"
+    cost: insurance
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [uihc-lgbtq]
+  - id: unitypoint-lgbtq
+    name: UnityPoint Clinic LGBTQ+ Health (Des Moines)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Primary care clinic with gender-affirming hormone therapy (19 and older), surgery support, voice therapy, PrEP, and STI testing. Evening hours (Tuesdays 5 to 8 pm at last check). 2103 Ingersoll Ave; 515-279-6424.
+      es: Clínica de atención primaria con terapia hormonal (19 años o más), apoyo quirúrgico, terapia de voz, PrEP y pruebas de ITS. Horario vespertino. 2103 Ingersoll Ave; 515-279-6424.
+    url: https://www.unitypoint.org/desmoines/services-lgbtq-health.aspx
+    phone: "515-279-6424"
+    address: 2103 Ingersoll Avenue, Des Moines, IA 50312
+    cost: insurance
+    verification: org_website
+    sources: [unitypoint-lgbtq]
+  - id: ucs-healthcare
+    name: UCS Healthcare, LGBTQIA+ Health (West Des Moines)
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Nonprofit clinic offering hormone replacement therapy, a PrEP clinic, HIV, hepatitis B, and STI testing, plus mental health and substance use treatment, with telehealth for many services. Weekdays 8:30 am to 5 pm.
+      es: Clínica sin fines de lucro con terapia hormonal, clínica de PrEP, pruebas de VIH, hepatitis B e ITS, además de salud mental y tratamiento de adicciones, con telesalud para muchos servicios.
+    url: https://www.ucsonline.org/what-we-do/lgbtqia-medical-services
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [ucs-lgbtq]
+  - id: itmaf
+    name: Iowa Trans Mutual Aid Fund
+    type: fund
+    pillars: [hrt]
+    description:
+      en: Monthly grants for gender-affirming care for trans, nonbinary, and gender-diverse Iowans. Applications open during the first week of each month; email itmaf@proton.me.
+      es: Ayudas mensuales para atención de afirmación de género para personas trans, no binarias y de género diverso en Iowa. Las solicitudes abren la primera semana de cada mes.
+    url: https://www.iowatransmutualaidfund.org/apply
+    cost: free
+    verification: org_website
+    sources: [itmaf]
+  - id: point-of-pride-ia
+    org: point-of-pride
+    name: Point of Pride funds
+    type: fund
+    pillars: [hrt, insurance]
+    description:
+      en: National funds including the HRT Access Fund (18 months of free telehealth hormone therapy), a trans surgery fund, and free binders and shapewear.
+      es: Fondos nacionales, incluido el Fondo de Acceso a TRH (18 meses de terapia hormonal gratis por telesalud), un fondo para cirugías y binders y prendas moldeadoras gratis.
+    url: https://www.pointofpride.org/
+    cost: free
+    verification: org_website
+    sources: [pop-hrt]
+  - id: hrsa-fqhc
+    name: Find a community health center (HRSA)
+    type: primary_care
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: Official locator for federally funded health centers, which see you regardless of insurance and charge on a sliding scale. In central Iowa this includes Primary Health Care (Des Moines, Ames, Marshalltown; 515-248-1447). Call and ask whether they prescribe gender-affirming hormones.
+      es: Localizador oficial de centros de salud con fondos federales, que atienden sin importar tu seguro y cobran en escala móvil. En el centro de Iowa incluye Primary Health Care (515-248-1447). Llama y pregunta si recetan hormonas.
+    url: https://findahealthcenter.hrsa.gov/
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: official_source
+    sources: [hrsa, phc]
+  - id: one-iowa-health
+    name: One Iowa, LGBTQ-inclusive health care directory
+    type: lgbtq_center
+    pillars: [hrt, mental_health]
+    description:
+      en: Statewide LGBTQ+ advocacy group in Des Moines that keeps a list of affirming clinics, therapists, and free WPATH letter services across Iowa, and a guide to SF 418. Phone 515-288-4019.
+      es: Organización LGBTQ+ estatal en Des Moines con una lista de clínicas, terapeutas y servicios de cartas WPATH gratuitos en Iowa, y una guía sobre SF 418.
+    url: https://oneiowa.org/resources/health-wellness/organizations/
+    phone: "515-288-4019"
+    cost: free
+    verification: org_website
+    sources: [oneiowa-health]
+statutes:
+  - cite: Iowa Code § 147.164 (SF 538, 2023)
+    title:
+      en: Ban on puberty blockers, hormones, and gender-related surgery for minors; licensing discipline and private right of action
+    url: https://www.legis.iowa.gov/docs/code/147.164.pdf
+  - cite: Iowa Code § 249A.14 (HF 1049, 2025 Iowa Acts ch. 169, § 14)
+    title:
+      en: No Medicaid reimbursement for sex reassignment surgery or associated procedures, including hormone therapy; effective July 1, 2025
+    url: https://www.legis.iowa.gov/docs/code/249A.14.pdf
+  - cite: Iowa Code § 216.7(3)
+    title:
+      en: Public accommodations law does not require government units to pay for gender-related surgery (2019)
+    url: https://www.legis.iowa.gov/docs/code/216.7.pdf
+  - cite: SF 418 (2025)
+    title:
+      en: Removed gender identity from the Iowa Civil Rights Act and defined sex; effective July 1, 2025
+    url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF418
+sources:
+  - id: ia-code-147-164
+    url: https://www.legis.iowa.gov/docs/code/147.164.pdf
+    title: Iowa Code 2026, § 147.164, Gender transition procedure-related activities, minors, prohibitions
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Section applies one hundred eighty days after March 22, 2023.
+  - id: ia-code-249a-14
+    url: https://www.legis.iowa.gov/docs/code/249A.14.pdf
+    title: Iowa Code 2026, § 249A.14, Sex reassignment surgeries or associated procedures, reimbursement prohibited
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Moneys appropriated from the general fund of the state to the department for the medical assistance program shall not be used for reimbursement for sex reassignment surgery or associated procedures, including hormone therapy.
+  - id: hf1049
+    url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF1049
+    title: House File 1049 (2025), Health and Human Services appropriations
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: iac-441-78
+    url: https://www.legis.iowa.gov/docs/iac/chapter/441.78.pdf
+    title: Iowa Administrative Code 441, Chapter 78, Amount, duration and scope of medical services (IAC 9/2/26)
+    publisher: Iowa Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: Surgeries for the purpose of sex reassignment are not considered as restoring bodily function and are excluded from coverage.
+  - id: ia-code-216-7
+    url: https://www.legis.iowa.gov/docs/code/216.7.pdf
+    title: Iowa Code 2026, § 216.7, Unfair practices, accommodations or services
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: sf418
+    url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF418
+    title: Senate File 418 (2025)
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: aclu-covington
+    url: https://www.aclu-ia.org/press-releases/iowa-supreme-court-leaves-intact-vital-medicaid-coverage-gender-affirming-care/
+    title: Iowa Supreme Court Leaves Intact Vital Medicaid Coverage for Gender Affirming Care (May 12, 2023)
+    publisher: ACLU of Iowa
+    kind: org
+    accessed: "2026-09-24"
+  - id: aclu-timeline
+    url: https://www.aclu-ia.org/timeline-litigation-coverage-gender-affirming-transgender-surgery-iowa/
+    title: A Timeline of Litigation for Coverage of Gender-Affirming Transgender Surgery in Iowa
+    publisher: ACLU of Iowa
+    kind: org
+    accessed: "2026-09-24"
+    quote: March 2019 Iowa Supreme Court Rules that Iowa's Medicaid Program May Not Discriminate Against Transgender People.
+  - id: hhs-medicaid-eligibility
+    url: https://hhs.iowa.gov/medicaid/apply-medicaid/eligibility
+    title: Medicaid Eligibility
+    publisher: Iowa Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: An adult between the ages of 19 and 64 and whose income is at or below 133% of the FPL.
+  - id: hhs-medicaid-apply
+    url: https://hhs.iowa.gov/medicaid/apply-medicaid
+    title: Apply for Medicaid
+    publisher: Iowa Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+  - id: iid-complaints
+    url: https://iid.iowa.gov/consumers/filing-complaints
+    title: Filing Complaints
+    publisher: Iowa Insurance Division
+    kind: official
+    accessed: "2026-09-24"
+  - id: map-health
+    url: https://mapresearch.org/equality-map/healthcare-laws-and-policies/
+    title: Healthcare laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: ppncs-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    title: Gender-affirming care, transgender hormone therapy
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+    quote: Patients in Iowa and South Dakota must be at least 18-years-old to qualify for this service.
+  - id: pp-des-moines
+    url: https://www.plannedparenthood.org/health-center/iowa/des-moines/50311/des-moines-susan-knapp-health-center-3385-90720
+    title: Des Moines, Susan Knapp Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+  - id: uihc-lgbtq
+    url: https://uihc.org/lesbian-gay-bisexual-transgender-queer-and-questioning-lgbtq-clinic
+    title: LGBTQ Clinic
+    publisher: University of Iowa Health Care
+    kind: org
+    accessed: "2026-09-24"
+    quote: Hormone therapy (for patients ages 18 years and older).
+  - id: unitypoint-lgbtq
+    url: https://www.unitypoint.org/desmoines/services-lgbtq-health.aspx
+    title: UnityPoint Clinic LGBTQ+ Health
+    publisher: UnityPoint Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender-affirming hormone therapy (19 years and older).
+  - id: ucs-lgbtq
+    url: https://www.ucsonline.org/what-we-do/lgbtqia-medical-services
+    title: LGBTQIA+ Health at UCS
+    publisher: UCS Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: itmaf
+    url: https://www.iowatransmutualaidfund.org/apply
+    title: Apply for Aid
+    publisher: Iowa Trans Mutual Aid Fund
+    kind: org
+    accessed: "2026-09-24"
+  - id: pop-hrt
+    url: https://www.pointofpride.org/
+    title: Point of Pride
+    kind: org
+    accessed: "2026-09-24"
+  - id: hrsa
+    url: https://findahealthcenter.hrsa.gov/
+    title: Find a Health Center
+    publisher: Health Resources and Services Administration
+    kind: official
+    accessed: "2026-09-24"
+  - id: phc
+    url: https://www.phcinc.net/
+    title: Primary Health Care
+    kind: org
+    accessed: "2026-09-24"
+    quote: This health center is a Health Center Program grantee under 42 U.S.C. 254b.
+  - id: oneiowa-health
+    url: https://oneiowa.org/resources/health-wellness/organizations/
+    title: LGBTQ Inclusive Healthcare Organizations
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"

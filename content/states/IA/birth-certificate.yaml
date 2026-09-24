@@ -1,0 +1,238 @@
+guide_type: birth_certificate
+jurisdiction: IA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: high
+  es_status: machine_draft
+  notes: >-
+    Read 2026-09-24: Iowa Code § 144.23 (Iowa Code 2026, amended by 2025 Acts ch. 1, SF 418 § 4, striking the former
+    subsection 3 physician-affidavit route), § 4.1A, § 144.13(5), § 144.24, § 144.39, the enrolled SF 418, Iowa HHS
+    vital records pages, and form 470-5446 (rev. 07/26). Fees ($15 processing, $20 per certified copy) and the 4 to 6
+    week processing estimate are from HHS. Reviewer items: (1) SF 418 contains no retroactivity language and no
+    provision voiding certificates amended before July 1, 2025; One Iowa reads it as not retroactive, but no HHS
+    statement on previously amended certificates was found; (2) the vital records administrative rule on sex
+    amendments (formerly IAC 641-99.6) was not re-read; confirm it has been conformed. A4TE's Iowa page agrees that
+    HHS stopped processing sex marker amendments as of July 1, 2025.
+status: prohibited
+requirement_type: prohibited
+name_change_status: available
+status_summary:
+  en: >-
+    Since July 1, 2025, Iowa does not change the sex on Iowa birth certificates for any reason. SF 418 removed the
+    process from the law. You can still add a court-ordered name change to an Iowa birth certificate ($15 plus $20 per
+    copy); the certificate will show both your former and new names.
+  es: >-
+    Desde el 1 de julio de 2025, Iowa no cambia el sexo en las actas de nacimiento de Iowa por ningún motivo. La ley
+    SF 418 eliminó el proceso. Todavía puedes agregar un cambio de nombre ordenado por un tribunal a un acta de Iowa
+    ($15 más $20 por copia); el acta mostrará tu nombre anterior y el nuevo.
+summary:
+  en: |
+    Before July 1, 2025, Iowa Code § 144.23 let the state registrar issue a new birth certificate when a physician swore that "by reason of surgery or other treatment" a person's sex designation had changed. **SF 418 struck that subsection.** The law now says every Iowa birth certificate must show sex as defined in Iowa Code § 4.1A: male or female "as observed or clinically verified at birth." There is no court-order route, no nonbinary option, and no exception for people who already have a court order from another state.
+
+    **Certificates amended before July 1, 2025.** SF 418 does not say it applies retroactively and does not void earlier amendments. One Iowa's reading is that previously amended certificates remain valid and will not be reissued. No HHS statement on this was found.
+
+    **Name changes still work.** After a name change under Iowa Code chapter 674, the clerk of court sends an abstract of the decree to Iowa HHS, which updates the certificate. Iowa law requires the new certificate to show your former name as well (Iowa Code § 674.9).
+
+    **This guide applies only if you were born in Iowa.** If you were born in another state, that state's rules control your birth certificate, and many states still allow sex marker changes.
+  es: |
+    Antes del 1 de julio de 2025, el § 144.23 del Código de Iowa permitía emitir una nueva acta cuando un médico declaraba bajo juramento que, "por cirugía u otro tratamiento", la designación de sexo había cambiado. **La ley SF 418 eliminó esa subsección.** Ahora toda acta de Iowa debe mostrar el sexo definido en el § 4.1A: masculino o femenino "observado o verificado clínicamente al nacer". No hay vía por orden judicial ni opción no binaria.
+
+    **Actas enmendadas antes del 1 de julio de 2025.** SF 418 no dice que sea retroactiva ni anula enmiendas anteriores. Según One Iowa, esas actas siguen siendo válidas.
+
+    **Los cambios de nombre siguen siendo posibles.** Tras un cambio de nombre bajo el capítulo 674, el secretario del tribunal envía un resumen del decreto a Iowa HHS, que actualiza el acta. La ley exige que el acta muestre también tu nombre anterior.
+
+    **Esta guía aplica solo si naciste en Iowa.** Si naciste en otro estado, se aplican las reglas de ese estado.
+eligibility:
+  other:
+    en: Only people born in Iowa. Iowa HHS does not process name or sex changes for people born elsewhere.
+    es: Solo personas nacidas en Iowa. Iowa HHS no procesa cambios para personas nacidas en otros lugares.
+  sources: [hhs-abstract, ia-code-144-23]
+forms:
+  - id: 470-5446
+    name:
+      en: Abstract to Change Registrant's Legal Name on Birth Certificate
+      es: Resumen para cambiar el nombre legal en el acta de nacimiento
+    url: https://hhs.iowa.gov/media/3228/download?inline
+    required: conditional
+    condition:
+      en: For adding a court-ordered name change to an Iowa birth certificate. You (or your attorney) complete Parts 1 and 2 and give it to the clerk of district court with a check or money order; the clerk certifies it and mails it to Iowa HHS with a certified copy of the decree.
+      es: Para agregar un cambio de nombre ordenado por un tribunal a un acta de Iowa. Completas las partes 1 y 2 y la entregas al secretario del tribunal de distrito con cheque o giro postal; el secretario la envía a Iowa HHS.
+    how_to_fill:
+      en: |
+        - Type or print clearly; do not use all capital letters.
+        - The court order must state both the former name on your birth record and your new name, exactly.
+        - Proofread: an error on the abstract costs another $15 to correct.
+        - Include a check or money order payable to the Iowa Department of Health and Human Services ($15, plus $20 for each certified copy you want). The clerk cannot take cash or cards for this.
+      es: |
+        - Escribe a máquina o con letra clara; no uses solo mayúsculas.
+        - La orden judicial debe indicar exactamente el nombre anterior en tu acta y el nuevo nombre.
+        - Revisa bien: un error cuesta otros $15 para corregir.
+        - Incluye un cheque o giro postal a nombre del Iowa Department of Health and Human Services ($15 más $20 por cada copia certificada).
+    sources: [hhs-abstract]
+  - id: 470-5451
+    name:
+      en: Iowa Vital Record Application (certified copy request)
+      es: Solicitud de registro vital de Iowa (copia certificada)
+    url: https://hhs.iowa.gov/media/3054/download?inline
+    required: optional
+    condition:
+      en: To order more certified copies later by mail. The application must be notarized and include a copy of your photo ID.
+      es: Para pedir más copias certificadas por correo. La solicitud debe estar notariada e incluir copia de tu identificación con foto.
+    sources: [hhs-request]
+steps:
+  - id: sex-not-available
+    title:
+      en: Understand that the sex marker cannot be changed
+      es: Entiende que el marcador de sexo no se puede cambiar
+    body:
+      en: Iowa HHS will not accept a physician's affidavit, a court order, or any other document to change the sex on an Iowa birth certificate filed or requested after July 1, 2025. If your Iowa certificate was already amended before then, keep your certified copies; no law voids them.
+      es: Iowa HHS no aceptará una declaración médica, una orden judicial ni otro documento para cambiar el sexo en un acta de Iowa desde el 1 de julio de 2025. Si tu acta ya fue enmendada antes, guarda tus copias certificadas.
+    applies_to: [gender_marker]
+    sources: [ia-code-144-23, sf418, oneiowa-sf418]
+  - id: name-abstract
+    title:
+      en: For a name change, file the abstract with the clerk
+      es: Para un cambio de nombre, presenta el resumen ante el secretario
+    body:
+      en: After your name change decree is signed, complete form 470-5446 and give it to the clerk of district court in the county where the decree was granted, with the fee payment. The clerk forwards it to Iowa HHS with a certified copy of the decree. If your name was changed by a court in another state, mail a certified copy of that order directly to the Bureau of Health Statistics.
+      es: Después de que se firme tu decreto, completa el formulario 470-5446 y entrégalo al secretario del tribunal de distrito del condado donde se otorgó, con el pago. El secretario lo envía a Iowa HHS con una copia certificada del decreto. Si tu nombre fue cambiado por un tribunal de otro estado, envía una copia certificada directamente a la Oficina de Estadísticas de Salud.
+    forms: [470-5446]
+    fees: [processing, copy]
+    applies_to: [name_change]
+    sources: [hhs-abstract, ia-code-144-39, a4te-ia]
+  - id: wait
+    title:
+      en: Wait for HHS to amend the record
+      es: Espera a que HHS enmiende el registro
+    body:
+      en: HHS aims to finish within about 4 to 6 weeks and notifies you in writing. Both names will appear on the record with a note about the court order.
+      es: HHS intenta terminar en unas 4 a 6 semanas y te notifica por escrito. Ambos nombres aparecerán en el registro.
+    estimated_time:
+      en: 4 to 6 weeks
+      es: 4 a 6 semanas
+    applies_to: [name_change]
+    sources: [hhs-abstract]
+fees:
+  - id: processing
+    label:
+      en: Administrative processing fee to add a legal name change
+      es: Tarifa administrativa para agregar un cambio de nombre legal
+    amount: 15
+    sources: [hhs-abstract, hhs-vital-records]
+  - id: copy
+    label:
+      en: Certified copy of the birth certificate (each)
+      es: Copia certificada del acta de nacimiento (cada una)
+    amount: 20
+    note:
+      en: Free replacement if you send back a previously issued certificate with the request. VitalChek adds its own fee for online or phone orders.
+      es: Reemplazo gratis si devuelves un acta emitida anteriormente con la solicitud. VitalChek cobra un cargo adicional.
+    sources: [hhs-abstract, hhs-request]
+fee_waiver:
+  available: false
+  sources: [hhs-vital-records]
+delivery:
+  online: false
+  by_mail: true
+  in_person: true
+  detail:
+    en: Name amendments go through the clerk of court (Iowa decrees) or by mail to the Bureau of Health Statistics (out-of-state decrees). Copies can be ordered in person in Des Moines, by mail, or through VitalChek.
+    es: Las enmiendas de nombre pasan por el secretario del tribunal (decretos de Iowa) o por correo a la Oficina de Estadísticas de Salud (decretos de otros estados).
+  sources: [hhs-abstract, hhs-request]
+timeline:
+  en: About 4 to 6 weeks for a name amendment after HHS receives the abstract.
+  es: Unas 4 a 6 semanas para una enmienda de nombre después de que HHS reciba el resumen.
+after:
+  en: |
+    With your updated certificate, update any records that ask for a birth certificate (school, employer, passport). The sex on it will remain as originally recorded. Your Iowa driver's license sex marker follows your identity document, so it also cannot be changed if your only document is an unamended Iowa birth certificate.
+  es: |
+    Con tu acta actualizada, actualiza los registros que pidan acta de nacimiento (escuela, empleador, pasaporte). El sexo seguirá como fue registrado originalmente. El marcador de sexo de tu licencia de Iowa sigue a tu documento de identidad, así que tampoco se puede cambiar si tu único documento es un acta de Iowa sin enmendar.
+tips:
+  - en: If you have an Iowa birth certificate that was amended before July 1, 2025, order a few extra certified copies now in case policy changes later.
+    es: Si tienes un acta de Iowa enmendada antes del 1 de julio de 2025, pide ahora algunas copias certificadas adicionales por si la política cambia.
+  - en: Questions about your record go to the Bureau of Health Statistics at 515-281-4944.
+    es: Las preguntas sobre tu registro van a la Oficina de Estadísticas de Salud al 515-281-4944.
+statutes:
+  - cite: Iowa Code § 144.23 (as amended by SF 418, 2025 Acts ch. 1, § 4)
+    title:
+      en: New birth certificates only for adoption and paternity; must show sex at birth under § 4.1A. The former physician-affidavit route for a sex change was struck, effective July 1, 2025.
+    url: https://www.legis.iowa.gov/docs/code/144.23.pdf
+  - cite: Iowa Code § 4.1A
+    title:
+      en: Definition of sex as observed or clinically verified at birth
+    url: https://www.legis.iowa.gov/docs/code/4.1A.pdf
+  - cite: Iowa Code § 144.39 and § 674.9
+    title:
+      en: Birth certificate amended to reflect a court-ordered name change; former name must appear
+    url: https://www.legis.iowa.gov/docs/code/144.39.pdf
+  - cite: SF 418 (2025), 2025 Iowa Acts ch. 1
+    title:
+      en: Defined sex; removed sex changes on birth certificates and gender identity from the Iowa Civil Rights Act
+    url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF418
+related_links:
+  - title: One Iowa, SF 418 Implementation Guide
+    url: https://oneiowa.org/civilrightsremovalguide/
+  - title: Advocates for Trans Equality, Iowa identity documents
+    url: https://transequality.org/documents/iowa-identity-documents
+    note:
+      en: Undated; confirms Iowa HHS stopped processing sex marker amendments on July 1, 2025.
+      es: Sin fecha; confirma que Iowa HHS dejó de procesar cambios de marcador el 1 de julio de 2025.
+sources:
+  - id: ia-code-144-23
+    url: https://www.legis.iowa.gov/docs/code/144.23.pdf
+    title: Iowa Code 2026, § 144.23, State registrar to establish new certificate of birth
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Pursuant to section 4.1A, a new certificate of birth established under subsection 1 shall include a designation of sex of the person at birth.
+  - id: sf418
+    url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF418
+    title: Senate File 418 (2025), enrolled
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: Strikes "A notarized affidavit by a licensed physician and surgeon ... stating that by reason of surgery or other treatment by the licensee, the sex designation of the person has been changed."
+  - id: ia-code-144-39
+    url: https://www.legis.iowa.gov/docs/code/144.39.pdf
+    title: Iowa Code 2026, § 144.39, Change of name
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: The state registrar shall amend the certificate of birth to reflect the new name.
+  - id: hhs-abstract
+    url: https://hhs.iowa.gov/media/3228/download?inline
+    title: Form 470-5446, Abstract to Change Registrant's Legal Name on Birth Certificate (07/26)
+    publisher: Iowa Department of Health and Human Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: Processing the amendment request should be completed within approximately 4-6 weeks after receipt, unless additional supporting documents are required.
+  - id: hhs-vital-records
+    url: https://hhs.iowa.gov/family-community/vital-records
+    title: Vital Records
+    publisher: Iowa Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Administrative processing fees at the state level are $15 as of July 1, 2019.
+  - id: hhs-request
+    url: https://hhs.iowa.gov/family-community/vital-records/how-request-certified-record
+    title: How to Request a Certified Record
+    publisher: Iowa Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Each copy of a certified record costs $20.00.
+  - id: oneiowa-sf418
+    url: https://oneiowa.org/civilrightsremovalguide/
+    title: Iowa Civil Rights Removal Act Implementation Guide
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+    quote: We do not believe it is retroactive. Those whose birth certificates have already been changed will not be reissued.
+  - id: a4te-ia
+    url: https://transequality.org/documents/iowa-identity-documents
+    title: Iowa Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"
+    quote: As of July 1, 2025, the Iowa Health and Human Services Department is no longer issuing gender marker amendments on birth certificates under the passing of SF418.

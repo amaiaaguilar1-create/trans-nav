@@ -1,0 +1,286 @@
+jurisdiction: IA
+slug: des-moines
+name: Des Moines
+area:
+  en: Polk County and the Des Moines metro (including West Des Moines, Urbandale, and Ankeny)
+  es: Condado de Polk y el área metropolitana de Des Moines (incluidos West Des Moines, Urbandale y Ankeny)
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Court contact from the Iowa Judicial Branch Polk County page; clinic details from each org's own site, read
+    2026-09-24. Planned Parenthood pages load only with browser headers. Polk County Health Department's site
+    returned 403 and is not listed; add its STI clinic if confirmed. Iowa Legal Aid's site returned a bot challenge;
+    its phone number is from One Iowa's resource list. Confirm whether Polk County charges the extra $5 journal
+    publication fee on name change petitions ($215 base per the court's fee page). Primary Health Care's site does not
+    say whether it prescribes gender-affirming hormones.
+intro:
+  en: >-
+    Des Moines has the largest cluster of trans-affirming services in Iowa: two primary care clinics that prescribe
+    hormones (UnityPoint's LGBTQ+ clinic and UCS Healthcare), Planned Parenthood's Susan Knapp Health Center, free HIV
+    and STI testing and PrEP at The Project, and the statewide advocacy group One Iowa. Name change petitions for Polk
+    County residents are e-filed with the Polk County District Court.
+  es: >-
+    Des Moines tiene la mayor concentración de servicios de afirmación trans en Iowa: dos clínicas de atención
+    primaria que recetan hormonas (la clínica LGBTQ+ de UnityPoint y UCS Healthcare), el centro Susan Knapp de Planned
+    Parenthood, pruebas gratuitas de VIH e ITS y PrEP en The Project, y la organización estatal One Iowa. Las
+    peticiones de cambio de nombre de residentes del condado de Polk se presentan electrónicamente en el Tribunal de
+    Distrito del Condado de Polk.
+court:
+  name: Iowa District Court for Polk County (Fifth Judicial District)
+  url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/polk
+  self_help_url: https://www.iowacourts.gov/for-the-public/representing-yourself/name-change/
+  filing_fee: 215
+  notes:
+    en: >-
+      File electronically through Iowa Courts eFile. The Clerk of Court is at the Polk County Courthouse, 500 Mulberry
+      Street, Room 212, Des Moines (515-561-5718, countyclerk.polk@iowacourts.gov); staff can point you to public eFile
+      computers but cannot give legal advice. Polk County has more than 98,000 residents, so an extra $5 journal
+      publication fee may be added to the $215 filing fee.
+    es: >-
+      Presenta electrónicamente por Iowa Courts eFile. La oficina del secretario está en el Palacio de Justicia del
+      condado de Polk, 500 Mulberry Street, sala 212, Des Moines (515-561-5718). Como el condado tiene más de 98,000
+      habitantes, se pueden agregar $5 a la tarifa de $215.
+  sources: [polk-court, iacourts-fees, iacourts-name-change]
+resources:
+  - id: lavender-legal
+    name: Lavender Legal Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Iowa nonprofit law office by and for LGBTQ+ people; direct representation and referrals, with priority for people with low income and LGBTQ+ youth. Email info@lavenderlegal.org.
+      es: Oficina legal sin fines de lucro por y para personas LGBTQ+; representación directa y referencias, con prioridad para personas de bajos ingresos y jóvenes LGBTQ+.
+    url: https://www.lavenderlegalcenter.org/
+    cost: varies
+    verification: org_website
+    sources: [lavender]
+  - id: iowa-legal-aid
+    name: Iowa Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Free civil legal help for people with low income, with an office in Des Moines. Ask whether they can help with a name change.
+      es: Ayuda legal civil gratuita para personas de bajos ingresos, con oficina en Des Moines.
+    url: https://www.iowalegalaid.org/
+    phone: "515-243-1193"
+    cost: free
+    verification: community_reported
+    sources: [oneiowa-legal]
+  - id: one-iowa
+    name: One Iowa
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Des Moines-based statewide LGBTQ+ advocacy organization. Keeps directories of affirming health, mental health, and legal resources, publishes a guide to SF 418, refers people to LGBTQ-friendly attorneys, and collects discrimination reports (report@oneiowa.org).
+      es: Organización LGBTQ+ estatal con sede en Des Moines. Mantiene directorios de recursos de salud, salud mental y legales, publica una guía sobre SF 418 y refiere a abogados.
+    url: https://oneiowa.org/
+    phone: "515-288-4019"
+    cost: free
+    verification: org_website
+    sources: [oneiowa-sf418, oneiowa-legal]
+  - id: unitypoint-lgbtq
+    name: UnityPoint Clinic LGBTQ+ Health
+    type: hrt_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Primary care with gender-affirming hormone therapy for ages 19 and up, surgery support, voice therapy, PrEP, and STI care. Evening clinic hours; request an appointment online or leave a voicemail.
+      es: Atención primaria con terapia hormonal desde los 19 años, apoyo quirúrgico, terapia de voz, PrEP e ITS. Horario vespertino.
+    url: https://www.unitypoint.org/desmoines/services-lgbtq-health.aspx
+    phone: "515-279-6424"
+    address: 2103 Ingersoll Avenue, Des Moines, IA 50312
+    cost: insurance
+    verification: org_website
+    sources: [unitypoint-lgbtq]
+  - id: ucs-healthcare
+    name: UCS Healthcare, LGBTQIA+ Health
+    type: hrt_clinic
+    pillars: [hrt, sexual_health, mental_health]
+    description:
+      en: West Des Moines nonprofit clinic offering hormone replacement therapy, a PrEP clinic, HIV and STI testing, mental health counseling, psychiatry, and substance use treatment. Weekdays 8:30 am to 5 pm; telehealth for many services.
+      es: Clínica sin fines de lucro en West Des Moines con terapia hormonal, clínica de PrEP, pruebas de VIH e ITS, consejería de salud mental, psiquiatría y tratamiento de adicciones.
+    url: https://www.ucsonline.org/what-we-do/lgbtqia-medical-services
+    cost: varies
+    telehealth: true
+    verification: org_website
+    sources: [ucs-lgbtq]
+  - id: pp-susan-knapp
+    org: planned-parenthood
+    name: Planned Parenthood, Des Moines Susan Knapp Health Center
+    type: informed_consent_clinic
+    pillars: [hrt, sexual_health]
+    description:
+      en: Informed-consent gender-affirming hormone therapy for patients 18 and older (in person or telehealth), plus STI testing and treatment, PrEP, and birth control. Call 877-859-0542.
+      es: Terapia hormonal por consentimiento informado desde los 18 años (en persona o por telesalud), además de pruebas de ITS, PrEP y anticonceptivos.
+    url: https://www.plannedparenthood.org/health-center/iowa/des-moines/50311/des-moines-susan-knapp-health-center-3385-90720
+    phone: "877-859-0542"
+    address: 2304 University Avenue, Des Moines, IA 50311
+    cost: varies
+    accepts_uninsured: true
+    telehealth: true
+    verification: org_website
+    sources: [pp-des-moines, ppncs-hrt]
+  - id: the-project
+    name: The Project at Primary Health Care
+    type: sexual_health
+    pillars: [sexual_health]
+    description:
+      en: Free, confidential rapid HIV testing and STI screening (weekdays), PrEP and PEP, HIV care, case management, and insurance navigation, regardless of insurance or ability to pay. 1200 University Ave, Suite 120.
+      es: Pruebas rápidas de VIH y de ITS gratuitas y confidenciales (entre semana), PrEP y PEP, atención del VIH y ayuda con seguros, sin importar el seguro o la capacidad de pago.
+    url: https://phctheproject.org/
+    phone: "515-248-1595"
+    address: 1200 University Ave, Suite 120, Des Moines, IA 50314
+    cost: free
+    accepts_uninsured: true
+    verification: org_website
+    sources: [the-project, the-project-services]
+  - id: primary-health-care
+    name: Primary Health Care
+    type: primary_care
+    pillars: [hrt, mental_health]
+    description:
+      en: Federally funded community health center with several Des Moines-area clinics, a sliding fee discount program, behavioral health, and an on-site pharmacy. Call to ask whether a provider prescribes gender-affirming hormones.
+      es: Centro de salud comunitario con fondos federales y varias clínicas en el área de Des Moines, programa de descuento en escala móvil, salud mental y farmacia. Llama para preguntar si algún proveedor receta hormonas.
+    url: https://www.phcinc.net/
+    phone: "515-248-1447"
+    cost: sliding_scale
+    accepts_medicaid: true
+    accepts_uninsured: true
+    verification: org_website
+    sources: [phc]
+  - id: iowa-safe-schools
+    name: Iowa Safe Schools
+    type: advocacy_org
+    pillars: [mental_health]
+    description:
+      en: Des Moines-based statewide organization supporting LGBTQ youth, their families, and GSAs, with youth events and a list of 24/7 hotlines.
+      es: Organización estatal con sede en Des Moines que apoya a jóvenes LGBTQ, sus familias y los GSA, con eventos juveniles y una lista de líneas de ayuda 24/7.
+    url: https://iowasafeschools.org/
+    cost: free
+    verification: org_website
+    sources: [iowa-safe-schools]
+  - id: itmaf
+    name: Iowa Trans Mutual Aid Fund
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Monthly grants for gender-affirming care for trans, nonbinary, and gender-diverse Iowans. Applications open the first week of each month; email itmaf@proton.me.
+      es: Ayudas mensuales para atención de afirmación de género. Las solicitudes abren la primera semana de cada mes.
+    url: https://www.iowatransmutualaidfund.org/apply
+    cost: free
+    verification: org_website
+    sources: [itmaf]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: polk-court
+    url: https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-5/district/5/county/polk
+    title: Polk, Judicial District 5
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: Clerk of Court 500 Mulberry Street Room 212 Des Moines, IA 50309 Phone 515-561-5718
+  - id: iacourts-fees
+    url: https://www.iowacourts.gov/for-the-public/representing-yourself/civil-court-fees/
+    title: Civil Court Fees
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: Name Change ... $215. In counties over 98,000 in population an additional $5 publication fee may be charged.
+  - id: iacourts-name-change
+    url: https://www.iowacourts.gov/for-the-public/representing-yourself/name-change/
+    title: Name Change
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: lavender
+    url: https://www.lavenderlegalcenter.org/
+    title: Lavender Legal Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: oneiowa-legal
+    url: https://oneiowa.org/resources/legal-and-family/
+    title: Legal and Family Resources
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+  - id: oneiowa-sf418
+    url: https://oneiowa.org/civilrightsremovalguide/
+    title: Iowa Civil Rights Removal Act Implementation Guide
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+  - id: unitypoint-lgbtq
+    url: https://www.unitypoint.org/desmoines/services-lgbtq-health.aspx
+    title: UnityPoint Clinic LGBTQ+ Health
+    publisher: UnityPoint Health
+    kind: org
+    accessed: "2026-09-24"
+    quote: Gender-affirming hormone therapy (19 years and older).
+  - id: ucs-lgbtq
+    url: https://www.ucsonline.org/what-we-do/lgbtqia-medical-services
+    title: LGBTQIA+ Health at UCS
+    publisher: UCS Healthcare
+    kind: org
+    accessed: "2026-09-24"
+  - id: pp-des-moines
+    url: https://www.plannedparenthood.org/health-center/iowa/des-moines/50311/des-moines-susan-knapp-health-center-3385-90720
+    title: Des Moines, Susan Knapp Health Center
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+    quote: 2304 University Avenue Des Moines, IA 50311. Call 877-859-0542.
+  - id: ppncs-hrt
+    url: https://www.plannedparenthood.org/planned-parenthood-north-central-states/campaigns/transgender-hormone-therapy
+    title: Gender-affirming care, transgender hormone therapy
+    publisher: Planned Parenthood North Central States
+    kind: org
+    accessed: "2026-09-24"
+    quote: Patients in Iowa and South Dakota must be at least 18-years-old to qualify for this service.
+  - id: the-project
+    url: https://phctheproject.org/
+    title: The Project at Primary Health Care
+    kind: org
+    accessed: "2026-09-24"
+    quote: 1200 University Ave., #120 Des Moines, IA 50314 (515) 248-1595. Free Testing Clinic Hours Weekdays 9:00 am to 4:00 pm.
+  - id: the-project-services
+    url: https://phctheproject.org/services/
+    title: Services, Prevention, Testing and HIV Care
+    publisher: The Project at Primary Health Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: phc
+    url: https://www.phcinc.net/
+    title: Primary Health Care
+    kind: org
+    accessed: "2026-09-24"
+  - id: iowa-safe-schools
+    url: https://iowasafeschools.org/
+    title: Iowa Safe Schools
+    kind: org
+    accessed: "2026-09-24"
+  - id: itmaf
+    url: https://www.iowatransmutualaidfund.org/apply
+    title: Apply for Aid
+    publisher: Iowa Trans Mutual Aid Fund
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"

@@ -1,0 +1,521 @@
+guide_type: name_change
+jurisdiction: IA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Drafted from Iowa Code ch. 674 (Iowa Code 2026 PDF on legis.iowa.gov), the Iowa Judicial Branch name change and
+    civil fee pages, and the official petition PDFs, all read 2026-09-24. Open items for the human reviewer:
+    (1) FILING FEE. The task brief and Iowa Code 2026 § 602.8105(1)(a) say $195 (plus a $5 journal publication fee in
+    counties of 98,000 or more). The Judicial Branch name change page and civil fee page, read the same day, say $215
+    and note "Court fees updated to reflect Iowa Legislature 2026 changes"; the certification-and-seal fee is also
+    shown as $50 (code PDF says $30). This draft uses $215 and $50; confirm the 2026 fee bill and its effective date.
+    (2) Whether Polk County currently adds the $5 journal publication fee to name change petitions (the fee page says
+    it "may be charged").
+    (3) There is no durational residency requirement in ch. 674; the petition is filed in the county where you
+    reside. The brief mentioned "1 year residency"; no such rule was found in the statute or on the court page.
+    (4) Whether any district routinely sets a hearing for uncontested adult petitions (statute allows a decree after
+    30 days without one).
+    (5) The Application to Defer Payment of Costs linked on A4TE's Iowa page is the child-support-modification version
+    of Rule 17.300 Form 309; this guide links the court's interactive (LawHelp Interactive) defer-costs interview
+    instead. Confirm the correct general civil form.
+    (6) Iowa Legal Aid's site returned a bot challenge (HTTP 202) to automated fetching; its phone number comes from
+    One Iowa's resource page.
+    Cross-check: A4TE's Iowa page agrees on no publication, notice to spouse, 30-day wait, and minors' consent rules;
+    it gives the fee only as "varies depending on county".
+status: available
+status_summary:
+  en: >-
+    Iowa adults can change their name by e-filing a petition in the district court of the county where they live.
+    There is no newspaper publication and usually no hearing; the judge can sign the decree 30 days after filing. The
+    filing fee is $215 (you can ask to defer it). If you are married, you must formally notify your spouse.
+  es: >-
+    En Iowa, las personas adultas pueden cambiar su nombre presentando electrónicamente una petición en el tribunal
+    de distrito del condado donde viven. No hay publicación en periódico y normalmente no hay audiencia; el juez puede
+    firmar el decreto 30 días después de presentarla. La tarifa es de $215 (puedes pedir aplazarla). Si estás casado
+    o casada, debes notificar formalmente a tu cónyuge.
+summary:
+  en: |
+    Iowa's name change law (Iowa Code chapter 674) is short and does not ask why you want a new name beyond a brief reason. You file one form, the **Petition for Change of Name of Adult**, with the district court in the county where you live, attach a certified copy of your birth certificate, and pay the filing fee. A decree can be granted any time after 30 days. There is no newspaper publication and no fingerprinting.
+
+    Changing your name is still fully available to trans Iowans. What changed in 2025 is the **sex marker**: under SF 418, effective July 1, 2025, Iowa no longer changes the sex on Iowa birth certificates and the DOT no longer changes the sex on licenses to anything other than what your identity document shows. The petition itself asks for your "sex"; see the tips below.
+  es: |
+    La ley de cambio de nombre de Iowa (Código de Iowa, capítulo 674) es breve y solo pide una razón corta. Presentas un formulario, la **Petición de cambio de nombre de adulto**, en el tribunal de distrito del condado donde vives, adjuntas una copia certificada de tu acta de nacimiento y pagas la tarifa. El decreto puede concederse después de 30 días. No hay publicación en periódico ni huellas digitales.
+
+    Cambiar el nombre sigue siendo posible para las personas trans en Iowa. Lo que cambió en 2025 es el **marcador de sexo**: con la ley SF 418, vigente desde el 1 de julio de 2025, Iowa ya no cambia el sexo en las actas de nacimiento de Iowa y el DOT ya no cambia el sexo en las licencias a algo distinto de lo que muestra tu documento de identidad.
+eligibility:
+  residency:
+    en: File in the district court of the Iowa county where you live. Chapter 674 sets no minimum time you must have lived there.
+    es: Presenta la petición en el tribunal de distrito del condado de Iowa donde vives. El capítulo 674 no fija un tiempo mínimo de residencia.
+  age:
+    en: 18 or older for your own petition. A parent files for a minor child; see the Minors section.
+    es: 18 años o más para tu propia petición. Un padre o madre presenta la petición de un menor; ver la sección Menores.
+  criminal_history:
+    en: >-
+      The statute limits the process to adults who do not have "any civil disabilities." People who are incarcerated,
+      or whose rights are restricted because of a felony conviction, may be refused. Talk to a lawyer if this applies
+      to you.
+    es: >-
+      La ley limita el proceso a adultos que no tengan "incapacidades civiles". Las personas encarceladas o con derechos
+      restringidos por una condena por delito grave pueden ser rechazadas. Consulta a un abogado si esto te aplica.
+  other:
+    en: You may change your name under chapter 674 only once unless you show just cause, and the petition asks you to confirm you have not used it before.
+    es: Solo puedes cambiar tu nombre bajo el capítulo 674 una vez, salvo que demuestres causa justificada.
+  sources: [ia-code-674, iacourts-name-change, petition-adult]
+forms:
+  - id: Petition-Adult
+    name:
+      en: Petition for Change of Name of Adult (no dissolution of marriage)
+      es: Petición de cambio de nombre de adulto (sin divorcio)
+    url: https://www.iowacourts.gov/browse/files/642d2f50936e41a095396f8fd7f2277c/download
+    required: always
+    how_to_fill:
+      en: |
+        - Easiest route: use the court's free interactive interview (Iowa Interactive Court Forms), which builds the petition for you.
+        - Item 3 asks you to write "female/male". Since SF 418 (2025), Iowa law defines sex as sex observed at birth, and the decree will copy what you write here. Many people write what matches their birth certificate so the decree matches the document they attach; if you are unsure, ask a legal aid organization before filing.
+        - Item 5 asks for every address in the past five years.
+        - Item 6: if you check "married", you must formally serve your spouse (see the steps).
+        - Item 8, reason: a short sentence is enough, such as "to reflect the name I use in daily life" or "to match my gender identity." You do not need a doctor's letter.
+        - Item 10: attach a certified copy of your birth certificate, or explain why you cannot and attach another ID.
+        - The form contains protected information (such as your date of birth). File a **Protected Information Disclosure** form and leave those items redacted on the public copy, as the form instructs.
+      es: |
+        - Lo más fácil: usa la entrevista interactiva gratuita del tribunal, que llena la petición por ti.
+        - El punto 3 pide "female/male" (femenino/masculino). Desde SF 418 (2025), la ley de Iowa define el sexo como el observado al nacer, y el decreto copiará lo que escribas. Si no sabes qué poner, consulta a una organización de ayuda legal antes de presentar.
+        - Punto 5: todas tus direcciones de los últimos cinco años.
+        - Punto 6: si marcas "casado/a", debes notificar formalmente a tu cónyuge.
+        - Punto 8, razón: basta una frase corta, como "para reflejar el nombre que uso" o "para que coincida con mi identidad de género". No se necesita carta médica.
+        - Punto 10: adjunta una copia certificada de tu acta de nacimiento o explica por qué no puedes y adjunta otra identificación.
+        - Presenta también el formulario de **divulgación de información protegida** y oculta esos datos en la copia pública.
+    sources: [petition-adult, iacourts-name-change, iacourts-interactive]
+  - id: Form-14
+    name:
+      en: Protected Information Disclosure (Iowa Court Rule 17.10, Form 14)
+      es: Divulgación de información protegida (Regla 17.10, Formulario 14)
+    url: https://www.iowacourts.gov/browse/files/f972a4774b42413a988131ae9b19bb88/download
+    required: always
+    condition:
+      en: The name change petition asks for protected information (for example, your full date of birth), so the court requires this separate form.
+      es: La petición pide información protegida (por ejemplo, tu fecha de nacimiento completa), así que el tribunal exige este formulario aparte.
+    sources: [protected-info-form, petition-adult]
+  - id: Petition-Minor
+    name:
+      en: Petition for Change of Name of Minor Child
+      es: Petición de cambio de nombre de un menor
+    url: https://www.iowacourts.gov/browse/files/7e131a3beca64fb4bce6f3cb50687cc1/download
+    required: conditional
+    condition:
+      en: Only when a parent is changing a child's name. The child's written consent is required at 14 and older; both parents' consent under 14.
+      es: Solo cuando un padre o madre cambia el nombre de un menor. Se requiere el consentimiento escrito del menor desde los 14 años; de ambos padres si es menor de 14.
+    sources: [petition-minor, iacourts-name-change]
+  - id: Defer-Costs
+    name:
+      en: Application to Defer Costs (Iowa Interactive Court Forms interview)
+      es: Solicitud para aplazar costos (entrevista interactiva)
+    url: https://lawhelpinteractive.org/Interview/GenerateInterview/7546/engine
+    required: optional
+    condition:
+      en: Only if you cannot afford the filing fee. A judge decides whether to let you file without paying first.
+      es: Solo si no puedes pagar la tarifa. Un juez decide si puedes presentar sin pagar primero.
+    sources: [iacourts-fees]
+steps:
+  - id: prepare-petition
+    title:
+      en: Prepare your petition
+      es: Prepara tu petición
+    body:
+      en: |
+        Use the free **Iowa Interactive Court Forms** interview (linked from the court's name change page) or download the Petition for Change of Name of Adult and fill it in. Get a **certified copy of your birth certificate** to attach (Iowa births: $20 from Iowa HHS; other states: order from your birth state). Fill out the Protected Information Disclosure form too.
+      es: |
+        Usa la entrevista gratuita **Iowa Interactive Court Forms** (enlazada desde la página de cambio de nombre del tribunal) o descarga la petición y llénala. Consigue una **copia certificada de tu acta de nacimiento** para adjuntar (nacidos en Iowa: $20 en Iowa HHS; otros estados: pídela a tu estado de nacimiento). Llena también el formulario de información protegida.
+    forms: [Petition-Adult, Form-14]
+    sources: [iacourts-name-change, iacourts-interactive, hhs-vital-records]
+  - id: fee-deferral
+    title:
+      en: Ask to defer the fee if you cannot pay
+      es: Pide aplazar la tarifa si no puedes pagar
+    body:
+      en: File an Application to Defer Costs with your petition. A judge decides; if granted, you can start the case without paying up front. The court may still decide later who pays the costs.
+      es: Presenta una solicitud para aplazar costos junto con tu petición. Un juez decide; si la aprueba, puedes iniciar el caso sin pagar por adelantado. El tribunal puede decidir después quién paga los costos.
+    forms: [Defer-Costs]
+    optional: true
+    sources: [iacourts-fees]
+  - id: efile
+    title:
+      en: E-file with the district court in your county
+      es: Presenta electrónicamente en el tribunal de distrito de tu condado
+    body:
+      en: |
+        Iowa requires electronic filing through the Iowa Courts eFile system unless the court excuses you. Create an eFile account, start a new civil case in the county where you live, upload the petition, the protected information form, and your birth certificate, and pay the filing fee. If you do not have a computer, clerk's offices have public terminals and staff can show you how to use them (they cannot give legal advice).
+      es: |
+        Iowa exige presentar electrónicamente por el sistema Iowa Courts eFile salvo que el tribunal te exima. Crea una cuenta, inicia un caso civil nuevo en el condado donde vives, sube la petición, el formulario de información protegida y tu acta de nacimiento, y paga la tarifa. Si no tienes computadora, las oficinas del secretario tienen terminales públicas.
+    fees: [filing]
+    applies_to: [online]
+    sources: [iacourts-name-change, iacourts-efile, iacourts-fees]
+  - id: serve-spouse
+    title:
+      en: If you are married, serve your spouse
+      es: Si estás casado o casada, notifica a tu cónyuge
+    body:
+      en: |
+        Iowa Code § 674.6 requires legal notice to your spouse "in the manner of an original notice." That usually means the sheriff or a private process server delivers a copy of the petition and an original notice, and you file proof of service. The sheriff charges a fee. If your spouse cannot be found, ask the clerk or a legal aid office about service by publication, which is the only situation where a newspaper notice may come up.
+      es: |
+        El § 674.6 del Código de Iowa exige notificar legalmente a tu cónyuge "en la forma de una notificación original". Normalmente el alguacil o un notificador privado entrega una copia de la petición y presentas la prueba de notificación. El alguacil cobra una tarifa. Si no encuentras a tu cónyuge, pregunta sobre notificación por edicto.
+    fees: [service]
+    optional: true
+    sources: [ia-code-674, iacourts-name-change]
+  - id: wait-decree
+    title:
+      en: Wait at least 30 days for the decree
+      es: Espera al menos 30 días para el decreto
+    body:
+      en: A judge may sign the decree any time after 30 days from filing. For an uncontested adult petition there is usually no hearing; the signed decree is posted to your eFile account.
+      es: Un juez puede firmar el decreto después de 30 días desde la presentación. En una petición de adulto sin oposición normalmente no hay audiencia; el decreto firmado aparece en tu cuenta de eFile.
+    estimated_time:
+      en: 30 days or more
+      es: 30 días o más
+    sources: [ia-code-674]
+  - id: certified-copies
+    title:
+      en: Get certified copies of the decree
+      es: Obtén copias certificadas del decreto
+    body:
+      en: The clerk must give you a certified copy of the decree. Ask for extra certified copies for Social Security, the DOT, your passport, and banks. The clerk charges a certification fee per document.
+      es: El secretario debe darte una copia certificada del decreto. Pide copias certificadas adicionales para el Seguro Social, el DOT, el pasaporte y los bancos. Se cobra una tarifa de certificación por documento.
+    fees: [certified-copy]
+    sources: [ia-code-674, iacourts-fees]
+  - id: update-documents
+    title:
+      en: Update your other documents, in this order
+      es: Actualiza tus demás documentos, en este orden
+    body:
+      en: |
+        1. **Social Security** first (free). The Iowa DOT checks your name against Social Security's records, so it must be updated before you go to the DOT.
+        2. **Iowa DOT** license or ID (in person, $10; see the driver's license guide).
+        3. **Birth certificate**: if you were born in Iowa, the clerk forwards an abstract of your decree to Iowa HHS, which adds the new name ($15 fee). If you were born elsewhere, send the decree to your birth state.
+        4. **Passport**, bank, employer, insurance, voter registration, school records.
+      es: |
+        1. **Seguro Social** primero (gratis). El DOT de Iowa verifica tu nombre con los registros del Seguro Social.
+        2. **DOT de Iowa**, licencia o identificación (en persona, $10).
+        3. **Acta de nacimiento**: si naciste en Iowa, el secretario envía un resumen del decreto a Iowa HHS, que agrega el nuevo nombre ($15). Si naciste en otro estado, envía el decreto a ese estado.
+        4. **Pasaporte**, banco, empleador, seguro, registro electoral, escuela.
+    sources: [dot-change-info, hhs-abstract, iac-761-601]
+fees:
+  - id: filing
+    label:
+      en: District court filing fee (petition for change of name)
+      es: Tarifa de presentación (petición de cambio de nombre)
+    amount: 215
+    waivable: true
+    note:
+      en: The court's fee page lists $215 after 2026 legislative changes. In counties over 98,000 people (including Polk), an extra $5 journal publication fee may be charged. The fee can be deferred, not simply waived; a judge decides.
+      es: La página de tarifas del tribunal indica $215 tras los cambios legislativos de 2026. En condados de más de 98,000 habitantes (incluido Polk) se puede cobrar $5 adicionales. La tarifa se puede aplazar; un juez decide.
+    sources: [iacourts-fees, iacourts-name-change, ia-code-602-8105]
+  - id: service
+    label:
+      en: Sheriff or process server fee to serve your spouse (only if married)
+      es: Tarifa del alguacil o notificador para notificar a tu cónyuge (solo si estás casado/a)
+    varies_by: county
+    note:
+      en: Set by each county sheriff. The court's name change page warns there "may be an additional cost."
+      es: La fija cada alguacil del condado.
+    sources: [iacourts-name-change]
+  - id: certified-copy
+    label:
+      en: Certification and seal of a court document (each)
+      es: Certificación y sello de un documento judicial (cada uno)
+    amount: 50
+    note:
+      en: Per the court's civil fee page. Copies are also $0.50 per page. The statute requires the clerk to furnish you one certified copy of the decree; confirm with the clerk whether that first copy is charged.
+      es: Según la página de tarifas civiles del tribunal. Las copias cuestan $0.50 por página.
+    sources: [iacourts-fees, ia-code-674]
+fee_waiver:
+  available: true
+  forms: [Defer-Costs]
+  eligibility:
+    en: There is no fixed income cutoff. A judge may let you file without prepaying fees "in the interest of justice" if you cannot afford them. You will describe your household size, income, assets, and expenses.
+    es: No hay un límite fijo de ingresos. Un juez puede permitir que presentes sin pagar por adelantado si no puedes pagar. Describirás el tamaño de tu hogar, ingresos, bienes y gastos.
+  how:
+    en: File the Application to Defer Costs (the court's interactive interview builds it) together with your petition.
+    es: Presenta la solicitud para aplazar costos (la entrevista interactiva del tribunal la prepara) junto con tu petición.
+  sources: [iacourts-fees]
+publication:
+  required: "no"
+  detail:
+    en: Chapter 674 does not require publishing your name change in a newspaper. Publication may come up only if you are married and your spouse cannot be found for service.
+    es: El capítulo 674 no exige publicar tu cambio de nombre en un periódico. Solo podría surgir si estás casado/a y no se puede localizar a tu cónyuge.
+  waiver_available: false
+  sources: [ia-code-674, iacourts-name-change]
+hearing:
+  required: conditional
+  detail:
+    en: No hearing is required for an adult; the decree may be granted any time after 30 days. A hearing is required for a child under 14 when a parent does not consent, and a judge may set one in other cases.
+    es: No se requiere audiencia para un adulto; el decreto puede concederse después de 30 días. Se requiere audiencia para un menor de 14 años si uno de los padres no consiente.
+  sources: [ia-code-674]
+background_check:
+  required: "no"
+  detail:
+    en: No fingerprinting or background check. The petition asks for a physical description (height, weight, hair and eye color, race, sex) and five years of addresses.
+    es: No hay huellas digitales ni verificación de antecedentes. La petición pide una descripción física y las direcciones de los últimos cinco años.
+  sources: [ia-code-674, petition-adult]
+confidentiality:
+  sealing_available: false
+  detail:
+    en: |
+      Iowa has no special sealing procedure for name changes. The court case is public (protected details like your date of birth are redacted via the Protected Information Disclosure form). The clerk sends a copy of the petition to the state registrar of vital statistics. On the birth record side, Iowa birth certificates amended after a chapter 674 name change are held only at the state office, not by county recorders, and show both the former and new names.
+    es: |
+      Iowa no tiene un procedimiento especial para sellar cambios de nombre. El caso judicial es público (los datos protegidos se ocultan con el formulario de información protegida). En el acta de nacimiento, las actas enmendadas por cambio de nombre solo se guardan en la oficina estatal y muestran el nombre anterior y el nuevo.
+  how:
+    en: If you have a safety concern, talk to a lawyer about asking the court to seal the file; there is no standard form for this. Iowa's Safe at Home program (Secretary of State) can keep your address confidential.
+    es: Si tienes un problema de seguridad, habla con un abogado sobre pedir al tribunal que selle el expediente; no hay formulario estándar.
+  sources: [ia-code-674, hhs-abstract, protected-info-form]
+minors:
+  summary:
+    en: |
+      A parent files the **Petition for Change of Name of Minor Child** in the county where the child lives (or includes the child in the parent's own petition). If the child is **14 or older**, the child's written consent is required. If the child is **under 14**, both parents listed on the birth certificate must consent in writing; if one does not, the court sets a hearing on 20 days' notice and may waive that parent's consent only if the parent abandoned the child, failed without good cause to pay ordered support, or does not object after proper notice. Judges weigh the child's best interests.
+    es: |
+      Un padre o madre presenta la **Petición de cambio de nombre de un menor** en el condado donde vive el menor. Si el menor tiene **14 años o más**, se requiere su consentimiento por escrito. Si tiene **menos de 14**, ambos padres que figuran en el acta de nacimiento deben consentir; si uno no lo hace, el tribunal fija una audiencia con 20 días de aviso y puede prescindir de su consentimiento solo si abandonó al menor, no pagó la manutención ordenada sin causa justificada, o no se opone tras ser notificado.
+  forms: [Petition-Minor]
+  sources: [ia-code-674, petition-minor, iacourts-name-change]
+delivery:
+  online: true
+  by_mail: false
+  in_person: false
+  detail:
+    en: Petitions must be e-filed through Iowa Courts eFile unless the court gives you permission to file on paper. Clerk's offices have public computers.
+    es: Las peticiones deben presentarse por Iowa Courts eFile salvo que el tribunal permita presentarlas en papel.
+  sources: [iacourts-name-change, iacourts-efile]
+timeline:
+  en: About 30 to 60 days from filing to a signed decree (longer if you must serve a spouse), then a few weeks to update Social Security and the DOT. Iowa HHS takes about 4 to 6 weeks to add the new name to an Iowa birth certificate.
+  es: Unos 30 a 60 días desde la presentación hasta el decreto firmado (más si debes notificar a tu cónyuge), y luego unas semanas para actualizar el Seguro Social y el DOT. Iowa HHS tarda unas 4 a 6 semanas en agregar el nuevo nombre al acta de nacimiento.
+after:
+  en: |
+    Start with **Social Security** (bring the certified decree and photo ID; the name changes, but the sex field currently cannot be changed). Then the **Iowa DOT**: book an appointment, bring the certified decree, and pay $10 for a replacement license or ID. If you were born in Iowa, the clerk forwards an abstract of the decree (form 470-5446) to **Iowa HHS**, which adds your new name to your birth certificate for $15 plus $20 per certified copy; the sex on an Iowa birth certificate can no longer be changed. Then your **passport** (name changes are still processed), bank, employer, insurance, voter registration, and school records.
+  es: |
+    Empieza con el **Seguro Social** (lleva el decreto certificado e identificación con foto; el nombre cambia, pero el campo de sexo actualmente no). Luego el **DOT de Iowa**: haz una cita, lleva el decreto certificado y paga $10 por una licencia o identificación de reemplazo. Si naciste en Iowa, el secretario envía un resumen del decreto (formulario 470-5446) a **Iowa HHS**, que agrega tu nuevo nombre al acta por $15 más $20 por copia certificada; el sexo en un acta de Iowa ya no se puede cambiar. Después el **pasaporte**, banco, empleador, seguro, registro electoral y escuela.
+tips:
+  - en: The court's free Iowa Interactive Court Forms interview fills in the petition for you and is the fastest way to avoid mistakes.
+    es: La entrevista gratuita Iowa Interactive Court Forms llena la petición por ti y es la forma más rápida de evitar errores.
+  - en: >-
+      Your decree will list the sex you write on the petition, and Iowa agencies now use sex observed at birth. A
+      decree that lists a different sex from your birth certificate will not change your Iowa birth certificate or
+      Iowa license. Ask Lavender Legal Center or another legal aid group if you are unsure what to write.
+    es: >-
+      Tu decreto indicará el sexo que escribas en la petición, y las agencias de Iowa ahora usan el sexo observado al
+      nacer. Un decreto con un sexo distinto no cambiará tu acta ni tu licencia de Iowa. Consulta a una organización de
+      ayuda legal si tienes dudas.
+  - en: Ask the Iowa Trans Mutual Aid Fund about help with name change costs; applications open the first week of each month.
+    es: Pregunta al Iowa Trans Mutual Aid Fund por ayuda con los costos del cambio de nombre; las solicitudes abren la primera semana de cada mes.
+local_help:
+  - id: lavender-legal
+    name: Lavender Legal Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Iowa nonprofit law office by and for LGBTQ+ people providing direct representation, advocacy, and referrals, with priority for people with low income and LGBTQ+ youth. Helps with name changes. Email info@lavenderlegal.org.
+      es: Oficina legal sin fines de lucro en Iowa, por y para personas LGBTQ+, que ofrece representación directa, defensa y referencias, con prioridad para personas de bajos ingresos y jóvenes LGBTQ+. Ayuda con cambios de nombre.
+    url: https://www.lavenderlegalcenter.org/
+    cost: varies
+    verification: org_website
+    sources: [lavender]
+  - id: iowa-legal-aid
+    name: Iowa Legal Aid
+    type: legal_aid
+    pillars: [name_change]
+    description:
+      en: Statewide free civil legal help for people with low income. Call to ask whether they can help with a name change or with serving a spouse.
+      es: Ayuda legal civil gratuita en todo el estado para personas de bajos ingresos. Llama para preguntar si pueden ayudar con un cambio de nombre.
+    url: https://www.iowalegalaid.org/
+    phone: "515-243-1193"
+    cost: free
+    verification: community_reported
+    sources: [oneiowa-legal]
+  - id: one-iowa
+    name: One Iowa
+    type: advocacy_org
+    pillars: [name_change, gender_marker]
+    description:
+      en: Des Moines-based statewide LGBTQ+ advocacy organization. Publishes a guide to SF 418 and can refer you to LGBTQ-friendly attorneys (email info@oneiowa.org). It does not provide legal representation.
+      es: Organización estatal LGBTQ+ con sede en Des Moines. Publica una guía sobre SF 418 y puede referirte a abogados. No ofrece representación legal.
+    url: https://oneiowa.org/
+    phone: "515-288-4019"
+    cost: free
+    verification: org_website
+    sources: [oneiowa-sf418, oneiowa-legal]
+  - id: itmaf
+    name: Iowa Trans Mutual Aid Fund
+    type: fund
+    pillars: [name_change, hrt]
+    description:
+      en: Community fund for trans, nonbinary, and gender-diverse Iowans. Applications open during the first week of each month; A4TE lists name change fees among the costs it has helped with. Email itmaf@proton.me.
+      es: Fondo comunitario para personas trans, no binarias y de género diverso en Iowa. Las solicitudes abren la primera semana de cada mes. Correo itmaf@proton.me.
+    url: https://www.iowatransmutualaidfund.org/apply
+    cost: free
+    verification: org_website
+    sources: [itmaf, a4te-ia]
+  - id: love-in-the-face
+    name: Love in the Face
+    type: name_change_clinic
+    pillars: [name_change, gender_marker]
+    description:
+      en: No-cost, step-by-step coaching through the legal name and gender marker change paperwork, listed on One Iowa's health resources page. Not a law firm.
+      es: Acompañamiento gratuito paso a paso en los trámites de cambio de nombre y marcador, según la lista de One Iowa. No es un bufete de abogados.
+    url: http://www.loveintheface.com
+    cost: free
+    verification: community_reported
+    sources: [oneiowa-health]
+statutes:
+  - cite: Iowa Code ch. 674 (§§ 674.1 to 674.14)
+    title:
+      en: Changing names; petition in the district court of the county of residence, 30-day wait, notice to spouse, minors' consent
+    url: https://www.legis.iowa.gov/docs/code/674.pdf
+  - cite: Iowa Code § 602.8105(1)(a)
+    title:
+      en: Civil petition filing fee
+    url: https://www.legis.iowa.gov/docs/code/602.8105.pdf
+  - cite: Iowa Code § 144.39
+    title:
+      en: Amendment of an Iowa birth certificate after a court-ordered name change
+    url: https://www.legis.iowa.gov/docs/code/144.39.pdf
+related_links:
+  - title: Iowa Judicial Branch, Name Change
+    url: https://www.iowacourts.gov/for-the-public/representing-yourself/name-change/
+    note:
+      en: Official overview with links to the petition forms and the interactive interview.
+      es: Resumen oficial con enlaces a los formularios y la entrevista interactiva.
+  - title: Advocates for Trans Equality, Iowa identity documents
+    url: https://transequality.org/documents/iowa-identity-documents
+    note:
+      en: Undated page; it says fees vary by county and describes the DOT gender marker process as it stood before the November 2025 rule change.
+      es: Página sin fecha; describe el proceso del DOT anterior al cambio de reglas de noviembre de 2025.
+  - title: One Iowa, Iowa Civil Rights Removal Act (SF 418) Implementation Guide
+    url: https://oneiowa.org/civilrightsremovalguide/
+sources:
+  - id: ia-code-674
+    url: https://www.legis.iowa.gov/docs/code/674.pdf
+    title: Iowa Code 2026, Chapter 674, Changing Names
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: A decree of change of name may be granted any time after thirty days of the filing of the petition.
+  - id: ia-code-602-8105
+    url: https://www.legis.iowa.gov/docs/code/602.8105.pdf
+    title: Iowa Code 2026, § 602.8105, Fees for civil cases
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: In counties having a population of ninety-eight thousand or over, an additional five dollars shall be charged and collected to be known as the journal publication fee.
+  - id: iacourts-name-change
+    url: https://www.iowacourts.gov/for-the-public/representing-yourself/name-change/
+    title: Name Change
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: You will need to electronically file the Petition for Change of Name and pay the $215 filing fee. You must file electronically unless you get permission from the court to be excused from electronic filing.
+  - id: iacourts-fees
+    url: https://www.iowacourts.gov/for-the-public/representing-yourself/civil-court-fees/
+    title: Civil Court Fees
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+    quote: "Name Change ... $215 § 602.8105(1)(a). Certification and seal of court document $50. *Court fees updated to reflect Iowa Legislature 2026 changes"
+  - id: iacourts-interactive
+    url: https://www.iowacourts.gov/for-the-public/representing-yourself/iowa-interactive-court-forms/
+    title: Iowa Interactive Court Forms
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: iacourts-efile
+    url: https://www.iowacourts.gov/efile/
+    title: Iowa Courts eFile
+    publisher: Iowa Judicial Branch
+    kind: court
+    accessed: "2026-09-24"
+  - id: petition-adult
+    url: https://www.iowacourts.gov/browse/files/642d2f50936e41a095396f8fd7f2277c/download
+    title: Petition for Change of Name of Adult (no dissolution of marriage), November 2024
+    publisher: Iowa Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+    quote: "Caution: this form requires protected information and the filing of a separate Protected Information Form."
+  - id: petition-minor
+    url: https://www.iowacourts.gov/browse/files/7e131a3beca64fb4bce6f3cb50687cc1/download
+    title: Petition for Change of Name of Minor Child, December 2020
+    publisher: Iowa Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: protected-info-form
+    url: https://www.iowacourts.gov/browse/files/f972a4774b42413a988131ae9b19bb88/download
+    title: Rule 17.10, Form 14, Protected Information Disclosure
+    publisher: Iowa Judicial Branch
+    kind: form
+    accessed: "2026-09-24"
+  - id: hhs-vital-records
+    url: https://hhs.iowa.gov/family-community/vital-records
+    title: Vital Records
+    publisher: Iowa Department of Health and Human Services
+    kind: official
+    accessed: "2026-09-24"
+    quote: Administrative processing fees at the state level are $15 as of July 1, 2019. This includes amendments ... legal change of names.
+  - id: hhs-abstract
+    url: https://hhs.iowa.gov/media/3228/download?inline
+    title: Form 470-5446, Abstract to Change Registrant's Legal Name on Birth Certificate (07/26)
+    publisher: Iowa Department of Health and Human Services
+    kind: form
+    accessed: "2026-09-24"
+    quote: Both the former name and the new name will appear on the record with a statement regarding the court order and the date.
+  - id: dot-change-info
+    url: https://iowadot.gov/drivers-licenses-ids/other-services/change-information
+    title: Change or Update Driver's License or ID
+    publisher: Iowa Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+    quote: Changing your name on an Iowa driver's license or ID must be done in person at any DMV location by scheduling an appointment. There is a $10 charge.
+  - id: iac-761-601
+    url: https://www.legis.iowa.gov/docs/iac/chapter/761.601.pdf
+    title: Iowa Administrative Code 761, Chapter 601, Application for License (IAC 6/24/26)
+    publisher: Iowa Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: The applicant must establish that the applicant's Social Security Administration's account number is issued in the applicant's current legal name.
+  - id: lavender
+    url: https://www.lavenderlegalcenter.org/
+    title: Lavender Legal Center
+    kind: org
+    accessed: "2026-09-24"
+    quote: Lavender provides direct representation, advocacy, and referrals, with a priority for serving those with low income and our LGBTQ+ youth.
+  - id: oneiowa-legal
+    url: https://oneiowa.org/resources/legal-and-family/
+    title: Legal and Family Resources
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+    quote: Iowa Legal Aid 515-243-1193
+  - id: oneiowa-sf418
+    url: https://oneiowa.org/civilrightsremovalguide/
+    title: Iowa Civil Rights Removal Act Implementation Guide
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+  - id: oneiowa-health
+    url: https://oneiowa.org/resources/health-wellness/organizations/
+    title: LGBTQ Inclusive Healthcare Organizations
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+    quote: Love in the Face provides a no-cost step-by-step coaching process that empowers you to complete your legal name and/or gender marker change.
+  - id: itmaf
+    url: https://www.iowatransmutualaidfund.org/apply
+    title: Apply for Aid
+    publisher: Iowa Trans Mutual Aid Fund
+    kind: org
+    accessed: "2026-09-24"
+    quote: The Iowa Trans Mutual Aid fund applications are open during the first week of the month.
+  - id: a4te-ia
+    url: https://transequality.org/documents/iowa-identity-documents
+    title: Iowa Identity Documents
+    publisher: Advocates for Trans Equality
+    kind: org
+    accessed: "2026-09-24"

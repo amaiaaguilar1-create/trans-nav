@@ -1,0 +1,212 @@
+guide_type: drivers_license
+jurisdiction: IA
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Core rule read 2026-09-24 in IAC 761-601.4(7) (IAC 6/24/26) and the adopted-rule notice ARC 9622C (IAB 10/15/25,
+    effective 11/19/25), which says it implements SF 418's definition of sex and that "a person will no longer be able
+    to change the sex designation on the person's driver's license or nonoperator's identification card to reflect a
+    sex designation different than what is listed on the person's identity document." Fees ($10 replacement) from
+    the DOT fees and change-of-information pages the same day. Reviewer items: (1) the DOT website has no page on sex
+    designation at all; the old memo linked by A4TE (iowadot.gov/media/7072) now returns 404, and the old form for
+    physician affidavits could not be located, so no form is listed; (2) whether the DOT actually accepts an amended
+    out-of-state birth certificate (the rule text says the card will match the identity document, and One Iowa reads
+    it that way, but DOT practice is unconfirmed); (3) what happens at renewal for people whose Iowa card was changed
+    before November 19, 2025: the rule does not say, and no DOT guidance was found; (4) whether the physician-affidavit
+    route for people born outside Iowa ended July 1, 2025 or November 19, 2025. Disagreement: A4TE's Iowa page
+    (undated) still says the DOT "is still processing gender marker updates" and accepts a physician affidavit for
+    people born outside Iowa; that predates the November 2025 rule and is treated as outdated. No active litigation
+    or pending bill was found; this could not be confirmed with a news search (search tool unavailable).
+status: restricted
+requirement_type: amended_birth_certificate
+markers_available: [M, F]
+name_change_status: available
+status_summary:
+  en: >-
+    Since November 19, 2025, the sex on an Iowa driver's license or ID must match the sex on the identity document you
+    present (usually your birth certificate or passport). If you were born in Iowa, you cannot change it, because Iowa
+    no longer amends the sex on birth certificates. Changing your name is still available ($10, in person).
+  es: >-
+    Desde el 19 de noviembre de 2025, el sexo en una licencia o identificación de Iowa debe coincidir con el sexo del
+    documento de identidad que presentes (normalmente tu acta de nacimiento o pasaporte). Si naciste en Iowa, no
+    puedes cambiarlo, porque Iowa ya no enmienda el sexo en las actas. Cambiar el nombre sigue siendo posible ($10,
+    en persona).
+summary:
+  en: |
+    Iowa used to let people change the sex on a license with an amended birth certificate or, for people born in other states, a notarized physician's affidavit. SF 418 (2025) defined "sex" in Iowa law as sex "observed or clinically verified at birth" and ended sex changes on Iowa birth certificates. The DOT then rewrote its rules. The current rule, 761-601.4(7), says the sex on your card "will be identical to the sex listed on the identity document submitted." The physician-affidavit route is gone, and there is no X option.
+
+    **What this means in practice:**
+    - **Born in Iowa, birth certificate never amended**: you cannot change the sex on your license.
+    - **Born in Iowa, birth certificate amended before July 1, 2025**: the amended certificate still exists, and One Iowa's reading is that the DOT will follow it. Bring it to the DOT.
+    - **Born in another state**: if your birth state will amend your birth certificate, the DOT's rule says your card will match that document. If your birth state will not, you cannot change the Iowa card either.
+    - A US passport cannot help right now: the State Department is not issuing passports with a changed sex marker.
+
+    Changing your **name** on the card is unaffected: bring a certified court order to a DMV appointment and pay $10.
+  es: |
+    Iowa antes permitía cambiar el sexo en la licencia con un acta de nacimiento enmendada o, para personas nacidas en otros estados, con una declaración jurada de un médico. La ley SF 418 (2025) definió "sexo" en la ley de Iowa como el sexo "observado o verificado clínicamente al nacer" y terminó los cambios de sexo en las actas de Iowa. El DOT reescribió sus reglas: el sexo en tu tarjeta "será idéntico al sexo que figura en el documento de identidad presentado". Ya no se acepta la declaración médica y no existe la opción X.
+
+    **En la práctica:**
+    - **Nacido/a en Iowa, acta nunca enmendada**: no puedes cambiar el sexo en tu licencia.
+    - **Nacido/a en Iowa, acta enmendada antes del 1 de julio de 2025**: el acta enmendada sigue vigente y, según One Iowa, el DOT la seguirá.
+    - **Nacido/a en otro estado**: si tu estado de nacimiento enmienda tu acta, la regla del DOT dice que tu tarjeta coincidirá con ese documento. Si no lo hace, tampoco puedes cambiar la tarjeta de Iowa.
+    - El pasaporte de EE. UU. no sirve por ahora: el Departamento de Estado no emite pasaportes con marcador de sexo cambiado.
+
+    Cambiar tu **nombre** en la tarjeta no se ve afectado: lleva una orden judicial certificada a una cita del DMV y paga $10.
+eligibility:
+  residency:
+    en: You must be an Iowa resident applying for or holding an Iowa driver's license or nonoperator ID.
+    es: Debes ser residente de Iowa y tener o solicitar una licencia o identificación de Iowa.
+  other:
+    en: For a sex change on the card you need an identity document (such as a certified birth certificate from your birth state) that already shows the sex you want. For a name change, Social Security must already show your new name, because the DOT verifies it electronically.
+    es: Para cambiar el sexo en la tarjeta necesitas un documento de identidad (como un acta certificada de tu estado de nacimiento) que ya muestre el sexo que quieres. Para cambiar el nombre, el Seguro Social ya debe tener tu nuevo nombre.
+  sources: [iac-761-601, arc-9622c]
+steps:
+  - id: check-document
+    title:
+      en: Check what your identity document says
+      es: Revisa lo que dice tu documento de identidad
+    body:
+      en: |
+        The DOT will copy the sex from the identity document you present (a certified birth certificate, US passport, Consular Report of Birth Abroad, Certificate of Citizenship or Naturalization, green card, and similar). If you were born in another state, check whether that state will amend your birth certificate; use the birth certificate guide for that state. If you were born in Iowa, an Iowa certificate amended before July 1, 2025 is the only document that can change the Iowa card.
+      es: |
+        El DOT copiará el sexo del documento de identidad que presentes (acta de nacimiento certificada, pasaporte, informe consular de nacimiento, certificado de ciudadanía o naturalización, tarjeta de residencia, etc.). Si naciste en otro estado, revisa si ese estado enmienda tu acta. Si naciste en Iowa, solo un acta de Iowa enmendada antes del 1 de julio de 2025 puede cambiar la tarjeta.
+    applies_to: [gender_marker]
+    sources: [iac-761-601, arc-9622c, oneiowa-sf418]
+  - id: update-ssa
+    title:
+      en: For a name change, update Social Security first
+      es: Para un cambio de nombre, actualiza primero el Seguro Social
+    body:
+      en: The DOT verifies your name with Social Security's online system. Update your name with Social Security using your certified court order, then wait a few days before your DOT appointment.
+      es: El DOT verifica tu nombre con el sistema del Seguro Social. Actualiza tu nombre en el Seguro Social con tu orden judicial certificada y espera unos días antes de tu cita en el DOT.
+    applies_to: [name_change]
+    sources: [iac-761-601]
+  - id: appointment
+    title:
+      en: Book a DMV appointment and bring originals
+      es: Haz una cita en el DMV y lleva originales
+    body:
+      en: |
+        Schedule an appointment at any DMV location (state DOT or county treasurer). Bring your current card, a **certified** copy of your name change order and/or your certified identity document showing the sex you want, and REAL ID documents if you are upgrading. Photocopies and faxes are not accepted. You will have a new photo taken.
+      es: |
+        Haz una cita en cualquier oficina del DMV (DOT estatal o tesorero del condado). Lleva tu tarjeta actual, una copia **certificada** de tu orden de cambio de nombre y/o tu documento de identidad certificado, y los documentos de REAL ID si corresponde. No se aceptan fotocopias ni faxes. Te tomarán una foto nueva.
+    fees: [replacement]
+    applies_to: [in_person]
+    sources: [dot-change-info, dot-appointment]
+  - id: receive-card
+    title:
+      en: Receive your card
+      es: Recibe tu tarjeta
+    body:
+      en: You get a temporary paper document at the appointment, and the permanent card is mailed to you.
+      es: Recibes un documento provisional en papel en la cita y la tarjeta permanente llega por correo.
+    sources: [dot-change-info]
+fees:
+  - id: replacement
+    label:
+      en: Replacement driver's license or nonoperator ID (name change or other change of information)
+      es: Reemplazo de licencia o identificación (cambio de nombre u otro cambio de información)
+    amount: 10
+    note:
+      en: A $1.50 fee applies to credit card payments, and county locations may add a convenience fee. Veterans and active-duty service members may be exempt from some fees.
+      es: Se cobra $1.50 por pagos con tarjeta de crédito, y las oficinas del condado pueden agregar un cargo. Veteranos y militares activos pueden estar exentos de algunas tarifas.
+    sources: [dot-fees, dot-change-info]
+fee_waiver:
+  available: false
+  eligibility:
+    en: No general low-income waiver is listed. Active-duty military and honorably discharged veterans are exempt from certain license fees.
+    es: No hay exención general por bajos ingresos. Militares activos y veteranos con baja honorable están exentos de algunas tarifas.
+  sources: [dot-fees]
+delivery:
+  online: false
+  by_mail: false
+  in_person: true
+  detail:
+    en: Name changes (and any change based on a new identity document) must be done in person at a DMV location by appointment.
+    es: Los cambios de nombre (y cualquier cambio basado en un nuevo documento) se hacen en persona con cita.
+  sources: [dot-change-info]
+timeline:
+  en: One appointment, then the card arrives by mail.
+  es: Una cita y luego la tarjeta llega por correo.
+after:
+  en: |
+    Keep your certified court order with your records; banks and employers may ask for it. If the sex on your Iowa card does not match how you live, you are not required to explain it to anyone except where the law requires ID. Your card remains valid for REAL ID, flying, and voting regardless of the sex marker. If you move to a state that allows marker changes, that state's rules apply to your new license there.
+  es: |
+    Guarda tu orden judicial certificada; bancos y empleadores pueden pedirla. Tu tarjeta sigue siendo válida para REAL ID, volar y votar sin importar el marcador de sexo. Si te mudas a un estado que permite cambiar el marcador, se aplican las reglas de ese estado.
+tips:
+  - en: The DOT is not asking for surgery or medical records anymore; a doctor's letter will not be accepted for a sex change. Do not pay anyone who says they can get you a changed marker.
+    es: El DOT ya no acepta cartas médicas para cambiar el sexo. No pagues a nadie que diga que puede conseguirte un marcador cambiado.
+  - en: If you were born in a state that still amends birth certificates (for example Illinois or Minnesota), amend it there first, then bring the certified amended certificate to an Iowa DMV. Confirm with the DOT before the visit, because practice under the new rule has not been confirmed.
+    es: Si naciste en un estado que todavía enmienda actas (por ejemplo Illinois o Minnesota), enmiéndala allí primero y luego lleva el acta certificada al DMV de Iowa. Confirma con el DOT antes de ir.
+  - en: One Iowa collects reports of problems (report@oneiowa.org) and can refer you to an attorney.
+    es: One Iowa recopila reportes de problemas (report@oneiowa.org) y puede referirte a un abogado.
+statutes:
+  - cite: Iowa Admin. Code r. 761-601.4(7)
+    title:
+      en: Verification of sex; the sex on the card will be identical to the sex on the identity document submitted (effective November 19, 2025)
+    url: https://www.legis.iowa.gov/docs/iac/chapter/761.601.pdf
+  - cite: Iowa Code § 4.1A (SF 418, 2025)
+    title:
+      en: Statutory definition of sex as observed or clinically verified at birth; effective July 1, 2025
+    url: https://www.legis.iowa.gov/docs/code/4.1A.pdf
+  - cite: Iowa Code § 321.189
+    title:
+      en: Contents of the driver's license, including sex
+    url: https://www.legis.iowa.gov/docs/code/321.189.pdf
+related_links:
+  - title: One Iowa, SF 418 Implementation Guide
+    url: https://oneiowa.org/civilrightsremovalguide/
+    note:
+      en: Plain-language explanation of what SF 418 means for birth certificates and licenses.
+      es: Explicación sencilla de lo que SF 418 significa para actas y licencias.
+  - title: Advocates for Trans Equality, Iowa identity documents
+    url: https://transequality.org/documents/iowa-identity-documents
+    note:
+      en: Undated; its driver's license section describes the process before the DOT's November 2025 rule and is out of date on the sex marker.
+      es: Sin fecha; su sección sobre licencias describe el proceso anterior a la regla de noviembre de 2025.
+sources:
+  - id: iac-761-601
+    url: https://www.legis.iowa.gov/docs/iac/chapter/761.601.pdf
+    title: Iowa Administrative Code 761, Chapter 601, Application for License (IAC 6/24/26)
+    publisher: Iowa Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: 601.4(7) Verification of sex. The sex listed on the driver's license or nonoperator's identification card that is issued will be identical to the sex listed on the identity document submitted.
+  - id: arc-9622c
+    url: https://www.legis.iowa.gov/docs/aco/arc/9622C.pdf
+    title: ARC 9622C, Transportation Department, adopted rules repromulgating Chapter 601 (IAB 10/15/25, effective 11/19/25)
+    publisher: Iowa Administrative Bulletin
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: A person will no longer be able to change the sex designation on the person's driver's license or nonoperator's identification card to reflect a sex designation different than what is listed on the person's identity document.
+  - id: dot-change-info
+    url: https://iowadot.gov/drivers-licenses-ids/other-services/change-information
+    title: Change or Update Driver's License or ID
+    publisher: Iowa Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+    quote: Changing your name on an Iowa driver's license or ID must be done in person at any DMV location by scheduling an appointment. There is a $10 charge. Applicants must provide proof of any name change. Photocopies and faxes of documents will not be accepted.
+  - id: dot-fees
+    url: https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/fees
+    title: Driver's License Fees
+    publisher: Iowa Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+    quote: There is a $10 fee for a replacement license or non-operator ID card (e.g., change of address, name change, lost or stolen).
+  - id: dot-appointment
+    url: https://iowadot.gov/drivers-licenses-ids/schedule-appointment
+    title: Schedule an Appointment
+    publisher: Iowa Department of Transportation
+    kind: official
+    accessed: "2026-09-24"
+  - id: oneiowa-sf418
+    url: https://oneiowa.org/civilrightsremovalguide/
+    title: Iowa Civil Rights Removal Act Implementation Guide
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+    quote: If your state does not allow you to change your birth certificate, there is no longer a parallel process for out-of-state applicants, and you will not be able to alter your Iowa driver's license either.

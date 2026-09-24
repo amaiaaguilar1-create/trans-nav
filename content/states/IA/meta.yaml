@@ -1,0 +1,142 @@
+code: IA
+name:
+  en: Iowa
+  es: Iowa
+kind: state
+review:
+  status: draft
+  last_verified: "2026-09-24"
+  verified_by: ai-draft
+  confidence: medium
+  es_status: machine_draft
+  notes: >-
+    Climate ratings based on Iowa Code § 4.1A and § 144.23 as amended by SF 418 (2025), IAC 761-601.4(7) (effective
+    November 19, 2025), § 249A.14 (2025 Medicaid ban), and § 147.164 (SF 538, 2023), all read on legis.iowa.gov
+    2026-09-24. Iowa has no shield law. The 2026 legislative session could not be checked with a news search.
+overview:
+  en: >-
+    Iowa is restrictive for trans people. Name changes are simple (no publication, usually no hearing, $215), but since
+    SF 418 took effect on July 1, 2025, Iowa law defines sex as sex at birth: Iowa birth certificates can no longer be
+    changed, and driver's licenses must match your identity document. Adults can still get hormone therapy, but Iowa
+    Medicaid may not pay for it, gender identity is no longer covered by the state civil rights law, and care for
+    minors has been banned since 2023. There is no shield law.
+  es: >-
+    Iowa es restrictivo para las personas trans. Cambiar el nombre es sencillo (sin publicación, normalmente sin
+    audiencia, $215), pero desde que SF 418 entró en vigor el 1 de julio de 2025, la ley define el sexo como el sexo al
+    nacer: las actas de nacimiento de Iowa ya no se pueden cambiar y las licencias deben coincidir con tu documento de
+    identidad. Los adultos todavía pueden recibir terapia hormonal, pero Medicaid de Iowa no puede pagarla, la ley
+    estatal de derechos civiles ya no cubre la identidad de género y la atención para menores está prohibida desde
+    2023. No hay ley escudo.
+climate:
+  id_documents: restrictive
+  care: restrictive
+  shield_law: false
+  sources: [sf418, iac-761-601, ia-code-249a-14, ia-code-147-164, map-id]
+guides: [name_change, drivers_license, birth_certificate, care]
+cities: [des-moines]
+key_resources:
+  - id: one-iowa
+    name: One Iowa
+    type: lgbtq_center
+    pillars: [name_change, gender_marker, mental_health]
+    description:
+      en: Statewide LGBTQ+ advocacy organization in Des Moines. Publishes a guide to SF 418, keeps directories of affirming health and legal resources, and refers people to LGBTQ-friendly attorneys.
+      es: Organización LGBTQ+ estatal en Des Moines. Publica una guía sobre SF 418, mantiene directorios de recursos de salud y legales, y refiere a abogados.
+    url: https://oneiowa.org/
+    phone: "515-288-4019"
+    cost: free
+    verification: org_website
+    sources: [oneiowa-sf418]
+  - id: lavender-legal
+    name: Lavender Legal Center
+    type: legal_aid
+    pillars: [name_change, gender_marker]
+    description:
+      en: Iowa nonprofit law office by and for LGBTQ+ people, prioritizing people with low income and LGBTQ+ youth, including name changes. Email info@lavenderlegal.org.
+      es: Oficina legal sin fines de lucro por y para personas LGBTQ+ en Iowa, con prioridad para personas de bajos ingresos y jóvenes LGBTQ+, incluidos cambios de nombre.
+    url: https://www.lavenderlegalcenter.org/
+    cost: varies
+    verification: org_website
+    sources: [lavender]
+  - id: itmaf
+    name: Iowa Trans Mutual Aid Fund
+    type: fund
+    pillars: [hrt, name_change]
+    description:
+      en: Monthly grants for gender-affirming care for trans, nonbinary, and gender-diverse Iowans; applications open the first week of each month.
+      es: Ayudas mensuales para atención de afirmación de género para personas trans, no binarias y de género diverso en Iowa; las solicitudes abren la primera semana de cada mes.
+    url: https://www.iowatransmutualaidfund.org/apply
+    cost: free
+    verification: org_website
+    sources: [itmaf]
+  - id: trans-lifeline
+    org: trans-lifeline
+    name: Trans Lifeline
+    type: hotline
+    pillars: [mental_health]
+    description:
+      en: Peer-support hotline run by and for trans people, 877-565-8860.
+      es: Línea de apoyo entre pares dirigida por y para personas trans, 877-565-8860.
+    url: https://translifeline.org/
+    phone: "877-565-8860"
+    cost: free
+    languages: [English, Español]
+    verification: org_website
+    sources: [translifeline]
+sources:
+  - id: sf418
+    url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF418
+    title: Senate File 418 (2025), relating to sex and gender
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+    quote: >-
+      "Sex", when used to classify or describe a natural person, means the state of being either male or female as
+      observed or clinically verified at birth.
+  - id: iac-761-601
+    url: https://www.legis.iowa.gov/docs/iac/chapter/761.601.pdf
+    title: Iowa Administrative Code 761, Chapter 601 (IAC 6/24/26)
+    publisher: Iowa Legislature
+    kind: regulation
+    accessed: "2026-09-24"
+    quote: The sex listed on the driver's license or nonoperator's identification card that is issued will be identical to the sex listed on the identity document submitted.
+  - id: ia-code-249a-14
+    url: https://www.legis.iowa.gov/docs/code/249A.14.pdf
+    title: Iowa Code § 249A.14, Sex reassignment surgeries or associated procedures, reimbursement prohibited
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: ia-code-147-164
+    url: https://www.legis.iowa.gov/docs/code/147.164.pdf
+    title: Iowa Code § 147.164, Gender transition procedure-related activities, minors, prohibitions
+    publisher: Iowa Legislature
+    kind: statute
+    accessed: "2026-09-24"
+  - id: map-id
+    url: https://mapresearch.org/equality-map/identity-document-laws-and-policies/
+    title: Identity document laws and policies
+    publisher: Movement Advancement Project
+    kind: org
+    accessed: "2026-09-24"
+  - id: oneiowa-sf418
+    url: https://oneiowa.org/civilrightsremovalguide/
+    title: Iowa Civil Rights Removal Act Implementation Guide
+    publisher: One Iowa
+    kind: org
+    accessed: "2026-09-24"
+  - id: lavender
+    url: https://www.lavenderlegalcenter.org/
+    title: Lavender Legal Center
+    kind: org
+    accessed: "2026-09-24"
+  - id: itmaf
+    url: https://www.iowatransmutualaidfund.org/apply
+    title: Apply for Aid
+    publisher: Iowa Trans Mutual Aid Fund
+    kind: org
+    accessed: "2026-09-24"
+  - id: translifeline
+    url: https://translifeline.org/
+    title: Trans Lifeline
+    kind: org
+    accessed: "2026-09-24"
