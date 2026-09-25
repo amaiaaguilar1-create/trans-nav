@@ -1,15 +1,57 @@
 ---
+/** Filterable list of every state, DC, and territory. Filtering runs in the browser; the full list works without JS. */
 import { type Locale } from '../i18n/ui';
 import { lt, localePath, type StateBundle } from '../lib/content';
+import { tx } from '../lib/text';
 import { ALL_JURISDICTIONS } from '../lib/jurisdictions';
-const { states, locale } = Astro.props as { states: StateBundle[]; locale: Locale };
+const { states, locale, picker = true, id = 'state-filter' } = Astro.props as { states: StateBundle[]; locale: Locale; picker?: boolean; id?: string };
 const have = new Map(states.map((s) => [s.code, s]));
+const TERR = new Set(['DC', 'PR', 'GU', 'VI', 'AS', 'MP']);
+const item = (code: string) => {
+  const j = ALL_JURISDICTIONS.find((x) => x.code === code)!;
+  const s = have.get(code);
+  return { code, name: s ? lt(s.meta.name, locale) : locale === 'es' ? j.es : j.en, href: s ? localePath(locale, `states/${code.toLowerCase()}`) : null };
+};
+const states50 = ALL_JURISDICTIONS.filter((j) => !TERR.has(j.code)).map((j) => item(j.code)).sort((a, b) => a.name.localeCompare(b.name, locale));
+const others = ['DC', 'PR', 'GU', 'VI', 'AS', 'MP'].map(item);
 ---
-<ul class="state-grid">
-  {ALL_JURISDICTIONS.map((j) => {
-    const s = have.get(j.code);
-    return s
-      ? <li><a href={localePath(locale, `states/${j.code.toLowerCase()}`)}>{lt(s.meta.name, locale)}</a></li>
-      : <li><span class="soon" style="display:block;padding:.5rem .7rem;border:1px dashed var(--border);border-radius:8px;color:var(--muted)" title="Coming soon">{locale === 'es' ? j.es : j.en}</span></li>;
-  })}
-</ul>
+<div class="state-picker" data-states>
+  {picker && (
+    <form class="picker" role="search" onsubmit="return false">
+      <label for={id}>{tx(locale, 'Where do you live, or where were you born?', '¿Dónde vives o dónde naciste?')}</label>
+      <input id={id} type="search" placeholder={tx(locale, 'State name or code', 'Nombre o código del estado')} autocomplete="off" enterkeyhint="go" list={`${id}-list`} />
+      <datalist id={`${id}-list`}>{[...states50, ...others].map((s) => <option value={s.name} />)}</datalist>
+      <button class="btn" type="submit" data-go>{tx(locale, 'Go', 'Ir')}</button>
+    </form>
+  )}
+  <h2 class="group-label">{tx(locale, 'States', 'Estados')}</h2>
+  <ul class="state-list">
+    {states50.map((s) => <li data-name={`${s.name} ${s.code}`.toLowerCase()} data-href={s.href}>{s.href ? <a href={s.href}>{s.name}<span class="abbr">{s.code}</span></a> : <span class="muted">{s.name}</span>}</li>)}
+  </ul>
+  <h2 class="group-label">{tx(locale, 'District of Columbia and territories', 'Distrito de Columbia y territorios')}</h2>
+  <ul class="state-list">
+    {others.map((s) => <li data-name={`${s.name} ${s.code}`.toLowerCase()} data-href={s.href}>{s.href ? <a href={s.href}>{s.name}<span class="abbr">{s.code}</span></a> : <span class="muted">{s.name}</span>}</li>)}
+  </ul>
+  <p class="muted small" data-none hidden>{tx(locale, 'No match. Try the full state name or its two-letter code.', 'Sin resultados. Prueba el nombre completo del estado o su código de dos letras.')}</p>
+</div>
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-states]')) {
+    const input = root.querySelector<HTMLInputElement>('input[type=search]');
+    const items = [...root.querySelectorAll<HTMLLIElement>('li[data-name]')];
+    const none = root.querySelector<HTMLElement>('[data-none]')!;
+    const matches = () => { const q = input!.value.trim().toLowerCase(); return q ? items.filter((li) => li.dataset.name!.includes(q)) : items; };
+    input?.addEventListener('input', () => {
+      const m = new Set(matches());
+      items.forEach((li) => (li.hidden = !m.has(li)));
+      none.hidden = m.size > 0;
+    });
+    const go = () => {
+      const q = input!.value.trim().toLowerCase();
+      const exact = items.find((li) => li.dataset.name!.split(' ').slice(-1)[0] === q || li.dataset.name!.startsWith(q + ' '));
+      const target = exact ?? (matches().length === 1 ? matches()[0] : undefined);
+      if (target?.dataset.href) location.href = target.dataset.href;
+    };
+    root.querySelector('[data-go]')?.addEventListener('click', go);
+    root.querySelector('form')?.addEventListener('submit', (e) => { e.preventDefault(); go(); });
+  }
+</script>

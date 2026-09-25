@@ -1,27 +1,76 @@
 ---
 import { t, type Locale } from '../i18n/ui';
 import { lt, localePath, type StateBundle } from '../lib/content';
+import { tx, firstSentence } from '../lib/text';
 import type { DocumentGuide } from '../types/content';
-import StatusPill from '../components/StatusPill.astro';
+import StatusChip from '../components/StatusChip.astro';
 import StatesGrid from '../components/StatesGrid.astro';
+import Icon from '../components/Icon.astro';
 
 const { states, federal, locale } = Astro.props as { states: StateBundle[]; federal: DocumentGuide[]; locale: Locale };
 const _ = t(locale);
+const order = ['passport', 'social_security', 'uscis', 'tsa_global_entry'];
+const fed = [...federal].sort((a, b) => order.indexOf(a.guide_type) - order.indexOf(b.guide_type));
+const journey = [
+  { t: tx(locale, 'Get a court order for your new name', 'Obtén una orden judicial con tu nuevo nombre'), d: tx(locale, 'Filed with a court in your state. Costs, newspaper notices, and hearings vary a lot by state.', 'Se presenta en un tribunal de tu estado. Los costos, avisos en el periódico y audiencias varían mucho según el estado.') },
+  { t: tx(locale, 'Update Social Security', 'Actualiza el Seguro Social'), d: tx(locale, 'Free. Other agencies check your name against this record, so it comes first.', 'Gratis. Otras agencias comparan tu nombre con este registro, así que va primero.') },
+  { t: tx(locale, 'Update your driver’s license or state ID', 'Actualiza tu licencia o identificación estatal'), d: tx(locale, 'Some states also let you change the gender marker here. Others do not.', 'Algunos estados también permiten cambiar el marcador de género aquí. Otros no.') },
+  { t: tx(locale, 'Update your passport', 'Actualiza tu pasaporte'), d: tx(locale, 'Name changes work. The sex marker is frozen to sex at birth while the lawsuit continues.', 'Los cambios de nombre funcionan. El marcador de sexo está congelado al sexo al nacer mientras sigue la demanda.') },
+  { t: tx(locale, 'Update your birth certificate', 'Actualiza tu acta de nacimiento'), d: tx(locale, 'Handled by the state where you were born, which may not be where you live now.', 'Lo maneja el estado donde naciste, que puede no ser donde vives ahora.') },
+];
 ---
-<h1>{_('site.name')}</h1>
-<p class="lead">{_('site.tagline')}</p>
+<section class="hero">
+  <h1>{tx(locale, 'Change your name, update your IDs, and find care', 'Cambia tu nombre, actualiza tus documentos y encuentra atención')}</h1>
+  <p class="lead">{tx(locale, 'Step-by-step guides for every state, with the real forms, fees, and fee waivers, checked against official sources and watched for changes.', 'Guías paso a paso para cada estado, con los formularios, tarifas y exenciones reales, verificadas con fuentes oficiales y vigiladas para detectar cambios.')}</p>
+  <StatesGrid states={states} locale={locale} id="home-state" />
+</section>
 
-<h2>{_('home.pick_state')}</h2>
-<StatesGrid states={states} locale={locale} />
+<section class="section" aria-labelledby="journey-h">
+  <div class="section-head">
+    <h2 id="journey-h">{tx(locale, 'The usual order', 'El orden habitual')}</h2>
+    <p class="small muted" style="margin:0">{tx(locale, 'Most people update their documents in this sequence.', 'La mayoría actualiza sus documentos en este orden.')}</p>
+  </div>
+  <ol class="journey">{journey.map((j) => <li><div><h3>{j.t}</h3><p>{j.d}</p></div></li>)}</ol>
+</section>
 
-<h2>{_('home.federal_heading')}</h2>
-<p>{_('home.federal_intro')}</p>
-<div class="cards">
-  {federal.map((g) => (
-    <a class="card" href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)} style="text-decoration:none;color:inherit">
-      <h3>{_(`guide.${g.guide_type}` as const)}</h3>
-      <div class="tags"><StatusPill status={g.status} locale={locale} />{g.name_change_status && <StatusPill status={g.name_change_status} locale={locale} label={_('name_change_status.label')} />}</div>
-      <p class="small">{lt(g.status_summary, locale)}</p>
+<section class="section" aria-labelledby="fed-h">
+  <div class="section-head">
+    <h2 id="fed-h">{tx(locale, 'Federal documents right now', 'Documentos federales ahora mismo')}</h2>
+    <a href={localePath(locale, 'federal')} class="small">{tx(locale, 'All federal guides', 'Todas las guías federales')} →</a>
+  </div>
+  <p class="prose muted">{_('home.federal_intro')}</p>
+  <ol class="glance">
+    {fed.map((g) => (
+      <li><a href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)}>
+        <span class="glance-title">{_(`guide.${g.guide_type}` as const)}</span>
+        <StatusChip status={g.status} locale={locale} short />
+        <span class="glance-note">{firstSentence(lt(g.status_summary, locale))}</span>
+        <span class="arrow"><Icon name="chevron" size={18} /></span>
+      </a></li>
+    ))}
+  </ol>
+</section>
+
+<section class="section" aria-labelledby="more-h">
+  <h2 id="more-h" class="visually-hidden">{tx(locale, 'More ways to use this site', 'Más formas de usar este sitio')}</h2>
+  <div class="panels">
+    <a class="panel" href={localePath(locale, 'compare')}>
+      <Icon name="map" size={22} />
+      <h3>{tx(locale, 'Compare states', 'Comparar estados')}</h3>
+      <p>{tx(locale, 'See which states allow each change, side by side. Useful if you are thinking about moving or were born somewhere else.', 'Mira qué estados permiten cada cambio, lado a lado. Útil si piensas mudarte o naciste en otro lugar.')}</p>
+      <span class="go">{tx(locale, 'Open the comparison', 'Abrir la comparación')} →</span>
     </a>
-  ))}
-</div>
+    <a class="panel" href={localePath(locale, 'about') + '#paying'}>
+      <Icon name="heart" size={22} />
+      <h3>{tx(locale, 'Help paying for it', 'Ayuda para pagar')}</h3>
+      <p>{tx(locale, 'Court fee waivers, free legal clinics, and funds that cover hormones, surgery, and document fees.', 'Exenciones de tarifas judiciales, clínicas legales gratuitas y fondos que cubren hormonas, cirugía y tarifas de documentos.')}</p>
+      <span class="go">{tx(locale, 'See options', 'Ver opciones')} →</span>
+    </a>
+    <a class="panel" href={localePath(locale, 'about') + '#how-we-verify'}>
+      <Icon name="shield" size={22} />
+      <h3>{tx(locale, 'How we keep this current', 'Cómo lo mantenemos al día')}</h3>
+      <p>{tx(locale, 'Every claim links to its source. We check official pages every week and flag pages while a change is under review.', 'Cada dato enlaza a su fuente. Revisamos las páginas oficiales cada semana y marcamos las páginas mientras un cambio está en revisión.')}</p>
+      <span class="go">{tx(locale, 'How it works', 'Cómo funciona')} →</span>
+    </a>
+  </div>
+</section>

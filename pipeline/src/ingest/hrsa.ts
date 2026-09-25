@@ -20,7 +20,10 @@ const rows = parse(await res.text(), { columns: true, bom: true, skip_empty_line
 // Keep walk-in-able permanent clinics. Drop school-based, carceral, nursing-home, and domestic-violence-shelter
 // sites (not open to the public, or confidential), plus mobile and seasonal sites whose locations move.
 const EXCLUDE_SETTINGS = /school|correctional|carceral|nursing home|domestic violence/i;
+// Also drop back-office sites that appear in the list but do not see patients.
+const BACK_OFFICE = /administrat|information technology|\bIT\b|billing|warehouse|corporate office|call center|headquarters/i;
 const keep = rows.filter((r) =>
+  !BACK_OFFICE.test(r['Site Name'] ?? '') &&
   r['Site Status Description'] === 'Active' &&
   r['Health Center Location Type Description'] === 'Permanent' &&
   !EXCLUDE_SETTINGS.test(r['Health Center Service Delivery Site Location Setting Description'] ?? ''),

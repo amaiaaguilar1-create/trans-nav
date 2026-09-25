@@ -4,6 +4,7 @@
  * optional "near me" sort run entirely in the browser. Location is never sent anywhere.
  */
 import { BASE } from '../lib/content';
+import Icon from './Icon.astro';
 import type { Locale } from '../i18n/ui';
 const { code, locale } = Astro.props as { code: string; locale: Locale };
 const es = locale === 'es';
@@ -20,23 +21,27 @@ const L = {
   src: es ? 'Fuente: HRSA, actualizado' : 'Source: HRSA, updated',
   hrs: es ? 'h/semana' : 'hrs/week',
   mi: 'mi',
+  matches: es ? 'resultados' : 'matches',
 };
 ---
-<section class="hc" data-url={`${BASE}data/health-centers/${code}.json`} data-l={JSON.stringify(L)}>
-  <h2 id="health-centers">{L.h}</h2>
-  <p>{L.intro}</p>
-  <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0">
+<section class="hc" id="health-centers" data-url={`${BASE}data/health-centers/${code}.json`} data-l={JSON.stringify(L)}>
+  <h2>{L.h}</h2>
+  <p class="prose muted">{L.intro}</p>
+  <div class="hc-controls">
     <label class="visually-hidden" for={`hc-q-${code}`}>{L.ph}</label>
-    <input id={`hc-q-${code}`} class="hc-q" type="search" placeholder={L.ph} autocomplete="off" style="flex:1 1 14rem;padding:.55rem .7rem;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font:inherit" />
-    <button class="hc-near" type="button" style="padding:.55rem .9rem;border-radius:8px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);font:inherit;cursor:pointer">{L.near}</button>
+    <input id={`hc-q-${code}`} class="hc-q" type="search" placeholder={L.ph} autocomplete="off" inputmode="search" enterkeyhint="search" />
+    <button class="hc-near btn secondary sm" type="button"><Icon name="locate" size={16} />{L.near}</button>
   </div>
-  <p class="small hc-note" style="color:var(--muted);font-size:.85rem" hidden>{L.nearNote}</p>
-  <div class="cards hc-list" aria-live="polite"></div>
-  <p><button class="hc-more" type="button" hidden style="padding:.45rem .9rem;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font:inherit;cursor:pointer">{L.more}</button></p>
-  <p class="small hc-src" style="color:var(--muted);font-size:.85rem"></p>
+  <p class="xs muted hc-note" hidden>{L.nearNote}</p>
+  <p class="xs muted hc-count" aria-live="polite"></p>
+  <ul class="resources hc-list"></ul>
+  <p><button class="hc-more btn secondary sm" type="button" hidden>{L.more}</button></p>
+  <p class="xs muted hc-src"></p>
 </section>
 <script>
   type Site = { n: string; o: string; a: string; c: string; z: string; co?: string; p?: string; w?: string; h?: number; lat?: number; lon?: number; d?: number };
+  // HRSA stores many names in ALL CAPS; show them in title case.
+  const tc = (s: string) => (s && s === s.toUpperCase() ? s.toLowerCase().replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/\b(Inc|Llc|Of|And|The|Dba)\b/g, (m) => m.toLowerCase()).replace(/^./, (c) => c.toUpperCase()) : s);
   const esc = (s: string) => s.replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]!);
   const miles = (a: number, b: number, c: number, d: number) => {
     const r = Math.PI / 180, x = Math.sin(((c - a) * r) / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin(((d - b) * r) / 2) ** 2;
@@ -52,12 +57,12 @@ const L = {
       let r = t ? sites.filter((s) => `${s.c} ${s.co ?? ''} ${s.z} ${s.n} ${s.o}`.toLowerCase().includes(t)) : sites;
       if (sortByDist) r = [...r].sort((a, b) => (a.d ?? 1e9) - (b.d ?? 1e9));
       list.innerHTML = r.length ? r.slice(0, shown).map((s) => `
-        <article class="card">
-          <h3>${s.w ? `<a href="${esc(s.w)}" rel="noopener">${esc(s.n)}</a>` : esc(s.n)}</h3>
-          <p class="small">${esc(s.o)}</p>
-          <p class="small">${esc(s.a)}, ${esc(s.c)} ${esc(s.z)}${s.d !== undefined && sortByDist ? ` · ${s.d.toFixed(1)} ${L.mi}` : ''}</p>
-          <p class="small">${s.p ? `<a href="tel:${s.p.replace(/\D/g, '')}">${esc(s.p)}</a>` : ''}${s.h ? ` · ${s.h} ${L.hrs}` : ''}</p>
-        </article>`).join('') : `<p>${L.none}</p>`;
+        <li>
+          <h3>${s.w ? `<a href="${esc(s.w)}" rel="noopener">${esc(tc(s.n))}</a>` : esc(tc(s.n))}</h3>
+          <p>${esc(tc(s.o))}</p>
+          <div class="contact"><span class="muted">${esc(s.a)}, ${esc(s.c)} ${esc(s.z)}${s.d !== undefined && sortByDist ? ` · <span class="num">${s.d.toFixed(1)} ${L.mi}</span>` : ''}</span>${s.p ? `<a class="num" href="tel:${s.p.replace(/\D/g, '')}">${esc(s.p)}</a>` : ''}${s.h ? `<span class="muted num">${s.h} ${L.hrs}</span>` : ''}</div>
+        </li>`).join('') : `<li><p>${L.none}</p></li>`;
+      root.querySelector<HTMLElement>('.hc-count')!.textContent = q.value.trim() ? `${r.length} ${L.matches}` : '';
       more.hidden = r.length <= shown;
     };
     fetch(root.dataset.url!).then((x) => x.json()).then((d) => {

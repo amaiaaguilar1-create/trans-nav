@@ -1,15 +1,24 @@
 ---
 import { t, type Locale } from '../i18n/ui';
+import { tx } from '../lib/text';
 interface Source { id: string; url: string; title: string; publisher?: string; kind: string; accessed: string; quote?: string }
-const { sources, locale } = Astro.props as { sources: Source[]; locale: Locale };
+const { sources, locale, id = 'sources' } = Astro.props as { sources: Source[]; locale: Locale; id?: string };
 const _ = t(locale);
+const kind: Record<string, [string, string]> = {
+  official: ['Official page', 'Página oficial'], statute: ['Law', 'Ley'], regulation: ['Regulation', 'Reglamento'], court: ['Court', 'Tribunal'],
+  form: ['Form', 'Formulario'], org: ['Organization', 'Organización'], news: ['News', 'Noticias'], community: ['Community', 'Comunidad'],
+};
 ---
-<h2 id="sources">{_('section.sources')}</h2>
-<ol class="sources">
-  {sources.map((s) => (
-    <li id={`src-${s.id}`}>
-      <a href={s.url} rel="noopener">{s.title}</a>{s.publisher ? `, ${s.publisher}` : ''} <span>({s.kind}; {_('source.accessed')} <time datetime={s.accessed}>{s.accessed}</time>)</span>
-      {s.quote && <blockquote style="margin:0.2rem 0 0 0.8rem;font-style:italic;">“{s.quote}”</blockquote>}
-    </li>
-  ))}
-</ol>
+<section id={id} aria-labelledby={`${id}-h`}>
+  <h2 id={`${id}-h`}>{_('section.sources')}</h2>
+  <p class="small muted">{tx(locale, `${sources.length} sources. Numbers in the text, like [1], point here.`, `${sources.length} fuentes. Los números en el texto, como [1], apuntan aquí.`)}</p>
+  <ol class="sources">
+    {sources.map((s) => (
+      <li id={`src-${s.id}`}>
+        <a href={s.url} rel="noopener">{s.title}</a>{s.publisher ? ` · ${s.publisher}` : ''}
+        <span class="xs"> · {kind[s.kind] ? tx(locale, kind[s.kind][0], kind[s.kind][1]) : s.kind} · {_('source.accessed')} <time class="num" datetime={s.accessed}>{s.accessed}</time></span>
+        {s.quote && <blockquote>“{s.quote}”</blockquote>}
+      </li>
+    ))}
+  </ol>
+</section>

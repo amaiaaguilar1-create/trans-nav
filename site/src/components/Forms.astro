@@ -1,23 +1,31 @@
 ---
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
+import { tx } from '../lib/text';
 import Md from './Md.astro';
 import Cite from './Cite.astro';
+import Icon from './Icon.astro';
 import type { Form } from '../types/content';
 const { forms, locale, index } = Astro.props as { forms: Form[]; locale: Locale; index: Map<string, number> };
 const _ = t(locale);
 ---
-{forms.map((f) => (
-  <details class="form" id={`form-${f.id}`}>
-    <summary>
-      <span>{f.id}</span> <span style="font-weight:400">{lt(f.name, locale)}</span>
-      <span class={`pill ${f.required === 'always' ? 'litigation' : 'neutral'}`}>{_(`form.required.${f.required}` as const)}</span>
-      <Cite ids={f.sources} index={index} />
-    </summary>
-    <div class="inner">
-      <p><a href={f.url} rel="noopener">{f.id} (PDF)</a>{f.url_es && <> · <a href={f.url_es} rel="noopener" lang="es">{_('form.official_es')}</a></>}</p>
-      {f.condition && <p><em>{lt(f.condition, locale)}</em></p>}
-      {f.how_to_fill && <><h4 style="margin:.6rem 0 .3rem">{_('form.how_to_fill')}</h4><Md text={lt(f.how_to_fill, locale)} /></>}
-    </div>
-  </details>
-))}
+<div class="rows">
+  {forms.map((f) => (
+    <details class="row-item" id={`form-${f.id.replace(/\s+/g, '-')}`}>
+      <summary>
+        <span class="code">{/^[a-z0-9-]+$/.test(f.id) ? '' : f.id}</span>
+        <span>{lt(f.name, locale)} <span class="xs muted">· {_(`form.required.${f.required}` as const)}</span></span>
+        <span class="chev"><Icon name="chevron" size={16} /></span>
+      </summary>
+      <div class="inner">
+        {f.condition && <p class="muted">{lt(f.condition, locale)}</p>}
+        {f.how_to_fill && <><h3 style="font-size:var(--fs-md);margin-bottom:.4rem">{_('form.how_to_fill')}</h3><Md text={lt(f.how_to_fill, locale)} /></>}
+        <p style="display:flex;flex-wrap:wrap;gap:.5rem;margin:.75rem 0 0">
+          <a class="btn sm secondary" href={f.url} rel="noopener"><Icon name="external" size={14} />{/^[a-z0-9-]+$/.test(f.id) ? tx(locale, 'Open the form', 'Abrir el formulario') : tx(locale, `Open ${f.id}`, `Abrir ${f.id}`)}</a>
+          {f.url_es && f.url_es !== f.url && <a class="btn sm secondary" href={f.url_es} rel="noopener" lang="es">{_('form.official_es')}</a>}
+          <Cite ids={f.sources} index={index} />
+        </p>
+      </div>
+    </details>
+  ))}
+</div>

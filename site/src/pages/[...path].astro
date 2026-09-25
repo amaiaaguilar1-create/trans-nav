@@ -22,6 +22,8 @@ import LocalView from '../views/LocalView.astro';
 import FederalIndexView from '../views/FederalIndexView.astro';
 import StaticPage from '../views/StaticPage.astro';
 import StatesGrid from '../components/StatesGrid.astro';
+import CompareView from '../views/CompareView.astro';
+import { tx } from '../lib/text';
 
 type Route =
   | { kind: 'home' }
@@ -32,7 +34,8 @@ type Route =
   | { kind: 'local'; state: StateBundle; slug: string }
   | { kind: 'federal' }
   | { kind: 'federal_guide'; guide: DocumentGuide }
-  | { kind: 'static'; page: 'about' | 'privacy' };
+  | { kind: 'static'; page: 'about' | 'privacy' }
+  | { kind: 'compare' };
 
 export async function getStaticPaths() {
   const states = await loadStates();
@@ -50,6 +53,7 @@ export async function getStaticPaths() {
     add('federal', { kind: 'federal' });
     add('about', { kind: 'static', page: 'about' });
     add('privacy', { kind: 'static', page: 'privacy' });
+    add('compare', { kind: 'compare' });
     for (const g of federal) add(`federal/${g.guide_type.replace(/_/g, '-')}`, { kind: 'federal_guide', guide: g });
     for (const s of states) {
       const base = `states/${s.code.toLowerCase()}`;
@@ -67,43 +71,78 @@ const _ = t(locale);
 const rawPath = (Astro.params.path ?? '').replace(/^es\/?/, '');
 
 let title = _('site.name');
+let h1 = '';
+let kicker = '';
+let lead = '';
 let description: string | undefined;
 let crumbs: { href: string; label: string }[] = [];
+let section: 'states' | 'federal' | 'compare' | 'about' | 'home' = 'home';
+const statesCrumb = { href: localePath(locale, 'states'), label: tx(locale, 'States', 'Estados') };
 
 if (route.kind === 'state') {
-  title = lt(route.state.meta.name, locale);
+  section = 'states';
+  title = h1 = lt(route.state.meta.name, locale);
   description = lt(route.state.meta.overview, locale);
-  crumbs = [{ href: localePath(locale, 'states'), label: _('nav.states') }];
+  crumbs = [statesCrumb];
 } else if (route.kind === 'guide' || route.kind === 'care' || route.kind === 'local') {
+  section = 'states';
   const sName = lt(route.state.meta.name, locale);
-  const sub = route.kind === 'guide' ? _(`guide.${route.guideType}` as const) : route.kind === 'care' ? _('guide.care') : route.state.cities.find((c) => c.slug === route.slug)?.name ?? route.slug;
-  title = `${sub} · ${sName}`;
-  if (route.kind === 'guide') description = lt(route.state.guides[route.guideType]!.status_summary, locale);
-  if (route.kind === 'care') description = lt(route.state.care!.status_summary, locale);
-  crumbs = [{ href: localePath(locale, 'states'), label: _('nav.states') }, { href: localePath(locale, `states/${route.state.code.toLowerCase()}`), label: sName }];
+  const guideTitle: Record<string, [string, string]> = {
+    name_change: [`Legal name change in ${sName}`, `Cambio legal de nombre en ${sName}`],
+    drivers_license: [`Driver’s license and state ID in ${sName}`, `Licencia e identificación estatal en ${sName}`],
+    birth_certificate: [`${sName} birth certificates`, `Actas de nacimiento de ${sName}`],
+  };
+  if (route.kind === 'guide') { const [en, es] = guideTitle[route.guideType]; h1 = tx(locale, en, es); description = lt(route.state.guides[route.guideType]!.status_summary, locale); }
+  if (route.kind === 'care') { h1 = tx(locale, `Gender-affirming care in ${sName}`, `Atención de afirmación de género en ${sName}`); description = lt(route.state.care!.status_summary, locale); }
+  if (route.kind === 'local') { const c = route.state.cities.find((x) => x.slug === route.slug)!; h1 = tx(locale, `Local help in ${c.name}`, `Ayuda local en ${c.name}`); }
+  title = h1;
+  crumbs = [statesCrumb, { href: localePath(locale, `states/${route.state.code.toLowerCase()}`), label: sName }];
 } else if (route.kind === 'federal_guide') {
-  title = _(`guide.${route.guide.guide_type}` as const);
+  section = 'federal';
+  title = h1 = _(`guide.${route.guide.guide_type}` as const);
+  kicker = tx(locale, 'Federal, the same in every state', 'Federal, igual en todos los estados');
   description = lt(route.guide.status_summary, locale);
-  crumbs = [{ href: localePath(locale, 'federal'), label: _('nav.federal') }];
-} else if (route.kind === 'federal') title = _('nav.federal');
-else if (route.kind === 'states') title = _('nav.states');
-else if (route.kind === 'static') title = route.page === 'about' ? _('nav.about') : _('footer.privacy');
+  crumbs = [{ href: localePath(locale, 'federal'), label: tx(locale, 'Federal IDs', 'Documentos federales') }];
+} else if (route.kind === 'federal') {
+  section = 'federal';
+  title = h1 = tx(locale, 'Federal documents', 'Documentos federales');
+  lead = _('home.federal_intro');
+} else if (route.kind === 'states') {
+  section = 'states';
+  title = h1 = tx(locale, 'Choose your state', 'Elige tu estado');
+  lead = tx(locale, 'Name changes and driver’s licenses follow the state where you live. Birth certificates follow the state where you were born.', 'El cambio de nombre y la licencia dependen del estado donde vives. El acta de nacimiento depende del estado donde naciste.');
+} else if (route.kind === 'compare') {
+  section = 'compare';
+  title = h1 = tx(locale, 'Compare states', 'Comparar estados');
+  lead = tx(locale, 'What each state and territory allows today. Select a status to open that guide.', 'Lo que cada estado y territorio permite hoy. Selecciona un estado para abrir esa guía.');
+} else if (route.kind === 'static') {
+  section = route.page === 'about' ? 'about' : 'home';
+  title = h1 = route.page === 'about' ? tx(locale, 'About this site', 'Sobre este sitio') : _('footer.privacy');
+}
+const currentLabel = route.kind === 'guide' ? _(`guide.${route.guideType}` as const) : route.kind === 'care' ? _('guide.care') : route.kind === 'local' ? route.state.cities.find((x) => x.slug === route.slug)!.name : h1;
 ---
-<Base title={title} description={description} locale={locale} path={rawPath}>
-  {crumbs.length > 0 && (
-    <nav class="crumbs" aria-label="Breadcrumb">
-      {crumbs.map((c) => <><a href={c.href}>{c.label}</a> › </>)}<span>{title.split(' · ')[0]}</span>
-    </nav>
+<Base title={title} description={description} locale={locale} path={rawPath} section={section}>
+  {route.kind !== 'home' && (
+    <header class="page-head">
+      {crumbs.length > 0 && (
+        <nav class="crumbs" aria-label={tx(locale, 'Breadcrumb', 'Ruta')}>
+          <ol>{crumbs.map((c) => <li><a href={c.href}>{c.label}</a></li>)}<li aria-current="page">{currentLabel}</li></ol>
+        </nav>
+      )}
+      {kicker && <p class="kicker">{kicker}</p>}
+      <h1>{h1}</h1>
+      {lead && <p class="lead" style="max-width:60ch">{lead}</p>}
+    </header>
   )}
-  {route.kind !== 'home' && route.kind !== 'static' && route.kind !== 'federal' && <h1>{title}</h1>}
 
   {route.kind === 'home' && <HomeView states={states} federal={federal} locale={locale} />}
-  {route.kind === 'states' && <StatesGrid states={states} locale={locale} />}
-  {route.kind === 'state' && <StateView state={route.state} locale={locale} />}
+  {route.kind === 'states' && <StatesGrid states={states} locale={locale} id="states-filter" />}
+  {route.kind === 'state' && <StateView state={route.state} federal={federal} locale={locale} />}
   {route.kind === 'guide' && <GuideView guide={route.state.guides[route.guideType]!} locale={locale} />}
   {route.kind === 'care' && <CareView care={route.state.care!} orgs={orgs} locale={locale} />}
-  {route.kind === 'local' && <LocalView local={route.state.cities.find((c) => c.slug === route.slug)!} locale={locale} />}
+  {route.kind === 'local' && <LocalView local={route.state.cities.find((c) => c.slug === route.slug)!} locale={locale} stateCode={route.state.code} />}
   {route.kind === 'federal' && <FederalIndexView federal={federal} locale={locale} />}
   {route.kind === 'federal_guide' && <GuideView guide={route.guide} locale={locale} />}
-  {route.kind === 'static' && <StaticPage page={route.page} locale={locale} />}
+  {route.kind === 'compare' && <CompareView states={states} locale={locale} />}
+  {route.kind === 'static' && <StaticPage page={route.page} locale={locale} orgs={orgs} />}
 </Base>

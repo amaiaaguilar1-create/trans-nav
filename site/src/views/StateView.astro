@@ -1,66 +1,89 @@
 ---
 import { t, type Locale } from '../i18n/ui';
-import { lt, localePath, guideSlug, GUIDE_TYPES, type StateBundle } from '../lib/content';
-import StatusPill from '../components/StatusPill.astro';
-import ReviewBadge from '../components/ReviewBadge.astro';
+import { lt, localePath, guideSlug, type StateBundle } from '../lib/content';
+import { tx, firstSentence, type Status } from '../lib/text';
+import type { DocumentGuide } from '../types/content';
+import StatusChip from '../components/StatusChip.astro';
 import ResourceCard from '../components/ResourceCard.astro';
-import Md from '../components/Md.astro';
-import Cite from '../components/Cite.astro';
 import Sources from '../components/Sources.astro';
+import Md from '../components/Md.astro';
+import Icon from '../components/Icon.astro';
 
-const { state, locale } = Astro.props as { state: StateBundle; locale: Locale };
+const { state, federal, locale } = Astro.props as { state: StateBundle; federal: DocumentGuide[]; locale: Locale };
 const _ = t(locale);
 const m = state.meta;
 const index = new Map(m.sources.map((s, i) => [s.id, i + 1]));
 const base = `states/${state.code.toLowerCase()}`;
----
-<div class="banner unclear">
-  <div class="row">
-    <span class={`pill ${m.climate.id_documents === 'protective' ? 'available' : m.climate.id_documents === 'mixed' ? 'restricted' : 'prohibited'}`}>{_('climate.id_documents')}: {_(`climate.${m.climate.id_documents}` as const)}</span>
-    <span class={`pill ${m.climate.care === 'protective' ? 'available' : m.climate.care === 'mixed' ? 'restricted' : 'prohibited'}`}>{_('climate.care')}: {_(`climate.${m.climate.care}` as const)}</span>
-    {m.climate.shield_law && <span class="pill available">{_('climate.shield_law')}</span>}
-    <Cite ids={m.climate.sources} index={index} />
-    <ReviewBadge review={m.review} locale={locale} />
-  </div>
-  <Md text={lt(m.overview, locale)} />
-</div>
+const fed = (type: string) => federal.find((f) => f.guide_type === type);
+const name = lt(m.name, locale);
 
-<h2>{_('state.guides_heading')} {lt(m.name, locale)}</h2>
-<div class="cards">
-  {GUIDE_TYPES.map((g) => {
-    const guide = state.guides[g];
-    if (!guide) return null;
-    return (
-      <a class="card" href={localePath(locale, `${base}/${guideSlug[g]}`)} style="text-decoration:none;color:inherit">
-        <h3>{_(`guide.${g}` as const)}</h3>
-        <div class="tags"><StatusPill status={guide.status} locale={locale} />{guide.markers_available && <span class="pill neutral">{guide.markers_available.join('/')}</span>}</div>
-        <p class="small">{lt(guide.status_summary, locale)}</p>
-      </a>
-    );
-  })}
-  {state.care && (
-    <a class="card" href={localePath(locale, `${base}/care`)} style="text-decoration:none;color:inherit">
-      <h3>{_('guide.care')}</h3>
-      <div class="tags"><StatusPill status={state.care.adult_care.status} locale={locale} label={_('care.adult')} /><StatusPill status={state.care.minor_care.status} locale={locale} label={_('care.minor')} /></div>
-      <p class="small">{lt(state.care.status_summary, locale)}</p>
-    </a>
-  )}
+type Row = { title: string; href: string; status: Status; note: string; scope: string };
+const rows: Row[] = [];
+const g = state.guides;
+if (g.name_change) rows.push({ title: _('guide.name_change'), href: localePath(locale, `${base}/${guideSlug.name_change}`), status: g.name_change.status, note: firstSentence(lt(g.name_change.status_summary, locale)), scope: tx(locale, 'State court', 'Tribunal estatal') });
+const ssa = fed('social_security');
+if (ssa) rows.push({ title: _('guide.social_security'), href: localePath(locale, 'federal/social-security'), status: ssa.status, note: tx(locale, 'Update your name here next; name changes work. The sex field cannot be changed right now.', 'Actualiza tu nombre aquí después; los cambios de nombre funcionan. El campo de sexo no se puede cambiar por ahora.'), scope: tx(locale, 'Federal', 'Federal') });
+if (g.drivers_license) rows.push({ title: _('guide.drivers_license'), href: localePath(locale, `${base}/${guideSlug.drivers_license}`), status: g.drivers_license.status, note: firstSentence(lt(g.drivers_license.status_summary, locale)), scope: tx(locale, 'State', 'Estatal') });
+const pp = fed('passport');
+if (pp) rows.push({ title: _('guide.passport'), href: localePath(locale, 'federal/passport'), status: pp.status, note: tx(locale, 'Name changes work. New passports show sex at birth while the case is in court.', 'Los cambios de nombre funcionan. Los pasaportes nuevos muestran el sexo al nacer mientras el caso sigue en tribunales.'), scope: tx(locale, 'Federal', 'Federal') });
+if (g.birth_certificate) rows.push({ title: _('guide.birth_certificate'), href: localePath(locale, `${base}/${guideSlug.birth_certificate}`), status: g.birth_certificate.status, note: firstSentence(lt(g.birth_certificate.status_summary, locale)), scope: tx(locale, `If born in ${name}`, `Si naciste en ${name}`) });
+if (state.care) {
+  rows.push({ title: tx(locale, 'Care for adults', 'Atención para adultos'), href: localePath(locale, `${base}/care`), status: state.care.adult_care.status, note: firstSentence(lt(state.care.adult_care.detail, locale)), scope: tx(locale, 'Hormones, sexual and mental health', 'Hormonas, salud sexual y mental') });
+  rows.push({ title: tx(locale, 'Care for people under 18', 'Atención para menores de 18'), href: localePath(locale, `${base}/care`), status: state.care.minor_care.status, note: firstSentence(lt(state.care.minor_care.detail, locale)), scope: tx(locale, 'Youth', 'Jóvenes') });
+}
+const climate = (v: string) => (v === 'protective' ? 'available' : v === 'mixed' ? 'restricted' : 'prohibited') as Status;
+---
+<div class="row" style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.25rem">
+  <span class={`chip ${climate(m.climate.id_documents)}`}>{_('climate.id_documents')}: {_(`climate.${m.climate.id_documents}` as const)}</span>
+  <span class={`chip ${climate(m.climate.care)}`}>{_('climate.care')}: {_(`climate.${m.climate.care}` as const)}</span>
+  <span class="tag">{m.climate.shield_law ? tx(locale, 'Shield law protects care', 'Ley escudo protege la atención') : tx(locale, 'No shield law', 'Sin ley escudo')}</span>
 </div>
+<div class="prose lead-block" style="font-size:var(--fs-lg);line-height:1.55"><Md text={lt(m.overview, locale)} /></div>
+{m.review.status === 'draft' && <p class="verify-line"><span class="dot" aria-hidden="true"></span><span>{tx(locale, 'This state’s pages are drafts written from official sources and not yet checked by a person.', 'Las páginas de este estado son borradores escritos a partir de fuentes oficiales y aún no revisados por una persona.')} <a href={`${localePath(locale, 'about')}#how-we-verify`}>{tx(locale, 'What this means', 'Qué significa')}</a></span></p>}
+
+<section class="section" aria-labelledby="order-h">
+  <div class="section-head">
+    <h2 id="order-h">{tx(locale, `What you can change in ${name}`, `Lo que puedes cambiar en ${name}`)}</h2>
+    <p class="small muted" style="margin:0">{tx(locale, 'In the order most people do it', 'En el orden que la mayoría sigue')}</p>
+  </div>
+  <ol class="glance">
+    {rows.map((r) => (
+      <li>
+        <a href={r.href}>
+          <span><span class="glance-title">{r.title}</span><br /><span class="xs muted">{r.scope}</span></span>
+          <StatusChip status={r.status} locale={locale} short />
+          <span class="glance-note">{r.note}</span>
+          <span class="arrow"><Icon name="chevron" size={18} /></span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</section>
 
 {state.cities.length > 0 && (
-  <>
-    <h2>{_('state.cities_heading')}</h2>
-    <ul class="state-grid">
-      {state.cities.map((c) => <li><a href={localePath(locale, `${base}/local/${c.slug}`)}>{c.name}</a></li>)}
-    </ul>
-  </>
+  <section class="section" aria-labelledby="local-h">
+    <h2 id="local-h" style="margin-bottom:1rem">{tx(locale, 'Local help', 'Ayuda local')}</h2>
+    <div class="panels">
+      {state.cities.map((c) => (
+        <a class="panel" href={localePath(locale, `${base}/local/${c.slug}`)}>
+          <h3>{c.name}</h3>
+          {c.area && <p>{lt(c.area, locale)}</p>}
+          <p>{tx(locale, `${c.resources.length} places for legal help, hormones, sexual health, and support`, `${c.resources.length} lugares de ayuda legal, hormonas, salud sexual y apoyo`)}</p>
+          <span class="go">{tx(locale, 'See local resources', 'Ver recursos locales')} →</span>
+        </a>
+      ))}
+    </div>
+  </section>
 )}
 
 {m.key_resources && m.key_resources.length > 0 && (
-  <>
-    <h2>{_('section.resources')}</h2>
-    <div class="cards">{m.key_resources.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
-  </>
+  <section class="section" aria-labelledby="orgs-h">
+    <h2 id="orgs-h" style="margin-bottom:.5rem">{tx(locale, 'Statewide organizations', 'Organizaciones estatales')}</h2>
+    <ul class="resources">{m.key_resources.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
+  </section>
 )}
 
-<Sources sources={m.sources} locale={locale} />
+<details class="more section">
+  <summary>{tx(locale, `Sources for this page (${m.sources.length})`, `Fuentes de esta página (${m.sources.length})`)}</summary>
+  <Sources sources={m.sources} locale={locale} id="state-sources" />
+</details>

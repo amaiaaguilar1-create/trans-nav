@@ -1,0 +1,31 @@
+---
+import { tx } from '../lib/text';
+import type { Locale } from '../i18n/ui';
+const { items, locale, variant } = Astro.props as { items: { id: string; label: string }[]; locale: Locale; variant: 'aside' | 'mobile' };
+const title = tx(locale, 'On this page', 'En esta página');
+---
+{variant === 'aside' ? (
+  <nav class="toc" aria-label={title} data-toc>
+    <h2>{title}</h2>
+    <ol>{items.map((i) => <li><a href={`#${i.id}`}>{i.label}</a></li>)}</ol>
+  </nav>
+) : (
+  <details class="toc-mobile">
+    <summary>{title}</summary>
+    <ol>{items.map((i) => <li><a href={`#${i.id}`}>{i.label}</a></li>)}</ol>
+  </details>
+)}
+<script>
+  // Highlight the section in view. Functional only: no animation.
+  const toc = document.querySelector<HTMLElement>('[data-toc]');
+  if (toc && 'IntersectionObserver' in window) {
+    const links = new Map([...toc.querySelectorAll<HTMLAnchorElement>('a')].map((a) => [a.hash.slice(1), a]));
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) if (e.isIntersecting) {
+        links.forEach((a) => a.removeAttribute('aria-current'));
+        links.get(e.target.id)?.setAttribute('aria-current', 'true');
+      }
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    links.forEach((_, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+  }
+</script>

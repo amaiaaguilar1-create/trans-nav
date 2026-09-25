@@ -1,50 +1,65 @@
 ---
 import { t, type Locale } from '../i18n/ui';
-import { lt } from '../lib/content';
+import { lt, localePath } from '../lib/content';
+import { tx } from '../lib/text';
 import type { CityMetroResources } from '../types/content';
-import ReviewBadge from '../components/ReviewBadge.astro';
 import ResourceCard from '../components/ResourceCard.astro';
+import Toc from '../components/Toc.astro';
 import Md from '../components/Md.astro';
 import Cite from '../components/Cite.astro';
 import Sources from '../components/Sources.astro';
 
-const { local, locale } = Astro.props as { local: CityMetroResources; locale: Locale };
+const { local, locale, stateCode } = Astro.props as { local: CityMetroResources; locale: Locale; stateCode: string };
 const _ = t(locale);
 const index = new Map(local.sources.map((s, i) => [s.id, i + 1]));
-const pillars = ['name_change', 'gender_marker', 'hrt', 'sexual_health', 'mental_health', 'insurance'] as const;
-const pillarLabel: Record<(typeof pillars)[number], string> = {
-  name_change: _('guide.name_change'),
-  gender_marker: 'Gender marker',
-  hrt: 'HRT / hormones',
-  sexual_health: 'Sexual health',
-  mental_health: 'Mental health',
-  insurance: 'Insurance help',
-};
+const pillars = [
+  { key: 'name_change', label: tx(locale, 'Name change and ID help', 'Ayuda con nombre e identificación') },
+  { key: 'hrt', label: tx(locale, 'Hormones and primary care', 'Hormonas y atención primaria') },
+  { key: 'sexual_health', label: tx(locale, 'Sexual health, PrEP, and testing', 'Salud sexual, PrEP y pruebas') },
+  { key: 'mental_health', label: tx(locale, 'Mental health and support', 'Salud mental y apoyo') },
+  { key: 'insurance', label: tx(locale, 'Insurance and paying for care', 'Seguro y pagos') },
+] as const;
+// Name-change and gender-marker resources share one section; every resource appears once, in its first pillar.
+const seen = new Set<string>();
+const groups = pillars.map((p) => {
+  const rs = local.resources.filter((r) => !seen.has(r.id) && (r.pillars.includes(p.key) || (p.key === 'name_change' && r.pillars.includes('gender_marker'))));
+  rs.forEach((r) => seen.add(r.id));
+  return { ...p, rs };
+}).filter((g) => g.rs.length);
+const toc = [
+  ...(local.court ? [{ id: 'court', label: tx(locale, 'Where to file', 'Dónde presentar') }] : []),
+  ...groups.map((g) => ({ id: g.key, label: g.label })),
+  { id: 'sources', label: _('section.sources') },
+];
+const base = `states/${stateCode.toLowerCase()}`;
 ---
-<div class="banner unclear">
-  <div class="row"><ReviewBadge review={local.review} locale={locale} /></div>
-  {local.area && <p class="small">{lt(local.area, locale)}</p>}
-  <Md text={lt(local.intro, locale)} />
+<div class="prose" style="font-size:var(--fs-lg);line-height:1.55"><Md text={lt(local.intro, locale)} /></div>
+{local.area && <p class="small muted">{tx(locale, 'Covers', 'Cubre')}: {lt(local.area, locale)}</p>}
+<p class="verify-line"><span class={`dot ${local.review.status === 'reviewed' ? 'ok' : ''}`} aria-hidden="true"></span><span>{local.review.status === 'reviewed' ? tx(locale, `Verified ${local.review.last_verified}.`, `Verificado ${local.review.last_verified}.`) : tx(locale, `Draft list from organizations' own websites, ${local.review.last_verified}. Call ahead: hours and services change.`, `Lista en borrador tomada de los sitios de las organizaciones, ${local.review.last_verified}. Llama antes: los horarios y servicios cambian.`)}</span></p>
+<p class="small"><a href={localePath(locale, `${base}/name-change`)}>{tx(locale, 'How name changes work in this state', 'Cómo funciona el cambio de nombre en este estado')}</a> · <a href={localePath(locale, `${base}/care`)}>{tx(locale, 'Care rules and coverage', 'Reglas y cobertura de atención')}</a></p>
+
+<Toc items={toc} locale={locale} variant="mobile" />
+
+<div class="doc">
+  <div class="doc-main">
+    {local.court && (
+      <section id="court">
+        <h2>{tx(locale, 'Where to file a name change', 'Dónde presentar un cambio de nombre')}</h2>
+        <dl class="kv">
+          <dt>{tx(locale, 'Court', 'Tribunal')}</dt><dd>{local.court.url ? <a href={local.court.url} rel="noopener">{local.court.name}</a> : local.court.name}<Cite ids={local.court.sources} index={index} /></dd>
+          {typeof local.court.filing_fee === 'number' && <><dt>{tx(locale, 'Filing fee', 'Tarifa')}</dt><dd class="num">${local.court.filing_fee}</dd></>}
+          {local.court.self_help_url && <><dt>{tx(locale, 'Free help', 'Ayuda gratuita')}</dt><dd><a href={local.court.self_help_url} rel="noopener">{tx(locale, 'Court self-help center', 'Centro de autoayuda del tribunal')}</a></dd></>}
+          {local.court.notes && <><dt>{tx(locale, 'Notes', 'Notas')}</dt><dd><Md text={lt(local.court.notes, locale)} /></dd></>}
+        </dl>
+      </section>
+    )}
+    {groups.map((g) => (
+      <section id={g.key}>
+        <h2>{g.label}</h2>
+        <ul class="resources">{g.rs.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
+      </section>
+    ))}
+    <Sources sources={local.sources} locale={locale} />
+  </div>
+  <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
 </div>
-{local.review.status === 'draft' && <div class="notice"><p>{_('review.draft_help')}</p></div>}
-
-{local.court && (
-  <>
-    <h2>Court for name changes <Cite ids={local.court.sources} index={index} /></h2>
-    <p><strong>{local.court.url ? <a href={local.court.url} rel="noopener">{local.court.name}</a> : local.court.name}</strong>{typeof local.court.filing_fee === 'number' && ` · $${local.court.filing_fee}`}{local.court.self_help_url && <> · <a href={local.court.self_help_url} rel="noopener">Self-help center</a></>}</p>
-    {local.court.notes && <Md text={lt(local.court.notes, locale)} />}
-  </>
-)}
-
-{pillars.map((p) => {
-  const rs = local.resources.filter((r) => r.pillars.includes(p));
-  if (!rs.length) return null;
-  return (
-    <>
-      <h2 id={p}>{pillarLabel[p]}</h2>
-      <div class="cards">{rs.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
-    </>
-  );
-})}
-
-<Sources sources={local.sources} locale={locale} />

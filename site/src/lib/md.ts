@@ -9,19 +9,32 @@ function inline(s: string): string {
   return out;
 }
 
-/** Minimal Markdown → HTML for content prose. Content is authored in-repo, but we still escape everything. */
+const UL = /^\s*[-*]\s+/;
+const OL = /^\s*\d+\.\s+/;
+
+/** Minimal Markdown to HTML for content prose: paragraphs, lists (also directly after a paragraph line), bold, italic, links, code. Everything is escaped. */
 export function renderMd(text: string): string {
-  const blocks = text.trim().split(/\n\s*\n/);
-  return blocks
-    .map((b) => {
-      const lines = b.split('\n');
-      if (lines.every((l) => /^\s*[-*]\s+/.test(l))) {
-        return '<ul>' + lines.map((l) => `<li>${inline(l.replace(/^\s*[-*]\s+/, ''))}</li>`).join('') + '</ul>';
+  const out: string[] = [];
+  for (const block of text.trim().split(/\n\s*\n/)) {
+    let para: string[] = [];
+    let list: { kind: 'ul' | 'ol'; items: string[] } | null = null;
+    const flushPara = () => { if (para.length) out.push(`<p>${inline(para.join(' '))}</p>`); para = []; };
+    const flushList = () => { if (list) out.push(`<${list.kind}>${list.items.map((i) => `<li>${inline(i)}</li>`).join('')}</${list.kind}>`); list = null; };
+    for (const line of block.split('\n')) {
+      const kind = UL.test(line) ? 'ul' : OL.test(line) ? 'ol' : null;
+      if (kind) {
+        flushPara();
+        if (list && list.kind !== kind) flushList();
+        list ??= { kind, items: [] };
+        list.items.push(line.replace(kind === 'ul' ? UL : OL, ''));
+      } else if (list && /^\s{2,}\S/.test(line)) {
+        list.items[list.items.length - 1] += ' ' + line.trim(); // continuation of a list item
+      } else {
+        flushList();
+        if (line.trim()) para.push(line.trim());
       }
-      if (lines.every((l) => /^\s*\d+\.\s+/.test(l))) {
-        return '<ol>' + lines.map((l) => `<li>${inline(l.replace(/^\s*\d+\.\s+/, ''))}</li>`).join('') + '</ol>';
-      }
-      return `<p>${inline(lines.join(' '))}</p>`;
-    })
-    .join('\n');
+    }
+    flushPara(); flushList();
+  }
+  return out.join('\n');
 }

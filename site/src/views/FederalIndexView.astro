@@ -1,19 +1,23 @@
 ---
 import { t, type Locale } from '../i18n/ui';
 import { lt, localePath } from '../lib/content';
+import { tx, firstSentence } from '../lib/text';
 import type { DocumentGuide } from '../types/content';
-import StatusPill from '../components/StatusPill.astro';
+import StatusChip from '../components/StatusChip.astro';
+import Icon from '../components/Icon.astro';
 const { federal, locale } = Astro.props as { federal: DocumentGuide[]; locale: Locale };
 const _ = t(locale);
+const order = ['passport', 'social_security', 'uscis', 'tsa_global_entry'];
+const fed = [...federal].sort((a, b) => order.indexOf(a.guide_type) - order.indexOf(b.guide_type));
 ---
-<h1>{_('nav.federal')}</h1>
-<p class="lead">{_('home.federal_intro')}</p>
-<div class="cards">
-  {federal.map((g) => (
-    <a class="card" href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)} style="text-decoration:none;color:inherit">
-      <h3>{_(`guide.${g.guide_type}` as const)}</h3>
-      <div class="tags"><StatusPill status={g.status} locale={locale} />{g.name_change_status && <StatusPill status={g.name_change_status} locale={locale} label={_('name_change_status.label')} />}</div>
-      <p class="small">{lt(g.status_summary, locale)}</p>
-    </a>
+<ol class="glance">
+  {fed.map((g) => (
+    <li><a href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)}>
+      <span><span class="glance-title">{_(`guide.${g.guide_type}` as const)}</span>{g.name_change_status && <><br /><span class="xs muted">{tx(locale, 'Name changes', 'Cambios de nombre')}: {_(`status.${g.name_change_status}` as const)}</span></>}</span>
+      <StatusChip status={g.status} locale={locale} short />
+      <span class="glance-note">{firstSentence(lt(g.status_summary, locale), 220)}</span>
+      <span class="arrow"><Icon name="chevron" size={18} /></span>
+    </a></li>
   ))}
-</div>
+</ol>
+<p class="small muted prose" style="margin-top:1.5rem">{tx(locale, 'Status shown is for changing the sex or gender marker. Every one of these still accepts a legal name change.', 'El estado mostrado es para cambiar el marcador de sexo o género. Todos siguen aceptando un cambio legal de nombre.')}</p>

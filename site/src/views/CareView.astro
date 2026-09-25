@@ -1,11 +1,12 @@
 ---
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
+import { tx } from '../lib/text';
+import type { StateGenderAffirmingCareOverview, NationalOrMultiStateOrganization } from '../types/content';
+import AnswerBlock from '../components/AnswerBlock.astro';
 import ChangeNotice from '../components/ChangeNotice.astro';
 import HealthCenters from '../components/HealthCenters.astro';
-import type { StateGenderAffirmingCareOverview, NationalOrMultiStateOrganization } from '../types/content';
-import StatusPill from '../components/StatusPill.astro';
-import ReviewBadge from '../components/ReviewBadge.astro';
+import Toc from '../components/Toc.astro';
 import ResourceCard from '../components/ResourceCard.astro';
 import Md from '../components/Md.astro';
 import Cite from '../components/Cite.astro';
@@ -14,89 +15,90 @@ import Sources from '../components/Sources.astro';
 const { care, orgs, locale } = Astro.props as { care: StateGenderAffirmingCareOverview; orgs: Map<string, NationalOrMultiStateOrganization>; locale: Locale };
 const _ = t(locale);
 const index = new Map(care.sources.map((s, i) => [s.id, i + 1]));
-const v = (x: 'yes' | 'no' | 'partial' | 'unclear') => _(`value.${x}` as const);
+const v = (x: 'yes' | 'no' | 'partial' | 'unclear') => _(`value.${x}` as const).replace(/^./, (c) => c.toUpperCase());
+const medicaid = care.medicaid.program_name ? `${_('care.medicaid')} (${care.medicaid.program_name})` : _('care.medicaid');
+const facts = [
+  { label: tx(locale, `${medicaid}: hormones`, `${medicaid}: hormonas`), value: v(care.medicaid.covers_hrt) },
+  { label: tx(locale, `${medicaid}: surgery`, `${medicaid}: cirugía`), value: v(care.medicaid.covers_surgery) },
+  ...(care.private_insurance ? [{ label: tx(locale, 'Private insurance protected', 'Seguro privado protegido'), value: care.private_insurance.nondiscrimination_protection ? _('yesno.yes') : _('yesno.no') }] : []),
+];
+const tele = (care.telehealth_hrt ?? []).map((id) => orgs.get(id)).filter(Boolean) as NationalOrMultiStateOrganization[];
+const toc = [
+  { id: 'adults', label: _('care.adult') },
+  { id: 'minors', label: _('care.minor') },
+  { id: 'health-centers', label: tx(locale, 'Health centers near you', 'Centros de salud cerca de ti') },
+  ...(tele.length ? [{ id: 'telehealth', label: tx(locale, 'Hormones by telehealth', 'Hormonas por telesalud') }] : []),
+  ...(care.resources?.length ? [{ id: 'clinics', label: tx(locale, 'Clinics, programs, and funds', 'Clínicas, programas y fondos') }] : []),
+  { id: 'paying', label: tx(locale, 'Paying for care', 'Cómo pagar la atención') },
+  ...(care.litigation?.length || care.statutes?.length ? [{ id: 'law', label: tx(locale, 'Laws and court cases', 'Leyes y casos') }] : []),
+  { id: 'sources', label: _('section.sources') },
+];
 ---
 <ChangeNotice path={`content/states/${care.jurisdiction}/care.yaml`} locale={locale} />
-<div class={`banner ${care.adult_care.status}`}>
-  <div class="row">
-    <StatusPill status={care.adult_care.status} locale={locale} label={_('care.adult')} />
-    <StatusPill status={care.minor_care.status} locale={locale} label={_('care.minor')} />
-    <ReviewBadge review={care.review} locale={locale} />
+<AnswerBlock locale={locale} status={care.adult_care.status} statusLabel={_('care.adult')} summary={care.status_summary} review={care.review}
+  chips={[{ status: care.minor_care.status, label: _('care.minor') }]} facts={facts} />
+
+<Toc items={toc} locale={locale} variant="mobile" />
+
+<div class="doc">
+  <div class="doc-main">
+    <section id="adults"><h2>{_('care.adult')}</h2><div class="prose"><Md text={lt(care.adult_care.detail, locale)} /><Cite ids={care.adult_care.sources} index={index} /></div></section>
+    <section id="minors"><h2>{_('care.minor')}</h2><div class="prose"><Md text={lt(care.minor_care.detail, locale)} /><Cite ids={care.minor_care.sources} index={index} /></div></section>
+
+    <HealthCenters code={care.jurisdiction} locale={locale} />
+
+    {tele.length > 0 && (
+      <section id="telehealth">
+        <h2>{tx(locale, 'Hormones by telehealth', 'Hormonas por telesalud')}</h2>
+        <p class="muted small prose">{tx(locale, 'These services prescribe hormones through video visits for people in this state. Point of Pride pays for a year and a half of care with several of them each spring.', 'Estos servicios recetan hormonas por videollamada a personas en este estado. Point of Pride paga un año y medio de atención con varios de ellos cada primavera.')}</p>
+        <ul class="resources">
+          {tele.map((o) => (
+            <li>
+              <h3><a href={o.url} rel="noopener">{o.name}</a></h3>
+              <div class="tags">
+                <span class="tag">{_(`resource.cost.${o.cost}` as const)}</span>
+                {o.accepts_insurance && <span class="tag">{tx(locale, 'Takes insurance', 'Acepta seguro')}</span>}
+                {o.accepts_medicaid === false && <span class="tag">{tx(locale, 'No Medicaid', 'Sin Medicaid')}</span>}
+                {o.serves_minors === false && <span class="tag">18+</span>}
+              </div>
+              <p>{lt(o.description, locale)}</p>
+              {o.cost_detail && <p class="xs">{lt(o.cost_detail, locale)}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {care.resources && care.resources.length > 0 && (
+      <section id="clinics">
+        <h2>{tx(locale, 'Clinics, programs, and funds', 'Clínicas, programas y fondos')}</h2>
+        <ul class="resources">{care.resources.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
+      </section>
+    )}
+
+    <section id="paying">
+      <h2>{tx(locale, 'Paying for care', 'Cómo pagar la atención')}</h2>
+      <h3 style="margin-bottom:.5rem">{medicaid}<Cite ids={care.medicaid.sources} index={index} /></h3>
+      <div class="prose"><Md text={lt(care.medicaid.detail, locale)} /></div>
+      {care.medicaid.how_to_apply_url && <p><a class="btn sm secondary" href={care.medicaid.how_to_apply_url} rel="noopener">{tx(locale, 'Apply for coverage', 'Solicitar cobertura')}</a></p>}
+      {care.private_insurance && <>
+        <h3 style="margin:2rem 0 .5rem">{_('care.private_insurance')}<Cite ids={care.private_insurance.sources} index={index} /></h3>
+        <div class="prose"><Md text={lt(care.private_insurance.detail, locale)} /></div>
+        {care.private_insurance.complaint_url && <p><a href={care.private_insurance.complaint_url} rel="noopener">{_('care.complaint')}</a></p>}
+      </>}
+    </section>
+
+    {(care.litigation?.length || care.statutes?.length) ? (
+      <section id="law">
+        <h2>{tx(locale, 'Laws and court cases', 'Leyes y casos')}</h2>
+        {care.litigation?.map((l) => (
+          <div class="notice legal"><p><strong>{l.case}</strong> · <span class="num">{l.last_update}</span><Cite ids={l.sources} index={index} /></p><p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p><p class="small muted">{lt(l.summary, locale)}</p></div>
+        ))}
+        {care.statutes?.length ? <ul class="prose">{care.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul> : null}
+      </section>
+    ) : null}
+
+    <Sources sources={care.sources} locale={locale} />
   </div>
-  <Md text={lt(care.status_summary, locale)} />
+  <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
 </div>
-{care.review.status === 'draft' && <div class="notice"><p>{_('review.draft_help')}</p></div>}
-{locale === 'es' && care.review.es_status !== 'reviewed' && <div class="notice info"><p>{_('review.es_machine')}</p></div>}
-
-<h2>{_('care.adult')} <Cite ids={care.adult_care.sources} index={index} /></h2>
-<Md text={lt(care.adult_care.detail, locale)} />
-<h2>{_('care.minor')} <Cite ids={care.minor_care.sources} index={index} /></h2>
-<Md text={lt(care.minor_care.detail, locale)} />
-
-<h2>{_('care.medicaid')}{care.medicaid.program_name ? ` (${care.medicaid.program_name})` : ''} <Cite ids={care.medicaid.sources} index={index} /></h2>
-<dl class="kv">
-  <dt>{_('care.covers_hrt')}</dt><dd>{v(care.medicaid.covers_hrt)}</dd>
-  <dt>{_('care.covers_surgery')}</dt><dd>{v(care.medicaid.covers_surgery)}</dd>
-</dl>
-<Md text={lt(care.medicaid.detail, locale)} />
-{care.medicaid.how_to_apply_url && <p><a href={care.medicaid.how_to_apply_url} rel="noopener">{care.medicaid.how_to_apply_url}</a></p>}
-
-{care.private_insurance && (
-  <>
-    <h2>{_('care.private_insurance')} <Cite ids={care.private_insurance.sources} index={index} /></h2>
-    <p><span class={`pill ${care.private_insurance.nondiscrimination_protection ? 'available' : 'prohibited'}`}>{_('care.nondiscrimination')}: {care.private_insurance.nondiscrimination_protection ? _('yesno.yes') : _('yesno.no')}</span></p>
-    <Md text={lt(care.private_insurance.detail, locale)} />
-    {care.private_insurance.complaint_url && <p><a href={care.private_insurance.complaint_url} rel="noopener">{_('care.complaint')}</a></p>}
-  </>
-)}
-
-{care.telehealth_hrt && care.telehealth_hrt.length > 0 && (
-  <>
-    <h2>{_('care.telehealth')}</h2>
-    <div class="cards">
-      {care.telehealth_hrt.map((id) => {
-        const o = orgs.get(id);
-        if (!o) return null;
-        return (
-          <article class="card">
-            <h3><a href={o.url} rel="noopener">{o.name}</a></h3>
-            <div class="tags">
-              <span class="pill neutral">{_(`resource.cost.${o.cost}` as const)}</span>
-              {o.accepts_insurance && <span class="pill neutral">{_('resource.cost.insurance')}</span>}
-              {o.serves_minors === false && <span class="pill neutral">18+</span>}
-            </div>
-            <p>{lt(o.description, locale)}</p>
-            {o.cost_detail && <p class="small">{lt(o.cost_detail, locale)}</p>}
-          </article>
-        );
-      })}
-    </div>
-  </>
-)}
-
-{care.resources && care.resources.length > 0 && (
-  <>
-    <h2>{_('section.resources')}</h2>
-    <div class="cards">{care.resources.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
-  </>
-)}
-
-<HealthCenters code={care.jurisdiction} locale={locale} />
-
-{care.litigation && care.litigation.length > 0 && (
-  <>
-    <h2>{_('section.litigation')}</h2>
-    {care.litigation.map((l) => (
-      <div class="notice info"><p><strong>{l.case}</strong> · {l.last_update} <Cite ids={l.sources} index={index} /></p><p>{lt(l.summary, locale)}</p><p><strong>{lt(l.effect_today, locale)}</strong></p></div>
-    ))}
-  </>
-)}
-
-{care.statutes && care.statutes.length > 0 && (
-  <>
-    <h2>{_('section.statutes')}</h2>
-    <ul>{care.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? ` — ${lt(c.title, locale)}` : ''}</li>)}</ul>
-  </>
-)}
-
-<Sources sources={care.sources} locale={locale} />

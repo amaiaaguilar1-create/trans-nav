@@ -1,10 +1,12 @@
 ---
-/** Renders one document guide (name change, DL, birth certificate, or a federal document). */
+/** One document guide: name change, driver's license, birth certificate, or a federal document. */
 import { t, type Locale } from '../i18n/ui';
 import { lt, guidePath } from '../lib/content';
-import ChangeNotice from '../components/ChangeNotice.astro';
+import { tx, firstSentence, requirementLabel } from '../lib/text';
 import type { DocumentGuide } from '../types/content';
-import StatusBanner from '../components/StatusBanner.astro';
+import AnswerBlock from '../components/AnswerBlock.astro';
+import ChangeNotice from '../components/ChangeNotice.astro';
+import Toc from '../components/Toc.astro';
 import Steps from '../components/Steps.astro';
 import Forms from '../components/Forms.astro';
 import Fees from '../components/Fees.astro';
@@ -15,149 +17,141 @@ import Md from '../components/Md.astro';
 
 const { guide, locale } = Astro.props as { guide: DocumentGuide; locale: Locale };
 const _ = t(locale);
-const index = new Map(guide.sources.map((s, i) => [s.id, i + 1]));
+const g = guide;
+const index = new Map(g.sources.map((s, i) => [s.id, i + 1]));
 const yn = (v: 'yes' | 'no' | 'conditional') => _(`yesno.${v}` as const);
+const money = (n: number) => new Intl.NumberFormat(locale === 'es' ? 'es-US' : 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: n % 1 ? 2 : 0 }).format(n);
+
+// ---- key facts, only the ones this guide actually has ----
+const facts: { label: string; value: string }[] = [];
+if (g.requirement_type && g.guide_type !== 'name_change') {
+  facts.push({ label: tx(locale, 'What you need', 'Qué necesitas'), value: requirementLabel[g.requirement_type]?.[locale] ?? g.requirement_type });
+}
+if (g.markers_available?.length) facts.push({ label: tx(locale, 'Markers offered', 'Marcadores disponibles'), value: g.markers_available.join(' · ') });
+const mainFee = g.fees?.find((f) => /filing|amend|petition|change|dl|license/i.test(f.id) && typeof f.amount === 'number') ?? g.fees?.find((f) => typeof f.amount === 'number');
+if (mainFee && typeof mainFee.amount === 'number') {
+  facts.push({ label: tx(locale, 'Main fee', 'Tarifa principal'), value: (mainFee.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(mainFee.amount)) + (g.fee_waiver?.available ? tx(locale, ', waivable', ', se puede exentar') : '') });
+}
+if (g.publication) facts.push({ label: tx(locale, 'Newspaper notice', 'Aviso en periódico'), value: yn(g.publication.required) });
+if (g.hearing) facts.push({ label: tx(locale, 'Court hearing', 'Audiencia'), value: yn(g.hearing.required) });
+if (g.delivery) {
+  const how = [g.delivery.online && tx(locale, 'Online', 'En línea'), g.delivery.by_mail && tx(locale, 'By mail', 'Por correo'), g.delivery.in_person && tx(locale, 'In person', 'En persona')].filter(Boolean).join(' · ');
+  if (how) facts.push({ label: tx(locale, 'How to apply', 'Cómo presentarlo'), value: how });
+}
+// Only show time when a short, explicit estimate exists on a step (long prose timelines stay in Requirements).
+const est = g.steps.map((s) => s.estimated_time && lt(s.estimated_time, locale)).find((v) => v && v.length <= 24);
+if (est && facts.length < 6) facts.push({ label: tx(locale, 'Typical wait', 'Espera habitual'), value: est });
+
+const chips = g.name_change_status && g.name_change_status !== g.status && g.guide_type !== 'name_change'
+  ? [{ status: g.name_change_status, label: _('name_change_status.label') }] : [];
+
+// ---- sections present, in reading order ----
+const has = {
+  steps: g.steps.length > 0, forms: !!g.forms?.length, costs: !!(g.fees?.length || g.fee_waiver),
+  details: !!(g.eligibility || g.publication || g.hearing || g.background_check || g.confidentiality),
+  minors: !!g.minors, after: !!g.after, tips: !!g.tips?.length, help: !!g.local_help?.length,
+  law: !!(g.statutes?.length || g.pending_bills?.length || g.related_links?.length),
+};
+const toc = [
+  { id: 'overview', label: tx(locale, 'Overview', 'Resumen') },
+  has.steps && { id: 'steps', label: _('section.steps') },
+  has.forms && { id: 'forms', label: _('section.forms') },
+  has.costs && { id: 'costs', label: tx(locale, 'Costs and fee waivers', 'Costos y exenciones') },
+  has.details && { id: 'details', label: tx(locale, 'Requirements', 'Requisitos') },
+  has.minors && { id: 'minors', label: _('section.minors') },
+  has.after && { id: 'after', label: _('section.after') },
+  has.tips && { id: 'tips', label: _('section.tips') },
+  has.help && { id: 'help', label: tx(locale, 'Free help', 'Ayuda gratuita') },
+  has.law && { id: 'law', label: tx(locale, 'Laws and other guides', 'Leyes y otras guías') },
+  { id: 'sources', label: _('section.sources') },
+].filter(Boolean) as { id: string; label: string }[];
 ---
-<ChangeNotice path={guidePath(guide)} locale={locale} />
-<StatusBanner
-  locale={locale}
-  status={guide.status}
-  nameChangeStatus={guide.name_change_status}
-  markers={guide.markers_available}
-  summary={guide.status_summary}
-  review={guide.review}
-/>
+<ChangeNotice path={guidePath(g)} locale={locale} />
+<AnswerBlock locale={locale} status={g.status} summary={g.status_summary} review={g.review} chips={chips} facts={facts} />
 
-<section>
-  <h2 id="summary">{_('section.summary')}</h2>
-  <Md text={lt(guide.summary, locale)} />
-</section>
+{g.litigation?.map((l) => (
+  <div class="notice legal">
+    <p><strong>{tx(locale, 'In court:', 'En tribunales:')} {l.case}</strong>{l.court ? ` · ${l.court}` : ''} · <time class="num" datetime={l.last_update}>{l.last_update}</time><Cite ids={l.sources} index={index} /></p>
+    <p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p>
+    <p class="small muted">{lt(l.summary, locale)}{l.url && <> <a href={l.url} rel="noopener">{tx(locale, 'Case page', 'Página del caso')}</a></>}</p>
+  </div>
+))}
 
-{guide.litigation && guide.litigation.length > 0 && (
-  <section>
-    <h2 id="litigation">{_('section.litigation')}</h2>
-    {guide.litigation.map((l) => (
-      <div class="notice info">
-        <p><strong>{l.case}</strong>{l.court ? ` (${l.court})` : ''} · <time datetime={l.last_update}>{l.last_update}</time> <Cite ids={l.sources} index={index} /></p>
-        <p>{lt(l.summary, locale)}</p>
-        <p><strong>{lt(l.effect_today, locale)}</strong></p>
-        {l.url && <p><a href={l.url} rel="noopener">{l.url.replace(/^https?:\/\//, '').split('/')[0]}</a></p>}
-      </div>
-    ))}
-  </section>
-)}
+<Toc items={toc} locale={locale} variant="mobile" />
 
-{guide.eligibility && (
-  <section>
-    <h2 id="eligibility">{_('section.eligibility')} <Cite ids={guide.eligibility.sources} index={index} /></h2>
-    <dl class="kv">
-      {guide.eligibility.residency && <><dt>Residency</dt><dd>{lt(guide.eligibility.residency, locale)}</dd></>}
-      {guide.eligibility.age && <><dt>Age</dt><dd>{lt(guide.eligibility.age, locale)}</dd></>}
-      {guide.eligibility.criminal_history && <><dt>Criminal history</dt><dd>{lt(guide.eligibility.criminal_history, locale)}</dd></>}
-      {guide.eligibility.other && <><dt>Other</dt><dd>{lt(guide.eligibility.other, locale)}</dd></>}
-    </dl>
-  </section>
-)}
+<div class="doc">
+  <div class="doc-main">
+    <section id="overview"><h2>{tx(locale, 'Overview', 'Resumen')}</h2><div class="prose"><Md text={lt(g.summary, locale)} /></div></section>
 
-<section>
-  <h2 id="steps">{_('section.steps')}</h2>
-  <Steps steps={guide.steps} forms={guide.forms} fees={guide.fees} locale={locale} index={index} />
-</section>
+    {has.steps && <section id="steps"><h2>{_('section.steps')}</h2><Steps steps={g.steps} forms={g.forms} fees={g.fees} locale={locale} index={index} /></section>}
 
-{guide.forms && guide.forms.length > 0 && (
-  <section>
-    <h2 id="forms">{_('section.forms')}</h2>
-    <Forms forms={guide.forms} locale={locale} index={index} />
-  </section>
-)}
+    {has.forms && <section id="forms"><h2>{_('section.forms')}</h2><p class="muted small">{tx(locale, 'Open a form for tips on filling it out.', 'Abre un formulario para ver consejos sobre cómo llenarlo.')}</p><Forms forms={g.forms!} locale={locale} index={index} /></section>}
 
-{guide.fees && guide.fees.length > 0 && (
-  <section>
-    <h2 id="costs">{_('section.fees')}</h2>
-    <Fees fees={guide.fees} locale={locale} index={index} />
-    {guide.fee_waiver && (
-      <>
-        <h3>{_('section.fee_waiver')} <Cite ids={guide.fee_waiver.sources} index={index} /></h3>
-        {guide.fee_waiver.available ? (
-          <>
-            {guide.fee_waiver.eligibility && <Md text={lt(guide.fee_waiver.eligibility, locale)} />}
-            {guide.fee_waiver.how && <Md text={lt(guide.fee_waiver.how, locale)} />}
-            {guide.fee_waiver.forms && guide.fee_waiver.forms.length > 0 && <p>{guide.fee_waiver.forms.map((f) => <a href={`#form-${f}`} style="margin-right:.6rem">📄 {f}</a>)}</p>}
-          </>
-        ) : <p>{_('yesno.no')}</p>}
-      </>
+    {has.costs && (
+      <section id="costs">
+        <h2>{tx(locale, 'Costs and fee waivers', 'Costos y exenciones')}</h2>
+        {g.fees?.length ? <Fees fees={g.fees} locale={locale} index={index} /> : null}
+        {g.fee_waiver && (
+          <div class={`notice ${g.fee_waiver.available ? 'info' : ''}`} style="margin-top:1.5rem">
+            <p><strong>{g.fee_waiver.available ? tx(locale, 'Can’t afford it? You may not have to pay.', '¿No puedes pagarlo? Puede que no tengas que pagar.') : tx(locale, 'No fee waiver is available for this step.', 'No hay exención de tarifas para este paso.')}</strong><Cite ids={g.fee_waiver.sources} index={index} /></p>
+            {g.fee_waiver.eligibility && <Md text={lt(g.fee_waiver.eligibility, locale)} />}
+            {g.fee_waiver.how && <Md text={lt(g.fee_waiver.how, locale)} />}
+            {g.fee_waiver.forms?.length ? <p class="small">{g.fee_waiver.forms.map((f) => { const form = g.forms?.find((x) => x.id === f); return <a href={`#form-${f.replace(/\s+/g, '-')}`} style="margin-right:.75rem">{form && /^[a-z0-9-]+$/.test(f) ? lt(form.name, locale) : f}</a>; })}</p> : null}
+          </div>
+        )}
+      </section>
     )}
-  </section>
-)}
 
-{(guide.publication || guide.hearing || guide.background_check || guide.confidentiality || guide.delivery) && (
-  <section>
-    <h2 id="details">Details</h2>
-    <dl class="kv">
-      {guide.publication && <><dt>{_('section.publication')}</dt><dd>{yn(guide.publication.required)} <Cite ids={guide.publication.sources} index={index} />{guide.publication.detail && <div><Md text={lt(guide.publication.detail, locale)} /></div>}{guide.publication.waiver_how && <div><Md text={lt(guide.publication.waiver_how, locale)} /></div>}</dd></>}
-      {guide.hearing && <><dt>{_('section.hearing')}</dt><dd>{yn(guide.hearing.required)} <Cite ids={guide.hearing.sources} index={index} />{guide.hearing.detail && <div><Md text={lt(guide.hearing.detail, locale)} /></div>}</dd></>}
-      {guide.background_check && <><dt>{_('section.background_check')}</dt><dd>{yn(guide.background_check.required)} <Cite ids={guide.background_check.sources} index={index} />{guide.background_check.detail && <div><Md text={lt(guide.background_check.detail, locale)} /></div>}</dd></>}
-      {guide.confidentiality && <><dt>{_('section.confidentiality')}</dt><dd>{guide.confidentiality.sealing_available ? _('yesno.yes') : _('yesno.no')} <Cite ids={guide.confidentiality.sources} index={index} />{guide.confidentiality.detail && <div><Md text={lt(guide.confidentiality.detail, locale)} /></div>}{guide.confidentiality.how && <div><Md text={lt(guide.confidentiality.how, locale)} /></div>}</dd></>}
-      {guide.delivery && <><dt>{_('section.delivery')}</dt><dd>{[guide.delivery.online && 'Online', guide.delivery.by_mail && 'Mail', guide.delivery.in_person && 'In person'].filter(Boolean).join(' · ')} <Cite ids={guide.delivery.sources} index={index} />{guide.delivery.detail && <div><Md text={lt(guide.delivery.detail, locale)} /></div>}</dd></>}
-    </dl>
-  </section>
-)}
+    {has.details && (
+      <section id="details">
+        <h2>{tx(locale, 'Requirements', 'Requisitos')}</h2>
+        <dl class="kv">
+          {g.eligibility?.residency && <><dt>{tx(locale, 'Where you live', 'Residencia')}</dt><dd>{lt(g.eligibility.residency, locale)}<Cite ids={g.eligibility.sources} index={index} /></dd></>}
+          {g.eligibility?.age && <><dt>{tx(locale, 'Age', 'Edad')}</dt><dd>{lt(g.eligibility.age, locale)}</dd></>}
+          {g.eligibility?.criminal_history && <><dt>{tx(locale, 'Criminal record', 'Antecedentes penales')}</dt><dd>{lt(g.eligibility.criminal_history, locale)}</dd></>}
+          {g.eligibility?.other && <><dt>{tx(locale, 'Other', 'Otros')}</dt><dd>{lt(g.eligibility.other, locale)}</dd></>}
+          {g.publication && <><dt>{_('section.publication')}</dt><dd><strong>{yn(g.publication.required)}.</strong> {g.publication.detail && <Md text={lt(g.publication.detail, locale)} />}{g.publication.waiver_how && <Md text={lt(g.publication.waiver_how, locale)} />}<Cite ids={g.publication.sources} index={index} /></dd></>}
+          {g.hearing && <><dt>{_('section.hearing')}</dt><dd><strong>{yn(g.hearing.required)}.</strong> {g.hearing.detail && <Md text={lt(g.hearing.detail, locale)} />}<Cite ids={g.hearing.sources} index={index} /></dd></>}
+          {g.background_check && <><dt>{_('section.background_check')}</dt><dd><strong>{yn(g.background_check.required)}.</strong> {g.background_check.detail && <Md text={lt(g.background_check.detail, locale)} />}<Cite ids={g.background_check.sources} index={index} /></dd></>}
+          {g.confidentiality && <><dt>{_('section.confidentiality')}</dt><dd><strong>{g.confidentiality.sealing_available ? tx(locale, 'Available.', 'Disponible.') : tx(locale, 'Not available.', 'No disponible.')}</strong> {g.confidentiality.detail && <Md text={lt(g.confidentiality.detail, locale)} />}{g.confidentiality.how && <Md text={lt(g.confidentiality.how, locale)} />}<Cite ids={g.confidentiality.sources} index={index} /></dd></>}
+          {g.timeline && <><dt>{_('section.timeline')}</dt><dd><Md text={lt(g.timeline, locale)} /></dd></>}
+        </dl>
+      </section>
+    )}
 
-{guide.minors && (
-  <section>
-    <h2 id="minors">{_('section.minors')} <Cite ids={guide.minors.sources} index={index} /></h2>
-    <Md text={lt(guide.minors.summary, locale)} />
-    {guide.minors.forms && guide.minors.forms.length > 0 && <p>{guide.minors.forms.map((f) => <a href={`#form-${f}`} style="margin-right:.6rem">📄 {f}</a>)}</p>}
-  </section>
-)}
+    {has.minors && <section id="minors"><h2>{_('section.minors')}</h2><div class="prose"><Md text={lt(g.minors!.summary, locale)} /><Cite ids={g.minors!.sources} index={index} /></div></section>}
 
-{guide.timeline && (
-  <section>
-    <h2 id="timeline">{_('section.timeline')}</h2>
-    <Md text={lt(guide.timeline, locale)} />
-  </section>
-)}
+    {has.after && <section id="after"><h2>{_('section.after')}</h2><div class="prose"><Md text={lt(g.after!, locale)} /></div></section>}
 
-{guide.after && (
-  <section>
-    <h2 id="after">{_('section.after')}</h2>
-    <Md text={lt(guide.after, locale)} />
-  </section>
-)}
+    {has.tips && <section id="tips"><h2>{_('section.tips')}</h2><ul class="prose">{g.tips!.map((tip) => <li>{lt(tip, locale)}</li>)}</ul></section>}
 
-{guide.tips && guide.tips.length > 0 && (
-  <section>
-    <h2 id="tips">{_('section.tips')}</h2>
-    <ul>{guide.tips.map((tip) => <li>{lt(tip, locale)}</li>)}</ul>
-  </section>
-)}
+    {has.help && (
+      <section id="help">
+        <h2>{tx(locale, 'Free help', 'Ayuda gratuita')}</h2>
+        <p class="muted small">{tx(locale, 'Legal clinics, organizations, and funds that help with this.', 'Clínicas legales, organizaciones y fondos que ayudan con esto.')}</p>
+        <ul class="resources">{g.local_help!.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
+      </section>
+    )}
 
-{guide.local_help && guide.local_help.length > 0 && (
-  <section>
-    <h2 id="local-help">{_('section.local_help')}</h2>
-    <div class="cards">{guide.local_help.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
-  </section>
-)}
+    {has.law && (
+      <section id="law">
+        <h2>{tx(locale, 'Laws and other guides', 'Leyes y otras guías')}</h2>
+        {g.pending_bills?.length ? <>
+          <h3 style="margin-bottom:.5rem">{_('section.pending_bills')}</h3>
+          <ul class="prose">{g.pending_bills.map((b) => <li><strong>{b.url ? <a href={b.url} rel="noopener">{b.bill}</a> : b.bill}</strong> · {b.status.replace(/_/g, ' ')} · <span class="num">{b.last_action}</span>. {lt(b.summary, locale)}<Cite ids={b.sources} index={index} /></li>)}</ul>
+        </> : null}
+        {g.statutes?.length ? <>
+          <h3 style="margin:1.5rem 0 .5rem">{_('section.statutes')}</h3>
+          <ul class="prose">{g.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul>
+        </> : null}
+        {g.related_links?.length ? <>
+          <h3 style="margin:1.5rem 0 .5rem">{_('section.related_links')}</h3>
+          <ul class="prose">{g.related_links.map((l) => <li><a href={l.url} rel="noopener">{l.title}</a>{l.note ? `. ${lt(l.note, locale)}` : ''}</li>)}</ul>
+        </> : null}
+      </section>
+    )}
 
-{guide.pending_bills && guide.pending_bills.length > 0 && (
-  <section>
-    <h2 id="bills">{_('section.pending_bills')}</h2>
-    <ul>{guide.pending_bills.map((b) => <li><strong>{b.url ? <a href={b.url} rel="noopener">{b.bill}</a> : b.bill}</strong> ({b.status.replace(/_/g, ' ')}, {b.last_action}) — {lt(b.summary, locale)} <Cite ids={b.sources} index={index} /></li>)}</ul>
-  </section>
-)}
-
-{guide.statutes && guide.statutes.length > 0 && (
-  <section>
-    <h2 id="law">{_('section.statutes')}</h2>
-    <ul>{guide.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? ` — ${lt(c.title, locale)}` : ''}</li>)}</ul>
-  </section>
-)}
-
-{guide.related_links && guide.related_links.length > 0 && (
-  <section>
-    <h2 id="related">{_('section.related_links')}</h2>
-    <ul>{guide.related_links.map((l) => <li><a href={l.url} rel="noopener">{l.title}</a>{l.note ? ` — ${lt(l.note, locale)}` : ''}</li>)}</ul>
-  </section>
-)}
-
-<Sources sources={guide.sources} locale={locale} />
+    <Sources sources={g.sources} locale={locale} />
+  </div>
+  <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
+</div>

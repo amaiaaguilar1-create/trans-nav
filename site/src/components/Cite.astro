@@ -1,9 +1,8 @@
 ---
-/** Renders superscript citation links [1][2] pointing at the Sources list. */
+/** Superscript citation links pointing at the Sources list. */
 const { ids, index } = Astro.props as { ids?: string[]; index: Map<string, number> };
+const nums = (ids ?? []).filter((id) => index.has(id)).map((id) => [id, index.get(id)!] as const);
 ---
-{ids && ids.length > 0 && (
-  <sup class="cite">
-    {ids.map((id) => index.has(id) ? <a href={`#src-${id}`} title={id}>[{index.get(id)}]</a> : null)}
-  </sup>
+{nums.length > 0 && (
+  <sup class="cite">{nums.map(([id, n]) => <a href={`#src-${id}`} aria-label={`Source ${n}`}>[{n}]</a>)}</sup>
 )}

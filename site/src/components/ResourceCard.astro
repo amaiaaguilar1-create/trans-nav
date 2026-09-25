@@ -1,22 +1,31 @@
 ---
+/** One resource as a flat list row (use inside <ul class="resources">). */
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
+import { tx } from '../lib/text';
 import Cite from './Cite.astro';
+import Icon from './Icon.astro';
 import type { Resource } from '../types/content';
 const { r, locale, index } = Astro.props as { r: Resource; locale: Locale; index?: Map<string, number> };
 const _ = t(locale);
+const verified = r.verification === 'official_source' || r.verification === 'org_website';
 ---
-<article class="card">
-  <h3>{r.url ? <a href={r.url} rel="noopener">{r.name}</a> : r.name} {index && <Cite ids={r.sources} index={index} />}</h3>
+<li>
+  <h3>{r.url ? <a href={r.url} rel="noopener">{r.name}</a> : r.name}{index && <Cite ids={r.sources} index={index} />}</h3>
   <div class="tags">
-    {r.cost && <span class="pill neutral">{_(`resource.cost.${r.cost}` as const)}</span>}
-    {r.telehealth && <span class="pill neutral">{_('resource.telehealth')}</span>}
-    {r.accepts_medicaid && <span class="pill neutral">{_('resource.medicaid')}</span>}
-    {r.accepts_uninsured && <span class="pill neutral">{_('resource.uninsured')}</span>}
-    <span class={`pill ${r.verification === 'official_source' || r.verification === 'org_website' ? 'available' : 'draft'}`}>{_(`resource.verification.${r.verification}` as const)}</span>
+    {r.cost && r.cost !== 'unknown' && <span class="tag">{_(`resource.cost.${r.cost}` as const)}</span>}
+    {r.telehealth && <span class="tag">{_('resource.telehealth')}</span>}
+    {r.accepts_medicaid && <span class="tag">{_('resource.medicaid')}</span>}
+    {r.accepts_uninsured && <span class="tag">{_('resource.uninsured')}</span>}
+    {!verified && <span class="tag" title={tx(locale, 'We could not confirm this on the organization\'s own site.', 'No pudimos confirmarlo en el sitio de la organización.')}>{_(`resource.verification.${r.verification}` as const)}</span>}
   </div>
   <p>{lt(r.description, locale)}</p>
-  {r.areas_served && <p class="small">{lt(r.areas_served, locale)}</p>}
-  {(r.phone || r.address) && <p class="small">{r.phone && <a href={`tel:${r.phone.replace(/[^\d+]/g, '')}`}>{r.phone}</a>}{r.phone && r.address ? ' · ' : ''}{r.address}</p>}
-  {r.languages && r.languages.length > 0 && <p class="small">{r.languages.join(', ')}</p>}
-</article>
+  {r.areas_served && <p class="xs muted">{lt(r.areas_served, locale)}</p>}
+  {(r.phone || r.address || (r.languages && r.languages.length > 0)) && (
+    <div class="contact">
+      {r.phone && <a href={`tel:${r.phone.replace(/[^\d+]/g, '')}`} class="num"><Icon name="phone" size={14} /> {r.phone}</a>}
+      {r.address && <span class="muted">{r.address}</span>}
+      {r.languages && r.languages.length > 0 && <span class="muted">{r.languages.join(', ')}</span>}
+    </div>
+  )}
+</li>

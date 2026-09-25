@@ -1,0 +1,79 @@
+---
+/** Every jurisdiction side by side. A table is the honest shape for this data. */
+import { t, type Locale } from '../i18n/ui';
+import { lt, localePath, type StateBundle } from '../lib/content';
+import { tx, type Status } from '../lib/text';
+import StatusChip from '../components/StatusChip.astro';
+const { states, locale } = Astro.props as { states: StateBundle[]; locale: Locale };
+const _ = t(locale);
+const rows = [...states].sort((a, b) => lt(a.meta.name, locale).localeCompare(lt(b.meta.name, locale), locale)).map((s) => ({
+  code: s.code, name: lt(s.meta.name, locale), href: localePath(locale, `states/${s.code.toLowerCase()}`),
+  nc: s.guides.name_change?.status as Status | undefined,
+  dl: s.guides.drivers_license?.status as Status | undefined,
+  dlx: s.guides.drivers_license?.markers_available?.includes('X') ?? false,
+  bc: s.guides.birth_certificate?.status as Status | undefined,
+  bcx: s.guides.birth_certificate?.markers_available?.includes('X') ?? false,
+  adult: s.care?.adult_care.status as Status | undefined,
+  minor: s.care?.minor_care.status as Status | undefined,
+  shield: s.meta.climate.shield_law,
+}));
+const cols = [
+  { key: 'nc', label: _('guide.name_change'), slug: 'name-change' },
+  { key: 'dl', label: tx(locale, 'License / ID marker', 'Marcador en licencia'), slug: 'drivers-license' },
+  { key: 'bc', label: tx(locale, 'Birth certificate marker', 'Marcador en acta'), slug: 'birth-certificate' },
+  { key: 'adult', label: tx(locale, 'Care, adults', 'Atención, adultos'), slug: 'care' },
+  { key: 'minor', label: tx(locale, 'Care, under 18', 'Atención, menores'), slug: 'care' },
+] as const;
+---
+<div class="compare-controls" data-compare-controls>
+  <label>{tx(locale, 'Find a state', 'Buscar un estado')}<input type="search" data-q autocomplete="off" placeholder={tx(locale, 'Name or code', 'Nombre o código')} /></label>
+  <label>{tx(locale, 'Show only states where', 'Mostrar solo estados donde')}
+    <select data-f>
+      <option value="">{tx(locale, 'Show all', 'Mostrar todos')}</option>
+      <option value="dl:available">{tx(locale, 'License marker can be changed', 'Se puede cambiar el marcador en la licencia')}</option>
+      <option value="dlx">{tx(locale, 'License offers X', 'La licencia ofrece X')}</option>
+      <option value="bc:available">{tx(locale, 'Birth certificate marker can be changed', 'Se puede cambiar el marcador en el acta')}</option>
+      <option value="bcx">{tx(locale, 'Birth certificate offers X', 'El acta ofrece X')}</option>
+      <option value="minor:available">{tx(locale, 'Care for under-18s is legal', 'La atención a menores es legal')}</option>
+      <option value="shield">{tx(locale, 'Has a shield law', 'Tiene ley escudo')}</option>
+    </select>
+  </label>
+  <p class="small muted" data-count aria-live="polite" style="margin:0 0 .6rem"></p>
+</div>
+<div class="legend" aria-hidden="true">
+  {(['available', 'restricted', 'prohibited', 'litigation', 'unclear'] as Status[]).map((s) => <StatusChip status={s} locale={locale} short size="sm" />)}
+</div>
+<div class="table-wrap tall">
+  <table class="data compare">
+    <caption class="visually-hidden">{tx(locale, 'Status of each change by state', 'Estado de cada cambio por estado')}</caption>
+    <thead><tr><th scope="col">{tx(locale, 'State', 'Estado')}</th>{cols.map((c) => <th scope="col">{c.label}</th>)}<th scope="col">{tx(locale, 'Shield law', 'Ley escudo')}</th></tr></thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr data-name={`${r.name} ${r.code}`.toLowerCase()} data-dl={r.dl} data-bc={r.bc} data-minor={r.minor} data-dlx={String(r.dlx)} data-bcx={String(r.bcx)} data-shield={String(r.shield)}>
+          <th scope="row"><a href={r.href}>{r.name}</a></th>
+          {cols.map((c) => { const st = (r as any)[c.key] as Status | undefined; return (
+            <td>{st ? <a href={localePath(locale, `states/${r.code.toLowerCase()}/${c.slug}`)} style="text-decoration:none"><StatusChip status={st} locale={locale} short size="sm" />{(c.key === 'dl' && r.dlx) || (c.key === 'bc' && r.bcx) ? <span class="tag" style="margin-left:.35rem">X</span> : null}</a> : <span class="muted">—</span>}</td>
+          ); })}
+          <td>{r.shield ? _('yesno.yes') : _('yesno.no')}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+<p class="small muted prose" style="margin-top:1rem">{tx(locale, 'Birth certificate rules follow the state where you were born, not where you live. Every page here is a draft until a person verifies it; open a state for sources and details.', 'Las reglas del acta de nacimiento dependen del estado donde naciste, no donde vives. Cada página es un borrador hasta que una persona la verifique; abre un estado para ver fuentes y detalles.')}</p>
+<script>
+  const q = document.querySelector<HTMLInputElement>('[data-q]')!, f = document.querySelector<HTMLSelectElement>('[data-f]')!;
+  const rows = [...document.querySelectorAll<HTMLTableRowElement>('table.compare tbody tr')];
+  const count = document.querySelector<HTMLElement>('[data-count]')!;
+  const apply = () => {
+    const text = q.value.trim().toLowerCase(), [k, v] = f.value.split(':');
+    let n = 0;
+    for (const r of rows) {
+      const okText = !text || r.dataset.name!.includes(text);
+      const okFilter = !k || (v ? r.dataset[k] === v : r.dataset[k] === 'true');
+      r.hidden = !(okText && okFilter); if (!r.hidden) n++;
+    }
+    count.textContent = `${n} / ${rows.length}`;
+  };
+  q.addEventListener('input', apply); f.addEventListener('change', apply); apply();
+</script>
