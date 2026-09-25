@@ -10,12 +10,14 @@
     "registry": "tsx src/build-registry.ts",
     "monitor": "tsx src/monitor.ts",
     "changes": "tsx src/build-changes.ts",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "ingest:hrsa": "tsx src/ingest/hrsa.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
+    "csv-parse": "^7.0.2",
     "diff": "^9.0.0",
     "playwright": "^1.63.0",
     "unpdf": "^1.8.1",

@@ -1,0 +1,76 @@
+---
+/**
+ * Searchable list of HRSA community health centers for one state. Data is a static JSON file; filtering and the
+ * optional "near me" sort run entirely in the browser. Location is never sent anywhere.
+ */
+import { BASE } from '../lib/content';
+import type { Locale } from '../i18n/ui';
+const { code, locale } = Astro.props as { code: string; locale: Locale };
+const es = locale === 'es';
+const L = {
+  h: es ? 'Centros de salud comunitarios cerca de ti' : 'Community health centers near you',
+  intro: es
+    ? 'Estos centros con financiamiento federal deben atenderte aunque no tengas seguro y cobran según tus ingresos. Muchos, pero no todos, recetan terapia hormonal. Llama y pregunta por "atención de afirmación de género" o "terapia hormonal".'
+    : 'These federally funded centers must see you whether or not you have insurance, and charge based on income. Many, but not all, prescribe hormone therapy. Call and ask for "gender-affirming care" or "hormone therapy."',
+  ph: es ? 'Ciudad, condado o código postal' : 'City, county, or ZIP code',
+  near: es ? 'Ordenar por cercanía' : 'Sort by distance from me',
+  nearNote: es ? 'Tu ubicación se usa solo en tu dispositivo y no se envía a ningún lugar.' : 'Your location is used only on your device and is never sent anywhere.',
+  more: es ? 'Mostrar más' : 'Show more',
+  none: es ? 'No hay resultados. Prueba con otra ciudad o condado.' : 'No matches. Try a nearby city or the county name.',
+  src: es ? 'Fuente: HRSA, actualizado' : 'Source: HRSA, updated',
+  hrs: es ? 'h/semana' : 'hrs/week',
+  mi: 'mi',
+};
+---
+<section class="hc" data-url={`${BASE}data/health-centers/${code}.json`} data-l={JSON.stringify(L)}>
+  <h2 id="health-centers">{L.h}</h2>
+  <p>{L.intro}</p>
+  <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0">
+    <label class="visually-hidden" for={`hc-q-${code}`}>{L.ph}</label>
+    <input id={`hc-q-${code}`} class="hc-q" type="search" placeholder={L.ph} autocomplete="off" style="flex:1 1 14rem;padding:.55rem .7rem;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font:inherit" />
+    <button class="hc-near" type="button" style="padding:.55rem .9rem;border-radius:8px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);font:inherit;cursor:pointer">{L.near}</button>
+  </div>
+  <p class="small hc-note" style="color:var(--muted);font-size:.85rem" hidden>{L.nearNote}</p>
+  <div class="cards hc-list" aria-live="polite"></div>
+  <p><button class="hc-more" type="button" hidden style="padding:.45rem .9rem;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font:inherit;cursor:pointer">{L.more}</button></p>
+  <p class="small hc-src" style="color:var(--muted);font-size:.85rem"></p>
+</section>
+<script>
+  type Site = { n: string; o: string; a: string; c: string; z: string; co?: string; p?: string; w?: string; h?: number; lat?: number; lon?: number; d?: number };
+  const esc = (s: string) => s.replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]!);
+  const miles = (a: number, b: number, c: number, d: number) => {
+    const r = Math.PI / 180, x = Math.sin(((c - a) * r) / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin(((d - b) * r) / 2) ** 2;
+    return 3958.8 * 2 * Math.asin(Math.sqrt(x));
+  };
+  for (const root of document.querySelectorAll<HTMLElement>('section.hc')) {
+    const L = JSON.parse(root.dataset.l!);
+    const list = root.querySelector<HTMLElement>('.hc-list')!, q = root.querySelector<HTMLInputElement>('.hc-q')!;
+    const more = root.querySelector<HTMLButtonElement>('.hc-more')!, near = root.querySelector<HTMLButtonElement>('.hc-near')!;
+    let sites: Site[] = [], shown = 12, sortByDist = false;
+    const render = () => {
+      const t = q.value.trim().toLowerCase();
+      let r = t ? sites.filter((s) => `${s.c} ${s.co ?? ''} ${s.z} ${s.n} ${s.o}`.toLowerCase().includes(t)) : sites;
+      if (sortByDist) r = [...r].sort((a, b) => (a.d ?? 1e9) - (b.d ?? 1e9));
+      list.innerHTML = r.length ? r.slice(0, shown).map((s) => `
+        <article class="card">
+          <h3>${s.w ? `<a href="${esc(s.w)}" rel="noopener">${esc(s.n)}</a>` : esc(s.n)}</h3>
+          <p class="small">${esc(s.o)}</p>
+          <p class="small">${esc(s.a)}, ${esc(s.c)} ${esc(s.z)}${s.d !== undefined && sortByDist ? ` · ${s.d.toFixed(1)} ${L.mi}` : ''}</p>
+          <p class="small">${s.p ? `<a href="tel:${s.p.replace(/\D/g, '')}">${esc(s.p)}</a>` : ''}${s.h ? ` · ${s.h} ${L.hrs}` : ''}</p>
+        </article>`).join('') : `<p>${L.none}</p>`;
+      more.hidden = r.length <= shown;
+    };
+    fetch(root.dataset.url!).then((x) => x.json()).then((d) => {
+      sites = d.sites; root.querySelector<HTMLElement>('.hc-src')!.textContent = `${L.src} ${d.fetched} · ${d.count}`; render();
+    }).catch(() => { root.hidden = true; });
+    q.addEventListener('input', () => { shown = 12; render(); });
+    more.addEventListener('click', () => { shown += 24; render(); });
+    near.addEventListener('click', () => {
+      navigator.geolocation?.getCurrentPosition((pos) => {
+        const { latitude: la, longitude: lo } = pos.coords;
+        for (const s of sites) if (s.lat !== undefined && s.lon !== undefined) s.d = miles(la, lo, s.lat, s.lon);
+        sortByDist = true; shown = 12; root.querySelector<HTMLElement>('.hc-note')!.hidden = false; render();
+      });
+    });
+  }
+</script>

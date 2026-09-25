@@ -2,6 +2,7 @@
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
 import ChangeNotice from '../components/ChangeNotice.astro';
+import HealthCenters from '../components/HealthCenters.astro';
 import type { StateGenderAffirmingCareOverview, NationalOrMultiStateOrganization } from '../types/content';
 import StatusPill from '../components/StatusPill.astro';
 import ReviewBadge from '../components/ReviewBadge.astro';
@@ -79,6 +80,8 @@ const v = (x: 'yes' | 'no' | 'partial' | 'unclear') => _(`value.${x}` as const);
     <div class="cards">{care.resources.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</div>
   </>
 )}
+
+<HealthCenters code={care.jurisdiction} locale={locale} />
 
 {care.litigation && care.litigation.length > 0 && (
   <>

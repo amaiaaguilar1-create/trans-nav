@@ -1,0 +1,34 @@
+name: Refresh care directory data
+
+on:
+  schedule:
+    - cron: '0 9 3 * *'   # 3rd of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: HRSA community health centers
+        run: npm run ingest:hrsa -w pipeline
+      - name: Commit if changed
+        run: |
+          git config user.name "trans-nav-ingest"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/public/data
+          git commit -q -m "Refresh HRSA health center data ($(date -u +%F))" || { echo "no changes"; exit 0; }
+          git push -q
+      - name: Rebuild site
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref main
