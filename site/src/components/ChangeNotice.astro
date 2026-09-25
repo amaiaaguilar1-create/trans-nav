@@ -1,0 +1,16 @@
+---
+import { changesFor } from '../lib/content';
+import type { Locale } from '../i18n/ui';
+const { path, locale } = Astro.props as { path: string; locale: Locale };
+const changes = changesFor(path);
+const critical = changes.some((c) => c.severity === 'critical');
+---
+{changes.length > 0 && (
+  <div class={`notice ${critical ? '' : 'info'}`} role="status">
+    <p><strong>{locale === 'es' ? 'Cambio detectado, en revisión.' : 'Change detected, under review.'}</strong>{' '}
+      {locale === 'es'
+        ? 'Una fuente oficial que citamos cambió recientemente. Parte de esta página podría estar desactualizada hasta que la revisemos.'
+        : 'An official source this page relies on changed recently. Part of this page may be out of date until we review it.'}</p>
+    <ul>{changes.map((c) => <li>{c.summary} ({c.detected}) · <a href={c.url} rel="noopener">#{c.issue}</a></li>)}</ul>
+  </div>
+)}

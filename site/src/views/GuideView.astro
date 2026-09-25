@@ -1,7 +1,8 @@
 ---
 /** Renders one document guide (name change, DL, birth certificate, or a federal document). */
 import { t, type Locale } from '../i18n/ui';
-import { lt } from '../lib/content';
+import { lt, guidePath } from '../lib/content';
+import ChangeNotice from '../components/ChangeNotice.astro';
 import type { DocumentGuide } from '../types/content';
 import StatusBanner from '../components/StatusBanner.astro';
 import Steps from '../components/Steps.astro';
@@ -17,6 +18,7 @@ const _ = t(locale);
 const index = new Map(guide.sources.map((s, i) => [s.id, i + 1]));
 const yn = (v: 'yes' | 'no' | 'conditional') => _(`yesno.${v}` as const);
 ---
+<ChangeNotice path={guidePath(guide)} locale={locale} />
 <StatusBanner
   locale={locale}
   status={guide.status}

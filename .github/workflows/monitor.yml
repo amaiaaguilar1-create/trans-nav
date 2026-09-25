@@ -1,0 +1,78 @@
+name: Monitor sources
+
+# Snapshots and run reports live on the `monitor-state` branch so main stays small.
+on:
+  schedule:
+    - cron: '0 11 * * *'   # daily: federal sources and dockets
+    - cron: '0 12 * * 1'   # weekly (Mondays): everything
+  workflow_dispatch:
+    inputs:
+      frequency:
+        description: daily | weekly | monthly | all
+        default: weekly
+      only:
+        description: Limit to one jurisdiction code (optional)
+        default: ''
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out monitor state
+        run: |
+          git fetch origin monitor-state:monitor-state 2>/dev/null || true
+          if git show-ref --quiet refs/heads/monitor-state; then
+            git worktree add sources/snapshots-branch monitor-state
+          else
+            git worktree add --orphan -b monitor-state sources/snapshots-branch
+          fi
+          mkdir -p sources/snapshots-branch/snapshots sources/snapshots-branch/reports
+          ln -s snapshots-branch/snapshots sources/snapshots
+          ln -s snapshots-branch/reports sources/reports
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+        working-directory: pipeline
+      - name: Pick frequency
+        id: freq
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "f=${{ inputs.frequency }}" >> "$GITHUB_OUTPUT";
+          elif [ "${{ github.event.schedule }}" = "0 11 * * *" ]; then echo "f=daily" >> "$GITHUB_OUTPUT";
+          else echo "f=weekly" >> "$GITHUB_OUTPUT"; fi
+      - name: Run monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ONLY="${{ inputs.only }}"
+          npm run monitor -w pipeline -- --frequency ${{ steps.freq.outputs.f }} ${ONLY:+--only $ONLY}
+      - name: Save state
+        if: always()
+        working-directory: sources/snapshots-branch
+        run: |
+          git config user.name "trans-nav-monitor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Monitor run $(date -u +%F) (${{ steps.freq.outputs.f }})" || echo "no changes"
+          git push -q origin monitor-state
+      - name: Publish run summary
+        if: always()
+        run: cat sources/reports/$(ls -t sources/reports | head -1) >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Rebuild site so new "under review" notices show
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref main

@@ -1,0 +1,62 @@
+# Hand-maintained monitoring entries merged into sources/registry.yaml by `npm run registry -w pipeline`.
+# Use this for feeds and dockets that no content file cites directly, and for per-domain fetch rules.
+
+# Sites whose terms prohibit automated access, or that block even a real headless browser.
+# These are never fetched by the monitor; they appear in the weekly report as "check by hand".
+manual_domains:
+  - domain: courts.mo.gov
+    note: Site notice prohibits automated access.
+  - domain: travel.state.gov
+    note: Cloudflare challenge blocks headless browsers.
+  - domain: oklaw.org
+    note: Cloudflare challenge blocks headless browsers.
+  - domain: dmhc.ca.gov
+    note: Akamai "Access Denied" to headless browsers.
+
+# Domains known to need a real browser (plain HTTP gets 403). The monitor also escalates automatically.
+browser_domains:
+  - mncourts.gov
+  - nycourts.gov
+  - colorado.gov
+  - mass.gov
+  - courts.nh.gov
+  - dmv.nh.gov
+  - nccourts.gov
+  - ilsos.gov
+  - mvdmt.gov
+  - dmv.ri.gov
+  - health.ri.gov
+
+extra:
+  - id: federal-register-gender
+    title: Federal Register, new documents mentioning gender identity or sex designation (SSA, State, DHS, HHS)
+    url: https://www.federalregister.gov/api/v1/documents.json?per_page=50&order=newest&conditions%5Bterm%5D=%22gender+identity%22+%7C+%22sex+designation%22+%7C+%22sex+marker%22+%7C+%22gender-affirming%22&conditions%5Bagencies%5D%5B%5D=social-security-administration&conditions%5Bagencies%5D%5B%5D=state-department&conditions%5Bagencies%5D%5B%5D=homeland-security-department&conditions%5Bagencies%5D%5B%5D=health-and-human-services-department&conditions%5Bagencies%5D%5B%5D=centers-for-medicare-medicaid-services&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=publication_date&fields%5B%5D=html_url&fields%5B%5D=type
+    kind: json_api
+    frequency: daily
+    jurisdiction: US
+    severity_hint: critical
+    linked_content: [content/federal/passport.yaml, content/federal/social-security.yaml, content/federal/uscis.yaml, content/federal/tsa-global-entry.yaml]
+  - id: orr-v-trump-aclu
+    title: ACLU case page, Orr v. Trump (passport sex markers)
+    url: https://www.aclu.org/cases/orr-v-trump
+    kind: docket
+    frequency: daily
+    jurisdiction: US
+    severity_hint: critical
+    linked_content: [content/federal/passport.yaml]
+  - id: ssa-poms-rm-10212200
+    title: SSA POMS RM 10212.200 (sex field on the Numident)
+    url: https://secure.ssa.gov/poms.nsf/lnx/0110212200
+    kind: html
+    frequency: daily
+    jurisdiction: US
+    severity_hint: critical
+    linked_content: [content/federal/social-security.yaml]
+  - id: map-identity-documents
+    title: Movement Advancement Project, identity document laws and policies (cross-check)
+    url: https://www.mapresearch.org/equality-maps/identity_documents
+    kind: html
+    frequency: weekly
+    jurisdiction: US
+    severity_hint: normal
+    linked_content: []

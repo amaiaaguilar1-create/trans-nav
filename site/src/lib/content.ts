@@ -71,3 +71,26 @@ export function localePath(locale: Locale, path: string): string {
   const suffix = clean ? `${clean}/` : '';
   return locale === 'en' ? `${BASE}${suffix}` : `${BASE}es/${suffix}`;
 }
+
+// ---------- monitored changes under review ----------
+import fs from 'node:fs';
+import nodePath from 'node:path';
+
+export interface OpenChange { issue: number; url: string; jurisdiction: string; paths: string[]; severity: string; summary: string; detected: string }
+let changesCache: OpenChange[] | null = null;
+/** Open `monitor` issues, written to sources/changes.json by the deploy workflow. Empty locally. */
+export function openChanges(): OpenChange[] {
+  if (changesCache) return changesCache;
+  // Builds run from site/; import.meta.url points into the bundle, so resolve from the working directory.
+  const f = nodePath.resolve(process.cwd(), '../sources/changes.json');
+  try { changesCache = JSON.parse(fs.readFileSync(f, 'utf8')) as OpenChange[]; } catch { changesCache = []; }
+  return changesCache;
+}
+/** Repo-relative content path for a guide, matching the paths recorded on monitor issues. */
+export function guidePath(g: { jurisdiction: string; guide_type: string }): string {
+  const slug = g.guide_type.replace(/_/g, '-');
+  return g.jurisdiction === 'US' ? `content/federal/${slug}.yaml` : `content/states/${g.jurisdiction}/${slug}.yaml`;
+}
+export function changesFor(path: string): OpenChange[] {
+  return openChanges().filter((c) => c.paths.includes(path));
+}

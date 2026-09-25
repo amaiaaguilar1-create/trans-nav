@@ -3,10 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  issues:
+    types: [opened, closed, reopened, labeled, unlabeled]
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: read
   pages: write
   id-token: write
 
@@ -25,6 +28,11 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run validate
+      - name: Collect open monitor issues for "under review" notices
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run changes -w pipeline
       - run: npm run build
         env:
           SITE_URL: https://amaiaaguilar1-create.github.io

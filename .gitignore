@@ -11,3 +11,6 @@ dist/
 .vscode/*
 !.vscode/extensions.json
 pipeline/.cache/
+sources/changes.json
+sources/snapshots/
+sources/reports/

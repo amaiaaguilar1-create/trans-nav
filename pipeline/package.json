@@ -7,17 +7,25 @@
   "scripts": {
     "validate": "tsx src/validate.ts",
     "gen-types": "tsx src/gen-types.ts",
-    "registry": "tsx src/build-registry.ts"
+    "registry": "tsx src/build-registry.ts",
+    "monitor": "tsx src/monitor.ts",
+    "changes": "tsx src/build-changes.ts",
+    "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
-    "yaml": "^2.8.1"
+    "diff": "^9.0.0",
+    "playwright": "^1.63.0",
+    "unpdf": "^1.8.1",
+    "yaml": "^2.8.1",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@types/node": "^24.5.2",
     "json-schema-to-typescript": "^15.0.4",
     "tsx": "^4.20.5",
-    "typescript": "^5.9.2",
-    "@types/node": "^24.5.2"
+    "typescript": "^5.9.2"
   }
 }

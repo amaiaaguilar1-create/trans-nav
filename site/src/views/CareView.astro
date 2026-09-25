@@ -1,6 +1,7 @@
 ---
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
+import ChangeNotice from '../components/ChangeNotice.astro';
 import type { StateGenderAffirmingCareOverview, NationalOrMultiStateOrganization } from '../types/content';
 import StatusPill from '../components/StatusPill.astro';
 import ReviewBadge from '../components/ReviewBadge.astro';
@@ -14,6 +15,7 @@ const _ = t(locale);
 const index = new Map(care.sources.map((s, i) => [s.id, i + 1]));
 const v = (x: 'yes' | 'no' | 'partial' | 'unclear') => _(`value.${x}` as const);
 ---
+<ChangeNotice path={`content/states/${care.jurisdiction}/care.yaml`} locale={locale} />
 <div class={`banner ${care.adult_care.status}`}>
   <div class="row">
     <StatusPill status={care.adult_care.status} locale={locale} label={_('care.adult')} />

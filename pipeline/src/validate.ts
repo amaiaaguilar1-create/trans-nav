@@ -11,8 +11,11 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import Ajv2020 from 'ajv/dist/2020.js';
-import addFormats from 'ajv-formats';
+import Ajv2020Mod from 'ajv/dist/2020.js';
+import addFormatsMod from 'ajv-formats';
+// CJS interop: tsx gives the default export, tsc (NodeNext) types the namespace.
+const Ajv2020 = ((Ajv2020Mod as unknown as { default?: unknown }).default ?? Ajv2020Mod) as unknown as typeof import('ajv/dist/2020.js').default;
+const addFormats = ((addFormatsMod as unknown as { default?: unknown }).default ?? addFormatsMod) as unknown as typeof import('ajv-formats').default;
 import { loadContent, loadSchemas, type ContentFile } from './load.js';
 import { schemaFor, ROOT } from './paths.js';
 
@@ -68,6 +71,7 @@ function checkFile(f: ContentFile) {
     }
     return; // cross-ref checks assume structural validity
   }
+  if (schemaName === 'source-registry.json') return; // generated file; ids are URL hashes, not citations
 
   const doc = f.data as Obj;
 
