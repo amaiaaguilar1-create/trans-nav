@@ -1,0 +1,190 @@
+Skip to content
+Program Operations Manual System (POMS)
+Effective Dates: 06/05/2026 - Present
+Previous | Next
+TN 36 (06-26)
+RM 10212.200 Changing NUMIDENT Data for Reasons Other than Name Change
+A. Why we change NUMIDENT data
+The NUMIDENT contains specific information for each number holder (NH). We only correct or change information on an existing NUMIDENT iteration when there is a documented keying error by reviewing the prior
+Social Security number (SSN) application (SS-5).
+However, when an applicant wishes to update information previously submitted, or to
+correct information when we cannot document a keying error, we update the NUMIDENT by creating a new iteration appended to the previous iteration. The
+applicant must submit a new application and provide supporting documentation (e.g.,
+a birth certificate to correct the NH's date of birth information).
+1. When there is a keying error
+A keying error occurs when the data on the paper application for a Social Security
+card (SS-5) does not match the data on the NUMIDENT. To identify whether a keying
+error has occurred, compare the information on the paper SS-5 or SS-5 microprint with
+the NUMIDENT. Paper SS-5 and SS-5 microprints are available in the Image Retrieval
+Online (IRON) system and through SS-5 Reprints. Links are available to these programs
+in SSNAP.
+NOTE:
+The agency will also consider keying errors that occur as part of the automated enumeration
+processes where we have an established data exchange agreement, such as Enumeration
+at Birth. In these cases, keying errors must be verified with documentation from the
+participating entity (e.g., hospital documentation) that clearly demonstrates the
+error originated with that entity.
+If, after reviewing the paper SS-5, SS-5 microprint, or documentation from a participating
+entity, you determine that a keying error occurred, correct the incorrect NUMIDENT
+record information using Numident Correction Processing (NCP) in the Social Security
+Number Application Processing (SSNAP). This action does not add to the number of NUMIDENT
+iterations and will not count against the annual or lifetime SSN card limits.
+However, when, for any reason, you are unable to review the SS-5, SS-5 microprint,
+or documentation from a participating entity, we do not use the NCP process. Do not
+correct or change the current NUMIDENT iteration. Instead, update the information
+on the NUMIDENT by creating a new iteration as provided in RM 10212.200A.2.
+Keying Errors: For instructions see details
+•
+RM 10215.051 Correcting Keying Errors in Fields Other than "Name on Card" Field
+•
+RM 10210.295 Date of Birth Change on the NUMIDENT
+•
+RM 10215.055 Correct a Coding Error that Resulted in an Incorrect Employment Legend
+on the SSN Card
+•
+RM 10220.415 Numident Correction Processing (NCP)
+•
+RM 00702.006 How to Correct Keying Errors
+2. Updating NUMIDENT data by creating a new iteration
+The applicant must submit a completed SSN application accompanied by evidence of identity
+and evidence to support the update. Create a new NUMIDENT iteration with the new information,
+following RM 10212.200B.
+B. How do you create a new NUMIDENT iteration to update data on the NUMIDENT
+1. Request evidence
+Applicants requesting an update of information on the NUMIDENT record must submit:
+•
+An application for a replacement SSN card; and
+•
+Evidence of identity to establish that the NH for whom the SS-5 is submitted is the
+same person to whom SSA assigned the SSN as provided in RM 10210.420 ; and
+•
+Evidence to support the update, if required in RM 10212.200B.2.
+2. Obtain documentation
+Use this table to determine when supporting evidence is required for the update and
+additional actions needed.
+For this update
+Obtain this supporting documentation, when required, and follow any additional instructions
+Sex field
+The agency is only correcting or changing the sex field on the NUMIDENT to reflect
+the NH’s sex at birth.
+Evidence of sex:
+•
+U.S. Born:
+–
+a birth certificate (BC) established by a State or local bureau of vital statistics
+(BVS) that reflects the NH's sex at birth.
+–
+The NUMIDENT sex field established through enumeration at birth (EAB).
+•
+Foreign born:
+–
+A foreign BC or Consular Report of Birth Abroad that lists the NH's sex at birth.
+NOTE: Do not accept an amended, corrected ( GN 00302.510 ), or delayed BC ( GN 00302.540 ) as proof to correct the sex field unless accompanied by an amendment affidavit or
+supporting documentation that clearly indicates the reason for the amendment.
+Date of birth (DOB) field
+See Date of Birth Change on the NUMIDENT in RM 10210.295 .
+Place of birth (PLB) field
+Evidence of place of birth:
+•
+U.S. born:
+–
+a BC established before age five and issued by a state or local bureau of vital statistics
+(BVS) for an individual born within its jurisdiction; or another acceptable proof
+of age document listed in RM 10210.265 , provided the document also lists the NH's PLB.
+•
+Foreign born:
+–
+an acceptable document such as a foreign BC or another acceptable proof of age document
+listed in RM 10210.265 , provided the document also list the individual’s PLB.
+See RM 10212.200B.3.b. for additional processing information.
+Citizenship field
+Evidence of U.S. citizenship:
+•
+U.S. public birth record showing birth in one of the 50 U.S. states, the District
+of Columbia, American Samoa, Puerto Rico, Guam, the Virgin Islands of the U.S. (on
+or after 01/17/1917), or the Northern Mariana Islands (on or after 11/04/1986, NMI
+Local time),
+•
+U.S. passport,
+–
+U.S. passports may be current or expired but must meet the criteria in RM 10210.505 to be acceptable evidence of U.S. citizenship.
+•
+Certificate of Naturalization,
+•
+Certificate of Citizenship, or
+•
+Other documents listed in RM 10210.505 , RM 10210.510 , RM 10210.520 , and RM 10210.525 .
+Interviewers should request and obtain the U.S. citizenship document with the highest
+probative value available to the applicant ("available" means the applicant either
+possesses the document or can obtain it within 10 working days) before accepting a
+document of a lower probative level.
+You may use primary, secondary, third-level, or fourth-level evidence to change the
+citizenship data on a NUMIDENT record.
+EXAMPLE: If primary evidence of U.S. citizenship is not available then the interviewer may accept secondary evidence to update the citizenship data on the NUMIDENT record.
+Parent's name field
+Evidence of parent's name:
+•
+U.S. born:
+–
+Original or amended BC, or
+–
+Final adoption decree issue by the court or court determination of paternity
+•
+Foreign Born:
+–
+an acceptable document such as a BC or another acceptable proof of age document listed
+in RM 10210.265 , provided the document also list the NH’s parent’s name.
+For additional processing information, see RM 10212.200B.3.b.
+3. Process the request
+In the "Remarks" field on the Social Security Number Application Process (SSNAP) Summary
+screen, list any evidence documents the applicant submitted to support the change
+to the NUMIDENT, if not previously captured in SSNAP.
+a.
+If you update the sex code on the NUMIDENT, update the MBR, SSR, RPS or any other SSA record with the new sex
+designation.
+b.
+If you update the parent's name field on a child’s NUMIDENT record, ask if the parent is a title II beneficiary,
+an SSI recipient, or a representative payee. If so, review the MBR, SSR, or RPS record
+and initiate or complete actions necessary to update the record (for example, correcting
+a parent’s name on the SSR record or ensuring that actions are taken to complete a
+new representative payee application).
+4. When to suppress an SSN card
+Process the requested change but suppress the issuance of a replacement SSN card when the correction will not affect any data
+on the face of the SSN card (as with a change of the sex, DOB, PLB, or parent’s name
+fields on the NUMIDENT) unless the applicant is requesting a replacement card. (See
+RM 10205.400 for information on replacement card limits.)
+5. When to send written notice
+Send a written notice if you are unable to update the record or to provide the individual
+with a replacement card. Follow these instructions:
+•
+RM 00299.020 Form SSA-L676 – Refusal to Process SSN Application, or
+•
+RM 10205.090 Form SS-5 Received, and Additional Documentation is Needed, or
+•
+RM 10215.110 Policy on Providing Written Notice and Second Review When SSN or Card
+May Not Be Issued, or
+•
+RM 10215.115 Procedures for Providing Written Notice to an SSN Applicant.
+C. References
+•
+RM 10210.505 Primary Level Evidence of U.S. Citizenship
+•
+RM 10210.510 Secondary Level Evidence of U.S. Citizenship for a U.S. Born Applicant
+•
+RM 10210.520 Third Level Evidence of U.S. Citizenship for a U.S. Born Applicant
+•
+RM 10210.525 Fourth Level Evidence of U.S. Citizenship for a U.S. Born Applicant
+•
+RM 10220.210 Evidence Requirements for Documentation of Harassment, Abuse, or Life
+Endangerment (HALE)
+•
+GN 00301.030 Acceptability of Documentary Evidence
+•
+GN 00301.080 Certification by Custodian of the Record
+•
+GN 00301.045 Validity of Documents
+To Link to this section - Use this URL:
+http://policy.ssa.gov/poms.nsf/lnx/0110212200
+RM 10212.200 - Changing NUMIDENT Data for Reasons Other than Name Change - 06/05/2026
+Batch run: 07/31/2026
+Rev: 06/05/2026

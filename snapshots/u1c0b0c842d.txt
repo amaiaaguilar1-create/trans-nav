@@ -1,0 +1,6 @@
+Skip to Content
+' + '
+Print This Page ');
+PrintWindow.document.close();
+PrintWindow.document.getElementById('content').innerHTML += OriginalContent;
+}

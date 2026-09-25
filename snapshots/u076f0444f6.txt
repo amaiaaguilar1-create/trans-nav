@@ -1,0 +1,18 @@
+');
+printWindow.document.write(' Print Preview
+')
+printWindow.document.write(' ');
+//Print and cancel button
+printWindow.document.write(' ');
+printWindow.document.write(' ');
+printWindow.document.write('
+');
+//You can include any data this way.
+var _page = ' ' + $('#printStuff').html() + $('#va_code').html() + '
+';
+printWindow.document.write(_page);
+printWindow.document.write(' var divHeight;var obj = document.getElementById("va_code");if(obj.offsetHeight){divHeight=obj.offsetHeight;}else if(obj.style.pixelHeight){divHeight=obj.style.pixelHeight;}document.getElementById("printPages").innerHTML="Approximate Number of Pages: " + Math.ceil(divHeight / 850); ');
+printWindow.document.write(' ');
+printWindow.document.close();
+printWindow.focus();
+}
