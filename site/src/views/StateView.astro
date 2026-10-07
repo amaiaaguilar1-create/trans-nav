@@ -2,6 +2,9 @@
 import { t, type Locale } from '../i18n/ui';
 import { lt, localePath, type StateBundle } from '../lib/content';
 import { tx, firstSentence, type Status } from '../lib/text';
+import { careVerdict } from '../lib/verdict';
+import Verdict from '../components/Verdict.astro';
+import Term from '../components/Term.astro';
 import { routeFor } from '../lib/route';
 import type { DocumentGuide } from '../types/content';
 import StatusChip from '../components/StatusChip.astro';
@@ -18,38 +21,35 @@ const index = new Map(m.sources.map((s, i) => [s.id, i + 1]));
 const base = `states/${state.code.toLowerCase()}`;
 const name = lt(m.name, locale);
 const stops = routeFor(state, federal, locale);
-const care = state.care ? [
-  { title: tx(locale, 'Adults', 'Adultos'), status: state.care.adult_care.status as Status, note: firstSentence(lt(state.care.adult_care.detail, locale)) },
-  { title: tx(locale, 'Under 18', 'Menores de 18'), status: state.care.minor_care.status as Status, note: firstSentence(lt(state.care.minor_care.detail, locale)) },
-] : [];
+const careRows = state.care ? careVerdict(state.care, locale) : [];
+const careNote = state.care ? firstSentence(lt(state.care.status_summary, locale), 220) : '';
 const climate = (v: string) => (v === 'protective' ? 'available' : v === 'mixed' ? 'restricted' : 'prohibited') as Status;
 const hasLocal = state.cities.length > 0, hasOrgs = !!m.key_resources?.length;
 ---
 <dl class="climate">
   <div><dt>{_('climate.id_documents')}</dt><dd><StatusChip status={climate(m.climate.id_documents)} locale={locale} variant="mark" text={_(`climate.${m.climate.id_documents}` as const)} /></dd></div>
   <div><dt>{_('climate.care')}</dt><dd><StatusChip status={climate(m.climate.care)} locale={locale} variant="mark" text={_(`climate.${m.climate.care}` as const)} /></dd></div>
-  <div><dt>{_('climate.shield_law')}</dt><dd>{m.climate.shield_law ? tx(locale, 'Yes, protects care', 'Sí, protege la atención') : tx(locale, 'No', 'No')}</dd></div>
+  <div><dt><Term id="shield-law" locale={locale}>{_('climate.shield_law')}</Term></dt><dd>{m.climate.shield_law ? tx(locale, 'Yes, protects care', 'Sí, protege la atención') : tx(locale, 'No', 'No')}</dd></div>
 </dl>
-<div class="prose overview"><Md text={lt(m.overview, locale)} /></div>
+{(() => { const full = lt(m.overview, locale); const lead = firstSentence(full, 400); const rest = full.replace(/\s+/g, ' ').trim().slice(lead.replace(/…$/, '').length).trim(); return rest.length > 60 && !lead.endsWith('…')
+  ? <div class="overview"><p class="overview-lead">{lead}</p><details class="overview-more"><summary>{tx(locale, `More about ${name}`, `Más sobre ${name}`)}</summary><div class="prose"><Md text={rest} /></div></details></div>
+  : <div class="prose overview"><Md text={full} /></div>; })()}
 {m.review.status === 'draft' && <p class="verify-line"><Icon name="file" size={16} /><span>{tx(locale, 'This state’s pages are drafts written from official sources and not yet checked by a person.', 'Las páginas de este estado son borradores escritos a partir de fuentes oficiales y aún no revisados por una persona.')} <a href={`${localePath(locale, 'about')}#how-we-verify`}>{tx(locale, 'What this means', 'Qué significa')}</a></span></p>}
 
 <section class="section" aria-labelledby="order-h">
   <h2 id="order-h" class="section-title">{tx(locale, `Your documents, in order`, `Tus documentos, en orden`)}</h2>
-  <p class="muted prose section-sub">{tx(locale, `The order most people follow in ${name}. State steps follow ${name}’s rules; federal steps are the same everywhere.`, `El orden que sigue la mayoría en ${name}. Los pasos estatales siguen las reglas de ${name}; los federales son iguales en todas partes.`)}</p>
+  <p class="muted prose section-sub">{tx(locale, 'Most people go in this order, because each office checks the one before it. On every document, updating your name and changing your gender marker are separate questions with separate answers.', 'La mayoría sigue este orden, porque cada oficina revisa la anterior. En cada documento, actualizar tu nombre y cambiar tu marcador de género son preguntas distintas con respuestas distintas.')}</p>
   <Route items={stops} locale={locale} label={tx(locale, `Documents in ${name}`, `Documentos en ${name}`)} />
+  <p class="born-elsewhere"><Icon name="map" size={18} /><span>{tx(locale, `Born somewhere other than ${name}? Your birth certificate follows the state where you were born.`, `¿Naciste fuera de ${name}? Tu acta de nacimiento depende del estado donde naciste.`)} <a href={`${localePath(locale, 'states')}#states-filter`}>{tx(locale, 'Choose your birth state', 'Elige tu estado de nacimiento')}</a></span></p>
 </section>
 
-{care.length > 0 && (
+{careRows.length > 0 && (
   <section class="section" aria-labelledby="care-h">
     <h2 id="care-h" class="section-title">{tx(locale, 'Gender-affirming care', 'Atención de afirmación de género')}</h2>
     <a class="care-link" href={localePath(locale, `${base}/care`)}>
-      {care.map((c) => (
-        <span class="care-col">
-          <span class="care-head"><span class="stop-title">{c.title}</span><StatusChip status={c.status} locale={locale} short variant="mark" size="sm" /></span>
-          <span class="stop-note">{c.note}</span>
-        </span>
-      ))}
-      <span class="care-go">{tx(locale, 'Clinics, health centers, telehealth, and coverage', 'Clínicas, centros de salud, telesalud y cobertura')}<Icon name="arrow" size={18} /></span>
+      <Verdict rows={careRows} locale={locale} variant="compact" terms={false} />
+      <span class="stop-note">{careNote}</span>
+      <span class="care-go">{tx(locale, 'Find clinics, health centers, telehealth, and ways to pay', 'Encuentra clínicas, centros de salud, telesalud y formas de pagar')}<Icon name="arrow" size={18} /></span>
     </a>
   </section>
 )}

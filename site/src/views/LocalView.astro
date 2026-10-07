@@ -1,23 +1,34 @@
 ---
+/**
+ * Local help for one city or metro, in layers:
+ *   1. Orientation (which state route this belongs to) and a jump list of needs with counts.
+ *   2. Where to file a name change, as an answer block; then resources grouped by need.
+ *   3. Filing notes and sources fold away.
+ */
 import { t, type Locale } from '../i18n/ui';
 import { lt, localePath } from '../lib/content';
 import { tx } from '../lib/text';
+import { ALL_JURISDICTIONS } from '../lib/jurisdictions';
 import type { CityMetroResources } from '../types/content';
 import ResourceCard from '../components/ResourceCard.astro';
 import Toc from '../components/Toc.astro';
 import Md from '../components/Md.astro';
 import Cite from '../components/Cite.astro';
 import Sources from '../components/Sources.astro';
+import Fold from '../components/Fold.astro';
+import Icon from '../components/Icon.astro';
 
 const { local, locale, stateCode } = Astro.props as { local: CityMetroResources; locale: Locale; stateCode: string };
 const _ = t(locale);
 const index = new Map(local.sources.map((s, i) => [s.id, i + 1]));
+const j = ALL_JURISDICTIONS.find((x) => x.code === stateCode.toUpperCase());
+const stateName = j ? (locale === 'es' ? j.es : j.en) : stateCode.toUpperCase();
 const pillars = [
-  { key: 'name_change', label: tx(locale, 'Name change and ID help', 'Ayuda con nombre e identificación') },
-  { key: 'hrt', label: tx(locale, 'Hormones and primary care', 'Hormonas y atención primaria') },
-  { key: 'sexual_health', label: tx(locale, 'Sexual health, PrEP, and testing', 'Salud sexual, PrEP y pruebas') },
-  { key: 'mental_health', label: tx(locale, 'Mental health and support', 'Salud mental y apoyo') },
-  { key: 'insurance', label: tx(locale, 'Insurance and paying for care', 'Seguro y pagos') },
+  { key: 'name_change', label: tx(locale, 'Name change and ID help', 'Ayuda con nombre e identificación'), icon: 'file' },
+  { key: 'hrt', label: tx(locale, 'Hormones and primary care', 'Hormonas y atención primaria'), icon: 'heart' },
+  { key: 'sexual_health', label: tx(locale, 'Sexual health, PrEP, and testing', 'Salud sexual, PrEP y pruebas'), icon: 'shield' },
+  { key: 'mental_health', label: tx(locale, 'Mental health and support', 'Salud mental y apoyo'), icon: 'phone' },
+  { key: 'insurance', label: tx(locale, 'Insurance and paying for care', 'Seguro y pagos'), icon: 'help' },
 ] as const;
 // Name-change and gender-marker resources share one section; every resource appears once, in its first pillar.
 const seen = new Set<string>();
@@ -32,11 +43,27 @@ const toc = [
   { id: 'sources', label: _('section.sources') },
 ];
 const base = `states/${stateCode.toLowerCase()}`;
+const money = (n: number) => new Intl.NumberFormat(locale === 'es' ? 'es-US' : 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
+const reviewed = local.review.status === 'reviewed';
+const notes = local.court?.notes ? lt(local.court.notes, locale) : '';
 ---
-<div class="prose" style="font-size:var(--fs-lg);line-height:1.55"><Md text={lt(local.intro, locale)} /></div>
+<p class="local-orient">
+  <span>{tx(locale, `Part of ${stateName}.`, `Parte de ${stateName}.`)}</span>
+  <a href={localePath(locale, base)}>{tx(locale, `${stateName} document route`, `Ruta de documentos de ${stateName}`)}</a>
+  <a href={localePath(locale, `${base}/care`)}>{tx(locale, `Care rules in ${stateName}`, `Reglas de atención en ${stateName}`)}</a>
+</p>
+
+<div class="prose local-intro"><Md text={lt(local.intro, locale)} /></div>
 {local.area && <p class="small muted">{tx(locale, 'Covers', 'Cubre')}: {lt(local.area, locale)}</p>}
-<p class="verify-line"><span class={`dot ${local.review.status === 'reviewed' ? 'ok' : ''}`} aria-hidden="true"></span><span>{local.review.status === 'reviewed' ? tx(locale, `Verified ${local.review.last_verified}.`, `Verificado ${local.review.last_verified}.`) : tx(locale, `Draft list from organizations' own websites, ${local.review.last_verified}. Call ahead: hours and services change.`, `Lista en borrador tomada de los sitios de las organizaciones, ${local.review.last_verified}. Llama antes: los horarios y servicios cambian.`)}</span></p>
-<p class="small"><a href={localePath(locale, `${base}/name-change`)}>{tx(locale, 'How name changes work in this state', 'Cómo funciona el cambio de nombre en este estado')}</a> · <a href={localePath(locale, `${base}/care`)}>{tx(locale, 'Care rules and coverage', 'Reglas y cobertura de atención')}</a></p>
+<p class={`verify-line ${reviewed ? 'ok' : 'draft'}`}><Icon name={reviewed ? 'check' : 'phone'} size={16} /><span>{reviewed ? tx(locale, `Verified ${local.review.last_verified}.`, `Verificado ${local.review.last_verified}.`) : tx(locale, `Draft list from organizations' own websites, ${local.review.last_verified}. Call ahead: hours and services change.`, `Lista en borrador tomada de los sitios de las organizaciones, ${local.review.last_verified}. Llama antes: los horarios y servicios cambian.`)}</span></p>
+
+<nav class="need-jump" aria-label={tx(locale, 'Jump to a need', 'Ir a una necesidad')}>
+  <p class="need-jump-label">{tx(locale, 'What do you need?', '¿Qué necesitas?')}</p>
+  <ul>
+    {local.court && <li><a href="#court"><Icon name="file" size={18} /><span>{tx(locale, 'Where to file a name change', 'Dónde presentar un cambio de nombre')}</span></a></li>}
+    {groups.map((g) => <li><a href={`#${g.key}`}><Icon name={g.icon} size={18} /><span>{g.label}</span><span class="need-count num">{g.rs.length}</span></a></li>)}
+  </ul>
+</nav>
 
 <Toc items={toc} locale={locale} variant="mobile" />
 
@@ -45,17 +72,22 @@ const base = `states/${stateCode.toLowerCase()}`;
     {local.court && (
       <section id="court">
         <h2>{tx(locale, 'Where to file a name change', 'Dónde presentar un cambio de nombre')}</h2>
-        <dl class="kv">
-          <dt>{tx(locale, 'Court', 'Tribunal')}</dt><dd>{local.court.url ? <a href={local.court.url} rel="noopener">{local.court.name}</a> : local.court.name}<Cite ids={local.court.sources} index={index} /></dd>
-          {typeof local.court.filing_fee === 'number' && <><dt>{tx(locale, 'Filing fee', 'Tarifa')}</dt><dd class="num">${local.court.filing_fee}</dd></>}
-          {local.court.self_help_url && <><dt>{tx(locale, 'Free help', 'Ayuda gratuita')}</dt><dd><a href={local.court.self_help_url} rel="noopener">{tx(locale, 'Court self-help center', 'Centro de autoayuda del tribunal')}</a></dd></>}
-          {local.court.notes && <><dt>{tx(locale, 'Notes', 'Notas')}</dt><dd><Md text={lt(local.court.notes, locale)} /></dd></>}
-        </dl>
+        <div class="court-block">
+          <dl class="court-facts">
+            <div class="court-name"><dt>{tx(locale, 'Court', 'Tribunal')}</dt><dd>{local.court.url ? <a href={local.court.url} rel="noopener">{local.court.name}</a> : local.court.name}<Cite ids={local.court.sources} index={index} /></dd></div>
+            {typeof local.court.filing_fee === 'number' && <div><dt>{tx(locale, 'Filing fee', 'Tarifa de presentación')}</dt><dd class="num">{money(local.court.filing_fee)}</dd></div>}
+            {local.court.self_help_url && <div><dt>{tx(locale, 'Free help with forms', 'Ayuda gratuita con formularios')}</dt><dd><a href={local.court.self_help_url} rel="noopener">{tx(locale, 'Court self-help center', 'Centro de autoayuda del tribunal')}</a></dd></div>}
+          </dl>
+          <p class="small court-waiver"><a href={localePath(locale, `${base}/name-change`) + '#costs'}>{tx(locale, `Can’t afford the fee? How fee waivers work in ${stateName}`, `¿No puedes pagar la tarifa? Cómo funcionan las exenciones en ${stateName}`)}</a></p>
+        </div>
+        {notes && (notes.length > 220
+          ? <Fold id="court-notes" title={tx(locale, 'Filing tips for this court', 'Consejos para presentar en este tribunal')} preview={notes.slice(0, 140).replace(/\s+\S*$/, '') + '…'}><div class="prose"><Md text={notes} /></div></Fold>
+          : <div class="prose small court-notes"><Md text={notes} /></div>)}
       </section>
     )}
     {groups.map((g) => (
       <section id={g.key}>
-        <h2>{g.label}</h2>
+        <h2>{g.label} <span class="h-count num">{g.rs.length}</span></h2>
         <ul class="resources">{g.rs.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
       </section>
     ))}

@@ -32,19 +32,42 @@ Light and dark themes are both designed; dark follows `prefers-color-scheme`. Ev
 
 ## Shape and depth
 
-Controls 6px radius, panels 8px, chips fully rounded, route nodes circular. Flat with 1px hairlines, used to separate groups, not every row. No shadows except the floating mobile quick-exit button. No colored stripes on cards or alerts. No imagery: nothing on screen should signal the topic from across a room (a deliberate override of image-led guidance).
+Controls 6px radius, panels 8px, chips fully rounded, route nodes circular. Flat with 1px hairlines, used to separate groups, not every row. No shadows except floating layers: the mobile quick-exit button and term definitions. No colored stripes on cards or alerts. No imagery: nothing on screen should signal the topic from across a room (a deliberate override of image-led guidance).
 
 ## Information architecture
 
-- **Home:** hero (one question: which state) beside a live federal-status panel; every state and territory; the route; real counts computed from content next to Compare; help paying and how we verify.
-- **State:** climate strip, overview, your documents as the route (state and federal stops mixed, in order), care for adults and under 18, then local help beside statewide organizations.
-- **Guide:** "Step N of 5 in <state>", an answer block (status, summary, key facts, verification line), then steps, forms, costs and waivers, requirements, minors, next steps, free help, laws, a Next stop block, and sources (collapsed; citations open them).
-- **Care:** the same answer-first shape, plus health centers near you, telehealth, clinics and funds, and paying for care.
-- **Compare:** one table of every jurisdiction, filterable.
+### The answer model (the rule everything else follows)
+Every document answers **separate questions**, and each question gets its own answer. Never collapse a document into one status: "Not possible" on a passport hid that the name can change while the marker cannot.
+
+| Document | Questions (in this order) |
+|---|---|
+| Name change (court) | Change your legal name; newspaper notice; court hearing; keep the record private |
+| License, birth certificate, federal IDs | Update your name; change your gender marker (with options M/F/X and what proof you need) |
+| Care | Care for adults; care for under 18; Medicaid pays for hormones; for surgery; private plans must cover |
+
+The model lives in `lib/verdict.ts` (`docVerdict`, `careVerdict`, `markerDetail`) and renders through `Verdict.astro` in two variants: **full** (tinted answer cells at the top of a guide) and **compact** (label, answer, qualifier rows in lists, the route, Next stop). Answer words are fixed: Yes, Limited, No, In court, Unclear (care: Allowed, Limited, Banned). Qualifiers never claim more than the data says.
+
+### Three layers on every page
+1. **Answer** (always visible): verdict, one plain summary, the facts people plan around (cost, how to apply, wait), how verified.
+2. **How** (open sections): steps, costs and fee waivers, free help. On care pages: health centers near you, telehealth, clinics and funds, paying for care.
+3. **Detail** (folds): forms, requirements, minors, after you finish, tips, laws; on care, the full legal rules. Each fold previews its contents in its summary so people can decide without opening. Any link into a fold (contents, citations, step form links, URL hash) opens it; "Open all" opens a group; printing opens everything.
+
+### Orientation
+- **The route** (`lib/route.ts`): name change, Social Security, license, passport, birth certificate. The state hub draws it with each stop's verdict; guides show a **stepper** (Step N of 5 in State) and end with **Next stop**, which previews the next document's answers.
+- Federal guides reached from a state carry `?from=<code>` in the link and continue that state's route. Nothing is stored on the device.
+- **Terms** (`Term.astro`): gender marker, self-attestation, shield law, publication, sealing and the other glossary terms open a definition in place (native popover; never inside a link or summary).
+
+### Pages
+- **Home:** one question (which state) beside a federal table with separate Name and Gender marker columns; every state; the route; real counts next to Compare; help paying and how we verify.
+- **State:** climate strip; overview; your documents in order (route with verdicts); care (adult and under-18 answers); local help beside statewide organizations.
+- **Guide:** stepper, answer layer, court case callout (effect today visible, case detail one tap down), how it works, steps, costs, free help, More detail folds, Next stop, sources (collapsed).
+- **Care:** answer layer with coverage, then find care, then paying, then the rules in detail.
+- **Federal:** a key point that name and marker follow different rules, then each document with both answers.
+- **Compare:** a key point (names are possible everywhere; markers are where states differ), columns grouped by question (Name, Gender marker, Care, Protection), a "Show what you need" layer, sticky state column, empty state.
 
 ## Components
 
-`AnswerBlock`, `StatusChip` (chip or mark), `Route`, `NextStop`, `StatePicker`, `Steps`, `Forms` (disclosure rows), `Fees` (table), `ResourceCard` (a flat list row, never a nested card), `Toc`, `StatesGrid` (filterable list), `HealthCenters`, `ChangeNotice`, `Sources`, `Cite`. Icons come from one inline family (`Icon.astro`), drawn with a 2px stroke on a 24px grid.
+`AnswerBlock`, `Verdict` (full or compact), `Term`, `Fold`, `RouteStepper`, `StatusChip` (chip or mark), `Route`, `NextStop`, `StatePicker`, `Steps`, `Forms` (disclosure rows), `Fees` (table), `ResourceCard` (a flat list row, never a nested card), `Toc`, `StatesGrid` (filterable list), `HealthCenters`, `ChangeNotice`, `Sources`, `Cite`. Icons come from one inline family (`Icon.astro`), drawn with a 2px stroke on a 24px grid.
 
 ## Floors
 

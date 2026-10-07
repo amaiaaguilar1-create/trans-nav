@@ -1,0 +1,122 @@
+/* Layer-two components: steps, forms, fees, resource rows, health center finder. Part of the layered information system (see DESIGN.md). */
+/*
+ * Layer two ("how") components: steps, forms, fees, resources, health centers.
+ * This file loads before global.css, so selectors here are scoped one class deeper than the older rules they replace.
+ */
+
+/* ---------- steps: same node as the Route, a title, the body, and a labelled "you'll need" line ---------- */
+ol.steps.steps-v2 { --node: 2.5rem; }
+ol.steps.steps-v2 > li { padding: 0 0 var(--s7) calc(var(--node) + var(--s4)); }
+ol.steps.steps-v2 > li:last-child { padding-bottom: 0; }
+ol.steps.steps-v2 > li::before { width: var(--node); height: var(--node); top: -0.15rem; background: var(--canvas); border: 2px solid var(--line-strong); color: var(--text); font-size: var(--fs-sm); }
+ol.steps.steps-v2 > li::after { left: calc(var(--node) / 2 - 1px); top: calc(var(--node) - 0.15rem); bottom: 0; background: var(--line-strong); }
+ol.steps.steps-v2 > li.is-optional::before { border-style: dashed; color: var(--text-2); }
+ol.steps.steps-v2 .step-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s1) var(--s3); margin-bottom: var(--s2); padding-top: 0.2rem; }
+ol.steps.steps-v2 .step-head h3 { font-size: var(--fs-lg); line-height: 1.3; margin: 0; }
+ol.steps.steps-v2 .step-opt { font-size: var(--fs-xs); font-weight: 700; color: var(--text-2); border: 1px dashed var(--line-strong); border-radius: 999px; padding: 0.15em 0.6em; white-space: nowrap; }
+ol.steps.steps-v2 .body { max-width: var(--measure); }
+ol.steps.steps-v2 .body ul, ol.steps.steps-v2 .body ol { margin-bottom: var(--s3); }
+.step-need { margin: var(--s4) 0 0; padding: var(--s3) 0 0; border-top: 1px solid var(--line); display: grid; gap: var(--s2); max-width: var(--measure); font-size: var(--fs-sm); }
+.step-need > div { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: var(--s3); align-items: baseline; }
+.step-need dt { font-size: var(--fs-xs); font-weight: 700; color: var(--text-2); }
+.step-need dd { margin: 0; color: var(--text); }
+.step-need a { font-weight: 600; }
+.step-need a .num { font-weight: 700; }
+@media (max-width: 480px) {
+  ol.steps.steps-v2 { --node: 2.125rem; }
+  ol.steps.steps-v2 > li { padding-left: calc(var(--node) + var(--s3)); }
+  ol.steps.steps-v2 .step-head h3 { font-size: var(--fs-md); }
+}
+
+/* ---------- forms: grouped rows, code + name + whether you need it ---------- */
+.forms-v2 .form-group + .form-group { margin-top: var(--s6); }
+.forms-v2 .form-group-h { font-size: var(--fs-md); margin: 0 0 var(--s2); }
+.forms-v2 .form-group-h .num { color: var(--text-3); font-weight: 600; }
+.forms-v2 details.row-item > summary { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--s3); padding: var(--s3) 0; min-height: 56px; }
+.forms-v2 details.row-item > summary > span.form-id { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: var(--s3); row-gap: 2px; grid-column: 1; grid-row: 1; }
+.forms-v2 .form-id .code { grid-row: 1 / span 2; font-weight: 700; white-space: nowrap; min-width: 4.5rem; }
+.forms-v2 .form-id:not(:has(.code)) { grid-template-columns: minmax(0, 1fr); }
+.forms-v2 .form-name { font-weight: 600; }
+.forms-v2 .form-req { font-size: var(--fs-xs); font-weight: 700; color: var(--text-2); }
+.forms-v2 .form-req.always { color: var(--text); }
+.forms-v2 .form-when { font-weight: 400; }
+.forms-v2 details.row-item > summary > span.chev { grid-column: 2; grid-row: 1; align-self: center; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; }
+.forms-v2 details.row-item > summary:hover > span.chev { background: var(--sunken); color: var(--text); }
+.forms-v2 details.row-item > summary:hover .form-name { color: var(--accent); }
+.forms-v2 details.row-item .inner { padding: 0 0 var(--s5); }
+.forms-v2 .form-how { font-size: var(--fs-md); margin: var(--s3) 0 var(--s2); }
+.forms-v2 .form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); margin: var(--s4) 0 0; }
+@media (max-width: 560px) {
+  .forms-v2 .form-id .code { grid-row: auto; min-width: 0; }
+  .forms-v2 details.row-item > summary > span.form-id { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* ---------- fees: table on wide screens, stacked rows on phones ---------- */
+.fees-v2 { border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--surface); overflow: hidden; margin-top: var(--s4); }
+.fees-v2 table.data { width: 100%; }
+.fees-v2 table.data thead th { position: static; }
+.fees-v2 table.data td.money { font-size: var(--fs-md); font-weight: 700; white-space: nowrap; color: var(--text); }
+.fees-v2 table.data th.money { text-align: left; }
+.fees-v2 table.data tbody th { font-weight: 600; max-width: 26ch; }
+.fees-v2 td.fee-notes { color: var(--text-2); max-width: 46ch; }
+.fee-flags { display: flex; flex-wrap: wrap; gap: var(--s1) var(--s3); margin-bottom: var(--s1); }
+.fee-flags:only-child { margin-bottom: 0; }
+.fee-flag { display: inline-flex; align-items: center; gap: 0.3em; font-size: var(--fs-xs); font-weight: 700; color: var(--text-2); }
+.fee-flag.waivable { color: var(--ok); }
+.fee-note { display: block; }
+@media (max-width: 640px) {
+  .fees-v2 table.data, .fees-v2 table.data tbody, .fees-v2 table.data tr, .fees-v2 table.data th, .fees-v2 table.data td { display: block; }
+  .fees-v2 table.data thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .fees-v2 table.data tbody tr { padding: var(--s4); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s1) var(--s4); }
+  .fees-v2 table.data tbody tr:last-child { border-bottom: 0; }
+  .fees-v2 table.data tbody th, .fees-v2 table.data td { padding: 0; border: 0; max-width: none; }
+  .fees-v2 table.data tbody th { grid-column: 1; grid-row: 1; }
+  .fees-v2 table.data td.money { grid-column: 2; grid-row: 1; text-align: right; }
+  .fees-v2 td.fee-notes { grid-column: 1 / -1; font-size: var(--fs-sm); }
+  .fees-v2 td.fee-notes:empty { display: none; }
+}
+
+/* ---------- resources: who, what they help with, access, how to reach them ---------- */
+ul.resources > li.res { display: grid; gap: var(--s2); align-content: start; padding: var(--s5) 0; }
+ul.resources > li.res h3.res-name { font-size: var(--fs-md); line-height: 1.35; margin: 0; }
+ul.resources > li.res h3.res-name a { font-weight: 700; }
+ul.resources > li.res p.res-desc { margin: 0; font-size: var(--fs-sm); color: var(--text); max-width: var(--measure); }
+ul.resources > li.res p.res-area { margin: 0; font-size: var(--fs-xs); color: var(--text-2); }
+.res-tags { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: var(--s1); }
+.res-tags li { margin: 0; }
+.res-tags .tag { background: transparent; border-color: var(--line-strong); color: var(--text-2); font-weight: 600; }
+.res-tags .tag.free { background: var(--ok-bg); border-color: var(--ok-edge); color: var(--ok); font-weight: 700; }
+.res-tags .tag.unverified { border-style: dashed; }
+.res-contact { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s1) var(--s4); font-size: var(--fs-sm); color: var(--text-2); }
+.res-phone { display: inline-flex; align-items: center; gap: var(--s1); min-height: 44px; font-weight: 700; }
+.res-phone svg { flex: none; }
+.res-dist { font-weight: 700; color: var(--text); }
+
+/* ---------- health centers ---------- */
+.hc-controls.hc-v2 { display: grid; gap: var(--s4); margin: var(--s5) 0 var(--s3); align-items: end; }
+.hc-v2 .hc-field { display: grid; gap: var(--s2); min-width: 0; }
+.hc-v2 .hc-field label { font-weight: 700; font-size: var(--fs-sm); }
+.hc-v2 .hc-field input { min-height: 48px; width: 100%; padding: 0 var(--s4); font: 400 16px var(--font); color: var(--text); background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--r-control); }
+.hc-v2 .hc-field input::placeholder { color: var(--text-3); }
+.hc-v2 .hc-near-wrap { display: grid; gap: var(--s1); }
+.hc-v2 .hc-near { justify-self: start; min-height: 48px; }
+.hc-v2 .hc-note { margin: 0; font-size: var(--fs-xs); color: var(--text-2); max-width: 40ch; }
+@media (min-width: 760px) { .hc-controls.hc-v2 { grid-template-columns: minmax(0, 1fr) auto; } .hc-v2 .hc-note { max-width: 26ch; } }
+.hc-count { margin: 0 0 var(--s2); font-size: var(--fs-sm); color: var(--text-2); min-height: 1.5em; }
+li.hc-skel { display: grid; gap: var(--s2); padding: var(--s5) 0; margin: 0; border-top: 1px solid var(--line); }
+li.hc-skel span { display: block; height: 0.9rem; border-radius: 4px; background: var(--sunken); }
+li.hc-skel span:nth-child(1) { width: 60%; height: 1.05rem; }
+li.hc-skel span:nth-child(2) { width: 40%; }
+li.hc-skel span:nth-child(3) { width: 75%; }
+@media (prefers-reduced-motion: no-preference) {
+  li.hc-skel span { animation: hc-pulse 1.4s ease-in-out infinite; }
+  @keyframes hc-pulse { 50% { opacity: 0.55; } }
+}
+li.hc-none { grid-column: 1 / -1; }
+.hc-fail { background: var(--sunken); border-radius: var(--r-panel); padding: var(--s4) var(--s5); margin: var(--s4) 0; }
+.hc-fail p { margin: 0; }
+/* [hidden] must win over the display rules above (list, controls, buttons) */
+section.hc [hidden] { display: none !important; }
+.forms-v2 details.row-item[open] .form-when { display: none; }
+.forms-v2 details.row-item .inner > p, .forms-v2 details.row-item .inner > div { font-size: var(--fs-sm); }
+@media (min-width: 561px) { .forms-v2 .form-row:has(.code) .inner { padding-left: calc(4.5rem + var(--s3)); } }

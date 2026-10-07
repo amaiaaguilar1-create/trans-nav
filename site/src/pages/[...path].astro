@@ -24,7 +24,7 @@ import StaticPage from '../views/StaticPage.astro';
 import StatesGrid from '../components/StatesGrid.astro';
 import CompareView from '../views/CompareView.astro';
 import { tx } from '../lib/text';
-import { routeFor, type Stop } from '../lib/route';
+import { routeFor, type RouteContext } from '../lib/route';
 
 type Route =
   | { kind: 'home' }
@@ -77,7 +77,8 @@ let kicker = '';
 let lead = '';
 let description: string | undefined;
 let crumbs: { href: string; label: string }[] = [];
-let routeNav: { prev?: Stop; next?: Stop; hub: string; hubLabel: string } | undefined;
+let routeCtx: RouteContext | undefined;
+let fromRoutes: (RouteContext & { code: string })[] = [];
 let section: 'states' | 'federal' | 'compare' | 'about' | 'home' = 'home';
 const statesCrumb = { href: localePath(locale, 'states'), label: tx(locale, 'States', 'Estados') };
 
@@ -98,10 +99,7 @@ if (route.kind === 'state') {
     const [en, es] = guideTitle[route.guideType]; h1 = tx(locale, en, es); description = lt(route.state.guides[route.guideType]!.status_summary, locale);
     const stops = routeFor(route.state, federal, locale);
     const i = stops.findIndex((s) => s.key === route.guideType);
-    if (i >= 0) {
-      kicker = tx(locale, `Step ${i + 1} of ${stops.length} in ${sName}`, `Paso ${i + 1} de ${stops.length} en ${sName}`);
-      routeNav = { prev: stops[i - 1], next: stops[i + 1], hub: localePath(locale, `states/${route.state.code.toLowerCase()}`), hubLabel: tx(locale, `${sName} overview`, `Resumen de ${sName}`) };
-    }
+    if (stops.some((s) => s.key === route.guideType)) routeCtx = { stops, current: route.guideType, state: sName, hub: localePath(locale, `states/${route.state.code.toLowerCase()}`) };
   }
   if (route.kind === 'care') { h1 = tx(locale, `Gender-affirming care in ${sName}`, `Atención de afirmación de género en ${sName}`); description = lt(route.state.care!.status_summary, locale); }
   if (route.kind === 'local') { const c = route.state.cities.find((x) => x.slug === route.slug)!; h1 = tx(locale, `Local help in ${c.name}`, `Ayuda local en ${c.name}`); }
@@ -111,6 +109,11 @@ if (route.kind === 'state') {
   section = 'federal';
   title = h1 = _(`guide.${route.guide.guide_type}` as const);
   kicker = tx(locale, 'Federal, the same in every state', 'Federal, igual en todos los estados');
+  const key = route.guide.guide_type;
+  fromRoutes = states.flatMap((st) => {
+    const stops = routeFor(st, federal, locale);
+    return stops.some((x) => x.key === key) ? [{ code: st.code.toLowerCase(), stops, current: key, state: lt(st.meta.name, locale), hub: localePath(locale, `states/${st.code.toLowerCase()}`) }] : [];
+  });
   description = lt(route.guide.status_summary, locale);
   crumbs = [{ href: localePath(locale, 'federal'), label: tx(locale, 'Federal IDs', 'Documentos federales') }];
 } else if (route.kind === 'federal') {
@@ -148,11 +151,11 @@ const currentLabel = route.kind === 'guide' ? _(`guide.${route.guideType}` as co
   {route.kind === 'home' && <HomeView states={states} federal={federal} locale={locale} />}
   {route.kind === 'states' && <StatesGrid states={states} locale={locale} id="states-filter" />}
   {route.kind === 'state' && <StateView state={route.state} federal={federal} locale={locale} />}
-  {route.kind === 'guide' && <GuideView guide={route.state.guides[route.guideType]!} locale={locale} routeNav={routeNav} />}
+  {route.kind === 'guide' && <GuideView guide={route.state.guides[route.guideType]!} locale={locale} route={routeCtx} />}
   {route.kind === 'care' && <CareView care={route.state.care!} orgs={orgs} locale={locale} />}
   {route.kind === 'local' && <LocalView local={route.state.cities.find((c) => c.slug === route.slug)!} locale={locale} stateCode={route.state.code} />}
   {route.kind === 'federal' && <FederalIndexView federal={federal} locale={locale} />}
-  {route.kind === 'federal_guide' && <GuideView guide={route.guide} locale={locale} />}
+  {route.kind === 'federal_guide' && <GuideView guide={route.guide} locale={locale} fromRoutes={fromRoutes} />}
   {route.kind === 'compare' && <CompareView states={states} locale={locale} />}
   {route.kind === 'static' && <StaticPage page={route.page} locale={locale} orgs={orgs} />}
 </Base>

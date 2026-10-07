@@ -1,9 +1,13 @@
 ---
+/**
+ * Steps: the core of every guide. Each step is a numbered node on one connected line (same node as the Route),
+ * a title, the body at reading measure, and a labelled "you'll need" line: forms, cost, time.
+ */
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
+import { tx } from '../lib/text';
 import Md from './Md.astro';
 import Cite from './Cite.astro';
-import Icon from './Icon.astro';
 import type { Step, Form, Fee } from '../types/content';
 const { steps, forms = [], fees = [], locale, index } = Astro.props as { steps: Step[]; forms?: Form[]; fees?: Fee[]; locale: Locale; index: Map<string, number> };
 const _ = t(locale);
@@ -12,19 +16,35 @@ const formById = new Map(forms.map((f) => [f.id, f]));
 const formLabel = (f: Form) => (/^[a-z0-9-]+$/.test(f.id) ? lt(f.name, locale) : f.id);
 const feeById = new Map(fees.map((f) => [f.id, f]));
 const money = (n: number) => new Intl.NumberFormat(locale === 'es' ? 'es-US' : 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: n % 1 ? 2 : 0 }).format(n);
+const feeText = (f: Fee) => (typeof f.amount === 'number' ? (f.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(f.amount)) : typeof f.min === 'number' && typeof f.max === 'number' ? `${money(f.min)}-${money(f.max)}` : typeof f.min === 'number' ? `${money(f.min)}+` : tx(locale, 'Varies', 'Varía'));
 ---
-<ol class="steps">
-  {steps.map((s) => (
-    <li id={`step-${s.id}`}>
-      <h3>{lt(s.title, locale)}{s.optional && <span class="tag" style="margin-left:.5rem;vertical-align:middle">{_('form.required.optional')}</span>}<Cite ids={s.sources} index={index} /></h3>
-      <div class="body"><Md text={lt(s.body, locale)} /></div>
-      {(s.forms?.length || s.fees?.length || s.estimated_time) && (
-        <div class="meta">
-          {s.forms?.map((id) => { const f = formById.get(id); return f ? <a class="meta-item" href={`#form-${id.replace(/\s+/g, '-')}`}><Icon name="file" size={14} />{formLabel(f)}</a> : null; })}
-          {s.fees?.map((id) => { const f = feeById.get(id); return f && typeof f.amount === 'number' ? <a class="meta-item num" href="#costs">{money(f.amount)} · {lt(f.label, locale)}</a> : null; })}
-          {s.estimated_time && <span class="meta-item"><Icon name="clock" size={14} />{lt(s.estimated_time, locale)}</span>}
+<ol class="steps steps-v2">
+  {steps.map((s) => {
+    const stepForms = (s.forms ?? []).map((id) => formById.get(id)).filter(Boolean) as Form[];
+    const stepFees = (s.fees ?? []).map((id) => feeById.get(id)).filter(Boolean) as Fee[];
+    const time = s.estimated_time && lt(s.estimated_time, locale);
+    const needs = stepForms.length || stepFees.length || time;
+    return (
+      <li id={`step-${s.id}`} class={s.optional ? 'is-optional' : undefined}>
+        <div class="step-head">
+          <h3>{lt(s.title, locale)}<Cite ids={s.sources} index={index} /></h3>
+          {s.optional && <span class="step-opt">{tx(locale, 'Optional', 'Opcional')}</span>}
         </div>
-      )}
-    </li>
-  ))}
+        <div class="body"><Md text={lt(s.body, locale)} /></div>
+        {needs && (
+          <dl class="step-need">
+            {stepForms.length > 0 && (
+              <div><dt>{stepForms.length === 1 ? tx(locale, 'Form', 'Formulario') : tx(locale, 'Forms', 'Formularios')}</dt>
+                <dd>{stepForms.map((f, i) => <>{i > 0 && ', '}<a href={`#form-${f.id.replace(/\s+/g, '-')}`}>{formLabel(f)}</a></>)}</dd></div>
+            )}
+            {stepFees.length > 0 && (
+              <div><dt>{tx(locale, 'Cost', 'Costo')}</dt>
+                <dd>{stepFees.map((f, i) => <>{i > 0 && '; '}<a href="#costs" class="num">{feeText(f)}</a> {lt(f.label, locale).replace(/^./, (c) => c.toLowerCase())}</>)}</dd></div>
+            )}
+            {time && <div><dt>{tx(locale, 'Time', 'Tiempo')}</dt><dd>{time}</dd></div>}
+          </dl>
+        )}
+      </li>
+    );
+  })}
 </ol>

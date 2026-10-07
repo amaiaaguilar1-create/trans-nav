@@ -41,14 +41,3 @@ const intro = tx(locale, `${sources.length} sources. Numbers in the text, like [
     </>
   )}
 </section>
-<script>
-  // Open the containing disclosure when a citation link or a #src- URL targets a source inside it.
-  const reveal = () => {
-    const el = location.hash.startsWith('#src-') ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
-    const box = el?.closest('details');
-    if (el && box && !box.open) { box.open = true; el.scrollIntoView(); }
-  };
-  addEventListener('hashchange', reveal);
-  document.addEventListener('click', (e) => { const a = (e.target as Element).closest?.('a[href^="#src-"]'); if (a) { const box = document.getElementById(a.getAttribute('href')!.slice(1))?.closest('details'); if (box) box.open = true; } });
-  reveal();
-</script>

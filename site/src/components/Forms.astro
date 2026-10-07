@@ -1,31 +1,52 @@
 ---
+/**
+ * Forms, inside the Forms fold. Each form is a row: code, plain name, and whether you need it, with tips one tap deeper.
+ * When a guide has both required and situational forms, they are grouped so people know which ones apply to everyone.
+ */
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
-import { tx } from '../lib/text';
+import { tx, firstSentence } from '../lib/text';
 import Md from './Md.astro';
 import Cite from './Cite.astro';
 import Icon from './Icon.astro';
 import type { Form } from '../types/content';
 const { forms, locale, index } = Astro.props as { forms: Form[]; locale: Locale; index: Map<string, number> };
 const _ = t(locale);
+const isSlug = (f: Form) => /^[a-z0-9-]+$/.test(f.id);
+const always = forms.filter((f) => f.required === 'always');
+const other = forms.filter((f) => f.required !== 'always');
+const groups = always.length && other.length
+  ? [{ title: tx(locale, 'Forms everyone files', 'Formularios que todos presentan'), forms: always }, { title: tx(locale, 'Forms only some people need', 'Formularios que solo algunas personas necesitan'), forms: other }]
+  : [{ title: '', forms }];
 ---
-<div class="rows">
-  {forms.map((f) => (
-    <details class="row-item" id={`form-${f.id.replace(/\s+/g, '-')}`}>
-      <summary>
-        <span class="code">{/^[a-z0-9-]+$/.test(f.id) ? '' : f.id}</span>
-        <span>{lt(f.name, locale)} <span class="xs muted">· {_(`form.required.${f.required}` as const)}</span></span>
-        <span class="chev"><Icon name="chevron" size={16} /></span>
-      </summary>
-      <div class="inner">
-        {f.condition && <p class="muted">{lt(f.condition, locale)}</p>}
-        {f.how_to_fill && <><h3 style="font-size:var(--fs-md);margin-bottom:.4rem">{_('form.how_to_fill')}</h3><Md text={lt(f.how_to_fill, locale)} /></>}
-        <p style="display:flex;flex-wrap:wrap;gap:.5rem;margin:.75rem 0 0">
-          <a class="btn sm secondary" href={f.url} rel="noopener"><Icon name="external" size={14} />{/^[a-z0-9-]+$/.test(f.id) ? tx(locale, 'Open the form', 'Abrir el formulario') : tx(locale, `Open ${f.id}`, `Abrir ${f.id}`)}</a>
-          {f.url_es && f.url_es !== f.url && <a class="btn sm secondary" href={f.url_es} rel="noopener" lang="es">{_('form.official_es')}</a>}
-          <Cite ids={f.sources} index={index} />
-        </p>
+<div class="forms-v2">
+  {groups.map((g) => (
+    <div class="form-group">
+      {g.title && <h3 class="form-group-h">{g.title} <span class="num">({g.forms.length})</span></h3>}
+      <div class="rows">
+        {g.forms.map((f) => (
+          <details class="row-item form-row" id={`form-${f.id.replace(/\s+/g, '-')}`}>
+            <summary>
+              <span class="form-id">
+                {!isSlug(f) && <span class="code num">{f.id}</span>}
+                <span class="form-name">{lt(f.name, locale)}</span>
+                <span class={`form-req ${f.required}`}>{_(`form.required.${f.required}` as const)}{f.required === 'conditional' && f.condition ? <span class="form-when">: {firstSentence(lt(f.condition, locale), 90)}</span> : null}</span>
+              </span>
+              <span class="chev"><Icon name="chevron" size={18} /></span>
+            </summary>
+            <div class="inner">
+              {f.condition && f.required !== 'conditional' && <p class="muted">{lt(f.condition, locale)}</p>}
+              {f.condition && f.required === 'conditional' && firstSentence(lt(f.condition, locale), 90) !== lt(f.condition, locale).trim() && <p class="muted">{lt(f.condition, locale)}</p>}
+              {f.how_to_fill && <><h4 class="form-how">{_('form.how_to_fill')}</h4><Md text={lt(f.how_to_fill, locale)} /></>}
+              <p class="form-actions">
+                <a class="btn sm secondary" href={f.url} rel="noopener"><Icon name="external" size={14} />{isSlug(f) ? tx(locale, 'Open the form', 'Abrir el formulario') : tx(locale, `Open ${f.id}`, `Abrir ${f.id}`)}</a>
+                {f.url_es && f.url_es !== f.url && <a class="btn sm secondary" href={f.url_es} rel="noopener" lang="es">{_('form.official_es')}</a>}
+                <Cite ids={f.sources} index={index} />
+              </p>
+            </div>
+          </details>
+        ))}
       </div>
-    </details>
+    </div>
   ))}
 </div>

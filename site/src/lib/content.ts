@@ -94,3 +94,13 @@ export function guidePath(g: { jurisdiction: string; guide_type: string }): stri
 export function changesFor(path: string): OpenChange[] {
   return openChanges().filter((c) => c.paths.includes(path));
 }
+
+export interface GlossaryTerm { id: string; term: LocalizedText; definition: LocalizedText }
+let glossaryCache: Map<string, GlossaryTerm> | undefined;
+export async function loadGlossary(): Promise<Map<string, GlossaryTerm>> {
+  if (glossaryCache) return glossaryCache;
+  const files = await getCollection('glossary');
+  const terms = files.flatMap((f) => (f.data as { terms: GlossaryTerm[] }).terms);
+  glossaryCache = new Map(terms.map((t) => [t.id, t]));
+  return glossaryCache;
+}

@@ -1,23 +1,27 @@
 ---
+/** Federal documents: each one answers two questions, shown side by side, with the reason one line below. */
 import { t, type Locale } from '../i18n/ui';
 import { lt, localePath } from '../lib/content';
 import { tx, firstSentence } from '../lib/text';
+import { docVerdict } from '../lib/verdict';
 import type { DocumentGuide } from '../types/content';
-import StatusChip from '../components/StatusChip.astro';
+import Verdict from '../components/Verdict.astro';
 import Icon from '../components/Icon.astro';
 const { federal, locale } = Astro.props as { federal: DocumentGuide[]; locale: Locale };
 const _ = t(locale);
 const order = ['passport', 'social_security', 'uscis', 'tsa_global_entry'];
 const fed = [...federal].sort((a, b) => order.indexOf(a.guide_type) - order.indexOf(b.guide_type));
 ---
-<ol class="glance">
+<div class="key-point">
+  <p><strong>{tx(locale, 'Your name and your gender marker follow different rules.', 'Tu nombre y tu marcador de género siguen reglas distintas.')}</strong> {tx(locale, 'Every federal agency still updates names after a legal name change. Changing the sex or gender marker is blocked or limited right now on all of them.', 'Todas las agencias federales siguen actualizando nombres después de un cambio legal. Cambiar el marcador de sexo o género está bloqueado o limitado ahora en todas.')}</p>
+</div>
+<ul class="doc-list">
   {fed.map((g) => (
     <li><a href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)}>
-      <span><span class="glance-title">{_(`guide.${g.guide_type}` as const)}</span>{g.name_change_status && <><br /><span class="xs muted">{tx(locale, 'Name changes', 'Cambios de nombre')}: {_(`status.${g.name_change_status}` as const)}</span></>}</span>
-      <StatusChip status={g.status} locale={locale} short variant="mark" />
-      <span class="glance-note">{firstSentence(lt(g.status_summary, locale), 220)}</span>
-      <span class="arrow"><Icon name="chevron" size={18} /></span>
+      <span class="doc-list-head"><span class="stop-title">{_(`guide.${g.guide_type}` as const)}</span>{g.litigation?.length ? <span class="flag legal"><Icon name="scale" size={14} />{tx(locale, 'In court', 'En tribunales')}</span> : null}</span>
+      <Verdict rows={docVerdict(g, locale)} locale={locale} variant="compact" terms={false} />
+      <span class="stop-note">{firstSentence(lt(g.status_summary, locale), 220)}</span>
+      <span class="stop-go" aria-hidden="true"><Icon name="chevron" size={20} /></span>
     </a></li>
   ))}
-</ol>
-<p class="small muted prose" style="margin-top:1.5rem">{tx(locale, 'Status shown is for changing the sex or gender marker. Every one of these still accepts a legal name change.', 'El estado mostrado es para cambiar el marcador de sexo o género. Todos siguen aceptando un cambio legal de nombre.')}</p>
+</ul>

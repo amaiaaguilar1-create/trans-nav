@@ -1,5 +1,8 @@
 ---
-/** One resource as a flat list row (use inside <ul class="resources">). */
+/**
+ * One resource as a flat list row (use inside <ul class="resources">).
+ * Reading order: who they are, what they help with, how you can access them (cost, telehealth, insurance), how to reach them.
+ */
 import { t, type Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
 import { tx } from '../lib/text';
@@ -9,23 +12,28 @@ import type { Resource } from '../types/content';
 const { r, locale, index } = Astro.props as { r: Resource; locale: Locale; index?: Map<string, number> };
 const _ = t(locale);
 const verified = r.verification === 'official_source' || r.verification === 'org_website';
+const access = [
+  r.cost && r.cost !== 'unknown' && { text: _(`resource.cost.${r.cost}` as const), key: r.cost === 'free' ? 'free' : '' },
+  r.telehealth && { text: _('resource.telehealth'), key: '' },
+  r.accepts_medicaid && { text: _('resource.medicaid'), key: '' },
+  r.accepts_uninsured && { text: _('resource.uninsured'), key: '' },
+].filter(Boolean) as { text: string; key: string }[];
 ---
-<li>
-  <h3>{r.url ? <a href={r.url} rel="noopener">{r.name}</a> : r.name}{index && <Cite ids={r.sources} index={index} />}</h3>
-  <div class="tags">
-    {r.cost && r.cost !== 'unknown' && <span class="tag">{_(`resource.cost.${r.cost}` as const)}</span>}
-    {r.telehealth && <span class="tag">{_('resource.telehealth')}</span>}
-    {r.accepts_medicaid && <span class="tag">{_('resource.medicaid')}</span>}
-    {r.accepts_uninsured && <span class="tag">{_('resource.uninsured')}</span>}
-    {!verified && <span class="tag" title={tx(locale, 'We could not confirm this on the organization\'s own site.', 'No pudimos confirmarlo en el sitio de la organización.')}>{_(`resource.verification.${r.verification}` as const)}</span>}
-  </div>
-  <p>{lt(r.description, locale)}</p>
-  {r.areas_served && <p class="xs muted">{lt(r.areas_served, locale)}</p>}
+<li class="res">
+  <h3 class="res-name">{r.url ? <a href={r.url} rel="noopener">{r.name}</a> : r.name}{index && <Cite ids={r.sources} index={index} />}</h3>
+  <p class="res-desc">{lt(r.description, locale)}</p>
+  {(access.length > 0 || !verified) && (
+    <ul class="res-tags" aria-label={tx(locale, 'Access', 'Acceso')}>
+      {access.map((a) => <li class={`tag ${a.key}`}>{a.text}</li>)}
+      {!verified && <li class="tag unverified" title={tx(locale, 'We could not confirm this on the organization\'s own site.', 'No pudimos confirmarlo en el sitio de la organización.')}>{_(`resource.verification.${r.verification}` as const)}</li>}
+    </ul>
+  )}
+  {r.areas_served && <p class="res-area">{tx(locale, 'Serves', 'Atiende')}: {lt(r.areas_served, locale)}</p>}
   {(r.phone || r.address || (r.languages && r.languages.length > 0)) && (
-    <div class="contact">
-      {r.phone && <a href={`tel:${r.phone.replace(/[^\d+]/g, '')}`} class="num"><Icon name="phone" size={14} /> {r.phone}</a>}
-      {r.address && <span class="muted">{r.address}</span>}
-      {r.languages && r.languages.length > 0 && <span class="muted">{r.languages.join(', ')}</span>}
+    <div class="res-contact">
+      {r.phone && <a href={`tel:${r.phone.replace(/[^\d+]/g, '')}`} class="res-phone num"><Icon name="phone" size={15} />{r.phone}</a>}
+      {r.address && <span class="res-addr">{r.address}</span>}
+      {r.languages && r.languages.length > 0 && <span class="res-lang">{tx(locale, 'Languages', 'Idiomas')}: {r.languages.join(', ')}</span>}
     </div>
   )}
 </li>

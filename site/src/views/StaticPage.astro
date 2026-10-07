@@ -1,62 +1,132 @@
 ---
-/** About and Privacy. Site copy lives here, not in YAML, because it is not jurisdiction data. */
+/**
+ * About and Privacy. Site copy lives here, not in YAML, because it is not jurisdiction data.
+ * About teaches the reading model (separate questions, the five answers) with the same components the guides use,
+ * then how we verify, then help paying. Privacy gives the short answer first and the detail in folds.
+ */
 import type { Locale } from '../i18n/ui';
 import { lt } from '../lib/content';
-import { tx } from '../lib/text';
+import { tx, type Status } from '../lib/text';
+import { answerWord, type VerdictRow } from '../lib/verdict';
 import type { NationalOrMultiStateOrganization } from '../types/content';
+import Verdict from '../components/Verdict.astro';
+import StatusChip from '../components/StatusChip.astro';
+import Fold from '../components/Fold.astro';
 const { page, locale, orgs } = Astro.props as { page: 'about' | 'privacy'; locale: Locale; orgs: Map<string, NationalOrMultiStateOrganization> };
-const es = locale === 'es';
 const fundIds = ['point-of-pride', 'genderbands', 'trans-lifeline', 'transgender-law-center', 'a4te', 'namesake'];
 const funds = fundIds.map((id) => orgs.get(id)).filter(Boolean) as NationalOrMultiStateOrganization[];
+
+// An illustrative verdict, labelled as an example: the shape every ID document page opens with.
+const example: VerdictRow[] = [
+  { key: 'name', label: tx(locale, 'Update your name', 'Actualizar tu nombre'), short: tx(locale, 'Name', 'Nombre'), status: 'available', answer: answerWord('available', locale), detail: tx(locale, 'After your legal name change', 'Después de tu cambio legal de nombre') },
+  { key: 'marker', label: tx(locale, 'Change your gender marker', 'Cambiar tu marcador de género'), short: tx(locale, 'Gender marker', 'Marcador de género'), term: 'gender-marker', status: 'prohibited', answer: answerWord('prohibited', locale), detail: tx(locale, 'Cannot be changed right now', 'No se puede cambiar por ahora') },
+];
+const legend: { s: Status; doc: [string, string]; care: [string, string] }[] = [
+  { s: 'available', doc: ['You can do it today. The page says what you need to bring.', 'Puedes hacerlo hoy. La página dice qué necesitas llevar.'], care: ['Allowed by state law.', 'Permitida por la ley estatal.'] },
+  { s: 'restricted', doc: ['Possible only with extra proof or in narrow cases, such as a doctor’s letter, proof of surgery, or a court order.', 'Posible solo con pruebas adicionales o en casos limitados, como una carta médica, prueba de cirugía u orden judicial.'], care: ['Allowed with limits, such as age or waiting rules.', 'Permitida con límites, como reglas de edad o espera.'] },
+  { s: 'prohibited', doc: ['Not possible right now.', 'No es posible por ahora.'], care: ['Banned by state law.', 'Prohibida por la ley estatal.'] },
+  { s: 'litigation', doc: ['A court case is changing the rule. Read the page’s court notice for what applies today.', 'Un caso judicial está cambiando la regla. Lee el aviso del caso en la página para saber qué aplica hoy.'], care: ['A court case is changing the rule.', 'Un caso judicial está cambiando la regla.'] },
+  { s: 'unclear', doc: ['The agency has not written a policy, or applies it inconsistently. Call ahead.', 'La agencia no tiene una política escrita o la aplica de forma inconsistente. Llama antes.'], care: ['The law is unclear or untested.', 'La ley es poco clara o no se ha probado.'] },
+];
+const verify = [
+  { t: ['Primary sources first', 'Primero las fuentes oficiales'], d: ['Every fee, form, and rule links to the court, agency, or law it comes from. Guides from advocacy groups are used to cross-check, not as the source.', 'Cada tarifa, formulario y regla enlaza al tribunal, agencia o ley de donde viene. Las guías de organizaciones se usan para comparar, no como fuente.'] },
+  { t: ['Drafts are labeled', 'Los borradores están marcados'], d: ['Pages marked as drafts were written with AI from those official sources and have not yet been checked line by line by a person. A page becomes verified only after a reviewer opens every source and confirms each claim.', 'Las páginas marcadas como borrador se escribieron con IA a partir de esas fuentes oficiales y aún no han sido revisadas línea por línea por una persona. Una página pasa a verificada solo cuando alguien abre cada fuente y confirma cada dato.'] },
+  { t: ['Watched every week', 'Vigilado cada semana'], d: ['Software checks the official pages we cite every week, and federal pages every day. When one changes in a way that could matter, the affected page shows "Change detected, under review" until a person updates it.', 'Un programa revisa cada semana las páginas oficiales que citamos, y las federales cada día. Cuando una cambia de forma que podría importar, la página afectada muestra "Cambio detectado, en revisión" hasta que una persona la actualice.'] },
+  { t: ['Dated', 'Con fecha'], d: ['Every page shows when it was last checked. After 90 days without a re-check it says so.', 'Cada página muestra cuándo se revisó por última vez. Después de 90 días sin revisión, lo indica.'] },
+];
+const privacy = [
+  { id: 'p-account', t: ['No account, no identity', 'Sin cuenta, sin identidad'], short: ['You never sign in and we never ask who you are.', 'Nunca inicias sesión y nunca te preguntamos quién eres.'], d: ['You do not need an account and we do not ask who you are. Nothing you read here is tied to you.', 'No necesitas una cuenta y no te pedimos quién eres. Nada de lo que lees aquí se vincula contigo.'] },
+  { id: 'p-tracking', t: ['No tracking', 'Sin rastreo'], short: ['No ad trackers, no fingerprinting, no third-party analytics.', 'Sin rastreadores publicitarios, sin huellas digitales, sin analíticas de terceros.'], d: ['We do not use advertising trackers, browser fingerprinting, or third-party analytics that identify you. Fonts are served from this site, not from Google, so your address is not sent to Google either.', 'No usamos rastreadores publicitarios, huellas digitales del navegador ni analíticas de terceros que te identifiquen. Las fuentes tipográficas se sirven desde este mismo sitio, no desde Google, así que tu dirección tampoco se envía a Google.'] },
+  { id: 'p-location', t: ['Your location stays on your device', 'Tu ubicación se queda en tu dispositivo'], short: ['The "near me" search runs entirely in your browser.', 'La búsqueda "cerca de mí" funciona solo en tu navegador.'], d: ['The "near me" health center search computes distances on your own device. Your location is never sent anywhere, and it is not saved after you leave the page.', 'La búsqueda de centros de salud "cerca de mí" calcula distancias en tu propio dispositivo. Tu ubicación nunca se envía a ningún lugar y no se guarda al salir de la página.'] },
+  { id: 'p-exit', t: ['Quick exit and your history', 'Salida rápida y tu historial'], short: ['Quick exit leaves instantly, but does not erase history.', 'La salida rápida sale al instante, pero no borra el historial.'], d: ['The Quick exit button, or pressing Escape twice, immediately replaces this page with an unrelated website, so the Back button does not return here. It does not clear your browser history. If someone may check your device, use a private or incognito window, which keeps no history after you close it.', 'El botón de salida rápida, o presionar Escape dos veces, reemplaza de inmediato esta página con un sitio no relacionado, así que el botón Atrás no regresa aquí. No borra tu historial. Si alguien podría revisar tu dispositivo, usa una ventana privada o de incógnito, que no guarda historial al cerrarla.'] },
+  { id: 'p-links', t: ['Other websites', 'Otros sitios'], short: ['Links you follow leave this site’s protections.', 'Los enlaces que sigues salen de las protecciones de este sitio.'], d: ['Links to courts, agencies, and organizations take you to their websites, which have their own privacy practices. We send no referrer, so those sites do not learn which page of ours you came from.', 'Los enlaces a tribunales, agencias y organizaciones te llevan a sus sitios, que tienen sus propias prácticas de privacidad. No enviamos la dirección de origen, así que esos sitios no saben de qué página nuestra vienes.'] },
+];
+const L = (pair: [string, string] | string[]) => tx(locale, pair[0], pair[1]);
 ---
 {page === 'about' ? (
-  <div class="prose">
-    <p class="lead" style="max-width:none">{tx(locale,
+  <>
+    <p class="lead about-lead">{tx(locale,
       'One place for what a trans person needs to change their legal name, update the gender marker on their documents, and find gender-affirming care, for every US state, DC, and the territories.',
       'Un solo lugar con lo que una persona trans necesita para cambiar su nombre legal, actualizar el marcador de género en sus documentos y encontrar atención de afirmación de género, para cada estado, DC y los territorios.')}</p>
-    <p>{tx(locale,
-      'It was started by someone who went through the process and kept running into scattered, outdated, or contradictory information. Rules change often, especially since 2025, and they change differently in every state.',
-      'Lo inició una persona que pasó por el proceso y se topó una y otra vez con información dispersa, desactualizada o contradictoria. Las reglas cambian con frecuencia, sobre todo desde 2025, y cambian distinto en cada estado.')}</p>
 
-    <h2 id="how-we-verify" style="margin:3rem 0 1rem">{tx(locale, 'How we keep this current', 'Cómo lo mantenemos al día')}</h2>
-    <ol>
-      <li><strong>{tx(locale, 'Primary sources first.', 'Primero las fuentes oficiales.')}</strong> {tx(locale, 'Every fee, form, and rule links to the court, agency, or law it comes from. Guides from advocacy groups are used to cross-check, not as the source.', 'Cada tarifa, formulario y regla enlaza al tribunal, agencia o ley de donde viene. Las guías de organizaciones se usan para comparar, no como fuente.')}</li>
-      <li><strong>{tx(locale, 'Drafts are labeled.', 'Los borradores están marcados.')}</strong> {tx(locale, 'Pages marked "Draft" were written with AI from those official sources and have not yet been checked line by line by a person. A page becomes "Verified" only after a reviewer opens every source and confirms each claim.', 'Las páginas marcadas como "Borrador" se escribieron con IA a partir de esas fuentes oficiales y aún no han sido revisadas línea por línea por una persona. Una página pasa a "Verificada" solo cuando alguien abre cada fuente y confirma cada dato.')}</li>
-      <li><strong>{tx(locale, 'Watched every week.', 'Vigilado cada semana.')}</strong> {tx(locale, 'Software checks the official pages we cite every week, and federal pages every day. When one changes in a way that could matter, the affected page shows "Change detected, under review" until a person updates it.', 'Un programa revisa cada semana las páginas oficiales que citamos, y las federales cada día. Cuando una cambia de forma que podría importar, la página afectada muestra "Cambio detectado, en revisión" hasta que una persona la actualice.')}</li>
-      <li><strong>{tx(locale, 'Dated.', 'Con fecha.')}</strong> {tx(locale, 'Every page shows when it was last checked. After 90 days without a re-check it says so.', 'Cada página muestra cuándo se revisó por última vez. Después de 90 días sin revisión, lo indica.')}</li>
-    </ol>
-    <p>{tx(locale, 'This site is not a law firm or a medical provider, and nothing here is legal or medical advice. If something is wrong or out of date, please tell us with the link at the bottom of every page.', 'Este sitio no es un despacho de abogados ni un proveedor médico, y nada aquí es asesoría legal ni médica. Si algo está mal o desactualizado, avísanos con el enlace al pie de cada página.')}</p>
+    <section class="section" id="reading" aria-labelledby="reading-h">
+      <h2 id="reading-h" class="section-title">{tx(locale, 'How to read a page', 'Cómo leer una página')}</h2>
+      <div class="key-point">
+        <p><strong>{tx(locale, 'Your name and your gender marker are separate questions.', 'Tu nombre y tu marcador de género son preguntas distintas.')}</strong> {tx(locale, 'On almost every document you can update your name after a legal name change, even where the gender marker cannot be changed. So every document page answers each question on its own.', 'En casi todos los documentos puedes actualizar tu nombre después de un cambio legal, aun donde el marcador de género no se puede cambiar. Por eso cada página de documento responde cada pregunta por separado.')}</p>
+      </div>
+      <figure class="about-example">
+        <Verdict rows={example} locale={locale} variant="full" />
+        <figcaption class="small muted">{tx(locale, 'Example of how a document page opens. This one shows a document where the name can be updated but the gender marker cannot.', 'Ejemplo de cómo empieza una página de documento. Este muestra un documento donde el nombre se puede actualizar pero el marcador de género no.')}</figcaption>
+      </figure>
 
-    <h2 id="paying" style="margin:3rem 0 1rem">{tx(locale, 'Help paying for it', 'Ayuda para pagar')}</h2>
-    <p>{tx(locale, 'Court fees can usually be waived if you receive public benefits or have a low income. Each state’s name change guide explains how. These national organizations help with the rest:', 'Las tarifas judiciales normalmente se pueden exentar si recibes beneficios públicos o tienes bajos ingresos. La guía de cambio de nombre de cada estado explica cómo. Estas organizaciones nacionales ayudan con lo demás:')}</p>
-  </div>
+      <h3 class="sub-h about-legend-h">{tx(locale, 'What each answer means', 'Qué significa cada respuesta')}</h3>
+      <div class="table-wrap legend-wrap">
+        <table class="data legend-table">
+          <caption class="visually-hidden">{tx(locale, 'The five answers and what they mean', 'Las cinco respuestas y lo que significan')}</caption>
+          <thead><tr><th scope="col">{tx(locale, 'On a document', 'En un documento')}</th><th scope="col">{tx(locale, 'What it means', 'Qué significa')}</th><th scope="col">{tx(locale, 'On care pages', 'En páginas de atención')}</th></tr></thead>
+          <tbody>
+            {legend.map((l) => (
+              <tr>
+                <th scope="row"><StatusChip status={l.s} locale={locale} variant="mark" text={answerWord(l.s, locale)} /></th>
+                <td>{L(l.doc)}</td>
+                <td><StatusChip status={l.s} locale={locale} variant="mark" size="sm" text={answerWord(l.s, locale, 'care')} /> <span class="legend-care">{L(l.care)}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="small muted prose about-note">{tx(locale, 'Every answer pairs an icon with a word, so it never depends on color alone.', 'Cada respuesta combina un ícono con una palabra, para no depender solo del color.')}</p>
+    </section>
+
+    <section class="section" id="how-we-verify" aria-labelledby="verify-h">
+      <h2 id="verify-h" class="section-title">{tx(locale, 'How we keep this current', 'Cómo lo mantenemos al día')}</h2>
+      <ol class="verify-steps">
+        {verify.map((v) => <li><span class="verify-t">{L(v.t)}</span><span class="verify-d">{L(v.d)}</span></li>)}
+      </ol>
+      <p class="prose small muted about-note">{tx(locale, 'This site is not a law firm or a medical provider, and nothing here is legal or medical advice. If something is wrong or out of date, tell us with the link at the bottom of every page.', 'Este sitio no es un despacho de abogados ni un proveedor médico, y nada aquí es asesoría legal ni médica. Si algo está mal o desactualizado, avísanos con el enlace al pie de cada página.')}</p>
+    </section>
+
+    <section class="section" id="paying" aria-labelledby="paying-h">
+      <h2 id="paying-h" class="section-title">{tx(locale, 'Help paying for it', 'Ayuda para pagar')}</h2>
+      <div class="callout info">
+        <p><strong>{tx(locale, 'Court fees can usually be waived.', 'Las tarifas judiciales normalmente se pueden exentar.')}</strong> {tx(locale, 'If you receive public benefits or have a low income, most courts let you skip the filing fee. Each state’s name change guide explains how, in its costs section.', 'Si recibes beneficios públicos o tienes bajos ingresos, la mayoría de los tribunales te permiten no pagar la tarifa. La guía de cambio de nombre de cada estado explica cómo, en su sección de costos.')}</p>
+      </div>
+      <p class="muted section-sub">{tx(locale, 'These national organizations help with the rest: document fees, hormones, surgery, and legal help.', 'Estas organizaciones nacionales ayudan con lo demás: tarifas de documentos, hormonas, cirugía y ayuda legal.')}</p>
+      <ul class="resources">
+        {funds.map((o) => (
+          <li>
+            <h3><a href={o.url} rel="noopener">{o.name}</a></h3>
+            {o.program_status && o.program_status !== 'active' && <div class="tags"><span class="tag">{o.program_status}</span></div>}
+            <p>{lt(o.description, locale)}</p>
+            {o.notes && <p class="xs">{lt(o.notes, locale)}</p>}
+            {o.phone && <div class="contact"><a class="num" href={`tel:${o.phone.replace(/\D/g, '')}`}>{o.phone}</a></div>}
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="section folds" aria-labelledby="origin-h">
+      <h2 id="origin-h" class="visually-hidden">{tx(locale, 'More about this site', 'Más sobre este sitio')}</h2>
+      <Fold id="who" title={tx(locale, 'Who made this, and why', 'Quién lo hizo y por qué')} preview={tx(locale, 'Started by someone who went through the process.', 'Lo inició una persona que pasó por el proceso.')}>
+        <div class="prose"><p>{tx(locale,
+          'It was started by someone who went through the process and kept running into scattered, outdated, or contradictory information. Rules change often, especially since 2025, and they change differently in every state.',
+          'Lo inició una persona que pasó por el proceso y se topó una y otra vez con información dispersa, desactualizada o contradictoria. Las reglas cambian con frecuencia, sobre todo desde 2025, y cambian distinto en cada estado.')}</p></div>
+      </Fold>
+    </section>
+  </>
 ) : (
-  <div class="prose">
-    {(es ? [
-      'No necesitas una cuenta y no te pedimos quién eres.',
-      'No usamos rastreadores publicitarios, huellas digitales del navegador ni analíticas de terceros que te identifiquen. Las fuentes tipográficas se sirven desde este mismo sitio, no desde Google.',
-      'La búsqueda de centros de salud "cerca de mí" calcula distancias en tu propio dispositivo. Tu ubicación nunca se envía a ningún lugar.',
-      'El botón de "Salida rápida", o presionar Escape dos veces, reemplaza de inmediato esta página con un sitio no relacionado. No borra tu historial; usa una ventana privada si lo necesitas.',
-      'Los enlaces a otros sitios están sujetos a las prácticas de privacidad de esos sitios.',
-    ] : [
-      'You do not need an account and we do not ask who you are.',
-      'We do not use advertising trackers, browser fingerprinting, or third-party analytics that identify you. Fonts are served from this site, not from Google.',
-      'The "near me" health center search computes distances on your own device. Your location is never sent anywhere.',
-      'The Quick exit button, and pressing Escape twice, immediately replaces this page with an unrelated website. It does not clear your browser history; use a private window if you need that.',
-      'Links to other websites are subject to those sites’ own privacy practices.',
-    ]).map((p) => <p>{p}</p>)}
-  </div>
-)}
-{page === 'about' && (
-  <ul class="resources" style="margin-top:1rem">
-    {funds.map((o) => (
-      <li>
-        <h3><a href={o.url} rel="noopener">{o.name}</a></h3>
-        {o.program_status && o.program_status !== 'active' && <div class="tags"><span class="tag">{o.program_status}</span></div>}
-        <p>{lt(o.description, locale)}</p>
-        {o.notes && <p class="xs">{lt(o.notes, locale)}</p>}
-        {o.phone && <div class="contact"><a class="num" href={`tel:${o.phone.replace(/\D/g, '')}`}>{o.phone}</a></div>}
-      </li>
-    ))}
-  </ul>
+  <>
+    <div class="key-point">
+      <p><strong>{tx(locale, 'The short answer: no account, no tracking, and your location never leaves your device.', 'La respuesta corta: sin cuenta, sin rastreo, y tu ubicación nunca sale de tu dispositivo.')}</strong> {tx(locale, 'Quick exit leaves this site instantly, but it does not erase your browser history.', 'La salida rápida sale de este sitio al instante, pero no borra tu historial.')}</p>
+    </div>
+    <section class="folds" aria-labelledby="privacy-h">
+      <div class="folds-head">
+        <h2 id="privacy-h">{tx(locale, 'In detail', 'En detalle')}</h2>
+        <button type="button" class="btn-text" data-fold-all aria-expanded="false">{tx(locale, 'Open all', 'Abrir todo')}</button>
+      </div>
+      {privacy.map((p) => (
+        <Fold id={p.id} title={L(p.t)} preview={L(p.short)}><div class="prose"><p>{L(p.d)}</p></div></Fold>
+      ))}
+    </section>
+  </>
 )}

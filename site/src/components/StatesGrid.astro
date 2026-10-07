@@ -4,13 +4,22 @@ import { type Locale } from '../i18n/ui';
 import { lt, localePath, type StateBundle } from '../lib/content';
 import { tx } from '../lib/text';
 import { ALL_JURISDICTIONS } from '../lib/jurisdictions';
-const { states, locale, picker = true, id = 'state-filter' } = Astro.props as { states: StateBundle[]; locale: Locale; picker?: boolean; id?: string };
+import { answerWord } from '../lib/verdict';
+import Icon from './Icon.astro';
+import type { Status } from '../lib/text';
+/** hints: under each state, whether the gender marker can be changed on a license and a birth certificate (states index only). */
+const { states, locale, picker = true, id = 'state-filter', hints = picker } = Astro.props as { states: StateBundle[]; locale: Locale; picker?: boolean; id?: string; hints?: boolean };
+const ICON = { available: 'check', restricted: 'alert', prohibited: 'x', litigation: 'scale', unclear: 'help' } as const;
 const have = new Map(states.map((s) => [s.code, s]));
 const TERR = new Set(['DC', 'PR', 'GU', 'VI', 'AS', 'MP']);
 const item = (code: string) => {
   const j = ALL_JURISDICTIONS.find((x) => x.code === code)!;
   const s = have.get(code);
-  return { code, name: s ? lt(s.meta.name, locale) : locale === 'es' ? j.es : j.en, href: s ? localePath(locale, `states/${code.toLowerCase()}`) : null };
+  const hint = (st: Status | undefined, label: string) => (st ? { st, label, word: answerWord(st, locale) } : null);
+  return {
+    code, name: s ? lt(s.meta.name, locale) : locale === 'es' ? j.es : j.en, href: s ? localePath(locale, `states/${code.toLowerCase()}`) : null,
+    hints: s ? [hint(s.guides.drivers_license?.status, tx(locale, 'License', 'Licencia')), hint(s.guides.birth_certificate?.status, tx(locale, 'Birth cert.', 'Acta'))].filter(Boolean) as { st: Status; label: string; word: string }[] : [],
+  };
 };
 const states50 = ALL_JURISDICTIONS.filter((j) => !TERR.has(j.code)).map((j) => item(j.code)).sort((a, b) => a.name.localeCompare(b.name, locale));
 const others = ['DC', 'PR', 'GU', 'VI', 'AS', 'MP'].map(item);
@@ -19,19 +28,40 @@ const others = ['DC', 'PR', 'GU', 'VI', 'AS', 'MP'].map(item);
   {picker && (
     <form class="picker" role="search" onsubmit="return false">
       <label for={id}>{tx(locale, 'Where do you live, or where were you born?', '¿Dónde vives o dónde naciste?')}</label>
-      <input id={id} type="search" placeholder={tx(locale, 'State name or code', 'Nombre o código del estado')} autocomplete="off" enterkeyhint="go" list={`${id}-list`} />
+      <div class="picker-row">
+        <input id={id} type="search" placeholder={tx(locale, 'State name or code', 'Nombre o código del estado')} autocomplete="off" enterkeyhint="go" list={`${id}-list`} />
       <datalist id={`${id}-list`}>{[...states50, ...others].map((s) => <option value={s.name} />)}</datalist>
-      <button class="btn" type="submit" data-go>{tx(locale, 'Go', 'Ir')}</button>
+        <button class="btn" type="submit" data-go>{tx(locale, 'Go', 'Ir')}</button>
+      </div>
     </form>
   )}
-  <h2 class="group-label">{tx(locale, 'States', 'Estados')}</h2>
-  <ul class="state-list">
-    {states50.map((s) => <li data-name={`${s.name} ${s.code}`.toLowerCase()} data-href={s.href}>{s.href ? <a href={s.href}>{s.name}<span class="abbr">{s.code}</span></a> : <span class="muted">{s.name}</span>}</li>)}
-  </ul>
-  <h2 class="group-label">{tx(locale, 'District of Columbia and territories', 'Distrito de Columbia y territorios')}</h2>
-  <ul class="state-list">
-    {others.map((s) => <li data-name={`${s.name} ${s.code}`.toLowerCase()} data-href={s.href}>{s.href ? <a href={s.href}>{s.name}<span class="abbr">{s.code}</span></a> : <span class="muted">{s.name}</span>}</li>)}
-  </ul>
+  {hints && (
+    <p class="hint-key small muted">{tx(locale, 'Under each state: can you change the gender marker on a driver’s license and on a birth certificate? Your name can be changed in every state.', 'Debajo de cada estado: ¿puedes cambiar el marcador de género en la licencia y en el acta de nacimiento? Tu nombre se puede cambiar en todos los estados.')}</p>
+  )}
+  {[
+    { label: tx(locale, 'States', 'Estados'), list: states50 },
+    { label: tx(locale, 'District of Columbia and territories', 'Distrito de Columbia y territorios'), list: others },
+  ].map((grp) => (
+    <>
+      <h2 class="group-label">{grp.label}</h2>
+      <ul class={`state-list ${hints ? 'with-hints' : ''}`}>
+        {grp.list.map((s) => (
+          <li data-name={`${s.name} ${s.code}`.toLowerCase()} data-href={s.href}>
+            {s.href ? (
+              <a href={s.href}>
+                <span class="state-line"><span>{s.name}</span><span class="abbr">{s.code}</span></span>
+                {hints && s.hints.length > 0 && (
+                  <span class="state-hints">
+                    {s.hints.map((h) => <span class={`state-hint ${h.st}`}><Icon name={ICON[h.st]} size={13} /><span>{h.label}</span><span class="visually-hidden">: {h.word}</span></span>)}
+                  </span>
+                )}
+              </a>
+            ) : <span class="muted">{s.name}</span>}
+          </li>
+        ))}
+      </ul>
+    </>
+  ))}
   <p class="muted small" data-none hidden>{tx(locale, 'No match. Try the full state name or its two-letter code.', 'Sin resultados. Prueba el nombre completo del estado o su código de dos letras.')}</p>
 </div>
 <script>

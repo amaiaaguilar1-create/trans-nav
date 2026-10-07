@@ -102,7 +102,34 @@ const nav = [
       const leave = () => { try { window.open('https://www.google.com/', '_blank'); } catch {} location.replace('https://www.weather.gov/'); };
       document.querySelectorAll('[data-exit]').forEach((b) => b.addEventListener('click', leave));
       let last = 0;
-      addEventListener('keydown', (e) => { if (e.key !== 'Escape') return; const now = Date.now(); if (now - last < 1500) leave(); last = now; });
+      addEventListener('keydown', (e) => {
+        if (e.key !== 'Escape') return;
+        // Esc that closes a popover (term definitions) or the open menu is dismissal, not an exit; don't count it.
+        const t = e.target as Element | null;
+        if (document.querySelector(':popover-open') || t?.closest?.('[popover]') || document.getElementById('site-nav')?.classList.contains('open')) { last = 0; return; }
+        const now = Date.now(); if (now - last < 1500) leave(); last = now;
+      }, true);
+      // Disclosure layers: a link to anything inside a closed <details> (contents, citations, form links) opens it first.
+      const reveal = (id: string) => {
+        const el = id && document.getElementById(id); if (!el) return;
+        for (let d = el.closest('details'); d; d = d.parentElement?.closest('details') ?? null) d.open = true;
+        if (el instanceof HTMLDetailsElement) el.open = true;
+      };
+      document.addEventListener('click', (e) => {
+        const a = (e.target as Element).closest?.('a[href^="#"]'); if (a) reveal(decodeURIComponent(a.getAttribute('href')!.slice(1)));
+      });
+      addEventListener('hashchange', () => reveal(decodeURIComponent(location.hash.slice(1))));
+      if (location.hash) { reveal(decodeURIComponent(location.hash.slice(1))); document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView(); }
+      // "Open all" for a group of folds.
+      document.querySelectorAll<HTMLButtonElement>('[data-fold-all]').forEach((b) => b.addEventListener('click', () => {
+        const folds = b.closest('.folds')!.querySelectorAll<HTMLDetailsElement>(':scope > details.fold');
+        const open = b.getAttribute('aria-expanded') !== 'true';
+        folds.forEach((d) => (d.open = open));
+        b.setAttribute('aria-expanded', String(open));
+        b.textContent = open ? (document.documentElement.lang === 'es' ? 'Cerrar todo' : 'Close all') : (document.documentElement.lang === 'es' ? 'Abrir todo' : 'Open all');
+      }));
+      // Print everything, folded or not.
+      addEventListener('beforeprint', () => document.querySelectorAll('details').forEach((d) => d.setAttribute('open', '')));
       // Mobile menu
       const btn = document.querySelector<HTMLButtonElement>('.menu-btn'), nav = document.getElementById('site-nav');
       btn?.addEventListener('click', () => { const open = nav!.classList.toggle('open'); btn.setAttribute('aria-expanded', String(open)); });

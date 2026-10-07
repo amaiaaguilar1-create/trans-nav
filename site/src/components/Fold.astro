@@ -1,0 +1,15 @@
+---
+/**
+ * Layer three: a labelled, expandable section. The summary says what is inside, so people can decide without opening.
+ * Opens itself when linked to (see the reveal script in Base.astro).
+ */
+import Icon from './Icon.astro';
+const { id, title, preview, open = false } = Astro.props as { id: string; title: string; preview?: string; open?: boolean };
+---
+<details class="fold" id={id} open={open}>
+  <summary>
+    <span class="fold-text"><span class="fold-title">{title}</span>{preview && <span class="fold-preview">{preview}</span>}</span>
+    <span class="fold-chev" aria-hidden="true"><Icon name="chevron" size={20} /></span>
+  </summary>
+  <div class="fold-body"><slot /></div>
+</details>

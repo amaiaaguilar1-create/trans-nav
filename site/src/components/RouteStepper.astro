@@ -1,0 +1,21 @@
+---
+/** Where you are on the route: five stops, the current one marked. Every stop is a link. */
+import type { Locale } from '../i18n/ui';
+import type { Stop } from '../lib/route';
+import { tx } from '../lib/text';
+const { stops, current, locale, state } = Astro.props as { stops: Stop[]; current: string; locale: Locale; state: string };
+const i = stops.findIndex((s) => s.key === current);
+---
+<nav class="stepper" aria-label={tx(locale, `Your route in ${state}`, `Tu ruta en ${state}`)}>
+  <p class="stepper-label"><span class="num">{tx(locale, `Step ${i + 1} of ${stops.length}`, `Paso ${i + 1} de ${stops.length}`)}</span> {tx(locale, `in ${state}`, `en ${state}`)}</p>
+  <ol>
+    {stops.map((s, n) => (
+      <li class={n === i ? 'here' : ''}>
+        <a href={s.href} aria-current={n === i ? 'step' : undefined}>
+          <span class="dot num" aria-hidden="true">{n + 1}</span>
+          <span class="stepper-name">{s.short}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</nav>

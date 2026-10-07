@@ -1,0 +1,23 @@
+---
+/**
+ * The answer layer. One row per question, never one status per document.
+ * full: large cells for the top of a guide. compact: label, answer, qualifier on one line, for lists.
+ */
+import Icon from './Icon.astro';
+import Term from './Term.astro';
+import type { Locale } from '../i18n/ui';
+import type { VerdictRow } from '../lib/verdict';
+const { rows, locale, variant = 'full', terms = true } = Astro.props as { rows: VerdictRow[]; locale: Locale; variant?: 'full' | 'compact'; terms?: boolean };
+const icon = { available: 'check', restricted: 'alert', prohibited: 'x', litigation: 'scale', unclear: 'help' } as const;
+---
+<dl class={`verdict verdict-${variant}`} data-n={rows.length}>
+  {rows.map((r) => (
+    <div class={`v-row ${r.status}`}>
+      <dt>{terms && r.term ? <Term id={r.term} locale={locale}>{variant === 'full' ? r.label : r.short}</Term> : variant === 'full' ? r.label : r.short}</dt>
+      <dd>
+        <span class="v-answer"><Icon name={icon[r.status]} size={variant === 'full' ? 20 : 15} />{r.answer}</span>
+        {r.detail && <span class="v-detail">{r.detail}</span>}
+      </dd>
+    </div>
+  ))}
+</dl>

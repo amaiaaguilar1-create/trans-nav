@@ -1,0 +1,15 @@
+---
+/**
+ * A word with its definition one tap away. Native popover: light-dismiss, Esc, focus return, no JS.
+ * Never place inside a link or summary (interactive content cannot nest).
+ */
+import { loadGlossary, lt } from '../lib/content';
+import type { Locale } from '../i18n/ui';
+import { tx } from '../lib/text';
+const { id, locale } = Astro.props as { id: string; locale: Locale };
+const term = (await loadGlossary()).get(id);
+const pid = `def-${id}-${Math.random().toString(36).slice(2, 8)}`;
+---
+{term ? (
+  <><button type="button" class="term" popovertarget={pid}><slot /></button><span popover id={pid} class="term-pop"><strong>{lt(term.term, locale)}</strong><span>{lt(term.definition, locale)}</span><button type="button" class="term-close" popovertarget={pid} popovertargetaction="hide">{tx(locale, 'Close', 'Cerrar')}</button></span></>
+) : <slot />}

@@ -1,43 +1,38 @@
 ---
-/** The first thing on every guide: can I do this here, and the key facts. */
+/** Layer one of every guide: the separate answers, a plain summary, the facts people plan around, and how sure we are. */
 import { t, type Locale } from '../i18n/ui';
 import { lt, localePath, daysSince, OVERDUE_DAYS, type LocalizedText } from '../lib/content';
-import { tx, type Status } from '../lib/text';
-import StatusChip from './StatusChip.astro';
+import { tx } from '../lib/text';
+import type { VerdictRow } from '../lib/verdict';
+import Verdict from './Verdict.astro';
+import Icon from './Icon.astro';
 import Md from './Md.astro';
 
 interface Fact { label: string; value: string }
 interface Props {
   locale: Locale;
-  status: Status;
+  verdict: VerdictRow[];
   summary: LocalizedText;
   review: { status: 'draft' | 'reviewed'; last_verified: string; es_status?: string };
-  chips?: { status: Status; label: string }[];
-  statusLabel?: string;
-  tags?: string[];
   facts?: Fact[];
 }
-const { locale, status, summary, review, chips = [], tags = [], facts = [], statusLabel } = Astro.props;
+const { locale, verdict, summary, review, facts = [] } = Astro.props;
 const _ = t(locale);
 const overdue = review.status === 'reviewed' && daysSince(review.last_verified) > OVERDUE_DAYS;
 const date = new Intl.DateTimeFormat(locale, { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(review.last_verified + 'T00:00:00Z'));
-const state = overdue ? 'bad' : review.status === 'reviewed' ? 'ok' : '';
+const state = overdue ? 'bad' : review.status === 'reviewed' ? 'ok' : 'draft';
 const reviewText = overdue
   ? tx(locale, `Verified ${date}, now overdue for a re-check.`, `Verificado el ${date}; necesita una nueva revisión.`)
   : review.status === 'reviewed'
     ? tx(locale, `Verified by a person on ${date}.`, `Verificado por una persona el ${date}.`)
-    : tx(locale, `Draft written from official sources on ${date}. Not yet checked line by line by a person.`, `Borrador escrito a partir de fuentes oficiales el ${date}. Aún no revisado línea por línea por una persona.`);
+    : tx(locale, `Draft from official sources, ${date}. Not yet checked by a person.`, `Borrador de fuentes oficiales, ${date}. Aún no revisado por una persona.`);
 ---
-<section class={`answer ${status}`} aria-label={tx(locale, 'Summary', 'Resumen')}>
-  <div class="row">
-    <StatusChip status={status} locale={locale} label={statusLabel} />
-    {chips.map((c) => <StatusChip status={c.status} locale={locale} label={c.label} />)}
-    {tags.map((x) => <span class="tag">{x}</span>)}
-  </div>
-  <div class="summary"><Md text={lt(summary, locale)} /></div>
-  {facts.length > 0 && (
-    <dl class="facts">{facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
-  )}
-  <p class="verify-line"><span class={`dot ${state}`} aria-hidden="true"></span><span>{reviewText} <a href={`${localePath(locale, 'about')}#how-we-verify`}>{tx(locale, 'What this means', 'Qué significa')}</a></span></p>
-  {locale === 'es' && review.es_status !== 'reviewed' && <p class="verify-line" style="margin-top:.25rem"><span class="dot" aria-hidden="true"></span><span>{_('review.es_machine')}</span></p>}
+<section class="answer" aria-label={tx(locale, 'The short answer', 'La respuesta corta')}>
+  <Verdict rows={verdict} locale={locale} variant="full" />
+  <div class="answer-summary"><Md text={lt(summary, locale)} /></div>
+  {facts.length > 0 && <dl class="facts">{facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
+  <p class={`verify-line ${state}`}>
+    <Icon name={state === 'ok' ? 'check' : state === 'bad' ? 'alert' : 'file'} size={16} />
+    <span>{reviewText} <a href={`${localePath(locale, 'about')}#how-we-verify`}>{tx(locale, 'How we verify', 'Cómo verificamos')}</a>{locale === 'es' && review.es_status !== 'reviewed' && <> {_('review.es_machine')}</>}</span>
+  </p>
 </section>

@@ -1,8 +1,16 @@
 ---
-/** One document guide: name change, driver's license, birth certificate, or a federal document. */
+/**
+ * One document guide in three layers:
+ *   1. Answer: the separate verdicts (name, gender marker), a plain summary, cost and timing, how verified.
+ *   2. How: steps, costs and fee waivers, free help. Always open.
+ *   3. Detail: forms, requirements, minors, after you finish, tips, laws. Labelled folds that preview their contents.
+ * State guides show where they sit on the route; federal guides continue the route of the state you came from.
+ */
 import { t, type Locale } from '../i18n/ui';
-import { lt, guidePath } from '../lib/content';
-import { tx, firstSentence, requirementLabel } from '../lib/text';
+import { lt, guidePath, localePath } from '../lib/content';
+import { tx, firstSentence } from '../lib/text';
+import { docVerdict } from '../lib/verdict';
+import type { RouteContext } from '../lib/route';
 import type { DocumentGuide } from '../types/content';
 import AnswerBlock from '../components/AnswerBlock.astro';
 import ChangeNotice from '../components/ChangeNotice.astro';
@@ -14,68 +22,88 @@ import Sources from '../components/Sources.astro';
 import ResourceCard from '../components/ResourceCard.astro';
 import Cite from '../components/Cite.astro';
 import Md from '../components/Md.astro';
+import Fold from '../components/Fold.astro';
+import Icon from '../components/Icon.astro';
 import NextStop from '../components/NextStop.astro';
-import type { Stop } from '../lib/route';
+import RouteStepper from '../components/RouteStepper.astro';
 
-const { guide, locale, routeNav } = Astro.props as { guide: DocumentGuide; locale: Locale; routeNav?: { prev?: Stop; next?: Stop; hub: string; hubLabel: string } };
+const { guide, locale, route, fromRoutes = [] } = Astro.props as { guide: DocumentGuide; locale: Locale; route?: RouteContext; fromRoutes?: (RouteContext & { code: string })[] };
 const _ = t(locale);
 const g = guide;
 const index = new Map(g.sources.map((s, i) => [s.id, i + 1]));
 const yn = (v: 'yes' | 'no' | 'conditional') => _(`yesno.${v}` as const);
 const money = (n: number) => new Intl.NumberFormat(locale === 'es' ? 'es-US' : 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: n % 1 ? 2 : 0 }).format(n);
 
-// ---- key facts, only the ones this guide actually has ----
+// ---- facts people plan around (the verdict already covers what is possible and what proof is needed) ----
 const facts: { label: string; value: string }[] = [];
-if (g.requirement_type && g.guide_type !== 'name_change') {
-  facts.push({ label: tx(locale, 'What you need', 'Qué necesitas'), value: requirementLabel[g.requirement_type]?.[locale] ?? g.requirement_type });
-}
-if (g.markers_available?.length) facts.push({ label: tx(locale, 'Markers offered', 'Marcadores disponibles'), value: g.markers_available.join(', ') });
 const mainFee = g.fees?.find((f) => /filing|amend|petition|change|dl|license/i.test(f.id) && typeof f.amount === 'number') ?? g.fees?.find((f) => typeof f.amount === 'number');
 if (mainFee && typeof mainFee.amount === 'number') {
-  facts.push({ label: tx(locale, 'Main fee', 'Tarifa principal'), value: (mainFee.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(mainFee.amount)) + (g.fee_waiver?.available ? tx(locale, ', waivable', ', se puede exentar') : '') });
-}
-if (g.publication) facts.push({ label: tx(locale, 'Newspaper notice', 'Aviso en periódico'), value: yn(g.publication.required) });
-if (g.hearing) facts.push({ label: tx(locale, 'Court hearing', 'Audiencia'), value: yn(g.hearing.required) });
+  facts.push({ label: tx(locale, 'Main cost', 'Costo principal'), value: (mainFee.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(mainFee.amount)) + (g.fee_waiver?.available ? tx(locale, ', can be waived', ', se puede exentar') : '') });
+} else if (g.fee_waiver?.available) facts.push({ label: tx(locale, 'Cost', 'Costo'), value: tx(locale, 'Can be waived', 'Se puede exentar') });
 if (g.delivery) {
-  const how = [g.delivery.online && tx(locale, 'Online', 'En línea'), g.delivery.by_mail && tx(locale, 'By mail', 'Por correo'), g.delivery.in_person && tx(locale, 'In person', 'En persona')].filter(Boolean).join(', ');
-  if (how) facts.push({ label: tx(locale, 'How to apply', 'Cómo presentarlo'), value: how });
+  const how = [g.delivery.online && tx(locale, 'online', 'en línea'), g.delivery.by_mail && tx(locale, 'by mail', 'por correo'), g.delivery.in_person && tx(locale, 'in person', 'en persona')].filter(Boolean) as string[];
+  if (how.length) { const s = new Intl.ListFormat(locale, { type: 'disjunction' }).format(how); facts.push({ label: tx(locale, 'Apply', 'Presentar'), value: s.charAt(0).toUpperCase() + s.slice(1) }); }
 }
-// Only show time when a short, explicit estimate exists on a step (long prose timelines stay in Requirements).
 const est = g.steps.map((s) => s.estimated_time && lt(s.estimated_time, locale)).find((v) => v && v.length <= 24);
-if (est && facts.length < 6) facts.push({ label: tx(locale, 'Typical wait', 'Espera habitual'), value: est });
+if (est) facts.push({ label: tx(locale, 'Typical wait', 'Espera habitual'), value: est });
 
-const chips = g.name_change_status && g.name_change_status !== g.status && g.guide_type !== 'name_change'
-  ? [{ status: g.name_change_status, label: _('name_change_status.label') }] : [];
-
-// ---- sections present, in reading order ----
+// ---- what exists in this guide ----
+const reqLabels = [
+  g.eligibility?.residency && tx(locale, 'where you live', 'residencia'), g.eligibility?.age && tx(locale, 'age', 'edad'),
+  g.eligibility?.criminal_history && tx(locale, 'criminal record', 'antecedentes'), g.publication && tx(locale, 'newspaper notice', 'aviso en periódico'),
+  g.hearing && tx(locale, 'hearing', 'audiencia'), g.background_check && tx(locale, 'background check', 'verificación de antecedentes'),
+  g.confidentiality && tx(locale, 'privacy and sealing', 'privacidad y sellado'), g.timeline && tx(locale, 'timeline', 'plazos'),
+].filter(Boolean) as string[];
 const has = {
-  steps: g.steps.length > 0, forms: !!g.forms?.length, costs: !!(g.fees?.length || g.fee_waiver),
-  details: !!(g.eligibility || g.publication || g.hearing || g.background_check || g.confidentiality),
+  steps: g.steps.length > 0, forms: !!g.forms?.length, costs: !!(g.fees?.length || g.fee_waiver), details: reqLabels.length > 0,
   minors: !!g.minors, after: !!g.after, tips: !!g.tips?.length, help: !!g.local_help?.length,
   law: !!(g.statutes?.length || g.pending_bills?.length || g.related_links?.length),
 };
+const formCodes = (g.forms ?? []).filter((f) => !/^[a-z0-9-]+$/.test(f.id)).map((f) => f.id);
+const count = (n: number, one: [string, string], many: [string, string]) => `${n} ${n === 1 ? tx(locale, ...one) : tx(locale, ...many)}`;
+const preview = {
+  forms: g.forms ? count(g.forms.length, ['form', 'formulario'], ['forms', 'formularios']) + (formCodes.length ? `: ${formCodes.slice(0, 4).join(', ')}${formCodes.length > 4 ? tx(locale, ', and more', ', y más') : ''}` : '') : '',
+  details: reqLabels.length ? reqLabels.join(', ').replace(/^./, (c) => c.toUpperCase()) : '',
+  minors: g.minors ? firstSentence(lt(g.minors.summary, locale), 140) : '',
+  after: g.after ? firstSentence(lt(g.after, locale), 140) : '',
+  tips: g.tips ? count(g.tips.length, ['tip from people who have done this', 'consejo'], ['tips from people who have done this', 'consejos']) : '',
+  law: [g.statutes?.length && count(g.statutes.length, ['law', 'ley'], ['laws', 'leyes']), g.pending_bills?.length && count(g.pending_bills.length, ['pending bill', 'proyecto pendiente'], ['pending bills', 'proyectos pendientes']), g.related_links?.length && count(g.related_links.length, ['other guide', 'otra guía'], ['other guides', 'otras guías'])].filter(Boolean).join(', '),
+};
 const toc = [
-  { id: 'overview', label: tx(locale, 'Overview', 'Resumen') },
+  { id: 'how', label: tx(locale, 'How it works', 'Cómo funciona') },
   has.steps && { id: 'steps', label: _('section.steps') },
-  has.forms && { id: 'forms', label: _('section.forms') },
   has.costs && { id: 'costs', label: tx(locale, 'Costs and fee waivers', 'Costos y exenciones') },
+  has.help && { id: 'help', label: tx(locale, 'Free help', 'Ayuda gratuita') },
+  has.forms && { id: 'forms', label: _('section.forms') },
   has.details && { id: 'details', label: tx(locale, 'Requirements', 'Requisitos') },
   has.minors && { id: 'minors', label: _('section.minors') },
   has.after && { id: 'after', label: _('section.after') },
   has.tips && { id: 'tips', label: _('section.tips') },
-  has.help && { id: 'help', label: tx(locale, 'Free help', 'Ayuda gratuita') },
   has.law && { id: 'law', label: tx(locale, 'Laws and other guides', 'Leyes y otras guías') },
   { id: 'sources', label: _('section.sources') },
 ].filter(Boolean) as { id: string; label: string }[];
+const anyFold = has.forms || has.details || has.minors || has.after || has.tips || has.law;
+const at = (r: RouteContext) => r.stops.findIndex((s) => s.key === r.current);
 ---
+{route && <RouteStepper stops={route.stops} current={route.current} state={route.state} locale={locale} />}
+{fromRoutes.length > 0 && <div data-from-slot="stepper"></div>}
+
 <ChangeNotice path={guidePath(g)} locale={locale} />
-<AnswerBlock locale={locale} status={g.status} summary={g.status_summary} review={g.review} chips={chips} facts={facts} />
+<AnswerBlock locale={locale} verdict={docVerdict(g, locale, { expanded: true })} summary={g.status_summary} review={g.review} facts={facts} />
+
+{g.guide_type === 'birth_certificate' && g.jurisdiction !== 'US' && (
+  <p class="born-elsewhere"><Icon name="map" size={18} /><span>{tx(locale, 'This applies only if you were born here. Birth certificates follow your birth state, not where you live now.', 'Esto aplica solo si naciste aquí. El acta de nacimiento depende de tu estado de nacimiento, no de donde vives ahora.')} <a href={`${localePath(locale, 'states')}#states-filter`}>{tx(locale, 'Choose your birth state', 'Elige tu estado de nacimiento')}</a></span></p>
+)}
 
 {g.litigation?.map((l) => (
-  <div class="notice legal">
-    <p><strong>{tx(locale, 'In court:', 'En tribunales:')} {l.case}</strong>{l.court ? `, ${l.court}` : ''}. <span class="small muted">{tx(locale, 'Updated', 'Actualizado')} <time class="num" datetime={l.last_update}>{l.last_update}</time></span><Cite ids={l.sources} index={index} /></p>
-    <p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p>
-    <p class="small muted">{lt(l.summary, locale)}{l.url && <> <a href={l.url} rel="noopener">{tx(locale, 'Case page', 'Página del caso')}</a></>}</p>
+  <div class="callout legal">
+    <p class="callout-head"><Icon name="scale" size={18} /><strong>{tx(locale, 'In court', 'En tribunales')}: {l.case}</strong></p>
+    <p>{lt(l.effect_today, locale)}<Cite ids={l.sources} index={index} /></p>
+    <details class="callout-more">
+      <summary>{tx(locale, 'About this case', 'Sobre este caso')}</summary>
+      <p>{lt(l.summary, locale)}</p>
+      <p class="small muted">{[l.court, tx(locale, `Last update ${l.last_update}`, `Última actualización ${l.last_update}`)].filter(Boolean).join('. ')}.{l.url && <> <a href={l.url} rel="noopener">{tx(locale, 'Case page', 'Página del caso')}</a></>}</p>
+    </details>
   </div>
 ))}
 
@@ -83,79 +111,101 @@ const toc = [
 
 <div class="doc">
   <div class="doc-main">
-    <section id="overview"><h2>{tx(locale, 'Overview', 'Resumen')}</h2><div class="prose"><Md text={lt(g.summary, locale)} /></div></section>
+    <section id="how"><h2>{tx(locale, 'How it works', 'Cómo funciona')}</h2><div class="prose"><Md text={lt(g.summary, locale)} /></div></section>
 
     {has.steps && <section id="steps"><h2>{_('section.steps')}</h2><Steps steps={g.steps} forms={g.forms} fees={g.fees} locale={locale} index={index} /></section>}
-
-    {has.forms && <section id="forms"><h2>{_('section.forms')}</h2><p class="muted small">{tx(locale, 'Open a form for tips on filling it out.', 'Abre un formulario para ver consejos sobre cómo llenarlo.')}</p><Forms forms={g.forms!} locale={locale} index={index} /></section>}
 
     {has.costs && (
       <section id="costs">
         <h2>{tx(locale, 'Costs and fee waivers', 'Costos y exenciones')}</h2>
-        {g.fees?.length ? <Fees fees={g.fees} locale={locale} index={index} /> : null}
         {g.fee_waiver && (
-          <div class={`notice ${g.fee_waiver.available ? 'info' : ''}`} style="margin-top:1.5rem">
-            <p><strong>{g.fee_waiver.available ? tx(locale, 'Can’t afford it? You may not have to pay.', '¿No puedes pagarlo? Puede que no tengas que pagar.') : tx(locale, 'No fee waiver is available for this step.', 'No hay exención de tarifas para este paso.')}</strong><Cite ids={g.fee_waiver.sources} index={index} /></p>
+          <div class={`callout ${g.fee_waiver.available ? 'info' : 'plain'}`}>
+            <p class="callout-head"><Icon name={g.fee_waiver.available ? 'heart' : 'help'} size={18} /><span><strong>{g.fee_waiver.available ? tx(locale, 'Can’t afford it? You may not have to pay.', '¿No puedes pagarlo? Puede que no tengas que pagar.') : tx(locale, 'No fee waiver is available for this step.', 'No hay exención de tarifas para este paso.')}</strong><Cite ids={g.fee_waiver.sources} index={index} /></span></p>
             {g.fee_waiver.eligibility && <Md text={lt(g.fee_waiver.eligibility, locale)} />}
             {g.fee_waiver.how && <Md text={lt(g.fee_waiver.how, locale)} />}
             {g.fee_waiver.forms?.length ? <p class="small">{g.fee_waiver.forms.map((f) => { const form = g.forms?.find((x) => x.id === f); return <a href={`#form-${f.replace(/\s+/g, '-')}`} style="margin-right:.75rem">{form && /^[a-z0-9-]+$/.test(f) ? lt(form.name, locale) : f}</a>; })}</p> : null}
           </div>
         )}
+        {g.fees?.length ? <Fees fees={g.fees} locale={locale} index={index} /> : null}
       </section>
     )}
-
-    {has.details && (
-      <section id="details">
-        <h2>{tx(locale, 'Requirements', 'Requisitos')}</h2>
-        <dl class="kv">
-          {g.eligibility?.residency && <><dt>{tx(locale, 'Where you live', 'Residencia')}</dt><dd>{lt(g.eligibility.residency, locale)}<Cite ids={g.eligibility.sources} index={index} /></dd></>}
-          {g.eligibility?.age && <><dt>{tx(locale, 'Age', 'Edad')}</dt><dd>{lt(g.eligibility.age, locale)}</dd></>}
-          {g.eligibility?.criminal_history && <><dt>{tx(locale, 'Criminal record', 'Antecedentes penales')}</dt><dd>{lt(g.eligibility.criminal_history, locale)}</dd></>}
-          {g.eligibility?.other && <><dt>{tx(locale, 'Other', 'Otros')}</dt><dd>{lt(g.eligibility.other, locale)}</dd></>}
-          {g.publication && <><dt>{_('section.publication')}</dt><dd><strong>{yn(g.publication.required)}.</strong> {g.publication.detail && <Md text={lt(g.publication.detail, locale)} />}{g.publication.waiver_how && <Md text={lt(g.publication.waiver_how, locale)} />}<Cite ids={g.publication.sources} index={index} /></dd></>}
-          {g.hearing && <><dt>{_('section.hearing')}</dt><dd><strong>{yn(g.hearing.required)}.</strong> {g.hearing.detail && <Md text={lt(g.hearing.detail, locale)} />}<Cite ids={g.hearing.sources} index={index} /></dd></>}
-          {g.background_check && <><dt>{_('section.background_check')}</dt><dd><strong>{yn(g.background_check.required)}.</strong> {g.background_check.detail && <Md text={lt(g.background_check.detail, locale)} />}<Cite ids={g.background_check.sources} index={index} /></dd></>}
-          {g.confidentiality && <><dt>{_('section.confidentiality')}</dt><dd><strong>{g.confidentiality.sealing_available ? tx(locale, 'Available.', 'Disponible.') : tx(locale, 'Not available.', 'No disponible.')}</strong> {g.confidentiality.detail && <Md text={lt(g.confidentiality.detail, locale)} />}{g.confidentiality.how && <Md text={lt(g.confidentiality.how, locale)} />}<Cite ids={g.confidentiality.sources} index={index} /></dd></>}
-          {g.timeline && <><dt>{_('section.timeline')}</dt><dd><Md text={lt(g.timeline, locale)} /></dd></>}
-        </dl>
-      </section>
-    )}
-
-    {has.minors && <section id="minors"><h2>{_('section.minors')}</h2><div class="prose"><Md text={lt(g.minors!.summary, locale)} /><Cite ids={g.minors!.sources} index={index} /></div></section>}
-
-    {has.after && <section id="after"><h2>{_('section.after')}</h2><div class="prose"><Md text={lt(g.after!, locale)} /></div></section>}
-
-    {has.tips && <section id="tips"><h2>{_('section.tips')}</h2><ul class="prose">{g.tips!.map((tip) => <li>{lt(tip, locale)}</li>)}</ul></section>}
 
     {has.help && (
       <section id="help">
         <h2>{tx(locale, 'Free help', 'Ayuda gratuita')}</h2>
-        <p class="muted small">{tx(locale, 'Legal clinics, organizations, and funds that help with this.', 'Clínicas legales, organizaciones y fondos que ayudan con esto.')}</p>
+        <p class="muted section-sub">{tx(locale, 'Legal clinics, organizations, and funds that help with this.', 'Clínicas legales, organizaciones y fondos que ayudan con esto.')}</p>
         <ul class="resources">{g.local_help!.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
       </section>
     )}
 
-    {has.law && (
-      <section id="law">
-        <h2>{tx(locale, 'Laws and other guides', 'Leyes y otras guías')}</h2>
-        {g.pending_bills?.length ? <>
-          <h3 style="margin-bottom:.5rem">{_('section.pending_bills')}</h3>
-          <ul class="prose">{g.pending_bills.map((b) => <li><strong>{b.url ? <a href={b.url} rel="noopener">{b.bill}</a> : b.bill}</strong> ({b.status.replace(/_/g, ' ')}, <span class="num">{b.last_action}</span>). {lt(b.summary, locale)}<Cite ids={b.sources} index={index} /></li>)}</ul>
-        </> : null}
-        {g.statutes?.length ? <>
-          <h3 style="margin:1.5rem 0 .5rem">{_('section.statutes')}</h3>
-          <ul class="prose">{g.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul>
-        </> : null}
-        {g.related_links?.length ? <>
-          <h3 style="margin:1.5rem 0 .5rem">{_('section.related_links')}</h3>
-          <ul class="prose">{g.related_links.map((l) => <li><a href={l.url} rel="noopener">{l.title}</a>{l.note ? `. ${lt(l.note, locale)}` : ''}</li>)}</ul>
-        </> : null}
+    {anyFold && (
+      <section class="folds" aria-labelledby="more-h">
+        <div class="folds-head">
+          <h2 id="more-h">{tx(locale, 'More detail', 'Más detalles')}</h2>
+          <button type="button" class="btn-text" data-fold-all aria-expanded="false">{tx(locale, 'Open all', 'Abrir todo')}</button>
+        </div>
+        {has.forms && <Fold id="forms" title={_('section.forms')} preview={preview.forms}><p class="muted small">{tx(locale, 'Open a form for tips on filling it out.', 'Abre un formulario para ver consejos sobre cómo llenarlo.')}</p><Forms forms={g.forms!} locale={locale} index={index} /></Fold>}
+        {has.details && (
+          <Fold id="details" title={tx(locale, 'Requirements', 'Requisitos')} preview={preview.details}>
+            <dl class="kv">
+              {g.eligibility?.residency && <><dt>{tx(locale, 'Where you live', 'Residencia')}</dt><dd>{lt(g.eligibility.residency, locale)}<Cite ids={g.eligibility.sources} index={index} /></dd></>}
+              {g.eligibility?.age && <><dt>{tx(locale, 'Age', 'Edad')}</dt><dd>{lt(g.eligibility.age, locale)}</dd></>}
+              {g.eligibility?.criminal_history && <><dt>{tx(locale, 'Criminal record', 'Antecedentes penales')}</dt><dd>{lt(g.eligibility.criminal_history, locale)}</dd></>}
+              {g.eligibility?.other && <><dt>{tx(locale, 'Other', 'Otros')}</dt><dd>{lt(g.eligibility.other, locale)}</dd></>}
+              {g.publication && <><dt>{_('section.publication')}</dt><dd><strong class="kv-answer">{yn(g.publication.required)}.</strong> {g.publication.detail && <Md text={lt(g.publication.detail, locale)} />}{g.publication.waiver_how && <Md text={lt(g.publication.waiver_how, locale)} />}<Cite ids={g.publication.sources} index={index} /></dd></>}
+              {g.hearing && <><dt>{_('section.hearing')}</dt><dd><strong class="kv-answer">{yn(g.hearing.required)}.</strong> {g.hearing.detail && <Md text={lt(g.hearing.detail, locale)} />}<Cite ids={g.hearing.sources} index={index} /></dd></>}
+              {g.background_check && <><dt>{_('section.background_check')}</dt><dd><strong class="kv-answer">{yn(g.background_check.required)}.</strong> {g.background_check.detail && <Md text={lt(g.background_check.detail, locale)} />}<Cite ids={g.background_check.sources} index={index} /></dd></>}
+              {g.confidentiality && <><dt>{_('section.confidentiality')}</dt><dd><strong class="kv-answer">{g.confidentiality.sealing_available ? tx(locale, 'Available.', 'Disponible.') : tx(locale, 'Not available.', 'No disponible.')}</strong> {g.confidentiality.detail && <Md text={lt(g.confidentiality.detail, locale)} />}{g.confidentiality.how && <Md text={lt(g.confidentiality.how, locale)} />}<Cite ids={g.confidentiality.sources} index={index} /></dd></>}
+              {g.timeline && <><dt>{_('section.timeline')}</dt><dd><Md text={lt(g.timeline, locale)} /></dd></>}
+            </dl>
+          </Fold>
+        )}
+        {has.minors && <Fold id="minors" title={_('section.minors')} preview={preview.minors}><div class="prose"><Md text={lt(g.minors!.summary, locale)} /><Cite ids={g.minors!.sources} index={index} /></div></Fold>}
+        {has.after && <Fold id="after" title={_('section.after')} preview={preview.after}><div class="prose"><Md text={lt(g.after!, locale)} /></div></Fold>}
+        {has.tips && <Fold id="tips" title={_('section.tips')} preview={preview.tips}><ul class="prose tips">{g.tips!.map((tip) => <li>{lt(tip, locale)}</li>)}</ul></Fold>}
+        {has.law && (
+          <Fold id="law" title={tx(locale, 'Laws and other guides', 'Leyes y otras guías')} preview={preview.law}>
+            {g.pending_bills?.length ? <>
+              <h3 class="sub-h">{_('section.pending_bills')}</h3>
+              <ul class="prose">{g.pending_bills.map((b) => <li><strong>{b.url ? <a href={b.url} rel="noopener">{b.bill}</a> : b.bill}</strong> ({b.status.replace(/_/g, ' ')}, <span class="num">{b.last_action}</span>). {lt(b.summary, locale)}<Cite ids={b.sources} index={index} /></li>)}</ul>
+            </> : null}
+            {g.statutes?.length ? <>
+              <h3 class="sub-h">{_('section.statutes')}</h3>
+              <ul class="prose">{g.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul>
+            </> : null}
+            {g.related_links?.length ? <>
+              <h3 class="sub-h">{_('section.related_links')}</h3>
+              <ul class="prose">{g.related_links.map((l) => <li><a href={l.url} rel="noopener">{l.title}</a>{l.note ? `. ${lt(l.note, locale)}` : ''}</li>)}</ul>
+            </> : null}
+          </Fold>
+        )}
       </section>
     )}
 
-    {routeNav && <NextStop {...routeNav} locale={locale} />}
+    {route && <NextStop prev={route.stops[at(route) - 1]} next={route.stops[at(route) + 1]} hub={route.hub} state={route.state} locale={locale} />}
+    {fromRoutes.length > 0 && <div data-from-slot="next"></div>}
 
     <Sources sources={g.sources} locale={locale} collapsible />
   </div>
   <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
 </div>
+
+{fromRoutes.length > 0 && (
+  <>
+    {fromRoutes.map((r) => (
+      <template data-from={r.code}>
+        <div data-part="stepper"><RouteStepper stops={r.stops} current={r.current} state={r.state} locale={locale} /></div>
+        <div data-part="next"><NextStop prev={r.stops[at(r) - 1]} next={r.stops[at(r) + 1]} hub={r.hub} state={r.state} locale={locale} /></div>
+      </template>
+    ))}
+    <script>
+      // Arrived from a state's route (?from=ca): show that state's stepper and next stop. Nothing is stored.
+      const code = new URLSearchParams(location.search).get('from')?.toLowerCase();
+      const tpl = code && /^[a-z]{2}$/.test(code) ? document.querySelector<HTMLTemplateElement>(`template[data-from="${code}"]`) : null;
+      if (tpl) for (const part of ['stepper', 'next']) {
+        const slot = document.querySelector(`[data-from-slot="${part}"]`), src = tpl.content.querySelector(`[data-part="${part}"]`);
+        if (slot && src) slot.replaceWith(...src.cloneNode(true).childNodes);
+      }
+    </script>
+  </>
+)}

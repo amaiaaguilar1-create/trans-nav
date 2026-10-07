@@ -8,6 +8,8 @@ import StatesGrid from '../components/StatesGrid.astro';
 import StatePicker from '../components/StatePicker.astro';
 import Route from '../components/Route.astro';
 import Icon from '../components/Icon.astro';
+import Term from '../components/Term.astro';
+import { docVerdict } from '../lib/verdict';
 
 const { states, federal, locale } = Astro.props as { states: StateBundle[]; federal: DocumentGuide[]; locale: Locale };
 const _ = t(locale);
@@ -38,16 +40,21 @@ const stats = [
   </div>
   <aside class="hero-side" aria-labelledby="fed-h">
     <h2 id="fed-h">{tx(locale, 'Federal documents right now', 'Documentos federales ahora mismo')}</h2>
-    <p class="small muted">{tx(locale, 'The same in every state. Name changes still work on all of them.', 'Igual en todos los estados. Los cambios de nombre siguen funcionando en todos.')}</p>
-    <ul class="fed-list">
-      {fed.map((g) => (
-        <li><a href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)}>
-          <span>{_(`guide.${g.guide_type}` as const)}</span>
-          <StatusChip status={g.status} locale={locale} short variant="mark" size="sm" />
-        </a></li>
-      ))}
-    </ul>
-    <a class="small" href={localePath(locale, 'federal')}>{tx(locale, 'What each one allows', 'Qué permite cada uno')}</a>
+    <p class="small muted">{tx(locale, 'The same in every state. You can update your name on all of them; the gender marker is a separate question.', 'Igual en todos los estados. Puedes actualizar tu nombre en todos; el marcador de género es otra pregunta.')}</p>
+    <table class="fed-table">
+      <caption class="visually-hidden">{tx(locale, 'Federal documents: name and gender marker', 'Documentos federales: nombre y marcador de género')}</caption>
+      <thead><tr><th scope="col"><span class="visually-hidden">{tx(locale, 'Document', 'Documento')}</span></th><th scope="col">{tx(locale, 'Name', 'Nombre')}</th><th scope="col"><Term id="gender-marker" locale={locale}>{tx(locale, 'Gender marker', 'Marcador')}</Term></th></tr></thead>
+      <tbody>
+        {fed.map((g) => { const [name, marker] = docVerdict(g, locale); return (
+          <tr>
+            <th scope="row"><a href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)}>{_(`guide.${g.guide_type}` as const)}</a></th>
+            <td><StatusChip status={name.status} locale={locale} variant="mark" size="sm" text={name.answer} /></td>
+            <td><StatusChip status={marker.status} locale={locale} variant="mark" size="sm" text={marker.answer} /></td>
+          </tr>
+        ); })}
+      </tbody>
+    </table>
+    <a class="small" href={localePath(locale, 'federal')}>{tx(locale, 'What each one allows, and why', 'Qué permite cada uno y por qué')}</a>
   </aside>
 </section>
 
@@ -58,7 +65,7 @@ const stats = [
 
 <section class="section" aria-labelledby="journey-h">
   <h2 id="journey-h" class="section-title">{tx(locale, 'The usual order', 'El orden habitual')}</h2>
-  <p class="muted prose section-sub">{tx(locale, 'Most people update their documents in this sequence. Each state page walks you through it with that state’s rules.', 'La mayoría actualiza sus documentos en este orden. La página de cada estado te guía con sus reglas.')}</p>
+  <p class="muted prose section-sub">{tx(locale, 'Most people update their documents in this sequence, because each office checks the one before it. Your state’s page shows its own rules for every step.', 'La mayoría actualiza sus documentos en este orden, porque cada oficina revisa la anterior. La página de tu estado muestra sus reglas para cada paso.')}</p>
   <Route items={journey} locale={locale} layout="row" />
 </section>
 

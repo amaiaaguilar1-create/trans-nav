@@ -1,32 +1,30 @@
 ---
 /**
- * The route, drawn as one connected path. Each stop is a node on a line; the node carries the status icon.
- * layout="row" lays the stops out horizontally from 960px (home page); otherwise always vertical.
+ * The route, drawn as one connected path of numbered stops. With verdicts, each stop shows its separate answers
+ * (name, gender marker); without, a one-line note. layout="row" lays stops out horizontally from 960px (home page).
  */
 import Icon from './Icon.astro';
-import StatusChip from './StatusChip.astro';
+import Verdict from './Verdict.astro';
 import type { Locale } from '../i18n/ui';
-import type { Status } from '../lib/text';
-interface Item { title: string; note: string; href?: string; status?: Status; scope?: string }
+import type { VerdictRow } from '../lib/verdict';
+interface Item { title: string; note?: string; href?: string; scope?: string; verdict?: VerdictRow[] }
 const { items, locale, layout = 'column', label } = Astro.props as { items: Item[]; locale: Locale; layout?: 'column' | 'row'; label?: string };
-const icon = { available: 'check', restricted: 'alert', prohibited: 'x', litigation: 'scale', unclear: 'help' } as const;
 ---
 <ol class={`route route-${layout}`} aria-label={label}>
   {items.map((s, i) => {
     const Tag = s.href ? 'a' : 'div';
     return (
-      <li class={s.status ? `stop ${s.status}` : 'stop'}>
+      <li class="stop">
         <Tag class="stop-in" href={s.href}>
-          <span class="node" aria-hidden="true">{s.status ? <Icon name={icon[s.status]} size={16} /> : <span class="num">{i + 1}</span>}</span>
+          <span class="node num" aria-hidden="true">{i + 1}</span>
           <span class="stop-body">
             <span class="stop-head">
               <span class="stop-title">{s.title}</span>
               {s.scope && <span class="stop-scope">{s.scope}</span>}
             </span>
-            {s.status && <StatusChip status={s.status} locale={locale} short variant="mark" size="sm" />}
-            <span class="stop-note">{s.note}</span>
+            {s.verdict ? <Verdict rows={s.verdict} locale={locale} variant="compact" terms={false} /> : s.note && <span class="stop-note">{s.note}</span>}
           </span>
-          {s.href && <span class="stop-go" aria-hidden="true"><Icon name="chevron" size={18} /></span>}
+          {s.href && <span class="stop-go" aria-hidden="true"><Icon name="chevron" size={20} /></span>}
         </Tag>
       </li>
     );

@@ -1,30 +1,22 @@
 ---
-/** End-of-guide navigation along the route: where you are, what comes next, and the way back to the state hub. */
+/** End of a guide: the next document on the route, previewed with its own answers, plus the way back. */
 import Icon from './Icon.astro';
-import StatusChip from './StatusChip.astro';
+import Verdict from './Verdict.astro';
 import type { Locale } from '../i18n/ui';
 import type { Stop } from '../lib/route';
 import { tx } from '../lib/text';
-const { prev, next, hub, hubLabel, locale } = Astro.props as { prev?: Stop; next?: Stop; hub: string; hubLabel: string; locale: Locale };
+const { prev, next, hub, state, locale } = Astro.props as { prev?: Stop; next?: Stop; hub: string; state: string; locale: Locale };
 ---
-<nav class="next-stop" aria-label={tx(locale, 'Your route', 'Tu ruta')}>
-  {next ? (
-    <a class="next-main" href={next.href}>
-      <span class="next-label">{tx(locale, 'Next stop', 'Siguiente paso')}</span>
-      <span class="next-title">{next.title}</span>
-      <span class="next-meta"><StatusChip status={next.status} locale={locale} short variant="mark" size="sm" /><span class="muted small">{next.scope}</span></span>
-      <span class="next-arrow" aria-hidden="true"><Icon name="arrow" size={22} /></span>
-    </a>
-  ) : (
-    <a class="next-main" href={hub}>
-      <span class="next-label">{tx(locale, 'That is the last document on the route', 'Ese es el último documento de la ruta')}</span>
-      <span class="next-title">{hubLabel}</span>
-      <span class="next-meta"><span class="muted small">{tx(locale, 'Care, local help, and organizations', 'Atención, ayuda local y organizaciones')}</span></span>
-      <span class="next-arrow" aria-hidden="true"><Icon name="arrow" size={22} /></span>
-    </a>
-  )}
+<nav class="next-stop" aria-label={tx(locale, 'Continue your route', 'Continúa tu ruta')}>
+  <a class="next-main" href={next ? next.href : hub}>
+    <span class="next-label">{next ? tx(locale, 'Next stop', 'Siguiente paso') : tx(locale, 'You have reached the end of the document route', 'Llegaste al final de la ruta de documentos')}</span>
+    <span class="next-title">{next ? next.title : tx(locale, `Care and local help in ${state}`, `Atención y ayuda local en ${state}`)}</span>
+    {next && <span class="next-scope">{next.scope}</span>}
+    {next && <Verdict rows={next.verdict} locale={locale} variant="compact" terms={false} />}
+    <span class="next-arrow" aria-hidden="true"><Icon name="arrow" size={24} /></span>
+  </a>
   <div class="next-side">
-    {prev && <a href={prev.href}><span class="xs muted">{tx(locale, 'Previous', 'Anterior')}</span><br />{prev.title}</a>}
-    {next && <a href={hub}><span class="xs muted">{tx(locale, 'Whole route', 'Ruta completa')}</span><br />{hubLabel}</a>}
+    {prev && <a href={prev.href}><span class="next-side-label">{tx(locale, 'Previous', 'Anterior')}</span>{prev.title}</a>}
+    <a href={hub}><span class="next-side-label">{tx(locale, 'All steps', 'Todos los pasos')}</span>{tx(locale, `${state} overview`, `Resumen de ${state}`)}</a>
   </div>
 </nav>

@@ -11,46 +11,55 @@ import ResourceCard from '../components/ResourceCard.astro';
 import Md from '../components/Md.astro';
 import Cite from '../components/Cite.astro';
 import Sources from '../components/Sources.astro';
+import Fold from '../components/Fold.astro';
+import { careVerdict } from '../lib/verdict';
+import { firstSentence } from '../lib/text';
 
 const { care, orgs, locale } = Astro.props as { care: StateGenderAffirmingCareOverview; orgs: Map<string, NationalOrMultiStateOrganization>; locale: Locale };
 const _ = t(locale);
 const index = new Map(care.sources.map((s, i) => [s.id, i + 1]));
-const v = (x: 'yes' | 'no' | 'partial' | 'unclear') => _(`value.${x}` as const).replace(/^./, (c) => c.toUpperCase());
 const medicaid = care.medicaid.program_name ? `${_('care.medicaid')} (${care.medicaid.program_name})` : _('care.medicaid');
-const facts = [
-  { label: tx(locale, `${medicaid}: hormones`, `${medicaid}: hormonas`), value: v(care.medicaid.covers_hrt) },
-  { label: tx(locale, `${medicaid}: surgery`, `${medicaid}: cirugía`), value: v(care.medicaid.covers_surgery) },
-  ...(care.private_insurance ? [{ label: tx(locale, 'Private insurance protected', 'Seguro privado protegido'), value: care.private_insurance.nondiscrimination_protection ? _('yesno.yes') : _('yesno.no') }] : []),
-];
 const tele = (care.telehealth_hrt ?? []).map((id) => orgs.get(id)).filter(Boolean) as NationalOrMultiStateOrganization[];
+// When care is limited or banned for a group, what that group can do is the most important thing on the page: lift it to layer two.
+const lift = { adults: care.adult_care.status !== 'available', minors: care.minor_care.status !== 'available' };
 const toc = [
-  { id: 'adults', label: _('care.adult') },
-  { id: 'minors', label: _('care.minor') },
+  ...(lift.minors ? [{ id: 'minors', label: tx(locale, 'If you are under 18, or a parent', 'Si tienes menos de 18, o eres madre o padre') }] : []),
+  ...(lift.adults ? [{ id: 'adults', label: tx(locale, 'Rules for adults', 'Reglas para adultos') }] : []),
   { id: 'health-centers', label: tx(locale, 'Health centers near you', 'Centros de salud cerca de ti') },
   ...(tele.length ? [{ id: 'telehealth', label: tx(locale, 'Hormones by telehealth', 'Hormonas por telesalud') }] : []),
   ...(care.resources?.length ? [{ id: 'clinics', label: tx(locale, 'Clinics, programs, and funds', 'Clínicas, programas y fondos') }] : []),
   { id: 'paying', label: tx(locale, 'Paying for care', 'Cómo pagar la atención') },
+  ...(!lift.adults ? [{ id: 'adults', label: tx(locale, 'Rules for adults', 'Reglas para adultos') }] : []),
+  ...(!lift.minors ? [{ id: 'minors', label: tx(locale, 'Rules for under 18', 'Reglas para menores de 18') }] : []),
   ...(care.litigation?.length || care.statutes?.length ? [{ id: 'law', label: tx(locale, 'Laws and court cases', 'Leyes y casos') }] : []),
   { id: 'sources', label: _('section.sources') },
 ];
 ---
 <ChangeNotice path={`content/states/${care.jurisdiction}/care.yaml`} locale={locale} />
-<AnswerBlock locale={locale} status={care.adult_care.status} statusLabel={_('care.adult')} summary={care.status_summary} review={care.review}
-  chips={[{ status: care.minor_care.status, label: _('care.minor') }]} facts={facts} />
+<AnswerBlock locale={locale} verdict={careVerdict(care, locale, { coverage: true })} summary={care.status_summary} review={care.review} />
 
 <Toc items={toc} locale={locale} variant="mobile" />
 
 <div class="doc">
   <div class="doc-main">
-    <section id="adults"><h2>{_('care.adult')}</h2><div class="prose"><Md text={lt(care.adult_care.detail, locale)} /><Cite ids={care.adult_care.sources} index={index} /></div></section>
-    <section id="minors"><h2>{_('care.minor')}</h2><div class="prose"><Md text={lt(care.minor_care.detail, locale)} /><Cite ids={care.minor_care.sources} index={index} /></div></section>
-
+    {lift.minors && (
+      <section id="minors">
+        <h2>{tx(locale, 'If you are under 18, or a parent', 'Si tienes menos de 18, o eres madre o padre')}</h2>
+        <div class="prose"><Md text={lt(care.minor_care.detail, locale)} /><Cite ids={care.minor_care.sources} index={index} /></div>
+      </section>
+    )}
+    {lift.adults && (
+      <section id="adults">
+        <h2>{tx(locale, 'Rules for adults', 'Reglas para adultos')}</h2>
+        <div class="prose"><Md text={lt(care.adult_care.detail, locale)} /><Cite ids={care.adult_care.sources} index={index} /></div>
+      </section>
+    )}
     <HealthCenters code={care.jurisdiction} locale={locale} />
 
     {tele.length > 0 && (
       <section id="telehealth">
         <h2>{tx(locale, 'Hormones by telehealth', 'Hormonas por telesalud')}</h2>
-        <p class="muted small prose">{tx(locale, 'These services prescribe hormones through video visits for people in this state. Point of Pride pays for a year and a half of care with several of them each spring.', 'Estos servicios recetan hormonas por videollamada a personas en este estado. Point of Pride paga un año y medio de atención con varios de ellos cada primavera.')}</p>
+        <p class="muted prose section-sub">{tx(locale, 'These services prescribe hormones through video visits for people in this state. Point of Pride pays for a year and a half of care with several of them each spring.', 'Estos servicios recetan hormonas por videollamada a personas en este estado. Point of Pride paga un año y medio de atención con varios de ellos cada primavera.')}</p>
         <ul class="resources">
           {tele.map((o) => (
             <li>
@@ -78,25 +87,38 @@ const toc = [
 
     <section id="paying">
       <h2>{tx(locale, 'Paying for care', 'Cómo pagar la atención')}</h2>
-      <h3 style="margin-bottom:.5rem">{medicaid}<Cite ids={care.medicaid.sources} index={index} /></h3>
-      <div class="prose"><Md text={lt(care.medicaid.detail, locale)} /></div>
-      {care.medicaid.how_to_apply_url && <p><a class="btn sm secondary" href={care.medicaid.how_to_apply_url} rel="noopener">{tx(locale, 'Apply for coverage', 'Solicitar cobertura')}</a></p>}
-      {care.private_insurance && <>
-        <h3 style="margin:2rem 0 .5rem">{_('care.private_insurance')}<Cite ids={care.private_insurance.sources} index={index} /></h3>
-        <div class="prose"><Md text={lt(care.private_insurance.detail, locale)} /></div>
-        {care.private_insurance.complaint_url && <p><a href={care.private_insurance.complaint_url} rel="noopener">{_('care.complaint')}</a></p>}
-      </>}
+      <div class="pay-grid">
+        <div>
+          <h3 class="sub-h">{medicaid}<Cite ids={care.medicaid.sources} index={index} /></h3>
+          <div class="prose"><Md text={lt(care.medicaid.detail, locale)} /></div>
+          {care.medicaid.how_to_apply_url && <p><a class="btn sm secondary" href={care.medicaid.how_to_apply_url} rel="noopener">{tx(locale, 'Apply for coverage', 'Solicitar cobertura')}</a></p>}
+        </div>
+        {care.private_insurance && (
+          <div>
+            <h3 class="sub-h">{_('care.private_insurance')}<Cite ids={care.private_insurance.sources} index={index} /></h3>
+            <div class="prose"><Md text={lt(care.private_insurance.detail, locale)} /></div>
+            {care.private_insurance.complaint_url && <p><a href={care.private_insurance.complaint_url} rel="noopener">{_('care.complaint')}</a></p>}
+          </div>
+        )}
+      </div>
     </section>
 
-    {(care.litigation?.length || care.statutes?.length) ? (
-      <section id="law">
-        <h2>{tx(locale, 'Laws and court cases', 'Leyes y casos')}</h2>
-        {care.litigation?.map((l) => (
-          <div class="notice legal"><p><strong>{l.case}</strong>. <span class="small muted">{tx(locale, 'Updated', 'Actualizado')} <span class="num">{l.last_update}</span></span><Cite ids={l.sources} index={index} /></p><p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p><p class="small muted">{lt(l.summary, locale)}</p></div>
-        ))}
-        {care.statutes?.length ? <ul class="prose">{care.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul> : null}
-      </section>
-    ) : null}
+    {(!lift.adults || !lift.minors || care.litigation?.length || care.statutes?.length) ? <section class="folds" aria-labelledby="rules-h">
+      <div class="folds-head">
+        <h2 id="rules-h">{tx(locale, 'The rules in detail', 'Las reglas en detalle')}</h2>
+        <button type="button" class="btn-text" data-fold-all aria-expanded="false">{tx(locale, 'Open all', 'Abrir todo')}</button>
+      </div>
+      {!lift.adults && <Fold id="adults" title={tx(locale, 'Rules for adults', 'Reglas para adultos')} preview={firstSentence(lt(care.adult_care.detail, locale), 150)}><div class="prose"><Md text={lt(care.adult_care.detail, locale)} /><Cite ids={care.adult_care.sources} index={index} /></div></Fold>}
+      {!lift.minors && <Fold id="minors" title={tx(locale, 'Rules for under 18', 'Reglas para menores de 18')} preview={firstSentence(lt(care.minor_care.detail, locale), 150)}><div class="prose"><Md text={lt(care.minor_care.detail, locale)} /><Cite ids={care.minor_care.sources} index={index} /></div></Fold>}
+      {(care.litigation?.length || care.statutes?.length) ? (
+        <Fold id="law" title={tx(locale, 'Laws and court cases', 'Leyes y casos')} preview={[care.litigation?.length && `${care.litigation.length} ${tx(locale, care.litigation.length === 1 ? 'court case' : 'court cases', care.litigation.length === 1 ? 'caso' : 'casos')}`, care.statutes?.length && `${care.statutes.length} ${tx(locale, care.statutes.length === 1 ? 'law' : 'laws', care.statutes.length === 1 ? 'ley' : 'leyes')}`].filter(Boolean).join(', ')}>
+          {care.litigation?.map((l) => (
+            <div class="callout legal"><p class="callout-head"><strong>{l.case}</strong></p><p>{lt(l.effect_today, locale)}<Cite ids={l.sources} index={index} /></p><p class="small muted">{lt(l.summary, locale)} {tx(locale, `Last update ${l.last_update}.`, `Última actualización ${l.last_update}.`)}</p></div>
+          ))}
+          {care.statutes?.length ? <ul class="prose">{care.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul> : null}
+        </Fold>
+      ) : null}
+    </section> : null}
 
     <Sources sources={care.sources} locale={locale} collapsible />
   </div>
