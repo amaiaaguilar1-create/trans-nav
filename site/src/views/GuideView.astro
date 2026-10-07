@@ -14,8 +14,10 @@ import Sources from '../components/Sources.astro';
 import ResourceCard from '../components/ResourceCard.astro';
 import Cite from '../components/Cite.astro';
 import Md from '../components/Md.astro';
+import NextStop from '../components/NextStop.astro';
+import type { Stop } from '../lib/route';
 
-const { guide, locale } = Astro.props as { guide: DocumentGuide; locale: Locale };
+const { guide, locale, routeNav } = Astro.props as { guide: DocumentGuide; locale: Locale; routeNav?: { prev?: Stop; next?: Stop; hub: string; hubLabel: string } };
 const _ = t(locale);
 const g = guide;
 const index = new Map(g.sources.map((s, i) => [s.id, i + 1]));
@@ -27,7 +29,7 @@ const facts: { label: string; value: string }[] = [];
 if (g.requirement_type && g.guide_type !== 'name_change') {
   facts.push({ label: tx(locale, 'What you need', 'Qué necesitas'), value: requirementLabel[g.requirement_type]?.[locale] ?? g.requirement_type });
 }
-if (g.markers_available?.length) facts.push({ label: tx(locale, 'Markers offered', 'Marcadores disponibles'), value: g.markers_available.join(' · ') });
+if (g.markers_available?.length) facts.push({ label: tx(locale, 'Markers offered', 'Marcadores disponibles'), value: g.markers_available.join(', ') });
 const mainFee = g.fees?.find((f) => /filing|amend|petition|change|dl|license/i.test(f.id) && typeof f.amount === 'number') ?? g.fees?.find((f) => typeof f.amount === 'number');
 if (mainFee && typeof mainFee.amount === 'number') {
   facts.push({ label: tx(locale, 'Main fee', 'Tarifa principal'), value: (mainFee.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(mainFee.amount)) + (g.fee_waiver?.available ? tx(locale, ', waivable', ', se puede exentar') : '') });
@@ -35,7 +37,7 @@ if (mainFee && typeof mainFee.amount === 'number') {
 if (g.publication) facts.push({ label: tx(locale, 'Newspaper notice', 'Aviso en periódico'), value: yn(g.publication.required) });
 if (g.hearing) facts.push({ label: tx(locale, 'Court hearing', 'Audiencia'), value: yn(g.hearing.required) });
 if (g.delivery) {
-  const how = [g.delivery.online && tx(locale, 'Online', 'En línea'), g.delivery.by_mail && tx(locale, 'By mail', 'Por correo'), g.delivery.in_person && tx(locale, 'In person', 'En persona')].filter(Boolean).join(' · ');
+  const how = [g.delivery.online && tx(locale, 'Online', 'En línea'), g.delivery.by_mail && tx(locale, 'By mail', 'Por correo'), g.delivery.in_person && tx(locale, 'In person', 'En persona')].filter(Boolean).join(', ');
   if (how) facts.push({ label: tx(locale, 'How to apply', 'Cómo presentarlo'), value: how });
 }
 // Only show time when a short, explicit estimate exists on a step (long prose timelines stay in Requirements).
@@ -71,7 +73,7 @@ const toc = [
 
 {g.litigation?.map((l) => (
   <div class="notice legal">
-    <p><strong>{tx(locale, 'In court:', 'En tribunales:')} {l.case}</strong>{l.court ? ` · ${l.court}` : ''} · <time class="num" datetime={l.last_update}>{l.last_update}</time><Cite ids={l.sources} index={index} /></p>
+    <p><strong>{tx(locale, 'In court:', 'En tribunales:')} {l.case}</strong>{l.court ? `, ${l.court}` : ''}. <span class="small muted">{tx(locale, 'Updated', 'Actualizado')} <time class="num" datetime={l.last_update}>{l.last_update}</time></span><Cite ids={l.sources} index={index} /></p>
     <p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p>
     <p class="small muted">{lt(l.summary, locale)}{l.url && <> <a href={l.url} rel="noopener">{tx(locale, 'Case page', 'Página del caso')}</a></>}</p>
   </div>
@@ -138,7 +140,7 @@ const toc = [
         <h2>{tx(locale, 'Laws and other guides', 'Leyes y otras guías')}</h2>
         {g.pending_bills?.length ? <>
           <h3 style="margin-bottom:.5rem">{_('section.pending_bills')}</h3>
-          <ul class="prose">{g.pending_bills.map((b) => <li><strong>{b.url ? <a href={b.url} rel="noopener">{b.bill}</a> : b.bill}</strong> · {b.status.replace(/_/g, ' ')} · <span class="num">{b.last_action}</span>. {lt(b.summary, locale)}<Cite ids={b.sources} index={index} /></li>)}</ul>
+          <ul class="prose">{g.pending_bills.map((b) => <li><strong>{b.url ? <a href={b.url} rel="noopener">{b.bill}</a> : b.bill}</strong> ({b.status.replace(/_/g, ' ')}, <span class="num">{b.last_action}</span>). {lt(b.summary, locale)}<Cite ids={b.sources} index={index} /></li>)}</ul>
         </> : null}
         {g.statutes?.length ? <>
           <h3 style="margin:1.5rem 0 .5rem">{_('section.statutes')}</h3>
@@ -151,7 +153,9 @@ const toc = [
       </section>
     )}
 
-    <Sources sources={g.sources} locale={locale} />
+    {routeNav && <NextStop {...routeNav} locale={locale} />}
+
+    <Sources sources={g.sources} locale={locale} collapsible />
   </div>
   <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
 </div>

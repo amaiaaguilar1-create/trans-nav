@@ -59,7 +59,7 @@ const base = `states/${stateCode.toLowerCase()}`;
         <ul class="resources">{g.rs.map((r) => <ResourceCard r={r} locale={locale} index={index} />)}</ul>
       </section>
     ))}
-    <Sources sources={local.sources} locale={locale} />
+    <Sources sources={local.sources} locale={locale} collapsible />
   </div>
   <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
 </div>

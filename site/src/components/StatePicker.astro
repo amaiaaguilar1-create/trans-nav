@@ -1,0 +1,33 @@
+---
+/** Type a state, press Go, land on its hub. Works with names, two-letter codes, and the browser's own autocomplete. */
+import type { Locale } from '../i18n/ui';
+import { lt, localePath, type StateBundle } from '../lib/content';
+import { tx } from '../lib/text';
+const { states, locale, id = 'state-pick' } = Astro.props as { states: StateBundle[]; locale: Locale; id?: string };
+const list = states.map((s) => ({ name: lt(s.meta.name, locale), code: s.code, href: localePath(locale, `states/${s.code.toLowerCase()}`) })).sort((a, b) => a.name.localeCompare(b.name, locale));
+---
+<form class="picker" role="search" data-picker data-list={JSON.stringify(list)}>
+  <label for={id}>{tx(locale, 'Where do you live, or where were you born?', '¿Dónde vives o dónde naciste?')}</label>
+  <div class="picker-row">
+    <input id={id} type="search" placeholder={tx(locale, 'State name or code', 'Nombre o código del estado')} autocomplete="off" enterkeyhint="go" list={`${id}-list`} aria-describedby={`${id}-err`} />
+    <button class="btn" type="submit">{tx(locale, 'Go', 'Ir')}</button>
+  </div>
+  <datalist id={`${id}-list`}>{list.map((s) => <option value={s.name} />)}</datalist>
+  <p class="picker-err" id={`${id}-err`} role="status" hidden>{tx(locale, 'No match. Try the full state name or its two-letter code.', 'Sin resultados. Prueba el nombre completo del estado o su código de dos letras.')}</p>
+</form>
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>('[data-picker]')) {
+    const list = JSON.parse(form.dataset.list!) as { name: string; code: string; href: string }[];
+    const input = form.querySelector('input')!, err = form.querySelector<HTMLElement>('.picker-err')!;
+    const norm = (s: string) => s.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    input.addEventListener('input', () => { err.hidden = true; input.removeAttribute('aria-invalid'); });
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const q = norm(input.value);
+      if (!q) return input.focus();
+      const hit = list.find((s) => norm(s.name) === q || s.code.toLowerCase() === q)
+        ?? (() => { const m = list.filter((s) => norm(s.name).startsWith(q)); return m.length === 1 ? m[0] : undefined; })();
+      if (hit) location.href = hit.href; else { err.hidden = false; input.setAttribute('aria-invalid', 'true'); }
+    });
+  }
+</script>

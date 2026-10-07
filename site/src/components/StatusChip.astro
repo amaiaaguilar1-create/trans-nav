@@ -2,9 +2,10 @@
 import Icon from './Icon.astro';
 import { t, type Locale } from '../i18n/ui';
 import { statusShort, type Status } from '../lib/text';
-const { status, locale, label, short = false, size = 'md' } = Astro.props as { status: Status; locale: Locale; label?: string; short?: boolean; size?: 'md' | 'sm' };
+/** chip: filled pill, for the one primary status on a page. mark: icon + colored word, for rows and tables. */
+const { status, locale, label, text, short = false, size = 'md', variant = 'chip' } = Astro.props as { status: Status; locale: Locale; label?: string; text?: string; short?: boolean; size?: 'md' | 'sm'; variant?: 'chip' | 'mark' };
 const _ = t(locale);
 const icon = { available: 'check', restricted: 'alert', prohibited: 'x', litigation: 'scale', unclear: 'help' }[status] as 'check';
-const word = short ? statusShort[status][locale] : _(`status.${status}` as const);
+const word = text ?? (short ? statusShort[status][locale] : _(`status.${status}` as const));
 ---
-<span class={`chip ${status} ${size === 'sm' ? 'sm' : ''}`}><Icon name={icon} size={size === 'sm' ? 12 : 14} />{label ? `${label}: ` : ''}{word}</span>
+<span class={`${variant} ${status} ${size === 'sm' ? 'sm' : ''}`}><Icon name={icon} size={size === 'sm' ? 13 : 15} />{label ? `${label}: ` : ''}{word}</span>

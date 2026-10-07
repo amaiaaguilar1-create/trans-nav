@@ -41,7 +41,7 @@ const cols = [
   <p class="small muted" data-count aria-live="polite" style="margin:0 0 .6rem"></p>
 </div>
 <div class="legend" aria-hidden="true">
-  {(['available', 'restricted', 'prohibited', 'litigation', 'unclear'] as Status[]).map((s) => <StatusChip status={s} locale={locale} short size="sm" />)}
+  {(['available', 'restricted', 'prohibited', 'litigation', 'unclear'] as Status[]).map((s) => <StatusChip status={s} locale={locale} short size="sm" variant="mark" />)}<span class="legend-x"><span class="x-flag">X</span> {tx(locale, 'X marker offered', 'Se ofrece marcador X')}</span>
 </div>
 <div class="table-wrap tall">
   <table class="data compare">
@@ -52,7 +52,7 @@ const cols = [
         <tr data-name={`${r.name} ${r.code}`.toLowerCase()} data-dl={r.dl} data-bc={r.bc} data-minor={r.minor} data-dlx={String(r.dlx)} data-bcx={String(r.bcx)} data-shield={String(r.shield)}>
           <th scope="row"><a href={r.href}>{r.name}</a></th>
           {cols.map((c) => { const st = (r as any)[c.key] as Status | undefined; return (
-            <td>{st ? <a href={localePath(locale, `states/${r.code.toLowerCase()}/${c.slug}`)} style="text-decoration:none"><StatusChip status={st} locale={locale} short size="sm" />{(c.key === 'dl' && r.dlx) || (c.key === 'bc' && r.bcx) ? <span class="tag" style="margin-left:.35rem">X</span> : null}</a> : <span class="muted">—</span>}</td>
+            <td>{st ? <a href={localePath(locale, `states/${r.code.toLowerCase()}/${c.slug}`)} class="cell-link"><StatusChip status={st} locale={locale} short size="sm" variant="mark" />{(c.key === 'dl' && r.dlx) || (c.key === 'bc' && r.bcx) ? <span class="x-flag" title={tx(locale, 'Offers X', 'Ofrece X')}>X</span> : null}</a> : <span class="muted xs">{tx(locale, 'No data', 'Sin datos')}</span>}</td>
           ); })}
           <td>{r.shield ? _('yesno.yes') : _('yesno.no')}</td>
         </tr>

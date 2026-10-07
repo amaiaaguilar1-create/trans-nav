@@ -92,13 +92,13 @@ const toc = [
       <section id="law">
         <h2>{tx(locale, 'Laws and court cases', 'Leyes y casos')}</h2>
         {care.litigation?.map((l) => (
-          <div class="notice legal"><p><strong>{l.case}</strong> · <span class="num">{l.last_update}</span><Cite ids={l.sources} index={index} /></p><p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p><p class="small muted">{lt(l.summary, locale)}</p></div>
+          <div class="notice legal"><p><strong>{l.case}</strong>. <span class="small muted">{tx(locale, 'Updated', 'Actualizado')} <span class="num">{l.last_update}</span></span><Cite ids={l.sources} index={index} /></p><p><strong>{tx(locale, 'What it means today:', 'Qué significa hoy:')}</strong> {lt(l.effect_today, locale)}</p><p class="small muted">{lt(l.summary, locale)}</p></div>
         ))}
         {care.statutes?.length ? <ul class="prose">{care.statutes.map((c) => <li><a href={c.url} rel="noopener">{c.cite}</a>{c.title ? `: ${lt(c.title, locale)}` : ''}</li>)}</ul> : null}
       </section>
     ) : null}
 
-    <Sources sources={care.sources} locale={locale} />
+    <Sources sources={care.sources} locale={locale} collapsible />
   </div>
   <aside class="doc-aside"><Toc items={toc} locale={locale} variant="aside" /></aside>
 </div>

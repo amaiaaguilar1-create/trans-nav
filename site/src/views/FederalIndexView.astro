@@ -14,7 +14,7 @@ const fed = [...federal].sort((a, b) => order.indexOf(a.guide_type) - order.inde
   {fed.map((g) => (
     <li><a href={localePath(locale, `federal/${g.guide_type.replace(/_/g, '-')}`)}>
       <span><span class="glance-title">{_(`guide.${g.guide_type}` as const)}</span>{g.name_change_status && <><br /><span class="xs muted">{tx(locale, 'Name changes', 'Cambios de nombre')}: {_(`status.${g.name_change_status}` as const)}</span></>}</span>
-      <StatusChip status={g.status} locale={locale} short />
+      <StatusChip status={g.status} locale={locale} short variant="mark" />
       <span class="glance-note">{firstSentence(lt(g.status_summary, locale), 220)}</span>
       <span class="arrow"><Icon name="chevron" size={18} /></span>
     </a></li>

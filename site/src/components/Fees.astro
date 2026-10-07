@@ -7,7 +7,7 @@ import type { Fee } from '../types/content';
 const { fees, locale, index } = Astro.props as { fees: Fee[]; locale: Locale; index: Map<string, number> };
 const _ = t(locale);
 const money = (n: number) => new Intl.NumberFormat(locale === 'es' ? 'es-US' : 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: n % 1 ? 2 : 0 }).format(n);
-const amount = (f: Fee) => typeof f.amount === 'number' ? (f.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(f.amount)) : typeof f.min === 'number' && typeof f.max === 'number' ? `${money(f.min)}–${money(f.max)}` : typeof f.min === 'number' ? `${money(f.min)}+` : tx(locale, 'Varies', 'Varía');
+const amount = (f: Fee) => typeof f.amount === 'number' ? (f.amount === 0 ? tx(locale, 'Free', 'Gratis') : money(f.amount)) : typeof f.min === 'number' && typeof f.max === 'number' ? `${money(f.min)}-${money(f.max)}` : typeof f.min === 'number' ? `${money(f.min)}+` : tx(locale, 'Varies', 'Varía');
 ---
 <div class="table-wrap">
   <table class="data">
