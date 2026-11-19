@@ -28,15 +28,17 @@ This is what "verified" means on the site, and how content moves from draft to p
 3. Read `review.notes`: the drafter lists what it could not confirm. Resolve each item or leave it noted.
 4. Set `review.status: reviewed`, `verified_by: <your GitHub handle>`, `last_verified: <today>`. Merge.
 
-## When the monitor opens a PR
+## When the monitor opens an issue
 
-The weekly monitor opens a PR labeled with the jurisdiction and a severity:
+The monitor checks federal sources daily and everything else weekly. When a cited page changes in a way that could matter, it opens a GitHub issue labeled `monitor`, the jurisdiction, and a severity:
 
 - `critical`: a status changed (available → prohibited, a form was withdrawn, a court order took effect). Review within 48 hours.
 - `normal`: fees, addresses, wording. Review within the week.
 - `low`: cosmetic page changes on a cited source. Batch.
 
-While a monitor PR is open, the affected page shows "change detected, under review".
+Each source has at most one open monitor issue. If the page changes again while its issue is open, the monitor adds a comment with the new diff instead of opening another issue.
+
+While a monitor issue is open, the affected page shows "change detected, under review". Close the issue once the content is updated, or once you have confirmed no change is needed.
 
 ## Reporting
 

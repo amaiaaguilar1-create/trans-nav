@@ -3,9 +3,8 @@
 Name changes, gender marker updates, and gender-affirming care, for every US state and for federal documents, kept current.
 
 - **Structured content** lives in `content/` as YAML, validated against `schema/*.json`.
-- **Site** (`site/`) is an Astro static site in English and Spanish, deployed to Cloudflare Pages.
-- **Pipeline** (`pipeline/`) validates content, generates types, and (coming) runs the research, monitoring, ingest, and translation jobs on GitHub Actions.
-- **Workers** (`workers/`) hold the few dynamic endpoints (chat, reports, provider search).
+- **Site** (`site/`) is an Astro static site in English and Spanish, deployed to GitHub Pages.
+- **Pipeline** (`pipeline/`) validates content, generates types, and runs two jobs on GitHub Actions: the source monitor (federal sources daily, everything else weekly; it opens a GitHub issue labeled `monitor` when a cited page changes) and the monthly HRSA health center ingest.
 
 Read `docs/editorial-policy.md` before reviewing content. The full plan is in the project planning notes.
 
@@ -17,6 +16,7 @@ npm install
 npm run validate   # schema + cross-reference checks on content/
 npm run dev        # Astro dev server (site/)
 npm run build      # static build to site/dist
+npm test -w pipeline            # unit tests for the pipeline scripts
 npm run gen-types -w pipeline   # regenerate site/src/types/content.d.ts after editing schema/
 ```
 
