@@ -24,6 +24,7 @@ import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { z } from 'zod';
 import type { Browser } from 'playwright';
 import { ROOT } from './paths.js';
+import { fetchOpenMonitorIssues, newestBySource } from './monitor-issues.js';
 
 // ---------- args ----------
 const args = process.argv.slice(2);
@@ -191,10 +192,18 @@ async function gh(pathname: string, init: RequestInit = {}) {
   if (!r.ok) throw new Error(`GitHub ${r.status} ${pathname}: ${await r.text()}`);
   return r.json();
 }
-let openIssues: { number: number; body: string }[] | null = null;
+// Source id -> number of its open issue. Loaded once per run from every page of open monitor issues; when a source has
+// more than one (left over from before pagination), the newest wins, matching what build-changes.ts shows on the site.
+// Memoize the promise, not the result, so parallel workers share one load.
+let openBySource: Promise<Map<string, number>> | null = null;
+const loadOpenBySource = async () => {
+  const bySource = newestBySource(await fetchOpenMonitorIssues(GH!.repo, GH!.token));
+  console.log(`${bySource.size} source(s) already have an open monitor issue`);
+  return new Map([...bySource].map(([id, { issue }]) => [id, issue.number]));
+};
 async function reportIssue(s: Source, c: Classified, diffText: string) {
   if (!GH) return undefined;
-  openIssues ??= (await gh('/issues?state=open&labels=monitor&per_page=100')) as { number: number; body: string }[];
+  const open = await (openBySource ??= loadOpenBySource());
   const marker = { source: s.id, url: s.url, jurisdiction: s.jurisdiction ?? 'US', paths: s.linked_content, severity: c.severity, summary: c.summary, detected: TODAY };
   const body = [
     `**${c.summary}**`, '', `Source: ${s.url}`, `Affects: ${s.linked_content.map((p) => '`' + p + '`').join(', ') || '(no content file linked)'}`, '',
@@ -202,10 +211,10 @@ async function reportIssue(s: Source, c: Classified, diffText: string) {
     `Close this issue after updating the content (or if no change is needed). The site shows "change detected, under review" on affected pages while it is open.`,
     '', `<!-- monitor: ${JSON.stringify(marker)} -->`,
   ].join('\n');
-  const existing = openIssues.find((i) => i.body?.includes(`"source":"${s.id}"`));
+  const existing = open.get(s.id);
   if (existing) {
-    await gh(`/issues/${existing.number}/comments`, { method: 'POST', body: JSON.stringify({ body: `Changed again on ${TODAY}.\n\n${body}` }) });
-    return existing.number;
+    await gh(`/issues/${existing}/comments`, { method: 'POST', body: JSON.stringify({ body: `Changed again on ${TODAY}.\n\n${body}` }) });
+    return existing;
   }
   const created = (await gh('/issues', {
     method: 'POST',
@@ -214,7 +223,7 @@ async function reportIssue(s: Source, c: Classified, diffText: string) {
       body, labels: ['monitor', `severity:${c.severity}`, `jurisdiction:${s.jurisdiction ?? 'US'}`],
     }),
   })) as { number: number };
-  openIssues.push({ number: created.number, body });
+  open.set(s.id, created.number);
   return created.number;
 }
 
