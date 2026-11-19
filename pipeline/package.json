@@ -11,6 +11,7 @@
     "monitor": "tsx src/monitor.ts",
     "changes": "tsx src/build-changes.ts",
     "typecheck": "tsc -p tsconfig.json",
+    "test": "tsx --test src/*.test.ts",
     "ingest:hrsa": "tsx src/ingest/hrsa.ts"
   },
   "dependencies": {

@@ -17,6 +17,10 @@ jobs:
       - run: npm ci
       - name: Validate content against schemas
         run: npm run validate
+      - name: Type-check and test pipeline
+        run: |
+          npm run typecheck -w pipeline
+          npm test -w pipeline
       - name: Regenerate content types and fail if stale
         run: |
           npm run gen-types -w pipeline

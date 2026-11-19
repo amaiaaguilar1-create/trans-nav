@@ -554,9 +554,9 @@ export interface MonitoringSourceRegistry {
     url: string;
     kind: "html" | "pdf" | "json_api" | "rss" | "docket";
     /**
-     * browser = headless Playwright for sites that block plain HTTP clients.
+     * auto = plain HTTP, escalating to a headless browser if blocked. manual = never fetched automatically (site prohibits automation or blocks real browsers); listed for human checks.
      */
-    fetch?: "plain" | "browser";
+    fetch?: "auto" | "plain" | "browser" | "manual";
     frequency?: "daily" | "weekly" | "monthly";
     /**
      * Optional CSS selector to scope the watched region.
@@ -568,6 +568,11 @@ export interface MonitoringSourceRegistry {
     linked_content: string[];
     jurisdiction?: string;
     severity_hint?: "critical" | "normal" | "low";
+    title?: string;
+    /**
+     * Why a source is manual, or other operator notes.
+     */
+    note?: string;
   }[];
 }
 
