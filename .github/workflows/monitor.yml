@@ -54,6 +54,9 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "0 11 * * *" ]; then echo "f=daily" >> "$GITHUB_OUTPUT";
           else echo "f=weekly" >> "$GITHUB_OUTPUT"; fi
       - name: Run monitor
+        # A weekly run takes 15-30 minutes. Stop well before the job's 300 so the later steps run and the concurrency
+        # group is freed for the next run.
+        timeout-minutes: 120
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
