@@ -59,13 +59,15 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 const BLOCK_MARKERS = /just a moment|attention required|access denied|verify you are human|request unsuccessful|captcha|_incapsula_resource|pardon our interruption|request rejected/i;
 const isPdfBytes = (b: Buffer) => b.subarray(0, 5).toString('latin1') === '%PDF-';
 
-let browser: Browser | null = null;
-async function getBrowser() {
-  if (!browser) {
-    const { chromium } = await import('playwright');
-    browser = await chromium.launch({ headless: true });
-  }
-  return browser;
+// Memoize the launch promise, not the browser. Every host queue starts at once, so two workers often escalate in the same
+// second; with a `browser` variable set only after launch, both saw null and launched one each. Only the second was
+// closed, and the first Chromium kept Node (and the job) alive until the workflow's 5-hour timeout.
+let browser: Promise<Browser> | null = null;
+const getBrowser = () => (browser ??= import('playwright')
+  .then(({ chromium }) => chromium.launch({ headless: true }))
+  .catch((e) => { browser = null; throw e; })); // a failed launch is retried by the next caller, as before
+async function closeBrowser() {
+  await browser?.then((b) => b.close()).catch((e) => console.warn(`Browser close failed: ${e}`));
 }
 
 type Fetched = { status: number; body: string; bytes?: Buffer; method: 'plain' | 'browser'; blocked: boolean };
@@ -110,6 +112,16 @@ async function fetchSource(s: Source): Promise<Fetched> {
   const plain = await fetchPlain(s).catch((e) => ({ status: 0, body: String(e), method: 'plain' as const, blocked: true }));
   if (!plain.blocked || s.fetch === 'plain' || s.kind === 'json_api') return plain;
   return fetchBrowser(s).catch(() => plain);
+}
+
+// The network steps of a fetch have their own timeouts, but browser calls such as newContext(), page.content() and
+// page.title() do not, so cap the whole fetch (plain, then browser). The slowest normal path is about 2 minutes:
+// 30s plain, then 45s + 4s + 45s for a PDF.
+const FETCH_BUDGET_MS = 180_000;
+function withTimeout<T>(p: Promise<T>, ms: number, what: string): Promise<T> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const timeout = new Promise<never>((_, reject) => { timer = setTimeout(() => reject(new Error(`${what} timed out after ${ms / 1000}s`)), ms); });
+  return Promise.race([p, timeout]).finally(() => clearTimeout(timer));
 }
 
 // ---------- normalization ----------
@@ -235,7 +247,7 @@ async function processSource(s: Source) {
   const st = (state[s.id] ??= {});
   if (s.fetch === 'manual') { results.push({ s, outcome: 'manual' }); return; }
   try {
-    const f = await fetchSource(s);
+    const f = await withTimeout(fetchSource(s), FETCH_BUDGET_MS, 'fetch');
     st.last_checked = TODAY; st.last_status = String(f.status); st.method = f.method;
     if ([404, 410].includes(f.status)) { results.push({ s, outcome: 'broken', method: f.method, status: f.status }); return; }
     if (f.blocked || f.status >= 400) { results.push({ s, outcome: 'blocked', method: f.method, status: f.status }); return; }
@@ -266,16 +278,22 @@ const byHost = new Map<string, Source[]>();
 for (const s of due) { const h = (() => { try { return new URL(s.url).hostname; } catch { return 'invalid'; } })(); byHost.set(h, [...(byHost.get(h) ?? []), s]); }
 const queues = [...byHost.values()];
 const CONCURRENCY = 8;
+const started = Date.now();
 let next = 0;
+let finished = 0;
 async function worker() {
   while (next < queues.length) {
     const q = queues[next++];
-    for (const s of q) { await processSource(s); await new Promise((r) => setTimeout(r, 1500)); }
+    for (const s of q) {
+      await processSource(s);
+      if (++finished % 200 === 0) console.log(`Progress: ${finished}/${due.length} sources after ${Math.round((Date.now() - started) / 60_000)} min`);
+      await new Promise((r) => setTimeout(r, 1500));
+    }
   }
 }
 console.log(`Monitoring ${due.length} source(s) across ${queues.length} host(s)${DRY ? ' (dry run)' : ''}...`);
 await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-await (browser as Browser | null)?.close();
+await closeBrowser();
 fs.writeFileSync(STATE_FILE, JSON.stringify(Object.fromEntries(Object.entries(state).sort()), null, 1));
 
 // ---------- report ----------
@@ -303,3 +321,10 @@ const reportFile = path.join(REPORT_DIR, `${TODAY}-${FREQ}${ONLY ? '-' + ONLY : 
 fs.writeFileSync(reportFile, lines.join('\n') + '\n');
 console.log(lines.slice(0, 12).join('\n'));
 console.log(`Report: ${path.relative(ROOT, reportFile)}`);
+
+// The work is done. If anything is still open (a browser process, a socket), Node would wait on it until the job's 5-hour
+// timeout. Fail within 30 seconds instead, and name what was left open. The timer is unref'd, so it never fires on a clean exit.
+setTimeout(() => {
+  console.error(`::error::Monitor was still running 30s after writing its report. Open handles: ${process.getActiveResourcesInfo().join(', ')}`);
+  process.exit(1);
+}, 30_000).unref();
